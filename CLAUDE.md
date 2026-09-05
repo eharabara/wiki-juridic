@@ -45,7 +45,13 @@ article from a future-dated act, and say in the answer which version applies tod
   dates, and confidence per act.
 - `entities/`, `concepts/`, `comparisons/`, `queries/` — the structured layer. These are
   summaries. They are not a substitute for the raw text and must not be cited as if they were
-  the law.
+  the law. Every page carries `perimeter: legal | policy`; see the perimeter rule below.
+- `_meta/schema/` — the mechanical specification (`schema-spec.yaml`), the generator of the
+  mechanical block of `SCHEMA.md`, and the validator. Since 2026-09-05.
+- `_meta/log/` — the old journal, 2026-07-08 to 2026-09-05, frozen. `log.md` in the root is the
+  index that replaced it.
+- `_archive/emir-2026-07/` — the five EMIR drafting pages withdrawn from `queries/` on 2026-09-05,
+  with `_PROVENANCE.md`. Frozen. `queries/` is empty until a real query page is written.
 - `_meta/coverage/` — the script that generates the coverage section of this file.
 - `_meta/inforce/` — the register of provisions not yet in force, and the script that builds it.
 - `_meta/lint/` — the lint scripts and their outputs.
@@ -63,7 +69,7 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-05 10:24 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-05 13:32 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
 40 primary Moldovan acts, 29 EU acquis extracts, 311 BNM corpus documents.
 
@@ -146,10 +152,11 @@ Do not resolve these on your own. Raise them if a matter touches them.
    corrected, because rewriting legal text is forbidden here. Searching `## Articolul 78` in that
    file returns nothing, which is the trap.
 
-5. **The English BNM corpus is unanchored.** The generated flags give the current count. These are
-   translations, not the official Romanian text, so anchoring them raises a prior question worth
-   deciding once: whether a translation should ever carry an anchor, or whether it should only be
-   used to locate a provision that is then cited from the Romanian.
+5. **The English BNM corpus is unanchored.** The generated flags give the current count. Decided
+   on 2026-09-05 (decision D2 of the restructuring plan): a translation never carries an anchor.
+   It is used only to locate a provision, which is then cited from the Romanian text. The
+   validator warns on undeclared translations until the six banking laws are ingested in
+   Romanian (P8) and the English corpus is retired (P9). Both are still open work.
 
 Resolved on 2026-09-04 and kept here so it is not re-raised: art. 21 of `L-192-1998` was absent
 with no basis in the source. The refreshed consolidation contains it. No action needed.
@@ -231,6 +238,12 @@ with no basis in the source. The refreshed consolidation contains it. No action 
    the non-contestable CNPF alert in art. 4^1(7) of `L-171-2012`, which forecloses challenge to
    the administrative act but says nothing about a separate defamation claim.
 4. The stale count lines flagged below, if they bother you. They are cosmetic.
+5. **Restructuring of 2026-09-05, steps P0 to P6 done** (plan in `_meta/plans/`, log in `log.md`,
+   history in git from commit `12e819d`). Still open from that plan: P2 the private GitHub
+   repository (local git only so far; Eugen names the repository), P7 provenance stamps on the
+   `legal-career/` copies and the refresh of the case register, P8 the six banking laws in
+   Romanian (202/2017, 548/1995, 114/2012, 232/2016, 62/2008, 575/2003, the last one possibly
+   replaced), P9 the retirement of the English BNM translations. P8 is its own session.
 
 ## Keeping this file true
 
@@ -240,9 +253,12 @@ to this folder and only one of them updated the description. The same drift had 
 knowledge map over two months.
 
 So the rule is: anything mechanically checkable is generated. Run
-`python3 _meta/coverage/build_coverage.py` at the end of any session that touched `raw/`, and
-`--check` to see whether it is out of date without writing. Judgement stays in the hand-written
-sections. If you find yourself typing an article count into this file, stop and run the script.
+`python _meta/coverage/build_coverage.py` at the end of any session that touched `raw/`, and
+`--check` to see whether it is out of date without writing. The same holds for `SCHEMA.md`: its
+mechanical block comes from `python _meta/schema/build_schema.py`, and the validator reads the
+same spec, so the rules a reader sees are the rules enforced. Judgement stays in the hand-written
+sections. If you find yourself typing an article count or a field list into a file, stop and
+run the script. On this machine the interpreter is `python`, not `python3`.
 
 ## Safety
 
@@ -255,7 +271,28 @@ to your own working copy.
 
 ## Writing to the wiki
 
-Follow `SCHEMA.md`: frontmatter fields, the fixed tag taxonomy, Obsidian `[[wikilinks]]`, at least
-two outbound links per page, an entry in `index.md`, and an appended line in `log.md` for every
-action. Where a new claim conflicts with an existing page, record both with dates and mark the
-page `contested: true` rather than overwriting.
+Follow `SCHEMA.md`: the hand-written sections for judgement, the generated block for the mechanical
+rules. In short: frontmatter fields including `perimeter`, the fixed tag taxonomy, Obsidian
+`[[wikilinks]]` resolved in the order structured, raw, root, at least two outbound links per page,
+and an entry in `index.md` under the page's perimeter and type. Where a new claim conflicts with an
+existing page, record both with dates and mark the page `contested: true` rather than overwriting.
+
+**Perimeters.** A `legal` page is held to the citation rule of this file: an article is anchored
+only if the raw file was opened and read, and a provision from a future-dated consolidation is
+named as such. A `policy` page rests on the source document, with its date and authority stated.
+A page may cite from both perimeters; the field says which rule the page answers to.
+
+**The log is an index, not a diff (decision D8).** Git records what changed. `log.md` records what
+was learned and what was decided, one entry per action, with three fixed lines: **Aflat** (the
+finding that the diff does not show), **Decis** (the choice made and by whom), **Unde** (commit,
+file, manifest section). Do not repeat in the log what `git diff` already shows. Do not write to
+`_meta/log/2026-07-08.md`.
+
+**Run the validator** at the end of any session that touched the vault, after the coverage script:
+
+```
+python _meta/schema/validate_wiki.py --report
+```
+
+It exits 1 on errors. It repairs nothing. Anything it finds that needs judgement goes to Eugen.
+A rule that produces old errors is not relaxed to make them pass.

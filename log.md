@@ -39,3 +39,15 @@
 - **Aflat:** clasificarea iese mecanic din surse: paginile ancorate în `raw/papers/cnpf`, `moldova-legal` sau `bnm` sunt juridice, cele din `moldova-policy` sau `mded-policy-2024` sunt de politici. Un singur caz mixt, `L-845-1992`, care citează și planul de reglementări 2025; e act primar, deci juridic. Rezultat: 64 `legal`, 18 `policy`. Cele cinci pagini EMIR arhivate nu primesc câmpul, sunt înghețate.
 - **Decis:** câmpul se inserează imediat după `type:`. `updated` nu se ridică, pentru că nu s-a schimbat conținut, doar metadate, și git ține schimbarea. Dovada: pentru fiecare pagină, corpul de după frontmatter e identic byte cu byte, iar frontmatter-ul diferă exact printr-o linie.
 - **Unde:** commit-ul P4; regula intră în `_meta/schema/schema-spec.yaml` la P5.
+
+## [2026-09-05] create | P5: specificația mecanică, generatorul pentru `SCHEMA.md`, verificatorul
+
+- **Aflat:** starea de bază era mai curată decât se bănuia: zero legături nerezolvate, zero surse lipsă, indexul complet, toate cele 396 de hash-uri din `raw/` reproduse (345 pe convenția LF, 51 pe octeți bruți). Două erori vechi, ambele mecanice: un al doilea folder parazit `C:\Users\harab\wiki` în `_meta/imports/moldova-legal/`, pe care planul nu l-a văzut, și eticheta `civil-code` pe `CC-1107-2002`, folosită fără să fie în taxonomie. Două lacune cunoscute rămân avertismente: 305 fișiere BNM cu `language: other` (ingestul din iulie n-a detectat limba) și 28 de traduceri BNM nedeclarate, identificate după liniile `Article N` din corp, pentru că limba nu ajută. Numele de bază ale actelor sunt ambigue în vault (entitate, sursă brută, copii arhivate), deci regula de rezolvare a wikilink-urilor a trebuit fixată: structurat, apoi brut, apoi rădăcină; arhiva și `_meta` doar prin cale explicită.
+- **Decis:** Eugen: folderul parazit se șterge, eticheta `civil-code` se scoate (pagina rămâne pe `legal-act`), traducerile rămân avertisment până la P9. Specificația e în YAML citit de ambele scripturi, ca `SCHEMA.md` să nu poată spune altceva decât verifică verificatorul. `SCHEMA.md` rămâne în engleză, ca și `CLAUDE.md`; specificația, jurnalul și notele de proveniență sunt în română.
+- **Unde:** `_meta/schema/schema-spec.yaml`, `build_schema.py`, `validate_wiki.py`; raport `_meta/lint/validate-2026-09-05.md`; `SCHEMA.md` secțiunea „Mechanical rules”, generată între marcaje.
+
+## [2026-09-05] update | P6: jurnalul ca index și regulile noi în `CLAUDE.md`
+
+- **Aflat:** forma D8 a fost aplicată deja de la P0, deci P6 a însemnat numai să o consemneze ca regulă și să lege `CLAUDE.md` de ea. Verificatorul o impune: antet cu dată și acțiune, cele trei rânduri în ordine.
+- **Decis:** `CLAUDE.md` primește regula perimetrelor, regula jurnalului, rularea verificatorului, harta folderelor noi, întrebarea deschisă 5 marcată ca decisă prin D2, și un rând în lucrările deschise pentru P2, P7, P8, P9. `README.md` pentru GitHub se scrie la P2, când Eugen numește depozitul.
+- **Unde:** `CLAUDE.md`, secțiunile „Where things are”, „Open questions” pct. 5, „Outstanding work” pct. 5, „Keeping this file true”, „Writing to the wiki”.
