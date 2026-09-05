@@ -5,20 +5,20 @@ updated: 2026-09-05
 type: entity
 perimeter: legal
 tags: [moldova, bnm, institution, financial-services, financial-supervision, legal-source, entity]
-sources: [raw/papers/bnm/legal-ro/L-548-1995.md, raw/papers/bnm/legal/documents/001__Law on the National Bank of Moldova no_ 548-XIII of July 21 1995_02_08_2024_2.pdf.md, raw/papers/bnm/BNM_LEGISLATION_INVENTORY.md, raw/papers/bnm/BNM_REPORTS_INVENTORY.md]
+sources: [raw/papers/bnm/legal-ro/L-548-1995.md, _archive/bnm-en-2026-09/documents/001__Law on the National Bank of Moldova no_ 548-XIII of July 21 1995_02_08_2024_2.pdf.md, raw/papers/bnm/BNM_LEGISLATION_INVENTORY.md, raw/papers/bnm/BNM_REPORTS_INVENTORY.md]
 confidence: high
 ---
 
 # Overview
 
-Banca Națională a Moldovei (BNM) is Moldova’s central bank and an authority with rule-making, monetary-policy, supervisory and financial-market-infrastructure functions. Its central legal anchor in this corpus is **Law No. 548-XIII of 21 July 1995 on the National Bank of Moldova**. The preserved English version is expressly an **unofficial translation**; the source itself states that the authentic text is the version published in the Official Monitor. ^[raw/papers/bnm/legal/documents/001__Law on the National Bank of Moldova no_ 548-XIII of July 21 1995_02_08_2024_2.pdf.md]
+Banca Națională a Moldovei (BNM) is Moldova’s central bank and an authority with rule-making, monetary-policy, supervisory and financial-market-infrastructure functions. Its central legal anchor in this corpus is **Law No. 548-XIII of 21 July 1995 on the National Bank of Moldova**. The preserved English version is expressly an **unofficial translation**; the source itself states that the authentic text is the version published in the Official Monitor. ^[_archive/bnm-en-2026-09/documents/001__Law on the National Bank of Moldova no_ 548-XIII of July 21 1995_02_08_2024_2.pdf.md]
 
 # Legal basis and mandate structure
 
 **Since 2026-09-05 the Romanian text of the law is in the vault**: [[L-548-1995]], `raw/papers/bnm/legal-ro/L-548-1995.md`, consolidation 2026-04-23, 91 anchors. Cite from it; the English file below only locates a provision (decision D2). The same holds for [[L-202-2017]], [[L-114-2012]], [[L-232-2016]], [[L-62-2008]] and [[L-160-2023]].
 
 
-The table of contents of Law No. 548 identifies the primary objective and basic tasks, macroprudential-policy strategy and tools, acts issued by the BNM, monetary and foreign-exchange policy, emergency liquidity assistance, relations with banks, and financial-market infrastructures/payment systems as core elements of the legal framework. It also includes BNM powers concerning bank supervision and prudential regulation. ^[raw/papers/bnm/legal/documents/001__Law on the National Bank of Moldova no_ 548-XIII of July 21 1995_02_08_2024_2.pdf.md]
+The table of contents of Law No. 548 identifies the primary objective and basic tasks, macroprudential-policy strategy and tools, acts issued by the BNM, monetary and foreign-exchange policy, emergency liquidity assistance, relations with banks, and financial-market infrastructures/payment systems as core elements of the legal framework. It also includes BNM powers concerning bank supervision and prudential regulation. ^[_archive/bnm-en-2026-09/documents/001__Law on the National Bank of Moldova no_ 548-XIII of July 21 1995_02_08_2024_2.pdf.md]
 
 The BNM website’s own legal register currently organizes its mandate-related legal material into:
 

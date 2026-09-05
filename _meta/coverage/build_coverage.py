@@ -28,6 +28,8 @@ SKIP_PREFIX = ("_", "md-", "README")
 EU_PREFIX = "UE-"
 
 ANCHOR_RE = re.compile(r"^## Articolul\s+(\d+)(?:\^(\d+))?", re.M)
+# English-form anchors written by anchor_bnm_en.py on 2026-09-04; forbidden on translations (D2).
+ANCHOR_EN_RE = re.compile(r"^## Article\s+\d", re.M)
 ROMAN_RE = re.compile(r"^## Articolul\s+([IVXLC]+)\.", re.M)
 DECL_RE = re.compile(r"\*\*articole detectate:\*\*\s*(\d+)")
 POINTS_RE = re.compile(r"\*\*puncte numerotate detectate:\*\*\s*(\d+)")
@@ -110,6 +112,7 @@ def scan_file(path, rel):
 
 def collect():
     acts, eu, bnm_unanchored, other = [], 0, [], 0
+    bnm_en_anchored = []
     # bnm/legal-ro holds the six banking laws in Romanian (P8, 2026-09-05): primary acts,
     # counted with cnpf and moldova-legal, and kept out of the BNM English walk below.
     for folder in ("cnpf", "moldova-legal", "bnm/legal-ro"):
@@ -134,9 +137,13 @@ def collect():
             text = read(os.path.join(dirpath, name))
             if ANCHOR_RE.search(text):
                 continue
+            if ANCHOR_EN_RE.search(text):
+                bnm_en_anchored.append(name)
+                continue
             n = len(BODY_ART_EN.findall(text))
             if n:
                 bnm_unanchored.append(n)
+    collect.bnm_en_anchored = bnm_en_anchored
     return acts, eu, bnm_unanchored, other
 
 
@@ -245,6 +252,10 @@ def build(today):
         flags.append("**Full text present but unanchored.** "
                      + ", ".join(f"`{x['id']}`" for x in unanchored)
                      + ". Not citable to article level.")
+    if getattr(collect, "bnm_en_anchored", None):
+        flags.append(f"**Anchored translations.** {len(collect.bnm_en_anchored)} BNM English file(s) still carry "
+                     "`## Article N.` anchors. Decision D2 forbids anchors on a translation; de-anchor them "
+                     "or ingest the Romanian text.")
     if bnm_unanchored:
         flags.append(f"**BNM English corpus.** {len(bnm_unanchored)} file(s) carry {sum(bnm_unanchored)} "
                      "line-initial `Article N` markers and no anchors. Any answer resting on the English "

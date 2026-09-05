@@ -173,7 +173,7 @@ sha256_pre_anchoring: <hash before structural anchors were added>
 - Required: `source_url`, `ingested`, `sha256`, `source_type`, `publisher`, `language`. Ingest scripts add their own keys (doc_id, consolidation_date, instrument_id, …); those are not restricted.
 - `sha256` is computed over the body, under one of two conventions: `raw`, `LF` (raw bytes, or CRLF normalised to LF). The validator accepts either; if neither reproduces the recorded digest, the text changed after it was last hashed, which is an error. A declared `sha256_convention` must match the convention that reproduces the digest.
 - `sha256_pre_anchoring` records the digest before anchors were inserted. It is provenance, not a check: proving the body survived anchoring is the job of the anchoring verify scripts.
-- **Translations (D2).** `source_type: translation` marks a text that is not authoritative. It must carry no `## Articolul` anchors: an anchor on a translation would assert that the text can be cited, and it cannot. A `legal-text` file with 20 or more body lines matching `^Article\s+\d` is reported as an undeclared translation (warning until the English BNM corpus is retired, P9).
+- **Translations (D2).** `source_type: translation` marks a text that is not authoritative. It must carry no `## Articolul` or `## Article` anchors: an anchor on a translation would assert that the text can be cited, and it cannot. A `legal-text` file with 20 or more body lines matching `^Article\s+\d` is reported as an undeclared translation (warning until the English BNM corpus is retired, P9).
 
 ### Tag taxonomy
 

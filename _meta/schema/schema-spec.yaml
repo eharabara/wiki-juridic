@@ -119,7 +119,8 @@ frontmatter:
     translation:
       # D2. O traducere nu poartă ancore `## Articolul`.
       anchors_forbidden: true
-      anchor_pattern: '^## Articolul\s'
+      # Include forma engleză: anchor_bnm_en.py a inserat `## Article N.` la 2026-09-04.
+      anchor_pattern: '^## (Articolul|Article)\s'
       # Un fișier cu multe linii `Article N` în corp și `source_type: legal-text` este cel
       # mai probabil o traducere nedeclarată. Avertisment, nu eroare, până la P9.
       english_marker: '^Article\s+\d'

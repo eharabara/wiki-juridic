@@ -82,9 +82,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-05 14:48 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-05 15:26 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-46 primary Moldovan acts, 29 EU acquis extracts, 311 BNM corpus documents.
+46 primary Moldovan acts, 29 EU acquis extracts, 289 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -140,7 +140,7 @@ Generated 2026-09-05 14:48 from the files themselves. Do not edit this section b
 - **Not yet in force.** 9 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-1134-1997` (2028-01-01), `L-171-2012` (2027-06-01), `COD-122-2003` (2026-12-02), `COD-154-2003` (2027-01-01), `COD-218-2008` (2026-09-13), `COD-443-2004` (2026-12-02), `COD-985-2002` (2026-12-02), `L-845-1992` (2027-01-01), `L-114-2012` (2027-01-01). 47 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
 - **Stale consolidations.** `L-160-2023` (2023-10-01), `L-64-2010` (2024-01-23), `DCA-61-2024` (2024-05-05), `HG-1171-2018` (2024-07-05), `L-235-2006` (2024-07-05), `HG-574-2024` (2024-08-23). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
 - **Stale count line inside the file.** `L-177-2025` (body says 0, anchors 4), `L-178-2020` (body says 0, anchors 8), `L-192-1998` (body says 0, anchors 34). The frontmatter is right and the anchors are right; the human-readable line in the body was written by the original ingest and never updated. Cosmetic, but it is the line a reader sees first.
-- **BNM English corpus.** 87 file(s) carry 3556 line-initial `Article N` markers and no anchors. Any answer resting on the English BNM translations is not anchored.
+- **BNM English corpus.** 65 file(s) carry 432 line-initial `Article N` markers and no anchors. Any answer resting on the English BNM translations is not anchored.
 
 <!-- COVERAGE:END -->
 
@@ -174,9 +174,13 @@ Do not resolve these on your own. Raise them if a matter touches them.
 5. **The English BNM corpus is unanchored.** The generated flags give the current count. Decided
    on 2026-09-05 (decision D2 of the restructuring plan): a translation never carries an anchor.
    It is used only to locate a provision, which is then cited from the Romanian text. The
-   validator warns on undeclared translations until the English corpus is retired (P9). P8 is
-   done: the six banking laws are in Romanian under `raw/papers/bnm/legal-ro/` since 2026-09-05,
-   each with an entity page. P9 is still open.
+   P8 and P9 are done (2026-09-05): the six banking laws are in Romanian under
+   `raw/papers/bnm/legal-ro/`, 22 English translations with a Romanian text in the vault are in
+   `_archive/bnm-en-2026-09/`, and the five English law files left (250/2017, 550/1995, 239/2008)
+   are `source_type: translation` with their anchors removed and the body proved unchanged. Any
+   `## Article` anchor left in `raw/` is now a validator error. Still open, "P8-bis": ingest
+   those three acts in Romanian. The remaining `language: other` warnings are the BNM regulations
+   and reports, not laws.
 
 6. **`L-548-1995` is missing arts. 12, 13, 29, 30, 48, 54 and 73 with no marker of any kind.**
    The numbering runs 11^n to 14, 28 to 31, 47 to 49, 53 to 55, 72 to 74. The law was republished
@@ -272,7 +276,9 @@ with no basis in the source. The refreshed consolidation contains it. No action 
    integrity proved and entity pages; Law 575/2003 turned out to be repealed and was replaced by
    Law 160/2023. Method: `_meta/imports/bnm/ingest_bnm_ro.py` and `verify_bnm_ro.py`. Note the
    download route: legis.md now sits behind a Cloudflare check that blocks `curl`; the HTML was
-   taken from Chrome after Eugen passed the check. **P9 is the only step still open.**
+   taken from Chrome after Eugen passed the check. **P9 was done the same day** (see open
+   question 5). The plan is complete; what it opened in turn is P8-bis, three acts to ingest in
+   Romanian: 550/1995, 250/2017, 239/2008.
 
 ## Keeping this file true
 

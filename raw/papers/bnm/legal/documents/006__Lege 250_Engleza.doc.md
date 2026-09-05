@@ -2,25 +2,19 @@
 source_url: https://www.bnm.md/files/Lege 250_Engleza.doc
 source_record: https://www.bnm.md/en/content/law-supplementary-supervision-banks-insurersreinsurers-and-investment-firms-financial
 ingested: 2026-07-12
-sha256_pre_anchoring: fd09ddefcf7e9c83f3a4133f8ade38027a86638e74c10a0783f36da2c677de82
 source_file_sha256: 3e5fdde157f45a6b6b2086bffe4fd92ff46b74aadf4f8bdb75cd1d3626c45179
-source_type: legal-text
+source_type: translation
 publisher: Banca Națională a Moldovei
 language: other
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/006__Lege 250_Engleza.doc
-sha256: 39500cde96f4cf89ada1be96d3005ac9a39a0ef3245e3b0e13e4d8e3217b70dd
+sha256: fd09ddefcf7e9c83f3a4133f8ade38027a86638e74c10a0783f36da2c677de82
 sha256_convention: LF
-articles_detected: 22
-anchoring_date: '2026-09-04'
-toc_rows_skipped: 23
-anchor_convention: >-
-  English translation, anchored 2026-09-04. '## Article N.' inserted
-  above the source line; no source line altered. Table-of-contents rows
-  and wrapped cross-references are not anchored. Flattened superscripts
-  are normalised to '^N'. THIS IS A TRANSLATION: the anchor makes a
-  provision findable, it does not make this the authoritative text.
-  Cite the Romanian original where one is held.
+deanchored: '2026-09-05'
+translation_note: >-
+  English translation, not the authoritative text (decision D2, 2026-09-05). Anchored on
+  2026-09-04, de-anchored on 2026-09-05 with the body proved identical to the pre-anchoring
+  hash. Use only to locate a provision; no Romanian text is held yet for this act (P8-bis).
 ---
 
 # Law on supplementary supervision of banks, insurers/reinsurers and investment firms in a financial conglomerate No 250 of December 1, 2017 (in force on March 29, 2018)
@@ -84,20 +78,17 @@ CHAPTER I
 
 GENERAL PROVISIONS
 
-## Article 1.
 Article 1. Subject and objective of the law
     This Law lays down the rules of supplementary supervision of  regulated
 entities, which are part of a financial conglomerate,  to  ensure  financial
 stability and protect depositors, insureds and investors.
      
-## Article 2.
 Article 2. Scope of application
     This  Law  applies  to  regulated  entities,  legal  persons  that  are
 licensed/authorised under applicable sectoral rules, which  are  subject  to
 supplementary supervision exercised by the coordinator at the level  of  the
 financial conglomerate.
      
-## Article 3.
 Article 3. Definitions
     For the purposes of this Law:
     insurer/reinsurer – shall mean an insurer/reinsurer in the  meaning  of
@@ -203,7 +194,6 @@ undertakings within the same group or on any natural or legal person  linked
 to the undertakings within that group by close links, for the fulfilment  of
 an obligation, whether or not contractual, and whether or not for payment;
      
-## Article 4.
 Article 4. Thresholds for identifying a financial conglomerate
     (1) The activities of a group  shall  mainly  occur  in  the  financial
 sector where the ratio of the balance sheet asset  total  of  the  regulated
@@ -307,7 +297,6 @@ waivers of the application of supplementary  supervision  and  shall  review
 the  quantitative  indicators  set  out  in  this  Article  and   risk-based
 assessments applied to financial groups.
      
-## Article 5.
 Article 5. Identifying a financial conglomerate
     (1) The competent authorities of the  Republic  of  Moldova  that  have
 licensed the regulated entities shall  identify,  under  the  provisions  of
@@ -344,7 +333,6 @@ CHAPTER II
 
 SUPPLEMENTARY SUPERVISION
 
-## Article 6.
 Article 6. Scope of supplementary supervision
     (1) Without prejudice to the provisions on supervision contained in the
 sectoral rules, the supplementary  supervision  of  the  regulated  entities
@@ -389,7 +377,6 @@ regulated entities in a  financial  conglomerate  from  another  state  with
 which a cooperation agreement has been concluded,  or  unregulated  entities
 in a financial conglomerate.
      
-## Article 7.
 Article 7. Capital adequacy
     (1)  Without  prejudice  to  the  sectoral  rules,  the   supplementary
 supervision  of  the  capital  adequacy  of  the  regulated  entities  in  a
@@ -466,7 +453,6 @@ for the supervision on a stand-alone basis  of  that  entity,  may  ask  the
 entity which is at the head of the financial  conglomerate  for  information
 which may facilitate their supervision of the regulated entity.
      
-## Article 8.
 Article 8. Risk concentration and intra-group transactions
     (1)  Without  prejudice  to  the  sectoral  rules,  the   supplementary
 supervision of  the  risk  concentration  and  intra-group  transactions  of
@@ -516,7 +502,6 @@ accordance with paragraphs (1) to (7). In order to  avoid  any  duplication,
 the  general  guidelines  shall  ensure  the  uniform  application  of   the
 supervisory tools as set out in this Article.
      
-## Article 9.
 Article 9. Risk management policies and internal control mechanisms
     (1) Regulated entities shall  have,  at  the  level  of  the  financial
 conglomerate,  adequate  risk-management  policies  and   internal   control
@@ -566,7 +551,6 @@ CHAPTER III
 
 MEASURES TO FACILITATE SUPPLEMENTARY SUPERVISION
 
-## Article 10.
 Article 10. Competent authority responsible for exercising of supplementary
 supervision (coordinator)
     (1) In order to  ensure  the  supplementary  supervision  of  regulated
@@ -577,7 +561,6 @@ criteria set out in Article 11.
     (2) The identity of the coordinator shall be published on the  official
 web pages of the competent authorities.
      
-## Article 11.
 Article 11. Coordinator appointment criteria
     (1) Where a financial conglomerate is headed by a regulated entity, the
 coordinator shall be the competent authority that has licensed /  authorized
@@ -631,7 +614,6 @@ appoint a different competent authority  as  coordinator.  In  these  cases,
 before taking their decision,  the  competent  authorities  shall  give  the
 conglomerate an opportunity to state its opinion on that decision.
      
-## Article 12.
 Article 12. Tasks of the coordinator
     (1) The tasks to be carried out  by  the  coordinator  with  regard  to
 supplementary supervision shall include:
@@ -667,7 +649,6 @@ of  supplementary  supervision  of  regulated  entities   in   a   financial
 conglomerate shall  not  affect  the  powers  and  responsibilities  of  the
 competent authorities laid down in the sectoral rules.
      
-## Article 13.
 Article 13. Cooperation and exchange of information between competent
 authorities
     (1)  Without  prejudice  to  the  responsibilities  established   under
@@ -749,7 +730,6 @@ authorities which is provided for in this  Law,  shall  be  subject  to  the
 provisions  on  professional  secrecy  and  communication  of   confidential
 information laid down in the sectoral rules.
      
-## Article 14.
 Article 14. Access to information
     (1) Legal entities subject to supplementary supervision, whether or not
 a regulated entity, shall exchange with each other any information  relevant
@@ -778,7 +758,6 @@ framework  of  their  competencies,  either  carry  out   the   verification
 themselves or allow  the  competent  authority  that  made  the  request  to
 perform the verification itself.
      
-## Article 16.
 Article 16. Management bodies of mixt financial holding companies
     (1) The management/governance of  activities  of  the  mixed  financial
 holding company, which is a legal person of the Republic of  Moldova,  shall
@@ -794,7 +773,6 @@ requirements referred to in paragraphs (1) and (2), by  taking  measures  or
 applying  sanctions  in  the  event   of   non-compliance   with   specified
 requirements, provided for in Article 19.
      
-## Article 17.
 Article 17. Financial statements of a mixt financial holding company
     (1) Mixed financial holding companies, which are legal persons  of  the
 Republic of Moldova, shall organise  and  carry  out  their  bookkeeping  in
@@ -808,7 +786,6 @@ the coordinator their consolidated financial statements  as  well  as  other
 data and information requested  by  the  coordinator  for  the  purposes  of
 supplementary supervision.
      
-## Article 18.
 Article 18. External audit of a mixt financial holding company
     (1) The financial statements of a mixt financial holding company  shall
 be audited by an audit firm in accordance with the relevant legislation.
@@ -843,7 +820,6 @@ pursuant to paragraph (2) if the audit firm does not  properly  perform  the
 duties provided for in this  Law  or  does  not  comply  with  the  specific
 ethical and professional conduct requirements.
      
-## Article 19.
 Article 19. Measures and sanctions
     (1) Where the regulated  entities,  which  are  legal  persons  of  the
 Republic of Moldova, are part of a financial conglomerate  and  comply  with
@@ -921,12 +897,10 @@ authorities shall be able to impose, in accordance with the sectoral  rules,
 any measures or sanctions provided for therein  against  regulated  entities
 under their supervision.
      
-## Article 20.
 Article 20. Appealing the coordinator’s acts
     The acts adopted by the coordinator under this Law may be appealed  the
 administrative court in accordance with the applicable legislation.
      
-## Article 21.
 Article 21. Cooperation with foreign authorities
     (1) For the purposes of supplementary supervision  provided  for  under
 this Law, the competent authorities shall be able  to  initiate  negotiation
@@ -959,7 +933,6 @@ CHAPTER IV
 
 FINAL PROVISIONS
 
-## Article 22.
 Article 22. Compatibility with EU legislation
     This Law transposes Chapters I and II, excepting Articles 9a,  9b,  12a
 and 12b, of the Directive 2002/87/EC of the European Parliament and  of  the
@@ -970,7 +943,6 @@ conglomerate  and  amending  Council  Directives   73/239/EEC,   79/267/EEC,
 2000/12/EC of the European Parliament and of the Council, published  in  the
 Official Journal of the European Union L35 of 11 February 2003.
      
-## Article 23.
 Article 23. Entry into force of the Law
     (1) This Law shall enter into force three months after its  publication
 in the Official Monitor of the Republic of Moldova.

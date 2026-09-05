@@ -129,7 +129,7 @@ def render(spec):
       "not a check: proving the body survived anchoring is the job of the anchoring verify scripts.")
     tr = fr["translation"]
     a(f"- **Translations (D2).** `source_type: translation` marks a text that is not authoritative. "
-      + ("It must carry no `## Articolul` anchors: an anchor on a translation would assert that the text can be cited, "
+      + ("It must carry no `## Articolul` or `## Article` anchors: an anchor on a translation would assert that the text can be cited, "
          "and it cannot. " if tr["anchors_forbidden"] else "")
       + f"A `legal-text` file with {tr['english_marker_min']} or more body lines matching `{tr['english_marker']}` "
       "is reported as an undeclared translation (warning until the English BNM corpus is retired, P9).")

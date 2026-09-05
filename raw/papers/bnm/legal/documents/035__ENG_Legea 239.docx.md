@@ -2,30 +2,19 @@
 source_url: https://www.bnm.md/files/ENG_Legea 239.docx
 source_record: https://www.bnm.md/en/content/law-transparency-decision-making-process-no-239-xvi-13112008
 ingested: 2026-07-12
-sha256_pre_anchoring: e8f0634c414f116696f0fcd9e378f800dbe1b4ac599e07e38a43258af61b618d
 source_file_sha256: 46bf33a65869da8be18a3d3db3ba4aa432d28dc0dc8327d81123da82bcd73c70
-source_type: legal-text
+source_type: translation
 publisher: Banca Națională a Moldovei
 language: other
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/035__ENG_Legea 239.docx
-sha256: 022e2d45f2bd763fe6bdd855a84c944aa84c2bed6833dd82c65c36e24e3f8610
+sha256: e8f0634c414f116696f0fcd9e378f800dbe1b4ac599e07e38a43258af61b618d
 sha256_convention: LF
-articles_detected: 18
-anchoring_date: '2026-09-04'
-toc_rows_skipped: 20
-superscript_articles:
-  - normalised: '12^1'
-    flattened_as: 121
-  - normalised: '16^1'
-    flattened_as: 161
-anchor_convention: >-
-  English translation, anchored 2026-09-04. '## Article N.' inserted
-  above the source line; no source line altered. Table-of-contents rows
-  and wrapped cross-references are not anchored. Flattened superscripts
-  are normalised to '^N'. THIS IS A TRANSLATION: the anchor makes a
-  provision findable, it does not make this the authoritative text.
-  Cite the Romanian original where one is held.
+deanchored: '2026-09-05'
+translation_note: >-
+  English translation, not the authoritative text (decision D2, 2026-09-05). Anchored on
+  2026-09-04, de-anchored on 2026-09-05 with the body proved identical to the pre-anchoring
+  hash. Use only to locate a provision; no Romanian text is held yet for this act (P8-bis).
 ---
 
 # Law on transparency in the decision-making process no. 239-XVI of 13.11.2008
@@ -115,12 +104,10 @@ Chapter I
 
 GENERAL PROVISIONS
 
-## Article 1.
 Article 1. Subject matter
 
 This law establishes the applicable rules for ensuring transparency in the decision-making process within the central and local public administration authorities, other public authorities and regulates their relationship with citizens, associations established in accordance with the law, other interested parties in order to participate in the decision-making process.
 
-## Article 2.
 Article 2. Notions
 
 For the purposes of this law, the following notions shall mean: association established in accordance with the law - an association established in accordance with the law or an informal citizens' association, created to express, propose and promote the common interests of its members; public hearing - a meeting at which public authorities falling within the scope of this law consult the opinion of citizens, associations established in accordance with the law, other interested parties on a draft decision under debate; citizen – an individual who is a citizen of the Republic of Moldova, as well as a foreign citizen or a stateless person, with the exceptions established by law; public consultation - mutual communication between citizens, associations established in accordance with the law, other interested parties, on the one hand, and public authorities falling under this law, on the other hand, as a result of which both parties are informed and can influence the decision-making process; decision - a legal act adopted by the public authorities falling within the scope of this Law; public debate - a way of consulting the public opinion, in which the necessity of adopting the draft decision subject to consultation is argued and divergent opinions are presented, and citizens, associations established in accordance with the law, other interested parties may make recommendations on the draft decision; interested party - citizens, associations established in accordance with the law, legal persons under private law, who will be affected, might be affected by the adoption of the decision and who can influence the decision-making process; decision-making process - procedure of development and adoption of decisions by public authorities falling under this law; recommendation - any suggestion, proposal or consultative opinion, expressed orally or in writing by citizens, associations established in accordance with the law, other interested parties on the drafts of the decisions elaborated; transparency - the open and explicit provision of all information on the activity of public authorities falling within the scope of this Law and the consultation of citizens, associations established in accordance with the law, other interested parties in the process of elaboration and adoption of decisions.
@@ -165,7 +152,6 @@ g) local public administration authorities.
 
 [Art.3 amended by Law no. 38 of 27.03.2014, in force as of 18.04.2014]
 
-## Article 4.
 Article 4. Purpose of this Law
 
 The purpose of this Law is:
@@ -182,7 +168,6 @@ to stimulate the active participation of citizens, associations constituted in a
 
 to ensure transparency in the work of public authorities.
 
-## Article 5.
 Article 5. Principles of transparency in the decision-making process
 
 Transparency in the decision-making process is based on the following principles:
@@ -191,7 +176,6 @@ Transparency in the decision-making process is based on the following principles
 
 			b) ensuring equal opportunities for participation of citizens, associations established in accordance with the law, other interested parties in the decision-making process.
 
-## Article 6.
 Article 6. Rights of interested parties
 
 Citizens, associations formed in accordance with the law, other interested parties have the right to:
@@ -204,7 +188,6 @@ Citizens, associations formed in accordance with the law, other interested parti
 
 			d) to submit recommendations on draft decisions to the public authorities under discussion.
 
-## Article 7.
 Article 7. Obligations of public authorities
 
 (1) Public authorities are required, where appropriate, to take the necessary measures to ensure opportunities for the participation of citizens, associations established in accordance with the law, other interested parties in the decision-making process, including by:
@@ -231,7 +214,6 @@ Chapter II
 
 TRANSPARENCY IN THE DECISION-MAKING PROCESS
 
-## Article 8.
 Article 8. Steps to ensure transparency
 
 The main steps to ensure transparency in the decision-making process are:
@@ -246,7 +228,6 @@ examining the recommendations of citizens, associations formed in accordance wit
 
 e) informing the public about the adopted decisions.
 
-## Article 9.
 Article 9. Notice of initiation of the preparation of the decision
 
 	(1) After initiating the decision-making process, the public authority shall, at the latest within 15 working days, place the respective notice on the official website, immediately send it by electronic mail to interested parties, display it at its premises in a publicly accessible place and/or disseminate it in the central or local media, as appropriate.
@@ -263,7 +244,6 @@ Article 9. Notice of initiation of the preparation of the decision
 
 [Art. 9 amended by Law no. 105 of 12.06.2014, in force as of 11.07.2014]
 
-## Article 10.
 Article 10. Access to draft decisions
 
 	(1) The public authority shall ensure access to the draft decisions and the materials related to them by mandatory publication on the official website of the public authority, by providing access to the premises of the public authority, as well as by sending them by post or other available means, at the request of the interested person.
@@ -272,7 +252,6 @@ Article 10. Access to draft decisions
 
 [Art. 10 in the wording of Law no. 105 of 12.06.2014, in force as of 11.07.2014]
 
-## Article 11.
 Article 11. Consultation of interested parties
 
 	(1) The consultation of citizens, associations established in accordance with the law, other interested parties shall be ensured by the public authority responsible for preparing the draft decision through the following means: public debates, public hearings, opinion polls, referendum, soliciting the opinions of experts in the field, setting up permanent or ad hoc working groups with the participation of representatives of civil society.
@@ -293,7 +272,6 @@ Article 11. Consultation of interested parties
 
 [Art. 11 supplemented by Law no. 105 of 12.06.2014, in force as of 11.07.2014]
 
-## Article 12.
 Article 12. Reception and consideration of recommendations
 
 (1) The recommendations of citizens, associations established in accordance with the law, other interested parties shall be received by the public authority responsible for preparing the draft decision in the following manner:
@@ -316,7 +294,6 @@ b) written recommendations received individually, including by electronically, w
 
 [Art. 12 amended by Law no. 105 of 12.06.2014, in force as of 11.07.2014]
 
-## Article 12^1.
 Article 121. Notice of withdrawal of a draft decision from the preparatory process
 
 In case of withdrawal of a draft decision from the drafting process, the public authority that initiated the drafting process shall place the notice of withdrawal on the official website, stating the reason for the withdrawal.
@@ -327,7 +304,6 @@ Chapter III
 
 TRANSPARENCY OF THE DECISION-MAKING PROCESS
 
-## Article 13.
 Article 13. Participation in public meetings
 
 	(1) Meetings of public authorities concerning decision-making shall be public, except in cases provided by law.
@@ -348,12 +324,10 @@ Article 13. Participation in public meetings
 
 [Art. 14 supplemented by Law no. 216 of 17.09.2010, in force as of 01.10.2010]
 
-## Article 15.
 Article 15. Informing the public of decisions taken
 
 Public authorities shall ensure access to the decisions adopted by publishing them in the manner prescribed by law, by posting them on their official website, by displaying them at their headquarters in a place accessible to the public and/or by broadcasting them in the central or local media, as appropriate, and by other means prescribed by law. [Art.15 supplemented by Law no. 105 of 12.06.2014, in force as of 11.07.2014]
 
-## Article 16.
 Article 16. Reports on transparency in the decision-making process
 
 (1) Public authorities shall draw up and make publicly available annual reports on transparency in the decision-making process, including:
@@ -368,7 +342,6 @@ d) the number of cases in which actions or decisions of the public authority hav
 
 (2) The annual report on transparency in the decision-making process shall be made public in accordance with the law not later than the end of the first quarter of the year immediately following the reference year.
 
-## Article 16^1.
 Article 161. Liability for lack of transparency in the decision-making process
 
 Failure to comply with the provisions of this Law shall constitute a disciplinary offense and shall be sanctioned in accordance with the provisions of the Labour Code or special legislation. Individuals and persons in positions of responsibility shall be liable for contravention in accordance with the Contravention Code of the Republic of Moldova.
@@ -381,12 +354,10 @@ Chapter IV
 
 FINAL AND TRANSITIONAL PROVISIONS
 
-## Article 17.
 Article 17. Entry into force of this Law
 
 This law shall enter into force 3 months after the date of its publication.
 
-## Article 18.
 Article 18. Organization of the enforcement of this Law
 
 The Government within 3 months:

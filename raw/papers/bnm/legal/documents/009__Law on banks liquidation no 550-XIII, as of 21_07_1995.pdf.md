@@ -2,25 +2,19 @@
 source_url: https://www.bnm.md/files/Law on banks liquidation no 550-XIII, as of 21_07_1995.pdf
 source_record: https://www.bnm.md/en/content/law-financial-institutions-no-550-xiii-21071995
 ingested: 2026-07-12
-sha256_pre_anchoring: c2ac541e7134893dcd8513f9067f7e2c07d308ff7d3815cf809c6a5750b5f12d
 source_file_sha256: 25ed66c21f86a4c23e5b1e271f5d8b9b4d0b02447c12c8a0da0b85dbbb2536f3
-source_type: legal-text
+source_type: translation
 publisher: Banca Națională a Moldovei
 language: other
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/009__Law on banks liquidation no 550-XIII, as of 21_07_1995.pdf
-sha256: 111b42edbd00b0542f5aaf50596ef636f1b1488c7c847f0365582758125c36f3
+sha256: c2ac541e7134893dcd8513f9067f7e2c07d308ff7d3815cf809c6a5750b5f12d
 sha256_convention: LF
-articles_detected: 18
-anchoring_date: '2026-09-04'
-toc_rows_skipped: 92
-anchor_convention: >-
-  English translation, anchored 2026-09-04. '## Article N.' inserted
-  above the source line; no source line altered. Table-of-contents rows
-  and wrapped cross-references are not anchored. Flattened superscripts
-  are normalised to '^N'. THIS IS A TRANSLATION: the anchor makes a
-  provision findable, it does not make this the authoritative text.
-  Cite the Romanian original where one is held.
+deanchored: '2026-09-05'
+translation_note: >-
+  English translation, not the authoritative text (decision D2, 2026-09-05). Anchored on
+  2026-09-04, de-anchored on 2026-09-05 with the body proved identical to the pre-anchoring
+  hash. Use only to locate a provision; no Romanian text is held yet for this act (P8-bis).
 ---
 
 # Law on banks liquidation No 550 of 21 July 1995
@@ -194,13 +188,11 @@ CHAPTER 11
 GENERAL PROVISIONS 
  
 [Chapter 11 (art. 1-3) introduced by Law no. 32 of 27.02.2020, in force 02.05.2020] 
-## Article 1.
 Article 1. Object of the Law 
 This Law regulates This law establishes the rules applicable to the process of voluntary or 
 forced liquidation of a bank and its purpose is to regulate an orderly procedure for the liquidation of 
 the bank and its assets, in order to protect the legitimate interests of the bank's creditors. 
 [Art.1 introduced by Law no. 32 of 27.02.2020, in force 02.05.2020] 
-## Article 2.
 Article 2. Subjects of the law 
 (1) The current law applies to banks in liquidation and to bank liquidators. 
 (2) The branch of the bank from another state, which carries out its activity on the territory of 
@@ -208,7 +200,6 @@ the Republic of Moldova and whose license has been revoked, is subject to liquid
 conditions of this law. 
 [Art.2 introduced by Law no. 32 of 27.02.2020, in force 02.05.2020] 
  
-## Article 3.
 Article 3. Definitions 
 The definitions used in this law have the meaning provided by Law no. 202/2017 On Banks 
 Activity and Law no. 548/1995 on the National Bank of Moldova. 
@@ -216,7 +207,6 @@ Activity and Law no. 548/1995 on the National Bank of Moldova.
  
 CHAPTER VI1 
 FORCED LIQUIDATION OF BANKS 
-## Article 381.
 Article 381. General provisions on forced liquidation of banks 
 (1) In case of license withdrawal of a bank, following the detection of at least one of the 
 situations of insolvency referred to in article 22 paragraph (2) of Law no. 202/2017 On Banks 
@@ -319,7 +309,6 @@ banking secrecy or any other secret protected by law, except if it is necessary 
 his/her duties. 
 [Art.382 paragraph (1), (3) amended by Law no.32 of 27.02.2020, in force 02.05.2020] 
  
-## Article 383.
 Article 383. Liquidation announcement 
 The liquidator shall: 
 a) within 3 days from the date of his/her appointment, make public an announcement with 
@@ -332,7 +321,6 @@ units are located;
 c) within 3 days from the publication of such announcements, shall submit to the National 
 Bank copies thereof. 
  
-## Article 384.
 Article 384. Liquidator’s main duties and rights 
 (1) The liquidator shall have full and exclusive rights to lead, manage and control the bank 
 (hereinafter – management of the bank) and to take any measures for its efficient liquidation and for 
@@ -494,7 +482,6 @@ demand the satisfaction of their claims only pursuant Article 3811 paragraph (6)
 [Art. 385 amended by Law no.227 of 01.11.2018, in force 30.12.2018] 
 [Art. 385 amended by Law no.185 of 22.07.2016, in force 16.03.2017] 
  
-## Article 386.
 Article 386. Liquidation procedure 
 (1) Within 3 months from the date the liquidator takes over the management of the bank, he 
 shall make the inventory of the bank’s assets and shall submit to the National Bank a copy thereof, 
@@ -548,7 +535,6 @@ over MDL 1 million, including the price and the identity of the counterparty –
 entity. 
 [Art.386 supplemented by Law no.233 of 03.10.2016, in force 04.10.2016] 
  
-## Article 387.
 Article 387. Actions taken by the liquidator. Procedure for the sale of the bank, transfer of its 
 assets and liabilities 
 (1) The liquidator shall take the following actions: 
@@ -700,7 +686,6 @@ written permission of the National Bank.
 [Art. 387 amended by Law no.227 of 01.11.2018, in force 30.12.2018] 
 [Art. 387 amended by Law no.187 of 28.09.2014, in force 10.10.2014] 
  
-## Article 388.
 Article 388. Expenses related to liquidation process 
 (1) Expenses related to the bank’s liquidation process shall be made prior to other claims 
 against the bank on the account of its funds. These expenses shall include: 
@@ -730,7 +715,6 @@ according to paragraph (1)-(3), the National Bank shall be entitled to cover the
 related to the bank’s liquidation. 
 [Art.388 amended by Law no.233 of 03.10.2016, in force 04.10.2016] 
  
-## Article 389.
 Article 389. Measures preceding the satisfaction of claims against the bank 
 (1) Within 5 days from the date of license withdrawal on the grounds of insolvency, the 
 liquidator, on the basis of registers and other data available at the bank, shall establish the amount 
@@ -790,7 +774,6 @@ which this claim belongs.
 [Art.389 amended by Law no.227 of 01.11.2018, in force 30.12.2018] 
 [Art.389 amended by Law no.233 of 03.10.2016, in force 04.10.2016] 
  
-## Article 3810.
 Article 3810. Appeals on measures preceding the satisfaction of claims against the bank 
 (1) Within 20 days from the date of registering the list of claims at the National Bank, any 
 depositor, any other creditor or one or more shareholders of the bank that hold at least 10% of shares 
@@ -803,7 +786,6 @@ satisfaction.
 (3) After the expiration of the time limit for settling the appeal indicated in paragraph (1), the 
 list of claims registered at the National Bank can not be amended. 
  
-## Article 3811.
 Article 3811. Satisfying claims against the bank and claims priorities 
 (1) The satisfaction of claims against the bank under liquidation shall be performed after the 
 expiration of the time limit for settling the appeal provided under Article 3810, subject to their 
@@ -917,7 +899,6 @@ satisfaction/extinction of creditors’ claims.
 [Art. 38¹¹ amended by Law no.233 of 03.10.2016, in force 04.10.2016] 
 [Art. 38¹¹ supplemented by Law no.187 of 28.09.2014, in force 10.10.2014] 
  
-## Article 3812.
 Article 3812. Reporting. Completion of liquidation process 
 (1) After the distribution (liquidation) of all bank’s assets, the liquidator shall submit a report 
 to the National Bank. The report shall contain information on the value and classes of satisfied and 
@@ -935,7 +916,6 @@ following the procedure established by the law.
  
  
  
-## Article 3813.
 Article 3813. Responsibility of the liquidator 
 (1) If the bank's liquidator does not comply with this law, the National Bank may apply 
 sanctions and sanctioning measures against him according to art. 141 para. (1) and (5) of Law no. 
@@ -947,7 +927,6 @@ persons with regard to the bank’s liquidation shall be settled according to Ar
 of Law no. 202/2017 On Banks Activity. 
 [Art.3813 para.(1),(3) amended by Law no.32 of 27.02.2020, in force 02.05.2020] 
  
-## Article 3814.
 Article 3814. Reopening the liquidation process 
 (1) If, after the approval of the liquidator’s report or erasure of the bank from the State 
 Register of Legal Entities, some assets of the bank have been identified, the National Bank, at the 
@@ -958,7 +937,6 @@ satisfy the claims of the entitled creditors according to the procedure set fort
 (3) In case of appointment, the liquidator shall submit to the National Bank a report on the 
 additionally liquidated (realized) assets and on the claims additionally satisfied. 
  
-## Article 3815.
 Article 3815. Liability for a bank’s insolvency 
 (1) If during the process of liquidation of the bank, there were identified individuals who 
 would be imputable the occurrence of insolvency of the bank, at the request of the National Bank, 
@@ -1031,7 +1009,6 @@ art.3816 and, respectively, 3817]
 Chapter VI2 
 VOLUNTARY LIQUIDATION OF THE BANK 
  
-## Article 3816.
 Article 3816. Conditions of voluntary liquidation 
 (1) The liquidation of the bank based on the decision taken by the shareholders (voluntary 
 liquidation) shall be made under the procedure prescribed by the laws governing the liquidation of 
@@ -1063,7 +1040,6 @@ e) the bank has submitted within the established time limit additional documents
 the National Bank, needed to determine whether the conditions for issuing the permission are met. 
 (5) Upon issuance of permission for voluntary liquidation, the National Bank shall withdraw 
 the license of the bank. 
-## Article 3817.
 Article 3817. Voluntary liquidation procedure 
 (1) After the withdrawal of the license and the issuance of the permission for voluntary 
 liquidation, the liquidation commission (liquidator) shall take over all powers to administrate the 
