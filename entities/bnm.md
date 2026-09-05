@@ -17,6 +17,8 @@ Banca Națională a Moldovei (BNM) is Moldova’s central bank and an authority 
 
 **Since 2026-09-05 the Romanian text of the law is in the vault**: [[L-548-1995]], `raw/papers/bnm/legal-ro/L-548-1995.md`, consolidation 2026-04-23, 91 anchors. Cite from it; the English file below only locates a provision (decision D2). The same holds for [[L-202-2017]], [[L-114-2012]], [[L-232-2016]], [[L-62-2008]] and [[L-160-2023]].
 
+P8-bis added three more Romanian texts on the same date. [[L-550-1995]] is what remains of the former law on financial institutions, now the law on the liquidation of banks, arts. 1-3 and 38^1-38^17 only (`raw/papers/bnm/legal-ro/L-550-1995.md`). [[L-250-2017]] on the supplementary supervision of financial conglomerates is the single act that places BNM and CNPF under one regime (`raw/papers/bnm/legal-ro/L-250-2017.md`). [[L-239-2008]] on transparency in decision-making is not BNM perimeter; it sits in `bnm/legal-ro/` because the BNM legal register carries it, and art. 11(3^3) of [[L-548-1995]] modulates it with its own exceptions (`raw/papers/bnm/legal-ro/L-239-2008.md`).
+
 
 The table of contents of Law No. 548 identifies the primary objective and basic tasks, macroprudential-policy strategy and tools, acts issued by the BNM, monetary and foreign-exchange policy, emergency liquidity assistance, relations with banks, and financial-market infrastructures/payment systems as core elements of the legal framework. It also includes BNM powers concerning bank supervision and prudential regulation. ^[_archive/bnm-en-2026-09/documents/001__Law on the National Bank of Moldova no_ 548-XIII of July 21 1995_02_08_2024_2.pdf.md]
 

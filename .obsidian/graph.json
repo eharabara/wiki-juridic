@@ -1,58 +1,22 @@
 {
   "collapse-filter": false,
-  "search": "",
-  "showTags": false,
+  "search": "-path:raw -path:_meta -path:_archive -path:\"Claude outputs\" -path:legal-career",
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "cnpf",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "PND",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "SNDE",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
-      }
-    },
-    {
-      "query": "Directive UE",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
-      "query": "codul civil",
-      "color": {
-        "a": 1,
-        "rgb": 16342487
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -1.7,
   "nodeSizeMultiplier": 0.563707317073171,
   "lineSizeMultiplier": 0.502517073170732,
   "collapse-forces": false,
-  "centerStrength": 0.614583333333333,
-  "repelStrength": 14.375,
-  "linkStrength": 0.78125,
+  "centerStrength": 0.219512195121951,
+  "repelStrength": 14.2536475869809,
+  "linkStrength": 0.0446829268292683,
   "linkDistance": 99,
-  "scale": 0.08429103271593527,
+  "scale": 0.030182895067323887,
   "close": false
 }

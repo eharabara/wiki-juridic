@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-05T15:42:53",
+  "generated": "2026-09-05T17:34:04",
   "as_of": "2026-09-05",
-  "files_scanned": 381,
+  "files_scanned": 383,
   "provisions_not_yet_in_force": [
     {
       "file": "raw/papers/moldova-legal/COD-218-2008.md",
@@ -710,6 +710,33 @@
       "occurrences": 4
     },
     {
+      "file": "raw/papers/moldova-legal/HG-743-2024.md",
+      "instrument": "HG-743-2024",
+      "article": "355",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-30",
+      "operation": "reformulare",
+      "amending_act": "HG341 din 24.06.26",
+      "official_gazette": "MO284-287/30.06.26 art.355",
+      "context": "[Pct.33 subpct.33.3. în redacția HG341 din 24.06.26, MO284-287/30.06.26 art.355; în vigoare 30.12.26]",
+      "lines": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        612,
+        649,
+        682,
+        736,
+        852,
+        862
+      ],
+      "occurrences": 12
+    },
+    {
       "file": "raw/papers/moldova-legal/COD-154-2003.md",
       "instrument": "COD-154-2003",
       "article": "46",
@@ -878,6 +905,15 @@
       "flagged_in_frontmatter": true
     },
     {
+      "instrument": "HG-743-2024",
+      "file": "raw/papers/moldova-legal/HG-743-2024.md",
+      "consolidation_date": "2026-12-30",
+      "doc_id": "155190",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
       "instrument": "L-1134-1997",
       "file": "raw/papers/cnpf/L-1134-1997.md",
       "consolidation_date": "2028-01-01",
@@ -915,8 +951,8 @@
     }
   ],
   "counts": {
-    "provisions": 47,
-    "acts": 9,
-    "future_consolidations": 9
+    "provisions": 48,
+    "acts": 10,
+    "future_consolidations": 10
   }
 }
