@@ -93,3 +93,9 @@
 - **Aflat:** după mutare, `raw/papers/bnm/legal/documents/` nu mai conține nicio lege în engleză, doar regulamente, hotărâri și documente ale BNM; avertismentul „BNM English corpus” din acoperire numără de acum doar acte secundare cu marcaje `Article N`, nu legi.
 - **Decis:** Eugen a confirmat lista. Cele cinci merg în `_archive/bnm-en-2026-09/` fără ancore, cu hash-ul de dinainte de ancorare, spre deosebire de grupa A; nota de proveniență ține cele două grupe separat, cu data și starea fiecăreia.
 - **Unde:** `_archive/bnm-en-2026-09/_PROVENANCE.md`, secțiunea „Grupa B, mutată aici la P8-bis”; `entities/bnm-official-document-corpus-2026.md`; `raw/papers/bnm/legal-ro/_manifest.md`.
+
+## [2026-09-05] decision | Sesiunea de restructurare s-a încheiat
+
+- **Aflat:** planul din 5 septembrie e executat integral, P0 până la P9, plus P8-bis pe care l-a deschis P9; ultimul commit `5683961`, `origin/main` identic, verificatorul cu zero erori pe 91 de pagini și 378 de surse. Următoarea lacună reală, în afara planului: regulamentele BNM sunt tot în engleză, 60 de fișiere cu marcaje `Article N`, deci o obligație concretă dintr-un regulament rămâne parțial ancorată.
+- **Decis:** Eugen închide sesiunea. Rămân la judecata lui, nerezolvate aici: lacunele fără marcaj din 548/1995 (întrebarea deschisă 6), legile de interpretare neingerate pentru 202/2017 și 232/2016, regulamentul UE în engleză din perimetrul de politici pe care regula de traducere îl marchează greșit, reîmprospătarea registrului de spețe din proiect, cele trei actualizări din proiectul claude.ai (secțiunea 8 a planului).
+- **Unde:** `CLAUDE.md`, „Open questions” și „Outstanding work”; `_meta/lint/validate-2026-09-05.md`; acest jurnal, de la prima intrare a zilei.
