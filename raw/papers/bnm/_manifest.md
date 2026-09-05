@@ -9,6 +9,13 @@
 
 The legal branch contains BNM catalogue-record attachments from the legal register; the report branch contains attachments from BNM’s three explicitly labelled formal-report series. This is a **catalogue-origin classification**. Some parent pages expose related or general attachments, so individual file relevance remains traceable to its parent BNM record in `_manifest.csv`.
 
+## Romanian texts of the banking laws (added 2026-09-05)
+
+`legal-ro/` holds the consolidated Romanian text from legis.md of six banking laws that this corpus
+otherwise had only as unofficial English translations: 202/2017, 548/1995, 114/2012, 232/2016,
+62/2008 and 160/2023 (which replaced 575/2003). These are the citable texts; the English files in
+`legal/documents/` only locate a provision (decision D2). Branch manifest: [legal-ro/_manifest.md](./legal-ro/_manifest.md).
+
 ## Paths
 
 - Legal originals: `legal/original/`; legal Markdown extracts: `legal/documents/`.

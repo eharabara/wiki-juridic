@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-05T10:24:21",
+  "generated": "2026-09-05T14:48:54",
   "as_of": "2026-09-05",
-  "files_scanned": 399,
+  "files_scanned": 405,
   "provisions_not_yet_in_force": [
     {
       "file": "raw/papers/moldova-legal/COD-218-2008.md",
@@ -727,6 +727,23 @@
       "occurrences": 2
     },
     {
+      "file": "raw/papers/bnm/legal-ro/L-114-2012.md",
+      "instrument": "L-114-2012",
+      "article": "103^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP128 din 02.07.26",
+      "official_gazette": "MO305-308/14.07.26 art.324",
+      "context": "[Art.103^1 al.(4), lit.h) introdusă prin LP128 din 02.07.26, MO305-308/14.07.26 art.324; în vigoare 01.01.27]",
+      "lines": [
+        63,
+        1548
+      ],
+      "occurrences": 2
+    },
+    {
       "file": "raw/papers/moldova-legal/L-845-1992.md",
       "instrument": "L-845-1992",
       "article": "36^1",
@@ -870,6 +887,15 @@
       "flagged_in_frontmatter": true
     },
     {
+      "instrument": "L-114-2012",
+      "file": "raw/papers/bnm/legal-ro/L-114-2012.md",
+      "consolidation_date": "2027-01-01",
+      "doc_id": "155331",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
       "instrument": "L-171-2012",
       "file": "raw/papers/cnpf/L-171-2012.md",
       "consolidation_date": "2027-06-01",
@@ -889,8 +915,8 @@
     }
   ],
   "counts": {
-    "provisions": 46,
-    "acts": 8,
-    "future_consolidations": 8
+    "provisions": 47,
+    "acts": 9,
+    "future_consolidations": 9
   }
 }

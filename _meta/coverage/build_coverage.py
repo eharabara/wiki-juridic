@@ -110,7 +110,9 @@ def scan_file(path, rel):
 
 def collect():
     acts, eu, bnm_unanchored, other = [], 0, [], 0
-    for folder in ("cnpf", "moldova-legal"):
+    # bnm/legal-ro holds the six banking laws in Romanian (P8, 2026-09-05): primary acts,
+    # counted with cnpf and moldova-legal, and kept out of the BNM English walk below.
+    for folder in ("cnpf", "moldova-legal", "bnm/legal-ro"):
         d = os.path.join(ROOT, "raw", "papers", folder)
         if not os.path.isdir(d):
             continue
@@ -123,6 +125,8 @@ def collect():
             acts.append(scan_file(os.path.join(d, name), f"raw/papers/{folder}/{name}"))
     bnm = os.path.join(ROOT, "raw", "papers", "bnm")
     for dirpath, _dirs, files in os.walk(bnm):
+        if os.path.basename(dirpath) == "legal-ro":
+            continue
         for name in files:
             if not name.endswith(".md"):
                 continue
