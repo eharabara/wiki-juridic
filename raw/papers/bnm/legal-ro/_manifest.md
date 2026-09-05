@@ -30,6 +30,9 @@ engleze neoficiale, neancorate. Regula D2: traducerea localizează, textul de ai
 | `L-232-2016.md` | Legea nr. 232/2016 redresarea și rezoluția băncilor | 146912 | 2025-02-28 | 344 | PASS, 1443 linii | articole fără titlu, forma `Articolul N. –` |
 | `L-62-2008.md` | Legea nr. 62/2008 reglementarea valutară | 152953 | 2025-12-31 | 73 | PASS, 1103 linii | titlul oficial poartă asterisc de republicare |
 | `L-160-2023.md` | Legea nr. 160/2023 garantarea depozitelor în bănci | 137939 | 2023-10-01, nemodificată | 58 | PASS, 599 linii | **înlocuiește Legea 575/2003**, abrogată pe legis.md (doc_id 137950) |
+| `L-550-1995.md` | Legea nr. 550/1995 cu privire la lichidarea băncilor (fosta Lege a instituțiilor financiare) | 146899 | 2025-02-28 | 20 | PASS, 348 linii | P8-bis; **denumire schimbată**; doar arts. 1–3 și 38^1–38^17 în vigoare, cap. I–VI abrogate |
+| `L-250-2017.md` | Legea nr. 250/2017 supravegherea suplimentară a conglomeratelor financiare | 105629 | 2018-03-29, nemodificată | 23 | PASS, 251 linii | P8-bis; BNM și CNPF sub același regim |
+| `L-239-2008.md` | Legea nr. 239/2008 transparența în procesul decizional | 142655 | 2024-07-05 | 20 | PASS, 148 linii | P8-bis; lege generală, aici doar pentru că BNM o ține în registrul său |
 
 ## Ce s-a schimbat față de lista D3
 
@@ -38,10 +41,18 @@ din 01.10.2023, care transpune parțial Directiva 2014/49/UE. Decis de Eugen la 
 ingerează înlocuitorul. Textul abrogat nu este ingerat; pentru spețe anterioare lui 01.10.2023 se
 caută separat.
 
+## P8-bis, 2026-09-05
+
+După P9 au rămas în `raw/papers/bnm/legal/documents/` cinci traduceri engleze fără text românesc în
+vault: 250/2017 (două variante), 550/1995 și 239/2008 (două variante). Cele trei acte au fost ingerate
+în aceeași zi, pe aceeași metodă. Cloudflare a cerut din nou bifa lui Eugen la prima navigare:
+verificarea expiră între sesiuni.
+
 ## Ce rămâne deschis
 
 - Lacunele din `L-548-1995`, mai sus. Nu se corectează aici; se verifică la sursă.
 - Legile de interpretare (185/2023 și 22/2020 pentru 202/2017; 265/2016 pentru 232/2016) nu sunt
   ingerate. Articolele interpretate nu se citează fără ele.
-- Retragerea traducerilor engleze corespunzătoare din `raw/papers/bnm/legal/documents/` este pasul
-  P9, separat, după ce fiecare lege de aici are pagină de entitate (făcut la 2026-09-05).
+- Retragerea traducerilor engleze corespunzătoare: făcută la P9 pentru primele șase legi
+  (`_archive/bnm-en-2026-09/`); pentru cele trei de la P8-bis, cele cinci fișiere engleze rămase
+  se mută în aceeași arhivă când Eugen confirmă lista.

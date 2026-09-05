@@ -58,6 +58,25 @@ DOCS = {
     # la 2026-09-05: se ingereaza inlocuitorul. 1 <sup>, fara CUPRINS.
     'L-160-2023': {'doc_id': '137939',
                    'title': 'Legea nr. 160/2023 cu privire la garantarea depozitelor in banci'},
+    # ---- P8-bis, 2026-09-05: cele trei acte ale caror traduceri engleze au ramas in
+    # raw/papers/bnm/legal/documents/ dupa P9, fara text romanesc in vault.
+    # Nemodificata de la adoptare (in vigoare 29.03.2018), fara <sup>. ATENTIE: niciun rind nu
+    # incepe cu "Articolul"; forma articolelor se vede la precheck.
+    'L-250-2017': {'doc_id': '105629',
+                   'title': 'Legea nr. 250/2017 cu privire la supravegherea suplimentara a bancilor, '
+                            'asiguratorilor/reasiguratorilor si a societatilor de investitii care '
+                            'apartin unui conglomerat financiar'},
+    # DENUMIRE SCHIMBATA: legis.md da denumirea actuala "cu privire la lichidarea bancilor" si
+    # cea precedenta "institutiilor financiare". Este acelasi act, nr. 550 din 21.07.1995; alte
+    # legi o citeaza inca sub titlul vechi. NOTA din capul textului: sintagma "Legea 575/2003" se
+    # citeste "Legea 160/2023". 73 <sup>. Ultima modificare LP314/2024, in vigoare 28.02.25.
+    'L-550-1995': {'doc_id': '146899',
+                   'title': 'Legea nr. 550/1995 cu privire la lichidarea bancilor '
+                            '(fosta Lege a institutiilor financiare)'},
+    # Lege generala, nu perimetru BNM; sta aici doar pentru ca BNM o tine in registrul sau legal
+    # si traducerea ei engleza era in corpusul BNM. 5 <sup>. Ultima modificare LP49/2024.
+    'L-239-2008': {'doc_id': '142655',
+                   'title': 'Legea nr. 239/2008 privind transparenta in procesul decizional'},
 }
 
 

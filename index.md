@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-05 | Total pages: 88
+> Last updated: 2026-09-05 | Total pages: 91
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -50,9 +50,12 @@
 - [[L-232-2016]] — Legea nr. 232/2016 privind redresarea și rezoluția băncilor (BRRD): text românesc, 344 de ancore, articole fără titlu.
 - [[L-234-2016]] — Legea nr. 234/2016 privind Depozitarul central unic al valorilor mobiliare (DCU)
 - [[L-235-2006]] — Legea nr. 235/2006 cu privire la principiile de bază de reglementare a activității de întreprinzător: temeiul metodologiei AIR și al Comisiei de stat; art. 14 rezervă legii normele primare privind afacerea.
+- [[L-239-2008]] — Legea nr. 239/2008 privind transparența în procesul decizional: legea generală a consultării publice; 20 de ancore; în bnm/legal-ro doar pentru că BNM o ține în registrul său.
+- [[L-250-2017]] — Legea nr. 250/2017 privind supravegherea suplimentară a conglomeratelor financiare: BNM și CNPF sub același regim; 23 de ancore, nemodificată din 2018.
 - [[L-284-2004]] — Legea nr. 284/2004 privind serviciile societății informaționale, fosta Lege a comerțului electronic: testul de direcționare teritorială din art. 3 și răspunderea intermediarilor din arts. 15–17; transpune Directiva 2000/31/CE.
 - [[L-308-2017]] — Legea nr. 308/2017 privind AML/CFT
 - [[L-548-1995]] — Legea nr. 548/1995 cu privire la Banca Națională a Moldovei: text românesc, 91 de ancore; art. 11 fixează regimul special de contestare a actelor BNM; șapte lacune de numerotare fără marcaj în sursă.
+- [[L-550-1995]] — Legea nr. 550/1995 cu privire la lichidarea băncilor, fosta Lege a instituțiilor financiare: doar arts. 1–3 și 38^1–38^17 în vigoare, restul preluat de 202/2017; 20 de ancore.
 - [[L-62-2008]] — Legea nr. 62/2008 privind reglementarea valutară: text românesc, 73 de ancore; cap. VII măsuri de salvgardare, contestabile per art. 11 din L-548-1995.
 - [[L-62-2022]] — Legea nr. 62/2022 cu privire la publicitate: regimul general al publicității; art. 3 poartă definiția înșelătoare pe care o invocă art. 4^1 din L-171-2012, iar art. 48 interzice publicitatea financiară cu randament promis.
 - [[L-64-2010]] — Legea nr. 64/2010 cu privire la libertatea de exprimare: defăimare, judecată de valoare, dezmințire și drept la replică; sarcina probei revine reclamantului, cu șase prezumții în favoarea exprimării.

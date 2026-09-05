@@ -50,9 +50,11 @@ article from a future-dated act, and say in the answer which version applies tod
 - `raw/papers/moldova-legal/` — Civil Code, Codul fiscal, Codul administrativ, company law,
   Law 100/2017 on normative acts, and the government decisions.
 - `raw/papers/bnm/` — the BNM legal and reports corpus, converted documents plus originals.
-  `raw/papers/bnm/legal-ro/` holds, since 2026-09-05, the Romanian legis.md text of the six
-  banking laws (202/2017, 548/1995, 114/2012, 232/2016, 62/2008, 160/2023). Cite banks from
-  there, never from the English translations.
+  `raw/papers/bnm/legal-ro/` holds, since 2026-09-05, the Romanian legis.md text of nine laws:
+  the six banking laws (202/2017, 548/1995, 114/2012, 232/2016, 62/2008, 160/2023) and, from
+  P8-bis the same day, 550/1995 (now "lichidarea băncilor", formerly the law on financial
+  institutions, mostly repealed), 250/2017 (financial conglomerates) and 239/2008 (transparency
+  in decision-making). Cite banks from there, never from the English translations.
 - `raw/papers/cnpf/_manifest.md` — the source register. Read it before citing anything from the
   perimeter. It records mandate allocation between CNPF and BNM, acquis anchors, consolidation
   dates, and confidence per act.
@@ -82,9 +84,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-05 15:26 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-05 15:41 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-46 primary Moldovan acts, 29 EU acquis extracts, 289 BNM corpus documents.
+49 primary Moldovan acts, 29 EU acquis extracts, 289 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -126,9 +128,12 @@ Generated 2026-09-05 15:26 from the files themselves. Do not edit this section b
 | `L-232-2016` | 344 | 344 | 2025-02-28 | 21 superscript articles normalised |
 | `L-234-2016` | 37 | 37 | 2024-11-26 | clean |
 | `L-235-2006` | 21 | 21 | 2024-07-05 | **2.2 years old** |
+| `L-239-2008` | 20 | 20 | 2024-07-05 | **2.2 years old**; 2 superscript articles normalised |
+| `L-250-2017` | 23 | 23 | 2018-03-29 | **8.4 years old** |
 | `L-284-2004` | 29 | 29 | 2026-02-14 | 1 superscript article normalised |
 | `L-308-2017` | 47 | 47 | 2026-08-13 | 10 superscript articles normalised |
 | `L-548-1995` | 91 | 91 | 2026-04-23 | 21 superscript articles normalised |
+| `L-550-1995` | 20 | 20 | 2025-02-28 | 17 superscript articles normalised |
 | `L-62-2008` | 73 | 73 | 2025-12-31 | 3 superscript articles normalised |
 | `L-62-2022` | 58 | 58 | 2026-08-14 | 5 superscript articles normalised |
 | `L-64-2010` | 34 | 34 | 2024-01-23 | **2.6 years old** |
@@ -138,7 +143,7 @@ Generated 2026-09-05 15:26 from the files themselves. Do not edit this section b
 ### Mechanical flags
 
 - **Not yet in force.** 9 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-1134-1997` (2028-01-01), `L-171-2012` (2027-06-01), `COD-122-2003` (2026-12-02), `COD-154-2003` (2027-01-01), `COD-218-2008` (2026-09-13), `COD-443-2004` (2026-12-02), `COD-985-2002` (2026-12-02), `L-845-1992` (2027-01-01), `L-114-2012` (2027-01-01). 47 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
-- **Stale consolidations.** `L-160-2023` (2023-10-01), `L-64-2010` (2024-01-23), `DCA-61-2024` (2024-05-05), `HG-1171-2018` (2024-07-05), `L-235-2006` (2024-07-05), `HG-574-2024` (2024-08-23). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
+- **Stale consolidations.** `L-250-2017` (2018-03-29), `L-160-2023` (2023-10-01), `L-64-2010` (2024-01-23), `DCA-61-2024` (2024-05-05), `HG-1171-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `HG-574-2024` (2024-08-23). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
 - **Stale count line inside the file.** `L-177-2025` (body says 0, anchors 4), `L-178-2020` (body says 0, anchors 8), `L-192-1998` (body says 0, anchors 34). The frontmatter is right and the anchors are right; the human-readable line in the body was written by the original ingest and never updated. Cosmetic, but it is the line a reader sees first.
 - **BNM English corpus.** 65 file(s) carry 432 line-initial `Article N` markers and no anchors. Any answer resting on the English BNM translations is not anchored.
 
@@ -178,9 +183,9 @@ Do not resolve these on your own. Raise them if a matter touches them.
    `raw/papers/bnm/legal-ro/`, 22 English translations with a Romanian text in the vault are in
    `_archive/bnm-en-2026-09/`, and the five English law files left (250/2017, 550/1995, 239/2008)
    are `source_type: translation` with their anchors removed and the body proved unchanged. Any
-   `## Article` anchor left in `raw/` is now a validator error. Still open, "P8-bis": ingest
-   those three acts in Romanian. The remaining `language: other` warnings are the BNM regulations
-   and reports, not laws.
+   `## Article` anchor left in `raw/` is now a validator error. P8-bis, the same day: those three
+   acts are ingested in Romanian too. The remaining `language: other` warnings are the BNM
+   regulations and reports, not laws.
 
 6. **`L-548-1995` is missing arts. 12, 13, 29, 30, 48, 54 and 73 with no marker of any kind.**
    The numbering runs 11^n to 14, 28 to 31, 47 to 49, 53 to 55, 72 to 74. The law was republished
@@ -277,8 +282,9 @@ with no basis in the source. The refreshed consolidation contains it. No action 
    Law 160/2023. Method: `_meta/imports/bnm/ingest_bnm_ro.py` and `verify_bnm_ro.py`. Note the
    download route: legis.md now sits behind a Cloudflare check that blocks `curl`; the HTML was
    taken from Chrome after Eugen passed the check. **P9 was done the same day** (see open
-   question 5). The plan is complete; what it opened in turn is P8-bis, three acts to ingest in
-   Romanian: 550/1995, 250/2017, 239/2008.
+   question 5). The plan is complete. P8-bis, the three acts whose English translations had no
+   Romanian text (550/1995, 250/2017, 239/2008), was done the same day; note that 550/1995 is the
+   gutted former law on financial institutions, with only arts. 1-3 and 38^1-38^17 in force.
 
 ## Keeping this file true
 
