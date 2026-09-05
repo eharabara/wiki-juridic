@@ -176,25 +176,54 @@ Do not resolve these on your own. Raise them if a matter touches them.
    to `54^1` and so collides with the real art. 54^1 at line 2285: a search for art. 54^1 returns
    two different articles. Check the ingest and any citation helper before relying on that pattern.
 
-3. **Numbering gaps with no basis at all in the source.** Counted mechanically across all 49
-   anchored acts by the audit of 2026-09-05 (`_meta/lint/audit-2026-09-05-full.md`, section B):
-   **31 gap runs, 16 explained, 15 unexplained, 51 articles absent with no marker.** A gap counts
-   as explained only where an article-level or higher marker sits between the surrounding anchors
-   (an individual `[Art.NNNN abrogat prin LP...]`, a range marker `Articolul 397- 422 – abrogate.`,
-   or `Capitolul 10 - abrogat.`). A paragraph-level `(3) - abrogat.` explains nothing about a
-   missing article, and a bare `## Capitolul V` heading with no repeal word explains nothing either.
-   All are marked `[de verificat]` against legis.md.
+3. **Numbering gaps. Closed on 2026-09-05: every one is now dated to a repealing law.** The audit
+   counted 31 gap runs across the anchored acts, 15 of them with no marker in our files
+   (`_meta/lint/audit-2026-09-05-full.md`, sections B and B-quater). All 15 were then checked
+   against legis.md's own version history, act by act. **Not one is a defect in our ingest, and
+   not one is an unexplained hole in the law.** In every case the article was repealed, and only
+   the *record* of the repeal is missing from the consolidation we hold. Nothing here is
+   `[de verificat]` any more.
 
-   | act | absent | |
-   |---|---|---|
-   | `L-234-2016` | **art. 24, arts. 27-35** (10) | Depozitarul central unic, CNPF perimeter. Anchors run 1-23, 25, 26, 36-47; between art. 26 and art. 36 sits only `## Capitolul V`, a chapter heading, not a repeal. The coverage table calls this act "37 articles, 37 anchors, clean", which is true mechanically while the numbering runs to 47 with two holes in it. **Look at this one first: it can change an answer about the CNPF perimeter.** |
-   | `COD-154-2003` | **arts. 226-244** (19), **arts. 374-382** (9) | Muncii. The second run was found on 2026-09-05; only the first was recorded before. |
-   | `COD-218-2008` | **art. 441** | Contravențional; the numbering runs 440, 440^1, 442. |
-   | `COD-225-2003` | **art. 78** | Explained in the source but invisible to the anchor pattern — see item 4. |
-   | `L-100-2017` | **art. 52** | Present in the text, invisible to the anchor pattern — see item 4. |
-   | `L-220-2007` | **art. 6** | Only `## Capitolul II` between arts. 5 and 7. |
-   | `L-845-1992` | **arts. 21, 31** | Nothing at all between the neighbours. |
-   | `L-548-1995` | **arts. 12, 13, 29, 30, 48, 54, 73** | See item 6. |
+   | act | articles | repealed by | why our file cannot show it |
+   |---|---|---|---|
+   | `L-234-2016` | 24; 27-35 (Chapter IV) | **LP292/2023**, in force 21.10.2023 | marker dropped on refresh |
+   | `COD-154-2003` | 226-244 | **LP254 din 09.12.2011**, MO25-28/03.02.12 | no markers in that era |
+   | `COD-154-2003` | 374-382 | **LP205 din 20.11.2015**, in force 18.12.2015 | marker dropped on refresh |
+   | `COD-218-2008` | 441 | **LP208 din 17.11.2016**, in force 16.03.2017 | no markers in that era |
+   | `L-220-2007` | 6 | **LP90 din 29.05.2014**, MO169-173/27.06.14 | no markers in that era |
+   | `L-845-1992` | 21 | **LP133 din 15.11.2018**, in force 01.03.2019 | marker dropped on refresh |
+   | `L-845-1992` | 31 | **LP746 din 27.12.2001**, in force 12.02.2002 | no markers in that era |
+   | `L-548-1995` | 12, 13, 29, 30, 48, 54, 73 | various, all before 2016 | **repeal stubs deleted** — see item 6 |
+   | `COD-225-2003` | 78 | repeal is in the body | `Aricolul 78` misspelling — item 4 |
+   | `L-100-2017` | 52 | **not repealed at all** | `Articol 52` misspelling — item 4 |
+
+
+   **Three different mechanisms hide a repeal, and only the first was known before.** Method and
+   evidence in section B-quater of the audit; legis.md exposes every past consolidation through
+   `showDetails(null,'<doc_id>')`, and the text of one is at `/cautare/showdetails/<doc_id>`, which
+   is how each date below was established.
+
+   1. **The marker is dropped on refresh.** legis.md keeps, in a given consolidation, only the
+      `[Art.N ... prin LP...]` markers of the amendment that produced *that* version; older ones
+      are gone. `L-234-2016` carried **59** markers at doc_id 139826 (2023-10-21) and **5** at
+      doc_id 145901 (2024-11-26) — and the two that vanished were exactly the ones that explained
+      its numbering. Our own refresh of 2026-09-04 reproduced that collapse.
+   2. **The marker never existed.** Consolidations from before roughly 2018 carry no bracketed
+      markers at all, so the repeal was never annotated in the first place. Here the only evidence
+      is the version history: the article is present in one consolidation and absent from the next,
+      and that next version names the amending law.
+   3. **The repeal stub is deleted.** The consolidation used to carry an explicit, anchorable
+      `Articolul N – abrogat.` line, and a later consolidation removed the line itself. This is the
+      worst of the three, because the earlier text was self-explanatory and the later one shows
+      nothing at all. `L-548-1995` is the case — item 6.
+
+   **What this means for citation.** A gap with no marker means "no marker in this consolidation",
+   never "no repeal". Before recording anything as a source defect, check legis.md's earlier
+   versions and our own older ingests in `wiki-backups/`. And note what the vault has lost: 28 of
+   the 44 anchored acts now carry fewer than 0.05 markers per article — Codul fiscal has **1** for
+   512 articles, the Civil Code 29 for 2657 — so for most acts we hold the current text without the
+   record of how it got there. Low density is not by itself proof of loss, since a rarely amended
+   act legitimately has few markers, but it bounds what these files can answer.
 
 4. **A misspelling in the source makes an article invisible.** Two instances, both left
    uncorrected because rewriting legal text is forbidden here. In each case searching
@@ -221,10 +250,21 @@ Do not resolve these on your own. Raise them if a matter touches them.
    acts are ingested in Romanian too. The remaining `language: other` warnings are the BNM
    regulations and reports, not laws.
 
-6. **`L-548-1995` is missing arts. 12, 13, 29, 30, 48, 54 and 73 with no marker of any kind.**
-   The numbering runs 11^n to 14, 28 to 31, 47 to 49, 53 to 55, 72 to 74. The law was republished
-   in 2015 (MO 297-300/2015, under art. V of Law 147/2015), which may explain a renumbering, but
-   the legis.md text does not say so. Same class as item 3. Marked `[de verificat]`.
+6. **`L-548-1995`: resolved 2026-09-05. The seven articles were repealed, and legis.md deleted the
+   repeal stubs.** Arts. 12, 13, 29, 30, 48, 54 and 73 were repealed at various dates before 2016.
+   The consolidation of **01-08-2016** (doc_id 94178) still carried each of them as an explicit
+   line — `Articolul 12 – abrogat.`, `Articolul 29. – abrogat.`, `Articolul 73. - abrogat.`, and so
+   on for all seven. The very next consolidation, **04-10-2016** (doc_id 95643), removed those
+   lines entirely, and no amendment distinguishes the two versions' modification blocks. So the
+   numbering gap in the file we hold is the residue of a deletion by the publisher, not a defect in
+   our ingest and not a hole in the law.
+
+   This is mechanism 3 of item 3, and it is the one worth remembering: the 2016 text was
+   *self-explanatory*, and an `Articolul N – abrogat.` line is exactly the form our anchoring would
+   have captured. Had the act been ingested before October 2016, all seven would carry anchors
+   reading "abrogat" and no question would ever have arisen. The republication of 2015 (MO
+   297-300/2015, under art. V of Law 147/2015) is therefore **not** the explanation, which is what
+   was suspected here before; the stubs survived it and were removed a year later.
 
 Resolved on 2026-09-04 and kept here so it is not re-raised: art. 21 of `L-192-1998` was absent
 with no basis in the source. The refreshed consolidation contains it. No action needed.
@@ -341,7 +381,11 @@ with no basis in the source. The refreshed consolidation contains it. No action 
    all current, 378 raw sources with sha256 verified — and no structured page cites any of the 47
    provisions that are not yet in force, which is the check that matters most. What the audit left
    open, in the order it recommends:
-   - The gaps in open question 3, `L-234-2016` first, and the art. 52 anchor in open question 4.
+   - `L-234-2016` was verified against legis.md on 2026-09-05 and is **not** a defect: art. 24 and
+     Chapter IV (arts. 27-35) were repealed by LP292/2023. It exposed the marker-loss problem now
+     recorded in open question 3, which is the real item: compare the remaining runs against
+     legis.md's *earlier* versions before calling any of them a source defect. Then the art. 52
+     anchor in open question 4.
    - Retire or rewrite `run_cnpf_legal_lint.py`. Two of its checks are worth porting into
      `validate_wiki.py` because nothing else does them: **orphan pages** and **page-level raw
      references** (a claim cited to a whole file rather than to an article, 21 of them).

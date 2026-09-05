@@ -168,6 +168,63 @@ ingested straight at their current consolidation and have never been compared ag
 version, so none of them has been shown to be a source defect either. Comparing them against
 legis.md's earlier versions is the next step.
 
+
+### B-quater. All fifteen unexplained runs, checked against legis.md's version history
+
+Done 2026-09-05, after B-ter. legis.md exposes every past consolidation of an act as its own
+`doc_id`, linked from the act page as `showDetails(null,'<doc_id>')`, and the text of any version
+is at `/cautare/showdetails/<doc_id>`. That makes the question answerable: for each missing
+article, find the last consolidation that contains it and the first that does not, and read the
+amending law off the second.
+
+**Result: every gap is explained. Not one is a defect in our ingest, and not one is an
+unexplained hole in the law.**
+
+| act | articles | repealed by | mechanism |
+|---|---|---|---|
+| `L-234-2016` | 24; 27–35 (Chapter IV) | LP292/2023, in force 21.10.2023 | 1 — marker dropped |
+| `COD-154-2003` | 226–244 | LP254 din 09.12.2011, MO25-28/03.02.12 | 2 — no markers then |
+| `COD-154-2003` | 374–382 | LP205 din 20.11.2015, in force 18.12.2015 | 1 — marker dropped |
+| `COD-218-2008` | 441 | LP208 din 17.11.2016, in force 16.03.2017 | 2 — no markers then |
+| `L-220-2007` | 6 | LP90 din 29.05.2014, MO169-173/27.06.14 | 2 — no markers then |
+| `L-845-1992` | 21 | LP133 din 15.11.2018, in force 01.03.2019 | 1 — marker dropped |
+| `L-845-1992` | 31 | LP746 din 27.12.2001, in force 12.02.2002 | 2 — no markers then |
+| `L-548-1995` | 12, 13, 29, 30, 48, 54, 73 | various, all before 2016 | 3 — stubs deleted |
+| `COD-225-2003` | 78 | repeal recorded in the body | misspelling `Aricolul 78` |
+| `L-100-2017` | 52 | **never repealed** | misspelling `Articol 52` |
+
+**Three mechanisms, not one.** B-ter found the first; the sweep found two more.
+
+1. **Marker dropped on refresh.** The bracket existed in an earlier consolidation and is gone from
+   the current one. Recovered verbatim for `L-845-1992` art. 21 —
+   `[Art.21 abrogat prin LP133 din 15.11.18, MO467-479/14.12.18 art.784; în vigoare 01.03.19]` —
+   and for `COD-154-2003` arts. 374 and 382 (`[Art.374 abrogat prin LP205 din 20.11.15 …]`).
+2. **Marker never existed.** Consolidations before roughly 2018 carry no bracketed markers at all;
+   every pre-2021 version of `L-845-1992` has zero. The evidence is then the transition itself,
+   corroborated by date: `L-220-2007` art. 6 is present at 07-12-2012 and absent at 27-06-2014, and
+   that version's sole amendment is LP90 din 29.05.14, published in MO of **27.06.14** — the same
+   day. `COD-218-2008` art. 441 and `COD-154-2003` 226–244 align the same way.
+3. **Repeal stub deleted.** `L-548-1995` held all seven articles as explicit
+   `Articolul N – abrogat.` lines in the consolidation of 01-08-2016 (doc_id 94178); the next
+   consolidation, 04-10-2016 (doc_id 95643), removed the lines outright, with no amendment
+   distinguishing the two. This is the worst case: the earlier text was self-explanatory, and an
+   `Articolul N – abrogat.` line is exactly the form our anchoring captures — had the act been
+   ingested before October 2016, all seven would carry anchors reading "abrogat".
+
+**One caveat on method.** The bisection assumes an article's presence is monotonic over time. That
+held everywhere except `L-548-1995`, where the per-article transition dates came out inconsistent
+(art. 12 appeared to vanish in 2006 while still standing as a stub in 2016). That is why the
+evidence there is the side-by-side comparison of the two 2016 consolidations, not a bisected date.
+Where a single amendment is named for the transition version, it is corroborated by the
+publication date matching the version date.
+
+**What it costs the vault.** Across the 44 anchored acts, 28 now carry fewer than 0.05 markers per
+article: Codul fiscal has **1** for 512 articles, the Civil Code 29 for 2657, `COD-154-2003` 3 for
+416. Acts that kept their history look nothing like it — `L-308-2017` has 46 for 47. Low density is
+not by itself proof of loss, since a rarely amended act legitimately has few markers, but it bounds
+what these files can answer: for most acts we hold the current text without the record of how it
+got there.
+
 ---
 
 ## C. Two claims in CLAUDE.md that the files no longer support
@@ -285,10 +342,11 @@ refresh from the project at the start of any session that touches the wiki, then
 
 ## Suggested order of work
 
-1. ~~`L-234-2016` arts. 24 and 27–35~~ — **done 2026-09-05, see B-ter.** Not a defect: repealed by
-   LP292/2023. What replaces it as the priority is the systemic problem it exposed — compare the
-   remaining unexplained runs against legis.md's *earlier* versions before recording any of them as
-   a source defect, because a refresh drops the older amendment markers.
+1. ~~The article gaps~~ — **all closed 2026-09-05, see B-ter and B-quater.** Every one of the
+   fifteen is dated to a repealing law; none is a defect in our ingest. What remains is the
+   consequence, not the gaps: the vault holds current texts largely stripped of their amendment
+   history, and three distinct mechanisms cause it. Decide whether that history is worth
+   recovering — it is recoverable, act by act, from legis.md's version list.
 2. **`L-100-2017` art. 52** — record the trap next to the `COD-225-2003` art. 78 one.
 3. **CLAUDE.md corrections** — close outstanding-work item 2 for the Civil Code, reopen it against
    `COD-985-2002`; add the new gaps to open question 3; add `54^1/1` to open question 2.
