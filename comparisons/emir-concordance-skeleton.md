@@ -1,7 +1,7 @@
 ---
 title: EMIR concordance skeleton — Regulamentul (UE) 648/2012 vs dreptul Moldovei
 created: '2026-07-09'
-updated: '2026-07-10'
+updated: '2026-09-05'
 type: comparison
 tags:
 - moldova
@@ -22,8 +22,8 @@ sources:
 - concepts/moldova-eu-transposition-rule-matrix.md
 - concepts/acquis-CSDR-EMIR.md
 - comparisons/cnpf-transposition-matrix.md
-- queries/test-metoda-transpunere-emir-2026-07-09.md
-- queries/verificare-schelet-lege-emir-2026-07-03.md
+- _archive/emir-2026-07/test-metoda-transpunere-emir-2026-07-09.md
+- _archive/emir-2026-07/verificare-schelet-lege-emir-2026-07-03.md
 - raw/papers/cnpf/UE-648-2012.md
 - raw/papers/cnpf/UE-648-2012-priority-articles-2026-07-09.md
 - raw/papers/cnpf/L-171-2012.md
@@ -32,8 +32,8 @@ sources:
 - raw/papers/cnpf/L-234-2016.md
 - raw/papers/moldova-legal/L-100-2017.md
 - raw/papers/moldova-legal/HG-1171-2018.md
-- queries/emir-audit-conformitate-lege100-hg1171-2026-07-10.md
-- queries/emir-draft-complet-2026-07-10.md
+- _archive/emir-2026-07/emir-audit-conformitate-lege100-hg1171-2026-07-10.md
+- _archive/emir-2026-07/emir-draft-complet-2026-07-10.md
 - raw/papers/cnpf/md-2026-07-09-proiect-lege-emir-completat.md
 confidence: medium
 ---
@@ -42,9 +42,9 @@ confidence: medium
 
 ## Scop și statut
 
-Această pagină transformă recomandarea din [[test-metoda-transpunere-emir-2026-07-09]] într-un prim **schelet de concordanță articol-cu-articol** pentru EMIR. Nu este încă tabelul oficial de concordanță cerut de [[HG-1171-2018]] și [[L-100-2017]]; este un instrument de lucru pentru a decide ce trebuie redactat, ce trebuie verificat și ce instituție este competentă.
+Această pagină transformă recomandarea din [[_archive/emir-2026-07/test-metoda-transpunere-emir-2026-07-09|test-metoda-transpunere-emir-2026-07-09]] într-un prim **schelet de concordanță articol-cu-articol** pentru EMIR. Nu este încă tabelul oficial de concordanță cerut de [[HG-1171-2018]] și [[L-100-2017]]; este un instrument de lucru pentru a decide ce trebuie redactat, ce trebuie verificat și ce instituție este competentă.
 
-Verdictul de lucru rămâne: **EMIR nu poate fi marcat ca transpus demonstrat**. Există sursă EUR-Lex, pagină de acquis, analiză de schelet național și ancore moldovenești parțiale, dar lipsește încă un tabel complet cu calificative de compatibilitate pentru fiecare obligație relevantă. Vezi [[acquis-CSDR-EMIR]], [[cnpf-transposition-matrix]] și [[verificare-schelet-lege-emir-2026-07-03]].
+Verdictul de lucru rămâne: **EMIR nu poate fi marcat ca transpus demonstrat**. Există sursă EUR-Lex, pagină de acquis, analiză de schelet național și ancore moldovenești parțiale, dar lipsește încă un tabel complet cu calificative de compatibilitate pentru fiecare obligație relevantă. Vezi [[acquis-CSDR-EMIR]], [[cnpf-transposition-matrix]] și [[_archive/emir-2026-07/verificare-schelet-lege-emir-2026-07-03|verificare-schelet-lege-emir-2026-07-03]].
 
 ## Surse și limite
 
@@ -126,14 +126,14 @@ Verdictul de lucru rămâne: **EMIR nu poate fi marcat ca transpus demonstrat**.
 ## Următorul pas
 
 
-Artefacte de execuție create pe baza acestei pagini: [[emir-draft-normative-package-phase-1-2026-07-09]], [[emir-draft-complet-2026-07-10]] și [[emir-audit-conformitate-lege100-hg1171-2026-07-10]]. Draftul din 2026-07-10 transformă rândurile prioritare în text normativ complet și audit procedural Legea 100/HG1171.
+Artefacte de execuție create pe baza acestei pagini: [[_archive/emir-2026-07/emir-draft-normative-package-phase-1-2026-07-09|emir-draft-normative-package-phase-1-2026-07-09]], [[_archive/emir-2026-07/emir-draft-complet-2026-07-10|emir-draft-complet-2026-07-10]] și [[_archive/emir-2026-07/emir-audit-conformitate-lege100-hg1171-2026-07-10|emir-audit-conformitate-lege100-hg1171-2026-07-10]]. Draftul din 2026-07-10 transformă rândurile prioritare în text normativ complet și audit procedural Legea 100/HG1171.
 
 Transformarea acestei pagini în tabel oficial cere două lucruri: (1) text de proiect pe articole, inclusiv modificări conexe; (2) completarea calificativelor de compatibilitate HG1171 pentru fiecare rând. Până atunci, această pagină este instrumentul de lucru pentru redactarea și verificarea proiectului EMIR.
 
 ## Linkuri interne
 
-- [[test-metoda-transpunere-emir-2026-07-09]]
-- [[verificare-schelet-lege-emir-2026-07-03]]
+- [[_archive/emir-2026-07/test-metoda-transpunere-emir-2026-07-09|test-metoda-transpunere-emir-2026-07-09]]
+- [[_archive/emir-2026-07/verificare-schelet-lege-emir-2026-07-03|verificare-schelet-lege-emir-2026-07-03]]
 - [[acquis-CSDR-EMIR]]
 - [[cnpf-transposition-matrix]]
 - [[moldova-eu-transposition-method]]

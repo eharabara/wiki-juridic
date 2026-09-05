@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-05 | Total pages: 87
+> Last updated: 2026-09-05 | Total pages: 82
 
 ## Entities
 
@@ -97,8 +97,4 @@
 
 ## Queries
 
-- [[emir-draft-complet-2026-07-10]] — Draft complet de lege EMIR: derivate OTC, CPC, registre centrale de tranzacții, supraveghere, sancțiuni și tranziții.
-- [[emir-audit-conformitate-lege100-hg1171-2026-07-10]] — Audit de conformitate Legea 100/HG1171 pentru proiectul completat de lege EMIR.
-- [[emir-draft-normative-package-phase-1-2026-07-09]] — Pachet de soluții normative EMIR faza 1: dispoziții generale, CNPF/BNM, clearing, reporting, CPC/TR
-- [[test-metoda-transpunere-emir-2026-07-09]] — Test al metodei și matricei de reguli pe cazul EMIR 648/2012
-- [[verificare-schelet-lege-emir-2026-07-03]] — Sinteză asupra scheletului de lege EMIR, comentariilor DOCX și aliniării la acquis/CNPF-BNM.
+Niciuna activă. Cele cinci pagini EMIR din iulie 2026 au fost arhivate la 2026-09-05 în `_archive/emir-2026-07/`, cu nota de proveniență `_PROVENANCE.md`; paginile analitice care le citează ([[emir-concordance-skeleton]], [[acquis-CSDR-EMIR]]) trimit acum acolo.
