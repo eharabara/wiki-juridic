@@ -54,5 +54,5 @@ verificarea expiră între sesiuni.
 - Legile de interpretare (185/2023 și 22/2020 pentru 202/2017; 265/2016 pentru 232/2016) nu sunt
   ingerate. Articolele interpretate nu se citează fără ele.
 - Retragerea traducerilor engleze corespunzătoare: făcută la P9 pentru primele șase legi
-  (`_archive/bnm-en-2026-09/`); pentru cele trei de la P8-bis, cele cinci fișiere engleze rămase
-  se mută în aceeași arhivă când Eugen confirmă lista.
+  (`_archive/bnm-en-2026-09/`); pentru cele trei de la P8-bis, cele cinci fișiere engleze au fost mutate
+  în aceeași arhivă la 2026-09-05, după confirmarea lui Eugen.

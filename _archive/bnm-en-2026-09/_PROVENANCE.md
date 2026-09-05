@@ -47,7 +47,25 @@ editează, conform variantei stricte pentru `raw/` (punctul deschis 3, 2026-09-0
 înregistrarea catalogului BNM din 12 iulie 2026, iar tabelul de mai sus este redirecționarea declarată.
 Câmpul `archived_original` din frontmatter-ul fișierelor mutate indică tot calea veche, din același motiv.
 
-## Grupa B, rămasă în `raw/papers/bnm/legal/documents/`
+## Grupa B, mutată aici la P8-bis (2026-09-05, mai târziu în aceeași zi)
+
+Cele cinci traduceri de mai jos au rămas la P9 pe loc, de-ancorate și declarate `translation`, fiindcă
+nu aveau text românesc. La P8-bis cele trei acte au fost ingerate în `raw/papers/bnm/legal-ro/`, iar
+Eugen a confirmat mutarea. Vin aici **fără ancore**, spre deosebire de grupa A; `sha256` al lor este
+hash-ul de dinainte de ancorare.
+
+| Fișier Markdown | Original | Textul românesc care îl înlocuiește |
+|---|---|---|
+| `005__Lege 250_Engleza.pdf.md` | `005__Lege 250_Engleza.pdf` | `raw/papers/bnm/legal-ro/L-250-2017.md` |
+| `006__Lege 250_Engleza.doc.md` | `006__Lege 250_Engleza.doc` | `raw/papers/bnm/legal-ro/L-250-2017.md` |
+| `009__Law on banks liquidation no 550-XIII, as of 21_07_1995.pdf.md` | `009__Law on banks liquidation no 550-XIII, as of 21_07_1995.pdf` | `raw/papers/bnm/legal-ro/L-550-1995.md` |
+| `034__ENG_Legea 239.pdf.md` | `034__ENG_Legea 239.pdf` | `raw/papers/bnm/legal-ro/L-239-2008.md` |
+| `035__ENG_Legea 239.docx.md` | `035__ENG_Legea 239.docx` | `raw/papers/bnm/legal-ro/L-239-2008.md` |
+
+Din `raw/papers/bnm/legal/documents/` nu mai rămâne nicio lege în engleză, doar regulamentele,
+hotărârile și celelalte acte ale BNM, plus documentele în română din registrul BNM.
+
+## Grupa B, așa cum arăta la P9
 
 Cinci traduceri fără text românesc în vault. Rămân pe loc, cu `source_type: translation` și
 **fără ancore**: titlurile `## Article N.` inserate la 2026-09-04 au fost scoase, iar corpul a fost

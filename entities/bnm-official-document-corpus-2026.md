@@ -11,7 +11,7 @@ confidence: high
 
 # Overview
 
-> **Changed on 2026-09-05 (P9).** 22 English translations of laws whose Romanian text is now in the vault were moved to `_archive/bnm-en-2026-09/` with their originals; see `_PROVENANCE.md` there for the file-by-file mapping. The five English law files still in `legal/documents/` (Laws 250/2017, 550/1995, 239/2008) are declared `source_type: translation` and carry no anchors (decision D2). The BNM manifests keep their original rows and paths as the catalogue record of 12 July 2026. Romanian banking law: [[L-548-1995]], [[L-202-2017]], [[L-114-2012]], [[L-232-2016]], [[L-62-2008]], [[L-160-2023]].
+> **Changed on 2026-09-05 (P9).** 22 English translations of laws whose Romanian text is now in the vault were moved to `_archive/bnm-en-2026-09/` with their originals; see `_PROVENANCE.md` there for the file-by-file mapping. The five English law files for Laws 250/2017, 550/1995 and 239/2008 followed later the same day (P8-bis), after their Romanian texts were ingested; no English law file remains in `legal/documents/`. The BNM manifests keep their original rows and paths as the catalogue record of 12 July 2026. Romanian banking law: [[L-548-1995]], [[L-202-2017]], [[L-114-2012]], [[L-232-2016]], [[L-62-2008]], [[L-160-2023]].
 
 This is the local, source-preserved BNM corpus created from the official BNM legal and formal-report catalogues on 12 July 2026. It supports research on the BNM’s mandate, subordinate regulation, bank/non-bank/insurance supervision, payments and financial-market infrastructure, and macro-financial reporting.
 

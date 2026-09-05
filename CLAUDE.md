@@ -84,9 +84,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-05 15:41 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-05 15:42 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-49 primary Moldovan acts, 29 EU acquis extracts, 289 BNM corpus documents.
+49 primary Moldovan acts, 29 EU acquis extracts, 284 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -145,7 +145,7 @@ Generated 2026-09-05 15:41 from the files themselves. Do not edit this section b
 - **Not yet in force.** 9 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-1134-1997` (2028-01-01), `L-171-2012` (2027-06-01), `COD-122-2003` (2026-12-02), `COD-154-2003` (2027-01-01), `COD-218-2008` (2026-09-13), `COD-443-2004` (2026-12-02), `COD-985-2002` (2026-12-02), `L-845-1992` (2027-01-01), `L-114-2012` (2027-01-01). 47 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
 - **Stale consolidations.** `L-250-2017` (2018-03-29), `L-160-2023` (2023-10-01), `L-64-2010` (2024-01-23), `DCA-61-2024` (2024-05-05), `HG-1171-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `HG-574-2024` (2024-08-23). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
 - **Stale count line inside the file.** `L-177-2025` (body says 0, anchors 4), `L-178-2020` (body says 0, anchors 8), `L-192-1998` (body says 0, anchors 34). The frontmatter is right and the anchors are right; the human-readable line in the body was written by the original ingest and never updated. Cosmetic, but it is the line a reader sees first.
-- **BNM English corpus.** 65 file(s) carry 432 line-initial `Article N` markers and no anchors. Any answer resting on the English BNM translations is not anchored.
+- **BNM English corpus.** 60 file(s) carry 149 line-initial `Article N` markers and no anchors. Any answer resting on the English BNM translations is not anchored.
 
 <!-- COVERAGE:END -->
 
