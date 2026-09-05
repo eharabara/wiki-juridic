@@ -1,0 +1,37 @@
+# Line endings. Added 2026-09-05 by the lint audit (`_meta/lint/audit-2026-09-05-full.md`).
+#
+# The problem. Git for Windows sets `core.autocrlf=true` in the system config, so a fresh
+# clone rewrote every text file to CRLF, while this working copy carries a local
+# `core.autocrlf=false` and kept the committed bytes. The validator therefore passed here
+# and failed in a clone: `raw/papers/cnpf/L-192-1998.md` declares `sha256_convention: raw`,
+# and a converted checkout no longer reproduced its digest. A check that depends on who
+# cloned the repository is not a check.
+#
+# Why this file converts nothing instead of normalising everything. This vault hashes the
+# body of every raw source and stores the digest inside the file. Three sources reproduce
+# only over their unconverted bytes -- `raw/papers/moldova-legal/CC-1107-2002.md` and the
+# two `raw/papers/mded-policy-2024/economic-criteria-*.md` -- so rewriting line endings
+# would break precisely the check that proves the legal text has not changed. It would also
+# rewrite the strip-and-compare evidence in `_meta/anchoring-work/` and the
+# `showdetails-*.html` download snapshots, whose value is that they are what was received.
+#
+# So git converts nothing, in either direction: a checkout equals the commit on every
+# machine, whatever `core.autocrlf` says. Mixed endings survive, which is honest -- the
+# sources arrived that way -- and every hash keeps reproducing.
+#
+# Consequence for new files: they are stored exactly as written. Write LF.
+* -text diff
+
+# Real binaries: no textual diff.
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.doc  binary
+*.docx binary
+*.xls  binary
+*.xlsx binary
+*.ppt  binary
+*.pptx binary
+*.zip  binary
