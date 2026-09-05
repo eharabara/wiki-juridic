@@ -1,0 +1,10 @@
+source            : raw/papers/cnpf/L-178-2020.md
+output            : _meta/anchoring-work/L-178-2020.md
+sha256 convention : LF
+sha256 pre        : 254f257d2c57f9db73ee6ca7250c7947ee71c410166d2b78751d50160d623b2c
+sha256 post       : 36ae62dec7a60825382d089f5da0f4c75af69c4fe7ba40e69b6d9b870359f231
+anchors inserted  : 8
+roman numbers     : I, II, III, IV, V, VI, VII, VIII
+
+flattened superscript candidates:
+   none

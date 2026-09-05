@@ -1,0 +1,57 @@
+--- raw/papers/cnpf/L-177-2025.md	2026-07-09 15:33:42.529082300 +0300
++++ _meta/anchoring-work/L-177-2025.md	2026-09-04 15:12:45.820558900 +0300
+@@ -2,7 +2,7 @@
+ source_url: https://www.legis.md/cautare/getResults?doc_id=149610&lang=ro
+ showdetails_url: https://www.legis.md/cautare/showdetails/149610
+ ingested: '2026-07-09'
+-sha256: 5e0cb25ec1f780db6bda0f10cc42cb23763ff8b0cb9cd554de3cab772bcbeffa
++sha256_pre_anchoring: 5e0cb25ec1f780db6bda0f10cc42cb23763ff8b0cb9cd554de3cab772bcbeffa
+ source_type: legal-text
+ publisher: legis.md / Ministerul Justiției al Republicii Moldova
+ language: ro
+@@ -18,6 +18,18 @@
+ latest_modification_line: 'Publicat : 21-07-2025'
+ full_text: true
+ extract_method: curl showdetails + lxml text extraction
++sha256: 2782288ec267d1354e784125a47ce0ff0a35a22a6c4e502ddffb1accc6337edd
++sha256_convention: LF
++articole detectate: 4
++anchoring_date: '2026-09-04'
++anchor_convention: >-
++  Source form 'Art. <Roman>. -' (an amending act numbering its own articles) anchored by
++  INSERTING '## Articolul N.' above the provision line; the original
++  'Art.' token and the whole body line are unchanged. These acts carry
++  no article titles -- the provision runs straight on from the dash --
++  so the anchor is the number alone. Roman numerals are kept as drafted.
++  Strip every line matching '^## Articolul ' to recover the
++  pre-anchoring body byte-for-byte.
+ ---
+ 
+ # raw/L-177-2025 — text legis.md amendament
+@@ -63,6 +75,7 @@
+ Publicat : 21-07-2025
+ în Monitorul Oficial Nr. 381-384 art. 495
+ Parlamentul adoptă prezenta lege organică.
++## Articolul I.
+ Art. I. – Legea nr. 171/2012 privind piața de capital (Monitorul Oficial al Republicii Moldova, 2012, nr. 193–197, art. 665), cu modificările ulterioare, se modifică după cum urmează:
+ 1. La articolul 1 alineatul (1), după textul „inclusiv piețele reglementate,” se introduce textul „măsurile de protecție a investitorilor,”.
+ 2. La articolul 2 alineatul (1), cuvintele „emise de emitenți din Republica Moldova” se exclud.
+@@ -90,6 +103,7 @@
+ (9) Publicitatea difuzată în sensul prezentului articol se prezumă publicitate înșelătoare, astfel cum este definită aceasta la art. 3 din Legea nr. 62/2022 cu privire la publicitate, până la proba contrarie, rezultată din investigațiile desfășurate în acest sens de către organele competente.
+ (10) În scopul constatării și/sau prevenirii de către Comisia Națională a încălcării prevederilor prezentului articol, prevederile art. 141 alin. (7) și art. 142 se aplică în mod corespunzător, în funcție de posibilitatea reală de intervenție a Comisiei Naționale.”
+ 5. La articolul 61 alineatul (1) litera b), textul „12 ani” se substituie cu textul „13 ani”.
++## Articolul II.
+ Art. II. – Codul penal al Republicii Moldova nr. 985/2002 (republicat în Monitorul Oficial al Republicii Moldova, 2009, nr. 72–74, art. 195), cu modificările ulterioare, se completează cu articolul 24513 cu următorul cuprins:
+ „Articolul 24513. Marketingul, vânzarea sau distribuirea
+ în Republica Moldova a instrumentelor
+@@ -98,8 +112,10 @@
+ se pedepsește cu amendă în mărime de la 10000 la 20000 de unități convenționale sau cu închisoare de până la 3 ani, în ambele cazuri cu (sau fără) privarea de dreptul de a ocupa anumite funcții sau de a exercita o anumită activitate pe un termen de până la 2 ani, iar persoana juridică se pedepsește cu amendă în mărime de la 20000 la 40000 de unități convenționale cu privarea de dreptul de a exercita o anumită activitate sau cu lichidarea persoanei juridice.
+ (2) Aceeași acțiune care a cauzat daune în proporții deosebit de mari
+ se pedepsește cu amendă în mărime de la 20000 la 40000 de unități convenționale sau cu închisoare de până la 6 ani, în ambele cazuri cu (sau fără) privarea de dreptul de a ocupa anumite funcții sau de a exercita o anumită activitate pe un termen de la 2 la 5 ani, iar persoana juridică se pedepsește cu amendă în mărime de la 40000 la 60000 de unități convenționale cu privarea de dreptul de a exercita o anumită activitate sau cu lichidarea persoanei juridice.”
++## Articolul III.
+ Art. III. – Articolul 133 din Codul de procedură penală al Republicii Moldova nr. 122/2003 (republicat în Monitorul Oficial al Republicii Moldova, 2013, nr. 248–251, art. 699), cu modificările ulterioare, se completează cu alineatul (5) cu următorul cuprins:
+ „(5) Măsurile speciale de investigații pot fi efectuate și în cadrul investigațiilor care vizează constatarea infracțiunilor conexe încălcării prevederilor Legii nr. 171/2012 privind piața de capital.”
++## Articolul IV.
+ Art. IV. – Prezenta lege intră în vigoare la data publicării în Monitorul Oficial al Republicii Moldova.
+ PREȘEDINTELE PARLAMENTULUI Igor GROSU
+ Nr. 177. Chișinău, 3 iulie 2025.

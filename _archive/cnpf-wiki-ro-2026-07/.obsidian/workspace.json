@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "95ec5946b87f7c18",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccbe43471f6177aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3082545faee78818",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d5003b4f792f945e",
+    "type": "split",
+    "children": [
+      {
+        "id": "579d809877a506f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ac14917e95f8dae",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e86dfc09831ba5c6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d97f2e33e80ab9ab",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f2b5e767ab5e1ec3",
+    "type": "split",
+    "children": [
+      {
+        "id": "92662bb44f469ea2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9009ca6d38e38f8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "raw/L-234-2016.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for L-234-2016"
+            }
+          },
+          {
+            "id": "55024610a332fd42",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "raw/L-234-2016.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from L-234-2016"
+            }
+          },
+          {
+            "id": "1ac9fa43699ab105",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "90b4b0753871eb8e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "7fdc89111d831fe8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "raw/L-234-2016.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of L-234-2016"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "3082545faee78818",
+  "lastOpenFiles": [
+    "wiki/_transposition-matrix.md",
+    "raw/UE-97-9.md",
+    "raw/UE-97-9.md.tmp.16432.ecece803cc05",
+    "raw/UE-2017-1129.md",
+    "raw/UE-98-26.md",
+    "raw/UE-98-26.md.tmp.16432.13811b18af96",
+    "raw/UE-596-2014.md",
+    "raw/UE-596-2014.md.tmp.16432.a621dd9d07ed",
+    "raw/UE-600-2014.md",
+    "raw/UE-600-2014.md.tmp.16432.775562034e19",
+    "raw/UE-2014-65.md",
+    "raw/UE-2014-65.md.tmp.16432.0286a70c4c6c",
+    "raw/UE-2014-57.md",
+    "wiki/L-171-2012.md",
+    "wiki/acquis-CSDR-EMIR.md",
+    "wiki/_lint-report.md",
+    "_transposition-matrix.pdf",
+    "raw/L-2-2020.md",
+    "raw/_manifest.md",
+    "raw/L-178-2020.md",
+    "wiki/_lint-report.md.tmp.22176.828e1578b9b6",
+    "raw/L-1134-1997.md.tmp.22176.1a7a41a13f37",
+    "wiki/L-1134-1997.md.tmp.22176.73d2d037b96d",
+    "wiki/acquis-AML.md",
+    "wiki/acquis-CompanyLaw.md",
+    "wiki/acquis-CompanyLaw.md.tmp.28272.43012c9a9e3f",
+    "wiki/acquis-IORP.md",
+    "wiki/acquis-ConsumerCredit.md",
+    "wiki/acquis-MTPL.md",
+    "wiki/acquis-Insurance.md",
+    "raw/L-1134-1997.md",
+    "wiki/acquis-Crowdfunding.md",
+    "wiki/L-181-2023.md",
+    "raw/L-234-2016.md"
+  ]
+}

@@ -1,0 +1,1455 @@
+---
+source_url: https://www.bnm.md/files/Reg_licensing_broker_34-15-2023(EN).pdf
+source_record: https://www.bnm.md/en/content/regulation-licensing-insurance-andor-reinsurance-broker-approved-decision-national
+ingested: 2026-07-12
+sha256: 430b2d4dbc63fda75e59589283a100f9571d3b4b3e1849687b68b295af72fd41
+source_file_sha256: fec316b19e3e8391f390bf5ba6f47b30dd659e24e3bf03aa38cc539e85b1fd52
+source_type: legal-text
+publisher: Banca Națională a Moldovei
+language: other
+extraction_status: text-extracted
+archived_original: raw/papers/bnm/legal/original/169__Reg_licensing_broker_34-15-2023(EN).pdf
+---
+
+# Regulation on the licensing of the insurance and/or reinsurance broker, approved by the Decision of the National Commission for Financial Markets No 34/15/2023
+
+- **BNM catalogue class:** legislation
+- **BNM record:** https://www.bnm.md/en/content/regulation-licensing-insurance-andor-reinsurance-broker-approved-decision-national
+- **Preserved original:** `raw/papers/bnm/legal/original/169__Reg_licensing_broker_34-15-2023(EN).pdf`
+- **Original filename at BNM:** `Reg_licensing_broker_34-15-2023(EN).pdf`
+
+## Extracted text
+
+1 
+ 
+  
+ 
+ 
+NATIONAL COMMISSION FOR FINANCIAL MARKETS 
+  
+D E C I S I O N 
+ 
+on the approval of the Regulation on the licensing of  
+the insurance and/or reinsurance broker  
+No 34/15 of 27.06.2023 
+ (in force as of 11.08.2023)  
+  
+Official Monitor of the Republic of Moldova No 306-309 Art. 783 of 11.08.2023 
+  
+* * * 
+REGISTERED: 
+Ministry of Justice  
+of the Republic of Moldova  
+No 1826 of August 7, 2023 
+Minister _____ Veronica MIHAILOV-MORARU 
+  
+Pursuant to Art.108 paragraph (2) letter g) and Art.110 paragraph (2) of the Law No 92/2022 on 
+insurance and reinsurance activity (Official Monitor of the Republic of Moldova, 2022, No 129-
+133, Art.229), the National Commission for Financial Markets 
+DECIDES: 
+1. The Regulation on the licensing of the insurance and/or reinsurance broker is approved 
+(attached herewith). 
+2. Chapter III and Section 3 of Chapter IV of the Decision of the National Commission for 
+Financial Markets No 47/6/2018 on the approval of the Regulation on licensing in the insurance 
+market (Official Monitor of the Republic of Moldova, 2018, No 416-422, Art. 1639), registered 
+with the Ministry of Justice of the Republic of Moldova under No 1379 on 02.11.2018, are hereby 
+repealed. 
+3. This Decision shall enter into force from the date of its publication in the Official Monitor 
+of the Republic of Moldova. 
+ 
+ 
+ 
+ 
+ 
+CHAIRMAN OF THE NATIONAL 
+COMMISSION FOR FINANCIAL  
+MARKETS 
+ 
+ 
+Dumitru 
+BUDIANSCHI 
+No 34/15. Chişinău, June 27, 2023 
+  
+
+
+ 
+ 
+ 
+ 
+2 
+ 
+Approved 
+by Decision of the National  
+Commission for Financial Markets 
+No 34/15 of 27.06.2023 
+  
+REGULATION 
+on the licensing of the insurance and/or reinsurance broker 
+  
+Section 1 
+General provisions 
+1. The Regulation on the licensing of the insurance and/or reinsurance broker (hereinafter - 
+the Regulation) lays down the procedure for issuing, reissuing, suspension and withdrawal of the 
+license of the insurance and/or reinsurance broker (hereinafter - the broker), as well as the 
+documents and information that need to be submitted to the supervisory authority for this purpose. 
+2. For the purposes of assessing compliance with the conditions laid down in the legislation, 
+the supervisory authority may request the submission of additional documents, as well as 
+information and explanations, either verbal or written, regarding the documents submitted in 
+accordance with this Regulation. 
+3. The terms and expressions used in this Regulation shall have the meanings of the terms 
+and expressions provided in Law No 92/2022 on the insurance or reinsurance activity (hereinafter 
+- Law No 92/2022). 
+4. The applications, documents and information provided in this Regulation, signed by the 
+broker’s director or by the person authorized by them, shall be submitted to the supervisory 
+authority in Romanian, on paper or in electronic form, according to the requirements of Law No 
+124/2022 on electronic identification and trust services. Copies of the documents shall be certified 
+by the signature of the broker’s director. 
+5. In the case of signing and submitting application, documents and information by the 
+authorized person, the following shall be submitted: 
+1) the power of attorney, the mandate contractor, as the case may be, any confirmatory 
+document specifying the respective authorizations; 
+2) a declaration on the person’s own responsibility, under penalty of law, by the authorized 
+person that the documents and information submitted to the supervisory authority correspond to 
+the originals. 
+6. Documents concerning foreign natural and legal persons, issued in another language, shall 
+be presented in a certified translation in accordance with the procedure established by law. 
+7. For the purposes of this Regulation, only personal data that is strictly necessary and not 
+excessive for the intended purpose will be processed, ensuring an adequate level of security and 
+confidentiality with regard to the risks presented by the processing and the nature of the data, in 
+accordance with the principles established by the legislation on the protection of personal data. 
+During the personal data processing operations carried out in compliance with this Regulation, the 
+rights of the personal data subjects shall be respected, in accordance with the provisions of Law 
+No 133/2011 on the protection of personal data. 
+8. The fee for examining the applications for issuing the authorized copy of the license, for 
+reissuing the license, for issuing the duplicate license and its authorized copy, as well as the fee 
+for making modifications and additions to the Register of licensed insurance and/or reinsurance 
+brokers, part of the Register of professional participants on the insurance market (hereinafter - the 
+Register) shall be established and charged in accordance with the regulatory framework. 
+9. The broker requests the annual financial statements from the brokerage assistant, legal 
+entity, based on the agreement concluded with it, by June 30 of the year following the management 
+
+
+ 
+ 
+ 
+ 
+3 
+ 
+year. Upon the request of the supervisory authority, the broker submits the financial statements of 
+the brokerage assistant. 
+10. The broker submits annually to the supervisory authority, by March 31 of the year 
+following the management period, on paper and in electronic format (Microsoft Excel format), the 
+register of its own staff and brokerage assistants, in accordance with Annex No 10. 
+11. The broker will submit the register of its own staff and brokerage assistants in accordance 
+with point 10 or, upon the request of the supervisory authority, on any other date. 
+  
+Section 2 
+The licensing procedure for  
+the insurance and/or reinsurance broker 
+12. In order to obtain the license for the activity of insurance and/or reinsurance 
+intermediation as an insurance and/or reinsurance broker, the broker shall submit the application, 
+drawn up in accordance with Annex No 1, to which the following documents shall be attached: 
+1) a copy of the broker's state registration decision; 
+2) a copy of the broker's statute, with all amendments and additions registered as of the date 
+of submitting the application; 
+3) a copy of the decision of the competent body on the election/appointment of the head of 
+the executive body, the broker's chief accountant and, where applicable, other management bodies; 
+4) a copy of the title deed or the lease/loan contract of the real estate in which the licensed 
+activity of the broker will be carried out, with the attached extract from the Real Estate Register 
+issued by the competent public authority; 
+5) the auditor's report (who holds a CISA certification in information systems auditing) or 
+the documents confirming the appropriate technical equipment and software programs for 
+processing data related to insurance and/or reinsurance contracts and, where appropriate, to claims, 
+under the conditions of Article 10 paragraph (21) of Law No 92/2022; 
+6) the sworn statement of the broker's management regarding the compliance of the premises 
+with the legal requirements stipulated in Art.8 paragraph (14) of the Law No 106/2022 on 
+compulsory motor third party liability insurance for damage caused by vehicles, drawn up in 
+accordance with Annex No 5; 
+7) a copy of the professional liability insurance contract, in force at the date of submission 
+of the application, with a minimum coverage of MDL 10 million for each damage claim and a total 
+annual coverage of MDL 15 million for all damage claims, with no deductible allowed; 
+8) the bank certificate confirming the full deposit of the share capital, issued no later than 5 
+working days prior to the submission of the licensing application; 
+9) written declarations of the shareholders/associates/beneficial owners confirming that the 
+funds/contributions to the share capital come from licit sources and are free of obligations as per 
+Annex No 8, with the enclosure of supporting documents; 
+10) a copy of the organizational structure and internal regulations, specifying the 
+responsibility and competence of the persons with managerial functions and of the broker's own 
+staff with intermediary duties of the broker; 
+11) the written declarations of the broker's director, shareholder/member/ beneficial owner 
+regarding close connections, as set out in Annex No 8; 
+12) the draft agreement with the insurance or reinsurance undertaking, which describes the 
+obligations of the parties and their responsibility to determine, independently, the essential 
+characteristics and main elements of an insurance product, such as the sum insured, the insurance 
+premium, the acquisition costs (including commissions), the risks, the compensation and guarantee 
+rights, elements that are not substantially modified by the insurance or reinsurance undertaking 
+providing the coverage offered by the insurance product; 
+
+
+ 
+ 
+ 
+ 
+4 
+ 
+13) the notification regarding the evaluation of senior management in accordance with the 
+regulatory acts of the supervisory authority regarding the requirements for senior management of 
+insurance and/or reinsurance intermediaries; 
+14) the report/note on the evaluation of the chief accountant. For the position of chief 
+accountant, the person must have a university degree in economics with specialization in 
+accounting, finance and/or auditing and at least 3 years of experience in bookkeeping and/or 
+financial statements and/or auditing experience in the financial sector. The report/note on the 
+evaluation of the chief accountant signed by the broker’s director shall be submitted with the 
+following documents attached: 
+a) the decision of the authorized body regarding the appointment of the person to the position 
+of chief accountant; 
+b) a document certifying that the person has no criminal record and is not wanted or under 
+criminal investigation; 
+c) copies of documents certifying the completion of studies: a copy of the diploma or another 
+document certifying the studies (containing the profile or title obtained (qualification)) and, where 
+appropriate, copies of documents certifying training and/or professional development relevant to 
+the position. At the discretion of the person - copies of documents proving participation in training 
+and/or professional development courses in the last 7 years; 
+d) a copy of the document proving the person's work experience; 
+e) the sworn statement as in Annex 9, dated and signed by the person; 
+f) a copy of the identity card confirmed by the holder's signature; 
+15) the decision of the authorized body regarding the delegation of powers of the broker’s 
+chief accountant to the audit entity or to the entity specialized in accounting, provided that the 
+entity has been operating in accounting for at least 3 years, shall be submitted to the supervisory 
+authority, with the following documents attached: 
+a) the extract from the State Register issued by the competent body for registering legal 
+entities; 
+b) a copy of the service contract concluded between the broker and the entity, the subject of 
+which will be the delegation of powers to the chief accountant; 
+c) declaration regarding the absence of conflicts of interest with the broker; 
+d) information on the name, phone number and signature specimen of the head of the entity. 
+16) information on the Register of brokerage assistants, according to Annex No 9; 
+17) the document that certifies the ownership right or the contract related to the creation, 
+management and maintenance of its own official website; 
+18) the copy of the payment order regarding the payment of the fee for the 
+issuance/reissuance of the activity license. 
+13. The requirements for the broker's professional liability insurance contract are established 
+in Annex No 7. 
+14. The premises intended for carrying out the licensed activity must be located in 
+administrative buildings or on the ground floor of residential buildings, situated in safe areas, 
+ensuring conditions for supervision and protection of the interests of clients, insured or reinsured 
+parties or potential insured or reinsured parties. 
+15. In order to carry out the activity of insurance and/or reinsurance brokerage, the broker 
+must necessarily have the appropriate technical equipment and software programs for the 
+registration of contracts, record keeping and transmission of information including to the State 
+Automated Information System in the field of compulsory motor vehicle liability insurance of the 
+insurer and, where applicable, of claims, which must ensure the possibility of: 
+1) generalization of data related to insurance policies and claims, including, as a minimum, 
+the systematization of insurance and/or reinsurance premiums, duration and insurance or 
+reinsurance period, as well as, where appropriate, generalization of data related to the occurrence, 
+
+
+ 
+ 
+ 
+ 
+5 
+ 
+damage reporting of claims, statistical information related to policyholders, insured, reinsured 
+parties or the subject of insurance; 
+2) control of access to systems and data; 
+3) establishment of user profiles in relation to relevant tasks; 
+4) security of personal data processing. 
+16. In addition to the conditions of point 12, the issuance of compulsory motor third party 
+liability insurance contracts shall be carried out in the broker's subdivisions, which meet the 
+requirements of Article 8 paragraph (14) of the Law No 106/2022 on compulsory motor third party 
+liability insurance for damage caused by vehicles. 
+17. In the event of extending the validity period of the lease/loan agreement on the real estate 
+where the licensed activity is carried out or the acquisition of the ownership rights over it, the 
+broker shall inform the supervisory authority about this fact, within a maximum of 5 working days 
+from the date of the change. 
+18. The documents and/or information for obtaining the license and/or its reissuance shall 
+be submitted to the supervisory authority in accordance with the requirements set out in points 4 - 
+6 of this Regulation. 
+19. The documents and/or information to be attached to the application shall be indicated in 
+a schedule signed by the broker’s director or by the person authorized by them, according to Annex 
+No 2, which shall be attached to the application for the issuance of the license and/or the reissuance 
+of the license. 
+20. Within no more than 15 working days from the date of receipt of the complete set of 
+documents, the supervisory authority decides whether to grant the license or refuse the issuance of 
+it. 
+21. If, during the examination of the application and the documents submitted, changes or 
+new circumstances have arisen, the broker is obliged to inform the supervisory authority and 
+submit the amended documents to that effect. 
+22. If the documents or information submitted are insufficient for granting the license, under 
+this Regulation, the supervisory authority may request the necessary documents and information, 
+including from other persons or authorities to the extent that such information is required for 
+granting the license under this Regulation. 
+23. In the cases specified in points 21 and 22, as well as in the case of the need to request 
+additional information, the deadline set out in point 20 may be extended or suspended for a period 
+set by the supervisory authority, with the broker being informed, as the case may be. 
+24. If the additional documents and information requested from the broker have not been 
+submitted within the deadline set by the supervisory authority, the latter shall terminate the 
+examination procedure of the application by informing the broker, at the latest within 10 working 
+days from the date of expiry of the deadline for completing the set. 
+25. The decisions of the supervisory authority on the granting, reissuance, suspension, 
+withdrawal of the license shall be communicated in writing to the broker and published on the 
+official website of the supervisory authority. 
+26. The license for insurance and/or reinsurance brokerage activities is granted for an 
+unlimited term and is non-transferable. 
+27. The license shall be issued on a special form indicating: 
+1) the series, number and date of issuance/extension of the license; 
+2) the name of the licensing authority; 
+3) the name, legal form of organization, registered address of the license holder; 
+4) the state identification number (IDNO) of the license holder; 
+5) the type of activity, in whole or in part, for the conduct of which the license is issued; 
+6) the date of license issuance; 
+7) the validity period of the license; 
+
+
+ 
+ 
+ 
+ 
+6 
+ 
+8) the signature of the head of the licensing authority or their deputy, authenticated by the 
+application of this authority’s stamp. 
+28. The annex to the license is a component part of the license and contains the following 
+information: license series, license number; license holder; licensing conditions that the license 
+holder must meet to carry out the activity, according to Article 108 paragraph (2) of Law No 
+92/2022. 
+29. The receipt/collection of the original license and the authorized copies from the 
+supervisory authority may be carried out by the broker’s director or the person authorized by them, 
+against a signature. 
+30. The broker is obliged to place the authorized copy of the license in a visible place in its 
+subdivisions and on its own official website. 
+31. The supervisory authority shall refuse to grant a license if: 
+1) the documents submitted, at the time of the application for licensing or within the deadline 
+specified in point 20, are not prepared in accordance with the legal provisions or are incomplete 
+and/or the information provided is inaccurate or insufficient for assessing the compliance with the 
+conditions provided for by Law No 92/2022 and this Regulation; 
+2) the persons in a management position of the broker do not meet the requirements of Law 
+No 92/2022 and the regulatory act of the supervisory authority; 
+3) the shareholders/associates of the broker do not meet the requirements laid down by Law 
+No 92/2022 and by this Regulation. 
+  
+Section 3 
+The procedure for reissuing the license  
+of the insurance and/or reinsurance broker. 
+32. The grounds for reissuing the license are: 
+1) change of the broker's name; 
+2) modification of the broker's headquarters. 
+33. Upon the occurrence of grounds for the reissuance of the license, the broker shall be 
+obliged, within 10 working days from the date of state registration of the modifications made, to 
+submit to the supervisory authority an application, drawn up in accordance with Annex No 3, 
+together with the license that needs to be reissued, submitting the following documents and/or 
+information: 
+1) a copy of the decision of the competent body of the broker regarding the modifications 
+made to the license data; 
+2) a copy of the decision of the state registration body regarding the registration of the 
+respective amendments for the change of the name or change of the registered office of the broker; 
+3) the certificate on registration of taxable subdivisions/objects issued by the State Tax 
+Service; 
+4) a copy of the title deed or the lease/loan contract of the real estate in which the brokerage 
+activity will take place; 
+5) the extract from the Real Estate Register issued by the competent public authority; 
+6) the sworn statement of the broker’s director on the compliance of the premises with the 
+legal requirements, prepared in accordance with Annex No 5; 
+7) the document confirming the payment of the fee for the license reissuance. 
+34. The supervisory authority shall decide on the issuance of the renewed license or the 
+refusal of the license renewal within a maximum of 20 working days from the date of receipt of 
+the application, accompanied by the complete set of documents and/or information required by 
+this Regulation. 
+
+
+ 
+ 
+ 
+ 
+7 
+ 
+35. If, during the examination of the application and the documents submitted, changes or 
+new circumstances have arisen, the broker is obliged to inform the supervisory authority and 
+submit the amended documents to that effect. 
+36. If the documents or information submitted are insufficient for the license to be reissued 
+in accordance with this Regulation, the supervisory authority may request the necessary documents 
+and information, including from other persons or authorities to the extent that such information is 
+necessary for the license to be reissued in accordance with this Regulation. 
+37. In the cases specified in points 35 and 36, as well as in the event of the need to request 
+additional information, the time limit set out in point 34 may be extended or suspended for a period 
+set by the supervisory authority, with the broker being informed, as applicable. 
+38. If the additional documents and information requested from the broker have not been 
+submitted within the deadline established by the supervisory authority, the latter shall terminate 
+the examination procedure of the application by informing the broker, within a maximum of 10 
+working days from the date of expiry of the deadline for completing the set. 
+39. The renewed license is issued on a new form, taking into account the changes indicated 
+in the application. The decision to renew the license shall indicate the invalidity of the previous 
+license form. At the same time, an authorized copy of the renewed license shall be issued for each 
+subdivision upon payment of the respective fee. 
+40. The amendments and additions made when the license is reissued are entered in the 
+Register no later than the next working day after the entry into force of the decision. 
+41. During the examination period of the application for the reissuance of the license, the 
+license holder may continue their activity on the basis of an authorized copy of the previous license 
+form, previously issued by the supervisory authority. 
+42. The grounds for rejecting the application for the license renewal is the fact that the 
+documents submitted, at the time of submitting the application for the license renewal or within 
+the deadline specified in point 38, are not prepared in accordance with the legal provisions or are 
+incomplete and/or the information provided is inaccurate or insufficient for assessing compliance 
+with the conditions set out in Law No 92/2022 and this Regulation. 
+  
+Section 4 
+Procedure for issuing the duplicate  
+of the insurance and/or reinsurance broker's license 
+43. The grounds for issuing a duplicate of the license may be the loss, theft, destruction, or 
+damage of the original. 
+44. In the event of loss, theft, destruction or damage of the license, the broker shall be 
+obliged, within up to 5 working days from the moment of its discovery, to publish a notice in the 
+Official Monitor of the Republic of Moldova and, within up to 10 working days, to submit to the 
+supervisory authority an application for the issuance of a duplicate of the license, indicating the 
+grounds for the issuance. 
+45. The supervisory authority shall decide on the issuance of the duplicate license within up 
+to 15 working days from the date of submission of the application for its issuance. 
+46. In the case of issuing a duplicate license, the supervisory authority shall take a decision 
+to cancel the lost, stolen, destroyed or damaged license form and enter the respective changes into 
+the Register not later than the next working day after the entry into force of that decision. 
+47. During the examination period of the application for the issuance of the duplicate license, 
+the broker may conduct its activity on the basis of the sworn statement regarding compliance with 
+the licensing conditions, submitted to the supervisory authority together with the application for 
+the issuance of the duplicate license. 
+48. The new license form shall be issued with the mention "Duplicate". 
+
+
+ 
+ 
+ 
+ 
+8 
+ 
+49. In the case of issuing the duplicate of the license, if the broker has opened subdivisions, 
+in the application referred to in point 44 of this Regulation, the authorized copies of the duplicate 
+of the license for each subdivision shall be requested, enclosing the list of the broker's subdivisions, 
+indicating their names and registered offices, as well as the document confirming the payment of 
+the respective fee. 
+50. The receipt/collection from the supervisory authority of the duplicate license and 
+authorized copies of the duplicate license may be carried out in accordance with point 31 of this 
+Regulation. 
+  
+Section 5 
+Procedure for suspension and withdrawal  
+of the insurance and/or reinsurance broker's license 
+51. The grounds under which the broker's license may be suspended or withdrawn are set 
+out in Article 111 of Law No 92/2022. 
+52. In the case of suspension/voluntary withdrawal of the license, the broker submits to the 
+supervisory authority an application drawn up in accordance with Annex No 6, attaching the 
+decision of the competent body of the broker. 
+53. The decision on the suspension/withdrawal of the license shall be taken within up to 15 
+working days from the date of the application submitted under point 51. 
+54. In the case of license suspension/withdrawal, the supervisory authority requests from the 
+insurers or reinsurers information on the broker's debts pursuant to Article 108 paragraph (10) of 
+Law No 92/2022. In the case of identification of the debts, the supervisory authority may order the 
+application of precautionary measures on the broker's assets in accordance with Article 106 
+paragraph (7) of Law No 92/2022. 
+55. The suspension/withdrawal of the license implies the cessation of the broker's activity 
+for the activity included in the license. 
+56. The license holder in respect of whom the decision on suspension/withdrawal of the 
+license has been taken is obliged: 
+1) immediately cease the conduct of insurance and/or reinsurance brokerage activity; 
+2) to return the license to the supervisory authority within 2 working days from the date of 
+communication of the decision on the withdrawal of the license, failure to comply with the 
+deadline shall result in the application of administrative sanctions; 
+3) to take all necessary measures to ensure the protection of the interests of policyholders, 
+insureds, reinsurers, beneficiaries of insurance, injured third parties, as the case may be, and other 
+individuals whose rights may be prejudiced by the suspension/withdrawal of the license; 
+4) to transfer to the insurer or reinsurer the insurance and/or reinsurance premiums collected 
+from insured and reinsured parties within the due date stipulated in the mandate agreement. 
+57. At least 30 days before the expiry of the term for which the license was suspended, the 
+head of the broker shall submit an application for resumption or termination of activity. 
+58. The supervisory authority shall adopt the decision to terminate the suspension of the 
+license on the basis of the application submitted by the broker’s director and/or supporting 
+documents confirming that the circumstances that served as grounds for the suspension of the 
+license have been removed.  
+ 
+Section 6 
+Issuance of authorized copies of the license and the processing of modifications in the  
+Register of professional participants in the insurance market 
+59. The supervisory authority issues to the broker the authorized copy of the license for each 
+subdivision in the Republic of Moldova, in which the insurance and/or reinsurance brokerage 
+activity is carried out. 
+
+
+ 
+ 
+ 
+ 
+9 
+ 
+60. The broker is obliged to place the copy of the license in a conspicuous place in all of its 
+branches and subdivisions. 
+61. The authorized copy of the license is a copy of the original license and its annex. The 
+first page of the copy shall bear the endorsement 'Authorized copy for the subdivision' indicating 
+the address of the subdivision concerned. The copy shall bear the handwritten signature of the 
+authorized member of the supervisory authority’s management body, the stamp of the supervisory 
+authority and the date on which it was signed. 
+62. For the issuance of authorized copies, the broker shall submit to the supervisory authority 
+the original license and the proof of payment of the corresponding fee. 
+63. The authorized copies and the original license may be picked up by a person empowered 
+to do so. 
+64. The authorized copy of the license shall be issued within 5 working days from the date 
+of submission of the original license to the supervisory authority. 
+65. In the event of damage to or loss of the authorized copy of the license, a new authorized 
+copy of the license shall be issued under the conditions of this section. 
+66. In the case of expansion of the activity with new subdivisions or cessation of their 
+activity, as well as in case of other modifications (e.g. correction or renaming of the existing 
+address), the broker is required to submit to the supervisory authority an application within 10 
+working days from the date of occurrence of the grounds, according to Annex No 4, enclosing the 
+relevant documents, in order to make amendments and additions to the Register, and the authorized 
+copy (authorized copies) of the license, with the corresponding fee, shall be requested. 
+67. The application for the expansion/cessation of activity related to subdivisions shall be 
+accompanied by: 
+1) the corresponding decision of the competent body of the broker; 
+2) the confirmation of the registration/exclusion of the subdivision by the State Tax Service 
+and/or, as the case may be, the corresponding decision of the state registration body, as the case 
+may be; 
+3) the statement on their own responsibility of the broker’s director on the compliance of the 
+subdivision with the legal requirements, drawn up in accordance with Annex No 5: 
+68. The supervisory authority maintains the Register, which contains: 
+1) the name of the broker; 
+2) the series, number and date of the license issuance; 
+3) the addresses of the headquarters and of the subdivisions; 
+4) the date and number of the decision to reissue the activity license; 
+5) information regarding the issuance of authorized copies and duplicate of the activity 
+license form; 
+6) the date and number of the decision on the withdrawal of the license; 
+69. The information contained in the Register shall be entered within 10 working days from 
+the date of submission of the application and of the complete set of information referred to in point 
+66, informing the broker of the modifications made. 
+70. The information entered in the Register concerning the subdivisions shall constitute the 
+basis for granting access to the State Automated Information System in the field of compulsory 
+civil liability insurance for damages caused by motor vehicles, where applicable. 
+71. The data in the Register is published on the official website of the supervisory authority 
+and is regularly updated. 
+  
+Annex No 1 
+to the Regulation on the licensing 
+of the insurance and/or reinsurance broker   
+  
+
+
+ 
+ 
+ 
+ 
+10 
+ 
+No _______ of ____ _____________20__ 
+Supervisory Authority 
+  
+APPLICATION 
+For the issuance of the license 
+  
+I apply for the issuance of the license for the activity of insurance and/or reinsurance 
+intermediation as an insurance and/or reinsurance broker (name, legal form of 
+organization)_____________________________ 
+legal 
+address 
+(registered 
+office) 
+_______________________________ 
+undertaking's 
+state 
+identification 
+number 
+(IDNO)________________________ 
+phone 
+number______________ 
+fax 
+number_______________ e-mail address ______________________ and a number of 
+____________________________________ authorized copies of the license required for the 
+conduct 
+of 
+the 
+activity 
+_________________________________________________________________________ 
+                               (indicate the location of the undertaking's subdivisions, at which the 
+activity will be carried out under the license).   
+  
+I hereby declare on my own responsibility, under penalty of law, that when carrying out the 
+type of activity for which I am applying for a license, I will comply with the licensing conditions 
+stipulated by the legislation. 
+  
+____________________________________ 
+     (full name of the broker’s director or the authorized 
+person) 
+  
+__________________ 
+              (date) 
+   
+_______________________ 
+(signature) 
+  
+  
+Annex No 2 
+to the Regulation on the licensing 
+of the insurance and/or reinsurance broker   
+  
+LIST OF DOCUMENTS 
+submitted to the supervisory authority by 
+________________________________________   
+No._______ of __________________ 20__   
+  
+Order No.  
+Document Name 
+File No. 
+  
+  
+  
+  
+  
+  
+   
+______________________________________ 
+   
+_____________________ 
+
+
+ 
+ 
+ 
+ 
+11 
+ 
+                  (the full name of the broker's 
+director or the authorized person) 
+  
+__________________ 
+          (date) 
+(signature) 
+  
+  
+ Annex No 3 
+to the Regulation on the licensing 
+of the insurance and/or reinsurance broker   
+  
+No. ________ of _______________20__   
+Supervisory Authority 
+  
+APPLICATION 
+For the reissuance of the license 
+  
+I respectfully request the reissuance of the license no.______ series ______ issued on 
+_____________20___ 
+of 
+the 
+license 
+holder 
+_____________________________________________________________________________
+___________ 
+(name of the broker) 
+having the legal address (headquarters)__________________________________________ 
+state identification number of legal entities (IDNO)_________________ phone 
+number_______________ fax number_________________ e-mail 
+address____________________________ 
+  
+Reason for the reissuance of the license: 
+_____________________________________________________________________________
+_________; 
+  
+Location (name and address) of the broker's subdivisions where the activity is conducted 
+under the license 
+1. _____________________________________________________ 
+2. _____________________________________________________   
+  
+At the same time, I request the issuance of ___________ authorized copies of the license 
+for each subdivision. 
+  
+Note: Please indicate the number of the Official Monitor in which the notice of change of 
+the registered office or name of the broker is published.  
+__________________________________________ 
+  
+Documents according to the schedule shall be attached to the application. 
+  
+______________________________________                                __________________ 
+ 
+  the full name of the broker’s director or the authorized 
+person                                                                                                                 (signature) 
+
+
+ 
+ 
+ 
+ 
+12 
+ 
+            
+__________________ 
+ 
+           (date) 
+  
+  
+ Annex No 4 
+to the Regulation on the licensing 
+of the insurance and/or reinsurance broker   
+  
+No. ______ of __ _______________20__ 
+  
+Supervisory Authority 
+  
+APPLICATION 
+for the processing of modifications and additions in 
+the Register of licensed insurance and/or reinsurance brokers. 
+  
+Full name of the broker ___________________________________ 
+Legal form of organization_______________________________________ 
+Legal address (headquarters)____________________________________________ 
+State identification number of legal entities (IDNO)______________ 
+Phone number_______________ fax number____________________ 
+E-mail address ______________________________________________ 
+  
+Reason for processing the modifications/additions in the Register of licensed insurance and/or 
+reinsurance brokers: 
+ 
+_____________________________________________________________________________
+_________ 
+_____________________________________________________________________________
+_________ 
+_____________________________________________________________________________
+_________ 
+  
+At the same time, I request the issuance of ___________ authorized copies of the license. 
+  
+The documents according to the list are attached to the application. 
+The document confirming the payment of the fee. 
+  
+______________________________________                                __________________
+_____ 
+ (the full name of the broker's director or the authorized 
+person                                                                                                               (signature) 
+ 
+__________________ 
+              (date) 
+  
+ 
+
+
+ 
+ 
+ 
+ 
+13 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Annex No 5 
+to the Regulation on the licensing 
+of the insurance and/or reinsurance broker   
+  
+DECLARATION 
+  
+I, the undersigned________________________________, in my capacity as the executive 
+body 
+of 
+the 
+insurance 
+and/or 
+reinsurance 
+broker___________________________________________________________, 
+                                                                                  (name, surname) 
+_____________________________________________________________________________
+__________ 
+(name, IDNO) 
+hereby declare on my own responsibility that the subdivision located at the address 
+___________________, 
+with cadastral number______________________________, registered with the State Tax 
+Service on ___________, as confirmed by the certificate on the registration of taxable  
+subdivisions/objects no._______ of___________________, complies with the requirements of 
+Article 8 paragraph (14) of Law No 106/2022 on compulsory civil liability insurance for 
+damages caused by motor vehicles. 
+  
+Furthermore, I hereby inform that the activity will be carried out under the contract 
+_________________ (contract number, date of conclusion, signatory parties, term of the contract, 
+cost of the contract). 
+  
+By my signature, I confirm the authenticity of this declaration and acknowledge the legal 
+consequences in the case of providing false information. * 
+  
+_______________________________                                           ___________________ 
+                                                                                                                   (signature) 
+(name, surname of the broker's director or the authorized person) 
+ 
+__________________ 
+          (date) 
+  
+*NOTE: In accordance with the legislation in force, the grounds for taking actions provided 
+by the law for the withdrawal of the permit (license) without court intervention by the supervisory 
+authority include the detection of inauthentic data in the documents submitted to the issuing 
+authority. 
+  
+  
+Annex No 6 
+
+
+ 
+ 
+ 
+ 
+14 
+ 
+to the Regulation on the licensing 
+of the insurance and/or reinsurance broker   
+  
+APPLICATION 
+For voluntary suspension/withdrawal of license 
+________________________________________________________________________
+_____ 
+(name of license holder) 
+Granted by the Supervisory Authority’s Decision No.______ of ______________ 
+1. Type of license: ___________________________________________ 
+2. License holder’s registered office: ________________________________ 
+3. Phone number: ______________ fax number: ________________ 
+4. License holder’s email address: ____________________________ 
+5. Authorized person: _________________________________________ 
+(name, surname, address, phone and fax numbers, and email address of the authorized 
+person) 
+6. The number and date of the decision of the competent body of the broker regarding the 
+suspension/withdrawal of the license for the activity of insurance and/or reinsurance 
+intermediation 
+as 
+an 
+insurance 
+and/or 
+reinsurance 
+broker: 
+______________________________________________ 
+7. Indicate the reason(s)/circumstances for requesting the suspension/withdrawal of the 
+license1 _____________________. 
+8. The number and date of the Official Monitor of the Republic of Moldova, in which the 
+broker's announcement regarding the intention to cease its activity and the filing of claims by 
+individuals whose rights may be affected was published. 
+9. Are there any debts owed to insurers or reinsurers, the supervisory authority, or other 
+entities?2 
+YES 
+NO 
+10. Are there any ongoing proceedings, complaints or investigations against the 
+undertaking and court judgments or security interests that have not been enforced3 
+YES 
+NO 
+  
+Documents attached to this application are on ____ files, including the original license, 
+where applicable.  
+___________________________________                               ___________________ 
+ 
+  (full name of the broker’s director or the authorized 
+person)                                                                                                        (signature) 
+__________________     
+            (date)   
+________________________________ 
+1 The reason(s)/circumstances for requesting the suspension/withdrawal of the license shall 
+be indicated in the case of submission of the application for voluntary suspension/withdrawal of 
+the license. 
+2 If the answer is affirmative, a list must be attached with the names and identification data 
+of the creditors, the amounts owed, and the method of settling the debts. The list shall be signed 
+by the broker’s director and stamped by the licensed undertaking. 
+3 If the answer is affirmative, details shall be provided on a separate page, signed by the 
+broker’s director or the authorized person. 
+
+
+ 
+ 
+ 
+ 
+15 
+ 
+ 
+ 
+ 
+ 
+  
+  
+Annex No 7 
+to the Regulation on the licensing 
+of the insurance and/or reinsurance broker   
+  
+MINIMUM CONTRACTUAL REQUIREMENTS 
+that must be included in the professional liability  
+insurance contract of the broker 
+  
+1. Object of insurance 
+Within the limits of the liability assumed by the insurance contract, the 
+insurer accepts that, in return for the insurance premiums received from the 
+insured, the broker, in the amount, on the terms and under the conditions 
+agreed upon in the insurance contract, shall cover the financial losses which 
+the insured is obliged to bear in the event that, while performing activities 
+related to the brokerage of insurance and/or reinsurance, they have caused 
+damage to one of his clients, whether a natural or legal person, which he is 
+obliged to repair by virtue of his professional liability. For this purpose, 
+'client' shall refer to any natural or legal person, sole trader, for whom the 
+broker has mediated an insurance and/or reinsurance contract. 
+  
+2. Insured Risks, Compensation 
+2.1. Under this insurance contract, the insurer shall cover claims for 
+damages arising from losses for which the insured is legally liable to injured 
+third parties, including defense costs incurred by the insured in taking 
+measures to mitigate the loss suffered, provided that the insured reasonably 
+considers the measures appropriate under the circumstances, even if they did 
+not result in the mitigation of the loss, through culpable breach, negligence, 
+misrepresentation or other omission of professional duties, for the following 
+insured risks: 
+2.1.1. the material damage which the insured person must compensate, 
+by way of indemnity, for the harm caused to the beneficiaries of services 
+rendered by the insured person in the exercise of his professional activity, for 
+operations such as: 
+a) negotiating on behalf of its client, presenting or proposing insurance 
+and/or reinsurance contracts; 
+b) actions to prepare for the conclusion and/or conclusion of insurance 
+and/or reinsurance contracts; 
+c) actions which contribute to the management of contracts concluded 
+on behalf of its client; 
+d) providing assistance before and during the term of the contracts or in 
+connection with the settlement of claims, as the case may be; 
+
+
+ 
+ 
+ 
+ 
+16 
+ 
+e) representing the client under the conditions specified in the mandate 
+agreement, in relation to the conditions of insurance and/or reinsurance, the 
+insured risks, the insured sum, the insurance tariffs, the insurance premium, 
+the methods of payment of the insurance premium and the settlement of 
+claims, as the case may be; 
+f) correspondence between the client and the insurer regarding the 
+insurance/reinsurance application, termination of insurance/reinsurance 
+contracts, payment of insurance premiums or premium installments, request 
+for documents and information related to the settlement of claims; 
+g) execution of the broker mandate, where applicable; 
+2.1.2. legal costs incurred by the insured in civil proceedings, 
+established by a final court judgment, if the insured has been ordered to pay 
+compensation; 
+2.1.3. legal costs incurred by the insured's client as the injured party, in 
+order to complete the legal formalities required to oblige the insured to pay 
+the compensation, provided that the insured has been ordered to pay these 
+costs by a final court judgment. 
+2.2. The professional liability contract shall cover damages caused by 
+the insurance and/or reinsurance intermediary whose loss occurred during the 
+validity period of the contract. Claims are submitted during the insurance 
+period or within a period at least equal to the applicable statute of limitations 
+and must be based on an event that occurred before the expiration of the 
+insurance period. 
+2.2.1. The insured is obliged to notify the insurer of the occurrence of 
+the insured risk within 2 working days from the date of becoming aware of it. 
+2.2.2. The insurer may grant, through special clauses in the insurance 
+contract, an extended period for notifying the occurrence of the insured risk. 
+2.3. The deadline for payment of compensation is maximum 30 days 
+after submission of the claim and all documents/information required for 
+examination. Payment of the insurance claim shall be made no later than one 
+week after acceptance and quantification of the claim or, as the case may be, 
+the part of it. 
+  
+3. The validity period of the insurance contract and territorial 
+coverage 
+3.1. The insurance contract is valid for a period of 12 months from the 
+date of its entry into force. 
+3.2. The withdrawal of the license of the insurer and/or the insured by 
+the supervisory authority has the effect of terminating the validity of the 
+insurance contract from the date of entry into force of the sanction mentioned, 
+but without restricting the period indicated in points 2.2. and 2.3. 
+3.3. If the license of the insurer and/or the insured has been withdrawn 
+and the insured has paid, even partially, the insurance premium, they are 
+entitled to recover it proportionally to the unexpired period of the insurance 
+contract. 
+3.4. The difference between the premium paid and the premium 
+calculated in accordance with point 3.3. shall be refunded to the insured only 
+in cases where no claims have been paid or are not due for events occurring 
+during the validity period of the insurance contract. 
+
+
+ 
+ 
+ 
+ 
+17 
+ 
+3.5. The insured has the obligation, in accordance with the legislation 
+in force, to conclude a new professional liability insurance contract for the 
+insurance and/or reinsurance intermediary. 
+3.6. The insurance contract is valid for the activity carried out by the 
+insured in the Republic of Moldova, in compliance with the legislation in 
+force. 
+  
+4. Insurance premiums and sums insured 
+4.1. The insurance premium is paid either in full or in installments. 
+4.2. The payment of the insurance premium or the payment of the first 
+installment of the insurance premium must be made within 3 working days of 
+the due date, otherwise the risk is not assumed by the insurer until the 
+premium is paid. The insurance period will only start to run from the moment 
+when the premium or the relevant installment has been paid. 
+4.3. If it has been decided that payment is to be made in installments 
+and the insurance period has begun, after the amount is due, the insurer shall 
+send a warning to the policyholder specifying the exact amount of the 
+premium due, allowing a supplementary period of at least 2 weeks from the 
+date of dispatch and informing the policyholder of the imminent suspension 
+of the insurance period if payment is not made in full. The insurance period 
+shall be suspended after the expiry of the additional term and shall be resumed 
+for the future only as soon as the policyholder has paid the amount due. 
+4.4. Upon the expiry of the period referred to in point 4.2 or, as the case 
+may be, point 4.3, without the premium being paid, the insurer has the right 
+to terminate the insurance, provided that the notifications regarding the legal 
+effects stipulated in the same points additionally specify that the insurer shall 
+be entitled to terminate the insurance. 
+4.5. The insurance shall automatically terminate if the insurer does not 
+initiate an action for enforced payment of the premium or part of the premium 
+within 2 months from the expiry of the period referred to in point 4.2. or, as 
+the case may be, in point 4.3. 
+4.6. The insurance contract shall also include the conditions of 
+declaration and the effects of termination. 
+4.7. The sum insured is at least MDL 10 million for each claim for 
+damages and an overall amount of MDL 15 million per year for all claims. 
+4.8. Excesses are not allowed when concluding a professional 
+indemnity insurance contract for insurance and/or reinsurance intermediaries. 
+  
+5. Obligations of the insured 
+5.1. When the insured event occurs, the insured is obliged to take all 
+necessary precautions and measures, according to the circumstances, to limit 
+the damage. 
+5.2. The insured is obliged to notify the insurer in writing of the 
+occurrence of the risk insured under the insurance contract, in accordance 
+with subpoint 2.2.1. 
+5.3. At the insurer’s request, the insured has the obligation to cooperate 
+with the insurer in the investigation of the insured event by complying with 
+its reasonable requests, in particular requests to provide information about the 
+causes and effects of the insured event, to provide other documentary and 
+
+
+ 
+ 
+ 
+ 
+18 
+ 
+other evidence of the insured event, as well as to grant access to the place of 
+occurrence of the insured event. 
+5.4. The insured is obliged to notify the insurer of any changes occurring 
+in the course of their activity. 
+  
+6. Exclusions 
+No compensation will be provided for: 
+a) acts of insult or defamation; 
+b) damage caused intentionally or through the commission of an act 
+covered by the criminal code, fraud or gross negligence by the insured or any 
+person for whom the insured is liable under the law; 
+c) financial loss resulting from invoicing and/or settlement errors with 
+the insurer; 
+d) losses resulting from the completion of questionnaire applications by 
+clients; 
+e) losses resulting from promises, liabilities assumed by the insured 
+under contract, or any other type of commitment or express guarantee given 
+by the insured that exceed their professional liability under the law; 
+f) damage caused by the insured through bodily injury or death; 
+g) damage caused by the insured through deterioration or destruction of 
+property; 
+h) damage resulting from the professional activity of insurance and/or 
+reinsurance intermediaries, without a mandate agreement being in place 
+between the insured and their clients; 
+i) direct or indirect damage, resulting from events or consequences of 
+force majeure, including by various military measures instituted during a state 
+of emergency, siege or war or by actions caused by natural disasters, nuclear 
+explosions, radiation or radioactive pollution, mass disorder, as well as by 
+terrorist activities, seizure, confiscation, nationalization, expropriation for 
+public utility, requisition or deterioration/destruction of property by an order 
+of any public authority; 
+j) damage caused to insurers as a result of the broker's failure to transfer 
+insurance premiums to the insurer's account. 
+  
+7. Other provisions 
+The professional civil liability insurance contract will also contain other 
+mandatory clauses, as provided by Law No 92/2022, the Civil Code and other 
+normative acts in force. 
+  
+  
+Annex No 8 
+to the Regulation on the licensing 
+of the insurance and/or reinsurance broker   
+  
+DECLARATION* 
+  
+I, the undersigned (a)_______________________________ (full name 
+of the individual), in my capacity as _____________________ of 
+_______________________ (name of the broker), hereby declare on my own 
+responsibility that: 
+
+
+ 
+ 
+ 
+ 
+19 
+ 
+- I have not been declared insolvent previously, and I am not subject to 
+a reorganization, insolvency, or liquidation procedure; 
+- I am not a significant shareholder or a person in a managerial position 
+in an insurer or reinsurer, an insurance agent, or a bancassurance agent; 
+- Own employees are not significant shareholders or persons holding a 
+managerial position in an insurer or reinsurer, an insurance agent, or a 
+bancassurance agent. 
+  
+* To be completed by the broker's director. 
+ 
+__________________  
+           (date) 
+ ___________________ 
+(signature)          
+  
+DECLARATION* 
+  
+I, the undersigned (a) _______________________ (full name of the 
+individual), in my capacity as shareholder/partner of the broker 
+___________________(name of the broker), IDNO________________, 
+being a beneficial owner / having the following individuals as beneficial 
+owners **: 
+1. _____________; 
+2. _____________, 
+declare that I do / do not have** close ties with individuals or legal 
+entities ***, as follows: 
+1. _____________; 
+2._____________; 
+3. _____________. 
+Furthermore, I declare that the close ties with the persons mentioned 
+above do not impede the effective exercise of the supervisory process by the 
+supervisory authority. 
+Additionally, I declare that: 
+- I am not a person holding a managerial position within an insurance 
+and/or reinsurance intermediary declared insolvent or undergoing insolvency 
+proceedings; 
+- I do not simultaneously hold a position within other professional 
+participants in the insurance sector; 
+- the funds/contributions to the share capital come from legal sources 
+and are free from obligations. 
+Depending on the source and sufficiency of the income that will be used 
+to form/increase the broker's share capital, I present:  
+- certificates issued by employers (with the signatures of the manager 
+and chief accountant, and the undertaking's stamp, if applicable), certifying 
+the receipt of income from professional activity; and/or 
+- notarized copies of primary documents confirming the ownership of 
+the shares held in the capital of a commercial undertaking; and/or 
+- notarized copies of primary documents certifying the ownership of 
+other assets (obtained by donation, inheritance, etc.); and/or  
+
+
+ 
+ 
+ 
+ 
+20 
+ 
+- other documents confirming income from similar sources, 
+demonstrating the origin and sufficiency of own funds for forming/increasing 
+the broker's share capital.  
+The documents attached to this declaration are: 
+- a valid criminal record certificate, in original; for non-residents, 
+additional similar documents issued by the respective state confirming that 
+the person has no criminal record; 
+- curriculum vitae in Europass format, with handwritten/electronic 
+signature; 
+- a copy of the identity document, certified by the holder with a 
+handwritten/electronic signature for compliance with the original. 
+  
+* To be completed by the shareholder/partner – individual.  
+** The appropriate response option should be highlighted. 
+*** To be completed with the shareholders/partners, both individuals 
+and/or legal entities, their beneficial owners, and the value of the holdings of 
+each shareholder/partner/beneficial owner. 
+  
+_______________ 
+         (date) 
+______________________ 
+(signature)                
+  
+DECLARATION* 
+_______________________________________ (full name of the legal 
+entity), 
+acting 
+on 
+behalf 
+of 
+and 
+in 
+the 
+interests 
+of 
+which 
+____________________________(full name of the authorized person), 
+based on the law/administrative act/statute, in my capacity as a 
+shareholder/partner of the broker __________________(name of the broker), 
+IDNO, with the following individuals as beneficial owners: 
+1. _______________; 
+2. _______________, 
+hereby declare that they do not/ do have** close ties with individuals or 
+legal entities***, as follows: 
+1. ___________; 
+2.___________; 
+3. ___________. 
+I further declare that: 
+- the close ties with the above-mentioned persons do not impede the 
+effective exercise of the supervisory process by the supervisory authority; 
+- it is not in the process of liquidation or insolvency, and no legal 
+restrictions have been imposed on legal entities/individuals from establishing 
+undertakings or participating in their share capital at the time of applying for 
+the license; 
+- the funds/contributions to the share capital come from licit sources and 
+are free from obligations. 
+Depending on the source and sufficiency of the income that will be used 
+to form/increase the broker’s share capital, the following documents are 
+presented: 
+
+
+ 
+ 
+ 
+ 
+21 
+ 
+- notarized copies of primary documents confirming the ownership of 
+the shares held in the capital of a commercial undertaking; and/or 
+- other documents confirming income from similar sources, proving the 
+origin and sufficiency of own funds for the formation/increase of the broker’s 
+share capital. 
+The documents attached to this declaration are: 
+- the list of shareholders/partners and their beneficial owners, including 
+the last indirect shareholder (natural person), accompanied by incorporation 
+documents or other supporting documents, in copies, certified by the legal 
+representative, where applicable, with a handwritten signature for compliance 
+with the original; 
+- an extract from the State Register of Legal Entities; 
+- annual financial statements for the last financial year of the 
+shareholder/partner legal entity; 
+- a valid criminal record certificate, in original; for non-residents, 
+additional similar documents issued by the respective state confirming that 
+the person has no criminal record; 
+- a certificate issued by the State Tax Service on the absence or 
+existence of budget arrears. 
+* To be completed by the shareholder/partner – legal entity. 
+** The appropriate response option should be highlighted. 
+*** To be completed with the shareholders/partners, both natural 
+and/or legal persons, their beneficial owners, and the value of the shares held 
+by each shareholder/partner/beneficial owner. 
+  
+______________ 
+         (date) 
+_____________________________ 
+   (signature of the authorized person of the legal entity)        
+  
+  
+Annex No 9 
+to the Regulation on the licensing 
+of the insurance and/or reinsurance broker   
+  
+DECLARATION 
+(chief accountant) 
+  
+I, the undersigned _______________________________ (full name), 
+in my capacity as ______________________________________________, 
+hereby declare on my own responsibility the following: 
+(a) the existence or non-existence of a conflict of interest and how the 
+conflict is being managed or remediated, including a reference to the aspects 
+covered in the insurer's conflict of interest policy or any provisions for 
+managing or mitigating conflicts; 
+(b) a review of the legal framework and the supervisory authority's 
+regulatory acts relevant to the insurance field; 
+(c) good repute, with an indication, where appropriate, of the sanctions 
+applied by any supervisory authority in the financial sector or for foreign 
+citizens - by similar authorities in their country of origin; 
+
+
+ 
+ 
+ 
+ 
+22 
+ 
+d) knowledge of the Romanian language; 
+e) knowledge of insurance accounting. 
+ 
+At the same time, being aware of the provisions of the Criminal Code 
+on false statements, I declare on my own responsibility that all the information 
+is complete and accurate, and that there are no other relevant facts that need 
+to be brought to the attention of the supervisory authority.  
+  
+          __________________  
+             (date) 
+__________________________ 
+(signature of the person) 
+  
+  
+Annex No 10 
+to the Regulation on the licensing 
+of the insurance and/or reinsurance broker   
+ 
+REGISTER 
+Of own staff and brokerage assistants 
+  
+Orde
+r 
+num
+ber 
+(uniq
+ue 
+code) 
+Name, 
+surname/
+Name 
+ID
+NO 
+cod
+e / 
+ID
+NP 
+cod
+e 
+ 
+Posit
+ion 
+held 
+ 
+Date of 
+registra
+tion in 
+the 
+Registe
+r 
+ 
+Basis 
+for 
+registra
+tion in 
+the 
+Registe
+r 
+ 
+Date 
+of 
+remo
+val 
+from 
+the 
+Regis
+ter 
+ 
+Confirm
+ation of 
+training 
+requirem
+ents of 
+own/assis
+tant 
+brokerag
+e staff 
+ 
+Financial indicators 
+of brokerage 
+assistants* 
+Not
+es 
+Income 
+from 
+intermedi
+ation 
+services 
+income 
+from the 
+main 
+(core) 
+operatio
+nal 
+(professi
+onal) 
+activity 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+  
+   
+____________________________________ 
+   (signature of the broker's director) 
+_____________________________ 
+       (signature of the chief accountant) 
+  
+   
+HOW TO COMPLETE 
+the Register of own staff and brokerage assistants 
+  
+1) Row number (unique code) - is filled in by assigning the row number. The row number 
+is unique for each person and cannot be removed from the Register. In the event of modifications 
+to the data in the Register for a particular person, the new data shall be entered in place of the old 
+data, and the necessary entries shall be made. 
+
+
+ 
+ 
+ 
+ 
+23 
+ 
+2) Name, Surname/Name - the name and surname of the individual - own staff/brokerage 
+assistant; the name - in the case where the brokerage assistant is a legal entity. 
+3) IDNO Code/IDNP Code - for individuals, the code should be indicated according to the 
+data from the ID card, for legal entities/individual entrepreneurs - the state identification number, 
+according to the extract from the State Register of Legal Entities, or the data from the Electronic 
+Bulletin. 
+4) Position held - for own staff, indicate the position held within the entity, for brokerage 
+assistants - legal entities/individual entrepreneurs, fill in the type of activity performed. 
+5) Date of registration in the Register - indicate the date of registration of own 
+staff/brokerage assistant. 
+6) Basis for registration in the Register - indicate the type of contract (individual 
+employment contract, etc.) under which the own staff/brokerage assistant is employed. 
+7) Date of removal from the Register - indicate the date of termination/cessation of the 
+contract/legal act under which the own staff/brokerage assistant is employed. 
+8) Confirmation of professional training requirements of own staff/brokerage 
+assistants - indicate the number and date of issue of the insurance qualification certificate for 
+own staff with brokerage duties or the confirmation of the person's participation in at least 20 
+academic hours per year, organized by the insurer for training purposes for brokerage assistants. 
+9), 10) Financial indicators for brokerage assistants – indicate the data from the 
+accounting records, specifically the income from brokerage services and income from the main 
+(core) (professional) activity. This data shall be included in the annual financial statements. 
+  
+PRESENTATION 
+Register of own staff and brokerage assistants 
+  
+The register of own staff and brokerage assistants shall be submitted to the supervisory 
+authority by March 31 of the year following the reporting period, both in paper format and 
+electronically (Microsoft Excel format). In the event of discrepancies between the data entered in 
+the paper-based register and in the electronic register, the data entered in the paper-based register 
+shall be deemed to be accurate.

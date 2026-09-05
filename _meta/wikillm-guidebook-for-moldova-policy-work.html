@@ -1,0 +1,2188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>WikiLLM Guidebook for Moldova Policy & Economic Intelligence</title>
+<style>
+@page {
+  size: A4;
+  margin: 17mm 16mm 19mm 16mm;
+  @bottom-left {
+    content: "WikiLLM Guidebook — Moldova Policy & Economic Intelligence";
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 8.5pt;
+    color: #64748b;
+  }
+  @bottom-right {
+    content: counter(page);
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 9pt;
+    color: #0f172a;
+  }
+}
+
+@page cover {
+  margin: 0;
+  @bottom-left { content: none; }
+  @bottom-right { content: none; }
+}
+
+@page chapter {
+  margin: 18mm 16mm 20mm 16mm;
+}
+
+:root {
+  --navy: #0f2742;
+  --navy-2: #17395c;
+  --teal: #0f9f9a;
+  --cyan: #2cb7c9;
+  --gold: #c9972b;
+  --ink: #172033;
+  --muted: #5c6b82;
+  --light: #f4f7fb;
+  --paper: #fffdfa;
+  --line: #d9e2ec;
+  --soft-teal: #e8f7f6;
+  --soft-gold: #fff5da;
+}
+
+html, body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: var(--ink);
+  line-height: 1.45;
+  font-size: 10.4pt;
+  background: white;
+}
+
+.cover {
+  page: cover;
+  height: 297mm;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  background:
+    radial-gradient(circle at 82% 12%, rgba(44,183,201,0.65) 0, rgba(44,183,201,0.1) 26%, transparent 44%),
+    linear-gradient(140deg, #071827 0%, #0f2742 44%, #15456c 72%, #0f9f9a 124%);
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  inset: 17mm;
+  border: 1px solid rgba(255,255,255,0.26);
+}
+
+.cover::after {
+  content: "";
+  position: absolute;
+  right: -32mm;
+  bottom: -38mm;
+  width: 132mm;
+  height: 132mm;
+  border-radius: 50%;
+  border: 22mm solid rgba(255,255,255,0.07);
+}
+
+.cover-inner {
+  position: absolute;
+  left: 23mm;
+  right: 23mm;
+  top: 32mm;
+  bottom: 25mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 9pt;
+  color: #a9f4ef;
+  font-weight: 700;
+}
+
+.cover h1 {
+  font-size: 34pt;
+  line-height: 1.05;
+  max-width: 165mm;
+  margin: 16mm 0 5mm 0;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.cover .subtitle {
+  font-size: 14pt;
+  line-height: 1.35;
+  color: #d9f5f3;
+  max-width: 160mm;
+  margin-top: 6mm;
+}
+
+.cover-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5mm;
+  margin-top: 18mm;
+}
+
+.cover-card {
+  background: rgba(255,255,255,0.09);
+  border: 1px solid rgba(255,255,255,0.24);
+  padding: 5mm;
+  border-radius: 5mm;
+}
+
+.cover-card strong {
+  display: block;
+  color: #a9f4ef;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 8pt;
+  margin-bottom: 1.5mm;
+}
+
+.cover-meta {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 7mm;
+  align-items: end;
+  color: #d9f5f3;
+  font-size: 10pt;
+}
+
+body > h1, .content h1 {
+  break-before: page;
+  color: var(--navy);
+  font-size: 22pt;
+  line-height: 1.12;
+  margin: 0 0 7mm 0;
+  padding-bottom: 3mm;
+  border-bottom: 2px solid var(--teal);
+  letter-spacing: -0.02em;
+}
+
+.content h2 {
+  color: var(--navy-2);
+  font-size: 15pt;
+  margin: 8mm 0 3mm 0;
+  break-after: avoid;
+}
+
+.content h3 {
+  color: var(--navy-2);
+  font-size: 12pt;
+  margin: 6mm 0 2mm 0;
+  break-after: avoid;
+}
+
+.content p {
+  margin: 0 0 3.2mm 0;
+}
+
+.content a {
+  color: var(--teal);
+  text-decoration: none;
+}
+
+.content strong {
+  color: #0f2742;
+}
+
+.content blockquote {
+  margin: 5mm 0;
+  padding: 4.5mm 5mm;
+  border-left: 4px solid var(--teal);
+  background: var(--soft-teal);
+  border-radius: 0 4mm 4mm 0;
+  color: #17395c;
+  font-weight: 600;
+}
+
+.content ul, .content ol {
+  margin-top: 1.5mm;
+  margin-bottom: 4mm;
+  padding-left: 6mm;
+}
+
+.content li {
+  margin-bottom: 1.4mm;
+}
+
+pre {
+  background: #0b1624;
+  color: #e5f4ff;
+  padding: 4mm;
+  border-radius: 4mm;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+  font-size: 8.1pt;
+  line-height: 1.35;
+  break-inside: avoid;
+}
+
+code {
+  font-family: "Cascadia Mono", Consolas, monospace;
+  font-size: 8.5pt;
+  background: #eef5f7;
+  color: #0f4f68;
+  padding: 0.4mm 1mm;
+  border-radius: 1.5mm;
+}
+
+pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  border-radius: 0;
+}
+
+table.data-table, table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 5mm 0 6mm 0;
+  font-size: 8.7pt;
+  break-inside: avoid;
+}
+
+th {
+  background: var(--navy);
+  color: white;
+  padding: 2.7mm 2.5mm;
+  text-align: left;
+  font-weight: 700;
+  border: 1px solid var(--navy);
+}
+
+td {
+  padding: 2.5mm;
+  border: 1px solid var(--line);
+  vertical-align: top;
+}
+
+tr:nth-child(even) td {
+  background: #f8fbfd;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--line);
+  margin: 8mm 0;
+}
+
+.toc-card {
+  break-before: page;
+  background: var(--light);
+  border: 1px solid var(--line);
+  border-radius: 6mm;
+  padding: 7mm;
+  margin: 5mm 0 8mm 0;
+}
+
+.toc-card h2 {
+  margin-top: 0;
+}
+
+.strategy-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4mm;
+  margin: 5mm 0 7mm 0;
+}
+
+.strategy-box {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--teal);
+  padding: 4mm;
+  border-radius: 4mm;
+  min-height: 28mm;
+}
+
+.strategy-box strong {
+  display: block;
+  margin-bottom: 1.5mm;
+}
+
+.footer-note {
+  margin-top: 8mm;
+  padding: 4mm;
+  background: var(--soft-gold);
+  border-left: 4px solid var(--gold);
+  border-radius: 0 4mm 4mm 0;
+  color: #5f4610;
+}
+
+.badge-row {
+  display: flex;
+  gap: 3mm;
+  flex-wrap: wrap;
+  margin-top: 5mm;
+}
+
+.badge {
+  padding: 1.8mm 3mm;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.24);
+  color: #e6fffb;
+  font-size: 8.5pt;
+}
+
+.content {
+  counter-reset: h1count;
+}
+
+.content h1::before {
+  counter-increment: h1count;
+}
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <div class="cover-inner">
+    <div>
+      <div class="kicker">WikiLLM Operating Manual</div>
+      <h1>WikiLLM Guidebook for Moldova Policy & Economic Intelligence</h1>
+      <div class="subtitle">A practical operating manual for your Moldova policy, EU accession, economic intelligence, and dashboard knowledge base</div>
+      <div class="badge-row">
+        <span class="badge">Moldova economic policy</span>
+        <span class="badge">EU accession</span>
+        <span class="badge">Composite indicators</span>
+        <span class="badge">Donor architecture</span>
+        <span class="badge">Policy evidence</span>
+      </div>
+      <div class="cover-grid">
+        <div class="cover-card"><strong>Core idea</strong>Raw sources are preserved as evidence; wiki pages become reusable synthesis.</div>
+        <div class="cover-card"><strong>Primary use</strong>Support reports, briefs, dashboards, programme design, and policy advice.</div>
+        <div class="cover-card"><strong>Knowledge base</strong>C:\Users\harab\wiki</div>
+        <div class="cover-card"><strong>Operating rhythm</strong>Ingest → update → cross-link → query → audit → reuse.</div>
+      </div>
+    </div>
+    <div class="cover-meta">
+      <div>
+        <strong>Prepared for</strong><br>Eugeniu Harabara<br><br>
+        <strong>Date</strong><br>2026-07-08
+      </div>
+      <div>
+        A practical guidebook for building a durable, source-backed policy intelligence system.
+      </div>
+    </div>
+  </div>
+</section>
+
+<main class="content">
+
+<div class="toc-card">
+  <h2>Practical operating model</h2>
+  <div class="strategy-strip">
+    <div class="strategy-box"><strong>1. Preserve evidence</strong>Keep raw sources immutable and traceable in <code>raw/</code>.</div>
+    <div class="strategy-box"><strong>2. Compile knowledge</strong>Update entity, concept, comparison, and query pages.</div>
+    <div class="strategy-box"><strong>3. Reuse synthesis</strong>Generate briefs, dashboards, reports, and programme tables from wiki-backed knowledge.</div>
+  </div>
+  <div class="footer-note">Best habit: before drafting any serious output, ask the agent to read <code>SCHEMA.md</code>, <code>index.md</code>, recent <code>log.md</code>, and the relevant pages.</div>
+</div>
+
+<h2 id="how-to-use-this-guidebook">How to use this guidebook</h2>
+<p>This guidebook is meant to be a working manual, not a theoretical essay. It tells you how to use your WikiLLM-style knowledge base as a long-term knowledge system for Moldova-focused policy work, EU accession, economic reform, donor/programme architecture, composite indicators, and analytical dashboards.</p>
+<p>You can use it in three ways:</p>
+<ol>
+<li><strong>As a daily operating manual</strong> — when you have a PDF, legal text, report, dataset, meeting note, or web article and want to ingest it into the wiki.</li>
+<li><strong>As a research design manual</strong> — when you want to build a structured evidence base for a policy report, programme concept note, dashboard, methodology note, or EU Careers writing sample.</li>
+<li><strong>As a quality-control manual</strong> — when you want to prevent weak evidence, duplicate pages, vague methodology, or AI-generated synthesis from contaminating your knowledge base.</li>
+</ol>
+<p>The core idea is simple:</p>
+<blockquote>
+<p>Raw sources are preserved as evidence. Wiki pages are structured synthesis. Reports, briefs, dashboards, and presentations are outputs generated from that synthesis.</p>
+</blockquote>
+<hr>
+<h2 id="contents">Contents</h2>
+<ol>
+<li>Executive summary</li>
+<li>The operating philosophy</li>
+<li>Your current wiki architecture</li>
+<li>Roles: what you do and what the agent does</li>
+<li>The knowledge lifecycle</li>
+<li>What to ingest first</li>
+<li>Source-ingestion playbooks</li>
+<li>Page types and when to use them</li>
+<li>Templates for reusable pages</li>
+<li>Moldova-specific examples</li>
+<li>Using the wiki for composite indicators and dashboards</li>
+<li>Using the wiki for EU accession and legal approximation</li>
+<li>Using the wiki for donor and programme architecture</li>
+<li>Querying the wiki effectively</li>
+<li>Prompt cookbook</li>
+<li>Obsidian and browsing tactics</li>
+<li>Quality assurance and linting</li>
+<li>Governance routines</li>
+<li>A 30-day implementation plan</li>
+<li>Appendices: checklists and templates</li>
+</ol>
+<hr>
+<h1 id="1-executive-summary">1. Executive summary</h1>
+<p>Your wiki should become a <strong>policy intelligence system</strong> for Moldova. It should not be a passive note archive and it should not merely store AI summaries. Its purpose is to make knowledge <strong>durable, inspectable, reusable, and source-backed</strong>.</p>
+<p>The best use of your wiki is to repeatedly turn sources into four reusable knowledge assets:</p>
+<table class="data-table">
+<thead>
+<tr>
+<th>Asset</th>
+<th>Folder</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Raw sources</td>
+<td><code>raw/</code></td>
+<td>Immutable evidence archive</td>
+</tr>
+<tr>
+<td>Entity pages</td>
+<td><code>entities/</code></td>
+<td>Institutions, programmes, legal acts, datasets, reports, organisations</td>
+</tr>
+<tr>
+<td>Concept pages</td>
+<td><code>concepts/</code></td>
+<td>Policy themes, methods, indicators, reform areas, analytical frameworks</td>
+</tr>
+<tr>
+<td>Comparison/query pages</td>
+<td><code>comparisons/</code>, <code>queries/</code></td>
+<td>Reusable synthesis, tables, policy answers, decision support</td>
+</tr>
+</tbody>
+</table>
+<p>The strategic principle is:</p>
+<blockquote>
+<p>Do not ask the agent to remember everything in chat. Ask the agent to maintain a wiki that remembers for you.</p>
+</blockquote>
+<p>The tactical principle is:</p>
+<blockquote>
+<p>Every useful source should either update an existing page, create a justified new page, or expose a gap/contradiction.</p>
+</blockquote>
+<p>The wiki becomes more valuable over time when the same pages are improved by multiple sources. For example:</p>
+<ul>
+<li><code>concepts/sme-competitiveness.md</code> should mature as you ingest OECD, World Bank, EU, government, and donor sources.</li>
+<li><code>concepts/composite-indicators.md</code> should become your methodological backbone for dashboard design.</li>
+<li><code>entities/european-commission.md</code>, <code>entities/eu-delegation-to-moldova.md</code>, and <code>entities/government-of-moldova.md</code> should become stable reference points.</li>
+<li><code>comparisons/composite-indicator-weighting-options.md</code> should help you explain methodology choices transparently.</li>
+<li><code>queries/what-indicators-best-capture-moldova-economic-resilience.md</code> should preserve a valuable answer you may reuse in reports.</li>
+</ul>
+<p>The wiki should help you answer questions like:</p>
+<ul>
+<li>What are the recurring constraints to Moldova&rsquo;s SME competitiveness?</li>
+<li>Which reforms are linked to EU accession economic governance?</li>
+<li>What sources support each component of a composite economic indicator?</li>
+<li>Which donors work on digital transformation, regional development, SMEs, public administration, or procurement?</li>
+<li>Where do official claims and outcome indicators diverge?</li>
+<li>What are the strongest source-backed claims for a policy memo?</li>
+<li>Which methodology choices need to be documented before publishing a dashboard?</li>
+</ul>
+<hr>
+<h1 id="2-the-operating-philosophy">2. The operating philosophy</h1>
+<h2 id="21-wikillm-is-not-just-rag">2.1 WikiLLM is not just RAG</h2>
+<p>A normal retrieval-augmented system often works like this:</p>
+<pre><code class="language-text">Question → retrieve chunks → answer → forget
+</code></pre>
+<p>A WikiLLM-style system works like this:</p>
+<pre><code class="language-text">Source → preserve raw evidence → compile into pages → cross-link → update over time → answer from the maintained wiki
+</code></pre>
+<p>The difference matters. In policy work, you need more than a clever answer. You need:</p>
+<ul>
+<li>provenance;</li>
+<li>stable terminology;</li>
+<li>traceable sources;</li>
+<li>institutional memory;</li>
+<li>clear methodology;</li>
+<li>explicit uncertainty;</li>
+<li>cumulative synthesis;</li>
+<li>reusable outputs.</li>
+</ul>
+<p>The wiki should therefore behave like a <strong>research department memory</strong>, not a chat transcript.</p>
+<h2 id="22-the-three-layer-model">2.2 The three-layer model</h2>
+<p>Your wiki has three layers:</p>
+<h3 id="layer-1-raw-sources">Layer 1: raw sources</h3>
+<p>Stored in:</p>
+<pre><code class="language-text">raw/articles/
+raw/papers/
+raw/transcripts/
+raw/assets/
+</code></pre>
+<p>These are the evidence. They should be treated as immutable. If a source changes, save a new version or flag source drift. Do not casually edit raw sources.</p>
+<h3 id="layer-2-structured-wiki-pages">Layer 2: structured wiki pages</h3>
+<p>Stored in:</p>
+<pre><code class="language-text">entities/
+concepts/
+comparisons/
+queries/
+</code></pre>
+<p>These are the agent-maintained synthesis layer. Pages should be concise, structured, source-backed, and linked.</p>
+<h3 id="layer-3-navigation-and-governance">Layer 3: navigation and governance</h3>
+<p>Stored in:</p>
+<pre><code class="language-text">SCHEMA.md
+index.md
+log.md
+_meta/
+</code></pre>
+<p>These files tell the agent how to behave, what pages exist, and what has changed.</p>
+<h2 id="23-the-most-important-rule">2.3 The most important rule</h2>
+<blockquote>
+<p>The wiki is valuable only if it improves with every source.</p>
+</blockquote>
+<p>A single-source wiki is mostly a summary archive. A multi-source wiki becomes a compounding knowledge system.</p>
+<p>For example, after five sources on SME competitiveness, the page should not be five pasted summaries. It should become a structured synthesis:</p>
+<ul>
+<li>recurring constraints;</li>
+<li>where sources agree;</li>
+<li>where they differ;</li>
+<li>policy instruments mentioned;</li>
+<li>implementation bottlenecks;</li>
+<li>evidence gaps;</li>
+<li>links to indicators, institutions, donors, and EU accession themes.</li>
+</ul>
+<hr>
+<h1 id="3-your-current-wiki-architecture">3. Your current wiki architecture</h1>
+<p>Your wiki is located at:</p>
+<pre><code class="language-text">C:\Users\harab\wiki
+</code></pre>
+<p>Current structure:</p>
+<pre><code class="language-text">wiki/
+├── SCHEMA.md
+├── index.md
+├── log.md
+├── raw/
+│   ├── articles/
+│   ├── papers/
+│   ├── transcripts/
+│   └── assets/
+├── entities/
+├── concepts/
+├── comparisons/
+├── queries/
+├── _archive/
+└── _meta/
+</code></pre>
+<p>The schema domain is Moldova-focused policy and evidence work, especially:</p>
+<ul>
+<li>economic policy;</li>
+<li>macroeconomic and sectoral development;</li>
+<li>competitiveness;</li>
+<li>SMEs;</li>
+<li>investment climate;</li>
+<li>infrastructure;</li>
+<li>regional development;</li>
+<li>digital transformation;</li>
+<li>innovation;</li>
+<li>private-sector reform;</li>
+<li>EU accession and acquis approximation;</li>
+<li>donor coordination and development architecture;</li>
+<li>composite indicators and dashboards;</li>
+<li>policy briefs and analytical reports.</li>
+</ul>
+<p>This domain is broad enough to support your work, but narrow enough to maintain discipline.</p>
+<hr>
+<h1 id="4-roles-what-you-do-and-what-the-agent-does">4. Roles: what you do and what the agent does</h1>
+<h2 id="41-your-role">4.1 Your role</h2>
+<p>You are the curator and policy owner. You should decide:</p>
+<ul>
+<li>which sources are worth ingesting;</li>
+<li>which topics matter strategically;</li>
+<li>when a source is authoritative;</li>
+<li>what outputs you need;</li>
+<li>whether a synthesis is useful or misleading;</li>
+<li>when political/legal nuance requires caution;</li>
+<li>when a claim needs primary-source verification.</li>
+</ul>
+<p>You do not need to manually maintain every link and page. That is the agent&rsquo;s job.</p>
+<h2 id="42-the-agents-role">4.2 The agent&rsquo;s role</h2>
+<p>The agent should:</p>
+<ul>
+<li>orient itself by reading <code>SCHEMA.md</code>, <code>index.md</code>, and recent <code>log.md</code>;</li>
+<li>save raw source material;</li>
+<li>identify entities, concepts, programmes, indicators, and claims;</li>
+<li>search for existing pages before creating new ones;</li>
+<li>update pages and cross-links;</li>
+<li>add frontmatter and tags;</li>
+<li>update <code>index.md</code> and <code>log.md</code>;</li>
+<li>flag contradictions, weak claims, missing evidence, and methodological gaps;</li>
+<li>answer questions using the wiki first;</li>
+<li>file reusable answers into <code>queries/</code> or <code>comparisons/</code>.</li>
+</ul>
+<h2 id="43-a-good-division-of-labour">4.3 A good division of labour</h2>
+<table class="data-table">
+<thead>
+<tr>
+<th>Human</th>
+<th>Agent</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Selects source and policy purpose</td>
+<td>Extracts structure and claims</td>
+</tr>
+<tr>
+<td>Judges relevance and sensitivity</td>
+<td>Drafts/update pages</td>
+</tr>
+<tr>
+<td>Decides final interpretation</td>
+<td>Links pages and maintains index</td>
+</tr>
+<tr>
+<td>Reviews methodology choices</td>
+<td>Flags uncertainty and contradictions</td>
+</tr>
+<tr>
+<td>Uses outputs in professional work</td>
+<td>Produces source-backed drafts and tables</td>
+</tr>
+</tbody>
+</table>
+<p>The agent can generate useful synthesis, but it should not be the final authority on legal, political, or methodological claims.</p>
+<hr>
+<h1 id="5-the-knowledge-lifecycle">5. The knowledge lifecycle</h1>
+<p>Every source should move through a structured lifecycle:</p>
+<pre><code class="language-text">1. Capture
+2. Classify
+3. Extract
+4. Compare with existing wiki
+5. Update/create pages
+6. Cross-link
+7. Record provenance
+8. Update index and log
+9. Query and reuse
+10. Audit periodically
+</code></pre>
+<h2 id="51-capture">5.1 Capture</h2>
+<p>Save the source in the correct raw folder.</p>
+<p>Examples:</p>
+<table class="data-table">
+<thead>
+<tr>
+<th>Source</th>
+<th>Folder</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>European Commission Moldova Report PDF</td>
+<td><code>raw/papers/</code></td>
+</tr>
+<tr>
+<td>World Bank economic update webpage</td>
+<td><code>raw/articles/</code></td>
+</tr>
+<tr>
+<td>Meeting notes with donors</td>
+<td><code>raw/transcripts/</code></td>
+</tr>
+<tr>
+<td>Screenshot, chart, logo, diagram</td>
+<td><code>raw/assets/</code></td>
+</tr>
+<tr>
+<td>Dataset description or metadata note</td>
+<td><code>raw/articles/</code> or <code>raw/papers/</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="52-classify">5.2 Classify</h2>
+<p>Ask:</p>
+<ul>
+<li>Is this a primary source, secondary analysis, dataset, legal text, programme document, or transcript?</li>
+<li>What institutions does it mention?</li>
+<li>What policy areas does it affect?</li>
+<li>Does it contain indicators or methodology?</li>
+<li>Does it support, refine, or contradict existing wiki pages?</li>
+</ul>
+<h2 id="53-extract">5.3 Extract</h2>
+<p>Extract only what is reusable:</p>
+<ul>
+<li>definitions;</li>
+<li>institutional mandates;</li>
+<li>reform priorities;</li>
+<li>indicators;</li>
+<li>funding/programme details;</li>
+<li>legal approximation references;</li>
+<li>constraints and bottlenecks;</li>
+<li>methodological choices;</li>
+<li>source-backed claims;</li>
+<li>direct quotes where wording matters.</li>
+</ul>
+<p>Avoid clutter. Not every paragraph deserves a wiki entry.</p>
+<h2 id="54-compare">5.4 Compare</h2>
+<p>Before creating pages, search existing pages. The wiki should become denser, not just larger.</p>
+<p>Good instruction:</p>
+<pre><code class="language-text">Before creating new pages, search the existing wiki for related entities and concepts. Prefer updating existing pages unless a new page is clearly justified.
+</code></pre>
+<h2 id="55-update-or-create">5.5 Update or create</h2>
+<p>Create a page when the subject is central to the source or appears across multiple sources.</p>
+<p>Update a page when the source adds evidence to an existing topic.</p>
+<p>Do not create pages for passing mentions.</p>
+<h2 id="56-cross-link">5.6 Cross-link</h2>
+<p>Every useful page should connect to other pages.</p>
+<p>Example links from <code>concepts/sme-competitiveness.md</code>:</p>
+<pre><code class="language-markdown">Related: [[eu-accession]], [[investment-climate]], [[regulatory-reform]], [[digital-transformation]], [[oecd]], [[world-bank]]
+</code></pre>
+<h2 id="57-record-provenance">5.7 Record provenance</h2>
+<p>Every page must say where evidence came from.</p>
+<p>Use <code>sources:</code> in frontmatter, and when pages synthesize multiple sources, use inline provenance markers.</p>
+<p>Example:</p>
+<pre><code class="language-markdown">Moldova's SME competitiveness constraints are recurrently linked to access to finance, regulatory burden, skills gaps, and limited export capacity.^[raw/papers/oecd-sme-policy-index-2026.md]
+</code></pre>
+<h2 id="58-update-index-and-log">5.8 Update index and log</h2>
+<p>After every meaningful operation:</p>
+<ul>
+<li>add new pages to <code>index.md</code>;</li>
+<li>update page count;</li>
+<li>append an entry to <code>log.md</code>;</li>
+<li>list created/updated files.</li>
+</ul>
+<hr>
+<h1 id="6-what-to-ingest-first">6. What to ingest first</h1>
+<p>Your wiki is currently empty except for its schema and this guidebook. The first sources matter because they establish anchor pages.</p>
+<h2 id="61-recommended-first-10-sources">6.1 Recommended first 10 sources</h2>
+<table class="data-table">
+<thead>
+<tr>
+<th>Priority</th>
+<th>Source type</th>
+<th>Why it matters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>European Commission Moldova Report</td>
+<td>EU accession baseline and reform priorities</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Moldova Economic Reform Programme</td>
+<td>Government reform commitments and macroeconomic policy</td>
+</tr>
+<tr>
+<td>3</td>
+<td>National Development Strategy “European Moldova 2030”</td>
+<td>National strategic framework</td>
+</tr>
+<tr>
+<td>4</td>
+<td>National Bureau of Statistics metadata/source notes</td>
+<td>Statistical backbone for dashboards</td>
+</tr>
+<tr>
+<td>5</td>
+<td>World Bank Moldova economic update</td>
+<td>External economic analysis</td>
+</tr>
+<tr>
+<td>6</td>
+<td>OECD SME Policy Index / SME competitiveness material</td>
+<td>SME and competitiveness framework</td>
+</tr>
+<tr>
+<td>7</td>
+<td>EU enlargement package / accession methodology materials</td>
+<td>EU process and conditionality context</td>
+</tr>
+<tr>
+<td>8</td>
+<td>A donor strategy or programme document</td>
+<td>Development architecture and implementation actors</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Your composite economic indicator methodology notes</td>
+<td>Dashboard methodological backbone</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Any existing Moldova dashboard data dictionary</td>
+<td>Data governance and indicator design</td>
+</tr>
+</tbody>
+</table>
+<h2 id="62-first-anchor-pages-to-build">6.2 First anchor pages to build</h2>
+<p>After the first sources, the wiki should probably contain pages such as:</p>
+<pre><code class="language-text">concepts/eu-accession.md
+concepts/economic-policy.md
+concepts/sme-competitiveness.md
+concepts/composite-indicators.md
+concepts/dashboard-methodology.md
+concepts/indicator-weighting.md
+concepts/indicator-normalization.md
+concepts/digital-transformation.md
+concepts/regulatory-reform.md
+concepts/investment-climate.md
+concepts/donor-coordination.md
+entities/european-commission.md
+entities/eu-delegation-to-moldova.md
+entities/government-of-moldova.md
+entities/national-bureau-of-statistics.md
+entities/world-bank.md
+entities/oecd.md
+comparisons/composite-indicator-weighting-options.md
+queries/what-indicators-best-capture-moldova-economic-resilience.md
+</code></pre>
+<p>Do not create all of these artificially. Let sources justify them. But these are likely anchor pages for your domain.</p>
+<hr>
+<h1 id="7-source-ingestion-playbooks">7. Source-ingestion playbooks</h1>
+<h2 id="71-ingesting-a-european-commission-country-report">7.1 Ingesting a European Commission country report</h2>
+<p>Use this when adding an annual Moldova Report or enlargement-related document.</p>
+<h3 id="prompt">Prompt</h3>
+<pre><code class="language-text">Ingest this European Commission Moldova report into the wiki. Preserve the raw source, identify EU accession themes, institutions, legal approximation issues, economic governance points, public administration issues, procurement issues, SME/competitiveness implications, and indicators. Update existing pages before creating new ones. Create comparison or query pages only for reusable synthesis. Update index.md and log.md.
+</code></pre>
+<h3 id="expected-pages">Expected pages</h3>
+<p>Potential updates:</p>
+<pre><code class="language-text">concepts/eu-accession.md
+concepts/legal-approximation.md
+concepts/public-administration-reform.md
+concepts/economic-governance.md
+concepts/procurement.md
+concepts/sme-competitiveness.md
+entities/european-commission.md
+entities/government-of-moldova.md
+</code></pre>
+<p>Potential comparison:</p>
+<pre><code class="language-text">comparisons/eu-accession-economic-governance-vs-competitiveness.md
+</code></pre>
+<h3 id="what-to-extract">What to extract</h3>
+<ul>
+<li>reform priorities;</li>
+<li>progress assessments;</li>
+<li>chapter/cluster relevance;</li>
+<li>implementation gaps;</li>
+<li>references to economic governance;</li>
+<li>public administration capacity issues;</li>
+<li>procurement/public finance issues;</li>
+<li>rule-of-law or anti-corruption constraints where relevant to business environment;</li>
+<li>indicators or metrics mentioned.</li>
+</ul>
+<h3 id="caution">Caution</h3>
+<p>Do not turn the report into a political summary. Preserve the Commission&rsquo;s language where wording matters. Mark interpretation separately.</p>
+<hr>
+<h2 id="72-ingesting-a-legal-act-or-acquis-approximation-document">7.2 Ingesting a legal act or acquis-approximation document</h2>
+<h3 id="prompt_1">Prompt</h3>
+<pre><code class="language-text">Ingest this legal/acquis document into the wiki. Preserve exact legal terminology, identify the legal act, institutions responsible, policy area, EU acquis/chapter relevance if known, implementation obligations, deadlines, and open verification questions. Avoid over-interpreting legal meaning. Update index.md and log.md.
+</code></pre>
+<h3 id="expected-page-type">Expected page type</h3>
+<p>Legal acts are usually <code>entities/</code>, because they are named objects.</p>
+<p>Example:</p>
+<pre><code class="language-text">entities/law-on-state-aid.md
+entities/government-decision-on-digital-transformation-strategy.md
+</code></pre>
+<p>Related concepts:</p>
+<pre><code class="language-text">concepts/legal-approximation.md
+concepts/regulatory-reform.md
+concepts/public-administration.md
+</code></pre>
+<h3 id="legal-page-template">Legal-page template</h3>
+<pre><code class="language-markdown">---
+title: Law / Decision / Regulation Name
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+type: entity
+tags: [moldova, eu, legal-approximation, regulatory-reform, entity]
+sources: [raw/papers/source.md]
+confidence: medium
+---
+
+# Overview
+
+# Legal basis and status
+
+# Responsible institutions
+
+# EU/acquis relevance
+
+# Key provisions
+
+# Implementation requirements
+
+# Related pages
+
+# Open questions
+</code></pre>
+<h3 id="caution_1">Caution</h3>
+<p>For legal texts, use low or medium confidence unless the legal source is primary and the interpretation is direct.</p>
+<hr>
+<h2 id="73-ingesting-a-donor-programme-document">7.3 Ingesting a donor programme document</h2>
+<h3 id="prompt_2">Prompt</h3>
+<pre><code class="language-text">Ingest this donor programme document into the wiki. Extract objectives, budget, period, implementing partners, beneficiaries, governance arrangements, indicators, reform area, geographic coverage, and links to Moldova EU accession or national strategies. Update donor/programme pages and create a donor comparison page if useful.
+</code></pre>
+<h3 id="expected-pages_1">Expected pages</h3>
+<pre><code class="language-text">entities/eu-delegation-to-moldova.md
+entities/undp-moldova.md
+entities/world-bank.md
+entities/programme-name.md
+concepts/donor-coordination.md
+concepts/programme-design.md
+concepts/monitoring.md
+comparisons/donor-programmes-digital-transformation.md
+</code></pre>
+<h3 id="programme-extraction-table">Programme extraction table</h3>
+<table class="data-table">
+<thead>
+<tr>
+<th>Field</th>
+<th>What to capture</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Programme name</td>
+<td>Exact title</td>
+</tr>
+<tr>
+<td>Donor/funder</td>
+<td>EU, World Bank, UNDP, etc.</td>
+</tr>
+<tr>
+<td>Implementing partner</td>
+<td>Institution/agency/contractor</td>
+</tr>
+<tr>
+<td>Period</td>
+<td>Start/end date</td>
+</tr>
+<tr>
+<td>Budget</td>
+<td>Amount and currency</td>
+</tr>
+<tr>
+<td>Objectives</td>
+<td>Official objectives</td>
+</tr>
+<tr>
+<td>Beneficiaries</td>
+<td>Institutions, firms, citizens, municipalities</td>
+</tr>
+<tr>
+<td>Indicators</td>
+<td>Output/outcome indicators</td>
+</tr>
+<tr>
+<td>Governance</td>
+<td>Steering committee, reporting, coordination</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Strategies, EU accession, reforms</td>
+</tr>
+<tr>
+<td>Risks</td>
+<td>Implementation gaps, data issues, overlap</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="74-ingesting-an-economic-update-or-analytical-report">7.4 Ingesting an economic update or analytical report</h2>
+<h3 id="prompt_3">Prompt</h3>
+<pre><code class="language-text">Ingest this economic analytical report into the wiki. Extract macroeconomic assumptions, sectoral trends, competitiveness findings, risks, indicators, data sources, policy recommendations, and implications for Moldova's reform agenda. Separate facts, interpretation, and recommendations. Flag weak or single-source claims.
+</code></pre>
+<h3 id="likely-pages">Likely pages</h3>
+<pre><code class="language-text">concepts/macroeconomics.md
+concepts/economic-policy.md
+concepts/investment-climate.md
+concepts/trade.md
+concepts/labour-market.md
+concepts/public-finance.md
+entities/world-bank.md
+entities/imf.md
+</code></pre>
+<h3 id="caution_2">Caution</h3>
+<p>Economic reports often include forecasts. Capture forecast date and assumptions. Do not treat old forecasts as current facts.</p>
+<hr>
+<h2 id="75-ingesting-a-dataset-or-statistical-source">7.5 Ingesting a dataset or statistical source</h2>
+<h3 id="prompt_4">Prompt</h3>
+<pre><code class="language-text">Ingest this dataset/data-source note into the wiki. Create or update a data-source entity page. Capture publisher, update frequency, coverage, variables, methodology, limitations, access URL/path, and relevance for dashboards or composite indicators. Link it to relevant indicator and methodology pages.
+</code></pre>
+<h3 id="data-source-template">Data-source template</h3>
+<pre><code class="language-markdown">---
+title: Data Source Name
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+type: entity
+tags: [data-source, statistics, dashboard, indicator, moldova, entity]
+sources: [raw/articles/source.md]
+confidence: medium
+---
+
+# Overview
+
+# Publisher and access
+
+# Coverage
+
+# Variables
+
+# Update frequency
+
+# Methodology
+
+# Known limitations
+
+# Relevance for dashboards
+
+# Related indicators
+
+# Open verification questions
+</code></pre>
+<h3 id="what-matters-most">What matters most</h3>
+<p>For dashboard work, capture:</p>
+<ul>
+<li>frequency;</li>
+<li>breaks in series;</li>
+<li>geographic coverage;</li>
+<li>missing values;</li>
+<li>revisions;</li>
+<li>comparability;</li>
+<li>units;</li>
+<li>whether higher values are good or bad;</li>
+<li>whether normalization is required.</li>
+</ul>
+<hr>
+<h2 id="76-ingesting-meeting-notes-or-transcripts">7.6 Ingesting meeting notes or transcripts</h2>
+<h3 id="prompt_5">Prompt</h3>
+<pre><code class="language-text">Ingest these meeting notes into the wiki as a transcript/note source. Extract decisions, claims, institutional positions, action items, open questions, and topics requiring source verification. Do not treat informal statements as high-confidence facts. Link to relevant institution, programme, and concept pages.
+</code></pre>
+<h3 id="caution_3">Caution</h3>
+<p>Meeting notes are useful, but they are not the same as official documents. Use:</p>
+<pre><code class="language-yaml">confidence: low
+</code></pre>
+<p>unless the content is corroborated.</p>
+<hr>
+<h1 id="8-page-types-and-when-to-use-them">8. Page types and when to use them</h1>
+<h2 id="81-entity-pages">8.1 Entity pages</h2>
+<p>Use entity pages for named objects:</p>
+<ul>
+<li>institutions;</li>
+<li>ministries;</li>
+<li>EU bodies;</li>
+<li>donors;</li>
+<li>programmes;</li>
+<li>legal acts;</li>
+<li>datasets;</li>
+<li>official strategies;</li>
+<li>reports;</li>
+<li>dashboards.</li>
+</ul>
+<h3 id="example-entity-page-entitiesnational-bureau-of-statisticsmd">Example entity page: <code>entities/national-bureau-of-statistics.md</code></h3>
+<pre><code class="language-markdown">---
+title: National Bureau of Statistics of Moldova
+created: 2026-07-08
+updated: 2026-07-08
+type: entity
+tags: [moldova, institution, statistics, data-source, entity]
+sources: [raw/articles/nbs-source-note.md]
+confidence: medium
+---
+
+# Overview
+
+The National Bureau of Statistics is Moldova's central statistical authority and a core source for official economic, social, and demographic data.
+
+# Relevance to the wiki
+
+NBS data may support pages on [[macroeconomics]], [[labour-market]], [[regional-development]], [[dashboard-methodology]], and [[composite-indicators]].
+
+# Data considerations
+
+- Frequency varies by indicator.
+- Some series may require seasonal adjustment or revision tracking.
+- Regional indicators may have different coverage and reliability.
+
+# Open questions
+
+- Which indicators are available at monthly, quarterly, and annual frequency?
+- Which series are suitable for a composite economic indicator?
+</code></pre>
+<h2 id="82-concept-pages">8.2 Concept pages</h2>
+<p>Use concept pages for durable ideas:</p>
+<ul>
+<li>SME competitiveness;</li>
+<li>regulatory reform;</li>
+<li>digital transformation;</li>
+<li>EU accession;</li>
+<li>composite indicators;</li>
+<li>investment climate;</li>
+<li>programme design;</li>
+<li>monitoring and evaluation.</li>
+</ul>
+<h3 id="example-concept-page-conceptscomposite-indicatorsmd">Example concept page: <code>concepts/composite-indicators.md</code></h3>
+<pre><code class="language-markdown">---
+title: Composite Indicators
+created: 2026-07-08
+updated: 2026-07-08
+type: concept
+tags: [composite-index, indicator, methodology, dashboard, concept]
+sources: []
+confidence: low
+---
+
+# Definition
+
+A composite indicator combines multiple individual indicators into a single index or score to summarize a complex phenomenon.
+
+# Relevance for Moldova
+
+Composite indicators may help communicate economic resilience, competitiveness, reform progress, regional development, or institutional capacity, but they require transparent methodological choices.
+
+# Methodological decisions
+
+- Component selection
+- Data quality screening
+- Directionality
+- Normalization
+- Weighting
+- Aggregation
+- Missing-data handling
+- Sensitivity analysis
+- Interpretation limits
+
+# Related pages
+
+[[indicator-normalization]], [[indicator-weighting]], [[dashboard-methodology]], [[data-source-quality]]
+</code></pre>
+<h2 id="83-comparison-pages">8.3 Comparison pages</h2>
+<p>Use comparison pages when analytical judgement matters.</p>
+<p>Examples:</p>
+<pre><code class="language-text">comparisons/composite-indicator-weighting-options.md
+comparisons/donor-programmes-digital-transformation.md
+comparisons/moldova-vs-georgia-economic-governance.md
+comparisons/eu-accession-reform-clusters.md
+</code></pre>
+<h3 id="example-comparison-table">Example comparison table</h3>
+<table class="data-table">
+<thead>
+<tr>
+<th>Weighting method</th>
+<th>Strength</th>
+<th>Risk</th>
+<th>Best use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Equal weighting</td>
+<td>Transparent and easy to explain</td>
+<td>May imply equal policy importance</td>
+<td>Public-facing dashboards</td>
+</tr>
+<tr>
+<td>Expert weighting</td>
+<td>Reflects policy judgment</td>
+<td>Can be subjective</td>
+<td>Strategic reform dashboards</td>
+</tr>
+<tr>
+<td>PCA/statistical weighting</td>
+<td>Data-driven</td>
+<td>Hard to explain to nontechnical audiences</td>
+<td>Exploratory analysis</td>
+</tr>
+<tr>
+<td>Outcome-linked weighting</td>
+<td>Tied to policy relevance</td>
+<td>Requires strong causal theory</td>
+<td>Programme monitoring</td>
+</tr>
+</tbody>
+</table>
+<h2 id="84-query-pages">8.4 Query pages</h2>
+<p>Use query pages when an answer is valuable enough to preserve.</p>
+<p>Examples:</p>
+<pre><code class="language-text">queries/what-indicators-best-capture-moldova-economic-resilience.md
+queries/how-should-sme-dashboard-components-be-weighted.md
+queries/which-reforms-link-economic-governance-to-eu-accession.md
+</code></pre>
+<p>Query pages are especially useful for:</p>
+<ul>
+<li>report outlines;</li>
+<li>briefing notes;</li>
+<li>strategic memos;</li>
+<li>methodology decisions;</li>
+<li>donor mapping;</li>
+<li>evidence gap analysis.</li>
+</ul>
+<hr>
+<h1 id="9-templates-for-reusable-pages">9. Templates for reusable pages</h1>
+<h2 id="91-concept-page-template">9.1 Concept page template</h2>
+<pre><code class="language-markdown">---
+title: Concept Name
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+type: concept
+tags: [moldova, concept]
+sources: []
+confidence: low
+---
+
+# Definition
+
+# Relevance to Moldova
+
+# Relevance to EU accession
+
+# Evidence summary
+
+# Measurement / methodology
+
+# Policy implications
+
+# Risks and debates
+
+# Related pages
+
+# Open questions
+</code></pre>
+<h2 id="92-entity-page-template">9.2 Entity page template</h2>
+<pre><code class="language-markdown">---
+title: Entity Name
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+type: entity
+tags: [moldova, entity]
+sources: []
+confidence: low
+---
+
+# Overview
+
+# Mandate / role
+
+# Key facts and dates
+
+# Relevance to policy work
+
+# Relationships to other pages
+
+# Evidence and sources
+
+# Open questions
+</code></pre>
+<h2 id="93-programme-page-template">9.3 Programme page template</h2>
+<pre><code class="language-markdown">---
+title: Programme Name
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+type: entity
+tags: [donor, programme-design, monitoring, entity]
+sources: []
+confidence: low
+---
+
+# Overview
+
+# Donor / funder
+
+# Implementing partners
+
+# Time period and budget
+
+# Objectives
+
+# Beneficiaries
+
+# Activities
+
+# Indicators and monitoring
+
+# Governance arrangements
+
+# Links to national strategies / EU accession
+
+# Risks and open questions
+</code></pre>
+<h2 id="94-indicator-page-template">9.4 Indicator page template</h2>
+<pre><code class="language-markdown">---
+title: Indicator Name
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+type: concept
+tags: [indicator, data-source, methodology, dashboard, concept]
+sources: []
+confidence: low
+---
+
+# Definition
+
+# Policy relevance
+
+# Data source
+
+# Unit and frequency
+
+# Directionality
+
+Higher is better / lower is better / context-specific.
+
+# Transformations
+
+# Missing-data treatment
+
+# Limitations
+
+# Use in composite indicators
+
+# Related pages
+</code></pre>
+<h2 id="95-query-page-template">9.5 Query page template</h2>
+<pre><code class="language-markdown">---
+title: Research Question
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+type: query
+tags: [query, moldova]
+sources: []
+confidence: medium
+---
+
+# Question
+
+# Short answer
+
+# Evidence consulted
+
+# Synthesis
+
+# Implications
+
+# Confidence and limitations
+
+# Follow-up questions
+</code></pre>
+<hr>
+<h1 id="10-moldova-specific-examples">10. Moldova-specific examples</h1>
+<h2 id="101-example-sme-competitiveness-page">10.1 Example: SME competitiveness page</h2>
+<p>Suggested file:</p>
+<pre><code class="language-text">concepts/sme-competitiveness.md
+</code></pre>
+<p>Possible structure:</p>
+<pre><code class="language-markdown"># Definition
+
+SME competitiveness refers to the ability of small and medium-sized enterprises to survive, grow, innovate, access markets, finance investment, comply with regulation, and compete domestically and internationally.
+
+# Moldova relevance
+
+For Moldova, SME competitiveness is linked to private-sector development, export diversification, employment, regional development, productivity growth, and EU market integration.
+
+# Recurring constraints
+
+- Access to finance
+- Regulatory burden
+- Skills gaps
+- Limited innovation capacity
+- Digitalization gaps
+- Export-readiness constraints
+- Infrastructure and logistics barriers
+- Public procurement access
+
+# EU accession relevance
+
+SME competitiveness is relevant to economic governance, internal market alignment, industrial policy, enterprise policy, digital transformation, procurement, and state-aid frameworks.
+
+# Related pages
+
+[[eu-accession]], [[investment-climate]], [[regulatory-reform]], [[digital-transformation]], [[public-procurement]], [[composite-indicators]]
+</code></pre>
+<h2 id="102-example-eu-accession-page">10.2 Example: EU accession page</h2>
+<p>Suggested file:</p>
+<pre><code class="language-text">concepts/eu-accession.md
+</code></pre>
+<p>Possible sections:</p>
+<ul>
+<li>Overview of Moldova&rsquo;s accession process</li>
+<li>Enlargement methodology</li>
+<li>Clusters and chapters</li>
+<li>Economic governance relevance</li>
+<li>Institutional capacity</li>
+<li>Legal approximation</li>
+<li>Implementation and enforcement</li>
+<li>Monitoring sources</li>
+<li>Links to policy domains</li>
+<li>Open questions</li>
+</ul>
+<p>Good links:</p>
+<pre><code class="language-markdown">[[legal-approximation]], [[public-administration-reform]], [[economic-governance]], [[procurement]], [[anti-corruption]], [[sme-competitiveness]]
+</code></pre>
+<h2 id="103-example-composite-economic-indicator-methodology-page">10.3 Example: composite economic indicator methodology page</h2>
+<p>Suggested file:</p>
+<pre><code class="language-text">concepts/moldova-composite-economic-indicator-methodology.md
+</code></pre>
+<p>Possible structure:</p>
+<pre><code class="language-markdown"># Purpose
+
+The Moldova composite economic indicator is intended to summarize multiple dimensions of economic performance, resilience, competitiveness, or reform progress in a transparent dashboard format.
+
+# Candidate dimensions
+
+| Dimension | Possible indicators | Notes |
+|---|---|---|
+| Macroeconomic stability | Inflation, fiscal balance, exchange rate, reserves | Requires careful interpretation |
+| Labour market | Employment, unemployment, wages, vacancies | Frequency and comparability matter |
+| Business environment | firm creation, insolvency, permits, regulatory burden | Data may be fragmented |
+| Trade and investment | exports, FDI, trade balance | Volatile and externally influenced |
+| Digital transformation | broadband, e-services, digital skills | Often mixed administrative/statistical data |
+| Regional development | regional income, infrastructure, employment | Missing data likely |
+
+# Methodological choices
+
+- Normalization method
+- Weighting system
+- Aggregation formula
+- Missing-data treatment
+- Sensitivity analysis
+- Update frequency
+- Presentation rules
+- Interpretation warnings
+
+# Risks
+
+- False precision
+- Overweighting available data
+- Mixing input, output, and outcome indicators
+- Ignoring lag effects
+- Political misuse of rankings
+</code></pre>
+<h2 id="104-example-donor-coordination-page">10.4 Example: donor coordination page</h2>
+<p>Suggested file:</p>
+<pre><code class="language-text">concepts/donor-coordination.md
+</code></pre>
+<p>Possible sections:</p>
+<ul>
+<li>What donor coordination means</li>
+<li>Why it matters in Moldova</li>
+<li>Main donors and instruments</li>
+<li>Coordination mechanisms</li>
+<li>Links to national strategies</li>
+<li>Links to EU accession</li>
+<li>Risks of fragmentation</li>
+<li>Programme overlap matrix</li>
+<li>Open questions</li>
+</ul>
+<hr>
+<h1 id="11-using-the-wiki-for-composite-indicators-and-dashboards">11. Using the wiki for composite indicators and dashboards</h1>
+<p>This is one of the highest-value applications for your wiki.</p>
+<h2 id="111-why-the-wiki-helps">11.1 Why the wiki helps</h2>
+<p>Composite indicators are often criticized because their methodology is opaque. The wiki can solve this by documenting every design choice:</p>
+<ul>
+<li>why each component was selected;</li>
+<li>what data source supports it;</li>
+<li>what limitations exist;</li>
+<li>how directionality is defined;</li>
+<li>how normalization works;</li>
+<li>how weights are assigned;</li>
+<li>what happens when data is missing;</li>
+<li>how sensitive results are to alternative assumptions.</li>
+</ul>
+<p>A good dashboard is not only a visual product. It is a documented evidence system.</p>
+<h2 id="112-recommended-wiki-pages-for-dashboard-work">11.2 Recommended wiki pages for dashboard work</h2>
+<pre><code class="language-text">concepts/dashboard-methodology.md
+concepts/composite-indicators.md
+concepts/indicator-selection.md
+concepts/indicator-normalization.md
+concepts/indicator-weighting.md
+concepts/missing-data-treatment.md
+concepts/data-source-quality.md
+concepts/sensitivity-analysis.md
+entities/national-bureau-of-statistics.md
+entities/world-bank-data.md
+entities/eurostat.md
+comparisons/composite-indicator-weighting-options.md
+comparisons/normalization-methods.md
+queries/which-indicators-best-capture-moldova-economic-resilience.md
+</code></pre>
+<h2 id="113-indicator-documentation-checklist">11.3 Indicator documentation checklist</h2>
+<p>For each candidate indicator, capture:</p>
+<table class="data-table">
+<thead>
+<tr>
+<th>Field</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name</td>
+<td>Business density</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td>Number of active enterprises per 1,000 population</td>
+</tr>
+<tr>
+<td>Source</td>
+<td>National Bureau of Statistics</td>
+</tr>
+<tr>
+<td>Frequency</td>
+<td>Annual</td>
+</tr>
+<tr>
+<td>Geography</td>
+<td>National / district / region</td>
+</tr>
+<tr>
+<td>Unit</td>
+<td>Enterprises per 1,000 population</td>
+</tr>
+<tr>
+<td>Direction</td>
+<td>Higher is generally better</td>
+</tr>
+<tr>
+<td>Transformation</td>
+<td>Per capita, normalized min-max</td>
+</tr>
+<tr>
+<td>Missing data</td>
+<td>Carry-forward not recommended unless justified</td>
+</tr>
+<tr>
+<td>Limitation</td>
+<td>Does not measure firm quality or productivity</td>
+</tr>
+<tr>
+<td>Policy link</td>
+<td>SME development, regional development</td>
+</tr>
+<tr>
+<td>Dashboard role</td>
+<td>Component in entrepreneurship dimension</td>
+</tr>
+</tbody>
+</table>
+<h2 id="114-component-selection-strategy">11.4 Component-selection strategy</h2>
+<p>Use the wiki to separate three things:</p>
+<ol>
+<li><strong>Policy logic</strong> — why the indicator matters.</li>
+<li><strong>Data logic</strong> — whether the indicator is available and reliable.</li>
+<li><strong>Communication logic</strong> — whether the indicator can be explained to decision-makers.</li>
+</ol>
+<p>A technically sophisticated indicator is not always the best public dashboard indicator. A transparent indicator may be better if it supports trust.</p>
+<h2 id="115-weighting-strategy">11.5 Weighting strategy</h2>
+<p>Create a comparison page for weighting options.</p>
+<p>Recommended table:</p>
+<table class="data-table">
+<thead>
+<tr>
+<th>Weighting approach</th>
+<th>Advantages</th>
+<th>Risks</th>
+<th>Use case</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Equal weights</td>
+<td>Transparent, easy to defend</td>
+<td>Implies all components equally important</td>
+<td>Public dashboard baseline</td>
+</tr>
+<tr>
+<td>Expert weights</td>
+<td>Reflects policy priorities</td>
+<td>Subjective, may be contested</td>
+<td>Strategy-linked dashboard</td>
+</tr>
+<tr>
+<td>Data-driven weights</td>
+<td>Uses statistical structure</td>
+<td>Hard to explain, unstable over time</td>
+<td>Exploratory analysis</td>
+</tr>
+<tr>
+<td>Hybrid weights</td>
+<td>Balances transparency and policy relevance</td>
+<td>Needs clear documentation</td>
+<td>Most practical option</td>
+</tr>
+</tbody>
+</table>
+<p>For Moldova policy communication, a hybrid approach is often attractive:</p>
+<ul>
+<li>equal weights within dimensions;</li>
+<li>policy-reviewed weights across dimensions;</li>
+<li>sensitivity testing to show how rankings/scores change.</li>
+</ul>
+<h2 id="116-prompt-for-dashboard-methodology">11.6 Prompt for dashboard methodology</h2>
+<pre><code class="language-text">Using the wiki, draft a methodology note for the Moldova composite economic indicator. Include purpose, dimensions, component indicators, data sources, normalization, weighting, aggregation, missing-data treatment, sensitivity analysis, limitations, and interpretation rules. Use only wiki-backed claims and flag evidence gaps.
+</code></pre>
+<h2 id="117-prompt-for-indicator-audit">11.7 Prompt for indicator audit</h2>
+<pre><code class="language-text">Audit all indicator-related pages in the wiki. Identify indicators with missing source metadata, unclear frequency, unclear directionality, weak policy rationale, missing-data risks, or unresolved methodology issues. Produce a table of fixes.
+</code></pre>
+<hr>
+<h1 id="12-using-the-wiki-for-eu-accession-and-legal-approximation">12. Using the wiki for EU accession and legal approximation</h1>
+<h2 id="121-why-the-wiki-is-useful-for-eu-accession">12.1 Why the wiki is useful for EU accession</h2>
+<p>EU accession work generates large amounts of recurring knowledge:</p>
+<ul>
+<li>chapters and clusters;</li>
+<li>screening findings;</li>
+<li>Commission assessments;</li>
+<li>reform commitments;</li>
+<li>legal approximation plans;</li>
+<li>implementation gaps;</li>
+<li>institutional responsibilities;</li>
+<li>donor support;</li>
+<li>monitoring indicators.</li>
+</ul>
+<p>A wiki can keep this organized and reusable.</p>
+<h2 id="122-recommended-eu-accession-pages">12.2 Recommended EU accession pages</h2>
+<pre><code class="language-text">concepts/eu-accession.md
+concepts/legal-approximation.md
+concepts/economic-governance.md
+concepts/public-administration-reform.md
+concepts/procurement.md
+concepts/state-aid.md
+concepts/anti-corruption.md
+concepts/institutional-capacity.md
+comparisons/eu-accession-reform-clusters.md
+comparisons/commission-assessments-by-year.md
+entities/european-commission.md
+entities/eu-delegation-to-moldova.md
+entities/government-of-moldova.md
+</code></pre>
+<h2 id="123-legal-approximation-page-structure">12.3 Legal approximation page structure</h2>
+<p>A strong legal approximation page should capture:</p>
+<ul>
+<li>EU act or acquis area;</li>
+<li>Moldovan corresponding law or draft law;</li>
+<li>responsible institution;</li>
+<li>status of transposition;</li>
+<li>implementation/enforcement requirements;</li>
+<li>capacity constraints;</li>
+<li>deadlines;</li>
+<li>donor support;</li>
+<li>Commission comments;</li>
+<li>open questions.</li>
+</ul>
+<h2 id="124-prompt-for-eu-accession-synthesis">12.4 Prompt for EU accession synthesis</h2>
+<pre><code class="language-text">Using the wiki, synthesize the main EU accession-related economic governance priorities for Moldova. Separate Commission assessments, government commitments, donor support, implementation gaps, and policy implications. Cite the wiki pages used and flag weak evidence.
+</code></pre>
+<h2 id="125-prompt-for-legal-approximation-mapping">12.5 Prompt for legal approximation mapping</h2>
+<pre><code class="language-text">Create a comparison table from the wiki mapping Moldova legal approximation items to EU acquis areas, responsible institutions, current status, implementation risks, and source confidence. Do not infer legal status unless supported by a source.
+</code></pre>
+<hr>
+<h1 id="13-using-the-wiki-for-donor-and-programme-architecture">13. Using the wiki for donor and programme architecture</h1>
+<h2 id="131-why-this-matters">13.1 Why this matters</h2>
+<p>Donor/programme architecture is complex because projects overlap across themes:</p>
+<ul>
+<li>digital transformation;</li>
+<li>SME support;</li>
+<li>public administration;</li>
+<li>regional development;</li>
+<li>procurement;</li>
+<li>anti-corruption;</li>
+<li>infrastructure;</li>
+<li>EU accession support;</li>
+<li>private-sector development.</li>
+</ul>
+<p>The wiki can help you build a donor map that is source-backed and updated over time.</p>
+<h2 id="132-recommended-donor-pages">13.2 Recommended donor pages</h2>
+<pre><code class="language-text">entities/eu-delegation-to-moldova.md
+entities/world-bank.md
+entities/undp-moldova.md
+entities/oecd.md
+entities/ebrd.md
+entities/giz.md
+entities/usaid.md
+concepts/donor-coordination.md
+concepts/programme-design.md
+concepts/monitoring.md
+comparisons/donor-programmes-sme-competitiveness.md
+comparisons/donor-programmes-digital-transformation.md
+comparisons/donor-programmes-regional-development.md
+</code></pre>
+<h2 id="133-donor-map-table">13.3 Donor map table</h2>
+<table class="data-table">
+<thead>
+<tr>
+<th>Donor</th>
+<th>Programme</th>
+<th>Area</th>
+<th>Period</th>
+<th>Budget</th>
+<th>Implementer</th>
+<th>Beneficiaries</th>
+<th>EU accession link</th>
+<th>Indicators</th>
+<th>Source confidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EU</td>
+<td>Example programme</td>
+<td>SME competitiveness</td>
+<td>2024–2027</td>
+<td>EUR X</td>
+<td>Implementer</td>
+<td>SMEs, MDED</td>
+<td>Economic criteria</td>
+<td>Output/outcome indicators</td>
+<td>Medium</td>
+</tr>
+</tbody>
+</table>
+<h2 id="134-prompt-for-donor-mapping">13.4 Prompt for donor mapping</h2>
+<pre><code class="language-text">Using the wiki, create a donor/programme mapping table for Moldova economic reform, SME competitiveness, digital transformation, and EU accession support. Include donor, programme, period, budget if available, implementer, beneficiaries, policy area, indicators, and source confidence. Flag overlaps and gaps.
+</code></pre>
+<hr>
+<h1 id="14-querying-the-wiki-effectively">14. Querying the wiki effectively</h1>
+<h2 id="141-query-types">14.1 Query types</h2>
+<p>Use the wiki for five main query types:</p>
+<table class="data-table">
+<thead>
+<tr>
+<th>Query type</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Evidence query</td>
+<td>What sources support this claim?</td>
+</tr>
+<tr>
+<td>Synthesis query</td>
+<td>What are the main constraints to SME competitiveness?</td>
+</tr>
+<tr>
+<td>Comparison query</td>
+<td>How do weighting methods differ?</td>
+</tr>
+<tr>
+<td>Gap query</td>
+<td>What evidence is missing before publishing a dashboard?</td>
+</tr>
+<tr>
+<td>Output query</td>
+<td>Draft a report outline using wiki-backed evidence.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="142-ask-for-pages-consulted">14.2 Ask for pages consulted</h2>
+<p>A strong wiki answer should say which pages it used.</p>
+<p>Prompt:</p>
+<pre><code class="language-text">Answer using the wiki first. Cite the wiki pages used, identify source confidence, and tell me what evidence is missing.
+</code></pre>
+<h2 id="143-ask-for-uncertainty">14.3 Ask for uncertainty</h2>
+<p>Prompt:</p>
+<pre><code class="language-text">Give me the strongest source-backed answer, but separate high-confidence facts, medium-confidence interpretation, and low-confidence assumptions.
+</code></pre>
+<h2 id="144-ask-for-reusable-output">14.4 Ask for reusable output</h2>
+<p>Prompt:</p>
+<pre><code class="language-text">If this answer is substantial, save it as a query page and update index.md and log.md.
+</code></pre>
+<hr>
+<h1 id="15-prompt-cookbook">15. Prompt cookbook</h1>
+<p>This section gives you ready-to-use prompts.</p>
+<h2 id="151-general-ingest">15.1 General ingest</h2>
+<pre><code class="language-text">Ingest this into the wiki. Save the raw source, identify entities/concepts/programmes/indicators, update existing pages before creating new ones, use only schema-approved tags, cross-link pages, update index.md and log.md, and flag uncertainty or contradictions.
+</code></pre>
+<h2 id="152-focused-moldova-policy-ingest">15.2 Focused Moldova policy ingest</h2>
+<pre><code class="language-text">Ingest this into the wiki with special attention to Moldova economic policy, EU accession, SME competitiveness, digital transformation, regulatory reform, donor coordination, and dashboard indicators. Preserve source meaning and separate facts, interpretation, and recommendations.
+</code></pre>
+<h2 id="153-composite-indicator-ingest">15.3 Composite indicator ingest</h2>
+<pre><code class="language-text">Ingest this source for the Moldova composite economic indicator. Extract candidate indicators, data sources, methodology notes, limitations, update frequency, directionality, missing-data issues, and dashboard relevance. Update indicator and methodology pages.
+</code></pre>
+<h2 id="154-eu-accession-ingest">15.4 EU accession ingest</h2>
+<pre><code class="language-text">Ingest this EU accession source. Extract reform priorities, Commission assessments, legal approximation issues, economic governance points, institutions responsible, implementation gaps, donor support, and chapter/cluster relevance if stated.
+</code></pre>
+<h2 id="155-donor-programme-ingest">15.5 Donor programme ingest</h2>
+<pre><code class="language-text">Ingest this donor programme document. Extract donor, programme title, objectives, budget, period, implementers, beneficiaries, governance, indicators, policy area, EU accession link, and implementation risks. Update donor and programme pages.
+</code></pre>
+<h2 id="156-query-from-wiki">15.6 Query from wiki</h2>
+<pre><code class="language-text">Answer this using the wiki first. Read index.md, relevant pages, and recent log.md. Cite the wiki pages used. Separate facts, interpretation, and assumptions. Flag weak evidence.
+</code></pre>
+<h2 id="157-create-a-comparison-page">15.7 Create a comparison page</h2>
+<pre><code class="language-text">Create a comparison page on [topic]. Use a table, cite sources, include implications for Moldova, explain confidence levels, update index.md and log.md.
+</code></pre>
+<h2 id="158-prepare-a-policy-brief">15.8 Prepare a policy brief</h2>
+<pre><code class="language-text">Using only wiki-backed evidence, prepare a policy brief outline on [topic]. Include problem statement, evidence, policy options, recommended approach, risks, implementation considerations, and source gaps.
+</code></pre>
+<h2 id="159-prepare-a-report-structure">15.9 Prepare a report structure</h2>
+<pre><code class="language-text">Read the relevant wiki pages and propose a modern policy report structure for [topic]. Identify which claims are well-supported, which require verification, and which figures/tables could be generated.
+</code></pre>
+<h2 id="1510-audit-the-wiki">15.10 Audit the wiki</h2>
+<pre><code class="language-text">Lint the wiki for broken links, orphan pages, missing frontmatter, missing index entries, tags not in SCHEMA.md, low-confidence pages, stale pages, source drift, oversized pages, and contradictions. Provide a prioritized fix list.
+</code></pre>
+<h2 id="1511-strengthen-evidence">15.11 Strengthen evidence</h2>
+<pre><code class="language-text">Find weak or single-source claims in the wiki on [topic]. Suggest what primary sources, datasets, or official documents are needed to strengthen them.
+</code></pre>
+<h2 id="1512-build-a-briefing-pack">15.12 Build a briefing pack</h2>
+<pre><code class="language-text">Create a 2-page briefing pack from the wiki on [topic]. Use source-backed claims only, include key findings, evidence confidence, policy implications, and open questions.
+</code></pre>
+<hr>
+<h1 id="16-obsidian-and-browsing-tactics">16. Obsidian and browsing tactics</h1>
+<p>You can open the wiki folder in Obsidian:</p>
+<pre><code class="language-text">C:\Users\harab\wiki
+</code></pre>
+<h2 id="161-why-obsidian-helps">16.1 Why Obsidian helps</h2>
+<p>Obsidian makes the wiki easier to browse because:</p>
+<ul>
+<li><code>[[wikilinks]]</code> become clickable;</li>
+<li>backlinks show what refers to a topic;</li>
+<li>graph view shows relationships;</li>
+<li>tags can be browsed;</li>
+<li>Markdown remains plain and portable.</li>
+</ul>
+<h2 id="162-how-to-browse-effectively">16.2 How to browse effectively</h2>
+<p>Start from:</p>
+<pre><code class="language-text">index.md
+</code></pre>
+<p>Then open anchor pages, such as:</p>
+<pre><code class="language-text">concepts/eu-accession.md
+concepts/composite-indicators.md
+concepts/sme-competitiveness.md
+</code></pre>
+<p>Use backlinks to discover related pages.</p>
+<h2 id="163-suggested-obsidian-habits">16.3 Suggested Obsidian habits</h2>
+<ul>
+<li>Keep <code>index.md</code> pinned.</li>
+<li>Use graph view occasionally to spot orphan pages.</li>
+<li>Use search for recurring terms like “SME”, “acquis”, “indicator”, “weighting”, “procurement”.</li>
+<li>Do not manually edit raw sources except to correct ingestion errors.</li>
+<li>If you manually edit synthesis pages, keep frontmatter and links intact.</li>
+</ul>
+<hr>
+<h1 id="17-quality-assurance-and-linting">17. Quality assurance and linting</h1>
+<h2 id="171-why-qa-matters">17.1 Why QA matters</h2>
+<p>A wiki can decay if it accumulates:</p>
+<ul>
+<li>duplicate pages;</li>
+<li>broken links;</li>
+<li>weak claims;</li>
+<li>missing sources;</li>
+<li>outdated pages;</li>
+<li>inconsistent tags;</li>
+<li>unstated methodology;</li>
+<li>hidden contradictions.</li>
+</ul>
+<p>Quality assurance keeps the wiki trustworthy.</p>
+<h2 id="172-lint-checklist">17.2 Lint checklist</h2>
+<p>Ask the agent to check:</p>
+<table class="data-table">
+<thead>
+<tr>
+<th>Check</th>
+<th>Why it matters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Broken wikilinks</td>
+<td>Prevents navigation failure</td>
+</tr>
+<tr>
+<td>Orphan pages</td>
+<td>Finds isolated knowledge</td>
+</tr>
+<tr>
+<td>Missing index entries</td>
+<td>Keeps the map complete</td>
+</tr>
+<tr>
+<td>Missing frontmatter</td>
+<td>Keeps metadata searchable</td>
+</tr>
+<tr>
+<td>Invalid tags</td>
+<td>Prevents tag sprawl</td>
+</tr>
+<tr>
+<td>Low-confidence pages</td>
+<td>Highlights weak evidence</td>
+</tr>
+<tr>
+<td>Stale pages</td>
+<td>Prevents outdated synthesis</td>
+</tr>
+<tr>
+<td>Source drift</td>
+<td>Detects changed raw sources</td>
+</tr>
+<tr>
+<td>Oversized pages</td>
+<td>Signals need to split</td>
+</tr>
+<tr>
+<td>Contradictions</td>
+<td>Preserves analytical honesty</td>
+</tr>
+</tbody>
+</table>
+<h2 id="173-confidence-rules">17.3 Confidence rules</h2>
+<p>Use this standard:</p>
+<table class="data-table">
+<thead>
+<tr>
+<th>Confidence</th>
+<th>Meaning</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>High</td>
+<td>Strongly supported by primary or multiple credible sources</td>
+<td>Official legal text, official statistics, repeated findings</td>
+</tr>
+<tr>
+<td>Medium</td>
+<td>Credible but limited or interpretive</td>
+<td>One strong analytical report</td>
+</tr>
+<tr>
+<td>Low</td>
+<td>Uncertain, single-source, informal, politically sensitive, or inferred</td>
+<td>Meeting note claim, unverified dataset assumption</td>
+</tr>
+</tbody>
+</table>
+<h2 id="174-contradiction-handling">17.4 Contradiction handling</h2>
+<p>Do not hide contradictions. Record them.</p>
+<p>Example:</p>
+<pre><code class="language-yaml">contested: true
+contradictions: [investment-climate]
+</code></pre>
+<p>Then explain:</p>
+<pre><code class="language-markdown"># Contradiction
+
+Source A presents regulatory reform progress as significant, while Source B emphasizes persistent implementation burdens for SMEs. The difference may reflect scope, date, or measurement method.
+</code></pre>
+<p>Contradictions often become valuable policy insights.</p>
+<hr>
+<h1 id="18-governance-routines">18. Governance routines</h1>
+<h2 id="181-daily-or-per-source-routine">18.1 Daily or per-source routine</h2>
+<p>When you add a source:</p>
+<ol>
+<li>Ingest raw source.</li>
+<li>Update relevant pages.</li>
+<li>Avoid duplicate pages.</li>
+<li>Cross-link.</li>
+<li>Update <code>index.md</code>.</li>
+<li>Update <code>log.md</code>.</li>
+<li>Flag gaps.</li>
+</ol>
+<h2 id="182-weekly-routine-during-active-research">18.2 Weekly routine during active research</h2>
+<p>Ask:</p>
+<pre><code class="language-text">Review recent log.md entries and summarize what changed this week, unresolved questions, and recommended next sources to ingest.
+</code></pre>
+<h2 id="183-monthly-routine">18.3 Monthly routine</h2>
+<p>Ask:</p>
+<pre><code class="language-text">Run a full wiki lint and propose a maintenance plan grouped by high, medium, and low priority.
+</code></pre>
+<h2 id="184-before-writing-a-major-report">18.4 Before writing a major report</h2>
+<p>Ask:</p>
+<pre><code class="language-text">Before drafting, read the relevant wiki pages for [topic], identify the strongest source-backed claims, weak evidence, contradictions, and suggested figures/tables.
+</code></pre>
+<h2 id="185-after-finishing-a-major-report">18.5 After finishing a major report</h2>
+<p>Ingest the final report back into the wiki. It becomes a source and synthesis artifact for future work.</p>
+<p>Prompt:</p>
+<pre><code class="language-text">Ingest this final report back into the wiki. Treat it as a source produced from prior analysis. Update relevant concept/query/comparison pages, but preserve distinctions between original external evidence and this report's synthesis.
+</code></pre>
+<hr>
+<h1 id="19-a-30-day-implementation-plan">19. A 30-day implementation plan</h1>
+<h2 id="week-1-establish-the-backbone">Week 1: establish the backbone</h2>
+<p>Goal: create anchor pages from 3–5 core sources.</p>
+<p>Actions:</p>
+<ol>
+<li>Ingest European Commission Moldova Report.</li>
+<li>Ingest Moldova Economic Reform Programme.</li>
+<li>Ingest National Development Strategy “European Moldova 2030”.</li>
+<li>Ingest one World Bank or OECD Moldova economic source.</li>
+<li>Create/update anchor pages for EU accession, economic policy, SME competitiveness, composite indicators, and dashboard methodology.</li>
+</ol>
+<p>Deliverable:</p>
+<pre><code class="language-text">index.md has at least 10–20 meaningful pages.
+</code></pre>
+<h2 id="week-2-build-methodology-depth">Week 2: build methodology depth</h2>
+<p>Goal: make the dashboard/composite indicator knowledge base robust.</p>
+<p>Actions:</p>
+<ol>
+<li>Ingest your composite indicator notes.</li>
+<li>Create indicator templates.</li>
+<li>Create pages for normalization, weighting, missing data, and sensitivity analysis.</li>
+<li>Create comparison page on weighting methods.</li>
+<li>Audit candidate indicators.</li>
+</ol>
+<p>Deliverable:</p>
+<pre><code class="language-text">A source-backed dashboard methodology skeleton.
+</code></pre>
+<h2 id="week-3-build-eu-accession-and-donor-map">Week 3: build EU accession and donor map</h2>
+<p>Goal: link reform priorities to programmes and institutions.</p>
+<p>Actions:</p>
+<ol>
+<li>Ingest EU accession or enlargement materials.</li>
+<li>Ingest 2–3 donor programme documents.</li>
+<li>Create donor/programme pages.</li>
+<li>Create a comparison table of donor support by policy area.</li>
+<li>Link donor support to EU accession themes.</li>
+</ol>
+<p>Deliverable:</p>
+<pre><code class="language-text">A donor and reform architecture map.
+</code></pre>
+<h2 id="week-4-produce-outputs-and-audit">Week 4: produce outputs and audit</h2>
+<p>Goal: make the wiki useful for real products.</p>
+<p>Actions:</p>
+<ol>
+<li>Ask the wiki to prepare a policy brief outline.</li>
+<li>Ask the wiki to draft a dashboard methodology note.</li>
+<li>Ask the wiki to identify evidence gaps.</li>
+<li>Run full lint.</li>
+<li>Fix broken links, weak tags, and missing frontmatter.</li>
+</ol>
+<p>Deliverable:</p>
+<pre><code class="language-text">A maintained wiki capable of supporting reports, briefs, dashboards, and presentations.
+</code></pre>
+<hr>
+<h1 id="20-common-failure-modes-and-how-to-avoid-them">20. Common failure modes and how to avoid them</h1>
+<h2 id="201-failure-dumping-summaries-into-the-wiki">20.1 Failure: dumping summaries into the wiki</h2>
+<p>Bad pattern:</p>
+<pre><code class="language-text">Every source becomes a long summary page.
+</code></pre>
+<p>Better pattern:</p>
+<pre><code class="language-text">Every source updates the relevant concept/entity pages and only creates new pages when justified.
+</code></pre>
+<h2 id="202-failure-creating-too-many-small-pages">20.2 Failure: creating too many small pages</h2>
+<p>Bad:</p>
+<pre><code class="language-text">A page for every minor project, person, or passing mention.
+</code></pre>
+<p>Better:</p>
+<pre><code class="language-text">Broader pages with sections until a topic becomes central or recurring.
+</code></pre>
+<h2 id="203-failure-weak-provenance">20.3 Failure: weak provenance</h2>
+<p>Bad:</p>
+<pre><code class="language-text">Moldova has weak implementation capacity.
+</code></pre>
+<p>Better:</p>
+<pre><code class="language-text">The source identifies implementation capacity as a constraint in the context of public administration and reform delivery.^[raw/papers/source.md]
+</code></pre>
+<h2 id="204-failure-hidden-methodology">20.4 Failure: hidden methodology</h2>
+<p>Bad:</p>
+<pre><code class="language-text">The dashboard shows a competitiveness score.
+</code></pre>
+<p>Better:</p>
+<pre><code class="language-text">The dashboard score aggregates normalized indicators across four dimensions using equal within-dimension weights and policy-reviewed dimension weights. Missing values are excluded if less than X% of the dimension is missing; otherwise the dimension is flagged incomplete.
+</code></pre>
+<h2 id="205-failure-treating-old-sources-as-current">20.5 Failure: treating old sources as current</h2>
+<p>Always capture dates. Policy and economic claims age quickly.</p>
+<hr>
+<h1 id="21-practical-examples-of-complete-workflows">21. Practical examples of complete workflows</h1>
+<h2 id="211-workflow-building-a-policy-brief-on-sme-competitiveness">21.1 Workflow: building a policy brief on SME competitiveness</h2>
+<h3 id="step-1-query-the-wiki">Step 1: query the wiki</h3>
+<pre><code class="language-text">Using the wiki, identify the strongest source-backed claims about SME competitiveness constraints in Moldova. Separate high-confidence facts, medium-confidence interpretations, and evidence gaps.
+</code></pre>
+<h3 id="step-2-create-evidence-table">Step 2: create evidence table</h3>
+<pre><code class="language-text">Create a table with constraint, supporting sources, policy implication, confidence, and open questions.
+</code></pre>
+<h3 id="step-3-outline-brief">Step 3: outline brief</h3>
+<pre><code class="language-text">Using that evidence table, draft a policy brief outline with problem statement, evidence, policy options, recommended approach, implementation risks, and indicators.
+</code></pre>
+<h3 id="step-4-preserve-synthesis">Step 4: preserve synthesis</h3>
+<pre><code class="language-text">Save the evidence table and outline as a query page because I may reuse it later.
+</code></pre>
+<h2 id="212-workflow-creating-a-composite-economic-indicator-methodology">21.2 Workflow: creating a composite economic indicator methodology</h2>
+<h3 id="step-1-audit-candidate-indicators">Step 1: audit candidate indicators</h3>
+<pre><code class="language-text">Audit all candidate indicators in the wiki for data source, frequency, directionality, missing data, policy relevance, and limitations.
+</code></pre>
+<h3 id="step-2-compare-methodology-options">Step 2: compare methodology options</h3>
+<pre><code class="language-text">Create a comparison page for normalization and weighting options. Include advantages, risks, and recommended use for a Moldova public-facing dashboard.
+</code></pre>
+<h3 id="step-3-draft-methodology-note">Step 3: draft methodology note</h3>
+<pre><code class="language-text">Draft a methodology note for the Moldova composite economic indicator using only wiki-backed evidence. Include purpose, dimensions, normalization, weighting, aggregation, missing-data treatment, sensitivity analysis, limitations, and interpretation guidance.
+</code></pre>
+<h3 id="step-4-flag-missing-data">Step 4: flag missing data</h3>
+<pre><code class="language-text">List all methodology assumptions that still need data or expert validation.
+</code></pre>
+<h2 id="213-workflow-preparing-for-eu-delegation-programme-officer-style-work">21.3 Workflow: preparing for EU Delegation / programme officer style work</h2>
+<h3 id="step-1-create-reform-map">Step 1: create reform map</h3>
+<pre><code class="language-text">Using the wiki, map economic reform priorities to EU accession themes, responsible institutions, donor programmes, indicators, and implementation risks.
+</code></pre>
+<h3 id="step-2-create-programme-architecture-table">Step 2: create programme architecture table</h3>
+<pre><code class="language-text">Create a programme architecture table with objective, activities, outputs, outcomes, beneficiaries, implementing partners, indicators, risks, and evidence sources.
+</code></pre>
+<h3 id="step-3-generate-interviewwriting-examples">Step 3: generate interview/writing examples</h3>
+<pre><code class="language-text">Using wiki-backed examples, prepare concise STAR-style examples showing experience with EU accession, programme management, economic reform, and donor coordination. Keep claims factual and source-supported where applicable.
+</code></pre>
+<hr>
+<h1 id="22-appendix-a-master-ingest-checklist">22. Appendix A: master ingest checklist</h1>
+<p>Before finishing any ingest, check:</p>
+<ul>
+<li>[ ] Raw source saved in the correct folder.</li>
+<li>[ ] Raw frontmatter added.</li>
+<li>[ ] Existing pages searched before new pages created.</li>
+<li>[ ] New pages meet page-creation threshold.</li>
+<li>[ ] Frontmatter complete.</li>
+<li>[ ] Tags come from <code>SCHEMA.md</code>.</li>
+<li>[ ] Sources listed.</li>
+<li>[ ] Confidence level assigned where needed.</li>
+<li>[ ] At least two wikilinks added where practical.</li>
+<li>[ ] Index updated.</li>
+<li>[ ] Log updated.</li>
+<li>[ ] Contradictions flagged.</li>
+<li>[ ] Open questions recorded.</li>
+</ul>
+<hr>
+<h1 id="23-appendix-b-master-query-checklist">23. Appendix B: master query checklist</h1>
+<p>Before trusting an answer from the wiki, check:</p>
+<ul>
+<li>[ ] Which pages were read?</li>
+<li>[ ] Which sources support the answer?</li>
+<li>[ ] Are facts separated from interpretation?</li>
+<li>[ ] Is confidence stated?</li>
+<li>[ ] Are there contradictions?</li>
+<li>[ ] Are dates current enough?</li>
+<li>[ ] Is there a missing primary source?</li>
+<li>[ ] Should this answer be saved as a query page?</li>
+</ul>
+<hr>
+<h1 id="24-appendix-c-minimal-commands-and-paths">24. Appendix C: minimal commands and paths</h1>
+<p>Wiki root:</p>
+<pre><code class="language-text">C:\Users\harab\wiki
+</code></pre>
+<p>Important files:</p>
+<pre><code class="language-text">C:\Users\harab\wiki\SCHEMA.md
+C:\Users\harab\wiki\index.md
+C:\Users\harab\wiki\log.md
+</code></pre>
+<p>Main folders:</p>
+<pre><code class="language-text">C:\Users\harab\wiki\raw
+C:\Users\harab\wiki\entities
+C:\Users\harab\wiki\concepts
+C:\Users\harab\wiki\comparisons
+C:\Users\harab\wiki\queries
+C:\Users\harab\wiki\_meta
+</code></pre>
+<p>Recommended first instruction in future sessions:</p>
+<pre><code class="language-text">Orient yourself in my wiki, then help me with [task].
+</code></pre>
+<hr>
+<h1 id="25-final-principles">25. Final principles</h1>
+<ol>
+<li><strong>Preserve evidence.</strong> Raw sources should remain traceable.</li>
+<li><strong>Prefer updating over duplicating.</strong> Mature pages are more useful than many shallow pages.</li>
+<li><strong>Make methodology explicit.</strong> Especially for indicators and dashboards.</li>
+<li><strong>Separate fact, interpretation, and recommendation.</strong> This is essential for policy work.</li>
+<li><strong>Use confidence levels.</strong> Prevent weak claims from becoming hard assumptions.</li>
+<li><strong>Capture contradictions.</strong> They are often analytically valuable.</li>
+<li><strong>Ask better questions.</strong> Use the wiki for synthesis, comparison, gaps, and outputs.</li>
+<li><strong>Maintain the index and log.</strong> They are the nervous system of the wiki.</li>
+<li><strong>Audit regularly.</strong> A wiki decays without maintenance.</li>
+<li><strong>Use the wiki before writing.</strong> Briefs, reports, dashboards, and presentations should draw from the maintained knowledge base.</li>
+</ol>
+<p>The ultimate goal is that, after months of use, you can ask:</p>
+<pre><code class="language-text">What do we know, from source-backed evidence, about Moldova's economic reform priorities and how they connect to EU accession, donor support, and dashboard indicators?
+</code></pre>
+<p>and the wiki will answer from a structured, traceable, carefully maintained body of knowledge rather than from scattered files or memory.</p>
+</main>
+</body>
+</html>

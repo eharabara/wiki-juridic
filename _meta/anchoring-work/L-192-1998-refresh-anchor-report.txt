@@ -1,0 +1,12 @@
+source            : _meta/anchoring-work/L-192-1998-refreshed-pre-anchor.md
+output            : _meta/anchoring-work/L-192-1998-refreshed.md
+sha256 convention : raw
+sha256 pre        : be73657753ad50a5ad2738f3a6fc254031695a70b5e4a7335c1bf740b8901588
+sha256 post       : a561655e75333d1427de54eda71b7d63b7fd32e480eda0b95a5842c59b37a27a
+anchors inserted  : 34
+arabic numbers    : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+numbering gaps    : []
+source-resolved superscripts: 8^1, 8^2, 13^1
+
+flattened superscript candidates:
+   none

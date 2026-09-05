@@ -1,0 +1,26 @@
+source            : raw/papers/moldova-legal/CC-1107-2002.md
+output            : _meta/anchoring-work/CC-1107-2002-dedup-struct.md
+sha256 pre        : fa97b7cec3cf7ac83188d8b33e032982dd520c497f19b91dedbdcd033edb560b
+sha256 post       : 2aca75a9185d4771a7ab2e05d1ef3541b93d619413913c913de692a06a2425cc
+body lines before : 14353
+body lines after  : 14183
+
+duplicate marker lines removed:
+   Cartea       5
+   Capitolul    109
+   paragraf     56
+   TOTAL        170
+
+truncated anchors completed from the body line: 5
+   line 727    was : § 3. Ocrotirea intereselor personale
+               now : § 3. Ocrotirea intereselor personale nepatrimoniale
+   line 808    was : § 2. Competenţa consiliului de familie
+               now : § 2. Competenţa consiliului de familie și a autorităţii tutelare
+   line 860    was : § 4. Pregătirea, verificarea şi aprobarea
+               now : § 4. Pregătirea, verificarea şi aprobarea dării de seamă
+   line 969    was : § 3. Contestarea deciziilor autorităţii tutelare
+               now : § 3. Contestarea deciziilor autorităţii tutelare și ale consiliului de familie
+   line 1104   was : § 2. Dispoziții comune privind funcționarea
+               now : § 2. Dispoziții comune privind funcționarea persoanelor juridice de drept privat
+
+anchors left alone (anchor is not a copy of the next line): 0

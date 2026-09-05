@@ -1,0 +1,115 @@
+{
+  "audit_date": "2026-07-12",
+  "scope": {
+    "active_pages": 51,
+    "raw_markdown_files": 59,
+    "backup": "C:\\Users\\harab\\wiki-backups\\wiki-before-policy-corpus-lint-20260712-120222"
+  },
+  "summary": {
+    "severity_counts": {
+      "high": 0,
+      "medium": 2,
+      "low": 44
+    },
+    "index_total": 51,
+    "active_page_count": 51,
+    "index_matches_active_pages": true
+  },
+  "high": {
+    "broken_wikilinks": [],
+    "frontmatter_issues": [],
+    "invalid_page_types": [],
+    "missing_referenced_sources": []
+  },
+  "medium": {
+    "invalid_tags": [],
+    "raw_sha256_drift": [],
+    "raw_missing_frontmatter": [
+      "raw/papers/cnpf/_manifest.md",
+      "raw/papers/moldova-legal/_manifest.md"
+    ],
+    "raw_bad_yaml": [],
+    "raw_missing_required_fields": []
+  },
+  "low": {
+    "orphan_pages": [],
+    "oversized_pages": [
+      {
+        "path": "queries/emir-draft-complet-2026-07-10.md",
+        "lines": 990
+      },
+      {
+        "path": "queries/emir-draft-normative-package-phase-1-2026-07-09.md",
+        "lines": 486
+      }
+    ],
+    "stale_pages": [],
+    "low_confidence_pages": [],
+    "single_source_pages_without_confidence": [],
+    "contested_pages": [],
+    "index_extra_links": [],
+    "legacy_uppercase_legal_page_names": [
+      "entities/HG-1170-2016.md",
+      "entities/HG-1171-2018.md",
+      "entities/HG-260-2025.md",
+      "entities/HG-361-2024.md",
+      "entities/HG-393-2024.md",
+      "entities/HG-650-2023.md",
+      "entities/HG-829-2023.md",
+      "entities/HG-841-2024.md",
+      "entities/L-1-2018.md",
+      "entities/L-100-2017.md",
+      "entities/L-106-2022.md",
+      "entities/L-1134-1997.md",
+      "entities/L-122-2008.md",
+      "entities/L-139-2007.md",
+      "entities/L-171-2012.md",
+      "entities/L-178-2020.md",
+      "entities/L-181-2023.md",
+      "entities/L-192-1998.md",
+      "entities/L-198-2020.md",
+      "entities/L-2-2020.md",
+      "entities/L-234-2016.md",
+      "entities/L-308-2017.md",
+      "entities/L-315-2022.md",
+      "entities/L-92-2022.md",
+      "entities/REG-ICF.md",
+      "concepts/acquis-AIFMD.md",
+      "concepts/acquis-AML.md",
+      "concepts/acquis-CompanyLaw.md",
+      "concepts/acquis-ConsumerCredit.md",
+      "concepts/acquis-Crowdfunding.md",
+      "concepts/acquis-CSDR-EMIR.md",
+      "concepts/acquis-ICSD.md",
+      "concepts/acquis-Insurance.md",
+      "concepts/acquis-IORP.md",
+      "concepts/acquis-MAR.md",
+      "concepts/acquis-MiFID.md",
+      "concepts/acquis-MTPL.md",
+      "concepts/acquis-Prospectus.md",
+      "concepts/acquis-SFD.md",
+      "concepts/acquis-Takeover.md",
+      "concepts/acquis-Transparency.md",
+      "concepts/acquis-UCITS.md"
+    ]
+  },
+  "policy_corpus_reconciliation": {
+    "status": "already ingested; not duplicated",
+    "entity_pages": [
+      "entities/L-315-2022.md",
+      "entities/HG-393-2024.md",
+      "entities/HG-361-2024.md",
+      "entities/HG-829-2023.md",
+      "entities/HG-841-2024.md",
+      "entities/HG-650-2023.md",
+      "entities/HG-260-2025.md"
+    ],
+    "raw_policy_extracts": 8,
+    "preserved_originals": 8
+  },
+  "interpretation": {
+    "high": "High findings require remediation because they affect wiki navigation, frontmatter validity, page typing, or cited source existence.",
+    "medium": "Medium findings concern provenance integrity or taxonomy consistency and should be resolved before relying on affected material as audited.",
+    "low": "Low findings are navigation/quality signals or documented legacy naming conventions; they do not make the corpus unreadable."
+  }
+}

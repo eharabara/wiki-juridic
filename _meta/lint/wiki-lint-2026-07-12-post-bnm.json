@@ -1,0 +1,133 @@
+{
+  "scope": {
+    "active_pages": 64,
+    "raw_markdown_with_frontmatter": 374,
+    "log_entries": 20
+  },
+  "summary": {
+    "high": 12,
+    "medium": 2,
+    "low": 9
+  },
+  "high": [
+    {
+      "check": "raw-sha-drift",
+      "file": "raw/papers/mded-policy-2024/bilateral-screening-economic-criteria-2024.md",
+      "detail": "claimed fcd514a948342209bec5c622ddd0cdd3d7fc2b6b9e7fc994932b89fab7516754; actual a8931287a7618489e50f94b392597c1836601a74b74e525741848ed01f5feb2f"
+    },
+    {
+      "check": "raw-sha-drift",
+      "file": "raw/papers/mded-policy-2024/economic-criteria-deregulation-2024.md",
+      "detail": "claimed d0c71bf975fffd93be9fc61f7dfedab2a36a49e4bfb807352f4d4811f5834471; actual a86bab917cfd4e561cd87fd75dd6cd07e29a344c41c84db9718206551db44f3c"
+    },
+    {
+      "check": "raw-sha-drift",
+      "file": "raw/papers/mded-policy-2024/economic-criteria-soe-privatisation-2024.md",
+      "detail": "claimed 35a65568409c71dc761688947533d9871ded21f2ff8594a60f992a2612d4e8ac; actual 349088827f8bece78566e6e078e7530169ba018b001dccafc176f4a09284b321"
+    },
+    {
+      "check": "raw-sha-drift",
+      "file": "raw/papers/mded-policy-2024/economic-criteria-state-aid-2024.md",
+      "detail": "claimed 1db72d111570f0cd94552f08f2590db24b24968be911b95ad33999fc036b0b8c; actual e892c7335866b6dddc8aebc368931f59473f5a021bb562f6dc94a8a8e0e6bc6b"
+    },
+    {
+      "check": "raw-sha-drift",
+      "file": "raw/papers/mded-policy-2024/economic-reform-programme-2024-2026.md",
+      "detail": "claimed 0c14961815fdc25a09df5686ce950708a224b9a6a1c37d93763a8957c46543d5; actual f5bb1e9d048cfa8f92ddd6fa0cb70697ed207c1070cacf5b2375916b8f9225ac"
+    },
+    {
+      "check": "raw-sha-drift",
+      "file": "raw/papers/mded-policy-2024/eu-moldova-growth-plan-communication-2024.md",
+      "detail": "claimed c62670fe420a232f2db31d7f57ffe1171efe0315bdb95f05ee7dc2d78a2f6df7; actual b6a9411a80c2cae920386a43c14409754a81ab92b0ec6fac653aa29675dbd8c7"
+    },
+    {
+      "check": "raw-sha-drift",
+      "file": "raw/papers/mded-policy-2024/eu-reform-growth-facility-moldova-2024.md",
+      "detail": "claimed 444e0488d53415b414cc89f8e298064b3ad82b3bf438eb8bdf665adef74d2693; actual 60a254738904eb8e9e712a121b72629009ebd8f819a4ec8f8e73e73327bdef29"
+    },
+    {
+      "check": "raw-sha-drift",
+      "file": "raw/papers/mded-policy-2024/european-commission-moldova-report-2023.md",
+      "detail": "claimed 34acc802044d26c453d3f0d7641e9245542457d9b115055c62bdea51c44cd5a4; actual ba145fe905124c43815ebd73569b6694eefd9e31b4896ff008b5cf9e9c2ab1bf"
+    },
+    {
+      "check": "raw-sha-drift",
+      "file": "raw/papers/mded-policy-2024/foaia-de-parcurs-finantare-durabila-2024-2028.md",
+      "detail": "claimed 95e10d0e1e490b58cbb3920da97fcd5842d00391809da6bb42be425b8a93d6e5; actual 6932de2ce197c3afb0e2c06d1f8664ec70d48b990e352b9a7ee4fcff59b7744b"
+    },
+    {
+      "check": "raw-sha-drift",
+      "file": "raw/papers/mded-policy-2024/studiu-finantare-climatica-moldova-2024.md",
+      "detail": "claimed 4a154cc5a71da484c6f97e00dcbcc32bd27b9915622a1f1db9f111a95e169ffa; actual 9babf8b90939dafee1182405aff8a9caeea0843e26b449509a110be563479a25"
+    },
+    {
+      "check": "raw-sha-drift",
+      "file": "raw/papers/mded-policy-2024/world-bank-country-economic-memorandum-2023.md",
+      "detail": "claimed a4db6659a0653829deddade9447a2f22fdd82227025cc850abb65c04fd0d41d3; actual d7d67004917534d06be7044e62602f0cf94b40e42aae5a1899022f435aea3602"
+    },
+    {
+      "check": "raw-sha-drift",
+      "file": "raw/papers/mded-policy-2024/world-bank-country-partnership-framework-2023-2027.md",
+      "detail": "claimed 5f5fbf423739d88809261a7319efcc3d80bd3eb6dd4f242e9fab2bc71e57395b; actual e102daf0aba62cc43a6b4dac8fdb3fddec1e286bc409656722e0a1db07e8f007"
+    }
+  ],
+  "medium": [
+    {
+      "check": "page-size",
+      "file": "queries/emir-draft-complet-2026-07-10.md",
+      "detail": "991 lines; consider splitting"
+    },
+    {
+      "check": "page-size",
+      "file": "queries/emir-draft-normative-package-phase-1-2026-07-09.md",
+      "detail": "487 lines; consider splitting"
+    }
+  ],
+  "low": [
+    {
+      "check": "single-source",
+      "file": "entities/economic-reform-programme-2024-2026.md",
+      "detail": "raw/papers/mded-policy-2024/economic-reform-programme-2024-2026.md"
+    },
+    {
+      "check": "single-source",
+      "file": "entities/foaia-de-parcurs-finantare-durabila-2024-2028.md",
+      "detail": "raw/papers/mded-policy-2024/foaia-de-parcurs-finantare-durabila-2024-2028.md"
+    },
+    {
+      "check": "single-source",
+      "file": "entities/HG-361-2024.md",
+      "detail": "raw/papers/moldova-policy/HG-361-2024-pnd-2025-2027.md"
+    },
+    {
+      "check": "single-source",
+      "file": "entities/HG-393-2024.md",
+      "detail": "raw/papers/moldova-policy/HG-393-2024-snde-2030.md"
+    },
+    {
+      "check": "single-source",
+      "file": "entities/HG-829-2023.md",
+      "detail": "raw/papers/moldova-policy/HG-829-2023-pna-aderare-ue-2024-2027.md"
+    },
+    {
+      "check": "single-source",
+      "file": "entities/HG-841-2024.md",
+      "detail": "raw/papers/moldova-policy/HG-841-2024-planul-national-reglementari-2025.md"
+    },
+    {
+      "check": "single-source",
+      "file": "entities/L-315-2022.md",
+      "detail": "raw/papers/moldova-policy/L-315-2022-snd-moldova-europeana-2030.md"
+    },
+    {
+      "check": "single-source",
+      "file": "entities/world-bank-country-economic-memorandum-2023.md",
+      "detail": "raw/papers/mded-policy-2024/world-bank-country-economic-memorandum-2023.md"
+    },
+    {
+      "check": "single-source",
+      "file": "entities/world-bank-country-partnership-framework-2023-2027.md",
+      "detail": "raw/papers/mded-policy-2024/world-bank-country-partnership-framework-2023-2027.md"
+    }
+  ]
+}

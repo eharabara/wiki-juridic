@@ -1,0 +1,42 @@
+--- raw/papers/cnpf/L-139-2007.md	2026-07-09 15:33:42.504019400 +0300
++++ _meta/anchoring-work/L-139-2007.md	2026-09-04 15:25:44.848857200 +0300
+@@ -2,7 +2,7 @@
+ source_url: https://www.legis.md/cautare/getResults?doc_id=121166&lang=ro
+ showdetails_url: https://www.legis.md/cautare/showdetails/121166
+ ingested: '2026-07-09'
+-sha256: 3d6d8d5da7b9508d4cc0efba6e51aaa56df620994e29a07bafdc89fc400dda7f
++sha256_pre_anchoring: 3d6d8d5da7b9508d4cc0efba6e51aaa56df620994e29a07bafdc89fc400dda7f
+ source_type: legal-text
+ publisher: legis.md / Ministerul Justiției al Republicii Moldova
+ language: ro
+@@ -14,6 +14,21 @@
+   02.05.20
+ full_text: true
+ extract_method: curl showdetails + lxml text extraction
++sha256: 78fa7b7d2f16cbf3b60ac18c3fcbdba55a3b6bcb555f0f7b49fe8e6904bed921
++sha256_convention: LF
++superscript_articles:
++  - normalised: '50^1'
++    flattened_as: 501
++    run_of: 1
++    between: 'art. 50 and art. 51'
++    base_article_present: true
++    evidence: positional only -- the extraction kept no caret form, no unicode superscript and no amendment note for this number anywhere in the file
++superscript_normalised_date: '2026-09-04'
++anchor_convention: >-
++  Article anchors already existed. This pass only NORMALISES flattened
++  superscript numbers in the heading line: '## Articolul 1461.' becomes
++  '## Articolul 146^1.'. Exactly one token changes per affected line;
++  every other heading, and every non-heading line, is byte-identical.
+ ---
+ 
+ # raw/L-139-2007 — text legis.md consolidat/curent
+@@ -659,7 +674,7 @@
+ c) răscumpărare a creanţelor din împrumuturi;
+ d) acordare a asistenţei tehnice şi de alt gen, implementare a programelor de monitorizare, educaţionale şi de consultanţă în scopul prevenirii insolvabilităţii sau micşorării riscului de insolvabilitate.
+ 
+-## Articolul 501. Administrarea specială
++## Articolul 50^1. Administrarea specială
+ (1) Administrarea specială este un regim de administrare a asociației, instituit de către autoritatea de supraveghere în conformitate cu actele sale normative, în vederea prevenirii stării de insolvabilitate și evitării deschiderii procedurii de insolvabilitate, care presupune un complex de măsuri administrative, financiare, juridice și organizatorice ce au drept scop conservarea valorii activelor asociației, protecția depunerilor de economii ale membrilor, eliminarea deficiențelor din administrarea asociației și a patrimoniului său, încasarea creanțelor și asigurarea continuității activității asociației.
+ (2) Autoritatea de supraveghere are dreptul să instituie administrarea specială în cazul în care se constată cel puțin una dintre următoarele situații:
+ a) există riscul de imposibilitate a rambursării în termen a mai mult de 10 la sută din depunerile de economii ale membrilor asociației;

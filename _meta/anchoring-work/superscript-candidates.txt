@@ -1,0 +1,88 @@
+================================================================================================
+raw/papers/cnpf/L-139-2007.md   (59 anchors, numbering 1-501)
+================================================================================================
+  line 644    ## Articolul 501. Administrarea specială
+     positional: run of 1 between art. 50 and art. 51 -> 50^1  => high
+     act ceiling excluding candidates: art. 58  (so art. 501 cannot be a genuine article number); base art. 50 present
+     weak evidence  : cross-reference to art.501
+        (the same extraction flattened this reference too, so it shows consistent usage, not superscript-ness)
+        ...dministrator al altei asociaţii, cu excepţia persoanelor prevăzute la art. 501 alin. (4) și la art. 55 alin. (8) și (9); d) prin l...
+     NO STRONG EVIDENCE -- positional reasoning only
+
+================================================================================================
+raw/papers/cnpf/L-171-2012.md   (146 anchors, numbering 1-1461)
+================================================================================================
+  line 767    ## Articolul 401. Anularea, emiterea şi vînzarea participaţiilor deţinute cu
+     positional: run of 1 between art. 40 and art. 41 -> 40^1  => high
+     act ceiling excluding candidates: art. 147  (so art. 401 cannot be a genuine article number); base art. 40 present
+     weak evidence  : cross-reference to art.401
+        (the same extraction flattened this reference too, so it shows consistent usage, not superscript-ness)
+        ...prevederilor prezentului alineat, se aplică corespunzător prevederile art.401. (17) În cazul în care a fost notificată concomitent...
+     NO STRONG EVIDENCE -- positional reasoning only
+
+  line 1324   ## Articolul 881. Dispoziții generale privind agențiile de rating de credit
+     positional: run of 4 between art. 79 and art. 89 -> 88^1  => high
+     act ceiling excluding candidates: art. 147  (so art. 881 cannot be a genuine article number); base art. 88 ABSENT
+     NO STRONG EVIDENCE -- positional reasoning only
+
+  line 1330   ## Articolul 882. Înregistrarea și supravegherea agențiilor de rating de credit
+     positional: run of 4 between art. 79 and art. 89 -> 88^2  => high
+     act ceiling excluding candidates: art. 147  (so art. 882 cannot be a genuine article number); base art. 88 ABSENT
+     NO STRONG EVIDENCE -- positional reasoning only
+
+  line 1363   ## Articolul 883. Cerințe generale privind activitatea agențiilor de rating
+     positional: run of 4 between art. 79 and art. 89 -> 88^3  => high
+     act ceiling excluding candidates: art. 147  (so art. 883 cannot be a genuine article number); base art. 88 ABSENT
+     NO STRONG EVIDENCE -- positional reasoning only
+
+  line 1375   ## Articolul 884. Reglementarea activității agențiilor de rating de credit
+     positional: run of 4 between art. 79 and art. 89 -> 88^4  => high
+     act ceiling excluding candidates: art. 147  (so art. 884 cannot be a genuine article number); base art. 88 ABSENT
+     NO STRONG EVIDENCE -- positional reasoning only
+
+  line 1920   ## Articolul 1311. Compensarea clienţilor administratorilor fiduciari
+     positional: run of 1 between art. 131 and art. 132 -> 131^1  => high
+     act ceiling excluding candidates: art. 147  (so art. 1311 cannot be a genuine article number); base art. 131 present
+     weak evidence  : cross-reference to art.1311
+        (the same extraction flattened this reference too, so it shows consistent usage, not superscript-ness)
+        ...mpensarea clienţilor administratorilor fiduciari în modul stabilit la art.1311, pe măsura restabilirii informaţiei din registrele ...
+     NO STRONG EVIDENCE -- positional reasoning only
+
+  line 2091   ## Articolul 1411. Supravegherea prudenţială a societăţilor de investiţii
+     positional: run of 1 between art. 141 and art. 142 -> 141^1  => high
+     act ceiling excluding candidates: art. 147  (so art. 1411 cannot be a genuine article number); base art. 141 present
+     NO STRONG EVIDENCE -- positional reasoning only
+
+  line 2185   ## Articolul 1461. Încetarea activităţii pe piaţa de capital a administratorilor
+     positional: run of 1 between art. 146 and art. 147 -> 146^1  => high
+     act ceiling excluding candidates: art. 147  (so art. 1461 cannot be a genuine article number); base art. 146 present
+     weak evidence  : cross-reference to art.1461
+        (the same extraction flattened this reference too, so it shows consistent usage, not superscript-ness)
+        ...iari (1) Evidenţa mijloacelor băneşti transferate în Fond în temeiul art.1461 alin.(13) este ţinută separat de alte mijloace ale F...
+     NO STRONG EVIDENCE -- positional reasoning only
+
+================================================================================================
+raw/papers/cnpf/UE-2009-138.md   (8 anchors, numbering 1-100)
+================================================================================================
+  line 394    ### Articolul 100 — Dispoziții generale
+     UNRESOLVED anomaly between art. 41 and art. None
+
+================================================================================================
+raw/papers/cnpf/UE-2024-1624.md   (6 anchors, numbering 1-78)
+================================================================================================
+  line 139    ### Articolul 78
+     UNRESOLVED anomaly between art. 20 and art. None
+
+================================================================================================
+raw/papers/moldova-legal/L-100-2017.md   (78 anchors, numbering 1-701)
+================================================================================================
+  line 261    ## Articolul 271. Activitatea de documentare
+     positional: run of 1 between art. 27 and art. 28 -> 27^1  => high
+     act ceiling excluding candidates: art. 80  (so art. 271 cannot be a genuine article number); base art. 27 present
+     NO STRONG EVIDENCE -- positional reasoning only
+
+  line 657    ## Articolul 701. Rectificarea actului normativ
+     positional: run of 1 between art. 70 and art. 71 -> 70^1  => high
+     act ceiling excluding candidates: art. 80  (so art. 701 cannot be a genuine article number); base art. 70 present
+     NO STRONG EVIDENCE -- positional reasoning only
+

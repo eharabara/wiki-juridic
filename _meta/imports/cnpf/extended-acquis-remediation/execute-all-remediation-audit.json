@@ -1,0 +1,333 @@
+{
+  "date": "2026-07-09",
+  "backup": "C:\\Users\\harab\\wiki-backups\\wiki-before-execute-all-remediation-20260709-145828",
+  "archive": "C:\\Users\\harab\\wiki\\_archive\\raw\\cnpf-extended-eurlex-before-20260709-150323",
+  "fetched_count": 14,
+  "fetched": [
+    {
+      "id": "UE-2015-849",
+      "base_celex": "32015L0849",
+      "selected_celex": "02015L0849-20241230",
+      "consolidation_date": "2024-12-30",
+      "title": "Directiva (UE) 2015/849 a Parlamentului European și a Consiliului din 20 mai 2015 privind prevenirea utilizării sistemului financiar în scopul spălării banilor sau finanțării terorismului, de modificare a Regulamentului (UE) nr. 648/2012 al Parlamentului European și al Consiliului și de abrogare a Directivei 2005/60/CE a Parlamentului European și a Consiliului și a Directivei 2006/70/CE a Comisiei (Text cu relevanță pentru SEE)",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:02015L0849-20241230",
+      "cellar_xhtml": "http://publications.europa.eu/resource/cellar/8825da22-bc8c-11ef-91ed-01aa75ed71a1.0021.02/DOC_1",
+      "articles_detected": 81,
+      "key_articles_requested": [
+        "1",
+        "2",
+        "3",
+        "11",
+        "13",
+        "18",
+        "30",
+        "45",
+        "48"
+      ],
+      "key_articles_missing": [],
+      "raw_path": "raw/papers/cnpf/UE-2015-849.md"
+    },
+    {
+      "id": "UE-2024-1624",
+      "base_celex": "32024R1624",
+      "selected_celex": "32024R1624",
+      "consolidation_date": "n/a — act de bază / fără consolidare identificată în Cellar",
+      "title": "Regulamentul (UE) 2024/1624 al Parlamentului European și al Consiliului din 31 mai 2024 privind prevenirea utilizării sistemului financiar în scopul spălării banilor sau finanțării terorismului (Text cu relevanță pentru SEE)",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32024R1624",
+      "cellar_xhtml": "http://publications.europa.eu/resource/cellar/868bf3cf-2dd4-11ef-a61b-01aa75ed71a1.0020.03/DOC_1",
+      "articles_detected": 90,
+      "key_articles_requested": [
+        "1",
+        "2",
+        "3",
+        "19",
+        "20",
+        "22",
+        "78"
+      ],
+      "key_articles_missing": [
+        "22"
+      ],
+      "raw_path": "raw/papers/cnpf/UE-2024-1624.md"
+    },
+    {
+      "id": "UE-2024-1640",
+      "base_celex": "32024L1640",
+      "selected_celex": "32024L1640",
+      "consolidation_date": "n/a — act de bază / fără consolidare identificată în Cellar",
+      "title": "Directiva (UE) 2024/1640 a Parlamentului European și a Consiliului din 31 mai 2024 privind mecanismele care trebuie instituite de statele membre pentru prevenirea utilizării sistemului financiar în scopul spălării banilor sau finanțării terorismului, de modificare a Directivei (UE) 2019/1937 și de modificare și abrogare a Directivei (UE) 2015/849 (Text cu relevanță pentru SEE)",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32024L1640",
+      "cellar_xhtml": "http://publications.europa.eu/resource/cellar/698476cd-2dd4-11ef-a61b-01aa75ed71a1.0020.03/DOC_1",
+      "articles_detected": 80,
+      "key_articles_requested": [
+        "1",
+        "2",
+        "4",
+        "8",
+        "34",
+        "37",
+        "52"
+      ],
+      "key_articles_missing": [],
+      "raw_path": "raw/papers/cnpf/UE-2024-1640.md"
+    },
+    {
+      "id": "UE-2024-1620",
+      "base_celex": "32024R1620",
+      "selected_celex": "02024R1620-20251110",
+      "consolidation_date": "2025-11-10",
+      "title": "Regulamentul (UE) 2024/1620 al Parlamentului European și al Consiliului din 31 mai 2024 de instituire a Autorității pentru Combaterea Spălării Banilor și a Finanțării Terorismului și de modificare a Regulamentelor (UE) nr. 1093/2010, (UE) nr. 1094/2010 și (UE) nr. 1095/2010 (Text cu relevanță pentru SEE)",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:02024R1620-20251110",
+      "cellar_xhtml": "http://publications.europa.eu/resource/cellar/b6ab36aa-cff0-11f0-8da2-01aa75ed71a1.0021.02/DOC_1",
+      "articles_detected": 109,
+      "key_articles_requested": [
+        "1",
+        "2",
+        "5",
+        "6",
+        "12",
+        "13"
+      ],
+      "key_articles_missing": [],
+      "raw_path": "raw/papers/cnpf/UE-2024-1620.md"
+    },
+    {
+      "id": "UE-2017-1132",
+      "base_celex": "32017L1132",
+      "selected_celex": "02017L1132-20220812",
+      "consolidation_date": "2022-08-12",
+      "title": "Directiva (UE) 2017/1132 a Parlamentului European și a Consiliului din 14 iunie 2017 privind anumite aspecte ale dreptului societăților comerciale (codificare) (Text cu relevanță pentru SEE)",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:02017L1132-20220812",
+      "cellar_xhtml": "http://publications.europa.eu/resource/cellar/8b6370a6-1dd6-11ed-8fa0-01aa75ed71a1.0021.02/DOC_1",
+      "articles_detected": 567,
+      "key_articles_requested": [
+        "1",
+        "2",
+        "13",
+        "14",
+        "44",
+        "46",
+        "86b"
+      ],
+      "key_articles_missing": [],
+      "raw_path": "raw/papers/cnpf/UE-2017-1132.md"
+    },
+    {
+      "id": "UE-2007-36",
+      "base_celex": "32007L0036",
+      "selected_celex": "02007L0036-20240109",
+      "consolidation_date": "2024-01-09",
+      "title": "Directiva 2007/36/CE a Parlamentului European și a Consiliului din 11 iulie 2007 privind exercitarea anumitor drepturi ale acționarilor în cadrul societăților comerciale cotate la bursă",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:02007L0036-20240109",
+      "cellar_xhtml": "http://publications.europa.eu/resource/cellar/d52030d7-c57b-11ee-95d9-01aa75ed71a1.0021.02/DOC_1",
+      "articles_detected": 34,
+      "key_articles_requested": [
+        "1",
+        "2",
+        "3a",
+        "3b",
+        "9a",
+        "14a"
+      ],
+      "key_articles_missing": [],
+      "raw_path": "raw/papers/cnpf/UE-2007-36.md"
+    },
+    {
+      "id": "UE-2017-828",
+      "base_celex": "32017L0828",
+      "selected_celex": "02017L0828-20170520",
+      "consolidation_date": "2017-05-20",
+      "title": "Directiva (UE) 2017/828 a Parlamentului European și a Consiliului din 17 mai 2017 de modificare a Directivei 2007/36/CE în ceea ce privește încurajarea implicării pe termen lung a acționarilor (Text cu relevanță pentru SEE)",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:02017L0828-20170520",
+      "cellar_xhtml": "http://publications.europa.eu/resource/cellar/a5f2bba8-5e60-40d5-a8ba-b239ee313a47.0001.02/DOC_1",
+      "articles_detected": 19,
+      "key_articles_requested": [
+        "1",
+        "2",
+        "3"
+      ],
+      "key_articles_missing": [],
+      "raw_path": "raw/papers/cnpf/UE-2017-828.md"
+    },
+    {
+      "id": "UE-2008-48",
+      "base_celex": "32008L0048",
+      "selected_celex": "02008L0048-20231230",
+      "consolidation_date": "2023-12-30",
+      "title": "Directiva 2008/48/CE a Parlamentului European și a Consiliului din 23 aprilie 2008 privind contractele de credit pentru consumatori și de abrogare a Directivei 87/102/CEE a Consiliului",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:02008L0048-20231230",
+      "cellar_xhtml": "http://publications.europa.eu/resource/cellar/cd1e9db6-a5c5-11ee-b164-01aa75ed71a1.0020.03/DOC_1",
+      "articles_detected": 34,
+      "key_articles_requested": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "8",
+        "10",
+        "16",
+        "22"
+      ],
+      "key_articles_missing": [],
+      "raw_path": "raw/papers/cnpf/UE-2008-48.md"
+    },
+    {
+      "id": "UE-2023-2225",
+      "base_celex": "32023L2225",
+      "selected_celex": "02023L2225-20231030",
+      "consolidation_date": "2023-10-30",
+      "title": "Directiva (UE) 2023/2225 a Parlamentului European și a Consiliului din 18 octombrie 2023 privind contractele de credit de consum și de abrogare a Directivei 2008/48/CE",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:02023L2225-20231030",
+      "cellar_xhtml": "http://publications.europa.eu/resource/cellar/ec039927-c4fe-11ee-95d9-01aa75ed71a1.0012.02/DOC_1",
+      "articles_detected": 50,
+      "key_articles_requested": [
+        "1",
+        "2",
+        "3",
+        "10",
+        "18",
+        "20",
+        "30",
+        "48"
+      ],
+      "key_articles_missing": [],
+      "raw_path": "raw/papers/cnpf/UE-2023-2225.md"
+    },
+    {
+      "id": "UE-2009-138",
+      "base_celex": "32009L0138",
+      "selected_celex": "02009L0138-20250117",
+      "consolidation_date": "2025-01-17",
+      "title": "Directiva 2009/138/CE a Parlamentului European și a Consiliului din 25 noiembrie 2009 privind accesul la activitate și desfășurarea activității de asigurare și de reasigurare (Solvabilitate II) (reformare) (Text cu relevanță pentru SEE)",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:02009L0138-20250117",
+      "cellar_xhtml": "http://publications.europa.eu/resource/cellar/bece6669-cd06-11ef-be2a-01aa75ed71a1.0020.02/DOC_1",
+      "articles_detected": 333,
+      "key_articles_requested": [
+        "1",
+        "2",
+        "13",
+        "14",
+        "27",
+        "30",
+        "41",
+        "100"
+      ],
+      "key_articles_missing": [],
+      "raw_path": "raw/papers/cnpf/UE-2009-138.md"
+    },
+    {
+      "id": "UE-2016-97",
+      "base_celex": "32016L0097",
+      "selected_celex": "02016L0097-20241009",
+      "consolidation_date": "2024-10-09",
+      "title": "Directiva (UE) 2016/97 a Parlamentului European și a Consiliului din 20 ianuarie 2016 privind distribuția de asigurări (reformare) (Text cu relevanță pentru SEE)",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:02016L0097-20241009",
+      "cellar_xhtml": "http://publications.europa.eu/resource/cellar/0415684b-9208-11ef-a130-01aa75ed71a1.0021.02/DOC_1",
+      "articles_detected": 47,
+      "key_articles_requested": [
+        "1",
+        "2",
+        "3",
+        "10",
+        "17",
+        "20",
+        "25",
+        "29"
+      ],
+      "key_articles_missing": [],
+      "raw_path": "raw/papers/cnpf/UE-2016-97.md"
+    },
+    {
+      "id": "UE-2009-103",
+      "base_celex": "32009L0103",
+      "selected_celex": "02009L0103-20231223",
+      "consolidation_date": "2023-12-23",
+      "title": "Directiva 2009/103/CE a Parlamentului European și a Consiliului din 16 septembrie 2009 privind asigurarea de răspundere civilă auto și controlul obligației de asigurare a acestei răspunderi (versiune codificată) (Text cu relevanță pentru SEE)",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:02009L0103-20231223",
+      "cellar_xhtml": "http://publications.europa.eu/resource/cellar/3336dbac-9e66-11ee-b164-01aa75ed71a1.0020.02/DOC_1",
+      "articles_detected": 39,
+      "key_articles_requested": [
+        "1",
+        "2",
+        "3",
+        "10",
+        "18",
+        "30"
+      ],
+      "key_articles_missing": [],
+      "raw_path": "raw/papers/cnpf/UE-2009-103.md"
+    },
+    {
+      "id": "UE-2021-2118",
+      "base_celex": "32021L2118",
+      "selected_celex": "32021L2118",
+      "consolidation_date": "n/a — act de bază / fără consolidare identificată în Cellar",
+      "title": "Directiva (UE) 2021/2118 a Parlamentului European și a Consiliului din 24 noiembrie 2021 de modificare a Directivei 2009/103/CE privind asigurarea de răspundere civilă auto și controlul obligației de asigurare a acestei răspunderi (Text cu relevanță pentru SEE)",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32021L2118",
+      "cellar_xhtml": "http://publications.europa.eu/resource/cellar/3ab7a2f0-5313-11ec-91ac-01aa75ed71a1.0020.03/DOC_1",
+      "articles_detected": 4,
+      "key_articles_requested": [
+        "1",
+        "2"
+      ],
+      "key_articles_missing": [],
+      "raw_path": "raw/papers/cnpf/UE-2021-2118.md"
+    },
+    {
+      "id": "UE-2016-2341",
+      "base_celex": "32016L2341",
+      "selected_celex": "02016L2341-20250117",
+      "consolidation_date": "2025-01-17",
+      "title": "Directiva (UE) 2016/2341 a Parlamentului European și a Consiliului din 14 decembrie 2016 privind activitățile și supravegherea instituțiilor pentru furnizarea de pensii ocupaționale (IORP) (reformare) (Text cu relevanță pentru SEE)",
+      "eurlex_url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:02016L2341-20250117",
+      "cellar_xhtml": "http://publications.europa.eu/resource/cellar/2d732271-e881-11ef-b5e9-01aa75ed71a1.0021.02/DOC_1",
+      "articles_detected": 68,
+      "key_articles_requested": [
+        "1",
+        "2",
+        "6",
+        "9",
+        "19",
+        "21",
+        "34"
+      ],
+      "key_articles_missing": [],
+      "raw_path": "raw/papers/cnpf/UE-2016-2341.md"
+    }
+  ],
+  "errors": [],
+  "changed_files": [
+    "concepts/acquis-AIFMD.md",
+    "concepts/acquis-AML.md",
+    "concepts/acquis-CSDR-EMIR.md",
+    "concepts/acquis-CompanyLaw.md",
+    "concepts/acquis-ConsumerCredit.md",
+    "concepts/acquis-IORP.md",
+    "concepts/acquis-Insurance.md",
+    "concepts/acquis-MTPL.md",
+    "entities/L-1134-1997.md",
+    "entities/L-171-2012.md",
+    "entities/L-192-1998.md",
+    "index.md",
+    "log.md",
+    "raw/papers/cnpf/UE-2007-36.md",
+    "raw/papers/cnpf/UE-2008-48.md",
+    "raw/papers/cnpf/UE-2009-103.md",
+    "raw/papers/cnpf/UE-2009-138.md",
+    "raw/papers/cnpf/UE-2015-849.md",
+    "raw/papers/cnpf/UE-2016-2341.md",
+    "raw/papers/cnpf/UE-2016-97.md",
+    "raw/papers/cnpf/UE-2017-1132.md",
+    "raw/papers/cnpf/UE-2017-828.md",
+    "raw/papers/cnpf/UE-2021-2118.md",
+    "raw/papers/cnpf/UE-2023-2225.md",
+    "raw/papers/cnpf/UE-2024-1620.md",
+    "raw/papers/cnpf/UE-2024-1624.md",
+    "raw/papers/cnpf/UE-2024-1640.md",
+    "raw/papers/cnpf/_manifest.md"
+  ],
+  "broken_links": [],
+  "missing_frontmatter": [],
+  "missing_index": [],
+  "raw_missing": []
+}

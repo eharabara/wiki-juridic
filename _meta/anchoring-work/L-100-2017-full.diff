@@ -1,0 +1,57 @@
+--- raw/papers/moldova-legal/L-100-2017.md	2026-07-09 19:24:06.778890100 +0300
++++ _meta/anchoring-work/L-100-2017.md	2026-09-04 15:25:45.252561500 +0300
+@@ -2,7 +2,7 @@
+ source_url: https://www.legis.md/cautare/getResults?doc_id=144467&lang=ro
+ showdetails_url: https://www.legis.md/cautare/showdetails/144467?lang=ro
+ ingested: '2026-07-09'
+-sha256: e01de254e5a3b27ba730def4768315351194ce29e232b19b7263e3ab907aedab
++sha256_pre_anchoring: e01de254e5a3b27ba730def4768315351194ce29e232b19b7263e3ab907aedab
+ source_type: legal-text
+ publisher: legis.md / Ministerul Justiției al Republicii Moldova
+ language: ro
+@@ -14,6 +14,27 @@
+   02.08.24
+ full_text: true
+ extract_method: curl/urllib showdetails + lxml text extraction
++sha256: 14ebc19ab7de8fb1d12ee190704811e324b6dfb133cdc7e33f0caccbb0ab0a44
++sha256_convention: LF
++superscript_articles:
++  - normalised: '27^1'
++    flattened_as: 271
++    run_of: 1
++    between: 'art. 27 and art. 28'
++    base_article_present: true
++    evidence: positional only -- the extraction kept no caret form, no unicode superscript and no amendment note for this number anywhere in the file
++  - normalised: '70^1'
++    flattened_as: 701
++    run_of: 1
++    between: 'art. 70 and art. 71'
++    base_article_present: true
++    evidence: positional only -- the extraction kept no caret form, no unicode superscript and no amendment note for this number anywhere in the file
++superscript_normalised_date: '2026-09-04'
++anchor_convention: >-
++  Article anchors already existed. This pass only NORMALISES flattened
++  superscript numbers in the heading line: '## Articolul 1461.' becomes
++  '## Articolul 146^1.'. Exactly one token changes per affected line;
++  every other heading, and every non-heading line, is byte-identical.
+ ---
+ 
+ # raw/L-100-2017 — text legis.md consolidat/curent
+@@ -276,7 +297,7 @@
+ (2) Dacă elaborarea proiectului actului normativ este pusă în sarcina mai multor autorităţi ale administraţiei publice centrale de specialitate, elaborarea proiectului va fi organizată de autoritatea abilitată de către Guvern sau care figurează prima în lista autorităţilor responsabile în adresa Guvernului din care derivă obligaţia de a elabora proiectul actului normativ. Autoritatea publică responsabilă asigură asistenţa tehnică, organizatorică şi financiară la elaborarea proiectului actului normativ.
+ (3) Dacă la elaborarea proiectului sînt angajaţi specialişti în bază de contract, alții decît cei din cadrul autorităţilor publice, se întocmesc documentele necesare şi se stabilesc sumele, mijloacele bugetare şi speciale care trebuie alocate în scopul angajării acestora.
+ 
+-## Articolul 271. Activitatea de documentare
++## Articolul 27^1. Activitatea de documentare
+ (1) Elaborarea proiectelor actelor normative este precedată, în funcție de importanța și complexitatea acestora, de o activitate de documentare ce constă în analiza realităților economico-sociale supuse reglementării, a istoricului legislației din domeniul respectiv, precum și a reglementărilor similare din legislația altor state, în special a statelor membre ale Uniunii Europene.
+ (2) În activitatea de documentare, pentru fundamentarea proiectului actului normativ se analizează impactul de reglementare și se examinează jurisprudența Curții Constituționale în domeniul respectiv, a Curții Europene a Drepturilor Omului și cea a Curții de Justiție a Uniunii Europene, practica instanțelor judecătorești în aplicarea actelor normative respective, instrumentele juridice internaționale, precum și doctrina juridică în domeniu.
+ (3) Analiza impactului de reglementare nu se efectuează pentru:
+@@ -672,7 +693,7 @@
+ (2) Republicarea actului normativ nu atrage modificarea datei intrării în vigoare a actului normativ de bază.
+ (3) Actele normative prin care s-a modificat actul normativ care se republică se consideră abrogate la momentul republicării acestuia și pot servi doar pentru evidență.
+ 
+-## Articolul 701. Rectificarea actului normativ
++## Articolul 70^1. Rectificarea actului normativ
+ (1) În cazul în care, după publicarea actului normativ, se descoperă erori materiale în cuprinsul acestuia, dar care nu modifică conținutul sau sensul prevederilor actului normativ, se procedează la publicarea, în condițiile legii, a unei note cuprinzând rectificările necesare.
+ (2) Rectificarea se efectuează la cererea autorității publice care a adoptat, a aprobat sau a emis actul normativ.
+ 

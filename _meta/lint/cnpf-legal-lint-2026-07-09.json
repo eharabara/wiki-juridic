@@ -1,0 +1,2083 @@
+{
+  "date": "2026-07-09",
+  "scope": {
+    "active_pages_checked": 33,
+    "raw_cnpf_files_checked": 43,
+    "rules_source": "_meta/imports/cnpf/source-CLAUDE.md + SCHEMA.md + llm-wiki lint checks"
+  },
+  "severity_counts": {
+    "high": 0,
+    "medium": 303,
+    "low": 29
+  },
+  "summary_counts": {
+    "missing_frontmatter": 0,
+    "missing_required_fields": 0,
+    "invalid_tags": 0,
+    "missing_or_invalid_sources": 0,
+    "broken_wikilinks": 0,
+    "orphan_pages": 0,
+    "index_missing": 0,
+    "raw_missing_frontmatter": 0,
+    "raw_sha_drift": 0,
+    "raw_manifest_missing": 0,
+    "article_anchor_missing_target": 0,
+    "page_level_raw_refs": 19,
+    "potential_unanchored_claims": 270,
+    "mandate_conflicts": 0,
+    "missing_mandate_line": 0,
+    "stale_consolidation": 14,
+    "missing_consolidation_date": 0,
+    "acquis_without_moldovan_anchor": 0,
+    "acquis_without_eurlex_raw": 0,
+    "acquis_status_missing_or_unclear": 0,
+    "verification_markers": 26,
+    "large_pages": 0,
+    "contested_or_contradiction_markers": 3
+  },
+  "issues": {
+    "missing_frontmatter": [],
+    "missing_required_fields": [],
+    "invalid_tags": [],
+    "missing_or_invalid_sources": [],
+    "broken_wikilinks": [],
+    "orphan_pages": [],
+    "index_missing": [],
+    "raw_missing_frontmatter": [],
+    "raw_sha_drift": [],
+    "raw_manifest_missing": [],
+    "article_anchor_missing_target": [],
+    "page_level_raw_refs": [
+      {
+        "file": "entities/L-1-2018.md",
+        "line": 8,
+        "ref": "[raw/papers/cnpf/L-1-2018.md]",
+        "section": "",
+        "text": "- **surse:** [raw/papers/cnpf/L-1-2018.md]"
+      },
+      {
+        "file": "entities/L-1-2018.md",
+        "line": 14,
+        "ref": "[raw/papers/cnpf/L-1-2018.md]",
+        "section": "Scop",
+        "text": "inițiativa de plafonare a costurilor din 2026). `[raw/papers/cnpf/L-1-2018.md]`"
+      },
+      {
+        "file": "entities/L-106-2022.md",
+        "line": 8,
+        "ref": "[raw/papers/cnpf/L-106-2022.md]",
+        "section": "",
+        "text": "- **surse:** [raw/papers/cnpf/L-106-2022.md]"
+      },
+      {
+        "file": "entities/L-106-2022.md",
+        "line": 17,
+        "ref": "[raw/papers/cnpf/L-106-2022.md]",
+        "section": "Puncte-cheie",
+        "text": "500.000 EUR indiferent de număr. `[raw/papers/cnpf/L-106-2022.md]`"
+      },
+      {
+        "file": "entities/L-1134-1997.md",
+        "line": 9,
+        "ref": "[raw/papers/cnpf/L-1134-1997.md]",
+        "section": "",
+        "text": "- **surse:** [raw/papers/cnpf/L-1134-1997.md]"
+      },
+      {
+        "file": "entities/L-122-2008.md",
+        "line": 7,
+        "ref": "[raw/papers/cnpf/L-122-2008.md]",
+        "section": "",
+        "text": "- **surse:** [raw/papers/cnpf/L-122-2008.md]"
+      },
+      {
+        "file": "entities/L-122-2008.md",
+        "line": 11,
+        "ref": "[raw/papers/cnpf/L-122-2008.md]",
+        "section": "Scop",
+        "text": "consolidarea din 2023; CNPF păstrează un rol de constatare a contravențiilor. `[raw/papers/cnpf/L-122-2008.md]`"
+      },
+      {
+        "file": "entities/L-139-2007.md",
+        "line": 7,
+        "ref": "[raw/papers/cnpf/L-139-2007.md]",
+        "section": "",
+        "text": "- **surse:** [raw/papers/cnpf/L-139-2007.md]"
+      },
+      {
+        "file": "entities/L-171-2012.md",
+        "line": 9,
+        "ref": "[raw/papers/cnpf/L-171-2012.md]",
+        "section": "",
+        "text": "- **surse:** [raw/papers/cnpf/L-171-2012.md]"
+      },
+      {
+        "file": "entities/L-178-2020.md",
+        "line": 7,
+        "ref": "[raw/papers/cnpf/L-178-2020.md]",
+        "section": "",
+        "text": "- **surse:** [raw/papers/cnpf/L-178-2020.md]"
+      },
+      {
+        "file": "entities/L-181-2023.md",
+        "line": 8,
+        "ref": "[raw/papers/cnpf/L-181-2023.md]",
+        "section": "",
+        "text": "- **surse:** [raw/papers/cnpf/L-181-2023.md]"
+      },
+      {
+        "file": "entities/L-192-1998.md",
+        "line": 7,
+        "ref": "[raw/papers/cnpf/L-192-1998.md]",
+        "section": "",
+        "text": "- **surse:** [raw/papers/cnpf/L-192-1998.md]"
+      },
+      {
+        "file": "entities/L-198-2020.md",
+        "line": 9,
+        "ref": "[raw/papers/cnpf/L-198-2020.md]",
+        "section": "",
+        "text": "- **surse:** [raw/papers/cnpf/L-198-2020.md]"
+      },
+      {
+        "file": "entities/L-2-2020.md",
+        "line": 8,
+        "ref": "[raw/papers/cnpf/L-2-2020.md]",
+        "section": "",
+        "text": "- **surse:** [raw/papers/cnpf/L-2-2020.md]"
+      },
+      {
+        "file": "entities/L-2-2020.md",
+        "line": 14,
+        "ref": "[raw/papers/cnpf/L-2-2020.md]",
+        "section": "Scop",
+        "text": "`[raw/papers/cnpf/L-2-2020.md]`"
+      },
+      {
+        "file": "entities/L-234-2016.md",
+        "line": 8,
+        "ref": "[raw/papers/cnpf/L-234-2016.md]",
+        "section": "",
+        "text": "- **surse:** [raw/papers/cnpf/L-234-2016.md]"
+      },
+      {
+        "file": "entities/L-308-2017.md",
+        "line": 10,
+        "ref": "[raw/papers/cnpf/L-308-2017.md]",
+        "section": "",
+        "text": "- **surse:** [raw/papers/cnpf/L-308-2017.md]"
+      },
+      {
+        "file": "entities/L-92-2022.md",
+        "line": 8,
+        "ref": "[raw/papers/cnpf/L-92-2022.md]",
+        "section": "",
+        "text": "- **surse:** [raw/papers/cnpf/L-92-2022.md]"
+      },
+      {
+        "file": "entities/L-92-2022.md",
+        "line": 13,
+        "ref": "[raw/papers/cnpf/L-92-2022.md]",
+        "section": "Scop",
+        "text": "funcții de protecție a consumatorilor. `[raw/papers/cnpf/L-92-2022.md]`"
+      }
+    ],
+    "potential_unanchored_claims": [
+      {
+        "file": "entities/L-1-2018.md",
+        "line": 4,
+        "section": "",
+        "text": "- **mandat:** BNM (prudențial, din 01.07.2023) / CNPF-rezidual (protecția consumatorilor, plafoane de cost)"
+      },
+      {
+        "file": "entities/L-1-2018.md",
+        "line": 5,
+        "section": "",
+        "text": "- **statut:** în vigoare; modificată în repetate rânduri (până în 2025)"
+      },
+      {
+        "file": "entities/L-1-2018.md",
+        "line": 6,
+        "section": "",
+        "text": "- **domeniu:** creditare nebancară — partea BNM; Capitolul de aderare 9, Cluster 2"
+      },
+      {
+        "file": "entities/L-1-2018.md",
+        "line": 11,
+        "section": "Scop",
+        "text": "Stabilește regimul de autorizare și statutul juridic al organizațiilor de creditare nebancară"
+      },
+      {
+        "file": "entities/L-1-2018.md",
+        "line": 12,
+        "section": "Scop",
+        "text": "(fără atragere de depozite; creditare din fonduri proprii sau împrumutate). Supravegherea"
+      },
+      {
+        "file": "entities/L-1-2018.md",
+        "line": 13,
+        "section": "Scop",
+        "text": "prudențială a trecut la BNM în 2023; CNPF păstrează funcții de protecție a consumatorilor (ex."
+      },
+      {
+        "file": "entities/L-1-2018.md",
+        "line": 14,
+        "section": "Scop",
+        "text": "inițiativa de plafonare a costurilor din 2026). `[raw/papers/cnpf/L-1-2018.md]`"
+      },
+      {
+        "file": "entities/L-106-2022.md",
+        "line": 4,
+        "section": "",
+        "text": "- **mandat:** BNM (prudențial, din 01.07.2023) / CNPF-rezidual"
+      },
+      {
+        "file": "entities/L-106-2022.md",
+        "line": 5,
+        "section": "",
+        "text": "- **statut:** în vigoare (MO 2022, nr. 129-133, art. 229); intrare în vigoare la 12 luni de la publicare"
+      },
+      {
+        "file": "entities/L-106-2022.md",
+        "line": 6,
+        "section": "",
+        "text": "- **domeniu:** asigurări (RCA) — Capitolul de aderare 9, Cluster 2"
+      },
+      {
+        "file": "entities/L-106-2022.md",
+        "line": 7,
+        "section": "",
+        "text": "- **acquis:** Directiva 2009/103/CE (asigurarea de răspundere civilă auto)"
+      },
+      {
+        "file": "entities/L-106-2022.md",
+        "line": 11,
+        "section": "Scop",
+        "text": "Stabilește regimul asigurării obligatorii de răspundere civilă auto: obligația de a încheia"
+      },
+      {
+        "file": "entities/L-106-2022.md",
+        "line": 18,
+        "section": "Puncte-cheie",
+        "text": "- BNAA — birou național auto pentru sistemul „Carte Verde\"."
+      },
+      {
+        "file": "entities/L-1134-1997.md",
+        "line": 8,
+        "section": "",
+        "text": "drepturilor acționarilor 2007/36/CE modificată prin SRD II (UE) 2017/828 `[de verificat statutul transpunerii]`"
+      },
+      {
+        "file": "entities/L-1134-1997.md",
+        "line": 15,
+        "section": "Puncte-cheie",
+        "text": "- Capital social minim MDL 600.000 — **art. 40 alin. (2)** (introdus prin Legea 18/2020, pct. 19; corectat"
+      },
+      {
+        "file": "entities/L-122-2008.md",
+        "line": 4,
+        "section": "",
+        "text": "- **mandat:** BNM (prudențial, din 01.07.2023); CNPF constată contravențiile"
+      },
+      {
+        "file": "entities/L-122-2008.md",
+        "line": 5,
+        "section": "",
+        "text": "- **statut:** în vigoare; reformă în curs (elaborată de BNM, 2026)"
+      },
+      {
+        "file": "entities/L-122-2008.md",
+        "line": 6,
+        "section": "",
+        "text": "- **domeniu:** informația de credit — partea BNM"
+      },
+      {
+        "file": "entities/L-122-2008.md",
+        "line": 10,
+        "section": "Scop",
+        "text": "Reglementează birourile istoriilor de credit. Supravegherea prudențială a trecut la BNM în"
+      },
+      {
+        "file": "entities/L-122-2008.md",
+        "line": 11,
+        "section": "Scop",
+        "text": "consolidarea din 2023; CNPF păstrează un rol de constatare a contravențiilor. `[raw/papers/cnpf/L-122-2008.md]`"
+      },
+      {
+        "file": "entities/L-139-2007.md",
+        "line": 4,
+        "section": "",
+        "text": "- **mandat:** BNM (prudențial, din 01.07.2023) / CNPF-rezidual"
+      },
+      {
+        "file": "entities/L-139-2007.md",
+        "line": 5,
+        "section": "",
+        "text": "- **statut:** în vigoare (MO 2007, nr. 112-116); modificată ulterior"
+      },
+      {
+        "file": "entities/L-139-2007.md",
+        "line": 6,
+        "section": "",
+        "text": "- **domeniu:** asociații de economii și împrumut (AEÎ) — partea BNM"
+      },
+      {
+        "file": "entities/L-139-2007.md",
+        "line": 11,
+        "section": "Scop",
+        "text": "împrumut. Supravegherea prudențială a trecut la BNM în consolidarea din 2023."
+      },
+      {
+        "file": "entities/L-171-2012.md",
+        "line": 12,
+        "section": "Scop",
+        "text": "Reglementează societățile de investiții, organismele de plasament colectiv și Fondul de"
+      },
+      {
+        "file": "entities/L-171-2012.md",
+        "line": 13,
+        "section": "Scop",
+        "text": "compensare a investitorilor; ofertele publice; ofertele de preluare; infrastructura pieței de"
+      },
+      {
+        "file": "entities/L-171-2012.md",
+        "line": 14,
+        "section": "Scop",
+        "text": "capital, inclusiv piețele reglementate; definește abuzul de piață; și stabilește cerințe de"
+      },
+      {
+        "file": "entities/L-171-2012.md",
+        "line": 18,
+        "section": "Obiective de reglementare (art.5)",
+        "text": "Echitate/eficiență/transparență/ordine pe piață; protecția investitorilor; prevenirea"
+      },
+      {
+        "file": "entities/L-171-2012.md",
+        "line": 19,
+        "section": "Obiective de reglementare (art.5)",
+        "text": "încălcărilor; reducerea riscului sistemic; stabilitate financiară; educația publicului."
+      },
+      {
+        "file": "entities/L-171-2012.md",
+        "line": 52,
+        "section": "Acquis UE conectat",
+        "text": "- Nucleu piață de capital: [[acquis-MiFID]] (MiFID II/MiFIR), [[acquis-MAR]] (MAR/CSMAD), [[acquis-Prospectus]], [[acquis-Transparency]], [[acquis-UCITS]]."
+      },
+      {
+        "file": "entities/L-171-2012.md",
+        "line": 53,
+        "section": "Acquis UE conectat",
+        "text": "- Protecția investitorilor și infrastructură: [[acquis-ICSD]], [[acquis-SFD]], [[acquis-CSDR-EMIR]]."
+      },
+      {
+        "file": "entities/L-171-2012.md",
+        "line": 54,
+        "section": "Acquis UE conectat",
+        "text": "- Oferte publice de preluare: [[acquis-Takeover]]."
+      },
+      {
+        "file": "entities/L-178-2020.md",
+        "line": 4,
+        "section": "",
+        "text": "- **mandat:** pivot instituțional — a transferat supravegherea prudențială nebancară la BNM"
+      },
+      {
+        "file": "entities/L-178-2020.md",
+        "line": 5,
+        "section": "",
+        "text": "- **statut:** adoptată 11.09.2020; în vigoare **1 iulie 2023**"
+      },
+      {
+        "file": "entities/L-178-2020.md",
+        "line": 6,
+        "section": "",
+        "text": "- **domeniu:** transversal — arhitectura de supraveghere"
+      },
+      {
+        "file": "entities/L-178-2020.md",
+        "line": 10,
+        "section": "Scop",
+        "text": "Legea modificatoare care a realocat reglementarea și supravegherea prudențială a sectorului"
+      },
+      {
+        "file": "entities/L-178-2020.md",
+        "line": 11,
+        "section": "Scop",
+        "text": "financiar nebancar — creditarea nebancară (OCN), asigurări/reasigurări, asociații de economii și"
+      },
+      {
+        "file": "entities/L-178-2020.md",
+        "line": 12,
+        "section": "Scop",
+        "text": "împrumut și birourile istoriilor de credit — **de la CNPF la BNM**, în vigoare de la 1 iulie 2023."
+      },
+      {
+        "file": "entities/L-181-2023.md",
+        "line": 4,
+        "section": "",
+        "text": "- **mandat:** CNPF (piața de capital)"
+      },
+      {
+        "file": "entities/L-181-2023.md",
+        "line": 5,
+        "section": "",
+        "text": "- **statut:** în vigoare din 1 martie 2024 (adoptată 7 iulie 2023)"
+      },
+      {
+        "file": "entities/L-181-2023.md",
+        "line": 6,
+        "section": "",
+        "text": "- **domeniu:** piața de capital — crowdfunding"
+      },
+      {
+        "file": "entities/L-181-2023.md",
+        "line": 7,
+        "section": "",
+        "text": "- **acquis transpus:** [[acquis-Crowdfunding]] — Reg. (UE) 2020/1503 (parțial)"
+      },
+      {
+        "file": "entities/L-181-2023.md",
+        "line": 12,
+        "section": "Scop",
+        "text": "categoriile de servicii și supravegherea furnizorilor. CNPF autorizează, reglementează,"
+      },
+      {
+        "file": "entities/L-181-2023.md",
+        "line": 13,
+        "section": "Scop",
+        "text": "supraveghează și sancționează furnizorii, conform prerogativelor Legii 192/1998."
+      },
+      {
+        "file": "entities/L-181-2023.md",
+        "line": 17,
+        "section": "Caracteristici-cheie",
+        "text": "- Furnizori: SRL sau SA înregistrate în Moldova, înscrise în registrul CNPF."
+      },
+      {
+        "file": "entities/L-181-2023.md",
+        "line": 20,
+        "section": "Caracteristici-cheie",
+        "text": "- Acte CNPF subordonate transpun Reg. delegate (UE) 2022/2112, 2022/2116, 2022/2117."
+      },
+      {
+        "file": "entities/L-192-1998.md",
+        "line": 10,
+        "section": "Scop",
+        "text": "Legea-cadru care constituie CNPF, îi garantează independența și îi definește obiectivele și"
+      },
+      {
+        "file": "entities/L-192-1998.md",
+        "line": 15,
+        "section": "Obiective (art.3)",
+        "text": "riscurilor sistemice și a manipulării; protejarea drepturilor participanților la piața"
+      },
+      {
+        "file": "entities/L-192-1998.md",
+        "line": 19,
+        "section": "Atribuții (art.8, selectiv)",
+        "text": "Elaborează (cu Guvernul) strategia de dezvoltare a sectorului; reglementează și supraveghează"
+      },
+      {
+        "file": "entities/L-192-1998.md",
+        "line": 20,
+        "section": "Atribuții (art.8, selectiv)",
+        "text": "prin decizii obligatorii; acordă/retrage/suspendă licențe și autorizații; conferă statut de"
+      },
+      {
+        "file": "entities/L-192-1998.md",
+        "line": 21,
+        "section": "Atribuții (art.8, selectiv)",
+        "text": "organizație de autoreglementare; stabilește cerințe privind operațiunile cu valori mobiliare."
+      },
+      {
+        "file": "entities/L-198-2020.md",
+        "line": 4,
+        "section": "",
+        "text": "- **mandat:** CNPF (pensii facultative) — confirmat (primul administrator licențiat în 2024)"
+      },
+      {
+        "file": "entities/L-198-2020.md",
+        "line": 5,
+        "section": "",
+        "text": "- **statut:** în vigoare (MO 2020, nr. 344-351, art. 227); modificată (ex. Legea 96/2023)"
+      },
+      {
+        "file": "entities/L-198-2020.md",
+        "line": 6,
+        "section": "",
+        "text": "- **domeniu:** pensii facultative — Capitolul de aderare 9, Cluster 2"
+      },
+      {
+        "file": "entities/L-198-2020.md",
+        "line": 7,
+        "section": "",
+        "text": "- **acquis:** parțial Directiva (UE) 2016/2341 (IORP II) — angajament din Anexa XXVIII-A a Acordului de"
+      },
+      {
+        "file": "entities/L-198-2020.md",
+        "line": 8,
+        "section": "",
+        "text": "Asociere (AA ratificat prin Legea 112/2014)"
+      },
+      {
+        "file": "entities/L-198-2020.md",
+        "line": 12,
+        "section": "Scop",
+        "text": "Stabilește cadrul legal pentru fondurile de pensii facultative pe baza economiilor individuale"
+      },
+      {
+        "file": "entities/L-198-2020.md",
+        "line": 13,
+        "section": "Scop",
+        "text": "capitalizate; cerințele pentru administratori și depozitari; și competențele de supraveghere ale"
+      },
+      {
+        "file": "entities/L-198-2020.md",
+        "line": 17,
+        "section": "Puncte-cheie",
+        "text": "- Fond constituit prin contract de societate civilă; active segregate per fond."
+      },
+      {
+        "file": "entities/L-198-2020.md",
+        "line": 18,
+        "section": "Puncte-cheie",
+        "text": "- Capital social minim al administratorului ~echivalentul a 125.000 EUR (art.27)."
+      },
+      {
+        "file": "entities/L-198-2020.md",
+        "line": 19,
+        "section": "Puncte-cheie",
+        "text": "- Regim al depozitarului și fond de garantare a contribuțiilor."
+      },
+      {
+        "file": "entities/L-198-2020.md",
+        "line": 20,
+        "section": "Puncte-cheie",
+        "text": "- CNPF autorizează/licențiază administratori; acte subordonate ex. HCNPF 33/1/2025 (fuziunea și"
+      },
+      {
+        "file": "entities/L-2-2020.md",
+        "line": 4,
+        "section": "",
+        "text": "- **mandat:** CNPF (piața de capital)"
+      },
+      {
+        "file": "entities/L-2-2020.md",
+        "line": 5,
+        "section": "",
+        "text": "- **statut:** în vigoare (2020; 46 de articole, 8 capitole)"
+      },
+      {
+        "file": "entities/L-2-2020.md",
+        "line": 6,
+        "section": "",
+        "text": "- **domeniu:** piața de capital — fonduri alternative"
+      },
+      {
+        "file": "entities/L-2-2020.md",
+        "line": 7,
+        "section": "",
+        "text": "- **acquis transpus:** familia AIFMD — [[acquis-AIFMD]] (Directiva 2011/61/UE) `[de verificat directivele exacte din anexă]`"
+      },
+      {
+        "file": "entities/L-2-2020.md",
+        "line": 11,
+        "section": "Scop",
+        "text": "Cadru pentru constituirea, autorizarea și funcționarea organismelor de plasament colectiv"
+      },
+      {
+        "file": "entities/L-2-2020.md",
+        "line": 13,
+        "section": "Scop",
+        "text": "depozitarilor. A separat regimul fondurilor alternative din legea de bază a pieței de capital."
+      },
+      {
+        "file": "entities/L-2-2020.md",
+        "line": 18,
+        "section": "Caracteristici-cheie",
+        "text": "(fond de investiții fără personalitate juridică)."
+      },
+      {
+        "file": "entities/L-2-2020.md",
+        "line": 20,
+        "section": "Caracteristici-cheie",
+        "text": "- Cerințe privind depozitarul activelor OPCA."
+      },
+      {
+        "file": "entities/L-2-2020.md",
+        "line": 23,
+        "section": "Notă de aproximare",
+        "text": "Corespunde regimului UE AIFMD. Frontiera UE s-a mutat între timp la **AIFMD II (Directiva (UE)"
+      },
+      {
+        "file": "entities/L-2-2020.md",
+        "line": 24,
+        "section": "Notă de aproximare",
+        "text": "2024/927**, de modificare a 2011/61 și 2009/65) — delegare, administrarea riscului de lichiditate,"
+      },
+      {
+        "file": "entities/L-2-2020.md",
+        "line": 25,
+        "section": "Notă de aproximare",
+        "text": "raportare de supraveghere, depozitar/custodie și fonduri care acordă împrumuturi. Tratează Legea"
+      },
+      {
+        "file": "entities/L-2-2020.md",
+        "line": 26,
+        "section": "Notă de aproximare",
+        "text": "2/2020 ca aliniată la baza pre-AIFMD-II. Vezi [[cnpf-transposition-matrix]]."
+      },
+      {
+        "file": "entities/L-234-2016.md",
+        "line": 4,
+        "section": "",
+        "text": "- **mandat:** BNM (supraveghetor primar al DCU); CNPF în aria sa de competență (art.1)"
+      },
+      {
+        "file": "entities/L-234-2016.md",
+        "line": 5,
+        "section": "",
+        "text": "- **statut:** în vigoare (MO 2016); modificată prin Legea 292/2023 (21.10.2023)"
+      },
+      {
+        "file": "entities/L-234-2016.md",
+        "line": 6,
+        "section": "",
+        "text": "- **domeniu:** infrastructură post-tranzacționare — Capitolul de aderare 9, Cluster 2"
+      },
+      {
+        "file": "entities/L-234-2016.md",
+        "line": 11,
+        "section": "Scop",
+        "text": "Reglementează crearea, funcționarea și supravegherea Depozitarului central unic (DCU) și"
+      },
+      {
+        "file": "entities/L-234-2016.md",
+        "line": 12,
+        "section": "Scop",
+        "text": "înregistrarea/evidența valorilor mobiliare. BNM instituie, reglementează și supraveghează DCU."
+      },
+      {
+        "file": "entities/L-234-2016.md",
+        "line": 16,
+        "section": "Notă de delimitare (rezolvă un flag recurent)",
+        "text": "Proprietatea DCU aparține **BNM**, nu CNPF. Reforma din 2016 a mutat și **Registrul de stat al"
+      },
+      {
+        "file": "entities/L-234-2016.md",
+        "line": 17,
+        "section": "Notă de delimitare (rezolvă un flag recurent)",
+        "text": "valorilor mobiliare** și înregistrarea emisiunilor **de la CNPF la DCU**. CNPF păstrează un rol în"
+      },
+      {
+        "file": "entities/L-234-2016.md",
+        "line": 18,
+        "section": "Notă de delimitare (rezolvă un flag recurent)",
+        "text": "aria de competență (certificate de calificare pe piața de capital pentru personalul DCU; echipe de"
+      },
+      {
+        "file": "entities/L-308-2017.md",
+        "line": 4,
+        "section": "",
+        "text": "- **mandat:** transversal — CNPF e supraveghetor sectorial pentru perimetrul său; FIU este Serviciul"
+      },
+      {
+        "file": "entities/L-308-2017.md",
+        "line": 5,
+        "section": "",
+        "text": "Prevenirea și Combaterea Spălării Banilor (SPCSB); BNM supraveghează băncile"
+      },
+      {
+        "file": "entities/L-308-2017.md",
+        "line": 6,
+        "section": "",
+        "text": "- **statut:** în vigoare (MO 2018, nr. 58-66, art. 133); modificată ulterior"
+      },
+      {
+        "file": "entities/L-308-2017.md",
+        "line": 8,
+        "section": "",
+        "text": "- **acquis:** Directiva (UE) 2015/849 (baza AMLD). Frontiera UE: pachetul AML 2024 — Reg. (UE)"
+      },
+      {
+        "file": "entities/L-308-2017.md",
+        "line": 13,
+        "section": "Scop",
+        "text": "Stabilește obligațiile AML/CFT pentru entitățile raportoare și arhitectura națională de"
+      },
+      {
+        "file": "entities/L-308-2017.md",
+        "line": 18,
+        "section": "Entitățile raportoare din perimetrul CNPF (art.4)",
+        "text": "sistem și — prin regulamentul AML al CNPF — administratorii de fonduri de pensii, societățile de"
+      },
+      {
+        "file": "entities/L-308-2017.md",
+        "line": 19,
+        "section": "Entitățile raportoare din perimetrul CNPF (art.4)",
+        "text": "administrare a investițiilor (SAI) și furnizorii de crowdfunding. CNPF le supraveghează în temeiul"
+      },
+      {
+        "file": "entities/L-308-2017.md",
+        "line": 20,
+        "section": "Entitățile raportoare din perimetrul CNPF (art.4)",
+        "text": "regulamentului său AML (HCNPF 63/1/2023; predecesorul 38/1/2018 abrogat la 23.01.2024)."
+      },
+      {
+        "file": "entities/L-92-2022.md",
+        "line": 4,
+        "section": "",
+        "text": "- **mandat:** BNM (prudențial, din 01.07.2023) / CNPF-rezidual (protecția consumatorilor)"
+      },
+      {
+        "file": "entities/L-92-2022.md",
+        "line": 5,
+        "section": "",
+        "text": "- **statut:** în vigoare; modificată ulterior"
+      },
+      {
+        "file": "entities/L-92-2022.md",
+        "line": 6,
+        "section": "",
+        "text": "- **domeniu:** asigurări — partea BNM; Capitolul de aderare 9, Cluster 2"
+      },
+      {
+        "file": "entities/L-92-2022.md",
+        "line": 11,
+        "section": "Scop",
+        "text": "Reglementează accesul la și desfășurarea activității de asigurare și reasigurare, intermediarii și"
+      },
+      {
+        "file": "entities/L-92-2022.md",
+        "line": 12,
+        "section": "Scop",
+        "text": "regimul agentului bancassurance. Supravegherea prudențială a trecut la BNM în 2023; CNPF păstrează"
+      },
+      {
+        "file": "entities/L-92-2022.md",
+        "line": 13,
+        "section": "Scop",
+        "text": "funcții de protecție a consumatorilor. `[raw/papers/cnpf/L-92-2022.md]`"
+      },
+      {
+        "file": "entities/REG-ICF.md",
+        "line": 5,
+        "section": "",
+        "text": "- **tip:** act normativ subordonat (hotărâre CNPF), NU lege primară"
+      },
+      {
+        "file": "entities/REG-ICF.md",
+        "line": 6,
+        "section": "",
+        "text": "- **temei legal:** Fondul de compensare a investitorilor este instituit prin [[L-171-2012]] (art.1);"
+      },
+      {
+        "file": "entities/REG-ICF.md",
+        "line": 7,
+        "section": "",
+        "text": "regulamentul e emis de CNPF în temeiul Legii 171/2012 și al [[L-192-1998]]"
+      },
+      {
+        "file": "entities/REG-ICF.md",
+        "line": 8,
+        "section": "",
+        "text": "- **acquis:** Directiva 97/9/CE (sistemele de compensare pentru investitori — ICSD)"
+      },
+      {
+        "file": "entities/REG-ICF.md",
+        "line": 12,
+        "section": "Scop",
+        "text": "Stabilește organizarea și funcționarea Fondului de compensare a investitorilor, administrat de"
+      },
+      {
+        "file": "entities/REG-ICF.md",
+        "line": 13,
+        "section": "Scop",
+        "text": "CNPF, la care aderă societățile de investiții pentru a compensa investitorii în condițiile legii."
+      },
+      {
+        "file": "entities/REG-ICF.md",
+        "line": 16,
+        "section": "Notă",
+        "text": "Fiind act subordonat, se ancorează la legea-mamă [[L-171-2012]], nu la un text de lege propriu."
+      },
+      {
+        "file": "concepts/acquis-AIFMD.md",
+        "line": 4,
+        "section": "",
+        "text": "- **tip:** acquis UE (servicii financiare)"
+      },
+      {
+        "file": "concepts/acquis-AIFMD.md",
+        "line": 5,
+        "section": "",
+        "text": "- **instrument:** Directiva 2011/61/UE (AIFMD); frontieră: Directiva (UE) 2024/927 (AIFMD II)"
+      },
+      {
+        "file": "concepts/acquis-AIFMD.md",
+        "line": 6,
+        "section": "",
+        "text": "- **capitol de aderare:** Cluster 2 · Capitolul 9 — Servicii financiare"
+      },
+      {
+        "file": "concepts/acquis-AIFMD.md",
+        "line": 11,
+        "section": "Ce acoperă",
+        "text": "Autorizarea, conduita și cerințele prudențiale pentru administratorii de fonduri de investiții"
+      },
+      {
+        "file": "concepts/acquis-AIFMD.md",
+        "line": 12,
+        "section": "Ce acoperă",
+        "text": "alternative; obligațiile depozitarului; efectul de levier și lichiditatea; raportarea. AIFMD II adaugă"
+      },
+      {
+        "file": "concepts/acquis-AIFMD.md",
+        "line": 13,
+        "section": "Ce acoperă",
+        "text": "reguli de delegare, instrumente de administrare a lichidității, raportare de supraveghere, prevederi"
+      },
+      {
+        "file": "concepts/acquis-AIFMD.md",
+        "line": 14,
+        "section": "Ce acoperă",
+        "text": "privind depozitarul/custodia și un regim pentru fondurile care acordă împrumuturi."
+      },
+      {
+        "file": "concepts/acquis-AML.md",
+        "line": 4,
+        "section": "",
+        "text": "- **tip:** acquis UE (servicii financiare / transversal)"
+      },
+      {
+        "file": "concepts/acquis-AML.md",
+        "line": 5,
+        "section": "",
+        "text": "- **instrument de bază:** Directiva (UE) 2015/849 (AMLD4), modificată prin (UE) 2018/843 (AMLD5)"
+      },
+      {
+        "file": "concepts/acquis-AML.md",
+        "line": 6,
+        "section": "",
+        "text": "- **frontieră — pachetul AML 2024:** Reg. (UE) 2024/1624 (AMLR — cod unic), Directiva (UE) 2024/1640 (AMLD6), Reg. (UE) 2024/1620 (AMLA — autoritatea UE)"
+      },
+      {
+        "file": "concepts/acquis-AML.md",
+        "line": 7,
+        "section": "",
+        "text": "- **capitol de aderare:** Cluster 2 · Capitolul 4 (libera circulație a capitalurilor) / servicii financiare"
+      },
+      {
+        "file": "concepts/acquis-AML.md",
+        "line": 8,
+        "section": "",
+        "text": "- **domeniu de mandat MD:** transversal — CNPF supraveghetor sectorial pentru perimetrul său; FIU = SPCSB"
+      },
+      {
+        "file": "concepts/acquis-AML.md",
+        "line": 14,
+        "section": "Ce acoperă",
+        "text": "bazată pe risc, supravegherea entităților raportoare. **Pachetul 2024** aduce un cod unic direct aplicabil"
+      },
+      {
+        "file": "concepts/acquis-AML.md",
+        "line": 15,
+        "section": "Ce acoperă",
+        "text": "(AMLR), o directivă revizuită (AMLD6) și o autoritate UE de supraveghere (AMLA), cu aplicare eșalonată din ~2027."
+      },
+      {
+        "file": "concepts/acquis-AML.md",
+        "line": 18,
+        "section": "Lacuna de examinat",
+        "text": "Calea de aliniere la pachetul AML 2024 (AMLR/AMLD6/AMLA) peste [[L-308-2017]]; menținerea supravegherii"
+      },
+      {
+        "file": "concepts/acquis-CompanyLaw.md",
+        "line": 4,
+        "section": "",
+        "text": "- **tip:** acquis UE (drept societar)"
+      },
+      {
+        "file": "concepts/acquis-CompanyLaw.md",
+        "line": 5,
+        "section": "",
+        "text": "- **instrumente:** Directiva (UE) 2017/1132 (codificarea dreptului societăților) + Directiva (UE) 2017/828 (SRD II — drepturile acționarilor, modifică 2007/36/CE)"
+      },
+      {
+        "file": "concepts/acquis-CompanyLaw.md",
+        "line": 6,
+        "section": "",
+        "text": "- **capitol de aderare:** Cluster 2 · **Capitolul 6 — Dreptul societăților** (adiacent Cap. 9)"
+      },
+      {
+        "file": "concepts/acquis-CompanyLaw.md",
+        "line": 7,
+        "section": "",
+        "text": "- **domeniu de mandat MD:** partajat — drept societar general; CNPF aplică regulile emitenților de valori mobiliare"
+      },
+      {
+        "file": "concepts/acquis-CompanyLaw.md",
+        "line": 12,
+        "section": "Ce acoperă",
+        "text": "- **2017/1132** — constituirea SA, menținerea/modificarea capitalului, fuziuni și divizări, publicitatea,"
+      },
+      {
+        "file": "concepts/acquis-CompanyLaw.md",
+        "line": 13,
+        "section": "Ce acoperă",
+        "text": "sucursale, instrumente digitale de drept societar."
+      },
+      {
+        "file": "concepts/acquis-CompanyLaw.md",
+        "line": 15,
+        "section": "Ce acoperă",
+        "text": "investitorilor instituționali/administratorilor de active/consilierilor de vot, remunerarea („say on pay\"),"
+      },
+      {
+        "file": "concepts/acquis-CompanyLaw.md",
+        "line": 19,
+        "section": "Lacuna de examinat",
+        "text": "Transpunerea SRD II peste [[L-1134-1997]] (drepturile acționarilor, „say on pay\", părți afiliate) și alinierea"
+      },
+      {
+        "file": "concepts/acquis-ConsumerCredit.md",
+        "line": 4,
+        "section": "",
+        "text": "- **tip:** acquis UE (servicii financiare / protecția consumatorilor)"
+      },
+      {
+        "file": "concepts/acquis-ConsumerCredit.md",
+        "line": 5,
+        "section": "",
+        "text": "- **instrument:** Directiva 2008/48/CE (creditul de consum); succesor: **Directiva (UE) 2023/2225 (CCD2)**"
+      },
+      {
+        "file": "concepts/acquis-ConsumerCredit.md",
+        "line": 6,
+        "section": "",
+        "text": "- **capitol de aderare:** Cluster 2 · Capitolul 9 — Servicii financiare (interfață cu protecția consumatorilor)"
+      },
+      {
+        "file": "concepts/acquis-ConsumerCredit.md",
+        "line": 7,
+        "section": "",
+        "text": "- **domeniu de mandat MD:** BNM (prudențial OCN, din 01.07.2023) / CNPF-rezidual (protecția consumatorilor, plafoane de cost)"
+      },
+      {
+        "file": "concepts/acquis-ConsumerCredit.md",
+        "line": 8,
+        "section": "",
+        "text": "- **ancoră moldovenească:** [[L-1-2018]] (organizațiile de creditare nebancară)"
+      },
+      {
+        "file": "concepts/acquis-ConsumerCredit.md",
+        "line": 13,
+        "section": "Ce acoperă",
+        "text": "bonității. **CCD2 (2023/2225)** extinde domeniul (credite mici, „buy-now-pay-later\"), întărește evaluarea"
+      },
+      {
+        "file": "concepts/acquis-ConsumerCredit.md",
+        "line": 14,
+        "section": "Ce acoperă",
+        "text": "bonității și regulile de publicitate — de aplicat la nivel UE până în noiembrie 2026."
+      },
+      {
+        "file": "concepts/acquis-ConsumerCredit.md",
+        "line": 17,
+        "section": "Lacuna de examinat",
+        "text": "Transpunerea CCD2 (2023/2225) peste baza 2008/48; interfața cu plafoanele de cost din inițiativa CNPF de"
+      },
+      {
+        "file": "concepts/acquis-Crowdfunding.md",
+        "line": 4,
+        "section": "",
+        "text": "- **tip:** acquis UE (servicii financiare)"
+      },
+      {
+        "file": "concepts/acquis-Crowdfunding.md",
+        "line": 5,
+        "section": "",
+        "text": "- **instrument:** Regulamentul (UE) 2020/1503 (+ RTS: 2022/2112, 2022/2116, 2022/2117)"
+      },
+      {
+        "file": "concepts/acquis-Crowdfunding.md",
+        "line": 6,
+        "section": "",
+        "text": "- **capitol de aderare:** Cluster 2 · Capitolul 9 — Servicii financiare"
+      },
+      {
+        "file": "concepts/acquis-Crowdfunding.md",
+        "line": 11,
+        "section": "Ce acoperă",
+        "text": "Cerințe uniforme pentru prestarea serviciilor de finanțare participativă (bazate pe investiții și pe"
+      },
+      {
+        "file": "concepts/acquis-Crowdfunding.md",
+        "line": 12,
+        "section": "Ce acoperă",
+        "text": "împrumut), autorizarea și supravegherea furnizorilor, funcționarea platformelor, protecția"
+      },
+      {
+        "file": "concepts/acquis-Crowdfunding.md",
+        "line": 13,
+        "section": "Ce acoperă",
+        "text": "investitorilor (test de cunoștințe la intrare, fișă cu informații-cheie despre investiție) și regulile"
+      },
+      {
+        "file": "concepts/acquis-Crowdfunding.md",
+        "line": 14,
+        "section": "Ce acoperă",
+        "text": "de publicitate. Creditarea de consum este **exclusă** din domeniul regulamentului."
+      },
+      {
+        "file": "concepts/acquis-Crowdfunding.md",
+        "line": 17,
+        "section": "Lacuna / divergența de examinat",
+        "text": "Legea 181/2023 include **debitori-consumatori**, care se află în afara domeniului Reg. 2020/1503 — o"
+      },
+      {
+        "file": "concepts/acquis-Crowdfunding.md",
+        "line": 18,
+        "section": "Lacuna / divergența de examinat",
+        "text": "divergență substanțială față de acquis-ul citat, nu o transpunere fidelă. De confirmat dacă RTS privind"
+      },
+      {
+        "file": "concepts/acquis-CSDR-EMIR.md",
+        "line": 4,
+        "section": "",
+        "text": "- **tip:** acquis UE (servicii financiare)"
+      },
+      {
+        "file": "concepts/acquis-CSDR-EMIR.md",
+        "line": 5,
+        "section": "",
+        "text": "- **instrumente:** Regulamentul (UE) 909/2014 (CSDR); Regulamentul (UE) 648/2012 (EMIR)"
+      },
+      {
+        "file": "concepts/acquis-CSDR-EMIR.md",
+        "line": 6,
+        "section": "",
+        "text": "- **capitol de aderare:** Cluster 2 · Capitolul 9 — Servicii financiare"
+      },
+      {
+        "file": "concepts/acquis-CSDR-EMIR.md",
+        "line": 7,
+        "section": "",
+        "text": "- **ancoră moldovenească:** [[L-171-2012]] (doar Caracterul definitiv al decontării 98/26); DCU → [[L-234-2016]]"
+      },
+      {
+        "file": "concepts/acquis-CSDR-EMIR.md",
+        "line": 11,
+        "section": "Ce acoperă",
+        "text": "- **CSDR** — autorizarea și supravegherea depozitarilor centrali de valori mobiliare, disciplina"
+      },
+      {
+        "file": "concepts/acquis-CSDR-EMIR.md",
+        "line": 12,
+        "section": "Ce acoperă",
+        "text": "decontării, forma de înscriere în cont."
+      },
+      {
+        "file": "concepts/acquis-CSDR-EMIR.md",
+        "line": 13,
+        "section": "Ce acoperă",
+        "text": "- **EMIR** — compensarea și diminuarea riscurilor pentru instrumente derivate OTC, contrapărți centrale"
+      },
+      {
+        "file": "concepts/acquis-CSDR-EMIR.md",
+        "line": 17,
+        "section": "Lacuna de examinat",
+        "text": "Caracterul definitiv al decontării (98/26) este ancorat prin Legea 171/2012 (și prin Legea dedicată"
+      },
+      {
+        "file": "concepts/acquis-CSDR-EMIR.md",
+        "line": 18,
+        "section": "Lacuna de examinat",
+        "text": "183/2016), dar autorizarea/supravegherea DCU la nivel CSDR și regimul EMIR pentru derivate/CPC/registre"
+      },
+      {
+        "file": "concepts/acquis-ICSD.md",
+        "line": 4,
+        "section": "",
+        "text": "- **tip:** acquis UE (protecția investitorilor)"
+      },
+      {
+        "file": "concepts/acquis-ICSD.md",
+        "line": 5,
+        "section": "",
+        "text": "- **instrument:** Directiva 97/9/CE privind sistemele de compensare pentru investitori"
+      },
+      {
+        "file": "concepts/acquis-ICSD.md",
+        "line": 6,
+        "section": "",
+        "text": "- **capitol de aderare:** Cluster 2 · Capitolul 9 — Servicii financiare"
+      },
+      {
+        "file": "concepts/acquis-ICSD.md",
+        "line": 8,
+        "section": "",
+        "text": "- **statut transpunere:** parțial / de verificat — există mecanism moldovenesc prin Fondul de compensare a investitorilor, dar nivelul de acoperire, finanțarea și termenele trebuie comparate articol cu articol."
+      },
+      {
+        "file": "concepts/acquis-Insurance.md",
+        "line": 4,
+        "section": "",
+        "text": "- **tip:** acquis UE (servicii financiare)"
+      },
+      {
+        "file": "concepts/acquis-Insurance.md",
+        "line": 5,
+        "section": "",
+        "text": "- **instrumente:** Directiva 2009/138/CE (Solvency II) + Directiva (UE) 2016/97 (IDD — distribuția în asigurări)"
+      },
+      {
+        "file": "concepts/acquis-Insurance.md",
+        "line": 6,
+        "section": "",
+        "text": "- **capitol de aderare:** Cluster 2 · Capitolul 9 — Servicii financiare"
+      },
+      {
+        "file": "concepts/acquis-Insurance.md",
+        "line": 7,
+        "section": "",
+        "text": "- **domeniu de mandat MD:** BNM (prudențial, din 01.07.2023) / CNPF-rezidual — **în afara nucleului CNPF piață de capital**"
+      },
+      {
+        "file": "concepts/acquis-Insurance.md",
+        "line": 8,
+        "section": "",
+        "text": "- **ancoră moldovenească:** [[L-92-2022]] (activitatea de asigurare/reasigurare)"
+      },
+      {
+        "file": "concepts/acquis-Insurance.md",
+        "line": 12,
+        "section": "Ce acoperă",
+        "text": "- **Solvency II** — accesul la și desfășurarea activității de asigurare/reasigurare; cerințe prudențiale"
+      },
+      {
+        "file": "concepts/acquis-Insurance.md",
+        "line": 13,
+        "section": "Ce acoperă",
+        "text": "bazate pe risc (SCR/MCR), guvernanță, ORSA, supravegherea grupurilor, regimul societăților în dificultate."
+      },
+      {
+        "file": "concepts/acquis-Insurance.md",
+        "line": 14,
+        "section": "Ce acoperă",
+        "text": "- **IDD** — distribuția produselor de asigurare: conduită, informare, transparența costurilor, cerințe pentru"
+      },
+      {
+        "file": "concepts/acquis-Insurance.md",
+        "line": 15,
+        "section": "Ce acoperă",
+        "text": "produsele de investiții bazate pe asigurări (IBIP)."
+      },
+      {
+        "file": "concepts/acquis-Insurance.md",
+        "line": 18,
+        "section": "Lacuna de examinat",
+        "text": "Gradul de transpunere Solvency II (calibrarea SCR/MCR, raportarea) și IDD peste [[L-92-2022]]; supravegherea"
+      },
+      {
+        "file": "concepts/acquis-IORP.md",
+        "line": 4,
+        "section": "",
+        "text": "- **tip:** acquis UE (servicii financiare)"
+      },
+      {
+        "file": "concepts/acquis-IORP.md",
+        "line": 5,
+        "section": "",
+        "text": "- **instrument:** Directiva (UE) 2016/2341 (IORP II) — reformează Directiva 2003/41/CE"
+      },
+      {
+        "file": "concepts/acquis-IORP.md",
+        "line": 6,
+        "section": "",
+        "text": "- **capitol de aderare:** Cluster 2 · Capitolul 9 — Servicii financiare"
+      },
+      {
+        "file": "concepts/acquis-IORP.md",
+        "line": 7,
+        "section": "",
+        "text": "- **domeniu de mandat MD:** CNPF (pensii facultative)"
+      },
+      {
+        "file": "concepts/acquis-IORP.md",
+        "line": 8,
+        "section": "",
+        "text": "- **ancoră moldovenească:** [[L-198-2020]] (fondurile de pensii facultative)"
+      },
+      {
+        "file": "concepts/acquis-IORP.md",
+        "line": 12,
+        "section": "Ce acoperă",
+        "text": "Autorizarea și funcționarea instituțiilor de pensii ocupaționale; guvernanță și management al riscului;"
+      },
+      {
+        "file": "concepts/acquis-IORP.md",
+        "line": 18,
+        "section": "Lacuna de examinat",
+        "text": "Gradul de transpunere IORP II peste [[L-198-2020]] (guvernanță, funcții-cheie, informarea membrilor) și"
+      },
+      {
+        "file": "concepts/acquis-MAR.md",
+        "line": 4,
+        "section": "",
+        "text": "- **tip:** acquis UE (servicii financiare)"
+      },
+      {
+        "file": "concepts/acquis-MAR.md",
+        "line": 5,
+        "section": "",
+        "text": "- **instrumente:** Regulamentul (UE) 596/2014 (MAR) + Directiva 2014/57/UE (CSMAD)"
+      },
+      {
+        "file": "concepts/acquis-MAR.md",
+        "line": 6,
+        "section": "",
+        "text": "- **abrogă:** Directiva 2003/6/CE (Directiva privind abuzul de piață)"
+      },
+      {
+        "file": "concepts/acquis-MAR.md",
+        "line": 7,
+        "section": "",
+        "text": "- **capitol de aderare:** Cluster 2 · Capitolul 9 — Servicii financiare"
+      },
+      {
+        "file": "concepts/acquis-MAR.md",
+        "line": 9,
+        "section": "",
+        "text": "- **statut transpunere:** parțial / învechit — aliniat la 2003/6 abrogată"
+      },
+      {
+        "file": "concepts/acquis-MAR.md",
+        "line": 13,
+        "section": "Ce acoperă",
+        "text": "privilegiate și manipularea pieței; obligații ale emitenților (dezvăluirea informațiilor privilegiate,"
+      },
+      {
+        "file": "concepts/acquis-MAR.md",
+        "line": 15,
+        "section": "Ce acoperă",
+        "text": "suspecte (STOR); regimul de sondare a pieței; și, prin CSMAD, un set minim de sancțiuni penale."
+      },
+      {
+        "file": "concepts/acquis-MAR.md",
+        "line": 18,
+        "section": "Lacuna de examinat pentru Moldova",
+        "text": "Legea din 2012 definește abuzul de piață, dar pe modelul directivei pre-2014. Regimul curent este la nivel"
+      },
+      {
+        "file": "concepts/acquis-MAR.md",
+        "line": 19,
+        "section": "Lacuna de examinat pentru Moldova",
+        "text": "de regulament și mai amplu: domeniu extins de instrumente, liste formale ale persoanelor inițiate, obligații"
+      },
+      {
+        "file": "concepts/acquis-MAR.md",
+        "line": 21,
+        "section": "Lacuna de examinat pentru Moldova",
+        "text": "**amendamentele CFD din 2025 (Legea 177/2025)** au adăugat deja competențe de alertă ale CNPF și sancțiuni"
+      },
+      {
+        "file": "concepts/acquis-MiFID.md",
+        "line": 4,
+        "section": "",
+        "text": "- **tip:** acquis UE (servicii financiare)"
+      },
+      {
+        "file": "concepts/acquis-MiFID.md",
+        "line": 5,
+        "section": "",
+        "text": "- **instrumente:** Directiva 2014/65/UE (MiFID II) + Regulamentul (UE) 600/2014 (MiFIR)"
+      },
+      {
+        "file": "concepts/acquis-MiFID.md",
+        "line": 6,
+        "section": "",
+        "text": "- **abrogă:** Directiva 2004/39/CE (MiFID I) și directiva sa de implementare 2006/73/CE"
+      },
+      {
+        "file": "concepts/acquis-MiFID.md",
+        "line": 7,
+        "section": "",
+        "text": "- **capitol de aderare:** Cluster 2 · Capitolul 9 — Servicii financiare"
+      },
+      {
+        "file": "concepts/acquis-MiFID.md",
+        "line": 8,
+        "section": "",
+        "text": "- **ancoră moldovenească:** [[L-171-2012]] (a transpus generația abrogată MiFID I)"
+      },
+      {
+        "file": "concepts/acquis-MiFID.md",
+        "line": 9,
+        "section": "",
+        "text": "- **statut transpunere:** parțial / învechit — aliniat la 2004/39 + 2006/73 abrogate"
+      },
+      {
+        "file": "concepts/acquis-MiFID.md",
+        "line": 12,
+        "section": "Ce acoperă",
+        "text": "Autorizarea și cerințele organizatorice ale societăților de investiții; categoriile de locuri de"
+      },
+      {
+        "file": "concepts/acquis-MiFID.md",
+        "line": 14,
+        "section": "Ce acoperă",
+        "text": "protecție a investitorilor și guvernanța produselor; controale privind tranzacționarea algoritmică/de"
+      },
+      {
+        "file": "concepts/acquis-MiFID.md",
+        "line": 15,
+        "section": "Ce acoperă",
+        "text": "înaltă frecvență; limite de poziție la instrumente derivate pe mărfuri; și un regim de acces al țărilor terțe."
+      },
+      {
+        "file": "concepts/acquis-MiFID.md",
+        "line": 18,
+        "section": "Lacuna de examinat pentru Moldova",
+        "text": "Legea 171/2012 pune în aplicare cadrul MiFID I prin directiva de implementare 2006/73. Regimul curent"
+      },
+      {
+        "file": "concepts/acquis-MiFID.md",
+        "line": 19,
+        "section": "Lacuna de examinat pentru Moldova",
+        "text": "necesită o transpunere substanțial nouă: categoria OTF, regulile de guvernanță a produselor și piață-țintă,"
+      },
+      {
+        "file": "concepts/acquis-MTPL.md",
+        "line": 4,
+        "section": "",
+        "text": "- **tip:** acquis UE (servicii financiare)"
+      },
+      {
+        "file": "concepts/acquis-MTPL.md",
+        "line": 5,
+        "section": "",
+        "text": "- **instrument:** Directiva 2009/103/CE (RCA auto — codifică directivele auto anterioare); amendată prin Directiva (UE) 2021/2118"
+      },
+      {
+        "file": "concepts/acquis-MTPL.md",
+        "line": 6,
+        "section": "",
+        "text": "- **capitol de aderare:** Cluster 2 · Capitolul 9 — Servicii financiare"
+      },
+      {
+        "file": "concepts/acquis-MTPL.md",
+        "line": 7,
+        "section": "",
+        "text": "- **domeniu de mandat MD:** BNM (prudențial, din 01.07.2023) / CNPF-rezidual"
+      },
+      {
+        "file": "concepts/acquis-MTPL.md",
+        "line": 8,
+        "section": "",
+        "text": "- **ancoră moldovenească:** [[L-106-2022]] (RCA auto obligatorie)"
+      },
+      {
+        "file": "concepts/acquis-MTPL.md",
+        "line": 12,
+        "section": "Ce acoperă",
+        "text": "Obligația de asigurare RCA pentru vehicule; sumele minime de acoperire; organismul de compensare și biroul"
+      },
+      {
+        "file": "concepts/acquis-MTPL.md",
+        "line": 13,
+        "section": "Ce acoperă",
+        "text": "național (sistemul „Carte Verde\"); protecția persoanelor vătămate; libera circulație a vehiculelor asigurate."
+      },
+      {
+        "file": "concepts/acquis-MTPL.md",
+        "line": 14,
+        "section": "Ce acoperă",
+        "text": "**Directiva (UE) 2021/2118** a revizuit sumele minime, a tratat insolvența asigurătorului și istoricul daunelor."
+      },
+      {
+        "file": "concepts/acquis-MTPL.md",
+        "line": 17,
+        "section": "Lacuna de examinat",
+        "text": "Alinierea sumelor minime de acoperire la 2021/2118 și regimul BNAA. L-106-2022 fixează limite (daune materiale"
+      },
+      {
+        "file": "concepts/acquis-Prospectus.md",
+        "line": 4,
+        "section": "",
+        "text": "- **tip:** acquis UE (servicii financiare)"
+      },
+      {
+        "file": "concepts/acquis-Prospectus.md",
+        "line": 5,
+        "section": "",
+        "text": "- **instrument:** Regulamentul (UE) 2017/1129"
+      },
+      {
+        "file": "concepts/acquis-Prospectus.md",
+        "line": 6,
+        "section": "",
+        "text": "- **abrogă:** Directiva 2003/71/CE (Directiva privind prospectul)"
+      },
+      {
+        "file": "concepts/acquis-Prospectus.md",
+        "line": 7,
+        "section": "",
+        "text": "- **capitol de aderare:** Cluster 2 · Capitolul 9 — Servicii financiare"
+      },
+      {
+        "file": "concepts/acquis-Prospectus.md",
+        "line": 8,
+        "section": "",
+        "text": "- **ancoră moldovenească:** [[L-171-2012]] (a transpus 2003/71 abrogată)"
+      },
+      {
+        "file": "concepts/acquis-Prospectus.md",
+        "line": 9,
+        "section": "",
+        "text": "- **statut transpunere:** parțial / învechit"
+      },
+      {
+        "file": "concepts/acquis-Prospectus.md",
+        "line": 12,
+        "section": "Ce acoperă",
+        "text": "Prospectul care trebuie publicat când valorile mobiliare sunt oferite public sau admise la"
+      },
+      {
+        "file": "concepts/acquis-Prospectus.md",
+        "line": 13,
+        "section": "Ce acoperă",
+        "text": "tranzacționare pe o piață reglementată; conținut, format, examinare și aprobare; prospectul UE de"
+      },
+      {
+        "file": "concepts/acquis-Prospectus.md",
+        "line": 17,
+        "section": "Lacuna de examinat",
+        "text": "Trecerea de la model de directivă la regulament direct aplicabil; introducerea prospectului UE de"
+      },
+      {
+        "file": "concepts/acquis-SFD.md",
+        "line": 4,
+        "section": "",
+        "text": "- **tip:** acquis UE (post-tranzacționare / infrastructură de piață)"
+      },
+      {
+        "file": "concepts/acquis-SFD.md",
+        "line": 5,
+        "section": "",
+        "text": "- **instrument:** Directiva 98/26/CE privind caracterul definitiv al decontării în sistemele de plăți și de decontare a titlurilor de valoare"
+      },
+      {
+        "file": "concepts/acquis-SFD.md",
+        "line": 6,
+        "section": "",
+        "text": "- **capitol de aderare:** Cluster 2 · Capitolul 9 — Servicii financiare"
+      },
+      {
+        "file": "concepts/acquis-SFD.md",
+        "line": 8,
+        "section": "",
+        "text": "- **statut transpunere:** parțial / de verificat — L-171-2012 menționează directiva în anexa de transpunere, iar DCU este reglementat separat prin L-234-2016."
+      },
+      {
+        "file": "concepts/acquis-Takeover.md",
+        "line": 4,
+        "section": "",
+        "text": "- **tip:** acquis UE (drept societar / piața de capital)"
+      },
+      {
+        "file": "concepts/acquis-Takeover.md",
+        "line": 5,
+        "section": "",
+        "text": "- **instrument:** Directiva 2004/25/CE privind ofertele publice de cumpărare"
+      },
+      {
+        "file": "concepts/acquis-Takeover.md",
+        "line": 6,
+        "section": "",
+        "text": "- **capitol de aderare:** Cluster 2 · Capitolul 6 — Dreptul societăților; legătură cu Capitolul 9 — Servicii financiare"
+      },
+      {
+        "file": "concepts/acquis-Takeover.md",
+        "line": 8,
+        "section": "",
+        "text": "- **statut transpunere:** de verificat — L-171-2012 acoperă oferte de preluare, dar compatibilitatea cu regulile directivei trebuie verificată articol cu articol."
+      },
+      {
+        "file": "concepts/acquis-Transparency.md",
+        "line": 4,
+        "section": "",
+        "text": "- **tip:** acquis UE (servicii financiare)"
+      },
+      {
+        "file": "concepts/acquis-Transparency.md",
+        "line": 5,
+        "section": "",
+        "text": "- **instrument:** Directiva 2004/109/CE, modificată prin Directiva 2013/50/UE"
+      },
+      {
+        "file": "concepts/acquis-Transparency.md",
+        "line": 6,
+        "section": "",
+        "text": "- **capitol de aderare:** Cluster 2 · Capitolul 9 — Servicii financiare"
+      },
+      {
+        "file": "concepts/acquis-Transparency.md",
+        "line": 8,
+        "section": "",
+        "text": "- **statut transpunere:** parțial (baza pre-2013/50)"
+      },
+      {
+        "file": "concepts/acquis-Transparency.md",
+        "line": 11,
+        "section": "Ce acoperă",
+        "text": "Dezvăluirea periodică și continuă de către emitenții ale căror valori mobiliare sunt admise la"
+      },
+      {
+        "file": "concepts/acquis-Transparency.md",
+        "line": 16,
+        "section": "Lacuna de examinat",
+        "text": "Pragurile de notificare pentru participații importante; raportarea structurată ESEF; alinierea la"
+      },
+      {
+        "file": "concepts/acquis-UCITS.md",
+        "line": 4,
+        "section": "",
+        "text": "- **tip:** acquis UE (servicii financiare)"
+      },
+      {
+        "file": "concepts/acquis-UCITS.md",
+        "line": 5,
+        "section": "",
+        "text": "- **instrument:** Directiva 2009/65/CE, modificată prin Directiva 2014/91/UE (OPCVM V)"
+      },
+      {
+        "file": "concepts/acquis-UCITS.md",
+        "line": 6,
+        "section": "",
+        "text": "- **capitol de aderare:** Cluster 2 · Capitolul 9 — Servicii financiare"
+      },
+      {
+        "file": "concepts/acquis-UCITS.md",
+        "line": 8,
+        "section": "",
+        "text": "- **statut transpunere:** parțial (baza pre-OPCVM-V)"
+      },
+      {
+        "file": "concepts/acquis-UCITS.md",
+        "line": 11,
+        "section": "Ce acoperă",
+        "text": "Autorizarea și funcționarea fondurilor deschise de retail; pașaportul de autorizare unică; activele"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 4,
+        "section": "",
+        "text": "**Scop.** Legea 171/2012 a transpus *generația pre-reformă* a legislației UE în servicii financiare"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 5,
+        "section": "",
+        "text": "(aproximativ acquis-ul 2003–2009). Acquis-ul UE s-a mutat între timp la un regim dominat de regulamente,"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 6,
+        "section": "",
+        "text": "post-2014. Această matrice mapează fiecare act transpus la succesorul său UE curent și enunță lacuna de"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 7,
+        "section": "",
+        "text": "aproximare — inputul pentru screening sub **Cluster 2 (Piața internă), Capitolul 9 – Servicii financiare**"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 8,
+        "section": "",
+        "text": "(cu extindere la Capitolul 4 – Libera circulație a capitalurilor și Capitolul 6 – Dreptul societăților)."
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 10,
+        "section": "",
+        "text": "> Schelet analitic. Fiecare celulă „lacună\" este o ipoteză de verificat față de cel mai recent text"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 11,
+        "section": "",
+        "text": "> consolidat al Legii 171/2012 și de cele mai recente acte de aliniere ale CNPF. Moldova poate fi deja"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 16,
+        "section": "A. Acte transpuse în 2012 → succesor curent",
+        "text": "| Transpus (generația 2012) | Domeniu | Acquis UE curent (2026) | Lacuna de aproximare de examinat |"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 18,
+        "section": "A. Acte transpuse în 2012 → succesor curent",
+        "text": "| MiFID I 2004/39 + impl. 2006/73 | Societăți de investiții, locuri de tranzacționare, conduită | **MiFID II 2014/65 + MiFIR 600/2014** | Re-transpunere completă: OTF, guvernanța produselor, controale algo/HFT, limite de poziție, transparență, regim țări terțe"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 19,
+        "section": "A. Acte transpuse în 2012 → succesor curent",
+        "text": "| MAD 2003/6 | Abuz de piață | **MAR 596/2014 + CSMAD 2014/57** | Regim directivă→regulament; liste ale persoanelor inițiate, STOR, sondaje de piață, prag de sancțiuni penale |"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 20,
+        "section": "A. Acte transpuse în 2012 → succesor curent",
+        "text": "| Prospect 2003/71 | Oferte publice | **Reg. prospect 2017/1129** | Nivel de regulament; prospect UE de creștere, document de înregistrare universal, format al rezumatului |"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 21,
+        "section": "A. Acte transpuse în 2012 → succesor curent",
+        "text": "| Transparență 2004/109 | Dezvăluire de către emitenți | modificată prin **2013/50** | Praguri de notificare pentru participații importante; raportare structurată ESEF |"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 22,
+        "section": "A. Acte transpuse în 2012 → succesor curent",
+        "text": "| CAD 2006/49 / CRD IV 2013/36 (parțial) | Prudențial — societăți de investiții | **IFR 2019/2033 + IFD 2019/2034** (bănci: CRR 575/2013 + CRD) | Noul regim prudențial cu factori K pentru societăți de investiții netranspus |"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 23,
+        "section": "A. Acte transpuse în 2012 → succesor curent",
+        "text": "| OPCVM IV 2009/65 | Fonduri de retail | **OPCVM V 2014/91** (+ dezbaterea OPCVM VI) | Îndatoririle depozitarului, remunerare, sancțiuni armonizate |"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 24,
+        "section": "A. Acte transpuse în 2012 → succesor curent",
+        "text": "| [[acquis-ICSD|ICSD 97/9]] | Compensarea investitorilor | în vigoare; revizuire propusă | Alinierea nivelului de acoperire și a termenelor de plată |"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 25,
+        "section": "A. Acte transpuse în 2012 → succesor curent",
+        "text": "| [[acquis-SFD|Caracterul definitiv al decontării 98/26]] | Post-tranzacționare | în vigoare + **CSDR 909/2014** | Autorizarea/supravegherea DCU, disciplina decontării |"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 26,
+        "section": "A. Acte transpuse în 2012 → succesor curent",
+        "text": "| Reg. CRA 1060/2009 | Agenții de rating | **CRA III 462/2013** | Înregistrare/supraveghere echivalentă ESMA |"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 30,
+        "section": "B. Acquis curent fără ancoră din 2012 → verifică legi separate sau marchează ca lacună",
+        "text": "| Acquis UE curent | Domeniu | Statut moldovenesc |"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 32,
+        "section": "B. Acquis curent fără ancoră din 2012 → verifică legi separate sau marchează ca lacună",
+        "text": "| **AIFMD 2011/61** (frontieră: **AIFMD II 2024/927**) | Fonduri alternative | Acoperit de **Legea 2/2020** ([[L-2-2020]]) la baza pre-AIFMD-II; AIFMD II încă netranspusă |"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 33,
+        "section": "B. Acquis curent fără ancoră din 2012 → verifică legi separate sau marchează ca lacună",
+        "text": "| **Reg. crowdfunding 2020/1503** | Platforme de crowdfunding | Acoperit de **Legea 181/2023** ([[L-181-2023]]), parțial; de notat divergența privind debitorii-consumatori față de domeniul regulamentului |"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 41,
+        "section": "C. Note pentru pasul de lint",
+        "text": "- Semnalează orice acquis din Capitolul 9 din secțiunea B rămas „lacună/de verificat\" față de termenele"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 43,
+        "section": "C. Note pentru pasul de lint",
+        "text": "- Când o directivă din generația 2012 a fost abrogată în UE, transpunerea moldovenească nu e „gata\" — e"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 44,
+        "section": "C. Note pentru pasul de lint",
+        "text": "aliniată la un instrument abrogat. Consemnează ca transpunere *parțială/învechită*, nu *completă*."
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 45,
+        "section": "C. Note pentru pasul de lint",
+        "text": "- Actele de aliniere ale CNPF post-2020 (ex. legea CFD din 2025) sunt cele mai probabile locuri unde o"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 46,
+        "section": "C. Note pentru pasul de lint",
+        "text": "lacună a fost deja închisă; verifică-le înainte de a raporta o lacună."
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 49,
+        "section": "Fluxul de aderare (context)",
+        "text": "Conform raportului anual CNPF pe 2024, Comisia a realizat deja o autoevaluare a alinierii reglementărilor"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 50,
+        "section": "Fluxul de aderare (context)",
+        "text": "pieței de capital la acquis și este angrenată în screening-ul UE (explicativ și bilateral), sub **Cluster 2"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 51,
+        "section": "Fluxul de aderare (context)",
+        "text": "– Piața internă** (capitolele servicii financiare / dreptul societăților; de confirmat lista exactă de"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 52,
+        "section": "Fluxul de aderare (context)",
+        "text": "capitole față de raport). Pașii esențiali de transpunere și implementare — inclusiv actele delegate privind"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 54,
+        "section": "Fluxul de aderare (context)",
+        "text": "capital până în 2030 (SNDPC 2030)** încadrează acest lucru, cu 5 obiective generale și 20 de direcții"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 55,
+        "section": "Fluxul de aderare (context)",
+        "text": "prioritare, motivată explicit de statutul de țară candidat. Această matrice e menită să alimenteze acel"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 56,
+        "section": "Fluxul de aderare (context)",
+        "text": "flux: fiecare celulă-lacună neverificată e o întrebare de screening. `[de verificat numerele de capitole și termenele curente]`"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 64,
+        "section": "D. Acquis conex pentru celelalte domenii Cluster 2 (pagini adăugate 2026-07-09)",
+        "text": "Dincolo de nucleul Cap. 9 piață de capital, legile din perimetru citează și acquis din alte domenii Cluster 2."
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 65,
+        "section": "D. Acquis conex pentru celelalte domenii Cluster 2 (pagini adăugate 2026-07-09)",
+        "text": "Fiecare are acum o pagină de acquis dedicată (închide „lacuna de acoperire\" din §4 al _lint-report):"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 66,
+        "section": "D. Acquis conex pentru celelalte domenii Cluster 2 (pagini adăugate 2026-07-09)",
+        "text": "- [[acquis-Insurance]] (Solvency II 2009/138 + IDD 2016/97) → [[L-92-2022]]; [[acquis-MTPL]] (2009/103) → [[L-106-2022]] — *partea BNM*"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 67,
+        "section": "D. Acquis conex pentru celelalte domenii Cluster 2 (pagini adăugate 2026-07-09)",
+        "text": "- [[acquis-IORP]] (IORP II 2016/2341) → [[L-198-2020]] — *CNPF pensii*"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 68,
+        "section": "D. Acquis conex pentru celelalte domenii Cluster 2 (pagini adăugate 2026-07-09)",
+        "text": "- [[acquis-CompanyLaw]] (2017/1132 + SRD II 2017/828) → [[L-1134-1997]] — *Cap. 6 drept societar*"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 69,
+        "section": "D. Acquis conex pentru celelalte domenii Cluster 2 (pagini adăugate 2026-07-09)",
+        "text": "- [[acquis-ConsumerCredit]] (2008/48 → CCD2 2023/2225) → [[L-1-2018]] — *partea BNM*"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 70,
+        "section": "D. Acquis conex pentru celelalte domenii Cluster 2 (pagini adăugate 2026-07-09)",
+        "text": "- [[acquis-AML]] (2015/849 + pachetul 2024) → [[L-308-2017]] — *transversal CNPF*"
+      }
+    ],
+    "mandate_conflicts": [],
+    "missing_mandate_line": [],
+    "stale_consolidation": [
+      {
+        "file": "entities/L-1-2018.md",
+        "raw": "raw/papers/cnpf/L-1-2018.md",
+        "raw_consolidation_date": "2020-04-20",
+        "later_years_in_page": [
+          "2023",
+          "2025",
+          "2026"
+        ]
+      },
+      {
+        "file": "entities/L-106-2022.md",
+        "raw": "raw/papers/cnpf/L-106-2022.md",
+        "raw_consolidation_date": "2024-08-02",
+        "later_years_in_page": [
+          "2026"
+        ]
+      },
+      {
+        "file": "entities/L-1134-1997.md",
+        "raw": "raw/papers/cnpf/L-1134-1997.md",
+        "raw_consolidation_date": "2022-01-10",
+        "later_years_in_page": [
+          "2024",
+          "2026"
+        ]
+      },
+      {
+        "file": "entities/L-122-2008.md",
+        "raw": "raw/papers/cnpf/L-122-2008.md",
+        "raw_consolidation_date": "2020-05-02",
+        "later_years_in_page": [
+          "2023",
+          "2026"
+        ]
+      },
+      {
+        "file": "entities/L-139-2007.md",
+        "raw": "raw/papers/cnpf/L-139-2007.md",
+        "raw_consolidation_date": "2020-05-02",
+        "later_years_in_page": [
+          "2023",
+          "2026"
+        ]
+      },
+      {
+        "file": "entities/L-171-2012.md",
+        "raw": "raw/papers/cnpf/L-171-2012.md",
+        "raw_consolidation_date": "2021-01-01",
+        "later_years_in_page": [
+          "2025",
+          "2026"
+        ]
+      },
+      {
+        "file": "entities/L-178-2020.md",
+        "raw": "raw/papers/cnpf/L-178-2020.md",
+        "raw_consolidation_date": "2020-09-18",
+        "later_years_in_page": [
+          "2022",
+          "2023",
+          "2026"
+        ]
+      },
+      {
+        "file": "entities/L-181-2023.md",
+        "raw": "raw/papers/cnpf/L-181-2023.md",
+        "raw_consolidation_date": "2023-07-27",
+        "later_years_in_page": [
+          "2024",
+          "2026"
+        ]
+      },
+      {
+        "file": "entities/L-192-1998.md",
+        "raw": "raw/papers/cnpf/L-192-1998.md",
+        "raw_consolidation_date": "2021-10-08",
+        "later_years_in_page": [
+          "2023",
+          "2026"
+        ]
+      },
+      {
+        "file": "entities/L-198-2020.md",
+        "raw": "raw/papers/cnpf/L-198-2020.md",
+        "raw_consolidation_date": "2020-12-18",
+        "later_years_in_page": [
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      },
+      {
+        "file": "entities/L-2-2020.md",
+        "raw": "raw/papers/cnpf/L-2-2020.md",
+        "raw_consolidation_date": "2020-03-27",
+        "later_years_in_page": [
+          "2024",
+          "2026"
+        ]
+      },
+      {
+        "file": "entities/L-234-2016.md",
+        "raw": "raw/papers/cnpf/L-234-2016.md",
+        "raw_consolidation_date": "2023-10-21",
+        "later_years_in_page": [
+          "2026"
+        ]
+      },
+      {
+        "file": "entities/L-308-2017.md",
+        "raw": "raw/papers/cnpf/L-308-2017.md",
+        "raw_consolidation_date": "2018-12-01",
+        "later_years_in_page": [
+          "2020",
+          "2023",
+          "2024",
+          "2026"
+        ]
+      },
+      {
+        "file": "entities/L-92-2022.md",
+        "raw": "raw/papers/cnpf/L-92-2022.md",
+        "raw_consolidation_date": "2023-01-01",
+        "later_years_in_page": [
+          "2026"
+        ]
+      }
+    ],
+    "missing_consolidation_date": [],
+    "acquis_without_moldovan_anchor": [],
+    "acquis_without_eurlex_raw": [],
+    "acquis_status_missing_or_unclear": [],
+    "verification_markers": [
+      {
+        "file": "entities/L-1-2018.md",
+        "line": 7,
+        "text": "- **acquis:** Directiva credit de consum (2008/48/CE) `[de verificat]`"
+      },
+      {
+        "file": "entities/L-1134-1997.md",
+        "line": 7,
+        "text": "- **acquis:** dreptul societar UE — [[acquis-CompanyLaw]]; statutul transpunerii față de 2017/1132 și SRD/SRD II rămâne de verificat articol-cu-articol. `[de verificat]`"
+      },
+      {
+        "file": "entities/L-171-2012.md",
+        "line": 27,
+        "text": "- Bursa de Valori a Moldovei / BIMx rămân exemple operaționale de verificat din surse CNPF/BVM, nu afirmații stabilite din raw-ul L-171. `[de verificat]`"
+      },
+      {
+        "file": "entities/L-171-2012.md",
+        "line": 31,
+        "text": "- Regulamentul privind ținerea registrului acționarilor și regulamentul privind controlul pe piața financiară nebancară sunt menționate ca ținte de ingestie; nu sunt încă ancorate prin raw dedicat. `[de verificat]`"
+      },
+      {
+        "file": "entities/L-234-2016.md",
+        "line": 7,
+        "text": "- **acquis:** cadrul UE privind depozitarii centrali — CSDR (Reg. (UE) 909/2014) `[de verificat]`"
+      },
+      {
+        "file": "entities/L-308-2017.md",
+        "line": 9,
+        "text": "2024/1624 (AMLR), Dir. (UE) 2024/1640 (AMLD6), Reg. (UE) 2024/1620 (AMLA) `[de verificat]`"
+      },
+      {
+        "file": "entities/L-92-2022.md",
+        "line": 7,
+        "text": "- **acquis:** Solvency II (Directiva 2009/138/CE); distribuția în asigurări (IDD) `[de verificat]`"
+      },
+      {
+        "file": "entities/REG-ICF.md",
+        "line": 17,
+        "text": "Numărul și data hotărârii CNPF rămân de confirmat din registrul actelor CNPF. `[de verificat]`"
+      },
+      {
+        "file": "concepts/acquis-AIFMD.md",
+        "line": 17,
+        "text": "Transpunerea amendamentelor AIFMD II (2024/927) peste baza Legii 2/2020. `[de verificat]`"
+      },
+      {
+        "file": "concepts/acquis-AML.md",
+        "line": 19,
+        "text": "sectoriale CNPF (art. 15 alin. (1) lit. b) pentru entitățile art. 4 alin. (1) lit. c). `[de verificat]`"
+      },
+      {
+        "file": "concepts/acquis-CompanyLaw.md",
+        "line": 20,
+        "text": "la 2017/1132. Vezi și semnalarea de mis-citare art.38(2)/capital minim la [[L-1134-1997]] (§1.e din _lint-report). `[de verificat]`"
+      },
+      {
+        "file": "concepts/acquis-ConsumerCredit.md",
+        "line": 18,
+        "text": "protecție a consumatorilor (2026). `[de verificat]`"
+      },
+      {
+        "file": "concepts/acquis-Crowdfunding.md",
+        "line": 19,
+        "text": "continuitatea, plângerile și autorizarea sunt pe deplin reflectate. `[de verificat]`"
+      },
+      {
+        "file": "concepts/acquis-CSDR-EMIR.md",
+        "line": 19,
+        "text": "par în mare parte netranspuse. Proprietatea DCU: rezolvat — DCU aparține BNM sub Legea 234/2016 (art.23). `[de verificat]`"
+      },
+      {
+        "file": "concepts/acquis-Insurance.md",
+        "line": 19,
+        "text": "prudențială e la BNM din 2023, deci alinierea prudențială iese din perimetrul activ CNPF. `[de verificat]`"
+      },
+      {
+        "file": "concepts/acquis-IORP.md",
+        "line": 19,
+        "text": "eventuala ambiție PEPP (2019/1238). `[de verificat]`"
+      },
+      {
+        "file": "concepts/acquis-MAR.md",
+        "line": 22,
+        "text": "din Codul penal într-un domeniu adiacent — de verificat dacă ating și regimul abuzului de piață. `[de verificat]`"
+      },
+      {
+        "file": "concepts/acquis-MTPL.md",
+        "line": 18,
+        "text": "100.000 EUR; vătămări corporale/deces 100.000 EUR/parte, 500.000 EUR total) — de verificat față de pragurile UE curente. `[de verificat]`"
+      },
+      {
+        "file": "concepts/acquis-Transparency.md",
+        "line": 17,
+        "text": "amendamentele 2013/50. `[de verificat]`"
+      },
+      {
+        "file": "concepts/acquis-UCITS.md",
+        "line": 16,
+        "text": "Regulile OPCVM V privind depozitarul, remunerarea și sancțiunile; dezbaterea în curs OPCVM VI. `[de verificat]`"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 12,
+        "text": "> închis unele dintre acestea prin amendamente post-2020. `[de verificat]`"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 34,
+        "text": "| **EMIR 648/2012** | Derivate OTC, CPC, registre de tranzacții | Probabil lacună `[de verificat]` |"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 35,
+        "text": "| **Reg. PRIIPs 1286/2014** | Produse de retail structurate (KID) | Probabil lacună `[de verificat]` |"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 36,
+        "text": "| **Reg. vânzări în lipsă 236/2012** | Vânzări în lipsă, CDS | Probabil lacună `[de verificat]` |"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 37,
+        "text": "| **Reg. indici de referință 2016/1011** | Indici de referință financiari | Probabil lacună `[de verificat]` |"
+      },
+      {
+        "file": "comparisons/cnpf-transposition-matrix.md",
+        "line": 38,
+        "text": "| **SFTR 2015/2365** | Tranzacții de finanțare cu titluri | Probabil lacună `[de verificat]` |"
+      }
+    ],
+    "large_pages": [],
+    "contested_or_contradiction_markers": [
+      "entities/L-1-2018.md",
+      "entities/L-171-2012.md",
+      "entities/L-181-2023.md"
+    ]
+  }
+}

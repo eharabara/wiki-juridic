@@ -1,0 +1,38 @@
+source            : raw/papers/moldova-legal/CC-1107-2002.md
+output            : _meta/anchoring-work/CC-1107-2002-dedup-sect.md
+sha256 pre        : 2aca75a9185d4771a7ab2e05d1ef3541b93d619413913c913de692a06a2425cc
+sha256 post       : 283119f82209000c42ed554fd26d4efbef1be87504eeaeb4ecdc8d2f680adab3
+body lines before : 14183
+body lines after  : 14182
+
+duplicate marker lines removed:
+   Cartea       0
+   Capitolul    0
+   paragraf     0
+   Sectiunea    1
+   Subsectiunea 0
+   TOTAL        1
+
+truncated anchors completed from the body line: 0
+
+anchors left alone (anchor is not a copy of the next line): 358
+   line 48     Cartea     anchor 'Cartea întîi'
+                          next   'DISPOZIŢII GENERALE'
+   line 53     Capitolul  anchor 'Capitolul I'
+                          next   'LEGISLAŢIA CIVILĂ'
+   line 97     Capitolul  anchor 'Capitolul II'
+                          next   'APARIŢIA DREPTURILOR ŞI OBLIGAŢIILOR CIVILE.'
+   line 192    Capitolul  anchor 'Capitolul I'
+                          next   ''
+   line 196    Sectiunea  anchor 'Secţiunea 1. Dispoziţii generale'
+                          next   'Secţiunea 1'
+   line 290    Sectiunea  anchor 'Secțiunea a 2-a. Respectul datorat ființei umane și drepturi'
+                          next   'Secțiunea a 2-a'
+   line 331    Sectiunea  anchor 'Secţiunea a 3-a. Tutela şi curatela minorilor'
+                          next   'Secţiunea a 3-a'
+   line 424    Sectiunea  anchor 'Secţiunea a 4-a. Măsurile de ocrotire contractuale și judici'
+                          next   'Secţiunea a 4-a'
+   line 427    Subsectiunea anchor 'Subsecţiunea 1. Dispoziţii comune'
+                          next   'Subsecţiunea 1'
+   line 492    Subsectiunea anchor 'Subsecţiunea a 2-a. Asistenţa la luarea deciziei'
+                          next   'Subsecţiunea a 2-a'

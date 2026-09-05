@@ -1,0 +1,14 @@
+source            : raw/papers/moldova-legal/L-100-2017.md
+output            : _meta/anchoring-work/L-100-2017.md
+sha256 convention : LF
+sha256 pre        : e01de254e5a3b27ba730def4768315351194ce29e232b19b7263e3ab907aedab
+sha256 post       : 14ebc19ab7de8fb1d12ee190704811e324b6dfb133cdc7e33f0caccbb0ab0a44
+anchors in file   : 78
+headings changed  : 2
+
+  line 261    ## Articolul 271. Activitatea de documentare
+       ->      ## Articolul 27^1. Activitatea de documentare
+       run of 1 between art. 27 and art. 28; base art. 27 present; high
+  line 657    ## Articolul 701. Rectificarea actului normativ
+       ->      ## Articolul 70^1. Rectificarea actului normativ
+       run of 1 between art. 70 and art. 71; base art. 70 present; high

@@ -1,0 +1,91 @@
+########## L-171-2012 ##########
+source            : raw/papers/cnpf/L-171-2012.md
+output            : _meta/anchoring-work/L-171-2012.md
+sha256 convention : LF
+sha256 pre        : 551a287b941463a94a7bfbb3b366a9216ff0cfe56fdf0bee98fc441692095d3f
+sha256 post       : 11266879b1f422788ebf07f7681b58cf63957ca269c035bc1780f17a4b78ad2f
+anchors in file   : 146
+headings changed  : 8
+
+  line 767    ## Articolul 401. Anularea, emiterea şi vînzarea participaţiilor deţinute cu
+       ->      ## Articolul 40^1. Anularea, emiterea şi vînzarea participaţiilor deţinute cu
+       run of 1 between art. 40 and art. 41; base art. 40 present; high
+  line 1324   ## Articolul 881. Dispoziții generale privind agențiile de rating de credit
+       ->      ## Articolul 88^1. Dispoziții generale privind agențiile de rating de credit
+       run of 4 between art. 79 and art. 89; base art. 88 ABSENT; high
+  line 1330   ## Articolul 882. Înregistrarea și supravegherea agențiilor de rating de credit
+       ->      ## Articolul 88^2. Înregistrarea și supravegherea agențiilor de rating de credit
+       run of 4 between art. 79 and art. 89; base art. 88 ABSENT; high
+  line 1363   ## Articolul 883. Cerințe generale privind activitatea agențiilor de rating
+       ->      ## Articolul 88^3. Cerințe generale privind activitatea agențiilor de rating
+       run of 4 between art. 79 and art. 89; base art. 88 ABSENT; high
+  line 1375   ## Articolul 884. Reglementarea activității agențiilor de rating de credit
+       ->      ## Articolul 88^4. Reglementarea activității agențiilor de rating de credit
+       run of 4 between art. 79 and art. 89; base art. 88 ABSENT; high
+  line 1920   ## Articolul 1311. Compensarea clienţilor administratorilor fiduciari
+       ->      ## Articolul 131^1. Compensarea clienţilor administratorilor fiduciari
+       run of 1 between art. 131 and art. 132; base art. 131 present; high
+  line 2091   ## Articolul 1411. Supravegherea prudenţială a societăţilor de investiţii
+       ->      ## Articolul 141^1. Supravegherea prudenţială a societăţilor de investiţii
+       run of 1 between art. 141 and art. 142; base art. 141 present; high
+  line 2185   ## Articolul 1461. Încetarea activităţii pe piaţa de capital a administratorilor
+       ->      ## Articolul 146^1. Încetarea activităţii pe piaţa de capital a administratorilor
+       run of 1 between art. 146 and art. 147; base art. 146 present; high
+--- verify ---
+1. non-heading lines : PASS - byte-identical
+2. heading integrity : PASS (headings 182 -> 182, changed 8)
+     401      -> 40^1      (digits preserved: yes)
+     881      -> 88^1      (digits preserved: yes)
+     882      -> 88^2      (digits preserved: yes)
+     883      -> 88^3      (digits preserved: yes)
+     884      -> 88^4      (digits preserved: yes)
+     1311     -> 131^1     (digits preserved: yes)
+     1411     -> 141^1     (digits preserved: yes)
+     1461     -> 146^1     (digits preserved: yes)
+3. strictly ascending: PASS
+   numbering gaps (0): []
+4. frontmatter sha256: PASS - reproduces the fixed body (convention LF)
+   sha256_pre_anchoring   present
+   superscript_articles   present
+
+OVERALL: PASS
+
+########## L-139-2007 ##########
+source            : raw/papers/cnpf/L-139-2007.md
+output            : _meta/anchoring-work/L-139-2007.md
+sha256 convention : LF
+sha256 pre        : 3d6d8d5da7b9508d4cc0efba6e51aaa56df620994e29a07bafdc89fc400dda7f
+sha256 post       : 78fa7b7d2f16cbf3b60ac18c3fcbdba55a3b6bcb555f0f7b49fe8e6904bed921
+anchors in file   : 59
+headings changed  : 1
+
+  line 644    ## Articolul 501. Administrarea specială
+       ->      ## Articolul 50^1. Administrarea specială
+       run of 1 between art. 50 and art. 51; base art. 50 present; high
+--- verify ---
+1. non-heading lines : PASS - byte-identical
+2. heading integrity : PASS (headings 74 -> 74, changed 1)
+     501      -> 50^1      (digits preserved: yes)
+3. strictly ascending: PASS
+   numbering gaps (0): []
+4. frontmatter sha256: PASS - reproduces the fixed body (convention LF)
+   sha256_pre_anchoring   present
+   superscript_articles   present
+
+OVERALL: PASS
+
+########## L-100-2017 ##########
+source            : raw/papers/moldova-legal/L-100-2017.md
+output            : _meta/anchoring-work/L-100-2017.md
+sha256 convention : LF
+sha256 pre        : e01de254e5a3b27ba730def4768315351194ce29e232b19b7263e3ab907aedab
+sha256 post       : 14ebc19ab7de8fb1d12ee190704811e324b6dfb133cdc7e33f0caccbb0ab0a44
+anchors in file   : 78
+headings changed  : 2
+
+  line 261    ## Articolul 271. Activitatea de documentare
+       ->      ## Articolul 27^1. Activitatea de documentare
+       run of 1 between art. 27 and art. 28; base art. 27 present; high
+  line 657    ## Articolul 701. Rectificarea actului normativ
+       ->      ## Articolul 70^1. Rectificarea actului normativ
+       run of 1 between art. 70 and art. 71; base art. 70 present; high

@@ -1,0 +1,90 @@
+scanned 378 files under raw/papers
+
+====================================================================================================
+A. DEFECT MATCH -- pre-2000 'Art.N. -' markers present, anchors missing
+====================================================================================================
+   raw/papers/cnpf/L-192-1998.md                        declared=0     Art.N.-=31   anchors=0    chars=44402
+
+====================================================================================================
+B. OTHER line-initial 'Art.N' forms (not the 'Art.N. -' pattern)
+====================================================================================================
+   raw/papers/bnm/legal/documents/088__HCE_111_13_02_2023_EN.doc.md declared=None  other Art.N=5    anchors=0   
+   raw/papers/bnm/legal/documents/056__EN_Regulamentul nr_158 din 2020 cu privire la cerintele de publicare.pdf.md declared=None  other Art.N=3    anchors=0   
+   raw/papers/bnm/legal/documents/127__curs oficial_EN-02_01_2026.doc.md declared=None  other Art.N=3    anchors=0   
+   raw/papers/bnm/legal/documents/171__Reg_ reg-lic_insurance 31-1-2023(EN).pdf.md declared=None  other Art.N=3    anchors=0   
+   raw/papers/bnm/legal/documents/007__Law on Banks Recovery and Resolution no 232, as of 03_10_2016.pdf.md declared=None  other Art.N=2    anchors=0   
+   raw/papers/bnm/legal/documents/083__HCE_112_13_02_2023_ENG.doc.md declared=None  other Art.N=2    anchors=0   
+   raw/papers/bnm/legal/documents/087__HCE_111_13_02_2023_EN.pdf.md declared=None  other Art.N=2    anchors=0   
+   raw/papers/bnm/legal/documents/105__3_Reg 51 autoriz oper val_eng web.doc.md declared=None  other Art.N=2    anchors=0   
+   raw/papers/bnm/legal/documents/133__r 8-2013 v engleză.pdf.md declared=None  other Art.N=2    anchors=0   
+   raw/papers/bnm/legal/documents/173__Insurance governance reg_241-24.pdf.md declared=None  other Art.N=2    anchors=0   
+   raw/papers/bnm/legal/documents/048__3_ Regulation - contributions to the Bank Resolution Fund (en) (1).pdf.md declared=None  other Art.N=1    anchors=0   
+   raw/papers/bnm/legal/documents/054__Financial conglomerates regulation.pdf.md declared=None  other Art.N=1    anchors=0   
+   raw/papers/bnm/legal/documents/057__EN_Regulamentul nr_158 din 2020 cu privire la cerintele de publicare.docx.md declared=None  other Art.N=1    anchors=0   
+   raw/papers/bnm/legal/documents/082__HCE_112_13_02_2023_ENG.pdf.md declared=None  other Art.N=1    anchors=0   
+   raw/papers/bnm/legal/documents/095__annexes_23.pdf.md declared=None  other Art.N=1    anchors=0   
+   raw/papers/bnm/legal/documents/104__3_Reg 51 autoriz oper val_eng web.pdf.md declared=None  other Art.N=1    anchors=0   
+   raw/papers/bnm/legal/documents/122__Norme evaluare activ_HCE 112_eng.pdf.md declared=None  other Art.N=1    anchors=0   
+   raw/papers/bnm/legal/documents/134__r 8-2013 v engleză.doc.md declared=None  other Art.N=1    anchors=0   
+   raw/papers/bnm/legal/documents/165__Regulation on SFCR no_124 of 28_05_2025 (engl) (1).pdf.md declared=None  other Art.N=1    anchors=0   
+   raw/papers/bnm/legal/documents/175__ORSA_insurance reg_243-2024.pdf.md declared=None  other Art.N=1    anchors=0   
+   raw/papers/bnm/reports/documents/216__ra2013en.pdf.md declared=None  other Art.N=1    anchors=0   
+   raw/papers/bnm/reports/documents/217__ra2012en.pdf.md declared=None  other Art.N=1    anchors=0   
+   raw/papers/bnm/reports/documents/222__ra2007en.pdf.md declared=None  other Art.N=1    anchors=0   
+   raw/papers/bnm/reports/documents/228__ra2001_en.pdf.md declared=None  other Art.N=1    anchors=0   
+
+====================================================================================================
+C. DECLARED ZERO or NONE, with substantial text
+====================================================================================================
+   raw/papers/bnm/reports/documents/205__Annual_Report_2024.pdf.md declared=None  chars=860580   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/moldova-policy/HG-260-2025-agenda-reforme-plan-crestere-2025-2027.md declared=None  chars=855675   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/206__Annual_Report_2023.pdf.md declared=None  chars=746839   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/207__Annual Report_2022_en.pdf.md declared=None  chars=616293   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/208__Annual_Report_2021.pdf.md declared=None  chars=547726   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/209__Annual_Report_2020_1.pdf.md declared=None  chars=518306   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/moldova-policy/HG-829-2023-pna-aderare-ue-2024-2027.md declared=None  chars=499042   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/210__Annual_Report_2019_1.pdf.md declared=None  chars=495503   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/212__RA_2017_en.pdf.md declared=None  chars=480590   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/213__RA_2016_EN_1.pdf.md declared=None  chars=474095   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/211__Annual_Report_2018.pdf.md declared=None  chars=465684   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/mded-policy-2024/european-commission-moldova-report-2023.md declared=None  chars=458438   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/214__RA_2015_eng.pdf.md declared=None  chars=455177   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/216__ra2013en.pdf.md declared=None  chars=443314   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/215__RA_main_eng.pdf.md declared=None  chars=437504   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/217__ra2012en.pdf.md declared=None  chars=401168   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/legal/documents/032__Law No_92-22_Insurance_ENG_ (1).pdf.md declared=None  chars=385322   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/221__ra2008en.pdf.md declared=None  chars=379743   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/legal/documents/168__Decision of the NBM on the approval of the Regulation on own funds No 328_2024 (ENG).docx.md declared=None  chars=370394   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/legal/documents/004__EN_Law on the activity of banks no_202_2017.doc.md declared=None  chars=368804   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/218__ra2011en.pdf.md declared=None  chars=356938   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/legal/documents/066__Reg_322_EN_02_03_2026.pdf.md declared=None  chars=355916   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/legal/documents/033__Law No_92-22_Insurance_ENG_ (1).docx.md declared=None  chars=351208   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/legal/documents/067__Reg_322_EN_02_03_2026.docx.md declared=None  chars=349747   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/222__ra2007en.pdf.md declared=None  chars=348176   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/mded-policy-2024/world-bank-country-partnership-framework-2023-2027.md declared=None  chars=344831   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/225__ra2004en.pdf.md declared=None  chars=343415   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/229__ra2000_en.pdf.md declared=None  chars=342490   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/legal/documents/003__EN_Law on the activity of banks no_202_2017.pdf.md declared=None  chars=341938   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/224__ra2005en.pdf.md declared=None  chars=333711   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/223__ra2006en.pdf.md declared=None  chars=326560   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/legal/documents/007__Law on Banks Recovery and Resolution no 232, as of 03_10_2016.pdf.md declared=None  chars=315115   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/219__ra2010en.pdf.md declared=None  chars=313501   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/legal/documents/008__Law on Banks Recovery and Resolution no 232, as of 03_10_2016.docx.md declared=None  chars=309586   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/299__Financial Stability Report 2024.pdf.md declared=None  chars=306272   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/220__ra2009en.pdf.md declared=None  chars=294602   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/reports/documents/226__ra2003_en.pdf.md declared=None  chars=289334   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/legal/documents/018__Law on Payment Services and Electronic Money, no_114-2012_1.pdf.md declared=None  chars=274397   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/legal/documents/094__Reg EN_WEB.doc.md declared=None  chars=273765   Art.N.-=0    Articolul=0    anchors=0   
+   raw/papers/bnm/legal/documents/019__Law on Payment Services and Electronic Money, no_114-2012_1.doc.md declared=None  chars=271870   Art.N.-=0    Articolul=0    anchors=0   
+
+====================================================================================================
+E. ROMAN-NUMERAL article forms ('Art. I. -') -- amending laws
+====================================================================================================
+   raw/papers/cnpf/L-178-2020.md                        declared=0     Art.<Roman>=8    anchors=0     I, II, III, IV, V, VI, VII, VIII
+   raw/papers/cnpf/L-177-2025.md                        declared=0     Art.<Roman>=4    anchors=0     I, II, III, IV
+   raw/papers/bnm/legal/documents/022__L 363 2022 ro.pdf.md declared=None  Art.<Roman>=3    anchors=0     I, II, III
+
+====================================================================================================
+D. ANCHOR COVERAGE GAP -- 'Articolul N.' markers present, fewer anchors
+====================================================================================================
+   raw/papers/bnm/legal/documents/022__L 363 2022 ro.pdf.md Articolul=1     anchors=0     gap=1

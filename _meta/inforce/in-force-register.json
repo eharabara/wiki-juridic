@@ -1,0 +1,896 @@
+{
+  "generated": "2026-09-05T10:24:21",
+  "as_of": "2026-09-05",
+  "files_scanned": 399,
+  "provisions_not_yet_in_force": [
+    {
+      "file": "raw/papers/moldova-legal/COD-218-2008.md",
+      "instrument": "COD-218-2008",
+      "article": "313^2",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "reformulare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art.313^2 al.(1) în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        296,
+        297,
+        298,
+        5172,
+        5175,
+        5178
+      ],
+      "occurrences": 6
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-218-2008.md",
+      "instrument": "COD-218-2008",
+      "article": "313^4",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "reformulare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art.313^4 în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        299,
+        5192
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-218-2008.md",
+      "instrument": "COD-218-2008",
+      "article": "313^5",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "reformulare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art.313^5 în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        300,
+        5201
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-218-2008.md",
+      "instrument": "COD-218-2008",
+      "article": "313^6",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "reformulare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art.313^6 în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        301,
+        5213
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-218-2008.md",
+      "instrument": "COD-218-2008",
+      "article": "330^2",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "reformulare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art.330^2 în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        302,
+        5478
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "6",
+      "subunit": "pct.8^1",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "introducere",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.6 pct.8^1) introdus prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        147,
+        491
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "74",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.74 al.(1), pct.5) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        148,
+        1507
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "138^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.138^1 al.(2) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        149,
+        2378
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "138^3",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.138^3 al.(2) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        150,
+        2399
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "138^4",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.138^4 al.(4) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        151,
+        2416
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "138^5",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.138^5 al.(3) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        152,
+        2423
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "177",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "introducere",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.177 al.(2^1) introdus prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        153,
+        154,
+        155,
+        2887,
+        2896,
+        2901
+      ],
+      "occurrences": 6
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "178",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.178 al.(1) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        156,
+        2907
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "179",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.179 al.(3) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        157,
+        2918
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "180",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.180 al.(2) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        158,
+        2924
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "191",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.191 al.(1) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        159,
+        160,
+        3067,
+        3079
+      ],
+      "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "192^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.192^1 al.(1) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        161,
+        3097
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "205",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "introducere",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.205 al.(6) introdus prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        162,
+        3245
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "241^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "introducere",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.241^1 introdus prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        163,
+        3663
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "287^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.287^1 al.(2) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        164,
+        4181
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "288",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.288 al.(2) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        165,
+        4199
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "308",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.308 al.(7) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        166,
+        167,
+        4410,
+        4426
+      ],
+      "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "310",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.310 al.(4) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        168,
+        4441
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "321",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.321 al.(5) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        169,
+        4556
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "385",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "introducere",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.385 al.(1), pct.17) introdus prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        170,
+        5063
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "389",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "introducere",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.389 al.(5^1) introdus prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        171,
+        5098
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "instrument": "COD-122-2003",
+      "article": "471",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "introducere",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.471 al.(7^1) introdus prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        172,
+        5762
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-443-2004.md",
+      "instrument": "COD-443-2004",
+      "article": "174^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "introducere",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.174^1 introdus prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        78,
+        1865
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-443-2004.md",
+      "instrument": "COD-443-2004",
+      "article": "196",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.196 al.(5) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        79,
+        2063
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-443-2004.md",
+      "instrument": "COD-443-2004",
+      "article": "204",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.204 al.(8) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        80,
+        2142
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-443-2004.md",
+      "instrument": "COD-443-2004",
+      "article": "263",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.263 al.(2) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        81,
+        2797
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-443-2004.md",
+      "instrument": "COD-443-2004",
+      "article": "269",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.269 al.(2) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        82,
+        2844
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-443-2004.md",
+      "instrument": "COD-443-2004",
+      "article": "271",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.271 al.(4) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        83,
+        2855
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-443-2004.md",
+      "instrument": "COD-443-2004",
+      "article": "290",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "reformulare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.290 al.(2) în redacția LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        84,
+        3030
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-443-2004.md",
+      "instrument": "COD-443-2004",
+      "article": "296",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.296 al.(3) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        85,
+        3109
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-443-2004.md",
+      "instrument": "COD-443-2004",
+      "article": "301",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.301 al.(1) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        86,
+        87,
+        88,
+        3129,
+        3132,
+        3134
+      ],
+      "occurrences": 6
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-443-2004.md",
+      "instrument": "COD-443-2004",
+      "article": "312",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.312 al.(2) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        89,
+        3241
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-985-2002.md",
+      "instrument": "COD-985-2002",
+      "article": "72",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.72 al.(2) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        217,
+        218,
+        885,
+        887
+      ],
+      "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-985-2002.md",
+      "instrument": "COD-985-2002",
+      "article": "317",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.317 denumirea modificată prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        219,
+        220,
+        221,
+        222,
+        4792,
+        4795,
+        4802,
+        4804
+      ],
+      "occurrences": 8
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-985-2002.md",
+      "instrument": "COD-985-2002",
+      "article": "319",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-02",
+      "operation": "modificare",
+      "amending_act": "LP172 din 30.07.26",
+      "official_gazette": "MO410-412/02.09.26",
+      "context": "[Art.319 denumirea modificată prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
+      "lines": [
+        223,
+        224,
+        4815,
+        4817
+      ],
+      "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/COD-154-2003.md",
+      "instrument": "COD-154-2003",
+      "article": "46",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art.46 al.(4^1) introdus prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 01.01.27]",
+      "lines": [
+        91,
+        796
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-845-1992.md",
+      "instrument": "L-845-1992",
+      "article": "36^1",
+      "subunit": "pct.4, lit.l)",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP171 din 30.07.26",
+      "official_gazette": "MO386-389/21.08.26 art.412",
+      "context": "[Art.36^1 pct.4, lit.l) introdusă prin LP171 din 30.07.26, MO386-389/21.08.26 art.412; în vigoare 01.01.27]",
+      "lines": [
+        51,
+        588
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/cnpf/L-171-2012.md",
+      "instrument": "L-171-2012",
+      "article": "38",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-06-01",
+      "operation": "abrogare",
+      "amending_act": "LP162 din 30.07.26",
+      "official_gazette": "MO390-393/25.08.26 art.416",
+      "context": "[Art.38 abrogat prin LP162 din 30.07.26, MO390-393/25.08.26 art.416; în vigoare 01.06.27]",
+      "lines": [
+        63,
+        955
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/cnpf/L-171-2012.md",
+      "instrument": "L-171-2012",
+      "article": "141^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-06-01",
+      "operation": "abrogare",
+      "amending_act": "LP162 din 30.07.26",
+      "official_gazette": "MO390-393/25.08.26 art.416",
+      "context": "[Art.141^1 abrogat prin LP162 din 30.07.26, MO390-393/25.08.26 art.416; în vigoare 01.06.27]",
+      "lines": [
+        64,
+        2486
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/cnpf/L-1134-1997.md",
+      "instrument": "L-1134-1997",
+      "article": "73^3",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2028-01-01",
+      "operation": "introducere",
+      "amending_act": "LP92 din 28.05.26",
+      "official_gazette": "MO238-241/11.06.26 art.242",
+      "context": "[Art. 73^3 introdus prin LP92 din 28.05.26, MO238-241/11.06.26 art.242; în vigoare 01.01.28]",
+      "lines": [
+        55,
+        63,
+        1454
+      ],
+      "occurrences": 3
+    },
+    {
+      "file": "raw/papers/cnpf/L-1134-1997.md",
+      "instrument": "L-1134-1997",
+      "article": "73^4",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2028-01-01",
+      "operation": "introducere",
+      "amending_act": "LP92 din 28.05.26",
+      "official_gazette": "MO238-241/11.06.26 art.242",
+      "context": "[Art. 73^4 introdus prin LP92 din 28.05.26, MO238-241/11.06.26 art.242; în vigoare 01.01.28]",
+      "lines": [
+        56,
+        64,
+        1464
+      ],
+      "occurrences": 3
+    }
+  ],
+  "acts_with_future_consolidation": [
+    {
+      "instrument": "COD-122-2003",
+      "file": "raw/papers/moldova-legal/COD-122-2003.md",
+      "consolidation_date": "2026-12-02",
+      "doc_id": "156138",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
+      "instrument": "COD-154-2003",
+      "file": "raw/papers/moldova-legal/COD-154-2003.md",
+      "consolidation_date": "2027-01-01",
+      "doc_id": "155882",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
+      "instrument": "COD-218-2008",
+      "file": "raw/papers/moldova-legal/COD-218-2008.md",
+      "consolidation_date": "2026-09-13",
+      "doc_id": "155852",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
+      "instrument": "COD-443-2004",
+      "file": "raw/papers/moldova-legal/COD-443-2004.md",
+      "consolidation_date": "2026-12-02",
+      "doc_id": "156146",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
+      "instrument": "COD-985-2002",
+      "file": "raw/papers/moldova-legal/COD-985-2002.md",
+      "consolidation_date": "2026-12-02",
+      "doc_id": "156133",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
+      "instrument": "L-1134-1997",
+      "file": "raw/papers/cnpf/L-1134-1997.md",
+      "consolidation_date": "2028-01-01",
+      "doc_id": "154811",
+      "previous_consolidation_date": "2022-01-10",
+      "previous_archive": "_archive/raw/cnpf-legis-md-before-refresh-20260904-183240/L-1134-1997.md",
+      "flagged_in_frontmatter": true
+    },
+    {
+      "instrument": "L-171-2012",
+      "file": "raw/papers/cnpf/L-171-2012.md",
+      "consolidation_date": "2027-06-01",
+      "doc_id": "156016",
+      "previous_consolidation_date": "2021-01-01",
+      "previous_archive": "_archive/raw/cnpf-legis-md-before-refresh-20260904-162713/L-171-2012.md",
+      "flagged_in_frontmatter": true
+    },
+    {
+      "instrument": "L-845-1992",
+      "file": "raw/papers/moldova-legal/L-845-1992.md",
+      "consolidation_date": "2027-01-01",
+      "doc_id": "155963",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    }
+  ],
+  "counts": {
+    "provisions": 46,
+    "acts": 8,
+    "future_consolidations": 8
+  }
+}

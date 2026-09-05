@@ -1,0 +1,11 @@
+source            : raw/papers/cnpf/L-192-1998.md
+output            : _meta/anchoring-work/L-192-1998.md
+sha256 convention : LF
+sha256 pre        : bd0983cbfebda20906afc9705a6d7bb86df659c9ce8190c51cfa2ce14e226eeb
+sha256 post       : 6d565e61d4d3532811aca093d76c0bc5f8a759c886c853d57b9314613a5e8c79
+anchors inserted  : 31
+arabic numbers    : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 131, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+numbering gaps    : [(20, 22)]
+
+flattened superscript candidates:
+   art. 131    -> 13^1     (follows 13, next 14, outside-range+resumes => high confidence)

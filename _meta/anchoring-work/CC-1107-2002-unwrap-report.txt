@@ -1,0 +1,10 @@
+source              : raw/papers/moldova-legal/CC-1107-2002.md
+output              : _meta/anchoring-work/CC-1107-2002-unwrapped.md
+sha256 pre-unwrap   : 66a1ec6946fc6bd4410438fdd305f5fd3a820eda1a547fa07f32c5fd7b0cfb91
+sha256 post         : edaf71faa4a8fa57af1ce4374b17ab47415b15da591513d455d1961ee85e4fbc
+body lines before   : 34823
+body lines after    : 17009
+line breaks removed : 17062
+blank lines absorbed: 752
+article titles closed by their anchor: 2656
+lines over 4000 chars: 0 []

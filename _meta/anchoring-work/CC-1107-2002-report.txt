@@ -1,0 +1,27 @@
+source            : raw/papers/moldova-legal/CC-1107-2002.md
+output            : _meta/anchoring-work/CC-1107-2002.md
+sha256 convention : raw
+sha256 pre        : de211a1a0fb0a9482edca2c94a441145b40ae0487318dc613e428fde396c9bcc
+sha256 post       : 66a1ec6946fc6bd4410438fdd305f5fd3a820eda1a547fa07f32c5fd7b0cfb91
+
+headings inserted:
+   cartea         5
+   titlul         22
+   capitolul      109
+   sectiunea      172
+   subsectiunea   17
+   paragraf       56
+   articles       2657
+   TOTAL          3038
+
+hand-corrected headings: 1
+   line   9428 Articolul 723. Dispoziții generale cu privire la drepturile și obligațiile părților la contractul de gaj
+
+headings longer than 150 chars: 7
+   line    460 (182 chars) ## Articolul 33. Ineficienţa actului juridic la care este parte un minor sau o persoană supusă unei măsuri de ocrotire judiciare, încheiat fără încuviințarea ori autorizarea necesară
+   line   4312 (159 chars) ## Articolul 305. Modalitatea de participare a Republicii Moldova şi a unităţilor ei administrativ-teritoriale la raporturile reglementate de legislaţia civilă
+   line  12870 (165 chars) ## Articolul 1014. Cerințe în materie de informare în cazul contractelor, altele decît contractile la distanță și contractele negociate în afara spațiilor comerciale
+   line  24652 (159 chars) ## Articolul 2007. Răspunderea statului pentru prejudiciul cauzat prin acţiunile organelor de urmărire penală, ale procuraturii sau ale instanţelor de judecată
+   line  24814 (163 chars) ## Articolul 2019. Prejudiciul suferit prin tulburarea ilegală a activității profesionistului și prejudiciul suferit de consumator ca urmare a concurenței neloiale
+   line  25044 (171 chars) ## Articolul 2035. Schimbarea cuantumului despăgubirilor pentru prejudiciul cauzat prin vătămare a integrităţii corporale sau prin altă vătămare a sănătăţii sau prin deces
+   line  29317 (159 chars) ## Articolul 2481. Obligația persoanelor care au locuit cu cel care a lăsat moștenirea de a oferi informații. Confirmarea prin declarație pe proprie răspundere

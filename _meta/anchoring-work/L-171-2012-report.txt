@@ -1,0 +1,32 @@
+source            : raw/papers/cnpf/L-171-2012.md
+output            : _meta/anchoring-work/L-171-2012.md
+sha256 convention : LF
+sha256 pre        : 551a287b941463a94a7bfbb3b366a9216ff0cfe56fdf0bee98fc441692095d3f
+sha256 post       : 11266879b1f422788ebf07f7681b58cf63957ca269c035bc1780f17a4b78ad2f
+anchors in file   : 146
+headings changed  : 8
+
+  line 767    ## Articolul 401. Anularea, emiterea şi vînzarea participaţiilor deţinute cu
+       ->      ## Articolul 40^1. Anularea, emiterea şi vînzarea participaţiilor deţinute cu
+       run of 1 between art. 40 and art. 41; base art. 40 present; high
+  line 1324   ## Articolul 881. Dispoziții generale privind agențiile de rating de credit
+       ->      ## Articolul 88^1. Dispoziții generale privind agențiile de rating de credit
+       run of 4 between art. 79 and art. 89; base art. 88 ABSENT; high
+  line 1330   ## Articolul 882. Înregistrarea și supravegherea agențiilor de rating de credit
+       ->      ## Articolul 88^2. Înregistrarea și supravegherea agențiilor de rating de credit
+       run of 4 between art. 79 and art. 89; base art. 88 ABSENT; high
+  line 1363   ## Articolul 883. Cerințe generale privind activitatea agențiilor de rating
+       ->      ## Articolul 88^3. Cerințe generale privind activitatea agențiilor de rating
+       run of 4 between art. 79 and art. 89; base art. 88 ABSENT; high
+  line 1375   ## Articolul 884. Reglementarea activității agențiilor de rating de credit
+       ->      ## Articolul 88^4. Reglementarea activității agențiilor de rating de credit
+       run of 4 between art. 79 and art. 89; base art. 88 ABSENT; high
+  line 1920   ## Articolul 1311. Compensarea clienţilor administratorilor fiduciari
+       ->      ## Articolul 131^1. Compensarea clienţilor administratorilor fiduciari
+       run of 1 between art. 131 and art. 132; base art. 131 present; high
+  line 2091   ## Articolul 1411. Supravegherea prudenţială a societăţilor de investiţii
+       ->      ## Articolul 141^1. Supravegherea prudenţială a societăţilor de investiţii
+       run of 1 between art. 141 and art. 142; base art. 141 present; high
+  line 2185   ## Articolul 1461. Încetarea activităţii pe piaţa de capital a administratorilor
+       ->      ## Articolul 146^1. Încetarea activităţii pe piaţa de capital a administratorilor
+       run of 1 between art. 146 and art. 147; base art. 146 present; high

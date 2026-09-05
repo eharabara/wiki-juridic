@@ -1,0 +1,71 @@
+--- raw/papers/cnpf/L-178-2020.md	2026-07-09 15:33:42.533883900 +0300
++++ _meta/anchoring-work/L-178-2020.md	2026-09-04 15:12:45.570119900 +0300
+@@ -2,7 +2,7 @@
+ source_url: https://www.legis.md/cautare/getResults?doc_id=123148&lang=ro
+ showdetails_url: https://www.legis.md/cautare/showdetails/123148
+ ingested: '2026-07-09'
+-sha256: 254f257d2c57f9db73ee6ca7250c7947ee71c410166d2b78751d50160d623b2c
++sha256_pre_anchoring: 254f257d2c57f9db73ee6ca7250c7947ee71c410166d2b78751d50160d623b2c
+ source_type: legal-text
+ publisher: legis.md / Ministerul Justiției al Republicii Moldova
+ language: ro
+@@ -14,6 +14,18 @@
+ latest_modification_line: 'Publicat : 18-09-2020'
+ full_text: true
+ extract_method: curl showdetails + lxml text extraction
++sha256: 36ae62dec7a60825382d089f5da0f4c75af69c4fe7ba40e69b6d9b870359f231
++sha256_convention: LF
++articole detectate: 8
++anchoring_date: '2026-09-04'
++anchor_convention: >-
++  Source form 'Art. <Roman>. -' (an amending act numbering its own articles) anchored by
++  INSERTING '## Articolul N.' above the provision line; the original
++  'Art.' token and the whole body line are unchanged. These acts carry
++  no article titles -- the provision runs straight on from the dash --
++  so the anchor is the number alone. Roman numerals are kept as drafted.
++  Strip every line matching '^## Articolul ' to recover the
++  pre-anchoring body byte-for-byte.
+ ---
+ 
+ # raw/L-178-2020 — text legis.md consolidat/curent
+@@ -51,8 +63,10 @@
+ Publicat : 18-09-2020
+ în Monitorul Oficial Nr. 235-239 art. 522
+ Parlamentul adoptă prezenta lege organică.
++## Articolul I.
+ Art. I. – La articolul 5 din Legea nr. 548/1995 cu privire la Banca Națională a Moldovei (republicată în Monitorul Oficial al Republicii Moldova, 2015, nr. 297–300, art. 544), cu modificările ulterioare, alineatul (1) se completează cu litera p) cu următorul cuprins:
+ „p) licențiază/autorizează/emite avizul pentru înregistrarea de stat, reglementează și supraveghează activitatea asigurătorilor, reasigurătorilor și a intermediarilor în asigurări și/sau în reasigurări, a Biroului Național al Asigurătorilor de Autovehicule din Republica Moldova, a asociațiilor de economii și împrumut, a birourilor istoriilor de credit și a organizațiilor de creditare nebancară.”
++## Articolul II.
+ Art. II. – Legea nr. 192/1998 privind Comisia Națională a Pieței Financiare (republicată în Monitorul Oficial al Republicii Moldova, 2007, nr. 117–126BIS), cu modificările ulterioare, se modifică după cum urmează:
+ 1. Articolul 3 se completează cu următorul enunț: „În sensul prezentei legi, piața financiară nebancară cuprinde entitățile din domeniul de supraveghere al Comisiei Naționale.”
+ 2. La articolul 4, alineatele (1) și (2) vor avea următorul cuprins:
+@@ -66,23 +80,29 @@
+ la litera q), cuvintele „și pentru înregistrarea asigurătorului și reasigurătorului” se exclud;
+ literele r) și s) se abrogă.
+ 5. La articolul 9 alineatul (1), litera p) se abrogă.
++## Articolul III.
+ Art. III. – Legea nr. 407/2006 cu privire la asigurări (Monitorul Oficial al Republicii Moldova, 2007, nr. 47–49, art. 213), cu modificările ulterioare, se modifică după cum urmează:
+ 1. La articolul 1, noțiunea „autoritate de supraveghere” va avea următorul cuprins:
+ „autoritate de supraveghere – Banca Națională a Moldovei;”.
+ 2. La articolul 29 alineatul (623), textul „prin derogare de la prevederile art. 27 alin. (3) lit. d) și alin. (4) lit. b) din Legea nr. 192/1998 privind Comisia Națională a Pieței Financiare,” se exclude.
++## Articolul IV.
+ Art. IV. – La articolul 2 din Legea nr. 414/2006 cu privire la asigurarea obligatorie de răspundere civilă pentru pagube produse de autovehicule (republicată în Monitorul Oficial al Republicii Moldova, 2016, nr. 44–48, art. 85), cu modificările ulterioare, noțiunea „autoritate de supraveghere” va avea următorul cuprins:
+ „autoritate de supraveghere – Banca Națională a Moldovei;”.
++## Articolul V.
+ Art. V. – La articolul 3 din Legea asociațiilor de economii și împrumut nr. 139/2007 (Monitorul Oficial al Republicii Moldova, 2007, nr. 112–116, art. 506), cu modificările ulterioare, noțiunea „autoritate de supraveghere” va avea următorul cuprins:
+ „autoritate de supraveghere – Banca Națională a Moldovei;”.
++## Articolul VI.
+ Art. VI. – Legea nr. 122/2008 privind birourile istoriilor de credit (republicată în Monitorul Oficial al Republicii Moldova, 2017, nr. 316–321, art. 546), cu modificările ulterioare, se modifică după cum urmează:
+ 1. La articolul 2, noțiunea „autoritate publică competentă” va avea următorul cuprins:
+ „autoritate publică competentă – Banca Națională a Moldovei;”.
+ 2. La articolul 18 alineatul (1), textul „Legea nr. 192-XIV din 12 noiembrie 1998 privind Comisia Națională a Pieței Financiare” se substituie cu textul „Legea nr. 548/1995 cu privire la Banca Națională a Moldovei”.
++## Articolul VII.
+ Art. VII. – Legea nr. 1/2018 cu privire la organizațiile de creditare nebancară (Monitorul Oficial al Republicii Moldova, 2018, nr. 108–112, art. 200), cu modificările ulterioare, se modifică după cum urmează:
+ 1. La articolul 3, noțiunea „autoritate de supraveghere” va avea următorul cuprins:
+ „autoritate de supraveghere – Banca Națională a Moldovei;”.
+ 2. La articolul 6 alineatul (2), textul „Legea nr. 192/1998 privind Comisia Națională a Pieței Financiare” se substituie cu textul „Legea nr. 548/1995 cu privire la Banca Națională a Moldovei”.
+ 3. La articolul 7 alineatul (3), litera i) se abrogă.
++## Articolul VIII.
+ Art. VIII. – (1) Prezenta lege intră în vigoare la data de 1 iulie 2023.
+ (2) În termen de 30 de luni de la data publicării prezentei legi în Monitorul Oficial al Republicii Moldova:
+ a) Guvernul, în comun cu Banca Națională a Moldovei și Comisia Națională a Pieței Financiare, va prezenta Parlamentului propuneri privind aducerea legislației în concordanță cu prezenta lege;

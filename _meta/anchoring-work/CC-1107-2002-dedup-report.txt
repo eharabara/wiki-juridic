@@ -1,0 +1,11 @@
+source            : raw/papers/moldova-legal/CC-1107-2002.md
+output            : _meta/anchoring-work/CC-1107-2002-dedup.md
+sha256 pre-dedup  : edaf71faa4a8fa57af1ce4374b17ab47415b15da591513d455d1961ee85e4fbc
+sha256 post       : fa97b7cec3cf7ac83188d8b33e032982dd520c497f19b91dedbdcd033edb560b
+body lines before : 17009
+body lines after  : 14353
+duplicate title lines removed: 2656
+
+anchors whose next line was NOT an exact duplicate (kept): 1
+   line 4955   anchor : Articolul 723. Dispoziții generale cu privire la drepturile și obligațiile părților la contr
+               body   : Articolul 723. Dispoziții generale cu privire la drepturile și obligațiile părților la contr

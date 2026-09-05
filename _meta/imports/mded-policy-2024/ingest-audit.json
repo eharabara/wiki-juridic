@@ -1,0 +1,16 @@
+{
+  "audited": "2026-07-12",
+  "scope": {
+    "active_pages_total": 62,
+    "new_raw_sources": 12,
+    "new_active_pages": 11,
+    "updated_active_pages": [
+      "entities/HG-260-2025.md"
+    ]
+  },
+  "frontmatter_and_tag_issues": [],
+  "broken_wikilinks": [],
+  "missing_index_entries": [],
+  "raw_integrity_issues": [],
+  "status": "pass"
+}

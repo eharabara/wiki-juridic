@@ -1,0 +1,72 @@
+========================================================================================================
+Art. 2 — title wrapped across two lines
+========================================================================================================
+--- BEFORE (pre-anchoring source) ---
+  |Articolul 2. Raporturile reglementate de legislaţia
+  |civilă
+  |(1) Legislaţia civilă determină statutul juridic al participanţilor la circuitul civil,
+  |temeiurile apariţiei dreptului de proprietate şi modul de exercitare a acestuia,
+  |reglementează obligaţiile contractuale şi de altă natură, alte raporturi patrimoniale şi
+  |personale nepatrimoniale dintre subiectele raporturilor juridice civile.
+  |(2) Raporturile familiale, locative, raporturile de muncă, de exploatare a resurselor
+  |naturale şi de protecţie a mediului înconjurător, ce corespund prevederilor alin.(1), sînt
+--- AFTER (anchored + unwrapped) ---
+  |## Articolul 2. Raporturile reglementate de legislaţia civilă
+  |Articolul 2. Raporturile reglementate de legislaţia civilă
+  |(1) Legislaţia civilă determină statutul juridic al participanţilor la circuitul civil, temeiurile a …[330 chars]
+  |(2) Raporturile familiale, locative, raporturile de muncă, de exploatare a resurselor naturale şi de …[223 chars]
+
+========================================================================================================
+Art. 23 — title must not swallow the provision
+========================================================================================================
+--- BEFORE (pre-anchoring source) ---
+  |Articolul 23. Noţiunea de persoană fizică
+  |Persoană fizică este omul, privit individual, ca titular de drepturi şi de obligaţii civile.
+  |Articolul 24. Capacitatea de folosinţă a persoanei fizice
+  |(1) Capacitatea de a avea drepturi şi obligaţii civile (capacitatea de folosinţă) se
+  |recunoaşte în egală măsură tuturor persoanelor fizice.
+  |(2) Capacitatea de folosinţă a persoanei fizice apare în momentul naşterii şi încetează
+  |o dată cu moartea.
+  |(3) Dreptul la moştenire a persoanei fizice apare la concepţiune dacă se naşte vie.
+--- AFTER (anchored + unwrapped) ---
+  |## Articolul 23. Noţiunea de persoană fizică
+  |Articolul 23. Noţiunea de persoană fizică
+  |Persoană fizică este omul, privit individual, ca titular de drepturi şi de obligaţii civile.
+  |## Articolul 24. Capacitatea de folosinţă a persoanei fizice
+
+========================================================================================================
+Art. 57 — two-sentence title
+========================================================================================================
+--- BEFORE (pre-anchoring source) ---
+  |Articolul 57. Tutorele supleant și curatorul supleant.
+  |Tutorele special şi curatorul special
+  |(1) În condiţiile prevăzute la art. 112, consiliul de familie al minorului sau, în absenţa
+  |
+  |
+  |acestuia, autoritatea tutelară poate desemna minorului un tutore supleant sau, după caz, un
+  |curator supleant.
+  |(2) În condiţiile prevăzute la art. 113, consiliul de familie al minorului sau, în absenţa
+--- AFTER (anchored + unwrapped) ---
+  |## Articolul 57. Tutorele supleant și curatorul supleant. Tutorele special şi curatorul special
+  |Articolul 57. Tutorele supleant și curatorul supleant. Tutorele special şi curatorul special
+  |(1) În condiţiile prevăzute la art. 112, consiliul de familie al minorului sau, în absenţa acestuia, …[200 chars]
+  |(2) În condiţiile prevăzute la art. 113, consiliul de familie al minorului sau, în absenţa acestuia, …[198 chars]
+
+========================================================================================================
+Art. 305 — title wrapped across five lines
+========================================================================================================
+--- BEFORE (pre-anchoring source) ---
+  |Articolul 305. Modalitatea de participare a
+  |Republicii Moldova şi a unităţilor
+  |ei administrativ-teritoriale la
+  |raporturile reglementate de legislaţia
+  |civilă
+  |(1) Autorităţile administraţiei publice centrale pot să dobîndească şi să exercite
+  |drepturi şi obligaţii patrimoniale şi personale nepatrimoniale în numele Republicii Moldova,
+  |precum şi să o reprezinte în instanţă de judecată, în limitele competenţei.
+--- AFTER (anchored + unwrapped) ---
+  |## Articolul 305. Modalitatea de participare a Republicii Moldova şi a unităţilor ei administrativ-t …[159 chars]
+  |Articolul 305. Modalitatea de participare a Republicii Moldova şi a unităţilor ei administrativ-teri …[156 chars]
+  |(1) Autorităţile administraţiei publice centrale pot să dobîndească şi să exercite drepturi şi oblig …[251 chars]
+  |(2) Autorităţile administraţiei publice locale pot să dobîndească şi să exercite drepturi şi obligaţ …[216 chars]
+

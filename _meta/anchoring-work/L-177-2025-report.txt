@@ -1,0 +1,10 @@
+source            : raw/papers/cnpf/L-177-2025.md
+output            : _meta/anchoring-work/L-177-2025.md
+sha256 convention : LF
+sha256 pre        : 5e0cb25ec1f780db6bda0f10cc42cb23763ff8b0cb9cd554de3cab772bcbeffa
+sha256 post       : 2782288ec267d1354e784125a47ce0ff0a35a22a6c4e502ddffb1accc6337edd
+anchors inserted  : 4
+roman numbers     : I, II, III, IV
+
+flattened superscript candidates:
+   none

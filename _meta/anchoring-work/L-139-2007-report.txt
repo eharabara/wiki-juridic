@@ -1,0 +1,11 @@
+source            : raw/papers/cnpf/L-139-2007.md
+output            : _meta/anchoring-work/L-139-2007.md
+sha256 convention : LF
+sha256 pre        : 3d6d8d5da7b9508d4cc0efba6e51aaa56df620994e29a07bafdc89fc400dda7f
+sha256 post       : 78fa7b7d2f16cbf3b60ac18c3fcbdba55a3b6bcb555f0f7b49fe8e6904bed921
+anchors in file   : 59
+headings changed  : 1
+
+  line 644    ## Articolul 501. Administrarea specială
+       ->      ## Articolul 50^1. Administrarea specială
+       run of 1 between art. 50 and art. 51; base art. 50 present; high

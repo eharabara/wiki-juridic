@@ -1,0 +1,145 @@
+--- raw/papers/cnpf/L-171-2012.md	2026-07-09 15:33:42.521499300 +0300
++++ _meta/anchoring-work/L-171-2012.md	2026-09-04 15:25:44.375932100 +0300
+@@ -2,7 +2,7 @@
+ source_url: https://www.legis.md/cautare/getResults?doc_id=121985&lang=ro
+ showdetails_url: https://www.legis.md/cautare/showdetails/121985
+ ingested: '2026-07-09'
+-sha256: 551a287b941463a94a7bfbb3b366a9216ff0cfe56fdf0bee98fc441692095d3f
++sha256_pre_anchoring: 551a287b941463a94a7bfbb3b366a9216ff0cfe56fdf0bee98fc441692095d3f
+ source_type: legal-text
+ publisher: legis.md / Ministerul Justiției al Republicii Moldova
+ language: ro
+@@ -14,6 +14,63 @@
+   01.01.21
+ full_text: true
+ extract_method: curl showdetails + lxml text extraction
++sha256: 11266879b1f422788ebf07f7681b58cf63957ca269c035bc1780f17a4b78ad2f
++sha256_convention: LF
++superscript_articles:
++  - normalised: '40^1'
++    flattened_as: 401
++    run_of: 1
++    between: 'art. 40 and art. 41'
++    base_article_present: true
++    evidence: positional only -- the extraction kept no caret form, no unicode superscript and no amendment note for this number anywhere in the file
++  - normalised: '88^1'
++    flattened_as: 881
++    run_of: 4
++    between: 'art. 79 and art. 89'
++    base_article_present: false
++    evidence: positional only -- the extraction kept no caret form, no unicode superscript and no amendment note for this number anywhere in the file
++  - normalised: '88^2'
++    flattened_as: 882
++    run_of: 4
++    between: 'art. 79 and art. 89'
++    base_article_present: false
++    evidence: positional only -- the extraction kept no caret form, no unicode superscript and no amendment note for this number anywhere in the file
++  - normalised: '88^3'
++    flattened_as: 883
++    run_of: 4
++    between: 'art. 79 and art. 89'
++    base_article_present: false
++    evidence: positional only -- the extraction kept no caret form, no unicode superscript and no amendment note for this number anywhere in the file
++  - normalised: '88^4'
++    flattened_as: 884
++    run_of: 4
++    between: 'art. 79 and art. 89'
++    base_article_present: false
++    evidence: positional only -- the extraction kept no caret form, no unicode superscript and no amendment note for this number anywhere in the file
++  - normalised: '131^1'
++    flattened_as: 1311
++    run_of: 1
++    between: 'art. 131 and art. 132'
++    base_article_present: true
++    evidence: positional only -- the extraction kept no caret form, no unicode superscript and no amendment note for this number anywhere in the file
++  - normalised: '141^1'
++    flattened_as: 1411
++    run_of: 1
++    between: 'art. 141 and art. 142'
++    base_article_present: true
++    evidence: positional only -- the extraction kept no caret form, no unicode superscript and no amendment note for this number anywhere in the file
++  - normalised: '146^1'
++    flattened_as: 1461
++    run_of: 1
++    between: 'art. 146 and art. 147'
++    base_article_present: true
++    evidence: positional only -- the extraction kept no caret form, no unicode superscript and no amendment note for this number anywhere in the file
++superscript_normalised_date: '2026-09-04'
++anchor_convention: >-
++  Article anchors already existed. This pass only NORMALISES flattened
++  superscript numbers in the heading line: '## Articolul 1461.' becomes
++  '## Articolul 146^1.'. Exactly one token changes per affected line;
++  every other heading, and every non-heading line, is byte-identical.
+ ---
+ 
+ # raw/L-171-2012 — text legis.md consolidat/curent
+@@ -782,7 +839,7 @@
+ e) existenţa unor motive rezonabile de a suspecta că a fost sau este săvîrşită o operaţiune sau o tentativă de spălare de bani sau de finanţare a unor acte de terorism ori că proiectul de achiziţie ar putea spori un astfel de risc.
+ (20) Prevederile prezentului articol nu se aplică achiziţiei de cote în capitalul băncilor comerciale care deţin sau solicită licenţă de societate de investiţii.
+ 
+-## Articolul 401. Anularea, emiterea şi vînzarea participaţiilor deţinute cu
++## Articolul 40^1. Anularea, emiterea şi vînzarea participaţiilor deţinute cu
+ nerespectarea cerinţelor privind calitatea acţionariatului
+ în capitalul societăţii de investiţii
+ (1) Prin derogare de la prevederile Legii nr.1134/1997 privind societăţile pe acţiuni, organul executiv al societăţii de investiţii ai cărei deţinători de valori mobiliare cad, după caz, sub incidenţa prevederilor art.40 alin.(16), în termen de cel mult 15 zile din data expirării termenului acordat deţinătorilor de valori mobiliare pentru vînzarea acţiunilor, emite şi depune la Comisia Naţională decizia privind anularea acestor acţiuni şi emiterea suplimentară de acţiuni în acelaşi număr şi de aceeaşi clasă.
+@@ -1339,13 +1396,13 @@
+ ### Secțiunea a 7-a
+ Agențiile de rating de credit
+ 
+-## Articolul 881. Dispoziții generale privind agențiile de rating de credit
++## Articolul 88^1. Dispoziții generale privind agențiile de rating de credit
+ (1) Prevederile prezentei secțiuni se aplică ratingurilor de credit acordate de agențiile de rating de credit înregistrate de Comisia Națională, care sunt fie publicate, fie distribuite în baza unui abonament.
+ (2) Ratingurile de credit care sunt fie publicate, fie distribuite în baza unui abonament sunt acordate doar de agențiile de rating de credit înregistrate de Comisia Națională sau de Autoritatea Europeană pentru Valori Mobiliare și Piețe (în continuare – ESMA).
+ (3) Ratingurile de credit pot fi utilizate în scopuri de reglementare (respectare a cerințelor actelor normative de natură prudențială) numai dacă acestea sunt acordate de agențiile de rating de credit înregistrate de Comisia Națională sau de ESMA.
+ (4) Atunci când un prospect conține o trimitere la unul sau la mai multe ratinguri de credit, emitentul, ofertantul sau persoana care solicită admiterea la tranzacționare pe o piață reglementată se asigură că prospectul cuprinde, de asemenea, informații clare și vizibile care precizează dacă ratingurile în cauză sunt emise de către o agenție de rating înregistrată de Comisia Națională sau de ESMA.
+ 
+-## Articolul 882. Înregistrarea și supravegherea agențiilor de rating de credit
++## Articolul 88^2. Înregistrarea și supravegherea agențiilor de rating de credit
+ (1) Pentru înregistrarea agenției de rating de credit, solicitantul depune în adresa Comisiei Naţionale o cerere însoțită de documentele necesare care vor conține:
+ a) datele de identificare și de contact ale agenției de rating de credit (denumirea completă, sediul, numărul de înregistrare de stat (IDNO), numele şi prenumele administratorului, numărul de telefon și de fax, adresa electronică și pagina web);
+ b) datele de identificare și de contact ale responsabilului de verificarea conformității (numele și prenumele, domiciliul, numărul personal de identitate (IDNP), numărul de telefon);
+@@ -1378,7 +1435,7 @@
+ b) a obținut înregistrarea prin declarații false sau prin alte măsuri ilegale;
+ c) nu mai îndeplinește condițiile în al căror temei i-a fost acordată înregistrarea.
+ 
+-## Articolul 883. Cerințe generale privind activitatea agențiilor de rating
++## Articolul 88^3. Cerințe generale privind activitatea agențiilor de rating
+ de credit
+ (1) Agențiile de rating de credit iau măsurile necesare pentru a se asigura că acordarea unui rating de credit sau a unei perspective de rating nu este afectată de existența sau de potențiala existență a unor conflicte de interese.
+ (2) Agențiile de rating de credit publică metodologiile, modelele și ipotezele principale pe care le folosesc în activitățile lor de rating de credit, precum și modificările acestora.
+@@ -1390,7 +1447,7 @@
+ (8) Comisia Națională nu poartă nicio responsabilitate și nu oferă asigurări în ceea ce privește corectitudinea și exactitatea ratingurilor de credit acordate de către agențiile de rating de credit.
+ (9) Prevederile art. 39 alin. (1) lit. a)–d), f) și alin. (4), art. 41 alin. (1) lit. a)–f), h) și alin. (3)–(7), art. 42 alin. (1), (2) și (3), art. 46 alin. (1)–(4), art. 50 alin. (4) se aplică corespunzător în raport cu agențiile de rating de credit.
+ 
+-## Articolul 884. Reglementarea activității agențiilor de rating de credit
++## Articolul 88^4. Reglementarea activității agențiilor de rating de credit
+ (1) Cerințele privind desfășurarea activității agențiilor de rating de credit, inclusiv condițiile de acordare și de publicare a ratingurilor de credit, regulile referitoare la organizarea și modul în care acționează agențiile de rating de credit și acționarii acestora, sunt reglementate de actele normative ale Comisiei Naţionale.
+ (2) În cazul în care nu se respectă prevederile prezentei secțiuni, Comisia Naţională este în drept să aplice sancţiuni în conformitate cu art. 144.
+ [Secțiunea 7 introdusă prin LP97 din 11.06.20, MO153-158/26.06.20 art.286; în vigoare 01.01.21]
+@@ -1935,7 +1992,7 @@
+ (4) Mărimea obligaţiilor societăţii de investiţii faţă de client se calculează avîndu-se în vedere valoarea totală a mijloacelor băneşti şi a instrumentelor financiare ale clientului, din care se scad creanţele clientului faţă de societatea de investiţii.
+ (5) Compensaţia se achită în monedă naţională. În cazul în care societatea deţine în numele clientului mijloace băneşti în valută străină, compensaţia se achită în monedă naţională, echivalentul fiind determinat cu aplicarea cursului oficial al leului moldovenesc la data la care intervine cel puţin una din situaţiile stabilite la art. 133 alin. (1).
+ 
+-## Articolul 1311. Compensarea clienţilor administratorilor fiduciari
++## Articolul 131^1. Compensarea clienţilor administratorilor fiduciari
+ (1) Evidenţa mijloacelor băneşti transferate în Fond în temeiul art.1461 alin.(13) este ţinută separat de alte mijloace ale Fondului. Mijloacele respective pot fi utilizate doar pentru compensarea clienţilor administratorilor fiduciari.
+ (2) Prin derogare de la prevederile art.131 alin.(1), compensarea acoperă instrumentele financiare şi mijloacele băneşti aflate în evidenţa contului clientului conform informaţiei restabilite din registrele clienţilor administratorilor fiduciari.
+ (3) Fondul iniţiază achitarea compensaţiilor în conformitate cu alin.(2) în baza hotărîrii definitive a instanţei de judecată privind restabilirea informaţiei din registrele clienţilor, aferente societăţilor care se află în administrare fiduciară la administratorii fiduciari.
+@@ -2106,7 +2163,7 @@
+ i) să transmită informaţiile relevante organelor de drept în vederea iniţierii urmăririi penale.
+ (8) Orice măsură, interdicţie sau impunere în raport cu persoanele licenţiate, autorizate şi/sau cu ofertanţii, efectuate de Comisia Naţională în temeiul prezentului articol, se decide prin ordonanţă a Comisiei Naţionale.
+ 
+-## Articolul 1411. Supravegherea prudenţială a societăţilor de investiţii
++## Articolul 141^1. Supravegherea prudenţială a societăţilor de investiţii
+ (1) Comisia Naţională asigură verificarea cadrului de administrare a activităţii, strategiilor, proceselor şi mecanismelor implementate de fiecare societate de investiţii, pentru respectarea prevederilor prezentei legi şi ale actelor normative ale Comisiei Naţionale, precum şi realizează propria evaluare a riscurilor la care societatea de investiţii este sau poate fi expusă.
+ (2) Verificările şi evaluările menţionate la alin.(1) au în vedere urmărirea îndeplinirii de către societăţile de investiţii a cerinţelor prevăzute de prezenta lege şi de actele normative ale Comisiei Naţionale.
+ (3) Pe baza verificărilor şi evaluărilor menţionate la alin.(1), Comisia Naţională determină în ce măsură cadrul de administrare a activităţii, strategiile, procesele şi mecanismele implementate de o societate de investiţii, fondurile proprii deţinute şi lichiditatea acesteia asigură o administrare prudentă şi o acoperire adecvată a riscurilor în raport cu profilul de risc al societăţii de investiţii.
+@@ -2200,7 +2257,7 @@
+ c) să suspende operaţiunile bancare la conturile curente ale persoanei licenţiate sau autorizate; şi/sau
+ d) să greveze, cu interdicţia de înstrăinare, instrumentele financiare ale persoanei licenţiate deţinute în nume propriu şi/sau în numele clienţilor.
+ 
+-## Articolul 1461. Încetarea activităţii pe piaţa de capital a administratorilor
++## Articolul 146^1. Încetarea activităţii pe piaţa de capital a administratorilor
+ fiduciari
+ (1) Prin derogare de la prevederile art.147 alin.(12), activele clienţilor (valorile mobiliare, părţile sociale), aflate în administrare fiduciară la administratorii fiduciari, care, în termenul stabilit, nu au fost transmise în deţinere reală din motivul lipsei informaţiei din registrele clienţilor sînt expuse spre vînzare în modul stabilit de prezentul articol şi de actele normative ale Comisiei Naţionale.
+ (2) Valorile mobiliare ale societăţilor pe acţiuni, aflate în administrare fiduciară la administratorii fiduciari, sînt expuse spre vînzare în cadrul licitaţiilor cu strigare organizate pe o piaţă reglementată şi/sau în cadrul unui MTF. Valorile mobiliare şi părţile sociale pentru care urmează a fi respectat dreptul de preemţiune stabilit la art.27 alin.(8) din Legea nr.1134/1997 privind societăţile pe acţiuni şi la art.25 alin.(3) din Legea nr.135/2007 privind societăţile cu răspundere limitată se înstrăinează conform legislaţiei în vigoare.

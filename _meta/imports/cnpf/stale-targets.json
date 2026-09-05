@@ -1,0 +1,100 @@
+[
+  {
+    "stem": "L-1-2018",
+    "path": "raw/papers/cnpf/L-1-2018.md",
+    "doc_id": "120941",
+    "held": "2020-04-20",
+    "folder": "cnpf"
+  },
+  {
+    "stem": "L-106-2022",
+    "path": "raw/papers/cnpf/L-106-2022.md",
+    "doc_id": "144476",
+    "held": "2024-08-02",
+    "folder": "cnpf"
+  },
+  {
+    "stem": "L-1134-1997",
+    "path": "raw/papers/cnpf/L-1134-1997.md",
+    "doc_id": "129078",
+    "held": "2022-01-10",
+    "folder": "cnpf"
+  },
+  {
+    "stem": "L-122-2008",
+    "path": "raw/papers/cnpf/L-122-2008.md",
+    "doc_id": "120927",
+    "held": "2020-05-02",
+    "folder": "cnpf"
+  },
+  {
+    "stem": "L-139-2007",
+    "path": "raw/papers/cnpf/L-139-2007.md",
+    "doc_id": "121166",
+    "held": "2020-05-02",
+    "folder": "cnpf"
+  },
+  {
+    "stem": "L-178-2020",
+    "path": "raw/papers/cnpf/L-178-2020.md",
+    "doc_id": "123148",
+    "held": "2020-09-18",
+    "folder": "cnpf"
+  },
+  {
+    "stem": "L-181-2023",
+    "path": "raw/papers/cnpf/L-181-2023.md",
+    "doc_id": "138188",
+    "held": "2023-07-27",
+    "folder": "cnpf"
+  },
+  {
+    "stem": "L-192-1998",
+    "path": "raw/papers/cnpf/L-192-1998.md",
+    "doc_id": "128124",
+    "held": "2021-10-08",
+    "folder": "cnpf"
+  },
+  {
+    "stem": "L-198-2020",
+    "path": "raw/papers/cnpf/L-198-2020.md",
+    "doc_id": "124466",
+    "held": "2020-12-18",
+    "folder": "cnpf"
+  },
+  {
+    "stem": "L-2-2020",
+    "path": "raw/papers/cnpf/L-2-2020.md",
+    "doc_id": "120967",
+    "held": "2020-03-27",
+    "folder": "cnpf"
+  },
+  {
+    "stem": "L-234-2016",
+    "path": "raw/papers/cnpf/L-234-2016.md",
+    "doc_id": "139826",
+    "held": "2023-10-21",
+    "folder": "cnpf"
+  },
+  {
+    "stem": "HG-1170-2016",
+    "path": "raw/papers/moldova-legal/HG-1170-2016.md",
+    "doc_id": "118977",
+    "held": "2019-11-22",
+    "folder": "moldova-legal"
+  },
+  {
+    "stem": "HG-1171-2018",
+    "path": "raw/papers/moldova-legal/HG-1171-2018.md",
+    "doc_id": "144185",
+    "held": "2024-07-05",
+    "folder": "moldova-legal"
+  },
+  {
+    "stem": "L-100-2017",
+    "path": "raw/papers/moldova-legal/L-100-2017.md",
+    "doc_id": "144467",
+    "held": "2024-08-02",
+    "folder": "moldova-legal"
+  }
+]

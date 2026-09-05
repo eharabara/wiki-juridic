@@ -1,0 +1,182 @@
+
+==============================================================================
+BOOK / TITLE / CHAPTER / FIRST ARTICLES   [original lines 46-70]
+==============================================================================
+--- raw (before)
++++ anchored (after)
+@@ -1,13 +1,17 @@
+ LP206-XV din 29.05.03, MO149/18.07.03 art.598
+ Parlamentul adoptă prezentul cod.
++## Cartea întîi
+ Cartea întîi
+ DISPOZIŢII GENERALE
++## Titlul I
+ T i t l u l I
+ DISPOZIŢII COMUNE
++## Capitolul I
+ Capitolul I
+ LEGISLAŢIA CIVILĂ
+ 
+ 
++## Articolul 1. Principiile legislaţiei civile
+ Articolul 1. Principiile legislaţiei civile
+ (1) Legislaţia civilă este întemeiată pe recunoaşterea egalităţii participanţilor la
+ raporturile reglementate de ea, protecția vieții intime, private și de familie, recunoașterea
+@@ -17,6 +21,7 @@
+ a fost lezată şi de apărare a lor de către organele de jurisdicție competente.
+ (2) Drepturile civile pot fi limitate prin lege organică doar în temeiurile prevăzute de
+ Constituţia Republicii Moldova.
++## Articolul 2. Raporturile reglementate de legislaţia civilă
+ Articolul 2. Raporturile reglementate de legislaţia
+ civilă
+ (1) Legislaţia civilă determină statutul juridic al participanţilor la circuitul civil,
+
+==============================================================================
+SECTION + ARTICLE WITH PLAIN BODY (NO PARAGRAPH NUMBERING)   [original lines 345-356]
+==============================================================================
+--- raw (before)
++++ anchored (after)
+@@ -2,10 +2,13 @@
+ 
+ 
+ PERSOANA FIZICĂ
++### Secţiunea 1. Dispoziţii generale
+ Secţiunea 1
+ Dispoziţii generale
++## Articolul 23. Noţiunea de persoană fizică
+ Articolul 23. Noţiunea de persoană fizică
+ Persoană fizică este omul, privit individual, ca titular de drepturi şi de obligaţii civile.
++## Articolul 24. Capacitatea de folosinţă a persoanei fizice
+ Articolul 24. Capacitatea de folosinţă a persoanei fizice
+ (1) Capacitatea de a avea drepturi şi obligaţii civile (capacitatea de folosinţă) se
+ recunoaşte în egală măsură tuturor persoanelor fizice.
+
+==============================================================================
+SUBSECTION NESTING   [original lines 880-890]
+==============================================================================
+--- raw (before)
++++ anchored (after)
+@@ -1,9 +1,12 @@
+ tutela sau curatela minorului sînt eliberate dacă solicitantul are un interes legitim, în modul
+ stabilit prin regulament aprobat de Guvern.
++### Secţiunea a 4-a. Măsurile de ocrotire contractuale și judiciare
+ Secţiunea a 4-a
+ Măsurile de ocrotire contractuale și judiciare
++#### Subsecţiunea 1. Dispoziţii comune
+ Subsecţiunea 1
+ Dispoziţii comune
++## Articolul 65. Temeiurile, formele şi principiile ocrotirii
+ Articolul 65. Temeiurile, formele şi principiile ocrotirii
+ 
+ 
+
+==============================================================================
+TWO-PART TITLE SPLIT BY A FULL STOP (ART. 57)   [original lines 772-778]
+==============================================================================
+--- raw (before)
++++ anchored (after)
+@@ -1,5 +1,6 @@
+ recomandări ale rudelor.
+ (7) Consiliul de familie desemnează şi revocă tutorele și curatorul minorului.
++## Articolul 57. Tutorele supleant și curatorul supleant. Tutorele special şi curatorul special
+ Articolul 57. Tutorele supleant și curatorul supleant.
+ Tutorele special şi curatorul special
+ (1) În condiţiile prevăzute la art. 112, consiliul de familie al minorului sau, în absenţa
+
+==============================================================================
+TITLE WRAPPING OVER FIVE LINES, CAPITALISED CONTINUATION (ART. 305)   [original lines 4308-4320]
+==============================================================================
+--- raw (before)
++++ anchored (after)
+@@ -2,6 +2,7 @@
+ 
+ participarea persoanelor juridice la raporturile reglementate de legislaţia civilă dacă din
+ lege sau din specificul acestor subiecte nu reiese altfel.
++## Articolul 305. Modalitatea de participare a Republicii Moldova şi a unităţilor ei administrativ-teritoriale la raporturile reglementate de legislaţia civilă
+ Articolul 305. Modalitatea de participare a
+ Republicii Moldova şi a unităţilor
+ ei administrativ-teritoriale la
+
+==============================================================================
+PARAGRAPH-SIGN SUBDIVISION   [original lines 1102-1110]
+==============================================================================
+--- raw (before)
++++ anchored (after)
+@@ -1,6 +1,8 @@
+ Subsecţiunea a 3-a
+ Mandatul de ocrotire în viitor
++##### § 1.Dispoziţii comune
+ § 1.Dispoziţii comune
++## Articolul 76. Mandatul de ocrotire în viitor
+ Articolul 76. Mandatul de ocrotire în viitor
+ (1) Persoana fizică care a atins majoratul sau care a dobîndit capacitate deplină de
+ exerciţiu pe altă cale legală (mandantul) poate împuternici unul sau mai mulţi mandatari să
+
+==============================================================================
+SOURCE DEFECT: TITLE AND BODY MERGED ON ONE LINE (ART. 723)   [original lines 9426-9432]
+==============================================================================
+--- raw (before)
++++ anchored (after)
+@@ -1,7 +1,9 @@
+ Secțiunea a 7-a
+ Efectele gajului
++## Articolul 723. Dispoziții generale cu privire la drepturile și obligațiile părților la contractul de gaj Debitorul gajist și creditorul gajist sînt liberi să stabilească, prin
+ Articolul 723. Dispoziții generale cu privire la drepturile
+ și obligațiile părților
+ la contractul de gaj Debitorul gajist și creditorul gajist sînt liberi să stabilească, prin
+ acord de voință, drepturile și obligațiile fiecăruia dintre ei, dacă legea nu prevede altfel.
++## Articolul 724. Obligația de diligență
+ Articolul 724. Obligația de diligență
+
+==============================================================================
+REPEAL GAP: ARTS. 2171-2172 STRUCK OUT   [original lines 26680-26692]
+==============================================================================
+--- raw (before)
++++ anchored (after)
+@@ -7,6 +7,7 @@
+ 01.04.26]
+ [Art.2172 abrogat prin LP251 din 10.07.25, MO417-419/06.08.25 art.569; în vigoare
+ 01.04.26]
++## Articolul 2173. Înlăturarea nedemnității
+ Articolul 2173. Înlăturarea nedemnității
+ Moștenitorul nu este nedemn dacă cel care a lăsat moștenirea, cunoscînd cauza de
+ nedemnitate, a întocmit un testament sau nu a modificat testamentul, deși a avut
+
+==============================================================================
+REPEAL GAP: SECTION-LEVEL REPEAL COVERING ARTS. 2047-2054   [original lines 25196-25206]
+==============================================================================
+--- raw (before)
++++ anchored (after)
+@@ -1,11 +1,15 @@
+ (2) Aplicarea dispoziţiilor prezentei secţiuni nu exclude posibilitatea persoanei
+ prejudiciate de a pretinde despăgubiri în temeiul răspunderii contractuale sau delictuale ori
+ în conformitate cu actele legislative şi normative speciale din domeniu.
++### Secțiunea a 3-a- abrogată
+ Secțiunea a 3-a- abrogată
++## Titlul IV
+ T i t l u l IV
+ FIDUCIA
++## Capitolul I
+ Capitolul I
+ DISPOZIȚII GENERALE
++## Articolul 2055. Noțiunea
+ Articolul 2055. Noțiunea
+ Fiducia este un raport juridic în care o parte (fiduciar) este obligată să devină
+ titularul unei mase patrimoniale (masă patrimonială fiduciară), să o administreze și să
+
+==============================================================================
+END OF FILE   [original lines 31770-31784]
+==============================================================================
+--- raw (before)
++++ anchored (after)
+@@ -3,8 +3,10 @@
+ l) orice înregistrare într-un registru a drepturilor de proprietate asupra unor bunuri
+ imobile sau mobile, inclusiv cerințele legale pentru o astfel de înregistrare, precum și
+ efectele înregistrării sau ale lipsei înregistrării unor astfel de drepturi într-un registru.
++## Capitolul IX
+ Capitolul IX
+ TERMENUL DE PRESCRIPŢIE EXTINCTIVĂ
++## Articolul 2671. Legea aplicabilă termenului de prescripţie extinctivă
+ Articolul 2671. Legea aplicabilă termenului
+ 
+ 

@@ -1,0 +1,634 @@
+---
+source_url: https://www.bnm.md/files/Regulation on the Requirements for the Insurer’s Reinsurance Programme, Rules for Contracting Reinsurance 13_06_2023.pdf
+source_record: https://www.bnm.md/en/content/regulation-requirements-insurers-reinsurance-programme-rules-contracting-reinsurance-and
+ingested: 2026-07-12
+sha256: 2bed8ffb1d6c0ad0f520899e6a1a5513d5255960a032789b09675df18d3c5e11
+source_file_sha256: d870461781d7f59e3c60f4af6c17897afc4ab9c71fc5203c0c0ffc8863feae43
+source_type: legal-text
+publisher: Banca Națională a Moldovei
+language: other
+extraction_status: text-extracted
+archived_original: raw/papers/bnm/legal/original/185__Regulation on the Requirements for the Insurer’s Reinsurance Programme, Rules for Contracting Reinsurance 13_06_2023.pdf
+---
+
+# Regulation on the Requirements for the Insurer’s Reinsurance Programme, Rules for Contracting Reinsurance, and Provisions for Approving the Insurer’s Own Retention Level No 30/12 of 13.06.2023 (in force as of 27.06.2023) Official Monitor of the Republic of Moldova No 216-219 Article 621 of 27.06.2023
+
+- **BNM catalogue class:** legislation
+- **BNM record:** https://www.bnm.md/en/content/regulation-requirements-insurers-reinsurance-programme-rules-contracting-reinsurance-and
+- **Preserved original:** `raw/papers/bnm/legal/original/185__Regulation on the Requirements for the Insurer’s Reinsurance Programme, Rules for Contracting Reinsurance 13_06_2023.pdf`
+- **Original filename at BNM:** `Regulation on the Requirements for the Insurer’s Reinsurance Programme, Rules for Contracting Reinsurance 13_06_2023.pdf`
+
+## Extracted text
+
+NATIONAL COMMISION FOR FINANCIAL MARKETS 
+D E C I S I O N
+on the 
+A pproval of the Regulation on the 
+R equirements for the 
+I nsurer
+’ s 
+R einsurance 
+P rogramme, 
+R ules for 
+C ontracting 
+R einsurance, and 
+P rovisions for 
+A pproving the 
+I nsurer
+’ s O wn 
+R etention 
+Le vel
+No 30/12 of 13.06.2023
+(in force as of 27.06.2023
+)
+Official Monitor of the Republic of Moldova No 216
+-219 Article 621 of 27.06.2023
+REGISTERED: 
+Ministry of Justice 
+of the Republic of Moldova 
+No 1802 of 22 June 2023 
+Minister _____________ Veronica MIHAILOV-MORARU 
+Pursuant to the provisions of Article 96 paragraph 6) and paragraph 12) of Law No 
+92/2022 on the Business of Insurance or Reinsurance (Official Monitor of the Republic of 
+Moldova, 2022, No 129 – 133, Article 229), the National Commission for Financial 
+Markets 
+DECIDES: 
+1. To approve the Regulation on the Requirements for the Insurer’s Reinsurance 
+Programme, Rules for Contracting Reinsurance, and Provisions for Approving the 
+Insurer’s Own Retention Level (shall be attached).  
+2. To repeal the Decisions of the National Commission for Financial Markets No 
+17/6/2017 on the Approval of the Regulation on the Requirements for the Insurer’s 
+Reinsurance Programme and Rules for Contracting Reinsurance (Official Monitor of the 
+Republic of Moldova, 2017, No 181 – 189, Article 1024), registered at the Ministry of 
+Justice of the Republic of Moldova No 1221 on 23.05.2017.  
+3. This Decision shall enter into force on the date of its publication in the Official 
+Monitor of the Republic of Moldova. 
+ 
+CHAIRMAN                                                                                         Dumitru BUDIANSCHI 
+ 
+No 30/12. Chisinau, 13 June 2023.  
+ 
+Approved 
+by the Decision 
+of the National Commission  
+for Financial Markets 
+No 30/12 of 13 June 2023 
+ 
+REGULATION 
+on the 
+R equirements for the 
+I nsurer
+’ s R einsurance 
+P rogramme, 
+R ules for 
+C ontracting 
+R einsurance, and 
+P rovisions for 
+A pproving the 
+I nsurer
+’ s O wn 
+R etention 
+L evel
+
+
+ 
+ 
+Chapter I
+GENERAL PROVISIONS 
+1. The Regulation on the requirements for the insurer’s reinsurance programme, rules for 
+contracting reinsurance, and provisions for approving the insurer’s own retention level (hereinafter 
+– Regulation) sets forth the requirements for the insurer’s reinsurance programme, the rules to 
+comply with when contracting reinsurances, and the provisions for approving the insurer’s own 
+retention level. 
+2. For the purposes of this Regulation, the terms defined in the Law No 92/2022 on the 
+business of insurance or reinsurance (hereinafter - Law No 92/2022) and the following terms shall 
+be used:  
+reinsurance commission – remuneration paid by the reinsurer to the reinsured for the 
+transfer of reinsurance risks; 
+reinsurance contracts – an agreement between two or more parties, known as the 
+“reinsurer” and the “reinsured”, whereby the reinsurer takes over part of the risks underwritten by 
+the reinsured in return for an amount known as the “reinsurance premium” (set out in the contract), 
+in respect of which it undertakes to pay the reinsured part of the compensation due in the event of 
+the risk(s) occurring, in accordance with the conditions agreed in the contract; 
+surplus - the amount of risk transferred to reinsurance (a portion of the risk value that 
+exceeds the own retention);  
+reinsurance premium – the amount that the reinsured is obliged to pay for the insurance 
+provided by the reinsurer for the risks ceded in reinsurance under the reinsurance contract; 
+optional reinsurance – partial or full reinsurance of a risk relating to a single insurance 
+policy, the cession being negotiated separately, where both the reinsurer and the reinsured have the 
+option to accept or reject any of the implication of the other; 
+compulsory reinsurance - the reinsurance of categories of risks specified in the insurance 
+contract, in the proportions and within the limits laid down, where it is not possible for the parties 
+to select the risks and the reinsurer is obliged to cede the underwritten risks, whatever their nature; 
+non-proportional “excess of loss” reinsurance – reinsurance whereby the reinsurer 
+indemnifies the reinsured for the amount of loss incurred in excess of a specified limit of its own 
+retention; 
+non-proportional “excess of loss ratio” reinsurance – reinsurance whereby the liability of 
+the reinsured is limited to a certain level of the loss ratio, with only that which exceeds a pre-
+determined percentage level of premium volume being ceded in reinsurance. Thus, the reinsurer 
+bears the claims only if the total level of claims in a given year for the insurer exceeds the set 
+amount; 
+proportional “quota share” reinsurance - reinsurance whereby the reinsurer takes over in 
+reinsurance a certain proportion of each risk assumed by the reinsured (ceding party) under direct 
+insurance policies, bearing all claims in the same proportion according to the direct premiums, but 
+without reinsurance commission; 
+proportional “excess of amount” reinsurance - reinsurance whereby the reinsurer agrees 
+to take a portion of a risk in excess of its own retention limit; 
+geographical area - an operative clause in the reinsurance contract stipulating the territory 
+of the reinsurance protection. 
+ 
+Chapter II 
+REQUIREMENTS REGARDING THE REINSURANCE PROGRAMME OF THE 
+INSURER. 
+RULES FOR REINSURANCE CONTRACTING 
+ 
+
+
+ 
+ 
+3. The insurer's reinsurance programme shall be based on compliance with the prudential 
+requirements laid down by law, the appropriateness of the reinsurance programme to the insurer's 
+risk profile, the avoidance of risk concentration and the effective transfer of risks. 
+4. The insurer is obliged to adopt and implement an effective Reinsurance Programme for 
+each financial year. The Insurer's Reinsurance Programme shall be consistent with its underwriting 
+policy. The insurer's actuary shall express an opinion on the appropriateness of reinsurance 
+contracts in accordance with the Reinsurance Programme. The actuary's opinion shall be annexed 
+to the Reinsurance Programme. 
+5. The insurer shall revise both the Reinsurance Program and the underwriting policies in 
+one of the following cases:  
+1) when the underwritten risks are not adequately covered by the reinsurance; or 
+2) when the reinsurer is downgraded in the rating agencies' rankings (below the level set out 
+in Article 96 paragraph (8) of Law No 92/2022) in two consecutive ratings; or 
+3) when the Solvency Capital Requirement (hereinafter - SCR) coverage ratio with eligible 
+own funds of a non-resident reinsurer included in the Insurer’s Reinsurance Programme, calculated 
+in accordance with the European Union (hereinafter - EU) Solvency II regime, falls below 120 
+percent. 
+6. The Reinsurance Programme shall correspond to the reinsurance needs defined and 
+documented in the Reinsurance Management Strategy (dependent on the Underwriting Policy) 
+approved by the Insurer's Board, which shall include at least: 
+1) the method of monitoring the Reinsurance Programmes (existence of internal reporting 
+and control systems); 
+2) description of an internal risk control system and its implementation by key function 
+holders (internal audit function and risk management function), which ensures the continuous 
+compliance of the Reinsurance Programme with the Reinsurance Strategy approved by the 
+governing body. 
+7. When drawing up and adopting the Reinsurance Programme, the insurer's governing 
+bodies shall ensure that all legal and regulatory requirements relating to the insurer's business and 
+its reinsurance needs are met and complied with and shall strictly determine the size of the 
+maximum own retention to be maintained at a certain level and the maximum level of protection 
+through compulsory reinsurance which the insurer can obtain from selected reinsurers. 
+The insurer's governing bodies shall draw up and monitor the Reinsurance Programme, 
+which shall include, on a compulsory basis, the arrangements for implementing the business 
+strategies so as to ensure, on an ongoing basis, the following: 
+1) the existence of underwriting conditions for the classes of insurance underwritten and 
+aggregate exposures for risks underwritten by class of insurance; 
+2) the establishment of limits on the insured amounts per class of insurance which will be 
+subject to compulsory reinsurance; 
+3) the establishment of criteria for the selection of optional reinsurance; 
+4) optimising and monitoring reinsurance expenses; 
+5) the principles of liquidity risk management in the event of failure to settle claims due from 
+the reinsurer in time; 
+6) principles for managing counterparty default risk, in the event of non-performance of 
+contractual obligations by the reinsurer; 
+7) the efficient organisation of reinsurance administration. 
+8. The Reinsurance Programme, adopted by the insurer, shall contain at least the following 
+information: 
+1) the total size of the insurer's liability covered by the Reinsurance Program; a description 
+of the structure of the Reinsurance Program used to cover the insurer's risk - e.g., compulsory or 
+optional, proportional or non-proportional coverage, as well as the size of each level of coverage; 
+the share of each individual reinsurer in each level of reinsurance coverage; and the number of 
+renewals; 
+
+
+ 
+ 
+2) the qualitative and quantitative criteria underlying the selection of reinsurance forms; 
+3) the risk management and control mechanisms (concentration, credit, liquidity, 
+operational, market, underwriting), as defined in Article 4 of Law No 92/2022, arising from 
+reinsurance activity; 
+4) criteria for the selection of reinsurers, minimum acceptable credit rating, operating 
+market, applicable jurisdiction; 
+5) criteria for selecting reinsurance brokers, market of operation, applicable jurisdiction, 
+including their safety assessment procedures; 
+(6) a description of the selected reinsurers, indicating their rating, where applicable, as 
+assessed by Standard & Poor's, Fitch-IBCA, AM BEST or Moody's rating agencies, or SCR data 
+in the case of reinsurers authorised in EU States or in the Organisation for Economic Cooperation 
+and Development (hereinafter - OECD) and subject to the Solvency II regime, and data on their 
+financial statements, market experience over the last two years and country of residence; 
+7) the nomination of risks and/or groups of risks ceded by type of insurance, included in the 
+category “general insurance” and/or “life insurance”; 
+8) the level of own retention per class and/or type of insurance; 
+9) the amounts ceded in reinsurance by class and/or type of insurance, where appropriate; 
+10) the geographical area, as specified in the reinsurance contract; 
+11) the procedures for monitoring and recording claims incurred and for recovering amounts 
+for which reinsurers are responsible. 
+9. The Insurer's Reinsurance Programme and the terms and conditions of reinsurance shall 
+be consistent with the nature, scale and complexity of the business conducted, be consistent with 
+its business objectives and strategy and reflect the insurer's overall risk appetite. 
+10. The insurer or reinsurer shall retain a portion of the risk in its own retention 
+commensurate with its financial capacity and volume of business. 
+11. The cession of risk in reassurance by the resident insurer or reinsurer of the Republic of 
+Moldova outside its territory may be carried out directly to a non-resident reinsurer of the Republic 
+of Moldova if the latter is an authorised and supervised reinsurer in its country of residence. The 
+cession of risks in reinsurance by the resident insurer or reinsurer of the Republic of Moldova to 
+the said non-resident reinsurer of the Republic of Moldova may be carried out through the 
+reinsurance broker non-resident or resident of the Republic of Moldova. Reinsurers providing 
+reinsurance cover to insurers from the Republic of Moldova shall have a credit rating of at least 
+BBB+ or its equivalent, assigned/reconfirmed during the last year up to the date of submission of 
+the Reinsurance Programme, as assigned by one of the following rating agencies: Standard & 
+Poor's, Fitch-IBCA, AM BEST or Moody's. 
+12. Solvency reports will be used for non-rated reinsurers that are authorised in the countries 
+subject to the EU Solvency II regime, an EU Member State or an OECD Member State. In this 
+case, the reinsurer's eligible own funds cover ratio shall not be less than 120 percent. The Solvency 
+Report for the last management period up to the date of conclusion of the reinsurance contract 
+shall be used for reinsurance undertakings which do not have a credit rating from the rating 
+agencies listed in paragraph 11 but are licensed and supervised by supervisory regimes equivalent 
+to the EU Solvency II regime. The supervisory authority may require the insurer to provide the 
+reinsurer's solvency report as evidence of compliance with the requirements of this Regulation. 
+13. When ceding and retroceding risks directly or through reinsurance brokers, the ultimate 
+reinsurer shall comply with the requirements of this Regulation and Law No 92/2022. The insurer 
+shall have data and information related to the ultimate reinsurer, including audited financial 
+statements for at least the last 2 years, and submit them to the supervisory authority upon request. 
+14. The insurer shall have in place an adequate internal control and reporting system to 
+ensure that the underwriting of risks or cession in reinsurance is in accordance with its reinsurance 
+policy, adequate, safe and sufficient, the insurer's maximum limit of liability for an insured risk is 
+not breached, reinsurance claims are properly reported, and claims are promptly collected from 
+reinsurers. 
+
+
+ 
+ 
+Chapter III 
+ENDORSEMENT PROCEDURE. REPORTING 
+15. The supervisory authority shall approve the level of the annual own retention in 
+accordance with the insurer's request, submitted by 1 November of the year preceding the reference 
+period, with the mandatory attachment of the following documents: 
+1) The methodology for determining the own retention, signed by the head of the executive 
+body and the head of the risk management function, including: 
+a) description of the method for estimating the single insured risk; 
+b) the amount of the insurer's maximum liability limit for a single insured risk; 
+2) the Insurer’s Reinsurance Programme, including the actuary's opinion on the 
+appropriateness of reinsurance contracts. 
+16. The supervisory authority's assessment of an Insurer's Reinsurance Programme is based 
+on a number of factors, including: 
+1) the structure of the Programme, including any alternative risk transfer arrangements; 
+2) the proportion of risk ceded so that the net risks retained are commensurate with the 
+insurer's financial resources and risk appetite; 
+3) annual financial statements and historical claims payment information for the reinsurers 
+concerned (both under normal and stressed conditions); 
+4) exposure levels to a single reinsurer or to different reinsurers belonging to the same group; 
+5) compliance of the reinsurer with the requirements of Law 92/2022 and this Regulation. 
+17. Within 30 days from the date of receipt of the complete set of documents referred to in 
+paragraph 15, the supervisory authority shall, as appropriate, approve or refuse to approve the level 
+of its own retention on an annual basis. 
+18. If changes or new circumstances arise during the examination of the application and the 
+submitted documents, the insurer is obliged to promptly inform the supervisory authority and 
+provide the revised documents. 
+19. If the documents or information submitted are insufficient to take a decision on the 
+endorsement of the level of the own retention, the supervisory authority may, on an annual basis, 
+request the necessary documents and information, including from other persons or authorities to 
+the extent that such information is necessary to carry out the endorsement provided for in this 
+Regulation. 
+20. In the cases referred to in paragraphs 18 and 19 and where additional information is 
+required, the time limit laid down in paragraph 17 may be extended or suspended for a period to 
+be determined by the supervisory authority, with the insurer being informed. If the additional 
+documents and information requested from the insurer have not been submitted within the time 
+limit set by the supervisory authority, the supervisory authority shall terminate the examination of 
+the application and inform the insurer within 10 working days of the expiry of the time limit for 
+completing the set. 
+21. The supervisory authority shall refuse to endorse the level of the annual own retention, 
+stating the reasons for refusal if: 
+a) following the assessment of all circumstances and information related to the level of own 
+retention, the supervisory authority shall decide that the requirements of Law No 92/2022 and this 
+Regulation are not met; and/or 
+b) incomplete, erroneous or false information has been submitted. 
+22. The insurer shall be obliged to revise the Reinsurance Programme when it identifies 
+inconsistencies between the objectives and strategies and the Reinsurance Programme, from the 
+moment it becomes aware that the reinsurer no longer meets the requirements of this Regulation, 
+and in the cases set out in paragraph 5, including if the provisions of paragraphs 6 and 8 are not 
+met. 
+23. The supervisory authority may request a review of the Reinsurance Programme and/or 
+the Methodology for determining the own retention during the financial year in the event of a 
+breach of the provisions of Law 92/2022 or of this Regulation. 
+
+
+ 
+ 
+24. In case of revision of the Reinsurance Programme, under the provisions of paragraphs 
+22 and 23, as well as in cases where the insurer changes the Methodology for determining the own 
+retention and/or the Reinsurance Programme submitted for the approval of the level of the own 
+retention, the insurer is obliged to request, repeatedly, the approval of the own retention, under the 
+provisions of this Regulation. 
+25. Upon the occurrence of major changes in the Reinsurance Programme or upon 
+becoming aware that the reinsurer no longer complies with the requirements of this Regulation, 
+insurers shall submit the relevant documents and information to the supervisory authority within 
+10 working days to confirm such changes. 
+26. The insurer shall monitor and notify the supervisory authority, within 10 working days 
+from the time of discovery, situations in which: 
+a) the reinsurers' share of an insurer's total technical provisions exceeds 70 percent; and/or 
+b) the share of the largest reinsurer exceeds 30 percent of the insurers' technical provisions. 
+27. Each insurer shall be obliged to submit to the supervisory authority the Report on 
+contracts with resident and non-resident reinsurers, in the form and manner set out in the Annex 
+to this Regulation, every six months by 25 August and by 25 February of the year following the 
+year of management, respectively, in electronic or paper form. 
+ 
+Annex 
+to the Regulation on the Requirements  
+for the Insurer’s Reinsurance Programme,  
+Rules for Contracting Reinsurance, 
+ and Provisions for Approving the  
+Insurer’s Own Retention Level 
+ 
+REPORT 
+on contracts with resident and non-resident reinsurers 
+for 01.01.20___ - 31.12.20___ 
+ 
+N
+o 
+Nam
+e of 
+the 
+reins
+urer 
+to 
+who
+m 
+the 
+risks 
+have 
+been 
+cede
+d, 
+date 
+of 
+regis
+trati
+on in 
+the 
+coun
+try 
+of 
+origi
+n, 
+Rein
+surer
+’s 
+legal 
+addr
+ess 
+(cou
+ntry)
+, 
+posta
+l 
+addr
+ess, 
+telep
+hone 
+num
+bers, 
+e-
+mail 
+Rat
+ing 
+age
+ncy
+, 
+we
+b 
+link
+, 
+rati
+ng 
+set 
+by 
+rati
+ng 
+age
+nci
+es   
+Direct insurance 
+contract 
+Type 
+of 
+reins
+uran
+ce 
+contr
+act 
+No 
+and 
+date 
+of 
+contr
+act  
+For
+m 
+and 
+meth
+od of 
+reins
+uran
+ce 
+Cessions 
+per contract 
+Ratio 
+of 
+ceded 
+premium
+s 
+and 
+direct 
+insuranc
+e pre 
+mi 
+ums  
+ 
+Reins
+uranc
+e 
+com
+missi
+on, 
+lei 
+(per 
+insur
+ance 
+class) 
+Clai
+ms 
+reco
+vere
+d by 
+the 
+rein
+sure
+d, 
+lei 
+(per 
+cont
+ract
+) in 
+the 
+repo
+rtin
+g 
+peri
+od 
+Da
+mag
+es 
+reco
+vere
+d 
+end
+orse
+d 
+and 
+settl
+ed 
+per 
+dire
+ct 
+insu
+ranc
+e 
+cont
+ract, 
+lei 
+(per 
+cont
+ract
+) in 
+Con
+trac
+t 
+nu
+mb
+er 
+and 
+dat
+e 
+The 
+amo
+unt 
+of 
+insu
+ranc
+e, lei 
+Gro
+ss 
+writ
+ten 
+pre
+miu
+m, 
+lei 
+Insu
+ranc
+e 
+class 
+Insur
+ed 
+amou
+nt 
+ceded 
+in 
+reins
+uran
+ce, lei 
+Gros
+s 
+writt
+en 
+prem
+ium 
+cede
+d in 
+reins
+uran
+ce 
+duri
+ng 
+the 
+repor
+ting 
+perio
+d, lei 
+
+
+ 
+ 
+licen
+ce 
+num
+ber 
+and 
+date 
+the 
+repo
+rtin
+g 
+peri
+od   
+A 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+  
+  
+  
+  
+T
+ot
+al 
+  
+   
+Note: If the data included in this Report do not correspond to those reflected in other 
+specialised/statistical reports, the insurer shall provide an explanatory note, which shall contain a 
+justification of the elements that caused the discrepancies between the figures.   
+  
+Insurer’s executive body ________________________________ 
+Head of risk management function, phone number  
+_____________________________________________________________ 
+  
+Date of completion ___  _____________ 20__ 
+ 
+ 
+INSTRUCTION 
+on the method of completing the Report on contracts  
+with resident and non-resident reinsurers 
+for 01.01.20___ - 31.12.20___ 
+ 
+1.  Columns 1, 2, and 3 shall indicate data related to the reinsurer (including an indication of the 
+intermediary, if applicable) as required in these columns. 
+2.  Columns 4, 5, 6, and 7 shall indicate the information relating to the direct insurance contract: 
+contract number and date, insured amount, gross written premium, without the amounts relating to 
+contracts which have been terminated, and class of insurance. 
+3.  Columns 8 and 9 shall indicate information on the types of reinsurance (optional, compulsory, 
+treaty reinsurance on general contract, contract number and date, forms and methods of reinsurance 
+(proportional (“quota share” or “excess reinsurance”), non-proportional (“excess of loss” or “excess of 
+loss rate”), etc.)). 
+4.  Columns 10 and 11 shall indicate the ceded business per contract (insured amount ceded under 
+reinsurance/gross written premium ceded under reinsurance in the reporting period, according to the 
+respective accounting records). 
+5. Column 12 shall indicate the ratio of ceded premiums per contract to direct insurance premiums 
+per contract. 
+6. Columns 13 and 14 shall indicate the reinsurance commission (by class of insurance) and claims 
+recovered by the reinsured (by contract) during the reporting period, as shown in the respective accounting 
+records, with a breakdown of commissions and claims recovered during the reporting period relating to 
+contracts from previous periods. 
+7. Column 15 shall indicate the claims endorsed and settled per insurance contract directly (per 
+contract) during the reporting period as recorded in the accounts.

@@ -1,0 +1,183 @@
+--- raw/papers/cnpf/L-192-1998.md	2026-07-09 15:33:42.551911100 +0300
++++ _meta/anchoring-work/L-192-1998.md	2026-09-04 15:12:45.268935000 +0300
+@@ -2,7 +2,7 @@
+ source_url: https://www.legis.md/cautare/getResults?doc_id=128124&lang=ro
+ showdetails_url: https://www.legis.md/cautare/showdetails/128124
+ ingested: '2026-07-09'
+-sha256: bd0983cbfebda20906afc9705a6d7bb86df659c9ce8190c51cfa2ce14e226eeb
++sha256_pre_anchoring: bd0983cbfebda20906afc9705a6d7bb86df659c9ce8190c51cfa2ce14e226eeb
+ source_type: legal-text
+ publisher: legis.md / Ministerul Justiției al Republicii Moldova
+ language: ro
+@@ -15,6 +15,22 @@
+   08.10.21
+ full_text: true
+ extract_method: curl showdetails + lxml text extraction
++sha256: 6d565e61d4d3532811aca093d76c0bc5f8a759c886c853d57b9314613a5e8c79
++sha256_convention: LF
++articole detectate: 31
++anchoring_date: '2026-09-04'
++superscript_articles:
++  - normalised: '13^1'
++    flattened_as: 131
++    evidence: positional -- follows art. 13, numbering resumes at art. 14, number outside the act's range; no 'Art.13^1' or amendment note in the body to confirm against
++anchor_convention: >-
++  Source form 'Art.N. -' (pre-2000 drafting) anchored by
++  INSERTING '## Articolul N.' above the provision line; the original
++  'Art.' token and the whole body line are unchanged. These acts carry
++  no article titles -- the provision runs straight on from the dash --
++  so the anchor is the number alone. Roman numerals are kept as drafted.
++  Strip every line matching '^## Articolul ' to recover the
++  pre-anchoring body byte-for-byte.
+ ---
+ 
+ # raw/L-192-1998 — text legis.md consolidat/curent
+@@ -96,20 +112,26 @@
+ 
+ ## Capitolul I
+ DISPOZIŢII GENERALE
++## Articolul 1.
+ Art.1. – (1) Comisia Naţională a Pieţei Financiare, denumită în continuare Comisia Naţională, este o autoritate publică autonomă, responsabilă faţă de Parlament, care reglementează şi autorizează activitatea participanţilor la piaţa financiară nebancară, precum şi supraveghează respectarea legislaţiei de către ei. În acest scop, Comisia Naţională este învestită cu putere de decizie, de dispensă, de interdicţie, de intervenţie, de control şi de sancţionare disciplinară şi administrativă, în limitele stabilite de legislaţie.
+ (2) Comisia Naţională este persoană juridică, cu bilanţ propriu, dispune de ştampilă cu imaginea Stemei de Stat şi cu denumirea sa. Autoritatea Comisiei Naţionale se exercită pe întreg teritoriul Republicii Moldova.
+ (3) Comisia Naţională are sediul central în municipiul Chişinău. În funcţie de necesităţi, aceasta îşi poate deschide în teritoriu reprezentanţe, care funcţionează potrivit regulamentelor aprobate de ea.
++## Articolul 2.
+ Art.2. – (1) Comisia Naţională funcţionează potrivit prevederilor Constituţiei, prezentei legi, altor acte legislative, regulamentului propriu şi este independentă în exercitarea funcţiilor sale.
+ (2) Comisia Națională prezintă anual Parlamentului, pînă la data de 1 iunie, un raport care se examinează în ședință plenară a Parlamentului și care include informația privind funcţionarea pieţei financiare nebancare și privind activitatea sa în anul precedent, inclusiv executarea bugetului, raportul fiind publicat pe pagina web oficială a Comisiei Naționale. Cîte o copie a raportului se remite Președintelui Republicii Moldova și Guvernului pentru informare.
++## Articolul 3.
+ Art.3. – Comisia Naţională are drept obiective de bază asigurarea stabilităţii, transparenţei, siguranţei şi eficienţei sectorului financiar nebancar, prevenirea riscurilor sistemice şi manipulării pe piaţa financiară nebancară, protejarea drepturilor participanţilor la piaţa financiară nebancară.
++## Articolul 4.
+ Art.4. – (1) Autoritatea Comisiei Naţionale se extinde asupra participanţilor la piaţa financiară nebancară, care cuprind emitenţii de valori mobiliare, investitorii, asiguraţii, organizaţiile de autoreglementare pe piaţa de capital, agențiile de rating de credit, Biroul Naţional al Asigurătorilor de Autovehicule din Republica Moldova, membrii asociaţiilor de economii şi împrumut, clienţii organizațiilor de creditare nebancară şi participanţii profesionişti la piaţa financiară nebancară.
+ (2) Participanţi profesionişti la piaţa financiară nebancară, denumiţi în continuare participanţi profesionişti, sînt persoanele licenţiate sau autorizate pe piaţa de capital, participanţii profesionişti la piaţa asigurărilor, fondurile nestatale de pensii, asociaţiile de economii şi împrumut, organizațiile de creditare nebancară şi birourile istoriilor de credit.
+ (3) Atribuţiile Comisiei Naţionale privind reglementarea, autorizarea şi supravegherea participanţilor profesionişti nu se suprapun cu atribuţiile Băncii Naţionale a Moldovei.
+ (4) Comisia Naţională dispune de independenţă organizaţională, funcţională, operaţională şi financiară în conformitate cu prezenta lege.
+ (5) În exercitarea atribuţiilor şi împuternicirilor sale, stabilite de prezenta lege şi de actele legislative specifice fiecărui domeniu supravegheat, Comisia Naţională nu va fi îngrădită de nicio altă autoritate.
+ (6) Prevederile Legii nr. 160/2011 privind reglementarea prin autorizare a activităţii de întreprinzător nu se aplică pe piața financiară nebancară.
++## Articolul 5.
+ Art.5. – (1) Comisia Naţională este în drept să colaboreze cu organisme de specialitate internaţionale corespunzătoare şi să adere la ele.
+ (2) Comisia Naţională este în drept să acorde asistenţă şi să efectueze, în conformitate cu legislaţia, schimb de informaţii privind piaţa financiară nebancară şi participanţii acesteia cu instituţiile de specialitate internaţionale şi autorităţile similare din alte state.
++## Articolul 6.
+ Art.6. – (1) Comisia Naţională se finanţează integral din:
+ a) taxe în mărime de pînă la 0,5 la sută din suma emisiunii valorilor mobiliare, cu excepţia emisiunii obligaţiunilor pentru care se va percepe taxă în mărime de pînă la 0,1 la sută din suma emisiunii;
+ b) taxe în mărime de pînă la 0,1 la sută din suma emisiunii valorilor mobiliare efectuate în scopul consolidării, fracţionării sau convertirii valorilor mobiliare emise anterior;
+@@ -140,11 +162,13 @@
+ (7) Auditul public extern al exercițiului financiar-bugetar al Comisiei Naţionale se efectuează de către Curtea de Conturi.
+ (8) Comisia Națională ține contabilitatea în conformitate cu standardele naționale de contabilitate.
+ (9) Amenzile aferente sancțiunilor aplicate conform legislației de către Comisia Națională se varsă la bugetul de stat.
++## Articolul 7.
+ Art.7. – (1) În procesul exercitării atribuţiilor sale, Comisia Naţională conlucrează cu autorităţile publice în vederea realizării obiectivelor sale şi asigurării protecţiei drepturilor investitorilor şi ale publicului larg.
+ (2) Guvernul, Banca Naţională a Moldovei, ministerele, alte autorităţi ale administraţiei publice coordonează cu Comisia Naţională proiectele actelor normative ce vizează piaţa financiară nebancară.
+ 
+ ## Capitolul II
+ ATRIBUŢIILE ŞI DREPTURILE COMISIEI NAŢIONALE
++## Articolul 8.
+ Art.8. – În scopul realizării obiectivelor sale, Comisia Naţională are următoarele atribuţii:
+ a) elaborează şi, în comun cu Guvernul, aprobă strategia de dezvoltare a pieţei financiare nebancare;
+ b) exercită prerogativele legale privind reglementarea şi supravegherea pieţei financiare nebancare prin adoptarea de decizii şi dispunerea de măsuri executorii pentru participanţii la piaţa financiară nebancară, precum şi efectuează, la cerere sau din oficiu, interpretarea oficială a deciziilor proprii;
+@@ -167,6 +191,7 @@
+ r) supraveghează activitatea Biroului Naţional al Asigurătorilor de Autovehicule din Republica Moldova;
+ s) stabileşte modalitatea evidenţei de către asigurători a contractelor de asigurare (poliţelor de asigurare) şi aprobă transferul de portofolii ale asigurătorilor;
+ t) realizează alte atribuţii în conformitate cu legislaţia ce reglementează activitatea participanţilor profesionişti, cu prezenta lege şi cu alte acte legislative.
++## Articolul 9.
+ Art.9. – (1) Comisia Naţională are următoarele drepturi:
+ a) să califice valorile mobiliare (să le determine tipul) conform legislaţiei privind piaţa de capital;
+ b) să suspende emisiunea valorilor mobiliare/unităţilor (titlurilor) de fond sau să anuleze emisiunile corespunzătoare de valori mobiliare/unităţi (titluri) de fond în cazurile stipulate de legislaţia privind piaţa de capital;
+@@ -190,18 +215,25 @@
+ ## Capitolul III
+ ORGANIZAREA ŞI ADMINISTRAREA
+ COMISIEI NAŢIONALE
++## Articolul 10.
+ Art.10. – (1) Comisia Naţională este condusă de Consiliul de administraţie.
+ (2) Consiliul de administraţie este un organ colegial compus din 5 membri, inclusiv preşedintele şi doi vicepreşedinţi ai Consiliului de administraţie, care sînt, respectiv, preşedinte şi vicepreşedinţi ai Comisiei Naţionale.
++## Articolul 11.
+ Art.11. – Membrii Consiliului de administraţie sînt desemnaţi de Parlament pentru un mandat de 5 ani, la propunerea Preşedintelui Parlamentului, cu avizul prealabil pozitiv al comisiei parlamentare de profil. Fiecare membru al Consiliului de administraţie are dreptul la două mandate consecutive.
++## Articolul 12.
+ Art.12. – În funcţia de membru al Consiliului de administraţie poate fi desemnată persoana care deţine cetăţenia Republicii Moldova, are domiciliul în ţară şi o vechime în muncă de cel puţin 10 ani în domeniile financiar, economic sau bancar, nu are interdicția de a ocupa o funcţie publică sau de demnitate publică, ce derivă dintr-un act de constatare al Autorității Naționale de Integritate, precum şi nu are în ultimii 5 ani, în cazierul privind integritatea profesională, înscrieri cu privire la rezultatul negativ al testului de integritate profesională pentru încălcarea obligaţiei prevăzute la art. 7 alin. (2) lit. a) din Legea nr. 325 din 23 decembrie 2013 privind evaluarea integrităţii instituţionale.
++## Articolul 13.
+ Art.13. – (1) Membrii Consiliului de administraţie sînt desemnaţi cu acordul în scris al candidaţilor.
+ (2) În cazul în care candidatul este membru al unui partid sau al unei alte organizaţii social-politice, acordul său trebuie să conţină angajamentul de suspendare a calităţii de membru al partidului sau al altei organizaţii social-politice.
++## Articolul 13^1.
+ Art. 131. – Preşedintele, vicepreşedintele, membrii Consiliului de administrație dețin funcții de demnitate publică prin numire.
++## Articolul 14.
+ Art.14. – Calitatea de membru al Consiliului de administraţie încetează în caz de:
+ a) expirare a termenului pentru care a fost desemnat;
+ b) revocare de către Parlament, la propunerea Preşedintelui Parlamentului, inclusiv din iniţiativa preşedintelui Comisiei Naţionale;
+ c) demisie;
+ d) deces.
++## Articolul 15.
+ Art.15. – (1) Revocarea membrilor Consiliului de Administraţie se face de Parlament în cazul în care:
+ a) în urma exercitării neadecvate a atribuţiilor sale sau săvîrşirii unor acte ilegale, s-au produs efecte de criză pe piaţa financiară nebancară;
+ b) au fost condamnaţi prin sentinţă judecătorească rămasă definitivă;
+@@ -220,27 +252,34 @@
+ [Art.15 al.(12) introdus prin LP121 din 30.09.21, MO239-248/08.10.21 art.282; în vigoare 08.10.21]
+ (2) Membrii Consiliului de administraţie se revocă din funcţie cu majoritatea simplă de voturi (50%+1) din numărul total al deputaţilor din Parlament.
+ (3) Membrii Consiliului de administraţie ale căror mandate au expirat vor rămîne în funcţie pînă la numirea succesorilor lor.
++## Articolul 16.
+ Art.16. – Pe lîngă Comisia Naţională poate fi constituit un organ consultativ – Consiliul de experţi. Modul de constituire, componenţa şi atribuţiile acestui organ se stabilesc de către Comisia Naţională.
++## Articolul 17.
+ Art.17. – Comisia Naţională poate antrena savanţi şi specialişti-practicieni pentru consultaţii, pentru efectuarea controalelor şi expertizelor, remunerîndu-i conform legislaţiei.
+ 
+ ## Capitolul IV
+ DECIZIILE COMISIEI NAŢIONALE ŞI MODUL
+ DE ADOPTARE A LOR
++## Articolul 18.
+ Art.18. – (1) Deciziile Comisiei Naţionale se adoptă la şedinţele Consiliului de administraţie, care pot fi ordinare sau extraordinare. Procesele-verbale sînt semnate de preşedintele Comisiei Naţionale sau de vicepreşedintele care a prezidat şedinţa. Şedinţele ordinare se convoacă după necesitate, dar nu mai rar decît de 2 ori pe lună. Şedinţele extraordinare se convoacă din iniţiativa preşedintelui sau a cel puţin 2 membri ai Consiliului de administraţie.
+ (2) Şedinţele Consiliului de administraţie pot fi publice sau închise. Şedinţele închise au loc doar în cazul în care există pericolul prejudicierii pieţei financiare nebancare sau a participanţilor la ea. Această formă a şedinţei se decide prin vot.
++## Articolul 19.
+ Art.19. – (1) Şedinţele Consiliului de administraţie sînt deliberative în cazul în care la ele participă cel puţin 3 membri şi sînt prezidate de către preşedintele Consiliului de administraţie, iar în absenţa acestuia, de către vicepreşedintele împuternicit.
+ (2) Deciziile Comisiei Naţionale se adoptă prin votul majorităţii celor prezenţi la şedinţa Consiliului de administraţie. Membrii Consiliului de administraţie absenţi pot vota în scris.
+ (3) Membrii Consiliului de administraţie nu au dreptul de a se abţine de la vot. Membrii care au votat împotrivă îşi pot consemna opinia separată în procesul-verbal al şedinţei respective.
++## Articolul 20.
+ Art. 20. – (1) În scopul exercitării atribuţiilor sale, Comisia Națională emite decizii sub forma actelor normative (hotărîri) și a actelor cu caracter individual (hotărîri, ordonanțe, înscrieri protocolare), care se semnează de către preşedinte sau, în absenţa acestuia, de către vicepreşedintele împuternicit. Particularitățile emiterii actelor cu caracter individual se stabilesc în regulamentul propriu.
+ (2) În cazul constatării semnelor componenței unei infracțiuni în cadrul exercitării atribuţiilor și drepturilor sale, Comisia Naţională emite o decizie în care indică încălcările admise, prescrie măsurile de înlăturare a acestor încălcări și, dacă există și poate fi constatat, indică prejudiciul cauzat prin aceste încălcări, prin sesizarea organului de urmărire penală conform alin.(3). Termenul de executare a prescripţiei în acest caz nu poate depăși 30 de zile.
+ (3) Sesizarea organului de urmărire penală cu privire la existența semnelor componenței de infracțiune se face printr-o adresare scrisă, care se transmite acestuia în termen de 5 zile lucrătoare de la data emiterii deciziei Comisiei Naționale sau de la data expirării termenului stabilit la alin. (2) pentru executarea prescripţiei. La sesizare se anexează decizia și materialele aferente.
+ (4) În cazul prevăzut la alin. (2), decizia Comisiei Naționale nu se contestă în instanţa de contencios administrativ.
++## Articolul 22.
+ Art.22. – (1) Actele normative ale Comisiei Naţionale care sînt obligatorii pentru participanții la piața financiară nebancară se publică în Monitorul Oficial al Republicii Moldova şi intră în vigoare fie la data publicării lor, fie la o altă dată prevăzută în textul actului respectiv.
+ (2) Actele normative ale Comisiei Naţionale pot fi contestate doar de către persoana în privinţa căreia, în baza actului cu caracter normativ contestat, s-a adoptat ori s-a refuzat adoptarea unui act cu caracter individual. Actul cu caracter normativ în baza căruia s-a adoptat ori s-a refuzat adoptarea unui act cu caracter individual poate fi contestat doar concomitent cu contestarea actului cu caracter individual.
+ (3) Actele cu caracter individual emise de către Comisia Naţională se comunică destinatarilor contra semnătură sau prin scrisoare recomandată cu confirmare de primire. Comunicarea prin scrisoare recomandată cu confirmare de primire se efectuează la domiciliul sau la sediul persoanei, după caz. Dacă comunicarea actului nu este posibilă prin niciuna dintre modalităţile prevăzute în prezentul alineat, inclusiv în cazul în care destinatarul refuză luarea de cunoştinţă, actul se consideră comunicat dacă este disponibil la sediul Comisiei Naționale. În acest din urmă caz, drept dovadă a comunicării actului cu caracter individual serveşte comunicatul oficial al Comisiei Naţionale privind disponibilitatea acestui act la sediul Comisiei Naţionale, care se publică în termen de 10 zile pe pagina web oficială a Comisiei Naţionale şi în Monitorul Oficial al Republicii Moldova, iar data intrării în vigoare a acestuia este considerată data publicării comunicatului oficial în Monitorul Oficial al Republicii Moldova.
+ (4) Actele normative emise de Comisia Naţională nu se supun expertizei juridice a Ministerului Justiţiei. Comisia Naţională va transmite actele sale normative, după adoptare, Ministerului Justiţiei spre a fi înregistrate în Registrul de stat al actelor juridice. Termenul de înregistrare nu va depăşi 3 zile lucrătoare.
+ (5) Actele normative emise de Comisia Naţională intră sub incidenţa prevederilor Legii nr. 239-XVI din 13 noiembrie 2008 privind transparenţa în procesul decizional. În cadrul consultării părţilor interesate cu privire la elaborarea actelor sale normative, Comisia Naţională va solicita o opinie cu caracter consultativ din partea Ministerului Justiţiei.
+ (6) Actele Comisiei Naţionale nu se supun controlului de oportunitate.
++## Articolul 23.
+ Art. 23. – (1) Actele Comisiei Naţionale sînt supuse controlului de legalitate în instanţele de contencios administrativ conform procedurii stabilite de Legea contenciosului administrativ şi conform cerinţelor prezentei legi. Dispoziţiile altor legi pot fi aplicate în cazurile de contestare a actelor Comisiei Naţionale doar în măsura în care nu contravin normelor stabilite de prezenta lege.
+ (2) Suspendarea executării actelor Comisiei Naţionale poate fi cerută în instanţa de contencios administrativ numai după contestarea acestora la Comisia Naţională în termen de 30 de zile de la data comunicării răspunsului Comisiei Naţionale pe marginea cererii prealabile privind aceste acte sau de la data expirării termenului pentru soluţionarea cererii prealabile. Termenul de 30 de zile nu se extinde asupra actelor cu caracter normativ.
+ (3) Suspendarea executării actelor Comisiei Naţionale poate fi dispusă de instanţa de judecată numai la cererea reclamantului, depusă concomitent cu înaintarea acţiunii, şi doar în cazul în care sînt întrunite cumulativ următoarele condiţii:
+@@ -260,8 +299,10 @@
+ ## Capitolul V
+ DREPTURILE ŞI OBLIGAŢIILE MEMBRILOR CONSILIULUI DE
+ ADMINISTRAŢIE ŞI ANGAJAŢILOR COMISIEI NAŢIONALE
++## Articolul 24.
+ Art.24. – (1) Membrii Consiliului de administraţie sînt independenţi în exerciţiul funcţiunii şi se supun numai legii.
+ (2) Membrii Consiliului de administraţie nu pot fi reţinuţi, arestaţi ori traşi la răspundere administrativă sau penală decît la cererea Procurorului General, cu consimţămîntul Parlamentului.
++## Articolul 25.
+ Art.25. – (1) Preşedintele Comisiei Naţionale:
+ a) conduce activitatea Comisiei Naţionale, poartă răspundere în faţa Parlamentului pentru îndeplinirea de către Comisia Naţională a sarcinilor atribuite acesteia prin prezenta lege şi prin regulamentul ei;
+ b) reprezintă Comisia Naţională în relaţiile cu autorităţile publice, precum şi cu organismele internaţionale de specialitate respective;
+@@ -272,7 +313,9 @@
+ g) semnează avize, rapoarte, răspunsuri oficiale, altă corespondenţă curentă;
+ h) examinează cauzele contravenţionale şi aplică sancţiuni contravenţionale în corespundere cu prevederile Codului contravenţional al Republicii Moldova.
+ (2) În absenţa Preşedintelui Comisiei Naţionale, atribuţiile prevăzute la alin.(1) sînt exercitate de vicepreşedintele împuternicit.
++## Articolul 26.
+ Art.26. – Preşedintele Comisiei Naţionale participă la şedinţele Parlamentului şi ale Guvernului în problemele reglementării şi controlului funcţionării pieţei financiare nebancare.
++## Articolul 27.
+ Art.27. – (1) Membrii Consiliului de administraţie şi angajaţii Comisiei Naţionale sînt obligaţi:
+ a) să nu divulge informaţia obţinută în exerciţiul funcţiunii;
+ b) să se abţină de la orice activitate sau acţiune incompatibilă cu calitatea de membru al Consiliului de administraţie sau angajat al Comisiei Naţionale.
+@@ -289,13 +332,17 @@
+ b) sînt membri ai consiliilor de supraveghere, consiliilor de directori, comitetelor de conducere, comisiilor de cenzori şi ai altor organe de conducere ale persoanelor juridice, care sînt subiecţi ai supravegherii din partea Comisiei Naţionale;
+ c) posedă mai mult de 0,5% din acţiuni (cote de participare) sau din alte valori mobiliare ale participanţilor profesionişti şi ale emitenţilor;
+ d) abuzează de atribuţiile lor în scop de publicitate.
++## Articolul 28.
+ Art.28. – (1) Membrii Consiliului de administraţie şi angajaţii Comisiei Naţionale poartă răspundere administrativă sau penală pentru încălcarea prevederilor art.27.
+ (2) Comisia Națională, membrii organelor de conducere ale Comisiei Naţionale şi personalul acesteia nu răspund civil, administrativ sau penal pentru actele sau faptele îndeplinite ori pentru omisiunea îndeplinirii unor acte sau fapte în exercitarea atribuţiilor conferite prin lege Comisiei Naționale, inclusiv pentru efectuarea operaţiunilor interne circumscrise exercitării acestor atribuţii, cu excepţia cazurilor în care instanţele judecătoreşti constată îndeplinirea sau omisiunea îndeplinirii de către aceste persoane, cu rea-credinţă sau din neglijenţă, a oricărui act sau fapt legat de exercitarea atribuţiilor Comisiei Naţionale, care a cauzat prejudicii unor terţi.
++## Articolul 29.
+ Art.29. – Membrii Consiliului de administraţie şi angajaţii împuterniciţi ai Comisiei Naţionale au dreptul să le ceară participanţilor la piaţa financiară nebancară să prezinte Comisiei Naţionale orice documente şi explicaţii orale şi în scris necesare la exercitarea atribuţiilor de control.
++## Articolul 30.
+ Art.30. – Membrii Consiliului de administraţie şi angajaţii Comisiei Naţionale nu au dreptul să transmită împuternicirile lor altor persoane.
+ 
+ ## Capitolul VI
+ DISPOZIŢII FINALE ŞI TRANZITORII
++## Articolul 31.
+ Art.31. – Prezenta lege intră în vigoare la data publicării.
+ PREŞEDINTELE
+ PARLAMENTULUI Dumitru DIACOV
