@@ -191,6 +191,33 @@ def render(spec):
     a(f"- The three fields appear in this order in every entry. Older logs live in `{lg['archive_dir']}/` and are not written to.")
     a("")
 
+    # copies
+    cp = spec.get("copies")
+    if cp:
+        a(f"### Copies in `{cp['folder']}/`")
+        a("")
+        a("The method documents are copies; the master is the claude.ai project \"Legal Wiki\" (D9). "
+          "Each copy carries a provenance stamp in its frontmatter:")
+        a("")
+        a("```yaml")
+        a("---")
+        a(f"copy_of: {cp['folder']}/<file>.md")
+        a('master: "claude.ai project \\"Legal Wiki\\""')
+        a("taken: YYYY-MM-DD          # when the body was copied from the project")
+        a("stamped: YYYY-MM-DD        # when this stamp was written")
+        a(f"sha256_body: <hex digest of the body, {cp['sha256_convention']} convention>")
+        a("local_notes: true | false  # whether the copy carries a note that exists only here")
+        a(f"refresh: {' | '.join(cp['enums']['refresh'])}")
+        a("---")
+        a("```")
+        a("")
+        a(f"- Required: {lst(cp['required'])}. `copy_of` must equal the file's own path.")
+        a("- The body hash must reproduce: a mismatch means the copy was edited locally, which is an error. "
+          "Refresh by replacing the body with the project's text and running `python _meta/schema/stamp_copies.py`.")
+        a(f"- A copy with `refresh: {cp['stale_warning_for']}` (the matter log) is warned about whenever `taken` is "
+          "before today: it is refreshed from the project at the start of any session that touches the wiki.")
+        a("")
+
     # hygiene
     hy = spec["hygiene"]
     a("### Hygiene")

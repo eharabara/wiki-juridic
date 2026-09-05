@@ -217,6 +217,26 @@ Git records what changed; the log records what was learned and what was decided 
 - `action` is one of `create`, `update`, `ingest`, `archive`, `delete`, `lint`, `query`, `decision`.
 - The three fields appear in this order in every entry. Older logs live in `_meta/log/` and are not written to.
 
+### Copies in `legal-career/`
+
+The method documents are copies; the master is the claude.ai project "Legal Wiki" (D9). Each copy carries a provenance stamp in its frontmatter:
+
+```yaml
+---
+copy_of: legal-career/<file>.md
+master: "claude.ai project \"Legal Wiki\""
+taken: YYYY-MM-DD          # when the body was copied from the project
+stamped: YYYY-MM-DD        # when this stamp was written
+sha256_body: <hex digest of the body, LF convention>
+local_notes: true | false  # whether the copy carries a note that exists only here
+refresh: on-master-change | every-session
+---
+```
+
+- Required: `copy_of`, `master`, `taken`, `stamped`, `sha256_body`, `local_notes`, `refresh`. `copy_of` must equal the file's own path.
+- The body hash must reproduce: a mismatch means the copy was edited locally, which is an error. Refresh by replacing the body with the project's text and running `python _meta/schema/stamp_copies.py`.
+- A copy with `refresh: every-session` (the matter log) is warned about whenever `taken` is before today: it is refreshed from the project at the start of any session that touches the wiki.
+
 ### Hygiene
 
 - No file or folder name may contain U+F03A, U+F05C: these are the MSYS substitutes for `:` and `\`, and a name carrying them is a Windows path that a script wrote as a name under a POSIX shell.

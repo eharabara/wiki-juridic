@@ -375,6 +375,39 @@ def main():
     if not os.path.isdir(os.path.join(ROOT, log_spec["archive_dir"])):
         rep.error("log.archive-dir", f"`{log_spec['archive_dir']}` missing")
 
+    # ------------------------------------------------------------------ copies (D9)
+    cp = spec.get("copies")
+    if cp:
+        cfolder = os.path.join(ROOT, cp["folder"])
+        n_copies = 0
+        for p in walk_md(cp["folder"]):
+            rp = rel(p)
+            n_copies += 1
+            data = read_bytes(p)
+            fm_text, body = split_frontmatter(data)
+            if fm_text is None:
+                rep.error("copy.stamp-missing", rp)
+                continue
+            fm, err = parse_fm(fm_text)
+            if fm is None:
+                rep.error("copy.stamp-invalid", f"{rp}: {err}")
+                continue
+            for k in cp["required"]:
+                if k not in fm or fm[k] in (None, ""):
+                    rep.error("copy.field-missing", f"{rp}: `{k}`")
+            for k, allowed in cp["enums"].items():
+                if k in fm and str(fm[k]) not in allowed:
+                    rep.error("copy.enum", f"{rp}: `{k}: {fm[k]}`")
+            if str(fm.get("copy_of", "")) != rp:
+                rep.error("copy.copy-of", f"{rp}: `copy_of: {fm.get('copy_of')}`")
+            h = hashlib.sha256(body.replace(b"\r\n", b"\n") if cp["sha256_convention"] == "LF" else body).hexdigest()
+            if fm.get("sha256_body") and h != str(fm["sha256_body"]):
+                rep.error("copy.edited-locally", f"{rp}: body no longer matches its stamp; re-copy from the project and re-stamp")
+            taken = as_date_str(fm.get("taken"))
+            if str(fm.get("refresh")) == cp["stale_warning_for"] and DATE_RE.match(taken) and taken < today.isoformat():
+                rep.warn("copy.stale", f"{rp}: taken {taken}; refresh from the project at session start (D9)")
+        stats["method copies checked"] = n_copies
+
     # ------------------------------------------------------------------ hygiene
     hy = spec["hygiene"]
     bad_chars = set(hy["forbidden_name_chars"])

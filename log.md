@@ -57,3 +57,9 @@
 - **Aflat:** `gh` era deja autentificat pe contul `eharabara`, cu drepturi `repo`. Niciun fișier urmărit nu trece de 5 MB, deci nu e nevoie de Git LFS.
 - **Decis:** Eugen a numit depozitul `wiki-juridic` și a confirmat că e privat. Originalele (576 MB) nu se urcă; rămân doar pe disc, singura parte fără copie în afara mașinii, redescărcabile de la sursă. `README.md` scris pentru GitHub, în română, fără wikilink-uri.
 - **Unde:** `README.md`; telecomanda `origin`; commit-urile de la `12e819d` încolo.
+
+## [2026-09-05] update | P7: ștampile de proveniență pe copiile din `legal-career/`
+
+- **Aflat:** copiile aveau deja o notă de copiere în proză, dar nimic nu putea spune dacă fuseseră editate local după copiere; 03 și 05 au fost modificate după ora copierii, cu note locale declarate în antet, și nimic nu le distingea de o editare tăcută. Registrul de spețe local, 06, nu are nicio speță, deși planul (secțiunea 8) vorbește de M-001 în proiect: copia e deja în urma masterului. Documentul 05 poartă la rândul 69 constatări depășite (art. 21 din L-192-1998 e prezent, numărul de fișiere BNM englezești e 87, nu 89); e treabă de reîmprospătare din proiect, nu de editare aici.
+- **Decis:** ștampila e frontmatter verificabil: `copy_of`, `master`, `taken`, `stamped`, `sha256_body` (LF), `local_notes`, `refresh`. Corpul fiecărei copii a rămas byte cu byte cel dinainte, dovedit la ștampilare. Verificatorul dă eroare la orice editare locală și avertisment cât timp registrul de spețe (`refresh: every-session`) nu e luat azi din proiect. Reîmprospătarea registrului nu se poate face de aici: proiectul claude.ai nu e accesibil din acest folder, deci Eugen aduce textul.
+- **Unde:** `legal-career/*.md` frontmatter; `_meta/schema/schema-spec.yaml` secțiunea `copies`; `_meta/schema/stamp_copies.py`; `CLAUDE.md` „Read this first”; `SCHEMA.md` „Copies in legal-career/”.

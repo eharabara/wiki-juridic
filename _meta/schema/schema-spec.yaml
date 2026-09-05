@@ -213,3 +213,21 @@ hygiene:
   no_empty_dirs_under: [entities, concepts, comparisons, raw, _archive]
   # Secțiunea de acoperire din CLAUDE.md este generată; verificatorul întreabă dacă e la zi.
   coverage_check: [_meta/coverage/build_coverage.py, --check]
+
+# ---------------------------------------------------------------------------------------
+# Copii ale documentelor de metodă. Decizia D9: masterul e în proiectul claude.ai „Legal Wiki”;
+# copiile de aici poartă o ștampilă de proveniență verificabilă, ca o editare locală să nu
+# poată trece neobservată. Registrul de spețe se reîmprospătează din proiect la începutul
+# oricărei sesiuni care atinge wiki-ul.
+# ---------------------------------------------------------------------------------------
+copies:
+  folder: legal-career
+  required: [copy_of, master, taken, stamped, sha256_body, local_notes, refresh]
+  enums:
+    refresh: [on-master-change, every-session]
+  # Hash-ul corpului (tot ce urmează după frontmatter), cu CRLF normalizat la LF. Dacă nu se
+  # reproduce, copia a fost editată local: se re-copiază din proiect și se ștampilează din nou.
+  sha256_convention: LF
+  # Copiile cu `refresh: every-session` luate înainte de ziua curentă primesc un avertisment,
+  # ca regula de reîmprospătare să fie vizibilă la fiecare rulare, nu doar scrisă.
+  stale_warning_for: every-session

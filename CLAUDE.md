@@ -15,7 +15,17 @@ economist in Chișinău.
 
 The `legal-career/` documents are copies. The master lives in the claude.ai project "Legal Wiki",
 taken on 2026-09-04. If you find a contradiction between a copy and something Eugen says, the
-project is authoritative, and the copy needs refreshing. Do not edit the copies here.
+project is authoritative, and the copy needs refreshing. Do not edit the copies here. Since
+2026-09-05 each copy carries a provenance stamp in its frontmatter (`copy_of`, `taken`,
+`sha256_body`, `refresh`); the validator fails if a copy's body no longer matches its stamp, so a
+local edit cannot pass unnoticed. To refresh a copy, replace the body with the project's text and
+re-stamp it (`python _meta/schema/stamp_copies.py`).
+
+**The matter log is refreshed every session (decision D9).** `legal-career/06-matter-log.md` is
+the one copy that changes with the work, not with the method. At the start of any session that
+touches this wiki, ask Eugen for the current register from the project if the stamp's `taken`
+date is not today, then re-stamp. The validator warns while it is stale. Positions in the
+register are not re-argued here; they are used.
 
 ## The one rule that changes in this folder
 
