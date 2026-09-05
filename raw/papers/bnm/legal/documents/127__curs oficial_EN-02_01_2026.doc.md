@@ -6,7 +6,7 @@ sha256: b7d1e235b62fe2d51b147ec8348029e999c885765c5d28408be78cc54d579eb0
 source_file_sha256: 3bcd12887f3c71d1c7eac003ce782c6239e3fe3af25dd0dc64849476cbf5f48f
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/127__curs oficial_EN-02_01_2026.doc
 ---

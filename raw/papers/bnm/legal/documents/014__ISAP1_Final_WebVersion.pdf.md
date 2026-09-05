@@ -6,7 +6,7 @@ sha256: 73dca400f47e6eaffc7ba4d52c157a255f167b0f15408309890526636f957259
 source_file_sha256: ccdb647229c2a8326a9d72105000350b99813bffc195d4671b0ca212fbcd8420
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/014__ISAP1_Final_WebVersion.pdf
 ---

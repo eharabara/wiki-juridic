@@ -6,7 +6,7 @@ sha256: a46d564187aa9dd9ed8b443082a882be0972c55930bc4ae11acf2050e7f98bf3
 source_file_sha256: 3790bf61d64d5776dffe03c52b7d51e945d70f4a0ab165f5d5c4296828a6ad05
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/305__RSF-2018_publicare_EN.pdf
 ---

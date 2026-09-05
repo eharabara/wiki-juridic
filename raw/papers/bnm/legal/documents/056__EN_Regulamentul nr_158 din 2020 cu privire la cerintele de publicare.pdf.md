@@ -6,7 +6,7 @@ sha256: 7b31139d785949380074e3270fd60ae71934517ee1e9da876baf175269960577
 source_file_sha256: 208a991ae469994b512a30b1958852244f5aadc1bb52e7897977ec16b1e142ac
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/056__EN_Regulamentul nr_158 din 2020 cu privire la cerintele de publicare.pdf
 ---

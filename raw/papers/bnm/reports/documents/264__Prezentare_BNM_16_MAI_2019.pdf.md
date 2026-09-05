@@ -6,7 +6,7 @@ sha256: d066e4b853bd23d20a6c6006c52729f382d2771f8db658ae8b11015cf778566f
 source_file_sha256: 0ff6870f9dbc85dd427c7a96865a07cc4bf48341d9659671b406fb7aaeb4ca07
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: ro
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/264__Prezentare_BNM_16_MAI_2019.pdf
 ---

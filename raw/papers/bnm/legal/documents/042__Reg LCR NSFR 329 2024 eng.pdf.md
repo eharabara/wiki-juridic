@@ -6,7 +6,7 @@ sha256: e6d37349e4dc49b50f5b560622af7b958930d620f249b4eeb3ae6d7a2012b8c6
 source_file_sha256: 36334081e66d007cdccaf4b847d676acdcc03935fa8e15317e61a0b76610968c
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/042__Reg LCR NSFR 329 2024 eng.pdf
 ---

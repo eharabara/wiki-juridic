@@ -6,7 +6,7 @@ sha256: 472f5454cbae84b5e2ab5d4a8a6395bff7d6e654539615e71961286b62ce34c7
 source_file_sha256: 59e40ec511f60580e7dc23994d7a1a29e750759ede7979424c2520db09ee2398
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/199__DECISION No 280 of 7 November 2024 (1).pdf
 ---

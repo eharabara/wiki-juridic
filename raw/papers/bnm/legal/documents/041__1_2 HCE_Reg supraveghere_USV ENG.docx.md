@@ -6,7 +6,7 @@ sha256: 619a1c9fd7c7c53433ec98993b0a1e5312aff4138514308d3d2dbcc1b3fc30d6
 source_file_sha256: 9b23b3ebd16acfdb46f6a363d80502cf4f71e5aa08fc0e8ebeddc1c96d68d59a
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/041__1_2 HCE_Reg supraveghere_USV ENG.docx
 ---

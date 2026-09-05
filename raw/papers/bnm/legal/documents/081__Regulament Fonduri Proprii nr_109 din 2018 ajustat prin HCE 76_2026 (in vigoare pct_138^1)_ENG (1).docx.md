@@ -6,7 +6,7 @@ sha256: 9de1ac21fbb37c94e8d5f4a42d80f032e5540167373ff9cf7f9a8680cfde5d3f
 source_file_sha256: 0f762ec7a6ef679225e7cd6b755115e96267aa3e64c2d24cd79d1267270327d0
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/081__Regulament Fonduri Proprii nr_109 din 2018 ajustat prin HCE 76_2026 (in vigoare pct_138^1)_ENG (1).docx
 ---

@@ -6,7 +6,7 @@ sha256: 8b6e1023eed619431a60b88e8f078849e5cca7690bfaae8a558b2d9178d7bedb
 source_file_sha256: 3cbac6dc49e52db7074c974df78a8c4c17df20e496aa528126996a2355e74b1b
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/195__Financial Prudential Rules for SLA No_17-8-2008.pdf
 ---

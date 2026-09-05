@@ -6,7 +6,7 @@ sha256: 38dd201950a1bb5a7836ac791d8b0941ce07675a2d8df67cb0715d95647463fd
 source_file_sha256: 878486e8fe824b2324cf10aff4cea3ff7c7068942ecb17a230d700c539489382
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/260__IR_1_February_2020_1.pdf
 ---

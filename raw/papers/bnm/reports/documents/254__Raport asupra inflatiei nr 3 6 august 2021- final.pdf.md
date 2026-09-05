@@ -6,7 +6,7 @@ sha256: ae5726a49a0f4723f3d32a17cfdb2bceba794aedbcf01acd6c8c235723228cb0
 source_file_sha256: 036953c030251ad7815af158f94230976f0447039343dc74c959dccfe408eba8
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: ro
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/254__Raport asupra inflatiei nr 3 6 august 2021- final.pdf
 ---

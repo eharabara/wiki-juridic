@@ -6,7 +6,7 @@ sha256: cc52d81719c56207b4d3e02f00ef8976dd34487567eeb5a8df4633f89a97bf9b
 source_file_sha256: 8668c1debd66b1548db55d9674833736c45e50ea94cab8b291a9d1418c4a00aa
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/242__Inflation_Report_February_2024_ISBN.pdf
 ---

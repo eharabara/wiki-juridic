@@ -6,7 +6,7 @@ sha256: ac8e2de49546fdf92044a1741389c1992cd9df91b62e194949ef0b0f24053b91
 source_file_sha256: c03a5efbeb9e36d6c23f4420194a7062d41a9860e215539e92c432970bc9b23a
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/167__Decision of the NBM on the approval of the Regulation on own funds No 328_2024 (ENG).pdf
 ---

@@ -6,7 +6,7 @@ sha256: 31e5261124efc18643712aa57847d925bd31c2625ce5ee55a5cb8697fed2ffe8
 source_file_sha256: ca794551fafb85335087ade7a657a7e158665100dd5dc0acca4cee6daa4fc11b
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/299__Financial Stability Report 2024.pdf
 ---

@@ -6,7 +6,7 @@ sha256: 46b22cb640ae6519b51cd128b66ca2df926d1c89c38dddd07c831176638eceb7
 source_file_sha256: 86cc824cefaf81b77fd2cfec1c7fb47d16c4e54cbf829fa1bd5062329963db48
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/206__Annual_Report_2023.pdf
 ---

@@ -6,7 +6,7 @@ sha256: 873a29a3a7a55736d109cc54ad1f57402795c4356f40415f2ac36d08ddec3542
 source_file_sha256: ec1c585a9e6640f715fdf50c8dce69d310fa73a1356835d582a3659c5046d2da
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/194__Regulation on qualifying holdings in the share capital of insurance or reinsurance undertakings 02_05_2023.docx
 ---

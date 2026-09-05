@@ -6,7 +6,7 @@ sha256: f2f61453c81aae4d61005e890e428fcda9445756aa59cdca1c00430c83c56cd3
 source_file_sha256: 4fafd321445ae60a2c5493193df23a7406f22c8864f0619343191a3d002a4748
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/120__Reg ELA HCE 13_eng_1.pdf
 ---

@@ -6,7 +6,7 @@ sha256: 6b560e6884fc2d08daf68e81086eadd51b4a5d00d22f6165f2893c273b2438b4
 source_file_sha256: 01f76909b58f8a0fd01d6fb4e3cd68058a974fcb317d992f797192e95af49747
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/119__Reg_facil perm_credit intraday_eng.docx
 ---

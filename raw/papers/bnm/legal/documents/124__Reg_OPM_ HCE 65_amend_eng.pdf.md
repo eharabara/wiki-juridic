@@ -6,7 +6,7 @@ sha256: f1123166eff03b25142ed25f19459916faf0c392062bfa52899ba8495afa0af1
 source_file_sha256: eb65f3ec28021367585b14120b1e7f3f31b2297962c3ca31acbcf0e307d2800f
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/124__Reg_OPM_ HCE 65_amend_eng.pdf
 ---

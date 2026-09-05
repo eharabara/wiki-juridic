@@ -6,7 +6,7 @@ sha256: df8f149e212534fa7efbb531cbe62d7d3ba708b8263cc4d8772186054cf63b0a
 source_file_sha256: ef0eb84fa9d610a6781df038284e4e19aa06d74973abd1ac16ceca623b4d5ca4
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/155__Reg_TrCrDDSEPA+IBAN_eng_1.pdf
 ---

@@ -6,7 +6,7 @@ sha256: 63026871a5fa8ece642805356699fc795571db9cfe1b35792c257e55371adfff
 source_file_sha256: b2798beac323489ceeebf0cf81bbf64741cdf0781e152b90fe145a1958d2d18f
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/061__Regulamentul 240_2013 l engl.doc
 ---

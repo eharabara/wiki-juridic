@@ -6,7 +6,7 @@ sha256: 6a10d184d939feb64c865e767c3c601f6f31d1b30a355ba839619ebddf151563
 source_file_sha256: 0e4602c4b548ee130e02e4bf5e26cfa91ce7085eac86aaa472cc92f8420a66db
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/112__4_Reg CMEOV nr_29 compilat cf HCE 215 2023 eng.doc
 ---

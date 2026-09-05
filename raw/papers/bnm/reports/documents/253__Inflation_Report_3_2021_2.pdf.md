@@ -6,7 +6,7 @@ sha256: 4f793a2f2529250c0d3ac6ed86801545656f7d045e9c1e29d602752a37ec82bd
 source_file_sha256: af77cb7195cb55158dac97bd558fdd627b9c4f702f8c6ff10ab1d2b8e7c7f2cf
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/253__Inflation_Report_3_2021_2.pdf
 ---

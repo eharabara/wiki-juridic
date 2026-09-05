@@ -6,7 +6,7 @@ sha256: dc4ed93efd19a248d9eb620d5103c06bd04edfc336adfdc557ec96572c32865e
 source_file_sha256: 20b6b32971bbb53c0545a965694501809bb3df35d5301f22e99dcc9e660ada83
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/063__Regulament_109_2019_expuneri mari_eng_1.doc
 ---

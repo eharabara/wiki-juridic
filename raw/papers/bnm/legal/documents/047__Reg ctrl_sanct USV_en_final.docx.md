@@ -6,7 +6,7 @@ sha256: 97d08f12351bc9d872298ac491a2a40f877082fb2a38611f22852050babf4eaa
 source_file_sha256: 104bccbb542b071e94422a9926d937a1b5e004b684d53bbbe832095036a7ddef
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/047__Reg ctrl_sanct USV_en_final.docx
 ---

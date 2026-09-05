@@ -6,7 +6,7 @@ sha256: 95f2c2012438c7882e0995916e8556f2c05ce3e5471624962b73df76fb262a09
 source_file_sha256: 143d4ae7a72d080b6e245f99e871742ff2d1eb0f4fb29dce237bae3151a149fa
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/215__RA_main_eng.pdf
 ---

@@ -6,7 +6,7 @@ sha256: 9ba1cadb732edafde7bfcac9838554a4e2eaf0291f50c2d22675d7fae168c134
 source_file_sha256: 5fb58f4a07eecebc791aa27a95548a8a53307925dde1e70c6b34528f4ad2e286
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/191__Regulation on insurance technical provisions, of 13_06_2023.pdf
 ---

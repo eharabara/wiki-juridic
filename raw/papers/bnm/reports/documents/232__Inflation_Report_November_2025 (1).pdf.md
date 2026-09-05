@@ -6,7 +6,7 @@ sha256: cbb3d18db93fccd27e28dd678670a9dd90643f9c05c9db6650407312a7d84420
 source_file_sha256: 857ff3b64236c52ada6b72372d7a7bce8693e9e2026770b9195b2cd56c014fba
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/232__Inflation_Report_November_2025 (1).pdf
 ---

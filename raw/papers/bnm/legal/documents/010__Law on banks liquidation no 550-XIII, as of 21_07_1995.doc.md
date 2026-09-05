@@ -6,7 +6,7 @@ sha256: cc727733ac363de77e45963ef78d3bf428447fb6efa1a110f0f572e8f84739e4
 source_file_sha256: 71090e3b48cfa4202c6caa49fae0d453123d099bb27b0d9903c03c1a9c63cd55
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/010__Law on banks liquidation no 550-XIII, as of 21_07_1995.doc
 ---

@@ -6,7 +6,7 @@ sha256: 60fb607a2d03d1ca537610f8c3a77716939c59070cb62c69ebf2fe856fdbed4e
 source_file_sha256: e4e2d2200fcb73f82b46e2d69e5c508c9690245e6f06c2fbb56cc17da9991415
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/207__Annual Report_2022_en.pdf
 ---

@@ -6,7 +6,7 @@ sha256: ca7b037dd4acf5a3cc634646bc90135243d7457ff0ca6de1d41b2f063c598c17
 source_file_sha256: a59d5651f1db4d51c412fe855454abf361b2fbd57d6c72209e9f6a3370bf21b7
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: ro
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/011__Recomandare OCDE_ro.pdf
 ---

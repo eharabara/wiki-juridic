@@ -6,7 +6,7 @@ sha256: 080bee8f3ebd6b99960fa3d149688063c964f5845a4f277a8b9ced7fb5f7a7df
 source_file_sha256: 424e356646685cd734479e23f27b8aeac6ca626c8650b2a249afe079f1a04e47
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/151__Regulament nr_12 din 11_01_2024_ENG_1.pdf
 ---

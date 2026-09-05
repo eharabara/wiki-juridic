@@ -345,17 +345,27 @@ with no basis in the source. The refreshed consolidation contains it. No action 
    - Retire or rewrite `run_cnpf_legal_lint.py`. Two of its checks are worth porting into
      `validate_wiki.py` because nothing else does them: **orphan pages** and **page-level raw
      references** (a claim cited to a whole file rather than to an article, 21 of them).
-   - **278 of the 280 validator warnings carry no information.** They are `raw.language-other` on
-     the BNM corpus from the bulk ingest of 2026-07-12, and they are mechanically resolvable: the
-     `source_record` URL states the language (`bnm.md/en/content/…` against `bnm.md/ro/content/…`)
-     and the filenames agree. One script takes the count from 280 to about 2 and makes the next
-     warning that matters visible again.
+   - Done 2026-09-05. **The 278 `raw.language-other` warnings are resolved: 262 `en`, 15 `ro`, and
+     the warning count is down from 280 to 3.** Only frontmatter changed; the declared `sha256`
+     covers the body and all 378 raw files still verify, which is the proof no body byte moved.
+     **Read this before trusting the same shortcut again.** The audit first proposed reading the
+     language off the `source_record` URL. That is wrong: BNM lists Romanian PDFs on English
+     catalogue pages and the reverse, and **ten files contradicted their own URL** — nine Romanian
+     inflation reports and presentations filed under `/en/content/`, and `ISAP1_Final_WebVersion`,
+     an English document under `/ro/content/`. The document's own text decided in every case,
+     scored by stopword frequency and Romanian diacritics, with the URL and filename recorded as
+     corroboration and overruled where they disagreed. One file keeps `language: other` honestly:
+     `236__Prezentare_RI_mai_2025.pdf.md`, a slide deck whose PDF extraction yielded 39 words and
+     no diacritics, so nothing in the file can settle it.
    - The one `raw.translation-undeclared` warning is a **false positive**:
      `raw/papers/mded-policy-2024/eu-reform-growth-facility-moldova-2024.md` is COM(2024) 469
      final, an English original of the European Commission, not a translation of a Moldovan act.
      Narrow the rule to the Moldovan and BNM roots rather than relabel a Commission document.
-   - Three orphan pages, all created by P8-bis and linked from nothing: `entities/L-239-2008.md`,
-     `entities/L-250-2017.md`, `entities/L-550-1995.md`.
+   - **Done 2026-09-05.** The three orphan pages created by P8-bis are linked now:
+     `entities/L-550-1995.md` and `entities/L-250-2017.md` from `entities/bnm.md`, and
+     `entities/L-239-2008.md` from `entities/bnm.md` and `entities/L-100-2017.md`. No page in
+     `entities/`, `concepts/`, `comparisons/` or `queries/` is now without an inbound wikilink
+     from outside `index.md`.
    - Done 2026-09-05. `Claude outputs/2026-09-05-plan-restructurare-wiki.md` was a byte-identical
      duplicate of the copy in `_meta/plans/`; the root copy is deleted and the `_meta/plans/` one
      verified intact at the same hash. **The folder itself stays, and it is worth watching.** It

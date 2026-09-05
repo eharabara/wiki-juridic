@@ -6,7 +6,7 @@ sha256: 2da56f32a80aa22a1fd32abafec8283657e2660472a0d5281f299fd150c9883e
 source_file_sha256: 4838d42392b9b094cd44c3d8674f14506cedf0d0a3d61412808da38beb187a60
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/114__Reg_conexiuni_DCU_eng.pdf
 ---

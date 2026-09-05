@@ -6,7 +6,7 @@ sha256: a876ef7625989f055ef306d4da548f14da6dace57797297fd05e7df41a6793a5
 source_file_sha256: 5f048c315a989ec87058fa23782d596861fd07f141035c95ebf892ac1b0e925c
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/053__1_en_reg exp imp b_hce165_ro_dp publ.doc
 ---

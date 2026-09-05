@@ -6,7 +6,7 @@ sha256: 5def3b877e4baefda22bc2d4a2e768493d11b42e15418d3776429e5e398264a3
 source_file_sha256: 05ac30d476fde62dd26dc5e6a970b2cbb9ac038aadea8f4c187cc3f3d94f7780
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/074__NBM Regulation No 200_2018.pdf
 ---

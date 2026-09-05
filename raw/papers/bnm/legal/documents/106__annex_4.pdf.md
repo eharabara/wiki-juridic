@@ -6,7 +6,7 @@ sha256: 96e628075ffa28be532b1dbe3292dcf57fe85145ea2dbc40fc4c981f039ba26b
 source_file_sha256: baae0eddaa8ce25b45abc3959214807e8d7785cac8f2802c9cc39201d778acdb
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/106__annex_4.pdf
 ---

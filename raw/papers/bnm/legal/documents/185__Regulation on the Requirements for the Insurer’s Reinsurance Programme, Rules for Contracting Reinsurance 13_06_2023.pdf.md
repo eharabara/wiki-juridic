@@ -6,7 +6,7 @@ sha256: 2bed8ffb1d6c0ad0f520899e6a1a5513d5255960a032789b09675df18d3c5e11
 source_file_sha256: d870461781d7f59e3c60f4af6c17897afc4ab9c71fc5203c0c0ffc8863feae43
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/185__Regulation on the Requirements for the Insurer’s Reinsurance Programme, Rules for Contracting Reinsurance 13_06_2023.pdf
 ---

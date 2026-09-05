@@ -6,7 +6,7 @@ sha256: 6eeeca1351ed263d2b408815f239bd665485c300c52692e9dd91dee52a851c3a
 source_file_sha256: a893406975a7fc8f6c46d3fae6a4495ce045532b227423c4a40479c38d6f8d3b
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/107__Reg 335 2016 actualiz cf HCE 162_ENG.pdf
 ---

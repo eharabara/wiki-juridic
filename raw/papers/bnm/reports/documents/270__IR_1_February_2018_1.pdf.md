@@ -6,7 +6,7 @@ sha256: d496c0ee60d13d563b38987767532396306c65a6c852f6b729429a275c9b08aa
 source_file_sha256: 37ec366ab62fbf378ac92e5b0846b6edb312f3a5dac89f0c867630f42e159fb6
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/270__IR_1_February_2018_1.pdf
 ---

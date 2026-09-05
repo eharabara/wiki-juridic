@@ -6,7 +6,7 @@ sha256: a960e5044b794a81dc5079a78c5b50a21613626c6afc6f5c403fd761b854750c
 source_file_sha256: 6fb8067c7f63ac49f4ee3704dcf747da466243a66ba3ae1345ffc39084886425
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/158__Reg_inspections non-bank PSP.doc
 ---

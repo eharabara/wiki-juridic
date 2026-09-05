@@ -6,7 +6,7 @@ sha256: 687481751e5840d5173ab850b0f40ca889101e3d649ceb406030aa284090b835
 source_file_sha256: 73655169490cbea79317809b91da2cbcdc36728d361cf5dccef11a310f9a1fe7
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/246__IR_February_2023 (1).pdf
 ---

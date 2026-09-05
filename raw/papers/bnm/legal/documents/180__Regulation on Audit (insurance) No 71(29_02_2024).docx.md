@@ -6,7 +6,7 @@ sha256: 7d69753d1b830a308a4a449a5b75569490df67acd4943c89eac78a8a6a7e2476
 source_file_sha256: 74d455d894b99cef7700717f4c86715dbfe4292b4044b15d8e0a6e5ea09f28c5
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/180__Regulation on Audit (insurance) No 71(29_02_2024).docx
 ---

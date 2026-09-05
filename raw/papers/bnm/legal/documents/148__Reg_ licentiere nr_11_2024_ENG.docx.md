@@ -6,7 +6,7 @@ sha256: 4dee41e33e7e8bca1e7cecba8588ef040fe6d975331df1590b5691af4e507f65
 source_file_sha256: 0bb7c8f55b889c1a61a3832377f3afdc8250081ea6a581e8855fb7fa31389e4b
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/148__Reg_ licentiere nr_11_2024_ENG.docx
 ---

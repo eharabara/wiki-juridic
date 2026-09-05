@@ -6,7 +6,7 @@ sha256: 3ed87ad16d0ddfd6248b92dcd1a77f73710bcd62ba464ed87e98ec1723a895cb
 source_file_sha256: 8ffe37a0c826c8fe33b59d5f2fa9cfe8b43d0b785c9c5c277ffaa9667007d568
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: ro
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/257__RI_4_noiembrie_2020_1.pdf
 ---

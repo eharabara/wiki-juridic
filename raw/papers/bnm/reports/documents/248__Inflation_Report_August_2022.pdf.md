@@ -6,7 +6,7 @@ sha256: 52b20996041987250f48e64797436bad42b08e0f167712e463c94e96ae115a1e
 source_file_sha256: 177219a8d36229653d181849ee6efafc03c19723d4f689640516d38f0fa82740
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/248__Inflation_Report_August_2022.pdf
 ---

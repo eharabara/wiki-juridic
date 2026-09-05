@@ -6,7 +6,7 @@ sha256: 5e66d3d71c83f99c79231c4c6f6c7ccf0cde82f0949f65b51dc8d3e8da427c88
 source_file_sha256: e0f2a719edbaa5440ce8bfdf59ccee7c977e1c43f4834cd7d21aa3a15ef70b3c
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/230__Inflation_report_february_2026.pdf
 ---

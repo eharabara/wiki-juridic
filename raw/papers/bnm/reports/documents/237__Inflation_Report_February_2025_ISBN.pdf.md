@@ -6,7 +6,7 @@ sha256: a85586c31f224e935c3791e5e2191a40cae5d29961970faed3c3c349987d8a49
 source_file_sha256: f562ffe87288e775a4414f55746935fc9f5d85ff589e28d20cf1f4ccfd747b46
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/237__Inflation_Report_February_2025_ISBN.pdf
 ---

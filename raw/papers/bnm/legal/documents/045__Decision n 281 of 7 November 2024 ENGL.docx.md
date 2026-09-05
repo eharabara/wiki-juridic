@@ -6,7 +6,7 @@ sha256: 4e73a6bde165dd8e70ad08ac68a0047367ebe6e9a19cae420cf7a8036e861dcf
 source_file_sha256: 7f1e6b68b79dd56b28774295b264c49c181ce02dfa0bac31ca06bd0d3b471891
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/045__Decision n 281 of 7 November 2024 ENGL.docx
 ---

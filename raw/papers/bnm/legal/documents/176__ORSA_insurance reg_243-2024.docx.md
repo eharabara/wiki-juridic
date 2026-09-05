@@ -6,7 +6,7 @@ sha256: e7bdd0bac29698f270bd6fb3228af83a3fbc4aaebd0d219a1228872d440b8585
 source_file_sha256: 5c1c1b9b045d9c4ae75ebbd2ac3c4075c4a2f34b6a0430d2fea590b278517a53
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/176__ORSA_insurance reg_243-2024.docx
 ---

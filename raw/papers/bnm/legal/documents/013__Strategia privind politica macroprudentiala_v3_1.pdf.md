@@ -6,7 +6,7 @@ sha256: c1abb733cb0b633ea73266188db312b9c78dc89183fbb556c56c498577305411
 source_file_sha256: b119f0434de3a5f705f804bfb684f11f0b2be65f30948414c1f49857b01e399f
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: ro
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/013__Strategia privind politica macroprudentiala_v3_1.pdf
 ---

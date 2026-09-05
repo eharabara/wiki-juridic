@@ -6,7 +6,7 @@ sha256: b89631daf89a958f7e8a76ca069a64bf80c3354aba8c37d30d39b0ce4a40ebcb
 source_file_sha256: ce3c36407315b04089d887c7751943eacc92640ebcbe6412c953fe61bee7b6c2
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/078__HCE_110_2018_Regulamentul_amortizoare de capital_modificat prin HCE 3_2025_ENG.pdf
 ---

@@ -6,7 +6,7 @@ sha256: 891c78b16297d2e711127e2d82776fc972413f4a9e3e6e0a5b657e7ce46faec5
 source_file_sha256: c82fc34fae49792579dde8661ff2496e4356f91b038ef1b0d15aef67261c0f9d
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: ro
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/266__Prezentare_BNM_13_FEBRUARIE_2019.pdf
 ---

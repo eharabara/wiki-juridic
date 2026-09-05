@@ -6,7 +6,7 @@ sha256: b9f5f31b7bf6c4c3f843230253d538be35719770e1df82223bd433e2519febd5
 source_file_sha256: 4fe300dccd03f81c48acaebd40bd8b680f46db7aed159ee2607b60046c32d7a6
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/162__6_3 HCE_AjustRegParticipantDCU_ENG _new.docx
 ---

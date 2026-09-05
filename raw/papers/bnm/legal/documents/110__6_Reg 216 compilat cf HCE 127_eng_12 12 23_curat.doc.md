@@ -6,7 +6,7 @@ sha256: 112803dac4706d4613b12985dbb498a933b8cf73ed7c14d40fdf4289a1980527
 source_file_sha256: 8e24d20740c0869b78d1f99d93d6d057be2e095929eefbc05643b222691a51fc
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/110__6_Reg 216 compilat cf HCE 127_eng_12 12 23_curat.doc
 ---

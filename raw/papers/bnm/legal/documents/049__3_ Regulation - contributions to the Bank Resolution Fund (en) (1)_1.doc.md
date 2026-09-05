@@ -6,7 +6,7 @@ sha256: 1dc6a9f9de540f715fade138560e293190056965c8b81918fe1695d09ac03556
 source_file_sha256: 1cabe63a85196cc4a6c0a57f8a9c446217c135d38645427368fa9022a9cbb416
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/049__3_ Regulation - contributions to the Bank Resolution Fund (en) (1)_1.doc
 ---

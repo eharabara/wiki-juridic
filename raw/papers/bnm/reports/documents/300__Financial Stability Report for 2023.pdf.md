@@ -6,7 +6,7 @@ sha256: 792d7c9aeae39a795c10ae0f19d77fe94bc62cc5ae5a88b582cb8200983c6579
 source_file_sha256: 81e0765e201447319a3af27d3e58bcbe42150a2628fb48182db8fcb1b7c45b64
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/300__Financial Stability Report for 2023.pdf
 ---

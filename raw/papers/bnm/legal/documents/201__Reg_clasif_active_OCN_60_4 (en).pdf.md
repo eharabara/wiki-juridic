@@ -6,7 +6,7 @@ sha256: 7b4b661de003edbf9c961fc18f89e11be12a5d995c56ae84caeedd85aacfa2bd
 source_file_sha256: c7cccc5419fb0ac2ef5ef9c599ca87c45fd6a917ea69d3b164c1e094e7cdc37d
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/201__Reg_clasif_active_OCN_60_4 (en).pdf
 ---

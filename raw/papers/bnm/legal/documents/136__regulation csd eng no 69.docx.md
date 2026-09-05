@@ -6,7 +6,7 @@ sha256: 936cef63c1ece0f57dc55a5d89618fd254fbe376d6540122daa290873213a167
 source_file_sha256: 3a80bde7670fcb5a9a58b6821ca3536c2020dbabd0d1f8171917ee4afa6657c3
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/136__regulation csd eng no 69.docx
 ---

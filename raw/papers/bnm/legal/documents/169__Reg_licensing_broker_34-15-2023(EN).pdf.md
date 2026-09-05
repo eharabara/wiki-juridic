@@ -6,7 +6,7 @@ sha256: 430b2d4dbc63fda75e59589283a100f9571d3b4b3e1849687b68b295af72fd41
 source_file_sha256: fec316b19e3e8391f390bf5ba6f47b30dd659e24e3bf03aa38cc539e85b1fd52
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/169__Reg_licensing_broker_34-15-2023(EN).pdf
 ---

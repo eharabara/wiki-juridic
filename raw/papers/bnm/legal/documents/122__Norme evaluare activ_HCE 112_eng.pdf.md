@@ -6,7 +6,7 @@ sha256: e8863c2f8ccbe9086536d02c3f5971af33ff40f5b9160abc741c6fb571ed74ef
 source_file_sha256: 7703664e72a0d57e2e35caccb357375453cf1ce2c7fd10ae2d7a6f594c7e8fd6
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/122__Norme evaluare activ_HCE 112_eng.pdf
 ---

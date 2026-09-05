@@ -6,7 +6,7 @@ sha256: 7a90ff51a47d8a22b58489782175d646711ade5c7b12ca82338674c6e8dee2af
 source_file_sha256: e7f28e8330e46f8b56a19501227f15cde4177872e3b99fe689b31841157f4903
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/160__Regulament creditare_eng_1.doc
 ---

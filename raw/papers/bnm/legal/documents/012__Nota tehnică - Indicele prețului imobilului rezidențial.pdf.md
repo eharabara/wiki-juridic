@@ -6,7 +6,7 @@ sha256: 2bc35f95480ed390e060bfc38ac31c40258593c43121818155136861cecf9574
 source_file_sha256: 1b43e58476a8445f20f9c342fafb7dda1b997c8adfa8a06ed89ae34ddf3a279d
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: ro
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/012__Nota tehnică - Indicele prețului imobilului rezidențial.pdf
 ---

@@ -6,7 +6,7 @@ sha256: aeaada27336a1b1a38959235a37da3e29df66cfe9e75e3b9fc4fef03132d734b
 source_file_sha256: 9ffbada86fce7c0fc75f43931131019a5f44cb045dfb0d7446053923bc4a12a4
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/208__Annual_Report_2021.pdf
 ---

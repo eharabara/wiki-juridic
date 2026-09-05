@@ -6,7 +6,7 @@ sha256: 769eae5b0053645cbe8545d0f032cf56d3852f807e4e6244f6bf6035dffcadc1
 source_file_sha256: e58e4490d24cafe90f861a85c882240c393c114abe582dbe66abc1f268bfb415
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/165__Regulation on SFCR no_124 of 28_05_2025 (engl) (1).pdf
 ---

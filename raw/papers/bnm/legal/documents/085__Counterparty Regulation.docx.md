@@ -6,7 +6,7 @@ sha256: afd9e47a5e9f7ff98e298ddfd748a9111873a125af23a52e38d58a728908b63b
 source_file_sha256: 1caaed6a2dd84ea20aa5b53950871aeb009d7766de03bc952ff7f1de52ddf08b
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/085__Counterparty Regulation.docx
 ---

@@ -6,7 +6,7 @@ sha256: d2186750ed51d67f84cd83b0d66c7ab542a67b03ea2b78f802209ef0b9d586a7
 source_file_sha256: 56f67f808b110684c0eb98ce7f6bf3f21a4e548c82456d01b5e85e1e783ddaa5
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/210__Annual_Report_2019_1.pdf
 ---

@@ -6,7 +6,7 @@ sha256: 5aa15001a0657f8c4ee508adfa87d7e1f26078eba4bf5f83eaacb94e2209889b
 source_file_sha256: 153be84db802ef349bf5c70825b3ce1cee7296e8019c6af45418e13e6de91491
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/183__Regulation on specialised financial statements of insurance or reinsurance undertakings is hereby approved 13_06_2023.pdf
 ---

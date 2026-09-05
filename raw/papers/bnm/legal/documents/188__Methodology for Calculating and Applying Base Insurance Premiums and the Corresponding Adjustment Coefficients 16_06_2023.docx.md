@@ -6,7 +6,7 @@ sha256: 7d87e37fcec9ad744e88ad78fd1c66f7501b37afc055e1687fe72c85b2bc4a74
 source_file_sha256: f517b74f271e82028e241868a7df126803fca9ae35543d4c48547705ea6f3c25
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/188__Methodology for Calculating and Applying Base Insurance Premiums and the Corresponding Adjustment Coefficients 16_06_2023.docx
 ---

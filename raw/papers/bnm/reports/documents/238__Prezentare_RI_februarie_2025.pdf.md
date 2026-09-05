@@ -6,7 +6,7 @@ sha256: fe1c4815c382ef4b63202c78ee92568c2606905a6fa0d17b6ee902cdce4ab6d5
 source_file_sha256: 1a80b02e7a199be8a62dd86deedf88bcd90beda3e5f5f40593239703a2babe99
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: ro
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/238__Prezentare_RI_februarie_2025.pdf
 ---

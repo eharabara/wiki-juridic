@@ -6,7 +6,7 @@ sha256: b3e12148626e7645954fdadfff5ccff29e549359045c3c267cb3420893f62e80
 source_file_sha256: a8403fce375b9e5bd0c38b852048c6daf62171b045f49d75f36d97a8fd679de4
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/128__Reg PMI_HCE 211_eng.pdf
 ---

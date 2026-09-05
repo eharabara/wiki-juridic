@@ -6,7 +6,7 @@ sha256: 7966b46ea28478d5e62535c48373626df4a3e970f84931645d0e3fd6dd33c172
 source_file_sha256: 9d84a46404d013eca30a07bbc107263b82cd7a32ae2692ded469e403f08102e2
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: ro
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/231__Prezentare_RI_februarie_2026.pdf
 ---

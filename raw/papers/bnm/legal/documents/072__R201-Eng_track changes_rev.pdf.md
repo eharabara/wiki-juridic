@@ -6,7 +6,7 @@ sha256: af8741d9bd78bd43fded02e22fb2b19ec815d8ae75082755bc996f0c2abe54d7
 source_file_sha256: 2c657c1b4d156a16176fa22c7800e8d544542eb57791092ca113316abae04602
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/072__R201-Eng_track changes_rev.pdf
 ---

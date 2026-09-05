@@ -6,7 +6,7 @@ sha256: 8db4eb04e87b3d97d9e118447b6b0d421e21d3ca33137e81c17042e17d415460
 source_file_sha256: 1b335db646b7edc9596bde2d2936d8617abd415985704c521fcbdc0321ebcf56
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/054__Financial conglomerates regulation.pdf
 ---

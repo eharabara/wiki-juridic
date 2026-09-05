@@ -6,7 +6,7 @@ sha256: 193dc4385e6d94f0c1b5199b4990a2ec209c9c3808adf881f1267322660ac7f0
 source_file_sha256: b1c8e89ae7bbfa275fe4edd97a96b13499e7f43cc3bea8c242d078a1619656d5
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/101__Annex no 3 - 16_Regulation on mergers and aquisitions.pdf
 ---

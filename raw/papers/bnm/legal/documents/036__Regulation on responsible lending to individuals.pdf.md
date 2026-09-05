@@ -6,7 +6,7 @@ sha256: 330fe159620eb99d71277640935ff8b1d1e7c31e01461d222467056ab056b288
 source_file_sha256: 5f16fe8dd20670e242a7e8c3dc2a3959d2430bfe0a00455adb6e7a345bcfc8bf
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/036__Regulation on responsible lending to individuals.pdf
 ---

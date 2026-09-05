@@ -6,7 +6,7 @@ sha256: 058d9be083455facc87559112d9e48ccc02d52a5ac4a72d833c088158902ce55
 source_file_sha256: 1458b1d88fb278434639e22c7530f436bd2038e4ec445f207e7de73a33b61547
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/142__Regulament nr_12 din 11_01_2024_ENG_1.docx
 ---

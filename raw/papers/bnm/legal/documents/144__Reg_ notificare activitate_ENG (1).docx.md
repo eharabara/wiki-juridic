@@ -6,7 +6,7 @@ sha256: 50be70d98bd9d274c95d8c0304675906de42560c30b43ffdd7bf5eb9ce4d6c66
 source_file_sha256: 35927dd6706110286853c52aa91d507816ae71c6bc9b290193ca811d9e43eb3e
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/144__Reg_ notificare activitate_ENG (1).docx
 ---

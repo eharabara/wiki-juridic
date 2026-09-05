@@ -6,7 +6,7 @@ sha256: c72c3969487931a4265a74c8e16cf2459511911fc1252ea1eaa830899fdb1fab
 source_file_sha256: 1aa3fadea82962dcd871158d994c0aab4dc71ce92ca21956ecf3a7d56a6d60b2
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/097__3 Reg lichid eng.docx
 ---

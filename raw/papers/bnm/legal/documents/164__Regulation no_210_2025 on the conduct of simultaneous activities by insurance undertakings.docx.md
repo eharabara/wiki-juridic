@@ -6,7 +6,7 @@ sha256: 5298f3bf3d50573be606f05e4631814d4010ce0b64b247a327e221b76c305b0b
 source_file_sha256: e8043606f990a9b4c055ad37abe0d426656ba0528d4389eaa9912c4feabb0c32
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/164__Regulation no_210_2025 on the conduct of simultaneous activities by insurance undertakings.docx
 ---

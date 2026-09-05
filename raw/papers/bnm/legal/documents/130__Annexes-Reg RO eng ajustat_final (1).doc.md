@@ -6,7 +6,7 @@ sha256: fca89d65f57f9b1edbdfed5058345859246058263ec47abf8033c7721471b8fe
 source_file_sha256: c827e805503fbc44419dc20e9e4f3c24172ff6147985d7b08a6953a8bd4e3b9b
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/130__Annexes-Reg RO eng ajustat_final (1).doc
 ---

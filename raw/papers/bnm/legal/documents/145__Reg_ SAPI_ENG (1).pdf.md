@@ -6,7 +6,7 @@ sha256: 9f27570d44c100d2a2b143c567d0c9789c995b58633a98e7c2c62a79c80ac520
 source_file_sha256: 8b785343665b2ca7a89b3a40af8c3b149d3a979da02a43a524615365324c7a87
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/145__Reg_ SAPI_ENG (1).pdf
 ---

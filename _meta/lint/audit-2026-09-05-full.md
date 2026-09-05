@@ -189,11 +189,29 @@ against this vault, sitting outside every validated path. That also accounts for
 CLAUDE.md already warns that more than one agent writes here; this is what that looks like in
 practice. Deciding where that output belongs is a judgement call for Eugen, not a lint fix.
 
-**E2 — 278 of the 280 validator warnings carry no information.** They are `raw.language-other` on
-the BNM corpus, all from the bulk ingest of 2026-07-12. They are mechanically resolvable: the
-`source_record` URL states the language (`bnm.md/en/content/…` vs `bnm.md/ro/content/…`), and the
-filenames agree (`Annual_Report_2024.pdf` → en, `Recomandare OCDE_ro.pdf` → ro). Setting them
-would take the warning count from 280 to about 2 and make the next warning that matters visible.
+**E2 — 278 of the 280 validator warnings carried no information. Fixed 2026-09-05.**
+They were `raw.language-other` on the BNM corpus, all from the bulk ingest of 2026-07-12.
+**Now: 262 `en`, 15 `ro`, one honestly left as `other`. The warning count is 280 → 3.**
+Only the single `language:` line changed in each file; all 378 raw sha256 still verify, which is
+the proof that no body byte moved.
+
+**The method matters more than the result, because this section originally recommended the wrong
+one.** It said the `source_record` URL settles the language. It does not: BNM lists Romanian PDFs
+on English catalogue pages and the reverse, and **ten files contradicted their own URL**:
+
+| file | URL says | document is |
+|---|---|---|
+| `014__ISAP1_Final_WebVersion.pdf.md` | ro | **en** — body opens `TABLE OF CONTENTS / Preface / Section 1. General` |
+| `252__RI_4_2021.pdf.md` and 8 more inflation reports/presentations | en | **ro** — body opens `Raport asupra inflației, noiembrie 2021` |
+
+Had the URL been trusted, ten files would have been mislabelled with full confidence. The
+document's own text decided instead — stopword frequency plus Romanian diacritic count — with the
+URL and filename kept only as corroboration and overruled where they disagreed. Every conflict was
+checked by eye before applying.
+
+One file keeps `other`, correctly: `236__Prezentare_RI_mai_2025.pdf.md` is a slide deck whose PDF
+text extraction produced 39 words and no diacritics (the body reads `1 ± 2`). Nothing in the file
+can settle its language, and `other` is the honest value rather than a guess dressed as a fact.
 
 **E3 — the one `raw.translation-undeclared` warning is a false positive.**
 `raw/papers/mded-policy-2024/eu-reform-growth-facility-moldova-2024.md` is COM(2024) 469 final,

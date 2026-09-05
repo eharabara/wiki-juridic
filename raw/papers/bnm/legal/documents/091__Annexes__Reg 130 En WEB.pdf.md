@@ -6,7 +6,7 @@ sha256: 3c732bda7844e04291426cfac163d018f3cb4827ddc8808e34eef916d0e89bb4
 source_file_sha256: 955af007bfec2e8cafbcfd90eb8606206046ab3a6effdc2ddb643831a08977e3
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/091__Annexes__Reg 130 En WEB.pdf
 ---

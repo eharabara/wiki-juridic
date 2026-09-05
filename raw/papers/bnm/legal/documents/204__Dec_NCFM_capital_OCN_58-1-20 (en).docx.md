@@ -6,7 +6,7 @@ sha256: c9acc2a1bbc208a7844082c138cd12643ed421980085de2653d6f9afe3be38fc
 source_file_sha256: e27b9e324139db8ac7214ea49ff405295e6ff9d168d6fb5119fadecaa66ae506
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/204__Dec_NCFM_capital_OCN_58-1-20 (en).docx
 ---

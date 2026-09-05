@@ -6,7 +6,7 @@ sha256: 1b27a87b0ba9adc55815bfa2705f7c8b58fe7b3a0c29d6166f0b140161462c98
 source_file_sha256: 03b7162e137ce68e2a68c572e91edcaa68f71ee468a65bf5cd9a2b75665cc081
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/154__Regulament participatiuni_EN.docx
 ---

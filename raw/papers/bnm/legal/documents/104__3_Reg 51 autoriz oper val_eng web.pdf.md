@@ -6,7 +6,7 @@ sha256: c35640a4f67e7b0da61a8bd9b32f1670f6080e5701d8f13428205ac6907b357b
 source_file_sha256: c238b39df11d14a3da714df522d4ede42e20b2555a14139de1c223dec9b0fb10
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/104__3_Reg 51 autoriz oper val_eng web.pdf
 ---

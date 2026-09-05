@@ -6,7 +6,7 @@ sha256: eeb2a21b14cb71c78213a2aa43bfdbc260b7ec7a703efcd68191aedfc044dac6
 source_file_sha256: 31c8c915ec0d7ed54db42e7af9b474051309f8532764bf8d15fd139ffc78b9bb
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/189__Decision No_ 262 of 23_05_2023 on the approval of the Regulation on the Requirements Regarding the Persons Holding Management Positions.pdf
 ---

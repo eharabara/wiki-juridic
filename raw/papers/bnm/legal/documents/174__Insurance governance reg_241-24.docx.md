@@ -6,7 +6,7 @@ sha256: a41a52a8c2da0261ecf9b1c544505bbe97600e8dc6c2014185007d0db6239d47
 source_file_sha256: 1fa211ce49edadc051d3add8631aedc92c9d2a8e70627fdc20a74bfc426e49f4
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/174__Insurance governance reg_241-24.docx
 ---

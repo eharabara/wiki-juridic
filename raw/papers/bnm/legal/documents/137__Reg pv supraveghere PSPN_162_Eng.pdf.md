@@ -6,7 +6,7 @@ sha256: 92e8e0b9ad65732f025a09bb6f884e547dab8094983e8433f8a93c9273189b25
 source_file_sha256: d57bd85a882a6eec95775987a507666833a9b98fd9fe18cc6988c58a2dd0db86
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/137__Reg pv supraveghere PSPN_162_Eng.pdf
 ---

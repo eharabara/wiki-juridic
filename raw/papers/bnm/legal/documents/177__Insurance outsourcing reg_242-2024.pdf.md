@@ -6,7 +6,7 @@ sha256: 003be2d2f5c428ccb12d8c7a459fbac53bc210d0461f3b8339c4caa7fe3f6f5d
 source_file_sha256: 15bcea598ccbbed8f648aab36a89bf98d7a8c1477ea145e022f79f23fe27776e
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/177__Insurance outsourcing reg_242-2024.pdf
 ---

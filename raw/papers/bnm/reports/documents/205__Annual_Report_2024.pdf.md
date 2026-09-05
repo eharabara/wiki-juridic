@@ -6,7 +6,7 @@ sha256: 48f6ac72161ce2e01cd4e8b41741fff3885a90b820ba08c7a515c55250874fa2
 source_file_sha256: 2d3ece3dd53584225e9f6c8db32d353289188850aa418adc5790cd3371c2968d
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/205__Annual_Report_2024.pdf
 ---

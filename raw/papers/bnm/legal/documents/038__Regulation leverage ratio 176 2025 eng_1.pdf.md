@@ -6,7 +6,7 @@ sha256: 85cefc9b3d48fd0362a868d3be4f04e3a102c4bbc84d61fa621d7284a67464d9
 source_file_sha256: 96c305c78dabe347b848ec724592a176d2ba00bf68e292e55a5c393eb2e91ad4
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/038__Regulation leverage ratio 176 2025 eng_1.pdf
 ---

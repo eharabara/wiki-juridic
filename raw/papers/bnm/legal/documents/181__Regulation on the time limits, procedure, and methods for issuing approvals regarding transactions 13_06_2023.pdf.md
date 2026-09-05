@@ -6,7 +6,7 @@ sha256: 8e98a7fccb0de2226f49dbc8743c3d2d2964833f073f256f7c8b1856ca8d3b50
 source_file_sha256: 7ae968aae0b1fe9dca1eceb582f617dbba2dce09612a3ebe868c74131a9fe3c5
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/181__Regulation on the time limits, procedure, and methods for issuing approvals regarding transactions 13_06_2023.pdf
 ---

@@ -6,7 +6,7 @@ sha256: 9a88c4717d4238569adebff4f62ac1a6c30aed082733f343dacea5defc9cbcfc
 source_file_sha256: 201cc34f0b1cedc8d195432a6b48e624d1314dea8937190220dcf44edc348ca2
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/086__Annexes - 3 Reg risc operational_AG_En dp IScerb.pdf
 ---

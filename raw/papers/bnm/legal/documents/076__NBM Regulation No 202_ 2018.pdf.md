@@ -6,7 +6,7 @@ sha256: ed2a7b8218298fa0bc5516a5ee4a10361b47cff657c49da36e4290b16096e462
 source_file_sha256: 181f882268c2d27327e9d9d40048ee988769a47865cac7b67cfb1541f51c2f4f
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/076__NBM Regulation No 202_ 2018.pdf
 ---

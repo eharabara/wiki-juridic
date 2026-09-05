@@ -6,7 +6,7 @@ sha256: 080ac91b4519f2d36e563bb4cf7d33d0cc49bf00807d08a94bc765d212212595
 source_file_sha256: df4ea5db953e99ad3f8e6c61381b10bda63fa2b54daf165c81cedf3fcd1f0d4e
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/reports/original/241__Inflation_Report_May_2024_ISBN.pdf
 ---

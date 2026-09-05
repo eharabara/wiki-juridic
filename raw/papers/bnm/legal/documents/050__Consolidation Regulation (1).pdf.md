@@ -6,7 +6,7 @@ sha256: 384d234bdadade232186ef66a695db10999281e97223716bf6fdf8f65e76d489
 source_file_sha256: f5f1723ac9b60c286cfb938c9cbba09b0e824cd9a7bfa3d334f15b5a3e1ab79c
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/050__Consolidation Regulation (1).pdf
 ---

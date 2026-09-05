@@ -6,7 +6,7 @@ sha256: 8329d03e8245cd980ecb82fb4935d7f8667c5a314f33823e8647c1bb7b73c30b
 source_file_sha256: af6dc3b2f1071d4925f04364edf9f20da73db30c11e8bb08f0d01fd31161feaf
 source_type: legal-text
 publisher: Banca Națională a Moldovei
-language: other
+language: en
 extraction_status: text-extracted
 archived_original: raw/papers/bnm/legal/original/172__Reg_ reg-lic_insurance 31-1-2023(EN).docx
 ---
