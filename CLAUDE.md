@@ -69,7 +69,14 @@ article from a future-dated act, and say in the answer which version applies tod
   with `_PROVENANCE.md`. Frozen. `queries/` is empty until a real query page is written.
 - `_meta/coverage/` — the script that generates the coverage section of this file.
 - `_meta/inforce/` — the register of provisions not yet in force, and the script that builds it.
-- `_meta/lint/` — the lint scripts and their outputs.
+- `_meta/lint/` — the lint scripts and their outputs. **Do not run
+  `run_cnpf_legal_lint.py`.** It is the July script and it has not survived the D4 rewrite of
+  SCHEMA.md: it reports all 757 page tags invalid (its allowlist scrapes a format that no longer
+  exists, so it comes back empty), calls the ten explicit `_archive/` wikilinks broken (it predates
+  `path_only_targets`), reads only `raw/papers/cnpf/`, and — the reason not to run it — **appends a
+  D8-breaking entry to `log.md` and rewrites the file to CRLF** every time. Its committed reports
+  from 9 July, 4 and 5 September are kept as history; read them with that in mind. The findings are
+  in `_meta/lint/audit-2026-09-05-full.md`, section A. `validate_wiki.py` is the live checker.
 - `_meta/imports/` — the ingestion and anchoring scripts.
 - `_meta/plans/` — working plans and recorded gaps.
 - `_archive/cnpf-wiki-ro-2026-07/` — the July ancestor of this wiki, kept for its original
@@ -163,18 +170,45 @@ Do not resolve these on your own. Raise them if a matter touches them.
    `[Art.15 al.(11)...]` are probably alin. (1¹). Nobody has checked the paragraph layer. A
    paragraph citation can therefore be as corrupted as an article citation used to be.
 
-3. **Two numbering gaps in the codes have no basis at all in the source.** `COD-154-2003`
-   (muncii) is missing **arts. 226 to 244**, 19 in a row, with no marker of any kind between
-   art. 225 and art. 245. `COD-218-2008` (contravențional) is missing **art. 441**, the numbering
-   running 440, 440^1, 442. Every other absence across the eleven codes *is* explained, by an
-   individual marker, a range marker (`Articolul 397- 422 – abrogate.`) or a chapter/section
-   marker. Marked `[de verificat]` against legis.md.
+   Related, found 2026-09-05, and a trap for any script that reads article numbers: `COD-1163-1997`
+   line 2300 carries `## Articolul 54^1/1. Perioada fiscală`. It is the **only** `N^X/Y` article
+   number in the vault. The pattern used everywhere else, `Articolul (\d+(?:\^\d+)?)`, truncates it
+   to `54^1` and so collides with the real art. 54^1 at line 2285: a search for art. 54^1 returns
+   two different articles. Check the ingest and any citation helper before relying on that pattern.
 
-4. **A typo in the source hides a repeal.** `COD-225-2003` art. 78 carries
-   `Aricolul 78. – abrogat.`, missing the `t`. The repeal is recorded, but the line does not match
-   the `Articolul N` form, so it takes no anchor and art. 78 reads as an unexplained gap. Not
-   corrected, because rewriting legal text is forbidden here. Searching `## Articolul 78` in that
-   file returns nothing, which is the trap.
+3. **Numbering gaps with no basis at all in the source.** Counted mechanically across all 49
+   anchored acts by the audit of 2026-09-05 (`_meta/lint/audit-2026-09-05-full.md`, section B):
+   **31 gap runs, 16 explained, 15 unexplained, 51 articles absent with no marker.** A gap counts
+   as explained only where an article-level or higher marker sits between the surrounding anchors
+   (an individual `[Art.NNNN abrogat prin LP...]`, a range marker `Articolul 397- 422 – abrogate.`,
+   or `Capitolul 10 - abrogat.`). A paragraph-level `(3) - abrogat.` explains nothing about a
+   missing article, and a bare `## Capitolul V` heading with no repeal word explains nothing either.
+   All are marked `[de verificat]` against legis.md.
+
+   | act | absent | |
+   |---|---|---|
+   | `L-234-2016` | **art. 24, arts. 27-35** (10) | Depozitarul central unic, CNPF perimeter. Anchors run 1-23, 25, 26, 36-47; between art. 26 and art. 36 sits only `## Capitolul V`, a chapter heading, not a repeal. The coverage table calls this act "37 articles, 37 anchors, clean", which is true mechanically while the numbering runs to 47 with two holes in it. **Look at this one first: it can change an answer about the CNPF perimeter.** |
+   | `COD-154-2003` | **arts. 226-244** (19), **arts. 374-382** (9) | Muncii. The second run was found on 2026-09-05; only the first was recorded before. |
+   | `COD-218-2008` | **art. 441** | Contravențional; the numbering runs 440, 440^1, 442. |
+   | `COD-225-2003` | **art. 78** | Explained in the source but invisible to the anchor pattern — see item 4. |
+   | `L-100-2017` | **art. 52** | Present in the text, invisible to the anchor pattern — see item 4. |
+   | `L-220-2007` | **art. 6** | Only `## Capitolul II` between arts. 5 and 7. |
+   | `L-845-1992` | **arts. 21, 31** | Nothing at all between the neighbours. |
+   | `L-548-1995` | **arts. 12, 13, 29, 30, 48, 54, 73** | See item 6. |
+
+4. **A misspelling in the source makes an article invisible.** Two instances, both left
+   uncorrected because rewriting legal text is forbidden here. In each case searching
+   `## Articolul N` returns nothing, which is the trap, and the article reads as an unexplained
+   gap in item 3.
+
+   - `COD-225-2003` art. 78 carries `Aricolul 78. – abrogat.`, missing the `t`. The repeal is
+     recorded; the line simply does not match the `Articolul N` form, so it takes no anchor.
+   - `L-100-2017` art. 52, file line 531, carries `Articol 52. Punctul` — `Articol`, without the
+     `-ul`. Found by the audit of 2026-09-05. This one matters more than the average article:
+     art. 52 of the law on normative acts is the provision governing **puncte**, which is how
+     every HG in this vault is cited, and section M of the moldova-legal manifest already warns
+     that a citation to "pct. N" is not anchored. The article is present in full; only the
+     anchor is missing.
 
 5. **The English BNM corpus is unanchored.** The generated flags give the current count. Decided
    on 2026-09-05 (decision D2 of the restructuring plan): a translation never carries an anchor.
@@ -205,9 +239,26 @@ with no basis in the source. The refreshed consolidation contains it. No action 
    consolidations, and hashes the assembled file. Verify with `verify_business_law.py` in the same
    folder. Do not add general law or codes to the CNPF script's `DOCS`: it writes into
    `raw/papers/cnpf/`, the wrong perimeter.
-2. Decide whether to unwrap the Civil Code body. 60.2 percent of its non-empty lines continue
-   mid-sentence, so a quoted passage needs rejoining by hand. Separate operation, own backup and
-   own diff.
+2. **Decide whether to unwrap the wrapped bodies. Not the Civil Code: it is already clean.**
+   Corrected 2026-09-05 after measuring the files rather than trusting this line. `CC-1107-2002`
+   has **22 mid-sentence continuations out of 13,190 non-empty lines, 0.2 percent**, and no anchor
+   whose title is cut by a line break. The "60.2 percent" figure written here predates the clean
+   re-ingest of 4 September and was never updated. The concern is real but belongs to the other
+   acts, measured excluding enumerations (`a)`, `(1)`, …):
+
+   | act | non-empty lines | true continuations | |
+   |---|---:|---:|---:|
+   | `COD-985-2002` (penal) | 4,827 | 1,338 | **27.7%** |
+   | `L-62-2022` (publicitate) | 705 | 82 | 11.6% |
+   | `L-171-2012` (piața de capital) | 2,364 | 162 | 6.9% |
+   | `CC-1107-2002` (civil) | 13,190 | 22 | 0.2% |
+
+   Corpus-wide, **3,097 anchors carry a title cut in half by a line break**, and every one of the
+   42 anchored acts is affected: worst in `COD-218-2008` (466), `COD-122-2003` (301),
+   `COD-985-2002` (276), `COD-95-2021` (205), `COD-1163-1997` (203). The practical harm is that a
+   title search fails and a quoted heading is incomplete — `## Articolul 7. Stabilirea, modificarea
+   şi anularea` in Codul fiscal loses `impozitelor şi taxelor de stat şi locale` to the next line.
+   Separate operation, own backup and own diff.
 3. Done 2026-09-05. `entities/L-177-2025.md` exists, and the raw-path references in the two code
    pages and in `emir-concordance-skeleton` are now wikilinks. Checked mechanically at the same
    time, not assumed: every primary act under `raw/papers/cnpf/` and `raw/papers/moldova-legal/`
@@ -285,6 +336,29 @@ with no basis in the source. The refreshed consolidation contains it. No action 
    question 5). The plan is complete. P8-bis, the three acts whose English translations had no
    Romanian text (550/1995, 250/2017, 239/2008), was done the same day; note that 550/1995 is the
    gutted former law on financial institutions, with only arts. 1-3 and 38^1-38^17 in force.
+6. **From the full lint audit of 2026-09-05** (`_meta/lint/audit-2026-09-05-full.md`). The vault
+   passed every generated check — validator 0 errors, coverage, SCHEMA and the in-force register
+   all current, 378 raw sources with sha256 verified — and no structured page cites any of the 47
+   provisions that are not yet in force, which is the check that matters most. What the audit left
+   open, in the order it recommends:
+   - The gaps in open question 3, `L-234-2016` first, and the art. 52 anchor in open question 4.
+   - Retire or rewrite `run_cnpf_legal_lint.py`. Two of its checks are worth porting into
+     `validate_wiki.py` because nothing else does them: **orphan pages** and **page-level raw
+     references** (a claim cited to a whole file rather than to an article, 21 of them).
+   - **278 of the 280 validator warnings carry no information.** They are `raw.language-other` on
+     the BNM corpus from the bulk ingest of 2026-07-12, and they are mechanically resolvable: the
+     `source_record` URL states the language (`bnm.md/en/content/…` against `bnm.md/ro/content/…`)
+     and the filenames agree. One script takes the count from 280 to about 2 and makes the next
+     warning that matters visible again.
+   - The one `raw.translation-undeclared` warning is a **false positive**:
+     `raw/papers/mded-policy-2024/eu-reform-growth-facility-moldova-2024.md` is COM(2024) 469
+     final, an English original of the European Commission, not a translation of a Moldovan act.
+     Narrow the rule to the Moldovan and BNM roots rather than relabel a Commission document.
+   - Three orphan pages, all created by P8-bis and linked from nothing: `entities/L-239-2008.md`,
+     `entities/L-250-2017.md`, `entities/L-550-1995.md`.
+   - `Claude outputs/2026-09-05-plan-restructurare-wiki.md` is a byte-identical duplicate of the
+     copy in `_meta/plans/`, tracked in git, sitting outside every folder the spec validates.
+     Delete the root copy.
 
 ## Keeping this file true
 
