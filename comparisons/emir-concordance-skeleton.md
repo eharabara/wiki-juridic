@@ -3,6 +3,7 @@ title: EMIR concordance skeleton — Regulamentul (UE) 648/2012 vs dreptul Moldo
 created: '2026-07-09'
 updated: '2026-09-05'
 type: comparison
+perimeter: legal
 tags:
 - moldova
 - comparison

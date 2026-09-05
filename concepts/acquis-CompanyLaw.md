@@ -3,6 +3,7 @@ title: acquis-CompanyLaw — Dreptul societăților UE (2017/1132 + SRD II 2017/
 created: '2026-07-09'
 updated: '2026-07-09'
 type: concept
+perimeter: legal
 tags:
 - moldova
 - concept

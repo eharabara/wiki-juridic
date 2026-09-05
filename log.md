@@ -27,3 +27,15 @@
 - **Aflat:** paginile EMIR erau citate în mai multe locuri decât spunea planul: 11 locuri în `emir-concordance-skeleton`, 7 în `acquis-CSDR-EMIR`, cinci intrări în `index.md`, trei rânduri în manifestul CNPF și două în nota scheletului DOCX. Rapoartele de lint din `_meta/lint/` le citează și ele, ca ieșiri istorice. Folderul parazit din rădăcină avea numele `C:\Users\harab\wiki` cu `:` și `\` înlocuite de MSYS prin U+F03A și U+F05C, deci arăta ca o cale reală în Explorer. Jurnalul vechi începe la 2026-07-08, nu la 2026-07-09 cum spunea planul, așa că arhiva poartă data reală.
 - **Decis:** Eugen a confirmat lista exactă de mutări și ștergeri. Wikilink-urile din stratul structurat trimit explicit la `_archive/emir-2026-07/`, cu alias, ca textul să se citească la fel. Rapoartele de lint nu se editează. `queries/` rămâne ca folder gol, cu `.gitkeep`. Cele două fișiere din `raw/` cu legături EMIR: punct deschis 3, în așteptarea răspunsului.
 - **Unde:** `_archive/emir-2026-07/_PROVENANCE.md`; `_meta/log/2026-07-08.md`; `entities/bnm.md` (trei căi corectate spre `raw/papers/bnm/legal/documents/`).
+
+## [2026-09-05] update | punctul deschis 3: legăturile EMIR din `raw/` rămân neatinse
+
+- **Aflat:** Obsidian rezolvă wikilink-urile după numele fișierului, oriunde în vault, deci cele cinci legături din manifestul CNPF și din nota scheletului DOCX funcționează după mutare fără nicio editare. Alegerea era doar de principiu.
+- **Decis:** Eugen a acceptat varianta strictă: `raw/` rămâne imuabil fără excepții, redirecționarea e declarată în `_PROVENANCE.md`, iar verificatorul primește excepția din tabelul de acolo.
+- **Unde:** `_archive/emir-2026-07/_PROVENANCE.md`, secțiunea „Ce trimite încă la ele din raw/”.
+
+## [2026-09-05] update | P4: câmpul `perimeter` pe cele 82 de pagini
+
+- **Aflat:** clasificarea iese mecanic din surse: paginile ancorate în `raw/papers/cnpf`, `moldova-legal` sau `bnm` sunt juridice, cele din `moldova-policy` sau `mded-policy-2024` sunt de politici. Un singur caz mixt, `L-845-1992`, care citează și planul de reglementări 2025; e act primar, deci juridic. Rezultat: 64 `legal`, 18 `policy`. Cele cinci pagini EMIR arhivate nu primesc câmpul, sunt înghețate.
+- **Decis:** câmpul se inserează imediat după `type:`. `updated` nu se ridică, pentru că nu s-a schimbat conținut, doar metadate, și git ține schimbarea. Dovada: pentru fiecare pagină, corpul de după frontmatter e identic byte cu byte, iar frontmatter-ul diferă exact printr-o linie.
+- **Unde:** commit-ul P4; regula intră în `_meta/schema/schema-spec.yaml` la P5.

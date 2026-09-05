@@ -3,6 +3,7 @@ title: Guvernanța și implementarea Planului de creștere al Moldovei
 created: 2026-07-12
 updated: 2026-07-12
 type: concept
+perimeter: policy
 tags: [moldova, eu, accession, governance, monitoring, concept]
 sources: [raw/papers/mded-policy-2024/eu-reform-growth-facility-moldova-2024.md, raw/papers/mded-policy-2024/eu-moldova-growth-plan-communication-2024.md]
 confidence: high

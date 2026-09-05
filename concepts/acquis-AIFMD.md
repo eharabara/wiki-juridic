@@ -3,6 +3,7 @@ title: acquis-AIFMD — Administratori de fonduri de investiții alternative
 created: '2026-07-09'
 updated: '2026-07-09'
 type: concept
+perimeter: legal
 tags:
 - moldova
 - concept

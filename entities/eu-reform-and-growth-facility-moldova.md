@@ -3,6 +3,7 @@ title: EU Reform and Growth Facility for Moldova
 created: 2026-07-12
 updated: 2026-07-12
 type: entity
+perimeter: policy
 tags: [moldova, eu, accession, donor, programme-design, entity]
 sources: [raw/papers/mded-policy-2024/eu-reform-growth-facility-moldova-2024.md, raw/papers/mded-policy-2024/eu-moldova-growth-plan-communication-2024.md]
 confidence: high

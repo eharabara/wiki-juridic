@@ -3,6 +3,7 @@ title: Metoda de transpunere a acquis-ului UE în dreptul Republicii Moldova
 created: '2026-07-09'
 updated: '2026-07-09'
 type: concept
+perimeter: legal
 tags:
 - moldova
 - concept

@@ -3,6 +3,7 @@ title: BNM official document corpus — July 2026
 created: 2026-07-12
 updated: 2026-07-12
 type: entity
+perimeter: legal
 tags: [moldova, bnm, legal-source, statistics, monitoring, source-note, entity]
 sources: [raw/papers/bnm/_manifest.md, raw/papers/bnm/legal/_manifest.md, raw/papers/bnm/reports/_manifest.md, raw/papers/bnm/BNM_LEGISLATION_INVENTORY.md, raw/papers/bnm/BNM_REPORTS_INVENTORY.md]
 confidence: high

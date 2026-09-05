@@ -3,6 +3,7 @@ title: Foaia de parcurs pentru finanțare durabilă 2024–2028
 created: 2026-07-12
 updated: 2026-07-12
 type: entity
+perimeter: policy
 tags: [moldova, financial-services, investment, methodology, entity]
 sources: [raw/papers/mded-policy-2024/foaia-de-parcurs-finantare-durabila-2024-2028.md]
 confidence: high

@@ -3,6 +3,7 @@ title: acquis-CSDR-EMIR — Infrastructură post-tranzacționare (CSDR / EMIR)
 created: '2026-07-09'
 updated: '2026-09-05'
 type: concept
+perimeter: legal
 tags:
 - moldova
 - concept

@@ -3,6 +3,7 @@ title: Banca Națională a Moldovei (BNM)
 created: 2026-07-12
 updated: 2026-09-05
 type: entity
+perimeter: legal
 tags: [moldova, bnm, institution, financial-services, financial-supervision, legal-source, entity]
 sources: [raw/papers/bnm/legal/documents/001__Law on the National Bank of Moldova no_ 548-XIII of July 21 1995_02_08_2024_2.pdf.md, raw/papers/bnm/BNM_LEGISLATION_INVENTORY.md, raw/papers/bnm/BNM_REPORTS_INVENTORY.md]
 confidence: high

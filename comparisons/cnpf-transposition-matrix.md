@@ -4,6 +4,7 @@ title: Matricea lacunelor de transpunere și aproximare — Piața de capital (C
 created: '2026-07-09'
 updated: '2026-07-09'
 type: comparison
+perimeter: legal
 tags:
 - moldova
 - comparison

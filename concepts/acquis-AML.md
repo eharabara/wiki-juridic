@@ -3,6 +3,7 @@ title: acquis-AML — Prevenirea spălării banilor (AMLD 2015/849 → pachetul 
 created: '2026-07-09'
 updated: '2026-07-09'
 type: concept
+perimeter: legal
 tags:
 - moldova
 - concept

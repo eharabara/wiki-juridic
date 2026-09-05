@@ -22,7 +22,17 @@ Sunt artefacte de redactare pentru un proiect de lege, nu răspunsuri la întreb
 
 ## Ce trimite încă la ele din `raw/`
 
-Două fișiere din `raw/papers/cnpf/` le citează prin wikilink: `_manifest.md` (rândurile pentru `md-2026-07-03-schelet-lege-emir`, `UE-648-2012-priority-articles-2026-07-09` și `md-2026-07-09-proiect-lege-emir-completat`) și `md-2026-07-03-schelet-lege-emir.md` (două locuri). Tratamentul lor este punctul deschis 3 din plan și se consemnează mai jos când e decis.
+Două fișiere din `raw/papers/cnpf/` le citează prin wikilink: `_manifest.md` (rândurile pentru `md-2026-07-03-schelet-lege-emir`, `UE-648-2012-priority-articles-2026-07-09` și `md-2026-07-09-proiect-lege-emir-completat`) și `md-2026-07-03-schelet-lege-emir.md` (două locuri). Decizie (Eugen, 2026-09-05, punctul deschis 3 din plan): **cele două fișiere nu se editează.** Regula „`raw/` este imuabil” rămâne fără excepții. Legăturile lor sunt **redirecționate declarat** aici:
+
+| Din | Legătura | Ținta reală |
+|---|---|---|
+| `raw/papers/cnpf/_manifest.md` | `[[verificare-schelet-lege-emir-2026-07-03]]` | `_archive/emir-2026-07/verificare-schelet-lege-emir-2026-07-03.md` |
+| `raw/papers/cnpf/_manifest.md` | `[[emir-concordance-skeleton]]` | `comparisons/emir-concordance-skeleton.md` (nemutat) |
+| `raw/papers/cnpf/_manifest.md` | `[[emir-draft-complet-2026-07-10]]` | `_archive/emir-2026-07/emir-draft-complet-2026-07-10.md` |
+| `raw/papers/cnpf/_manifest.md` | `[[emir-audit-conformitate-lege100-hg1171-2026-07-10]]` | `_archive/emir-2026-07/emir-audit-conformitate-lege100-hg1171-2026-07-10.md` |
+| `raw/papers/cnpf/md-2026-07-03-schelet-lege-emir.md` (două locuri) | `[[verificare-schelet-lege-emir-2026-07-03]]` | `_archive/emir-2026-07/verificare-schelet-lege-emir-2026-07-03.md` |
+
+Obsidian rezolvă wikilink-urile după numele fișierului, deci ele funcționează și fără editare. Verificatorul (`_meta/schema/validate_wiki.py`) tratează wikilink-urile din `raw/` către pagini din `_archive/` ca excepție declarată, pe baza acestui tabel.
 
 ## Statut
 

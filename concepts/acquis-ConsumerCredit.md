@@ -3,6 +3,7 @@ title: acquis-ConsumerCredit — Creditul de consum (2008/48/CE → CCD2 2023/22
 created: '2026-07-09'
 updated: '2026-07-09'
 type: concept
+perimeter: legal
 tags:
 - moldova
 - concept

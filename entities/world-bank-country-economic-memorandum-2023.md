@@ -3,6 +3,7 @@ title: Moldova Country Economic Memorandum 2023
 created: 2026-07-12
 updated: 2026-07-12
 type: entity
+perimeter: policy
 tags: [moldova, economic-policy, macroeconomics, competitiveness, entity]
 sources: [raw/papers/mded-policy-2024/world-bank-country-economic-memorandum-2023.md]
 confidence: high

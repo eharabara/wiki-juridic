@@ -3,6 +3,7 @@ title: Funcționarea piețelor de produse și dereglementarea
 created: 2026-07-12
 updated: 2026-07-12
 type: concept
+perimeter: policy
 tags: [moldova, accession, regulatory-reform, competitiveness, concept]
 sources: [raw/papers/mded-policy-2024/economic-criteria-deregulation-2024.md, raw/papers/mded-policy-2024/bilateral-screening-economic-criteria-2024.md]
 confidence: medium

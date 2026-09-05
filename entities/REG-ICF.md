@@ -3,6 +3,7 @@ title: REG-ICF — Regulamentul Fondului de compensare a investitorilor
 created: '2026-07-09'
 updated: '2026-07-09'
 type: entity
+perimeter: legal
 tags:
 - moldova
 - entity

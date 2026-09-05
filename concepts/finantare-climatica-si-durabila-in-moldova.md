@@ -3,6 +3,7 @@ title: Finanțare climatică și durabilă în Moldova
 created: 2026-07-12
 updated: 2026-07-12
 type: concept
+perimeter: policy
 tags: [moldova, financial-services, investment, methodology, concept]
 sources: [raw/papers/mded-policy-2024/foaia-de-parcurs-finantare-durabila-2024-2028.md, raw/papers/mded-policy-2024/studiu-finantare-climatica-moldova-2024.md]
 confidence: medium

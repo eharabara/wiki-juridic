@@ -3,6 +3,7 @@ title: acquis-Transparency — Directiva privind transparența
 created: '2026-07-09'
 updated: '2026-07-09'
 type: concept
+perimeter: legal
 tags:
 - moldova
 - concept

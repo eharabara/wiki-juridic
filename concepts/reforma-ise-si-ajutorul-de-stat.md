@@ -3,6 +3,7 @@ title: Reforma întreprinderilor de stat și ajutorul de stat
 created: 2026-07-12
 updated: 2026-07-12
 type: concept
+perimeter: policy
 tags: [moldova, accession, governance, concept]
 sources: [raw/papers/mded-policy-2024/economic-criteria-soe-privatisation-2024.md, raw/papers/mded-policy-2024/economic-criteria-state-aid-2024.md]
 confidence: medium

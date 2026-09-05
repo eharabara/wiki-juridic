@@ -3,6 +3,7 @@ title: 'Planul de creștere, SNDE, PND și ERP: relații de programare'
 created: 2026-07-12
 updated: 2026-07-12
 type: comparison
+perimeter: policy
 tags: [moldova, eu, accession, economic-policy, comparison]
 sources: [raw/papers/mded-policy-2024/economic-reform-programme-2024-2026.md, raw/papers/mded-policy-2024/eu-moldova-growth-plan-communication-2024.md]
 confidence: medium

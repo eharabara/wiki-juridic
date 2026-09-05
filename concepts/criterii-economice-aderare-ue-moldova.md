@@ -3,6 +3,7 @@ title: 'Criteriile economice de aderare la UE: Moldova'
 created: 2026-07-12
 updated: 2026-07-12
 type: concept
+perimeter: policy
 tags: [moldova, eu, accession, economic-policy, competitiveness, concept]
 sources: [raw/papers/mded-policy-2024/bilateral-screening-economic-criteria-2024.md, raw/papers/mded-policy-2024/european-commission-moldova-report-2023.md]
 confidence: medium

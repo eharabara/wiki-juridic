@@ -3,6 +3,7 @@ title: World Bank Country Partnership Framework for Moldova 2023–2027
 created: 2026-07-12
 updated: 2026-07-12
 type: entity
+perimeter: policy
 tags: [moldova, donor, economic-policy, programme-design, entity]
 sources: [raw/papers/mded-policy-2024/world-bank-country-partnership-framework-2023-2027.md]
 confidence: high

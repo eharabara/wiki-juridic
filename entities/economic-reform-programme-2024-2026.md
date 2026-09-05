@@ -3,6 +3,7 @@ title: Economic Reform Programme of the Republic of Moldova 2024–2026
 created: 2026-07-12
 updated: 2026-07-12
 type: entity
+perimeter: policy
 tags: [moldova, eu, accession, economic-policy, macroeconomics, entity]
 sources: [raw/papers/mded-policy-2024/economic-reform-programme-2024-2026.md]
 confidence: high
