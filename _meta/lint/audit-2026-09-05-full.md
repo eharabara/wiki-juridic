@@ -25,7 +25,9 @@ scraping `SCHEMA.md` for `^- ([a-z0-9-]+)$`. The D4 rewrite of 2026-09-05 moved 
 the generated block, where tags are written as comma-separated code spans. The regex now matches
 **nothing**: `allowed_tags()` returns an empty set, so every tag on every page is reported invalid.
 All 46 distinct flagged tags (`moldova`, `entity`, `cnpf`, `legal-act`, …) are in
-`_meta/schema/schema-spec.yaml`. Verified: `set(flagged) - set(spec taxonomy) == ∅`.
+`_meta/schema/schema-spec.yaml`. Verified: `set(flagged) - set(spec taxonomy) == ∅`. The figure 757 itself could not be reproduced
+statically on 2026-09-05: the 91 structured pages carry 637 tag entries in total, and the raw CNPF
+files carry none. The mechanism holds whatever the count is, since the allowlist is empty.
 
 **A2 — `broken_wikilinks: 10` is also false.** All ten are the five
 `[[_archive/emir-2026-07/…]]` targets cited from `concepts/acquis-CSDR-EMIR.md` and
@@ -33,13 +35,21 @@ All 46 distinct flagged tags (`moldova`, `entity`, `cnpf`, `legal-act`, …) are
 `wikilinks.path_only_targets`, so it cannot resolve an explicit archive path — which the spec
 *requires* for archive targets.
 
-**Consequence.** `_meta/lint/cnpf-legal-lint-2026-09-05.md` is committed to git and opens with
-"Ridicat: 10 / Mediu: 807 / Scăzut: 814". Those totals are noise. It is the file a reader would
-open first.
+**Consequence, corrected 2026-09-05 after verification.** This paragraph first said that the
+committed report `_meta/lint/cnpf-legal-lint-2026-09-05.md` opens with
+"Ridicat: 10 / Mediu: 807 / Scăzut: 814". It does not. That file opens with
+"Ridicat: 0 / Mediu: 1229 / Scăzut: 60", and carries `broken_wikilinks: 0` and
+`invalid_tags: 1`. It is sound. The reason is chronology: the report was generated at 09:18,
+and `SCHEMA.md` was rewritten at 15:28 under P9. The committed report therefore predates the
+break, and its numbers are valid. The false totals came from this audit’s own run of the
+script, after the rewrite. A1 and A2 describe how the script behaves from 15:28 onward, not
+what sits in git. The recommendation is unchanged, but the risk is prospective: the danger is
+the next run, not the committed report.
 
 **A3 — but it checks two things the validator does not**, and they are worth keeping:
 - **orphan pages** — a page nothing links to (see D1);
-- **`page_level_raw_refs`** (21) — a claim cited to a whole raw file rather than to an article,
+- **`page_level_raw_refs`** (22 in the committed report; 21 was a miscount here) — a claim cited
+  to a whole raw file rather than to an article,
   which is a citation-discipline check that belongs in this vault.
 
 **A4 — its scope is stale.** It reads only `raw/papers/cnpf/` (46 files). It has never seen
@@ -84,15 +94,15 @@ described.
 
 | act | absent | note |
 |---|---|---|
-| `raw/papers/cnpf/L-234-2016.md` | **art. 24, arts. 27–35** (10) | Depozitarul central unic. Anchors run 1–23, 25, 26, 36–47. Between art. 26 and art. 36 sits only `## Capitolul V ACTIVITATEA DEPOZITARULUI CENTRAL UNIC` — a chapter heading, not a repeal. CNPF perimeter, CSDR-relevant. |
+| ~~`raw/papers/cnpf/L-234-2016.md`~~ | **resolved, not a gap** | Verified against legis.md on 2026-09-05. Art. 24 and the whole of Chapter IV (arts. 27–35) were repealed by **LP292/2023**. See B-ter. |
 | `raw/papers/moldova-legal/COD-154-2003.md` | **arts. 374–382** (9) | A *second* run in the labour code. CLAUDE.md records only 226–244. |
 | `raw/papers/moldova-legal/L-100-2017.md` | **art. 52** | See B-bis below — it is present but invisible. |
 | `raw/papers/moldova-legal/L-220-2007.md` | **art. 6** | Only `## Capitolul II` between arts. 5 and 7. |
 | `raw/papers/moldova-legal/L-845-1992.md` | **arts. 21, 31** | Nothing at all between the neighbours. |
 
-`L-234-2016` is the one to look at first: ten absent articles in a CNPF-perimeter law, and the
-coverage table calls it "37 articles, 37 anchors, clean" — true mechanically, while the numbering
-runs to 47 with two holes in it.
+`L-234-2016` was the one to look at first, and it was checked — see B-ter. It turned out not to
+be a defect at all, and the reason it looked like one is the most important thing this audit
+found.
 
 ### B-bis. A second instance of the `Aricolul 78` trap
 
@@ -109,6 +119,54 @@ governing **puncte**, which is how every HG in this vault is cited, and section 
 moldova-legal manifest already notes that a citation to "pct. N" is not anchored.
 
 Not corrected — rewriting legal text is forbidden here. Recorded for `[de verificat]`.
+
+
+### B-ter. Verified against legis.md: `L-234-2016` is sound, and the reason it looked broken is systemic
+
+Checked on 2026-09-05 against the live source (`legis.md` doc_id 145901, Cloudflare passed in
+Eugen's own Chrome; the check itself was not circumvented).
+
+**The file is a faithful copy.** legis.md's current consolidated text of Law 234/2016 carries the
+same 37 articles in the same order — 1–23, 25, 26, 36–47 — with no marker for the absences, and
+Chapter IV missing from the chapter sequence (I, II, III, **V**, VI). Nothing was lost in ingest.
+
+**The articles were properly repealed.** The earlier consolidation (doc_id 139826, 2023-10-21)
+carries both explanations verbatim:
+
+```
+[Art.24 abrogat prin LP292 din 19.10.23, MO398/21.10.23 art.679; în vigoare 21.10.23]
+[Capitolul IV abrogat prin LP292 din 19.10.23, MO398/21.10.23 art.679; în vigoare 21.10.23]
+```
+
+So art. 24 was repealed individually and arts. 27–35 as a whole chapter, by **LP292 of 19.10.2023,
+in force 21.10.2023**. Law 234/2016 has 37 articles today. There is nothing to verify further and
+nothing to mark `[de verificat]`. (LP259/2024, the only amendment the current page lists, was
+checked too and is not the cause: it repeals one paragraph and adds art. 47¹.)
+
+**The systemic finding: a refresh destroys the repeal history.** legis.md keeps, in any given
+consolidation, only the markers of the amendment that produced *that* version. Older markers are
+dropped. Counted on the same act:
+
+| version | consolidation | bracketed markers |
+|---|---|---:|
+| doc_id 139826 | 2023-10-21 | **59** |
+| doc_id 145901 | 2024-11-26 | **5** (all from LP259/2024) |
+
+The wiki's own file shows the same collapse, because it was refreshed on 2026-09-04: the July
+ingest in `wiki-backups/wiki-before-eu-transposition-foundation-20260709-193401/` has 59 markers
+including both decisive ones; the current file has 5. **The refresh gained a current text and lost
+the audit trail that explained it.** That is what turned a properly documented act into an
+apparently defective one, and it is a standing risk for every act refreshed to a newer
+consolidation.
+
+**What this changes about section B.** The census stands as a description of the *files*, but
+"no marker" must now be read as "no marker in this consolidation", never as "no repeal". Of the
+remaining unexplained runs, `L-100-2017` art. 52 is unaffected — its older and current files both
+carry one marker, and the cause there is the `Articol 52` misspelling, not marker loss. The others
+(`COD-154-2003` 374–382, `L-220-2007` art. 6, `L-845-1992` arts. 21 and 31, `L-548-1995`) were all
+ingested straight at their current consolidation and have never been compared against an older
+version, so none of them has been shown to be a source defect either. Comparing them against
+legis.md's earlier versions is the next step.
 
 ---
 
@@ -227,9 +285,10 @@ refresh from the project at the start of any session that touches the wiki, then
 
 ## Suggested order of work
 
-1. **`L-234-2016` arts. 24 and 27–35** — verify against legis.md, mark `[de verificat]`, and say
-   in CLAUDE.md whether the file is an incomplete extract. It is the only finding that can change
-   an answer about the CNPF perimeter.
+1. ~~`L-234-2016` arts. 24 and 27–35~~ — **done 2026-09-05, see B-ter.** Not a defect: repealed by
+   LP292/2023. What replaces it as the priority is the systemic problem it exposed — compare the
+   remaining unexplained runs against legis.md's *earlier* versions before recording any of them as
+   a source defect, because a refresh drops the older amendment markers.
 2. **`L-100-2017` art. 52** — record the trap next to the `COD-225-2003` art. 78 one.
 3. **CLAUDE.md corrections** — close outstanding-work item 2 for the Civil Code, reopen it against
    `COD-985-2002`; add the new gaps to open question 3; add `54^1/1` to open question 2.
