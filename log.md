@@ -51,3 +51,9 @@
 - **Aflat:** forma D8 a fost aplicată deja de la P0, deci P6 a însemnat numai să o consemneze ca regulă și să lege `CLAUDE.md` de ea. Verificatorul o impune: antet cu dată și acțiune, cele trei rânduri în ordine.
 - **Decis:** `CLAUDE.md` primește regula perimetrelor, regula jurnalului, rularea verificatorului, harta folderelor noi, întrebarea deschisă 5 marcată ca decisă prin D2, și un rând în lucrările deschise pentru P2, P7, P8, P9. `README.md` pentru GitHub se scrie la P2, când Eugen numește depozitul.
 - **Unde:** `CLAUDE.md`, secțiunile „Where things are”, „Open questions” pct. 5, „Outstanding work” pct. 5, „Keeping this file true”, „Writing to the wiki”.
+
+## [2026-09-05] create | P2: depozit privat pe GitHub, `wiki-juridic`
+
+- **Aflat:** `gh` era deja autentificat pe contul `eharabara`, cu drepturi `repo`. Niciun fișier urmărit nu trece de 5 MB, deci nu e nevoie de Git LFS.
+- **Decis:** Eugen a numit depozitul `wiki-juridic` și a confirmat că e privat. Originalele (576 MB) nu se urcă; rămân doar pe disc, singura parte fără copie în afara mașinii, redescărcabile de la sursă. `README.md` scris pentru GitHub, în română, fără wikilink-uri.
+- **Unde:** `README.md`; telecomanda `origin`; commit-urile de la `12e819d` încolo.
