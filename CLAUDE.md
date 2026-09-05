@@ -356,9 +356,13 @@ with no basis in the source. The refreshed consolidation contains it. No action 
      Narrow the rule to the Moldovan and BNM roots rather than relabel a Commission document.
    - Three orphan pages, all created by P8-bis and linked from nothing: `entities/L-239-2008.md`,
      `entities/L-250-2017.md`, `entities/L-550-1995.md`.
-   - `Claude outputs/2026-09-05-plan-restructurare-wiki.md` is a byte-identical duplicate of the
-     copy in `_meta/plans/`, tracked in git, sitting outside every folder the spec validates.
-     Delete the root copy.
+   - Done 2026-09-05. `Claude outputs/2026-09-05-plan-restructurare-wiki.md` was a byte-identical
+     duplicate of the copy in `_meta/plans/`; the root copy is deleted and the `_meta/plans/` one
+     verified intact at the same hash. **The folder itself stays, and it is worth watching.** It
+     is outside every path the spec validates, and a second agent working on another matter wrote
+     a `.docx` into it during this same session — so it is not a leftover, it collects live output
+     from whatever else is running against this vault. Decide where that output belongs before it
+     accumulates.
 
 ## Keeping this file true
 

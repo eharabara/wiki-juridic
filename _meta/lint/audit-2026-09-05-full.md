@@ -174,12 +174,20 @@ a page but no floor. Informational.
 
 ## E. Hygiene
 
-**E1 — a stray duplicate at the vault root.**
-`Claude outputs/2026-09-05-plan-restructurare-wiki.md` is **byte-identical** (md5
-`de7159ec…`) to `_meta/plans/2026-09-05-plan-restructurare-wiki.md`. It is tracked in git, sits
-outside every folder the spec knows (structured, raw, `_archive`, `_meta`), is therefore validated
-by nothing, and Obsidian will index it as a note. Delete the root copy; `_meta/plans/` is where
-CLAUDE.md says plans live.
+**E1 — a stray duplicate at the vault root. Fixed 2026-09-05.**
+`Claude outputs/2026-09-05-plan-restructurare-wiki.md` was **byte-identical** (md5 `de7159ec…`,
+sha256 `b9410219…`) to `_meta/plans/2026-09-05-plan-restructurare-wiki.md`. It was tracked in git,
+sat outside every folder the spec knows (structured, raw, `_archive`, `_meta`), was therefore
+validated by nothing, and Obsidian indexed it as a note. The root copy is deleted; the
+`_meta/plans/` copy is verified intact at the same hash.
+
+**The folder was kept, deliberately.** While this audit was being written, a second agent working
+on an unrelated matter wrote `2026-09-05-contract-antrepriza-sihastrului-11-revizuit.docx` into it.
+So `Claude outputs/` is not a leftover — it is a live drop point for output from whatever else runs
+against this vault, sitting outside every validated path. That also accounts for the two
+`_meta/anchoring-work/` files whose line endings changed under this session without being edited.
+CLAUDE.md already warns that more than one agent writes here; this is what that looks like in
+practice. Deciding where that output belongs is a judgement call for Eugen, not a lint fix.
 
 **E2 — 278 of the 280 validator warnings carry no information.** They are `raw.language-other` on
 the BNM corpus, all from the bulk ingest of 2026-07-12. They are mechanically resolvable: the
