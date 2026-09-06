@@ -1599,6 +1599,31 @@ terenurile agricole de calitate superioară și cele ale fondului forestier și 
 și schimbul de terenuri, celelalte două obiecte ale regulamentului din 2016, nu apar în act. Deci
 abrogarea e totală ca act și parțială ca regim, iar lacuna următoare este Codul funciar 22/2024.
 
+### U.7. `COD-22-2024`, Codul funciar: lacuna deschisă de U.6, închisă la cererea lui Eugen
+
+Căutare în titlu „codul funciar" (106 rezultate); rândul CF22/2024, marcat „Modificat", trimite la
+**154132**, care este și capul istoricului (opt versiuni, de la 142192@2024-03-07; 154132@2026-04-25,
+LP53/2026), fără versiune viitoare, fără abrogare. Titlul de pe legis.md este doar „CODUL FUNCIAR",
+fără „al Republicii Moldova". 25 `<sup>`, fără span CSS, fără CUPRINS; **96 de ancore**, 79 de bază
+numerotate 1–79 fără lacune, 17 cu exponent (27^1–27^3, 31^1–31^3, 53^1, 54^1–54^10), 13 capitole
+(I–XII și VI^1), fără titluri; integritate PASS pe 747 de linii. Prefixul `COD-` este cel al
+codurilor, ca `COD-434-2023`.
+
+Trei constatări de sursă. **Fișa contrazice textul la intrarea în vigoare**, a treia oară în
+corpus: fișa dă 07.03.2024, data publicării; art. 79 alin. (1) spune „1 aprilie 2025", iar HG
+553/2024, adoptată în temeiul codului, intră în vigoare la 7 martie 2025; dacă alin. (1) a fost
+modificat, marcajul s-a pierdut. **Marcajele s-au pierdut aproape toate**: șapte legi de
+modificare în fișă, trei marcaje în text, toate LP53/2026, toate în art. 58. **Art. 79 nu are
+nicio dispoziție tranzitorie** pentru dosarele în curs; abrogă Codul funciar 828/1991 cu excepția
+art. 12, 13, 40 până la 31.12.2028, Legea 1247/1992 cu excepția art. 18–20, Legea 1308/1997 cu
+cinci excepții, și cere Guvernului o Metodologie de calcul al pierderilor, act al Parlamentului
+(art. 60 alin. (3)), neidentificat.
+
+Ce închide: transmiterea și schimbul terenurilor proprietate publică, rămase fără regulament după
+abrogarea HG 1170/2016 (U.6), sunt direct în **art. 16** (transmiterea la alin. (1)–(5), schimbul
+la alin. (6)–(8), cu echivalența valorii de piață la alin. (7)); schimbarea destinației este în
+art. 58–60, cu delegarea din art. 58 alin. (10) împlinită de `HG-553-2024`.
+
 ### U.5. Ce a rămas în afara acestei seri
 
 - `COD-218-2008` ar câștiga două ancore de carte cu regula nouă din extractor; neaplicat.

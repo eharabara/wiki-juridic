@@ -47,6 +47,14 @@ DOCS = {
     # 5 <sup>, fara CUPRINS. Intrarea sta aici ca verify_business_law.py sa-l controleze.
     'CC-1107-2002': {'doc_id': '150498',
                      'title': 'Codul civil al Republicii Moldova nr. 1107/2002'},
+    # Codul funciar nou, 2026-09-06 seara, la cererea lui Eugen, dupa ce HG-553-2024 (temei art. 58
+    # alin. (10)) a aratat ca transmiterea si schimbul de terenuri nu mai au regulament al Guvernului.
+    # Cautare in titlu 'codul funciar' (106 rezultate), rindul CF22/2024 marcat 'Modificat' trimite la
+    # 154132, care este si capul istoricului (8 versiuni, 154132@2026-04-25, LP53/2026), fara versiune
+    # viitoare, fara abrogare. In vigoare 07.03.2024. 25 <sup>, fara span CSS, fara CUPRINS,
+    # 96 de ancore (79 de baza 1-79 fara lacune, 17 cu exponent), 13 capitole, fara titluri.
+    'COD-22-2024': {'doc_id': '154132',
+                    'title': 'Codul funciar al Republicii Moldova nr. 22/2024'},
     'COD-116-2018': {'doc_id': '150447',
                      'title': 'Codul administrativ al Republicii Moldova nr. 116/2018'},
     # Cele sapte coduri ramase din planul esuat de la 13 iulie 2026. Toate verificate

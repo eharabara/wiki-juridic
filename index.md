@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-06 | Total pages: 110
+> Last updated: 2026-09-06 | Total pages: 111
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -18,6 +18,7 @@
 - [[COD-122-2003]] — Codul de procedura penala: 553 de articole de baza, cel mai mare din corpus; consolidare 2026-12-02, data viitoare.
 - [[COD-154-2003]] — Codul muncii: raporturile de munca; consolidare 2027-01-01, data viitoare; titluri scrise cu litere distantate.
 - [[COD-174-2018]] — Codul serviciilor media audiovizuale: comunicările comerciale audiovizuale (cap. IX) și Consiliul Audiovizualului (cap. X); transpune parțial Directiva 2010/13/UE, fără nicio regulă pentru publicitatea financiară.
+- [[COD-22-2024]] — Codul funciar nr. 22/2024: 96 de ancore, consolidare 2026-04-25, doar 3 marcaje din 7 legi de modificare; art. 16 transmiterea și schimbul terenurilor publice, art. 58–60 schimbarea destinației; art. 79 abrogă Codul funciar 828/1991 cu excepții până în 2028; fișa dă intrarea în vigoare 07.03.2024, textul 01.04.2025.
 - [[COD-218-2008]] — Codul contraventional: 254 de articole cu exponent; consolidare 2026-09-13, data viitoare.
 - [[COD-225-2003]] — Codul de procedura civila: procedura in fata instantelor civile; recursul, arts. 397-422, este abrogat in bloc; consolidare 2026-08-06 (LP126/2026, capitolul XLVI nou, art. 491-492).
 - [[COD-434-2023]] — Codul urbanismului și construcțiilor: în vigoare 30.01.2025 (nu 2026); 390 de articole ancorate fără nicio lacună, dar cele 25 de anexe lipsesc din text.

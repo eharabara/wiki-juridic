@@ -91,9 +91,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-06 22:33 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-06 22:46 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-68 primary Moldovan acts, 29 EU acquis extracts, 284 BNM corpus documents.
+69 primary Moldovan acts, 29 EU acquis extracts, 284 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -104,6 +104,7 @@ Generated 2026-09-06 22:33 from the files themselves. Do not edit this section b
 | `COD-154-2003` | 416 | 416 | 2027-01-01 | **consolidation dated in the future**; 52 superscript articles normalised |
 | `COD-174-2018` | 98 | 98 | 2026-06-24 | 4 superscript articles normalised |
 | `COD-218-2008` | 737 | 737 | 2026-09-13 | **consolidation dated in the future**; 254 superscript articles normalised |
+| `COD-22-2024` | 96 | 96 | 2026-04-25 | 17 superscript articles normalised |
 | `COD-225-2003` | 540 | 540 | 2026-08-06 | 77 superscript articles normalised |
 | `COD-434-2023` | 390 | 390 | 2026-08-06 | clean |
 | `COD-443-2004` | 361 | 361 | 2026-12-02 | **consolidation dated in the future**; 36 superscript articles normalised |
