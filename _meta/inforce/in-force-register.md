@@ -1,6 +1,6 @@
 ---
 title: Registrul dispozitiilor care nu sint inca in vigoare
-generated: '2026-09-05T17:34:04'
+generated: '2026-09-05T17:58:50'
 as_of: '2026-09-05'
 type: summary
 tags: [moldova, legal-source, methodology, summary]
@@ -12,7 +12,7 @@ generated_by: _meta/inforce/build_inforce_register.py
 
 **Fisier generat. Nu se editeaza manual.** Se reface rulind scriptul din frontmatter.
 
-Stare la 2026-09-05. 383 fisiere scanate. 48 dispozitii afectate in 10 act(e). 10 consolidare/consolidari cu data in viitor.
+Stare la 2026-09-05. 385 fisiere scanate. 54 dispozitii afectate in 11 act(e). 11 consolidare/consolidari cu data in viitor.
 
 ## Regula de citare
 
@@ -65,6 +65,12 @@ Inainte de a cita un articol, verifica daca apare in tabelul de mai jos. Daca ap
 | HG-743-2024 | 355 | reformulare | 2026-12-30 | HG341 din 24.06.26 | se aplica textul anterior |
 | COD-154-2003 | 46 | introducere | 2027-01-01 | LP154 din 30.07.26 | dispozitia nu se aplica |
 | L-114-2012 | 103^1 | introducere | 2027-01-01 | LP128 din 02.07.26 | dispozitia nu se aplica |
+| L-1543-1998 | 15^3 | introducere | 2027-01-01 | LP176 din 03.07.25 | dispozitia nu se aplica |
+| L-1543-1998 | 15^4 | introducere | 2027-01-01 | LP176 din 03.07.25 | dispozitia nu se aplica |
+| L-1543-1998 | 15^5 | introducere | 2027-01-01 | LP176 din 03.07.25 | dispozitia nu se aplica |
+| L-1543-1998 | 15^6 | introducere | 2027-01-01 | LP176 din 03.07.25 | dispozitia nu se aplica |
+| L-1543-1998 | 15^7 | introducere | 2027-01-01 | LP176 din 03.07.25 | dispozitia nu se aplica |
+| L-1543-1998 | 15^8 | introducere | 2027-01-01 | LP176 din 03.07.25 | dispozitia nu se aplica |
 | L-845-1992 | 36^1 pct.4, lit.l) | introducere | 2027-01-01 | LP171 din 30.07.26 | dispozitia nu se aplica |
 | L-171-2012 | 38 | abrogare | 2027-06-01 | LP162 din 30.07.26 | inca in vigoare |
 | L-171-2012 | 141^1 | abrogare | 2027-06-01 | LP162 din 30.07.26 | inca in vigoare |
@@ -85,6 +91,7 @@ Fisierul incorporeaza modificari care nu au intrat in vigoare. Arhiva indicata e
 | HG-743-2024 | 2026-12-30 | da | - | `-` |
 | L-1134-1997 | 2028-01-01 | da | 2022-01-10 | `_archive/raw/cnpf-legis-md-before-refresh-20260904-183240/L-1134-1997.md` |
 | L-114-2012 | 2027-01-01 | da | - | `-` |
+| L-1543-1998 | 2027-01-01 | da | - | `-` |
 | L-171-2012 | 2027-06-01 | da | 2021-01-01 | `_archive/raw/cnpf-legis-md-before-refresh-20260904-162713/L-171-2012.md` |
 | L-845-1992 | 2027-01-01 | da | - | `-` |
 
@@ -176,6 +183,18 @@ Fisierul incorporeaza modificari care nu au intrat in vigoare. Arhiva indicata e
   - [Art.46 al.(4^1) introdus prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 01.01.27]
 - **L-114-2012 art. 103^1**, `raw/papers/bnm/legal-ro/L-114-2012.md`, liniile [63, 1548]
   - [Art.103^1 al.(4), lit.h) introdusă prin LP128 din 02.07.26, MO305-308/14.07.26 art.324; în vigoare 01.01.27]
+- **L-1543-1998 art. 15^3**, `raw/papers/moldova-legal/L-1543-1998.md`, liniile [77, 471]
+  - [Art.15^3 introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]
+- **L-1543-1998 art. 15^4**, `raw/papers/moldova-legal/L-1543-1998.md`, liniile [78, 502]
+  - [Art.15^4 introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]
+- **L-1543-1998 art. 15^5**, `raw/papers/moldova-legal/L-1543-1998.md`, liniile [79, 525]
+  - [Art.15^5 introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]
+- **L-1543-1998 art. 15^6**, `raw/papers/moldova-legal/L-1543-1998.md`, liniile [80, 531]
+  - [Art.15^6introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]
+- **L-1543-1998 art. 15^7**, `raw/papers/moldova-legal/L-1543-1998.md`, liniile [81, 537]
+  - [Art.15^7 introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]
+- **L-1543-1998 art. 15^8**, `raw/papers/moldova-legal/L-1543-1998.md`, liniile [82, 563]
+  - [Art.15^8 introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]
 - **L-845-1992 art. 36^1 pct.4, lit.l)**, `raw/papers/moldova-legal/L-845-1992.md`, liniile [51, 588]
   - [Art.36^1 pct.4, lit.l) introdusă prin LP171 din 30.07.26, MO386-389/21.08.26 art.412; în vigoare 01.01.27]
 - **L-171-2012 art. 38**, `raw/papers/cnpf/L-171-2012.md`, liniile [63, 955]

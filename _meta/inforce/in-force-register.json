@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-05T17:34:04",
+  "generated": "2026-09-05T17:58:50",
   "as_of": "2026-09-05",
-  "files_scanned": 383,
+  "files_scanned": 385,
   "provisions_not_yet_in_force": [
     {
       "file": "raw/papers/moldova-legal/COD-218-2008.md",
@@ -771,6 +771,108 @@
       "occurrences": 2
     },
     {
+      "file": "raw/papers/moldova-legal/L-1543-1998.md",
+      "instrument": "L-1543-1998",
+      "article": "15^3",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP176 din 03.07.25",
+      "official_gazette": "MO409-412/31.07.25 art.549",
+      "context": "[Art.15^3 introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]",
+      "lines": [
+        77,
+        471
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-1543-1998.md",
+      "instrument": "L-1543-1998",
+      "article": "15^4",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP176 din 03.07.25",
+      "official_gazette": "MO409-412/31.07.25 art.549",
+      "context": "[Art.15^4 introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]",
+      "lines": [
+        78,
+        502
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-1543-1998.md",
+      "instrument": "L-1543-1998",
+      "article": "15^5",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP176 din 03.07.25",
+      "official_gazette": "MO409-412/31.07.25 art.549",
+      "context": "[Art.15^5 introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]",
+      "lines": [
+        79,
+        525
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-1543-1998.md",
+      "instrument": "L-1543-1998",
+      "article": "15^6",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP176 din 03.07.25",
+      "official_gazette": "MO409-412/31.07.25 art.549",
+      "context": "[Art.15^6introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]",
+      "lines": [
+        80,
+        531
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-1543-1998.md",
+      "instrument": "L-1543-1998",
+      "article": "15^7",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP176 din 03.07.25",
+      "official_gazette": "MO409-412/31.07.25 art.549",
+      "context": "[Art.15^7 introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]",
+      "lines": [
+        81,
+        537
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-1543-1998.md",
+      "instrument": "L-1543-1998",
+      "article": "15^8",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP176 din 03.07.25",
+      "official_gazette": "MO409-412/31.07.25 art.549",
+      "context": "[Art.15^8 introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]",
+      "lines": [
+        82,
+        563
+      ],
+      "occurrences": 2
+    },
+    {
       "file": "raw/papers/moldova-legal/L-845-1992.md",
       "instrument": "L-845-1992",
       "article": "36^1",
@@ -932,6 +1034,15 @@
       "flagged_in_frontmatter": true
     },
     {
+      "instrument": "L-1543-1998",
+      "file": "raw/papers/moldova-legal/L-1543-1998.md",
+      "consolidation_date": "2027-01-01",
+      "doc_id": "150226",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
       "instrument": "L-171-2012",
       "file": "raw/papers/cnpf/L-171-2012.md",
       "consolidation_date": "2027-06-01",
@@ -951,8 +1062,8 @@
     }
   ],
   "counts": {
-    "provisions": 48,
-    "acts": 10,
-    "future_consolidations": 10
+    "provisions": 54,
+    "acts": 11,
+    "future_consolidations": 11
   }
 }

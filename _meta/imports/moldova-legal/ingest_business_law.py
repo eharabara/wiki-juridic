@@ -174,6 +174,91 @@ DOCS = {
     # "33, range 1-33", adica o lacuna falsa la 34.
     'L-64-2010': {'doc_id': '141515',
                   'title': 'Legea nr. 64/2010 cu privire la libertatea de exprimare'},
+    # ---- Perimetrul constructiilor, adaugat 2026-09-05. Lipsea complet din baza; o analiza
+    # de contract de antrepriza din aceeasi zi a plecat cu trei pozitii neancorate.
+    # PREFIX legis.md: CUC434/2023, nu LP. Este COD, deci stem COD-434-2023, ca celelalte coduri.
+    # PREMISA VERIFICATA IN SURSA inainte de ingerare, art. 390:
+    #   alin. (1) codul intra in vigoare "peste 12 luni de la data publicarii"; publicat
+    #     30.01.2024, deci IN VIGOARE 30.01.2025. Nu 30.01.2026, cum circula in surse secundare.
+    #   alin. (5) la acea data se abroga Legea 721/1996, Legea 835/1996 si Legea 163/2010.
+    #   alin. (4) arts. 10, 11 si 14 din Legea 163/2010 erau deja abrogate de la PUBLICARE.
+    #   CAPCANA DE FISA: legis.md scrie "Data intrarii in vigoare 30.01.2024", care este data
+    #     exceptiilor din alin. (1) tezei a doua, nu a codului. Cine citeste fisa si nu art. 390
+    #     dateaza gresit tot regimul cu un an.
+    # Verificat pe HTML inainte de rulare: 59 etichete <sup>, TOATE la nivel de alineat sau
+    # litera (niciun articol cu exponent), niciun span ridicat prin CSS, fara CUPRINS,
+    # 390 de ancore, numerotare 1-390 COMPLETA, fara lacune, fara duplicate, fara forma N^X/Y,
+    # consolidare 2026-08-06 (LP153/2026), trecuta, zero dispozitii cu intrare in vigoare amanata.
+    # Structura: pe articole, nu pe puncte, deci ancorarea acopera tot actul.
+    'COD-434-2023': {'doc_id': '155736',
+                     'title': 'Codul urbanismului si constructiilor al Republicii Moldova '
+                              'nr. 434/2023'},
+    # Adaugata 2026-09-05, in aceeasi zi cu codul. Actul subordonat al codului, GASIT PRIN
+    # TRIMITERILE DIN COD, nu din memorie: preambulul spune "In temeiul art. 129 alin. (6) si
+    # art. 338 alin. (1) din Codul urbanismului si constructiilor nr. 434/2023".
+    # Ce aproba: pct. 1.1 Regulamentul cu privire la atestarea specialistilor care desfasoara
+    # activitati in constructii (anexa nr. 1) - acesta este regulamentul la care trimit art. 180
+    # alin. (3) pentru dirigintele de santier si art. 187 alin. (4) pentru responsabilul tehnic;
+    # pct. 1.2 Regulamentul privind verificarea documentatiei de proiect si expertiza tehnica
+    # (anexa nr. 2); pct. 5 si anexa nr. 3 abroga lista de hotariri vechi.
+    # CONSTATARE DE PERIMETRU: nu exista regulament de receptie a constructiilor sub cod.
+    # HG 285/1996 (Regulamentul de receptie a constructiilor si instalatiilor aferente) a fost
+    # ABROGATA prin HG726/2024, in vigoare 30.01.25, iar codul nu deleaga receptia catre niciun
+    # regulament: o reglementeaza direct in arts. 192-215. Cautarea in text dupa "receptie" +
+    # "regulament"/"Guvern" in COD-434-2023 nu intoarce nimic. De aceea se ingereaza un singur
+    # act subordonat, nu doua.
+    # Verificat pe HTML inainte de rulare: 29 etichete <sup>, niciun span ridicat prin CSS,
+    # fara CUPRINS, ZERO ancore de articol, consolidare 2026-12-30, deci VIITOARE, cu 6
+    # dispozitii care nu au intrat inca in vigoare (HG341/2026).
+    # Structura in PUNCTE, nu articole: 211 puncte numerotate, iar numerotarea REPORNESTE intre
+    # hotarire si cele trei anexe (punctele 1-25 si urmatoarele apar de mai multe ori), deci o
+    # ancorare la nivel de punct ar produce ancore duplicate. Ingerata cu zero ancore, ca
+    # HG-1170-2016, HG-1171-2018, HG-574-2024 si DCA-61-2024. Consecinta de citare, de spus in
+    # orice raspuns: o trimitere la "pct. N din Regulamentul de atestare" NU este ancorata.
+    'HG-743-2024': {'doc_id': '155190',
+                    'title': 'Hotararea Guvernului nr. 743/2024 cu privire la asigurarea '
+                             'calitatii in constructii (Regulamentul de atestare a '
+                             'specialistilor, anexa nr. 1)'},
+    # Adaugata 2026-09-05, seara. Regulamentul de demolare cerut de art. 322 alin. (4) din
+    # COD-434-2023, ramas intrebare deschisa la prima trecere. GASIT, si nu unde il cauta codul.
+    # CAPCANA CENTRALA: nu este emis in temeiul codului. Clauza proprie de adoptare spune
+    # "In temeiul art. 439^6 alin. (5) din Codul contraventional nr. 218/2008". Este anterior
+    # codului (2022 fata de 2023) si a fost adoptat pentru executarea masurii de siguranta a
+    # demolarii dispuse de instanta - exact configuratia din art. 327 alin. (1) al codului.
+    # Deci delegarea din art. 322 alin. (4) este implinita de un act care nu o invoca.
+    # Consecinta de metoda: cautarea dupa temeiul legal NU l-ar fi gasit; l-a gasit cautarea
+    # in titlu dupa "demolare a constructiilor neautorizate", fiindca titlul reia aproape
+    # cuvant cu cuvant formula delegarii ("modul de demolare a constructiilor neautorizate").
+    # Aliniat la cod prin HG27/2026: pct. 20 subpct. 1) trimite acum la art. 153 alin. (1)
+    # lit. e) din cod, nu la art. 17 alin. (1) lit. f) din Legea 163/2010, abrogata.
+    # Verificat pe HTML inainte de rulare: 7 etichete <sup>, niciun span ridicat prin CSS,
+    # fara CUPRINS, ZERO ancore de articol, consolidare 2026-03-01, trecuta, fara dispozitii
+    # amanate, fara data de abrogare.
+    # Structura in PUNCTE: 34 de puncte, iar numerotarea REPORNESTE intre hotarire (pct. 1-2)
+    # si Regulamentul anexat, deci punctele 1 si 2 apar de doua ori. Ingerata cu zero ancore,
+    # ca HG-743-2024. "pct. N" NU este ancorat.
+    'HG-582-2022': {'doc_id': '152829',
+                    'title': 'Hotararea Guvernului nr. 582/2022 pentru aprobarea Regulamentului '
+                             'cu privire la modul de demolare a constructiilor neautorizate si '
+                             'de defrisare a arborilor si arbustilor'},
+    # Adaugata 2026-09-05. Intrebarea deschisa nr. 2 de la ingerarea perimetrului constructiilor:
+    # art. 387 alin. (3) din COD-434-2023 trimite la ea pentru inregistrarea caselor individuale,
+    # iar legatura dintre procesul-verbal de receptie si inscrierea dreptului in Registrul
+    # bunurilor imobile nu putea fi ancorata fara ea.
+    # ATENTIE LA TITLU: legis.md da denumirea ca "LEGE Nr. 1543 din 25.02.1998 cadastrului
+    # bunurilor imobile", fara cuvantul "Legea" si fara "privind" - cuvantul "Legea" sta in
+    # campul TIPUL. O cautare dupa "Legea cadastrului bunurilor imobile" ca fraza exacta nu o
+    # intoarce; cautarea dupa "cadastrul bunurilor imobile" da 65 de rezultate, iar actul de baza
+    # este singurul rand cu prefixul LP1543.
+    # REPUBLICATA: data publicarii din fisa este 02.04.2021 (MO 88-95 art. 79), nu 1998; data
+    # intrarii in vigoare ramane 21.05.1998.
+    # Verificat pe HTML inainte de rulare: 129 etichete <sup>, niciun span ridicat prin CSS,
+    # fara CUPRINS, 99 de ancore (61 de baza, numerotate 1-61 fara lacune, plus 38 cu exponent),
+    # fara duplicate, fara forma N^X/Y.
+    # CONSOLIDARE VIITOARE: 2027-01-01 (LP176/2025), cu 6 dispozitii care nu sint inca in
+    # vigoare. De verificat in registrul in-force inainte de a cita orice articol de aici.
+    'L-1543-1998': {'doc_id': '150226',
+                    'title': 'Legea cadastrului bunurilor imobile nr. 1543/1998'},
 }
 
 DATE_RE = re.compile(r'(\d{1,2})[.\-/](\d{1,2})[.\-/](\d{2,4})')
@@ -238,15 +323,48 @@ def all_dates(text):
             for a, b, c in DATE_RE.findall(text or '')]
 
 
+def usable(data):
+    """Un showdetails valid contine documentul si nu este pagina de verificare Cloudflare."""
+    return bool(data) and 'id="contentdoc"' in data and 'Just a moment' not in data[:3000]
+
+
 def fetch(doc_id):
+    """Aduce showdetails-ul actului: intii prin curl, iar daca nu se poate, din cache-ul de pe disc.
+
+    Din 2026-09-05 dupa-amiaza legis.md sta in spatele unei verificari Cloudflare care
+    blocheaza curl (raspunsul este pagina "Just a moment", cu rc=0, deci un cod de retur
+    curat NU inseamna ca avem documentul). Ruta de rezerva este cea folosita la P8 pentru
+    legile bancare, vezi _meta/imports/bnm/ingest_bnm_ro.py: HTML-ul se ia din Chrome, dupa
+    ce Eugen trece verificarea, si se pune in META_DIR ca showdetails-<doc_id>.html.
+    Diferenta fata de P8: acolo s-a serializat DOM-ul (document.documentElement.outerHTML),
+    aici se ia raspunsul serverului printr-un fetch same-origin din pagina, deci octetii sint
+    cei originali, exact ce astepta extractorul scris pentru curl.
+
+    Doua reguli de siguranta, ambele invatate aici:
+      1. curl NU mai scrie direct peste fisierul din cache. Scria, si atunci o rulare blocata
+         de Cloudflare inlocuia HTML-ul bun cu pagina de verificare, adica distrugea singura
+         copie a sursei. Se descarca intr-un fisier temporar si se promoveaza doar la reusita.
+      2. Cache-ul se foloseste doar daca trece usable(); altfel se opreste cu eroare, ca sa nu
+         ingeram o pagina de verificare drept text de lege.
+    """
     url = f"https://www.legis.md/cautare/showdetails/{doc_id}"
     out = META_DIR / f"showdetails-{doc_id}.html"
-    res = subprocess.run(['curl', '-sL', '--max-time', '120', '-A', UA, url, '-o', str(out)],
+    tmp = META_DIR / f"showdetails-{doc_id}.html.part"
+    res = subprocess.run(['curl', '-sL', '--max-time', '120', '-A', UA, url, '-o', str(tmp)],
                          capture_output=True, text=True)
-    data = out.read_text(encoding='utf-8', errors='replace') if out.exists() else ''
-    if res.returncode != 0 or 'id="contentdoc"' not in data or 'Just a moment' in data[:2000]:
-        raise RuntimeError(f"fetch failed for {doc_id}: rc={res.returncode} size={len(data)}")
-    return url, data, out
+    data = tmp.read_text(encoding='utf-8', errors='replace') if tmp.exists() else ''
+    if res.returncode == 0 and usable(data):
+        tmp.replace(out)
+        return url, data, out
+    tmp.unlink(missing_ok=True)
+
+    cached = out.read_text(encoding='utf-8', errors='replace') if out.exists() else ''
+    if usable(cached):
+        print(f"  [cache] curl blocat (Cloudflare); folosesc {out.name} luat din Chrome")
+        return url, cached, out
+    raise RuntimeError(
+        f"fetch failed for {doc_id}: rc={res.returncode} size={len(data)}; "
+        f"nici cache utilizabil in {out}. Ia HTML-ul din Chrome (vezi docstring).")
 
 
 def extract_doc(data):

@@ -67,17 +67,27 @@ for stem, doc in ibl.DOCS.items():
     #   <sup>1&nbsp;</sup>  spatiu insecabil in coada     (Codul de procedura penala, art. 296^1)
     # resolve_superscripts() le normalizeaza, deci ancora este corecta; controlul trebuie sa
     # faca aceeasi normalizare, altfel raporteaza fals-pozitive.
-    _sup = re.compile(r'Articolul(?:\s|&nbsp;|<[^>]*>)*(\d+)<sup>(.*?)</sup>(/\d+)?', re.S)
-    _found = set()
-    for a, b, c in _sup.findall(raw_html):
-        inner = ibl.ihtml.unescape(re.sub(r'<[^>]*>', '', b)).replace(chr(160), ' ').strip()
-        m = re.match(r'(\d+)', inner)
-        if m:
-            _found.add(f"{a}^{m.group(1)}{c}")
-    sup_source = sorted(_found,
+    # Corectie de metoda, 2026-09-05, la ingerarea COD-434-2023. Cautarea de mai sus se facea
+    # pe TOT HTML-ul, deci prindea si exponentii care nu sint titluri de articol ale actului.
+    # In codul urbanismului cele trei potriviri stateau toate in blocul de modificare a altor
+    # legi, la sfirsitul actului:
+    #     "(2) Articolul 13^1 din Legea nr. 1134/1992 ..."   trimitere la articolul ALTEI legi
+    #     "... va avea urmatorul cuprins: „Articolul 13^1. " textul NOU introdus in acea lege
+    #     "5. Articolul 28^1 se abroga."                     abrogarea unui articol din L-163/2010
+    # Niciunul nu este articol al codului, a carui numerotare este 1-390 completa. Controlul
+    # raporta deci o ancora lipsa care nu avea ce sa existe: acelasi tip de eroare ca la
+    # L-235-2006, unde defectul era in contor, nu in sursa.
+    # Regula, aceeasi ca acolo: un titlu de articol se recunoaste dupa faptul ca INCEPE linia.
+    # `reference` este text extras din HTML, nu din markdown-ul scris de noi, deci controlul
+    # ramine independent de ce am scris. Potrivirile din interiorul frazei se numara separat
+    # si se raporteaza ca informatie, fiindca arata ce alte acte modifica actul de fata.
+    _heading = re.compile(r'^Articolul\s+(\d+\^\d+(?:/\d+)?)')
+    sup_source = sorted({m.group(1) for l in reference for m in [_heading.match(l)] if m},
                         key=lambda x: (int(x.split('^')[0]),
                                        int(x.split('^')[1].split('/')[0]),
                                        x))
+    _inline = [l for l in reference
+               if re.search(r'Articolul\s+\d+\^\d+', l) and not _heading.match(l)]
     match = sorted(sup_anchors, key=lambda x: (int(x.split('^')[0]),
                                                int(x.split('^')[1].split('/')[0]),
                                                x)) == sup_source
@@ -86,6 +96,9 @@ for stem, doc in ibl.DOCS.items():
     if not match:
         fail += 1
         print(f"    source expects: {', '.join(sup_source)}")
+    if _inline:
+        print(f"  ^N in fraza, nu titlu  : {len(_inline)} (trimiteri la articole ale ALTOR acte, "
+              f"nu ancore lipsa)")
 
     # 5. body-level superscripts survived too (paragraphs, letters)
     body_carets = len(re.findall(r'\(\d+\^\d+\)', md)) + len(re.findall(r'[a-z]\^\d+\)', md))

@@ -13,3 +13,6 @@ desktop.ini
 .DS_Store
 __pycache__/
 *.pyc
+
+# Livrabile ale altor sesiuni (contracte, memo-uri .docx). Nu fac parte din wiki; vezi CLAUDE.md, „Outstanding work” pct. 6.
+Claude outputs/

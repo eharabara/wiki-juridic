@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-05 | Total pages: 91
+> Last updated: 2026-09-05 | Total pages: 95
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -20,6 +20,7 @@
 - [[COD-174-2018]] — Codul serviciilor media audiovizuale: comunicările comerciale audiovizuale (cap. IX) și Consiliul Audiovizualului (cap. X); transpune parțial Directiva 2010/13/UE, fără nicio regulă pentru publicitatea financiară.
 - [[COD-218-2008]] — Codul contraventional: 254 de articole cu exponent; consolidare 2026-09-13, data viitoare.
 - [[COD-225-2003]] — Codul de procedura civila: procedura in fata instantelor civile; recursul, arts. 397-422, este abrogat in bloc.
+- [[COD-434-2023]] — Codul urbanismului și construcțiilor: în vigoare 30.01.2025 (nu 2026); 390 de articole ancorate fără nicio lacună, dar cele 25 de anexe lipsesc din text.
 - [[COD-443-2004]] — Codul de executare: faza de dupa hotararea definitiva; numerotare 1-325 completa.
 - [[COD-95-2021]] — Codul vamal: cel mai nou dintre coduri, consolidare 2026-09-01.
 - [[COD-985-2002]] — Codul penal: 388 de articole, fara lacune; consolidare 2026-12-02, data viitoare.
@@ -27,6 +28,8 @@
 - [[HG-1170-2016]] — Hotărârea Guvernului nr. 1170/2016 privind transmiterea, schimbarea destinației și schimbul de terenuri
 - [[HG-1171-2018]] — Regulamentul privind armonizarea legislației Republicii Moldova cu legislația UE
 - [[HG-574-2024]] — Metodologia de analiză a impactului de reglementare (HG nr. 574/2024); abrogă HG 23/2019, actul încă citat de practică.
+- [[HG-582-2022]] — Regulamentul de demolare a construcțiilor neautorizate; împlinește art. 322 alin. (4) din Codul urbanismului, deși e adoptată pe temeiul art. 439^6 alin. (5) din Codul contravențional.
+- [[HG-743-2024]] — Regulamentul de atestare a specialiștilor în construcții (anexa nr. 1) sub Codul urbanismului; act în puncte, „pct. N” neancorat; consolidare viitoare 2026-12-30.
 - [[L-1-2018]] — Legea nr. 1/2018 cu privire la organizațiile de creditare nebancară
 - [[L-100-2017]] — Legea nr. 100/2017 cu privire la actele normative
 - [[L-105-2003]] — Legea nr. 105/2003 privind protecția consumatorilor: practici comerciale incorecte, clauze abuzive, SAL și cooperare CPC; arts. 37 alin. (2) și 38 alin. (2) numesc expres CNPF autoritate de supraveghere pentru perimetrul propriu.
@@ -36,6 +39,7 @@
 - [[L-122-2008]] — Legea nr. 122/2008 privind birourile istoriilor de credit
 - [[L-135-2007]] — Legea nr. 135/2007 privind societatile cu raspundere limitata: actul de baza pentru SRL, consolidare 2026-03-27, 83 de articole plus 10 cu exponent.
 - [[L-139-2007]] — Legea nr. 139/2007 privind asociațiile de economii și împrumut
+- [[L-1543-1998]] — Legea cadastrului bunurilor imobile: art. 40^4 alin. (1) face documentele de recepție condiție de înregistrare a construcției; consolidare viitoare 2027-01-01.
 - [[L-160-2023]] — Legea nr. 160/2023 cu privire la garantarea depozitelor în bănci (DGSD): înlocuiește Legea 575/2003, abrogată; 58 de ancore, nemodificată.
 - [[L-171-2012]] — Legea nr. 171/2012 privind piața de capital
 - [[L-177-2025]] — Legea nr. 177/2025: interdicția opțiunilor binare și a marketingului de derivate cu levier; a introdus art. 4^1 în L-171-2012 și art. 245^13 în Codul penal.

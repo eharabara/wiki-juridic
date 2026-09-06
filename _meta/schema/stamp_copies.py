@@ -31,6 +31,19 @@ def split(data):
     return (yaml.safe_load(data[3:m.start()].decode("utf-8")) or {}), data[m.end():]
 
 
+def emit(key, value):
+    """One frontmatter line, quoted by yaml itself.
+
+    The previous version quoted by hand: `master` was always wrapped in double quotes, and its
+    value contains double quotes, so a re-stamp produced invalid YAML. It never fired because the
+    script only rewrites a file whose body changed, and until 2026-09-05 no copy had been
+    re-copied from the project since the stamps were added by hand.
+    """
+    line = yaml.safe_dump({key: value}, default_flow_style=False,
+                          allow_unicode=True, sort_keys=False, width=10 ** 6)
+    return line.rstrip("\n")
+
+
 def main():
     args = sys.argv[1:]
     taken = None
@@ -59,17 +72,12 @@ def main():
         fm["stamped"] = today
         if taken:
             fm["taken"] = taken
-        order = spec["required"]
         lines = ["---"]
-        for k in order:
+        for k in spec["required"]:
             v = fm.get(k)
-            if k in ("taken", "stamped"):
-                v = f"'{v}'"
-            elif k == "master":
-                v = f'"{v}"'
-            elif isinstance(v, bool):
-                v = "true" if v else "false"
-            lines.append(f"{k}: {v}")
+            if k in ("taken", "stamped") and hasattr(v, "isoformat"):
+                v = v.isoformat()
+            lines.append(emit(k, v))
         lines.append("---")
         open(p, "wb").write(("\n".join(lines) + "\n").encode("utf-8") + body)
         print(f"{os.path.relpath(p, ROOT)}: re-stamped ({h[:12]}, taken {fm['taken']})")

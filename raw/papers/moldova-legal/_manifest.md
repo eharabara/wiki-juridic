@@ -846,6 +846,348 @@ Art. 27 alin. (1) leagă **replica** de judecățile de valoare fără substrat 
 nu de relatările false de fapte, pentru care remediul este **dezmințirea** (art. 26). Cererile
 adresate Consiliului sub `DCA-61-2024` cap. VII se califică după această distincție.
 
+## O. Perimetrul construcțiilor — COD-434/2023 și HG-743/2024 (ingerate 2026-09-05)
+
+Perimetrul lipsea complet. Motivul concret al ingerării: la 05.09.2026 o analiză de contract de
+antrepriză pentru o casă individuală a trebuit livrată cu trei poziții neancorate — termenele de
+garanție, dirigintele de șantier, autorizația de construire.
+
+### O.1. Premisa verificată în sursă înainte de orice
+
+Sursele secundare dădeau intrarea în vigoare a codului când 30.01.2025, când 30.01.2026.
+**Textul rezolvă întrebarea: 30.01.2025.**
+
+`COD-434-2023` **art. 390 alin. (1)**: codul intră în vigoare „peste 12 luni de la data publicării
+în Monitorul Oficial", cu excepția unei liste de dispoziții — între care **art. 150**, pragul de
+scutire de autorizație — care intră în vigoare la data publicării. Publicare 30.01.2024, deci
+30.01.2025. Al treilea termen, alin. (1^1): arts. 129 alin. (1), (2), (4) și (6)–(8), 130, 324,
+387 alin. (5^1) și 389 alin. (6) au intrat în vigoare la 1 septembrie 2024.
+
+**Capcană de fișă.** Fișa legis.md a codului scrie „Data intrării în vigoare 30.01.2024", care
+este data excepțiilor, nu a codului. Cine citește fișa și nu art. 390 datează greșit tot regimul.
+
+Data se confirmă de patru ori independent: fișele celor trei legi abrogate și a HG 285/1996 dau
+„Data abrogării 30.01.2025"; HG 329/2009 poartă „Abrogată prin HG743 […] în vigoare 30.01.25";
+`HG-743-2024` pct. 6 spune „intră în vigoare la data de 30 ianuarie 2025".
+
+### O.2. Cele trei acte abrogate — niciunul nu se ingerează
+
+Art. 390 alin. (5) abrogă **integral**, la data intrării în vigoare a codului, Legea 721/1996
+privind calitatea în construcții, Legea 835/1996 privind principiile urbanismului și amenajării
+teritoriului și Legea 163/2010 privind autorizarea executării lucrărilor de construcție. Art. 390
+alin. (4) abrogase deja arts. 10, 11 și 14 din Legea 163/2010 **de la publicare**, cu un an mai
+devreme. Niciun regim tranzitoriu nu menține în vigoare vreo dispoziție din cele trei.
+
+**Decizia:** nu se ingerează niciunul. Ținta 3 din plan era condiționată de constatarea că unul
+dintre ele mai este aplicabil; constatarea este negativă.
+
+**Anomalie de registru, de semnalat, nu de rezolvat.** Pentru Legea 721/1996 (doc_id 141608)
+metadata legis.md contrazice propriul text al actului:
+
+| act | corpul documentului | câmpul „Data abrogării" | marcaj în lista de căutare |
+|---|---|---|---|
+| L. 721/1996 | „Abrogată prin CUC434 […] în vigoare 30.01.25" | **„-", gol** | **„Modificat"** |
+| L. 835/1996 | — | 30.01.2025 | „Abrogat" |
+| L. 163/2010 | — | 30.01.2025 | „Abrogat" |
+| HG 285/1996 | „Abrogată prin HG726 […] în vigoare 30.01.25" | 30.01.2025 | „Abrogat" |
+
+Cine filtrează legis.md după marcaj sau după câmp conchide că legea calității în construcții este
+încă în vigoare. `[de verificat]`
+
+### O.3. Nu există regulament de recepție a construcțiilor
+
+Ținta 2 cerea „regulamentul de recepție a construcțiilor și regulamentul de atestare
+tehnico-profesională". Al doilea există; **primul nu mai există**, iar constatarea a fost făcută
+prin trimiterile codului, nu din memorie:
+
+1. Codul **nu deleagă** recepția. Căutarea în text după „recepție" alături de „regulament" sau
+   „Guvern" nu întoarce nimic. Recepția este reglementată direct, în arts. 192–215.
+2. Regulamentul anterior, HG 285/1996 (doc_id 145621), este abrogat de la 30.01.2025, prin
+   HG 726/2024. Pct. 4 din `HG-743-2024` completează chiar HG 726/2024 cu norma care fixează data.
+
+Materia tehnică a fost preluată de **NCM A.05.01:2025 „Executarea și recepția construcțiilor"**,
+aprobat prin ordinul MIDR nr. 88/2025 (doc_id 148510) — normativ tehnic, nivelul 7 al ierarhiei
+surselor, **neingerat**.
+
+### O.4. Actul subordonat ingerat — HG-743/2024
+
+Găsit prin preambulul propriu: „În temeiul **art. 129 alin. (6) și art. 338 alin. (1)** din Codul
+urbanismului și construcțiilor nr. 434/2023". Aprobă Regulamentul cu privire la atestarea
+specialiștilor care desfășoară activități în construcții (anexa nr. 1) — regulamentul la care
+trimit art. 180 alin. (3) pentru dirigintele de șantier și art. 187 alin. (4) pentru responsabilul
+tehnic — și Regulamentul privind verificarea documentației de proiect și expertiza tehnică
+(anexa nr. 2). Abrogă HG 329/2009, cu menținerea certificatelor până la expirarea termenului lor
+(pct. 2), coroborat cu art. 387 alin. (6) din cod.
+
+Ruta de căutare care l-a găsit, de reținut fiindcă titlul nu conține niciun cuvânt-cheie evident
+(„cu privire la asigurarea calității în construcții"): **căutare în TEXT**, `search_type=2`, cu
+fraza din art. 338 alin. (1) al codului, „atestarea specialistilor care desfasoara activitati in
+constructii", scrisă fără diacritice. Căutarea în titlu, `search_type=1`, nu îl întoarce.
+
+### O.5. Ce nu este ancorat, în ambele acte
+
+**Codul: cele 25 de anexe lipsesc din text.** `showdetails` le servește doar ca etichete de
+legătură; extracția le-a păstrat ca listă de nume la finalul textului, „anexa nr.1" … „anexa
+nr.25" (nr. 17 marcată „abrogată"). Conținutul stă în fișiere separate pe legis.md. **O trimitere
+la „anexa nr. N din cod" NU este ancorată.** Afectate direct de normele deja folosite: anexa nr. 9
+(Cartea tehnică, art. 229 alin. (1)), anexa nr. 10 (construcții de importanță redusă, art. 197
+alin. (8)), anexa nr. 25 (modelul declarației de începere a lucrărilor, art. 176 alin. (2) lit. b)).
+Este o limită mai insidioasă decât de obicei, fiindcă restul actului este ancorat perfect.
+
+**Hotărârea: „pct. N" nu este ancorat**, ca la `HG-1170-2016`, `HG-1171-2018`, `HG-574-2024` și
+`DCA-61-2024`. Aici motivul este demonstrabil, nu prezumat: numerotarea repornește între hotărâre
+și cele trei anexe, iar în cele 211 puncte numerotate punctele 1–25 și următoarele apar de mai
+multe ori. Exemplu real: **pct. 50** este, în anexa nr. 1 (linia 440), obligația de formare
+continuă la 5 ani, iar în anexa nr. 2 (linia 647), înregistrarea avizelor de verificare. Spre
+deosebire de cod, **anexele hotărârii sunt prezente integral în text**.
+
+Consecință care atinge și registrul mecanic: marcajele de consolidare viitoare ale hotărârii
+(`[Pct.50 …]`, `[Pct.82 …]`) **nu spun în care anexă**. Registrul nu poate dezambigua ce sursa nu
+dezambiguează.
+
+### O.6. Consolidări
+
+| act | doc_id | consolidare | stare |
+|---|---|---|---|
+| `COD-434-2023` | 155736 | 2026-08-06 (LP153/2026) | trecută; **zero** dispoziții amânate |
+| `HG-743-2024` | 155190 | 2026-12-30 (HG341/2026) | **viitoare**; 6 dispoziții amânate |
+
+Cele șase: `Pct.33 subpct.33.3`, `Pct.50`, `Pct.61 subpct.61.6`, `Pct.82`, `Pct.115 introdus`,
+`Anexa nr.9 introdusă`, toate „în vigoare 30.12.26". Niciuna nu privește caracterul obligatoriu al
+dirigintelui de șantier sau al responsabilului tehnic, care rezultă din arts. 180 și 187 ale
+codului, nu din regulament.
+
+### O.7. Raportul cu actele deja ancorate
+
+**Codul contravențional `COD-218-2008`.** Codul urbanismului **nu a modificat și nu a dublat
+art. 179**. Art. 389 alin. (1) enumeră limitativ ce a modificat: arts. 46^1, 169 (lit. c^1) nouă),
+**177** (alin. (6) abrogat, alineate (7) și (8) noi), 313^3 (alin. (1^1) nou), 401, 408^2 și
+423^10. Art. 179 — construcții neautorizate, amendă 250–400 u.c. persoanei fizice — rămâne
+neatins. Verificat în `_meta/inforce/in-force-register.md`: `COD-218-2008` are consolidare
+viitoare, dar dispozițiile afectate sunt arts. 313^2, 313^4, 313^5, 313^6 și 330^2; **arts. 177 și
+179 sunt citabile astăzi**.
+
+Ce adaugă codul este consecința, nu sancțiunea: **art. 327 alin. (1)** trimite procesul-verbal de
+contravenție instanței, care „va dispune, inclusiv ca măsură de siguranță, demolarea/demontarea".
+Demolarea este judiciară, grefată pe procedura contravențională. **Art. 385 alin. (2)** închide
+regularizarea retroactivă: obținerea autorizației în cursul sau după execuție nu înlătură
+caracterul ilicit.
+
+**Codul civil `CC-1107-2002`.** Termenul de garanție de 5 ani din art. 225 alin. (1) al codului
+(curge de la recepția la terminarea lucrărilor) și termenul de 5 ani din art. 1126 alin. (1)
+lit. b) CC (termen de descoperire și notificare a viciilor, curge de la intrarea în posesie) sunt
+**paralele, nu cumulative**. Veriga: **art. 1374 alin. (1) CC** aplică arts. 1126 și 1127 „în mod
+corespunzător în privința viciilor lucrării", deci și în antrepriză; alin. (2) mută punctul de
+plecare la recepția lucrării în ansamblu când recepția se face pe părți. Concursul dintre norma
+specială ulterioară și norma civilă nu este tranșat de texte. `[de verificat]`
+
+### O.8. Metodă și integritate
+
+Ambele acte ingerate cu `_meta/imports/moldova-legal/ingest_business_law.py`, verificate cu
+`verify_business_law.py`: **integritate de text PASS**, 3.640/3.640 de linii pentru cod și 779/779
+pentru hotărâre, deci s-au adăugat numai ancore. Codul: 59 `<sup>`, toate la nivel de alineat sau
+literă, 390 de ancore, numerotare 1–390 completă, fără duplicate, fără lacune, fără articole cu
+exponent — singurul act din corpus cu numerotare perfect continuă la această scară. Hotărârea:
+29 `<sup>` devenite `^N` (19 apariții), zero ancore de articol.
+
+**Două corecturi de unealtă făcute în aceeași sesiune, ambele documentate în scripturi:**
+
+1. `fetch()` din scriptul de ingerare scria răspunsul `curl` **direct peste fișierul din cache**.
+   Cum legis.md întoarce pagina de verificare Cloudflare cu `rc=0`, o rulare blocată ar fi
+   înlocuit HTML-ul bun cu pagina de verificare, distrugând singura copie a sursei. Acum se
+   descarcă într-un fișier temporar și se promovează doar la reușită, cu revenire pe cache.
+2. Controlul „superscript articles" din `verify_business_law.py` căuta exponenții **în tot
+   HTML-ul**, deci prindea și trimiterile la articolele altor acte. La cod raporta FAIL cerând
+   ancore pentru „13^1" și „28^1", care sunt, toate trei potrivirile, în blocul de modificare a
+   altor legi de la finalul actului: „Articolul 13^1 din Legea nr. 1134/1992", textul nou citat
+   între ghilimele introdus în acea lege, și „Articolul 28^1 se abrogă" din Legea 163/2010.
+   Niciunul nu este articol al codului. Controlul compară acum cu liniile de referință extrase din
+   HTML **care încep** cu „Articolul N^M", deci rămâne independent de markdownul scris de noi, iar
+   potrivirile din interiorul frazei se raportează separat, ca informație. Regresie verificată pe
+   toate cele 21 de acte: **FAILURES: 0**, seturile de exponenți neschimbate, inclusiv cele 159 ale
+   Codului fiscal cu forma `54^1/1` și cele 254 ale Codului contravențional.
+
+Ruta de descărcare: legis.md stă în spatele unei verificări Cloudflare care blochează `curl`.
+HTML-ul a fost luat din Chrome, după ce Eugen a trecut verificarea, printr-un `fetch` same-origin
+care întoarce **octeții serverului**, nu DOM-ul serializat ca la P8 — deci markupul `<sup>` este
+exact cel servit, ceea ce extractorul scris pentru `curl` și aștepta.
+
+### O.9. Ce rămâne deschis
+
+1. **Rezolvat în aceeași zi — vezi O.10.** Este `HG-582-2022`, doc_id 152829, ingerată. Termenele
+   de demolare sunt ancorate. Afirmația de mai sus, că actul „nu a fost identificat prin căutare
+   în titlu", era **neverificată**: acea căutare nu fusese rulată. Se păstrează aici, tăiată, ca
+   dovadă a erorii, nu ștearsă.
+2. **Rezolvat în aceeași zi — vezi P.** `L-1543-1998` este ingerată, doc_id 150226. Răspunsul
+   este da: art. 40^4 alin. (1) face din documentele de recepție o condiție cumulativă de
+   înregistrare, alături de dreptul asupra terenului.
+3. **Certificatele de urbanism emise sub Legea 163/2010** înainte de 30.01.2025: codul nu conține
+   nicio normă tranzitorie despre ele. Art. 388 alin. (3) privește documentația de urbanism, care
+   este alt lucru. `[de verificat]`
+4. **Celelalte regulamente delegate de cod** (arts. 103, 107, 111, 150 alin. (8), 322 alin. (4))
+   nu au fost căutate. Perimetrul actelor subordonate este mai larg decât cele două ingerate.
+5. **Anexele codului**, vezi O.5.
+
+6. **Registrul in-force etichetează greșit dispoziția amânată a hotărârii.**
+   `_meta/inforce/in-force-register.md` listează „**HG-743-2024 art. 355**". Actul are **zero**
+   ancore de articol; 355 este numărul de articol al **Monitorului Oficial** din citarea
+   modificării, „MO284-287/30.06.26 art.355", pe care parserul l-a luat drept dispoziție a
+   actului. Efectul nu ascunde nimic — actul e semnalat corect ca având consolidare viitoare, iar
+   liniile indicate sunt corecte — dar numește o dispoziție inexistentă. Este primul act structurat
+   în puncte cu consolidare viitoare din corpus, deci prima dată când defectul se poate vedea.
+   Fișierul e generat, iar scriptul e comun tuturor actelor: **nu se corectează aici**, se ridică
+   cu Eugen. `[de verificat]`
+
+
+### O.10. Regulamentul de demolare — găsit în aceeași zi (HG-582/2022)
+
+Întrebarea deschisă nr. 1 de la O.9 este închisă. Regulamentul la care trimit art. 322 alin. (4)
+și art. 328 alin. (1) și (2) din `COD-434-2023` este **HG 582/2022 pentru aprobarea Regulamentului
+cu privire la modul de demolare a construcțiilor neautorizate și de defrișare a arborilor și
+arbuștilor**, doc_id 152829, MO 2022 nr. 274–277 art. 682, în vigoare de la publicare, **fără dată
+de abrogare**, consolidare 2026-03-01 (trecută).
+
+**Corectură de consemnare, făcută înainte de orice altceva.** O.9 punctul 1 spunea că actul „nu a
+fost identificat pe legis.md prin căutare în titlu". Afirmația era neverificată: **căutarea în
+titlu după „demolare" nu fusese rulată**. Când a fost rulată, `search_type=1`, fraza „demolare a
+constructiilor neautorizate" fără diacritice, a întors **un singur rezultat**, chiar actul căutat.
+Ipoteza scrisă atunci, că actul „poartă un titlu care nu conține cuvântul", era exact pe dos:
+titlul reia aproape cuvânt cu cuvânt formula delegării. Regula care se desprinde: **o negație nu
+se scrie decât după căutarea care o susține**, altfel închide un drum care era deschis.
+
+**Capcana reală era alta: actul nu este emis în temeiul codului.** Clauza lui de adoptare spune
+„În temeiul **art. 439^6 alin. (5) din Codul contravențional** nr. 218/2008". Este anterior codului
+și a fost adoptat pentru executarea măsurii de siguranță a demolării dispuse de instanță — exact
+configurația pe care codul o construiește în art. 327 alin. (1). Deci delegarea din art. 322
+alin. (4) este împlinită de un act care nu o invocă, iar o căutare după temeiul legal presupus
+**nu l-ar fi găsit niciodată**.
+
+Lanțul este acum ancorat cap la cap, toate verigile în vault:
+
+| verigă | unde | ce spune |
+|---|---|---|
+| fapta | `COD-218-2008` art. 179 | construcție fără autorizație, amendă 250–400 u.c. persoanei fizice |
+| măsura | `COD-218-2008` art. 439^6 alin. (1) | demolarea se aplică inclusiv pentru art. 179 |
+| cine o dispune | `COD-218-2008` art. 439^6 alin. (3) | instanța; **supraviețuiește** încetării procesului contravențional (art. 441 alin. (1) lit. f)) și înlăturării răspunderii (art. 26) |
+| cine o execută | `COD-218-2008` art. 439^6 alin. (4) | contravenientul, ori APL din contul proprietarului |
+| delegarea | `COD-218-2008` art. 439^6 alin. (5) | modul se stabilește de Guvern |
+| oglinda în cod | `COD-434-2023` arts. 327 alin. (1), 328 | aceeași construcție, cu trimitere la „regulamentul aprobat de Guvern" |
+| regulamentul | `HG-582-2022` | actul ingerat |
+
+Verificat în registrul dispozițiilor neintrate în vigoare: **art. 439^6 nu figurează**, deci este
+citabil astăzi, ca și arts. 177 și 179.
+
+**Termenele cerute de art. 328 alin. (1),** acum ancorate: executarea lucrărilor **nu poate depăși
+12 luni** la demolare și 6 luni la defrișare, prelungire numai din motive tehnologice prevăzute în
+documentația de proiect (pct. 3, definiții); prescripția de conformare se comunică în **trei zile**
+(pct. 4); răspunsul la prescripție are **trei zile**, iar **lipsa lui declanșează direct dispoziția
+de executare silită** (pct. 5); dispoziția se comunică în trei zile lucrătoare (pct. 9).
+
+**Acoperă și demontarea**, deși titlul spune doar „demolare": pct. 4 numește
+„demolarea/demontarea/defrișarea", iar pct. 20 subpct. 3) „demontarea instalațiilor și utilajelor
+tehnologice". Titlul e mai îngust decât conținutul.
+
+**Aliniat la cod prin HG27/2026**, în vigoare 01.03.26: la pct. 20 subpct. 1) trimiterea la art. 17
+alin. (1) lit. f) din Legea 163/2010 a fost înlocuită cu art. 153 alin. (1) lit. e) din cod.
+Fișierul nu mai conține nicio trimitere la legea abrogată. Alinierea s-a făcut cu 13 luni după
+intrarea în vigoare a codului.
+
+**Citare:** act în puncte, 34 de puncte, **zero ancore**, numerotarea repornește între hotărâre
+(pct. 1–2) și Regulament, deci punctele 1 și 2 apar de două ori. „pct. N" nu este ancorat. Cele
+trei anexe — modelele de prescripție, dispoziție și proces-verbal — **sunt** în text, spre
+deosebire de anexele codului.
+
+**Integritate:** 125/125 de linii, PASS. Cele 7 `<sup>` au devenit `439^6` (4 apariții) și `134^1`
+(3), cu **zero** apariții ale formei aplatizate „4396" — care ar fi transformat chiar temeiul legal
+al actului într-o citare falsă.
+
+**Ce rămâne deschis aici:** art. 328 alin. (1) și (2) trimit la regulament și pentru **remedierea**
+construcțiilor afectate de intervenții neautorizate, iar regulamentul reglementează demolarea și
+defrișarea, nu remedierea; dacă termenele de remediere sunt cele de demolare prin asimilare nu
+rezultă din text. Și contestarea dispoziției de executare silită nu e reglementată, rămâne dreptul
+comun al `COD-116-2018`. `[de verificat]`
+
+## P. Legea cadastrului bunurilor imobile — L-1543/1998 (ingerată 2026-09-05)
+
+Închide întrebarea deschisă nr. 2 de la O.9: `COD-434-2023` trimite la această lege în art. 387
+alin. (3), iar legătura dintre procesul-verbal de recepție și înscrierea dreptului în Registrul
+bunurilor imobile nu putea fi ancorată fără ea. doc_id 150226, în vigoare din 21.05.1998,
+**republicată** 02.04.2021 (MO 88–95 art. 79), fără dată de abrogare.
+
+### P.1. Capcană de titlu
+
+legis.md dă denumirea ca „LEGE Nr. 1543 din 25.02.1998 **cadastrului bunurilor imobile**" — fără
+„Legea", care stă în câmpul TIPUL, și fără „privind". **O căutare în titlu după fraza „Legea
+cadastrului bunurilor imobile" nu o întoarce.** Căutarea după „cadastrul bunurilor imobile" dă 65
+de rezultate, aproape toate acte de modificare pe șapte pagini; actul de bază este singurul rând cu
+prefixul **LP1543**. Este a treia capcană de denumire din corpus, după `L-284-2004` (titlu schimbat)
+și `L-550-1995` (titlu schimbat), dar de alt tip: aici titlul nu s-a schimbat, doar este **trunchiat
+în fișă**, cu primul cuvânt mutat în câmpul de tip.
+
+### P.2. Răspunsul: recepția ESTE condiție de înregistrare
+
+`art. 40^4 alin. (1)`: „Construcția construită se înregistrează ca proprietate a beneficiarului
+(investitorului) construcției dacă anterior sau concomitent se înregistrează dreptul de proprietate
+sau superficie asupra terenului al beneficiarului (investitorului) construcției **și se prezintă
+documentele ce confirmă recepția lucrărilor de construcție**."
+
+Două condiții **cumulative**: dreptul asupra terenului, și documentele de recepție. Legea nu spune
+„proces-verbal de recepție", ci folosește categoria generică; actul concret este cel din
+`COD-434-2023` art. 193 alin. (1).
+
+| situație | ce se cere | temei |
+|---|---|---|
+| construcție finalizată | drept asupra terenului **+** documentele de recepție | `L-1543-1998` art. 40^4 alin. (1) |
+| construcție nefinalizată | drept asupra terenului **+** autorizația **+** avizul tehnic al expertului atestat; grad de executare **nu mai mic de planșeul la cota 0.000** | art. 40^4 alin. (2) |
+| case vechi din registrele gospodăriilor, anterioare Legii 835/1996 | extrasul din acele registre | art. 40^4 alin. (3), la care trimite art. 387 alin. (3) din cod |
+| construcții neautorizate funcționale la 30.01.2024 | declarație notarială + certificat APL, cu notare permanentă; **până la 30.01.2028** | `COD-434-2023` art. 387 alin. (4) |
+
+Alin. (2) este perechea exactă a art. 351 alin. (3) din cod, care spune că avizul tehnic „este
+întocmit **în scopul înregistrării construcției nefinalizate** în Registrul bunurilor imobile şi nu
+poate fi utilizat în alte scopuri". Codul spune la ce servește avizul; legea cadastrului spune ce
+prag trebuie să atingă. Cele două se confirmă reciproc.
+
+Verificat în `_meta/inforce/in-force-register.md`: **art. 40^4 nu figurează** printre dispozițiile
+amânate, deci este în vigoare astăzi, deși actul are consolidare viitoare.
+
+### P.3. Consolidare viitoare
+
+**2027-01-01** (LP176 din 03.07.25), cu **6 dispoziții** care nu sunt încă în vigoare: arts. **15^3,
+15^4, 15^5, 15^6, 15^7, 15^8**, toate „introduse", toate „în vigoare 01.01.27". Sunt în materia
+**inginerului cadastral certificat**, nu în materia înregistrării drepturilor, deci nu ating
+răspunsul de la P.2. Registrul le listează individual, cu numărul de linie — spre deosebire de
+`HG-743-2024`, unde marcajele în puncte nu se pot dezambigua (vezi O.5).
+
+Notă de sursă, păstrată fiindcă textul brut este imuabil: marcajul art. 15^6 este scris
+`[Art.15^6introdus prin LP176…]`, lipit, fără spațiu după exponent. Greșeală a sursei, nu a
+extracției; ancora articolului este corectă.
+
+### P.4. Structură și integritate
+
+99 de ancore: **61 de articole de bază, numerotate 1–61 fără nicio lacună**, plus 38 cu exponent
+(10^1, 12^1, 15^1–15^8, 30^1, 33^1, 37^1, 40^1–40^9, 41^1, 42^1, 46^1–46^10, 47^1, 55^1, 55^2,
+56^1); opt capitole. Cele 129 de etichete `<sup>` s-au rezolvat în cele 38 de articole cu exponent,
+care se potrivesc exact cu sursa, plus 78 de exponenți la nivel de alineat și literă păstrați în
+corp. Fără span-uri ridicate prin CSS, fără CUPRINS, fără duplicate.
+
+Verificată cu `verify_business_law.py`: **integritate de text PASS, 1.038 de linii scrise față de
+1.038 de referință**, deci s-au adăugat numai ancore.
+
+### P.5. Ce rămâne deschis
+
+1. **Codul și legea cadastrului nu se citează reciproc** exact în punctul care contează. Art. 40^4
+   alin. (1) cere „documentele ce confirmă recepția" fără trimitere la art. 193 din cod; codul
+   descrie procesul-verbal fără trimitere la art. 40^4. Îmbinarea se face prin categorii. Consecința
+   practică: la **recepția în două etape** (art. 192 alin. (9) din cod, obligatorie la finanțare
+   publică), nu rezultă din text dacă procesul-verbal la terminarea lucrărilor este suficient pentru
+   înregistrare, sau se cere și cel final. `[de verificat]`
+2. **Autorizația de construire nu este cerută expres pentru construcția finalizată.** Art. 40^4
+   alin. (2) o cere explicit pentru cea nefinalizată; alin. (1) nu o menționează. Ea intră indirect,
+   fiindcă art. 193 alin. (2) din cod spune că actul de recepție certifică îndeplinirea obligațiilor
+   „ale proiectului de execuție verificat şi ale autorizației de construire". Cine verifică
+   autorizația la înregistrare — registratorul, ori comisia de recepție înaintea lui — nu este
+   împărțit de niciun text. `[de verificat]`
+
 ## D. Artefacte metodologice create
 
 | Artefact | Tip | Rol |
