@@ -1,0 +1,31 @@
+#!/bin/sh
+# Bariera la commit (2026-09-06). Git o ruleaza singur inaintea fiecarui commit, dupa
+# `python _meta/hooks/install.py`, care seteaza `core.hooksPath` la acest folder.
+#
+# Ce face: ruleaza controalele in modul "doar verificare" (nimic scris, fara hash-uri, ca sa
+# dureze secunde). Daca registrul in-force, blocul de acoperire sau SCHEMA sunt invechite, sau
+# validatorul gaseste erori, commit-ul e refuzat cu mesajul scriptului.
+# Ce nu face: nu regenereaza nimic. Repararea e `python _meta/close_session.py`.
+# Iesirea de urgenta, cand chiar vrei sa comiti asa: `git commit --no-verify`.
+#
+# Fisierul trebuie sa aiba terminatii LF (vezi .gitattributes): sh nu accepta CRLF.
+
+cd "$(git rev-parse --show-toplevel)" || exit 2
+
+if command -v python >/dev/null 2>&1; then PY=python
+elif command -v python3 >/dev/null 2>&1; then PY=python3
+elif command -v py >/dev/null 2>&1; then PY="py -3"
+else
+  echo "pre-commit: python nu e in PATH; commit refuzat. Sari peste cu: git commit --no-verify" >&2
+  exit 2
+fi
+
+$PY -X utf8 _meta/close_session.py --check --no-hash
+rc=$?
+if [ "$rc" -ne 0 ]; then
+  echo "" >&2
+  echo "pre-commit: commit refuzat. Ruleaza  python _meta/close_session.py  ca sa regenerezi si sa vezi raportul." >&2
+  echo "            Daca vrei totusi sa comiti asa:  git commit --no-verify" >&2
+  exit "$rc"
+fi
+exit 0

@@ -91,7 +91,7 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-06 09:41 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-06 09:47 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
 53 primary Moldovan acts, 29 EU acquis extracts, 284 BNM corpus documents.
 
@@ -435,6 +435,8 @@ with no basis in the source. The refreshed consolidation contains it. No action 
      a `.docx` into it during this same session — so it is not a leftover, it collects live output
      from whatever else is running against this vault. Decide where that output belongs before it
      accumulates.
+   - Done 2026-09-06. `Claude outputs/` is in `.gitignore`: it holds deliverables of other
+     sessions (a contract, a memo), not wiki. It stays on disk and out of the repository.
 
 ## Keeping this file true
 
@@ -451,10 +453,17 @@ same spec, so the rules a reader sees are the rules enforced. Judgement stays in
 sections. If you find yourself typing an article count or a field list into a file, stop and
 run the script. On this machine the interpreter is `python`, not `python3`.
 
+Since 2026-09-06 the three generated controls run in one command, in the right order (the
+coverage block reads the in-force register, so the register comes first):
+`python _meta/close_session.py`. See "Closing a session" below.
+
 ## Safety
 
-This folder is not under version control. Before any operation that writes to existing files,
-copy the folder to `C:\Users\harab\wiki-backups\wiki-YYYY-MM-DD-<reason>\` and confirm the copy.
+This folder is under git since 2026-09-05 (private repository `eharabara/wiki-juridic`), so a
+committed file can always be compared and restored. Before any operation that writes to many
+existing files, still copy the folder to `C:\Users\harab\wiki-backups\wiki-YYYY-MM-DD-<reason>\`
+and confirm the copy: the strip-and-compare proof below runs against an untouched tree, not
+against git's view of it.
 
 Never rewrite, correct, harmonise or reflow legal text. Where you add structure, prove the text
 survived unchanged: strip the lines you added and compare the remainder to the backup copy, not
@@ -479,11 +488,28 @@ finding that the diff does not show), **Decis** (the choice made and by whom), *
 file, manifest section). Do not repeat in the log what `git diff` already shows. Do not write to
 `_meta/log/2026-07-08.md`.
 
-**Run the validator** at the end of any session that touched the vault, after the coverage script:
+## Closing a session
+
+One command, after the log entry is written:
 
 ```
-python _meta/schema/validate_wiki.py --report
+python _meta/close_session.py --commit "what was done"
 ```
 
-It exits 1 on errors. It repairs nothing. Anything it finds that needs judgement goes to Eugen.
-A rule that produces old errors is not relaxed to make them pass.
+It regenerates the in-force register, the coverage block and `SCHEMA.md` in that order, runs
+the validator with a report, and only then commits and pushes. It stops at the first problem.
+It refuses to commit when `log.md` has no entry dated today (decision D8; `--no-log-entry`
+overrides, on purpose and visibly). It does not re-stamp the `legal-career/` copies, because the
+stamp exists to catch a local edit; refreshing a copy stays manual, per D9. It does not write to
+the log. Run it without `--commit` to regenerate and check only; `--check` writes nothing.
+
+The validator alone is still `python _meta/schema/validate_wiki.py --report`. It exits 1 on
+errors. It repairs nothing. Anything it finds that needs judgement goes to Eugen. A rule that
+produces old errors is not relaxed to make them pass.
+
+**The commit barrier.** `_meta/hooks/pre-commit` runs `close_session.py --check --no-hash`
+before every commit and refuses the commit when a generated control is stale or the validator
+finds errors (about ten seconds; hashes are left to the full run and to GitHub). Git does not
+ship hooks with a clone, so once per machine: `python _meta/hooks/install.py`, which points
+`core.hooksPath` at `_meta/hooks` and runs the hook once as a test. `git commit --no-verify`
+skips the barrier when that is what you mean.
