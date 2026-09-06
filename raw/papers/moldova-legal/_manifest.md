@@ -1567,7 +1567,11 @@ identic, 27 de ancore de carte și de titlu recuperate printr-o regulă nouă î
 Amândouă cu o singură versiune pe legis.md, fără rândul MODIFICAT, fără CUPRINS, fără span ridicat
 prin CSS. **Consolidarea 2027-01-01 a Legii 325/2025 este data ei de intrare în vigoare** (art. 90
 alin. (1)), nu o modificare amânată: registrul in-force o listează ca act cu consolidare viitoare
-și zero dispoziții marcate, ceea ce este exact situația, actul nu binde încă nicăieri. Art. 90
+și zero dispoziții marcate, ceea ce este exact situația, actul nu binde încă nicăieri. Blocul de
+acoperire din `CLAUDE.md` nu o vedea însă ca viitoare: extractorul punea `consolidation_is_future`
+numai când găsea marcaje amânate, deci un act întreg neintrat în vigoare trecea drept curent.
+`make_raw` pune acum flagul și un avertisment „ACT NEINTRAT ÎN VIGOARE” ori de câte ori data
+consolidării este în viitor fără marcaje; Legea 325/2025 a fost reingerată cu el. Art. 90
 alin. (4) abrogă Legea 131/2015 la aceeași dată; art. 91 lasă procedurile și contractele în curs sub
 legea de la inițiere. Legea 20/2026 este în vigoare din 01.04.2026 (art. 28 alin. (1)) și anexa ei
 a modificat deja Legea 131/2015 (vezi S.1, urmarea). Titluri tăiate pe două linii, cazul cunoscut:

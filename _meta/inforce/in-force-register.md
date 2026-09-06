@@ -1,6 +1,6 @@
 ---
 title: Registrul dispozitiilor care nu sint inca in vigoare
-generated: '2026-09-06T22:25:25'
+generated: '2026-09-06T22:27:46'
 as_of: '2026-09-06'
 type: summary
 tags: [moldova, legal-source, methodology, summary]
@@ -113,7 +113,7 @@ Fisierul incorporeaza modificari care nu au intrat in vigoare. Arhiva indicata e
 | L-1543-1998 | 2027-01-01 | da | - | `-` |
 | L-158-2008 | 2026-09-13 | da | - | `-` |
 | L-171-2012 | 2027-06-01 | da | 2021-01-01 | `_archive/raw/cnpf-legis-md-before-refresh-20260904-162713/L-171-2012.md` |
-| L-325-2025 | 2027-01-01 | nu | - | `-` |
+| L-325-2025 | 2027-01-01 | da | - | `-` |
 | L-845-1992 | 2027-01-01 | da | - | `-` |
 
 ## Unde a fost gasit fiecare marcaj

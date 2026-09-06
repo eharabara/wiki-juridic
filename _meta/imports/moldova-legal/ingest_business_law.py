@@ -648,6 +648,17 @@ def make_raw(stem, spec, parsed, show_url):
         f"\u0219i de liter\u0103 sînt p\u0103stra\u021bi \u00een corpul textului.", '',
         '## Fi\u0219a actului juridic \u2014 extras metadata', '',
     ]
+    # 2026-09-06, la ingerarea L-325-2025: un act poate fi INTREG neintrat in vigoare, cu
+    # consolidarea egala cu data intrarii in vigoare si fara niciun marcaj [Art.N ...]. Pina
+    # aici avertismentul si flagul din frontmatter depindeau de existenta marcajelor, deci un
+    # asemenea act trecea drept curent in blocul de acoperire, desi nu binde nicaieri.
+    whole_act_future = (not pending) and parsed['consolidation_date'] > TODAY
+    if whole_act_future:
+        body[-2:-2] = ['', f"> **ATENȚIE, ACT NEINTRAT ÎN VIGOARE.** Consolidarea este datată "
+                           f"**{parsed['consolidation_date']}**, ulterioară zilei de {TODAY}, "
+                           f"și fișa nu conține niciun marcaj de dispoziție amânată: data este "
+                           f"cea a intrării în vigoare a actului întreg. Nicio dispoziție de mai "
+                           f"jos nu se aplică astăzi. Verificați articolul de dispoziții finale.", '']
     if pending:
         warn = ['', f"> **ATENȚIE, CONSOLIDARE VIITOARE.** Textul de mai jos este versiunea "
                     f"care va fi în vigoare la **{parsed['consolidation_date']}**, nu cea de "
@@ -689,6 +700,12 @@ def make_raw(stem, spec, parsed, show_url):
             f"Consolidarea este datata {parsed['consolidation_date']}, ulterioara zilei "
             f"de {TODAY}. Fisierul contine modificari care NU sint inca in vigoare. "
             f"Dispozitii afectate: {len(pending)}.")
+    elif whole_act_future:
+        fm['consolidation_is_future'] = True
+        fm['in_force_warning'] = (
+            f"Consolidarea este datata {parsed['consolidation_date']}, ulterioara zilei "
+            f"de {TODAY}, si nu exista marcaje de dispozitii amanate: este data intrarii in "
+            f"vigoare a actului intreg. Nicio dispozitie nu se aplica astazi.")
     fm_text = (yaml.safe_dump(fm, allow_unicode=True, sort_keys=False).strip() if yaml
                else '\n'.join(f'{k}: {v}' for k, v in fm.items()))
     out = '---\n' + fm_text + '\n---\n\n' + body_text
