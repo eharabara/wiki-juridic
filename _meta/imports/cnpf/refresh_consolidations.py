@@ -68,14 +68,12 @@ def main():
         shutil.copy2(path, ARCHIVE / f"{stem}.md")
 
         # 2. fetch and extract the current consolidation
-        url = f"https://www.legis.md/cautare/showdetails/{spec['new']}"
-        out = HTML_DIR / f"showdetails-{spec['new']}.html"
-        import subprocess
-        r = subprocess.run(['curl', '-sL', '--max-time', '180', '-A', ibl.UA, url, '-o', str(out)],
-                           capture_output=True, text=True)
-        data = out.read_text(encoding='utf-8', errors='replace')
-        if r.returncode != 0 or 'id="contentdoc"' not in data or 'Just a moment' in data[:2000]:
-            raise RuntimeError(f"fetch failed for {stem} ({spec['new']})")
+        # 2026-09-06: curl este blocat de verificarea Cloudflare de pe legis.md. Se foloseste
+        # ibl.fetch, care incearca curl intr-un fisier .part si, daca nu iese documentul, cade
+        # pe cache-ul de pe disc (HTML luat din Chrome); vechiul curl direct suprascria cache-ul
+        # cu pagina de verificare. Cache-ul este folderul HTML_DIR al lotului curent.
+        ibl.META_DIR = HTML_DIR
+        url, data, out = ibl.fetch(spec['new'])
         resolved = ibl.resolve_superscripts(data)
         if '<sup' in resolved:
             raise RuntimeError(f"superscripts unresolved for {stem}")

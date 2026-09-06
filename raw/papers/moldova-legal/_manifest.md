@@ -13,7 +13,7 @@
 
 | ID raw | doc_id | Titlu detectat | Pagină wiki | Consolidare / versiune locală | Observație |
 |---|---:|---|---|---|---|
-| `HG-1170-2016` | **144537** | HOTĂRÂRE Nr. 1170 din 25.10.2016 pentru aprobarea Regulamentului cu privire la modul de transmitere, schimbare a destinaţiei şi schimb de terenuri | [[HG-1170-2016]] | **2025-03-07** | tratată literal din solicitarea inițială; nu este regulamentul de armonizare UE |
+| `HG-1170-2016` | **144537** | HOTĂRÂRE Nr. 1170 din 25.10.2016 pentru aprobarea Regulamentului cu privire la modul de transmitere, schimbare a destinaţiei şi schimb de terenuri | [[HG-1170-2016]] | **2025-03-07** | tratată literal din solicitarea inițială; nu este regulamentul de armonizare UE; **abrogată de la 07.03.2025 prin HG553/2024**, constatare din 2026-09-06 pe fișa și textul consolidării 144537; HG553/2024 neingerat |
 
 ## C. Codul civil — sursă transversală de drept privat
 

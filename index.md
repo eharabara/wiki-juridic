@@ -26,7 +26,7 @@
 - [[COD-985-2002]] — Codul penal: 388 de articole, fara lacune; consolidare 2026-12-02, data viitoare.
 - [[CONST-1994]] — Constituția Republicii Moldova, republicată 13.11.2024: 157 de ancore (143 de articole fără lacune, 6 cu exponent, I–VIII finale); titlul articolului stă pe linia de după ancoră; fără marcaje de modificare în text.
 - [[DCA-61-2024]] — Regulamentul privind conținuturile audiovizuale, act secundar al Consiliului Audiovizualului: pct. 90 interzice în comunicările comerciale produsele și serviciile interzise prin lege; structură pe puncte, fără ancore de articol.
-- [[HG-1170-2016]] — Hotărârea Guvernului nr. 1170/2016 privind transmiterea, schimbarea destinației și schimbul de terenuri
+- [[HG-1170-2016]] — Hotărârea Guvernului nr. 1170/2016 privind transmiterea, schimbarea destinației și schimbul de terenuri; **abrogată de la 07.03.2025** prin HG553/2024 (fișa și textul consolidării 144537), succesorul neingerat
 - [[HG-1171-2018]] — Regulamentul privind armonizarea legislației Republicii Moldova cu legislația UE
 - [[HG-574-2024]] — Metodologia de analiză a impactului de reglementare (HG nr. 574/2024); abrogă HG 23/2019, actul încă citat de practică.
 - [[HG-582-2022]] — Regulamentul de demolare a construcțiilor neautorizate; împlinește art. 322 alin. (4) din Codul urbanismului, deși e adoptată pe temeiul art. 439^6 alin. (5) din Codul contravențional.
