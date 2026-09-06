@@ -1,0 +1,60 @@
+# Verificarea din exterior (2026-09-06), pasul 3 din trei.
+#
+# Dupa fiecare push pe main, GitHub cloneaza depozitul pe o masina Linux curata si ruleaza
+# exact controalele barierei locale, dar cu hash-urile sha256 ale surselor brute incluse:
+#   python _meta/close_session.py --check
+# Nimic nu se scrie, nimic nu se repara. Rezultatul apare ca bifa verde sau X rosu langa
+# commit, in fila Actions, si prin e-mail la esec (setarea implicita GitHub pentru cine a
+# facut push). Prinde ce a scapat local: o clona cu alt core.autocrlf, un hook oprit cu
+# --no-verify, o masina fara bariera.
+#
+# Ce verifica de fapt: registrul in-force, blocul de acoperire, SCHEMA.md (toate trei
+# comparate cu ce ar genera scripturile lor), apoi validatorul: frontmatter, taxonomie,
+# wikilink-uri, amprentele sha256 ale celor ~380 de surse brute, stampilele copiilor.
+
+name: Verificare wiki
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: verificare-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verificare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Clonare (octetii exact ca in commit, vezi .gitattributes)
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependinte
+        run: python -m pip install --quiet pyyaml
+
+      - name: Controale generate si validator (nimic scris)
+        shell: bash
+        run: |
+          set -o pipefail
+          python -X utf8 _meta/close_session.py --check | tee /tmp/verificare.txt
+          {
+            echo '## Verificare wiki'
+            echo
+            echo '```'
+            cat /tmp/verificare.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Raportul validatorului, la esec
+        if: failure()
+        shell: bash
+        run: python -X utf8 _meta/schema/validate_wiki.py --all || true
