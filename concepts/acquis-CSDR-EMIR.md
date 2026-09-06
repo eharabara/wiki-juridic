@@ -1,7 +1,7 @@
 ---
 title: acquis-CSDR-EMIR — Infrastructură post-tranzacționare (CSDR / EMIR)
 created: '2026-07-09'
-updated: '2026-09-05'
+updated: '2026-09-06'
 type: concept
 perimeter: legal
 tags:
@@ -16,6 +16,7 @@ tags:
 - securities
 - financial-supervision
 - financial-services
+- unverified
 sources:
 - raw/papers/cnpf/L-171-2012.md
 - raw/papers/cnpf/L-234-2016.md
@@ -25,11 +26,13 @@ sources:
 - raw/papers/cnpf/md-2026-07-03-schelet-lege-emir.md
 - raw/papers/cnpf/UE-648-2012-priority-articles-2026-07-09.md
 - raw/papers/cnpf/md-2026-07-09-proiect-lege-emir-completat.md
-confidence: medium
+confidence: low
 imported_from: C:\Users\harab\Desktop\cnpf-wiki-ro\wiki\acquis-CSDR-EMIR.md
 ---
 
 # acquis-CSDR-EMIR — Infrastructură post-tranzacționare (CSDR / EMIR)
+
+Neverificat după reconstrucția stratului brut din septembrie 2026. Partea UE a comparației este un extras, nu textul integral. Nu se citează ca o constatare finală.
 
 - **tip:** acquis UE (servicii financiare)
 - **instrumente:** Regulamentul (UE) 909/2014 (CSDR); Regulamentul (UE) 648/2012 (EMIR)

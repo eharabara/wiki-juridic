@@ -1,7 +1,7 @@
 ---
 title: acquis-MiFID — Piețe de instrumente financiare (MiFID II / MiFIR)
 created: '2026-07-09'
-updated: '2026-07-09'
+updated: '2026-09-06'
 type: concept
 perimeter: legal
 tags:
@@ -15,15 +15,18 @@ tags:
 - financial-services
 - capital-market
 - securities
+- unverified
 sources:
 - raw/papers/cnpf/L-171-2012.md
 - raw/papers/cnpf/UE-2014-65.md
 - raw/papers/cnpf/UE-600-2014.md
-confidence: medium
+confidence: low
 imported_from: C:\Users\harab\Desktop\cnpf-wiki-ro\wiki\acquis-MiFID.md
 ---
 
 # acquis-MiFID — Piețe de instrumente financiare (MiFID II / MiFIR)
+
+Neverificat după reconstrucția stratului brut din septembrie 2026. Partea UE a comparației este un extras, nu textul integral. Nu se citează ca o constatare finală.
 
 - **tip:** acquis UE (servicii financiare)
 - **instrumente:** Directiva 2014/65/UE (MiFID II) + Regulamentul (UE) 600/2014 (MiFIR)

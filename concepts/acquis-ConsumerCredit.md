@@ -1,7 +1,7 @@
 ---
 title: acquis-ConsumerCredit — Creditul de consum (2008/48/CE → CCD2 2023/2225)
 created: '2026-07-09'
-updated: '2026-07-09'
+updated: '2026-09-06'
 type: concept
 perimeter: legal
 tags:
@@ -17,16 +17,19 @@ tags:
 - consumer-protection
 - financial-supervision
 - financial-services
+- unverified
 sources:
 - raw/papers/cnpf/L-1-2018.md
 - raw/papers/cnpf/L-178-2020.md
 - raw/papers/cnpf/UE-2008-48.md
 - raw/papers/cnpf/UE-2023-2225.md
-confidence: medium
+confidence: low
 imported_from: C:\Users\harab\Desktop\cnpf-wiki-ro\wiki\acquis-ConsumerCredit.md
 ---
 
 # acquis-ConsumerCredit — Creditul de consum (2008/48/CE → CCD2 2023/2225)
+
+Neverificat după reconstrucția stratului brut din septembrie 2026. Partea UE a comparației este un extras, nu textul integral. Nu se citează ca o constatare finală.
 
 - **tip:** acquis UE (servicii financiare / protecția consumatorilor)
 - **instrument:** Directiva 2008/48/CE (creditul de consum); succesor: **Directiva (UE) 2023/2225 (CCD2)**

@@ -1,7 +1,7 @@
 ---
 title: acquis-CompanyLaw — Dreptul societăților UE (2017/1132 + SRD II 2017/828)
 created: '2026-07-09'
-updated: '2026-07-09'
+updated: '2026-09-06'
 type: concept
 perimeter: legal
 tags:
@@ -16,17 +16,20 @@ tags:
 - company-law
 - financial-supervision
 - financial-services
+- unverified
 sources:
 - raw/papers/cnpf/L-1134-1997.md
 - raw/papers/cnpf/L-171-2012.md
 - raw/papers/cnpf/UE-2017-1132.md
 - raw/papers/cnpf/UE-2007-36.md
 - raw/papers/cnpf/UE-2017-828.md
-confidence: medium
+confidence: low
 imported_from: C:\Users\harab\Desktop\cnpf-wiki-ro\wiki\acquis-CompanyLaw.md
 ---
 
 # acquis-CompanyLaw — Dreptul societăților UE (2017/1132 + SRD II 2017/828)
+
+Neverificat după reconstrucția stratului brut din septembrie 2026. Partea UE a comparației este un extras, nu textul integral. Nu se citează ca o constatare finală.
 
 - **tip:** acquis UE (drept societar)
 - **instrumente:** Directiva (UE) 2017/1132 (codificarea dreptului societăților) + Directiva (UE) 2017/828 (SRD II — drepturile acționarilor, modifică 2007/36/CE)

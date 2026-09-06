@@ -1,7 +1,7 @@
 ---
 title: acquis-AIFMD — Administratori de fonduri de investiții alternative
 created: '2026-07-09'
-updated: '2026-07-09'
+updated: '2026-09-06'
 type: concept
 perimeter: legal
 tags:
@@ -15,14 +15,17 @@ tags:
 - financial-services
 - capital-market
 - financial-supervision
+- unverified
 sources:
 - raw/papers/cnpf/L-2-2020.md
 - raw/papers/cnpf/UE-2011-61.md
-confidence: medium
+confidence: low
 imported_from: C:\Users\harab\Desktop\cnpf-wiki-ro\wiki\acquis-AIFMD.md
 ---
 
 # acquis-AIFMD — Administratori de fonduri de investiții alternative
+
+Neverificat după reconstrucția stratului brut din septembrie 2026. Partea UE a comparației este un extras, nu textul integral. Nu se citează ca o constatare finală.
 
 - **tip:** acquis UE (servicii financiare)
 - **instrument:** Directiva 2011/61/UE (AIFMD); frontieră: Directiva (UE) 2024/927 (AIFMD II)

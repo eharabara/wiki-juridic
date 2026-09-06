@@ -1,7 +1,7 @@
 ---
 title: acquis-AML — Prevenirea spălării banilor (AMLD 2015/849 → pachetul AML 2024)
 created: '2026-07-09'
-updated: '2026-07-09'
+updated: '2026-09-06'
 type: concept
 perimeter: legal
 tags:
@@ -15,6 +15,7 @@ tags:
 - aml-cft
 - financial-supervision
 - financial-services
+- unverified
 sources:
 - raw/papers/cnpf/L-171-2012.md
 - raw/papers/cnpf/L-181-2023.md
@@ -25,11 +26,13 @@ sources:
 - raw/papers/cnpf/UE-2024-1624.md
 - raw/papers/cnpf/UE-2024-1640.md
 - raw/papers/cnpf/UE-2024-1620.md
-confidence: medium
+confidence: low
 imported_from: C:\Users\harab\Desktop\cnpf-wiki-ro\wiki\acquis-AML.md
 ---
 
 # acquis-AML — Prevenirea spălării banilor (AMLD 2015/849 → pachetul AML 2024)
+
+Neverificat după reconstrucția stratului brut din septembrie 2026. Partea UE a comparației este un extras, nu textul integral. Nu se citează ca o constatare finală.
 
 - **tip:** acquis UE (servicii financiare / transversal)
 - **instrument de bază:** Directiva (UE) 2015/849 (AMLD4), modificată prin (UE) 2018/843 (AMLD5)

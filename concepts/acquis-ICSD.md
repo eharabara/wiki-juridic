@@ -1,7 +1,7 @@
 ---
 title: acquis-ICSD — Sistemele de compensare pentru investitori
 created: '2026-07-09'
-updated: '2026-07-09'
+updated: '2026-09-06'
 type: concept
 perimeter: legal
 tags:
@@ -15,12 +15,15 @@ tags:
 - capital-market
 - securities
 - consumer-protection
+- unverified
 sources:
 - raw/papers/cnpf/UE-97-9.md
-confidence: medium
+confidence: low
 ---
 
 # acquis-ICSD — Sistemele de compensare pentru investitori
+
+Neverificat după reconstrucția stratului brut din septembrie 2026. Partea UE a comparației este un extras, nu textul integral. Nu se citează ca o constatare finală.
 
 - **tip:** acquis UE (protecția investitorilor)
 - **instrument:** Directiva 97/9/CE privind sistemele de compensare pentru investitori

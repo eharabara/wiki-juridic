@@ -17,7 +17,7 @@
 # validate_wiki.py. O regulă nouă care aruncă erori vechi nu se relaxează ca să treacă:
 # erorile vechi se arată lui Eugen și se decide ce se repară și ce se notează ca lacună.
 
-version: '2026-09-05'
+version: '2026-09-06'
 
 generated_into:
   file: SCHEMA.md
@@ -145,7 +145,7 @@ tags:
     [indicator, composite-index, methodology, data-source, statistics, dashboard, evaluation,
      monitoring, theory-of-change, programme-design]
   document_and_knowledge_types:
-    [entity, concept, comparison, query, summary, timeline, source-note, needs-links, contested]
+    [entity, concept, comparison, query, summary, timeline, source-note, needs-links, contested, unverified]
 
 # ---------------------------------------------------------------------------------------
 # Wikilink-uri. Numele de bază ale actelor sunt ambigue în vault (entities/L-171-2012.md,

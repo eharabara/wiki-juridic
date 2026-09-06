@@ -2,7 +2,7 @@
 title: acquis-IORP — Instituțiile pentru furnizarea de pensii ocupaționale (IORP II
   2016/2341)
 created: '2026-07-09'
-updated: '2026-07-09'
+updated: '2026-09-06'
 type: concept
 perimeter: legal
 tags:
@@ -16,14 +16,17 @@ tags:
 - pensions
 - financial-supervision
 - financial-services
+- unverified
 sources:
 - raw/papers/cnpf/L-198-2020.md
 - raw/papers/cnpf/UE-2016-2341.md
-confidence: medium
+confidence: low
 imported_from: C:\Users\harab\Desktop\cnpf-wiki-ro\wiki\acquis-IORP.md
 ---
 
 # acquis-IORP — Instituțiile pentru furnizarea de pensii ocupaționale (IORP II 2016/2341)
+
+Neverificat după reconstrucția stratului brut din septembrie 2026. Partea UE a comparației este un extras, nu textul integral. Nu se citează ca o constatare finală.
 
 - **tip:** acquis UE (servicii financiare)
 - **instrument:** Directiva (UE) 2016/2341 (IORP II) — reformează Directiva 2003/41/CE

@@ -1,7 +1,7 @@
 ---
 title: acquis-MTPL — Asigurarea obligatorie de răspundere civilă auto (2009/103/CE)
 created: '2026-07-09'
-updated: '2026-07-09'
+updated: '2026-09-06'
 type: concept
 perimeter: legal
 tags:
@@ -16,16 +16,19 @@ tags:
 - insurance
 - financial-supervision
 - financial-services
+- unverified
 sources:
 - raw/papers/cnpf/L-106-2022.md
 - raw/papers/cnpf/L-178-2020.md
 - raw/papers/cnpf/UE-2009-103.md
 - raw/papers/cnpf/UE-2021-2118.md
-confidence: medium
+confidence: low
 imported_from: C:\Users\harab\Desktop\cnpf-wiki-ro\wiki\acquis-MTPL.md
 ---
 
 # acquis-MTPL — Asigurarea obligatorie de răspundere civilă auto (2009/103/CE)
+
+Neverificat după reconstrucția stratului brut din septembrie 2026. Partea UE a comparației este un extras, nu textul integral. Nu se citează ca o constatare finală.
 
 - **tip:** acquis UE (servicii financiare)
 - **instrument:** Directiva 2009/103/CE (RCA auto — codifică directivele auto anterioare); amendată prin Directiva (UE) 2021/2118

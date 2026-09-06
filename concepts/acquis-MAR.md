@@ -1,7 +1,7 @@
 ---
 title: acquis-MAR — Regulamentul privind abuzul de piață (MAR / CSMAD)
 created: '2026-07-09'
-updated: '2026-07-09'
+updated: '2026-09-06'
 type: concept
 perimeter: legal
 tags:
@@ -15,15 +15,18 @@ tags:
 - financial-services
 - capital-market
 - securities
+- unverified
 sources:
 - raw/papers/cnpf/L-171-2012.md
 - raw/papers/cnpf/UE-2014-57.md
 - raw/papers/cnpf/UE-596-2014.md
-confidence: medium
+confidence: low
 imported_from: C:\Users\harab\Desktop\cnpf-wiki-ro\wiki\acquis-MAR.md
 ---
 
 # acquis-MAR — Regulamentul privind abuzul de piață (MAR / CSMAD)
+
+Neverificat după reconstrucția stratului brut din septembrie 2026. Partea UE a comparației este un extras, nu textul integral. Nu se citează ca o constatare finală.
 
 - **tip:** acquis UE (servicii financiare)
 - **instrumente:** Regulamentul (UE) 596/2014 (MAR) + Directiva 2014/57/UE (CSMAD)

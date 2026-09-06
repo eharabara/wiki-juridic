@@ -1,7 +1,7 @@
 ---
 title: 'acquis-Insurance — Asigurări: prudențial și distribuție (Solvency II / IDD)'
 created: '2026-07-09'
-updated: '2026-07-09'
+updated: '2026-09-06'
 type: concept
 perimeter: legal
 tags:
@@ -16,16 +16,19 @@ tags:
 - insurance
 - financial-supervision
 - financial-services
+- unverified
 sources:
 - raw/papers/cnpf/L-178-2020.md
 - raw/papers/cnpf/L-92-2022.md
 - raw/papers/cnpf/UE-2009-138.md
 - raw/papers/cnpf/UE-2016-97.md
-confidence: medium
+confidence: low
 imported_from: C:\Users\harab\Desktop\cnpf-wiki-ro\wiki\acquis-Insurance.md
 ---
 
 # acquis-Insurance — Asigurări: prudențial și distribuție (Solvency II / IDD)
+
+Neverificat după reconstrucția stratului brut din septembrie 2026. Partea UE a comparației este un extras, nu textul integral. Nu se citează ca o constatare finală.
 
 - **tip:** acquis UE (servicii financiare)
 - **instrumente:** Directiva 2009/138/CE (Solvency II) + Directiva (UE) 2016/97 (IDD — distribuția în asigurări)

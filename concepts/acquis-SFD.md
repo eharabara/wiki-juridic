@@ -1,7 +1,7 @@
 ---
 title: acquis-SFD — Caracterul definitiv al decontării
 created: '2026-07-09'
-updated: '2026-07-09'
+updated: '2026-09-06'
 type: concept
 perimeter: legal
 tags:
@@ -15,12 +15,15 @@ tags:
 - capital-market
 - securities
 - financial-supervision
+- unverified
 sources:
 - raw/papers/cnpf/UE-98-26.md
-confidence: medium
+confidence: low
 ---
 
 # acquis-SFD — Caracterul definitiv al decontării
+
+Neverificat după reconstrucția stratului brut din septembrie 2026. Partea UE a comparației este un extras, nu textul integral. Nu se citează ca o constatare finală.
 
 - **tip:** acquis UE (post-tranzacționare / infrastructură de piață)
 - **instrument:** Directiva 98/26/CE privind caracterul definitiv al decontării în sistemele de plăți și de decontare a titlurilor de valoare

@@ -1,7 +1,7 @@
 ---
 title: acquis-UCITS — Organisme de plasament colectiv în valori mobiliare (OPCVM)
 created: '2026-07-09'
-updated: '2026-07-09'
+updated: '2026-09-06'
 type: concept
 perimeter: legal
 tags:
@@ -15,14 +15,17 @@ tags:
 - financial-services
 - capital-market
 - securities
+- unverified
 sources:
 - raw/papers/cnpf/L-171-2012.md
 - raw/papers/cnpf/UE-2009-65.md
-confidence: medium
+confidence: low
 imported_from: C:\Users\harab\Desktop\cnpf-wiki-ro\wiki\acquis-UCITS.md
 ---
 
 # acquis-UCITS — Organisme de plasament colectiv în valori mobiliare (OPCVM)
+
+Neverificat după reconstrucția stratului brut din septembrie 2026. Partea UE a comparației este un extras, nu textul integral. Nu se citează ca o constatare finală.
 
 - **tip:** acquis UE (servicii financiare)
 - **instrument:** Directiva 2009/65/CE, modificată prin Directiva 2014/91/UE (OPCVM V)

@@ -2,7 +2,7 @@
 title: Matricea lacunelor de transpunere și aproximare — Piața de capital (Capitolul
   9)
 created: '2026-07-09'
-updated: '2026-07-09'
+updated: '2026-09-06'
 type: comparison
 perimeter: legal
 tags:
@@ -23,6 +23,7 @@ tags:
 - consumer-protection
 - aml-cft
 - financial-supervision
+- unverified
 sources:
 - raw/papers/cnpf/L-1-2018.md
 - raw/papers/cnpf/L-106-2022.md
@@ -34,11 +35,13 @@ sources:
 - raw/papers/cnpf/L-198-2020.md
 - raw/papers/cnpf/UE-648-2012.md
 - raw/papers/cnpf/UE-648-2012-priority-articles-2026-07-09.md
-confidence: medium
+confidence: low
 imported_from: C:\Users\harab\Desktop\cnpf-wiki-ro\wiki\_transposition-matrix.md
 ---
 
 # Matricea lacunelor de transpunere și aproximare — Piața de capital (Capitolul 9)
+
+Neverificat după reconstrucția stratului brut din septembrie 2026. Partea UE a comparației este un extras, nu textul integral. Nu se citează ca o constatare finală.
 
 **Scop.** Legea 171/2012 a transpus *generația pre-reformă* a legislației UE în servicii financiare
 (aproximativ acquis-ul 2003–2009). Acquis-ul UE s-a mutat între timp la un regim dominat de regulamente,

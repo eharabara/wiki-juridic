@@ -1,7 +1,7 @@
 ---
 title: acquis-Takeover — Oferte publice de preluare
 created: '2026-07-09'
-updated: '2026-07-09'
+updated: '2026-09-06'
 type: concept
 perimeter: legal
 tags:
@@ -15,12 +15,15 @@ tags:
 - capital-market
 - securities
 - company-law
+- unverified
 sources:
 - raw/papers/cnpf/UE-2004-25.md
-confidence: medium
+confidence: low
 ---
 
 # acquis-Takeover — Oferte publice de preluare
+
+Neverificat după reconstrucția stratului brut din septembrie 2026. Partea UE a comparației este un extras, nu textul integral. Nu se citează ca o constatare finală.
 
 - **tip:** acquis UE (drept societar / piața de capital)
 - **instrument:** Directiva 2004/25/CE privind ofertele publice de cumpărare

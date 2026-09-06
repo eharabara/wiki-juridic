@@ -2,7 +2,7 @@
 title: acquis-Crowdfunding — Furnizori europeni de servicii de finanțare participativă
   (ECSP)
 created: '2026-07-09'
-updated: '2026-07-09'
+updated: '2026-09-06'
 type: concept
 perimeter: legal
 tags:
@@ -17,14 +17,17 @@ tags:
 - capital-market
 - consumer-protection
 - financial-supervision
+- unverified
 sources:
 - raw/papers/cnpf/L-181-2023.md
 - raw/papers/cnpf/UE-2020-1503.md
-confidence: medium
+confidence: low
 imported_from: C:\Users\harab\Desktop\cnpf-wiki-ro\wiki\acquis-Crowdfunding.md
 ---
 
 # acquis-Crowdfunding — Furnizori europeni de servicii de finanțare participativă (ECSP)
+
+Neverificat după reconstrucția stratului brut din septembrie 2026. Partea UE a comparației este un extras, nu textul integral. Nu se citează ca o constatare finală.
 
 - **tip:** acquis UE (servicii financiare)
 - **instrument:** Regulamentul (UE) 2020/1503 (+ RTS: 2022/2112, 2022/2116, 2022/2117)

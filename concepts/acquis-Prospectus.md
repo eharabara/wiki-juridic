@@ -1,7 +1,7 @@
 ---
 title: acquis-Prospectus — Regulamentul privind prospectul
 created: '2026-07-09'
-updated: '2026-07-09'
+updated: '2026-09-06'
 type: concept
 perimeter: legal
 tags:
@@ -14,14 +14,17 @@ tags:
 - cnpf
 - financial-services
 - capital-market
+- unverified
 sources:
 - raw/papers/cnpf/L-171-2012.md
 - raw/papers/cnpf/UE-2017-1129.md
-confidence: medium
+confidence: low
 imported_from: C:\Users\harab\Desktop\cnpf-wiki-ro\wiki\acquis-Prospectus.md
 ---
 
 # acquis-Prospectus — Regulamentul privind prospectul
+
+Neverificat după reconstrucția stratului brut din septembrie 2026. Partea UE a comparației este un extras, nu textul integral. Nu se citează ca o constatare finală.
 
 - **tip:** acquis UE (servicii financiare)
 - **instrument:** Regulamentul (UE) 2017/1129
