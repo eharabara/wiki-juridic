@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-06 | Total pages: 99
+> Last updated: 2026-09-06 | Total pages: 103
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -39,10 +39,13 @@
 - [[L-114-2012]] — Legea nr. 114/2012 cu privire la serviciile de plată și moneda electronică (PSD2): text românesc, 131 de ancore; consolidare 2027-01-01, dată viitoare, o singură dispoziție afectată.
 - [[L-122-2008]] — Legea nr. 122/2008 privind birourile istoriilor de credit
 - [[L-131-2012]] — Legea controlului de stat asupra activității de întreprinzător: 41 de ancore, consolidare 2026-08-28 (doc_id 151146, nu cel din lista de căutare); principiile controlului, art. 3.
+- [[L-131-2015]] — Legea achizițiilor publice: 91 de ancore, consolidare 2026-06-26; abrogată de la 01.01.2027 prin Legea 325/2025, neingerată; pragurile din art. 2.
 - [[L-135-2007]] — Legea nr. 135/2007 privind societatile cu raspundere limitata: actul de baza pentru SRL, consolidare 2026-03-27, 83 de articole plus 10 cu exponent.
 - [[L-139-2007]] — Legea nr. 139/2007 privind asociațiile de economii și împrumut
+- [[L-148-2023]] — Legea accesului la informațiile de interes public: 35 de ancore, nemodificată, în vigoare 08.01.2024; furnizorii de informații, contenciosul administrativ.
 - [[L-149-2012]] — Legea insolvabilității: 271 de ancore (254 de bază fără lacune, 235^1–235^16), consolidare 2025-12-31; procedura colectivă, instanța de insolvabilitate.
 - [[L-1543-1998]] — Legea cadastrului bunurilor imobile: art. 40^4 alin. (1) face documentele de recepție condiție de înregistrare a construcției; consolidare viitoare 2027-01-01.
+- [[L-158-2008]] — Legea funcției publice și a statutului funcționarului public: 88 de ancore; consolidare 2026-09-13, dată viitoare, 29 de dispoziții amânate (LP154/2026); una din 2028 neingerată.
 - [[L-160-2011]] — Legea actelor permisive (reglementarea prin autorizare): 32 de ancore, consolidare 2029-01-01, dată viitoare, cu două trepte din 2027 fără marcaje; Nomenclatorul nu este în text.
 - [[L-160-2023]] — Legea nr. 160/2023 cu privire la garantarea depozitelor în bănci (DGSD): înlocuiește Legea 575/2003, abrogată; 58 de ancore, nemodificată.
 - [[L-171-2012]] — Legea nr. 171/2012 privind piața de capital
@@ -62,6 +65,7 @@
 - [[L-250-2017]] — Legea nr. 250/2017 privind supravegherea suplimentară a conglomeratelor financiare: BNM și CNPF sub același regim; 23 de ancore, nemodificată din 2018.
 - [[L-284-2004]] — Legea nr. 284/2004 privind serviciile societății informaționale, fosta Lege a comerțului electronic: testul de direcționare teritorială din art. 3 și răspunderea intermediarilor din arts. 15–17; transpune Directiva 2000/31/CE.
 - [[L-308-2017]] — Legea nr. 308/2017 privind AML/CFT
+- [[L-436-2006]] — Legea administrației publice locale: 98 de ancore, consolidare 2026-06-26; nivelurile întâi, al doilea și special (Găgăuzia), principiile din art. 3 reiau art. 109 din Constituție.
 - [[L-548-1995]] — Legea nr. 548/1995 cu privire la Banca Națională a Moldovei: text românesc, 91 de ancore; art. 11 fixează regimul special de contestare a actelor BNM; șapte lacune de numerotare fără marcaj în sursă.
 - [[L-550-1995]] — Legea nr. 550/1995 cu privire la lichidarea băncilor, fosta Lege a instituțiilor financiare: doar arts. 1–3 și 38^1–38^17 în vigoare, restul preluat de 202/2017; 20 de ancore.
 - [[L-62-2008]] — Legea nr. 62/2008 privind reglementarea valutară: text românesc, 73 de ancore; cap. VII măsuri de salvgardare, contestabile per art. 11 din L-548-1995.

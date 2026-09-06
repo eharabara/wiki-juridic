@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-06T21:11:13",
+  "generated": "2026-09-06T21:19:03",
   "as_of": "2026-09-06",
-  "files_scanned": 389,
+  "files_scanned": 393,
   "provisions_not_yet_in_force": [
     {
       "file": "raw/papers/moldova-legal/COD-218-2008.md",
@@ -89,6 +89,349 @@
       "lines": [
         302,
         5478
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "instrument": "L-158-2008",
+      "article": "4",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "modificare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art.4 al.(2) modificat prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        55,
+        213
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "instrument": "L-158-2008",
+      "article": "5",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "reformulare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art.5 în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        56,
+        223
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "instrument": "L-158-2008",
+      "article": "8",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "modificare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art.8 al.(4), lit.b) modificată prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        57,
+        58,
+        251,
+        262
+      ],
+      "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "instrument": "L-158-2008",
+      "article": "12",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "introducere",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art. 12 al.(5) introdus prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        59,
+        323
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "instrument": "L-158-2008",
+      "article": "20",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "reformulare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art. 20 al.(4) în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        60,
+        61,
+        399,
+        401
+      ],
+      "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "instrument": "L-158-2008",
+      "article": "22",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "modificare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art. 22 al.(1), lit. f) modificată prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        62,
+        418
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "instrument": "L-158-2008",
+      "article": "24",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "reformulare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art. 24 în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        63,
+        440
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "instrument": "L-158-2008",
+      "article": "25",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "reformulare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art. 25 în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        64,
+        467
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "instrument": "L-158-2008",
+      "article": "27",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "reformulare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art. 27 al.(2) în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        65,
+        66,
+        497,
+        499
+      ],
+      "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "instrument": "L-158-2008",
+      "article": "30",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "modificare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art. 30 al.(4^1) modificat prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        67,
+        556
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "instrument": "L-158-2008",
+      "article": "32",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "modificare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art. 32 al.(1) modificat prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        68,
+        69,
+        583,
+        585
+      ],
+      "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "instrument": "L-158-2008",
+      "article": "38",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "reformulare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art. 38 al.(3) în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        70,
+        713
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "instrument": "L-158-2008",
+      "article": "42",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "modificare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art. 42 al.(4^1) modificat prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        761,
+        766,
+        776,
+        779,
+        781
+      ],
+      "occurrences": 10
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "instrument": "L-158-2008",
+      "article": "47",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "reformulare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art. 47 al.(1) în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        76,
+        77,
+        843,
+        847
+      ],
+      "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "instrument": "L-158-2008",
+      "article": "49",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "modificare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art. 49 al.(1) modificat prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        78,
+        884
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "instrument": "L-158-2008",
+      "article": "56",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "modificare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art. 56 modificat prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        79,
+        980
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "instrument": "L-158-2008",
+      "article": "57",
+      "subunit": "lit. h)",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "modificare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art. 57 lit. h) modificată prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        80,
+        992
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "instrument": "L-158-2008",
+      "article": "65^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "modificare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art. 65^1 al.(1) modificat prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        81,
+        82,
+        1111,
+        1116
+      ],
+      "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "instrument": "L-158-2008",
+      "article": "393",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-09-13",
+      "operation": "reformulare",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Clauza de armonizare în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]",
+      "lines": [
+        54,
+        176
       ],
       "occurrences": 2
     },
@@ -1060,6 +1403,15 @@
       "flagged_in_frontmatter": true
     },
     {
+      "instrument": "L-158-2008",
+      "file": "raw/papers/moldova-legal/L-158-2008.md",
+      "consolidation_date": "2026-09-13",
+      "doc_id": "155439",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
       "instrument": "L-160-2011",
       "file": "raw/papers/moldova-legal/L-160-2011.md",
       "consolidation_date": "2029-01-01",
@@ -1088,8 +1440,8 @@
     }
   ],
   "counts": {
-    "provisions": 55,
-    "acts": 12,
-    "future_consolidations": 12
+    "provisions": 74,
+    "acts": 13,
+    "future_consolidations": 13
   }
 }

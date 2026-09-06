@@ -1329,6 +1329,66 @@ trei (de exemplu „max 23516" la insolvabilitate). Erau exponenți neresolvați
 exact clasa de eroare consemnată la `L-235-2006` (E): o lacună se confirmă pe ancorele scrise de
 extractor, nu pe text cu etichetele șterse. Ancorele nu au nicio lacună.
 
+## S. Lotul B, administrativ — L-436/2006, L-158/2008, L-148/2023, L-131/2015 (ingerate 2026-09-06)
+
+Pasul 4, lotul B. Aceeași metodă ca la lotul A (R): căutare în titlu fără diacritice, verificare pe
+pagina actului, `fetch` same-origin din Chrome, descărcare blob cu acordul lui Eugen.
+
+| ID raw | doc_id | Titlu detectat | Pagină wiki | Consolidare / versiune locală | Rol operațional |
+|---|---:|---|---|---|---|
+| `L-436-2006` | **155118** | LEGE Nr. 436 din 28.12.2006 privind administraţia publică locală | [[L-436-2006]] | **2026-06-26** (LP108/2026) | autoritățile locale de nivelul întâi și al doilea, primarul, consiliile; temeiul art. 109 din [[CONST-1994]] |
+| `L-158-2008` | **155439** | LEGE Nr. 158 din 04.07.2008 cu privire la funcţia publică şi statutul funcţionarului public | [[L-158-2008]] | **2026-09-13 — VIITOARE** (LP154/2026), 29 de dispoziții amânate | raporturile de serviciu, funcția publică |
+| `L-148-2023` | **137908** | LEGE Nr. 148 din 09.06.2023 privind accesul la informațiile de interes public | [[L-148-2023]] | 2024-01-08, **nemodificată** | accesul la informații, obligațiile furnizorilor, contenciosul |
+| `L-131-2015` | **155117** | LEGE Nr. 131 din 03.07.2015 privind achiziţiile publice | [[L-131-2015]] | **2026-06-26** (LP101/2026); **abrogată de la 01.01.2027** | achizițiile publice până la 31.12.2026 |
+
+### S.1. `L-131-2015` este marcată „Abrogat" pe legis.md, cu Data abrogării 01.01.2027
+
+Rândul din lista de rezultate poartă eticheta **Abrogat**, iar fișa dă **Data abrogării
+01.01.2027**. Actul este încă în vigoare azi, versiunea 155117@2026-06-26 (LP101 din 04.06.26), și
+istoricul mai are o versiune 153138@2027-01-01, cea de după abrogare. Succesoarea, găsită în
+aceeași listă de rezultate: **Legea nr. 325 din 29.12.2025 privind achizițiile publice** (LP325/2025,
+doc_id 152974), însoțită de **Legea nr. 20 din 26.02.2026 privind remediile și căile de atac în
+materie de atribuire a contractelor de achiziții publice** (LP20/2026, doc_id 153618). Niciuna nu
+este în planul aprobat, deci niciuna nu a fost ingerată; **decizia este a lui Eugen**. Până la ea,
+orice răspuns pe achiziții publice spune că legea citată expiră la 31.12.2026 și că regimul de după
+este în 325/2025. Textul poartă o linie de abrogare a vechii Legi 96-XVI/2007 („La data intrării
+în vigoare a prezentei legi, Legea nr. 96-XVI din 13 aprilie 2007 ... se abrogă"), găsită prin
+căutare în text; articolul care o conține nu a fost identificat pentru manifest, iar art. 91 este
+„Organizarea executării", nu abrogarea.
+
+### S.2. `L-158-2008`: consolidare care intră în vigoare peste o săptămână, plus una în 2028
+
+Rândul din listă trimite la 156075 (2026-08-28, LP197/2026, în vigoare azi). Istoricul are două
+consolidări mai noi: **155439@2026-09-13** (LP154 din 30.07.26, MO375-378/13.08.26 art. 393) și
+155884@2028-07-01. S-a ingerat 155439, cum s-a făcut la `COD-218-2008`, care are aceeași lege și
+aceeași dată: intră în vigoare la 13.09.2026, iar registrul in-force preia cele **29 de
+dispoziții amânate** (clauza de armonizare, arts. 4, 5, 8, 12, 20, 22, 24, 25, 27, 30, 32, 38, 42,
+47, 49, 56, 57, 65^1), toate marcate individual în text. Versiunea din 2028 rămâne viitoare și
+neingerată. Fișierul 156075 descărcat înainte de alegere a rămas în `Downloads`, nefolosit. **După
+13.09.2026 avertismentul de consolidare viitoare din fișier devine caduc**; nu se rescrie fișierul,
+se citește data.
+
+### S.3. `L-148-2023`: nemodificată, fără rândul MODIFICAT
+
+O singură versiune pe legis.md, zero etichete `<sup>`. Consolidarea iese din „Data intrării în
+vigoare" a fișei, 08.01.2024, ca la `HG-574-2024` (regula din E). Este legea care a înlocuit Legea
+982/2000 privind accesul la informație; abrogarea aceleia nu a fost citită pe text pentru manifest.
+Art. 35 ține cererile și acțiunile anterioare pe legea veche.
+
+### S.4. Structură și integritate
+
+| act | ancore | de bază | cu exponent | capitole | `<sup>` | linii verify |
+|---|---:|---|---|---:|---:|---|
+| `L-436-2006` | **98** | 92, numerotate 1–92 fără lacune | 6: 10^1, 10^2, 59^1–59^3, 72^1 | 15 | 88 | PASS, 855 / 855 |
+| `L-158-2008` | **88** | 77, numerotate 1–77 fără lacune | 11: 19^1, 19^2, 27^1, 38^1, 42^1, 49^1, 52^1, 54^1, 65^1, 69^1, 73^1 | 9 | 71 | PASS, 967 / 967 |
+| `L-148-2023` | **35** | 35, numerotate 1–35 fără lacune | 0 | 7 | 0 | PASS, 301 / 301 |
+| `L-131-2015` | **91** | 91, numerotate 1–91 fără lacune | 0 | 11 | 7 | PASS, 1.331 / 1.331 |
+
+Fără span ridicat prin CSS, fără CUPRINS, fără duplicate. Titluri tăiate pe două linii, cazul
+cunoscut: `L-436-2006` art. 3 („Principiile de bază ale administrării / publice locale"). `L-436-2006`
+art. 92 și `L-158-2008` art. 77 sunt articole fără titlu (`Articolul 92`, `Articolul 77.`), prinse
+de contorul reparat la 2026-09-05. Anexele 1 și 2 ale `L-131-2015` apar doar ca titluri.
+
 ## D. Artefacte metodologice create
 
 | Artefact | Tip | Rol |

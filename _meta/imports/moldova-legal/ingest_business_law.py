@@ -305,6 +305,37 @@ DOCS = {
     'L-131-2012': {'doc_id': '151146',
                    'title': 'Legea nr. 131/2012 privind controlul de stat asupra activitatii '
                             'de intreprinzator'},
+    # ---- Lotul B, administrativ, pasul 4 al planului din 2026-09-06.
+    # 281 de rezultate la "administratia publica locala"; singurul rand LP436/2006. 155118 este
+    # cea mai noua din 76 de versiuni (2026-06-26, LP108/2026). 88 etichete <sup>, fara span CSS,
+    # fara CUPRINS. In vigoare 09.03.2007 (fisa), fara abrogare.
+    'L-436-2006': {'doc_id': '155118',
+                   'title': 'Legea nr. 436/2006 privind administratia publica locala'},
+    # 58 de rezultate; singurul rand LP158/2008, care trimite la 156075 (2026-08-28, in vigoare
+    # azi). Istoricul are doua consolidari mai noi: 155439@2026-09-13 (LP154 din 30.07.26, aceeasi
+    # lege si aceeasi data ca la COD-218-2008) si 155884@2028-07-01. Se ingereaza 155439, ca la
+    # Codul contraventional: intra in vigoare peste o saptamina, iar registrul in-force preia cele
+    # 29 de dispozitii amanate. Cea din 2028 ramine viitoare, consemnata in manifest. 71 etichete
+    # <sup>, fara span CSS, fara CUPRINS. Fisierul 156075 descarcat inainte de a alege a ramas in
+    # Downloads, nefolosit.
+    'L-158-2008': {'doc_id': '155439',
+                   'title': 'Legea nr. 158/2008 cu privire la functia publica si statutul '
+                            'functionarului public'},
+    # 6 rezultate; LP148/2023, o singura versiune, NEMODIFICATA, fara rindul MODIFICAT, deci
+    # consolidation_date iese din "Data intrarii in vigoare": 08.01.2024. Zero <sup>, fara CUPRINS.
+    # Abroga vechea Lege 982/2000 privind accesul la informatie (de verificat pe text la ingerare).
+    'L-148-2023': {'doc_id': '137908',
+                   'title': 'Legea nr. 148/2023 privind accesul la informatiile de interes public'},
+    # ATENTIE: legis.md o marcheaza "Abrogat", cu Data abrogarii 01.01.2027. Succesoarea este
+    # Legea nr. 325/2025 privind achizitiile publice (LP325/2025, doc_id 152974, publicata
+    # 29.12.2025), insotita de LP20/2026 privind remediile si caile de atac (doc_id 153618).
+    # Niciuna nu este in plan; decizia de a le ingera este a lui Eugen. 131/2015 este INCA in
+    # vigoare azi si sta in planul aprobat, deci se ingereaza: 155117@2026-06-26 (LP101/2026) este
+    # versiunea in vigoare; 153138@2027-01-01 este versiunea de dupa abrogare. 201 rezultate la
+    # "achizitiile publice"; singurul rand LP131/2015. 7 etichete <sup>, fara span CSS, fara CUPRINS.
+    'L-131-2015': {'doc_id': '155117',
+                   'title': 'Legea nr. 131/2015 privind achizitiile publice (abrogata de la '
+                            '01.01.2027 prin Legea 325/2025)'},
 }
 
 DATE_RE = re.compile(r'(\d{1,2})[.\-/](\d{1,2})[.\-/](\d{2,4})')
