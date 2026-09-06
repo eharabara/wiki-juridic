@@ -1610,9 +1610,12 @@ numerotate 1–79 fără lacune, 17 cu exponent (27^1–27^3, 31^1–31^3, 53^1,
 codurilor, ca `COD-434-2023`.
 
 Trei constatări de sursă. **Fișa contrazice textul la intrarea în vigoare**, a treia oară în
-corpus: fișa dă 07.03.2024, data publicării; art. 79 alin. (1) spune „1 aprilie 2025", iar HG
-553/2024, adoptată în temeiul codului, intră în vigoare la 7 martie 2025; dacă alin. (1) a fost
-modificat, marcajul s-a pierdut. **Marcajele s-au pierdut aproape toate**: șapte legi de
+corpus: fișa dă 07.03.2024, data publicării; art. 79 alin. (1) spune „1 aprilie 2025". Lămurit
+pe istoricul versiunilor, citit prin `fetch` versiune cu versiune fără descărcare: textul inițial
+(142192) dădea „12 luni de la data publicării", adică 07.03.2025, și LP30/2025, în vigoare
+06.03.2025, a rescris alin. (1) la 1 aprilie 2025; marcajul `[Art.79 al.(1) în redacția LP30...]`
+există în 147402 și lipsește din 154132. HG 553/2024, cu intrarea în vigoare la 7 martie 2025,
+a rămas pe termenul inițial, deci a intrat în vigoare cu 25 de zile înaintea codului-temei. **Marcajele s-au pierdut aproape toate**: șapte legi de
 modificare în fișă, trei marcaje în text, toate LP53/2026, toate în art. 58. **Art. 79 nu are
 nicio dispoziție tranzitorie** pentru dosarele în curs; abrogă Codul funciar 828/1991 cu excepția
 art. 12, 13, 40 până la 31.12.2028, Legea 1247/1992 cu excepția art. 18–20, Legea 1308/1997 cu
