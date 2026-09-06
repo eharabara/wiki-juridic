@@ -405,7 +405,9 @@ def main() -> int:
             print("CHECK: registrul lipseste")
             return 1
         old = cur_md.read_text(encoding="utf-8")
-        strip = lambda s: re.sub(r"^generated:.*$", "", s, flags=re.M)
+        # Datele nu conteaza la comparatie (2026-09-06): daca o dispozitie a intrat intre timp
+        # in vigoare, continutul tabelului se schimba si controlul pica oricum.
+        strip = lambda s: re.sub(r"^(generated|as_of):.*$|Stare la \d{4}-\d\d-\d\d\.", "", s, flags=re.M)
         if strip(old) != strip(md):
             print("CHECK: registrul de pe disc este invechit")
             return 1
