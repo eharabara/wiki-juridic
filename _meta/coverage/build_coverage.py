@@ -30,7 +30,10 @@ EU_PREFIX = "UE-"
 ANCHOR_RE = re.compile(r"^## Articolul\s+(\d+)(?:\^(\d+))?", re.M)
 # English-form anchors written by anchor_bnm_en.py on 2026-09-04; forbidden on translations (D2).
 ANCHOR_EN_RE = re.compile(r"^## Article\s+\d", re.M)
-ROMAN_RE = re.compile(r"^## Articolul\s+([IVXLC]+)\.", re.M)
+# 2026-09-06: punctul dupa numeral nu este obligatoriu. CONST-1994 scrie `## Articolul I` fara
+# punct (titlul sta pe linia urmatoare), iar forma veche numara 149 in loc de 157 si raporta o
+# nepotrivire falsa. Aceeasi corectie ca in verify_business_law.py la 2026-09-05.
+ROMAN_RE = re.compile(r"^## Articolul\s+([IVXLC]+)(?=[.\s]|$)", re.M)
 DECL_RE = re.compile(r"\*\*articole detectate:\*\*\s*(\d+)")
 POINTS_RE = re.compile(r"\*\*puncte numerotate detectate:\*\*\s*(\d+)")
 BODY_ART_RO = re.compile(r"^Articolul\s+\d", re.M)
