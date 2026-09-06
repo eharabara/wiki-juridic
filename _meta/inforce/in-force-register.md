@@ -1,6 +1,6 @@
 ---
 title: Registrul dispozitiilor care nu sint inca in vigoare
-generated: '2026-09-06T21:19:03'
+generated: '2026-09-06T21:28:06'
 as_of: '2026-09-06'
 type: summary
 tags: [moldova, legal-source, methodology, summary]
@@ -12,7 +12,7 @@ generated_by: _meta/inforce/build_inforce_register.py
 
 **Fisier generat. Nu se editeaza manual.** Se reface rulind scriptul din frontmatter.
 
-Stare la 2026-09-06. 393 fisiere scanate. 74 dispozitii afectate in 13 act(e). 13 consolidare/consolidari cu data in viitor.
+Stare la 2026-09-06. 397 fisiere scanate. 74 dispozitii afectate in 13 act(e). 13 consolidare/consolidari cu data in viitor.
 
 ## Regula de citare
 

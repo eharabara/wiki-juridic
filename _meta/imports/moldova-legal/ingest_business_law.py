@@ -336,6 +336,35 @@ DOCS = {
     'L-131-2015': {'doc_id': '155117',
                    'title': 'Legea nr. 131/2015 privind achizitiile publice (abrogata de la '
                             '01.01.2027 prin Legea 325/2025)'},
+    # ---- Lotul C, profesia, pasul 4 al planului din 2026-09-06.
+    # 53 de rezultate la "avocatura"; singurul rand LP1260/2002 trimite la 153429, a carui data
+    # de versiune este 2030-01-01: este consolidarea LP10 din 12.02.26, "in vigoare la data
+    # aderarii Republicii Moldova la Uniunea Europeana", pe care legis.md o codifica cu o data
+    # fictiva. Se ingereaza versiunea IN VIGOARE AZI, 146148@2025-01-07 (LP284 din 05.12.24, forma
+    # electronica a mandatului avocatului), nu cea conditionata de aderare. Republicata 04.09.2010
+    # (MO 159 art. 582), in vigoare 13.12.2002. 38 etichete <sup>, fara span CSS, fara CUPRINS.
+    'L-1260-2002': {'doc_id': '146148',
+                    'title': 'Legea nr. 1260/2002 cu privire la avocatura'},
+    # 42 de rezultate; singurul rand LP198/2007. 155726 este cea mai noua din 21 de versiuni
+    # (2026-08-06, LP126/2026). 58 etichete <sup>, fara span CSS, fara CUPRINS. In vigoare 05.10.2007.
+    'L-198-2007': {'doc_id': '155726',
+                   'title': 'Legea nr. 198/2007 cu privire la asistenta juridica garantata de stat'},
+    # 49 de rezultate; singurul rand LP514/1995. 156079 este cea mai noua din 56 de versiuni
+    # (2026-08-28, LP197/2026). Titlul poarta asterisc: "privind organizarea judecatoreasca*".
+    # 24 etichete <sup>, fara span CSS, fara CUPRINS. In vigoare 19.10.1995.
+    'L-514-1995': {'doc_id': '156079',
+                   'title': 'Legea nr. 514/1995 privind organizarea judecatoreasca'},
+    # PREFIX NOU UA-, actele Uniunii Avocatilor (D5 din planul din 2026-09-06). Pe legis.md:
+    # tipul STATUTUL, autoritatea UNIUNEA AVOCATILOR DIN REPUBLICA MOLDOVA, identificator
+    # SUARM0/2011, publicat 08.04.2011 (MO 54-57 art. 302). doc_id-ul din plan, 86850, EXISTA dar
+    # este consolidarea din 2012 (MUARM220 din 24.02.12), a doua din sapte; cea curenta este
+    # 134919@2022-05-27 (HUA19-01 din 27.05.22, MO194-200/01.07.22). Structura PE ARTICOLE
+    # (74 de linii "Articolul", zero puncte numerotate), deci se ancoreaza ca o lege. 19 etichete
+    # <sup>, fara span CSS, fara CUPRINS. Codul deontologic si Regulamentul stagiului NU sint pe
+    # legis.md (cautari in titlu: "codul deontologic" 12 rezultate, "avocatilor" 169, "avocat
+    # stagiar" 4, "stagiului profesional" 3, "stagiului" 53; niciuna nu le contine): lacune D5.
+    'UA-STATUT-2011': {'doc_id': '134919',
+                       'title': 'Statutul profesiei de avocat (Uniunea Avocatilor, 29.01.2011)'},
 }
 
 DATE_RE = re.compile(r'(\d{1,2})[.\-/](\d{1,2})[.\-/](\d{2,4})')

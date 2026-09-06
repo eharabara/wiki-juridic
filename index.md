@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-06 | Total pages: 103
+> Last updated: 2026-09-06 | Total pages: 107
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -38,6 +38,7 @@
 - [[L-1134-1997]] — Legea nr. 1134/1997 privind societățile pe acțiuni
 - [[L-114-2012]] — Legea nr. 114/2012 cu privire la serviciile de plată și moneda electronică (PSD2): text românesc, 131 de ancore; consolidare 2027-01-01, dată viitoare, o singură dispoziție afectată.
 - [[L-122-2008]] — Legea nr. 122/2008 privind birourile istoriilor de credit
+- [[L-1260-2002]] — Legea cu privire la avocatură: 73 de ancore, versiunea în vigoare azi (2025-01-07); consolidarea condiționată de aderarea la UE (LP10/2026, datată fictiv 2030) neingerată.
 - [[L-131-2012]] — Legea controlului de stat asupra activității de întreprinzător: 41 de ancore, consolidare 2026-08-28 (doc_id 151146, nu cel din lista de căutare); principiile controlului, art. 3.
 - [[L-131-2015]] — Legea achizițiilor publice: 91 de ancore, consolidare 2026-06-26; abrogată de la 01.01.2027 prin Legea 325/2025, neingerată; pragurile din art. 2.
 - [[L-135-2007]] — Legea nr. 135/2007 privind societatile cu raspundere limitata: actul de baza pentru SRL, consolidare 2026-03-27, 83 de articole plus 10 cu exponent.
@@ -54,6 +55,7 @@
 - [[L-181-2023]] — Legea nr. 181/2023 privind serviciile de finanțare participativă (crowdfunding)
 - [[L-183-2012]] — Legea concurenței nr. 183/2012: acorduri, abuz de poziție dominantă, concurență neloială, concentrări și procedura Consiliului Concurenței; competența lui pe publicitate se oprește la drepturile întreprinderilor.
 - [[L-192-1998]] — Legea nr. 192/1998 privind Comisia Națională a Pieței Financiare
+- [[L-198-2007]] — Legea asistenței juridice garantate de stat: 54 de ancore, consolidare 2026-08-06; asistența primară și calificată, avocatul public, para-juristul.
 - [[L-198-2020]] — Legea nr. 198/2020 privind fondurile de pensii facultative
 - [[L-2-2020]] — Legea nr. 2/2020 privind organismele de plasament colectiv alternative
 - [[L-202-2017]] — Legea nr. 202/2017 privind activitatea băncilor: legea-cadru a perimetrului bancar, text românesc, 155 de ancore; art. 36 alin. (2) listează limitativ excepțiile de la Legea SA.
@@ -66,6 +68,7 @@
 - [[L-284-2004]] — Legea nr. 284/2004 privind serviciile societății informaționale, fosta Lege a comerțului electronic: testul de direcționare teritorială din art. 3 și răspunderea intermediarilor din arts. 15–17; transpune Directiva 2000/31/CE.
 - [[L-308-2017]] — Legea nr. 308/2017 privind AML/CFT
 - [[L-436-2006]] — Legea administrației publice locale: 98 de ancore, consolidare 2026-06-26; nivelurile întâi, al doilea și special (Găgăuzia), principiile din art. 3 reiau art. 109 din Constituție.
+- [[L-514-1995]] — Legea organizării judecătorești: 60 de ancore, consolidare 2026-08-28; lacunele 29–34, 41–42, 51–53 sunt capitole abrogate cu stub în text.
 - [[L-548-1995]] — Legea nr. 548/1995 cu privire la Banca Națională a Moldovei: text românesc, 91 de ancore; art. 11 fixează regimul special de contestare a actelor BNM; șapte lacune de numerotare fără marcaj în sursă.
 - [[L-550-1995]] — Legea nr. 550/1995 cu privire la lichidarea băncilor, fosta Lege a instituțiilor financiare: doar arts. 1–3 și 38^1–38^17 în vigoare, restul preluat de 202/2017; 20 de ancore.
 - [[L-62-2008]] — Legea nr. 62/2008 privind reglementarea valutară: text românesc, 73 de ancore; cap. VII măsuri de salvgardare, contestabile per art. 11 din L-548-1995.
@@ -74,6 +77,7 @@
 - [[L-845-1992]] — Legea nr. 845/1992 cu privire la antreprenoriat si intreprinderi: cadrul-cadru al activitatii de antreprenoriat, a treia sursa P1; consolidare 2027-01-01, data viitoare.
 - [[L-92-2022]] — Legea nr. 92/2022 privind activitatea de asigurare sau de reasigurare
 - [[REG-ICF]] — Regulamentul Fondului de compensare a investitorilor
+- [[UA-STATUT-2011]] — Statutul profesiei de avocat, act al Uniunii Avocaților: pe articole, 74 de ancore, consolidare 2022-05-27 (doc_id 134919, nu 86850); Codul deontologic și Regulamentul stagiului nu sunt pe legis.md.
 
 ### Concepts
 

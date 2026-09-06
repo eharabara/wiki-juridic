@@ -1389,6 +1389,88 @@ cunoscut: `L-436-2006` art. 3 („Principiile de bază ale administrării / publ
 art. 92 și `L-158-2008` art. 77 sunt articole fără titlu (`Articolul 92`, `Articolul 77.`), prinse
 de contorul reparat la 2026-09-05. Anexele 1 și 2 ale `L-131-2015` apar doar ca titluri.
 
+## T. Lotul C, profesia — L-1260/2002, L-198/2007, L-514/1995, UA-STATUT-2011 (ingerate 2026-09-06)
+
+Pasul 4, lotul C. Aceeași metodă ca la R și S. **Prefix nou `UA-`** pentru actele Uniunii
+Avocaților, consemnat aici la momentul ingerării (D5 din plan).
+
+| ID raw | doc_id | Titlu detectat | Pagină wiki | Consolidare / versiune locală | Rol operațional |
+|---|---:|---|---|---|---|
+| `L-1260-2002` | **146148** | LEGE Nr. 1260 din 19.07.2002 cu privire la avocatură | [[L-1260-2002]] | **2025-01-07** (LP284/2024), versiunea **în vigoare azi**; o consolidare condiționată de aderarea la UE (153429, LP10/2026) neingerată | profesia de avocat, admiterea, stagiul, formele de organizare |
+| `L-198-2007` | **155726** | LEGE Nr. 198 din 26.07.2007 cu privire la asistenţa juridică garantată de stat | [[L-198-2007]] | **2026-08-06** (LP126/2026) | asistența juridică garantată de stat, avocatul public, para-juristul |
+| `L-514-1995` | **156079** | LEGE Nr. 514 din 06.07.1995 privind organizarea judecătorească* | [[L-514-1995]] | **2026-08-28** (LP197/2026) | instanțele, președinții, CSJ, curțile de apel, judecătoriile |
+| `UA-STATUT-2011` | **134919** | STATUTUL Nr. 0 din 29.01.2011 STATUTUL PROFESIEI DE AVOCAT | [[UA-STATUT-2011]] | **2022-05-27** (HUA19-01/2022) | statutul profesiei; act al Uniunii Avocaților, pe articole |
+
+### T.1. Legea avocaturii: consolidarea „la data aderării la UE" este codificată 2030-01-01
+
+Rândul din listă trimite la **153429**, a cărui dată de versiune pe legis.md este **2030-01-01**.
+Nu este o dată reală: rândul MODIFICAT al acelei versiuni spune „LP10 din 12.02.26, MO112-115/12.03.26
+art.91, **în vigoare la data aderării Republicii Moldova la Uniunea Europeană**", iar legis.md
+codifică condiția cu o dată fictivă. Aceeași codificare apare în sondajul de actualitate la
+`COD-218-2008` (154803@2030-01-01, LP82/2026). S-a ingerat **versiunea în vigoare azi, 146148**
+(2025-01-07, LP284 din 05.12.24, forma electronică a mandatului avocatului), nu cea condiționată.
+Consecință de metodă: **o dată de versiune 2030-01-01 pe legis.md înseamnă „la aderare", nu
+„1 ianuarie 2030"**, iar registrul in-force ar data greșit o astfel de dispoziție dacă ar fi
+ingerată. Republicată 04.09.2010 (MO 159 art. 582), în vigoare 13.12.2002.
+
+### T.2. Statutul profesiei: doc_id-ul din plan era o versiune din 2012
+
+Planul dădea 86850 „de confirmat pe pagină". **86850 există și este Statutul**, dar este a doua
+din șapte versiuni, consolidarea MUARM220 din 24.02.2012. Cea curentă este **134919@2022-05-27**
+(HUA19-01 din 27.05.22, MO194-200/01.07.22); între ele, 118228@2017-12-15, 121620@2019-12-13,
+128405@2021-09-09. Fișa: tipul STATUTUL, autoritatea UNIUNEA AVOCAȚILOR DIN REPUBLICA MOLDOVA,
+identificator SUARM0/2011, publicat 08.04.2011 în MO 54-57 art. 302, fără abrogare. Titlul de pe
+legis.md e scris „STATUTUL Nr. 0 din 29.01.2011", cu numărul 0.
+
+**Structura este pe articole**, nu pe puncte: 74 de linii `Articolul N`, zero puncte numerotate.
+Se ancorează deci ca o lege, nu ca hotărârile de Guvern; ipoteza „pe puncte" din plan nu s-a
+confirmat. Art. 1 alin. (1) își declară temeiul: Legea 1260/2002, republicată în MO 159/582 din
+04.09.2010.
+
+### T.3. Lacune D5: Codul deontologic și Regulamentul stagiului nu sunt pe legis.md
+
+Căutări în titlu, fără diacritice, toate fără rezultat pentru actele Uniunii Avocaților:
+
+| căutare | rezultate | ce conține |
+|---|---:|---|
+| `codul deontologic` | 12 | coduri deontologice ale CNA, expertului judiciar, lucrătorului medical, mediatorului, polițistului de frontieră, Curții de Conturi; decizii ale Curții Constituționale; **niciunul al avocaților** |
+| `avocatilor` | 169 | Avocatul Poporului, decizii ale Curții, HG 158/2013 privind mandatul avocatului; **niciun act al Uniunii** |
+| `avocat stagiar` | 4 | HG 158/2013 și modificarea ei, două ordine MJ din 2003 (lista stagiarilor, legitimația) |
+| `stagiului profesional` | 3 | regulamente ale MJ pentru experți și concursuri, nu pentru avocați |
+| `stagiului` | 53 | niciunul cu „avocat" sau „Uniune" în titlu; stagiul în biroul notarului da |
+| `statutul profesiei de avocat` | 5 | Statutul și cele patru acte de modificare ale lui |
+
+Conform D5, **niciunul nu se ingerează de pe uam.md**: nu există control pentru sursa aceea.
+Rămân lacune consemnate. Identificatorii rezervați în plan, `UA-DEONTOLOGIC-AAAA` și
+`UA-STAGIU-AAAA`, nu sunt folosiți. De reținut că Statutul însuși poate conține regulile stagiului
+și trimiterile la codul deontologic; nu a fost citit în acest scop.
+
+### T.4. `L-514-1995`: lacunele de numerotare sunt abrogări la nivel de capitol, cu stub în text
+
+Verify raportează lacune la **29–34, 41–42, 51–53**. Toate sunt explicate în textul consolidării,
+la nivel de capitol, cu linia păstrată: `Capitolul 3 (art.29-34) - abrogat.`, `Capitolul 5.
+(art. 41-42) - abrogat.`, `Capitolul 8. (art.51-53) - abrogat.`, plus „Denumirea capitolului 4. -
+abrogată." și „Denumirea capitolului 6. - abrogată.". Cele trei linii sunt ancorate ca `## Capitolul`,
+deci citabile. Celelalte abrogări sunt la nivel de articol, cu stub `Articolul N. - abrogat.` (12,
+18, 19, 23, 26, 27, 28, 36, 38, 39, 40, 44, 49), și la nivel de alineat. Este mecanismul „stub
+păstrat", opusul celui de la `L-548-1995` (întrebarea deschisă 6): aici publicatorul a ținut
+stub-urile, dar la nivel de capitol, pe care contorul de articole nu le vede. **Nu este defect de
+ingest și nu este `[de verificat]`.** Titlul actului poartă asterisc în sursă („judecătorească*").
+
+### T.5. Structură și integritate
+
+| act | ancore | de bază | cu exponent | capitole | `<sup>` | linii verify |
+|---|---:|---|---|---:|---:|---|
+| `L-1260-2002` | **73** | 69, numerotate 1–69 fără lacune | 4: 35^1, 37^1, 43^1, 50^1 | 12 | 38 | PASS, 664 / 664 |
+| `L-198-2007` | **54** | 37, numerotate 1–37 fără lacune | 17: 10^1, 13^1, 23^1, 31^1, 36^1–36^13 | 6 | 58 | PASS, 496 / 496 |
+| `L-514-1995` | **60** | 45 prezente din 1–56 (vezi T.4) | 10: 6^1, 6^2, 15^1, 16^1, 23^1–23^3, 48^1, 56^1, 56^2 | 7 + 1 titlu | 24 | PASS, 347 / 347 |
+| `UA-STATUT-2011` | **74** | 68, numerotate 1–68 fără lacune | 6: 28^1, 41^1, 43^1, 52^1, 52^2, 53^1 | 10 | 19 | PASS, 851 / 851 |
+
+Fără span ridicat prin CSS, fără CUPRINS, fără duplicate. Titlu tăiat pe două linii: `L-514-1995`
+art. 16 („Preşedinţii şi vicepreşedinţii instanţelor / judecătoreşti") și `L-198-2007` în antet.
+Fișierele 153429 (avocatura, versiunea condiționată) și 86850 (Statut 2012, nedescărcat) nu sunt
+în cache; 153429 a rămas în `Downloads`, nefolosit.
+
 ## D. Artefacte metodologice create
 
 | Artefact | Tip | Rol |
