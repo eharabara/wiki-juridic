@@ -1,22 +1,37 @@
 {
   "collapse-filter": false,
   "search": "-path:raw -path:_meta -path:_archive -path:\"Claude outputs\" -path:legal-career",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "policy",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": -1.7,
-  "nodeSizeMultiplier": 0.563707317073171,
-  "lineSizeMultiplier": 0.502517073170732,
+  "textFadeMultiplier": -2.8,
+  "nodeSizeMultiplier": 0.686087804878049,
+  "lineSizeMultiplier": 0.441326829268293,
   "collapse-forces": false,
-  "centerStrength": 0.219512195121951,
-  "repelStrength": 14.2536475869809,
-  "linkStrength": 0.0446829268292683,
-  "linkDistance": 99,
-  "scale": 0.030182895067323887,
+  "centerStrength": 0.0446829268292683,
+  "repelStrength": 0,
+  "linkStrength": 0,
+  "linkDistance": 393,
+  "scale": 0.6316046762907437,
   "close": false
 }

@@ -1,6 +1,6 @@
 ---
 title: Registrul dispozitiilor care nu sint inca in vigoare
-generated: '2026-09-06T22:04:31'
+generated: '2026-09-06T22:25:25'
 as_of: '2026-09-06'
 type: summary
 tags: [moldova, legal-source, methodology, summary]
@@ -12,7 +12,7 @@ generated_by: _meta/inforce/build_inforce_register.py
 
 **Fisier generat. Nu se editeaza manual.** Se reface rulind scriptul din frontmatter.
 
-Stare la 2026-09-06. 397 fisiere scanate. 74 dispozitii afectate in 13 act(e). 13 consolidare/consolidari cu data in viitor.
+Stare la 2026-09-06. 399 fisiere scanate. 73 dispozitii afectate in 12 act(e). 13 consolidare/consolidari cu data in viitor.
 
 ## Regula de citare
 
@@ -95,7 +95,6 @@ Inainte de a cita un articol, verifica daca apare in tabelul de mai jos. Daca ap
 | L-171-2012 | 141^1 | abrogare | 2027-06-01 | LP162 din 30.07.26 | inca in vigoare |
 | L-1134-1997 | 73^3 | introducere | 2028-01-01 | LP92 din 28.05.26 | dispozitia nu se aplica |
 | L-1134-1997 | 73^4 | introducere | 2028-01-01 | LP92 din 28.05.26 | dispozitia nu se aplica |
-| L-160-2011 | 440 | modificare | 2029-01-01 | LP159 din 30.07.26 | se aplica textul anterior |
 
 ## Acte cu consolidare datata in viitor
 
@@ -113,8 +112,8 @@ Fisierul incorporeaza modificari care nu au intrat in vigoare. Arhiva indicata e
 | L-114-2012 | 2027-01-01 | da | - | `-` |
 | L-1543-1998 | 2027-01-01 | da | - | `-` |
 | L-158-2008 | 2026-09-13 | da | - | `-` |
-| L-160-2011 | 2029-01-01 | da | - | `-` |
 | L-171-2012 | 2027-06-01 | da | 2021-01-01 | `_archive/raw/cnpf-legis-md-before-refresh-20260904-162713/L-171-2012.md` |
+| L-325-2025 | 2027-01-01 | nu | - | `-` |
 | L-845-1992 | 2027-01-01 | da | - | `-` |
 
 ## Unde a fost gasit fiecare marcaj
@@ -265,5 +264,3 @@ Fisierul incorporeaza modificari care nu au intrat in vigoare. Arhiva indicata e
   - [Art. 73^3 introdus prin LP92 din 28.05.26, MO238-241/11.06.26 art.242; în vigoare 01.01.28]
 - **L-1134-1997 art. 73^4**, `raw/papers/cnpf/L-1134-1997.md`, liniile [56, 64, 1464]
   - [Art. 73^4 introdus prin LP92 din 28.05.26, MO238-241/11.06.26 art.242; în vigoare 01.01.28]
-- **L-160-2011 art. 440**, `raw/papers/moldova-legal/L-160-2011.md`, liniile [60, 551]
-  - [Anexa nr.1 modificată prin LP159 din 30.07.26, MO407-409/02.09.26 art. 440; în vigoare 01.01.29]

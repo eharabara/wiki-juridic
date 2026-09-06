@@ -82,7 +82,20 @@ for stem, doc in ibl.DOCS.items():
     # ramine independent de ce am scris. Potrivirile din interiorul frazei se numara separat
     # si se raporteaza ca informatie, fiindca arata ce alte acte modifica actul de fata.
     _heading = re.compile(r'^Articolul\s+(\d+\^\d+(?:/\d+)?)')
-    sup_source = sorted({m.group(1) for l in reference for m in [_heading.match(l)] if m},
+    # Corectie de metoda, 2026-09-06, la reimprospatarea COD-1163-1997 (138613). Controlul
+    # citea si CUPRINSUL, pe care extractorul il pastreaza ca text dar nu il ancoreaza (vezi
+    # extract_doc). Cita vreme cuprinsul repeta corpul, egalitatea tinea. LP318/2025 a abrogat
+    # art. 88^1: legis.md a lasat in cuprins stub-ul "Articolul 88^1. - abrogat." si a sters
+    # din corp linia de articol, unde a ramas doar marcajul "[Art.88^1 abrogat prin LP318...]".
+    # Deci sursa "astepta" o ancora pe care corpul nu o mai poate purta. Aceeasi regula ca in
+    # extractor: titlurile dintre marcajul CUPRINS si formula de adoptare nu conteaza.
+    _cup = next((i for i, l in enumerate(reference)
+                 if l.replace(' ', '').upper() == 'CUPRINS'), -1)
+    _adopt = next((i for i, l in enumerate(reference)
+                   if re.search(r'Parlamentul adopt', l, flags=re.I)), -1)
+    _body = [l for i, l in enumerate(reference)
+             if not (_cup != -1 and _adopt > _cup and _cup <= i <= _adopt)]
+    sup_source = sorted({m.group(1) for l in _body for m in [_heading.match(l)] if m},
                         key=lambda x: (int(x.split('^')[0]),
                                        int(x.split('^')[1].split('/')[0]),
                                        x))

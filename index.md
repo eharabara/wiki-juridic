@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-06 | Total pages: 107
+> Last updated: 2026-09-06 | Total pages: 109
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -12,14 +12,14 @@
 
 - [[bnm]] — Banca Națională a Moldovei: legal basis, mandate structure, regulatory register and verification limits.
 - [[bnm-official-document-corpus-2026]] — Preserved BNM legal and formal-report source corpus: originals, text extracts, hashes and provenance manifest.
-- [[CC-1107-2002]] — Codul civil al Republicii Moldova: copie consolidată păstrată cu text integral, original PDF și repere de utilizare; ancorat la nivel de articol (2.657 articole, 2026-09-04).
+- [[CC-1107-2002]] — Codul civil al Republicii Moldova: din 2026-09-06 textul legis.md 150498 (consolidare 2026-04-01, LP251/2025), 2.657 de ancore de articol plus cărți, titluri, capitole și secțiuni; versiunea din PDF arhivată.
 - [[COD-116-2018]] — Codul administrativ al Republicii Moldova: procedura administrativa si contestarea actelor CNPF/BNM; 260 de articole, consolidare 2025-08-31.
-- [[COD-1163-1997]] — Codul fiscal al Republicii Moldova: 512 ancore de articol, 11 titluri, consolidare 2026-06-25; inchide pasul fiscal al metodei P1.
+- [[COD-1163-1997]] — Codul fiscal al Republicii Moldova: 511 ancore de articol, 11 titluri, consolidare 2026-07-01 (LP318/2025, art. 88^1 abrogat); inchide pasul fiscal al metodei P1.
 - [[COD-122-2003]] — Codul de procedura penala: 553 de articole de baza, cel mai mare din corpus; consolidare 2026-12-02, data viitoare.
 - [[COD-154-2003]] — Codul muncii: raporturile de munca; consolidare 2027-01-01, data viitoare; titluri scrise cu litere distantate.
 - [[COD-174-2018]] — Codul serviciilor media audiovizuale: comunicările comerciale audiovizuale (cap. IX) și Consiliul Audiovizualului (cap. X); transpune parțial Directiva 2010/13/UE, fără nicio regulă pentru publicitatea financiară.
 - [[COD-218-2008]] — Codul contraventional: 254 de articole cu exponent; consolidare 2026-09-13, data viitoare.
-- [[COD-225-2003]] — Codul de procedura civila: procedura in fata instantelor civile; recursul, arts. 397-422, este abrogat in bloc.
+- [[COD-225-2003]] — Codul de procedura civila: procedura in fata instantelor civile; recursul, arts. 397-422, este abrogat in bloc; consolidare 2026-08-06 (LP126/2026, capitolul XLVI nou, art. 491-492).
 - [[COD-434-2023]] — Codul urbanismului și construcțiilor: în vigoare 30.01.2025 (nu 2026); 390 de articole ancorate fără nicio lacună, dar cele 25 de anexe lipsesc din text.
 - [[COD-443-2004]] — Codul de executare: faza de dupa hotararea definitiva; numerotare 1-325 completa.
 - [[COD-95-2021]] — Codul vamal: cel mai nou dintre coduri, consolidare 2026-09-01.
@@ -40,14 +40,14 @@
 - [[L-122-2008]] — Legea nr. 122/2008 privind birourile istoriilor de credit
 - [[L-1260-2002]] — Legea cu privire la avocatură: 73 de ancore, versiunea în vigoare azi (2025-01-07); consolidarea condiționată de aderarea la UE (LP10/2026, datată fictiv 2030) neingerată.
 - [[L-131-2012]] — Legea controlului de stat asupra activității de întreprinzător: 41 de ancore, consolidare 2026-08-28 (doc_id 151146, nu cel din lista de căutare); principiile controlului, art. 3.
-- [[L-131-2015]] — Legea achizițiilor publice: 91 de ancore, consolidare 2026-06-26; abrogată de la 01.01.2027 prin Legea 325/2025, neingerată; pragurile din art. 2.
+- [[L-131-2015]] — Legea achizițiilor publice: 91 de ancore, consolidare 2026-06-26; abrogată de la 01.01.2027 prin Legea 325/2025; contestațiile (art. 80–88) scoase de Legea 20/2026 din 01.04.2026; pragurile din art. 2.
 - [[L-135-2007]] — Legea nr. 135/2007 privind societatile cu raspundere limitata: actul de baza pentru SRL, consolidare 2026-03-27, 83 de articole plus 10 cu exponent.
 - [[L-139-2007]] — Legea nr. 139/2007 privind asociațiile de economii și împrumut
 - [[L-148-2023]] — Legea accesului la informațiile de interes public: 35 de ancore, nemodificată, în vigoare 08.01.2024; furnizorii de informații, contenciosul administrativ.
 - [[L-149-2012]] — Legea insolvabilității: 271 de ancore (254 de bază fără lacune, 235^1–235^16), consolidare 2025-12-31; procedura colectivă, instanța de insolvabilitate.
 - [[L-1543-1998]] — Legea cadastrului bunurilor imobile: art. 40^4 alin. (1) face documentele de recepție condiție de înregistrare a construcției; consolidare viitoare 2027-01-01.
 - [[L-158-2008]] — Legea funcției publice și a statutului funcționarului public: 88 de ancore; consolidare 2026-09-13, dată viitoare, 29 de dispoziții amânate (LP154/2026); una din 2028 neingerată.
-- [[L-160-2011]] — Legea actelor permisive (reglementarea prin autorizare): 32 de ancore, consolidare 2029-01-01, dată viitoare, cu două trepte din 2027 fără marcaje; Nomenclatorul nu este în text.
+- [[L-160-2011]] — Legea actelor permisive (reglementarea prin autorizare): 32 de ancore, versiunea în vigoare azi (2026-08-29); cinci consolidări viitoare neingerate, 2026-12-28 … 2029-01-01; Nomenclatorul nu este în text.
 - [[L-160-2023]] — Legea nr. 160/2023 cu privire la garantarea depozitelor în bănci (DGSD): înlocuiește Legea 575/2003, abrogată; 58 de ancore, nemodificată.
 - [[L-171-2012]] — Legea nr. 171/2012 privind piața de capital
 - [[L-177-2025]] — Legea nr. 177/2025: interdicția opțiunilor binare și a marketingului de derivate cu levier; a introdus art. 4^1 în L-171-2012 și art. 245^13 în Codul penal.
@@ -58,7 +58,8 @@
 - [[L-198-2007]] — Legea asistenței juridice garantate de stat: 54 de ancore, consolidare 2026-08-06; asistența primară și calificată, avocatul public, para-juristul.
 - [[L-198-2020]] — Legea nr. 198/2020 privind fondurile de pensii facultative
 - [[L-2-2020]] — Legea nr. 2/2020 privind organismele de plasament colectiv alternative
-- [[L-202-2017]] — Legea nr. 202/2017 privind activitatea băncilor: legea-cadru a perimetrului bancar, text românesc, 155 de ancore; art. 36 alin. (2) listează limitativ excepțiile de la Legea SA.
+- [[L-20-2026]] — Legea remediilor în achiziții: 29 de ancore, în vigoare din 01.04.2026; ANSC devine autoritate, termen de așteptare 11/16 zile (art. 20); anexa ei a abrogat art. 80–84 și 86–88 din Legea 131/2015.
+- [[L-202-2017]] — Legea nr. 202/2017 privind activitatea băncilor: legea-cadru a perimetrului bancar, text românesc, 155 de ancore, consolidare 2025-10-25; art. 36 alin. (2) listează limitativ excepțiile de la Legea SA.
 - [[L-220-2007]] — Legea nr. 220/2007 privind inregistrarea de stat a persoanelor juridice si a intreprinzatorilor individuali: procedura ASP, consolidare 2026-07-23.
 - [[L-232-2016]] — Legea nr. 232/2016 privind redresarea și rezoluția băncilor (BRRD): text românesc, 344 de ancore, articole fără titlu.
 - [[L-234-2016]] — Legea nr. 234/2016 privind Depozitarul central unic al valorilor mobiliare (DCU)
@@ -67,6 +68,7 @@
 - [[L-250-2017]] — Legea nr. 250/2017 privind supravegherea suplimentară a conglomeratelor financiare: BNM și CNPF sub același regim; 23 de ancore, nemodificată din 2018.
 - [[L-284-2004]] — Legea nr. 284/2004 privind serviciile societății informaționale, fosta Lege a comerțului electronic: testul de direcționare teritorială din art. 3 și răspunderea intermediarilor din arts. 15–17; transpune Directiva 2000/31/CE.
 - [[L-308-2017]] — Legea nr. 308/2017 privind AML/CFT
+- [[L-325-2025]] — Legea achizițiilor publice din 2025: 91 de ancore, în vigoare de la 01.01.2027, dată viitoare, actul întreg; abrogă Legea 131/2015 la acea dată; pragurile din art. 1; art. 91 lasă procedurile în curs sub legea de la inițiere.
 - [[L-436-2006]] — Legea administrației publice locale: 98 de ancore, consolidare 2026-06-26; nivelurile întâi, al doilea și special (Găgăuzia), principiile din art. 3 reiau art. 109 din Constituție.
 - [[L-514-1995]] — Legea organizării judecătorești: 60 de ancore, consolidare 2026-08-28; lacunele 29–34, 41–42, 51–53 sunt capitole abrogate cu stub în text.
 - [[L-548-1995]] — Legea nr. 548/1995 cu privire la Banca Națională a Moldovei: text românesc, 91 de ancore; art. 11 fixează regimul special de contestare a actelor BNM; șapte lacune de numerotare fără marcaj în sursă.

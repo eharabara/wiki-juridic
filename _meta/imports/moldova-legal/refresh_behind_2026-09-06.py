@@ -17,7 +17,7 @@ deci fetch-ul cade pe cache-ul de pe disc, unde showdetails-<doc_id>.html trebui
 luat din Chrome (vezi ingest_business_law.fetch). L-202-2017 sta in raw/papers/bnm/legal-ro/,
 cu cache-ul in _meta/imports/bnm/legis-md-ro/, deci scriptul-mama e condus o data pe folder.
 
-Usage: python refresh_behind_2026-09-06.py [--apply]
+Usage: python refresh_behind_2026-09-06.py [--apply] [folder ...]   (foldere: cheile din BATCHES)
 """
 import datetime, importlib.util, re, sys
 from pathlib import Path
@@ -30,6 +30,28 @@ BATCHES = {
         "raw": ROOT / "raw" / "papers" / "moldova-legal",
         "html": ROOT / "_meta" / "imports" / "moldova-legal" / "legis-md-business",
         "acts": {"COD-225-2003": "155718", "COD-1163-1997": "138613"},
+    },
+    # Al doilea lot, dupa confirmarea lui Eugen din aceeasi seara: Legea 160/2011 trece de la
+    # consolidarea din 2029 (156152) la cea in vigoare azi, 151257 @ 2026-08-29 (LP199/2025),
+    # fiindca registrul in-force nu vedea treptele din 2027; Codul civil trece de la textul din
+    # PDF (frontmatter doc_id 150561, 2025-11-01, cu textul purtind deja LP251/2025) la textul
+    # legis.md 150498 @ 2026-04-01, aceeasi consolidare LP251. Istoricul 160/2011 are CINCI
+    # consolidari viitoare, nu doua: 28-12-2026 (149496), 01-01-2027 (150231), 23-01-2027
+    # (154051), 21-05-2027 (154478), 01-01-2029 (156152).
+    "moldova-legal-lot2": {
+        "raw": ROOT / "raw" / "papers" / "moldova-legal",
+        "html": ROOT / "_meta" / "imports" / "moldova-legal" / "legis-md-business",
+        "acts": {"L-160-2011": "151257"},
+        "titles": {"L-160-2011": "Legea nr. 160/2011 privind reglementarea prin autorizare a activitatii de intreprinzator"},
+    },
+    # Codul civil, rulat separat dupa lotul 2: prima trecere pierduse cele 27 de ancore de carte
+    # si de titlu (legis.md le scrie "Cartea intai", "T i t l u l IV"); regula a fost adaugata in
+    # extractor, versiunea din PDF a fost pusa la loc din arhiva lotului 2 si trecerea repetata.
+    "moldova-legal-cc": {
+        "raw": ROOT / "raw" / "papers" / "moldova-legal",
+        "html": ROOT / "_meta" / "imports" / "moldova-legal" / "legis-md-business",
+        "acts": {"CC-1107-2002": "150498"},
+        "titles": {"CC-1107-2002": "Codul civil al Republicii Moldova nr. 1107/2002"},
     },
     "bnm-legal-ro": {
         "raw": ROOT / "raw" / "papers" / "bnm" / "legal-ro",
@@ -60,13 +82,17 @@ def existing(path):
 
 def main():
     apply_ = "--apply" in sys.argv
+    only = [a for a in sys.argv[1:] if not a.startswith("-")]
     mod = load_module()
     for folder, b in BATCHES.items():
+        if only and folder not in only:
+            continue
         spec = {}
         for stem, new_id in b["acts"].items():
             cur = existing(b["raw"] / f"{stem}.md")
             spec[stem] = {"old": cur.get("doc_id", "?"), "new": new_id,
-                          "title": re.sub(r"\s+", " ", cur.get("official_title_detected", stem))}
+                          "title": b.get("titles", {}).get(
+                              stem, re.sub(r"\s+", " ", cur.get("official_title_detected", stem)))}
         print("=" * 78)
         print(f"folder {folder} -- {len(spec)} acte")
         for s, v in spec.items():

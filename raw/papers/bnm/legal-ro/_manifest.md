@@ -24,7 +24,7 @@ engleze neoficiale, neancorate. Regula D2: traducerea localizează, textul de ai
 
 | Fișier | Act | doc_id | Consolidare | Ancore | Integritate | Note |
 |---|---|---:|---|---:|---|---|
-| `L-202-2017.md` | Legea nr. 202/2017 privind activitatea băncilor | 151445 | 2025-09-20 | 155 | PASS, 1559 linii | 149 de bază fără lacune, 6 cu exponent |
+| `L-202-2017.md` | Legea nr. 202/2017 privind activitatea băncilor | **151077** (151445 până la 2026-09-06) | **2025-10-25** | 155 | PASS, 1560 linii | 149 de bază fără lacune, 6 cu exponent; reîmprospătat 2026-09-06 (LP189/2025, art. 97 alin. (5) lit. a^1), versiunea veche în `_archive/raw/bnm-legal-ro-legis-md-before-refresh-20260906-220712/` |
 | `L-548-1995.md` | Legea nr. 548/1995 cu privire la BNM | 154046 | 2026-04-23 | 91 | PASS, 842 linii | **7 lacune fără marcaj în sursă**: 12, 13, 29, 30, 48, 54, 73; republicată 2015; `[de verificat]` |
 | `L-114-2012.md` | Legea nr. 114/2012 servicii de plată și monedă electronică | 155331 | **2027-01-01, viitoare** | 131 | PASS, 1328 linii | o dispoziție cu intrare amânată, art. 103^1 alin. (4) lit. h) |
 | `L-232-2016.md` | Legea nr. 232/2016 redresarea și rezoluția băncilor | 146912 | 2025-02-28 | 344 | PASS, 1443 linii | articole fără titlu, forma `Articolul N. –` |

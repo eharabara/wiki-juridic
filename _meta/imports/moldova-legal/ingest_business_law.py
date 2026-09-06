@@ -37,14 +37,23 @@ DOCS = {
     # Codurile. Codul fiscal poarta un CUPRINS de ~780 de linii care repeta fiecare titlu
     # de articol; vezi regula de suprimare a ancorarii din extract_doc. Numerotarea NU
     # reporneste pe titluri: in corp cele 353 de articole de baza sint unice.
-    'COD-1163-1997': {'doc_id': '155071',
+    # Reimprospatat 2026-09-06 la 138613 (2026-07-01, LP318/2025), din 155071 (2026-06-25); vezi refresh_behind_2026-09-06.py.
+    'COD-1163-1997': {'doc_id': '138613',
                       'title': 'Codul fiscal al Republicii Moldova nr. 1163/1997'},
+    # Codul civil, 2026-09-06 seara: pina atunci textul venea din PDF (ingest 2026-07-13, ancorat
+    # manual 2026-09-04, frontmatter doc_id 150561 = 2025-11-01). Trecut pe textul legis.md
+    # 150498 @ 2026-04-01 (LP251/2025), prin refresh_behind_2026-09-06.py, lotul 2; inventarul de
+    # articole identic (2657, aceleasi 14 lacune: 2047-2054 si cele sase abrogate prin LP251).
+    # 5 <sup>, fara CUPRINS. Intrarea sta aici ca verify_business_law.py sa-l controleze.
+    'CC-1107-2002': {'doc_id': '150498',
+                     'title': 'Codul civil al Republicii Moldova nr. 1107/2002'},
     'COD-116-2018': {'doc_id': '150447',
                      'title': 'Codul administrativ al Republicii Moldova nr. 116/2018'},
     # Cele sapte coduri ramase din planul esuat de la 13 iulie 2026. Toate verificate
     # in prealabil: niciunul nu are cuprins, niciunul nu are ancore duplicate, toate
     # folosesc forma moderna "Articolul N". Cinci din sapte sint consolidari VIITOARE.
-    'COD-225-2003': {'doc_id': '152860', 'title': 'Codul de procedura civila al Republicii Moldova nr. 225/2003'},
+    # Reimprospatat 2026-09-06 la 155718 (2026-08-06, LP126/2026), din 152860 (2025-12-30).
+    'COD-225-2003': {'doc_id': '155718', 'title': 'Codul de procedura civila al Republicii Moldova nr. 225/2003'},
     'COD-443-2004': {'doc_id': '156146', 'title': 'Codul de executare al Republicii Moldova nr. 443/2004'},
     'COD-95-2021':  {'doc_id': '154350', 'title': 'Codul vamal al Republicii Moldova nr. 95/2021'},
     'COD-154-2003': {'doc_id': '155882', 'title': 'Codul muncii al Republicii Moldova nr. 154/2003'},
@@ -291,7 +300,10 @@ DOCS = {
     # in vigoare 01.01.29), cu alte versiuni viitoare la 2027-01-23 si 2027-05-21 intre azi si ea.
     # Ingerata ca L-1134-1997 (2028): cea mai noua consolidare, registrul in-force preia
     # dispozitiile amanate. 51 etichete <sup>, fara span CSS, fara CUPRINS. In vigoare 01.01.2012.
-    'L-160-2011': {'doc_id': '156152',
+    # 2026-09-06 seara, decizia lui Eugen: reingerata la versiunea IN VIGOARE AZI, 151257 @
+    # 2026-08-29 (LP199/2025), nu la 156152 (2029). Istoricul are cinci consolidari viitoare:
+    # 149496@2026-12-28, 150231@2027-01-01, 154051@2027-01-23, 154478@2027-05-21, 156152@2029-01-01.
+    'L-160-2011': {'doc_id': '151257',
                    'title': 'Legea nr. 160/2011 privind reglementarea prin autorizare a '
                             'activitatii de intreprinzator'},
     # CAPCANA DE LISTA, gasita aici: rindul din rezultatele cautarii trimite la doc_id 152529
@@ -333,6 +345,15 @@ DOCS = {
     # vigoare azi si sta in planul aprobat, deci se ingereaza: 155117@2026-06-26 (LP101/2026) este
     # versiunea in vigoare; 153138@2027-01-01 este versiunea de dupa abrogare. 201 rezultate la
     # "achizitiile publice"; singurul rand LP131/2015. 7 etichete <sup>, fara span CSS, fara CUPRINS.
+    # Succesoarele, ingerate 2026-09-06 seara la decizia lui Eugen. 325/2025: 91 de articole fara
+    # lacune, 1 <sup>, fara CUPRINS, fara rind MODIFICAT; "Data intrarii in vigoare" 01.01.2027,
+    # deci consolidare VIITOARE si tot actul e neintrat in vigoare azi. 20/2026: 29 de articole,
+    # fara <sup>, in vigoare 01.04.2026 dupa fisa (de verificat pe dispozitiile finale).
+    'L-325-2025': {'doc_id': '152974',
+                   'title': 'Legea nr. 325/2025 privind achizitiile publice'},
+    'L-20-2026': {'doc_id': '153618',
+                  'title': 'Legea nr. 20/2026 privind remediile si caile de atac in materie de '
+                           'atribuire a contractelor de achizitii publice'},
     'L-131-2015': {'doc_id': '155117',
                    'title': 'Legea nr. 131/2015 privind achizitiile publice (abrogata de la '
                             '01.01.2027 prin Legea 325/2025)'},
@@ -552,6 +573,14 @@ def extract_doc(data):
             # textul lui aparea ca ancora "## Titlul VII, ...". Textul nu era atins, structura era
             # falsa. Regula noua cere un numeral roman dupa "Titlul" si refuza virgula imediat dupa
             # el: un titlu de structura nu continua cu virgula, o trimitere in fraza da.
+            md_lines += ['', f"## {l}"]
+        elif re.match(r'^T i t l u l\s+[IVXLCDM]+(\^\d+)?\b(?![,])', l) \
+                or re.match(r'^(Cartea|CARTEA)\s+(a\s+\S+|[iî]nt[aiîâ]i)\s*$', l):
+            # Codul civil pe legis.md (150498, 2026-09-06): titlurile sint scrise cu litere
+            # spatiate, "T i t l u l IV", iar cartile ca "Cartea intai", "Cartea a doua", fara
+            # numeral. Ancorarea manuala din 4 septembrie le avea pe toate 27 (5 carti, 22 de
+            # titluri); fara aceasta regula textul legis.md le pierdea. Textul liniei nu se
+            # schimba, ancora reia linia asa cum este.
             md_lines += ['', f"## {l}"]
         elif re.match(r'^Capitolul\s+', l, flags=re.I):
             md_lines += ['', f"## {l}"]

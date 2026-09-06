@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-06T22:04:31",
+  "generated": "2026-09-06T22:25:25",
   "as_of": "2026-09-06",
-  "files_scanned": 397,
+  "files_scanned": 399,
   "provisions_not_yet_in_force": [
     {
       "file": "raw/papers/moldova-legal/COD-218-2008.md",
@@ -1301,23 +1301,6 @@
         1464
       ],
       "occurrences": 3
-    },
-    {
-      "file": "raw/papers/moldova-legal/L-160-2011.md",
-      "instrument": "L-160-2011",
-      "article": "440",
-      "subunit": "",
-      "scope": "articol",
-      "effective_from": "2029-01-01",
-      "operation": "modificare",
-      "amending_act": "LP159 din 30.07.26",
-      "official_gazette": "MO407-409/02.09.26",
-      "context": "[Anexa nr.1 modificată prin LP159 din 30.07.26, MO407-409/02.09.26 art. 440; în vigoare 01.01.29]",
-      "lines": [
-        60,
-        551
-      ],
-      "occurrences": 2
     }
   ],
   "acts_with_future_consolidation": [
@@ -1412,15 +1395,6 @@
       "flagged_in_frontmatter": true
     },
     {
-      "instrument": "L-160-2011",
-      "file": "raw/papers/moldova-legal/L-160-2011.md",
-      "consolidation_date": "2029-01-01",
-      "doc_id": "156152",
-      "previous_consolidation_date": null,
-      "previous_archive": null,
-      "flagged_in_frontmatter": true
-    },
-    {
       "instrument": "L-171-2012",
       "file": "raw/papers/cnpf/L-171-2012.md",
       "consolidation_date": "2027-06-01",
@@ -1428,6 +1402,15 @@
       "previous_consolidation_date": "2021-01-01",
       "previous_archive": "_archive/raw/cnpf-legis-md-before-refresh-20260904-162713/L-171-2012.md",
       "flagged_in_frontmatter": true
+    },
+    {
+      "instrument": "L-325-2025",
+      "file": "raw/papers/moldova-legal/L-325-2025.md",
+      "consolidation_date": "2027-01-01",
+      "doc_id": "152974",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": false
     },
     {
       "instrument": "L-845-1992",
@@ -1440,8 +1423,8 @@
     }
   ],
   "counts": {
-    "provisions": 74,
-    "acts": 13,
+    "provisions": 73,
+    "acts": 12,
     "future_consolidations": 13
   }
 }

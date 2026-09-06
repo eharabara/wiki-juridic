@@ -179,6 +179,33 @@ intacte, corpul de la 31 785 la 14 182 de linii.
 > intermediară ar fi dispărut tăcut din lanț. Scriptul are acum o aserțiune care refuză o etapă
 > deja folosită și cere `--stage`.
 
+### C.7. Trecerea pe textul legis.md — doc_id 150498 (2026-09-06, seara)
+
+La decizia lui Eugen, fișierul brut nu mai este transcrierea PDF-ului, ci extracția legis.md a
+consolidării **150498 @ 2026-04-01** (LP251 din 10.07.25), adusă prin
+`_meta/imports/moldova-legal/refresh_behind_2026-09-06.py`, lotul `moldova-legal-cc`, cu lanțul de
+proveniență în frontmatter (`doc_id_previous: 150561`, `sha256_previous`, `archived_previous_at`).
+Versiunea din PDF, cu toate trecerile C.1–C.6, este arhivată la
+`_archive/raw/moldova-legal-cc-legis-md-before-refresh-20260906-221637/CC-1107-2002.md`; PDF-ul
+original rămâne la `raw/assets/moldova-legal/CC-1107-2002-2026-07-12.pdf`. Rândul din tabelul C
+de mai sus („copie PDF consolidată") descrie de acum versiunea arhivată.
+
+Ce s-a verificat: inventarul de articole este **identic** (2.657 de articole, aceleași 14 numere
+absente: 2047–2054 și cele șase abrogate prin LP251), integritatea textului față de HTML este PASS
+pe 14.148 de linii, cele 29 de marcaje `[Art.NNNN abrogat prin LP...]` sunt aceleași. Structura:
+5 ancore de carte, 22 de titlu, 109 de capitol, 172 de secțiune, 2.968 de titluri Markdown în
+total (față de 3.038 în versiunea ancorată manual, care avea și subsecțiuni și paragrafe `§`).
+
+Două lucruri de metodă. Prima trecere pierduse cele 27 de ancore de carte și de titlu: legis.md
+scrie cărțile „Cartea întâi", „Cartea a doua", fără numeral, și titlurile cu litere spațiate,
+„T i t l u l IV", forme pe care regula `TITLUL|Titlul + numeral roman` nu le prindea. Regula a
+fost adăugată în `extract_doc`, regresia a fost verificată pe toate celelalte acte din `DOCS`
+(un singur act ar câștiga ancore: `COD-218-2008`, „Cartea întâi" și „Cartea a doua", neaplicat,
+fiindcă acel fișier nu a fost reingerat), versiunea din PDF a fost pusă la loc din arhivă și
+trecerea repetată. Al doilea: blocul art. 2047–2054 stă și în textul legis.md sub aceeași linie
+`Secțiunea a 3-a- abrogată`, fără citare LP, deci întrebarea deschisă 1 din `CLAUDE.md` nu era
+un defect al PDF-ului.
+
 ## C.3. Articole cu exponent — L-100-2017 (2026-09-04)
 
 Extracția a aplatizat exponentul la două articole din `L-100-2017`. Ancorele au fost
@@ -1310,6 +1337,15 @@ azi și 2029, istoricul de versiuni de pe legis.md este singura sursă a datei d
 Anexele (Nomenclatorul actelor permisive, anexele 1–4) apar în text doar ca titluri, fără conținut
 tabelar extras.
 
+**Urmare, 6 septembrie seara (decizia lui Eugen):** actul a fost reingerat la **151257 @
+2026-08-29** (LP199 din 10.07.25, anexa nr. 1), versiunea în vigoare azi; consolidarea din 2029
+este arhivată la `_archive/raw/moldova-legal-lot2-legis-md-before-refresh-20260906-221015/`.
+Istoricul citit integral are **cinci** consolidări viitoare, nu două: 149496@2026-12-28,
+150231@2027-01-01, 154051@2027-01-23, 154478@2027-05-21, 156152@2029-01-01. Inventarul de
+articole este același (14 + 18), integritatea PASS pe 349 de linii. Registrul in-force nu mai
+listează actul, corect: textul deținut nu conține nicio dispoziție amânată. Paragraful de mai sus
+rămâne valabil ca descriere a versiunii arhivate.
+
 ### R.4. Structură și integritate
 
 | act | ancore | de bază | cu exponent | capitole | `<sup>` | linii verify |
@@ -1355,6 +1391,13 @@ este în 325/2025. Textul poartă o linie de abrogare a vechii Legi 96-XVI/2007 
 în vigoare a prezentei legi, Legea nr. 96-XVI din 13 aprilie 2007 ... se abrogă"), găsită prin
 căutare în text; articolul care o conține nu a fost identificat pentru manifest, iar art. 91 este
 „Organizarea executării", nu abrogarea.
+
+**Urmare, 6 septembrie seara:** amândouă ingerate, la decizia lui Eugen; vezi secțiunea U. Două
+lucruri schimbă citirea acestei legi. Legea 20/2026 este **în vigoare din 01.04.2026** și anexa ei
+(pct. 2) a abrogat art. 80–84 și 86–88 și a rescris art. 32 și 85, deci contestațiile au ieșit
+din 131/2015 cu nouă luni înaintea abrogării legii; textul nostru 155117 poartă stub-urile. Iar
+art. 91 din 325/2025 lasă procedurile și contractele în curs la 01.01.2027 sub legea de la data
+inițierii.
 
 ### S.2. `L-158-2008`: consolidare care intră în vigoare peste o săptămână, plus una în 2028
 
@@ -1470,6 +1513,73 @@ Fără span ridicat prin CSS, fără CUPRINS, fără duplicate. Titlu tăiat pe 
 art. 16 („Preşedinţii şi vicepreşedinţii instanţelor / judecătoreşti") și `L-198-2007` în antet.
 Fișierele 153429 (avocatura, versiunea condiționată) și 86850 (Statut 2012, nedescărcat) nu sunt
 în cache; 153429 a rămas în `Downloads`, nefolosit.
+
+## U. Seara de 6 septembrie: trei reîmprospătări, L-160/2011 la zi, Codul civil pe legis.md, L-325/2025 și L-20/2026
+
+Toate la decizia lui Eugen, după raportul de execuție al zilei. HTML-ul a venit pe ruta din
+5 septembrie: după ce Eugen a trecut verificarea Cloudflare, `fetch` same-origin în pagina
+legis.md și descărcare ca blob, cu acordul lui explicit pentru cele șapte fișiere; mutate în
+cache-urile `_meta/imports/moldova-legal/legis-md-business/` și `_meta/imports/bnm/legis-md-ro/`.
+
+### U.1. Cele trei acte „în urmă" din sondaj
+
+Scriptul: `_meta/imports/moldova-legal/refresh_behind_2026-09-06.py`, care conduce
+`refresh_consolidations.py` pe folder, ca lotul din 4 septembrie: arhivă în `_archive/raw/`, lanț
+de proveniență în frontmatter, delta pe articole, sha256 recalculat după asamblare.
+`refresh_consolidations.py` descarcă acum prin `ibl.fetch` (fișier `.part`, cădere pe cache); vechiul
+`curl` direct ar fi suprascris cache-ul cu pagina Cloudflare.
+
+| act | doc_id | consolidare | delta pe articole | marcaje |
+|---|---|---|---|---|
+| `COD-225-2003` | 152860 → **155718** | 2025-12-30 → **2026-08-06** | +3 de bază: **78** (scris corect acum, `Articolul 78. – abrogat.`, ancorat), **491, 492** (capitolul XLVI, nou) | numai LP126/2026 (6); marcajele LP330/2025, LP187/2025, LP252/2025 s-au pierdut, mecanismul 1 |
+| `COD-1163-1997` | 155071 → **138613** | 2026-06-25 → **2026-07-01** | −1 cu exponent: **88^1 abrogat** prin LP318/2025 | 4, toate LP318: art. 14 al. (3), 35^1, 88^1, 92 al. (14) |
+| `L-202-2017` | 151445 → **151077** | 2025-09-20 → **2025-10-25** | niciuna | 1, LP189/2025: art. 97 al. (5) lit. a^1) |
+
+Integritate PASS pe toate trei (3.350, 6.906, 1.560 de linii). Arhive:
+`_archive/raw/moldova-legal-legis-md-before-refresh-20260906-220712/` și
+`_archive/raw/bnm-legal-ro-legis-md-before-refresh-20260906-220712/`. Consolidarea viitoare a
+Codului fiscal, 152862@2027-01-01 (LP187/2025), rămâne neingerată.
+
+**Capcană de sursă nouă, a patra formă a mecanismului 3.** La art. 88^1 din Codul fiscal legis.md a
+lăsat stub-ul `Articolul 88^1. – abrogat.` **numai în cuprins** și a șters din corp linia de
+articol, păstrând doar marcajul `[Art.88^1 abrogat prin LP318 ...]` după art. 88. Corpul nu mai
+poate purta ancora, iar `verify_business_law.py`, care citea și cuprinsul, a raportat FAIL pe un
+articol pe care extractorul nu avea cum să-l ancoreze. Verificatorul aplică acum aceeași regulă
+ca extractorul: titlurile dintre marcajul CUPRINS și formula de adoptare nu contează.
+
+### U.2. `L-160-2011` la versiunea în vigoare azi
+
+Vezi R.3, urmarea. 156152 (2029) → **151257 @ 2026-08-29**; cinci consolidări viitoare în istoric,
+niciuna ingerată.
+
+### U.3. Codul civil pe textul legis.md
+
+Vezi C.7. 150561 (PDF, 2025-11-01 după fișă, cu textul LP251) → **150498 @ 2026-04-01**; inventar
+identic, 27 de ancore de carte și de titlu recuperate printr-o regulă nouă în extractor.
+
+### U.4. `L-325-2025` și `L-20-2026`, succesoarele legii achizițiilor
+
+| act | doc_id | consolidare | ancore | capitole | `<sup>` | integritate |
+|---|---:|---|---:|---:|---:|---|
+| `L-325-2025` | 152974 | **2027-01-01, viitoare: actul întreg** | 91, numerotate 1–91 fără lacune | 14 | 1 (nu de articol) | PASS, 1.367 / 1.367 |
+| `L-20-2026` | 153618 | 2026-04-01 | 29, numerotate 1–29 fără lacune | 5 | 0 | PASS, 348 / 348 |
+
+Amândouă cu o singură versiune pe legis.md, fără rândul MODIFICAT, fără CUPRINS, fără span ridicat
+prin CSS. **Consolidarea 2027-01-01 a Legii 325/2025 este data ei de intrare în vigoare** (art. 90
+alin. (1)), nu o modificare amânată: registrul in-force o listează ca act cu consolidare viitoare
+și zero dispoziții marcate, ceea ce este exact situația, actul nu binde încă nicăieri. Art. 90
+alin. (4) abrogă Legea 131/2015 la aceeași dată; art. 91 lasă procedurile și contractele în curs sub
+legea de la inițiere. Legea 20/2026 este în vigoare din 01.04.2026 (art. 28 alin. (1)) și anexa ei
+a modificat deja Legea 131/2015 (vezi S.1, urmarea). Titluri tăiate pe două linii, cazul cunoscut:
+`L-325-2025` art. 1, 8, 11, 42, 44; `L-20-2026` art. 3, 6, 12, 13, 20. Anexele 1 și 2 ale
+Legii 325/2025 nu au fost citite.
+
+### U.5. Ce a rămas în afara acestei seri
+
+- `COD-218-2008` ar câștiga două ancore de carte cu regula nouă din extractor; neaplicat.
+- Consolidarea viitoare a Codului fiscal (152862@2027-01-01) și cele cinci ale Legii 160/2011.
+- Cele trei fișiere descărcate dimineața și nefolosite (`showdetails-152529/-156075/-153429.html`)
+  au rămas în `Downloads`.
 
 ## D. Artefacte metodologice create
 

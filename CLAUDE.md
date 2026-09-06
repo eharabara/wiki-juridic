@@ -91,20 +91,20 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-06 22:04 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-06 22:25 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-65 primary Moldovan acts, 29 EU acquis extracts, 284 BNM corpus documents.
+67 primary Moldovan acts, 29 EU acquis extracts, 284 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
 | `CC-1107-2002` | 2657 | 2657 | 2026-04-01 | clean |
 | `COD-116-2018` | 260 | 260 | 2025-08-31 | 2 superscript articles normalised |
-| `COD-1163-1997` | 512 | 512 | 2026-06-25 | 159 superscript articles normalised |
+| `COD-1163-1997` | 511 | 511 | 2026-07-01 | 158 superscript articles normalised |
 | `COD-122-2003` | 658 | 658 | 2026-12-02 | **consolidation dated in the future**; 105 superscript articles normalised |
 | `COD-154-2003` | 416 | 416 | 2027-01-01 | **consolidation dated in the future**; 52 superscript articles normalised |
 | `COD-174-2018` | 98 | 98 | 2026-06-24 | 4 superscript articles normalised |
 | `COD-218-2008` | 737 | 737 | 2026-09-13 | **consolidation dated in the future**; 254 superscript articles normalised |
-| `COD-225-2003` | 537 | 537 | 2025-12-30 | 77 superscript articles normalised |
+| `COD-225-2003` | 540 | 540 | 2026-08-06 | 77 superscript articles normalised |
 | `COD-434-2023` | 390 | 390 | 2026-08-06 | clean |
 | `COD-443-2004` | 361 | 361 | 2026-12-02 | **consolidation dated in the future**; 36 superscript articles normalised |
 | `COD-95-2021` | 472 | 472 | 2026-09-01 | 51 superscript articles normalised |
@@ -132,7 +132,7 @@ Generated 2026-09-06 22:04 from the files themselves. Do not edit this section b
 | `L-149-2012` | 271 | 271 | 2025-12-31 | 17 superscript articles normalised |
 | `L-1543-1998` | 99 | 99 | 2027-01-01 | **consolidation dated in the future**; 38 superscript articles normalised |
 | `L-158-2008` | 88 | 88 | 2026-09-13 | **consolidation dated in the future**; 11 superscript articles normalised |
-| `L-160-2011` | 32 | 32 | 2029-01-01 | **consolidation dated in the future**; 18 superscript articles normalised |
+| `L-160-2011` | 32 | 32 | 2026-08-29 | 18 superscript articles normalised |
 | `L-160-2023` | 58 | 58 | 2023-10-01 | **2.9 years old** |
 | `L-171-2012` | 156 | 156 | 2027-06-01 | **consolidation dated in the future**; 18 superscript articles normalised |
 | `L-177-2025` | 4 | 4 | 2025-07-21 | 4 articles numbered in Roman figures; stale count line in body says 0 |
@@ -143,7 +143,8 @@ Generated 2026-09-06 22:04 from the files themselves. Do not edit this section b
 | `L-198-2007` | 54 | 54 | 2026-08-06 | 17 superscript articles normalised |
 | `L-198-2020` | 64 | 64 | 2025-10-25 | clean |
 | `L-2-2020` | 46 | 46 | 2025-10-25 | clean |
-| `L-202-2017` | 155 | 155 | 2025-09-20 | 6 superscript articles normalised |
+| `L-20-2026` | 29 | 29 | 2026-04-01 | clean |
+| `L-202-2017` | 155 | 155 | 2025-10-25 | 6 superscript articles normalised |
 | `L-220-2007` | 44 | 44 | 2026-07-23 | 6 superscript articles normalised |
 | `L-232-2016` | 344 | 344 | 2025-02-28 | 21 superscript articles normalised |
 | `L-234-2016` | 37 | 37 | 2024-11-26 | clean |
@@ -152,6 +153,7 @@ Generated 2026-09-06 22:04 from the files themselves. Do not edit this section b
 | `L-250-2017` | 23 | 23 | 2018-03-29 | **8.4 years old** |
 | `L-284-2004` | 29 | 29 | 2026-02-14 | 1 superscript article normalised |
 | `L-308-2017` | 47 | 47 | 2026-08-13 | 10 superscript articles normalised |
+| `L-325-2025` | 91 | 91 | 2027-01-01 | clean |
 | `L-436-2006` | 98 | 98 | 2026-06-26 | 6 superscript articles normalised |
 | `L-514-1995` | 60 | 60 | 2026-08-28 | 5 articles numbered in Roman figures; 10 superscript articles normalised |
 | `L-548-1995` | 91 | 91 | 2026-04-23 | 21 superscript articles normalised |
@@ -165,7 +167,7 @@ Generated 2026-09-06 22:04 from the files themselves. Do not edit this section b
 
 ### Mechanical flags
 
-- **Not yet in force.** 13 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-1134-1997` (2028-01-01), `L-171-2012` (2027-06-01), `COD-122-2003` (2026-12-02), `COD-154-2003` (2027-01-01), `COD-218-2008` (2026-09-13), `COD-443-2004` (2026-12-02), `COD-985-2002` (2026-12-02), `HG-743-2024` (2026-12-30), `L-1543-1998` (2027-01-01), `L-158-2008` (2026-09-13), `L-160-2011` (2029-01-01), `L-845-1992` (2027-01-01), `L-114-2012` (2027-01-01). 74 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
+- **Not yet in force.** 12 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-1134-1997` (2028-01-01), `L-171-2012` (2027-06-01), `COD-122-2003` (2026-12-02), `COD-154-2003` (2027-01-01), `COD-218-2008` (2026-09-13), `COD-443-2004` (2026-12-02), `COD-985-2002` (2026-12-02), `HG-743-2024` (2026-12-30), `L-1543-1998` (2027-01-01), `L-158-2008` (2026-09-13), `L-845-1992` (2027-01-01), `L-114-2012` (2027-01-01). 73 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
 - **Stale consolidations.** `L-250-2017` (2018-03-29), `UA-STATUT-2011` (2022-05-27), `L-160-2023` (2023-10-01), `L-148-2023` (2024-01-08), `L-64-2010` (2024-01-23), `DCA-61-2024` (2024-05-05), `HG-1171-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `HG-574-2024` (2024-08-23). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
 - **Stale count line inside the file.** `L-177-2025` (body says 0, anchors 4), `L-178-2020` (body says 0, anchors 8), `L-192-1998` (body says 0, anchors 34). The frontmatter is right and the anchors are right; the human-readable line in the body was written by the original ingest and never updated. Cosmetic, but it is the line a reader sees first.
 - **BNM English corpus.** 60 file(s) carry 149 line-initial `Article N` markers and no anchors. Any answer resting on the English BNM translations is not anchored.
@@ -177,8 +179,11 @@ Generated 2026-09-06 22:04 from the files themselves. Do not edit this section b
 Do not resolve these on your own. Raise them if a matter touches them.
 
 1. **Codul civil arts. 2047 to 2054.** Absent, covered by a heading `Secțiunea a 3-a- abrogată`
-   at line 11283, with no LP citation in the text. The other eight absences in the code each
+   with no LP citation in the text. The other eight absences in the code each
    carry an individual `[Art.NNNN abrogat prin LP...]`. Marked `[de verificat]` against legis.md.
+   Checked on 2026-09-06 against the legis.md text itself (doc_id 150498, which replaced the PDF
+   text that evening): the same heading, the same absence of any LP citation. So the gap is in
+   the publisher's consolidation, not in the PDF, and only the version history can date it.
 
 2. **Superscript flattening below article level.** The legis.md refresh now resolves superscripts
    during extraction, so the acts pulled on 4 September are clean at article level. The Civil Code
@@ -210,7 +215,7 @@ Do not resolve these on your own. Raise them if a matter touches them.
    | `L-845-1992` | 21 | **LP133 din 15.11.2018**, in force 01.03.2019 | marker dropped on refresh |
    | `L-845-1992` | 31 | **LP746 din 27.12.2001**, in force 12.02.2002 | no markers in that era |
    | `L-548-1995` | 12, 13, 29, 30, 48, 54, 73 | various, all before 2016 | **repeal stubs deleted** — see item 6 |
-   | `COD-225-2003` | 78 | repeal is in the body | `Aricolul 78` misspelling — item 4 |
+   | `COD-225-2003` | 78 | repeal is in the body | `Aricolul 78` misspelling — item 4; **fixed at source in consolidation 155718 (2026-09-06)** |
    | `L-100-2017` | 52 | **not repealed at all** | `Articol 52` misspelling — item 4 |
 
 
@@ -246,8 +251,9 @@ Do not resolve these on your own. Raise them if a matter touches them.
    `## Articolul N` returns nothing, which is the trap, and the article reads as an unexplained
    gap in item 3.
 
-   - `COD-225-2003` art. 78 carries `Aricolul 78. – abrogat.`, missing the `t`. The repeal is
-     recorded; the line simply does not match the `Articolul N` form, so it takes no anchor.
+   - `COD-225-2003` art. 78 carried `Aricolul 78. – abrogat.`, missing the `t`, in consolidation
+     152860. **Resolved by the refresh of 2026-09-06**: consolidation 155718 spells it correctly
+     and the line is anchored. Kept here because the trap is generic, not because it is open.
    - `L-100-2017` art. 52, file line 531, carries `Articol 52. Punctul` — `Articol`, without the
      `-ul`. Found by the audit of 2026-09-05. This one matters more than the average article:
      art. 52 of the law on normative acts is the provision governing **puncte**, which is how

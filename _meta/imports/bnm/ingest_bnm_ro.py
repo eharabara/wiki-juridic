@@ -35,7 +35,8 @@ ibl.META_DIR = META_DIR   # make_raw nu il foloseste, dar il tinem coerent
 # LP<nr>/<an>; rindurile de modificare si de interpretare au alte numere si nu se ingereaza.
 DOCS = {
     # 34 <sup>, fara CUPRINS, ultima modificare LP144/2025 in vigoare 20.09.25.
-    'L-202-2017': {'doc_id': '151445',
+    # Reimprospatat 2026-09-06 la 151077 (2025-10-25, LP189/2025), din 151445 (2025-09-20).
+    'L-202-2017': {'doc_id': '151077',
                    'title': 'Legea nr. 202/2017 privind activitatea bancilor'},
     # 90 <sup>, fara CUPRINS. Republicata in MO 297-300/2015; ultima modificare LP45/2026
     # (guvernanta institutionala), in vigoare 23.04.26.
