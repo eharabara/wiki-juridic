@@ -1265,6 +1265,70 @@ refuză virgula imediat după el; prima variantă fără `\b` lăsa regexul să 
 `## Titlul`/`## TITLUL` existentă în `moldova-legal/` sau `cnpf/` nu ar fi pierdută de regula nouă
 (verificat prin grep pe toate fișierele brute).
 
+## R. Lotul A, corporativ — L-149/2012, L-160/2011, L-131/2012 (ingerate 2026-09-06)
+
+Pasul 4, lotul A al planului `_meta/plans/2026-09-06-plan-extindere-perimetru-domestic.md`. Toate
+trei găsite prin căutare în titlu fără diacritice, verificate pe pagina actului (istoric de versiuni,
+fișă), aduse prin `fetch` same-origin din Chrome și descărcate ca blob cu acordul lui Eugen.
+
+| ID raw | doc_id | Titlu detectat | Pagină wiki | Consolidare / versiune locală | Rol operațional |
+|---|---:|---|---|---|---|
+| `L-149-2012` | **152605** | LEGE Nr. 149 din 29.06.2012 insolvabilităţii | [[L-149-2012]] | **2025-12-31** (LP330/2025) | procedura colectivă: restructurare și faliment; instanța de insolvabilitate; administratorul |
+| `L-160-2011` | **156152** | LEGE Nr. 160 din 22.07.2011 privind reglementarea prin autorizare a activităţii de întreprinzător | [[L-160-2011]] | **2029-01-01 — VIITOARE** (LP159/2026) | actele permisive, Nomenclatorul, ghișeul unic, SIA GEAP |
+| `L-131-2012` | **151146** | LEGE Nr. 131 din 08.06.2012 privind controlul de stat | [[L-131-2012]] | **2026-08-28** (LP201/2025) | controlul de stat asupra întreprinzătorilor: principii, planificare pe riscuri, delegația de control |
+
+### R.1. Capcană de listă, nouă: rândul din rezultate nu trimite la consolidarea curentă
+
+La `L-131-2012`, rândul din lista de rezultate trimite la **doc_id 152529** (2025-12-31). Pagina
+actului arată însă două consolidări mai noi: 149634@2026-07-31 și **151146@2026-08-28** (LP201 din
+10.07.25, în vigoare 28.08.26), aceasta din urmă fiind cea în vigoare azi. Și **doc_id-ul curent
+este mai mic decât cel vechi**: numărul doc_id nu este cronologic. Regula care rezultă: doc_id-ul
+din lista de căutare se ia doar ca intrare în pagina actului; ce se ingerează este cel din capul
+istoricului de versiuni. Fișierul 152529 descărcat înainte de a observa aceasta a rămas în
+`Downloads` și nu a fost pus în cache.
+
+### R.2. Fișele contrazic textul la intrarea în vigoare, de două ori
+
+| act | fișa: „Data intrării în vigoare" | textul | publicat |
+|---|---|---|---|
+| `L-131-2012` | **31.01.2012** | art. 33 alin. (1): „la 6 luni de la data publicării" | 31.08.2012, deci în vigoare la sfârșitul lui februarie 2013 |
+| `L-160-2011` | **01.01.2012** | art. 14: „la 6 luni de la data publicării", cu excepția art. 13 alin. (1) (la publicare) și art. 11 alin. (6) (1 februarie 2012) | 14.10.2011, deci regula generală dă aprilie 2012 |
+| `L-149-2012` | 13.03.2013 | art. 254 alin. (1): „la expirarea a 180 de zile de la data publicării" | 14.09.2012; **concordă** |
+
+Fișa `L-131-2012` dă o dată **anterioară publicării**. Textul are prioritate, ca la `CONST-1994`
+(Q.3) și `COD-434-2023` (O). `[de verificat]` pe niciunul: textul e limpede, fișa e greșită.
+
+### R.3. `L-160-2011`: consolidare viitoare cu marcaje pierdute
+
+Consolidarea este **2029-01-01**, iar între azi și ea istoricul de versiuni mai are două trepte:
+154051@2027-01-23 și 154478@2027-05-21. Fișierul poartă însă **un singur marcaj** de dispoziție
+amânată: `[Anexa nr.1 modificată prin LP159 din 30.07.26 ...; în vigoare 01.01.29]`. Marcajele
+amendamentelor care intră în vigoare în 2027 au fost eliminate de consolidarea din 2029 —
+mecanismul 1 din întrebarea deschisă 3 a `CLAUDE.md`. **Registrul in-force listează deci numai
+anexa nr. 1 și nu poate vedea dispozițiile din 2027.** Pentru orice citare din această lege între
+azi și 2029, istoricul de versiuni de pe legis.md este singura sursă a datei de intrare în vigoare.
+Anexele (Nomenclatorul actelor permisive, anexele 1–4) apar în text doar ca titluri, fără conținut
+tabelar extras.
+
+### R.4. Structură și integritate
+
+| act | ancore | de bază | cu exponent | capitole | `<sup>` | linii verify |
+|---|---:|---|---|---:|---:|---|
+| `L-149-2012` | **271** | 254, numerotate 1–254 fără lacune | 17: 48^1, 235^1–235^16 | 16 | 55 | PASS, 2.183 / 2.183 |
+| `L-160-2011` | **32** | 14, numerotate 1–14 fără lacune | 18: 4^1, 4^2, 6^1, 6^2, 11^1, 12^1–12^13 | 5 | 51 | PASS, 349 / 349 |
+| `L-131-2012` | **41** | 33, numerotate 1–33 fără lacune | 8: 3^1, 3^2, 5^1, 19^1, 29^1, 31^1, 31^2, 32^1 | 4 | 47 | PASS, 506 / 506 |
+
+Fără span ridicat prin CSS, fără CUPRINS, fără duplicate, fără forma `N^X/Y`, toate titlurile cu
+punct după număr. La `L-131-2012` titlul art. 1 se întinde pe două linii („Scopul, obiectul de
+reglementare / şi domeniul de aplicare a prezentei legi"), deci ancora ține doar prima jumătate;
+este cazul de titlu tăiat din „Outstanding work" 2 al `CLAUDE.md`, nu un defect nou. Legea
+insolvabilității are HTML de 1 MB, cel mai mare act de lege din corpus după coduri.
+
+O verificare prealabilă pe textul HTML cu etichetele scoase raportase lacune și duplicate în toate
+trei (de exemplu „max 23516" la insolvabilitate). Erau exponenți neresolvați lipiți de număr, adică
+exact clasa de eroare consemnată la `L-235-2006` (E): o lacună se confirmă pe ancorele scrise de
+extractor, nu pe text cu etichetele șterse. Ancorele nu au nicio lacună.
+
 ## D. Artefacte metodologice create
 
 | Artefact | Tip | Rol |

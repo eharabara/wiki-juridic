@@ -279,6 +279,32 @@ DOCS = {
     # "Titlul V1") vin din <sup> si se rezolva in ^1.
     'CONST-1994': {'doc_id': '145723',
                    'title': 'Constitutia Republicii Moldova din 29.07.1994 (republicata 2024)'},
+    # ---- Lotul A, corporativ, pasul 4 al planului din 2026-09-06. Toate gasite prin cautare in
+    # titlu fara diacritice si verificate pe pagina actului (istoric de versiuni, fisa).
+    # legis.md da denumirea "LEGE Nr. 149 din 29.06.2012 insolvabilităţii", fara "Legea" si fara
+    # "privind" (aceeasi trunchiere ca la L-1543-1998). 187 de rezultate la "insolvabilitatii";
+    # actul de baza este singurul rand LP149/2012. 152605 este cea mai noua din versiuni
+    # (2025-12-31, LP330/2025). HTML de 1 MB, cel mai mare act de lege din corpus dupa coduri.
+    # 55 etichete <sup>, fara span CSS, fara CUPRINS. In vigoare 13.03.2013, fara abrogare.
+    'L-149-2012': {'doc_id': '152605', 'title': 'Legea insolvabilitatii nr. 149/2012'},
+    # 15 rezultate; singurul rand LP160/2011. CONSOLIDARE VIITOARE 2029-01-01 (LP159 din 30.07.26,
+    # in vigoare 01.01.29), cu alte versiuni viitoare la 2027-01-23 si 2027-05-21 intre azi si ea.
+    # Ingerata ca L-1134-1997 (2028): cea mai noua consolidare, registrul in-force preia
+    # dispozitiile amanate. 51 etichete <sup>, fara span CSS, fara CUPRINS. In vigoare 01.01.2012.
+    'L-160-2011': {'doc_id': '156152',
+                   'title': 'Legea nr. 160/2011 privind reglementarea prin autorizare a '
+                            'activitatii de intreprinzator'},
+    # CAPCANA DE LISTA, gasita aici: rindul din rezultatele cautarii trimite la doc_id 152529
+    # (2025-12-31), dar pagina actului are doua consolidari mai noi, 149634@2026-07-31 si
+    # 151146@2026-08-28 (LP201 din 10.07.25, in vigoare 28.08.26). Cea in vigoare azi este
+    # 151146, cu doc_id MAI MIC decit cel vechi: numarul doc_id nu este cronologic. Deci doc_id-ul
+    # din lista NU este garantat cel curent; se citeste istoricul de versiuni de pe pagina.
+    # Denumirea in fisa: "LEGE Nr. 131 din 08.06.2012 privind controlul de stat" (trunchiata).
+    # 47 etichete <sup>, fara span CSS, fara CUPRINS. In vigoare 31.01.2012 (asa spune fisa,
+    # desi publicata 31.08.2012; de verificat pe text), fara abrogare.
+    'L-131-2012': {'doc_id': '151146',
+                   'title': 'Legea nr. 131/2012 privind controlul de stat asupra activitatii '
+                            'de intreprinzator'},
 }
 
 DATE_RE = re.compile(r'(\d{1,2})[.\-/](\d{1,2})[.\-/](\d{2,4})')

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-06 | Total pages: 96
+> Last updated: 2026-09-06 | Total pages: 99
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -38,9 +38,12 @@
 - [[L-1134-1997]] — Legea nr. 1134/1997 privind societățile pe acțiuni
 - [[L-114-2012]] — Legea nr. 114/2012 cu privire la serviciile de plată și moneda electronică (PSD2): text românesc, 131 de ancore; consolidare 2027-01-01, dată viitoare, o singură dispoziție afectată.
 - [[L-122-2008]] — Legea nr. 122/2008 privind birourile istoriilor de credit
+- [[L-131-2012]] — Legea controlului de stat asupra activității de întreprinzător: 41 de ancore, consolidare 2026-08-28 (doc_id 151146, nu cel din lista de căutare); principiile controlului, art. 3.
 - [[L-135-2007]] — Legea nr. 135/2007 privind societatile cu raspundere limitata: actul de baza pentru SRL, consolidare 2026-03-27, 83 de articole plus 10 cu exponent.
 - [[L-139-2007]] — Legea nr. 139/2007 privind asociațiile de economii și împrumut
+- [[L-149-2012]] — Legea insolvabilității: 271 de ancore (254 de bază fără lacune, 235^1–235^16), consolidare 2025-12-31; procedura colectivă, instanța de insolvabilitate.
 - [[L-1543-1998]] — Legea cadastrului bunurilor imobile: art. 40^4 alin. (1) face documentele de recepție condiție de înregistrare a construcției; consolidare viitoare 2027-01-01.
+- [[L-160-2011]] — Legea actelor permisive (reglementarea prin autorizare): 32 de ancore, consolidare 2029-01-01, dată viitoare, cu două trepte din 2027 fără marcaje; Nomenclatorul nu este în text.
 - [[L-160-2023]] — Legea nr. 160/2023 cu privire la garantarea depozitelor în bănci (DGSD): înlocuiește Legea 575/2003, abrogată; 58 de ancore, nemodificată.
 - [[L-171-2012]] — Legea nr. 171/2012 privind piața de capital
 - [[L-177-2025]] — Legea nr. 177/2025: interdicția opțiunilor binare și a marketingului de derivate cu levier; a introdus art. 4^1 în L-171-2012 și art. 245^13 în Codul penal.

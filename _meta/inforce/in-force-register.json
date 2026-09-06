@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-06T21:01:31",
+  "generated": "2026-09-06T21:11:13",
   "as_of": "2026-09-06",
-  "files_scanned": 386,
+  "files_scanned": 389,
   "provisions_not_yet_in_force": [
     {
       "file": "raw/papers/moldova-legal/COD-218-2008.md",
@@ -958,6 +958,23 @@
         1464
       ],
       "occurrences": 3
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-160-2011.md",
+      "instrument": "L-160-2011",
+      "article": "440",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2029-01-01",
+      "operation": "modificare",
+      "amending_act": "LP159 din 30.07.26",
+      "official_gazette": "MO407-409/02.09.26",
+      "context": "[Anexa nr.1 modificată prin LP159 din 30.07.26, MO407-409/02.09.26 art. 440; în vigoare 01.01.29]",
+      "lines": [
+        60,
+        551
+      ],
+      "occurrences": 2
     }
   ],
   "acts_with_future_consolidation": [
@@ -1043,6 +1060,15 @@
       "flagged_in_frontmatter": true
     },
     {
+      "instrument": "L-160-2011",
+      "file": "raw/papers/moldova-legal/L-160-2011.md",
+      "consolidation_date": "2029-01-01",
+      "doc_id": "156152",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
       "instrument": "L-171-2012",
       "file": "raw/papers/cnpf/L-171-2012.md",
       "consolidation_date": "2027-06-01",
@@ -1062,8 +1088,8 @@
     }
   ],
   "counts": {
-    "provisions": 54,
-    "acts": 11,
-    "future_consolidations": 11
+    "provisions": 55,
+    "acts": 12,
+    "future_consolidations": 12
   }
 }
