@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-06 | Total pages: 109
+> Last updated: 2026-09-06 | Total pages: 110
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -26,8 +26,9 @@
 - [[COD-985-2002]] — Codul penal: 388 de articole, fara lacune; consolidare 2026-12-02, data viitoare.
 - [[CONST-1994]] — Constituția Republicii Moldova, republicată 13.11.2024: 157 de ancore (143 de articole fără lacune, 6 cu exponent, I–VIII finale); titlul articolului stă pe linia de după ancoră; fără marcaje de modificare în text.
 - [[DCA-61-2024]] — Regulamentul privind conținuturile audiovizuale, act secundar al Consiliului Audiovizualului: pct. 90 interzice în comunicările comerciale produsele și serviciile interzise prin lege; structură pe puncte, fără ancore de articol.
-- [[HG-1170-2016]] — Hotărârea Guvernului nr. 1170/2016 privind transmiterea, schimbarea destinației și schimbul de terenuri; **abrogată de la 07.03.2025** prin HG553/2024 (fișa și textul consolidării 144537), succesorul neingerat
+- [[HG-1170-2016]] — Hotărârea Guvernului nr. 1170/2016 privind transmiterea, schimbarea destinației și schimbul de terenuri; **abrogată integral de la 07.03.2025** prin pct. 3 din HG 553/2024, verificat pe text
 - [[HG-1171-2018]] — Regulamentul privind armonizarea legislației Republicii Moldova cu legislația UE
+- [[HG-553-2024]] — Regulamentul schimbării destinației terenurilor agricole de calitate superioară și ale fondului forestier și apelor (HG 553/2024, în vigoare 07.03.2025, temei Codul funciar 22/2024): pct. 3 din hotărâre abrogă integral HG 1170/2016, fără tranzitorii; transmiterea și schimbul de terenuri rămân fără regulament; structură pe puncte, fără ancore.
 - [[HG-574-2024]] — Metodologia de analiză a impactului de reglementare (HG nr. 574/2024); abrogă HG 23/2019, actul încă citat de practică.
 - [[HG-582-2022]] — Regulamentul de demolare a construcțiilor neautorizate; împlinește art. 322 alin. (4) din Codul urbanismului, deși e adoptată pe temeiul art. 439^6 alin. (5) din Codul contravențional.
 - [[HG-743-2024]] — Regulamentul de atestare a specialiștilor în construcții (anexa nr. 1) sub Codul urbanismului; act în puncte, „pct. N” neancorat; consolidare viitoare 2026-12-30.

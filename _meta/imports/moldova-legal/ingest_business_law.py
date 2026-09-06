@@ -93,6 +93,19 @@ DOCS = {
     # ancorare la nivel de punct ar produce ancore duplicate. Ingerata cu zero ancore de
     # articol, ca HG-1170-2016 si HG-1171-2018. Consecinta de citare: o trimitere la
     # "pct. N din Metodologie" NU este ancorata. De ridicat cu Eugen.
+    # Adaugata 2026-09-06 seara, la cererea lui Eugen, ca sa se verifice intinderea abrogarii
+    # HG-1170-2016. Gasita prin cautare in titlu 'schimbarea destinatiei' (66 de rezultate), rindul
+    # HG553/2024 marcat 'Modificat'; pagina actului are doua versiuni, 144532@2025-03-07 si
+    # 150820@2025-10-18 (HG613/2025), cea din urma in vigoare azi, fara data de abrogare. Temei:
+    # art. 58 alin. (10) din Codul funciar nr. 22/2024, NEINGERAT. Pct. 3 din hotarire abroga
+    # HG 1170/2016 integral, 'cu modificarile ulterioare', fara dispozitii tranzitorii. Structura
+    # in PUNCTE: 4 in hotarire, apoi 1-24 cu 1^1, 1^2 in Regulament, numerotarea REPORNESTE, deci
+    # zero ancore de articol, ca HG-574-2024. 11 <sup>, fara span CSS, fara CUPRINS.
+    'HG-553-2024': {'doc_id': '150820',
+                    'title': 'Hotararea Guvernului nr. 553/2024 pentru aprobarea Regulamentului cu '
+                             'privire la schimbarea destinatiei terenurilor cu destinatie agricola de '
+                             'calitate superioara si a terenurilor destinate fondului forestier si '
+                             'fondului apelor'},
     'HG-574-2024': {'doc_id': '144682',
                     'title': 'Hotararea Guvernului nr. 574/2024 cu privire la aprobarea '
                              'Metodologiei de analiza a impactului de reglementare'},

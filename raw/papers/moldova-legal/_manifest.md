@@ -13,7 +13,7 @@
 
 | ID raw | doc_id | Titlu detectat | Pagină wiki | Consolidare / versiune locală | Observație |
 |---|---:|---|---|---|---|
-| `HG-1170-2016` | **144537** | HOTĂRÂRE Nr. 1170 din 25.10.2016 pentru aprobarea Regulamentului cu privire la modul de transmitere, schimbare a destinaţiei şi schimb de terenuri | [[HG-1170-2016]] | **2025-03-07** | tratată literal din solicitarea inițială; nu este regulamentul de armonizare UE; **abrogată de la 07.03.2025 prin HG553/2024**, constatare din 2026-09-06 pe fișa și textul consolidării 144537; HG553/2024 neingerat |
+| `HG-1170-2016` | **144537** | HOTĂRÂRE Nr. 1170 din 25.10.2016 pentru aprobarea Regulamentului cu privire la modul de transmitere, schimbare a destinaţiei şi schimb de terenuri | [[HG-1170-2016]] | **2025-03-07** | tratată literal din solicitarea inițială; nu este regulamentul de armonizare UE; **abrogată integral de la 07.03.2025 prin pct. 3 din HG553/2024**, verificat pe text (U.6); succesoarea `HG-553-2024` acoperă doar schimbarea destinației |
 
 ## C. Codul civil — sursă transversală de drept privat
 
@@ -1577,6 +1577,27 @@ legea de la inițiere. Legea 20/2026 este în vigoare din 01.04.2026 (art. 28 al
 a modificat deja Legea 131/2015 (vezi S.1, urmarea). Titluri tăiate pe două linii, cazul cunoscut:
 `L-325-2025` art. 1, 8, 11, 42, 44; `L-20-2026` art. 3, 6, 12, 13, 20. Anexele 1 și 2 ale
 Legii 325/2025 nu au fost citite.
+
+### U.6. `HG-553-2024`: întinderea abrogării HG 1170/2016, verificată pe text
+
+La cererea lui Eugen, după consemnarea abrogării de dimineață. Găsită prin căutare în titlu
+„schimbarea destinatiei" (66 de rezultate; „schimb de terenuri", 40 de rezultate, nu o conține,
+fiindcă titlul ei nu are cuvântul „schimb"); rândul HG553/2024, marcat „Modificat", trimite la
+150820, iar pagina actului are două versiuni, 144532@2025-03-07 și **150820@2025-10-18**
+(HG613/2025), cea din urmă în vigoare azi, fără dată de abrogare. Titlul complet: „pentru
+aprobarea Regulamentului cu privire la schimbarea destinației terenurilor cu destinație agricolă
+de calitate superioară și a terenurilor destinate fondului forestier și fondului apelor". Temei:
+art. 58 alin. (10) din **Codul funciar nr. 22/2024**, neingerat. 11 `<sup>`, fără span CSS, fără
+CUPRINS, integritate PASS pe 110 linii. Structură în **puncte** (4 în hotărâre, 1–24 cu 1^1 și 1^2
+în Regulament, numerotarea repornește), deci **zero ancore**, ca `HG-574-2024`; 15 marcaje, toate
+HG613/2025.
+
+Constatarea: **pct. 3 din hotărâre abrogă HG 1170/2016 integral**, „cu modificările ulterioare",
+fără nicio dispoziție tranzitorie; pct. 4 dă intrarea în vigoare la 7 martie 2025, data din fișa
+actului abrogat. Dar Regulamentul din 2024 acoperă numai schimbarea destinației, și numai pentru
+terenurile agricole de calitate superioară și cele ale fondului forestier și apelor; transmiterea
+și schimbul de terenuri, celelalte două obiecte ale regulamentului din 2016, nu apar în act. Deci
+abrogarea e totală ca act și parțială ca regim, iar lacuna următoare este Codul funciar 22/2024.
 
 ### U.5. Ce a rămas în afara acestei seri
 

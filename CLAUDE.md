@@ -91,9 +91,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-06 22:27 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-06 22:33 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-67 primary Moldovan acts, 29 EU acquis extracts, 284 BNM corpus documents.
+68 primary Moldovan acts, 29 EU acquis extracts, 284 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -113,6 +113,7 @@ Generated 2026-09-06 22:27 from the files themselves. Do not edit this section b
 | `DCA-61-2024` | 0 | 0 | 2024-05-05 | no article structure; **2.3 years old** |
 | `HG-1170-2016` | 0 | 0 | 2025-03-07 | no article structure |
 | `HG-1171-2018` | - | 0 | 2024-07-05 | numbered points (65), not articles; **2.2 years old** |
+| `HG-553-2024` | 0 | 0 | 2025-10-18 | no article structure |
 | `HG-574-2024` | 0 | 0 | 2024-08-23 | no article structure; **2.0 years old** |
 | `HG-582-2022` | 0 | 0 | 2026-03-01 | no article structure |
 | `HG-743-2024` | 0 | 0 | 2026-12-30 | no article structure; **consolidation dated in the future** |
