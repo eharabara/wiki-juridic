@@ -162,3 +162,41 @@ dacă `L-160-2011` se reingerează la versiunea în vigoare azi în loc de 2029.
 
 Plus commit-ul acestui raport. Fără push. Copiile din `legal-career/` nu au fost atinse;
 documentul 05 din proiect se actualizează după acest raport, cum spune secțiunea 5 a planului.
+
+## 7. Seara de 6 septembrie și ce rămâne în plan
+
+Cele cinci decizii din secțiunea 5 au fost luate și executate în aceeași seară (commit-uri
+`d0cfec5` … `2d70372`, toate cu push): HG-1170-2016 consemnat abrogat și verificat pe textul
+HG 553/2024; cele trei acte în urmă reîmprospătate; Legile 325/2025 și 20/2026 ingerate; Codul
+civil pe textul legis.md 150498; Legea 160/2011 la versiunea în vigoare azi. În plus, la cerere:
+HG 553/2024 și Codul funciar 22/2024, cu data intrării în vigoare lămurită din istoricul
+versiunilor. Jurnalul din `log.md` are intrările; manifestul moldova-legal, secțiunile C.7 și U.
+
+**Pus în plan de Eugen, 6 septembrie seara: consolidarea din 2027 a Codului fiscal.**
+
+- Act: `COD-1163-1997`, doc_id **152862 @ 2027-01-01** (LP187 din 10.07.25, MO379-380/18.07.25
+  art. 491), văzută în istoricul de versiuni la sondaj și la reîmprospătare. Textul deținut azi
+  este 138613 @ 2026-07-01 și rămâne cel în vigoare până la 31.12.2026.
+- De ce: singura lacună de azi care schimbă un răspuns fiscal peste patru luni; registrul
+  in-force nu poate vedea dispozițiile amânate ale unei consolidări neingerate.
+- Cum, fără să se piardă textul de azi: nu prin reîmprospătare, care ar înlocui 138613 cu 152862
+  și ar întoarce corpusul la situația din dimineața de 4 septembrie, când un act ținea textul
+  viitor în locul celui curent. Două căi de ales la execuție: (a) se ingerează 152862 sub un
+  identificator distinct, de exemplu `COD-1163-1997-2027`, ca text de comparație, cu `entities/`
+  care spune care versiune se aplică la ce dată, sau (b) se citește 152862 versiune contra
+  versiune prin `fetch` în pagina legis.md, fără descărcare, metoda din U.7, și se consemnează în
+  registrul in-force și pe pagina de entitate numai lista articolelor pe care LP187/2025 le
+  schimbă la 01.01.2027. Calea (b) este mai ieftină și nu pune un text viitor în `raw/`;
+  calea (a) e necesară dacă un răspuns trebuie să citeze textul din 2027 la nivel de alineat.
+- Când: înainte de decembrie 2026; după 01.01.2027, 152862 devine pur și simplu versiunea curentă
+  și se reîmprospătează cu `refresh_behind`.
+- Ce se verifică la execuție: dacă 152862 mai este capul istoricului sau au apărut consolidări
+  intermediare; câte marcaje `în vigoare 01.01.27` poartă; și dacă aceeași LP187/2025 atinge alte
+  acte din corpus (a atins Codul de procedură civilă la 01.01.2026, marcaj pierdut la
+  reîmprospătare).
+
+Celelalte lacune consemnate azi, fără termen: cele cinci consolidări viitoare ale Legii 160/2011;
+Legea 1308/1997 și Metodologia Parlamentului de la art. 60 din Codul funciar; actele ANIF de la
+pct. 20 din HG 553/2024; drept tranzitoriu pentru dosarele funciare din 7 martie – 1 aprilie 2025;
+corespondentul în 325/2025 al articolelor la care trimite art. 27 din Legea 20/2026;
+`COD-218-2008` cu două ancore de carte de câștigat; trei HTML-uri nefolosite în `Downloads`.
