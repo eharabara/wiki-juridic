@@ -259,6 +259,26 @@ DOCS = {
     # vigoare. De verificat in registrul in-force inainte de a cita orice articol de aici.
     'L-1543-1998': {'doc_id': '150226',
                     'title': 'Legea cadastrului bunurilor imobile nr. 1543/1998'},
+    # Adaugata 2026-09-06, pasul 3 al planului de extindere a perimetrului de drept intern.
+    # Nivelul 1 al ierarhiei surselor, absent din baza pana acum. PREFIX NOU: CONST-.
+    # Prefix legis.md CRM1/1994, tipul actului CONSTITUŢIA, autoritatea PARLAMENTUL.
+    # GASIT PRIN CAUTARE IN TITLU ("constitutia republicii moldova", fara diacritice): 234 de
+    # rezultate, aproape toate acte de modificare, avize si decizii ale Curtii; actul de baza
+    # este singurul rand cu prefixul CRM si sta pe ultima pagina, fiind cel mai vechi.
+    # Verificat pe pagina actului, nu din lista: doc_id 145723 este cea mai noua din 19 versiuni
+    # (145723@2024-11-13), REPUBLICATA 13.11.2024 (MO 466 art. 635), in vigoare din 19.08.1994,
+    # fara data de abrogare; ultima modificare Legea nr. 244 din 20.10.24, in vigoare 05.11.24.
+    # CAPCANA DE FISA: republicarea nu are randul MODIFICAT si nici "Versiune in vigoare din";
+    # antetul spune "Modificată şi completată prin legile Republicii Moldova:" urmat de lista.
+    # extract_doc cade pe rindul "Data modificarii" din fisa, deci consolidation_date iese
+    # 2024-11-05 (intrarea in vigoare a LP244/2024), nu 2024-11-13 (data republicarii).
+    # Verificat pe HTML inainte de rulare: 11 etichete <sup>, niciun span ridicat prin CSS,
+    # fara CUPRINS. Structura pe articole: 143 numerotate, plus dispozitiile finale si
+    # tranzitorii numerotate cu cifre romane (Articolul I - VIII), pe care regexul de ancorare
+    # le prinde ca la L-177-2025 si L-178-2020. Titluri cu exponent ("Capitolul III1",
+    # "Titlul V1") vin din <sup> si se rezolva in ^1.
+    'CONST-1994': {'doc_id': '145723',
+                   'title': 'Constitutia Republicii Moldova din 29.07.1994 (republicata 2024)'},
 }
 
 DATE_RE = re.compile(r'(\d{1,2})[.\-/](\d{1,2})[.\-/](\d{2,4})')
@@ -436,7 +456,16 @@ def extract_doc(data):
         in_toc = toc_from <= i <= toc_to
         if in_toc:
             md_lines.append(l)
-        elif re.match(r'^TITLUL\s+', l) or re.match(r'^Titlul\s+', l):
+        elif re.match(r'^(TITLUL|Titlul)\s+[IVXLCDM]+(\^\d+)?\b(?![,])', l):
+            # \b inainte de lookahead este obligatoriu: fara el, "Titlul VII," trece, fiindca
+            # [IVXLCDM]+ da inapoi la "VI" si urmatorul caracter este "I", nu virgula.
+            # Corectie 2026-09-06, la ingerarea CONST-1994. Art. VIII din dispozitiile finale ale
+            # Constitutiei are ca text intreg fraza "Titlul VII, Dispoziţii finale şi tranzitorii,
+            # se consideră parte integrantă a prezentei Constituţii...". Regula veche, orice linie
+            # care incepe cu "Titlul ", o lua drept titlu de structura: articolul aparea gol si
+            # textul lui aparea ca ancora "## Titlul VII, ...". Textul nu era atins, structura era
+            # falsa. Regula noua cere un numeral roman dupa "Titlul" si refuza virgula imediat dupa
+            # el: un titlu de structura nu continua cu virgula, o trimitere in fraza da.
             md_lines += ['', f"## {l}"]
         elif re.match(r'^Capitolul\s+', l, flags=re.I):
             md_lines += ['', f"## {l}"]

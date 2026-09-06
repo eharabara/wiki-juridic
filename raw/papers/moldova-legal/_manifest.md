@@ -1188,6 +1188,83 @@ Verificată cu `verify_business_law.py`: **integritate de text PASS, 1.038 de li
    autorizația la înregistrare — registratorul, ori comisia de recepție înaintea lui — nu este
    împărțit de niciun text. `[de verificat]`
 
+## Q. Constituția Republicii Moldova — CONST-1994 (ingerată 2026-09-06)
+
+Pasul 3 al planului `_meta/plans/2026-09-06-plan-extindere-perimetru-domestic.md`: nivelul 1 al
+ierarhiei surselor, absent din bază până acum. **Prefix nou `CONST-`**, consemnat aici la momentul
+ingerării. Pagina wiki: [[CONST-1994]].
+
+| ID raw | doc_id | Titlu detectat | Pagină wiki | Consolidare / versiune locală | Rol operațional |
+|---|---:|---|---|---|---|
+| `CONST-1994` | **145723** | CONSTITUŢIA Nr. 1 din 29.07.1994 CONSTITUŢIA REPUBLICII MOLDOVA* (republicată) | [[CONST-1994]] | **2024-11-05** (LP244/2024); versiunea legis.md este datată 2024-11-13, data republicării | legea supremă; ierarhia actelor (art. 72, 76, 102), accesul la justiție (art. 20), instanțele (art. 114–116), Curtea Constituțională (art. 134–140), revizuirea (art. 141–143) |
+
+### Q.1. Cum a fost găsită și verificată
+
+Căutare în titlu, fără diacritice, `search_string=constitutia republicii moldova&search_type=1`:
+**234 de rezultate pe 12 pagini**, sortate descrescător după dată, aproape toate legi de modificare,
+avize și decizii ale Curții Constituționale, hotărâri de Guvern de aprobare a proiectelor. Actul de
+bază este **singurul rând cu prefixul CRM** (`CRM1/1994`) și stă pe ultima pagină, fiind cel mai
+vechi. Lista de rezultate este randată de client și ține toate cele 234 de rânduri în DOM, deci
+filtrarea s-a făcut pe pagină, nu prin paginare.
+
+Verificat pe pagina actului (`showdetails/145723`), nu din listă: tipul CONSTITUŢIA, autoritatea
+PARLAMENTUL, adoptată 29.07.1994, **republicată 13.11.2024 în MO nr. 466 art. 635**, „Data
+abrogării: -", istoric de **19 versiuni** din care 145723 este cea mai nouă (145723@2024-11-13;
+anterioare 145630@2024-11-05, 142462@2024-03-11, 136130@2023-03-24, 128016@2022-04-01,
+111918@2019-01-14, 99183@2017-05-19, 96446@2016-11-29, 91571@2016-03-29 ...).
+
+HTML-ul a fost adus prin `fetch` same-origin din pagina deschisă în Chrome, după ce Eugen a trecut
+verificarea Cloudflare, și descărcat ca blob cu acordul lui explicit (octeții serverului, nu DOM-ul
+serializat). Pus în `_meta/imports/moldova-legal/legis-md-business/showdetails-145723.html`,
+280.116 octeți; `ingest_business_law.py` l-a luat din cache.
+
+### Q.2. Structură și integritate
+
+**157 de ancore**: 143 de articole de bază, **numerotate 1–143 fără nicio lacună** — arts. 82 și
+83 sunt prezente ca stub, `Articolul 82 - abrogat.` și `Articolul 83 - abrogat.` —, 6 cu exponent
+(**59^1, 106^1, 106^2, 121^1, 125^1, 140^1**, care se potrivesc exact cu sursa) și **8 articole cu
+cifre romane, I–VIII**, dispozițiile finale și tranzitorii, prinse de regexul de ancorare la fel
+ca la `L-177-2025` și `L-178-2020`. 8 titluri (I–VII și V^1), capitole (inclusiv III^1, Avocatul
+Poporului), secțiuni. 11 etichete `<sup>` rezolvate; fără span ridicat prin CSS; fără CUPRINS.
+
+Verificată cu `verify_business_law.py`: **integritate de text PASS, 883 de linii scrise față de
+883 de referință**, deci s-au adăugat numai ancore; fără duplicate, fără lacune, frontmatter complet.
+
+### Q.3. Trei particularități de sursă, de știut înainte de a cita
+
+1. **Titlul articolului stă pe linia următoare ancorei.** Sursa scrie `Articolul 76` și, pe rândul
+   de sub el, `Intrarea în vigoare a legii`. Ancorele sunt deci `## Articolul N` fără titlu, la toate
+   cele 143 de articole (verify raportează „fara punct dupa numar" pentru fiecare, ceea ce este
+   corect, nu un defect). La art. 8 și art. 54 titlul se întinde pe două linii. O căutare după
+   titlu trebuie să citească linia de după ancoră.
+2. **Niciun marcaj de modificare în text.** Zero linii `[Art.N ... prin LP...]`: republicarea le-a
+   eliminat pe toate. Istoricul stă doar în fișă, 17 intrări: LP244/2024, HCC8/2024, LP52/2023,
+   LP120/2021, LP255/2018, LP70/2017, LP256/2016, republicarea din 29.03.2016, HCC7/2016,
+   LP185-XVI/2006, LP344-XV/2003, LP1471-XV, LP1470-XV, LP1469-XV/2002, LP351-XV/2001,
+   LP1115-XIV/2000, LP957-XIII/1996. Două dintre ele sunt **hotărâri ale Curții Constituționale**.
+   Este mecanismul 2 din întrebarea deschisă 3 a `CLAUDE.md`, pe tot actul.
+3. **Data intrării în vigoare din fișă (19.08.1994) contrazice textul (27.08.1994).** Art. I
+   alin. (2): „Constituţia Republicii Moldova intră în vigoare la 27 august 1994." Textul are
+   prioritate. Aceeași clasă de capcană ca la `COD-434-2023` art. 390 (secțiunea O).
+
+Consolidarea este derivată din rândul „Data modificării" al fișei, fiindcă republicarea nu are nici
+rândul MODIFICAT, nici „Versiune în vigoare din"; antetul spune „Modificată şi completată prin
+legile Republicii Moldova:" urmat de listă. Rezultă **2024-11-05** (intrarea în vigoare a LP244),
+nu 2024-11-13 (data republicării). Ambele sunt trecute.
+
+### Q.4. Corecție de metodă făcută cu această ocazie
+
+Art. VIII din dispozițiile finale are ca text întreg fraza „Titlul VII, Dispoziţii finale şi
+tranzitorii, se consideră parte integrantă a prezentei Constituţii şi reglementează problemele ce
+ţin de intrarea ei în vigoare." Regula veche de ancorare a titlurilor, orice linie care începe cu
+`Titlul `, a luat-o drept titlu de structură: **art. VIII apărea gol, iar textul lui apărea ca
+`## Titlul VII, ...`**. Textul nu era atins (verify PASS), structura era falsă. Regula din
+`ingest_business_law.py` cere acum un numeral roman după `Titlul` urmat de graniță de cuvânt și
+refuză virgula imediat după el; prima variantă fără `\b` lăsa regexul să dea înapoi de la „VII" la
+„VI" și tot trecea. Reingerat; 8 titluri reale, art. VIII cu textul lui. Regresie: nicio ancoră
+`## Titlul`/`## TITLUL` existentă în `moldova-legal/` sau `cnpf/` nu ar fi pierdută de regula nouă
+(verificat prin grep pe toate fișierele brute).
+
 ## D. Artefacte metodologice create
 
 | Artefact | Tip | Rol |

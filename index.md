@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-05 | Total pages: 95
+> Last updated: 2026-09-06 | Total pages: 96
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -24,6 +24,7 @@
 - [[COD-443-2004]] — Codul de executare: faza de dupa hotararea definitiva; numerotare 1-325 completa.
 - [[COD-95-2021]] — Codul vamal: cel mai nou dintre coduri, consolidare 2026-09-01.
 - [[COD-985-2002]] — Codul penal: 388 de articole, fara lacune; consolidare 2026-12-02, data viitoare.
+- [[CONST-1994]] — Constituția Republicii Moldova, republicată 13.11.2024: 157 de ancore (143 de articole fără lacune, 6 cu exponent, I–VIII finale); titlul articolului stă pe linia de după ancoră; fără marcaje de modificare în text.
 - [[DCA-61-2024]] — Regulamentul privind conținuturile audiovizuale, act secundar al Consiliului Audiovizualului: pct. 90 interzice în comunicările comerciale produsele și serviciile interzise prin lege; structură pe puncte, fără ancore de articol.
 - [[HG-1170-2016]] — Hotărârea Guvernului nr. 1170/2016 privind transmiterea, schimbarea destinației și schimbul de terenuri
 - [[HG-1171-2018]] — Regulamentul privind armonizarea legislației Republicii Moldova cu legislația UE
