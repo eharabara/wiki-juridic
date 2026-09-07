@@ -18,6 +18,13 @@ Registrul semnaleaza situatia si indica arhiva consolidarii anterioare, cu
 avertismentul ca aceea este o consolidare mai veche, nu neaparat versiunea in
 vigoare astazi.
 
+Consolidari viitoare neingerate (2026-09-07). Cind legis.md publica deja o
+consolidare cu data in viitor, iar wiki-ul tine, dinadins, textul in vigoare
+astazi, nimic din raw/ nu poarta marcajele acelei consolidari. Lista lor se
+tine de mina in _meta/inforce/pending-consolidations.json, cu articolele citite
+versiune contra versiune pe legis.md, si este redata ca sectiune separata.
+Scriptul nu o verifica pe legis.md; data verificarii sta in fisier.
+
 Utilizare:
     python build_inforce_register.py --dry-run     # nu scrie nimic, doar raporteaza
     python build_inforce_register.py               # scrie registrul
@@ -43,6 +50,7 @@ DEFAULT_ROOT = Path(__file__).resolve().parents[2]
 OUT_SUBDIR = Path("_meta") / "inforce"
 REGISTER_MD = "in-force-register.md"
 REGISTER_JSON = "in-force-register.json"
+PENDING_JSON = "pending-consolidations.json"  # intrare scrisa de mina, vezi docstring
 
 # --------------------------------------------------------------------------
 # Tipare. Corpusul foloseste doua codificari de diacritice si ambele forme
@@ -228,6 +236,39 @@ def article_sort_key(a: str | None):
     return (int(base), int(sup) if sup else 0)
 
 
+def load_pending(path: Path, as_of: _dt.date) -> list[dict]:
+    """Consolidarile viitoare neingerate, din fisierul scris de mina. O consolidare a
+    carei data a trecut nu mai este "pending": ea trebuie reimprospatata, deci este
+    lasata deoparte aici si semnalata la iesire."""
+    if not path.exists():
+        return []
+    data = json.loads(path.read_text(encoding="utf-8"))
+    out: list[dict] = []
+    for c in data.get("consolidations", []):
+        cd = _dt.date.fromisoformat(c["consolidation_date"])
+        if cd <= as_of:
+            print(f"ATENTIE: {c['instrument']} {c['doc_id']}@{c['consolidation_date']} a intrat "
+                  f"in vigoare; nu mai este viitoare, trebuie reimprospatata", file=sys.stderr)
+            continue
+        provs = [p for p in c.get("provisions", [])
+                 if _dt.date.fromisoformat(p["effective_from"]) > as_of]
+        provs.sort(key=lambda x: article_sort_key(x["article"]))
+        item = dict(c)
+        item["provisions"] = provs
+        out.append(item)
+    out.sort(key=lambda x: (x["consolidation_date"], x["instrument"]))
+    return out
+
+
+STATE_TODAY = {
+    "abrogare": "inca in vigoare",
+    "modificare": "se aplica textul anterior",
+    "completare": "completarea nu se aplica",
+    "introducere": "dispozitia nu se aplica",
+    "reformulare": "se aplica textul anterior",
+}
+
+
 def build(root: Path, as_of: _dt.date) -> dict:
     rawdir = root / "raw"
     if not rawdir.is_dir():
@@ -270,16 +311,21 @@ def build(root: Path, as_of: _dt.date) -> dict:
     provisions.sort(key=lambda x: (x["effective_from"], x["instrument"], article_sort_key(x["article"])))
     future_acts.sort(key=lambda x: x["instrument"])
 
+    pending = load_pending(root / OUT_SUBDIR / PENDING_JSON, as_of)
+
     return {
         "generated": _dt.datetime.now().isoformat(timespec="seconds"),
         "as_of": as_of.isoformat(),
         "files_scanned": scanned,
         "provisions_not_yet_in_force": provisions,
         "acts_with_future_consolidation": future_acts,
+        "pending_consolidations": pending,
         "counts": {
             "provisions": len(provisions),
             "acts": len({p["instrument"] for p in provisions}),
             "future_consolidations": len(future_acts),
+            "pending_consolidations": len(pending),
+            "pending_provisions": sum(len(c["provisions"]) for c in pending),
         },
     }
 
@@ -305,7 +351,9 @@ def render_md(data: dict) -> str:
         f"Stare la {data['as_of']}. {data['files_scanned']} fisiere scanate. "
         f"{data['counts']['provisions']} dispozitii afectate in "
         f"{data['counts']['acts']} act(e). "
-        f"{data['counts']['future_consolidations']} consolidare/consolidari cu data in viitor."
+        f"{data['counts']['future_consolidations']} consolidare/consolidari cu data in viitor. "
+        f"{data['counts']['pending_consolidations']} consolidare/consolidari viitoare neingerate, "
+        f"{data['counts']['pending_provisions']} dispozitii."
     )
     A("")
     A("## Regula de citare")
@@ -361,6 +409,42 @@ def render_md(data: dict) -> str:
                 f"| `{a['previous_archive'] or '-'}` |"
             )
     A("")
+    A("## Consolidari viitoare neingerate")
+    A("")
+    if not data.get("pending_consolidations"):
+        A("Niciuna consemnata. Lista se tine in `_meta/inforce/pending-consolidations.json`.")
+    else:
+        A(
+            "Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar "
+            "legis.md a publicat deja consolidarea viitoare. Marcajele ei nu exista in raw/, deci "
+            "scanarea nu le poate vedea. Articolele de mai jos au fost citite versiune contra "
+            "versiune pe legis.md, fara descarcare, la data din coloana \"Verificat\". Textul din "
+            "wiki este cel care se aplica astazi; de la data indicata se aplica textul consolidarii "
+            "neingerate, care trebuie citit pe legis.md sau ingerat sub identificator distinct. "
+            "Cind data trece, actul se reimprospateaza si rindul se sterge din fisierul de intrare."
+        )
+        A("")
+        A("| Act | Consolidare neingerata | Text detinut | Act modificator | Verificat | Metoda |")
+        A("|---|---|---|---|---|---|")
+        for c in data["pending_consolidations"]:
+            A(
+                f"| {c['instrument']} | {c['doc_id']} @ {c['consolidation_date']} "
+                f"| {c['held_doc_id']} @ {c['held_consolidation_date']} "
+                f"| {c['amending_act']}, {c.get('official_gazette', '-')} "
+                f"| {c['verified']} | {c['method']} |"
+            )
+        A("")
+        A("| Act | Articol | Operatiune | Produce efecte de la | Act modificator | Stare astazi | Ce se schimba |")
+        A("|---|---|---|---|---|---|---|")
+        for c in data["pending_consolidations"]:
+            for p in c["provisions"]:
+                art = p["article"] + (" " + p["subunit"] if p.get("subunit") else "")
+                A(
+                    f"| {c['instrument']} | {art} | {p['operation']} | {p['effective_from']} "
+                    f"| {c['amending_act']} | {STATE_TODAY.get(p['operation'], 'de verificat')} "
+                    f"| {p.get('summary', '')} |"
+                )
+    A("")
     A("## Unde a fost gasit fiecare marcaj")
     A("")
     for p in data["provisions_not_yet_in_force"]:
@@ -398,6 +482,10 @@ def main() -> int:
     )
     for p in data["provisions_not_yet_in_force"]:
         print(f"  {p['instrument']} art. {p['article']}  {p['operation']}  de la {p['effective_from']}")
+    for c in data.get("pending_consolidations", []):
+        for p in c["provisions"]:
+            print(f"  [neingerat {c['doc_id']}] {c['instrument']} art. {p['article']} "
+                  f"{p.get('subunit','')}  {p['operation']}  de la {p['effective_from']}")
 
     if args.check:
         cur_md = (outdir / REGISTER_MD)

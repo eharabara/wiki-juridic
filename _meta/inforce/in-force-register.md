@@ -1,7 +1,7 @@
 ---
 title: Registrul dispozitiilor care nu sint inca in vigoare
-generated: '2026-09-06T23:02:22'
-as_of: '2026-09-06'
+generated: '2026-09-07T12:03:39'
+as_of: '2026-09-07'
 type: summary
 tags: [moldova, legal-source, methodology, summary]
 confidence: high
@@ -12,7 +12,7 @@ generated_by: _meta/inforce/build_inforce_register.py
 
 **Fisier generat. Nu se editeaza manual.** Se reface rulind scriptul din frontmatter.
 
-Stare la 2026-09-06. 401 fisiere scanate. 73 dispozitii afectate in 12 act(e). 13 consolidare/consolidari cu data in viitor.
+Stare la 2026-09-07. 401 fisiere scanate. 73 dispozitii afectate in 12 act(e). 13 consolidare/consolidari cu data in viitor. 1 consolidare/consolidari viitoare neingerate, 5 dispozitii.
 
 ## Regula de citare
 
@@ -115,6 +115,22 @@ Fisierul incorporeaza modificari care nu au intrat in vigoare. Arhiva indicata e
 | L-171-2012 | 2027-06-01 | da | 2021-01-01 | `_archive/raw/cnpf-legis-md-before-refresh-20260904-162713/L-171-2012.md` |
 | L-325-2025 | 2027-01-01 | da | - | `-` |
 | L-845-1992 | 2027-01-01 | da | - | `-` |
+
+## Consolidari viitoare neingerate
+
+Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar legis.md a publicat deja consolidarea viitoare. Marcajele ei nu exista in raw/, deci scanarea nu le poate vedea. Articolele de mai jos au fost citite versiune contra versiune pe legis.md, fara descarcare, la data din coloana "Verificat". Textul din wiki este cel care se aplica astazi; de la data indicata se aplica textul consolidarii neingerate, care trebuie citit pe legis.md sau ingerat sub identificator distinct. Cind data trece, actul se reimprospateaza si rindul se sterge din fisierul de intrare.
+
+| Act | Consolidare neingerata | Text detinut | Act modificator | Verificat | Metoda |
+|---|---|---|---|---|---|
+| COD-1163-1997 | 152862 @ 2027-01-01 | 138613 @ 2026-07-01 | LP187 din 10.07.25, MO379-380/18.07.25 art.491 | 2026-09-07 | capul istoricului confirmat pe pagina actului; 152862 si 138613 citite prin fetch fara descarcare, comparate alineat cu alineat; 5 marcaje 'in vigoare 01.01.27', toate LP187/2025 |
+
+| Act | Articol | Operatiune | Produce efecte de la | Act modificator | Stare astazi | Ce se schimba |
+|---|---|---|---|---|---|---|
+| COD-1163-1997 | 131 alin. (1^1) | reformulare | 2027-01-01 | LP187 din 10.07.25 | se aplica textul anterior | comunicarea SFS cu contribuabilii de la art. 187 alin. (2^1) se face si prin portalul guvernamental al unitatilor de drept; documentele remise pe acel portal se considera receptionate din ziua lucratoare urmatoare (marcajul scrie 'al.(11)', adica alin. (1^1)) |
+| COD-1163-1997 | 342 alin. (1) | abrogare | 2027-01-01 | LP187 din 10.07.25 | inca in vigoare | dispare obligatia persoanelor juridice si a intreprinzatorilor de a prezenta darea de seama privind taxa pentru folosirea drumurilor |
+| COD-1163-1997 | 342 alin. (1^1) | abrogare | 2027-01-01 | LP187 din 10.07.25 | inca in vigoare | dispare cerinta raportarii electronice obligatorii a acestei dari de seama |
+| COD-1163-1997 | 342 alin. (2) | abrogare | 2027-01-01 | LP187 din 10.07.25 | inca in vigoare | dispar termenele de 25 ianuarie (dare de seama anuala) si 25 martie (darea de seama unificata a II si GT); alin. (3) si (4), evidenta ASP, ramin |
+| COD-1163-1997 | 342^1 alin. (3) | modificare | 2027-01-01 | LP187 din 10.07.25 | se aplica textul anterior | din 'calculul, raportarea si achitarea taxei' ramine 'calculul si achitarea', consecinta abrogarii raportarii; alin. (2) difera doar prin diacritice (t-sedila / t-virgula), fara schimbare de fond |
 
 ## Unde a fost gasit fiecare marcaj
 

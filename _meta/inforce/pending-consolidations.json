@@ -1,0 +1,53 @@
+{
+  "_note": "Consolidari viitoare publicate pe legis.md si NEingerate dinadins, ca wiki-ul sa tina textul in vigoare astazi. Scris de mina. Citit de build_inforce_register.py si redat in sectiunea 'Consolidari viitoare neingerate' a registrului. Cind consolidation_date trece, actul se reimprospateaza (refresh_behind) si intrarea se sterge de aici. Articolele se stabilesc citind versiunea pe legis.md prin fetch in pagina, versiune contra versiune, fara descarcare (memoria legis-md-fetch-route; manifest moldova-legal U.7 si U.8).",
+  "consolidations": [
+    {
+      "instrument": "COD-1163-1997",
+      "doc_id": "152862",
+      "consolidation_date": "2027-01-01",
+      "held_doc_id": "138613",
+      "held_consolidation_date": "2026-07-01",
+      "amending_act": "LP187 din 10.07.25",
+      "official_gazette": "MO379-380/18.07.25 art.491",
+      "verified": "2026-09-07",
+      "method": "capul istoricului confirmat pe pagina actului; 152862 si 138613 citite prin fetch fara descarcare, comparate alineat cu alineat; 5 marcaje 'in vigoare 01.01.27', toate LP187/2025",
+      "provisions": [
+        {
+          "article": "131",
+          "subunit": "alin. (1^1)",
+          "operation": "reformulare",
+          "effective_from": "2027-01-01",
+          "summary": "comunicarea SFS cu contribuabilii de la art. 187 alin. (2^1) se face si prin portalul guvernamental al unitatilor de drept; documentele remise pe acel portal se considera receptionate din ziua lucratoare urmatoare (marcajul scrie 'al.(11)', adica alin. (1^1))"
+        },
+        {
+          "article": "342",
+          "subunit": "alin. (1)",
+          "operation": "abrogare",
+          "effective_from": "2027-01-01",
+          "summary": "dispare obligatia persoanelor juridice si a intreprinzatorilor de a prezenta darea de seama privind taxa pentru folosirea drumurilor"
+        },
+        {
+          "article": "342",
+          "subunit": "alin. (1^1)",
+          "operation": "abrogare",
+          "effective_from": "2027-01-01",
+          "summary": "dispare cerinta raportarii electronice obligatorii a acestei dari de seama"
+        },
+        {
+          "article": "342",
+          "subunit": "alin. (2)",
+          "operation": "abrogare",
+          "effective_from": "2027-01-01",
+          "summary": "dispar termenele de 25 ianuarie (dare de seama anuala) si 25 martie (darea de seama unificata a II si GT); alin. (3) si (4), evidenta ASP, ramin"
+        },
+        {
+          "article": "342^1",
+          "subunit": "alin. (3)",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "din 'calculul, raportarea si achitarea taxei' ramine 'calculul si achitarea', consecinta abrogarii raportarii; alin. (2) difera doar prin diacritice (t-sedila / t-virgula), fara schimbare de fond"
+        }
+      ]
+    }
+  ]
+}

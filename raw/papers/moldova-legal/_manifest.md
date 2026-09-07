@@ -1627,6 +1627,24 @@ abrogarea HG 1170/2016 (U.6), sunt direct în **art. 16** (transmiterea la alin.
 la alin. (6)–(8), cu echivalența valorii de piață la alin. (7)); schimbarea destinației este în
 art. 58–60, cu delegarea din art. 58 alin. (10) împlinită de `HG-553-2024`.
 
+### U.8. `COD-1163-1997`, consolidarea 152862 @ 2027-01-01, verificată fără ingerare (2026-09-07)
+
+Executarea punctului din raportul de execuție, secțiunea 7, pe calea (b). Pe pagina actului, lista
+`a[onclick*="showDetails"]` dă 152862 @ 01-01-2027 drept cap al istoricului, urmat direct de 138613 @
+01-07-2026, textul deținut; nicio consolidare intermediară de la sondajul din 6 septembrie. 152862 și
+138613 citite prin `fetch` în pagină, fără descărcare, metoda din U.7, cu articolele extrase din
+`innerText` prin ultima apariție a antetului (prima apariție este în CUPRINS) și comparate alineat cu
+alineat. **Cinci marcaje „în vigoare 01.01.27”, toate LP187 din 10.07.25**: art. 131 alin. (1^1) în
+redacție nouă (portalul guvernamental al unităților de drept ca al doilea canal de comunicare al SFS,
+recepție prezumată din ziua lucrătoare următoare), art. 342 alin. (1), (1^1) și (2) abrogate (darea de
+seamă privind taxa pentru folosirea drumurilor), art. 342^1 alin. (3) modificat („raportarea” eliminată).
+Marcajele scriu `al.(11)` pentru alin. (1^1). LP187/2025 apare în fișele a șase acte deținute doar cu
+trepte în vigoare azi; treapta din 2027 este numai în Codul fiscal.
+
+Consemnat în `_meta/inforce/pending-consolidations.json`, fișier scris de mână pe care
+`build_inforce_register.py` îl redă de acum ca secțiune separată, „Consolidări viitoare neingerate”;
+scriptul refuză intrarea și avertizează când data ei a trecut. Nimic din `raw/` nu s-a atins.
+
 ### U.5. Ce a rămas în afara acestei seri
 
 - `COD-218-2008` ar câștiga două ancore de carte cu regula nouă din extractor; neaplicat.

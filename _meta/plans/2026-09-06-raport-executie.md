@@ -194,6 +194,11 @@ versiunilor. Jurnalul din `log.md` are intrările; manifestul moldova-legal, sec
   intermediare; câte marcaje `în vigoare 01.01.27` poartă; și dacă aceeași LP187/2025 atinge alte
   acte din corpus (a atins Codul de procedură civilă la 01.01.2026, marcaj pierdut la
   reîmprospătare).
+- **Executat 2026-09-07, calea (b).** 152862 rămâne capul istoricului; cinci marcaje, trei articole
+  (131 alin. (1^1), 342 alin. (1)-(2), 342^1 alin. (3)); LP187/2025 nu are altă treaptă din 2027 în
+  corpus. Consemnat în `_meta/inforce/pending-consolidations.json`, redat de registrul in-force în
+  secțiunea nouă „Consolidări viitoare neingerate”, pe `entities/COD-1163-1997.md` și în manifestul
+  moldova-legal U.8. Rămâne: reîmprospătarea cu `refresh_behind` după 01.01.2027 și ștergerea rândului.
 
 Celelalte lacune consemnate azi, fără termen: cele cinci consolidări viitoare ale Legii 160/2011;
 Legea 1308/1997 și Metodologia Parlamentului de la art. 60 din Codul funciar; actele ANIF de la
