@@ -1,6 +1,6 @@
 ---
 title: Registrul dispozitiilor care nu sint inca in vigoare
-generated: '2026-09-07T12:03:39'
+generated: '2026-09-07T12:18:53'
 as_of: '2026-09-07'
 type: summary
 tags: [moldova, legal-source, methodology, summary]
@@ -12,7 +12,7 @@ generated_by: _meta/inforce/build_inforce_register.py
 
 **Fisier generat. Nu se editeaza manual.** Se reface rulind scriptul din frontmatter.
 
-Stare la 2026-09-07. 401 fisiere scanate. 73 dispozitii afectate in 12 act(e). 13 consolidare/consolidari cu data in viitor. 1 consolidare/consolidari viitoare neingerate, 5 dispozitii.
+Stare la 2026-09-07. 401 fisiere scanate. 73 dispozitii afectate in 12 act(e). 13 consolidare/consolidari cu data in viitor. 6 consolidare/consolidari viitoare neingerate, 10 dispozitii.
 
 ## Regula de citare
 
@@ -122,15 +122,25 @@ Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar
 
 | Act | Consolidare neingerata | Text detinut | Act modificator | Verificat | Metoda |
 |---|---|---|---|---|---|
+| L-160-2011 | 149496 @ 2026-12-28 | 151257 @ 2026-08-29 | LP136 din 13.06.25, MO340-342/28.06.25 art.387 | 2026-09-07 | sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei |
 | COD-1163-1997 | 152862 @ 2027-01-01 | 138613 @ 2026-07-01 | LP187 din 10.07.25, MO379-380/18.07.25 art.491 | 2026-09-07 | capul istoricului confirmat pe pagina actului; 152862 si 138613 citite prin fetch fara descarcare, comparate alineat cu alineat; 5 marcaje 'in vigoare 01.01.27', toate LP187/2025 |
+| L-160-2011 | 150231 @ 2027-01-01 | 151257 @ 2026-08-29 | LP176 din 03.07.25, MO409-412/31.07.25 art.549 | 2026-09-07 | sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei |
+| L-160-2011 | 154051 @ 2027-01-23 | 151257 @ 2026-08-29 | LP40 din 26.03.26, MO176-179/23.04.26 art.139 | 2026-09-07 | sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei |
+| L-160-2011 | 154478 @ 2027-05-21 | 151257 @ 2026-08-29 | LP71 din 30.04.26, MO213-216/21.05.26 art.202 | 2026-09-07 | sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei |
+| L-160-2011 | 156152 @ 2029-01-01 | 151257 @ 2026-08-29 | LP159 din 30.07.26, MO407-409/02.09.26 art. 440 | 2026-09-07 | sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei |
 
 | Act | Articol | Operatiune | Produce efecte de la | Act modificator | Stare astazi | Ce se schimba |
 |---|---|---|---|---|---|---|
+| L-160-2011 | anexa nr. 1 | modificare | 2026-12-28 | LP136 din 13.06.25 | se aplica textul anterior | Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. fara marcaj in text; doar rindul din fisa |
 | COD-1163-1997 | 131 alin. (1^1) | reformulare | 2027-01-01 | LP187 din 10.07.25 | se aplica textul anterior | comunicarea SFS cu contribuabilii de la art. 187 alin. (2^1) se face si prin portalul guvernamental al unitatilor de drept; documentele remise pe acel portal se considera receptionate din ziua lucratoare urmatoare (marcajul scrie 'al.(11)', adica alin. (1^1)) |
 | COD-1163-1997 | 342 alin. (1) | abrogare | 2027-01-01 | LP187 din 10.07.25 | inca in vigoare | dispare obligatia persoanelor juridice si a intreprinzatorilor de a prezenta darea de seama privind taxa pentru folosirea drumurilor |
 | COD-1163-1997 | 342 alin. (1^1) | abrogare | 2027-01-01 | LP187 din 10.07.25 | inca in vigoare | dispare cerinta raportarii electronice obligatorii a acestei dari de seama |
 | COD-1163-1997 | 342 alin. (2) | abrogare | 2027-01-01 | LP187 din 10.07.25 | inca in vigoare | dispar termenele de 25 ianuarie (dare de seama anuala) si 25 martie (darea de seama unificata a II si GT); alin. (3) si (4), evidenta ASP, ramin |
 | COD-1163-1997 | 342^1 alin. (3) | modificare | 2027-01-01 | LP187 din 10.07.25 | se aplica textul anterior | din 'calculul, raportarea si achitarea taxei' ramine 'calculul si achitarea', consecinta abrogarii raportarii; alin. (2) difera doar prin diacritice (t-sedila / t-virgula), fara schimbare de fond |
+| L-160-2011 | anexa nr. 1 | modificare | 2027-01-01 | LP176 din 03.07.25 | se aplica textul anterior | Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. fara marcaj in text; doar rindul din fisa. Aceeasi lege introduce art. 15^3-15^8 in L-1543-1998, consolidare ingerata si listata in registru |
+| L-160-2011 | anexa nr. 1 | modificare | 2027-01-23 | LP40 din 26.03.26 | se aplica textul anterior | Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. marcaj [Anexa nr.1 modificata prin LP40 ...] |
+| L-160-2011 | anexa nr. 1 | modificare | 2027-05-21 | LP71 din 30.04.26 | se aplica textul anterior | Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. marcaj [Anexa nr.1 modificata prin LP71 ...]; marcajul LP40 dispare |
+| L-160-2011 | anexa nr. 1 | modificare | 2029-01-01 | LP159 din 30.07.26 | se aplica textul anterior | Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. marcaj [Anexa nr.1 modificata prin LP159 ...]; marcajul LP71 dispare. Versiunea ingerata in dimineata de 6 septembrie si arhivata |
 
 ## Unde a fost gasit fiecare marcaj
 

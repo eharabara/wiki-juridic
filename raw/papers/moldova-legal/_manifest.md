@@ -1645,6 +1645,19 @@ Consemnat în `_meta/inforce/pending-consolidations.json`, fișier scris de mân
 `build_inforce_register.py` îl redă de acum ca secțiune separată, „Consolidări viitoare neingerate”;
 scriptul refuză intrarea și avertizează când data ei a trecut. Nimic din `raw/` nu s-a atins.
 
+### U.9. `L-160-2011`, cele cinci consolidări viitoare, citite fără ingerare (2026-09-07)
+
+Aceeași metodă ca U.8. Lista de versiuni confirmă cele cinci consolidări viitoare din U.2, fără una
+nouă. Șase versiuni (151257 și 149496, 150231, 154051, 154478, 156152) citite prin `fetch` fără
+descărcare și comparate în lanț, paragraf cu paragraf. **Rezultat negativ util: corpul legii este
+identic în toate șase.** Fiecare consolidare adaugă doar rândul din fișă și, de la 154051 încolo, un
+marcaj `[Anexa nr.1 modificată prin LP...]` care îl înlocuiește pe cel precedent; pentru LP136/2025
+și LP176/2025 marcajul nu a existat niciodată. Toate cinci modifică Nomenclatorul actelor permisive,
+anexa nr. 1, care nu este în textul de pe legis.md în nicio versiune. Consemnate ca cinci rânduri în
+`_meta/inforce/pending-consolidations.json`, cu unitatea „anexa nr. 1”; `article_sort_key` din
+generator acceptă de acum unități fără număr de articol. LP176/2025 atinge și `L-1543-1998`
+(art. 15^3–15^8, consolidare ingerată).
+
 ### U.5. Ce a rămas în afara acestei seri
 
 - `COD-218-2008` ar câștiga două ancore de carte cu regula nouă din extractor; neaplicat.

@@ -200,7 +200,9 @@ versiunilor. Jurnalul din `log.md` are intrările; manifestul moldova-legal, sec
   secțiunea nouă „Consolidări viitoare neingerate”, pe `entities/COD-1163-1997.md` și în manifestul
   moldova-legal U.8. Rămâne: reîmprospătarea cu `refresh_behind` după 01.01.2027 și ștergerea rândului.
 
-Celelalte lacune consemnate azi, fără termen: cele cinci consolidări viitoare ale Legii 160/2011;
+Celelalte lacune consemnate azi, fără termen: cele cinci consolidări viitoare ale Legii 160/2011
+(**executat 2026-09-07, aceeași cale (b)**: corpul legii neschimbat, toate cinci modifică doar anexa
+nr. 1, care nu e în text; cinci rânduri în `pending-consolidations.json`, manifest U.9);
 Legea 1308/1997 și Metodologia Parlamentului de la art. 60 din Codul funciar; actele ANIF de la
 pct. 20 din HG 553/2024; drept tranzitoriu pentru dosarele funciare din 7 martie – 1 aprilie 2025;
 corespondentul în 325/2025 al articolelor la care trimite art. 27 din Legea 20/2026;

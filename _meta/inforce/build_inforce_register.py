@@ -233,7 +233,11 @@ def article_sort_key(a: str | None):
     if not a:
         return (0, 0)
     base, _, sup = a.partition("^")
-    return (int(base), int(sup) if sup else 0)
+    try:
+        return (int(base), int(sup) if sup else 0)
+    except ValueError:
+        # anexe si alte unitati fara numar de articol (lista scrisa de mina), la sfirsit
+        return (10**6, 0)
 
 
 def load_pending(path: Path, as_of: _dt.date) -> list[dict]:

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-07T12:03:39",
+  "generated": "2026-09-07T12:18:53",
   "as_of": "2026-09-07",
   "files_scanned": 401,
   "provisions_not_yet_in_force": [
@@ -1424,6 +1424,26 @@
   ],
   "pending_consolidations": [
     {
+      "instrument": "L-160-2011",
+      "doc_id": "149496",
+      "consolidation_date": "2026-12-28",
+      "held_doc_id": "151257",
+      "held_consolidation_date": "2026-08-29",
+      "amending_act": "LP136 din 13.06.25",
+      "official_gazette": "MO340-342/28.06.25 art.387",
+      "verified": "2026-09-07",
+      "method": "sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei",
+      "provisions": [
+        {
+          "article": "anexa nr. 1",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2026-12-28",
+          "summary": "Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. fara marcaj in text; doar rindul din fisa"
+        }
+      ]
+    },
+    {
       "instrument": "COD-1163-1997",
       "doc_id": "152862",
       "consolidation_date": "2027-01-01",
@@ -1470,13 +1490,93 @@
           "summary": "din 'calculul, raportarea si achitarea taxei' ramine 'calculul si achitarea', consecinta abrogarii raportarii; alin. (2) difera doar prin diacritice (t-sedila / t-virgula), fara schimbare de fond"
         }
       ]
+    },
+    {
+      "instrument": "L-160-2011",
+      "doc_id": "150231",
+      "consolidation_date": "2027-01-01",
+      "held_doc_id": "151257",
+      "held_consolidation_date": "2026-08-29",
+      "amending_act": "LP176 din 03.07.25",
+      "official_gazette": "MO409-412/31.07.25 art.549",
+      "verified": "2026-09-07",
+      "method": "sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei",
+      "provisions": [
+        {
+          "article": "anexa nr. 1",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. fara marcaj in text; doar rindul din fisa. Aceeasi lege introduce art. 15^3-15^8 in L-1543-1998, consolidare ingerata si listata in registru"
+        }
+      ]
+    },
+    {
+      "instrument": "L-160-2011",
+      "doc_id": "154051",
+      "consolidation_date": "2027-01-23",
+      "held_doc_id": "151257",
+      "held_consolidation_date": "2026-08-29",
+      "amending_act": "LP40 din 26.03.26",
+      "official_gazette": "MO176-179/23.04.26 art.139",
+      "verified": "2026-09-07",
+      "method": "sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei",
+      "provisions": [
+        {
+          "article": "anexa nr. 1",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2027-01-23",
+          "summary": "Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. marcaj [Anexa nr.1 modificata prin LP40 ...]"
+        }
+      ]
+    },
+    {
+      "instrument": "L-160-2011",
+      "doc_id": "154478",
+      "consolidation_date": "2027-05-21",
+      "held_doc_id": "151257",
+      "held_consolidation_date": "2026-08-29",
+      "amending_act": "LP71 din 30.04.26",
+      "official_gazette": "MO213-216/21.05.26 art.202",
+      "verified": "2026-09-07",
+      "method": "sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei",
+      "provisions": [
+        {
+          "article": "anexa nr. 1",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2027-05-21",
+          "summary": "Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. marcaj [Anexa nr.1 modificata prin LP71 ...]; marcajul LP40 dispare"
+        }
+      ]
+    },
+    {
+      "instrument": "L-160-2011",
+      "doc_id": "156152",
+      "consolidation_date": "2029-01-01",
+      "held_doc_id": "151257",
+      "held_consolidation_date": "2026-08-29",
+      "amending_act": "LP159 din 30.07.26",
+      "official_gazette": "MO407-409/02.09.26 art. 440",
+      "verified": "2026-09-07",
+      "method": "sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei",
+      "provisions": [
+        {
+          "article": "anexa nr. 1",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2029-01-01",
+          "summary": "Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. marcaj [Anexa nr.1 modificata prin LP159 ...]; marcajul LP71 dispare. Versiunea ingerata in dimineata de 6 septembrie si arhivata"
+        }
+      ]
     }
   ],
   "counts": {
     "provisions": 73,
     "acts": 12,
     "future_consolidations": 13,
-    "pending_consolidations": 1,
-    "pending_provisions": 5
+    "pending_consolidations": 6,
+    "pending_provisions": 10
   }
 }
