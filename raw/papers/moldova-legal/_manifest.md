@@ -1658,6 +1658,27 @@ anexa nr. 1, care nu este în textul de pe legis.md în nicio versiune. Consemna
 generator acceptă de acum unități fără număr de articol. LP176/2025 atinge și `L-1543-1998`
 (art. 15^3–15^8, consolidare ingerată).
 
+### U.10. `COD-1163-1997`, cele zece hotărâri ale Curții Constituționale din fișă, recuperate la articol (2026-09-08)
+
+Pasul 5.3 din `_meta/plans/2026-09-08-plan-hcc-pasul-5.md`, primul act în ordinea D3. Textul deținut
+(138613) nu poartă niciun marcaj HCC la articol; fișa are zece rânduri. Pentru fiecare, istoricul de
+versiuni al actului (286 de ancore `showDetails`, 256 datate) are o versiune la data exactă a hotărârii;
+versiunile citite prin `fetch` în pagină, fără descărcare: 79116, 79268, 79269, 79270, 79271, 79275,
+113173, 122989, 142465, 142855. Dispozitivele hotărârilor citite pe legis.md la doc_id 16986, 4996,
+16103, 6309, 16104, 15622, 111134, 122834, 142698, 142823, găsite prin căutare în titlu („codului
+fiscal”, „codul fiscal”, „legii nr. 324”, „taxelor locale”, „timbre”, toate fără diacritice).
+
+Ce spun versiunile, pe epoci: consolidările din 1999 nu au marcaj deloc (HCC12 vine numai din hotărâre);
+cele din 2014 au marcajul în paranteze rotunde la **sfârșitul** articolului sau al anexei, fără numărul
+articolului („(se declară neconstituţional prin HCC7...)”), deci articolul se ia din poziție și se
+confirmă în dispozitiv; din 2018 marcajul e în paranteze drepte cu articolul. Trei defecte ale
+publisherului: marcajul HCC22 numește art. 226^11 în loc de 226^16 (dispozitivul e clar); marcajul
+HCC20 e rupt, rămâne doar coada după semnătură; HCC11 e scris „neconstutuţional”. Toate cele zece
+dispoziții au fost apoi corectate de Parlament în textul deținut (abrogare sau rescriere), deci Codul
+fiscal nu ține azi text anulat; registrul le consemnează pentru istoric și pentru spețele anterioare.
+Rânduri în `_meta/hcc/recovered-provisions.json` (17, HCC2/2014 pe nouă articole); tabelul pe
+`entities/COD-1163-1997.md`. Nimic din `raw/` atins.
+
 ### U.5. Ce a rămas în afara acestei seri
 
 - `COD-218-2008` ar câștiga două ancore de carte cu regula nouă din extractor; neaplicat.

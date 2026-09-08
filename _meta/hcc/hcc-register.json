@@ -103,59 +103,264 @@
      "text": "HCC12 din 11.03.99, MO27-28/ 23.03.99 art. 21"
     }
    ],
-   "recovered": [],
-   "unattributed": [
+   "recovered": [
     {
-     "hcc": "HCC10/2024-04-04",
-     "line": 237,
-     "text": "HCC10 din 04.04.24, MO177-180/18.04.24 art.57; în vigoare 04.04.24"
-    },
-    {
-     "hcc": "HCC5/2024-03-05",
-     "line": 240,
-     "text": "HCC5 din 05.03.24, MO141-143/09.04.24 art.50; în vigoare 05.03.24"
-    },
-    {
-     "hcc": "HCC22/2020-08-06",
-     "line": 290,
-     "text": "HCC22 din 06.08.20, MO221-225/28.08.20 art.121; în vigoare 06.08.20"
-    },
-    {
-     "hcc": "HCC20/2018-07-04",
-     "line": 325,
-     "text": "HCC20 din 04.07.18, MO267-275/20.07.18 art.119"
-    },
-    {
-     "hcc": "HCC17/2014-05-29",
-     "line": 359,
-     "text": "HCC17 din 29.05.14, MO223-230/08.08.14 art.30; în vigoare 29.05.14"
-    },
-    {
-     "hcc": "HCC11/2014-03-25",
-     "line": 363,
-     "text": "HCC11 din 25.03.14, MO115-119/16.05.14 art.17; în vigoare 25.03.14"
-    },
-    {
-     "hcc": "HCC8/2014-02-14",
-     "line": 366,
-     "text": "HCC8 din 14.02.14, MO92-98/18.04.14 art.13; în vigoare 14.02.14"
-    },
-    {
-     "hcc": "HCC7/2014-02-13",
-     "line": 367,
-     "text": "HCC7 din 13.02.14, MO92-98/18.04.14 art.12; în vigoare 13.02.14"
-    },
-    {
-     "hcc": "HCC2/2014-01-28",
-     "line": 368,
-     "text": "HCC2 din 28.01.14, MO80-85/04.04.14 art.10; în vigoare 28.01.14"
-    },
-    {
+     "instrument": "COD-1163-1997",
      "hcc": "HCC12/1999-03-11",
-     "line": 529,
-     "text": "HCC12 din 11.03.99, MO27-28/ 23.03.99 art. 21"
+     "article": "3",
+     "subunit": "alin. (3)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO27-28/23.03.99 art.21",
+     "read_doc_id": "79116",
+     "read_consolidation": "1999-03-11",
+     "decision_doc_id": "16986",
+     "verified": "2026-09-08",
+     "status_today": "alin. (3) rescris: astazi priveste discrepantele dintre actele normative subordonate de la alin. (2) si cod, nu suprematia codului fata de alte legi",
+     "summary": "Versiunea 79116 nu poarta niciun marcaj (consolidarile din 1999 nu aveau); articolul vine din titlul si dispozitivul hotaririi: 'Declara neconstitutional art. 3 alin. (3)', textul 'in cazul in care prevederile prezentului Cod difera de prevederile altor acte legislative privind impozitarea..., se aplica prevederile codului' contravine art. 72 din Constitutie, legile organice fiind pe aceeasi orizontala."
+    },
+    {
+     "instrument": "COD-1163-1997",
+     "hcc": "HCC2/2014-01-28",
+     "article": "288",
+     "subunit": null,
+     "scope": "in parte",
+     "quoted_text": null,
+     "official_gazette": "MO80-85/04.04.14 art.10",
+     "read_doc_id": "79268",
+     "read_consolidation": "2014-01-28",
+     "decision_doc_id": "4996",
+     "verified": "2026-09-08",
+     "status_today": "textul de azi al art. 288 nu mai poarta modificarile LP324/2013",
+     "summary": "Marcaj la sfirsitul articolului in versiunea 79268: 'se declara neconstitutionale modificarile operate in articolul respectiv conform Legii nr. 324 din 23 decembrie 2013'. Dispozitivul: pct. 113-119 si 122-123 ale art. IX din LP324/2013 (taxele locale). Acelasi marcaj pe art. 288, 289, 290, 291, 292, 293, 294, 298 si pe anexa la titlul VII."
+    },
+    {
+     "instrument": "COD-1163-1997",
+     "hcc": "HCC2/2014-01-28",
+     "article": "289",
+     "subunit": null,
+     "scope": "in parte",
+     "quoted_text": null,
+     "official_gazette": "MO80-85/04.04.14 art.10",
+     "read_doc_id": "79268",
+     "read_consolidation": "2014-01-28",
+     "decision_doc_id": "4996",
+     "verified": "2026-09-08",
+     "status_today": "vezi rindul art. 288",
+     "summary": "Modificarile LP324/2013 la art. 289, declarate neconstitutionale; marcaj la sfirsitul articolului in versiunea 79268."
+    },
+    {
+     "instrument": "COD-1163-1997",
+     "hcc": "HCC2/2014-01-28",
+     "article": "290",
+     "subunit": null,
+     "scope": "in parte",
+     "quoted_text": null,
+     "official_gazette": "MO80-85/04.04.14 art.10",
+     "read_doc_id": "79268",
+     "read_consolidation": "2014-01-28",
+     "decision_doc_id": "4996",
+     "verified": "2026-09-08",
+     "status_today": "vezi rindul art. 288",
+     "summary": "Modificarile LP324/2013 la art. 290, declarate neconstitutionale; marcaj la sfirsitul articolului in versiunea 79268."
+    },
+    {
+     "instrument": "COD-1163-1997",
+     "hcc": "HCC2/2014-01-28",
+     "article": "291",
+     "subunit": null,
+     "scope": "in parte",
+     "quoted_text": null,
+     "official_gazette": "MO80-85/04.04.14 art.10",
+     "read_doc_id": "79268",
+     "read_consolidation": "2014-01-28",
+     "decision_doc_id": "4996",
+     "verified": "2026-09-08",
+     "status_today": "vezi rindul art. 288",
+     "summary": "Modificarile LP324/2013 la art. 291, declarate neconstitutionale; marcaj la sfirsitul articolului in versiunea 79268."
+    },
+    {
+     "instrument": "COD-1163-1997",
+     "hcc": "HCC2/2014-01-28",
+     "article": "292",
+     "subunit": null,
+     "scope": "in parte",
+     "quoted_text": null,
+     "official_gazette": "MO80-85/04.04.14 art.10",
+     "read_doc_id": "79268",
+     "read_consolidation": "2014-01-28",
+     "decision_doc_id": "4996",
+     "verified": "2026-09-08",
+     "status_today": "vezi rindul art. 288",
+     "summary": "Modificarile LP324/2013 la art. 292, declarate neconstitutionale; marcaj la sfirsitul articolului in versiunea 79268."
+    },
+    {
+     "instrument": "COD-1163-1997",
+     "hcc": "HCC2/2014-01-28",
+     "article": "293",
+     "subunit": null,
+     "scope": "in parte",
+     "quoted_text": null,
+     "official_gazette": "MO80-85/04.04.14 art.10",
+     "read_doc_id": "79268",
+     "read_consolidation": "2014-01-28",
+     "decision_doc_id": "4996",
+     "verified": "2026-09-08",
+     "status_today": "vezi rindul art. 288",
+     "summary": "Modificarile LP324/2013 la art. 293, declarate neconstitutionale; marcaj la sfirsitul articolului in versiunea 79268."
+    },
+    {
+     "instrument": "COD-1163-1997",
+     "hcc": "HCC2/2014-01-28",
+     "article": "294",
+     "subunit": null,
+     "scope": "in parte",
+     "quoted_text": null,
+     "official_gazette": "MO80-85/04.04.14 art.10",
+     "read_doc_id": "79268",
+     "read_consolidation": "2014-01-28",
+     "decision_doc_id": "4996",
+     "verified": "2026-09-08",
+     "status_today": "vezi rindul art. 288",
+     "summary": "Modificarile LP324/2013 la art. 294, declarate neconstitutionale; marcaj la sfirsitul articolului in versiunea 79268."
+    },
+    {
+     "instrument": "COD-1163-1997",
+     "hcc": "HCC2/2014-01-28",
+     "article": "298",
+     "subunit": null,
+     "scope": "in parte",
+     "quoted_text": null,
+     "official_gazette": "MO80-85/04.04.14 art.10",
+     "read_doc_id": "79268",
+     "read_consolidation": "2014-01-28",
+     "decision_doc_id": "4996",
+     "verified": "2026-09-08",
+     "status_today": "vezi rindul art. 288",
+     "summary": "Modificarile LP324/2013 la art. 298 si la anexa titlului VII (doua marcaje, al doilea dupa tabelul anexei), declarate neconstitutionale; versiunea 79268."
+    },
+    {
+     "instrument": "COD-1163-1997",
+     "hcc": "HCC7/2014-02-13",
+     "article": "88",
+     "subunit": "alin. (7)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO92-98/18.04.14 art.12",
+     "read_doc_id": "79269",
+     "read_consolidation": "2014-02-13",
+     "decision_doc_id": "16103",
+     "verified": "2026-09-08",
+     "status_today": "alin. (7) - abrogat",
+     "summary": "Marcaj in paranteze dupa alin. (7) in versiunea 79269; dispozitivul: 'Se declara neconstitutional alineatul (7) al articolului 88' (desemnarea a pina la 2% din impozitul pe venit din salariu catre organizatii necomerciale si institutii religioase)."
+    },
+    {
+     "instrument": "COD-1163-1997",
+     "hcc": "HCC8/2014-02-14",
+     "article": "anexa nr. 2 la titlul IV",
+     "subunit": "pozitiile tarifare 870324 si 870333",
+     "scope": "text din articol",
+     "quoted_text": "2,00 euro",
+     "official_gazette": "MO92-98/18.04.14 art.13",
+     "read_doc_id": "79270",
+     "read_consolidation": "2014-02-14",
+     "decision_doc_id": "6309",
+     "verified": "2026-09-08",
+     "status_today": "anexa a fost rescrisa de mai multe ori de atunci; cota din 2014 nu mai este in text",
+     "summary": "Marcaj dupa tabelul anexei in versiunea 79270; dispozitivul: cota accizului de '2,00 euro' la pozitiile 870324 si 870333 din anexa nr. 2 la titlul IV, in redactia LP324/2013, neconstitutionala; pina la completarea cadrului legal se aplica prevederile anterioare LP324/2013."
+    },
+    {
+     "instrument": "COD-1163-1997",
+     "hcc": "HCC11/2014-03-25",
+     "article": "anexa nr. 1 la titlul IV",
+     "subunit": "pozitia tarifara 240220",
+     "scope": "text din articol",
+     "quoted_text": "75 lei + 24%",
+     "official_gazette": "MO115-119/16.05.14 art.17",
+     "read_doc_id": "79271",
+     "read_consolidation": "2014-03-25",
+     "decision_doc_id": "16104",
+     "verified": "2026-09-08",
+     "status_today": "anexa a fost rescrisa de mai multe ori de atunci; cota din 2014 nu mai este in text",
+     "summary": "Marcaj dupa tabelul anexei in versiunea 79271, cu 'neconstutuţional' scris gresit de publisher (un cititor mecanic care cauta 'neconstitu' il pierde); dispozitivul: cota accizului '75 lei + 24%' la tigaretele cu filtru, pozitia 240220, in redactia LP324/2013, neconstitutionala."
+    },
+    {
+     "instrument": "COD-1163-1997",
+     "hcc": "HCC17/2014-05-29",
+     "article": "123",
+     "subunit": "alin. (7)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO223-230/08.08.14 art.30",
+     "read_doc_id": "79275",
+     "read_consolidation": "2014-05-29",
+     "decision_doc_id": "15622",
+     "verified": "2026-09-08",
+     "status_today": "alin. (7) - abrogat",
+     "summary": "Marcaj in paranteze dupa alin. (7) in versiunea 79275 (timbrele de acciz de model vechi valabile un an); dispozitivul, pct. 3: 'Se declara neconstitutional alineatul (7) al articolului 123'; pct. 2 loveste si pct. 2 din HG 243/2010, act neingerat. Hotarirea nu se gaseste cautind 'codul fiscal' in titlu; titlul ei numeste HG 243/2010."
+    },
+    {
+     "instrument": "COD-1163-1997",
+     "hcc": "HCC20/2018-07-04",
+     "article": "260",
+     "subunit": "alin. (4)",
+     "scope": "text din articol",
+     "quoted_text": "amendă în mărime de 3 600 lei pentru fiecare factură",
+     "official_gazette": "MO267-275/20.07.18 art.119",
+     "read_doc_id": "113173",
+     "read_consolidation": "2018-07-04",
+     "decision_doc_id": "111134",
+     "verified": "2026-09-08",
+     "status_today": "alin. (4) rescris: 'amenda de la 3000 la 3600 de lei pentru fiecare factura fiscala neprezentata, dar nu mai mult de 72000 de lei'",
+     "summary": "Versiunea 113173 poarta marcajul rupt: numai coada 'se declara neconstitutional prin HCC20 din 04.07.18...' a ramas, dupa semnatura, fara articol. Dispozitivul: textul 'amenda in marime de 3 600 lei pentru fiecare factura' din art. 260 alin. (4) neconstitutional; textul 'dar nu mai mult de 72 000 lei' constitutional; pina la modificare, amenda de pina la 3 600 lei cu control de proportionalitate."
+    },
+    {
+     "instrument": "COD-1163-1997",
+     "hcc": "HCC22/2020-08-06",
+     "article": "226^16",
+     "subunit": "alin. (1^1)",
+     "scope": "text din articol",
+     "quoted_text": "prin derogare de la art. 131 alin. (5); în scopul examinării cazurilor de evaziune fiscală. Autoritățile menționate vor utiliza informația numai în acest scop",
+     "official_gazette": "MO221-225/28.08.20 art.121",
+     "read_doc_id": "122989",
+     "read_consolidation": "2020-08-06",
+     "decision_doc_id": "122834",
+     "verified": "2026-09-08",
+     "status_today": "art. 226^16 - abrogat",
+     "summary": "Marcajul din versiunea 122989 scrie 'Art.22611 al.(11)', adica art. 226^11 alin. (1^1) cu exponentii aplatizati, dar titlul si dispozitivul hotaririi dau art. 226^16 alin. (1^1); marcajul publisherului este gresit la numarul articolului. Doua texte declarate neconstitutionale."
+    },
+    {
+     "instrument": "COD-1163-1997",
+     "hcc": "HCC5/2024-03-05",
+     "article": "6",
+     "subunit": "alin. (11)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO141-143/09.04.24 art.50",
+     "read_doc_id": "142465",
+     "read_consolidation": "2024-03-05",
+     "decision_doc_id": "142698",
+     "verified": "2026-09-08",
+     "status_today": "alin. (11) - abrogat",
+     "summary": "Marcaj '[Art.6 al.(11) declarat neconstitutional...]' in versiunea 142465; alin. (11) este alineat plin, nu (1^1), art. 6 avind alin. (10). Dispozitivul: art. 6 alin. (11) in redactia LP285/2023 (restituirea TVA si a accizelor pentru agentii economici din UTA Gagauzia de la bugetul UTA) neconstitutional; restituirea de la bugetul de stat pina la interventia Parlamentului."
+    },
+    {
+     "instrument": "COD-1163-1997",
+     "hcc": "HCC10/2024-04-04",
+     "article": "264",
+     "subunit": "alin. (1) si (2)",
+     "scope": "text din articol",
+     "quoted_text": "cu excepţia cazurilor prevăzute la alin. (2)",
+     "official_gazette": "MO177-180/18.04.24 art.57",
+     "read_doc_id": "142855",
+     "read_consolidation": "2024-04-04",
+     "decision_doc_id": "142823",
+     "verified": "2026-09-08",
+     "status_today": "alin. (1) rescris ('cu exceptia cazurilor prevazute la alin. (3)'), alin. (2) - abrogat",
+     "summary": "Doua marcaje in versiunea 142855: textul 'cu exceptia cazurilor prevazute la alin. (2)' din alin. (1) si intreg alin. (2) al art. 264 (termenul de prescriptie pentru determinarea obligatiilor fiscale). Efectele de la 31 octombrie 2024, cu exceptia cauzei in care s-a ridicat exceptia. Exceptia privind art. 226^4 si art. 226^6 alin. (6^2) declarata inadmisibila, deci acelea nu sint atinse."
     }
    ],
+   "unattributed": [],
    "distinct_hcc": [
     "HCC10/2024-04-04",
     "HCC11/2014-03-25",
@@ -1317,7 +1522,7 @@
   "acts": 18,
   "distinct_hcc": 76,
   "markers_in_text": 16,
-  "recovered": 0,
-  "unattributed": 67
+  "recovered": 17,
+  "unattributed": 57
  }
 }

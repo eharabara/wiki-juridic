@@ -2,7 +2,7 @@
 
 Generat 2026-09-08 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
 
-18 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 76 hotariri distincte. Articolul atins este cunoscut pentru 16 marcaje inca prezente in text si 0 dispozitii recuperate din istoricul versiunilor; **67 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
+18 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 76 hotariri distincte. Articolul atins este cunoscut pentru 16 marcaje inca prezente in text si 17 dispozitii recuperate din istoricul versiunilor; **57 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
 
 Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiunea hotaririi si a intinderii anularii. Un act din tabelul „fara articol atribuit” se citeaza cu avertismentul ca poarta hotariri ale Curtii neverificate la nivel de articol.
 
@@ -11,7 +11,7 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | act | doc_id | consolidare | HCC in fisa | cu articol cunoscut | fara articol |
 |---|---|---|---:|---:|---:|
 | `COD-116-2018` | 150447 | 2025-08-31 | 2 | 1 | 1 |
-| `COD-1163-1997` | 138613 | 2026-07-01 | 10 | 0 | 10 |
+| `COD-1163-1997` | 138613 | 2026-07-01 | 10 | 10 | 0 |
 | `COD-122-2003` | 156138 | 2026-12-02 | 17 | 3 | 14 |
 | `COD-154-2003` | 155882 | 2027-01-01 | 3 | 1 | 2 |
 | `COD-174-2018` | 150538 | 2026-06-24 | 2 | 1 | 1 |
@@ -34,6 +34,23 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | act | articol | subunitate | intindere | hotarire | MO | sursa |
 |---|---|---|---|---|---|---|
 | `COD-116-2018` | 225 | alin. (3) | in parte | HCC27/2020-11-13 | MO332-342/11.12.20 art.183 | marcaj in text, l.1589 |
+| `COD-1163-1997` | 3 | alin. (3) | subunitate | HCC12/1999-03-11 | MO27-28/23.03.99 art.21 | versiunea 79116 @ 1999-03-11, verificat 2026-09-08 |
+| `COD-1163-1997` | 288 |  | in parte | HCC2/2014-01-28 | MO80-85/04.04.14 art.10 | versiunea 79268 @ 2014-01-28, verificat 2026-09-08 |
+| `COD-1163-1997` | 289 |  | in parte | HCC2/2014-01-28 | MO80-85/04.04.14 art.10 | versiunea 79268 @ 2014-01-28, verificat 2026-09-08 |
+| `COD-1163-1997` | 290 |  | in parte | HCC2/2014-01-28 | MO80-85/04.04.14 art.10 | versiunea 79268 @ 2014-01-28, verificat 2026-09-08 |
+| `COD-1163-1997` | 291 |  | in parte | HCC2/2014-01-28 | MO80-85/04.04.14 art.10 | versiunea 79268 @ 2014-01-28, verificat 2026-09-08 |
+| `COD-1163-1997` | 292 |  | in parte | HCC2/2014-01-28 | MO80-85/04.04.14 art.10 | versiunea 79268 @ 2014-01-28, verificat 2026-09-08 |
+| `COD-1163-1997` | 293 |  | in parte | HCC2/2014-01-28 | MO80-85/04.04.14 art.10 | versiunea 79268 @ 2014-01-28, verificat 2026-09-08 |
+| `COD-1163-1997` | 294 |  | in parte | HCC2/2014-01-28 | MO80-85/04.04.14 art.10 | versiunea 79268 @ 2014-01-28, verificat 2026-09-08 |
+| `COD-1163-1997` | 298 |  | in parte | HCC2/2014-01-28 | MO80-85/04.04.14 art.10 | versiunea 79268 @ 2014-01-28, verificat 2026-09-08 |
+| `COD-1163-1997` | 88 | alin. (7) | subunitate | HCC7/2014-02-13 | MO92-98/18.04.14 art.12 | versiunea 79269 @ 2014-02-13, verificat 2026-09-08 |
+| `COD-1163-1997` | anexa nr. 2 la titlul IV | pozitiile tarifare 870324 si 870333 | text din articol („2,00 euro”) | HCC8/2014-02-14 | MO92-98/18.04.14 art.13 | versiunea 79270 @ 2014-02-14, verificat 2026-09-08 |
+| `COD-1163-1997` | anexa nr. 1 la titlul IV | pozitia tarifara 240220 | text din articol („75 lei + 24%”) | HCC11/2014-03-25 | MO115-119/16.05.14 art.17 | versiunea 79271 @ 2014-03-25, verificat 2026-09-08 |
+| `COD-1163-1997` | 123 | alin. (7) | subunitate | HCC17/2014-05-29 | MO223-230/08.08.14 art.30 | versiunea 79275 @ 2014-05-29, verificat 2026-09-08 |
+| `COD-1163-1997` | 260 | alin. (4) | text din articol („amendă în mărime de 3 600 lei pentru fiecare factură”) | HCC20/2018-07-04 | MO267-275/20.07.18 art.119 | versiunea 113173 @ 2018-07-04, verificat 2026-09-08 |
+| `COD-1163-1997` | 226^16 | alin. (1^1) | text din articol („prin derogare de la art. 131 alin. (5); în scopul examinării cazurilor de evaziune fiscală…”) | HCC22/2020-08-06 | MO221-225/28.08.20 art.121 | versiunea 122989 @ 2020-08-06, verificat 2026-09-08 |
+| `COD-1163-1997` | 6 | alin. (11) | subunitate | HCC5/2024-03-05 | MO141-143/09.04.24 art.50 | versiunea 142465 @ 2024-03-05, verificat 2026-09-08 |
+| `COD-1163-1997` | 264 | alin. (1) si (2) | text din articol („cu excepţia cazurilor prevăzute la alin. (2)”) | HCC10/2024-04-04 | MO177-180/18.04.24 art.57 | versiunea 142855 @ 2024-04-04, verificat 2026-09-08 |
 | `COD-122-2003` | 178 |  | omisiune legislativa | HCC19/2018-07-03 | MO267-275/20.07.18 art. 118 | marcaj in text, l.2912 |
 | `COD-122-2003` | 185 | al.(1) | subunitate | HCC27/2018-10-30 | MO430-439/23.11.18 art. 164 | marcaj in text, l.2987 |
 | `COD-122-2003` | 191 |  | omisiune legislativa | HCC17/2016-05-19 | MO232-244/29.07.16 art. 62 | marcaj in text, l.3084 |
@@ -57,16 +74,6 @@ Marcajul s-a pierdut la o reimprospatare anterioara a consolidarii. Articolul se
 | act | hotarire | rindul din fisa |
 |---|---|---|
 | `COD-116-2018` | HCC17/2020-06-23 | l.61: HCC17 din 23.06.20, MO188-192/24.07.20 art.100; în vigoare 23.06.20 | |
-| `COD-1163-1997` | HCC10/2024-04-04 | l.237: HCC10 din 04.04.24, MO177-180/18.04.24 art.57; în vigoare 04.04.24 |
-| `COD-1163-1997` | HCC5/2024-03-05 | l.240: HCC5 din 05.03.24, MO141-143/09.04.24 art.50; în vigoare 05.03.24 |
-| `COD-1163-1997` | HCC22/2020-08-06 | l.290: HCC22 din 06.08.20, MO221-225/28.08.20 art.121; în vigoare 06.08.20 |
-| `COD-1163-1997` | HCC20/2018-07-04 | l.325: HCC20 din 04.07.18, MO267-275/20.07.18 art.119 |
-| `COD-1163-1997` | HCC17/2014-05-29 | l.359: HCC17 din 29.05.14, MO223-230/08.08.14 art.30; în vigoare 29.05.14 |
-| `COD-1163-1997` | HCC11/2014-03-25 | l.363: HCC11 din 25.03.14, MO115-119/16.05.14 art.17; în vigoare 25.03.14 |
-| `COD-1163-1997` | HCC8/2014-02-14 | l.366: HCC8 din 14.02.14, MO92-98/18.04.14 art.13; în vigoare 14.02.14 |
-| `COD-1163-1997` | HCC7/2014-02-13 | l.367: HCC7 din 13.02.14, MO92-98/18.04.14 art.12; în vigoare 13.02.14 |
-| `COD-1163-1997` | HCC2/2014-01-28 | l.368: HCC2 din 28.01.14, MO80-85/04.04.14 art.10; în vigoare 28.01.14 |
-| `COD-1163-1997` | HCC12/1999-03-11 | l.529: HCC12 din 11.03.99, MO27-28/ 23.03.99 art. 21 |
 | `COD-122-2003` | HCC3/2023-01-24 | l.221: HCC3 din 24.01.23, MO31-34/03.02.23 art.14; în vigoare 24.01.23 |
 | `COD-122-2003` | HCC29/2021-09-21 | l.231: HCC29 din 21.09.21, MO256-260/22.10.21 art.184; în vigoare 21.09.21 |
 | `COD-122-2003` | HCC31/2021-09-23 | l.232: HCC31 din 23.09.21, MO264-265/29.10.21 art.187; în vigoare 23.09.21 |
