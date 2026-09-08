@@ -78,6 +78,22 @@ DOCS = {
     # si traducerea ei engleza era in corpusul BNM. 5 <sup>. Ultima modificare LP49/2024.
     'L-239-2008': {'doc_id': '142655',
                    'title': 'Legea nr. 239/2008 privind transparenta in procesul decizional'},
+    # ---- 2026-09-08, la cererea lui Eugen: primul act SUBORDONAT al BNM in legal-ro, pentru
+    # speta mostenitorului unui actionar de banca. Art. 46 alin. (1) din 202/2017 trimite la
+    # "circumstantele obiective" stabilite de BNM; pct. 8 al regulamentului le defineste si
+    # numeste succesiunea. Hotarire BNM cu regulament anexat, structurat in PUNCTE, nu articole:
+    # zero ancore de articol, ca DCA-61-2024 si HG-*; o trimitere la "pct. N" NU este ancorata.
+    # Denumirea actuala este "cu privire la detinerile in capitalul social al bancii" (HBN52/2021
+    # a inlocuit "cotele de participare" in tot textul); traducerea engleza din
+    # raw/papers/bnm/legal/documents/093-094 poarta titlul vechi. Gasit prin cautare in titlu
+    # "cotelor de participare in capitalul bancii" (3 rinduri) si "detinerile in capitalul
+    # social al bancii" (4 rinduri). Versiuni: 39174 (2013), 94909 (2016), 104980 (2017),
+    # 112022 (2018), 126093 (09.05.2021, curenta). 106 <sup>, fara CUPRINS, 60 de marcaje
+    # "in vigoare", ultima modificare HBN52/2021 in vigoare 09.05.21. HTML: octetii serverului,
+    # prin fetch same-origin din pagina, ruta din memoria legis-md-fetch-route.
+    'HBN-127-2013': {'doc_id': '126093',
+                     'title': 'Hotarirea BNM nr. 127/2013 cu privire la aprobarea Regulamentului '
+                              'cu privire la detinerile in capitalul social al bancii'},
 }
 
 

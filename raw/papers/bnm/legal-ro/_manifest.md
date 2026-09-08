@@ -33,6 +33,7 @@ engleze neoficiale, neancorate. Regula D2: traducerea localizează, textul de ai
 | `L-550-1995.md` | Legea nr. 550/1995 cu privire la lichidarea băncilor (fosta Lege a instituțiilor financiare) | 146899 | 2025-02-28 | 20 | PASS, 348 linii | P8-bis; **denumire schimbată**; doar arts. 1–3 și 38^1–38^17 în vigoare, cap. I–VI abrogate |
 | `L-250-2017.md` | Legea nr. 250/2017 supravegherea suplimentară a conglomeratelor financiare | 105629 | 2018-03-29, nemodificată | 23 | PASS, 251 linii | P8-bis; BNM și CNPF sub același regim |
 | `L-239-2008.md` | Legea nr. 239/2008 transparența în procesul decizional | 142655 | 2024-07-05 | 20 | PASS, 148 linii | P8-bis; lege generală, aici doar pentru că BNM o ține în registrul său |
+| `HBN-127-2013.md` | Hotărârea BNM nr. 127/2013, Regulamentul cu privire la deținerile în capitalul social al băncii | 126093 | 2021-05-09 | **0, structură pe puncte** | PASS, 390 linii | **primul act subordonat al BNM aici**, 2026-09-08; 75 de puncte în anexă, 10 capitole; anexele nr. 1–2^4 absente din text; pct. 8 definește circumstanțele obiective ale art. 46 din 202/2017 și numește succesiunea; denumire schimbată de HBN52/2021 |
 
 ## Ce s-a schimbat față de lista D3
 
@@ -47,6 +48,40 @@ După P9 au rămas în `raw/papers/bnm/legal/documents/` cinci traduceri engleze
 vault: 250/2017 (două variante), 550/1995 și 239/2008 (două variante). Cele trei acte au fost ingerate
 în aceeași zi, pe aceeași metodă. Cloudflare a cerut din nou bifa lui Eugen la prima navigare:
 verificarea expiră între sesiuni.
+
+## HBN-127-2013, 2026-09-08 — primul act subordonat al BNM
+
+Cerut de Eugen pentru speța moștenitorului unui acționar de bancă: art. 46 alin. (1) din 202/2017
+lasă „circumstanțele obiective" în seama actelor normative ale BNM, iar registrul dosarelor (M-001,
+punctul deschis (b)) nu putea spune dacă succesiunea este una dintre ele. Pct. 8 al regulamentului o
+numește expres: „prin succesiune; moştenire; donaţie sau alt mod de transmitere cu titlu gratuit".
+Detalii și capcane pe pagina de entitate `entities/HBN-127-2013.md`.
+
+Ce diferă față de metoda legilor:
+
+- **Structură pe puncte, zero ancore de articol.** Numerotarea repornește între hotărâre (pct. 1–4)
+  și regulamentul anexat (pct. 1–75, plus 20 de puncte cu exponent). O trimitere la „pct. N" nu
+  este ancorată; se citează prin capitol și punct. Aceeași consecință ca la `DCA-61-2024` și la
+  hotărârile de Guvern din `moldova-legal/`.
+- **Anexele nu sunt în text.** legis.md redă anexele nr. 1, 1^1, 2, 2^1–2^4 doar ca rânduri de
+  titlu cu marcaj de modificare. Chestionarele și declarațiile nu se pot cita din vault.
+- **Două denumiri de căutat.** HBN52/2021 a înlocuit „cotele de participare" cu „dețineri" în tot
+  textul, deci actele de modificare de dinainte de 2021 apar sub titlul vechi, iar cel din 2021
+  numai sub cel nou. Căutările în titlu, fără diacritice: „cotelor de participare in capitalul
+  bancii" (3 rânduri) și „detinerile in capitalul social al bancii" (4 rânduri).
+- **Descărcarea:** octeții serverului, prin `fetch` same-origin în pagina legis.md din Chrome-ul lui
+  Eugen și descărcare ca blob (156.741 de octeți), cu acordul lui explicit; nu DOM serializat ca la
+  P8. Instrumentul JavaScript al extensiei maschează orice `href` cu șir de interogare, deci
+  doc_id-urile s-au extras ca cifre simple. Verificarea Cloudflare a reapărut între două cereri și
+  s-a rezolvat la reîncărcare, fără clic.
+- **Consola:** `--precheck` cade pe consola Windows cp1252 la afișarea titlului cu „Ă"
+  (`UnicodeEncodeError`); se rulează cu `PYTHONUTF8=1`. Scripturile nu se schimbă.
+- **Trimitere învechită în sursă:** pct. 73 trimite la „articolul 54, alineatul (3) din Legea
+  privind societăţile pe acţiuni"; în `L-1134-1997` de astăzi lista este art. 52, data de referință
+  art. 56 alin. (1). Consemnat pe pagina de entitate, nu corectat.
+
+Următorul din aceeași listă: Regulamentul BNM nr. 130/2013 privind calculul drepturilor de vot și
+înregistrarea transferului, la care trimite pct. 11; corpusul englez are din el doar anexele.
 
 ## Ce rămâne deschis
 
