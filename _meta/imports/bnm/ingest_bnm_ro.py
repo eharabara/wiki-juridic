@@ -94,6 +94,19 @@ DOCS = {
     'HBN-127-2013': {'doc_id': '126093',
                      'title': 'Hotarirea BNM nr. 127/2013 cu privire la aprobarea Regulamentului '
                               'cu privire la detinerile in capitalul social al bancii'},
+    # ---- 2026-09-08, la cererea lui Eugen, al doilea act subordonat al BNM: actul la care trimite
+    # pct. 11 din HBN-127-2013 si art. 45 alin. (6)-(7) din 202/2017 (determinarea drepturilor de
+    # vot, inregistrarea transferului dreptului de proprietate asupra actiunilor bancii). Corpusul
+    # englez (raw/papers/bnm/legal/documents/091-092) are din el DOAR anexele. Structurat in puncte,
+    # zero ancore de articol. Gasit prin cautare in titlu "calculul drepturilor de vot" (3 rinduri:
+    # HBN130/2013 "Modificat", HBN25/2016, HBN260/2018). Versiuni: 13897 (2013), 92112 (2016),
+    # 111967 (23.12.2018, curenta). Fisa nu are rindul MODIFICAT, ci "Versiune in vigoare din
+    # 23.12.18 in baza modificarilor prin HBN260 din 24.10.18"; extract_doc o citeste. 2 <sup>,
+    # fara CUPRINS, zero marcaje "in vigoare" in corp; text scurt, ~14 mii de caractere.
+    'HBN-130-2013': {'doc_id': '111967',
+                     'title': 'Hotarirea BNM nr. 130/2013 cu privire la aprobarea Regulamentului '
+                              'cu privire la calculul drepturilor de vot si inregistrarea '
+                              'transferului dreptului de proprietate asupra actiunilor bancilor'},
 }
 
 

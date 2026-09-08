@@ -34,6 +34,7 @@ engleze neoficiale, neancorate. Regula D2: traducerea localizează, textul de ai
 | `L-250-2017.md` | Legea nr. 250/2017 supravegherea suplimentară a conglomeratelor financiare | 105629 | 2018-03-29, nemodificată | 23 | PASS, 251 linii | P8-bis; BNM și CNPF sub același regim |
 | `L-239-2008.md` | Legea nr. 239/2008 transparența în procesul decizional | 142655 | 2024-07-05 | 20 | PASS, 148 linii | P8-bis; lege generală, aici doar pentru că BNM o ține în registrul său |
 | `HBN-127-2013.md` | Hotărârea BNM nr. 127/2013, Regulamentul cu privire la deținerile în capitalul social al băncii | 126093 | 2021-05-09 | **0, structură pe puncte** | PASS, 390 linii | **primul act subordonat al BNM aici**, 2026-09-08; 75 de puncte în anexă, 10 capitole; anexele nr. 1–2^4 absente din text; pct. 8 definește circumstanțele obiective ale art. 46 din 202/2017 și numește succesiunea; denumire schimbată de HBN52/2021 |
+| `HBN-130-2013.md` | Hotărârea BNM nr. 130/2013, Regulamentul cu privire la calculul drepturilor de vot şi înregistrarea transferului dreptului de proprietate asupra acţiunilor băncilor | 111967 | 2018-12-23 | **0, structură pe puncte** | PASS, 82 linii | al doilea act subordonat, 2026-09-08; 18 puncte, 3 capitole; anexele 1–2 absente din text, dar prezente în engleză în corpusul BNM (091–092); pct. 14: dobândirea în circumstanțe obiective se înscrie fără aprobare prealabilă, cu vot suspendat |
 
 ## Ce s-a schimbat față de lista D3
 
@@ -82,6 +83,33 @@ Ce diferă față de metoda legilor:
 
 Următorul din aceeași listă: Regulamentul BNM nr. 130/2013 privind calculul drepturilor de vot și
 înregistrarea transferului, la care trimite pct. 11; corpusul englez are din el doar anexele.
+
+## HBN-130-2013, 2026-09-08 — regulamentul-pereche, ingerat în aceeași zi
+
+Actul la care trimit art. 45 alin. (6) și (7) din 202/2017 și pct. 11 din HBN-127-2013. Text scurt,
+18 puncte în trei capitole, versiune în vigoare din 23.12.2018 prin HBN260/2018, care l-a rescris pe
+Legea 202/2017. Pagina de entitate: `entities/HBN-130-2013.md`.
+
+Ce aduce și ce diferă:
+
+- **Pct. 14 tranșează înscrierea.** Dobândirea în circumstanțe obiective, deci și prin succesiune,
+  se înscrie la registrator sau custode **fără** aprobarea prealabilă a BNM, cu declarația de la
+  pct. 15, iar registratorul notează concomitent suspendarea dreptului de vot. Corectează lectura
+  din răspunsul de dimineață, care lăsa art. 45 alin. (6) ca blocaj la înscriere.
+- **Anexele sunt împărțite între două fișiere.** Textul românesc de pe legis.md are doar titlurile
+  anexelor 1 și 2; traducerea engleză din `raw/papers/bnm/legal/documents/091–092` are doar
+  anexele. Nu se retrag, spre deosebire de traducerile legilor de la P9.
+- **Marcaje fără paranteze.** Modificările HBN260/2018 sunt însemnate „Substituit/în redacţie prin
+  HBN260 ...", pe rând separat, fără număr de punct și fără dată de intrare în vigoare; data stă
+  doar în rândul de versiune din capul textului, pe care extractorul îl citește corect
+  (`consolidation_date: 2018-12-23`). Fișa nu are rândul „MODIFICAT".
+- **Titlu-pereche citat greșit în sursă.** Pct. 14 numește „Regulamentul cu privire la deținerile
+  de participare în capitalul social al băncii", formă care nu a existat niciodată. Consemnat, nu
+  corectat.
+- **Exponent turtit în preambul:** „articolelor 15-156 din Legea instituţiilor financiare" este
+  15–15^6. Text de sursă, rămâne așa.
+- Aceeași rută de descărcare ca la HBN-127-2013 (42.451 de octeți), Cloudflare reapărută o dată,
+  rezolvată la reîncărcare.
 
 ## Ce rămâne deschis
 

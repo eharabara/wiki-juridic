@@ -55,11 +55,14 @@ article from a future-dated act, and say in the answer which version applies tod
   P8-bis the same day, 550/1995 (now "lichidarea băncilor", formerly the law on financial
   institutions, mostly repealed), 250/2017 (financial conglomerates) and 239/2008 (transparency
   in decision-making). Cite banks from there, never from the English translations. Since
-  2026-09-08 the same folder holds the first BNM subordinate act in Romanian, `HBN-127-2013`,
-  the Regulation on holdings in bank capital (pct. 8 names succession among the "objective
-  circumstances" of art. 46 of Law 202/2017). It is structured in points, so a citation to
-  "pct. N" is not anchored; the English translation of it under `raw/papers/bnm/legal/` is
-  a translation and is used only to locate.
+  2026-09-08 the same folder holds the first two BNM subordinate acts in Romanian:
+  `HBN-127-2013`, the Regulation on holdings in bank capital (pct. 8 names succession among the
+  "objective circumstances" of art. 46 of Law 202/2017), and `HBN-130-2013`, the Regulation on
+  the calculation of voting rights and the registration of share transfers (pct. 14: an
+  acquisition in objective circumstances is registered without prior approval, with the vote
+  marked suspended). Both are structured in points, so a citation to "pct. N" is not anchored;
+  their English translations under `raw/papers/bnm/legal/` are translations, used only to
+  locate, and for 130/2013 the English file holds the annexes that the Romanian text lacks.
 - `raw/papers/cnpf/_manifest.md` — the source register. Read it before citing anything from the
   perimeter. It records mandate allocation between CNPF and BNM, acquis anchors, consolidation
   dates, and confidence per act.
@@ -102,9 +105,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-08 12:34 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-08 13:08 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-70 primary Moldovan acts, 29 EU acquis extracts, 284 BNM corpus documents.
+71 primary Moldovan acts, 29 EU acquis extracts, 284 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -124,6 +127,7 @@ Generated 2026-09-08 12:34 from the files themselves. Do not edit this section b
 | `CONST-1994` | 157 | 157 | 2024-11-05 | 8 articles numbered in Roman figures; 6 superscript articles normalised |
 | `DCA-61-2024` | 0 | 0 | 2024-05-05 | no article structure; **2.3 years old** |
 | `HBN-127-2013` | 0 | 0 | 2021-05-09 | no article structure; **5.3 years old** |
+| `HBN-130-2013` | 0 | 0 | 2018-12-23 | no article structure; **7.7 years old** |
 | `HG-1170-2016` | 0 | 0 | 2025-03-07 | no article structure |
 | `HG-1171-2018` | - | 0 | 2024-07-05 | numbered points (65), not articles; **2.2 years old** |
 | `HG-553-2024` | 0 | 0 | 2025-10-18 | no article structure |
@@ -182,7 +186,7 @@ Generated 2026-09-08 12:34 from the files themselves. Do not edit this section b
 ### Mechanical flags
 
 - **Not yet in force.** 13 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-1134-1997` (2028-01-01), `L-171-2012` (2027-06-01), `COD-122-2003` (2026-12-02), `COD-154-2003` (2027-01-01), `COD-218-2008` (2026-09-13), `COD-443-2004` (2026-12-02), `COD-985-2002` (2026-12-02), `HG-743-2024` (2026-12-30), `L-1543-1998` (2027-01-01), `L-158-2008` (2026-09-13), `L-325-2025` (2027-01-01), `L-845-1992` (2027-01-01), `L-114-2012` (2027-01-01). 73 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
-- **Stale consolidations.** `L-250-2017` (2018-03-29), `HBN-127-2013` (2021-05-09), `UA-STATUT-2011` (2022-05-27), `L-160-2023` (2023-10-01), `L-148-2023` (2024-01-08), `L-64-2010` (2024-01-23), `DCA-61-2024` (2024-05-05), `HG-1171-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `HG-574-2024` (2024-08-23). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
+- **Stale consolidations.** `L-250-2017` (2018-03-29), `HBN-130-2013` (2018-12-23), `HBN-127-2013` (2021-05-09), `UA-STATUT-2011` (2022-05-27), `L-160-2023` (2023-10-01), `L-148-2023` (2024-01-08), `L-64-2010` (2024-01-23), `DCA-61-2024` (2024-05-05), `HG-1171-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `HG-574-2024` (2024-08-23). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
 - **Stale count line inside the file.** `L-177-2025` (body says 0, anchors 4), `L-178-2020` (body says 0, anchors 8), `L-192-1998` (body says 0, anchors 34). The frontmatter is right and the anchors are right; the human-readable line in the body was written by the original ingest and never updated. Cosmetic, but it is the line a reader sees first.
 - **BNM English corpus.** 60 file(s) carry 149 line-initial `Article N` markers and no anchors. Any answer resting on the English BNM translations is not anchored.
 

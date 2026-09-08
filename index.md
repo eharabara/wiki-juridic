@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-08 | Total pages: 112
+> Last updated: 2026-09-08 | Total pages: 113
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -28,6 +28,7 @@
 - [[CONST-1994]] — Constituția Republicii Moldova, republicată 13.11.2024: 157 de ancore (143 de articole fără lacune, 6 cu exponent, I–VIII finale); titlul articolului stă pe linia de după ancoră; fără marcaje de modificare în text.
 - [[DCA-61-2024]] — Regulamentul privind conținuturile audiovizuale, act secundar al Consiliului Audiovizualului: pct. 90 interzice în comunicările comerciale produsele și serviciile interzise prin lege; structură pe puncte, fără ancore de articol.
 - [[HBN-127-2013]] — Regulamentul BNM cu privire la deținerile în capitalul social al băncii (Hotărârea BNM nr. 127/2013): pct. 8 numește succesiunea și moștenirea printre circumstanțele obiective ale art. 46 din Legea 202/2017, cu drepturile suspendate până la aprobarea BNM; structură pe puncte, fără ancore de articol; consolidare 2021-05-09, curentă.
+- [[HBN-130-2013]] — Regulamentul BNM cu privire la calculul drepturilor de vot şi înregistrarea transferului dreptului de proprietate asupra acţiunilor băncilor (Hotărârea BNM nr. 130/2013): pct. 14 înscrie dobândirile în circumstanțe obiective fără aprobare prealabilă, cu vot suspendat; pct. 15 cere declarația de activitate concertată la orice transfer; structură pe puncte, fără ancore de articol; versiune în vigoare din 23.12.2018.
 - [[HG-1170-2016]] — Hotărârea Guvernului nr. 1170/2016 privind transmiterea, schimbarea destinației și schimbul de terenuri; **abrogată integral de la 07.03.2025** prin pct. 3 din HG 553/2024, verificat pe text
 - [[HG-1171-2018]] — Regulamentul privind armonizarea legislației Republicii Moldova cu legislația UE
 - [[HG-553-2024]] — Regulamentul schimbării destinației terenurilor agricole de calitate superioară și ale fondului forestier și apelor (HG 553/2024, în vigoare 07.03.2025, temei Codul funciar 22/2024): pct. 3 din hotărâre abrogă integral HG 1170/2016, fără tranzitorii; transmiterea și schimbul de terenuri rămân fără regulament; structură pe puncte, fără ancore.
