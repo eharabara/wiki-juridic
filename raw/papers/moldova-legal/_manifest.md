@@ -1719,6 +1719,22 @@ investigații fiind acum 138^1–138^N; iar art. 452–457 au dispărut cu tot c
 „abrogată” ca întreg. (4) Cloudflare a reapărut o dată în mijlocul lucrului (pagina „Just a moment”) și
 s-a rezolvat singură la a doua încărcare, fără intervenție. Nimic din `raw/` atins.
 
+### U.13. `COD-985-2002`, cele opt hotărâri ale Curții din fișă, recuperate la articol (2026-09-08)
+
+Pasul 5.3, continuare, la cererea lui Eugen. Versiunile 17781, 93751, 94191, 109485, 109490, 118807,
+127791, 129474, toate cu marcaj; hotărârile 15880, 100435, 30023, 111031, 111139, 118717, 127780,
+129451, găsite prin „codul penal” în titlu. 16 rânduri noi, dintre care două pentru Codul de
+executare (HCC18/2013, art. 174 alin. (3^1) și 291^1, luate din dispozitiv fără a citi versiunea
+acelui cod). Acum 8/8 pentru Codul penal.
+
+Ce s-a învățat în plus. (1) Cel mai curat act de până acum: toate cele opt versiuni au marcaj, șapte
+în paranteze drepte cu articolul; numai 2013 e în forma veche, cu paranteze rotunde, lipită de rândul
+următor și datată cu data MO. (2) Șase din opt sunt o singură linie: previzibilitatea „intereselor
+publice” și „urmărilor grave” în infracțiunile de serviciu, patru hotărâri 2017–2021 pe art. 327, 328,
+329, 335, 361, 189, 307; HCC24/2019 singură lovește șase texte. (3) Toate cele opt au fost rescrise de
+Parlament; art. 104^1 a dispărut fără stub. (4) Defecte de fișă: „cт.4” chirilic (HCC33/2017),
+„art.89” contra „art.88” din marcaj (HCC12/2018). Nimic din `raw/` atins.
+
 ### U.5. Ce a rămas în afara acestei seri
 
 - `COD-218-2008` ar câștiga două ancore de carte cu regula nouă din extractor; neaplicat.

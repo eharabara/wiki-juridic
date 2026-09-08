@@ -1462,7 +1462,38 @@
      "text": "HCC18 din 04.07.13, МО182-185/23.08.13 art.27"
     }
    ],
-   "recovered": [],
+   "recovered": [
+    {
+     "instrument": "COD-443-2004",
+     "hcc": "HCC18/2013-07-04",
+     "article": "174",
+     "subunit": "alin. (3^1)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO182-185/23.08.13 art.27",
+     "read_doc_id": null,
+     "read_consolidation": null,
+     "decision_doc_id": "15880",
+     "verified": "2026-09-08",
+     "status_today": "alin. (3^1) - abrogat",
+     "summary": "Articol luat din dispozitivul HCC18/2013 (citita pentru Codul penal); nicio versiune a Codului de executare citita. Executarea castrarii chimice."
+    },
+    {
+     "instrument": "COD-443-2004",
+     "hcc": "HCC18/2013-07-04",
+     "article": "291^1",
+     "subunit": null,
+     "scope": "articol intreg",
+     "quoted_text": null,
+     "official_gazette": "MO182-185/23.08.13 art.27",
+     "read_doc_id": null,
+     "read_consolidation": null,
+     "decision_doc_id": "15880",
+     "verified": "2026-09-08",
+     "status_today": "art. 291^1 - abrogat",
+     "summary": "Vezi rindul art. 174 alin. (3^1)."
+    }
+   ],
    "unattributed": [
     {
      "hcc": "HCC11/2021-03-25",
@@ -1488,11 +1519,6 @@
      "hcc": "HCC17/2017-05-10",
      "line": 156,
      "text": "HCC17 din 10.05.17, МО244-251/14.07.17 art.77"
-    },
-    {
-     "hcc": "HCC18/2013-07-04",
-     "line": 170,
-     "text": "HCC18 din 04.07.13, МО182-185/23.08.13 art.27"
     }
    ],
    "distinct_hcc": [
@@ -1552,49 +1578,219 @@
      "text": "HCC18 din 04.07.13, МО182-185/23.08.13 art.27"
     }
    ],
-   "recovered": [],
-   "unattributed": [
+   "recovered": [
     {
-     "hcc": "HCC39/2021-12-21",
-     "line": 273,
-     "text": "HCC39 din 21.12.21, MO325-333/31.12.21 art.232; în vigoare 21.12.21"
-    },
-    {
-     "hcc": "HCC25/2021-08-12",
-     "line": 275,
-     "text": "HCC25 din 12.08.21, MO212-218/10.09.21 art.164; în vigoare 12.08.21"
-    },
-    {
-     "hcc": "HCC24/2019-10-17",
-     "line": 284,
-     "text": "HCC24 din 17.10.19, MO338-343/15.11.19 art.207; în vigoare 17.10.19"
-    },
-    {
-     "hcc": "HCC22/2018-10-01",
-     "line": 290,
-     "text": "HCC22 din 01.10.18, МО416-422/09.11.18 art.146"
-    },
-    {
-     "hcc": "HCC12/2018-05-14",
-     "line": 295,
-     "text": "HCC12 din 14.05.18, МО176-180/01.06.18 art.89"
-    },
-    {
-     "hcc": "HCC33/2017-12-07",
-     "line": 298,
-     "text": "HCC33 din 07.12.17, MO27-32/26.01.18 cт.4"
-    },
-    {
-     "hcc": "HCC22/2017-06-27",
-     "line": 304,
-     "text": "HCC22 din 27.06.17, MO352-355/29.09.17 art.92"
-    },
-    {
+     "instrument": "COD-985-2002",
      "hcc": "HCC18/2013-07-04",
-     "line": 335,
-     "text": "HCC18 din 04.07.13, МО182-185/23.08.13 art.27"
+     "article": "98",
+     "subunit": "alin. (2) lit. b^1)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO182-185/23.08.13 art.27",
+     "read_doc_id": "17781",
+     "read_consolidation": "2013-07-04",
+     "decision_doc_id": "15880",
+     "verified": "2026-09-08",
+     "status_today": "lit. b^1) (castrarea chimica) nu mai este in enumerare",
+     "summary": "Marcaj in paranteze rotunde in versiunea 17781, lipit de lit. d) si datat gresit '23.08.13' (data MO); dispozitivul: art. 98 alin. (2) lit. b^1) si art. 104^1 din Codul penal, art. 174 alin. (3^1) si art. 291^1 din Codul de executare, in redactia LP34/2012 (castrarea chimica), neconstitutionale."
+    },
+    {
+     "instrument": "COD-985-2002",
+     "hcc": "HCC18/2013-07-04",
+     "article": "104^1",
+     "subunit": null,
+     "scope": "articol intreg",
+     "quoted_text": null,
+     "official_gazette": "MO182-185/23.08.13 art.27",
+     "read_doc_id": "17781",
+     "read_consolidation": "2013-07-04",
+     "decision_doc_id": "15880",
+     "verified": "2026-09-08",
+     "status_today": "art. 104^1 nu exista in text, nici ca stub",
+     "summary": "Vezi rindul art. 98; marcaj dupa alin. (4) al art. 104^1 in versiunea 17781."
+    },
+    {
+     "instrument": "COD-985-2002",
+     "hcc": "HCC22/2017-06-27",
+     "article": "328",
+     "subunit": "alin. (1)",
+     "scope": "text din articol",
+     "quoted_text": "intereselor publice sau",
+     "official_gazette": "MO352-355/29.09.17 art.92",
+     "read_doc_id": "93751",
+     "read_consolidation": "2017-06-27",
+     "decision_doc_id": "100435",
+     "verified": "2026-09-08",
+     "status_today": "alin. (1) rescris fara 'intereselor publice'",
+     "summary": "Marcaj cu paranteze drepte in versiunea 93751; textul 'daune in proportii considerabile drepturilor si intereselor ocrotite de lege' recunoscut constitutional (pct. 3). Prima dintre cele patru hotariri pe 'intereselor publice sau'."
+    },
+    {
+     "instrument": "COD-985-2002",
+     "hcc": "HCC33/2017-12-07",
+     "article": "327",
+     "subunit": "alin. (1)",
+     "scope": "text din articol",
+     "quoted_text": "intereselor publice sau",
+     "official_gazette": "MO27-32/26.01.18 art.4",
+     "read_doc_id": "94191",
+     "read_consolidation": "2017-12-07",
+     "decision_doc_id": "30023",
+     "verified": "2026-09-08",
+     "status_today": "alin. (1) rescris integral (actiune cu incalcarea legii, din interes material sau personal)",
+     "summary": "Marcaj cu paranteze drepte in versiunea 94191; 'a situatiei de serviciu' recunoscut constitutional in masura in care se refera la atributiile acordate prin lege (pct. 3). Fisa scrie 'cт.4' cu litere chirilice pentru 'art.4'."
+    },
+    {
+     "instrument": "COD-985-2002",
+     "hcc": "HCC33/2017-12-07",
+     "article": "361",
+     "subunit": "alin. (2) lit. d)",
+     "scope": "text din articol",
+     "quoted_text": "intereselor publice sau",
+     "official_gazette": "MO27-32/26.01.18 art.4",
+     "read_doc_id": "94191",
+     "read_consolidation": "2017-12-07",
+     "decision_doc_id": "30023",
+     "verified": "2026-09-08",
+     "status_today": "lit. d) fara 'intereselor publice sau'",
+     "summary": "Vezi rindul art. 327 alin. (1); al doilea marcaj al aceleiasi versiuni."
+    },
+    {
+     "instrument": "COD-985-2002",
+     "hcc": "HCC12/2018-05-14",
+     "article": "361",
+     "subunit": "alin. (2) lit. c)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO176-180/01.06.18 art.89",
+     "read_doc_id": "109485",
+     "read_consolidation": "2018-05-14",
+     "decision_doc_id": "111031",
+     "verified": "2026-09-08",
+     "status_today": "lit. c) - abrogata",
+     "summary": "Marcaj cu paranteze drepte in versiunea 109485 (MO 'art.88' in marcaj, 'art.89' in fisa); 'document de importanta deosebita' neconstitutional in intregime."
+    },
+    {
+     "instrument": "COD-985-2002",
+     "hcc": "HCC22/2018-10-01",
+     "article": "328",
+     "subunit": "alin. (3) lit. d)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO416-422/09.11.18 art.146",
+     "read_doc_id": "109490",
+     "read_consolidation": "2018-10-01",
+     "decision_doc_id": "111139",
+     "verified": "2026-09-08",
+     "status_today": "alin. (3) rescris, fara litere; 'urmari grave' disparut",
+     "summary": "Marcaj cu paranteze drepte in versiunea 109490, scris 'neconstrituțional'; excesul de putere soldat cu urmari grave."
+    },
+    {
+     "instrument": "COD-985-2002",
+     "hcc": "HCC24/2019-10-17",
+     "article": "189",
+     "subunit": "alin. (3) lit. f)",
+     "scope": "text din articol",
+     "quoted_text": "soldate cu alte urmări grave",
+     "official_gazette": "MO338-343/15.11.19 art.207",
+     "read_doc_id": "118807",
+     "read_consolidation": "2019-10-17",
+     "decision_doc_id": "118717",
+     "verified": "2026-09-08",
+     "status_today": "lit. f) de la alin. (3) - abrogata (lit. f) de la alin. (2) e alta)",
+     "summary": "Sase marcaje cu paranteze drepte in versiunea 118807, o singura hotarire pe 'urmari grave' si 'intereselor publice': art. 189 alin. (3) lit. f), 307 alin. (2) lit. c), 327 alin. (2) lit. c), 329 alin. (1) si alin. (2) lit. b), 335 alin. (1^1). Dispozitivul pct. 7 citit partial (lista incepe cu art. 189); marcajele acopera toate sase."
+    },
+    {
+     "instrument": "COD-985-2002",
+     "hcc": "HCC24/2019-10-17",
+     "article": "307",
+     "subunit": "alin. (2) lit. c)",
+     "scope": "text din articol",
+     "quoted_text": "soldată cu urmări grave",
+     "official_gazette": "MO338-343/15.11.19 art.207",
+     "read_doc_id": "118807",
+     "read_consolidation": "2019-10-17",
+     "decision_doc_id": "118717",
+     "verified": "2026-09-08",
+     "status_today": "alin. (2) rescris: lit. b) 'daune in proportii deosebit de mari', fara lit. c)",
+     "summary": "Vezi rindul art. 189."
+    },
+    {
+     "instrument": "COD-985-2002",
+     "hcc": "HCC24/2019-10-17",
+     "article": "327",
+     "subunit": "alin. (2) lit. c)",
+     "scope": "text din articol",
+     "quoted_text": "soldată cu urmări grave",
+     "official_gazette": "MO338-343/15.11.19 art.207",
+     "read_doc_id": "118807",
+     "read_consolidation": "2019-10-17",
+     "decision_doc_id": "118717",
+     "verified": "2026-09-08",
+     "status_today": "lit. c) rescrisa: 'care a cauzat daune in proportii mari'",
+     "summary": "Vezi rindul art. 189."
+    },
+    {
+     "instrument": "COD-985-2002",
+     "hcc": "HCC24/2019-10-17",
+     "article": "329",
+     "subunit": "alin. (1) si alin. (2) lit. b)",
+     "scope": "text din articol",
+     "quoted_text": "intereselor publice sau; alte urmări grave",
+     "official_gazette": "MO338-343/15.11.19 art.207",
+     "read_doc_id": "118807",
+     "read_consolidation": "2019-10-17",
+     "decision_doc_id": "118717",
+     "verified": "2026-09-08",
+     "status_today": "alin. (1) rescris (obligatii prevazute de lege); lit. b) 'daune in proportii deosebit de mari'",
+     "summary": "Vezi rindul art. 189."
+    },
+    {
+     "instrument": "COD-985-2002",
+     "hcc": "HCC24/2019-10-17",
+     "article": "335",
+     "subunit": "alin. (1^1)",
+     "scope": "text din articol",
+     "quoted_text": "Acțiunile prevăzute la alin. (1), soldate cu urmări grave",
+     "official_gazette": "MO338-343/15.11.19 art.207",
+     "read_doc_id": "118807",
+     "read_consolidation": "2019-10-17",
+     "decision_doc_id": "118717",
+     "verified": "2026-09-08",
+     "status_today": "alin. (1^1) in forma veche nu mai exista; art. 335 rescris",
+     "summary": "Vezi rindul art. 189; marcajul scrie 'al.(11)' pentru (1^1)."
+    },
+    {
+     "instrument": "COD-985-2002",
+     "hcc": "HCC25/2021-08-12",
+     "article": "287",
+     "subunit": "alin. (1)",
+     "scope": "text din articol",
+     "quoted_text": "grosolan; cinism sau",
+     "official_gazette": "MO212-218/10.09.21 art.164",
+     "read_doc_id": "127791",
+     "read_consolidation": "2021-08-12",
+     "decision_doc_id": "127780",
+     "verified": "2026-09-08",
+     "status_today": "alin. (1) fara 'grosolan' si fara 'cinism'",
+     "summary": "Marcaj cu paranteze drepte in versiunea 127791; huliganismul, neclaritatea normei."
+    },
+    {
+     "instrument": "COD-985-2002",
+     "hcc": "HCC39/2021-12-21",
+     "article": "335",
+     "subunit": "alin. (1)",
+     "scope": "text din articol",
+     "quoted_text": "intereselor publice sau",
+     "official_gazette": "MO325-333/31.12.21 art.232",
+     "read_doc_id": "129474",
+     "read_consolidation": "2021-12-21",
+     "decision_doc_id": "129451",
+     "verified": "2026-09-08",
+     "status_today": "alin. (1) rescris integral",
+     "summary": "Marcaj cu paranteze drepte in versiunea 129474; a patra hotarire pe 'intereselor publice sau' (dupa 328, 327/361, 329), de data asta in sectorul privat."
     }
    ],
+   "unattributed": [],
    "distinct_hcc": [
     "HCC12/2018-05-14",
     "HCC18/2013-07-04",
@@ -1947,7 +2143,7 @@
   "acts": 18,
   "distinct_hcc": 76,
   "markers_in_text": 16,
-  "recovered": 53,
-  "unattributed": 34
+  "recovered": 69,
+  "unattributed": 25
  }
 }
