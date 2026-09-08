@@ -69,6 +69,12 @@ article from a future-dated act, and say in the answer which version applies tod
   with `_PROVENANCE.md`. Frozen. `queries/` is empty until a real query page is written.
 - `_meta/coverage/` — the script that generates the coverage section of this file.
 - `_meta/inforce/` — the register of provisions not yet in force, and the script that builds it.
+- `_meta/hcc/` — since 2026-09-08, the register of provisions declared unconstitutional in the
+  acts held, and its builder. Read `hcc-register.md` before citing an article from any act it
+  lists: legis.md leaves the annulled text in place, and after a refresh only the `HCCnn din ...`
+  row survives in the act's history block, with no article. The register's last table names the
+  act–decision pairs whose article is still unknown; `recovered-provisions.json` is where a
+  recovered one is written, by hand, with the doc_id of the version it was read from.
 - `_meta/lint/` — the lint scripts and their outputs. **Do not run
   `run_cnpf_legal_lint.py`.** It is the July script and it has not survived the D4 rewrite of
   SCHEMA.md: it reports all 757 page tags invalid (its allowlist scrapes a format that no longer
@@ -91,7 +97,7 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-07 12:33 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-08 11:19 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
 69 primary Moldovan acts, 29 EU acquis extracts, 284 BNM corpus documents.
 

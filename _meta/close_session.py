@@ -39,6 +39,7 @@ PY = sys.executable
 STEPS = [
     # (nume, script, argumente la regenerare, argumente la --check)
     ("registrul in-force", "_meta/inforce/build_inforce_register.py", [], ["--check"]),
+    ("registrul HCC", "_meta/hcc/build_hcc_register.py", [], ["--check"]),
     ("blocul de acoperire din CLAUDE.md", "_meta/coverage/build_coverage.py", [], ["--check"]),
     ("blocul mecanic din SCHEMA.md", "_meta/schema/build_schema.py", [], ["--check"]),
 ]

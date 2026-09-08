@@ -1,0 +1,4 @@
+{
+  "_note": "Dispozitii declarate neconstitutionale ale caror marcaje s-au pierdut din consolidarea detinuta si au fost recuperate citind pe legis.md versiunea produsa de hotarire (istoricul de versiuni, showDetails; fetch in pagina, fara descarcare; memoria legis-md-fetch-route, manifest moldova-legal U.7). Scris de mina. Citit de build_hcc_register.py. Fiecare rind poarta doc_id-ul si data versiunii citite si data verificarii. Cimpuri: instrument, hcc (forma HCCnn/AAAA-LL-ZZ, ca in registru), article, subunit, scope (articol intreg | subunitate | text din articol | in parte | omisiune legislativa | interpretare), quoted_text, official_gazette, read_doc_id, read_consolidation, verified, summary.",
+  "provisions": []
+}

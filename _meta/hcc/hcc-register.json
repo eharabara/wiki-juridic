@@ -1,0 +1,1323 @@
+{
+ "generated": "2026-09-08",
+ "acts": [
+  {
+   "instrument": "COD-116-2018",
+   "file": "raw/papers/moldova-legal/COD-116-2018.md",
+   "doc_id": "150447",
+   "consolidation_date": "2025-08-31",
+   "markers": [
+    {
+     "article": "225",
+     "subunit": "alin. (3)",
+     "quoted_text": null,
+     "scope": "in parte",
+     "hcc": [
+      "HCC27/2020-11-13"
+     ],
+     "official_gazette": "MO332-342/11.12.20 art.183",
+     "marker": "Art.225 alin. (3) în partea în care limitează competența instanțelor de judecată de a efectua controlul proporționalității actelor administrative individuale și normative, declarat neconstituțional prin HCC27 din 13.11.20, MO332-342/11.12.20 art.183; în vigoare 11.12.20",
+     "line": 1589
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC27/2020-11-13",
+     "line": 60,
+     "text": "HCC27 din 13.11.20, MO332-342/11.12.20 art.183; în vigoare 13.11.20"
+    },
+    {
+     "hcc": "HCC17/2020-06-23",
+     "line": 61,
+     "text": "HCC17 din 23.06.20, MO188-192/24.07.20 art.100; în vigoare 23.06.20 |"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC17/2020-06-23",
+     "line": 61,
+     "text": "HCC17 din 23.06.20, MO188-192/24.07.20 art.100; în vigoare 23.06.20 |"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC17/2020-06-23",
+    "HCC27/2020-11-13"
+   ]
+  },
+  {
+   "instrument": "COD-1163-1997",
+   "file": "raw/papers/moldova-legal/COD-1163-1997.md",
+   "doc_id": "138613",
+   "consolidation_date": "2026-07-01",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC10/2024-04-04",
+     "line": 237,
+     "text": "HCC10 din 04.04.24, MO177-180/18.04.24 art.57; în vigoare 04.04.24"
+    },
+    {
+     "hcc": "HCC5/2024-03-05",
+     "line": 240,
+     "text": "HCC5 din 05.03.24, MO141-143/09.04.24 art.50; în vigoare 05.03.24"
+    },
+    {
+     "hcc": "HCC22/2020-08-06",
+     "line": 290,
+     "text": "HCC22 din 06.08.20, MO221-225/28.08.20 art.121; în vigoare 06.08.20"
+    },
+    {
+     "hcc": "HCC20/2018-07-04",
+     "line": 325,
+     "text": "HCC20 din 04.07.18, MO267-275/20.07.18 art.119"
+    },
+    {
+     "hcc": "HCC17/2014-05-29",
+     "line": 359,
+     "text": "HCC17 din 29.05.14, MO223-230/08.08.14 art.30; în vigoare 29.05.14"
+    },
+    {
+     "hcc": "HCC11/2014-03-25",
+     "line": 363,
+     "text": "HCC11 din 25.03.14, MO115-119/16.05.14 art.17; în vigoare 25.03.14"
+    },
+    {
+     "hcc": "HCC8/2014-02-14",
+     "line": 366,
+     "text": "HCC8 din 14.02.14, MO92-98/18.04.14 art.13; în vigoare 14.02.14"
+    },
+    {
+     "hcc": "HCC7/2014-02-13",
+     "line": 367,
+     "text": "HCC7 din 13.02.14, MO92-98/18.04.14 art.12; în vigoare 13.02.14"
+    },
+    {
+     "hcc": "HCC2/2014-01-28",
+     "line": 368,
+     "text": "HCC2 din 28.01.14, MO80-85/04.04.14 art.10; în vigoare 28.01.14"
+    },
+    {
+     "hcc": "HCC12/1999-03-11",
+     "line": 529,
+     "text": "HCC12 din 11.03.99, MO27-28/ 23.03.99 art. 21"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC10/2024-04-04",
+     "line": 237,
+     "text": "HCC10 din 04.04.24, MO177-180/18.04.24 art.57; în vigoare 04.04.24"
+    },
+    {
+     "hcc": "HCC5/2024-03-05",
+     "line": 240,
+     "text": "HCC5 din 05.03.24, MO141-143/09.04.24 art.50; în vigoare 05.03.24"
+    },
+    {
+     "hcc": "HCC22/2020-08-06",
+     "line": 290,
+     "text": "HCC22 din 06.08.20, MO221-225/28.08.20 art.121; în vigoare 06.08.20"
+    },
+    {
+     "hcc": "HCC20/2018-07-04",
+     "line": 325,
+     "text": "HCC20 din 04.07.18, MO267-275/20.07.18 art.119"
+    },
+    {
+     "hcc": "HCC17/2014-05-29",
+     "line": 359,
+     "text": "HCC17 din 29.05.14, MO223-230/08.08.14 art.30; în vigoare 29.05.14"
+    },
+    {
+     "hcc": "HCC11/2014-03-25",
+     "line": 363,
+     "text": "HCC11 din 25.03.14, MO115-119/16.05.14 art.17; în vigoare 25.03.14"
+    },
+    {
+     "hcc": "HCC8/2014-02-14",
+     "line": 366,
+     "text": "HCC8 din 14.02.14, MO92-98/18.04.14 art.13; în vigoare 14.02.14"
+    },
+    {
+     "hcc": "HCC7/2014-02-13",
+     "line": 367,
+     "text": "HCC7 din 13.02.14, MO92-98/18.04.14 art.12; în vigoare 13.02.14"
+    },
+    {
+     "hcc": "HCC2/2014-01-28",
+     "line": 368,
+     "text": "HCC2 din 28.01.14, MO80-85/04.04.14 art.10; în vigoare 28.01.14"
+    },
+    {
+     "hcc": "HCC12/1999-03-11",
+     "line": 529,
+     "text": "HCC12 din 11.03.99, MO27-28/ 23.03.99 art. 21"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC10/2024-04-04",
+    "HCC11/2014-03-25",
+    "HCC12/1999-03-11",
+    "HCC17/2014-05-29",
+    "HCC2/2014-01-28",
+    "HCC20/2018-07-04",
+    "HCC22/2020-08-06",
+    "HCC5/2024-03-05",
+    "HCC7/2014-02-13",
+    "HCC8/2014-02-14"
+   ]
+  },
+  {
+   "instrument": "COD-122-2003",
+   "file": "raw/papers/moldova-legal/COD-122-2003.md",
+   "doc_id": "156138",
+   "consolidation_date": "2026-12-02",
+   "markers": [
+    {
+     "article": "178",
+     "subunit": null,
+     "quoted_text": null,
+     "scope": "omisiune legislativa",
+     "hcc": [
+      "HCC19/2018-07-03"
+     ],
+     "official_gazette": "MO267-275/20.07.18 art. 118",
+     "marker": "Art. 178 în partea referitoare la omisiunea de a reglementa durata maximă pentru care poate fi dispusă obligația de a nu părăsi ţara declarată neconstituțională prin HCC19 din 03.07.18, MO267-275/20.07.18 art. 118; în vigoare 03.07.18",
+     "line": 2912
+    },
+    {
+     "article": "185",
+     "subunit": "al.(1)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC27/2018-10-30"
+     ],
+     "official_gazette": "MO430-439/23.11.18 art. 164",
+     "marker": "Art. 185 al.(1) textul „şi în cazul infracţiunilor care au fost săvârșite fără aplicarea constrângerii fizice sau psihice, nu s-au soldat cu cauzarea de prejudicii vieţii şi sănătăţii persoanei sau nu au fost săvârșite de un grup criminal organizat sau de o organizaţie criminală, învinuitul, inculpatul nu a recunoscut vina în comiterea infracţiunii” declarat neconstituțional prin HCC27 din 30.10.1",
+     "line": 2987
+    },
+    {
+     "article": "191",
+     "subunit": null,
+     "quoted_text": null,
+     "scope": "omisiune legislativa",
+     "hcc": [
+      "HCC17/2016-05-19"
+     ],
+     "official_gazette": "MO232-244/29.07.16 art. 62",
+     "marker": "Art. 191 în partea ce ține de omisiunea de a reglementa termenul pentru care poate fi dispus controlul judiciar şi durata maximă a acestei măsuri declarat neconstituțional HCC17 din 19.05.16, MO232-244/29.07.16 art. 62; în vigoare 19.05.16",
+     "line": 3084
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC3/2023-01-24",
+     "line": 221,
+     "text": "HCC3 din 24.01.23, MO31-34/03.02.23 art.14; în vigoare 24.01.23"
+    },
+    {
+     "hcc": "HCC29/2021-09-21",
+     "line": 231,
+     "text": "HCC29 din 21.09.21, MO256-260/22.10.21 art.184; în vigoare 21.09.21"
+    },
+    {
+     "hcc": "HCC31/2021-09-23",
+     "line": 232,
+     "text": "HCC31 din 23.09.21, MO264-265/29.10.21 art.187; în vigoare 23.09.21"
+    },
+    {
+     "hcc": "HCC12/2021-04-06",
+     "line": 234,
+     "text": "HCC12 din 06.04.21, MO100-103/16.04.21 art.58; în vigoare 06.04.21"
+    },
+    {
+     "hcc": "HCC26/2020-11-10",
+     "line": 239,
+     "text": "HCC26 din 10.11.20, MO313-317/27.11.20 art.176; în vigoare 27.11.20"
+    },
+    {
+     "hcc": "HCC15/2020-05-28",
+     "line": 243,
+     "text": "HCC15 din 28.05.20, MO142-149/12.06.20 art.78; în vigoare 28.05.20"
+    },
+    {
+     "hcc": "HCC2/2020-01-23",
+     "line": 246,
+     "text": "HCC2 din 23.01.20, MO44-54/14.02.20 art.36"
+    },
+    {
+     "hcc": "HCC6/2019-03-19",
+     "line": 247,
+     "text": "HCC6 din 19.03.19, MO119-131/05.04.19 art.63"
+    },
+    {
+     "hcc": "HCC27/2018-10-30",
+     "line": 254,
+     "text": "HCC27 din 30.10.18, MO430-439/23.11.18 art.164"
+    },
+    {
+     "hcc": "HCC19/2018-07-03",
+     "line": 257,
+     "text": "HCC19 din 03.07.18, МО267-275/20.07.18 art.118"
+    },
+    {
+     "hcc": "HCC17/2016-05-19",
+     "line": 281,
+     "text": "HCC17 din 19.05.16, МО232-244/29.07.16 art.62"
+    },
+    {
+     "hcc": "HCC3/2016-02-23",
+     "line": 283,
+     "text": "HCC3 din 23.02.16, МО49-54/04.03.16 art.8"
+    },
+    {
+     "hcc": "HCC12/2015-05-14",
+     "line": 287,
+     "text": "HCC12 din 14.05.15, MO254-257/11.09.15 cm.25"
+    },
+    {
+     "hcc": "HCC3/2012-02-09",
+     "line": 309,
+     "text": "HCC3 din 09.02.12, MO38-41/24.02.12 art.7"
+    },
+    {
+     "hcc": "HCC26/2010-11-23",
+     "line": 317,
+     "text": "HCC26 din 23.11.10 МО 235-240 din 03.12.10 art. 27"
+    },
+    {
+     "hcc": "HCC9/2008-05-20",
+     "line": 331,
+     "text": "HCC 9 din 20.05.08, МО99-101/06.06.08 art.7"
+    },
+    {
+     "hcc": "HCC16/2005-07-19",
+     "line": 357,
+     "text": "HCC16 din 19.07.05, МО101-103/29.07.05 art.12 |"
+    },
+    {
+     "hcc": "HCC16/2005-07-19",
+     "line": 375,
+     "text": "HCC16 din 19.07.05, MO101-103/29.07.05, art.12"
+    },
+    {
+     "hcc": "HCC9/2008-05-20",
+     "line": 403,
+     "text": "HCC9 din 20.05.08, MO99-101/06.06.08, art.7"
+    },
+    {
+     "hcc": "HCC26/2010-11-23",
+     "line": 415,
+     "text": "HCC26 din 23.11.10, MO235-240/03.12.10, art.27"
+    },
+    {
+     "hcc": "HCC3/2012-02-09",
+     "line": 424,
+     "text": "HCC3 din 09.02.12, MO38-41/24.02.12, art.7"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC3/2023-01-24",
+     "line": 221,
+     "text": "HCC3 din 24.01.23, MO31-34/03.02.23 art.14; în vigoare 24.01.23"
+    },
+    {
+     "hcc": "HCC29/2021-09-21",
+     "line": 231,
+     "text": "HCC29 din 21.09.21, MO256-260/22.10.21 art.184; în vigoare 21.09.21"
+    },
+    {
+     "hcc": "HCC31/2021-09-23",
+     "line": 232,
+     "text": "HCC31 din 23.09.21, MO264-265/29.10.21 art.187; în vigoare 23.09.21"
+    },
+    {
+     "hcc": "HCC12/2021-04-06",
+     "line": 234,
+     "text": "HCC12 din 06.04.21, MO100-103/16.04.21 art.58; în vigoare 06.04.21"
+    },
+    {
+     "hcc": "HCC26/2020-11-10",
+     "line": 239,
+     "text": "HCC26 din 10.11.20, MO313-317/27.11.20 art.176; în vigoare 27.11.20"
+    },
+    {
+     "hcc": "HCC15/2020-05-28",
+     "line": 243,
+     "text": "HCC15 din 28.05.20, MO142-149/12.06.20 art.78; în vigoare 28.05.20"
+    },
+    {
+     "hcc": "HCC2/2020-01-23",
+     "line": 246,
+     "text": "HCC2 din 23.01.20, MO44-54/14.02.20 art.36"
+    },
+    {
+     "hcc": "HCC6/2019-03-19",
+     "line": 247,
+     "text": "HCC6 din 19.03.19, MO119-131/05.04.19 art.63"
+    },
+    {
+     "hcc": "HCC3/2016-02-23",
+     "line": 283,
+     "text": "HCC3 din 23.02.16, МО49-54/04.03.16 art.8"
+    },
+    {
+     "hcc": "HCC12/2015-05-14",
+     "line": 287,
+     "text": "HCC12 din 14.05.15, MO254-257/11.09.15 cm.25"
+    },
+    {
+     "hcc": "HCC3/2012-02-09",
+     "line": 309,
+     "text": "HCC3 din 09.02.12, MO38-41/24.02.12 art.7"
+    },
+    {
+     "hcc": "HCC26/2010-11-23",
+     "line": 317,
+     "text": "HCC26 din 23.11.10 МО 235-240 din 03.12.10 art. 27"
+    },
+    {
+     "hcc": "HCC9/2008-05-20",
+     "line": 331,
+     "text": "HCC 9 din 20.05.08, МО99-101/06.06.08 art.7"
+    },
+    {
+     "hcc": "HCC16/2005-07-19",
+     "line": 357,
+     "text": "HCC16 din 19.07.05, МО101-103/29.07.05 art.12 |"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC12/2015-05-14",
+    "HCC12/2021-04-06",
+    "HCC15/2020-05-28",
+    "HCC16/2005-07-19",
+    "HCC17/2016-05-19",
+    "HCC19/2018-07-03",
+    "HCC2/2020-01-23",
+    "HCC26/2010-11-23",
+    "HCC26/2020-11-10",
+    "HCC27/2018-10-30",
+    "HCC29/2021-09-21",
+    "HCC3/2012-02-09",
+    "HCC3/2016-02-23",
+    "HCC3/2023-01-24",
+    "HCC31/2021-09-23",
+    "HCC6/2019-03-19",
+    "HCC9/2008-05-20"
+   ]
+  },
+  {
+   "instrument": "COD-154-2003",
+   "file": "raw/papers/moldova-legal/COD-154-2003.md",
+   "doc_id": "155882",
+   "consolidation_date": "2027-01-01",
+   "markers": [
+    {
+     "article": "90",
+     "subunit": "al.(2), lit. a)",
+     "quoted_text": "într-o mărime care nu va depăşi 12 salarii medii lunare ale salariatului",
+     "scope": "text din articol",
+     "hcc": [
+      "HCC9/2025-07-22"
+     ],
+     "official_gazette": "MO430-433/14.08.25 art.105",
+     "marker": "Art.90 al.(2), lit. a) textul „într-o mărime care nu va depăşi 12 salarii medii lunare ale salariatului” se declară neconstituțional conform HCC9 din 22.07.25, MO430-433/14.08.25 art.105; în vigoare 22.07.25",
+     "line": 1299
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC9/2025-07-22",
+     "line": 112,
+     "text": "HCC9 din 22.07.25, MO430-433/14.08.25 art.105; în vigoare 22.07.25"
+    },
+    {
+     "hcc": "HCC3/2020-02-04",
+     "line": 143,
+     "text": "HCC3 din 04.02.20, MO63-68/28.02.20 art.37; în vigoare 04.02.20"
+    },
+    {
+     "hcc": "HCC34/2017-12-08",
+     "line": 153,
+     "text": "HCC34 din 08.12.17, MO33-39/02.02.18 art.6; în vigoare 08.12.17"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC3/2020-02-04",
+     "line": 143,
+     "text": "HCC3 din 04.02.20, MO63-68/28.02.20 art.37; în vigoare 04.02.20"
+    },
+    {
+     "hcc": "HCC34/2017-12-08",
+     "line": 153,
+     "text": "HCC34 din 08.12.17, MO33-39/02.02.18 art.6; în vigoare 08.12.17"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC3/2020-02-04",
+    "HCC34/2017-12-08",
+    "HCC9/2025-07-22"
+   ]
+  },
+  {
+   "instrument": "COD-174-2018",
+   "file": "raw/papers/moldova-legal/COD-174-2018.md",
+   "doc_id": "150538",
+   "consolidation_date": "2026-06-24",
+   "markers": [
+    {
+     "article": "28",
+     "subunit": "al.(1)",
+     "quoted_text": "şi funcționează sub formă de societăți comerciale",
+     "scope": "text din articol",
+     "hcc": [
+      "HCC6/2022-03-10"
+     ],
+     "official_gazette": "MO80-87/25.03.22 art.43",
+     "marker": "Art.28 al.(1) textul „şi funcționează sub formă de societăți comerciale” se declară neconstituțional prin HCC6 din 10.03.22, MO80-87/25.03.22 art.43; în vigoare 10.03.22",
+     "line": 608
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC6/2022-03-10",
+     "line": 62,
+     "text": "HCC6 din 10.03.22, MO80-87/25.03.22 art.43; în vigoare 10.03.22"
+    },
+    {
+     "hcc": "HCC36/2021-11-23",
+     "line": 64,
+     "text": "HCC36 din 23.11.21, MO302-306/10.12.21 art.211; în vigoare 23.11.21"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC36/2021-11-23",
+     "line": 64,
+     "text": "HCC36 din 23.11.21, MO302-306/10.12.21 art.211; în vigoare 23.11.21"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC36/2021-11-23",
+    "HCC6/2022-03-10"
+   ]
+  },
+  {
+   "instrument": "COD-218-2008",
+   "file": "raw/papers/moldova-legal/COD-218-2008.md",
+   "doc_id": "155852",
+   "consolidation_date": "2026-09-13",
+   "markers": [
+    {
+     "article": "427",
+     "subunit": "alin.(2)",
+     "quoted_text": "ridicarea informației privind convorbirile telefonice",
+     "scope": "text din articol",
+     "hcc": [
+      "HCC26/2024-12-12"
+     ],
+     "official_gazette": "MO529-532/18.12.24 art. 200",
+     "marker": "Art. 427 alin.(2) textul „ridicarea informației privind convorbirile telefonice” declarat neconstituțional prin HCC26 din 12.12.24, MO529-532/18.12.24 art. 200; în vigoare 12.12.24",
+     "line": 6735
+    },
+    {
+     "article": "445",
+     "subunit": null,
+     "quoted_text": null,
+     "scope": "articol intreg",
+     "hcc": [
+      "HCC32/2018-11-29"
+     ],
+     "official_gazette": "MO513-525/28.12.18 art. 189",
+     "marker": "Art. 445 declarat neconstituțional (în versiunea de până la modificarea prin LP159 din 12.10.18) prin HCC32 din 29.11.18, MO513-525/28.12.18 art. 189; în vigoare 29.11.18",
+     "line": 7083
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC26/2024-12-12",
+     "line": 360,
+     "text": "HCC26 din 12.12.24, MO529-532/18.12.24 art.200; în vigoare 12.12.24"
+    },
+    {
+     "hcc": "HCC32/2018-11-29",
+     "line": 459,
+     "text": "HCC32 din 29.11.18, MO513-525/28.12.18 art.189; în vigoare 29.11.18"
+    },
+    {
+     "hcc": "HCC11/2018-05-08",
+     "line": 472,
+     "text": "HCC11 din 08.05.18, МО195-209/15.06.18 art.97"
+    },
+    {
+     "hcc": "HCC7/2018-04-26",
+     "line": 473,
+     "text": "HCC7 din 26.04.18, МО176-180/01.06.18 art.88"
+    },
+    {
+     "hcc": "HCC10/2016-05-10",
+     "line": 513,
+     "text": "HCC10 din 10.05.16, МО204-205/12.07.16 art.58"
+    },
+    {
+     "hcc": "HCC12/2013-06-04",
+     "line": 557,
+     "text": "HCC12 din 04.06.13, МО167-172/02.08.13 art.22"
+    },
+    {
+     "hcc": "HCC10/2016-05-10",
+     "line": 643,
+     "text": "HCC10 din 10.05.16, MO204-205/12.07.16 art.58;"
+    },
+    {
+     "hcc": "HCC12/2013-06-04",
+     "line": 688,
+     "text": "HCC12 din 04.06.13, MO167-172/02.08.13 art.22;"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC11/2018-05-08",
+     "line": 472,
+     "text": "HCC11 din 08.05.18, МО195-209/15.06.18 art.97"
+    },
+    {
+     "hcc": "HCC7/2018-04-26",
+     "line": 473,
+     "text": "HCC7 din 26.04.18, МО176-180/01.06.18 art.88"
+    },
+    {
+     "hcc": "HCC10/2016-05-10",
+     "line": 513,
+     "text": "HCC10 din 10.05.16, МО204-205/12.07.16 art.58"
+    },
+    {
+     "hcc": "HCC12/2013-06-04",
+     "line": 557,
+     "text": "HCC12 din 04.06.13, МО167-172/02.08.13 art.22"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC10/2016-05-10",
+    "HCC11/2018-05-08",
+    "HCC12/2013-06-04",
+    "HCC26/2024-12-12",
+    "HCC32/2018-11-29",
+    "HCC7/2018-04-26"
+   ]
+  },
+  {
+   "instrument": "COD-225-2003",
+   "file": "raw/papers/moldova-legal/COD-225-2003.md",
+   "doc_id": "155718",
+   "consolidation_date": "2026-08-06",
+   "markers": [
+    {
+     "article": "1",
+     "subunit": null,
+     "quoted_text": null,
+     "scope": "articol intreg",
+     "hcc": [
+      "HCC3/2012-02-09"
+     ],
+     "official_gazette": "MO38-41/24.02.12 art.7",
+     "marker": "Notă: Articolul 1 modificat prin LP nr.163 din 22.07.2011 (art.III-XV) – declarat neconstituțional prin HCC3 din 09.02.12, MO38-41/24.02.12 art.7; în vigoare 09.02.12",
+     "line": 299
+    },
+    {
+     "article": "39",
+     "subunit": "alin. (11^1)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC3/2012-02-09"
+     ],
+     "official_gazette": "MO38-41/24.02.12 art.7",
+     "marker": "Notă: Articolul 39 completat cu alin. (11^1) prin LP nr.163 din 22.07.2011 (art.III-XV) – declarat neconstituțional prin HCC3 din 09.02.12, MO38-41/24.02.12 art.7; în vigoare 09.02.12",
+     "line": 532
+    },
+    {
+     "article": "44",
+     "subunit": "alin. (6)-(8)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC3/2012-02-09"
+     ],
+     "official_gazette": "MO38-41/24.02.12 art.7",
+     "marker": "Notă: Articolul 44 alin. (6)-(8) abrogate prin LP nr.163 din 22.07.2011 (art.III-XV) – declarate neconstituţionale prin HCC3 din 09.02.12, MO38-41/24.02.12 art.7; în vigoare 09.02.12",
+     "line": 593
+    },
+    {
+     "article": "308^8",
+     "subunit": null,
+     "quoted_text": null,
+     "scope": "articol intreg",
+     "hcc": [
+      "HCC12/2024-04-23"
+     ],
+     "official_gazette": "MO192-194/02.05.24 art.68",
+     "marker": "Art.308^8 declarat neconstituțional prin HCC12 din 23.04.24, MO192-194/02.05.24 art.68; în vigoare 23.04.24",
+     "line": 2725
+    },
+    {
+     "article": "343^6",
+     "subunit": null,
+     "quoted_text": "și de apreciere a rezultatului testului de integritate profesională",
+     "scope": "text din articol",
+     "hcc": [
+      "HCC37/2021-12-07"
+     ],
+     "official_gazette": "MO315-324/24.12.21 art.225",
+     "marker": "Art.343^6 textul „și de apreciere a rezultatului testului de integritate profesională” declarat neconstituțional prin HCC37 din 07.12.21, MO315-324/24.12.21 art.225; în vigoare 07.12.21",
+     "line": 3011
+    },
+    {
+     "article": "343^8",
+     "subunit": null,
+     "quoted_text": null,
+     "scope": "articol intreg",
+     "hcc": [
+      "HCC37/2021-12-07"
+     ],
+     "official_gazette": "MO315-324/24.12.21 art.225",
+     "marker": "Art.343^8 declarat neconstituțional prin HCC37 din 07.12.21, MO315-324/24.12.21 art.225; în vigoare 07.12.21",
+     "line": 3024
+    },
+    {
+     "article": "353",
+     "subunit": "al.(1)",
+     "quoted_text": "care nu se supune niciunei căi de atac",
+     "scope": "text din articol",
+     "hcc": [
+      "HCC7/2019-03-19"
+     ],
+     "official_gazette": "MO119-131/05.04.19 art.64",
+     "marker": "Art.353 al.(1) sintagma „care nu se supune niciunei căi de atac” se declară neconstituțională prin HCC7 din 19.03.19, MO119-131/05.04.19 art.64; în vigoare 19.03.19",
+     "line": 3120
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC20/2024-09-26",
+     "line": 143,
+     "text": "HCC20 din 26.09.24, MO423-426/10.10.24 art.155; în vigoare 26.09.24"
+    },
+    {
+     "hcc": "HCC12/2024-04-23",
+     "line": 148,
+     "text": "HCC12 din 23.04.24, MO192-194/02.05.24 art. 68; în vigoare 23.04.24"
+    },
+    {
+     "hcc": "HCC20/2022-11-03",
+     "line": 156,
+     "text": "HCC20 din 03.11.22, MO363-373/18.11.22 art.176; în vigoare 03.11.22"
+    },
+    {
+     "hcc": "HCC37/2021-12-07",
+     "line": 160,
+     "text": "HCC37 din 07.12.21, MO315-324/24.12.21 art.225; în vigoare 07.12.21"
+    },
+    {
+     "hcc": "HCC7/2019-03-19",
+     "line": 165,
+     "text": "HCC7 din 19.03.19, MO119-131/05.04.19 art.64; în vigoare 19.03.19"
+    },
+    {
+     "hcc": "HCC33/2016-11-17",
+     "line": 178,
+     "text": "HCC33 din 17.11.16, МО30-39/03.02.16 art.7"
+    },
+    {
+     "hcc": "HCC2/2004-02-19",
+     "line": 235,
+     "text": "HCC2 din 19.02.04, MO39-41/05.03.04 art.9"
+    },
+    {
+     "hcc": "HCC33/2016-11-17",
+     "line": 263,
+     "text": "HCC33 din 17.11.16, MO30-39/03.02.17 art.7"
+    },
+    {
+     "hcc": "HCC16/2013-06-25",
+     "line": 286,
+     "text": "HCC16 din 25.06.13, MO177-181/16.08.13 art.24"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC20/2024-09-26",
+     "line": 143,
+     "text": "HCC20 din 26.09.24, MO423-426/10.10.24 art.155; în vigoare 26.09.24"
+    },
+    {
+     "hcc": "HCC20/2022-11-03",
+     "line": 156,
+     "text": "HCC20 din 03.11.22, MO363-373/18.11.22 art.176; în vigoare 03.11.22"
+    },
+    {
+     "hcc": "HCC33/2016-11-17",
+     "line": 178,
+     "text": "HCC33 din 17.11.16, МО30-39/03.02.16 art.7"
+    },
+    {
+     "hcc": "HCC2/2004-02-19",
+     "line": 235,
+     "text": "HCC2 din 19.02.04, MO39-41/05.03.04 art.9"
+    },
+    {
+     "hcc": "HCC16/2013-06-25",
+     "line": 286,
+     "text": "HCC16 din 25.06.13, MO177-181/16.08.13 art.24"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC12/2024-04-23",
+    "HCC16/2013-06-25",
+    "HCC2/2004-02-19",
+    "HCC20/2022-11-03",
+    "HCC20/2024-09-26",
+    "HCC3/2012-02-09",
+    "HCC33/2016-11-17",
+    "HCC37/2021-12-07",
+    "HCC7/2019-03-19"
+   ]
+  },
+  {
+   "instrument": "COD-443-2004",
+   "file": "raw/papers/moldova-legal/COD-443-2004.md",
+   "doc_id": "156146",
+   "consolidation_date": "2026-12-02",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC11/2021-03-25",
+     "line": 133,
+     "text": "HCC11 din 25.03.21, MO96-99/09.04.21 art.57; în vigoare 25.03.21"
+    },
+    {
+     "hcc": "HCC22/2019-10-08",
+     "line": 135,
+     "text": "HCC22 din 08.10.19, MO388-392/27.12.19 art.213; în vigoare 08.10.19"
+    },
+    {
+     "hcc": "HCC8/2019-04-05",
+     "line": 136,
+     "text": "HCC8 din 05.04.19, MO148-158/26.04.19 art.77; în vigoare 05.04.19"
+    },
+    {
+     "hcc": "HCC39/2017-12-14",
+     "line": 151,
+     "text": "HCC39 din 14.12.17, МО68-76/02.03.18 art.36"
+    },
+    {
+     "hcc": "HCC17/2017-05-10",
+     "line": 156,
+     "text": "HCC17 din 10.05.17, МО244-251/14.07.17 art.77"
+    },
+    {
+     "hcc": "HCC18/2013-07-04",
+     "line": 170,
+     "text": "HCC18 din 04.07.13, МО182-185/23.08.13 art.27"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC11/2021-03-25",
+     "line": 133,
+     "text": "HCC11 din 25.03.21, MO96-99/09.04.21 art.57; în vigoare 25.03.21"
+    },
+    {
+     "hcc": "HCC22/2019-10-08",
+     "line": 135,
+     "text": "HCC22 din 08.10.19, MO388-392/27.12.19 art.213; în vigoare 08.10.19"
+    },
+    {
+     "hcc": "HCC8/2019-04-05",
+     "line": 136,
+     "text": "HCC8 din 05.04.19, MO148-158/26.04.19 art.77; în vigoare 05.04.19"
+    },
+    {
+     "hcc": "HCC39/2017-12-14",
+     "line": 151,
+     "text": "HCC39 din 14.12.17, МО68-76/02.03.18 art.36"
+    },
+    {
+     "hcc": "HCC17/2017-05-10",
+     "line": 156,
+     "text": "HCC17 din 10.05.17, МО244-251/14.07.17 art.77"
+    },
+    {
+     "hcc": "HCC18/2013-07-04",
+     "line": 170,
+     "text": "HCC18 din 04.07.13, МО182-185/23.08.13 art.27"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC11/2021-03-25",
+    "HCC17/2017-05-10",
+    "HCC18/2013-07-04",
+    "HCC22/2019-10-08",
+    "HCC39/2017-12-14",
+    "HCC8/2019-04-05"
+   ]
+  },
+  {
+   "instrument": "COD-985-2002",
+   "file": "raw/papers/moldova-legal/COD-985-2002.md",
+   "doc_id": "156133",
+   "consolidation_date": "2026-12-02",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC39/2021-12-21",
+     "line": 273,
+     "text": "HCC39 din 21.12.21, MO325-333/31.12.21 art.232; în vigoare 21.12.21"
+    },
+    {
+     "hcc": "HCC25/2021-08-12",
+     "line": 275,
+     "text": "HCC25 din 12.08.21, MO212-218/10.09.21 art.164; în vigoare 12.08.21"
+    },
+    {
+     "hcc": "HCC24/2019-10-17",
+     "line": 284,
+     "text": "HCC24 din 17.10.19, MO338-343/15.11.19 art.207; în vigoare 17.10.19"
+    },
+    {
+     "hcc": "HCC22/2018-10-01",
+     "line": 290,
+     "text": "HCC22 din 01.10.18, МО416-422/09.11.18 art.146"
+    },
+    {
+     "hcc": "HCC12/2018-05-14",
+     "line": 295,
+     "text": "HCC12 din 14.05.18, МО176-180/01.06.18 art.89"
+    },
+    {
+     "hcc": "HCC33/2017-12-07",
+     "line": 298,
+     "text": "HCC33 din 07.12.17, MO27-32/26.01.18 cт.4"
+    },
+    {
+     "hcc": "HCC22/2017-06-27",
+     "line": 304,
+     "text": "HCC22 din 27.06.17, MO352-355/29.09.17 art.92"
+    },
+    {
+     "hcc": "HCC18/2013-07-04",
+     "line": 335,
+     "text": "HCC18 din 04.07.13, МО182-185/23.08.13 art.27"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC39/2021-12-21",
+     "line": 273,
+     "text": "HCC39 din 21.12.21, MO325-333/31.12.21 art.232; în vigoare 21.12.21"
+    },
+    {
+     "hcc": "HCC25/2021-08-12",
+     "line": 275,
+     "text": "HCC25 din 12.08.21, MO212-218/10.09.21 art.164; în vigoare 12.08.21"
+    },
+    {
+     "hcc": "HCC24/2019-10-17",
+     "line": 284,
+     "text": "HCC24 din 17.10.19, MO338-343/15.11.19 art.207; în vigoare 17.10.19"
+    },
+    {
+     "hcc": "HCC22/2018-10-01",
+     "line": 290,
+     "text": "HCC22 din 01.10.18, МО416-422/09.11.18 art.146"
+    },
+    {
+     "hcc": "HCC12/2018-05-14",
+     "line": 295,
+     "text": "HCC12 din 14.05.18, МО176-180/01.06.18 art.89"
+    },
+    {
+     "hcc": "HCC33/2017-12-07",
+     "line": 298,
+     "text": "HCC33 din 07.12.17, MO27-32/26.01.18 cт.4"
+    },
+    {
+     "hcc": "HCC22/2017-06-27",
+     "line": 304,
+     "text": "HCC22 din 27.06.17, MO352-355/29.09.17 art.92"
+    },
+    {
+     "hcc": "HCC18/2013-07-04",
+     "line": 335,
+     "text": "HCC18 din 04.07.13, МО182-185/23.08.13 art.27"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC12/2018-05-14",
+    "HCC18/2013-07-04",
+    "HCC22/2017-06-27",
+    "HCC22/2018-10-01",
+    "HCC24/2019-10-17",
+    "HCC25/2021-08-12",
+    "HCC33/2017-12-07",
+    "HCC39/2021-12-21"
+   ]
+  },
+  {
+   "instrument": "CONST-1994",
+   "file": "raw/papers/moldova-legal/CONST-1994.md",
+   "doc_id": "145723",
+   "consolidation_date": "2024-11-05",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC8/2024-03-11",
+     "line": 51,
+     "text": "HCC8 din 11.03.24, MO104-107/21.03.24 art.42; în vigoare 11.03.24"
+    },
+    {
+     "hcc": "HCC7/2016-03-04",
+     "line": 58,
+     "text": "HCC7 din 04.03.16, MO59-67/18.03.16 art.10"
+    },
+    {
+     "hcc": "HCC8/2024-03-11",
+     "line": 84,
+     "text": "HCC8 din 11.03.24, MO104-107/21.03.24 art.42"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC8/2024-03-11",
+     "line": 51,
+     "text": "HCC8 din 11.03.24, MO104-107/21.03.24 art.42; în vigoare 11.03.24"
+    },
+    {
+     "hcc": "HCC7/2016-03-04",
+     "line": 58,
+     "text": "HCC7 din 04.03.16, MO59-67/18.03.16 art.10"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC7/2016-03-04",
+    "HCC8/2024-03-11"
+   ]
+  },
+  {
+   "instrument": "L-1260-2002",
+   "file": "raw/papers/moldova-legal/L-1260-2002.md",
+   "doc_id": "146148",
+   "consolidation_date": "2025-01-07",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC18/2018-07-03",
+     "line": 55,
+     "text": "HCC18 din 03.07.18, MO277-284/27.07.18 art.124; în vigoare 03.07.18"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC18/2018-07-03",
+     "line": 55,
+     "text": "HCC18 din 03.07.18, MO277-284/27.07.18 art.124; în vigoare 03.07.18"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC18/2018-07-03"
+   ]
+  },
+  {
+   "instrument": "L-135-2007",
+   "file": "raw/papers/moldova-legal/L-135-2007.md",
+   "doc_id": "153674",
+   "consolidation_date": "2026-03-27",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC27/2016-09-27",
+     "line": 76,
+     "text": "HCC27 din 27.09.16, MO423-429/09.12.16 art.102; în vigoare 27.09.16"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC27/2016-09-27",
+     "line": 76,
+     "text": "HCC27 din 27.09.16, MO423-429/09.12.16 art.102; în vigoare 27.09.16"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC27/2016-09-27"
+   ]
+  },
+  {
+   "instrument": "L-149-2012",
+   "file": "raw/papers/moldova-legal/L-149-2012.md",
+   "doc_id": "152605",
+   "consolidation_date": "2025-12-31",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC8/2022-04-05",
+     "line": 73,
+     "text": "HCC8 din 05.04.22, MO106-114/15.04.22 art.57; în vigoare 05.04.22"
+    },
+    {
+     "hcc": "HCC21/2020-08-04",
+     "line": 77,
+     "text": "HCC21 din 04.08.20, MO205-211/14.08.20 art.110; în vigoare 04.08.20"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC8/2022-04-05",
+     "line": 73,
+     "text": "HCC8 din 05.04.22, MO106-114/15.04.22 art.57; în vigoare 05.04.22"
+    },
+    {
+     "hcc": "HCC21/2020-08-04",
+     "line": 77,
+     "text": "HCC21 din 04.08.20, MO205-211/14.08.20 art.110; în vigoare 04.08.20"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC21/2020-08-04",
+    "HCC8/2022-04-05"
+   ]
+  },
+  {
+   "instrument": "L-158-2008",
+   "file": "raw/papers/moldova-legal/L-158-2008.md",
+   "doc_id": "155439",
+   "consolidation_date": "2026-09-13",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC6/2016-03-03",
+     "line": 143,
+     "text": "HCC6 din 03.03.16, MO123-127/06.05.16 art.37"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC6/2016-03-03",
+     "line": 143,
+     "text": "HCC6 din 03.03.16, MO123-127/06.05.16 art.37"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC6/2016-03-03"
+   ]
+  },
+  {
+   "instrument": "L-514-1995",
+   "file": "raw/papers/moldova-legal/L-514-1995.md",
+   "doc_id": "156079",
+   "consolidation_date": "2026-08-28",
+   "markers": [
+    {
+     "article": "15^1",
+     "subunit": "al.(5)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC7/2020-03-24"
+     ],
+     "official_gazette": "MO115-117/15.05.20 art.51",
+     "marker": "Art.15^1 al.(5) declarat neconstituțional prin HCC7 din 24.03.20, MO115-117/15.05.20 art.51; în vigoare 24.03.20",
+     "line": 224
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC17/2021-06-10",
+     "line": 64,
+     "text": "HCC17 din 10.06.21, MO153-157/25.06.21 art.99; în vigoare 10.06.21"
+    },
+    {
+     "hcc": "HCC7/2020-03-24",
+     "line": 66,
+     "text": "HCC7 din 24.03.20, MO115-117/15.05.20 art.51; în vigoare 24.03.20"
+    },
+    {
+     "hcc": "HCC27/2019-10-31",
+     "line": 68,
+     "text": "HCC27 din 31.10.19, MO352-359/29.11.19 art.210; în vigoare 31.10.19"
+    },
+    {
+     "hcc": "HCC3/2012-02-09",
+     "line": 119,
+     "text": "HCC3 din 09.02.12, MO38-41/24.02.12 art.7; în vigoare 09.02.12"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC17/2021-06-10",
+     "line": 64,
+     "text": "HCC17 din 10.06.21, MO153-157/25.06.21 art.99; în vigoare 10.06.21"
+    },
+    {
+     "hcc": "HCC27/2019-10-31",
+     "line": 68,
+     "text": "HCC27 din 31.10.19, MO352-359/29.11.19 art.210; în vigoare 31.10.19"
+    },
+    {
+     "hcc": "HCC3/2012-02-09",
+     "line": 119,
+     "text": "HCC3 din 09.02.12, MO38-41/24.02.12 art.7; în vigoare 09.02.12"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC17/2021-06-10",
+    "HCC27/2019-10-31",
+    "HCC3/2012-02-09",
+    "HCC7/2020-03-24"
+   ]
+  },
+  {
+   "instrument": "L-64-2010",
+   "file": "raw/papers/moldova-legal/L-64-2010.md",
+   "doc_id": "141515",
+   "consolidation_date": "2024-01-23",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC12/2013-06-04",
+     "line": 47,
+     "text": "HCC12 din 04.06.13, MO167-172/02.08.13 art.22; în vigoare 04.06.13"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC12/2013-06-04",
+     "line": 47,
+     "text": "HCC12 din 04.06.13, MO167-172/02.08.13 art.22; în vigoare 04.06.13"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC12/2013-06-04"
+   ]
+  },
+  {
+   "instrument": "L-845-1992",
+   "file": "raw/papers/moldova-legal/L-845-1992.md",
+   "doc_id": "155963",
+   "consolidation_date": "2027-01-01",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC10/2022-04-14",
+     "line": 84,
+     "text": "HCC10 din 14.04.22, MO151-157/20.05.22 art.68; în vigoare 14.04.22"
+    },
+    {
+     "hcc": "HCC5/2018-03-06",
+     "line": 93,
+     "text": "HCC5 din 06.03.18, MO113-120/06.04.18 art.59; în vigoare 06.03.18"
+    },
+    {
+     "hcc": "HCC2/2018-01-30",
+     "line": 94,
+     "text": "HCC2 din 30.01.18, MO108-112/30.03.18 art.54; în vigoare 30.01.18"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC10/2022-04-14",
+     "line": 84,
+     "text": "HCC10 din 14.04.22, MO151-157/20.05.22 art.68; în vigoare 14.04.22"
+    },
+    {
+     "hcc": "HCC5/2018-03-06",
+     "line": 93,
+     "text": "HCC5 din 06.03.18, MO113-120/06.04.18 art.59; în vigoare 06.03.18"
+    },
+    {
+     "hcc": "HCC2/2018-01-30",
+     "line": 94,
+     "text": "HCC2 din 30.01.18, MO108-112/30.03.18 art.54; în vigoare 30.01.18"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC10/2022-04-14",
+    "HCC2/2018-01-30",
+    "HCC5/2018-03-06"
+   ]
+  },
+  {
+   "instrument": "L-548-1995",
+   "file": "raw/papers/bnm/legal-ro/L-548-1995.md",
+   "doc_id": "154046",
+   "consolidation_date": "2026-04-23",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC31/2013-10-01",
+     "line": 96,
+     "text": "HCC31 din 01.10.13, MO252-257/08.11.13 art.38"
+    },
+    {
+     "hcc": "HCC9/1999-02-18",
+     "line": 114,
+     "text": "HCC9 din 18.02.99, MO22-23/04.03.99 art.15"
+    },
+    {
+     "hcc": "HCC9/1999-02-18",
+     "line": 139,
+     "text": "HCC9 din 18.02.99, MO22/04.03.99"
+    },
+    {
+     "hcc": "HCC31/2013-10-01",
+     "line": 157,
+     "text": "HCC31 din 01.10.13, MO252-257/08.11.13, art.38; în vigoare 01.10.13"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC31/2013-10-01",
+     "line": 96,
+     "text": "HCC31 din 01.10.13, MO252-257/08.11.13 art.38"
+    },
+    {
+     "hcc": "HCC9/1999-02-18",
+     "line": 114,
+     "text": "HCC9 din 18.02.99, MO22-23/04.03.99 art.15"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC31/2013-10-01",
+    "HCC9/1999-02-18"
+   ]
+  }
+ ],
+ "counts": {
+  "acts": 18,
+  "distinct_hcc": 76,
+  "markers_in_text": 16,
+  "recovered": 0,
+  "unattributed": 67
+ }
+}

@@ -1,0 +1,126 @@
+# Registrul dispozitiilor declarate neconstitutionale
+
+Generat 2026-09-08 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
+
+18 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 76 hotariri distincte. Articolul atins este cunoscut pentru 16 marcaje inca prezente in text si 0 dispozitii recuperate din istoricul versiunilor; **67 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
+
+Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiunea hotaririi si a intinderii anularii. Un act din tabelul „fara articol atribuit” se citeaza cu avertismentul ca poarta hotariri ale Curtii neverificate la nivel de articol.
+
+## Sumar pe act
+
+| act | doc_id | consolidare | HCC in fisa | cu articol cunoscut | fara articol |
+|---|---|---|---:|---:|---:|
+| `COD-116-2018` | 150447 | 2025-08-31 | 2 | 1 | 1 |
+| `COD-1163-1997` | 138613 | 2026-07-01 | 10 | 0 | 10 |
+| `COD-122-2003` | 156138 | 2026-12-02 | 17 | 3 | 14 |
+| `COD-154-2003` | 155882 | 2027-01-01 | 3 | 1 | 2 |
+| `COD-174-2018` | 150538 | 2026-06-24 | 2 | 1 | 1 |
+| `COD-218-2008` | 155852 | 2026-09-13 | 6 | 2 | 4 |
+| `COD-225-2003` | 155718 | 2026-08-06 | 9 | 4 | 5 |
+| `COD-443-2004` | 156146 | 2026-12-02 | 6 | 0 | 6 |
+| `COD-985-2002` | 156133 | 2026-12-02 | 8 | 0 | 8 |
+| `CONST-1994` | 145723 | 2024-11-05 | 2 | 0 | 2 |
+| `L-1260-2002` | 146148 | 2025-01-07 | 1 | 0 | 1 |
+| `L-135-2007` | 153674 | 2026-03-27 | 1 | 0 | 1 |
+| `L-149-2012` | 152605 | 2025-12-31 | 2 | 0 | 2 |
+| `L-158-2008` | 155439 | 2026-09-13 | 1 | 0 | 1 |
+| `L-514-1995` | 156079 | 2026-08-28 | 4 | 1 | 3 |
+| `L-64-2010` | 141515 | 2024-01-23 | 1 | 0 | 1 |
+| `L-845-1992` | 155963 | 2027-01-01 | 3 | 0 | 3 |
+| `L-548-1995` | 154046 | 2026-04-23 | 2 | 0 | 2 |
+
+## Dispozitii cu articol cunoscut
+
+| act | articol | subunitate | intindere | hotarire | MO | sursa |
+|---|---|---|---|---|---|---|
+| `COD-116-2018` | 225 | alin. (3) | in parte | HCC27/2020-11-13 | MO332-342/11.12.20 art.183 | marcaj in text, l.1589 |
+| `COD-122-2003` | 178 |  | omisiune legislativa | HCC19/2018-07-03 | MO267-275/20.07.18 art. 118 | marcaj in text, l.2912 |
+| `COD-122-2003` | 185 | al.(1) | subunitate | HCC27/2018-10-30 | MO430-439/23.11.18 art. 164 | marcaj in text, l.2987 |
+| `COD-122-2003` | 191 |  | omisiune legislativa | HCC17/2016-05-19 | MO232-244/29.07.16 art. 62 | marcaj in text, l.3084 |
+| `COD-154-2003` | 90 | al.(2), lit. a) | text din articol („într-o mărime care nu va depăşi 12 salarii medii lunare ale salariatului”) | HCC9/2025-07-22 | MO430-433/14.08.25 art.105 | marcaj in text, l.1299 |
+| `COD-174-2018` | 28 | al.(1) | text din articol („şi funcționează sub formă de societăți comerciale”) | HCC6/2022-03-10 | MO80-87/25.03.22 art.43 | marcaj in text, l.608 |
+| `COD-218-2008` | 427 | alin.(2) | text din articol („ridicarea informației privind convorbirile telefonice”) | HCC26/2024-12-12 | MO529-532/18.12.24 art. 200 | marcaj in text, l.6735 |
+| `COD-218-2008` | 445 |  | articol intreg | HCC32/2018-11-29 | MO513-525/28.12.18 art. 189 | marcaj in text, l.7083 |
+| `COD-225-2003` | 1 |  | articol intreg | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | marcaj in text, l.299 |
+| `COD-225-2003` | 39 | alin. (11^1) | subunitate | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | marcaj in text, l.532 |
+| `COD-225-2003` | 44 | alin. (6)-(8) | subunitate | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | marcaj in text, l.593 |
+| `COD-225-2003` | 308^8 |  | articol intreg | HCC12/2024-04-23 | MO192-194/02.05.24 art.68 | marcaj in text, l.2725 |
+| `COD-225-2003` | 343^6 |  | text din articol („și de apreciere a rezultatului testului de integritate profesională”) | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.3011 |
+| `COD-225-2003` | 343^8 |  | articol intreg | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.3024 |
+| `COD-225-2003` | 353 | al.(1) | text din articol („care nu se supune niciunei căi de atac”) | HCC7/2019-03-19 | MO119-131/05.04.19 art.64 | marcaj in text, l.3120 |
+| `L-514-1995` | 15^1 | al.(5) | subunitate | HCC7/2020-03-24 | MO115-117/15.05.20 art.51 | marcaj in text, l.224 |
+
+## Hotariri din fisa fara articol atribuit
+
+Marcajul s-a pierdut la o reimprospatare anterioara a consolidarii. Articolul se recupereaza citind pe legis.md versiunea produsa de hotarire (istoricul de versiuni, `showDetails`), prin `fetch` in pagina, fara descarcare, si se scrie in `recovered-provisions.json`.
+
+| act | hotarire | rindul din fisa |
+|---|---|---|
+| `COD-116-2018` | HCC17/2020-06-23 | l.61: HCC17 din 23.06.20, MO188-192/24.07.20 art.100; în vigoare 23.06.20 | |
+| `COD-1163-1997` | HCC10/2024-04-04 | l.237: HCC10 din 04.04.24, MO177-180/18.04.24 art.57; în vigoare 04.04.24 |
+| `COD-1163-1997` | HCC5/2024-03-05 | l.240: HCC5 din 05.03.24, MO141-143/09.04.24 art.50; în vigoare 05.03.24 |
+| `COD-1163-1997` | HCC22/2020-08-06 | l.290: HCC22 din 06.08.20, MO221-225/28.08.20 art.121; în vigoare 06.08.20 |
+| `COD-1163-1997` | HCC20/2018-07-04 | l.325: HCC20 din 04.07.18, MO267-275/20.07.18 art.119 |
+| `COD-1163-1997` | HCC17/2014-05-29 | l.359: HCC17 din 29.05.14, MO223-230/08.08.14 art.30; în vigoare 29.05.14 |
+| `COD-1163-1997` | HCC11/2014-03-25 | l.363: HCC11 din 25.03.14, MO115-119/16.05.14 art.17; în vigoare 25.03.14 |
+| `COD-1163-1997` | HCC8/2014-02-14 | l.366: HCC8 din 14.02.14, MO92-98/18.04.14 art.13; în vigoare 14.02.14 |
+| `COD-1163-1997` | HCC7/2014-02-13 | l.367: HCC7 din 13.02.14, MO92-98/18.04.14 art.12; în vigoare 13.02.14 |
+| `COD-1163-1997` | HCC2/2014-01-28 | l.368: HCC2 din 28.01.14, MO80-85/04.04.14 art.10; în vigoare 28.01.14 |
+| `COD-1163-1997` | HCC12/1999-03-11 | l.529: HCC12 din 11.03.99, MO27-28/ 23.03.99 art. 21 |
+| `COD-122-2003` | HCC3/2023-01-24 | l.221: HCC3 din 24.01.23, MO31-34/03.02.23 art.14; în vigoare 24.01.23 |
+| `COD-122-2003` | HCC29/2021-09-21 | l.231: HCC29 din 21.09.21, MO256-260/22.10.21 art.184; în vigoare 21.09.21 |
+| `COD-122-2003` | HCC31/2021-09-23 | l.232: HCC31 din 23.09.21, MO264-265/29.10.21 art.187; în vigoare 23.09.21 |
+| `COD-122-2003` | HCC12/2021-04-06 | l.234: HCC12 din 06.04.21, MO100-103/16.04.21 art.58; în vigoare 06.04.21 |
+| `COD-122-2003` | HCC26/2020-11-10 | l.239: HCC26 din 10.11.20, MO313-317/27.11.20 art.176; în vigoare 27.11.20 |
+| `COD-122-2003` | HCC15/2020-05-28 | l.243: HCC15 din 28.05.20, MO142-149/12.06.20 art.78; în vigoare 28.05.20 |
+| `COD-122-2003` | HCC2/2020-01-23 | l.246: HCC2 din 23.01.20, MO44-54/14.02.20 art.36 |
+| `COD-122-2003` | HCC6/2019-03-19 | l.247: HCC6 din 19.03.19, MO119-131/05.04.19 art.63 |
+| `COD-122-2003` | HCC3/2016-02-23 | l.283: HCC3 din 23.02.16, МО49-54/04.03.16 art.8 |
+| `COD-122-2003` | HCC12/2015-05-14 | l.287: HCC12 din 14.05.15, MO254-257/11.09.15 cm.25 |
+| `COD-122-2003` | HCC3/2012-02-09 | l.309: HCC3 din 09.02.12, MO38-41/24.02.12 art.7 |
+| `COD-122-2003` | HCC26/2010-11-23 | l.317: HCC26 din 23.11.10 МО 235-240 din 03.12.10 art. 27 |
+| `COD-122-2003` | HCC9/2008-05-20 | l.331: HCC 9 din 20.05.08, МО99-101/06.06.08 art.7 |
+| `COD-122-2003` | HCC16/2005-07-19 | l.357: HCC16 din 19.07.05, МО101-103/29.07.05 art.12 | |
+| `COD-154-2003` | HCC3/2020-02-04 | l.143: HCC3 din 04.02.20, MO63-68/28.02.20 art.37; în vigoare 04.02.20 |
+| `COD-154-2003` | HCC34/2017-12-08 | l.153: HCC34 din 08.12.17, MO33-39/02.02.18 art.6; în vigoare 08.12.17 |
+| `COD-174-2018` | HCC36/2021-11-23 | l.64: HCC36 din 23.11.21, MO302-306/10.12.21 art.211; în vigoare 23.11.21 |
+| `COD-218-2008` | HCC11/2018-05-08 | l.472: HCC11 din 08.05.18, МО195-209/15.06.18 art.97 |
+| `COD-218-2008` | HCC7/2018-04-26 | l.473: HCC7 din 26.04.18, МО176-180/01.06.18 art.88 |
+| `COD-218-2008` | HCC10/2016-05-10 | l.513: HCC10 din 10.05.16, МО204-205/12.07.16 art.58 |
+| `COD-218-2008` | HCC12/2013-06-04 | l.557: HCC12 din 04.06.13, МО167-172/02.08.13 art.22 |
+| `COD-225-2003` | HCC20/2024-09-26 | l.143: HCC20 din 26.09.24, MO423-426/10.10.24 art.155; în vigoare 26.09.24 |
+| `COD-225-2003` | HCC20/2022-11-03 | l.156: HCC20 din 03.11.22, MO363-373/18.11.22 art.176; în vigoare 03.11.22 |
+| `COD-225-2003` | HCC33/2016-11-17 | l.178: HCC33 din 17.11.16, МО30-39/03.02.16 art.7 |
+| `COD-225-2003` | HCC2/2004-02-19 | l.235: HCC2 din 19.02.04, MO39-41/05.03.04 art.9 |
+| `COD-225-2003` | HCC16/2013-06-25 | l.286: HCC16 din 25.06.13, MO177-181/16.08.13 art.24 |
+| `COD-443-2004` | HCC11/2021-03-25 | l.133: HCC11 din 25.03.21, MO96-99/09.04.21 art.57; în vigoare 25.03.21 |
+| `COD-443-2004` | HCC22/2019-10-08 | l.135: HCC22 din 08.10.19, MO388-392/27.12.19 art.213; în vigoare 08.10.19 |
+| `COD-443-2004` | HCC8/2019-04-05 | l.136: HCC8 din 05.04.19, MO148-158/26.04.19 art.77; în vigoare 05.04.19 |
+| `COD-443-2004` | HCC39/2017-12-14 | l.151: HCC39 din 14.12.17, МО68-76/02.03.18 art.36 |
+| `COD-443-2004` | HCC17/2017-05-10 | l.156: HCC17 din 10.05.17, МО244-251/14.07.17 art.77 |
+| `COD-443-2004` | HCC18/2013-07-04 | l.170: HCC18 din 04.07.13, МО182-185/23.08.13 art.27 |
+| `COD-985-2002` | HCC39/2021-12-21 | l.273: HCC39 din 21.12.21, MO325-333/31.12.21 art.232; în vigoare 21.12.21 |
+| `COD-985-2002` | HCC25/2021-08-12 | l.275: HCC25 din 12.08.21, MO212-218/10.09.21 art.164; în vigoare 12.08.21 |
+| `COD-985-2002` | HCC24/2019-10-17 | l.284: HCC24 din 17.10.19, MO338-343/15.11.19 art.207; în vigoare 17.10.19 |
+| `COD-985-2002` | HCC22/2018-10-01 | l.290: HCC22 din 01.10.18, МО416-422/09.11.18 art.146 |
+| `COD-985-2002` | HCC12/2018-05-14 | l.295: HCC12 din 14.05.18, МО176-180/01.06.18 art.89 |
+| `COD-985-2002` | HCC33/2017-12-07 | l.298: HCC33 din 07.12.17, MO27-32/26.01.18 cт.4 |
+| `COD-985-2002` | HCC22/2017-06-27 | l.304: HCC22 din 27.06.17, MO352-355/29.09.17 art.92 |
+| `COD-985-2002` | HCC18/2013-07-04 | l.335: HCC18 din 04.07.13, МО182-185/23.08.13 art.27 |
+| `CONST-1994` | HCC8/2024-03-11 | l.51: HCC8 din 11.03.24, MO104-107/21.03.24 art.42; în vigoare 11.03.24 |
+| `CONST-1994` | HCC7/2016-03-04 | l.58: HCC7 din 04.03.16, MO59-67/18.03.16 art.10 |
+| `L-1260-2002` | HCC18/2018-07-03 | l.55: HCC18 din 03.07.18, MO277-284/27.07.18 art.124; în vigoare 03.07.18 |
+| `L-135-2007` | HCC27/2016-09-27 | l.76: HCC27 din 27.09.16, MO423-429/09.12.16 art.102; în vigoare 27.09.16 |
+| `L-149-2012` | HCC8/2022-04-05 | l.73: HCC8 din 05.04.22, MO106-114/15.04.22 art.57; în vigoare 05.04.22 |
+| `L-149-2012` | HCC21/2020-08-04 | l.77: HCC21 din 04.08.20, MO205-211/14.08.20 art.110; în vigoare 04.08.20 |
+| `L-158-2008` | HCC6/2016-03-03 | l.143: HCC6 din 03.03.16, MO123-127/06.05.16 art.37 |
+| `L-514-1995` | HCC17/2021-06-10 | l.64: HCC17 din 10.06.21, MO153-157/25.06.21 art.99; în vigoare 10.06.21 |
+| `L-514-1995` | HCC27/2019-10-31 | l.68: HCC27 din 31.10.19, MO352-359/29.11.19 art.210; în vigoare 31.10.19 |
+| `L-514-1995` | HCC3/2012-02-09 | l.119: HCC3 din 09.02.12, MO38-41/24.02.12 art.7; în vigoare 09.02.12 |
+| `L-64-2010` | HCC12/2013-06-04 | l.47: HCC12 din 04.06.13, MO167-172/02.08.13 art.22; în vigoare 04.06.13 |
+| `L-845-1992` | HCC10/2022-04-14 | l.84: HCC10 din 14.04.22, MO151-157/20.05.22 art.68; în vigoare 14.04.22 |
+| `L-845-1992` | HCC5/2018-03-06 | l.93: HCC5 din 06.03.18, MO113-120/06.04.18 art.59; în vigoare 06.03.18 |
+| `L-845-1992` | HCC2/2018-01-30 | l.94: HCC2 din 30.01.18, MO108-112/30.03.18 art.54; în vigoare 30.01.18 |
+| `L-548-1995` | HCC31/2013-10-01 | l.96: HCC31 din 01.10.13, MO252-257/08.11.13 art.38 |
+| `L-548-1995` | HCC9/1999-02-18 | l.114: HCC9 din 18.02.99, MO22-23/04.03.99 art.15 |
+
