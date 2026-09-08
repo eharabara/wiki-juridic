@@ -1700,6 +1700,25 @@ titlul ei nu conține numele codului; singura cale de a o găsi a fost căutarea
 formă înșelătoare: art. 449 lit. f) CPC se citește „abrogată” deși abrogarea a fost anulată, pentru că
 temeiul a fost reintrodus ca lit. e^1). Nimic din `raw/` atins.
 
+### U.12. `COD-122-2003`, cele 14 hotărâri ale Curții fără marcaj, recuperate la articol (2026-09-08)
+
+Pasul 5.3, continuare, la cererea lui Eugen. 17 hotărâri în fișă, 3 cu marcaj în text, 14 recuperate:
+versiunile 17232, 17273, 17299, 17311, 85426, 91217, 113967, 120451, 124153, 126068, 126190, 135679;
+hotărârile 16022, 15961, 13647, 3340, 85436, 91184, 113703, 120315, 121723, 124113, 126050, 128296,
+128377, 135403. Găsirea hotărârilor: „sesizarea” pentru cele din 2012 încoace, „procedura penala” pentru
+cele din 2005–2010, ale căror titluri încep cu „asupra excepţiei” și nu conțin „sesizarea”. 23 de
+rânduri noi; acum 17/17.
+
+Ce s-a învățat în plus. (1) Două hotărâri nu au versiune proprie: HCC15/2020 (28.05.2020) nu apare
+deloc în istoric și niciun marcaj al ei nu există în versiunile vecine, iar HCC29/2021 (21.09.2021) stă
+în versiunea produsă de HCC31 două zile mai târziu; deci „versiunea de la data hotărârii” este regula,
+nu legea. (2) Dispozitivul poate numi un articol pe care fișa nu îl are: HCC15/2020 lovește și art. 192
+alin. (2), abrogat azi. (3) Consolidarea deținută fiind viitoare (02.12.2026), un articol lovit poate să
+nu mai existe sub numărul lui: art. 132^9 (HCC31/2021) e renumerotat, capitolul măsurilor speciale de
+investigații fiind acum 138^1–138^N; iar art. 452–457 au dispărut cu tot cu stub, secțiunea fiind
+„abrogată” ca întreg. (4) Cloudflare a reapărut o dată în mijlocul lucrului (pagina „Just a moment”) și
+s-a rezolvat singură la a doua încărcare, fără intervenție. Nimic din `raw/` atins.
+
 ### U.5. Ce a rămas în afara acestei seri
 
 - `COD-218-2008` ar câștiga două ancore de carte cu regula nouă din extractor; neaplicat.

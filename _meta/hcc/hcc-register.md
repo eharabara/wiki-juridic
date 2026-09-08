@@ -2,7 +2,7 @@
 
 Generat 2026-09-08 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
 
-18 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 76 hotariri distincte. Articolul atins este cunoscut pentru 16 marcaje inca prezente in text si 30 dispozitii recuperate din istoricul versiunilor; **48 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
+18 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 76 hotariri distincte. Articolul atins este cunoscut pentru 16 marcaje inca prezente in text si 53 dispozitii recuperate din istoricul versiunilor; **34 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
 
 Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiunea hotaririi si a intinderii anularii. Un act din tabelul „fara articol atribuit” se citeaza cu avertismentul ca poarta hotariri ale Curtii neverificate la nivel de articol.
 
@@ -12,7 +12,7 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 |---|---|---|---:|---:|---:|
 | `COD-116-2018` | 150447 | 2025-08-31 | 2 | 1 | 1 |
 | `COD-1163-1997` | 138613 | 2026-07-01 | 10 | 10 | 0 |
-| `COD-122-2003` | 156138 | 2026-12-02 | 17 | 3 | 14 |
+| `COD-122-2003` | 156138 | 2026-12-02 | 17 | 17 | 0 |
 | `COD-154-2003` | 155882 | 2027-01-01 | 3 | 1 | 2 |
 | `COD-174-2018` | 150538 | 2026-06-24 | 2 | 1 | 1 |
 | `COD-218-2008` | 155852 | 2026-09-13 | 6 | 6 | 0 |
@@ -54,6 +54,29 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `COD-122-2003` | 178 |  | omisiune legislativa | HCC19/2018-07-03 | MO267-275/20.07.18 art. 118 | marcaj in text, l.2912 |
 | `COD-122-2003` | 185 | al.(1) | subunitate | HCC27/2018-10-30 | MO430-439/23.11.18 art. 164 | marcaj in text, l.2987 |
 | `COD-122-2003` | 191 |  | omisiune legislativa | HCC17/2016-05-19 | MO232-244/29.07.16 art. 62 | marcaj in text, l.3084 |
+| `COD-122-2003` | 421 |  | text din articol („prin intermediul avocatului; În cazul în care recursul prevăzut în prezentul articol este …”) | HCC16/2005-07-19 | MO101-103/29.07.05 art.12 | versiunea 17232 @ 2005-07-19, verificat 2026-09-08 |
+| `COD-122-2003` | 433 | alin. (1) | subunitate | HCC16/2005-07-19 | MO101-103/29.07.05 art.12 | versiunea 17232 @ 2005-07-19, verificat 2026-09-08 |
+| `COD-122-2003` | 452 | alin. (1) | text din articol („prin intermediul avocatului”) | HCC16/2005-07-19 | MO101-103/29.07.05 art.12 | versiunea 17232 @ 2005-07-19, verificat 2026-09-08 |
+| `COD-122-2003` | 455 | alin. (3) | subunitate | HCC16/2005-07-19 | MO101-103/29.07.05 art.12 | versiunea 17232 @ 2005-07-19, verificat 2026-09-08 |
+| `COD-122-2003` | 401 | alin. (1) pct. 3) | text din articol („în ce priveşte latura penală în cazurile în care procesul penal se porneşte doar la plînge…”) | HCC9/2008-05-20 | MO99-101/06.06.08 art.7 | versiunea 17273 @ 2008-05-20, verificat 2026-09-08 |
+| `COD-122-2003` | 63 | alin. (6) | subunitate | HCC26/2010-11-23 | MO235-240/03.12.10 art.27 | versiunea 17299 @ 2010-11-23, verificat 2026-09-08 |
+| `COD-122-2003` | 29 | alin. (3) | in parte | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | versiunea 17311 @ 2012-02-09, verificat 2026-09-08 |
+| `COD-122-2003` | 37 | pct. 4) | in parte | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | versiunea 17311 @ 2012-02-09, verificat 2026-09-08 |
+| `COD-122-2003` | 42 | alin. (7) | in parte | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | versiunea 17311 @ 2012-02-09, verificat 2026-09-08 |
+| `COD-122-2003` | 270 | alin. (9) si lit. f) | in parte | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | versiunea 17311 @ 2012-02-09, verificat 2026-09-08 |
+| `COD-122-2003` | 400 | alin. (3) | in parte | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | versiunea 17311 @ 2012-02-09, verificat 2026-09-08 |
+| `COD-122-2003` | 287 | alin. (1) | subunitate | HCC12/2015-05-14 | MO254-257/11.09.15 art.25 | versiunea 85426 @ 2015-05-14, verificat 2026-09-08 |
+| `COD-122-2003` | 186 | alin. (3), (5), (8), (9) | text din articol („90 de zile”) | HCC3/2016-02-23 | MO49-54/04.03.16 art.8 | versiunea 91217 @ 2016-02-23, verificat 2026-09-08 |
+| `COD-122-2003` | 265 | alin. (2) | subunitate | HCC6/2019-03-19 | MO119-131/05.04.19 art.63 | versiunea 113967 @ 2019-03-19, verificat 2026-09-08 |
+| `COD-122-2003` | 6 | pct. 11^1) | text din articol („eroarea gravă de fapt nu reprezintă o apreciere greşită a probelor”) | HCC2/2020-01-23 | MO44-54/14.02.20 art.36 | versiunea 120451 @ 2020-01-23, verificat 2026-09-08 |
+| `COD-122-2003` | 191 | alin. (2) | subunitate | HCC15/2020-05-28 | MO142-149/12.06.20 art.78 | versiunea None @ None, verificat 2026-09-08 |
+| `COD-122-2003` | 192 | alin. (2) | subunitate | HCC15/2020-05-28 | MO142-149/12.06.20 art.78 | versiunea None @ None, verificat 2026-09-08 |
+| `COD-122-2003` | 453 | alin. (1) | text din articol („inclusiv”) | HCC26/2020-11-10 | MO313-317/27.11.20 art.176 | versiunea 124153 @ 2020-11-27, verificat 2026-09-08 |
+| `COD-122-2003` | 81 | alin. (2) si omisiune | text din articol („În cazul în care mai multe rude apropiate solicită această calitate, decizia de a alege su…”) | HCC12/2021-04-06 | MO100-103/16.04.21 art.58 | versiunea 126068 @ 2021-04-06, verificat 2026-09-08 |
+| `COD-122-2003` | 273 | alin. (1) lit. d^2) | in parte | HCC29/2021-09-21 | MO256-260/22.10.21 art.184 | versiunea 126190 @ 2021-09-23, verificat 2026-09-08 |
+| `COD-122-2003` | 276^1 | alin. (7) | in parte | HCC29/2021-09-21 | MO256-260/22.10.21 art.184 | versiunea 126190 @ 2021-09-23, verificat 2026-09-08 |
+| `COD-122-2003` | 132^9 | alin. (15) | text din articol („şi decide care din comunicările înregistrate urmează a fi nimicite, desemnând persoanele r…”) | HCC31/2021-09-23 | MO264-265/29.10.21 art.187 | versiunea 126190 @ 2021-09-23, verificat 2026-09-08 |
+| `COD-122-2003` | 321 | alin. (2) pct. 3) | text din articol („examinării unor cauze privitor la săvârșirea unor infracțiuni ușoare”) | HCC3/2023-01-24 | MO31-34/03.02.23 art.14 | versiunea 135679 @ 2023-01-24, verificat 2026-09-08 |
 | `COD-154-2003` | 90 | al.(2), lit. a) | text din articol („într-o mărime care nu va depăşi 12 salarii medii lunare ale salariatului”) | HCC9/2025-07-22 | MO430-433/14.08.25 art.105 | marcaj in text, l.1299 |
 | `COD-174-2018` | 28 | al.(1) | text din articol („şi funcționează sub formă de societăți comerciale”) | HCC6/2022-03-10 | MO80-87/25.03.22 art.43 | marcaj in text, l.608 |
 | `COD-218-2008` | 427 | alin.(2) | text din articol („ridicarea informației privind convorbirile telefonice”) | HCC26/2024-12-12 | MO529-532/18.12.24 art. 200 | marcaj in text, l.6735 |
@@ -87,20 +110,6 @@ Marcajul s-a pierdut la o reimprospatare anterioara a consolidarii. Articolul se
 | act | hotarire | rindul din fisa |
 |---|---|---|
 | `COD-116-2018` | HCC17/2020-06-23 | l.61: HCC17 din 23.06.20, MO188-192/24.07.20 art.100; în vigoare 23.06.20 | |
-| `COD-122-2003` | HCC3/2023-01-24 | l.221: HCC3 din 24.01.23, MO31-34/03.02.23 art.14; în vigoare 24.01.23 |
-| `COD-122-2003` | HCC29/2021-09-21 | l.231: HCC29 din 21.09.21, MO256-260/22.10.21 art.184; în vigoare 21.09.21 |
-| `COD-122-2003` | HCC31/2021-09-23 | l.232: HCC31 din 23.09.21, MO264-265/29.10.21 art.187; în vigoare 23.09.21 |
-| `COD-122-2003` | HCC12/2021-04-06 | l.234: HCC12 din 06.04.21, MO100-103/16.04.21 art.58; în vigoare 06.04.21 |
-| `COD-122-2003` | HCC26/2020-11-10 | l.239: HCC26 din 10.11.20, MO313-317/27.11.20 art.176; în vigoare 27.11.20 |
-| `COD-122-2003` | HCC15/2020-05-28 | l.243: HCC15 din 28.05.20, MO142-149/12.06.20 art.78; în vigoare 28.05.20 |
-| `COD-122-2003` | HCC2/2020-01-23 | l.246: HCC2 din 23.01.20, MO44-54/14.02.20 art.36 |
-| `COD-122-2003` | HCC6/2019-03-19 | l.247: HCC6 din 19.03.19, MO119-131/05.04.19 art.63 |
-| `COD-122-2003` | HCC3/2016-02-23 | l.283: HCC3 din 23.02.16, МО49-54/04.03.16 art.8 |
-| `COD-122-2003` | HCC12/2015-05-14 | l.287: HCC12 din 14.05.15, MO254-257/11.09.15 cm.25 |
-| `COD-122-2003` | HCC3/2012-02-09 | l.309: HCC3 din 09.02.12, MO38-41/24.02.12 art.7 |
-| `COD-122-2003` | HCC26/2010-11-23 | l.317: HCC26 din 23.11.10 МО 235-240 din 03.12.10 art. 27 |
-| `COD-122-2003` | HCC9/2008-05-20 | l.331: HCC 9 din 20.05.08, МО99-101/06.06.08 art.7 |
-| `COD-122-2003` | HCC16/2005-07-19 | l.357: HCC16 din 19.07.05, МО101-103/29.07.05 art.12 | |
 | `COD-154-2003` | HCC3/2020-02-04 | l.143: HCC3 din 04.02.20, MO63-68/28.02.20 art.37; în vigoare 04.02.20 |
 | `COD-154-2003` | HCC34/2017-12-08 | l.153: HCC34 din 08.12.17, MO33-39/02.02.18 art.6; în vigoare 08.12.17 |
 | `COD-174-2018` | HCC36/2021-11-23 | l.64: HCC36 din 23.11.21, MO302-306/10.12.21 art.211; în vigoare 23.11.21 |
