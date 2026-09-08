@@ -2,7 +2,7 @@
 
 Generat 2026-09-08 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
 
-18 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 76 hotariri distincte. Articolul atins este cunoscut pentru 16 marcaje inca prezente in text si 17 dispozitii recuperate din istoricul versiunilor; **57 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
+18 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 76 hotariri distincte. Articolul atins este cunoscut pentru 16 marcaje inca prezente in text si 30 dispozitii recuperate din istoricul versiunilor; **48 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
 
 Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiunea hotaririi si a intinderii anularii. Un act din tabelul „fara articol atribuit” se citeaza cu avertismentul ca poarta hotariri ale Curtii neverificate la nivel de articol.
 
@@ -15,8 +15,8 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `COD-122-2003` | 156138 | 2026-12-02 | 17 | 3 | 14 |
 | `COD-154-2003` | 155882 | 2027-01-01 | 3 | 1 | 2 |
 | `COD-174-2018` | 150538 | 2026-06-24 | 2 | 1 | 1 |
-| `COD-218-2008` | 155852 | 2026-09-13 | 6 | 2 | 4 |
-| `COD-225-2003` | 155718 | 2026-08-06 | 9 | 4 | 5 |
+| `COD-218-2008` | 155852 | 2026-09-13 | 6 | 6 | 0 |
+| `COD-225-2003` | 155718 | 2026-08-06 | 9 | 9 | 0 |
 | `COD-443-2004` | 156146 | 2026-12-02 | 6 | 0 | 6 |
 | `COD-985-2002` | 156133 | 2026-12-02 | 8 | 0 | 8 |
 | `CONST-1994` | 145723 | 2024-11-05 | 2 | 0 | 2 |
@@ -58,6 +58,10 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `COD-174-2018` | 28 | al.(1) | text din articol („şi funcționează sub formă de societăți comerciale”) | HCC6/2022-03-10 | MO80-87/25.03.22 art.43 | marcaj in text, l.608 |
 | `COD-218-2008` | 427 | alin.(2) | text din articol („ridicarea informației privind convorbirile telefonice”) | HCC26/2024-12-12 | MO529-532/18.12.24 art. 200 | marcaj in text, l.6735 |
 | `COD-218-2008` | 445 |  | articol intreg | HCC32/2018-11-29 | MO513-525/28.12.18 art. 189 | marcaj in text, l.7083 |
+| `COD-218-2008` | 67^1 |  | articol intreg | HCC12/2013-06-04 | MO167-172/02.08.13 art.22 | versiunea 6776 @ 2013-06-04, verificat 2026-09-08 |
+| `COD-218-2008` | 345 | alin. (2) | text din articol („amendă de 300 de unităţi convenţionale aplicată persoanei juridice [literele d) şi e)] şi …”) | HCC10/2016-05-10 | MO204-205/12.07.16 art.58 | versiunea 93895 @ 2016-07-12, verificat 2026-09-08 |
+| `COD-218-2008` | 34 | alin. (3) | text din articol („din momentul stabilirii ei”) | HCC7/2018-04-26 | MO176-180/01.06.18 art.88 | versiunea 108178 @ 2018-04-26, verificat 2026-09-08 |
+| `COD-218-2008` | 233 | alin. (3) | text din articol („amendă de la 400 la 500 de unități convenționale sau cu muncă neremunerată în folosul comu…”) | HCC11/2018-05-08 | MO195-209/15.06.18 art.97 | versiunea 108180 @ 2018-05-08, verificat 2026-09-08 |
 | `COD-225-2003` | 1 |  | articol intreg | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | marcaj in text, l.299 |
 | `COD-225-2003` | 39 | alin. (11^1) | subunitate | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | marcaj in text, l.532 |
 | `COD-225-2003` | 44 | alin. (6)-(8) | subunitate | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | marcaj in text, l.593 |
@@ -65,6 +69,15 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `COD-225-2003` | 343^6 |  | text din articol („și de apreciere a rezultatului testului de integritate profesională”) | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.3011 |
 | `COD-225-2003` | 343^8 |  | articol intreg | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.3024 |
 | `COD-225-2003` | 353 | al.(1) | text din articol („care nu se supune niciunei căi de atac”) | HCC7/2019-03-19 | MO119-131/05.04.19 art.64 | marcaj in text, l.3120 |
+| `COD-225-2003` | 416 | alin. (3) | text din articol („cu excepţia faptului că în această instanţă părţile vor participa, în mod obligatoriu, pri…”) | HCC2/2004-02-19 | MO39-41/05.03.04 art.9 | versiunea 81050 @ 2004-02-19, verificat 2026-09-08 |
+| `COD-225-2003` | 444 | alin. (3) | text din articol („în mod obligatoriu, prin intermediul avocatului sau al unui alt reprezentant licenţiat în …”) | HCC2/2004-02-19 | MO39-41/05.03.04 art.9 | versiunea 81050 @ 2004-02-19, verificat 2026-09-08 |
+| `COD-225-2003` | 449 | lit. f) | in parte | HCC16/2013-06-25 | MO177-181/16.08.13 art.24 | versiunea 81103 @ 2014-01-24, verificat 2026-09-08 |
+| `COD-225-2003` | 58 | alin. (2), (2^1), (6) | text din articol („sau de adulţii cu capacitatea de exercițiu limitată; sau curatorul adultului cu capacitate…”) | HCC33/2016-11-17 | MO30-39/03.02.17 art.7 | versiunea 97669 @ 2016-11-17, verificat 2026-09-08 |
+| `COD-225-2003` | 170 | alin. (1) lit. c) | in parte | HCC33/2016-11-17 | MO30-39/03.02.17 art.7 | versiunea 97669 @ 2016-11-17, verificat 2026-09-08 |
+| `COD-225-2003` | 267 | lit. b) | in parte | HCC33/2016-11-17 | MO30-39/03.02.17 art.7 | versiunea 97669 @ 2016-11-17, verificat 2026-09-08 |
+| `COD-225-2003` | 306 | alin. (2) | text din articol („Problema citării persoanei se soluţionează în fiecare caz, în funcţie de starea sănătăţii …”) | HCC33/2016-11-17 | MO30-39/03.02.17 art.7 | versiunea 97669 @ 2016-11-17, verificat 2026-09-08 |
+| `COD-225-2003` | 437 | alin. (1) | text din articol („trebuie să fie dactilografiată și”) | HCC20/2022-11-03 | MO363-373/18.11.22 art.176 | versiunea 134150 @ 2022-11-03, verificat 2026-09-08 |
+| `COD-225-2003` | 84 | alin. (4) | text din articol („Taxa de timbru nu este susceptibilă de scutire, amânare sau eșalonare, cu excepțiile prevă…”) | HCC20/2024-09-26 | MO423-426/10.10.24 art.155 | versiunea 145370 @ 2024-09-26, verificat 2026-09-08 |
 | `L-514-1995` | 15^1 | al.(5) | subunitate | HCC7/2020-03-24 | MO115-117/15.05.20 art.51 | marcaj in text, l.224 |
 
 ## Hotariri din fisa fara articol atribuit
@@ -91,15 +104,6 @@ Marcajul s-a pierdut la o reimprospatare anterioara a consolidarii. Articolul se
 | `COD-154-2003` | HCC3/2020-02-04 | l.143: HCC3 din 04.02.20, MO63-68/28.02.20 art.37; în vigoare 04.02.20 |
 | `COD-154-2003` | HCC34/2017-12-08 | l.153: HCC34 din 08.12.17, MO33-39/02.02.18 art.6; în vigoare 08.12.17 |
 | `COD-174-2018` | HCC36/2021-11-23 | l.64: HCC36 din 23.11.21, MO302-306/10.12.21 art.211; în vigoare 23.11.21 |
-| `COD-218-2008` | HCC11/2018-05-08 | l.472: HCC11 din 08.05.18, МО195-209/15.06.18 art.97 |
-| `COD-218-2008` | HCC7/2018-04-26 | l.473: HCC7 din 26.04.18, МО176-180/01.06.18 art.88 |
-| `COD-218-2008` | HCC10/2016-05-10 | l.513: HCC10 din 10.05.16, МО204-205/12.07.16 art.58 |
-| `COD-218-2008` | HCC12/2013-06-04 | l.557: HCC12 din 04.06.13, МО167-172/02.08.13 art.22 |
-| `COD-225-2003` | HCC20/2024-09-26 | l.143: HCC20 din 26.09.24, MO423-426/10.10.24 art.155; în vigoare 26.09.24 |
-| `COD-225-2003` | HCC20/2022-11-03 | l.156: HCC20 din 03.11.22, MO363-373/18.11.22 art.176; în vigoare 03.11.22 |
-| `COD-225-2003` | HCC33/2016-11-17 | l.178: HCC33 din 17.11.16, МО30-39/03.02.16 art.7 |
-| `COD-225-2003` | HCC2/2004-02-19 | l.235: HCC2 din 19.02.04, MO39-41/05.03.04 art.9 |
-| `COD-225-2003` | HCC16/2013-06-25 | l.286: HCC16 din 25.06.13, MO177-181/16.08.13 art.24 |
 | `COD-443-2004` | HCC11/2021-03-25 | l.133: HCC11 din 25.03.21, MO96-99/09.04.21 art.57; în vigoare 25.03.21 |
 | `COD-443-2004` | HCC22/2019-10-08 | l.135: HCC22 din 08.10.19, MO388-392/27.12.19 art.213; în vigoare 08.10.19 |
 | `COD-443-2004` | HCC8/2019-04-05 | l.136: HCC8 din 05.04.19, MO148-158/26.04.19 art.77; în vigoare 05.04.19 |

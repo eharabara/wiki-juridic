@@ -1679,6 +1679,27 @@ fiscal nu ține azi text anulat; registrul le consemnează pentru istoric și pe
 Rânduri în `_meta/hcc/recovered-provisions.json` (17, HCC2/2014 pe nouă articole); tabelul pe
 `entities/COD-1163-1997.md`. Nimic din `raw/` atins.
 
+### U.11. `COD-218-2008` și `COD-225-2003`, hotărârile Curții din fișe, recuperate la articol (2026-09-08)
+
+Pasul 5.3, continuare. Eugen a cerut Codul contravențional; procedura civilă a fost luată în aceeași
+sesiune fiindcă pagina ei era deja deschisă. Codul contravențional: 4 recuperate din 6 (versiunile
+6776, 93895, 108178, 108180; hotărârile 15895, 93737, 111024, 111030), acum 6/6. Procedura civilă:
+5 recuperate din 9 (versiunile 81050, 81103, 97669, 134150, 145370; hotărârile 10267, 15921, 97527,
+134115, 145340), acum 9/9; 13 rânduri noi în `recovered-provisions.json`.
+
+Ce s-a învățat în plus față de U.10. (1) Al patrulea tip de marcaj: în Codul contravențional din
+2013 și 2018 marcajul stă pe rând separat sau lipit de sancțiune, fără paranteze și fără articol
+(„declarat neconstituțional prin HCC7 din 26.04.18”). (2) Data versiunii nu e mereu data hotărârii:
+HCC10/2016 are versiunea la 12.07.16, data publicării în MO. (3) O hotărâre care lovește **legea de
+modificare**, nu codul, nu lasă marcaj în nicio versiune a codului (HCC16/2013 pe LP29/2012), iar
+titlul ei nu conține numele codului; singura cale de a o găsi a fost căutarea în titlu pe
+„sesizarea”, care returnează practic toate HCC (2.742 de rânduri) și se filtrează pe număr și an.
+(4) Fișa listează numai anulările: HCC4/2018 și HCC28/2018 (recunoașteri cu rezervă de interpretare
+în Codul contravențional) și HCC4/2016 (procedura civilă) nu apar în fișe și nu sunt în registru.
+(5) Toate cele nouă dispoziții recuperate azi au fost rescrise sau abrogate de Parlament; una are
+formă înșelătoare: art. 449 lit. f) CPC se citește „abrogată” deși abrogarea a fost anulată, pentru că
+temeiul a fost reintrodus ca lit. e^1). Nimic din `raw/` atins.
+
 ### U.5. Ce a rămas în afara acestei seri
 
 - `COD-218-2008` ar câștiga două ancore de carte cu regula nouă din extractor; neaplicat.
