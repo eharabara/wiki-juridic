@@ -63,6 +63,12 @@ article from a future-dated act, and say in the answer which version applies tod
   marked suspended). Both are structured in points, so a citation to "pct. N" is not anchored;
   their English translations under `raw/papers/bnm/legal/` are translations, used only to
   locate, and for 130/2013 the English file holds the annexes that the Romanian text lacks.
+  The same day the folder received its first non-legis.md source, `DCU-REGULI-2026`, the
+  Rules of the Central Securities Depository (v3, in force 8 April 2026, final approval by
+  BNM), taken as a PDF from dcu.md with its own script, `_meta/imports/bnm/ingest_dcu_rules.py`.
+  Its 94 article anchors are synthetic, built from the source's "Art.N." line and the title on
+  the next line; strip the `## ` lines to recover the extraction, whose hash is
+  `sha256_extraction`. Art. 82^1 sits before art. 82 in the source.
 - `raw/papers/cnpf/_manifest.md` — the source register. Read it before citing anything from the
   perimeter. It records mandate allocation between CNPF and BNM, acquis anchors, consolidation
   dates, and confidence per act.
@@ -105,9 +111,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-08 13:11 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-08 13:49 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-71 primary Moldovan acts, 29 EU acquis extracts, 284 BNM corpus documents.
+72 primary Moldovan acts, 29 EU acquis extracts, 284 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -126,6 +132,7 @@ Generated 2026-09-08 13:11 from the files themselves. Do not edit this section b
 | `COD-985-2002` | 566 | 566 | 2026-12-02 | **consolidation dated in the future**; 178 superscript articles normalised |
 | `CONST-1994` | 157 | 157 | 2024-11-05 | 8 articles numbered in Roman figures; 6 superscript articles normalised |
 | `DCA-61-2024` | 0 | 0 | 2024-05-05 | no article structure; **2.3 years old** |
+| `DCU-REGULI-2026` | 94 | 94 | 2026-04-08 | 1 superscript article normalised |
 | `HBN-127-2013` | 0 | 0 | 2021-05-09 | no article structure; **5.3 years old** |
 | `HBN-130-2013` | 0 | 0 | 2018-12-23 | no article structure; **7.7 years old** |
 | `HG-1170-2016` | 0 | 0 | 2025-03-07 | no article structure |

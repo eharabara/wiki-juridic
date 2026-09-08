@@ -35,6 +35,7 @@ engleze neoficiale, neancorate. Regula D2: traducerea localizează, textul de ai
 | `L-239-2008.md` | Legea nr. 239/2008 transparența în procesul decizional | 142655 | 2024-07-05 | 20 | PASS, 148 linii | P8-bis; lege generală, aici doar pentru că BNM o ține în registrul său |
 | `HBN-127-2013.md` | Hotărârea BNM nr. 127/2013, Regulamentul cu privire la deținerile în capitalul social al băncii | 126093 | 2021-05-09 | **0, structură pe puncte** | PASS, 390 linii | **primul act subordonat al BNM aici**, 2026-09-08; 75 de puncte în anexă, 10 capitole; anexele nr. 1–2^4 absente din text; pct. 8 definește circumstanțele obiective ale art. 46 din 202/2017 și numește succesiunea; denumire schimbată de HBN52/2021 |
 | `HBN-130-2013.md` | Hotărârea BNM nr. 130/2013, Regulamentul cu privire la calculul drepturilor de vot şi înregistrarea transferului dreptului de proprietate asupra acţiunilor băncilor | 111967 | 2018-12-23 | **0, structură pe puncte** | PASS, 82 linii | al doilea act subordonat, 2026-09-08; 18 puncte, 3 capitole; anexele 1–2 absente din text, dar prezente în engleză în corpusul BNM (091–092); pct. 14: dobândirea în circumstanțe obiective se înscrie fără aprobare prealabilă, cu vot suspendat |
+| `DCU-REGULI-2026.md` | Regulile Depozitarului Central Unic al Valorilor Mobiliare, v3 | — (dcu.md, PDF) | 2026-04-08, intrare în vigoare | **94, sintetice** (93 + art. 82^1) | PASS, 3651 linii | 2026-09-08; **nu e pe legis.md**; act al DCU aprobat final de BNM (HCE nr. 89/2026), aviz CNPF; 13 capitole; ancore construite din „Art.N." și titlul de pe rândul următor; script propriu `ingest_dcu_rules.py`; notă de copyright pe pagina de titlu |
 
 ## Ce s-a schimbat față de lista D3
 
@@ -110,6 +111,34 @@ Ce aduce și ce diferă:
   15–15^6. Text de sursă, rămâne așa.
 - Aceeași rută de descărcare ca la HBN-127-2013 (42.451 de octeți), Cloudflare reapărută o dată,
   rezolvată la reîncărcare.
+
+## DCU-REGULI-2026, 2026-09-08 — prima sursă PDF din acest folder, cu ancore sintetice
+
+Regulile DCU nu sunt pe legis.md (căutări în titlu „regulile depozitarului central unic", zero, și
+„depozitarului central unic", 14 rânduri fără ele) și nu apar în Monitorul Oficial: art. 25 din
+Legea 234/2016 le cere publicate pe pagina DCU. Sursa este `https://www.dcu.md/doc/Reguli_DCU_v3.pdf`,
+luat cu `curl` (dcu.md nu are Cloudflare), 750.375 de octeți, arhivat în `_meta/imports/bnm/dcu/`.
+Pagina de entitate: `entities/DCU-REGULI-2026.md`.
+
+Ce diferă față de ruta legis.md:
+
+- **Script propriu**, `_meta/imports/bnm/ingest_dcu_rules.py`, cu `--precheck`, scriere și `--verify`.
+  Extracție PyMuPDF pagină cu pagină; se elimină doar spațiile de capăt și liniile goale. Numerele
+  de pagină „N din 62", cuprinsul, nota de copyright și notele de subsol lipite de cuvinte rămân.
+- **Ancore sintetice.** Sursa scrie „Art.N." și pune adesea titlul pe rândul următor; titlul
+  `## Articolul N. Titlu` este construit din una-două linii-sursă și inserat deasupra lor. Ștergerea
+  liniilor `## ` din secțiunea de text reface extracția, al cărei hash stă în `sha256_extraction`;
+  `sha256` acoperă corpul scris, `source_file_sha256` PDF-ul. Trei câmpuri, trei controale.
+- **Ancorare numai în ordinea numerotării.** „Art.66." după art. 59, „Art.80." după art. 62 și
+  „Capitolul XII." între VII și VIII sunt trimiteri rupte la capăt de rând; scriptul le sare și le
+  numește în antetul fișierului. Cuprinsul nu primește ancore.
+- **Exponent turtit cu dovadă.** „Art.821." este art. 82^1: PyMuPDF dă cifra cu flag de superscript;
+  scriptul ancorează `Articolul 82^1` numai cu această dovadă. Sursa îl așază între art. 81 și 82.
+- **Verificare:** PASS, 3.651 din 3.651 linii, 94 de ancore 1–93 fără lacune și duplicate, 13
+  capitole în ordine, niciuna în cuprins.
+- **Identificator fără cod legis.md:** `DCU-REGULI-2026`, după emitent și anul intrării în vigoare;
+  o versiune v4 va primi anul ei. Blocul de acoperire îl numără printre actele primare ale
+  perimetrului, cu ancore, fiindcă folderul este parcurs ca atare.
 
 ## Ce rămâne deschis
 
