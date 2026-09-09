@@ -45,6 +45,22 @@ DOCS = {
     'HCNPF-14-5-2016': {'doc_id': '131276',
                         'title': 'Hotarirea CNPF nr. 14/5/2016 referitor la aprobarea Regulamentului '
                                  'privind circulatia valorilor mobiliare pe piata de capital'},
+    # ---- 2026-09-09, la cererea lui Eugen: actul la care trimit codurile de transfer din anexa
+    # nr. 1 a procedurii de decontare a DCU ("tipurile de tranzactii stabilite de F7 din anexa la
+    # Hotarirea CNPF nr.38/5 din 03.07.2015"). DENUMIRE SCHIMBATA: adoptata ca "Instructiunea cu
+    # privire la raportarile persoanelor licentiate si autorizate pe piata de capital", azi
+    # "Instructiunea cu privire la sistemul de raportare in domeniul pietei de capital"; legis.md
+    # nu o gaseste dupa numar (nici "38/5", nici in text), ci dupa titlul VECHI, "raportarile
+    # persoanelor licentiate", 6 rinduri, actul de baza cu marcajul "Modificat" si titlul nou.
+    # Noua versiuni: 84522 (2015), 98160 (2017), 104809 si 112274 (2018), 113939 (2019), 120605
+    # (2020), 132598 (2022), 137955 (2023), 147834 (01.10.2025, curenta, HCNPF12/4/2025). Sase
+    # modificari in fisa; fara abrogare. Structurata pe PUNCTE, zero ancore de articol; 8 <sup>,
+    # fara span CSS, 12 marcaje "in vigoare", ~50 mii de caractere; formularele F1-F33 probabil nu
+    # sint in text (de verificat la ingest). legis.md a dat 524 in dupa-amiaza de 9 septembrie
+    # si a revenit in aceeasi zi.
+    'HCNPF-38-5-2015': {'doc_id': '147834',
+                        'title': 'Hotarirea CNPF nr. 38/5/2015 privind aprobarea Instructiunii cu '
+                                 'privire la sistemul de raportare in domeniul pietei de capital'},
 }
 
 # Se refolosesc functiile invelisului bancar cu directoarele acestui perimetru.

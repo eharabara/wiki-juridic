@@ -364,3 +364,29 @@ certificatul de moștenitor eliberat de notar**; pct. 20, trimiterea reciprocă 
 
 **Ce rămâne deschis.** Hotărârea CNPF nr. 38/5/2015 (tipurile de tranzacții F7, la care trimit
 codurile DCU) și hotărârea anuală a CNPF privind cuantumul taxelor și plăților.
+
+### J.2. `HCNPF-38-5-2015`, Instrucțiunea privind sistemul de raportare (ingerat 2026-09-09)
+
+Al doilea act subordonat al CNPF, cerut de Eugen pentru codurile de transfer din anexa nr. 1 a
+procedurii de decontare a DCU, care trimit la „F7 din anexa la Hotărârea CNPF nr.38/5 din 03.07.2015".
+
+| Act | doc_id | Consolidare | Ancore | Structură |
+|---|---|---|---|---|
+| Hotărârea CNPF nr. 38/5 din 03.07.2015 privind aprobarea Instrucţiunii cu privire la sistemul de raportare în domeniul pieței de capital | **147834** | **2025-10-01** (HCNPF12/4/2025), curentă; fără abrogare | **0, pe puncte** | 60 de puncte de bază plus 13^1, 14^1, 19^1; 4 capitole; anexa nr. 2 în text, **anexa nr. 1 (formularele F1–F29) absentă** |
+
+**Verificare.** `verify_cnpf_ro.py`: integritate **PASS, 336 de linii scrise față de 336 de
+referință**, fără `<sup>` rămas din 8. sha256 recalculat: coincide.
+
+**Două capcane de căutare, consemnate ca regulă.** Actul nu se găsește pe legis.md după număr:
+„38/5" în titlu dă zero, „38/5 din 03.07.2015" în text dă zero (și căutarea în text a înghețat
+browserul, apoi legis.md a răspuns 524 pentru câteva zeci de minute). Titlul l-a dat cnpf.md.
+Apoi: actul a fost **redenumit**, din „raportările persoanelor licențiate și autorizate" în
+„sistemul de raportare în domeniul pieței de capital"; căutarea în titlu merge cu titlul vechi,
+actul de bază apărând cu cel nou. A doua redenumire prinsă în două zile, după HBN-127-2013.
+
+**Ce dă pentru speță.** Puțin, și negativ: F7 este formularul zilnic al tranzacțiilor în afara
+pieței, raportat de depozitarul central, registratori și societățile de investiții (pct. 10, 12,
+13; anexa nr. 2 pct. 8); nomenclatorul tipurilor de tranzacții, deci „codul 4 = moștenire", stă în
+modelul formularului din anexa nr. 1, care nu este în text. Corespondența de pe pagina DCU rămâne
+neverificabilă din vault. Anexa nr. 2 pct. 9 subpct. 3) trimite taxa pe tranzacție la hotărârea
+Parlamentului privind bugetul CNPF, nu la o hotărâre CNPF cum spune procedura DCU; de verificat.

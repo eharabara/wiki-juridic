@@ -47,10 +47,12 @@ article from a future-dated act, and say in the answer which version applies tod
 
 - `raw/papers/cnpf/` — the CNPF and BNM perimeter laws, full text from legis.md, plus the EU
   acquis extracts named `UE-*.md`. The EU files are structured extracts, not full text. Since
-  2026-09-09 it also holds the first CNPF subordinate act, `HCNPF-14-5-2016`, the Regulation on
-  the circulation of securities (pct. 27: an inheritance is registered on the notary's
-  certificat de moștenitor), ingested with `_meta/imports/cnpf/ingest_cnpf_ro.py`; points, no
-  anchors.
+  2026-09-09 it also holds the first two CNPF subordinate acts, ingested with
+  `_meta/imports/cnpf/ingest_cnpf_ro.py`, points, no anchors: `HCNPF-14-5-2016`, the Regulation
+  on the circulation of securities (pct. 27: an inheritance is registered on the notary's
+  certificat de moștenitor), and `HCNPF-38-5-2015`, the reporting instruction (F7 is a daily
+  report form; its annex 1 with the forms is not on legis.md). Renamed acts are found on
+  legis.md only under the title they were adopted with.
 - `raw/papers/moldova-legal/` — Civil Code, Codul fiscal, Codul administrativ, company law,
   Law 100/2017 on normative acts, and the government decisions.
 - `raw/papers/bnm/` — the BNM legal and reports corpus, converted documents plus originals.
@@ -120,9 +122,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-09 16:17 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-09 16:35 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-74 primary Moldovan acts, 29 EU acquis extracts, 293 BNM corpus documents.
+75 primary Moldovan acts, 29 EU acquis extracts, 293 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -145,6 +147,7 @@ Generated 2026-09-09 16:17 from the files themselves. Do not edit this section b
 | `HBN-127-2013` | 0 | 0 | 2021-05-09 | no article structure; **5.3 years old** |
 | `HBN-130-2013` | 0 | 0 | 2018-12-23 | no article structure; **7.7 years old** |
 | `HCNPF-14-5-2016` | 0 | 0 | 2022-05-06 | no article structure; **4.3 years old** |
+| `HCNPF-38-5-2015` | 0 | 0 | 2025-10-01 | no article structure |
 | `HG-1170-2016` | 0 | 0 | 2025-03-07 | no article structure |
 | `HG-1171-2018` | - | 0 | 2024-07-05 | numbered points (65), not articles; **2.2 years old** |
 | `HG-553-2024` | 0 | 0 | 2025-10-18 | no article structure |
