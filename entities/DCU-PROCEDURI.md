@@ -77,7 +77,7 @@ Pagina `https://www.dcu.md/ro/reglementari/procedurile-dcu`, citită cu `curl` (
 ## Întrebări deschise
 
 1. **OCR pentru procedura de decontare.** Fără el, singura procedură care descrie succesiunea rămâne citită din imagine. Tesseract cu pachetul de limbă română, sau textul de la DCU.
-2. **Regulamentul CNPF nr. 14/5/2016 privind circulația valorilor mobiliare pe piața de capital** este actul care listează documentele cerute la transferul prin succesiune; nu este în vault, iar pct. 12 din [[HBN-130-2013]] trimite tot la actele CNPF. Următorul de ingerat, dacă lanțul trebuie închis până la formular.
+2. **Închisă în aceeași zi.** Regulamentul CNPF nr. 14/5/2016 este ingerat ca [[HCNPF-14-5-2016]]; pct. 27 al lui numește documentul: certificatul de moștenitor eliberat de notar și, după caz, actele notariale de partaj, donație sau vânzare a cotei succesorale.
 3. **Hotărârea CNPF nr. 38/5 din 03.07.2015**, tipurile de tranzacții din F7, la care trimit codurile din anexa nr. 1; nu este în vault.
 4. **Reconstituirea fragmentelor de font** din cele patru documente, prin lipirea rulajelor de pe aceeași linie de bază; posibilă și repetabilă, nefăcută, ca extracția să rămână cea implicită. Decizia este a lui Eugen.
 5. **Documentele model** de pe dcu.md (cereri, formulare) nu sunt ingerate.

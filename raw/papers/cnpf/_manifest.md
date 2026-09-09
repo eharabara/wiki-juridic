@@ -331,3 +331,36 @@ necitabile. Corectat și consemnat în script.
 | `md-2026-07-03-schelet-lege-emir` | Schelet proiect lege EMIR DOCX, cu comentarii extrase | [[verificare-schelet-lege-emir-2026-07-03]] | Sursă de lucru; nu text normativ adoptat; include 7 comentarii și 0 track changes detectate. |
 | `UE-648-2012-priority-articles-2026-07-09` | Extract suplimentar articole prioritare EMIR din Cellar | [[emir-concordance-skeleton]] | Art. 1, 2, 3, 4, 4a, 4b, 7a–7e, 9–12, 14, 22–25, 39, 48, 55, 77, 81, 83, 84, 89; folosit pentru scheletul de concordanță. |
 | `md-2026-07-09-proiect-lege-emir-completat` | Proiect lege EMIR completat DOCX, fără comentarii și fără track changes detectate | [[emir-draft-complet-2026-07-10]]; [[emir-audit-conformitate-lege100-hg1171-2026-07-10]] | Sursă de lucru; draft completat local, nu act adoptat; DOCX SHA-256 `3b6c41b26961e435079ea4802c2a20ca4c181b8ccbc0696abd0ebe085fbb538b`. |
+
+## J. Acte subordonate CNPF în română — HCNPF-14-5-2016 (ingerat 2026-09-09)
+
+Primul act subordonat al CNPF din acest folder, cerut de Eugen ca ultimul strat al lanțului speței
+moștenitorului unui acționar de bancă (8 septembrie 2026): pct. 12 din `HBN-130-2013` și procedura
+de decontare a DCU trimit la el pentru documentele cerute la transferul în afara pieței reglementate.
+
+| Act | doc_id | Consolidare | Ancore | Structură |
+|---|---|---|---|---|
+| Hotărârea CNPF nr. 14/5 din 31.03.2016 referitor la aprobarea Regulamentului privind circulația valorilor mobiliare pe piața de capital | **131276** | **2022-05-06** (HCNPF14/15/2022), curentă; fără abrogare | **0, pe puncte** | 61 de puncte de bază plus 25^1, 25^2, 28^1, 44^1, 44^2; 2 capitole, 6 secțiuni |
+
+**Verificare.** `_meta/imports/cnpf/verify_cnpf_ro.py`: integritate de text **PASS, 191 de linii
+scrise față de 191 de referință**, fără `<sup>` rămas din 13, un exponent de punct păstrat în corp.
+sha256 recalculat: coincide.
+
+**Metodă.** `_meta/imports/cnpf/ingest_cnpf_ro.py`, înveliș peste `_meta/imports/bnm/ingest_bnm_ro.py`
+cu destinația `raw/papers/cnpf/` și cache-ul `_meta/imports/cnpf/legis-md-consolidated/`, același ca
+al legilor CNPF reîmprospătate la 4 septembrie. Scriptul din iulie, `legis_md_consolidated_ingest.py`,
+nu se mai folosește pentru acte noi: `curl` direct, blocat de Cloudflare, și un format vechi de
+fișier. Identificatorul urmează codul legis.md, `HCNPF14/5/2016` → `HCNPF-14-5-2016`. Găsit prin
+căutare în titlu „circulatia valorilor mobiliare pe piata de capital", fără diacritice, 3 rânduri;
+lista de versiuni (92094, 112260, 112261, 121705, 127708, 131276) confirmă rândul de căutare.
+Descărcare: octeții serverului prin `fetch` din Chrome, 111.404 de octeți, cu acordul lui Eugen.
+
+**Consecință de citare.** Structură pe puncte, numerotarea repornește între hotărâre și anexă:
+zero ancore de articol, ca `HBN-127-2013` și `HBN-130-2013`; **„pct. N" nu este ancorat**, se
+citează prin capitol, secțiune și punct. Ce contează pentru speță, pe pagina de entitate: pct. 11
+subpct. 4) moștenirea ca tranzacție în afara pieței; pct. 18 dispoziția de transmitere; **pct. 27,
+certificatul de moștenitor eliberat de notar**; pct. 20, trimiterea reciprocă la Regulamentul BNM
+130/2013 pentru acțiunile băncii; pct. 45 subpct. 1), înregistrarea la valoarea nominală.
+
+**Ce rămâne deschis.** Hotărârea CNPF nr. 38/5/2015 (tipurile de tranzacții F7, la care trimit
+codurile DCU) și hotărârea anuală a CNPF privind cuantumul taxelor și plăților.

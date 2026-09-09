@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-09 | Total pages: 116
+> Last updated: 2026-09-09 | Total pages: 117
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -31,6 +31,7 @@
 - [[DCU-REGULI-2026]] — Regulile Depozitarului Central Unic al Valorilor Mobiliare, v3 în vigoare din 8 aprilie 2026, aprobate final de BNM: art. 49 leagă proprietatea de creditarea contului individual, art. 13 alin. (3) și art. 53 dau moștenitorului și notarului informația și extrasul, art. 75 lista acționarilor; 94 de ancore sintetice dintr-un PDF de pe dcu.md, nu de pe legis.md.
 - [[HBN-127-2013]] — Regulamentul BNM cu privire la deținerile în capitalul social al băncii (Hotărârea BNM nr. 127/2013): pct. 8 numește succesiunea și moștenirea printre circumstanțele obiective ale art. 46 din Legea 202/2017, cu drepturile suspendate până la aprobarea BNM; structură pe puncte, fără ancore de articol; consolidare 2021-05-09, curentă.
 - [[HBN-130-2013]] — Regulamentul BNM cu privire la calculul drepturilor de vot şi înregistrarea transferului dreptului de proprietate asupra acţiunilor băncilor (Hotărârea BNM nr. 130/2013): pct. 14 înscrie dobândirile în circumstanțe obiective fără aprobare prealabilă, cu vot suspendat; pct. 15 cere declarația de activitate concertată la orice transfer; structură pe puncte, fără ancore de articol; versiune în vigoare din 23.12.2018.
+- [[HCNPF-14-5-2016]] — Regulamentul CNPF privind circulația valorilor mobiliare pe piața de capital (Hotărârea CNPF nr. 14/5/2016): pct. 27, la moștenire se prezintă certificatul de moștenitor eliberat de notar; pct. 18, dispoziția de transmitere; pct. 20, acțiunile băncii și Regulamentul BNM 130/2013; pct. 45, moștenirea se înregistrează la valoarea nominală; structură pe puncte, fără ancore; consolidare 2022-05-06, curentă.
 - [[HG-1170-2016]] — Hotărârea Guvernului nr. 1170/2016 privind transmiterea, schimbarea destinației și schimbul de terenuri; **abrogată integral de la 07.03.2025** prin pct. 3 din HG 553/2024, verificat pe text
 - [[HG-1171-2018]] — Regulamentul privind armonizarea legislației Republicii Moldova cu legislația UE
 - [[HG-553-2024]] — Regulamentul schimbării destinației terenurilor agricole de calitate superioară și ale fondului forestier și apelor (HG 553/2024, în vigoare 07.03.2025, temei Codul funciar 22/2024): pct. 3 din hotărâre abrogă integral HG 1170/2016, fără tranzitorii; transmiterea și schimbul de terenuri rămân fără regulament; structură pe puncte, fără ancore.
