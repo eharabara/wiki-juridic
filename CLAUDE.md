@@ -69,6 +69,11 @@ article from a future-dated act, and say in the answer which version applies tod
   Its 94 article anchors are synthetic, built from the source's "Art.N." line and the title on
   the next line; strip the `## ` lines to recover the extraction, whose hash is
   `sha256_extraction`. Art. 82^1 sits before art. 82 in the source.
+  `raw/papers/bnm/dcu/` holds, since 2026-09-09, eight of the nine current DCU Procedures
+  (acts of the DCU executive committee, PDFs from dcu.md, `_meta/imports/bnm/ingest_dcu_proceduri.py`,
+  no anchors, points only). The ninth, the settlement procedure that describes the succession
+  transfer, is image-only and is not ingested until OCR exists; what its pages say was read
+  from the rendered images and is on `entities/DCU-PROCEDURI.md`, marked as such, not anchored.
 - `raw/papers/cnpf/_manifest.md` — the source register. Read it before citing anything from the
   perimeter. It records mandate allocation between CNPF and BNM, acquis anchors, consolidation
   dates, and confidence per act.
@@ -111,9 +116,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-09 13:27 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-09 16:03 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-73 primary Moldovan acts, 29 EU acquis extracts, 284 BNM corpus documents.
+73 primary Moldovan acts, 29 EU acquis extracts, 293 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|

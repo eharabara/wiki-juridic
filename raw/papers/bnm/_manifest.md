@@ -16,6 +16,14 @@ otherwise had only as unofficial English translations: 202/2017, 548/1995, 114/2
 62/2008 and 160/2023 (which replaced 575/2003). These are the citable texts; the English files in
 `legal/documents/` only locate a provision (decision D2). Branch manifest: [legal-ro/_manifest.md](./legal-ro/_manifest.md).
 
+## Procedurile DCU (added 2026-09-09)
+
+`dcu/` holds the Romanian text of eight of the nine current Procedures of the Central Securities
+Depository, taken as PDFs from dcu.md (acts of the DCU executive committee under art. 4(2) of the
+DCU Rules, not BNM acts, hence a folder of their own). The ninth, the settlement procedure that
+covers succession, is image-only and awaits OCR; its original is archived with its hash. No
+anchors: the procedures are numbered in points. Branch manifest: [dcu/_manifest.md](./dcu/_manifest.md).
+
 ## Paths
 
 - Legal originals: `legal/original/`; legal Markdown extracts: `legal/documents/`.
