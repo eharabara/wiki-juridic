@@ -1735,6 +1735,38 @@ publice” și „urmărilor grave” în infracțiunile de serviciu, patru hot�
 Parlament; art. 104^1 a dispărut fără stub. (4) Defecte de fișă: „cт.4” chirilic (HCC33/2017),
 „art.89” contra „art.88” din marcaj (HCC12/2018). Nimic din `raw/` atins.
 
+### U.14. `L-246-2018`, Legea privind procedura notarială, ingerată la cerere (2026-09-09)
+
+Din lista de ingest a speței moștenitorului unui acționar de bancă (8 septembrie 2026), după cele
+două regulamente BNM și Regulile DCU: procedura prin care notarul ajunge la certificatul de
+moștenitor, titlul de înregistrare la Depozitarul central.
+
+| Act | doc_id | Consolidare | Ancore |
+|---|---|---|---|
+| Legea nr. 246/2018 privind procedura notarială | **137680** | **2026-06-23** (LP126/2023) | 97: 1–96 fără lacune, plus 5^1; 9 capitole |
+
+**Verificare.** `verify_business_law.py`: integritate de text **PASS, 850 de linii scrise față de
+850 de referință**, fără `<sup>` rămas din 15, fără duplicate, 12 exponenți de alineat și literă în
+corp. sha256 recalculat: coincide.
+
+**Capcană de versiune, nouă pentru acest corpus.** Rândul de căutare de pe legis.md trimite la
+doc_id 150742, consolidarea din 01.11.2025 (LP222/2025). Istoricul actului are deasupra ei
+**137680 @ 23.06.2026**, consolidarea produsă de LP126/2023, lege cu intrare în vigoare amânată
+trei ani: doc_id-ul e mai mic fiindcă versiunea a fost creată în 2023, dar este cea în vigoare
+astăzi, cu 97 de articole față de 96 și 33 de marcaje „în vigoare 23.06.26". Regula de lucru:
+lista de versiuni a paginii actului decide, nu rândul de căutare și nu mărimea doc_id-ului. Până
+acum consolidarea curentă fusese întotdeauna cea cu doc_id-ul cel mai mare.
+
+**Ce dă pentru speță**, pe pagina de entitate: art. 82 alin. (3), certificatul de moștenitor nu
+mai devreme de o lună de la ultima publicare; art. 73, suspendarea la contestare; art. 69
+alin. (1^1), singura mențiune a certificatului de calitate de moștenitor; art. 79–80, custodele,
+care poate fi unul dintre succesibili cu acordul tuturor.
+
+Descărcarea: octeții serverului prin `fetch` din Chrome, 343.023 de octeți, cu acordul lui Eugen.
+Renderer-ul paginii `showdetails` a înghețat de două ori la această mărime; `fetch` a reușit din
+pagina actului (`getResults?doc_id=`), care e mai ușoară. Două decizii de inadmisibilitate ale
+Curții (DCC36/2022, DCC92/2026) privesc legea; nu sunt anulări, nu intră în registrul HCC.
+
 ### U.5. Ce a rămas în afara acestei seri
 
 - `COD-218-2008` ar câștiga două ancore de carte cu regula nouă din extractor; neaplicat.

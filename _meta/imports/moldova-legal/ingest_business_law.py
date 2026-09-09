@@ -289,6 +289,18 @@ DOCS = {
     # vigoare. De verificat in registrul in-force inainte de a cita orice articol de aici.
     'L-1543-1998': {'doc_id': '150226',
                     'title': 'Legea cadastrului bunurilor imobile nr. 1543/1998'},
+    # Adaugata 2026-09-09, la cererea lui Eugen, din lista de ingest a spetei mostenitorului unui
+    # actionar de banca (8 septembrie): procedura succesorala, certificatul de mostenitor si
+    # certificatul de calitate de mostenitor (art. 2548 alin. (3) Cod civil) se fac dupa aceasta
+    # lege. Gasita prin cautare in titlu "procedura notariala" (6 rinduri; actul de baza LP246/2018
+    # "Modificat", plus doua decizii de inadmisibilitate ale Curtii, DCC36/2022 si DCC92/2026, care
+    # NU sint anulari si nu lasa marcaje). CAPCANA DE VERSIUNE: rindul de cautare trimite la
+    # 150742 (01.11.2025, LP222/2025), dar istoricul are deasupra 137680 @ 23.06.2026 (LP126/2023,
+    # intrare in vigoare aminata trei ani, de aceea doc_id-ul e mai mic desi versiunea e mai noua),
+    # in vigoare azi: 97 de "Articolul" fata de 96, 15 <sup> fata de 3, 33 de marcaje "in vigoare
+    # 23.06.26". Se ingereaza 137680. Fara CUPRINS, fara span CSS.
+    'L-246-2018': {'doc_id': '137680',
+                   'title': 'Legea nr. 246/2018 privind procedura notariala'},
     # Adaugata 2026-09-06, pasul 3 al planului de extindere a perimetrului de drept intern.
     # Nivelul 1 al ierarhiei surselor, absent din baza pana acum. PREFIX NOU: CONST-.
     # Prefix legis.md CRM1/1994, tipul actului CONSTITUŢIA, autoritatea PARLAMENTUL.
