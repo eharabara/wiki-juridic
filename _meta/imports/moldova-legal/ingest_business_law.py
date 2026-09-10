@@ -419,6 +419,44 @@ DOCS = {
     # stagiar" 4, "stagiului profesional" 3, "stagiului" 53; niciuna nu le contine): lacune D5.
     'UA-STATUT-2011': {'doc_id': '134919',
                        'title': 'Statutul profesiei de avocat (Uniunea Avocatilor, 29.01.2011)'},
+    # ---------------------------------------------------------------------------------------
+    # 2026-09-10. Protectia datelor cu caracter personal, trei acte deodata. Ceruta a fost numai
+    # L-133-2011, primul rind al cozii de ingerare din graful de citare (34 de mentiuni in 18 acte
+    # detinute). Verificarea prealabila a aratat de ce coada nu era de crezut pe cuvint: graful nu
+    # stie daca un act citat mai este in vigoare, iar acesta NU MAI ESTE. Ingerarea numai a lui ar
+    # fi pus text mort in vault ca raspuns la 18 trimiteri vii.
+    #
+    # Capcana doc_id, a doua oara dupa L-246-2018 (2026-09-09): rindul de cautare trimite la
+    # 148996@2025-06-14, dar lista de versiuni de pe pagina actului tine 144823@2026-08-23,
+    # doc_id MAI MIC si data MAI NOUA, creat in 2024 pentru o modificare cu intrare in vigoare
+    # amanata doi ani. Se ia 144823.
+    #
+    # Capcana abrogarii, noua: corpul consolidarii 144823 poarta in antet, in locul rindului
+    # MODIFICAT, "Abrogata prin LP195 din 25.07.24, MO367-369/23.08.24 art.574; in vigoare
+    # 23.08.26", iar cimpul "Data abrogarii" din fisa este GOL. Sursa se contrazice pe sine.
+    # De aici functia repeal_of() si avertismentul din corp.
+    # Verificat pe HTML inainte de rulare: 12 <sup>, fara span CSS, fara CUPRINS, 36 de ancore
+    # (34 de baza 1-34 fara lacune, plus 25^1 si 25^2), fara duplicate, art. 28 abrogat in corp.
+    'L-133-2011': {'doc_id': '144823',
+                   'title': 'Legea nr. 133/2011 privind protectia datelor cu caracter personal '
+                            '(ABROGATA de la 23.08.2026 prin L-195-2024)'},
+    # Succesorul general, in vigoare. Transpune Regulamentul (UE) 2016/679 (GDPR), acolo unde
+    # L-133-2011 transpunea Directiva 95/46/CE, adica regimul dinaintea GDPR. Adoptata 25.07.2024,
+    # publicata 23.08.2024, dar abrogarea legii vechi a fost amanata pina la 23.08.2026, deci
+    # schimbarea de regim s-a produs acum 18 zile. Consolidarea curenta 155899@2026-08-23
+    # incorporeaza LP160/2026. Verificat: 3 <sup>, fara span CSS, fara CUPRINS, 90 de ancore,
+    # numerotare 1-90 fara nicio lacuna, fara duplicate, fara data de abrogare.
+    'L-195-2024': {'doc_id': '155899',
+                   'title': 'Legea nr. 195/2024 privind protectia datelor cu caracter personal'},
+    # Al treilea act al aceleiasi reforme, gasit in aceeasi cautare: regimul datelor prelucrate
+    # in scopul prevenirii si combaterii infractiunilor, adica echivalentul Directivei (UE)
+    # 2016/680. Conteaza pentru corpus fiindca cele trei trimiteri ale Codului de procedura penala
+    # catre L-133-2011 privesc exact prelucrarea in procesul penal. In vigoare 23.08.2026,
+    # niciodata modificata, deci consolidarea este data intrarii in vigoare. Verificat: zero
+    # <sup>, fara span CSS, fara CUPRINS, 46 de ancore, numerotare 1-46 fara lacune.
+    'L-160-2026': {'doc_id': '155902',
+                   'title': 'Legea nr. 160/2026 privind protectia datelor cu caracter personal '
+                            'prelucrate in scopul prevenirii si combaterii infractiunilor'},
 }
 
 DATE_RE = re.compile(r'(\d{1,2})[.\-/](\d{1,2})[.\-/](\d{2,4})')
@@ -638,6 +676,40 @@ def extract_doc(data):
     }
 
 
+REPEAL_RE = re.compile(r'^Abrogat[ăaǎ]?\s+prin\s+(.+)$', re.I)
+
+
+def repeal_of(parsed):
+    """Actul abrogat: ce spune corpul textului, si ce spune fisa.
+
+    De ce exista, 2026-09-10, la ingerarea L-133-2011. Pina aici scriptul nu avea nicio notiune
+    de act abrogat. Un act mort intra in raw/ cu o consolidare recenta si trecuta, deci blocul de
+    acoperire il arata drept `clean` si nimic nu spune ca a incetat sa lege. Este exact clasa de
+    eroare pe care wiki-ul o previne pentru consolidarile viitoare, cu semnul opus: acolo textul
+    nu se aplica INCA, aici nu se mai aplica.
+
+    Doua surse, si NU sint de acord intre ele. Corpul consolidarii poarta, in antet, in locul
+    rindului `MODIFICAT`, forma `Abrogata prin LP195 din 25.07.24, MO367-369/23.08.24 art.574;
+    in vigoare 23.08.26`. Fisa are un cimp propriu, `Data abrogarii`, si pentru L-133-2011 acel
+    cimp este GOL, desi actul este abrogat de la 23.08.2026. Se citesc amindoua si se pastreaza
+    amindoua, fiindca dezacordul lor este el insusi o constatare despre sursa.
+
+    Data care conteaza este cea de intrare in vigoare a abrogarii (`in vigoare DD.MM.YY`), nu data
+    actului abrogator: L-133-2011 a fost abrogata printr-o lege din 2024 cu efect din 2026.
+    """
+    line = next((l for l in parsed['lines'][:20] if REPEAL_RE.match(l.strip())), '')
+    fisa = next((v for k, v in parsed['meta_pairs'] if 'abrog' in k.lower()), '').strip()
+    if not line and fisa in ('', '-'):
+        return None
+    tail = REPEAL_RE.match(line.strip()).group(1) if line else ''
+    dates = all_dates(tail)
+    # `in vigoare DD.MM.YY` este ultima data din rind; daca lipseste, ramine data publicarii
+    eff = dates[-1] if dates else (all_dates(fisa)[0] if all_dates(fisa) else None)
+    by = re.split(r'\s*,\s*', tail)[0] if tail else ''
+    return {'line': line.strip(), 'effective': eff, 'by': by,
+            'fisa_field': fisa or '-', 'in_force_today': bool(eff and eff <= TODAY)}
+
+
 def future_pending(parsed):
     """Dispozitiile care poarta data de intrare in vigoare a unei consolidari VIITOARE.
 
@@ -659,6 +731,7 @@ def make_raw(stem, spec, parsed, show_url):
                        for m in re.findall(r'^Articolul (\d+\^\d+)', l)},
                       key=lambda x: (int(x.split('^')[0]), int(x.split('^')[1])))
     pending = future_pending(parsed)
+    repeal = repeal_of(parsed)
     body = [
         f"# raw/{stem} \u2014 text legis.md consolidat/curent", '',
         '> **TEXT LEGIS.MD RO \u2014 extras din `showdetails` \u0219i p\u0103strat pentru audit.** '
@@ -685,6 +758,29 @@ def make_raw(stem, spec, parsed, show_url):
     # consolidarea egala cu data intrarii in vigoare si fara niciun marcaj [Art.N ...]. Pina
     # aici avertismentul si flagul din frontmatter depindeau de existenta marcajelor, deci un
     # asemenea act trecea drept curent in blocul de acoperire, desi nu binde nicaieri.
+    # Abrogarea se scrie INAINTEA oricarui alt avertisment: un act abrogat nu se mai citeaza,
+    # oricare ar fi starea consolidarii lui.
+    if repeal:
+        if repeal['in_force_today']:
+            head = (f"> **ATENȚIE, ACT ABROGAT.** Textul de mai jos **nu mai este în vigoare**. "
+                    f"Abrogarea produce efecte de la **{repeal['effective']}**, iar astăzi este "
+                    f"{TODAY}. Fișierul se păstrează fiindcă alte acte din corpus încă trimit la "
+                    f"el și fiindcă textul guvernează faptele anterioare acelei date. **Nu îl "
+                    f"cita ca drept în vigoare.**")
+        else:
+            head = (f"> **ATENȚIE, ACT ABROGAT CU EFECT AMÂNAT.** Abrogarea produce efecte de la "
+                    f"**{repeal['effective']}**, ulterioară zilei de {TODAY}, deci textul de mai "
+                    f"jos se aplică încă, dar are termen. Verifică data înainte de a-l cita "
+                    f"pentru fapte ulterioare.")
+        warn = ['', head, '', f"> - **abrogat prin:** {repeal['by'] or 'n/a'}",
+                f"> - **rândul din corpul actului:** `{repeal['line']}`",
+                f"> - **câmpul „Data abrogării” din fișa legis.md:** `{repeal['fisa_field']}`"]
+        if repeal['fisa_field'] == '-':
+            warn.append("> - **cele două nu concordă:** corpul actului declară abrogarea, fișa "
+                        "lasă câmpul gol. Un control care s-ar sprijini numai pe fișă ar rata "
+                        "abrogarea. Constatare despre sursă, nu despre acest fișier.")
+        warn.append('')
+        body[-2:-2] = warn
     whole_act_future = (not pending) and parsed['consolidation_date'] > TODAY
     if whole_act_future:
         body[-2:-2] = ['', f"> **ATENȚIE, ACT NEINTRAT ÎN VIGOARE.** Consolidarea este datată "
@@ -727,6 +823,17 @@ def make_raw(stem, spec, parsed, show_url):
     }
     if parsed.get('never_amended'):
         fm['never_amended'] = True
+    if repeal:
+        fm['repealed'] = True
+        fm['repeal_effective'] = repeal['effective'] or ''
+        fm['repealed_by'] = repeal['by']
+        fm['repeal_line'] = repeal['line']
+        fm['repeal_fisa_field'] = repeal['fisa_field']
+        fm['repeal_in_force_today'] = repeal['in_force_today']
+        fm['repeal_warning'] = (
+            f"Act ABROGAT de la {repeal['effective']}; astazi este {TODAY}. Nu se citeaza ca "
+            f"drept in vigoare." if repeal['in_force_today'] else
+            f"Act abrogat cu efect de la {repeal['effective']}, inca in vigoare astazi, {TODAY}.")
     if pending:
         fm['consolidation_is_future'] = True
         fm['in_force_warning'] = (

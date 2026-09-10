@@ -1774,6 +1774,120 @@ Curții (DCC36/2022, DCC92/2026) privesc legea; nu sunt anulări, nu intră în 
 - Cele trei fișiere descărcate dimineața și nefolosite (`showdetails-152529/-156075/-153429.html`)
   au rămas în `Downloads`.
 
+## V. Protecția datelor cu caracter personal — L-133/2011, L-195/2024, L-160/2026 (ingerate 2026-09-10)
+
+Ceruta a fost o singura lege: **L-133/2011**, primul rand al cozii de ingerare din graful de
+citare construit in aceeasi zi (34 de mentiuni in 18 acte detinute, mai mult decat orice alt act
+lipsa). Verificarea prealabila a schimbat continutul lucrarii, si merita citita ca atare, fiindca
+este exact limita pe care graful si-o declara singur: **graful nu stie daca un act citat mai este
+in vigoare.**
+
+### V.1. Constatarea: legea ceruta era moarta de 18 zile
+
+`L-133/2011` a fost **abrogata de la 23.08.2026** prin art. 90 alin. (3) lit. b) din
+`L-195/2024`. Astazi este 10 septembrie 2026. Ingerarea numai a ei ar fi pus text mort in vault
+ca raspuns la 19 trimiteri vii.
+
+Aceeasi operatiune a abrogat si Legea nr. 182/2008 privind Regulamentul Centrului (neingerata) si
+**arts. 74^1–74^3 si art. 423^4 din `COD-218-2008`**. Ultima parte este verificabila la noi si se
+verifica: in consolidarea detinuta a Codului contraventional toate patru apar `– abrogat.`, la
+liniile 1696, 1698, 1700 si 6654. Sanctionarea contraventionala a incalcarilor privind datele
+personale a iesit din Codul contraventional si a trecut integral in regimul administrativ-pecuniar
+al legii noi, arts. 86–88.
+
+### V.2. Doua capcane de sursa, ambele tacute
+
+**Prima, cunoscuta, a doua oara: randul de cautare arata o consolidare veche.** Cautarea trimite
+la doc_id **148996** @ 14.06.2025. Lista de versiuni de pe pagina actului tine insa **144823** @
+**23.08.2026** — doc_id **mai mic**, data **mai noua**, creat in 2024 pentru o modificare cu
+intrare in vigoare amanata doi ani. Identic cu `L-246-2018` la 9 septembrie. Regula ramane: se
+citeste lista de versiuni, se ia data cea mai noua care nu e in viitor; niciodata doc_id-ul cel
+mai mare, niciodata randul de cautare.
+
+**A doua, noua: fisa contrazice corpul actului.** Corpul consolidarii 144823 poarta in antet, in
+locul randului `MODIFICAT`, textul `Abrogata prin LP195 din 25.07.24, MO367-369/23.08.24 art.574;
+in vigoare 23.08.26`. Campul **„Data abrogarii" din fisa este GOL** (`-`). Un control care s-ar
+sprijini pe campul structurat al fisei ar rata abrogarea in intregime.
+
+Fara aceste doua verificari actul ar fi intrat cu o consolidare recenta si trecuta, deci ar fi
+aparut `clean` in blocul de acoperire, cu ancorare curata si sha256 valid. Este simetricul
+capcanei consolidarilor viitoare: acolo textul nu se aplica **inca**, aici nu se mai aplica.
+
+### V.3. Ce s-a ingerat, si de ce trei acte in loc de unul
+
+| stem | doc_id | consolidare | ancore | stare | acquis |
+|---|---|---|---:|---|---|
+| `L-133-2011` | 144823 | 2026-08-23 | 36 | **abrogat de la 23.08.2026** | Directiva 95/46/CE |
+| `L-195-2024` | 155899 | 2026-08-23 | 90 | in vigoare din 23.08.2026 | Regulamentul (UE) 2016/679 (GDPR) |
+| `L-160-2026` | 155902 | 2026-08-23 | 46 | in vigoare din 23.08.2026 | Directiva (UE) 2016/680 |
+
+`L-195/2024` si `L-160/2026` au fost gasite in aceeasi cautare in titlu, `protectia datelor cu
+caracter personal`. Impartirea materiei este curata: art. 2 alin. (2) lit. c) din `L-195/2024`
+scoate din legea generala prelucrarea de catre autoritatile competente in scop penal, iar art. 1
+alin. (1) din `L-160/2026` o preia. `L-160/2026` nu este autonoma — imprumuta notiunile din art. 4,
+procedura amenzii din art. 87 si examinarea plangerii din cap. VIII sect. a 2-a ale legii generale.
+
+Verificare de integritate, `verify_business_law.py`: **PASS pe toate trei**, 357 / 1009 / 381 de
+linii scrise fata de tot atatea de referinta, deci s-au adaugat numai ancore. Fara `<sup>` ramas,
+fara ancore duplicate, fara lacune de numerotare.
+
+### V.4. Ce a intrat in scripturi
+
+**`repeal_of()` in `ingest_business_law.py`.** Pana aici ingestul nu avea nicio notiune de act
+abrogat. Citeste amandoua sursele — randul din corpul actului si campul din fisa — si le pastreaza
+pe amandoua in frontmatter (`repealed`, `repeal_effective`, `repealed_by`, `repeal_line`,
+`repeal_fisa_field`, `repeal_in_force_today`), fiindca dezacordul lor este el insusi o constatare
+despre sursa. Data care conteaza este cea de intrare in vigoare a abrogarii, nu data actului
+abrogator: legea a fost abrogata printr-o lege din 2024 cu efect din 2026. In corpul fisierului
+brut se scrie un avertisment inaintea oricarui alt avertisment.
+
+**Flagul din `build_coverage.py`.** Un act abrogat apare acum in tabel cu
+`**ABROGAT de la ...**` si intr-o sectiune proprie de „Mechanical flags".
+
+**Sectiunea „Trimiteri catre acte abrogate" din `build_citation_graph.py`.** Graful citeste
+`repealed` din frontmatter, deci pentru actele **detinute** limita pe care si-o declara este
+ridicata. Pentru cele externe ramane intreaga.
+
+### V.5. Ruta de descarcare: legis.md este din nou accesibil prin `curl`
+
+Notat pentru ca schimba metoda. La 10 septembrie `curl` trece de Cloudflare pentru
+`showdetails/<doc_id>`, cu reaparitii intermitente pe care le rezolva o reincercare. **Si cautarea
+este acum scriptabila fara Chrome**, ceea ce nu era: rezultatele se incarca prin AJAX din
+`cautare/justicejs`, functia `showcontent()`, care apeleaza
+
+```
+GET https://www.legis.md/cautare/getAjaxContent?filter_title=<fraza>&filtru=
+```
+
+Endpointul depinde de starea de sesiune PHP fixata de apelul anterior la
+`cautare/getResults?search_string=<fraza>&search_type=1`, deci se ruleaza in doi pasi **cu acelasi
+borcan de cookie-uri** (`curl -c/-b`). Fraza se scrie in continuare **fara diacritice**. Randurile
+intoarse contin `doc_id=` in `href`, deci se parseaza direct.
+
+Ce **nu** s-a schimbat: `curl` intoarce pagina „Just a moment" cu **rc=0**, deci un cod de retur
+curat nu inseamna ca avem documentul; `usable()` ramane obligatoriu. Si nu s-a verificat daca ruta
+tine cand Cloudflare urca pragul; ruta prin Chrome din memoria `legis-md-fetch-route` ramane
+rezerva.
+
+### V.6. Ce a ramas deschis
+
+- **Trimiterile la legea abrogata nu sunt convertite de nimeni.** Art. 90 din `L-195/2024` **nu**
+  contine clauza „trimiterile la Legea nr. 133/2011 se considera facute la prezenta lege"; cautarea
+  in textul integral nu o gaseste. Art. 55 din `L-100-2017`, singura norma generala despre trimiteri,
+  reglementeaza cum se **fac** trimiterile, nu ce se intampla cand actul-tinta e abrogat. Nouasprezece
+  acte din corpus trimit astazi la un text care nu mai e in vigoare, fara punte statutara expresa.
+  **De ridicat cu Eugen.**
+- **Actele normative ale Centrului**, cerute de art. 89 alin. (3) din `L-195/2024`, nu sunt ingerate.
+  Cel putin unul exista: ordinul nr. 31 din 31.07.2026 privind Contractul standard pentru transferul
+  de date catre state fara nivel adecvat de protectie (legis.md `OCNPDCP31/2026`, doc_id 155738).
+  Fara el, cap. transferurilor, arts. 44–49, nu se ancoreaza pana la instrumentul aplicabil.
+- **Legea nr. 245/2008 cu privire la secretul de stat** nu este ingerata; ambele legi noi isi
+  definesc limita exterioara prin trimitere la ea.
+- **Legea nr. 182/2008**, abrogata in aceeasi operatiune, nu e ingerata si nu e nevoie sa fie.
+- CNPF si BNM **nu sunt numite** in `L-195/2024`. Nu exista regim sectorial financiar, nici
+  exceptie pentru entitatile supravegheate prudential, nici mecanism de cooperare. `[de verificat]`
+  daca o regula de cooperare exista in actele normative ale Centrului.
+
 ## D. Artefacte metodologice create
 
 | Artefact | Tip | Rol |

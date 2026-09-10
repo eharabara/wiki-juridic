@@ -110,9 +110,13 @@ article from a future-dated act, and say in the answer which version applies tod
   checked one step further than the article itself. The **unresolved references**: articles cited
   that have no anchor in the target act, which is where repealed articles still cited elsewhere,
   the Civil Code's pre-2019 numbering in the Civil Procedure Code, and source-side flattened
-  superscripts (`art. 3142` for 314^2, with a mechanical hint) surface. It does not read acts
-  structured in points below act level, does not read the EU extracts for edges, and does not know
-  whether a cited act is still in force. The graph is not citable; it says which anchor to open.
+  superscripts (`art. 3142` for 314^2, with a mechanical hint) surface. Since 2026-09-10 it also
+  carries **"Trimiteri catre acte abrogate"**: for every held act whose frontmatter says `repealed`,
+  the acts that still cite it. That section exists because the first act taken off the ingest queue,
+  `L-133-2011`, turned out to have been repealed eighteen days earlier, and nineteen held acts still
+  point at it. It does not read acts structured in points below act level, does not read the EU
+  extracts for edges, and still does not know whether a cited act that the vault does **not** hold is
+  in force. The graph is not citable; it says which anchor to open.
 - `_meta/lint/` — the lint scripts and their outputs. **Do not run
   `run_cnpf_legal_lint.py`.** It is the July script and it has not survived the D4 rewrite of
   SCHEMA.md: it reports all 757 page tags invalid (its allowlist scrapes a format that no longer
@@ -135,9 +139,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-10 12:39 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-10 13:08 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-75 primary Moldovan acts, 29 EU acquis extracts, 293 BNM corpus documents.
+78 primary Moldovan acts, 29 EU acquis extracts, 293 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -177,6 +181,7 @@ Generated 2026-09-10 12:39 from the files themselves. Do not edit this section b
 | `L-1260-2002` | 73 | 73 | 2025-01-07 | 4 superscript articles normalised |
 | `L-131-2012` | 41 | 41 | 2026-08-28 | 8 superscript articles normalised |
 | `L-131-2015` | 91 | 91 | 2026-06-26 | clean |
+| `L-133-2011` | 36 | 36 | 2026-08-23 | **ABROGAT de la 2026-08-23**; 2 superscript articles normalised |
 | `L-135-2007` | 93 | 93 | 2026-03-27 | 10 superscript articles normalised |
 | `L-139-2007` | 59 | 59 | 2026-01-01 | 1 superscript article normalised |
 | `L-148-2023` | 35 | 35 | 2024-01-08 | **2.7 years old** |
@@ -185,12 +190,14 @@ Generated 2026-09-10 12:39 from the files themselves. Do not edit this section b
 | `L-158-2008` | 88 | 88 | 2026-09-13 | **consolidation dated in the future**; 11 superscript articles normalised |
 | `L-160-2011` | 32 | 32 | 2026-08-29 | 18 superscript articles normalised |
 | `L-160-2023` | 58 | 58 | 2023-10-01 | **2.9 years old** |
+| `L-160-2026` | 46 | 46 | 2026-08-23 | clean |
 | `L-171-2012` | 156 | 156 | 2027-06-01 | **consolidation dated in the future**; 18 superscript articles normalised |
 | `L-177-2025` | 4 | 4 | 2025-07-21 | 4 articles numbered in Roman figures; stale count line in body says 0 |
 | `L-178-2020` | 8 | 8 | 2020-09-18 | 8 articles numbered in Roman figures; stale count line in body says 0 |
 | `L-181-2023` | 50 | 50 | 2026-06-26 | 1 superscript article normalised |
 | `L-183-2012` | 110 | 110 | 2025-12-31 | 15 superscript articles normalised |
 | `L-192-1998` | 34 | 34 | 2026-01-01 | 3 superscript articles normalised; stale count line in body says 0 |
+| `L-195-2024` | 90 | 90 | 2026-08-23 | clean |
 | `L-198-2007` | 54 | 54 | 2026-08-06 | 17 superscript articles normalised |
 | `L-198-2020` | 64 | 64 | 2025-10-25 | clean |
 | `L-2-2020` | 46 | 46 | 2025-10-25 | clean |
@@ -219,6 +226,7 @@ Generated 2026-09-10 12:39 from the files themselves. Do not edit this section b
 
 ### Mechanical flags
 
+- **Repealed acts.** no longer in force: `L-133-2011` (repealed 2026-08-23 by LP195 din 25.07.24). These files are kept because other acts in the corpus still cite them and because the text governs facts before the repeal date. They are anchored, their sha256 verifies and their consolidation is recent, so nothing else here would reveal that they stopped binding. Do not cite them as law in force; cite the successor and say from when it applies.
 - **Not yet in force.** 13 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-1134-1997` (2028-01-01), `L-171-2012` (2027-06-01), `COD-122-2003` (2026-12-02), `COD-154-2003` (2027-01-01), `COD-218-2008` (2026-09-13), `COD-443-2004` (2026-12-02), `COD-985-2002` (2026-12-02), `HG-743-2024` (2026-12-30), `L-1543-1998` (2027-01-01), `L-158-2008` (2026-09-13), `L-325-2025` (2027-01-01), `L-845-1992` (2027-01-01), `L-114-2012` (2027-01-01). 73 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
 - **Stale consolidations.** `L-250-2017` (2018-03-29), `HBN-130-2013` (2018-12-23), `HBN-127-2013` (2021-05-09), `HCNPF-14-5-2016` (2022-05-06), `UA-STATUT-2011` (2022-05-27), `L-160-2023` (2023-10-01), `L-148-2023` (2024-01-08), `L-64-2010` (2024-01-23), `DCA-61-2024` (2024-05-05), `HG-1171-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `HG-574-2024` (2024-08-23). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
 - **Stale count line inside the file.** `L-177-2025` (body says 0, anchors 4), `L-178-2020` (body says 0, anchors 8), `L-192-1998` (body says 0, anchors 34). The frontmatter is right and the anchors are right; the human-readable line in the body was written by the original ingest and never updated. Cosmetic, but it is the line a reader sees first.

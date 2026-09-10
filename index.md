@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-09 | Total pages: 118
+> Last updated: 2026-09-10 | Total pages: 121
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -49,6 +49,7 @@
 - [[L-1260-2002]] — Legea cu privire la avocatură: 73 de ancore, versiunea în vigoare azi (2025-01-07); consolidarea condiționată de aderarea la UE (LP10/2026, datată fictiv 2030) neingerată.
 - [[L-131-2012]] — Legea controlului de stat asupra activității de întreprinzător: 41 de ancore, consolidare 2026-08-28 (doc_id 151146, nu cel din lista de căutare); principiile controlului, art. 3.
 - [[L-131-2015]] — Legea achizițiilor publice: 91 de ancore, consolidare 2026-06-26; abrogată de la 01.01.2027 prin Legea 325/2025; contestațiile (art. 80–88) scoase de Legea 20/2026 din 01.04.2026; pragurile din art. 2.
+- [[L-133-2011]] — Legea nr. 133/2011 privind protecția datelor cu caracter personal: **ABROGATĂ de la 23.08.2026** prin art. 90 alin. (3) lit. b) din L-195/2024; păstrată fiindcă 19 acte din corpus încă trimit la ea și fiindcă guvernează faptele anterioare.
 - [[L-135-2007]] — Legea nr. 135/2007 privind societatile cu raspundere limitata: actul de baza pentru SRL, consolidare 2026-03-27, 83 de articole plus 10 cu exponent.
 - [[L-139-2007]] — Legea nr. 139/2007 privind asociațiile de economii și împrumut
 - [[L-148-2023]] — Legea accesului la informațiile de interes public: 35 de ancore, nemodificată, în vigoare 08.01.2024; furnizorii de informații, contenciosul administrativ.
@@ -57,12 +58,14 @@
 - [[L-158-2008]] — Legea funcției publice și a statutului funcționarului public: 88 de ancore; consolidare 2026-09-13, dată viitoare, 29 de dispoziții amânate (LP154/2026); una din 2028 neingerată.
 - [[L-160-2011]] — Legea actelor permisive (reglementarea prin autorizare): 32 de ancore, versiunea în vigoare azi (2026-08-29); cinci consolidări viitoare neingerate, 2026-12-28 … 2029-01-01; Nomenclatorul nu este în text.
 - [[L-160-2023]] — Legea nr. 160/2023 cu privire la garantarea depozitelor în bănci (DGSD): înlocuiește Legea 575/2003, abrogată; 58 de ancore, nemodificată.
+- [[L-160-2026]] — Legea nr. 160/2026 privind protecția datelor prelucrate în scop penal: transpune Directiva (UE) 2016/680; în vigoare 23.08.2026, cel mai nou act din corpus; împrumută noțiunile și procedura amenzii din L-195/2024.
 - [[L-171-2012]] — Legea nr. 171/2012 privind piața de capital
 - [[L-177-2025]] — Legea nr. 177/2025: interdicția opțiunilor binare și a marketingului de derivate cu levier; a introdus art. 4^1 în L-171-2012 și art. 245^13 în Codul penal.
 - [[L-178-2020]] — Legea nr. 178/2020 (legea de transfer al mandatului din 2023)
 - [[L-181-2023]] — Legea nr. 181/2023 privind serviciile de finanțare participativă (crowdfunding)
 - [[L-183-2012]] — Legea concurenței nr. 183/2012: acorduri, abuz de poziție dominantă, concurență neloială, concentrări și procedura Consiliului Concurenței; competența lui pe publicitate se oprește la drepturile întreprinderilor.
 - [[L-192-1998]] — Legea nr. 192/1998 privind Comisia Națională a Pieței Financiare
+- [[L-195-2024]] — Legea nr. 195/2024 privind protecția datelor cu caracter personal: transpune Regulamentul (UE) 2016/679 (GDPR); în vigoare **23.08.2026**, a abrogat L-133/2011; amenzi 1%/2% eșalonate la 10% în primul an; CNPF și BNM nu sunt numite.
 - [[L-198-2007]] — Legea asistenței juridice garantate de stat: 54 de ancore, consolidare 2026-08-06; asistența primară și calificată, avocatul public, para-juristul.
 - [[L-198-2020]] — Legea nr. 198/2020 privind fondurile de pensii facultative
 - [[L-2-2020]] — Legea nr. 2/2020 privind organismele de plasament colectiv alternative

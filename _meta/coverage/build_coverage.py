@@ -102,6 +102,13 @@ def scan_file(path, rel):
         "anchors": len(anchors) + len(roman),
         "roman": len(roman),
         "never_amended": fm.get("latest_modification_line", "").startswith("Publicat"),
+        # Abrogarea, din 2026-09-10. Un act abrogat are o consolidare recenta si trecuta, deci
+        # trecea drept `clean` aici: singurul semn ca incetase sa lege statea in corpul textului.
+        # Scris de repeal_of() in ingest_business_law.py.
+        "repealed": fm.get("repealed", "").lower() == "true",
+        "repeal_effective": fm.get("repeal_effective", ""),
+        "repealed_by": fm.get("repealed_by", ""),
+        "repeal_in_force_today": fm.get("repeal_in_force_today", "").lower() == "true",
         "plain": plain,
         "superscript_anchors": sup,
         "superscript_declared": fm.get("superscript_articles__list", []),
@@ -180,6 +187,11 @@ def build(today):
     a("|---|---:|---:|---|---|")
     for x in sorted(acts, key=lambda r: r["id"]):
         notes = []
+        # Abrogarea se scrie prima: orice altceva despre un act mort este secundar.
+        if x["repealed"]:
+            notes.append(f"**ABROGAT de la {x['repeal_effective']}**"
+                         if x["repeal_in_force_today"] else
+                         f"**abrogare cu efect de la {x['repeal_effective']}**")
         if x["declared"] is not None and x["declared"] != x["anchors"]:
             notes.append(f"**declared {x['declared']}, found {x['anchors']}**")
         if x["roman"]:
@@ -212,6 +224,26 @@ def build(today):
     a("")
 
     flags = []
+    rep = [x for x in acts if x["repealed"]]
+    if rep:
+        gone = [x for x in rep if x["repeal_in_force_today"]]
+        soon = [x for x in rep if not x["repeal_in_force_today"]]
+        parts = []
+        if gone:
+            parts.append("no longer in force: "
+                         + ", ".join(f"`{x['id']}` (repealed {x['repeal_effective']}"
+                                     + (f" by {x['repealed_by']}" if x["repealed_by"] else "") + ")"
+                                     for x in sorted(gone, key=lambda r: r["repeal_effective"])))
+        if soon:
+            parts.append("repeal already enacted but not yet effective: "
+                         + ", ".join(f"`{x['id']}` (from {x['repeal_effective']})" for x in soon))
+        flags.append(
+            "**Repealed acts.** " + "; ".join(parts)
+            + ". These files are kept because other acts in the corpus still cite them and "
+              "because the text governs facts before the repeal date. They are anchored, their "
+              "sha256 verifies and their consolidation is recent, so nothing else here would "
+              "reveal that they stopped binding. Do not cite them as law in force; cite the "
+              "successor and say from when it applies.")
     fut = [x for x in acts if x["future"]]
     if fut:
         n = len(reg["provisions_not_yet_in_force"]) if reg else "?"

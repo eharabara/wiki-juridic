@@ -624,6 +624,13 @@ def build():
             "entity_page": os.path.exists(os.path.join(ROOT, "entities", aid + ".md")),
             "pending_consolidation": pending.get(aid),
             "hcc_unattributed": hcc_unattr.get(aid, []),
+            # Abrogarea, din 2026-09-10. Pina aici graful spunea, la "ce nu face", ca nu stie daca
+            # un act citat mai este in vigoare. Pentru actele DETINUTE stie acum: ingestul scrie
+            # `repealed` in frontmatter. Pentru cele externe limita ramine intreaga.
+            "repealed": fm.get("repealed", "").lower() == "true",
+            "repeal_effective": fm.get("repeal_effective", ""),
+            "repealed_by": fm.get("repealed_by", ""),
+            "repeal_in_force_today": fm.get("repeal_in_force_today", "").lower() == "true",
         }
         for seg_id, s, e, art, title in act.segments():
             if art is None:
@@ -717,6 +724,13 @@ def build():
     alias_map = {}
     for name_id, cnt in aliases.items():
         num_id, _n = cnt.most_common(1)[0]
+        # Aliasurile se invata in act_tokens INAINTE de bucla care pune prefixul `EXT:` pe actele
+        # nedetinute, deci valoarea vine fara prefix. Fara normalizarea de aici, muchiile
+        # redirectionate ajungeau pe un id fara nod si dispareau din coada de ingerare fara nicio
+        # eroare: 47 de mentiuni pierdute, dintre care 34 ale Codului electoral. Defect introdus si
+        # prins la 2026-09-10; invariantul de mai jos il face imposibil de repetat in tacere.
+        if num_id not in acts and not num_id.startswith("EXT:"):
+            num_id = "EXT:" + num_id
         alias_map[name_id] = num_id
         if num_id not in ext_labels and num_id.startswith("EXT:") and name_id in ext_labels:
             ext_labels[num_id] = (ext_labels[name_id][0] + f" ({num_id[4:]})", "code")
@@ -741,6 +755,13 @@ def build():
 
     for tid, (label, kind) in ext_labels.items():
         nodes[tid] = {"id": tid, "kind": "external-act", "label": label, "class": kind}
+
+    # Invariant: fiecare muchie are nod la ambele capete. O muchie catre un id fara nod nu produce
+    # nicio eroare la scriere si nu apare in niciun tabel: pur si simplu dispare din raport. Asa s-au
+    # pierdut 47 de mentiuni la prima versiune a redirectionarii aliasurilor. Se opreste, nu se ignora.
+    missing = sorted({e["target"] for e in edges.values() if e["target"] not in nodes})
+    if missing:
+        raise RuntimeError("muchii catre noduri inexistente: " + ", ".join(missing))
 
     # serializare determinista
     edge_list = []
@@ -929,6 +950,44 @@ def report(graph, acts):
         a(f"| `{eid}` | {total} | {src or '-'} |")
     a("")
 
+    # --- trimiteri catre acte abrogate ---------------------------------------------------
+    dead = [n for n in nodes.values() if n["kind"] == "act" and n.get("repealed")]
+    a("## Trimiteri catre acte abrogate")
+    a("")
+    if dead:
+        a("Acte detinute care nu mai sint in vigoare, si actele din corpus care trimit la ele. "
+          "Fiecare trimitere de mai jos citeste astazi text mort. Nu inseamna ca actul care trimite "
+          "e gresit: inseamna ca trimiterea trebuie citita prin dispozitiile tranzitorii ale actului "
+          "abrogator, care de regula spune ca trimiterile la legea veche se considera facute la cea noua.")
+        a("")
+        a("| act abrogat | de la | prin | mentiuni | acte care il citeaza | articole citate |")
+        a("|---|---|---|---:|---:|---|")
+        for n in sorted(dead, key=lambda r: r["id"]):
+            ins = [e for e in edges if e["target"] == n["id"] or e["target"].startswith(n["id"] + "#")]
+            srcs = {act_of(e["source"]) for e in ins if act_of(e["source"]) != n["id"]}
+            arts = sorted({e["target"].split("#art.")[1] for e in ins if "#art." in e["target"]},
+                          key=art_sort_key)
+            total = sum(e["count"] for e in ins if act_of(e["source"]) != n["id"])
+            a(f"| `{n['id']}` | {n['repeal_effective']}"
+              f"{'' if n['repeal_in_force_today'] else ' (viitoare)'} | {n['repealed_by'] or '-'} "
+              f"| {total} | {len(srcs)} | {', '.join('art. ' + x for x in arts[:8]) or '-'} |")
+        a("")
+        for n in sorted(dead, key=lambda r: r["id"]):
+            srcs = sorted({act_of(e["source"]) for e in edges
+                           if (e["target"] == n["id"] or e["target"].startswith(n["id"] + "#"))
+                           and act_of(e["source"]) != n["id"]})
+            if srcs:
+                a(f"`{n['id']}` este citat din: " + ", ".join(f"`{s}`" for s in srcs) + ".")
+                a("")
+    else:
+        a("Niciun act detinut nu este marcat abrogat.")
+        a("")
+    a("Limita care ramine: pentru actele **nedetinute** din coada de ingerare graful tot nu stie "
+      "daca mai sint in vigoare. Se afla numai deschizind fisa lor pe legis.md, si nici acolo "
+      "cimpul „Data abrogarii” nu este de incredere: pentru `L-133-2011` el era gol, desi corpul "
+      "consolidarii declara abrogarea.")
+    a("")
+
     # --- dispozitii cu stare speciala --------------------------------------------------
     a("## Dispozitii cu stare speciala si cine le citeaza")
     a("")
@@ -1074,7 +1133,8 @@ def report(graph, acts):
     a("- O lege citata pe nume este rezolvata la actul detinut al carui titlu contine numele, numai daca exact unul il contine.")
     a("- Notele de modificare intre paranteze drepte, rindurile blocului de istoric si referintele la Monitorul Oficial sint mascate inainte de citire.")
     a("- Nu citeste corpusul englez BNM (traduceri) si nici radacinile de politici.")
-    a("- Nu stie daca un act citat si nedetinut mai este in vigoare.")
+    a("- Nu stie daca un act citat si **nedetinut** mai este in vigoare. Pentru actele detinute "
+      "stie, din 2026-09-10, fiindca ingestul scrie `repealed` in frontmatter.")
     a("")
     return "\n".join(L) + "\n"
 
