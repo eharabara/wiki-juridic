@@ -100,6 +100,19 @@ article from a future-dated act, and say in the answer which version applies tod
   row survives in the act's history block, with no article. The register's last table names the
   act–decision pairs whose article is still unknown; `recovered-provisions.json` is where a
   recovered one is written, by hand, with the doc_id of the version it was read from.
+- `_meta/graph/` — since 2026-09-10, the citation graph of the acts held, and its builder
+  `build_citation_graph.py`. Read `citation-graph.md` before citing an article and before ingesting
+  an act. It is extracted mechanically from the raw text, with no inferred edge: every edge carries
+  the file and the lines it was read from. Three things it holds that nothing else does. The
+  **ingest queue**: the acts the held texts cite and the vault does not have, ranked by how many
+  held acts cite them. The **dependency check**: for every provision flagged in the in-force
+  register, the HCC register or as "abrogat", the articles that cite it, so a citation can be
+  checked one step further than the article itself. The **unresolved references**: articles cited
+  that have no anchor in the target act, which is where repealed articles still cited elsewhere,
+  the Civil Code's pre-2019 numbering in the Civil Procedure Code, and source-side flattened
+  superscripts (`art. 3142` for 314^2, with a mechanical hint) surface. It does not read acts
+  structured in points below act level, does not read the EU extracts for edges, and does not know
+  whether a cited act is still in force. The graph is not citable; it says which anchor to open.
 - `_meta/lint/` — the lint scripts and their outputs. **Do not run
   `run_cnpf_legal_lint.py`.** It is the July script and it has not survived the D4 rewrite of
   SCHEMA.md: it reports all 757 page tags invalid (its allowlist scrapes a format that no longer
@@ -122,7 +135,7 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-10 12:09 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-10 12:39 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
 75 primary Moldovan acts, 29 EU acquis extracts, 293 BNM corpus documents.
 
@@ -510,9 +523,9 @@ same spec, so the rules a reader sees are the rules enforced. Judgement stays in
 sections. If you find yourself typing an article count or a field list into a file, stop and
 run the script. On this machine the interpreter is `python`, not `python3`.
 
-Since 2026-09-06 the three generated controls run in one command, in the right order (the
-coverage block reads the in-force register, so the register comes first):
-`python _meta/close_session.py`. See "Closing a session" below.
+Since 2026-09-06 the generated controls run in one command, in the right order (the in-force and
+HCC registers first, then the citation graph that reads them, then the coverage block and
+`SCHEMA.md`): `python _meta/close_session.py`. See "Closing a session" below.
 
 ## Safety
 
