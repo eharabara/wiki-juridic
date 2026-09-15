@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-15T23:54:10",
+ "generated": "2026-09-16T00:02:18",
  "generated_by": "_meta/graph/build_citation_graph.py",
  "inputs": {
-  "inforce_generated": "2026-09-15T23:53:56",
-  "hcc_generated": "2026-09-15",
+  "inforce_generated": "2026-09-16T00:02:05",
+  "hcc_generated": "2026-09-16",
   "roots": [
    "raw/papers/cnpf",
    "raw/papers/moldova-legal",

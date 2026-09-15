@@ -1,6 +1,6 @@
 # Registrul dispozitiilor declarate neconstitutionale
 
-Generat 2026-09-15 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
+Generat 2026-09-16 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
 
 18 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 76 hotariri distincte. Articolul atins este cunoscut pentru 16 marcaje inca prezente in text si 95 dispozitii recuperate din istoricul versiunilor; **2 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
 

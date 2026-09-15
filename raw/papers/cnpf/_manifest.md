@@ -100,6 +100,16 @@ Ingestie EUR-Lex RO efectuată la **2026-07-09**. Toate fișierele sunt **extrac
 > `UE-2009-138` (Solvency II): există `02009L0138-20270130`, dar cea ținută (`-20250117`) este
 > ultima **în vigoare astăzi**. Pipeline-ul EUR-Lex exclude prin construcție consolidările
 > viitoare, spre deosebire de cel legis.md, care le preia cu avertisment.
+>
+> **Reverificat 2026-09-15 (pasul 6.4).** `discover_latest_celex.py` rulat din nou pe toate cele
+> 29 de extracte: rezultatul e identic, literă cu literă, cu cel de mai sus — aceleași 5 din 29
+> semnalate „NEWER AVAILABLE" (`UE-2009-138`, `UE-2024-1624`, `UE-2024-1640`, `UE-2020-1503`,
+> `UE-97-9`), aceleași 24 „already current". Pentru `UE-2009-138`, `-20270130` rămâne cu dată
+> viitoare (2027-01-30 e după 2026-09-15, ziua verificării) — se amână, nu se trece la ea acum,
+> pe modelul registrului in-force domestic. Pentru celelalte patru, explicația de mai sus (act de
+> bază, consolidarea distinctă există doar pe pagina web a actului, nu în RDF-ul Cellar pe care-l
+> citește scriptul) rămâne valabilă neschimbată. Nimic din `raw/` s-a atins la această verificare;
+> ieșirea brută e în `_meta/imports/cnpf/latest-celex.json` (rescris cu rularea de azi).
 
 ## G. Acquis UE — domenii conexe CNPF/BNM (EUR-Lex RO)
 

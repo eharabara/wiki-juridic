@@ -250,10 +250,14 @@ verifica orice pagină individuală — nu se recalculează pe fiecare pagină.
    alfabetică sau cea a lucrărilor deschise curente ale lui Eugen.
 6. `comparisons/cnpf-transposition-matrix.md` la final, fiindcă citează toate celelalte 17.
 
-**D5. Cele 5 consolidări UE mai noi (secțiunea 2.1).** Solvency II (`UE-2009-138`) se verifică
-separat dacă `-20270130` e cu dată viitoare înainte de a decide dacă se trece la ea acum sau se
-notează și se amână, pe modelul registrului in-force domestic. Celelalte patru sînt deja explicate
-în manifest ca „act de bază fără consolidare distinctă" — se verifică o dată, se închide punctul.
+**D5. Cele 5 consolidări UE mai noi (secțiunea 2.1). Rezolvat 2026-09-15 (pasul 6.4).** Solvency II
+(`UE-2009-138`): `-20270130` este cu dată viitoare (2027-01-30, după 2026-09-15) — se amână, nu se
+trece la ea acum, pe modelul registrului in-force domestic; cea ținută (`-20250117`) rămâne cea în
+vigoare astăzi. Celelalte patru (`UE-2024-1624`, `UE-2024-1640`, `UE-2020-1503`, `UE-97-9`) rămân
+„act de bază fără consolidare distinctă listată în RDF-ul Cellar" — explicația din manifest
+(corectarea de 2026-09-04) verificată din nou azi, neschimbată. Rulare integrală
+`discover_latest_celex.py`: rezultat identic literă cu literă cu cel de acum 11 zile, pe toate cele
+29 de extracte, nu doar pe cele 5. Vezi manifestul CNPF, secțiunea F, nota „Reverificat 2026-09-15".
 
 ## 5. Pașii, după decizii
 
@@ -262,7 +266,7 @@ notează și se amână, pe modelul registrului in-force domestic. Celelalte pat
 | 6.1 | recensământ mecanic (acest document, secțiunile 2-3) | ieșirea de mai sus | **făcut 2026-09-15** |
 | 6.2 | data intrării în vigoare/aplicării provizorii a Acordului, căutată separat | o singură constatare, citată | **făcut 2026-09-15**: 1 septembrie 2014 (provizorie) / 1 iulie 2016 (vigoare); vezi 2.2-bis |
 | 6.3 | `AA-2014`: Anexa XXVIII-A + articolele-cadru, script nou (`ingest_aa.py`, pe modelul `ingest_dcu_rules.py`: sursă unică, PDF sau HTML, ancore proprii) | integritate text PASS, manifest, pagină de entitate | da, curl merge fără Eugen |
-| 6.4 | cele 5 verificări de consolidare (D5) | manifest actualizat, `discover_latest_celex.py --check` | da |
+| 6.4 | cele 5 verificări de consolidare (D5) | manifest actualizat, `discover_latest_celex.py --check` | **făcut 2026-09-15**: rezultat identic cu 2026-09-04, cele 5 explicate, niciuna schimbată |
 | 6.5 | reverificare pagină cu pagină, ordinea din D4, cu extragere țintită de articole noi unde o întrebare o cere | `unverified` scos per pagină, `confidence` ridicat, validator 0 | da pentru citit/verificat; unele întrebări (transpunere post-2020?) pot cere confirmarea lui Eugen |
 | 6.6 | `cnpf-transposition-matrix` la final | validator 0, commit | da |
 

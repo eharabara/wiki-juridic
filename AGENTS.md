@@ -13,7 +13,7 @@ economist in Chișinău.
 4. `legal-career/02-profile.md` for how to pitch and phrase the answer.
 5. `SCHEMA.md` for the file conventions of this wiki. Follow it for anything you write here.
 
-The `legal-career/` documents are copies. The master lives in the claude.ai project "Legal Wiki",
+The `legal-career/` documents are copies. The master lives in the Codex.ai project "Legal Wiki",
 taken on 2026-09-04. If you find a contradiction between a copy and something Eugen says, the
 project is authoritative, and the copy needs refreshing. Do not edit the copies here. Since
 2026-09-05 each copy carries a provenance stamp in its frontmatter (`copy_of`, `taken`,
@@ -29,7 +29,7 @@ register are not re-argued here; they are used.
 
 ## The one rule that changes in this folder
 
-In the claude.ai project, the confidence line at the end of every substantive answer is a
+In the Codex.ai project, the confidence line at the end of every substantive answer is a
 judgement about what the wiki probably holds. Here the text is physically present and you can
 open it. So the confidence line is not a judgement, it is a check.
 
@@ -100,23 +100,6 @@ article from a future-dated act, and say in the answer which version applies tod
   row survives in the act's history block, with no article. The register's last table names the
   act–decision pairs whose article is still unknown; `recovered-provisions.json` is where a
   recovered one is written, by hand, with the doc_id of the version it was read from.
-- `_meta/graph/` — since 2026-09-10, the citation graph of the acts held, and its builder
-  `build_citation_graph.py`. Read `citation-graph.md` before citing an article and before ingesting
-  an act. It is extracted mechanically from the raw text, with no inferred edge: every edge carries
-  the file and the lines it was read from. Three things it holds that nothing else does. The
-  **ingest queue**: the acts the held texts cite and the vault does not have, ranked by how many
-  held acts cite them. The **dependency check**: for every provision flagged in the in-force
-  register, the HCC register or as "abrogat", the articles that cite it, so a citation can be
-  checked one step further than the article itself. The **unresolved references**: articles cited
-  that have no anchor in the target act, which is where repealed articles still cited elsewhere,
-  the Civil Code's pre-2019 numbering in the Civil Procedure Code, and source-side flattened
-  superscripts (`art. 3142` for 314^2, with a mechanical hint) surface. Since 2026-09-10 it also
-  carries **"Trimiteri catre acte abrogate"**: for every held act whose frontmatter says `repealed`,
-  the acts that still cite it. That section exists because the first act taken off the ingest queue,
-  `L-133-2011`, turned out to have been repealed eighteen days earlier, and nineteen held acts still
-  point at it. It does not read acts structured in points below act level, does not read the EU
-  extracts for edges, and still does not know whether a cited act that the vault does **not** hold is
-  in force. The graph is not citable; it says which anchor to open.
 - `_meta/lint/` — the lint scripts and their outputs. **Do not run
   `run_cnpf_legal_lint.py`.** It is the July script and it has not survived the D4 rewrite of
   SCHEMA.md: it reports all 757 page tags invalid (its allowlist scrapes a format that no longer
@@ -139,36 +122,36 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-16 00:02 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-10 12:09 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-78 primary Moldovan acts, 29 EU acquis extracts, 1 Association Agreement extract(s), 293 BNM corpus documents.
+75 primary Moldovan acts, 29 EU acquis extracts, 293 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
 | `CC-1107-2002` | 2657 | 2657 | 2026-04-01 | clean |
-| `COD-116-2018` | 260 | 260 | 2025-08-31 | 2 superscript articles normalised; 2 provision(s) declared unconstitutional (HCC register) |
-| `COD-1163-1997` | 511 | 511 | 2026-07-01 | 158 superscript articles normalised; 10 provision(s) declared unconstitutional (HCC register) |
-| `COD-122-2003` | 658 | 658 | 2026-12-02 | **consolidation dated in the future**; 105 superscript articles normalised; 17 provision(s) declared unconstitutional (HCC register) |
-| `COD-154-2003` | 416 | 416 | 2027-01-01 | **consolidation dated in the future**; 52 superscript articles normalised; 3 provision(s) declared unconstitutional (HCC register) |
-| `COD-174-2018` | 98 | 98 | 2026-06-24 | 4 superscript articles normalised; 2 provision(s) declared unconstitutional (HCC register) |
-| `COD-218-2008` | 737 | 737 | 2026-09-13 | **consolidation dated in the future**; 254 superscript articles normalised; 6 provision(s) declared unconstitutional (HCC register) |
+| `COD-116-2018` | 260 | 260 | 2025-08-31 | 2 superscript articles normalised |
+| `COD-1163-1997` | 511 | 511 | 2026-07-01 | 158 superscript articles normalised |
+| `COD-122-2003` | 658 | 658 | 2026-12-02 | **consolidation dated in the future**; 105 superscript articles normalised |
+| `COD-154-2003` | 416 | 416 | 2027-01-01 | **consolidation dated in the future**; 52 superscript articles normalised |
+| `COD-174-2018` | 98 | 98 | 2026-06-24 | 4 superscript articles normalised |
+| `COD-218-2008` | 737 | 737 | 2026-09-13 | **consolidation dated in the future**; 254 superscript articles normalised |
 | `COD-22-2024` | 96 | 96 | 2026-04-25 | 17 superscript articles normalised |
-| `COD-225-2003` | 540 | 540 | 2026-08-06 | 77 superscript articles normalised; 9 provision(s) declared unconstitutional (HCC register) |
+| `COD-225-2003` | 540 | 540 | 2026-08-06 | 77 superscript articles normalised |
 | `COD-434-2023` | 390 | 390 | 2026-08-06 | clean |
-| `COD-443-2004` | 361 | 361 | 2026-12-02 | **consolidation dated in the future**; 36 superscript articles normalised; 6 provision(s) declared unconstitutional (HCC register) |
+| `COD-443-2004` | 361 | 361 | 2026-12-02 | **consolidation dated in the future**; 36 superscript articles normalised |
 | `COD-95-2021` | 472 | 472 | 2026-09-01 | 51 superscript articles normalised |
-| `COD-985-2002` | 566 | 566 | 2026-12-02 | **consolidation dated in the future**; 178 superscript articles normalised; 8 provision(s) declared unconstitutional (HCC register) |
-| `CONST-1994` | 157 | 157 | 2024-11-05 | 8 articles numbered in Roman figures; 6 superscript articles normalised; **2 HCC decision(s) not yet attributed to an article** |
-| `DCA-61-2024` | 0 | 0 | 2024-05-05 | no article structure; **2.4 years old** |
+| `COD-985-2002` | 566 | 566 | 2026-12-02 | **consolidation dated in the future**; 178 superscript articles normalised |
+| `CONST-1994` | 157 | 157 | 2024-11-05 | 8 articles numbered in Roman figures; 6 superscript articles normalised |
+| `DCA-61-2024` | 0 | 0 | 2024-05-05 | no article structure; **2.3 years old** |
 | `DCU-REGULI-2026` | 94 | 94 | 2026-04-08 | 1 superscript article normalised |
-| `HBN-127-2013` | 0 | 0 | 2021-05-09 | no article structure; **5.4 years old** |
+| `HBN-127-2013` | 0 | 0 | 2021-05-09 | no article structure; **5.3 years old** |
 | `HBN-130-2013` | 0 | 0 | 2018-12-23 | no article structure; **7.7 years old** |
-| `HCNPF-14-5-2016` | 0 | 0 | 2022-05-06 | no article structure; **4.4 years old** |
+| `HCNPF-14-5-2016` | 0 | 0 | 2022-05-06 | no article structure; **4.3 years old** |
 | `HCNPF-38-5-2015` | 0 | 0 | 2025-10-01 | no article structure |
 | `HG-1170-2016` | 0 | 0 | 2025-03-07 | no article structure |
 | `HG-1171-2018` | - | 0 | 2024-07-05 | numbered points (65), not articles; **2.2 years old** |
 | `HG-553-2024` | 0 | 0 | 2025-10-18 | no article structure |
-| `HG-574-2024` | 0 | 0 | 2024-08-23 | no article structure; **2.1 years old** |
+| `HG-574-2024` | 0 | 0 | 2024-08-23 | no article structure; **2.0 years old** |
 | `HG-582-2022` | 0 | 0 | 2026-03-01 | no article structure |
 | `HG-743-2024` | 0 | 0 | 2026-12-30 | no article structure; **consolidation dated in the future** |
 | `L-1-2018` | 28 | 28 | 2025-12-31 | clean |
@@ -178,26 +161,23 @@ Generated 2026-09-16 00:02 from the files themselves. Do not edit this section b
 | `L-1134-1997` | 110 | 110 | 2028-01-01 | **consolidation dated in the future**; 7 superscript articles normalised |
 | `L-114-2012` | 131 | 131 | 2027-01-01 | **consolidation dated in the future**; 23 superscript articles normalised |
 | `L-122-2008` | 23 | 23 | 2025-12-31 | clean |
-| `L-1260-2002` | 73 | 73 | 2025-01-07 | 4 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
+| `L-1260-2002` | 73 | 73 | 2025-01-07 | 4 superscript articles normalised |
 | `L-131-2012` | 41 | 41 | 2026-08-28 | 8 superscript articles normalised |
 | `L-131-2015` | 91 | 91 | 2026-06-26 | clean |
-| `L-133-2011` | 36 | 36 | 2026-08-23 | **ABROGAT de la 2026-08-23**; 2 superscript articles normalised |
-| `L-135-2007` | 93 | 93 | 2026-03-27 | 10 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
+| `L-135-2007` | 93 | 93 | 2026-03-27 | 10 superscript articles normalised |
 | `L-139-2007` | 59 | 59 | 2026-01-01 | 1 superscript article normalised |
 | `L-148-2023` | 35 | 35 | 2024-01-08 | **2.7 years old** |
-| `L-149-2012` | 271 | 271 | 2025-12-31 | 17 superscript articles normalised; 2 provision(s) declared unconstitutional (HCC register) |
+| `L-149-2012` | 271 | 271 | 2025-12-31 | 17 superscript articles normalised |
 | `L-1543-1998` | 99 | 99 | 2027-01-01 | **consolidation dated in the future**; 38 superscript articles normalised |
-| `L-158-2008` | 88 | 88 | 2026-09-13 | **consolidation dated in the future**; 11 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
+| `L-158-2008` | 88 | 88 | 2026-09-13 | **consolidation dated in the future**; 11 superscript articles normalised |
 | `L-160-2011` | 32 | 32 | 2026-08-29 | 18 superscript articles normalised |
-| `L-160-2023` | 58 | 58 | 2023-10-01 | **3.0 years old** |
-| `L-160-2026` | 46 | 46 | 2026-08-23 | clean |
+| `L-160-2023` | 58 | 58 | 2023-10-01 | **2.9 years old** |
 | `L-171-2012` | 156 | 156 | 2027-06-01 | **consolidation dated in the future**; 18 superscript articles normalised |
 | `L-177-2025` | 4 | 4 | 2025-07-21 | 4 articles numbered in Roman figures; stale count line in body says 0 |
 | `L-178-2020` | 8 | 8 | 2020-09-18 | 8 articles numbered in Roman figures; stale count line in body says 0 |
 | `L-181-2023` | 50 | 50 | 2026-06-26 | 1 superscript article normalised |
 | `L-183-2012` | 110 | 110 | 2025-12-31 | 15 superscript articles normalised |
 | `L-192-1998` | 34 | 34 | 2026-01-01 | 3 superscript articles normalised; stale count line in body says 0 |
-| `L-195-2024` | 90 | 90 | 2026-08-23 | clean |
 | `L-198-2007` | 54 | 54 | 2026-08-06 | 17 superscript articles normalised |
 | `L-198-2020` | 64 | 64 | 2025-10-25 | clean |
 | `L-2-2020` | 46 | 46 | 2025-10-25 | clean |
@@ -214,21 +194,19 @@ Generated 2026-09-16 00:02 from the files themselves. Do not edit this section b
 | `L-308-2017` | 47 | 47 | 2026-08-13 | 10 superscript articles normalised |
 | `L-325-2025` | 91 | 91 | 2027-01-01 | **consolidation dated in the future** |
 | `L-436-2006` | 98 | 98 | 2026-06-26 | 6 superscript articles normalised |
-| `L-514-1995` | 60 | 60 | 2026-08-28 | 5 articles numbered in Roman figures; 10 superscript articles normalised; 4 provision(s) declared unconstitutional (HCC register) |
-| `L-548-1995` | 91 | 91 | 2026-04-23 | 21 superscript articles normalised; 2 provision(s) declared unconstitutional (HCC register) |
+| `L-514-1995` | 60 | 60 | 2026-08-28 | 5 articles numbered in Roman figures; 10 superscript articles normalised |
+| `L-548-1995` | 91 | 91 | 2026-04-23 | 21 superscript articles normalised |
 | `L-550-1995` | 20 | 20 | 2025-02-28 | 17 superscript articles normalised |
 | `L-62-2008` | 73 | 73 | 2025-12-31 | 3 superscript articles normalised |
 | `L-62-2022` | 58 | 58 | 2026-08-14 | 5 superscript articles normalised |
-| `L-64-2010` | 34 | 34 | 2024-01-23 | **2.6 years old**; 1 provision(s) declared unconstitutional (HCC register) |
-| `L-845-1992` | 46 | 46 | 2027-01-01 | **consolidation dated in the future**; 11 superscript articles normalised; 3 provision(s) declared unconstitutional (HCC register) |
+| `L-64-2010` | 34 | 34 | 2024-01-23 | **2.6 years old** |
+| `L-845-1992` | 46 | 46 | 2027-01-01 | **consolidation dated in the future**; 11 superscript articles normalised |
 | `L-92-2022` | 125 | 125 | 2026-06-25 | 1 superscript article normalised |
 | `UA-STATUT-2011` | 74 | 74 | 2022-05-27 | **4.3 years old**; 6 superscript articles normalised |
 
 ### Mechanical flags
 
-- **Repealed acts.** no longer in force: `L-133-2011` (repealed 2026-08-23 by LP195 din 25.07.24). These files are kept because other acts in the corpus still cite them and because the text governs facts before the repeal date. They are anchored, their sha256 verifies and their consolidation is recent, so nothing else here would reveal that they stopped binding. Do not cite them as law in force; cite the successor and say from when it applies.
-- **Not yet in force.** 13 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-1134-1997` (2028-01-01), `L-171-2012` (2027-06-01), `COD-122-2003` (2026-12-02), `COD-154-2003` (2027-01-01), `COD-218-2008` (2026-09-13), `COD-443-2004` (2026-12-02), `COD-985-2002` (2026-12-02), `HG-743-2024` (2026-12-30), `L-1543-1998` (2027-01-01), `L-158-2008` (2026-09-13), `L-325-2025` (2027-01-01), `L-845-1992` (2027-01-01), `L-114-2012` (2027-01-01). 49 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
-- **Declared unconstitutional.** 18 act(s) carry at least one Constitutional Court decision in their history block, 76 decisions in total: 16 still marked at article level in the text itself, 95 more recovered by reading the legis.md version history (`_meta/hcc/recovered-provisions.json`), and 2 not yet attributed to any article. A struck provision looks like ordinary law: the article exists, the anchor is valid, the sha256 matches. Check `_meta/hcc/hcc-register.md` before citing an article from `COD-116-2018`, `COD-1163-1997`, `COD-122-2003`, `COD-154-2003`, `COD-174-2018`, `COD-218-2008`, `COD-225-2003`, `COD-443-2004`, `COD-985-2002`, `L-1260-2002`, `L-135-2007`, `L-149-2012`, `L-158-2008`, `L-514-1995`, `L-548-1995`, `L-64-2010`, `L-845-1992` and say which decision struck it and what today's text actually holds.
+- **Not yet in force.** 13 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-1134-1997` (2028-01-01), `L-171-2012` (2027-06-01), `COD-122-2003` (2026-12-02), `COD-154-2003` (2027-01-01), `COD-218-2008` (2026-09-13), `COD-443-2004` (2026-12-02), `COD-985-2002` (2026-12-02), `HG-743-2024` (2026-12-30), `L-1543-1998` (2027-01-01), `L-158-2008` (2026-09-13), `L-325-2025` (2027-01-01), `L-845-1992` (2027-01-01), `L-114-2012` (2027-01-01). 73 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
 - **Stale consolidations.** `L-250-2017` (2018-03-29), `HBN-130-2013` (2018-12-23), `HBN-127-2013` (2021-05-09), `HCNPF-14-5-2016` (2022-05-06), `UA-STATUT-2011` (2022-05-27), `L-160-2023` (2023-10-01), `L-148-2023` (2024-01-08), `L-64-2010` (2024-01-23), `DCA-61-2024` (2024-05-05), `HG-1171-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `HG-574-2024` (2024-08-23). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
 - **Stale count line inside the file.** `L-177-2025` (body says 0, anchors 4), `L-178-2020` (body says 0, anchors 8), `L-192-1998` (body says 0, anchors 34). The frontmatter is right and the anchors are right; the human-readable line in the body was written by the original ingest and never updated. Cosmetic, but it is the line a reader sees first.
 - **BNM English corpus.** 60 file(s) carry 149 line-initial `Article N` markers and no anchors. Any answer resting on the English BNM translations is not anchored.
@@ -507,14 +485,14 @@ with no basis in the source. The refreshed consolidation contains it. No action 
      `entities/L-239-2008.md` from `entities/bnm.md` and `entities/L-100-2017.md`. No page in
      `entities/`, `concepts/`, `comparisons/` or `queries/` is now without an inbound wikilink
      from outside `index.md`.
-   - Done 2026-09-05. `Claude outputs/2026-09-05-plan-restructurare-wiki.md` was a byte-identical
+   - Done 2026-09-05. `Codex outputs/2026-09-05-plan-restructurare-wiki.md` was a byte-identical
      duplicate of the copy in `_meta/plans/`; the root copy is deleted and the `_meta/plans/` one
      verified intact at the same hash. **The folder itself stays, and it is worth watching.** It
      is outside every path the spec validates, and a second agent working on another matter wrote
      a `.docx` into it during this same session — so it is not a leftover, it collects live output
      from whatever else is running against this vault. Decide where that output belongs before it
      accumulates.
-   - Done 2026-09-06. `Claude outputs/` is in `.gitignore`: it holds deliverables of other
+   - Done 2026-09-06. `Codex outputs/` is in `.gitignore`: it holds deliverables of other
      sessions (a contract, a memo), not wiki. It stays on disk and out of the repository.
 
 ## Keeping this file true
@@ -532,9 +510,9 @@ same spec, so the rules a reader sees are the rules enforced. Judgement stays in
 sections. If you find yourself typing an article count or a field list into a file, stop and
 run the script. On this machine the interpreter is `python`, not `python3`.
 
-Since 2026-09-06 the generated controls run in one command, in the right order (the in-force and
-HCC registers first, then the citation graph that reads them, then the coverage block and
-`SCHEMA.md`): `python _meta/close_session.py`. See "Closing a session" below.
+Since 2026-09-06 the three generated controls run in one command, in the right order (the
+coverage block reads the in-force register, so the register comes first):
+`python _meta/close_session.py`. See "Closing a session" below.
 
 ## Safety
 
