@@ -486,3 +486,40 @@
   registru generat, niciun control mecanic — commit simplu, fără `close_session.py`.
 - **Unde:** `.gitignore`; `.codex/environments/environment.toml` (dezurmărit, rămas pe disc);
   commitul acestei intrări.
+
+## [2026-09-16] update | Pasul 6.5, nivelul 1 (D4): `acquis-MiFID`, `acquis-MAR`, `acquis-Prospectus` dezghețate
+
+- **Aflat:** cele trei pagini, toate ancorate în `L-171-2012`, se verifică mult mai repede decît
+  presupusese planul datorită unui bloc pe care legea îl are chiar în propriul text (liniile
+  124-137): o listă de autodeclarare a actelor UE pe care legea susține că le transpune, cu directivă
+  și dată exactă — inclusiv Dir. 2003/6/CE (linia 128), 2003/71/CE (linia 129), 2004/39/CE
+  (linia 131), pe lîngă altele relevante pentru pașii următori (97/9, 98/26, 2004/109, 2006/49,
+  2006/73, 2009/65, 2013/36 parțial, Reg. 1060/2009 parțial). Căutare exhaustivă pe termeni specifici
+  fiecărei generații noi confirmă golurile deja presupuse, fără nicio excepție: zero rezultate pentru
+  „OTF”, „piață-țintă”/„guvernanță” (MiFID II), „IFR”/„IFD”/„2019/2033”/„2019/2034” (regimul
+  prudențial nou al firmelor de investiții), „sondare”/„safe harbour” (MAR, sondarea pieței),
+  „prospectul UE de creștere”/„document de înregistrare universal” (Regulamentul Prospectus). Art. 58
+  al legii impune raportare T+1 către Comisia Națională, nu regimul MiFIR de raportare aproape în
+  timp real; art. 128 impune doar o obligație pasivă de informare, nu monitorizarea activă STOR a
+  art. 16 MAR; pragurile de exceptare la ofertă publică (liniile 548-550) sînt cele ale directivei
+  Prospectus originale din 2003, sub pragul minim al regulamentului actual. Amendamentele CFD din
+  2025 (`L-177-2025`, citită integral, 4 articole) introduc un regim separat de intervenție asupra
+  produsului (interdicție opțiuni binare/CFD cu levier către clienți neprofesioniști, alertă CNPF,
+  infracțiune nouă Cod penal art. 245^13) — nu amendează art. 127-128 și nu atinge regimul abuzului
+  de piață, răspuns direct la întrebarea deschisă lăsată pe `acquis-MAR`. Separat, verificat contra
+  calendarului Anexei XXVIII-A (`AA-2014`, pasul 6.3): pentru toate trei, tratatul angajează Moldova
+  la generația **veche** (2004/39, 2003/6+implementare, 2003/71+implementare), deja transpusă și cu
+  termenul expirat din 2017 — MiFID II/MAR/Regulamentul Prospectus nu figurează în anexă, deci golul
+  e de apropiere legislativă continuă, nu de încălcare a unui termen din Acord. Distincție care nu
+  era făcută explicit pe nicio pagină înainte.
+- **Decis:** toate trei ies din `unverified`/`confidence: low`, ridicate la `confidence: medium` (nu
+  `high`: extrasele UE rămîn extrase, nu text integral, iar acoperirea Codului penal pentru
+  sancțiunile CSMAD rămîne neverificată, consemnată explicit ca atare pe `acquis-MAR`, nu ascunsă).
+  `updated: 2026-09-16` pe toate trei. `AA-2014` adăugat la `sources` pe toate trei ca sursă a
+  distincției tratat-vs-acquis-curent. Secțiunile „Lacuna de examinat” rescrise cu citate de linie
+  precise; „Întrebări deschise” fie răspunse cu citat, fie eliminate unde nu mai există gol de
+  verificat.
+- **Unde:** `concepts/acquis-MiFID.md`, `concepts/acquis-MAR.md`, `concepts/acquis-Prospectus.md`;
+  `raw/papers/cnpf/L-171-2012.md` (liniile 124-137, 548-550, 568-572, 1354-1365, 2222-2260, citite,
+  neatinse); `raw/papers/cnpf/L-177-2025.md` (citit integral); `_meta/plans/2026-09-15-plan-pasul-6-acquis-aa.md`
+  (D4, nivelul 1); commitul acestei intrări.
