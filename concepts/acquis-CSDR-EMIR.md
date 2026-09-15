@@ -1,7 +1,7 @@
 ---
 title: acquis-CSDR-EMIR — Infrastructură post-tranzacționare (CSDR / EMIR)
 created: '2026-07-09'
-updated: '2026-09-06'
+updated: '2026-09-16'
 type: concept
 perimeter: legal
 tags:
@@ -16,7 +16,6 @@ tags:
 - securities
 - financial-supervision
 - financial-services
-- unverified
 sources:
 - raw/papers/cnpf/L-171-2012.md
 - raw/papers/cnpf/L-234-2016.md
@@ -26,13 +25,15 @@ sources:
 - raw/papers/cnpf/md-2026-07-03-schelet-lege-emir.md
 - raw/papers/cnpf/UE-648-2012-priority-articles-2026-07-09.md
 - raw/papers/cnpf/md-2026-07-09-proiect-lege-emir-completat.md
-confidence: low
+confidence: medium
 imported_from: C:\Users\harab\Desktop\cnpf-wiki-ro\wiki\acquis-CSDR-EMIR.md
 ---
 
 # acquis-CSDR-EMIR — Infrastructură post-tranzacționare (CSDR / EMIR)
 
-Neverificat după reconstrucția stratului brut din septembrie 2026. Partea UE a comparației este un extras, nu textul integral. Nu se citează ca o constatare finală.
+Reverificat 2026-09-16 (pasul 6.5) contra `L-234-2016` și `L-171-2012`, cu căutare țintită pe regimul
+de disciplină a decontării (CSDR) și pe contrapartea centrală/registrul de tranzacții (EMIR). Partea
+UE a comparației rămîne un extras, nu textul integral.
 
 - **tip:** acquis UE (servicii financiare)
 - **instrumente:** Regulamentul (UE) 909/2014 (CSDR); Regulamentul (UE) 648/2012 (EMIR)
@@ -46,13 +47,20 @@ Neverificat după reconstrucția stratului brut din septembrie 2026. Partea UE a
 - **EMIR** — compensarea și diminuarea riscurilor pentru instrumente derivate OTC, contrapărți centrale
   (CPC) și registre centrale de tranzacții.
 
-## Lacuna de examinat
-Caracterul definitiv al decontării (98/26) este ancorat prin Legea 171/2012 (și prin Legea dedicată
-183/2016), dar autorizarea/supravegherea DCU la nivel CSDR și regimul EMIR pentru derivate/CPC/registre
-par în mare parte netranspuse. Proprietatea DCU: rezolvat — DCU aparține BNM sub Legea 234/2016 (art.23). `[de verificat]`
+## Lacuna de examinat — verificată 2026-09-16
+Confirmat prin căutare exhaustivă, nu doar presupus. **CSDR**: `L-234-2016` linia 83 declară
+transpunerea parțială a Reg. 909/2014, cu substanța de irevocabilitate/insolvență găsită la
+`acquis-SFD` (art. neanchorate, liniile 375, 443, 463-465) — dar **regimul de disciplină a decontării**
+(CSDR art. 6-7: penalități în numerar, procedura de cumpărare de acoperire/buy-in la decontări
+eșuate) are zero corespondent — căutare pe „penalităţi în numerar”, „buy-in”, „cumpărare de
+acoperire” fără rezultat. **EMIR**: zero corespondent pentru „contraparte centrală”, „registru de
+tranzacţii”, „obligaţia de compensare” în `L-171-2012.md` sau `L-234-2016.md` — regimul complet
+pentru derivate OTC/CPC/registre rămâne netranspus la nivelul legii primare deținute, exact cum
+indica deja statutul anterior, acum confirmat prin căutare, nu presupus. Proprietatea DCU rămîne
+rezolvată — DCU aparține BNM sub `L-234-2016` art. 23, necontrazis la acest pas.
 
 ## Referințe încrucișate
-- [[cnpf-transposition-matrix]] · [[L-171-2012]] · [[L-234-2016]]
+- [[cnpf-transposition-matrix]] · [[L-171-2012]] · [[L-234-2016]] · [[acquis-SFD]]
 - [[_archive/emir-2026-07/verificare-schelet-lege-emir-2026-07-03|verificare-schelet-lege-emir-2026-07-03]] — sinteză salvată asupra scheletului de lege EMIR și comentariilor DOCX
 
 ## Surse EUR-Lex RO ingerate

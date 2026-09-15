@@ -600,3 +600,44 @@
   83, 375, 443, 463-465, citite, neatinse); `raw/papers/cnpf/UE-97-9.md` (art. 4, citit); `entities/REG-ICF.md`
   (citit, fantomă confirmată); `_meta/plans/2026-09-15-plan-pasul-6-acquis-aa.md` (D4, nivelul 3);
   commitul acestei intrări.
+
+## [2026-09-16] update | Pasul 6.5, nivelul 4 (D4, restul): ultimele șase pagini `acquis-*` dezghețate — toate cele 17 verificate
+
+- **Aflat:** ultimul nivel al planului, fără ordine specială între cele șase. Descoperirea cu cea mai
+  mare miză cantitativă: `acquis-MTPL` rămîne blocată la o comparație reală — art. 9 din
+  `UE-2009-103.md` („Sumele minime”) e doar în cuprins, fără text integral, deci sumele proprii ale
+  `L-106-2022` (100.000/100.000/500.000 euro, plus o limită de prejudiciu moral de 5.000/10.000 euro
+  negăsită la recensământul inițial) nu pot fi comparate cu pragul UE fără o extragere țintită —
+  semnalat ca pas concret, nu ocolit cu o cifră din memorie. Istoricul daunelor (2021/2118) există
+  (linia 211); organismul de garantare pentru insolvența asigurătorului, introdus de același
+  amendament, confirmat absent. Al doilea caz, după AML, unde transpunerea depășește angajamentul
+  tratatului: `acquis-IORP` — `L-198-2020` linia 65 declară expres transpunerea IORP II
+  (2016/2341) însăși, nu predecesoarea 2003/41/CE la care angajează Anexa XXVIII-A, cu funcțiile-cheie
+  (gestionarea riscului, audit intern, actuariat — linia 102) aproape identice structural directivei.
+  `acquis-ConsumerCredit`: gol confirmat la nivelul legii-cadru, nu doar „posibil reflectat” cum
+  spunea statutul anterior — nici `L-1-2018`, nici `L-105-2003` (protecția consumatorilor generală)
+  nu conțin DAE, SECCI sau dreptul de retragere; doar o trimitere generică la bonitate (linia 130) care
+  deleagă mai departe unui act BNM neingerat. `acquis-AIFMD`: declarația de transpunere a `L-2-2020`
+  (linia 72) e mai amplă decît știut — nu doar AIFMD, ci și EuVECA (Reg. 345/2013), un regulament
+  delegat de standarde tehnice și ELTIF (Reg. 2015/760) — dar substanța operațională (efect de
+  levier, gestionarea lichidității, delegare) nu are niciun corespondent găsit; nedistins dacă golul e
+  real sau delegat unor acte CNPF neingerate. `acquis-CSDR-EMIR`: regimul de disciplină a decontării
+  (penalități, buy-in) și regimul EMIR pentru contrapărți centrale/registre de tranzacții confirmate
+  absente prin căutare exhaustivă, nu doar presupuse. `acquis-Crowdfunding`: constatarea cea mai
+  favorabilă a nivelului — divergența „debitor-consumator”, semnalată anterior ca posibilă eroare de
+  scop, se dovedește o extensie deliberată cu regim propriu (plafon 7.500 euro, evaluare a bonității,
+  termen de revocare de 14 zile), iar protecția investitorilor UE (fișa KIIS, simularea capacității de
+  a suporta pierderi la 10% din capital) e substanțial prezentă.
+- **Decis:** toate șase ies din `unverified`/`confidence: low`, ridicate la `confidence: medium`,
+  `updated: 2026-09-16`. Punctele rămase neconfirmate (pragul MTPL, substanța AIFMD, RTS-urile
+  crowdfunding, poziția AIFMD în Acord) mutate explicit în „Întrebări deschise”, cu pasul concret
+  necesar pentru fiecare, nu tăcute și nu ghicite. **Cu acest nivel, toate cele 17 pagini `acquis-*`
+  ale planului din 6 septembrie sînt reverificate** — rămîne doar `cnpf-transposition-matrix`
+  (pasul 6.6), care le citează pe toate.
+- **Unde:** `concepts/acquis-MTPL.md`, `concepts/acquis-IORP.md`, `concepts/acquis-ConsumerCredit.md`,
+  `concepts/acquis-AIFMD.md`, `concepts/acquis-CSDR-EMIR.md`, `concepts/acquis-Crowdfunding.md`;
+  `raw/papers/cnpf/L-106-2022.md`, `L-198-2020.md`, `L-1-2018.md`, `L-2-2020.md`, `L-181-2023.md`
+  (citite, neatinse); `raw/papers/moldova-legal/L-105-2003.md` (căutare țintită, neatins);
+  `raw/papers/cnpf/UE-2009-103.md` (art. 9 identificat ca lipsă din extras, neatins);
+  `_meta/plans/2026-09-15-plan-pasul-6-acquis-aa.md` (D4, nivelul 4, ultimul); commitul acestei
+  intrări.
