@@ -523,3 +523,41 @@
   `raw/papers/cnpf/L-171-2012.md` (liniile 124-137, 548-550, 568-572, 1354-1365, 2222-2260, citite,
   neatinse); `raw/papers/cnpf/L-177-2025.md` (citit integral); `_meta/plans/2026-09-15-plan-pasul-6-acquis-aa.md`
   (D4, nivelul 1); commitul acestei intrări.
+
+## [2026-09-16] update | Pasul 6.5, nivelul 2 (D4): `acquis-AML`, `acquis-Insurance`, `acquis-CompanyLaw` dezghețate
+
+- **Aflat:** primul caz favorabil verificat la acest pas — `L-308-2017` declară expres, la linia 93,
+  transpunerea Dir. (UE) 2015/849 **și** Dir. (UE) 2018/843 (AMLD4+AMLD5), aceeași generație cu
+  extrasul `UE-2015-849` deja ținut, cu două generații peste angajamentul Acordului (AMLD3, expirat
+  1 sept. 2015, cel mai scurt termen din toată Anexa XXVIII-A). Golul real e doar pachetul AML 2024
+  (AMLR/AMLD6/AMLA — zero mențiuni în text), cu aplicare eșalonată încă din 2027 chiar în UE. Art. 15
+  alin. (1) lit. b) arată supravegherea CNPF mai largă decît nota anterioară a paginii: nu doar
+  societăţile de investiţii, ci şi societăţile de registru/Depozitarul central, administratorii de
+  pensii facultative şi **furnizorii de servicii de finanțare participativă** — legătură directă cu
+  [[acquis-Crowdfunding]], de urmat la nivelul 3. Art. 4 alin. (1^1) interzice complet serviciile
+  privind activele virtuale în Moldova — divergență de politică, nu lacună de transpunere.
+  `acquis-Insurance`: `L-92-2022` admite chiar în text (linia 79) că transpune „parțial” Solvency II
+  — confirmat prin căutare exhaustivă (zero SCR/MCR/ORSA) — și **nu** declară nicio transpunere a IDD
+  (zero „2016/97”, „IBIP”), contrar afirmației anterioare a paginii. Acesta e singurul caz verificat
+  azi unde Anexa XXVIII-A angajează chiar instrumentul actual (Solvency II însăși, termen expirat 1
+  septembrie 2021, nu o generație abrogată) — deci golul e direct față de un termen din Acord, nu doar
+  rămînere în urmă. `acquis-CompanyLaw`: constatare inversă celei așteptate — `L-1134-1997` NU citează
+  SRD II (2017/828) în propriul bloc de autodeclarare (linia 178 citează 2007/36/CE modificată prin
+  2023/2864, o directivă de interconectare digitală a registrelor, nu SRD II), dar **conține deja
+  substanța SRD II**: identificarea acționarilor (art. 52), „say on pay” (politică de remunerare
+  revizuită la 4 ani + raport anual votat, liniile 869-870, 1357-1378) și tranzacțiile cu părți
+  afiliate (regimul detaliat al „tranzacției cu conflict de interese”, art. 81-85). Lipsește doar
+  transparența consilierilor de vot (proxy advisors, zero rezultate). Anexa XXVIII-A nu acoperă acest
+  instrument (dreptul societăților stă în Anexa II, neingerată) — consemnat ca limită reală, nu
+  ascunsă.
+- **Decis:** toate trei ies din `unverified`/`confidence: low`, ridicate la `confidence: medium`,
+  `updated: 2026-09-16`, `AA-2014` adăugat la sursele celor două unde se aplică (AML, Insurance — nu
+  CompanyLaw, unde Anexa XXVIII-A nu e relevantă). Pe `acquis-CompanyLaw`, cele două puncte rămase
+  neverificate (termenul exact din Anexa II; semnalarea veche de mis-citare art.38(2)) sînt mutate
+  explicit în „Întrebări deschise”, nu tăcute — per D3, dezghețarea nu cere ca fiecare întrebare să
+  aibă răspuns, doar ca fiecare să fie tratată vizibil.
+- **Unde:** `concepts/acquis-AML.md`, `concepts/acquis-Insurance.md`, `concepts/acquis-CompanyLaw.md`;
+  `raw/papers/cnpf/L-308-2017.md` (linia 93, art. 4, art. 15, citite); `raw/papers/cnpf/L-92-2022.md`
+  (linia 79 și căutare exhaustivă, citite, neatinse); `raw/papers/cnpf/L-1134-1997.md` (liniile
+  173-179, 52, 81-85, 869-870, 1357-1378, citite, neatinse); `_meta/plans/2026-09-15-plan-pasul-6-acquis-aa.md`
+  (D4, nivelul 2); commitul acestei intrări.
