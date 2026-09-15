@@ -16,3 +16,7 @@ __pycache__/
 
 # Livrabile ale altor sesiuni (contracte, memo-uri .docx). Nu fac parte din wiki; vezi CLAUDE.md, „Outstanding work” pct. 6.
 Claude outputs/
+
+# Configurația locală Codex CLI (autogenerată). AGENTS.md rămâne urmărit — e conținut, nu stare
+# locală de unealtă. Vezi log.md, intrarea din 2026-09-16 despre pasul 6.4.
+.codex/

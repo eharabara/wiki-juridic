@@ -471,3 +471,18 @@
 - **Aflat:** `discover_latest_celex.py` rulat din nou azi pe toate cele 29 de extracte `UE-*.md` — nu doar cele 5 semnalate — dă un rezultat identic literă cu literă cu rularea din 2026-09-04, la unsprezece zile distanță: aceleași 5 „NEWER AVAILABLE" (`UE-2009-138` Solvency II, `UE-2024-1624` AMLR, `UE-2024-1640` AMLD6, `UE-2020-1503` crowdfunding, `UE-97-9` ICSD), aceleași 24 „already current". Pentru Solvency II, întrebarea lăsată deschisă de recensământul pasului 6.1 („e `-20270130` cu dată viitoare, simetricul consolidărilor domestice viitoare?") are acum răspuns direct din aritmetica datei: 2027-01-30 e după 2026-09-15, deci da, e viitoare — nu diferă de constatarea deja scrisă în manifest la 2026-09-04, doar o confirmă la o dată de verificare ulterioară. Pentru celelalte patru, explicația deja scrisă în manifest (act de bază, consolidarea distinctă figurează doar pe pagina web a actului, nu în RDF-ul Cellar pe care-l citește scriptul, iar trecerea pe CELEX-ul consolidat dă 404 direct) rămâne valabilă neschimbată.
 - **Decis:** punctul D5 al planului se închide fără nicio acțiune asupra `raw/`: se amână Solvency II (rămâne `-20250117`, cea în vigoare azi), se închid celelalte patru ca verificate a doua oară. Nu s-a schimbat niciun fișier `UE-*.md`; singurele scrieri sînt nota de reverificare în manifest și rularea proaspătă a scriptului salvată în `_meta/imports/cnpf/latest-celex.json` (conținut identic cu cel dinainte, deci fără diff efectiv).
 - **Unde:** `raw/papers/cnpf/_manifest.md` secțiunea F (nota „Reverificat 2026-09-15"); `_meta/imports/cnpf/latest-celex.json`; `_meta/plans/2026-09-15-plan-pasul-6-acquis-aa.md` (D5, tabelul pașilor rândul 6.4); commitul acestei intrări.
+
+## [2026-09-16] update | `.codex/` dezurmărit, adăugat la `.gitignore`; `AGENTS.md` rămâne urmărit
+
+- **Aflat:** commitul pasului 6.4 (`8f1d8c9`) a folosit `close_session.py --commit`, care aplică
+  `git add -A` — a prins și `.codex/environments/environment.toml` (config local autogenerat de
+  Codex CLI) și `AGENTS.md` (oglinda acestui `CLAUDE.md` pentru Codex, scrisă de Eugen, referind
+  „proiectul Codex.ai" în loc de claude.ai), niciunul urmărit înainte și niciunul parte a acestei
+  sesiuni. Semnalat lui Eugen imediat, fără a rescrie istoria deja împinsă.
+- **Decis:** Eugen a cerut păstrarea distincției: `AGENTS.md` e conținut real (analogul acestui
+  fișier pentru un alt asistent) și rămâne urmărit așa cum a intrat; `.codex/` e stare locală de
+  unealtă, ca `.obsidian/workspace*.json`, și se dezurmărește (`git rm -r --cached .codex/`) plus
+  intră în `.gitignore`, pe modelul intrării `Claude outputs/`. Nu s-a atins `raw/`, niciun
+  registru generat, niciun control mecanic — commit simplu, fără `close_session.py`.
+- **Unde:** `.gitignore`; `.codex/environments/environment.toml` (dezurmărit, rămas pe disc);
+  commitul acestei intrări.
