@@ -107,6 +107,84 @@ frontmatter (`sources:`) și în lista finală, nu în proză. Asta înseamnă c
 în a citi mii de articole de directivă, ci în a verifica un set mic de afirmații punctuale, act cu
 act.
 
+### 2.2-ter Calendarul integral al Anexei XXVIII-A, calculat de la 1 iulie 2016
+
+Textul complet al anexei (liniile 64964-65087 din HTML-ul `22014A0830(01)`, citit integral, nu
+eșantionat) listează **41 de instrumente**, nu „~20-25" cum estimase recensământul inițial din
+secțiunea 2.2 pe o privire parțială. Fiecare rând de mai jos e termenul din anexă, calculat de la
+1 iulie 2016 (secțiunea 2.2-bis). **Toate cele 41 de termene au expirat deja** — cel mai îndepărtat,
+zece ani, a căzut acum luna trecută (1 iulie 2026).
+
+| nr. | instrument | subiect | termen din text | scadent | `UE-*.md` corespunzător |
+|---:|---|---|---|---|---|
+| 1 | Dir. 2007/44/CE | evaluarea prudențială a achizițiilor de participații | trei ani | 2019-07-01 | — |
+| 2 | Dir. 2002/87/CE | supravegherea suplimentară a conglomeratelor financiare | trei ani | 2019-07-01 | — |
+| 3 | Dir. 2006/48/CE | inițierea/exercitarea activității instituțiilor de credit (CRD I) | trei ani | 2019-07-01 | — |
+| 4 | Dir. 2007/18/CE | modifică 2006/48/CE (bănci de dezvoltare multilaterală) | imediat | 2016-07-01 | — |
+| 5 | Dir. 2006/49/CE | rata de adecvare a capitalului (CAD) | trei ani (regula generală) | 2019-07-01 | — |
+| 5bis | — idem, capitalul inițial al instituțiilor, altele decât cele de credit (art. 5, 6, 7, 8, 9) | zece ani | 2026-07-01 | — |
+| 6 | Dir. 2009/110/CE | monedă electronică | trei ani | 2019-07-01 | — |
+| 7 | Dir. 94/19/CE | garantarea depozitelor | cinci ani (regula generală) | 2021-07-01 | — |
+| 7bis | — idem, nivelul minim de compensare per deponent (art. 7) | zece ani | 2026-07-01 | — |
+| 8 | Dir. 86/635/CEE | conturile anuale ale băncilor | trei ani | 2019-07-01 | — |
+| 9 | Dir. 2001/65/CE | modifică 78/660, 83/349, 86/635 (evaluare) | trei ani | 2019-07-01 | — |
+| 10 | Dir. 2003/51/CE | modifică 78/660, 83/349, 86/635, 91/674 | trei ani | 2019-07-01 | — |
+| 11 | Dir. 2006/46/CE | modifică 78/660, 83/349, 86/635, 91/674 | trei ani | 2019-07-01 | — |
+| 12 | Dir. 2001/24/CE | reorganizarea și lichidarea instituțiilor de credit | imediat | 2016-07-01 | — |
+| 13 | **Dir. 2009/138/CE** | inițierea/exercitarea activității de asigurare (Solvabilitate II) | șapte ani | 2023-07-01 | **`UE-2009-138`** — potrivire directă |
+| 14 | Dir. 91/674/CEE | conturile anuale ale întreprinderilor de asigurare | trei ani | 2019-07-01 | — |
+| 15 | Recomandarea 92/48/CEE | intermediarii de asigurări | nu este aplicabil | — | — |
+| 16 | Dir. 2002/92/CE | intermedierea de asigurări | trei ani | 2019-07-01 | — (succesoarea IDD, `UE-2016-97`, e generație nouă, neangajată prin acest text) |
+| 17 | **Dir. 2009/103/CE** | asigurarea RCA auto (MTPL) | trei ani | 2019-07-01 | **`UE-2009-103`** — potrivire directă |
+| 18 | Dir. 2003/41/CE | instituțiile pentru pensii ocupaționale (IORP I) | cinci ani | 2021-07-01 | `UE-2016-2341` ține **IORP II** (2016) — generație mai nouă decât cea angajată |
+| 19 | Dir. 2004/39/CE | piețele instrumentelor financiare (MiFID I) | trei ani | 2019-07-01 | `UE-2014-65` ține **MiFID II** — generație mai nouă decât cea angajată |
+| 20 | Dir. 2006/73/CE | implementarea MiFID I | trei ani | 2019-07-01 | — |
+| 21 | Reg. (CE) 1287/2006 | implementarea MiFID I | trei ani | 2019-07-01 | — |
+| 22 | Dir. 2003/71/CE | prospectul valorilor mobiliare (Prospectus I) | trei ani | 2019-07-01 | `UE-2017-1129` ține **Regulamentul Prospectus nou** (2017) — generație mai nouă |
+| 23 | Reg. (CE) 809/2004 | implementarea Prospectus I | trei ani | 2019-07-01 | — |
+| 24 | **Dir. 2004/109/CE** | obligații de transparență (emitenți) | patru ani | 2020-07-01 | **`UE-2004-109`** — potrivire directă |
+| 25 | Dir. 2007/14/CE | implementarea Directivei transparență | patru ani | 2020-07-01 | — |
+| 26 | **Dir. 97/9/CE** | sisteme de compensare pentru investitori (ICSD) | cinci ani (regula generală) | 2021-07-01 | **`UE-97-9`** — potrivire directă |
+| 26bis | — idem, nivelul minim de compensare per investitor (art. 4) | zece ani | 2026-07-01 | |
+| 27 | Dir. 2003/6/CE | abuzul de piață (MAD I) | trei ani | 2019-07-01 | `UE-596-2014`/`UE-2014-57` țin **MAR/CSMAD** (2014) — generație mai nouă |
+| 28 | Dir. 2004/72/CE | implementarea MAD I | trei ani | 2019-07-01 | — |
+| 29 | Dir. 2003/124/CE | implementarea MAD I | trei ani | 2019-07-01 | — |
+| 30 | Dir. 2003/125/CE | implementarea MAD I | trei ani | 2019-07-01 | — |
+| 31 | Reg. (CE) 2273/2003 | implementarea MAD I | trei ani | 2019-07-01 | — |
+| 32 | Reg. (CE) 1060/2009 | agențiile de rating de credit | cinci ani | 2021-07-01 | — |
+| 33 | **Dir. 2009/65/CE** | organisme de plasament colectiv (UCITS) | cinci ani | 2021-07-01 | **`UE-2009-65`** — potrivire directă |
+| 34 | Dir. 2007/16/CE | implementarea UCITS (text vechi, 85/611/CEE) | trei ani | 2019-07-01 | — |
+| 35 | Dir. 2002/47/CE | contractele de garanție financiară | trei ani | 2019-07-01 | — |
+| 36 | **Dir. 98/26/CE** | caracterul definitiv al decontării (SFD) | trei ani | 2019-07-01 | **`UE-98-26`** — potrivire directă |
+| 37 | Dir. 2009/44/CE | modifică SFD + garanție financiară | trei ani | 2019-07-01 | — |
+| 38 | Dir. 2007/64/CE | serviciile de plată (PSD1) | trei ani | 2019-07-01 | — |
+| 39 | Dir. 2005/60/CE | prevenirea spălării banilor (AMLD3) | **un an** | **2017-07-01** | `UE-2015-849` ține **AMLD4/5** (2015) — generație mult mai nouă |
+| 40 | Dir. 2006/70/CE | implementarea AMLD3 | un an | 2017-07-01 | — |
+| 41 | Reg. (CE) 1781/2006 | informații privind plătitorul la transferuri de fonduri | un an | 2017-07-01 | — |
+
+**Ce arată tabelul, dincolo de faptul că toate termenele au expirat.** Din cele 41 de instrumente,
+doar **6** au o potrivire directă în cele 29 de extrase deja ținute (Solvency II, MTPL, Transparență,
+ICSD, UCITS, SFD) — restul de **33 nu au niciun extras `UE-*.md`**, inclusiv domenii întregi absente
+din corpus: garantarea depozitelor, serviciile de plată (PSD1), contractele de garanție financiară,
+agențiile de rating, conturile anuale bancare/de asigurare, CRD I. Alte **5** instrumente au un
+corespondent în vault, dar la **generația greșită**: tratatul angajează Moldova la MiFID I, Prospectus
+I, MAD I, IORP I și AMLD3, în timp ce extrasele deja ingerate (iulie 2026) sînt generațiile mai noi
+(MiFID II, Regulamentul Prospectus, MAR/CSMAD, IORP II, AMLD4/5) — exact tiparul „parțial/învechit"
+pe care `acquis-MiFID.md` îl semnalase deja intuitiv, dar acum verificabil instrument cu instrument.
+Cel mai scurt termen din toată anexa, **un an** (AMLD3 și normele ei de aplicare), e și cel mai
+depășit la nivelul UE însuși — trei generații în urmă (AMLD3 → AMLD4/5 → pachetul AMLR/AMLD6/AMLA
+din 2024, deja în vault ca `UE-2024-1624/1640/1620`).
+
+**Ce nu e în Anexa XXVIII-A, deloc**, deși are pagină `acquis-*` în vault: AIFMD (`UE-2011-61`),
+EMIR/CSDR (`UE-648-2012`, `UE-909-2014`), Crowdfunding (`UE-2020-1503`, normal — regulamentul e din
+2020, posterior acordului), Consumer Credit (`UE-2008-48`, `UE-2023-2225`), Company Law/Takeover/SRD
+(`UE-2017-1132`, `UE-2004-25`, `UE-2007-36`, `UE-2017-828`). **Nu înseamnă că Moldova n-are nicio
+obligație de apropiere pentru acestea** — înseamnă doar că obligația, dacă există, nu vine din
+Anexa XXVIII-A; ar putea sta în altă anexă a Acordului (dreptul societăților comerciale e de obicei
+tratat separat de serviciile financiare într-un AA/DCFTA) sau în afara Acordului cu totul (foaia de
+parcurs de aderare la UE). **Neverificat unde anume** — rămâne pentru pasul 6.3/6.5, nu se presupune
+aici.
+
 ## 3. Ce s-a schimbat sub aceste pagini de la înghețare (6 septembrie) încoace
 
 Relevant fiindcă unele „Întrebări deschise" de acum trei luni pot avea deja răspuns în corpus:
