@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-10 | Total pages: 121
+> Last updated: 2026-09-15 | Total pages: 122
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -10,6 +10,7 @@
 
 ### Entities
 
+- [[AA-2014]] — Acordul de Asociere Republica Moldova–Uniunea Europeană, extras (Capitolul 9 servicii financiare, dispozițiile finale art. 459-465, Anexa XXVIII-A): 41 de instrumente UE cu termen de transpunere, toate expirate; calendarul curge de la aplicarea provizorie (1 septembrie 2014), nu de la intrarea în vigoare deplină (1 iulie 2016), per art. 464 alin. (5) și Decizia 2014/492/UE a Consiliului.
 - [[bnm]] — Banca Națională a Moldovei: legal basis, mandate structure, regulatory register and verification limits.
 - [[bnm-official-document-corpus-2026]] — Preserved BNM legal and formal-report source corpus: originals, text extracts, hashes and provenance manifest.
 - [[CC-1107-2002]] — Codul civil al Republicii Moldova: din 2026-09-06 textul legis.md 150498 (consolidare 2026-04-01, LP251/2025), 2.657 de ancore de articol plus cărți, titluri, capitole și secțiuni; versiunea din PDF arhivată.

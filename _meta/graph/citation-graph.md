@@ -1,6 +1,6 @@
 # Graful de citare al actelor detinute
 
-Generat 2026-09-15 23:02 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
+Generat 2026-09-15 23:54 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
 
 **Ce este.** Trimiterile dintre actele detinute, extrase mecanic din textul brut: fiecare muchie poarta fisierul si liniile din care a fost citita, si nicio muchie nu este dedusa. Graful nu se citeaza. El spune unde sa deschizi fisierul, iar ancora se citeste.
 
@@ -10,23 +10,23 @@ Generat 2026-09-15 23:02 de `_meta/graph/build_citation_graph.py`. Nu edita de m
 
 | | |
 |---|---:|
-| acte primare detinute (din care ancorate pe articole) | 86 (67) |
-| dispozitii (noduri-articol) | 11758 |
+| acte primare detinute (din care ancorate pe articole) | 87 (68) |
+| dispozitii (noduri-articol) | 11769 |
 | extrase UE detinute (noduri-tinta) | 29 |
-| acte citate si nedetinute (noduri externe) | 479 |
-| mentiuni de acte in text (din care ale actului insusi) | 3460 (281) |
-| muchii act -> act (agregate pe segment-sursa) | 2439 |
-| trimiteri la articole citite (in grupuri de enumerare) | 8427 (7360) |
-|   rezolvate in actul curent | 6891 |
+| acte citate si nedetinute (noduri externe) | 506 |
+| mentiuni de acte in text (din care ale actului insusi) | 3524 (281) |
+| muchii act -> act (agregate pe segment-sursa) | 2484 |
+| trimiteri la articole citite (in grupuri de enumerare) | 8449 (7378) |
+|   rezolvate in actul curent | 6895 |
 |   rezolvate in alt act detinut | 1019 |
-|   nerezolvate: articolul nu are ancora in actul-tinta | 76 |
+|   nerezolvate: articolul nu are ancora in actul-tinta | 94 |
 |   catre acte nedetinute (notate pe muchia act -> act) | 390 |
 |   catre acte pe puncte (fara articole) | 33 |
 |   autoreferinte (articolul se citeaza pe sine), ignorate | 18 |
-| muchii articol -> articol (agregate) | 6489 |
-| muchii articol -> act nerezolvate (agregate) | 68 |
+| muchii articol -> articol (agregate) | 6492 |
+| muchii articol -> act nerezolvate (agregate) | 81 |
 
-Regula care a dat actul-tinta, pe trimiteri: din 1183, doua-puncte 46, intern 6693, modificare 57, paranteza 7. „intern” = niciun act in context, deci actul curent; „din” = `art. N ... din Legea X` sau `(art. N, M) Directiva X`; „paranteza” = `Legea X (art. N)`; „doua-puncte” = `din Codul X: art. N, M`; „modificare” = `Legea X se modifica dupa cum urmeaza: ... articolul N`. `din legea indicata` trimite la ultima lege numita in acelasi segment.
+Regula care a dat actul-tinta, pe trimiteri: din 1183, doua-puncte 46, intern 6715, modificare 57, paranteza 7. „intern” = niciun act in context, deci actul curent; „din” = `art. N ... din Legea X` sau `(art. N, M) Directiva X`; „paranteza” = `Legea X (art. N)`; „doua-puncte” = `din Codul X: art. N, M`; „modificare” = `Legea X se modifica dupa cum urmeaza: ... articolul N`. `din legea indicata` trimite la ultima lege numita in acelasi segment.
 
 Coduri citate si pe nume si pe numar, unite dupa textul care le scrie impreuna: COD-audiovizualului = COD-260-2006; COD-educatiei = COD-152-2014; COD-electoral = COD-325-2022; COD-familiei = COD-1316-2000; COD-jurisdictiei-constitutionale = COD-502-1995; COD-transporturilor-rutiere = COD-150-2014.
 
@@ -78,27 +78,27 @@ Directive si regulamente UE care nu au un extras `UE-*` in `raw/papers/cnpf/`.
 
 | act citat | mentiuni | acte care il citeaza | cel mai des din | articole citate |
 |---|---:|---:|---|---|
+| `EU-TFUE` Tratatul privind functionarea Uniunii Europene | 5 | 4 | `AA-2014` (2) | art. 101 |
+| `EU-L-2003-6` Directiva 2003/6 | 5 | 1 | `AA-2014` (5) | - |
+| `EU-L-2005-60` Directiva 2005/60 | 4 | 3 | `AA-2014` (2) | - |
+| `EU-R-2009-1060` Regulamentul (UE) nr. 1060/2009 | 4 | 3 | `L-171-2012` (2) | art. 2, art. 3, art. 4, art. 6 |
+| `EU-L-2004-39` Directiva 2004/39 | 4 | 2 | `AA-2014` (3) | - |
+| `EU-L-2002-87` Directiva 2002/87 | 3 | 3 | `L-250-2017` (1) | art. 9 |
 | `EU-L-2018-843` Directiva 2018/843 | 3 | 3 | `L-92-2022` (1) | - |
-| `EU-TFUE` Tratatul privind functionarea Uniunii Europene | 3 | 3 | `L-183-2012` (1) | art. 101 |
+| `EU-L-2006-48` Directiva 2006/48 | 3 | 2 | `AA-2014` (2) | - |
+| `EU-L-2006-70` Directiva 2006/70 | 3 | 2 | `AA-2014` (2) | - |
 | `EU-L-2014-23` Directiva 2014/23 | 3 | 2 | `L-20-2026` (2) | - |
 | `EU-L-2014-24` Directiva 2014/24 | 3 | 2 | `L-131-2015` (2) | art. 1, art. 2, art. 22, art. 23 |
-| `EU-R-2009-1060` Regulamentul (UE) nr. 1060/2009 | 3 | 2 | `L-171-2012` (2) | art. 2, art. 3, art. 4, art. 6 |
 | `EU-R-2004-2006` Regulamentul (UE) nr. 2006/2004 | 3 | 1 | `L-105-2003` (3) | - |
 | `EU-R-2013-952` Regulamentul (UE) nr. 952/2013 | 3 | 1 | `COD-95-2021` (3) | - |
 | `EU-R-2017-2394` Regulamentul (UE) 2017/2394 | 3 | 1 | `L-105-2003` (3) | - |
+| `EU-L-1985-611` Directiva 1985/611 | 2 | 2 | `L-171-2012` (1) | - |
 | `EU-L-1989-665` Directiva 1989/665 | 2 | 2 | `L-20-2026` (1) | art. 1, art. 2 |
 | `EU-L-1992-13` Directiva 1992/13 | 2 | 2 | `L-20-2026` (1) | art. 2 (x2), art. 1, art. 3 |
 | `EU-L-1995-46` Directiva 1995/46 | 2 | 2 | `L-195-2024` (1) | - |
-| `EU-L-2002-87` Directiva 2002/87 | 2 | 2 | `L-250-2017` (1) | art. 9 |
-| `EU-L-2004-18` Directiva 2004/18 | 2 | 2 | `L-325-2025` (1) | - |
-| `EU-L-2005-60` Directiva 2005/60 | 2 | 2 | `L-308-2017` (1) | - |
-| `EU-L-2006-112` Directiva 2006/112 | 2 | 2 | `COD-95-2021` (1) | art. 143 (x2), art. 38, art. 59, art. 183 |
-| `EU-L-2009-102` Directiva 2009/102 | 2 | 2 | `L-135-2007` (1) | art. 4 (x2), art. 2, art. 5 |
-| `EU-L-2010-13` Directiva 2010/13 | 2 | 2 | `L-62-2022` (1) | - |
-| `EU-L-2001-34` Directiva 2001/34 | 2 | 1 | `L-171-2012` (2) | - |
-| `EU-L-2009-22` Directiva 2009/22 | 2 | 1 | `L-105-2003` (2) | - |
-| `EU-L-2019-771` Directiva 2019/771 | 2 | 1 | `L-105-2003` (2) | - |
-| … inca 69 in JSON | | | | |
+| `EU-L-2001-24` Directiva 2001/24 | 2 | 2 | `L-232-2016` (1) | - |
+| `EU-L-2003-41` Directiva 2003/41 | 2 | 2 | `L-2-2020` (1) | - |
+| … inca 96 in JSON | | | | |
 
 ### Legi citate doar pe nume, fara corespondent in vault
 
@@ -129,13 +129,13 @@ Mentiunile actelor detinute catre cele 29 de extrase `UE-*`. Schita unei concord
 
 | extras UE | mentiuni | citat din |
 |---|---:|---|
-| `UE-2004-109` | 0 | - |
+| `UE-2004-109` | 2 | `AA-2014` (2) |
 | `UE-2004-25` | 0 | - |
 | `UE-2007-36` | 1 | `L-1134-1997` (1) |
 | `UE-2008-48` | 0 | - |
-| `UE-2009-103` | 1 | `L-106-2022` (1) |
-| `UE-2009-138` | 5 | `L-106-2022` (2), `L-92-2022` (2), `L-308-2017` (1) |
-| `UE-2009-65` | 1 | `L-171-2012` (1) |
+| `UE-2009-103` | 2 | `AA-2014` (1), `L-106-2022` (1) |
+| `UE-2009-138` | 6 | `L-106-2022` (2), `L-92-2022` (2), `AA-2014` (1), `L-308-2017` (1) |
+| `UE-2009-65` | 2 | `AA-2014` (1), `L-171-2012` (1) |
 | `UE-2011-61` | 2 | `L-2-2020` (2) |
 | `UE-2014-57` | 0 | - |
 | `UE-2014-65` | 1 | `L-2-2020` (1) |
@@ -156,8 +156,8 @@ Mentiunile actelor detinute catre cele 29 de extrase `UE-*`. Schita unei concord
 | `UE-648-2012` | 2 | `L-202-2017` (1), `L-308-2017` (1) |
 | `UE-648-2012-priority-articles-2026-07-09` | 0 | - |
 | `UE-909-2014` | 1 | `L-234-2016` (1) |
-| `UE-97-9` | 0 | - |
-| `UE-98-26` | 1 | `L-234-2016` (1) |
+| `UE-97-9` | 1 | `AA-2014` (1) |
+| `UE-98-26` | 2 | `AA-2014` (1), `L-234-2016` (1) |
 
 ## Trimiteri catre acte abrogate
 
@@ -262,6 +262,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 
 | act | ancore | citeaza (acte) | citat de (acte) | art. interne | art. in alte acte | nerezolvate | mentiuni externe |
 |---|---:|---:|---:|---:|---:|---:|---:|
+| `AA-2014` | 11 | 44 | 0 | 4 | 0 | 18 | 64 |
 | `CC-1107-2002` | 2657 | 27 | 29 | 1017 | 5 | 1 | 45 |
 | `COD-116-2018` | 260 | 13 | 27 | 106 | 10 | 1 | 7 |
 | `COD-1163-1997` | 511 | 66 | 20 | 447 | 17 | 1 | 81 |
@@ -357,9 +358,12 @@ Articole citate care nu au ancora in actul-tinta, grupate pe tinta. Cauze cunosc
 |---|---|---:|---|---|---|---|
 | `CC-1107-2002` | art. 48^30 | 7 | - | din | `COD-225-2003#art.308^2` l.2698 | de judecată audiază persoanele enumerate la art. 48^30 alin. (1) din Codul civil. (2) Audierea persoanelor indicate la art. |
 | `COD-218-2008` | art. 441 | 5 | exponent turtit: art. 44^1 | din | `HG-582-2022#corp` l.94 | rocesul contravențional a încetat în temeiul art. 441 alin. (1) lit. f) din Codul contravențional al Republicii Moldova nr. |
+| `AA-2014` | art. 3 | 4 | - | intern | `AA-2014#preambul` l.32 | ând cu data de 1 septembrie 2014, în temeiul articolului 3 alineatul (1) din Decizia Consiliului privind semnarea și aplicarea c |
 | `L-131-2012` | art. 51 | 4 | exponent turtit: art. 5^1 | intern | `L-131-2012#art.29` l.551 | or încălcări, conform limitelor stabilite la art. 51. (1^1) În cazul prevăzut la art.28 alin.(9), organul respectiv includ |
+| `AA-2014` | art. 7 | 3 | - | intern | `AA-2014#art.465` l.163 | italului inițial prevăzut în conformitate cu articolul 5 alineatele (1) și (3), articolul 6, articolul 7 literele (a), (b) și (c), articolul 8 literele (a), (b) și (c) și arti |
 | `CC-1107-2002` | art. 330^4 | 3 | - | din | `COD-225-2003#art.327` l.2893 | rilor de constatare a uzucapiunii în temeiul art. 330^4 din Codul civil şi efectuării înregistrării corespunzătoare în regist |
 | `CC-1107-2002` | art. 1575^9 | 3 | - | din | `L-149-2012#art.235^13` l.2428 | asei succesorale de către moștenitor conform art. 1575^9–1575^11 din Codul civil pot fi folosite pentru a satisface creanțele |
+| `AA-2014` | art. 4 | 2 | - | intern | `AA-2014#art.465` l.206 | sare pentru fiecare investitor, prevăzută la articolul 4 din respectiva directivă, sunt puse în aplicare în termen de cinci an |
 | `CC-1107-2002` | art. 48^40 | 2 | - | din | `COD-225-2003#art.308^9` l.2729 | oire a măsurii de ocrotire judiciare conform art. 48^40 din Codul civil, instanţa de judecată va pronunţa hotărârea judecător |
 | `CC-1107-2002` | art. 1575^4 | 2 | - | din | `L-149-2012#art.235^12` l.2424 | ța ce aparține creditorului care, în temeiul art. 1575^4 din Codul civil, a fost exclus din cadrul procedurii de somare public |
 | `CC-1107-2002` | art. 1575^5 | 2 | - | din | `L-149-2012#art.235^12` l.2424 | publică a creditorilor sau care, în temeiul art. 1575^5 din Codul civil, se asimilează creditorului exclus va fi satisfăcută |
@@ -367,6 +371,15 @@ Articole citate care nu au ancora in actul-tinta, grupate pe tinta. Cauze cunosc
 | `COD-985-2002` | art. 24513 | 2 | exponent turtit: art. 245^13 | modificare | `L-177-2025#art.II` l.107 | u modificările ulterioare, se completează cu articolul 24513 cu următorul cuprins: „Articolul 24513. Marketingul, vânzarea sau dis |
 | `L-183-2012` | art. 572 | 2 | exponent turtit: art. 57^2 | intern | `L-183-2012#art.47` l.786 | lui Consiliului Concurenței emisă în temeiul art. 572 alin. (1) pot fi contestate, în conformitate cu prevederile Codului a |
 | `UA-STATUT-2011` | art. 35^1 | 2 | - | intern | `UA-STATUT-2011#art.53^1` l.790 | anele care întrunesc condițiile prevăzute la art. 34 alin. (1) și art. 35^1 din Lege cu respectarea limitei numărului de mandate consecutive. Ver |
+| `AA-2014` | art. 2 | 1 | - | intern | `AA-2014#art.465` l.157 | același mod ca și instituțiile enumerate la articolul 2 din respectiva directivă, și în consecință, vor fi exceptate de la do |
+| `AA-2014` | art. 5 | 1 | - | intern | `AA-2014#art.465` l.163 | italului inițial prevăzut în conformitate cu articolul 5 alineatele (1) și (3), articolul 6, articolul 7 literele (a), (b) și (c), articolul 8 literele (a), (b) și (c) și arti |
+| `AA-2014` | art. 6 | 1 | - | intern | `AA-2014#art.465` l.163 | italului inițial prevăzut în conformitate cu articolul 5 alineatele (1) și (3), articolul 6, articolul 7 literele (a), (b) și (c), articolul 8 literele (a), (b) și (c) și arti |
+| `AA-2014` | art. 8 | 1 | - | intern | `AA-2014#art.465` l.163 | italului inițial prevăzut în conformitate cu articolul 5 alineatele (1) și (3), articolul 6, articolul 7 literele (a), (b) și (c), articolul 8 literele (a), (b) și (c) și arti |
+| `AA-2014` | art. 9 | 1 | - | intern | `AA-2014#art.465` l.163 | italului inițial prevăzut în conformitate cu articolul 5 alineatele (1) și (3), articolul 6, articolul 7 literele (a), (b) și (c), articolul 8 literele (a), (b) și (c) și arti |
+| `AA-2014` | art. 12 | 1 | - | intern | `AA-2014#preambul` l.57 | I: articolele 3,4, 7 și 8; (c) titlul III: articolele 12 și 15; (d) titlul IV: capitolele 5, 9 și 12 |
+| `AA-2014` | art. 30 | 1 | - | intern | `AA-2014#preambul` l.61 | , capitolele 26 și 28, precum și articolele 30, 37, 46, 57, 97, 102 și 116; (e) titlul V (cu excepția articolului |
+| `AA-2014` | art. 278 | 1 | - | intern | `AA-2014#preambul` l.65 | 97, 102 și 116; (e) titlul V (cu excepția articolului 278, în măsura în care se referă la aplicarea de sancțiuni penale în caz |
+| `AA-2014` | art. 359 | 1 | - | intern | `AA-2014#preambul` l.65 | de proprietate intelectuală, și cu excepția articolelor 359 și 360, în măsura în care aceste dispoziții se aplică procedurilor ad |
 | `CC-1107-2002` | art. 48^12 | 1 | - | din | `COD-225-2003#art.81` l.853 | l să le exercite, cu excepțiile stabilite la art. 48^12–48^27 din Codul civil și de mandatul de ocrotire în viitor. |
 | `CC-1107-2002` | art. 48^21 | 1 | - | din | `COD-225-2003#art.308^17` l.2780 | că prin care se împuterniceşte, în aplicarea art. 48^21 şi 48^27 din Codul civil, mandatarul sau un mandatar special cu înche |
 | `CC-1107-2002` | art. 48^28 | 1 | - | din | `COD-225-2003#art.307` l.2678 | ire; b) expunerea circumstanţelor, în sensul art. 48^28 din Codul civil, care impun instituirea măsurii de ocrotire judiciare |
@@ -403,10 +416,7 @@ Articole citate care nu au ancora in actul-tinta, grupate pe tinta. Cauze cunosc
 | `L-548-1995` | art. 494 | 1 | exponent turtit: art. 49^4 | intern | `L-548-1995#art.49^1` l.738 | ea acestora în vederea punerii în aplicare a art. 494 alin. (8) și art. 495 alin. (8); c) să adopte acte normative care stabilesc cerințe față de |
 | `L-548-1995` | art. 495 | 1 | exponent turtit: art. 49^5 | intern | `L-548-1995#art.49^1` l.738 | ea acestora în vederea punerii în aplicare a art. 494 alin. (8) și art. 495 alin. (8); c) să adopte acte normative care stabilesc cerințe față de |
 | `L-548-1995` | art. 752 | 1 | exponent turtit: art. 75^2 | din | `L-62-2008#art.63` l.1155 | urilor se face ţinînd cont şi de prevederile art. 75 şi art. 752 din Legea nr. 548-XIII din 21 iulie 1995 cu privire la Banca Naţional |
-| `L-550-1995` | art. 6 | 1 | - | intern | `L-550-1995#art.38^5` l.230 | or financiare și sînt aplicabile prevederile art. 6 alin. (3) din legea menționată; i) executarea obligaţiilor faţă de ba |
-| `L-550-1995` | art. 15 | 1 | - | din | `HBN-130-2013#corp` l.72 | modificările şi completările ulterioare, şi articolelor 15-156 din Legea instituţiilor financiare nr.550-XIII din 21 iulie 1995 |
-| `L-550-1995` | art. 31 | 1 | - | din | `COD-985-2002#art.239^1` l.3541 | ă afiliată va avea semnificația prevăzută în art. 31 din Legea instituțiilor financiare nr. 550-XIII din 21 iulie 1995. |
-| `L-550-1995` | art. 37^9 | 1 | - | din | `L-202-2017#art.148` l.1811 | tolelor I, II, III, III^1, IV, V, VI, VII și art. 37^9 din Legea instituţiilor financiare nr. 550/1995 se abrogă. |
+| … inca 4 grupuri, in JSON | | | | | | |
 
 „Poate fi” este o ipoteza mecanica, nu o muchie: numarul citat, despartit in baza si exponent, da o ancora existenta. Se verifica in sursa inainte de a fi folosita.
 

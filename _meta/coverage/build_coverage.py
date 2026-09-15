@@ -26,6 +26,7 @@ END = "<!-- COVERAGE:END -->"
 STALE_YEARS = 2
 SKIP_PREFIX = ("_", "md-", "README")
 EU_PREFIX = "UE-"
+TREATY_PREFIX = "AA-"  # Acordul de Asociere, extrase (2026-09-15, pasul 6.3)
 
 ANCHOR_RE = re.compile(r"^## Articolul\s+(\d+)(?:\^(\d+))?", re.M)
 # English-form anchors written by anchor_bnm_en.py on 2026-09-04; forbidden on translations (D2).
@@ -121,7 +122,7 @@ def scan_file(path, rel):
 
 
 def collect():
-    acts, eu, bnm_unanchored, other = [], 0, [], 0
+    acts, eu, treaty, bnm_unanchored, other = [], 0, 0, [], 0
     bnm_en_anchored = []
     # bnm/legal-ro holds the six banking laws in Romanian (P8, 2026-09-05): primary acts,
     # counted with cnpf and moldova-legal, and kept out of the BNM English walk below.
@@ -134,6 +135,11 @@ def collect():
                 continue
             if name.startswith(EU_PREFIX):
                 eu += 1
+                continue
+            if name.startswith(TREATY_PREFIX):
+                # AA-2014 (2026-09-15, pasul 6.3): extras al Acordului de Asociere, nu un act
+                # moldovenesc -- numarat separat, ca extrasele UE, nu in tabelul actelor primare.
+                treaty += 1
                 continue
             acts.append(scan_file(os.path.join(d, name), f"raw/papers/{folder}/{name}"))
     bnm = os.path.join(ROOT, "raw", "papers", "bnm")
@@ -154,7 +160,7 @@ def collect():
             if n:
                 bnm_unanchored.append(n)
     collect.bnm_en_anchored = bnm_en_anchored
-    return acts, eu, bnm_unanchored, other
+    return acts, eu, treaty, bnm_unanchored, other
 
 
 def inforce():
@@ -186,7 +192,7 @@ def hcc():
 
 
 def build(today):
-    acts, eu, bnm_unanchored, bnm_total = collect()
+    acts, eu, treaty, bnm_unanchored, bnm_total = collect()
     reg = inforce()
     hcc_reg = hcc()
     hcc_by_act = {}
@@ -208,7 +214,8 @@ def build(today):
       "Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. "
       "Judgement belongs in the hand-written sections above and below.")
     a("")
-    a(f"{len(acts)} primary Moldovan acts, {eu} EU acquis extracts, {bnm_total} BNM corpus documents.")
+    a(f"{len(acts)} primary Moldovan acts, {eu} EU acquis extracts, {treaty} Association Agreement "
+      f"extract(s), {bnm_total} BNM corpus documents.")
     a("")
     a("| Act | Articles | Anchors | Consolidation | Note |")
     a("|---|---:|---:|---|---|")

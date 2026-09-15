@@ -390,3 +390,35 @@ pieței, raportat de depozitarul central, registratori și societățile de inve
 modelul formularului din anexa nr. 1, care nu este în text. Corespondența de pe pagina DCU rămâne
 neverificabilă din vault. Anexa nr. 2 pct. 9 subpct. 3) trimite taxa pe tranzacție la hotărârea
 Parlamentului privind bugetul CNPF, nu la o hotărâre CNPF cum spune procedura DCU; de verificat.
+
+## K. Acordul de Asociere RM-UE — extras, `AA-2014` (ingerat 2026-09-15, pasul 6.3)
+
+Primul act din perimetrul „tratat internațional" al vault-ului, altul decât CNPF/BNM/EUR-Lex.
+Sursă: EUR-Lex, `CELEX 22014A0830(01)`, accesibil direct prin `curl`, fără nicio barieră de tip
+Cloudflare — spre deosebire de legis.md. Script: `_meta/imports/cnpf/ingest_aa_2014.py`.
+
+**Extras, nu textul integral.** Documentul complet are 793 de articole, ~11 MB; ingerat aici doar
+Capitolul 9 „Serviciile financiare" (art. 58-61, Titlul IV), dispozițiile finale relevante
+(art. 459-465), Anexa XXVIII-A „Norme aplicabile serviciilor financiare" (41 de instrumente UE cu
+calendar de transpunere) și cele două notificări oficiale ale datelor plus art. 3 din Decizia
+2014/492/UE a Consiliului. Decizia D1 din `_meta/plans/2026-09-15-plan-pasul-6-acquis-aa.md`
+exclude expres restul acordului (comerțul cu mărfuri, celelalte 28+ anexe, cooperarea politică).
+Extracția taie fragmente pe identificatori `id=` ELI stabili ai HTML-ului sursă (`tis_IV.cpt_9`,
+`d1e13797-4-1`, `L_2014260RO.01040601` etc.), nu pe numere de linie, care nu ar supraviețui unei
+republicări. `verify()` re-descarcă din cache și compară octet cu octet cu fișierul scris: PASS.
+
+**Descoperire de fond, corectare din 2026-09-15 (log).** Calendarul Anexei XXVIII-A curge de la
+**1 septembrie 2014** (aplicarea provizorie), nu de la 1 iulie 2016 (intrarea în vigoare deplină)
+cum spunea prima trecere a recensământului. Art. 464 alin. (5) al acordului convertește orice
+trimitere la „data intrării în vigoare" în „data aplicării provizorii" pentru dispozițiile care au
+fost efectiv aplicate provizoriu; care anume sînt acestea o spune art. 3 alin. (1) din Decizia
+2014/492/UE a Consiliului, care include expres titlul IV capitolul 9 (litera d) și anexele
+XV-XXXV (litera h, interval ce acoperă Anexa XXVIII întreagă). Toate cele 41 de termene din anexă
+sînt azi expirate; tabelul complet, cu fiecare instrument și scadență, e în planul pasului 6,
+secțiunea 2.2-ter — nu se repetă aici.
+
+**Ce rămâne deschis.** Cele cinci pagini `acquis-*` fără corespondent în Anexa XXVIII-A
+(AIFMD, EMIR/CSDR, Crowdfunding, Consumer Credit, Company Law/Takeover/SRD): pentru ultimele
+două s-a găsit unde stau (Anexa II — Capitolul 3, Anexa IV — Capitolul 5), dar niciuna dintre cele
+patru anexe nu e încă ingerată sau citită integral. Reverificarea pagină cu pagină a celor 18
+pagini `acquis-*` înghețate (pasul 6.5) rămâne de făcut.
