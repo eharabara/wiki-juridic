@@ -1,0 +1,182 @@
+# Plan pentru pasul 6: Acordul de Asociere, textele UE integrale, reverificarea constatărilor acquis
+
+Data: 15 septembrie 2026
+Folder vizat: `C:\Users\harab\wiki`
+Stare: **propunere, cu partea mecanică a recensământului executată** (secțiunile 2-3). Deciziile din
+secțiunea 4 sunt ale lui Eugen; nimic din `raw/` nu a fost atins.
+
+Precedent direct: `_meta/plans/2026-09-06-plan-extindere-perimetru-domestic.md`, D3: „(6) după
+acestea, Acordul de Asociere, textele UE integrale și reverificarea constatărilor acquis" — ultimul
+pas al planului din 6 septembrie, lăsat fără plan propriu până acum. Pasul 5 (HCC) e închis
+(`_meta/plans/2026-09-08-plan-hcc-pasul-5.md`, executat 8-15 septembrie).
+
+---
+
+## 1. Ce s-a verificat la 15 septembrie înainte de a porni
+
+- Arbore curat pe `main` la `1302e31`; `close_session.py --check` curat: toate cele patru registre
+  generate la zi, validator 0 erori, 5 avertismente (stampila registrului dosarelor, cea mai veche).
+- 18 pagini poartă înghețarea din 6 septembrie: `tags: [unverified]`, `confidence: low`, paragraful
+  fix sub H1 (`log.md`, intrarea „Înghețarea stratului de constatări acquis"). 17 sunt
+  `concepts/acquis-*.md`, a 18-a e `comparisons/cnpf-transposition-matrix.md`.
+- Niciun text integral al Acordului de Asociere nu există în vault, în nicio formă. Căutare
+  exhaustivă (`grep -rl` pe `raw/`, `entities/`, `concepts/`) — zero rezultate.
+
+## 2. Recensământul: ce ține azi stratul de acquis UE
+
+### 2.1 Cele 29 de extrase EUR-Lex (`raw/papers/cnpf/UE-*.md`)
+
+Toate sunt **extrase structurate**, ingerate 2026-07-09: cuprinsul complet detectat (numărul de
+articole al actului, de la 4 la 567) plus textul integral doar al „articolelor-cheie" alese atunci
+(6-9 pe act, cele citate în paginile `concepts/`). Suma articolelor din cuprins pe cele 29 de acte:
+**~2427**. Suma articolelor-cheie deja cu text integral: sub 150. Diferența e mărimea reală a
+golului „extras, nu text integral" — nu 2427, pentru că marea majoritate a articolelor unei
+directive (definiții tehnice, proceduri de comitologie, dispoziții tranzitorii ale unor state
+membre) nu vor fi citate niciodată de o pagină despre transpunerea moldovenească.
+
+**Verificare de actualitate CELEX, rulată azi** (`_meta/imports/cnpf/discover_latest_celex.py`,
+citire, nimic scris): **5 din 29 au o consolidare mai nouă pe EUR-Lex decât cea ținută.**
+
+| act ținut | consolidare ținută | consolidare disponibilă | notă |
+|---|---|---|---|
+| `UE-2009-138` (Solvency II) | `-20250117` | `-20270130` | **nou găsit azi**; de verificat dacă e cu dată viitoare (simetricul „consolidation dated in the future" domestic) sau deja aplicabilă |
+| `UE-2024-1624` (AMLR) | act de bază, fără consolidare | `-20240619` | deja semnalat fals în manifest (secțiunea F, nota de sub tabelul F) |
+| `UE-2024-1640` (AMLD6) | act de bază, fără consolidare | `-20240619` | idem |
+| `UE-2020-1503` (crowdfunding) | act de bază, fără consolidare | `-20201020` | idem |
+| `UE-97-9` (ICSD) | act de bază, fără consolidare | `-19970326` | idem |
+
+Ultimele patru sînt deja documentate ca „fals pozitiv" în manifest (act de bază fără versiune
+consolidată distinctă listată pe propria pagină EUR-Lex, dar existentă la căutare directă) — de
+verificat o singură dată, nu patru. Primul, Solvency II, e o constatare nouă a acestei sesiuni.
+
+### 2.2 Acordul de Asociere — găsit, verificat accesibil, dimensionat
+
+CELEX-ul corect e **`22014A0830(01)`** (nu `22014A0630(01)`, care dă 404 — data din CELEX e a
+publicării în Jurnalul Oficial, 30 august 2014, nu a semnării). Textul RO se ia direct prin `curl`,
+fără nicio barieră Cloudflare-like: `GET https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:22014A0830(01)`
+răspunde 200, ~11 MB, HTML structurat pe articole (`class="oj-ti-art"`) exact ca `showdetails` de pe
+legis.md, dar fără sesiune, fără cookie, fără `Referer`. Există și `22014A0830(02)`, ~9,8 MB — verificat
+azi: **acesta e schedulele tarifare de mărfuri** (nu conține „ANEXA XXVIII"), deci în afara
+perimetrului CNPF/BNM al acestui vault. Nu există `(03)`.
+
+**Descoperirea care contează:** documentul `(01)` conține **Anexa XXVIII-A, „Norme aplicabile
+serviciilor financiare"** (liniile 64964-65087 din HTML-ul brut, ~120 de linii) — o listă de
+~20-25 directive/regulamente UE pe care Republica Moldova **s-a angajat expres** să le transpună,
+fiecare cu **propriul calendar legal** („trei ani de la data intrării în vigoare a prezentului
+acord", „zece ani" pentru anumite dispoziții ale 2006/49/CE, „cinci ani" pentru 2003/41/CE
+pensiile ocupaționale, etc.). Anexele XXVIII-B, C, D de lângă ea (telecomunicații, poștă,
+transport maritim) sînt confirmate în afara perimetrului. Mecanismul intrării în vigoare/aplicării
+provizorii e la art. 462-464 din același document, dar **data calendaristică efectivă nu e în
+corpul acordului însuși** — e într-o decizie separată a Consiliului UE/o notificare OJ, de găsit
+separat înainte de a calcula orice termen.
+
+Asta transformă „reverificarea constatărilor acquis" dintr-o presupunere generică
+(„Moldova ar trebui să transpună MiFID") într-un fapt juridic verificabil, cu dată: dacă un
+instrument e în Anexa XXVIII-A, are termen legal; dacă nu e, angajamentul (dacă există) vine din
+altă parte (foaia de parcurs de aderare la UE, planuri naționale) și trebuie spus așa, nu confundat
+cu obligația din Acord.
+
+### 2.3 Ce spun azi cele 18 pagini înghețate
+
+Structura e uniformă: `Ce acoperă` (rezumat tematic), `Lacuna de examinat pentru Moldova` (narativ,
+adesea cu `[de verificat]`), `Întrebări deschise` (2-4 întrebări punctuale), apoi lista surselor
+EUR-Lex cu articolele-cheie. Citările la nivel de articol sînt rare în corpul paginii (sub 30 de
+mențiuni `art. N` distincte pe toate cele 18 pagini) — miezul verificabil e mai degrabă în
+frontmatter (`sources:`) și în lista finală, nu în proză. Asta înseamnă că reverificarea nu constă
+în a citi mii de articole de directivă, ci în a verifica un set mic de afirmații punctuale, act cu
+act.
+
+## 3. Ce s-a schimbat sub aceste pagini de la înghețare (6 septembrie) încoace
+
+Relevant fiindcă unele „Întrebări deschise" de acum trei luni pot avea deja răspuns în corpus:
+
+- Perimetrul CNPF/BNM a primit de atunci: Constituția, HCC (registru complet), primele acte
+  subordonate CNPF (`HCNPF-14-5-2016`, `HCNPF-38-5-2015`) și BNM (`HBN-127-2013`, `HBN-130-2013`,
+  Regulile DCU, opt Proceduri DCU), Legea 149/2012 (insolvabilitate), Legea 514/1995 (organizare
+  judecătorească), grupele de legi corporative/profesionale din 6 septembrie. Niciuna dintre
+  acestea nu a fost verificată contra vreunei pagini `acquis-*`, pentru că înghețarea din 6
+  septembrie a venit înainte de ele.
+- Graful de citare (`_meta/graph/citation-graph.md`) nu citește extrasele UE pentru muchii
+  (declarat explicit ca limită), deci nu ajută aici direct — dar coada lui de ingerare poate
+  suprapune cu instrumente din Anexa XXVIII-A, de verificat punct cu punct la momentul potrivit.
+
+## 4. Decizii cerute lui Eugen
+
+**D1. Perimetrul Acordului de Asociere: doar Anexa XXVIII-A și articolele-cadru, nu documentul
+întreg.** Propunere: ingerarea se limitează la (a) Anexa XXVIII-A („Norme aplicabile serviciilor
+financiare", ~25 de instrumente cu calendar), (b) articolele-cadru care guvernează mecanismul de
+apropiere legislativă și intrarea în vigoare (art. 462-464 identificate azi; restul capitolului de
+servicii/DCFTA relevant rămâne de localizat exact la execuție, nu e un blocaj de plan), și (c) orice
+alt punct din acord la care o pagină `acquis-*` sau `entities/` trimite explicit. Restul acordului
+(mărfuri, tarife, alte 28 de anexe, cooperare politică) rămâne **neingerat**, exact ca EU-urile
+domeniilor conexe pe care coada de ingerare le arată fără să le tragă automat în vault. Prefix nou
+propus: `AA-2014` pentru raw, secțiune nouă în manifestul CNPF (pe modelul F/G), pagină de entitate
+`entities/AA-2014.md`.
+
+**D2. Nu se digitalizează mecanic toate cele ~2427 de articole din cele 29 de extrase UE.**
+Propunere, simetrică cu D1: pentru fiecare din cele 18 pagini, lista de „Întrebări deschise" și
+„Lacuna de examinat" se verifică punct cu punct contra (i) Anexei XXVIII-A (există termen legal?
+care?) și (ii) textului moldovenesc curent, deja reîmprospătat. Articolele-cheie deja extrase
+(sub 150) plus orice articol nou pe care o întrebare concretă îl cere se extrag integral, pe
+modelul `discover_latest_celex.py` + o rută de citire simplă (curl direct, fără antete speciale,
+verificat azi). Restul actului rămâne „extras", nu se completează „ca să fie complet" — corpusul
+existent are deja acest defect (stratul brut cu articole nefolosite, semnalat la punctul 2 din
+lucrările deschise ale `CLAUDE.md`) și nu-l repetăm aici cu directive UE de sute de articole.
+
+**D3. Dezghețarea e per-pagină, nu în bloc.** O pagină `acquis-*` iese din `unverified`/
+`confidence: low` numai după ce (i) fiecare afirmație din „Lacuna de examinat" a fost verificată
+contra textului moldovenesc curent și (ii) fiecare „Întrebare deschisă" a primit fie un răspuns
+citat, fie o mutare explicită în lista deschisă a paginii. Data intrării în vigoare a Acordului
+(pentru a calcula termenele Anexei XXVIII-A) se stabilește o singură dată, separat, înainte de a
+verifica orice pagină individuală — nu se recalculează pe fiecare pagină.
+
+**D4. Ordinea.** Pe numărul de acte legate și pe cât de aproape e perimetrul CNPF de bază:
+1. Data intrării în vigoare/aplicării provizorii a Acordului (o căutare, nu o pagină).
+2. Ingerarea Anexei XXVIII-A și a articolelor-cadru identificate (`AA-2014`).
+3. `acquis-MiFID`, `acquis-MAR` — nucleul pieței de capital, cele mai citate din L-171-2012, deja
+   cel mai documentat perimetru al vault-ului.
+4. `acquis-AML`, `acquis-Insurance`, `acquis-CompanyLaw` — perimetre cu acte moldovenești deja
+   ingerate integral și proaspete (mai puțin de o lună).
+5. Restul (`acquis-Crowdfunding`, `acquis-IORP`, `acquis-MTPL`, `acquis-ConsumerCredit`,
+   `acquis-Takeover`, `acquis-Transparency`, `acquis-UCITS`, `acquis-AIFMD`, `acquis-CSDR-EMIR`,
+   `acquis-ICSD`, `acquis-SFD`) — fără prioritate specială între ele, cea mai simplă ordine e
+   alfabetică sau cea a lucrărilor deschise curente ale lui Eugen.
+6. `comparisons/cnpf-transposition-matrix.md` la final, fiindcă citează toate celelalte 17.
+
+**D5. Cele 5 consolidări UE mai noi (secțiunea 2.1).** Solvency II (`UE-2009-138`) se verifică
+separat dacă `-20270130` e cu dată viitoare înainte de a decide dacă se trece la ea acum sau se
+notează și se amână, pe modelul registrului in-force domestic. Celelalte patru sînt deja explicate
+în manifest ca „act de bază fără consolidare distinctă" — se verifică o dată, se închide punctul.
+
+## 5. Pașii, după decizii
+
+| pas | ce | control | poate rula fără Eugen |
+|---|---|---|---:|
+| 6.1 | recensământ mecanic (acest document, secțiunile 2-3) | ieșirea de mai sus | **făcut 2026-09-15** |
+| 6.2 | data intrării în vigoare/aplicării provizorii a Acordului, căutată separat | o singură constatare, citată | da |
+| 6.3 | `AA-2014`: Anexa XXVIII-A + articolele-cadru, script nou (`ingest_aa.py`, pe modelul `ingest_dcu_rules.py`: sursă unică, PDF sau HTML, ancore proprii) | integritate text PASS, manifest, pagină de entitate | da, curl merge fără Eugen |
+| 6.4 | cele 5 verificări de consolidare (D5) | manifest actualizat, `discover_latest_celex.py --check` | da |
+| 6.5 | reverificare pagină cu pagină, ordinea din D4, cu extragere țintită de articole noi unde o întrebare o cere | `unverified` scos per pagină, `confidence` ridicat, validator 0 | da pentru citit/verificat; unele întrebări (transpunere post-2020?) pot cere confirmarea lui Eugen |
+| 6.6 | `cnpf-transposition-matrix` la final | validator 0, commit | da |
+
+Fiecare pas se încheie cu commit propriu și intrare în `log.md`, pe modelul pasului HCC.
+
+## 6. Ce nu acoperă planul
+
+Restul Acordului de Asociere (Titlurile de comerț cu mărfuri, cooperare politică, justiție și
+afaceri interne, capitolele DCFTA din afara serviciilor financiare, toate anexele în afara
+XXVIII-A). Actele din Anexa XXVIII-A care nu au deja un extras `UE-*.md` corespunzător în vault
+(de verificat la pasul 6.1 dacă listele se suprapun perfect sau dacă apar instrumente noi, cum ar
+fi cele mai vechi — 86/635/CEE, 94/19/CE, 91/674/CEE — care s-ar putea să nu fie printre cele 29
+deja ingerate). Foaia de parcurs de aderare la UE și planurile naționale de apropiere legislativă
+care nu sînt parte a Acordului însuși.
+
+## 7. Raportul de la sfârșit
+
+1. Data intrării în vigoare/aplicării provizorii a Acordului, cu sursa.
+2. Ce anume s-a ingerat din Acord (`AA-2014`), cu numărul de articole/puncte și verificarea de
+   integritate.
+3. Tabelul celor 18 pagini, înainte/după: câte întrebări deschise au primit răspuns, câte au
+   rămas, câte pagini au ieșit din `unverified`.
+4. Rezultatul celor 5 verificări de consolidare.
+5. Ieșirea validatorului și commiturile.
