@@ -76,6 +76,27 @@ instrument e în Anexa XXVIII-A, are termen legal; dacă nu e, angajamentul (dac
 altă parte (foaia de parcurs de aderare la UE, planuri naționale) și trebuie spus așa, nu confundat
 cu obligația din Acord.
 
+### 2.2-bis Datele — rezolvat 2026-09-15 (pasul 6.2)
+
+Găsite în panoul propriu „Dates" al metadatelor EUR-Lex pentru `22014A0830(01)`
+(`https://eur-lex.europa.eu/legal-content/RO/ALL/?uri=CELEX:22014A0830(01)`), fiecare cu propria
+notificare oficială, citită integral, nu doar câmpul de metadate:
+
+- **Aplicare cu titlu provizoriu: 1 septembrie 2014.** `CELEX 22014X0830(02)`, JO L 260, 30.8.2014,
+  p. 1, în temeiul art. 3 alin. (1) din Decizia 2014/492/UE a Consiliului din 16.06.2014: „va fi
+  aplicat cu titlu provizoriu, începând cu data de 1 septembrie 2014".
+- **Intrare în vigoare: 1 iulie 2016.** `CELEX 22016X0618(03)`, JO L 161, 18.6.2016, în temeiul
+  art. 464 alin. (2) al acordului însuși, „având în vedere faptul că ultimul instrument de
+  ratificare sau aprobare a fost depus la data de 23 mai 2016".
+
+**Care guvernează Anexa XXVIII-A:** formula calendarului din anexă („N ani de la data intrării în
+vigoare a prezentului acord") trimite explicit la art. 464, deci la **intrarea în vigoare din
+1 iulie 2016**, nu la aplicarea provizorie din 2014. Consecință directă: termenele de „trei ani"
+(marea majoritate a listei) au expirat la **1 iulie 2019**, cele de „cinci ani" la **1 iulie 2021**,
+cele de „zece ani" (unele dispoziții ale 2006/49/CE, partea de nivel al capitalului inițial din
+Directiva 94/19/CE) la **1 iulie 2026** — chiar luna trecută. Niciun termen din anexă nu mai e în
+viitor. Verificarea per instrument, cu textul moldovenesc corespunzător, e obiectul pasului 6.5.
+
 ### 2.3 Ce spun azi cele 18 pagini înghețate
 
 Structura e uniformă: `Ce acoperă` (rezumat tematic), `Lacuna de examinat pentru Moldova` (narativ,
@@ -153,7 +174,7 @@ notează și se amână, pe modelul registrului in-force domestic. Celelalte pat
 | pas | ce | control | poate rula fără Eugen |
 |---|---|---|---:|
 | 6.1 | recensământ mecanic (acest document, secțiunile 2-3) | ieșirea de mai sus | **făcut 2026-09-15** |
-| 6.2 | data intrării în vigoare/aplicării provizorii a Acordului, căutată separat | o singură constatare, citată | da |
+| 6.2 | data intrării în vigoare/aplicării provizorii a Acordului, căutată separat | o singură constatare, citată | **făcut 2026-09-15**: 1 septembrie 2014 (provizorie) / 1 iulie 2016 (vigoare); vezi 2.2-bis |
 | 6.3 | `AA-2014`: Anexa XXVIII-A + articolele-cadru, script nou (`ingest_aa.py`, pe modelul `ingest_dcu_rules.py`: sursă unică, PDF sau HTML, ancore proprii) | integritate text PASS, manifest, pagină de entitate | da, curl merge fără Eugen |
 | 6.4 | cele 5 verificări de consolidare (D5) | manifest actualizat, `discover_latest_celex.py --check` | da |
 | 6.5 | reverificare pagină cu pagină, ordinea din D4, cu extragere țintită de articole noi unde o întrebare o cere | `unverified` scos per pagină, `confidence` ridicat, validator 0 | da pentru citit/verificat; unele întrebări (transpunere post-2020?) pot cere confirmarea lui Eugen |
