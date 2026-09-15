@@ -641,3 +641,26 @@
   `raw/papers/cnpf/UE-2009-103.md` (art. 9 identificat ca lipsă din extras, neatins);
   `_meta/plans/2026-09-15-plan-pasul-6-acquis-aa.md` (D4, nivelul 4, ultimul); commitul acestei
   intrări.
+
+## [2026-09-16] update | Pasul 6.6: `cnpf-transposition-matrix` rescrisă — planul din 15 septembrie închis integral
+
+- **Aflat:** matricea era ultimul document care încă cita toate cele 17 pagini `acquis-*` cu
+  constatările lor din iulie 2026, dinainte de reverificarea pasului 6.5 — un cititor care deschidea
+  doar matricea, nu și paginile individuale, ar fi văzut concluzii vechi. Rescrierea a scos la iveală
+  o lacună de structură, nu de conținut: pagina nu avea niciun rând pentru `acquis-Takeover`, deși
+  pagina proprie exista și era citată în „Referințe încrucișate” — adăugat acum ca rând propriu în
+  secțiunea A, cu constatarea verificată (regim complet, prag 50%, squeeze-out la 90%).
+- **Decis:** secțiunile A, B și D rescrise integral, celulă cu celulă, cu constatarea verificată a
+  paginii proprii, nu cu presupunerea din iulie; fiecare celulă trimite prin wikilink la pagina cu
+  citatul exact, ca matricea să nu dubleze articolul-sursă. Adăugat un paragraf nou despre ce arată
+  Anexa XXVIII-A per ansamblu (41 instrumente, toate termenele expirate, cu ICSD și Solvency II ca
+  singurele cazuri unde tratatul angajează chiar instrumentul actual). Secțiunea C capătă două note
+  noi, extrase din tiparele găsite la 6.5: nu presupune că un amendament recent (ca `L-177-2025`)
+  închide automat o lacună căutată, și nu presupune automat o lacună cînd legea declară o generație
+  mai nouă decît cea angajată de tratat (găsit de două ori: AML, IORP). Rândurile fără pagină
+  `acquis-*` proprie (Reg. CRA, PRIIPs, vânzări în lipsă, indici de referință, SFTR) rămân
+  `[de verificat]`, neatinse, nu ghicite. Iese din `unverified`, `confidence: medium`. **Cu acest pas,
+  planul din 15 septembrie (`2026-09-15-plan-pasul-6-acquis-aa.md`) e închis integral**: toți cei șase
+  pași (6.1-6.6) sînt făcuți, consemnat în capul planului.
+- **Unde:** `comparisons/cnpf-transposition-matrix.md`; `_meta/plans/2026-09-15-plan-pasul-6-acquis-aa.md`
+  (stare rescrisă la „executat integral”, tabelul pașilor 6.5-6.6); commitul acestei intrări.

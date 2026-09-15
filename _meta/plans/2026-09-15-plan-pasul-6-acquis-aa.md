@@ -2,8 +2,13 @@
 
 Data: 15 septembrie 2026
 Folder vizat: `C:\Users\harab\wiki`
-Stare: **propunere, cu partea mecanică a recensământului executată** (secțiunile 2-3). Deciziile din
-secțiunea 4 sunt ale lui Eugen; nimic din `raw/` nu a fost atins.
+Stare: **executat integral, 2026-09-16.** Toți cei șase pași (6.1-6.6) sînt făcuți — vezi tabelul din
+secțiunea 5. Cele 17 pagini `acquis-*` plus `cnpf-transposition-matrix` au ieșit din `unverified`;
+`AA-2014` e ingerat; cele 5 verificări de consolidare UE (D5) sînt închise. Ce rămâne, consemnat ca
+atare, nu ascuns: Reg. CRA 1060/2009, PRIIPs, vânzările în lipsă, indicii de referință și SFTR (fără
+pagină `acquis-*` proprie), pragul minim MTPL (art. 9 din 2009/103 neextras integral), substanța
+operațională AIFMD (nedistins dacă e delegată unor acte CNPF neingerate sau absentă), și RTS-urile
+crowdfunding.
 
 Precedent direct: `_meta/plans/2026-09-06-plan-extindere-perimetru-domestic.md`, D3: „(6) după
 acestea, Acordul de Asociere, textele UE integrale și reverificarea constatărilor acquis" — ultimul
@@ -267,8 +272,8 @@ vigoare astăzi. Celelalte patru (`UE-2024-1624`, `UE-2024-1640`, `UE-2020-1503`
 | 6.2 | data intrării în vigoare/aplicării provizorii a Acordului, căutată separat | o singură constatare, citată | **făcut 2026-09-15**: 1 septembrie 2014 (provizorie) / 1 iulie 2016 (vigoare); vezi 2.2-bis |
 | 6.3 | `AA-2014`: Anexa XXVIII-A + articolele-cadru, script nou (`ingest_aa.py`, pe modelul `ingest_dcu_rules.py`: sursă unică, PDF sau HTML, ancore proprii) | integritate text PASS, manifest, pagină de entitate | da, curl merge fără Eugen |
 | 6.4 | cele 5 verificări de consolidare (D5) | manifest actualizat, `discover_latest_celex.py --check` | **făcut 2026-09-15**: rezultat identic cu 2026-09-04, cele 5 explicate, niciuna schimbată |
-| 6.5 | reverificare pagină cu pagină, ordinea din D4, cu extragere țintită de articole noi unde o întrebare o cere | `unverified` scos per pagină, `confidence` ridicat, validator 0 | da pentru citit/verificat; unele întrebări (transpunere post-2020?) pot cere confirmarea lui Eugen |
-| 6.6 | `cnpf-transposition-matrix` la final | validator 0, commit | da |
+| 6.5 | reverificare pagină cu pagină, ordinea din D4, cu extragere țintită de articole noi unde o întrebare o cere | `unverified` scos per pagină, `confidence` ridicat, validator 0 | **făcut 2026-09-16**: toate cele 17 pagini `acquis-*` dezghețate, în patru niveluri, validator 0 pe fiecare |
+| 6.6 | `cnpf-transposition-matrix` la final | validator 0, commit | **făcut 2026-09-16**: toate secțiunile A/B/D rescrise cu constatările verificate, validator 0 |
 
 Fiecare pas se încheie cu commit propriu și intrare în `log.md`, pe modelul pasului HCC.
 
