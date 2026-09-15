@@ -167,9 +167,36 @@ def inforce():
         return None
 
 
+def hcc():
+    """Registrul HCC (_meta/hcc/), al patrulea control generat, 2026-09-15 (D4 i).
+
+    De ce contează pentru bloc: o dispoziție declarată neconstituțională arată identic cu
+    oricare alta -- articolul există, ancora e valida, sha256 se potriveste. Simetricul
+    "Not yet in force": acolo textul viitor nu leagă azi, aici textul de azi nu mai leagă,
+    pentru ca a fost anulat, dar consolidarea detinuta nu o spune la nivel de articol decat
+    daca marcajul a supravietuit sau a fost recuperat in recovered-provisions.json.
+    """
+    p = os.path.join(ROOT, "_meta", "hcc", "hcc-register.json")
+    if not os.path.exists(p):
+        return None
+    try:
+        return json.loads(read(p))
+    except Exception:
+        return None
+
+
 def build(today):
     acts, eu, bnm_unanchored, bnm_total = collect()
     reg = inforce()
+    hcc_reg = hcc()
+    hcc_by_act = {}
+    if hcc_reg:
+        for x in hcc_reg["acts"]:
+            known = len(x["distinct_hcc"]) - len(x["unattributed"])
+            hcc_by_act[x["instrument"]] = {
+                "known": known,
+                "unattributed": len(x["unattributed"]),
+            }
     L = []
     a = L.append
 
@@ -219,6 +246,13 @@ def build(today):
             notes.append(f"{n} superscript article{'s' if n > 1 else ''} normalised")
         if x["body_declared"] is not None and x["body_declared"] != x["anchors"]:
             notes.append(f"stale count line in body says {x['body_declared']}")
+        hx = hcc_by_act.get(x["id"])
+        if hx:
+            if hx["unattributed"]:
+                notes.append(f"**{hx['unattributed']} HCC decision(s) not yet attributed to an article**"
+                             + (f" ({hx['known']} known)" if hx["known"] else ""))
+            else:
+                notes.append(f"{hx['known']} provision(s) declared unconstitutional (HCC register)")
         a(f"| `{x['id']}` | {x['declared'] if x['declared'] is not None else '-'} "
           f"| {x['anchors']} | {x['consolidation'] or '-'} | {'; '.join(notes) or 'clean'} |")
     a("")
@@ -254,6 +288,19 @@ def build(today):
             + f". {n} affected provision(s) are listed in `_meta/inforce/in-force-register.md`. "
             "Check that register before citing an article from these acts. The citation will look "
             "correct in every other respect: the article exists, the anchor is valid, the sha256 matches.")
+    if hcc_reg:
+        c = hcc_reg["counts"]
+        struck_acts = [aid for aid, hx in hcc_by_act.items() if hx["known"]]
+        flags.append(
+            f"**Declared unconstitutional.** {c['acts']} act(s) carry at least one Constitutional Court "
+            f"decision in their history block, {c['distinct_hcc']} decisions in total: {c['markers_in_text']} "
+            f"still marked at article level in the text itself, {c['recovered']} more recovered by reading "
+            f"the legis.md version history (`_meta/hcc/recovered-provisions.json`), and "
+            f"{c['unattributed']} not yet attributed to any article. A struck provision looks like ordinary "
+            "law: the article exists, the anchor is valid, the sha256 matches. Check "
+            "`_meta/hcc/hcc-register.md` before citing an article from "
+            + ", ".join(f"`{aid}`" for aid in sorted(struck_acts))
+            + " and say which decision struck it and what today's text actually holds.")
     stale = []
     for x in acts:
         if x["future"] or not x["consolidation"] or x["never_amended"]:

@@ -1,6 +1,6 @@
 # Graful de citare al actelor detinute
 
-Generat 2026-09-10 13:08 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
+Generat 2026-09-15 23:02 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
 
 **Ce este.** Trimiterile dintre actele detinute, extrase mecanic din textul brut: fiecare muchie poarta fisierul si liniile din care a fost citita, si nicio muchie nu este dedusa. Graful nu se citeaza. El spune unde sa deschizi fisierul, iar ancora se citeste.
 
@@ -177,8 +177,8 @@ Dispozitiile care apar in registrul in-force (textul din fisier nu se aplica inc
 
 | dispozitie | stare | citari (din alte acte) | citat din |
 |---|---|---:|---|
+| `L-548-1995#art.11` l.285 | HCC: HCC31/2013-10-01, al.(4), articol intreg | 7 (3) | `L-548-1995#art.75^1`, `L-114-2012#art.98`, `L-202-2017#art.144`, `L-232-2016#art.319`, `L-548-1995#art.6` |
 | `COD-985-2002#art.72` l.878 | in-force: modificare de la 2026-12-02 | 3 (3) | `COD-122-2003#art.469` l.5720, `COD-443-2004#art.197` l.2066, `COD-443-2004#art.255` l.2708 |
-| `L-158-2008#art.27` l.481 | in-force: reformulare de la 2026-09-13 | 13 (2) | `L-158-2008#art.42`, `L-158-2008#art.45`, `L-158-2008#art.27^1`, `L-158-2008#art.29`, `L-158-2008#art.48`, `L-158-2008#art.62`, … (+5) |
 | `COD-122-2003#art.191` l.3065 | in-force: modificare de la 2026-12-02; HCC: HCC17/2016-05-19, omisiune legislativa (+1) | 5 (2) | `COD-443-2004#art.301`, `COD-122-2003#art.192`, `COD-122-2003#art.309`, `COD-122-2003#art.310` |
 | `COD-218-2008#art.34` l.1016 | HCC: HCC7/2018-04-26, alin. (3), text din articol | 3 (2) | `COD-443-2004#art.315` l.3262, `COD-218-2008#art.293^2` l.4868 |
 | `COD-225-2003#art.449` l.3629 | HCC: HCC16/2013-06-25, lit. f), in parte | 12 (1) | `COD-225-2003#art.450`, `COD-116-2018#art.170`, `COD-225-2003#art.447`, `COD-225-2003#art.451`, `COD-225-2003#art.451^1`, `COD-225-2003#art.453` |
@@ -186,23 +186,23 @@ Dispozitiile care apar in registrul in-force (textul din fisier nu se aplica inc
 | `COD-122-2003#art.179` l.2914 | in-force: modificare de la 2026-12-02 | 3 (1) | `COD-122-2003#art.181` l.2931, `COD-443-2004#art.297` l.3114 |
 | `COD-122-2003#art.273` l.4004 | HCC: HCC29/2021-09-21, alin. (1) lit. d^2), in parte | 3 (1) | `COD-122-2003#art.166` l.2776, `COD-122-2003#art.215^2` l.3402, `COD-443-2004#art.245` l.2578 |
 | `COD-122-2003#art.471` l.5746 | in-force: introducere de la 2026-12-02 | 3 (1) | `COD-122-2003#art.473` l.5810, `COD-122-2003#art.473^1` l.5816, `COD-443-2004#art.275` l.2914 |
+| `COD-443-2004#art.15` l.380 | HCC: HCC39/2017-12-14, al.(2) lit.d), in parte | 3 (1) | `COD-443-2004#art.30` l.555, `COD-225-2003#art.470` l.3891 |
 | `COD-122-2003#art.186` l.2997 | HCC: HCC3/2016-02-23, alin. (3), (5), (8), (9), text din articol | 2 (1) | `COD-122-2003#art.195` l.3126, `COD-443-2004#art.198` l.2074 |
+| `L-135-2007#art.30` l.318 | HCC: HCC27/2016-09-27, al.(2) [numerotarea de la data hotaririi], subunitate | 2 (1) | `L-135-2007#art.25` l.270, `L-181-2023#art.49` l.728 |
 | `COD-122-2003#art.6` l.473 | in-force: introducere de la 2026-12-02 (pct.8^1); HCC: HCC2/2020-01-23, pct. 11^1), text din articol | 1 (1) | `COD-443-2004#art.98^1` l.1162 |
 | `COD-218-2008#art.423^4` l.6654 | abrogat | 1 (1) | `L-195-2024#art.90` l.1164 |
 | `COD-218-2008#art.427` l.6731 | HCC: HCC26/2024-12-12, alin.(2), text din articol | 1 (1) | `COD-95-2021#art.408` l.4420 |
 | `COD-218-2008#art.74^1` l.1696 | abrogat | 1 (1) | `L-195-2024#art.90` l.1164 |
+| `COD-443-2004#art.22` l.446 | HCC: HCC17/2017-05-10, al.(1) lit.v), text din articol | 1 (1) | `CC-1107-2002#art.757` l.5375 |
 | `COD-985-2002#art.189` l.2580 | HCC: HCC24/2019-10-17, alin. (3) lit. f), text din articol | 1 (1) | `COD-122-2003#art.229^2` l.3545 |
 | `L-131-2015#art.80` l.1484 | abrogat | 1 (1) | `L-20-2026#art.29` l.415 |
 | `L-131-2015#art.86` l.1497 | abrogat | 1 (1) | `L-20-2026#art.29` l.419 |
-| `L-158-2008#art.25` l.445 | in-force: reformulare de la 2026-09-13 | 1 (1) | `COD-1163-1997#art.148` l.4774 |
 | `L-845-1992#art.36` l.565 | abrogat | 1 (1) | `COD-1163-1997#art.227^1` l.5963 |
-| `L-158-2008#art.8` l.239 | in-force: modificare de la 2026-09-13 | 14 (0) | `L-158-2008#art.29`, `L-158-2008#art.35`, `L-158-2008#art.50`, `L-158-2008#art.59`, `L-158-2008#art.10`, `L-158-2008#art.14`, … (+2) |
 | `COD-1163-1997#art.88` l.2970 | HCC: HCC7/2014-02-13, alin. (7), subunitate | 9 (0) | `COD-1163-1997#art.92`, `COD-1163-1997#art.372`, `COD-1163-1997#art.69^7`, `COD-1163-1997#art.73`, `COD-1163-1997#art.76`, `COD-1163-1997#art.79`, … (+2) |
 | `COD-1163-1997#art.291` l.6906 | HCC: HCC2/2014-01-28, in parte | 8 (0) | `COD-1163-1997#art.293` l.6941, `COD-1163-1997#art.292` l.6935 |
 | `COD-1163-1997#art.289` l.6857 | HCC: HCC2/2014-01-28, in parte | 6 (0) | `COD-1163-1997#art.297` l.7010, `COD-1163-1997#art.298` l.7019, `COD-1163-1997#art.294` l.6953 |
 | `COD-122-2003#art.401` l.5218 | HCC: HCC9/2008-05-20, alin. (1) pct. 3), text din articol | 6 (0) | `COD-122-2003#art.402`, `COD-122-2003#art.420`, `COD-122-2003#art.421`, `COD-122-2003#art.438`, `COD-122-2003#art.445`, `COD-122-2003#art.447` |
 | `COD-443-2004#art.174^1` l.1855 | in-force: introducere de la 2026-12-02 | 6 (0) | `COD-443-2004#art.196`, `COD-443-2004#art.204`, `COD-443-2004#art.263`, `COD-443-2004#art.269`, `COD-443-2004#art.271`, `COD-443-2004#art.290` |
-| `L-158-2008#art.42` l.753 | in-force: modificare de la 2026-09-13 | 5 (0) | `L-158-2008#art.48`, `L-158-2008#art.49`, `L-158-2008#art.62`, `L-158-2008#art.69`, `L-158-2008#art.69^1` |
 | `COD-122-2003#art.308` l.4399 | in-force: modificare de la 2026-12-02 | 4 (0) | `COD-122-2003#art.312` l.4458, `COD-122-2003#art.166` l.2780, `COD-122-2003#art.523` l.6326 |
 | `COD-122-2003#art.385` l.5042 | in-force: introducere de la 2026-12-02 | 4 (0) | `COD-122-2003#art.382`, `COD-122-2003#art.392`, `COD-122-2003#art.485`, `COD-122-2003#art.498` |
 | `COD-122-2003#art.42` l.831 | HCC: HCC3/2012-02-09, alin. (7), in parte | 4 (0) | `COD-122-2003#art.256`, `COD-122-2003#art.279^1`, `COD-122-2003#art.43`, `COD-122-2003#art.561` |
@@ -216,7 +216,6 @@ Dispozitiile care apar in registrul in-force (textul din fisier nu se aplica inc
 | `COD-1163-1997#art.260` l.6249 | HCC: HCC20/2018-07-04, alin. (4), text din articol | 2 (0) | `COD-1163-1997#art.229` l.5987, `COD-1163-1997#art.234` l.6035 |
 | `COD-122-2003#art.177` l.2881 | in-force: introducere de la 2026-12-02 | 2 (0) | `COD-122-2003#art.241^1` l.3658, `COD-122-2003#art.471` l.5761 |
 | `COD-122-2003#art.287^1` l.4172 | in-force: modificare de la 2026-12-02 | 2 (0) | `COD-122-2003#art.287^2` l.4187 |
-| `L-158-2008#art.38` l.708 | in-force: reformulare de la 2026-09-13 | 2 (0) | `L-158-2008#art.38^1` l.720, `L-158-2008#art.41` l.747 |
 | `L-845-1992#art.36^1` l.571 | in-force: introducere de la 2027-01-01 (pct.4, lit.l)) | 2 (0) | `L-845-1992#art.36^3` l.599 |
 | `COD-1163-1997#art.123` l.3742 | HCC: HCC17/2014-05-29, alin. (7), subunitate | 1 (0) | `COD-1163-1997#art.262` l.6292 |
 | `COD-1163-1997#art.290` l.6884 | HCC: HCC2/2014-01-28, in parte | 1 (0) | `COD-1163-1997#art.297` l.7010 |
@@ -230,29 +229,32 @@ Dispozitiile care apar in registrul in-force (textul din fisier nu se aplica inc
 | `COD-122-2003#art.74` l.1499 | in-force: modificare de la 2026-12-02 | 1 (0) | `COD-122-2003#art.223` l.3475 |
 | `COD-154-2003#art.46` l.790 | in-force: introducere de la 2027-01-01 | 1 (0) | `COD-154-2003#art.391` l.3685 |
 | `COD-154-2003#art.90` l.1293 | HCC: HCC9/2025-07-22, al.(2), lit. a), text din articol | 1 (0) | `COD-154-2003#art.330` l.3252 |
+| `COD-174-2018#art.66` l.1269 | HCC: HCC36/2021-11-23, al.(7), text din articol | 1 (0) | `COD-174-2018#art.84` l.1533 |
 | `COD-218-2008#art.197^1` l.3385 | abrogat | 1 (0) | `COD-218-2008#art.431` l.6777 |
 | `COD-218-2008#art.20` l.909 | abrogat | 1 (0) | `COD-218-2008#art.440^1` l.7016 |
 | `COD-218-2008#art.233` l.3957 | HCC: HCC11/2018-05-08, alin. (3), text din articol | 1 (0) | `COD-218-2008#art.41` l.1100 |
-| `COD-218-2008#art.313^2` l.5168 | in-force: reformulare de la 2026-09-13 | 1 (0) | `COD-218-2008#art.423^9` l.6685 |
-| `COD-218-2008#art.313^4` l.5188 | in-force: reformulare de la 2026-09-13 | 1 (0) | `COD-218-2008#art.401` l.6463 |
 | `COD-218-2008#art.445` l.7079 | HCC: HCC32/2018-11-29, articol intreg | 1 (0) | `COD-218-2008#art.451^3` l.7199 |
 | `COD-218-2008#art.62` l.1486 | abrogat | 1 (0) | `COD-218-2008#art.293^2` l.4870 |
 | `COD-225-2003#art.306` l.2668 | HCC: HCC33/2016-11-17, alin. (2), text din articol | 1 (0) | `COD-225-2003#art.77` l.826 |
 | `COD-225-2003#art.39` l.518 | HCC: HCC3/2012-02-09, alin. (11^1), subunitate | 1 (0) | `COD-225-2003#art.41^1` l.560 |
 | `COD-225-2003#art.58` l.687 | HCC: HCC33/2016-11-17, alin. (2), (2^1), (6), text din articol | 1 (0) | `COD-225-2003#art.79` l.832 |
+| `COD-443-2004#art.161` l.1728 | HCC: HCC8/2019-04-05, al.(1) teza a doua, text din articol | 1 (0) | `COD-443-2004#art.79` l.994 |
 | `COD-443-2004#art.174` l.1846 | HCC: HCC18/2013-07-04, alin. (3^1), subunitate | 1 (0) | `COD-443-2004#art.287` l.3000 |
 | `COD-443-2004#art.263` l.2792 | in-force: modificare de la 2026-12-02 | 1 (0) | `COD-443-2004#art.194` l.2043 |
+| `COD-443-2004#art.61` l.817 | HCC: HCC22/2019-10-08, al.(1), text din articol | 1 (0) | `COD-443-2004#art.60` l.815 |
 | `COD-95-2021#art.277^2` l.3004 | abrogat | 1 (0) | `COD-95-2021#art.277` l.2991 |
 | `COD-985-2002#art.317` l.4791 | in-force: modificare de la 2026-12-02 | 1 (0) | `COD-985-2002#art.21` l.532 |
 | `COD-985-2002#art.328` l.4968 | HCC: HCC22/2017-06-27, alin. (1), text din articol (+1) | 1 (0) | `COD-985-2002#art.55` l.732 |
 | `COD-985-2002#art.329` l.4984 | HCC: HCC24/2019-10-17, alin. (1) si alin. (2) lit. b), text din articol | 1 (0) | `COD-985-2002#art.134^20` l.1573 |
 | `COD-985-2002#art.335` l.5079 | HCC: HCC24/2019-10-17, alin. (1^1), text din articol (+1) | 1 (0) | `COD-985-2002#art.55` l.732 |
 | `L-1543-1998#art.15^8` l.539 | in-force: introducere de la 2027-01-01 | 1 (0) | `L-1543-1998#art.15^4` l.498 |
-| `L-158-2008#art.32` l.581 | in-force: modificare de la 2026-09-13 | 1 (0) | `L-158-2008#art.64` l.1097 |
+| `L-158-2008#art.53` l.940 | HCC: HCC6/2016-03-03, lit.c), subunitate | 1 (0) | `L-158-2008#art.41` l.748 |
+| `L-514-1995#art.15` l.205 | HCC: HCC3/2012-02-09, al.(2), revigorare | 1 (0) | `L-514-1995#art.I` l.478 |
+| `L-64-2010#art.3` l.95 | HCC: HCC12/2013-06-04, al.(4^1), articol intreg | 1 (0) | `L-64-2010#art.4` l.107 |
 
-Stari atasate dispozitiilor, in total: 69 in-force, 72 HCC, 264 abrogat. 72 dintre ele au cel putin o citare intrata, 19 din alte acte.
+Stari atasate dispozitiilor, in total: 46 in-force, 92 HCC, 264 abrogat. 74 dintre ele au cel putin o citare intrata, 21 din alte acte.
 
-Acte care poarta hotariri HCC fara articol atribuit (orice citare din ele poate lovi textul anulat): `COD-116-2018` (1), `COD-154-2003` (2), `COD-174-2018` (1), `COD-443-2004` (5), `CONST-1994` (2), `L-1260-2002` (1), `L-135-2007` (1), `L-149-2012` (2), `L-158-2008` (1), `L-514-1995` (3), `L-548-1995` (2), `L-64-2010` (1), `L-845-1992` (3).
+Acte care poarta hotariri HCC fara articol atribuit (orice citare din ele poate lovi textul anulat): `CONST-1994` (2).
 
 ## Actele: ce citeaza si de cine sint citate
 

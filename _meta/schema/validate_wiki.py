@@ -18,6 +18,7 @@ blochează: lacune cunoscute, decizii încă neluate (D2 până la P9), praguri 
 
 import datetime as dt
 import hashlib
+import json
 import os
 import re
 import subprocess
@@ -102,6 +103,77 @@ def walk_md(folder):
     return sorted(out)
 
 
+ART_CITE = re.compile(
+    r"\b[Aa]rt(?:icolul)?\.?\s*(\d+(?:\^\d+)?)",
+)
+NECONST_RE = re.compile(r"neconstitu", re.IGNORECASE)
+
+
+def load_hcc_known():
+    """Instrument -> {articol (ca text, ex. '87', '23^2'): [HCC id, ...]} pentru cele
+    care au un articol cunoscut in _meta/hcc/hcc-register.json (D4 ii, 2026-09-15).
+
+    Doar dispozitiile cu articol cunoscut conteaza aici: cele fara articol nu pot fi
+    verificate impotriva unei citari, pentru ca nu se stie ce sa caute.
+    """
+    p = os.path.join(ROOT, "_meta", "hcc", "hcc-register.json")
+    if not os.path.exists(p):
+        return {}
+    try:
+        data = json.loads(open(p, encoding="utf-8").read())
+    except Exception:
+        return {}
+    out = {}
+    for a in data.get("acts", []):
+        known = defaultdict(list)
+        for m in a.get("markers", []):
+            if m.get("article"):
+                for h in m.get("hcc", []):
+                    known[m["article"]].append(h)
+        for r in a.get("recovered", []):
+            if r.get("article"):
+                known[r["article"]].append(r["hcc"])
+        if known:
+            out[a["instrument"]] = dict(known)
+    return out
+
+
+HCC_ID_RE = re.compile(r"\bHCC\s*\d+[\s/]", re.IGNORECASE)
+SECTION_SPLIT = re.compile(r"(?=^#{1,6}\s)", re.M)
+
+
+def check_hcc_citations(rp, base, body_text, hcc_known, rep):
+    """Avertizeaza cand o pagina de entitate citeaza, in afara oricarei sectiuni care
+    aminteste Curtea Constitutionala, un articol pe care registrul HCC il stie lovit
+    (D4 ii).
+
+    Scop restrans, deliberat: doar paginile entities/<INSTRUMENT>.md, unde pagina si
+    actul citat sint evident acelasi lucru. Paginile concepts/comparisons/queries pot
+    discuta mai multe acte in aceeasi fraza, iar o potrivire mecanica pe numar de
+    articol, fara sa se stie CARUI act ii apartine, ar da falsuri pozitive -- ramine
+    neacoperit, consemnat in log, nu ghicit aici.
+
+    Unitatea de verificare e SECTIUNEA (de la un titlu `#`..`######` la urmatorul), nu
+    paragraful: un tabel „Dispozitii declarate neconstitutionale” care numeste hotaririle
+    o singura data, in titlu, si apoi „abrogat”/„rescris” pe fiecare rind, e deja
+    documentat corect si nu trebuie sa repete cuvintul in fiecare celula.
+    """
+    known = hcc_known.get(base)
+    if not known:
+        return
+    for sec in SECTION_SPLIT.split(body_text):
+        if NECONST_RE.search(sec) or HCC_ID_RE.search(sec):
+            continue
+        for m in ART_CITE.finditer(sec):
+            art = m.group(1)
+            if art in known:
+                hccs = ", ".join(sorted(set(known[art])))
+                rep.warn("citation.hcc-unmarked",
+                         f"{rp}: cites art. {art} of `{base}` in a section that never "
+                         f"mentions the Constitutional Court; the HCC register knows it "
+                         f"struck ({hccs})")
+
+
 def main():
     show_all = "--all" in sys.argv
     do_hash = "--no-hash" not in sys.argv
@@ -121,6 +193,7 @@ def main():
     taxonomy = set()
     for group in spec["tags"].values():
         taxonomy.update(group)
+    hcc_known = load_hcc_known()
 
     # ------------------------------------------------------------------ name index for wikilinks
     names = {"structured": {}, "raw": {}, "root": {}}
@@ -224,6 +297,8 @@ def main():
                 elif "/" not in l and tgt.split("/")[0] in spec["wikilinks"]["path_only_targets"]:
                     rep.error("link.path-only", f"{rp} -> [[{l}]] resolves into `{tgt}`; use the explicit path")
             pages[rp] = {"type": ty, "perimeter": perim, "base": os.path.basename(rp)[:-3]}
+            if folder == "entities":
+                check_hcc_citations(rp, pages[rp]["base"], body_text, hcc_known, rep)
     stats["structured pages"] = len(pages)
 
     # ------------------------------------------------------------------ index.md

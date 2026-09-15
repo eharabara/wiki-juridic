@@ -1,7 +1,7 @@
 ---
 title: Registrul dispozitiilor care nu sint inca in vigoare
-generated: '2026-09-10T13:07:58'
-as_of: '2026-09-10'
+generated: '2026-09-15T23:02:28'
+as_of: '2026-09-15'
 type: summary
 tags: [moldova, legal-source, methodology, summary]
 confidence: high
@@ -12,7 +12,7 @@ generated_by: _meta/inforce/build_inforce_register.py
 
 **Fisier generat. Nu se editeaza manual.** Se reface rulind scriptul din frontmatter.
 
-Stare la 2026-09-10. 418 fisiere scanate. 73 dispozitii afectate in 12 act(e). 13 consolidare/consolidari cu data in viitor. 6 consolidare/consolidari viitoare neingerate, 10 dispozitii.
+Stare la 2026-09-15. 418 fisiere scanate. 49 dispozitii afectate in 10 act(e). 11 consolidare/consolidari cu data in viitor. 6 consolidare/consolidari viitoare neingerate, 10 dispozitii.
 
 ## Regula de citare
 
@@ -22,30 +22,6 @@ Inainte de a cita un articol, verifica daca apare in tabelul de mai jos. Daca ap
 
 | Act | Articol | Operatiune | Produce efecte de la | Act modificator | Stare astazi |
 |---|---|---|---|---|---|
-| COD-218-2008 | 313^2 | reformulare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| COD-218-2008 | 313^4 | reformulare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| COD-218-2008 | 313^5 | reformulare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| COD-218-2008 | 313^6 | reformulare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| COD-218-2008 | 330^2 | reformulare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| L-158-2008 | 4 | modificare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| L-158-2008 | 5 | reformulare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| L-158-2008 | 8 | modificare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| L-158-2008 | 12 | introducere | 2026-09-13 | LP154 din 30.07.26 | dispozitia nu se aplica |
-| L-158-2008 | 20 | reformulare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| L-158-2008 | 22 | modificare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| L-158-2008 | 24 | reformulare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| L-158-2008 | 25 | reformulare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| L-158-2008 | 27 | reformulare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| L-158-2008 | 30 | modificare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| L-158-2008 | 32 | modificare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| L-158-2008 | 38 | reformulare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| L-158-2008 | 42 | modificare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| L-158-2008 | 47 | reformulare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| L-158-2008 | 49 | modificare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| L-158-2008 | 56 | modificare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| L-158-2008 | 57 lit. h) | modificare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| L-158-2008 | 65^1 | modificare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
-| L-158-2008 | 393 | reformulare | 2026-09-13 | LP154 din 30.07.26 | se aplica textul anterior |
 | COD-122-2003 | 6 pct.8^1 | introducere | 2026-12-02 | LP172 din 30.07.26 | dispozitia nu se aplica |
 | COD-122-2003 | 74 | modificare | 2026-12-02 | LP172 din 30.07.26 | se aplica textul anterior |
 | COD-122-2003 | 138^1 | modificare | 2026-12-02 | LP172 din 30.07.26 | se aplica textul anterior |
@@ -104,14 +80,12 @@ Fisierul incorporeaza modificari care nu au intrat in vigoare. Arhiva indicata e
 |---|---|---|---|---|
 | COD-122-2003 | 2026-12-02 | da | - | `-` |
 | COD-154-2003 | 2027-01-01 | da | - | `-` |
-| COD-218-2008 | 2026-09-13 | da | - | `-` |
 | COD-443-2004 | 2026-12-02 | da | - | `-` |
 | COD-985-2002 | 2026-12-02 | da | - | `-` |
 | HG-743-2024 | 2026-12-30 | da | - | `-` |
 | L-1134-1997 | 2028-01-01 | da | 2022-01-10 | `_archive/raw/cnpf-legis-md-before-refresh-20260904-183240/L-1134-1997.md` |
 | L-114-2012 | 2027-01-01 | da | - | `-` |
 | L-1543-1998 | 2027-01-01 | da | - | `-` |
-| L-158-2008 | 2026-09-13 | da | - | `-` |
 | L-171-2012 | 2027-06-01 | da | 2021-01-01 | `_archive/raw/cnpf-legis-md-before-refresh-20260904-162713/L-171-2012.md` |
 | L-325-2025 | 2027-01-01 | da | - | `-` |
 | L-845-1992 | 2027-01-01 | da | - | `-` |
@@ -144,54 +118,6 @@ Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar
 
 ## Unde a fost gasit fiecare marcaj
 
-- **COD-218-2008 art. 313^2**, `raw/papers/moldova-legal/COD-218-2008.md`, liniile [296, 297, 298, 5172, 5175, 5178]
-  - [Art.313^2 al.(1) în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **COD-218-2008 art. 313^4**, `raw/papers/moldova-legal/COD-218-2008.md`, liniile [299, 5192]
-  - [Art.313^4 în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **COD-218-2008 art. 313^5**, `raw/papers/moldova-legal/COD-218-2008.md`, liniile [300, 5201]
-  - [Art.313^5 în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **COD-218-2008 art. 313^6**, `raw/papers/moldova-legal/COD-218-2008.md`, liniile [301, 5213]
-  - [Art.313^6 în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **COD-218-2008 art. 330^2**, `raw/papers/moldova-legal/COD-218-2008.md`, liniile [302, 5478]
-  - [Art.330^2 în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **L-158-2008 art. 4**, `raw/papers/moldova-legal/L-158-2008.md`, liniile [55, 213]
-  - [Art.4 al.(2) modificat prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **L-158-2008 art. 5**, `raw/papers/moldova-legal/L-158-2008.md`, liniile [56, 223]
-  - [Art.5 în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **L-158-2008 art. 8**, `raw/papers/moldova-legal/L-158-2008.md`, liniile [57, 58, 251, 262]
-  - [Art.8 al.(4), lit.b) modificată prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **L-158-2008 art. 12**, `raw/papers/moldova-legal/L-158-2008.md`, liniile [59, 323]
-  - [Art. 12 al.(5) introdus prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **L-158-2008 art. 20**, `raw/papers/moldova-legal/L-158-2008.md`, liniile [60, 61, 399, 401]
-  - [Art. 20 al.(4) în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **L-158-2008 art. 22**, `raw/papers/moldova-legal/L-158-2008.md`, liniile [62, 418]
-  - [Art. 22 al.(1), lit. f) modificată prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **L-158-2008 art. 24**, `raw/papers/moldova-legal/L-158-2008.md`, liniile [63, 440]
-  - [Art. 24 în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **L-158-2008 art. 25**, `raw/papers/moldova-legal/L-158-2008.md`, liniile [64, 467]
-  - [Art. 25 în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **L-158-2008 art. 27**, `raw/papers/moldova-legal/L-158-2008.md`, liniile [65, 66, 497, 499]
-  - [Art. 27 al.(2) în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **L-158-2008 art. 30**, `raw/papers/moldova-legal/L-158-2008.md`, liniile [67, 556]
-  - [Art. 30 al.(4^1) modificat prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **L-158-2008 art. 32**, `raw/papers/moldova-legal/L-158-2008.md`, liniile [68, 69, 583, 585]
-  - [Art. 32 al.(1) modificat prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **L-158-2008 art. 38**, `raw/papers/moldova-legal/L-158-2008.md`, liniile [70, 713]
-  - [Art. 38 al.(3) în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **L-158-2008 art. 42**, `raw/papers/moldova-legal/L-158-2008.md`, liniile [71, 72, 73, 74, 75, 761, 766, 776, 779, 781]
-  - [Art. 42 al.(4^1) modificat prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **L-158-2008 art. 47**, `raw/papers/moldova-legal/L-158-2008.md`, liniile [76, 77, 843, 847]
-  - [Art. 47 al.(1) în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **L-158-2008 art. 49**, `raw/papers/moldova-legal/L-158-2008.md`, liniile [78, 884]
-  - [Art. 49 al.(1) modificat prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **L-158-2008 art. 56**, `raw/papers/moldova-legal/L-158-2008.md`, liniile [79, 980]
-  - [Art. 56 modificat prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **L-158-2008 art. 57 lit. h)**, `raw/papers/moldova-legal/L-158-2008.md`, liniile [80, 992]
-  - [Art. 57 lit. h) modificată prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **L-158-2008 art. 65^1**, `raw/papers/moldova-legal/L-158-2008.md`, liniile [81, 82, 1111, 1116]
-  - [Art. 65^1 al.(1) modificat prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
-- **L-158-2008 art. 393**, `raw/papers/moldova-legal/L-158-2008.md`, liniile [54, 176]
-  - [Clauza de armonizare în redacția LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 13.09.26]
 - **COD-122-2003 art. 6 pct.8^1**, `raw/papers/moldova-legal/COD-122-2003.md`, liniile [147, 491]
   - [Art.6 pct.8^1) introdus prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]
 - **COD-122-2003 art. 74**, `raw/papers/moldova-legal/COD-122-2003.md`, liniile [148, 1507]
