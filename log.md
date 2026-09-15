@@ -561,3 +561,42 @@
   (linia 79 și căutare exhaustivă, citite, neatinse); `raw/papers/cnpf/L-1134-1997.md` (liniile
   173-179, 52, 81-85, 869-870, 1357-1378, citite, neatinse); `_meta/plans/2026-09-15-plan-pasul-6-acquis-aa.md`
   (D4, nivelul 2); commitul acestei intrări.
+
+## [2026-09-16] update | Pasul 6.5, nivelul 3 (D4): `acquis-ICSD`, `acquis-SFD`, `acquis-Takeover`, `acquis-Transparency`, `acquis-UCITS` dezghețate
+
+- **Aflat:** toate cinci ancorate, direct sau ocolit, în `L-171-2012`; verificate rapid datorită
+  blocului de autodeclarare găsit la nivelul 1 (liniile 124-137), care citează expres 97/9, 98/26,
+  2004/25, 2004/109 și 2009/65. Constatarea cea mai concretă a pasului: `acquis-ICSD`, art. 131
+  alin. (1) — Fondul de compensare a investitorilor acoperă azi **1.000 euro** per client, cînd
+  minimul armonizat al ICSD (art. 4(1), citit direct din `UE-97-9.md` liniile 108-109) e **20.000
+  euro** — un decalaj de 20x, pe un termen din Anexa XXVIII-A expirat de doi ani (`AA-2014`,
+  rîndul 26bis: „zece ani” pentru exact acest plafon, expirat 1 septembrie 2024). Excluderile de
+  compensare (art. 134) mapează totuși structural anexa I a directivei; termenul de plată (o lună)
+  e mai strict decît cel al directivei. `acquis-SFD`: cale de transpunere neașteptată — `L-234-2016`
+  declară (linia 83) transpunerea parțială a CSDR (Reg. 909/2014), nu a 98/26/CE direct, dar CSDR
+  însuși modifică 98/26 şi substanța (irevocabilitatea ordinelor, liniile 375 și 443; regulile de
+  insolvabilitate ale Depozitarului, liniile 463-465) apare deja transpusă pe acea cale. `acquis-
+  Takeover`: regim mult mai complet decît sugera statutul „de verificat” — oferta obligatorie (art.
+  21, prag 50%), prețul echitabil (art. 21-23), ofertele competitive (art. 22), squeeze-out (art. 30,
+  prag 90%) și sell-out (linia 807) toate găsite cu articol precis. `acquis-Transparency`: la fel —
+  raportarea periodică (art. 120, plus raportul semestrial la 2 luni, mai strict decît cele 3 luni
+  ale directivei) și notificarea deținerilor importante (art. 125, prag-listă aproape identică
+  structural directivei, cu opt situații de agregare a drepturilor de vot corespunzînd exact art. 10
+  lit. a)-h) directivă) sînt ambele prezente; doar ESEF (raportarea structurată) confirmat absent,
+  zero rezultate. `acquis-UCITS`: depozitarul are articol de răspundere propriu (art. 110), dar
+  formulat ca răspundere generală pentru culpă, nu ca standardul strict cu sarcina probei inversată
+  al OPCVM V (art. 24 directivă) — discrepanță semnalată, nu confirmată integral; nicio politică de
+  remunerare specifică managerilor de fonduri găsită (doar regimul corporativ general, comun cu
+  `acquis-CompanyLaw`). `REG-ICF`, citat ca ancoră pe `acquis-ICSD`, s-a dovedit o pagină-fantomă:
+  hotărârea CNPF proprie nu are număr identificat și nu e ținută ca sursă brută.
+- **Decis:** toate cinci ies din `unverified`/`confidence: low`, ridicate la `confidence: medium`,
+  `updated: 2026-09-16`, `AA-2014` adăugat la surse unde se aplică (nu pe `acquis-Takeover`, unde
+  instrumentul stă în afara Anexei XXVIII-A, ca la `acquis-CompanyLaw`). Constatările rămase
+  neconfirmate integral (standardul de răspundere al depozitarului OPCVM, derogările de la oferta
+  obligatorie) mutate explicit în „Întrebări deschise”, nu tăcute.
+- **Unde:** `concepts/acquis-ICSD.md`, `concepts/acquis-SFD.md`, `concepts/acquis-Takeover.md`,
+  `concepts/acquis-Transparency.md`, `concepts/acquis-UCITS.md`; `raw/papers/cnpf/L-171-2012.md`
+  (art. 21-31, 110-111, 120-125, 130-134, citite, neatinse); `raw/papers/cnpf/L-234-2016.md` (linia
+  83, 375, 443, 463-465, citite, neatinse); `raw/papers/cnpf/UE-97-9.md` (art. 4, citit); `entities/REG-ICF.md`
+  (citit, fantomă confirmată); `_meta/plans/2026-09-15-plan-pasul-6-acquis-aa.md` (D4, nivelul 3);
+  commitul acestei intrări.
