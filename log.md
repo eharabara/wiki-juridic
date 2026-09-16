@@ -664,3 +664,16 @@
   pași (6.1-6.6) sînt făcuți, consemnat în capul planului.
 - **Unde:** `comparisons/cnpf-transposition-matrix.md`; `_meta/plans/2026-09-15-plan-pasul-6-acquis-aa.md`
   (stare rescrisă la „executat integral”, tabelul pașilor 6.5-6.6); commitul acestei intrări.
+
+## [2026-09-16] update | Reîmprospătarea D9: registrul dosarelor verificat împotriva proiectului
+
+- **Aflat:** Eugen a lipit conținutul curent al `legal-career/06-matter-log.md` din proiectul
+  claude.ai „Legal Wiki”. Corpul e identic byte cu byte cu copia locală luată la 2026-09-10 —
+  `sha256_body` recalculat dă exact `9749803a952d...`, aceeași valoare din stampilă. Niciun dosar
+  nou (M-003 sau ulterior) nu a fost înregistrat în proiect din 2026-09-10 încoace; M-001 și M-002
+  rămân `live`.
+- **Decis:** fără înlocuire de corp, doar re-stampilare: `taken` și `stamped` ridicate la
+  2026-09-16 prin `python _meta/schema/stamp_copies.py --taken 2026-09-16`, ca verificarea de azi
+  să fie vizibilă separat de cea din 10 septembrie. Avertismentul `copy.stale` al validatorului
+  dispare.
+- **Unde:** `legal-career/06-matter-log.md` (frontmatter); commitul acestei intrări.
