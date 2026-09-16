@@ -67,6 +67,10 @@ LETTERS = "A-Za-z\u00c0-\u024f"
 # din vault, Codul fiscal linia 2309; tiparul fara `/` il trunchia la 54^1 si il suprapunea pe art. 54^1).
 ARTNUM = r"\d+(?:\^\d+)?(?:/\d+)?"
 ANCHOR_RE = re.compile(r"^## Articolul\s+(" + ARTNUM + r"|[IVXLC]+)\.?\s*(.*)$")
+# Forma veche "## Art.N. - text", gasita 2026-09-16 la L-1125-2002: ancora pastreaza textul
+# original al liniei, deci nu se potriveste cu ANCHOR_RE de mai sus. Aceleasi doua grupuri
+# (numar, restul liniei ca titlu), incercata cand ANCHOR_RE nu prinde nimic.
+ANCHOR_ABBR_RE = re.compile(r"^## Art\.\s*(" + ARTNUM + r")\.\s*[-–—]\s*(.*)$")
 
 # Data unui act: /AAAA, din ZZ luna AAAA, din ZZ.LL.AAAA. Grupurile: (an1, zi2, luna2, an2, zi3, luna3, an3).
 DATE_TAIL = (r"\s*(?:/\s*(\d{4})"
@@ -237,7 +241,7 @@ class Act:
         self.first_line = first_line  # linia din fisier a self.lines[0]
         self.anchors = []  # (index in self.lines, article, title)
         for i, line in enumerate(self.lines):
-            m = ANCHOR_RE.match(line)
+            m = ANCHOR_RE.match(line) or ANCHOR_ABBR_RE.match(line)
             if m:
                 self.anchors.append((i, m.group(1), m.group(2).strip()))
         self.anchor_set = {a for _, a, _ in self.anchors}

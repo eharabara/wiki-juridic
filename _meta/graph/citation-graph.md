@@ -1,6 +1,6 @@
 # Graful de citare al actelor detinute
 
-Generat 2026-09-16 15:12 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
+Generat 2026-09-16 15:37 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
 
 **Ce este.** Trimiterile dintre actele detinute, extrase mecanic din textul brut: fiecare muchie poarta fisierul si liniile din care a fost citita, si nicio muchie nu este dedusa. Graful nu se citeaza. El spune unde sa deschizi fisierul, iar ancora se citeste.
 
@@ -10,23 +10,23 @@ Generat 2026-09-16 15:12 de `_meta/graph/build_citation_graph.py`. Nu edita de m
 
 | | |
 |---|---:|
-| acte primare detinute (din care ancorate pe articole) | 92 (72) |
-| dispozitii (noduri-articol) | 11920 |
+| acte primare detinute (din care ancorate pe articole) | 92 (73) |
+| dispozitii (noduri-articol) | 11970 |
 | extrase UE detinute (noduri-tinta) | 32 |
 | acte citate si nedetinute (noduri externe) | 508 |
 | mentiuni de acte in text (din care ale actului insusi) | 3659 (296) |
-| muchii act -> act (agregate pe segment-sursa) | 2542 |
+| muchii act -> act (agregate pe segment-sursa) | 2570 |
 | trimiteri la articole citite (in grupuri de enumerare) | 8549 (7472) |
-|   rezolvate in actul curent | 6964 |
-|   rezolvate in alt act detinut | 1042 |
-|   nerezolvate: articolul nu are ancora in actul-tinta | 95 |
+|   rezolvate in actul curent | 6968 |
+|   rezolvate in alt act detinut | 1045 |
+|   nerezolvate: articolul nu are ancora in actul-tinta | 96 |
 |   catre acte nedetinute (notate pe muchia act -> act) | 389 |
-|   catre acte pe puncte (fara articole) | 41 |
+|   catre acte pe puncte (fara articole) | 33 |
 |   autoreferinte (articolul se citeaza pe sine), ignorate | 18 |
-| muchii articol -> articol (agregate) | 6572 |
-| muchii articol -> act nerezolvate (agregate) | 82 |
+| muchii articol -> articol (agregate) | 6578 |
+| muchii articol -> act nerezolvate (agregate) | 83 |
 
-Regula care a dat actul-tinta, pe trimiteri: din 1208, doua-puncte 46, intern 6781, modificare 57, paranteza 9. „intern” = niciun act in context, deci actul curent; „din” = `art. N ... din Legea X` sau `(art. N, M) Directiva X`; „paranteza” = `Legea X (art. N)`; „doua-puncte” = `din Codul X: art. N, M`; „modificare” = `Legea X se modifica dupa cum urmeaza: ... articolul N`. `din legea indicata` trimite la ultima lege numita in acelasi segment.
+Regula care a dat actul-tinta, pe trimiteri: din 1211, doua-puncte 46, intern 6786, modificare 57, paranteza 9. „intern” = niciun act in context, deci actul curent; „din” = `art. N ... din Legea X` sau `(art. N, M) Directiva X`; „paranteza” = `Legea X (art. N)`; „doua-puncte” = `din Codul X: art. N, M`; „modificare” = `Legea X se modifica dupa cum urmeaza: ... articolul N`. `din legea indicata` trimite la ultima lege numita in acelasi segment.
 
 Coduri citate si pe nume si pe numar, unite dupa textul care le scrie impreuna: COD-audiovizualului = COD-260-2006; COD-educatiei = COD-152-2014; COD-electoral = COD-325-2022; COD-familiei = COD-1316-2000; COD-jurisdictiei-constitutionale = COD-502-1995; COD-transporturilor-rutiere = COD-150-2014.
 
@@ -268,7 +268,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `AA-2014` | 11 | 44 | 0 | 4 | 0 | 18 | 64 |
 | `CC-1107-2002` | 2657 | 27 | 31 | 1017 | 5 | 1 | 25 |
 | `COD-116-2018` | 260 | 13 | 28 | 106 | 10 | 1 | 6 |
-| `COD-1163-1997` | 511 | 66 | 22 | 447 | 17 | 1 | 80 |
+| `COD-1163-1997` | 511 | 66 | 22 | 447 | 18 | 1 | 80 |
 | `COD-122-2003` | 658 | 27 | 12 | 471 | 219 | 2 | 30 |
 | `COD-154-2003` | 416 | 26 | 11 | 198 | 0 | 0 | 29 |
 | `COD-174-2018` | 98 | 18 | 4 | 71 | 4 | 0 | 21 |
@@ -304,7 +304,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-100-2017` | 79 | 18 | 7 | 12 | 7 | 0 | 17 |
 | `L-105-2003` | 75 | 21 | 5 | 76 | 8 | 0 | 26 |
 | `L-106-2022` | 45 | 10 | 2 | 32 | 1 | 0 | 7 |
-| `L-1125-2002` | 0 | 9 | 3 | 0 | 16 | 0 | 25 |
+| `L-1125-2002` | 50 | 9 | 3 | 4 | 16 | 1 | 25 |
 | `L-1134-1997` | 110 | 30 | 16 | 134 | 14 | 0 | 28 |
 | `L-114-2012` | 131 | 24 | 11 | 267 | 13 | 0 | 17 |
 | `L-122-2008` | 23 | 7 | 5 | 11 | 0 | 0 | 2 |
@@ -316,7 +316,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-139-2007` | 59 | 4 | 2 | 36 | 0 | 0 | 3 |
 | `L-148-2023` | 35 | 6 | 7 | 25 | 2 | 0 | 4 |
 | `L-149-2012` | 271 | 11 | 9 | 182 | 6 | 9 | 10 |
-| `L-1543-1998` | 99 | 19 | 3 | 29 | 4 | 0 | 11 |
+| `L-1543-1998` | 99 | 19 | 3 | 29 | 6 | 0 | 11 |
 | `L-158-2008` | 88 | 51 | 12 | 74 | 2 | 0 | 69 |
 | `L-160-2011` | 32 | 11 | 18 | 12 | 3 | 2 | 13 |
 | `L-160-2023` | 58 | 13 | 3 | 47 | 5 | 0 | 11 |
@@ -407,6 +407,7 @@ Articole citate care nu au ancora in actul-tinta, grupate pe tinta. Cauze cunosc
 | `COD-225-2003` | art. 48^15 | 1 | - | intern | `COD-225-2003#art.308^17` l.2789 | u controlul executării mandatului, în sensul art. 48^15 alin. (3), şi de către persoanele ale căror drepturi sunt afectate pr |
 | `COD-225-2003` | art. 581 | 1 | exponent turtit: art. 58^1 | din | `CC-1107-2002#art.113` l.952 | ori din oficiu. (3) În cazurile prevăzute la art. 581 din Codul de procedură civilă, curatorul special sau tutorele special |
 | `L-105-2003` | art. 201 | 1 | - | din | `COD-218-2008#art.273` l.4540 | locului de preschimbare a mărfii prevăzut la art. 201 din Legea nr. 105/2003 privind protecția consumatorilor, lipsa inform |
+| `L-1125-2002` | art. 1756 | 1 | - | intern | `L-1125-2002#art.45` l.268 | a) exceptarea prevăzută de art.1756 alin.(2) enunțul al doilea din Codul civil în redacția introdusă prin |
 | `L-131-2012` | art. 191 | 1 | exponent turtit: art. 19^1 | din | `L-160-2011#art.11^1` l.380 | permisiv în modul și termenele stabilite la art. 191 din Legea nr. 131/2012 privind controlul de stat asupra activităţii d |
 | `L-160-2011` | art. 62 | 1 | exponent turtit: art. 6^2 | intern | `L-160-2011#art.8` l.329 | fel de taxă. Prin derogare de la prevederile art. 62 alin. (2), duplicatul actului permisiv se consideră eliberat prin apr |
 | `L-160-2026` | art. 72 | 1 | - | intern | `L-160-2026#art.40` l.465 | o privesc încalcă prezenta lege. Prevederile art. 72 și 73, precum și ale cap. VIII secțiunea a 2-a din Legea nr. 195/2024 |
@@ -423,8 +424,7 @@ Articole citate care nu au ancora in actul-tinta, grupate pe tinta. Cauze cunosc
 | `L-548-1995` | art. 112 | 1 | exponent turtit: art. 11^2 | intern | `L-548-1995#art.11` l.299 | emise de Banca Națională se notifică conform art. 112. (3^2) - abrogat. (3^3) În cadrul avizării și consultării publice a p |
 | `L-548-1995` | art. 491 | 1 | exponent turtit: art. 49^1 | intern | `L-548-1995#art.75` l.982 | perceperea incontestabilă a amenzii conform art. 491 alin. (3) lit. f) în mărime de la 10 000 de lei la 600 000 de lei; d) |
 | `L-548-1995` | art. 494 | 1 | exponent turtit: art. 49^4 | intern | `L-548-1995#art.49^1` l.747 | ea acestora în vederea punerii în aplicare a art. 494 alin. (8) și art. 495 alin. (8); c) să adopte acte normative care stabilesc cerințe față de |
-| `L-548-1995` | art. 495 | 1 | exponent turtit: art. 49^5 | intern | `L-548-1995#art.49^1` l.747 | ea acestora în vederea punerii în aplicare a art. 494 alin. (8) și art. 495 alin. (8); c) să adopte acte normative care stabilesc cerințe față de |
-| … inca 5 grupuri, in JSON | | | | | | |
+| … inca 6 grupuri, in JSON | | | | | | |
 
 „Poate fi” este o ipoteza mecanica, nu o muchie: numarul citat, despartit in baza si exponent, da o ancora existenta. Se verifica in sursa inainte de a fi folosita.
 

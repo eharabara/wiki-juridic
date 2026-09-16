@@ -29,6 +29,12 @@ EU_PREFIX = "UE-"
 TREATY_PREFIX = "AA-"  # Acordul de Asociere, extrase (2026-09-15, pasul 6.3)
 
 ANCHOR_RE = re.compile(r"^## Articolul\s+(\d+)(?:\^(\d+))?", re.M)
+# Forma veche "Art.N. -", gasita 2026-09-16 la L-1125-2002 (republicata 2019, dar nenormalizata
+# de legis.md la "Articolul N."). Ancora pastreaza textul original al liniei ("## Art.N. - ..."),
+# deci ANCHOR_RE de mai sus nu o vede: fara aceasta a doua regula, coverage arata "declared N,
+# found 0" pentru orice act ancorat prin aceasta forma. Aceleasi doua grupuri (numar, exponent),
+# ca findall() sa produca tupluri compatibile cu ANCHOR_RE mai sus.
+ANCHOR_ABBR_RE = re.compile(r"^## Art\.\s*(\d+)(?:\^(\d+))?\.\s*[-–—]", re.M)
 # English-form anchors written by anchor_bnm_en.py on 2026-09-04; forbidden on translations (D2).
 ANCHOR_EN_RE = re.compile(r"^## Article\s+\d", re.M)
 # 2026-09-06: punctul dupa numeral nu este obligatoriu. CONST-1994 scrie `## Articolul I` fara
@@ -80,7 +86,7 @@ def scan_file(path, rel):
     text = read(path)
     fm = frontmatter(text)
     body = text.split("\n---", 1)[-1] if text.startswith("---") else text
-    anchors = ANCHOR_RE.findall(text)
+    anchors = ANCHOR_RE.findall(text) + ANCHOR_ABBR_RE.findall(text)
     roman = ROMAN_RE.findall(text)
     plain = [int(a) for a, s in anchors if not s]
     sup = [f"{a}^{s}" for a, s in anchors if s]

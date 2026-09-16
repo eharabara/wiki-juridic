@@ -94,6 +94,9 @@ ANEXA_IN_NOTE = re.compile(
 
 # Ancora de articol inserata la ancorare: "## Articolul 38." sau "## Articolul 141^1"
 ART_ANCHOR = re.compile(r"^##\s+Articolul\s+(\d+(?:\^\d+)?)", re.MULTILINE)
+# Forma veche "## Art.N. - text", gasita 2026-09-16 la L-1125-2002: ancora pastreaza textul
+# original al liniei, deci nu se potriveste cu ART_ANCHOR de mai sus.
+ART_ANCHOR_ABBR = re.compile(r"^##\s+Art\.\s*(\d+(?:\^\d+)?)\.\s*[-–—]", re.MULTILINE)
 
 # Actul modificator: LP162 din 30.07.26
 AMENDING_ACT = re.compile(r"\b(LP\d+|HG\d+|LC\d+)\s+din\s+(\d{1,2}\.\d{1,2}\.\d{2,4})")
@@ -175,8 +178,12 @@ def detect_operation(note: str) -> str:
 def preceding_article(text: str, pos: int, body_start: int) -> str | None:
     """Ultima ancora '## Articolul N.' inaintea pozitiei, in corp."""
     last = None
-    for m in ART_ANCHOR.finditer(text, body_start, pos):
-        last = m.group(1)
+    last_pos = -1
+    for pat in (ART_ANCHOR, ART_ANCHOR_ABBR):
+        for m in pat.finditer(text, body_start, pos):
+            if m.start() > last_pos:
+                last_pos = m.start()
+                last = m.group(1)
     return last
 
 

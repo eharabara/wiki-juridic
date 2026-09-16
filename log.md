@@ -1126,3 +1126,34 @@
   `L-9-2026.md`, `L-1125-2002.md`; `entities/` cu aceleași patru nume; `raw/papers/moldova-legal/_manifest.md`
   (secțiunea X); `index.md` (134 de pagini); `CLAUDE.md` (Open questions, item 9 nou); memoria de
   sesiune `legis-md-search-via-curl.md` (Cloudflare intermitent, chiar și în Chrome-ul lui Eugen).
+
+## [2026-09-16] update | Ancora „Art.N. -" nu era recunoscută de celelalte trei scripturi mecanice
+
+- **Aflat:** intrarea anterioară a corectat `ingest_business_law.py` să recunoască forma veche
+  „Art.N. -" ca ancoră de articol, dar regenerarea blocului de acoperire din `CLAUDE.md` a arătat
+  imediat că defectul nu era izolat: `_meta/coverage/build_coverage.py` a raportat
+  `L-1125-2002` ca „declared 50, found 0" — propriul lui `ANCHOR_RE` cunoaște doar forma
+  „## Articolul N.", nu și „## Art.N. - text", pe care ancorarea o păstrează neschimbată (regula
+  wiki-ului: ancora reia linia sursă așa cum este, nu o rescrie la forma modernă). Verificat, nu
+  presupus: aceeași limitare există separat în `_meta/graph/build_citation_graph.py` (ANCHOR_RE
+  propriu, folosit per-linie) și în `_meta/inforce/build_inforce_register.py` (ART_ANCHOR propriu,
+  folosit ca să atribuie o dispoziție amânată articolului precedent) — trei regexuri independente,
+  fiecare scris separat pentru propriul script, niciunul actualizat când s-a adăugat forma nouă.
+- **Decis:** adăugată câte o a doua regulă de recunoaștere („Art.N. -"/„–"/„—", cu aceleași grupuri
+  de captură ca regula existentă) în toate trei scripturile, combinată cu cea veche la punctul de
+  folosire, fără să se atingă `ANCHOR_RE`/`ART_ANCHOR` originale — risc minim, niciun fișier deja
+  ancorat cu „Articolul" nu poate ajunge să se potrivească dublu cu noua regulă. Regenerare
+  completă după corecție: `L-1125-2002` iese „clean" în tabelul de acoperire (50/50), graful de
+  citare crește de la 11920 la 11970 de dispoziții (cele 50 de articole reale, în loc de „#corp"
+  nesegmentat) și de la 82 la 83 de trimiteri nerezolvate — singura nouă, `L-1125-2002#art.45` spre
+  „art.1756", verificată imediat: e același bug sistematic de rezolvare deja documentat la punctul
+  8 (actul țintă, „Codul civil", numit mai târziu în frază, nu lângă „art. N"), iar `CC-1107-2002`
+  chiar are un art. 1756 („Contul fiduciar") care se potrivește exact contextului. Nu e un gol nou,
+  doar unul nou vizibil, fiindcă înainte tot actul era un singur segment `#corp` fără ancore.
+  Validator: 0 erori, 156 avertismente, neschimbat.
+- **Unde:** `_meta/coverage/build_coverage.py` (ANCHOR_ABBR_RE nou, combinat în `scan_file`);
+  `_meta/graph/build_citation_graph.py` (ANCHOR_ABBR_RE nou, combinat în bucla `Act.__init__`);
+  `_meta/inforce/build_inforce_register.py` (ART_ANCHOR_ABBR nou, combinat în `preceding_article`);
+  `entities/L-1125-2002.md` (secțiune nouă despre trimiterea „nerezolvată" explicată); registrele
+  regenerate (`_meta/graph/citation-graph.md/.json`, `_meta/inforce/in-force-register.md/.json`,
+  `_meta/hcc/hcc-register.md`, blocul de acoperire din `CLAUDE.md`).
