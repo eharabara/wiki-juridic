@@ -697,3 +697,21 @@
 - **Unde:** `raw/papers/cnpf/_manifest.md`, secțiunea F (nota din 2026-09-16); surse citite, nu
   atinse: EUR-Lex CELEX `02009L0138-20270130` și `32025L0002` (art. 4, 5); commitul acestei
   intrări.
+
+## [2026-09-16] update | Cele două referințe nerezolvate ale COD-225-2003 din graf, verificate: nicio lacună reală
+
+- **Aflat:** graful de citare semnalează două „nerezolvate" care ating procedura civilă. (1)
+  `COD-225-2003#art.308^17`, l.2780: fraza numește „art. 48^21 şi 48^27 din Codul civil" la
+  început și „în sensul art. 48^15 alin. (3)" mai departe, tot despre mandatul de ocrotire în
+  viitor — o instituție exclusiv a Codului civil (art. 48^1-48^40 CC). Calificativul „din Codul
+  civil" nu ajunge pînă la a doua trimitere în regulile de context ale grafului, care a atribuit-o
+  greșit actului curent, unde nu există art. 48^15. (2) `CC-1107-2002#art.113`, l.943, citează
+  „art. 581 din Codul de procedură civilă": indiciul mecanic al grafului („exponent turtit: art.
+  58^1") s-a confirmat direct în sursă — `COD-225-2003` linia 697 poartă `Articolul 58^1.
+  Capacitatea de exerciţiu al drepturilor`, ancorat.
+- **Decis:** nimic de scris în `raw/`, imuabil oricum. Ambele intră în categoria documentată în
+  graf, „Ce nu face acest graf" — limită mecanică, nu defect de corpus. Nu se cere nicio acțiune
+  la o reingerare viitoare a Codului civil sau a procedurii civile.
+- **Unde:** `raw/papers/moldova-legal/COD-225-2003.md` (liniile 687-697, 2780, citite, neatinse);
+  `_meta/graph/citation-graph.md` (secțiunea „Dispoziții cu stare specială"); commitul acestei
+  intrări.
