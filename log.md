@@ -677,3 +677,23 @@
   să fie vizibilă separat de cea din 10 septembrie. Avertismentul `copy.stale` al validatorului
   dispare.
 - **Unde:** `legal-career/06-matter-log.md` (frontmatter); commitul acestei intrări.
+
+## [2026-09-16] update | Verificarea consolidării Solvency II, sursă citită direct pe EUR-Lex
+
+- **Aflat:** pasul 6.4 semnalase doar mecanic, din `discover_latest_celex.py`, că
+  `02009L0138-20270130` există lîngă cea ținută (`-20250117`), fără să deschidă sursa. Deschisă
+  azi: pagina `-20270130` poartă chiar ea linkul „Access current version (17/01/2025)", deci
+  EUR-Lex confirmă din interior, nu doar prin data din CELEX, că textul în vigoare azi e cel
+  ținut. Amendamentul e Directiva (UE) 2025/2 (Solvency II 2025 review, marcaj `M13`, 199
+  apariții în text). Art. 4 din 2025/2, citit direct (CELEX `32025L0002`): o singură dată pentru
+  tot actul — statele membre transpun pînă la 29.01.2027, aplică de la 30.01.2027, fără eșalonare
+  pe articole. Verificare articol cu articol a celor opt articole-cheie din extractul ținut: patru
+  sînt modificate de M13 (art. 2, 13, 30, 41), patru nu (art. 1, 14, 27, 100).
+- **Decis:** nimic din `raw/` nu se schimbă — data ținută rămîne corectă pînă la 30.01.2027.
+  Constatarea intră în manifest ca notă datată, cu lista celor patru articole afectate, ca o
+  citare viitoare din art. 2, 13, 30 sau 41 să poată fi recunoscută ca expirînd la acea dată, spre
+  deosebire de art. 1, 14, 27, 100, neafectate. Reingerarea `-20270130` e programată pentru după
+  30.01.2027, nu înainte.
+- **Unde:** `raw/papers/cnpf/_manifest.md`, secțiunea F (nota din 2026-09-16); surse citite, nu
+  atinse: EUR-Lex CELEX `02009L0138-20270130` și `32025L0002` (art. 4, 5); commitul acestei
+  intrări.

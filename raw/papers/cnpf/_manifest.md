@@ -110,6 +110,20 @@ Ingestie EUR-Lex RO efectuată la **2026-07-09**. Toate fișierele sunt **extrac
 > bază, consolidarea distinctă există doar pe pagina web a actului, nu în RDF-ul Cellar pe care-l
 > citește scriptul) rămâne valabilă neschimbată. Nimic din `raw/` s-a atins la această verificare;
 > ieșirea brută e în `_meta/imports/cnpf/latest-celex.json` (rescris cu rularea de azi).
+>
+> **Verificat direct pe EUR-Lex 2026-09-16, cu sursa citită, nu doar cu scriptul.** Pagina
+> `02009L0138-20270130` poartă chiar ea linkul „Access current version (17/01/2025)" — EUR-Lex
+> confirmă din interior că textul azi în vigoare e cel ținut, nu cel din 2027. Amendamentul care
+> produce consolidarea viitoare e Directiva (UE) 2025/2 („Solvency II 2025 review"), 199 marcaje
+> `M13` în text; art. 4 din 2025/2 (citit direct, CELEX `32025L0002`) fixează o singură dată
+> pentru tot actul, fără eșalonare pe articole: statele membre adoptă și publică până la
+> **29.01.2027**, aplică de la **30.01.2027**. Din cele opt articole-cheie ținute în extract, patru
+> sînt modificate de M13 — **art. 2 (domeniul de aplicare), art. 13 (definiții), art. 30
+> (autoritățile și sfera supravegherii), art. 41 (guvernanță)** — și patru nu — art. 1, 14, 27,
+> 100. Practic: o citare azi din oricare din cele patru articole modificate rămâne corectă doar
+> pînă la 30.01.2027; după acea dată textul ținut (2025-01-17) devine învechit exact pe acele
+> patru articole, nu pe toate opt. De reingerat `UE-2009-138` cu consolidarea `-20270130` după
+> acea dată, nu înainte.
 
 ## G. Acquis UE — domenii conexe CNPF/BNM (EUR-Lex RO)
 
