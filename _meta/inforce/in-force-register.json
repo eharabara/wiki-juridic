@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-16T10:40:06",
+  "generated": "2026-09-16T13:46:59",
   "as_of": "2026-09-16",
-  "files_scanned": 420,
+  "files_scanned": 423,
   "provisions_not_yet_in_force": [
     {
       "file": "raw/papers/moldova-legal/COD-122-2003.md",
@@ -15,8 +15,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.6 pct.8^1) introdus prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        147,
-        491
+        156,
+        500
       ],
       "occurrences": 2
     },
@@ -32,8 +32,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.74 al.(1), pct.5) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        148,
-        1507
+        157,
+        1516
       ],
       "occurrences": 2
     },
@@ -49,8 +49,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.138^1 al.(2) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        149,
-        2378
+        158,
+        2387
       ],
       "occurrences": 2
     },
@@ -66,8 +66,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.138^3 al.(2) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        150,
-        2399
+        159,
+        2408
       ],
       "occurrences": 2
     },
@@ -83,8 +83,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.138^4 al.(4) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        151,
-        2416
+        160,
+        2425
       ],
       "occurrences": 2
     },
@@ -100,8 +100,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.138^5 al.(3) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        152,
-        2423
+        161,
+        2432
       ],
       "occurrences": 2
     },
@@ -117,12 +117,12 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.177 al.(2^1) introdus prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        153,
-        154,
-        155,
-        2887,
+        162,
+        163,
+        164,
         2896,
-        2901
+        2905,
+        2910
       ],
       "occurrences": 6
     },
@@ -138,8 +138,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.178 al.(1) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        156,
-        2907
+        165,
+        2916
       ],
       "occurrences": 2
     },
@@ -155,8 +155,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.179 al.(3) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        157,
-        2918
+        166,
+        2927
       ],
       "occurrences": 2
     },
@@ -172,8 +172,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.180 al.(2) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        158,
-        2924
+        167,
+        2933
       ],
       "occurrences": 2
     },
@@ -189,10 +189,10 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.191 al.(1) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        159,
-        160,
-        3067,
-        3079
+        168,
+        169,
+        3076,
+        3088
       ],
       "occurrences": 4
     },
@@ -208,8 +208,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.192^1 al.(1) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        161,
-        3097
+        170,
+        3106
       ],
       "occurrences": 2
     },
@@ -225,8 +225,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.205 al.(6) introdus prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        162,
-        3245
+        171,
+        3254
       ],
       "occurrences": 2
     },
@@ -242,8 +242,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.241^1 introdus prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        163,
-        3663
+        172,
+        3672
       ],
       "occurrences": 2
     },
@@ -259,8 +259,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.287^1 al.(2) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        164,
-        4181
+        173,
+        4190
       ],
       "occurrences": 2
     },
@@ -276,8 +276,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.288 al.(2) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        165,
-        4199
+        174,
+        4208
       ],
       "occurrences": 2
     },
@@ -293,10 +293,10 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.308 al.(7) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        166,
-        167,
-        4410,
-        4426
+        175,
+        176,
+        4419,
+        4435
       ],
       "occurrences": 4
     },
@@ -312,8 +312,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.310 al.(4) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        168,
-        4441
+        177,
+        4450
       ],
       "occurrences": 2
     },
@@ -329,8 +329,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.321 al.(5) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        169,
-        4556
+        178,
+        4565
       ],
       "occurrences": 2
     },
@@ -346,8 +346,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.385 al.(1), pct.17) introdus prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        170,
-        5063
+        179,
+        5072
       ],
       "occurrences": 2
     },
@@ -363,8 +363,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.389 al.(5^1) introdus prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        171,
-        5098
+        180,
+        5107
       ],
       "occurrences": 2
     },
@@ -380,8 +380,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.471 al.(7^1) introdus prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        172,
-        5762
+        181,
+        5771
       ],
       "occurrences": 2
     },
@@ -397,8 +397,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.174^1 introdus prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        78,
-        1865
+        87,
+        1874
       ],
       "occurrences": 2
     },
@@ -414,8 +414,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.196 al.(5) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        79,
-        2063
+        88,
+        2072
       ],
       "occurrences": 2
     },
@@ -431,8 +431,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.204 al.(8) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        80,
-        2142
+        89,
+        2151
       ],
       "occurrences": 2
     },
@@ -448,8 +448,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.263 al.(2) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        81,
-        2797
+        90,
+        2806
       ],
       "occurrences": 2
     },
@@ -465,8 +465,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.269 al.(2) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        82,
-        2844
+        91,
+        2853
       ],
       "occurrences": 2
     },
@@ -482,8 +482,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.271 al.(4) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        83,
-        2855
+        92,
+        2864
       ],
       "occurrences": 2
     },
@@ -499,8 +499,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.290 al.(2) în redacția LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        84,
-        3030
+        93,
+        3039
       ],
       "occurrences": 2
     },
@@ -516,8 +516,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.296 al.(3) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        85,
-        3109
+        94,
+        3118
       ],
       "occurrences": 2
     },
@@ -533,12 +533,12 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.301 al.(1) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        86,
-        87,
-        88,
-        3129,
-        3132,
-        3134
+        95,
+        96,
+        97,
+        3138,
+        3141,
+        3143
       ],
       "occurrences": 6
     },
@@ -554,8 +554,8 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.312 al.(2) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        89,
-        3241
+        98,
+        3250
       ],
       "occurrences": 2
     },
@@ -571,10 +571,10 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.72 al.(2) modificat prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        217,
-        218,
-        885,
-        887
+        226,
+        227,
+        894,
+        896
       ],
       "occurrences": 4
     },
@@ -590,14 +590,14 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.317 denumirea modificată prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        219,
-        220,
-        221,
-        222,
-        4792,
-        4795,
-        4802,
-        4804
+        228,
+        229,
+        230,
+        231,
+        4801,
+        4804,
+        4811,
+        4813
       ],
       "occurrences": 8
     },
@@ -613,19 +613,36 @@
       "official_gazette": "MO410-412/02.09.26",
       "context": "[Art.319 denumirea modificată prin LP172 din 30.07.26, MO410-412/02.09.26 art. 444; în vigoare 02.12.26]",
       "lines": [
-        223,
-        224,
-        4815,
-        4817
+        232,
+        233,
+        4824,
+        4826
       ],
       "occurrences": 4
     },
     {
       "file": "raw/papers/moldova-legal/HG-743-2024.md",
       "instrument": "HG-743-2024",
-      "article": "355",
+      "article": "9",
       "subunit": "",
-      "scope": "articol",
+      "scope": "anexa",
+      "effective_from": "2026-12-30",
+      "operation": "introducere",
+      "amending_act": "HG341 din 24.06.26",
+      "official_gazette": "MO284-287/30.06.26 art.355",
+      "context": "[Anexa nr.9 introdusă prin HG341 din 24.06.26, MO284-287/30.06.26 art.355; în vigoare 30.12.26]",
+      "lines": [
+        45,
+        862
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/HG-743-2024.md",
+      "instrument": "HG-743-2024",
+      "article": "33",
+      "subunit": "subpct.33.3.",
+      "scope": "punct",
       "effective_from": "2026-12-30",
       "operation": "reformulare",
       "amending_act": "HG341 din 24.06.26",
@@ -633,19 +650,77 @@
       "context": "[Pct.33 subpct.33.3. în redacția HG341 din 24.06.26, MO284-287/30.06.26 art.355; în vigoare 30.12.26]",
       "lines": [
         40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        612,
-        649,
-        682,
-        736,
-        852,
-        862
+        612
       ],
-      "occurrences": 12
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/HG-743-2024.md",
+      "instrument": "HG-743-2024",
+      "article": "50",
+      "subunit": "",
+      "scope": "punct",
+      "effective_from": "2026-12-30",
+      "operation": "reformulare",
+      "amending_act": "HG341 din 24.06.26",
+      "official_gazette": "MO284-287/30.06.26 art.355",
+      "context": "[Pct.50 în redacția HG341 din 24.06.26, MO284-287/30.06.26 art.355; în vigoare 30.12.26]",
+      "lines": [
+        41,
+        649
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/HG-743-2024.md",
+      "instrument": "HG-743-2024",
+      "article": "61",
+      "subunit": "subpct.61.6",
+      "scope": "punct",
+      "effective_from": "2026-12-30",
+      "operation": "reformulare",
+      "amending_act": "HG341 din 24.06.26",
+      "official_gazette": "MO284-287/30.06.26 art.355",
+      "context": "[Pct.61 subpct.61.6 în redacția HG341 din 24.06.26, MO284-287/30.06.26 art.355; în vigoare 30.12.26]",
+      "lines": [
+        42,
+        682
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/HG-743-2024.md",
+      "instrument": "HG-743-2024",
+      "article": "82",
+      "subunit": "",
+      "scope": "punct",
+      "effective_from": "2026-12-30",
+      "operation": "reformulare",
+      "amending_act": "HG341 din 24.06.26",
+      "official_gazette": "MO284-287/30.06.26 art.355",
+      "context": "[Pct.82 în redacția HG341 din 24.06.26, MO284-287/30.06.26 art.355; în vigoare 30.12.26]",
+      "lines": [
+        43,
+        736
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/HG-743-2024.md",
+      "instrument": "HG-743-2024",
+      "article": "115",
+      "subunit": "",
+      "scope": "punct",
+      "effective_from": "2026-12-30",
+      "operation": "introducere",
+      "amending_act": "HG341 din 24.06.26",
+      "official_gazette": "MO284-287/30.06.26 art.355",
+      "context": "[Pct.115 introdus prin HG341 din 24.06.26, MO284-287/30.06.26 art.355; în vigoare 30.12.26]",
+      "lines": [
+        44,
+        852
+      ],
+      "occurrences": 2
     },
     {
       "file": "raw/papers/moldova-legal/COD-154-2003.md",
@@ -659,8 +734,8 @@
       "official_gazette": "MO375-378/13.08.26 art.393",
       "context": "[Art.46 al.(4^1) introdus prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 01.01.27]",
       "lines": [
-        91,
-        796
+        100,
+        805
       ],
       "occurrences": 2
     },
@@ -676,8 +751,8 @@
       "official_gazette": "MO305-308/14.07.26 art.324",
       "context": "[Art.103^1 al.(4), lit.h) introdusă prin LP128 din 02.07.26, MO305-308/14.07.26 art.324; în vigoare 01.01.27]",
       "lines": [
-        63,
-        1548
+        72,
+        1557
       ],
       "occurrences": 2
     },
@@ -693,8 +768,8 @@
       "official_gazette": "MO409-412/31.07.25 art.549",
       "context": "[Art.15^3 introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]",
       "lines": [
-        77,
-        471
+        86,
+        480
       ],
       "occurrences": 2
     },
@@ -710,8 +785,8 @@
       "official_gazette": "MO409-412/31.07.25 art.549",
       "context": "[Art.15^4 introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]",
       "lines": [
-        78,
-        502
+        87,
+        511
       ],
       "occurrences": 2
     },
@@ -727,8 +802,8 @@
       "official_gazette": "MO409-412/31.07.25 art.549",
       "context": "[Art.15^5 introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]",
       "lines": [
-        79,
-        525
+        88,
+        534
       ],
       "occurrences": 2
     },
@@ -744,8 +819,8 @@
       "official_gazette": "MO409-412/31.07.25 art.549",
       "context": "[Art.15^6introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]",
       "lines": [
-        80,
-        531
+        89,
+        540
       ],
       "occurrences": 2
     },
@@ -761,8 +836,8 @@
       "official_gazette": "MO409-412/31.07.25 art.549",
       "context": "[Art.15^7 introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]",
       "lines": [
-        81,
-        537
+        90,
+        546
       ],
       "occurrences": 2
     },
@@ -778,8 +853,8 @@
       "official_gazette": "MO409-412/31.07.25 art.549",
       "context": "[Art.15^8 introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]",
       "lines": [
-        82,
-        563
+        91,
+        572
       ],
       "occurrences": 2
     },
@@ -795,8 +870,8 @@
       "official_gazette": "MO386-389/21.08.26 art.412",
       "context": "[Art.36^1 pct.4, lit.l) introdusă prin LP171 din 30.07.26, MO386-389/21.08.26 art.412; în vigoare 01.01.27]",
       "lines": [
-        51,
-        588
+        60,
+        597
       ],
       "occurrences": 2
     },
@@ -812,8 +887,8 @@
       "official_gazette": "MO390-393/25.08.26 art.416",
       "context": "[Art.38 abrogat prin LP162 din 30.07.26, MO390-393/25.08.26 art.416; în vigoare 01.06.27]",
       "lines": [
-        63,
-        955
+        72,
+        964
       ],
       "occurrences": 2
     },
@@ -829,8 +904,8 @@
       "official_gazette": "MO390-393/25.08.26 art.416",
       "context": "[Art.141^1 abrogat prin LP162 din 30.07.26, MO390-393/25.08.26 art.416; în vigoare 01.06.27]",
       "lines": [
-        64,
-        2486
+        73,
+        2495
       ],
       "occurrences": 2
     },
@@ -846,9 +921,9 @@
       "official_gazette": "MO238-241/11.06.26 art.242",
       "context": "[Art. 73^3 introdus prin LP92 din 28.05.26, MO238-241/11.06.26 art.242; în vigoare 01.01.28]",
       "lines": [
-        55,
-        63,
-        1454
+        64,
+        72,
+        1463
       ],
       "occurrences": 3
     },
@@ -864,9 +939,9 @@
       "official_gazette": "MO238-241/11.06.26 art.242",
       "context": "[Art. 73^4 introdus prin LP92 din 28.05.26, MO238-241/11.06.26 art.242; în vigoare 01.01.28]",
       "lines": [
-        56,
-        64,
-        1464
+        65,
+        73,
+        1473
       ],
       "occurrences": 3
     }
@@ -1123,7 +1198,7 @@
     }
   ],
   "counts": {
-    "provisions": 49,
+    "provisions": 54,
     "acts": 10,
     "future_consolidations": 11,
     "pending_consolidations": 6,

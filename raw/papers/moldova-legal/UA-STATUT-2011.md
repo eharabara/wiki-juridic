@@ -2,7 +2,7 @@
 source_url: https://www.legis.md/cautare/getResults?doc_id=134919&lang=ro
 showdetails_url: https://www.legis.md/cautare/showdetails/134919
 ingested: '2026-09-06'
-sha256: 1d20b63f089c9d9ed7bb0ee022ed89af28013b955b3a59c49694ea2134a0e5ba
+sha256: 5e44ea107097ee12ef9d542b85208d0ca4428a45d5feb48505b23ec4266cc9cb
 source_type: legal-text
 publisher: legis.md / Ministerul Justiției al Republicii Moldova
 language: ro
@@ -20,6 +20,15 @@ superscript_articles:
 - 52^1
 - 52^2
 - 53^1
+sha256_pre_title_unwrap: 1d20b63f089c9d9ed7bb0ee022ed89af28013b955b3a59c49694ea2134a0e5ba
+title_unwrap_date: '2026-09-16'
+title_unwrap_count: 12
+title_unwrap_convention: >-
+  Heading text only: '## Articolul N.' lines whose title was cut by a
+  hard line-wrap at ingestion had the wrapped tail joined back in.
+  The tail line(s) below stay in the body untouched. Strip every line
+  starting with '#' from both this and the pre-unwrap copy to prove
+  nothing else moved.
 ---
 
 # raw/UA-STATUT-2011 — text legis.md consolidat/curent
@@ -93,7 +102,7 @@ h) principiul apartenenţei benevole la asociaţiile profesionale de avocaţi.
 (4) Avocaţii din Republica Moldova sînt în drept să efectueze delegaţii sau să exercite profesia de avocat în alte state, dacă acest fapt este prevăzut de legislaţia statului respectiv.
 (5) Prin asistare şi reprezentare a clientului se va înţelege accesul la toate actele, mijloacele şi operaţiunile permise de Lege şi necesare apărării intereselor clientului.
 
-## Articolul 5. Exercitarea profesiei de avocat de către
+## Articolul 5. Exercitarea profesiei de avocat de către avocaţii din alte state
 avocaţii din alte state
 (1) Avocaţii din alte state pot exercita profesia de avocat pe teritoriul Republicii Moldova dacă întrunesc condiţiile prevăzute de Lege, cu excepţia condiţiei privind deţinerea cetăţeniei.
 (2) Avocatul din alt stat îşi poate desfăşura activitatea profesională pe teritoriul Republicii Moldova dacă certifică calitatea de avocat în statul său de origine şi este înscris în Registrul special ţinut de Consiliul Uniunii Avocaţilor din Republica Moldova.
@@ -101,7 +110,7 @@ avocaţii din alte state
 (4) Avocatul din alt stat îşi poate desfăşura activitatea în cadrul cabinetului avocatului sau în cadrul biroului asociat de avocaţi în bază de contract. În cauze penale şi contravenţionale, avocatul străin urmează a fi asistat de un avocat din Republica Moldova.
 (5) Registrul avocaţilor din alte state care au dreptul să exercite profesia de avocat pe teritoriul Republicii Moldova se publică pe pagina oficială de Internet a Uniunii Avocaţilor.
 
-## Articolul 6. Forma şi conţinutul contractului de asistenţă
+## Articolul 6. Forma şi conţinutul contractului de asistenţă juridică
 juridică
 (1) Contractul de asistenţă juridică este încheiat în formă scrisă. El trebuie să îndeplinească toate condiţiile prevăzute de Lege prin care acesta dobîndeşte putere juridică şi este înregistrat la cabinetul avocatului sau la biroul asociat de avocaţi.
 (2) Contractul de asistenţă juridică trebuie să cuprindă în mod obligatoriu:
@@ -174,7 +183,7 @@ g) orice altă activitate recunoscută de organele profesiei.
 (1) Dreptul de a desfăşura activitatea de avocat i se conferă, prin licenţă, doar persoanei care a susţinut examenul de calificare, s-a încadrat într-o formă de exercitare a profesiei şi a depus jurămîntul.
 (2) Persoana care nu îndeplineşte condiţiile din punctul (1) al acestui articol nu are dreptul să fie înscrisă în Lista avocaţilor care au dreptul de a exercita profesia de avocat.
 
-## Articolul 15. Suspendarea și reluarea activității de avocat.
+## Articolul 15. Suspendarea și reluarea activității de avocat. Suspendarea și reluarea activității de avocat se efectuează în condițiile art. 15 din Lege.
 Suspendarea și reluarea activității de avocat se efectuează în condițiile art. 15 din Lege.
 
 ## Articolul 16. Încetarea activităţii de avocat
@@ -232,7 +241,7 @@ e) încălcarea cerinţelor prezentului Statut.
 ## Capitolul III
 ADMITEREA ÎN PROFESIA DE AVOCAT
 
-## Articolul 21. Condiţiile de admitere la examenul
+## Articolul 21. Condiţiile de admitere la examenul de stagiu profesional
 de stagiu profesional
 (1) Poate fi admis la examenul de stagiu profesional cetăţeanul Republicii Moldova, licenţiat în drept, cu capacitate deplină de exerciţiu şi care nu se află în stare de incompatibilitate cu cerinţele impuse profesiei.
 (2) Cererile de înscriere la examenul de stagiu profesional se adresează Comisiei de licenţiere a Uniunii Avocaţilor din Republica Moldova. La cerere se anexează:
@@ -247,7 +256,7 @@ h) avizul avocatului care acceptă să-i fie îndrumător.
 (3) Comisia de licenţiere a profesiei de avocat organizează examenele de admitere în lunile martie-mai (sesiunea de primăvară) şi în lunile septembrie-noiembrie (sesiunea de toamnă). În caz de necesitate, Comisia de licenţiere poate organiza examene şi în alte perioade. Şedinţele Comisiei de licenţiere sînt deliberative dacă participă cel puţin 2/3 din numărul membrilor.
 (4) Hotărîrea privind admiterea la examenul de stagiu profesional se adoptă de Comisia de licenţiere şi se comunică candidatului, invitîndu-l să susţină examenul de admitere la stagiu.
 
-## Articolul 22. Modul de organizare a examenului
+## Articolul 22. Modul de organizare a examenului de admitere la stagiul profesional
 de admitere la stagiul profesional
 (1) După depunerea setului de acte, secretarul Comisiei de licenţiere verifică actele prezentate şi înregistrează candidatul într-un registru special.
 (2) Actele prezentate de candidat sînt cusute într-un dosar, căruia i se atribuie numărul respectiv din registrul de înregistrare a candidaţilor.
@@ -272,7 +281,7 @@ de admitere la stagiul profesional
 (5) Suspendarea stagiului profesional se constată de către Consiliul Uniunii Avocaților, care determină împrejurările ce justifică suspendarea.
 (6) După expirarea a 2 ani de la finalizarea stagiului profesional, persoana poate participa la examenul de calificare doar cu condiția efectuării repetate a stagiului profesional cu o durată minimă de 6 luni, fiind scutită de susținerea examenului de admitere la stagiu.
 
-## Articolul 25. Drepturile şi obligaţiile avocatului
+## Articolul 25. Drepturile şi obligaţiile avocatului îndrumător faţă de avocatul stagiar
 îndrumător faţă de avocatul stagiar
 (1) Îndrumarea profesională a avocatului stagiar este asigurată de avocatul îndrumător care a consimţit în acest sens prin contractul încheiat.
 (2) Pot asigura îndrumarea profesională a avocatului stagiar doar avocaţii care îndeplinesc cerinţele impuse de Lege: vechime în profesia de avocat de cel puţin 5 ani, reputaţie ireproşabilă, profesionist, titulari de cabinete individuale sau avocaţi asociaţi, spaţiu suficient pentru asigurarea stagiului profesional etc., precum şi condiţiile stabilite prin hotărîre a Consiliului Uniunii Avocaţilor.
@@ -342,7 +351,7 @@ e) Avocatura.
 (17) Lucrările la proba scrisă și înregistrările audio şi/sau video ale probei orale ale candidaților admiși în profesie se păstrează timp de 12 luni. În cazul candidaților care au contestat rezultatul examenului de calificare, lucrările la proba scrisă și înregistrările audio şi/sau video ale probei orale se păstrează pînă la adoptarea unei hotărîri irevocabile în cauza dată.
 [Art.28 în redacția HUA19-01 din 27.05.22, MO194-200/01.07.22; în vigoare 27.05.22]
 
-## Articolul 28^1. Contestarea rezultatelor examenelor
+## Articolul 28^1. Contestarea rezultatelor examenelor de admitere la stagiu și a examenelor de calificare
 de admitere la stagiu și a examenelor
 de calificare
 (1) Contestațiile asupra hotărîrilor Comisiei de licențiere a profesiei de avocat privind rezultatele examenului de admitere la stagiu și ale examenului de calificare se examinează de Comisia de soluționare a contestațiilor. Contestațiile se depun la sediul Uniunii Avocaților din Republica Moldova sau prin poștă electronică.
@@ -366,7 +375,7 @@ LICENŢIEREA PROFESIEI DE AVOCAT
 (4) Hotărîrea privind refuzul de eliberare a licenţei pentru exercitarea profesiei de avocat poate fi atacată în contencios administrativ.
 (5) Licenţa pentru exercitarea profesiei de avocat se eliberează contra unei plăţi în mărime de 450 de lei, achitate în una din băncile din Republica Moldova pe contul Ministerului Justiţiei.
 
-## Articolul 30. Retragerea licenţei pentru exercitarea
+## Articolul 30. Retragerea licenţei pentru exercitarea profesiei de avocat
 profesiei de avocat
 (1) Licenţa de avocat se retrage în cazurile prevăzute concret de Lege (art.25):
 a) neexercitarea repetată, în decursul unui an, a atribuţiilor, dacă anterior avocatului i s-au aplicat sancţiuni disciplinare;
@@ -405,7 +414,7 @@ k) copiile de pe ordinele de excludere din avocatură,
 l) datele de contact (telefon fix, mobil; adresa sediului; adresa electronică).
 (3) Durata de păstrare a dosarului avocatului este de 75 de ani.
 
-## Articolul 33. Lista avocaţilor care au dreptul de a exercita
+## Articolul 33. Lista avocaţilor care au dreptul de a exercita profesia de avocat
 profesia de avocat
 (1) Uniunea Avocaților din Republica Moldova ține Lista avocaţilor care au dreptul de a exercita profesia de avocat. Lista avocaţilor se publică pe pagina-web a Uniunii Avocaţilor din Republica Moldova, la rubricile „Lista avocaților” și „Actele UA recente”, iar copia ei se remite Ministerului Justiției.
 (2) Lista avocaţilor care au dreptul de a exercita profesia de avocat se actualizează constant de către secretarul general al Uniunii Avocaților din Republica Moldova, sau de persoana care exercită funcțiile acestuia.
@@ -479,7 +488,7 @@ ASOCIAŢIILE DE AVOCAŢI
 ORGANELE DE AUTOADMINISTRARE
 ALE AVOCAŢILOR
 
-## Articolul 39. Organizarea şi funcţionarea organelor
+## Articolul 39. Organizarea şi funcţionarea organelor de autoadministrare ale avocaţilor
 de autoadministrare ale avocaţilor
 (1) Organele de autoadministrare ale avocaţilor sunt organizate şi funcţionează în baza principiului autonomiei, în limitele competenţelor prevăzute de Lege și prezentul Statut. Pot fi aleși în funcțiile de președinte al Uniunii Avocaților, decan, prodecan al baroului, membru al Consiliului Uniunii Avocaților, membru al comisiilor constituite în cadrul Uniunii Avocaților avocații care au desfășurat activitate de avocat cel puțin 5 ani cumulativ.
 (2) Organele profesiei de avocat au sarcina permanentă de a asigura exercitarea calificată a dreptului de apărare, organizînd în mod corespunzător admiterea în profesie, pregătirea profesională iniţială a avocaţilor stagiari şi pregătirea continuă a avocaţilor, respectarea strictă a deontologiei şi disciplinei profesionale.
@@ -783,7 +792,7 @@ g) îndeplineşte alte atribuţii prevăzute de lege sau date în competenţa sa
 (9) Consiliul Uniunii Avocaților hotărăşte cu privire la legalitatea şi temeinicia deciziei decanului fără participarea la vot a acestuia. Părţile interesate pot fi invitate pentru a da explicaţii.
 (10) Consiliul Uniunii Avocaților se pronunţă în termen de cel mult 30 de zile de la data sesizării, prin hotărîre motivată, care va fi comunicată în cel mult 15 zile de la data emiterii.
 
-## Articolul 53^1. Organizarea alegerilor în organele de conducere
+## Articolul 53^1. Organizarea alegerilor în organele de conducere ale Uniunii Avocaților și ale baroului
 ale Uniunii Avocaților și ale baroului
 (1) Organizarea congreselor avocaților și adunărilor generale elective se va efectua în corespundere și cu respectarea prevederilor din Lege și prezentul Statut.
 (2) Lista candidaților în organele colegiale ale Uniunii Avocaților, lista avocaților cu drept de vot, lista delegaților barourilor la congres, sunt pregătite de secretariatul Uniunii Avocaților pînă la ziua desfășurării congresului sau a adunării generale.
@@ -980,7 +989,7 @@ f) aprobă documentele prevăzute de prezenta lege.
 RELAŢIILE CU ORGANIZAŢIILE SIMILARE DIN ALTE
 ŢĂRI ŞI CU ORGANIZAŢIILE INTERNAŢIONALE
 
-## Articolul 67. Relaţiile cu organizaţiile similare din alte
+## Articolul 67. Relaţiile cu organizaţiile similare din alte ţări şi cu organizaţiile internaţionale
 ţări şi cu organizaţiile internaţionale
 (1) Uniunea Avocaţilor poate fi membru al Asociaţiilor internaţionale şi regionale de avocaţi.
 (2) Consiliul Uniunii Avocaţilor, barourile, asociaţiile de avocaţi stabilesc relaţii cu organizaţiile internaţionale ale avocaţilor şi juriştilor, cu structurile şi organizaţiile similare din alte ţări.

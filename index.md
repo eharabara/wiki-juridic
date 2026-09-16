@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-16 | Total pages: 128
+> Last updated: 2026-09-16 | Total pages: 130
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -102,9 +102,11 @@
 - [[acquis-Benchmarks]] — Indicii de referință financiari (Reg. 2016/1011): absență confirmată, singura mențiune de „indice de referință" e fals pozitiv din legea asigurărilor.
 - [[acquis-CompanyLaw]] — Dreptul societăților UE (2017/1132 + SRD II 2017/828)
 - [[acquis-ConsumerCredit]] — Creditul de consum (2008/48/CE → CCD2 2023/2225)
+- [[acquis-ContabilitateInstitutiiFinanciare]] — Conturile anuale ale băncilor și asigurătorilor (86/635/CEE, 91/674/CEE): bază UE ingerată, fără ancoră moldovenească (Legea contabilității nu e ținută în vault).
 - [[acquis-CRA]] — Agențiile de rating de credit (Reg. 1060/2009): transpunere expresă, cu tabel articol cu articol, în L-171-2012 arts. 88^1-88^4.
 - [[acquis-Crowdfunding]] — Furnizori europeni de servicii de finanțare participativă (ECSP)
 - [[acquis-CSDR-EMIR]] — Infrastructură post-tranzacționare (CSDR / EMIR)
+- [[acquis-GarantareaDepozitelor]] — Sistemele de garantare a depozitelor (94/19/CE, abrogată 2019; succesorul 2014/49/UE neingerat): ancoră moldovenească [[L-160-2023]].
 - [[acquis-ICSD]] — Sistemele de compensare pentru investitori
 - [[acquis-Insurance]] — Asigurări: prudențial și distribuție (Solvency II / IDD)
 - [[acquis-IORP]] — Instituțiile pentru furnizarea de pensii ocupaționale (IORP II 2016/2341)

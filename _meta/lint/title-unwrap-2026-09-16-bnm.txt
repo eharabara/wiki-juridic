@@ -1,0 +1,778 @@
+raw/papers/bnm\legal-ro\L-114-2012.md: 63 title(s) fixed
+   line 117  art.2^1
+      old: ## Articolul 2^1. Procedura de notificare înainte
+      new: ## Articolul 2^1. Procedura de notificare înainte de începerea unor activități
+   line 125  art.2^2
+      old: ## Articolul 2^2. Desfășurarea activității și notificarea
+      new: ## Articolul 2^2. Desfășurarea activității și notificarea în cazul unor servicii de plată exceptate
+   line 132  art.2^3
+      old: ## Articolul 2^3. Notificarea în cazul unor operațiuni
+      new: ## Articolul 2^3. Notificarea în cazul unor operațiuni de plată exceptate
+   line 138  art.2^4
+      old: ## Articolul 2^4. Răspunderea pentru nerespectarea
+      new: ## Articolul 2^4. Răspunderea pentru nerespectarea cerințelor privind activitățile exceptate
+   line 259  art.6
+      old: ## Articolul 6. Interdicţia privind prestarea serviciilor
+      new: ## Articolul 6. Interdicţia privind prestarea serviciilor de plată de către alte persoane
+   line 263  art.7
+      old: ## Articolul 7. Serviciile de plată permise
+      new: ## Articolul 7. Serviciile de plată permise prestatorilor de servicii de plată
+   line 299  art.11
+      old: ## Articolul 11. Autoritatea competentă de a elibera
+      new: ## Articolul 11. Autoritatea competentă de a elibera licenţe
+   line 400  art.16^1
+      old: ## Articolul 16^1. Controlul participaţiunilor societăţilor
+      new: ## Articolul 16^1. Controlul participaţiunilor societăţilor de plată
+   line 436  art.17
+      old: ## Articolul 17. Condițiile de desfășurare a activității
+      new: ## Articolul 17. Condițiile de desfășurare a activității de prestare a serviciilor de plată de către sucursalele înființate în Republica
+   line 460  art.17^1
+      old: ## Articolul 17^1. Retragerea licenței sucursalei înființate
+      new: ## Articolul 17^1. Retragerea licenței sucursalei înființate în Republica Moldova de societatea de plată din alt stat
+   line 474  art.17^2
+      old: ## Articolul 17^2. Solicitarea eliberării licenței de către
+      new: ## Articolul 17^2. Solicitarea eliberării licenței de către sucursalele înființate în Republica
+   line 500  art.18
+      old: ## Articolul 18. Decizia privind cererea de eliberare
+      new: ## Articolul 18. Decizia privind cererea de eliberare a licenței
+   line 507  art.19
+      old: ## Articolul 19. Eliberarea licenţei. Copii autorizate
+      new: ## Articolul 19. Eliberarea licenţei. Copii autorizate de pe licenţă, reperfectarea licenţei, eliberarea duplicatului licenţei
+   line 517  art.20
+      old: ## Articolul 20. Termenul de valabilitate a licenţei.
+      new: ## Articolul 20. Termenul de valabilitate a licenţei. Taxa pentru licenţă
+   line 527  art.21
+      old: ## Articolul 21. Modificarea datelor prezentate pentru
+      new: ## Articolul 21. Modificarea datelor prezentate pentru eliberarea licenţei
+   line 560  art.23^1
+      old: ## Articolul 23^1. Înregistrarea prestatorilor de servicii
+      new: ## Articolul 23^1. Înregistrarea prestatorilor de servicii de informare cu privire la conturi
+   line 573  art.24
+      old: ## Articolul 24. Conturi de plăţi la societatea
+      new: ## Articolul 24. Conturi de plăţi la societatea de plată şi interdicţia privind acceptarea depozitelor
+   line 581  art.25
+      old: ## Articolul 25. Activităţi suplimentare permise
+      new: ## Articolul 25. Activităţi suplimentare permise societăţii de plată
+   line 601  art.27
+      old: ## Articolul 27. Sucursalele, punctele de lucru/oficiile
+      new: ## Articolul 27. Sucursalele, punctele de lucru/oficiile secundare și agenții de plată
+   line 672  art.32^1
+      old: ## Articolul 32^1. Gestionarea riscurilor operaţionale
+      new: ## Articolul 32^1. Gestionarea riscurilor operaţionale şi de securitate
+   line 697  art.32^4
+      old: ## Articolul 32^4. Accesul la conturile de plăți
+      new: ## Articolul 32^4. Accesul la conturile de plăți deschise în bănci
+   line 730  art.36
+      old: ## Articolul 36. Sarcina probei privind cerinţele
+      new: ## Articolul 36. Sarcina probei privind cerinţele de informare
+   line 734  art.37
+      old: ## Articolul 37. Derogare de la cerinţele de informare
+      new: ## Articolul 37. Derogare de la cerinţele de informare pentru instrumentele de plată cu valoare redusă şi pentru instrumente de plată aferente monedei electronice
+   line 765  art.38^1
+      old: ## Articolul 38^1. Informarea plătitorului și a beneficiarului
+      new: ## Articolul 38^1. Informarea plătitorului și a beneficiarului plății după inițierea ordinului de plată
+   line 773  art.38^2
+      old: ## Articolul 38^2. Informarea prestatorului de servicii
+      new: ## Articolul 38^2. Informarea prestatorului de servicii de plată care oferă servicii de administrare cont plătitorului în cazul serviciilor de inițiere a plății
+   line 779  art.39
+      old: ## Articolul 39. Informarea plătitorului după primirea
+      new: ## Articolul 39. Informarea plătitorului după primirea ordinului de plată
+   line 789  art.40
+      old: ## Articolul 40. Informarea beneficiarului plăţii
+      new: ## Articolul 40. Informarea beneficiarului plăţii după executarea operaţiunii de plată
+   line 847  art.43
+      old: ## Articolul 43. Accesibilitatea informaţiilor şi a condiţiilor
+      new: ## Articolul 43. Accesibilitatea informaţiilor şi a condiţiilor contractului-cadru
+   line 869  art.46
+      old: ## Articolul 46. Informarea prealabilă executării
+      new: ## Articolul 46. Informarea prealabilă executării unei operațiuni de plată individuale
+   line 876  art.47
+      old: ## Articolul 47. Informarea plătitorului cu privire
+      new: ## Articolul 47. Informarea plătitorului cu privire la operaţiunile de plată individuale
+   line 886  art.48
+      old: ## Articolul 48. Informarea beneficiarului plăţii privind
+      new: ## Articolul 48. Informarea beneficiarului plăţii privind operaţiunile de plată individuale
+   line 917  art.51
+      old: ## Articolul 51. Derogare pentru instrumentele de plată
+      new: ## Articolul 51. Derogare pentru instrumentele de plată cu valoare redusă şi pentru instrumentele de plată aferente monedei electronice
+   line 931  art.52
+      old: ## Articolul 52. Consimțământul şi retragerea
+      new: ## Articolul 52. Consimțământul şi retragerea consimțământului
+   line 953  art.52^2
+      old: ## Articolul 52^2. Reguli de acces la contul de plăți
+      new: ## Articolul 52^2. Reguli de acces la contul de plăți în cazul serviciilor de inițiere a plății
+   line 972  art.52^3
+      old: ## Articolul 52^3. Reguli de acces și de utilizare
+      new: ## Articolul 52^3. Reguli de acces și de utilizare a informațiilor privind contul de plăți în cazul serviciilor de informare cu privire la conturi
+   line 1002  art.53
+      old: ## Articolul 53. Limitele utilizării instrumentelor de plată
+      new: ## Articolul 53. Limitele utilizării instrumentelor de plată și ale accesului prestatorilor de servicii de plată la conturile de plăți
+   line 1017  art.54
+      old: ## Articolul 54. Obligațiile utilizatorului serviciilor de plată
+      new: ## Articolul 54. Obligațiile utilizatorului serviciilor de plată cu privire la instrumentele de plată și la elementele de securitate personalizate
+   line 1025  art.55
+      old: ## Articolul 55. Obligaţiile prestatorului de servicii
+      new: ## Articolul 55. Obligaţiile prestatorului de servicii de plată cu privire la instrumentele de plată
+   line 1037  art.56
+      old: ## Articolul 56. Notificarea privind operaţiunile
+      new: ## Articolul 56. Notificarea privind operaţiunile de plată neautorizate şi răspunderea prestatorului de servicii de plată pentru operaţiunile de plată neautorizate
+   line 1053  art.57
+      old: ## Articolul 57. Probe privind autentificarea
+      new: ## Articolul 57. Probe privind autentificarea şi executarea operaţiunilor de plată
+   line 1061  art.58
+      old: ## Articolul 58. Răspunderea plătitorului pentru
+      new: ## Articolul 58. Răspunderea plătitorului pentru operaţiunile de plată neautorizate
+   line 1075  art.59
+      old: ## Articolul 59. Condiţiile şi procedura de rambursare
+      new: ## Articolul 59. Condiţiile şi procedura de rambursare a sumei unei operaţiuni de plată iniţiate de/sau prin intermediul unui beneficiar al plăţii
+   line 1099  art.60^1
+      old: ## Articolul 60^1. Operațiuni de plată a căror valoare
+      new: ## Articolul 60^1. Operațiuni de plată a căror valoare nu este cunoscută din timp
+   line 1144  art.65
+      old: ## Articolul 65. Operaţiunile de plată în cazul în care
+      new: ## Articolul 65. Operaţiunile de plată în cazul în care beneficiarul plăţii nu este titular al unui cont de plăţi la prestatorul de servicii de plată
+   line 1174  art.70
+      old: ## Articolul 70. Neexecutarea sau executarea
+      new: ## Articolul 70. Neexecutarea sau executarea necorespunzătoare a operaţiunilor de plată
+   line 1192  art.70^1
+      old: ## Articolul 70^1. Răspunderea în cazul serviciilor de inițiere
+      new: ## Articolul 70^1. Răspunderea în cazul serviciilor de inițiere a plății pentru neexecutarea, executarea incorectă sau executarea cu întârziere a operațiunilor de plată
+   line 1227  art.76
+      old: ## Articolul 76. Interdicţia privind emiterea monedei
+      new: ## Articolul 76. Interdicţia privind emiterea monedei electronice de către alte persoane
+   line 1231  art.77
+      old: ## Articolul 77. Emiterea şi răscumpărarea monedei
+      new: ## Articolul 77. Emiterea şi răscumpărarea monedei electronice
+   line 1247  art.78
+      old: ## Articolul 78. Interzicerea dobânzii şi a acordării
+      new: ## Articolul 78. Interzicerea dobânzii şi a acordării împrumuturilor (creditelor)
+   line 1256  art.79
+      old: ## Articolul 79. Constituirea societăţii emitente
+      new: ## Articolul 79. Constituirea societăţii emitente de monedă electronică
+   line 1264  art.81
+      old: ## Articolul 81. Autoritatea competentă de a elibera
+      new: ## Articolul 81. Autoritatea competentă de a elibera licenţe
+   line 1281  art.84
+      old: ## Articolul 84. Regulile cu privire la licenţierea
+      new: ## Articolul 84. Regulile cu privire la licenţierea societăţii emitente de monedă electronică
+   line 1289  art.85
+      old: ## Articolul 85. Registrul societăţilor emitente
+      new: ## Articolul 85. Registrul societăţilor emitente de monedă electronică
+   line 1295  art.86
+      old: ## Articolul 86. Controlul participaţiunilor societăţilor
+      new: ## Articolul 86. Controlul participaţiunilor societăţilor emitente de monedă electronică
+   line 1304  art.88
+      old: ## Articolul 88. Activităţi suplimentare permise
+      new: ## Articolul 88. Activităţi suplimentare permise societăţii emitente de monedă electronică
+   line 1321  art.90
+      old: ## Articolul 90. Sucursalele, punctele de lucru/oficiile
+      new: ## Articolul 90. Sucursalele, punctele de lucru/oficiile secundare, agenții. Externalizarea
+   line 1362  art.94
+      old: ## Articolul 94. Împuternicirile autorităţilor de
+      new: ## Articolul 94. Împuternicirile autorităţilor de supraveghere
+   line 1429  art.100
+      old: ## Articolul 100. Aplicarea măsurilor de remediere
+      new: ## Articolul 100. Aplicarea măsurilor de remediere şi a sancţiunilor
+   line 1444  art.101
+      old: ## Articolul 101. Contestarea actelor autorităţii
+      new: ## Articolul 101. Contestarea actelor autorităţii de supraveghere
+   line 1458  art.103
+      old: ## Articolul 103. Secretul profesional și conflictul
+      new: ## Articolul 103. Secretul profesional și conflictul de interese
+   line 1477  art.103^1
+      old: ## Articolul 103^1. Condițiile furnizării informației
+      new: ## Articolul 103^1. Condițiile furnizării informației care constituie secret profesional
+   line 1515  art.105
+      old: ## Articolul 105. Sesizarea autorităţii de supraveghere
+      new: ## Articolul 105. Sesizarea autorităţii de supraveghere şi contestaţia în justiţie
+   line 1522  art.106
+      old: ## Articolul 106. Răspunderea pentru încălcarea
+      new: ## Articolul 106. Răspunderea pentru încălcarea prezentei legi
+raw/papers/bnm\legal-ro\L-160-2023.md: 25 title(s) fixed
+   line 89  art.3
+      old: ## Articolul 3. Statutul juridic al Fondului de garantare
+      new: ## Articolul 3. Statutul juridic al Fondului de garantare a depozitelor în sistemul bancar și al Fondului de acoperire a depozitelor bancare
+   line 143  art.8
+      old: ## Articolul 8. Cooperarea între Fondul de garantare
+      new: ## Articolul 8. Cooperarea între Fondul de garantare a depozitelor în sistemul bancar și Banca
+   line 161  art.9
+      old: ## Articolul 9. Aranjamente de administrare a conturilor
+      new: ## Articolul 9. Aranjamente de administrare a conturilor între FGDSB și Banca Națională
+   line 201  art.14
+      old: ## Articolul 14. Condiții pentru a candida la funcția
+      new: ## Articolul 14. Condiții pentru a candida la funcția de director general al FGDSB sau de membru al Consiliului de administrație
+   line 213  art.15
+      old: ## Articolul 15. Încetarea mandatului și revocarea
+      new: ## Articolul 15. Încetarea mandatului și revocarea membrului Consiliului de administrație
+   line 361  art.26
+      old: ## Articolul 26. Tipurile de contribuții în Fondul
+      new: ## Articolul 26. Tipurile de contribuții în Fondul de acoperire a depozitelor bancare
+   line 369  art.27
+      old: ## Articolul 27. Contribuțiile ordinare în Fondul
+      new: ## Articolul 27. Contribuțiile ordinare în Fondul de acoperire a depozitelor bancare
+   line 382  art.28
+      old: ## Articolul 28. Contribuțiile speciale în Fondul de
+      new: ## Articolul 28. Contribuțiile speciale în Fondul de acoperire a depozitelor bancare
+   line 394  art.29
+      old: ## Articolul 29. Procedura de compensare
+      new: ## Articolul 29. Procedura de compensare a depozitelor bancare
+   line 421  art.30
+      old: ## Articolul 30. Participarea FGDSB la acțiunile
+      new: ## Articolul 30. Participarea FGDSB la acțiunile de rezoluție
+   line 433  art.31
+      old: ## Articolul 31. Utilizarea activelor financiare ale
+      new: ## Articolul 31. Utilizarea activelor financiare ale Fondului de acoperire a depozitelor bancare
+   line 444  art.32
+      old: ## Articolul 32. Principii generale pentru garantarea
+      new: ## Articolul 32. Principii generale pentru garantarea depozitelor bancare
+   line 475  art.35
+      old: ## Articolul 35. Subrogarea în drepturi și prioritatea
+      new: ## Articolul 35. Subrogarea în drepturi și prioritatea pretențiilor în recuperare
+   line 504  art.40
+      old: ## Articolul 40. Mijloacele financiare ale Fondului
+      new: ## Articolul 40. Mijloacele financiare ale Fondului de acoperire a depozitelor bancare
+   line 516  art.41
+      old: ## Articolul 41. Finanțarea încrucișată între fondurile
+      new: ## Articolul 41. Finanțarea încrucișată între fondurile administrate
+   line 520  art.42
+      old: ## Articolul 42. Sursele adiționale de finanțare în caz
+      new: ## Articolul 42. Sursele adiționale de finanțare în caz de insuficiență a mijloacelor financiare
+   line 527  art.43
+      old: ## Articolul 43. Împrumuturile de la bănci
+      new: ## Articolul 43. Împrumuturile de la bănci și organizații internaționale
+   line 534  art.44
+      old: ## Articolul 44. Împrumuturi de la bugetul de stat
+      new: ## Articolul 44. Împrumuturi de la bugetul de stat sau de la Banca Națională
+   line 551  art.46
+      old: ## Articolul 46. Administrarea Fondului de rezoluție
+      new: ## Articolul 46. Administrarea Fondului de rezoluție bancară
+   line 562  art.47
+      old: ## Articolul 47. Utilizarea necorespunzătoare
+      new: ## Articolul 47. Utilizarea necorespunzătoare a fondurilor administrate
+   line 567  art.48
+      old: ## Articolul 48. Administrarea activelor financiare
+      new: ## Articolul 48. Administrarea activelor financiare ale fondurilor administrate
+   line 587  art.49
+      old: ## Articolul 49. Situațiile financiare ale FGDSB.
+      new: ## Articolul 49. Situațiile financiare ale FGDSB. Raportul anual
+   line 622  art.53
+      old: ## Articolul 53. Confidențialitatea informațiilor
+      new: ## Articolul 53. Confidențialitatea informațiilor și protecția datelor cu caracter personal
+   line 628  art.54
+      old: ## Articolul 54. Prevenirea spălării banilor
+      new: ## Articolul 54. Prevenirea spălării banilor și a acțiunilor frauduloase
+   line 634  art.55
+      old: ## Articolul 55. Măsurile împotriva persoanelor
+      new: ## Articolul 55. Măsurile împotriva persoanelor responsabile
+raw/papers/bnm\legal-ro\L-202-2017.md: 77 title(s) fixed
+   line 76  art.2
+      old: ## Articolul 2. Domeniul de aplicare și alte prevederi
+      new: ## Articolul 2. Domeniul de aplicare și alte prevederi generale
+   line 187  art.4
+      old: ## Articolul 4. Autoritatea competentă pentru bănci
+      new: ## Articolul 4. Autoritatea competentă pentru bănci în Republica Moldova
+   line 193  art.5
+      old: ## Articolul 5. Atribuțiile de supraveghere ale
+      new: ## Articolul 5. Atribuțiile de supraveghere ale autorității competente
+   line 205  art.6
+      old: ## Articolul 6. Interdicția de a desfășura activitatea
+      new: ## Articolul 6. Interdicția de a desfășura activitatea de atragere de depozite
+   line 223  art.8
+      old: ## Articolul 8. Licența și competența de acordare
+      new: ## Articolul 8. Licența și competența de acordare a licenței
+   line 251  art.13
+      old: ## Articolul 13. Programul de activitate, structura
+      new: ## Articolul 13. Programul de activitate, structura organizatorică și cadrul de administrare a activității
+   line 279  art.15
+      old: ## Articolul 15. Restricții în desfășurarea anumitor
+      new: ## Articolul 15. Restricții în desfășurarea anumitor activități
+   line 316  art.18
+      old: ## Articolul 18. Consultarea prealabilă cu alte autorități
+      new: ## Articolul 18. Consultarea prealabilă cu alte autorități în cadrul procesului de licențiere
+   line 331  art.19
+      old: ## Articolul 19. Motivele de respingere a cererii
+      new: ## Articolul 19. Motivele de respingere a cererii de acordare a licenței
+   line 345  art.20
+      old: ## Articolul 20. Termenul licenţei. Copii autorizate
+      new: ## Articolul 20. Termenul licenţei. Copii autorizate de pe licenţă. Taxe
+   line 380  art.23
+      old: ## Articolul 23. Publicarea și intrarea în vigoare
+      new: ## Articolul 23. Publicarea și intrarea în vigoare a hotărîrii de retragere a licenței
+   line 391  art.24
+      old: ## Articolul 24. Condiții de desfășurare a activității
+      new: ## Articolul 24. Condiții de desfășurare a activității sucursalelor băncilor din alt stat
+   line 427  art.29
+      old: ## Articolul 29. Evaluarea calității băncii care solicită
+      new: ## Articolul 29. Evaluarea calității băncii care solicită înființarea sucursalei
+   line 451  art.31
+      old: ## Articolul 31. Publicarea informației de către
+      new: ## Articolul 31. Publicarea informației de către sucursală
+   line 471  art.33
+      old: ## Articolul 33. Deschiderea de sucursale pe teritoriul
+      new: ## Articolul 33. Deschiderea de sucursale pe teritoriul altor state
+   line 552  art.38^2
+      old: ## Articolul 38^2. Gestionarea riscurilor aferente
+      new: ## Articolul 38^2. Gestionarea riscurilor aferente tehnologiei informației și comunicațiilor, securității informației și continuității activității
+   line 676  art.45
+      old: ## Articolul 45. Obligația privind obținerea unei
+      new: ## Articolul 45. Obligația privind obținerea unei aprobări prealabile și restricții
+   line 690  art.46
+      old: ## Articolul 46. Exceptarea de la obligația de solicitare
+      new: ## Articolul 46. Exceptarea de la obligația de solicitare în prealabil a aprobării
+   line 726  art.49
+      old: ## Articolul 49. Colaborarea cu alte autorități
+      new: ## Articolul 49. Colaborarea cu alte autorități competente în cadrul evaluării achizitorului potenţial
+   line 738  art.50
+      old: ## Articolul 50. Notificarea înstrăinării sau reducerii
+      new: ## Articolul 50. Notificarea înstrăinării sau reducerii deținerii calificate
+   line 751  art.52
+      old: ## Articolul 52. Nerespectarea cerinţelor privind
+      new: ## Articolul 52. Nerespectarea cerinţelor privind calitatea acţionariatului
+   line 765  art.52^1
+      old: ## Articolul 52^1. Procedura de anulare, emitere, vînzare,
+      new: ## Articolul 52^1. Procedura de anulare, emitere, vînzare, achiziționare și convertire a cotelor de participare deținute cu nerespectarea cerințelor privind calitatea acționariatului
+   line 804  art.53
+      old: ## Articolul 53. Înstrăinarea deținerii într-o bancă
+      new: ## Articolul 53. Înstrăinarea deținerii într-o bancă a persoanei rezidente în jurisdicțiile ce nu implementează standardele internaţionale de transparenţă
+   line 811  art.54
+      old: ## Articolul 54. Lista acţionarilor cu drept de participare
+      new: ## Articolul 54. Lista acţionarilor cu drept de participare la adunarea generală a acţionarilor
+   line 824  art.55
+      old: ## Articolul 55. Valoarea unei dețineri calificate
+      new: ## Articolul 55. Valoarea unei dețineri calificate a unei bănci
+   line 836  art.56
+      old: ## Articolul 56. Interdicția dobîndirii controlului
+      new: ## Articolul 56. Interdicția dobîndirii controlului în entități din afara sectorului financiar
+   line 866  art.60
+      old: ## Articolul 60. Fondurile proprii și nivelul minim
+      new: ## Articolul 60. Fondurile proprii și nivelul minim al acestora pentru acoperirea riscurilor
+   line 877  art.61
+      old: ## Articolul 61. Metodologiile de determinare
+      new: ## Articolul 61. Metodologiile de determinare a cerințelor de fonduri proprii
+   line 881  art.62
+      old: ## Articolul 62. Aprobările prealabile aferente
+      new: ## Articolul 62. Aprobările prealabile aferente fondurilor proprii
+   line 897  art.63^1
+      old: ## Articolul 63^1. Cerințe privind instrumentele politicii
+      new: ## Articolul 63^1. Cerințe privind instrumentele politicii macroprudențiale
+   line 901  art.64
+      old: ## Articolul 64. Cerințe de fonduri proprii pentru
+      new: ## Articolul 64. Cerințe de fonduri proprii pentru acoperirea riscului de credit
+   line 907  art.65
+      old: ## Articolul 65. Abordarea standardizată a riscului
+      new: ## Articolul 65. Abordarea standardizată a riscului de credit
+   line 913  art.66
+      old: ## Articolul 66. Abordarea bazată pe modele interne
+      new: ## Articolul 66. Abordarea bazată pe modele interne de rating a riscului de credit
+   line 920  art.67
+      old: ## Articolul 67. Tratamentul tehnicilor de diminuare
+      new: ## Articolul 67. Tratamentul tehnicilor de diminuare a riscului de credit
+   line 927  art.68
+      old: ## Articolul 68. Tratamentul expunerilor aferente
+      new: ## Articolul 68. Tratamentul expunerilor aferente poziţiilor din securitizare
+   line 934  art.69
+      old: ## Articolul 69. Cazuri de utilizare a diverselor abordări
+      new: ## Articolul 69. Cazuri de utilizare a diverselor abordări ale riscului de credit
+   line 938  art.70
+      old: ## Articolul 70. Cerințe de fonduri proprii pentru
+      new: ## Articolul 70. Cerințe de fonduri proprii pentru acoperirea riscului operațional
+   line 948  art.71
+      old: ## Articolul 71. Cerințe de fonduri proprii pentru
+      new: ## Articolul 71. Cerințe de fonduri proprii pentru acoperirea riscurilor de piață
+   line 958  art.72
+      old: ## Articolul 72. Abordările bazate pe modele interne
+      new: ## Articolul 72. Abordările bazate pe modele interne și alte aprobări acordate de Banca
+   line 965  art.73
+      old: ## Articolul 73. Cerințe de fonduri proprii pentru
+      new: ## Articolul 73. Cerințe de fonduri proprii pentru acoperirea altor riscuri
+   line 987  art.77
+      old: ## Articolul 77. Calcularea indicatorului efectului
+      new: ## Articolul 77. Calcularea indicatorului efectului de levier
+   line 992  art.78
+      old: ## Articolul 78. Procesul de evaluare a adecvării
+      new: ## Articolul 78. Procesul de evaluare a adecvării capitalului la riscuri
+   line 998  art.79
+      old: ## Articolul 79. Procesul de evaluare a adecvării
+      new: ## Articolul 79. Procesul de evaluare a adecvării lichidității
+   line 1023  art.81
+      old: ## Articolul 81. Interzicerea unor operațiuni cu persoane
+      new: ## Articolul 81. Interzicerea unor operațiuni cu persoane afiliate băncii
+   line 1086  art.89
+      old: ## Articolul 89. Obligațiile entității de audit
+      new: ## Articolul 89. Obligațiile entității de audit de informare și comunicare cu Banca Naţională a Moldovei
+   line 1133  art.95
+      old: ## Articolul 95. Politici de prevenire și combatere
+      new: ## Articolul 95. Politici de prevenire și combatere a spălării banilor și finanțării terorismului
+   line 1146  art.97
+      old: ## Articolul 97. Condițiile furnizării informaţiei
+      new: ## Articolul 97. Condițiile furnizării informaţiei ce constituie secret bancar
+   line 1196  art.99
+      old: ## Articolul 99. Supravegherea prudențială a băncilor
+      new: ## Articolul 99. Supravegherea prudențială a băncilor persoane juridic din Republica Moldova
+   line 1215  art.101
+      old: ## Articolul 101. Criterii tehnice pe care Banca Națională
+      new: ## Articolul 101. Criterii tehnice pe care Banca Națională a Moldovei le are în vedere în procesul de verificare și evaluare
+   line 1239  art.103
+      old: ## Articolul 103. Aplicarea procesului de supraveghere
+      new: ## Articolul 103. Aplicarea procesului de supraveghere unor bănci cu profil de risc similar
+   line 1244  art.104
+      old: ## Articolul 104. Monitorizarea abordărilor interne
+      new: ## Articolul 104. Monitorizarea abordărilor interne pentru calcularea valorilor expunerilor
+   line 1253  art.105
+      old: ## Articolul 105. Monitorizarea profilurilor de risc
+      new: ## Articolul 105. Monitorizarea profilurilor de risc de lichiditate
+   line 1283  art.108
+      old: ## Articolul 108. Supravegherea sucursalelor din
+      new: ## Articolul 108. Supravegherea sucursalelor din Republica Moldova ale băncilor din alte state
+   line 1297  art.109
+      old: ## Articolul 109. Autoritatea competentă responsabilă
+      new: ## Articolul 109. Autoritatea competentă responsabilă cu supravegherea pe bază consolidată a băncilor
+   line 1312  art.111
+      old: ## Articolul 111. Acordurile de colaborare în domeniul
+      new: ## Articolul 111. Acordurile de colaborare în domeniul supravegherii pe bază consolidată
+   line 1356  art.114
+      old: ## Articolul 114. Colaborarea dintre autorități competente
+      new: ## Articolul 114. Colaborarea dintre autorități competente din Republica Moldova
+   line 1361  art.115
+      old: ## Articolul 115. Verificarea informațiilor referitoare
+      new: ## Articolul 115. Verificarea informațiilor referitoare la entitățile din alte state
+   line 1368  art.116
+      old: ## Articolul 116. Aplicarea cerințelor prudențiale
+      new: ## Articolul 116. Aplicarea cerințelor prudențiale pe bază consolidată
+   line 1376  art.117
+      old: ## Articolul 117. Includerea societăților holding
+      new: ## Articolul 117. Includerea societăților holding în supravegherea pe bază consolidată
+   line 1383  art.118
+      old: ## Articolul 118. Supravegherea societăților financiare
+      new: ## Articolul 118. Supravegherea societăților financiare holding mixte
+   line 1399  art.121
+      old: ## Articolul 121. Tranzacții intragrup cu societăți holding
+      new: ## Articolul 121. Tranzacții intragrup cu societăți holding cu activitate mixtă
+   line 1403  art.122
+      old: ## Articolul 122. Măsuri de facilitare a supravegherii
+      new: ## Articolul 122. Măsuri de facilitare a supravegherii pe bază consolidată a societăților holding
+   line 1413  art.123
+      old: ## Articolul 123. Cooperarea cu autoritățile de supraveghere
+      new: ## Articolul 123. Cooperarea cu autoritățile de supraveghere a asigurătorilor și prestatorilor de servicii investiționale
+   line 1420  art.124
+      old: ## Articolul 124. Măsuri și sancțiuni aplicabile societăților
+      new: ## Articolul 124. Măsuri și sancțiuni aplicabile societăților holding
+   line 1432  art.125
+      old: ## Articolul 125. Evaluarea echivalenței supravegherii
+      new: ## Articolul 125. Evaluarea echivalenței supravegherii pe bază consolidată din alte state
+   line 1448  art.126
+      old: ## Articolul 126. Secretul profesional al Băncii Naționale
+      new: ## Articolul 126. Secretul profesional al Băncii Naționale a Moldovei
+   line 1470  art.129
+      old: ## Articolul 129. Schimbul de informații cu alte
+      new: ## Articolul 129. Schimbul de informații cu alte autorități competente și entități
+   line 1501  art.131
+      old: ## Articolul 131. Transmiterea de informații relevante sub
+      new: ## Articolul 131. Transmiterea de informații relevante sub aspect monetar, al protecțieidepozitelor, al riscului sistemic sau al supravegherii plăților
+   line 1514  art.132
+      old: ## Articolul 132. Transmiterea informațiilor către
+      new: ## Articolul 132. Transmiterea informațiilor către alte entități
+   line 1523  art.133
+      old: ## Articolul 133. Divulgarea informațiilor obținute
+      new: ## Articolul 133. Divulgarea informațiilor obținute în cadrul controalelor
+   line 1527  art.134
+      old: ## Articolul 134. Divulgarea informațiilor privind
+      new: ## Articolul 134. Divulgarea informațiilor privind serviciile de clearing și decontare
+   line 1557  art.138
+      old: ## Articolul 138. Competențe de supraveghere
+      new: ## Articolul 138. Competențe de supraveghere și de sancționare
+   line 1657  art.141
+      old: ## Articolul 141. Sancțiunile și măsurile sancționatoare
+      new: ## Articolul 141. Sancțiunile și măsurile sancționatoare aplicabile
+   line 1678  art.142
+      old: ## Articolul 142. Aplicarea sancţiunilor şi a altor
+      new: ## Articolul 142. Aplicarea sancţiunilor şi a altor măsuri sancţionatoare
+   line 1701  art.144
+      old: ## Articolul 144. Contestarea actelor Băncii Naţionale
+      new: ## Articolul 144. Contestarea actelor Băncii Naţionale a Moldovei
+   line 1712  art.144^1
+      old: ## Articolul 144^1. Particularitățile răspunderii pentru
+      new: ## Articolul 144^1. Particularitățile răspunderii pentru prejudiciul cauzat prin actul administrativ ilegal al Băncii Naționale a Moldovei emis în aplicarea prezentei legi sau prin nesoluționarea în termenul legal a unei cereri de către aceasta cu privire la aplicarea prezentei legi
+   line 1729  art.144^2
+      old: ## Articolul 144^2. Particularitățile determinării mărimii
+      new: ## Articolul 144^2. Particularitățile determinării mărimii prejudiciului cauzat persoanei care deținea calitatea de acționar al băncii prin actul administrativ ilegal al Băncii
+raw/papers/bnm\legal-ro\L-239-2008.md: 6 title(s) fixed
+   line 93  art.5
+      old: ## Articolul 5. Principiile transparenţei procesului
+      new: ## Articolul 5. Principiile transparenţei procesului decizional
+   line 128  art.9
+      old: ## Articolul 9. Anunţul referitor la iniţierea elaborării
+      new: ## Articolul 9. Anunţul referitor la iniţierea elaborării deciziei
+   line 162  art.12^1
+      old: ## Articolul 12^1. Anunţul privind retragerea unui proiect
+      new: ## Articolul 12^1. Anunţul privind retragerea unui proiect de decizie din procesul de elaborare
+   line 178  art.15
+      old: ## Articolul 15. Informarea publicului referitor la deciziile
+      new: ## Articolul 15. Informarea publicului referitor la deciziile adoptate
+   line 182  art.16
+      old: ## Articolul 16. Rapoartele privind transparenţa în
+      new: ## Articolul 16. Rapoartele privind transparenţa în procesul decizional
+   line 191  art.16^1
+      old: ## Articolul 16^1. Răspunderea pentru nerespectarea
+      new: ## Articolul 16^1. Răspunderea pentru nerespectarea transparenţei în procesul decizional
+raw/papers/bnm\legal-ro\L-250-2017.md: 6 title(s) fixed
+   line 186  art.10
+      old: ## Articolul 10. Autoritatea competentă responsabilă
+      new: ## Articolul 10. Autoritatea competentă responsabilă de exercitarea supravegherii suplimentare
+   line 214  art.13
+      old: ## Articolul 13. Cooperarea și schimbul de informații
+      new: ## Articolul 13. Cooperarea și schimbul de informații dintre autoritățile competente
+   line 246  art.16
+      old: ## Articolul 16. Organele de conducere ale societății
+      new: ## Articolul 16. Organele de conducere ale societății financiare holding mixte
+   line 252  art.17
+      old: ## Articolul 17. Situațiile financiare ale societății financiare
+      new: ## Articolul 17. Situațiile financiare ale societății financiare holding mixte
+   line 258  art.18
+      old: ## Articolul 18. Auditul extern al societății financiare
+      new: ## Articolul 18. Auditul extern al societății financiare holding mixte
+   line 292  art.21
+      old: ## Articolul 21. Cooperarea cu autoritățile competente
+      new: ## Articolul 21. Cooperarea cu autoritățile competente din alte state
+raw/papers/bnm\legal-ro\L-548-1995.md: 24 title(s) fixed
+   line 127  art.1
+      old: ## Articolul 1. Statutul juridic al Băncii Naţionale
+      new: ## Articolul 1. Statutul juridic al Băncii Naţionale a Moldovei
+   line 227  art.8
+      old: ## Articolul 8. Relaţiile cu publicul, Guvernul
+      new: ## Articolul 8. Relaţiile cu publicul, Guvernul şi Parlamentul
+   line 300  art.11^2
+      old: ## Articolul 11^2. Notificarea actelor cu caracter individual
+      new: ## Articolul 11^2. Notificarea actelor cu caracter individual și a înscrisurilor Băncii Naționale
+   line 325  art.11^3
+      old: ## Articolul 11^3. Notificarea actelor și înscrisurilor către
+      new: ## Articolul 11^3. Notificarea actelor și înscrisurilor către Banca Națională în cadrul procedurilor administrative
+   line 368  art.18^1
+      old: ## Articolul 18^1. Asistența de lichiditate în situații
+      new: ## Articolul 18^1. Asistența de lichiditate în situații de urgență
+   line 375  art.18^2
+      old: ## Articolul 18^2. Acordarea de împrumuturi Fondului
+      new: ## Articolul 18^2. Acordarea de împrumuturi Fondului de garantare a depozitelor în sistemul bancar
+   line 394  art.20
+      old: ## Articolul 20. Repartizarea profitului şi acoperirea
+      new: ## Articolul 20. Repartizarea profitului şi acoperirea pierderilor
+   line 428  art.23
+      old: ## Articolul 23. Componenţa organelor de conducere,
+      new: ## Articolul 23. Componenţa organelor de conducere, modul de numire şi revocare a membrilor acestora
+   line 476  art.24^1
+      old: ## Articolul 24^1. Cabinetul Guvernatorului și Corpul
+      new: ## Articolul 24^1. Cabinetul Guvernatorului și Corpul de control al Guvernatorului
+   line 561  art.32
+      old: ## Articolul 32. Interesele personale ale membrilor
+      new: ## Articolul 32. Interesele personale ale membrilor organelor de conducere
+   line 627  art.38
+      old: ## Articolul 38. Consultări şi informaţii asupra
+      new: ## Articolul 38. Consultări şi informaţii asupra împrumuturilor sectorului public
+   line 658  art.44
+      old: ## Articolul 44. Supravegherea şi reglementarea activităţii
+      new: ## Articolul 44. Supravegherea şi reglementarea activităţii băncilor persoane juridice din Republica Moldova și a sucursalelor băncilor din alte state
+   line 686  art.49^1
+      old: ## Articolul 49^1. Reglementarea, licențierea, autorizarea
+      new: ## Articolul 49^1. Reglementarea, licențierea, autorizarea și monitorizarea infrastructurilor pieței financiare, schemelor, aranjamentelor și instrumentelor de plată care funcționează în Republica Moldova
+   line 704  art.49^2
+      old: ## Articolul 49^2. Depozitarul central unic al valorilor
+      new: ## Articolul 49^2. Depozitarul central unic al valorilor mobiliare
+   line 708  art.49^3
+      old: ## Articolul 49^3. Acordarea serviciilor de clearing
+      new: ## Articolul 49^3. Acordarea serviciilor de clearing şi de plată
+   line 712  art.49^4
+      old: ## Articolul 49^4. Licențierea administratorilor
+      new: ## Articolul 49^4. Licențierea administratorilor infrastructurilor pieței financiare
+   line 733  art.49^5
+      old: ## Articolul 49^5. Autorizarea autorităților de guvernanță
+      new: ## Articolul 49^5. Autorizarea autorităților de guvernanță a schemelor sau aranjamentelor de plată
+   line 751  art.49^6
+      old: ## Articolul 49^6. Retragerea autorizației autorităților
+      new: ## Articolul 49^6. Retragerea autorizației autorităților de guvernanță a schemelor sau aranjamentelor de plată
+   line 795  art.55
+      old: ## Articolul 55. Acordurile internaţionale de plată
+      new: ## Articolul 55. Acordurile internaţionale de plată şi de clearing
+   line 806  art.57
+      old: ## Articolul 57. Dreptul de a emite bancnote
+      new: ## Articolul 57. Dreptul de a emite bancnote şi monede metalice
+   line 818  art.60
+      old: ## Articolul 60. Imprimarea bancnotelor şi baterea
+      new: ## Articolul 60. Imprimarea bancnotelor şi baterea monedelor metalice
+   line 861  art.69
+      old: ## Articolul 69. Prezentarea şi publicarea situaţiilor
+      new: ## Articolul 69. Prezentarea şi publicarea situaţiilor financiare şi rapoartelor
+   line 925  art.75
+      old: ## Articolul 75. Sancțiuni, măsuri sancționatoare,
+      new: ## Articolul 75. Sancțiuni, măsuri sancționatoare, măsuri de supraveghere și alte măsuri de remediere
+   line 964  art.75^2
+      old: ## Articolul 75^2. Aplicarea sancţiunilor, a măsurilor
+      new: ## Articolul 75^2. Aplicarea sancţiunilor, a măsurilor sancționatoare, a măsurilor de supraveghere şi a măsurilor de remediere
+raw/papers/bnm\legal-ro\L-550-1995.md: 7 title(s) fixed
+   line 122  art.38^1
+      old: ## Articolul 38^1. Prevederi generale referitor la lichidarea
+      new: ## Articolul 38^1. Prevederi generale referitor la lichidarea silită a băncii
+   line 236  art.38^7
+      old: ## Articolul 38^7. Acţiunile întreprinse de lichidator.
+      new: ## Articolul 38^7. Acţiunile întreprinse de lichidator. Procedura de vânzare a băncii, de predare a activelor şi de predare a obligaţiilor băncii
+   line 313  art.38^9
+      old: ## Articolul 38^9. Măsurile prealabile onorării creanţelor
+      new: ## Articolul 38^9. Măsurile prealabile onorării creanţelor faţă de bancă
+   line 333  art.38^10
+      old: ## Articolul 38^10. Contestaţiile privind măsurile prealabile
+      new: ## Articolul 38^10. Contestaţiile privind măsurile prealabile onorării creanţelor faţă de bancă
+   line 339  art.38^11
+      old: ## Articolul 38^11. Onorarea creanţelor faţă de bancă
+      new: ## Articolul 38^11. Onorarea creanţelor faţă de bancă şi priorităţi la onorare
+   line 381  art.38^12
+      old: ## Articolul 38^12. Darea de seamă. Încheierea procesului
+      new: ## Articolul 38^12. Darea de seamă. Încheierea procesului de lichidare
+   line 397  art.38^15
+      old: ## Articolul 38^15. Răspunderea pentru intrarea
+      new: ## Articolul 38^15. Răspunderea pentru intrarea în insolvabilitate a băncii
+raw/papers/bnm\legal-ro\L-62-2008.md: 48 title(s) fixed
+   line 124  art.4
+      old: ## Articolul 4. Dispoziţii generale referitoare
+      new: ## Articolul 4. Dispoziţii generale referitoare la operaţiunile valutare
+   line 147  art.5
+      old: ## Articolul 5. Dispoziţii referitoare la operaţiunile
+      new: ## Articolul 5. Dispoziţii referitoare la operaţiunile valutare curente
+   line 160  art.6
+      old: ## Articolul 6. Dispoziţii generale referitoare
+      new: ## Articolul 6. Dispoziţii generale referitoare la operaţiunile valutare de capital
+   line 300  art.13
+      old: ## Articolul 13. Operaţiuni în conturi curente
+      new: ## Articolul 13. Operaţiuni în conturi curente şi în conturi de depozit la bănci licențiate/bănci nerezidente
+   line 361  art.17
+      old: ## Articolul 17. Plăţi şi transferuri în cadrul operaţiunilor
+      new: ## Articolul 17. Plăţi şi transferuri în cadrul operaţiunilor valutare curente şi de capital
+   line 366  art.18
+      old: ## Articolul 18. Plăţi şi transferuri ale nerezidenţilor
+      new: ## Articolul 18. Plăţi şi transferuri ale nerezidenţilor în/din Republica Moldova
+   line 371  art.19
+      old: ## Articolul 19. Transferuri unilaterale ale rezidenţilor
+      new: ## Articolul 19. Transferuri unilaterale ale rezidenţilor şi nerezidenţilor pe teritoriul Republicii
+   line 377  art.20
+      old: ## Articolul 20. Plăţi şi transferuri între rezidenţi
+      new: ## Articolul 20. Plăţi şi transferuri între rezidenţi şi nerezidenţi pe teritoriul
+   line 388  art.21
+      old: ## Articolul 21. Plăţi şi transferuri în valută străină
+      new: ## Articolul 21. Plăţi şi transferuri în valută străină între rezidenţi pe teritoriul
+   line 425  art.23
+      old: ## Articolul 23. Plăţi şi transferuri în/din străinătate
+      new: ## Articolul 23. Plăţi şi transferuri în/din străinătate între rezidenţi
+   line 459  art.24
+      old: ## Articolul 24. Plăți și transferuri între nerezidenți
+      new: ## Articolul 24. Plăți și transferuri între nerezidenți pe teritoriul Republicii Moldova
+   line 463  art.25
+      old: ## Articolul 25. Alte prevederi aferente plăţilor
+      new: ## Articolul 25. Alte prevederi aferente plăţilor şi transferurilor
+   line 480  art.26
+      old: ## Articolul 26. Utilizarea numerarului şi a cecurilor
+      new: ## Articolul 26. Utilizarea numerarului şi a cecurilor de călătorie în valută străină
+   line 539  art.27
+      old: ## Articolul 27. Utilizarea cardurilor în cadrul
+      new: ## Articolul 27. Utilizarea cardurilor în cadrul operaţiunilor valutare
+   line 550  art.28
+      old: ## Articolul 28. Dispoziţii generale privind importul
+      new: ## Articolul 28. Dispoziţii generale privind importul şi exportul valorilor valutare
+   line 555  art.29
+      old: ## Articolul 29. Introducerea şi scoaterea numerarului
+      new: ## Articolul 29. Introducerea şi scoaterea numerarului în monedă naţională şi a numerarului şi cecurilor de călătorie în valută străină de către persoane fizice
+   line 569  art.30
+      old: ## Articolul 30. Introducerea şi scoaterea numerarului
+      new: ## Articolul 30. Introducerea şi scoaterea numerarului în valută străină şi în monedă naţională şi a cecurilor de călătorie în valută străină de către persoane juridice
+   line 591  art.31
+      old: ## Articolul 31. Autorizaţii/permisiuni pentru scoaterea
+      new: ## Articolul 31. Autorizaţii/permisiuni pentru scoaterea mijloacelor băneşti din Republica Moldova
+   line 604  art.32
+      old: ## Articolul 32. Introducerea şi scoaterea valorilor
+      new: ## Articolul 32. Introducerea şi scoaterea valorilor mobiliare şi a instrumentelor de plată
+   line 610  art.33
+      old: ## Articolul 33. Declararea valorilor valutare care
+      new: ## Articolul 33. Declararea valorilor valutare care se introduc în/se scot din Republica
+   line 624  art.34
+      old: ## Articolul 34. Alte dispoziţii privind importul
+      new: ## Articolul 34. Alte dispoziţii privind importul şi exportul valorilor valutare
+   line 639  art.35
+      old: ## Articolul 35. Dispoziţii generale privind piaţa
+      new: ## Articolul 35. Dispoziţii generale privind piaţa valutară
+   line 646  art.36
+      old: ## Articolul 36. Participanţii autorizaţi ai pieţei
+      new: ## Articolul 36. Participanţii autorizaţi ai pieţei valutare
+   line 653  art.37
+      old: ## Articolul 37. Operaţiunile de schimb valutar
+      new: ## Articolul 37. Operaţiunile de schimb valutar ale rezidenţilor şi nerezidenţilor în Republica Moldova
+   line 665  art.38
+      old: ## Articolul 38. Operaţiunile de schimb valutar
+      new: ## Articolul 38. Operaţiunile de schimb valutar ale rezidenţilor în străinătate
+   line 680  art.40
+      old: ## Articolul 40. Cursurile de cumpărare şi vînzare
+      new: ## Articolul 40. Cursurile de cumpărare şi vînzare a valutelor străine
+   line 692  art.41
+      old: ## Articolul 41. Prevederi generale referitoare
+      new: ## Articolul 41. Prevederi generale referitoare la unităţile de schimb valutar
+   line 716  art.42
+      old: ## Articolul 42. Prevederi generale privind condiţiile
+      new: ## Articolul 42. Prevederi generale privind condiţiile de activitate a unităţilor de schimb valutar
+   line 757  art.42^1
+      old: ## Articolul 42^1. Prevederi generale privind condiţiile
+      new: ## Articolul 42^1. Prevederi generale privind condiţiile de utilizare a aparatelor de schimb valutar
+   line 779  art.43
+      old: ## Articolul 43. Cursurile de cumpărare şi vînzare
+      new: ## Articolul 43. Cursurile de cumpărare şi vînzare şi comisioanele unităţilor de schimb valutar
+   line 808  art.44
+      old: ## Articolul 44. Particularităţile activităţii caselor
+      new: ## Articolul 44. Particularităţile activităţii caselor de schimb valutar
+   line 823  art.45
+      old: ## Articolul 45. Particularităţile activităţii de schimb
+      new: ## Articolul 45. Particularităţile activităţii de schimb valutar în numerar cu persoane fizice a băncilor licenţiate
+   line 830  art.46
+      old: ## Articolul 46. Particularităţile activităţii de schimb
+      new: ## Articolul 46. Particularităţile activităţii de schimb valutar în numerar cu persoane fizice a hotelurilor
+   line 839  art.47
+      old: ## Articolul 47. Documentele necesare pentru obţinerea
+      new: ## Articolul 47. Documentele necesare pentru obţinerea licenţei Băncii Naţionale a Moldovei
+   line 905  art.48
+      old: ## Articolul 48. Hotărîrea privind eliberarea licenţei
+      new: ## Articolul 48. Hotărîrea privind eliberarea licenţei sau respingerea cererii de eliberare a licenţei
+   line 929  art.50
+      old: ## Articolul 50. Sfera de acţiune şi termenul
+      new: ## Articolul 50. Sfera de acţiune şi termenul de valabilitate a licenţei
+   line 934  art.51
+      old: ## Articolul 51. Modificarea datelor conţinute în cererea
+      new: ## Articolul 51. Modificarea datelor conţinute în cererea de eliberare a licenţei și în documentele anexate
+   line 1034  art.57
+      old: ## Articolul 57. Dispoziţii generale privind controlul
+      new: ## Articolul 57. Dispoziţii generale privind controlul valutar
+   line 1064  art.59
+      old: ## Articolul 59. Împuternicirile organelor controlului
+      new: ## Articolul 59. Împuternicirile organelor controlului valutar
+   line 1083  art.61
+      old: ## Articolul 61. Drepturile şi obligaţiile rezidenţilor
+      new: ## Articolul 61. Drepturile şi obligaţiile rezidenţilor şi nerezidenţilor
+   line 1102  art.62
+      old: ## Articolul 62. Particularităţile controlului activităţii
+      new: ## Articolul 62. Particularităţile controlului activităţii unităţilor de schimb valutar
+   line 1126  art.63
+      old: ## Articolul 63. Sancţiuni aplicate unităţilor de schimb
+      new: ## Articolul 63. Sancţiuni aplicate unităţilor de schimb valutar
+   line 1139  art.64
+      old: ## Articolul 64. Emiterea avertismentului casei
+      new: ## Articolul 64. Emiterea avertismentului casei de schimb valutar şi hotelului
+   line 1146  art.64^1
+      old: ## Articolul 64^1. Aplicarea şi perceperea incontestabilă
+      new: ## Articolul 64^1. Aplicarea şi perceperea incontestabilă a amenzilor casei de schimb valutar şi hotelului
+   line 1152  art.65
+      old: ## Articolul 65. Suspendarea și reluarea activității
+      new: ## Articolul 65. Suspendarea și reluarea activității de schimb valutar a casei de schimb valutar și a hotelului
+   line 1178  art.66
+      old: ## Articolul 66. Retragerea licenţei eliberate casei
+      new: ## Articolul 66. Retragerea licenţei eliberate casei de schimb valutar, hotelului
+   line 1204  art.67
+      old: ## Articolul 67. Prezentarea rapoartelor privind
+      new: ## Articolul 67. Prezentarea rapoartelor privind operaţiunile valutare
+   line 1221  art.68
+      old: ## Articolul 68. Răspunderea pentru încălcarea
+      new: ## Articolul 68. Răspunderea pentru încălcarea legislaţiei valutare
+
+TOTAL: 256 heading(s) across 306 file(s) fixed

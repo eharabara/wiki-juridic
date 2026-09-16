@@ -117,14 +117,20 @@ article from a future-dated act, and say in the answer which version applies tod
   point at it. It does not read acts structured in points below act level, does not read the EU
   extracts for edges, and still does not know whether a cited act that the vault does **not** hold is
   in force. The graph is not citable; it says which anchor to open.
-- `_meta/lint/` — the lint scripts and their outputs. **Do not run
-  `run_cnpf_legal_lint.py`.** It is the July script and it has not survived the D4 rewrite of
-  SCHEMA.md: it reports all 757 page tags invalid (its allowlist scrapes a format that no longer
-  exists, so it comes back empty), calls the ten explicit `_archive/` wikilinks broken (it predates
-  `path_only_targets`), reads only `raw/papers/cnpf/`, and — the reason not to run it — **appends a
-  D8-breaking entry to `log.md` and rewrites the file to CRLF** every time. Its committed reports
-  from 9 July, 4 and 5 September are kept as history; read them with that in mind. The findings are
-  in `_meta/lint/audit-2026-09-05-full.md`, section A. `validate_wiki.py` is the live checker.
+- `_meta/lint/` — the lint scripts and their outputs. `run_cnpf_legal_lint.py` (the July script
+  that never survived the D4 rewrite of SCHEMA.md: it reported all 757 page tags invalid, called
+  the ten explicit `_archive/` wikilinks broken, read only `raw/papers/cnpf/`, and appended a
+  D8-breaking entry to `log.md` while rewriting the file to CRLF every run) was **retired on
+  2026-09-16**: its two useful checks are ported into `validate_wiki.py` as `page.orphan` (inbound
+  `[[wikilinks]]` from other structured pages, using the resolver instead of stem-matching) and
+  `citation.raw-page-level` (a bracket citation naming a whole raw file with no `art./pct./anexa`
+  locator), the latter generalised to every root under `raw/papers/`, not just `cnpf/`. The script
+  itself is deleted; its committed reports from 9 July, 4 and 5 September stay as history, findings
+  in `_meta/lint/audit-2026-09-05-full.md`, section A. `validate_wiki.py` is the only lint script
+  now, and its two new checks currently surface 4 orphan pages and ~149 page-level citations
+  (up from the 22 the July script found under its narrower `cnpf/`-only scope and a smaller
+  corpus) — this is a wider net finding a pre-existing gap, not a new one; the pages themselves
+  are unfixed.
 - `_meta/imports/` — the ingestion and anchoring scripts.
 - `_meta/plans/` — working plans and recorded gaps.
 - `_archive/cnpf-wiki-ro-2026-07/` — the July ancestor of this wiki, kept for its original
@@ -139,9 +145,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-16 10:40 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-16 13:47 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-79 primary Moldovan acts, 29 EU acquis extracts, 1 Association Agreement extract(s), 293 BNM corpus documents.
+79 primary Moldovan acts, 32 EU acquis extracts, 1 Association Agreement extract(s), 293 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -192,11 +198,11 @@ Generated 2026-09-16 10:40 from the files themselves. Do not edit this section b
 | `L-160-2023` | 58 | 58 | 2023-10-01 | **3.0 years old** |
 | `L-160-2026` | 46 | 46 | 2026-08-23 | clean |
 | `L-171-2012` | 156 | 156 | 2027-06-01 | **consolidation dated in the future**; 18 superscript articles normalised |
-| `L-177-2025` | 4 | 4 | 2025-07-21 | 4 articles numbered in Roman figures; stale count line in body says 0 |
-| `L-178-2020` | 8 | 8 | 2020-09-18 | 8 articles numbered in Roman figures; stale count line in body says 0 |
+| `L-177-2025` | 4 | 4 | 2025-07-21 | 4 articles numbered in Roman figures |
+| `L-178-2020` | 8 | 8 | 2020-09-18 | 8 articles numbered in Roman figures |
 | `L-181-2023` | 50 | 50 | 2026-06-26 | 1 superscript article normalised |
 | `L-183-2012` | 110 | 110 | 2025-12-31 | 15 superscript articles normalised |
-| `L-192-1998` | 34 | 34 | 2026-01-01 | 3 superscript articles normalised; stale count line in body says 0 |
+| `L-192-1998` | 34 | 34 | 2026-01-01 | 3 superscript articles normalised |
 | `L-195-2024` | 90 | 90 | 2026-08-23 | clean |
 | `L-198-2007` | 54 | 54 | 2026-08-06 | 17 superscript articles normalised |
 | `L-198-2020` | 64 | 64 | 2025-10-25 | clean |
@@ -228,10 +234,9 @@ Generated 2026-09-16 10:40 from the files themselves. Do not edit this section b
 ### Mechanical flags
 
 - **Repealed acts.** no longer in force: `L-133-2011` (repealed 2026-08-23 by LP195 din 25.07.24). These files are kept because other acts in the corpus still cite them and because the text governs facts before the repeal date. They are anchored, their sha256 verifies and their consolidation is recent, so nothing else here would reveal that they stopped binding. Do not cite them as law in force; cite the successor and say from when it applies.
-- **Not yet in force.** 13 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-1134-1997` (2028-01-01), `L-171-2012` (2027-06-01), `COD-122-2003` (2026-12-02), `COD-154-2003` (2027-01-01), `COD-218-2008` (2026-09-13), `COD-443-2004` (2026-12-02), `COD-985-2002` (2026-12-02), `HG-743-2024` (2026-12-30), `L-1543-1998` (2027-01-01), `L-158-2008` (2026-09-13), `L-325-2025` (2027-01-01), `L-845-1992` (2027-01-01), `L-114-2012` (2027-01-01). 49 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
+- **Not yet in force.** 13 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-1134-1997` (2028-01-01), `L-171-2012` (2027-06-01), `COD-122-2003` (2026-12-02), `COD-154-2003` (2027-01-01), `COD-218-2008` (2026-09-13), `COD-443-2004` (2026-12-02), `COD-985-2002` (2026-12-02), `HG-743-2024` (2026-12-30), `L-1543-1998` (2027-01-01), `L-158-2008` (2026-09-13), `L-325-2025` (2027-01-01), `L-845-1992` (2027-01-01), `L-114-2012` (2027-01-01). 54 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
 - **Declared unconstitutional.** 19 act(s) carry at least one Constitutional Court decision in their history block, 76 decisions in total: 16 still marked at article level in the text itself, 95 more recovered by reading the legis.md version history (`_meta/hcc/recovered-provisions.json`), and 3 not yet attributed to any article. A struck provision looks like ordinary law: the article exists, the anchor is valid, the sha256 matches. Check `_meta/hcc/hcc-register.md` before citing an article from `COD-116-2018`, `COD-1163-1997`, `COD-122-2003`, `COD-154-2003`, `COD-174-2018`, `COD-218-2008`, `COD-225-2003`, `COD-443-2004`, `COD-985-2002`, `L-1260-2002`, `L-135-2007`, `L-149-2012`, `L-158-2008`, `L-514-1995`, `L-548-1995`, `L-64-2010`, `L-845-1992` and say which decision struck it and what today's text actually holds.
 - **Stale consolidations.** `L-250-2017` (2018-03-29), `HBN-130-2013` (2018-12-23), `HBN-127-2013` (2021-05-09), `HCNPF-14-5-2016` (2022-05-06), `UA-STATUT-2011` (2022-05-27), `L-160-2023` (2023-10-01), `L-148-2023` (2024-01-08), `L-64-2010` (2024-01-23), `DCA-61-2024` (2024-05-05), `HG-1171-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `HG-574-2024` (2024-08-23). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
-- **Stale count line inside the file.** `L-177-2025` (body says 0, anchors 4), `L-178-2020` (body says 0, anchors 8), `L-192-1998` (body says 0, anchors 34). The frontmatter is right and the anchors are right; the human-readable line in the body was written by the original ingest and never updated. Cosmetic, but it is the line a reader sees first.
 - **BNM English corpus.** 60 file(s) carry 149 line-initial `Article N` markers and no anchors. Any answer resting on the English BNM translations is not anchored.
 
 <!-- COVERAGE:END -->
@@ -350,19 +355,23 @@ Do not resolve these on your own. Raise them if a matter touches them.
    297-300/2015, under art. V of Law 147/2015) is therefore **not** the explanation, which is what
    was suspected here before; the stubs survived it and were removed a year later.
 
-7. **The in-force register does not read acts structured in points.** Found 2026-09-05, after
-   `HG-743-2024` entered the corpus. That act carries six deferred provisions, all in force from
-   30 December 2026: pct. 33 subpct. 33.3, pct. 50, pct. 61 subpct. 61.6, pct. 82, pct. 115 and
-   anexa nr. 9, each rewritten or introduced by HG341 of 24.06.26. The register collapses all six
-   into one entry labelled `HG-743-2024 art. 355`. There is no art. 355 in this act: 355 is the
-   Official Monitor article number of the amending act (MO284-287/30.06.26 art.355). The twelve
-   source lines are recorded, so nothing is lost, but nothing is findable either. A reader
-   checking whether pct. 82 applies today, which working rule 4 makes mandatory before citing,
-   searches the register for `pct. 82` and finds nothing. Government decisions are cited by point,
-   so this is the normal shape of a whole class of act, not an edge case. The fix belongs in
-   `_meta/inforce/build_inforce_register.py`, with a regression run across all acts, and is not to
-   be made in passing. Until it is made: for any hotărâre de Guvern, read the amendment
-   brackets in the raw file itself rather than trusting the register's article label.
+7. **Done 2026-09-16. The in-force register now reads acts structured in points.** Found
+   2026-09-05, after `HG-743-2024` entered the corpus: the register collapsed the act's six
+   deferred provisions (pct. 33 subpct. 33.3, pct. 50, pct. 61 subpct. 61.6, pct. 82, pct. 115,
+   anexa nr. 9) into one entry labelled `HG-743-2024 art. 355` — 355 being the Official Monitor
+   article number of the amending act (`MO284-287/30.06.26 art.355`), not an article of
+   `HG-743-2024`. Root cause: `ART_IN_NOTE` in `build_inforce_register.py` searched for `Art\.N`
+   **anywhere** in the bracketed note, and every note ends with that same MO reference, so its
+   `art.355` was the only thing a points-only act ever matched. Fix: the locator patterns
+   (`ART_IN_NOTE`, and two new ones, `PCT_IN_NOTE` and `ANEXA_IN_NOTE`) are now anchored with `^`
+   to the very start of the note, tried in that order, so the MO reference at the tail is never
+   reachable — this also closes the same latent hole for article-structured acts, not just
+   `HG-743-2024`. The register now carries all six provisions as separate, searchable rows
+   (`pct. 82` finds one; it didn't before) — 54 provisions across 10 acts, up from 49 (the one
+   fake row minus, six real ones plus). `HBN-127-2013`, `HCNPF-14-5-2016`, `HCNPF-38-5-2015` have
+   the same bracket shape but only past `în vigoare` dates today, so they didn't yet exercise the
+   bug; the fix is general, not a patch scoped to one act. For any hotărâre de Guvern, the
+   register is now the right place to check a point, same as an article.
 
 Resolved on 2026-09-04 and kept here so it is not re-raised: art. 21 of `L-192-1998` was absent
 with no basis in the source. The refreshed consolidation contains it. No action needed.
@@ -377,26 +386,62 @@ with no basis in the source. The refreshed consolidation contains it. No action 
    consolidations, and hashes the assembled file. Verify with `verify_business_law.py` in the same
    folder. Do not add general law or codes to the CNPF script's `DOCS`: it writes into
    `raw/papers/cnpf/`, the wrong perimeter.
-2. **Decide whether to unwrap the wrapped bodies. Not the Civil Code: it is already clean.**
-   Corrected 2026-09-05 after measuring the files rather than trusting this line. `CC-1107-2002`
-   has **22 mid-sentence continuations out of 13,190 non-empty lines, 0.2 percent**, and no anchor
-   whose title is cut by a line break. The "60.2 percent" figure written here predates the clean
-   re-ingest of 4 September and was never updated. The concern is real but belongs to the other
-   acts, measured excluding enumerations (`a)`, `(1)`, …):
+2. **Done 2026-09-16. Titles cut by a line break are unwrapped, corpus-wide, headings only.**
+   Method: `_meta/imports/anchoring/fix_wrapped_titles.py`, reusing the DANGLING/STOP continuation
+   heuristic already validated for the Civil Code (`anchor_cc.collect_article_title`). For every
+   `## Articolul N. <fragment>` heading, it decides whether the line(s) immediately below are the
+   missing tail of the title and, if so, rewrites **only that heading line's text** — the
+   continuation line(s) stay in the body untouched, byte-for-byte, exactly the shape already
+   accepted for the Civil Code's own pre-existing joins. Backed up first to
+   `C:\Users\harab\wiki-backups\wiki-2026-09-16-line-unwrap\`; every one of the 61 changed files
+   proved, by script, strip-and-compare byte-identical against that backup with every `#`-heading
+   line removed from both sides — not just against its own pre-edit copy. **4,973 headings fixed**
+   across 61 files (`raw/papers/moldova-legal/`, `raw/papers/cnpf/`, `raw/papers/bnm/`); reports in
+   `_meta/lint/title-unwrap-2026-09-16-*.txt`.
+
+   **This revises, not confirms, the "Civil Code is already clean" finding of 2026-09-05.** That
+   finding was true when written — `CC-1107-2002` had gone through `anchor_cc.py`'s join logic on
+   4 September and measured 22 continuations out of 13,190 lines. The refresh of **2026-09-06**
+   (`refreshed: '2026-09-06'` in its frontmatter, pulling fresh doc_id 150498) replaced that
+   anchored file with a new raw extraction that did **not** carry the join logic forward, silently
+   reintroducing the same wrap defect as every other `ingest_business_law.py` file. This job found
+   **1,097** wrapped titles in `CC-1107-2002` as it stood on 2026-09-16, not 22 — a regression that
+   sat undetected for ten days because nothing re-measured the claim after the refresh. Fixed now,
+   same file, same method. **Lesson for the next legis.md refresh of an already-anchored act:**
+   confirm the refresh preserves prior title-joins, or re-run this script afterward — a refresh can
+   silently undo point-in-time anchoring work.
+
+   Two heuristic bugs were found and fixed while building the script, both against real corpus
+   examples, before any file was written: (a) a heading with **no title at all** (`## Articolul N.`
+   followed directly by body text — final/transitional articles genuinely have no title, e.g.
+   `COD-218-2008` arts. 481-483) was wrongly absorbing the first body sentence, via the
+   "two-sentence title" branch triggering on a title that ends in `.` with nothing before it — fixed
+   by never attempting a join when the heading carries no text at all after `Articolul N.`. (b) a
+   bare-numbered paragraph style (`1. Text`, no parentheses — `L-845-1992`, a 1992 act) wasn't
+   recognised as a stop boundary, so `Articolul 22`'s already-complete title absorbed all of
+   paragraph `1.` — fixed by adding `\d+\.` to the stop patterns alongside `(1)`. Both were caught
+   by manually reading samples before writing, not by the script's own self-check (which only
+   proves headings-stripped equality, not title correctness) — a reminder that the mechanical proof
+   and the semantic proof are different checks, and this job needed both.
+
+   Original scope (measured 2026-09-05, before the CC-1107-2002 regression was known), kept for
+   the record — the per-act split above is now superseded by the corpus-wide 4,973 figure:
 
    | act | non-empty lines | true continuations | |
    |---|---:|---:|---:|
    | `COD-985-2002` (penal) | 4,827 | 1,338 | **27.7%** |
    | `L-62-2022` (publicitate) | 705 | 82 | 11.6% |
    | `L-171-2012` (piața de capital) | 2,364 | 162 | 6.9% |
-   | `CC-1107-2002` (civil) | 13,190 | 22 | 0.2% |
+   | `CC-1107-2002` (civil) | 13,190 | 22 | 0.2% (stale — see above; refresh reintroduced it) |
 
-   Corpus-wide, **3,097 anchors carry a title cut in half by a line break**, and every one of the
-   42 anchored acts is affected: worst in `COD-218-2008` (466), `COD-122-2003` (301),
-   `COD-985-2002` (276), `COD-95-2021` (205), `COD-1163-1997` (203). The practical harm is that a
-   title search fails and a quoted heading is incomplete — `## Articolul 7. Stabilirea, modificarea
-   şi anularea` in Codul fiscal loses `impozitelor şi taxelor de stat şi locale` to the next line.
-   Separate operation, own backup and own diff.
+   The count below (**3,097**, 42 acts) was the pre-2026-09-16 estimate, from `raw/papers/moldova-legal/`
+   only and before the CC-1107-2002 regression was known; it is superseded by the **4,973** figure
+   above, which covers all three raw roots and is the number actually fixed. New worst-hit list,
+   by heading count: `CC-1107-2002` (1,097 — all from the 2026-09-06 regression, see above),
+   `COD-218-2008` (468), `COD-122-2003` (302), `COD-985-2002` (276), `COD-154-2003` (253). The
+   practical harm was that a title search failed and a quoted heading was incomplete —
+   `## Articolul 7. Stabilirea, modificarea şi anularea` in Codul fiscal lost `impozitelor şi
+   taxelor de stat şi locale` to the next line; searching that full phrase now finds it.
 3. Done 2026-09-05. `entities/L-177-2025.md` exists, and the raw-path references in the two code
    pages and in `emir-concordance-skeleton` are now wikilinks. Checked mechanically at the same
    time, not assumed: every primary act under `raw/papers/cnpf/` and `raw/papers/moldova-legal/`
@@ -460,7 +505,9 @@ with no basis in the source. The refreshed consolidation contains it. No action 
    burden-of-proof regimes mapped across this perimeter; and it is the natural counterweight to
    the non-contestable CNPF alert in art. 4^1(7) of `L-171-2012`, which forecloses challenge to
    the administrative act but says nothing about a separate defamation claim.
-4. The stale count lines flagged below, if they bother you. They are cosmetic.
+4. Done 2026-09-16. The three stale count lines are fixed: `L-177-2025` (0 → 4),
+   `L-178-2020` (0 → 8), `L-192-1998` (0 → 34). `sha256` re-verified for all three; the
+   generated coverage flag above clears on the next `build_coverage.py` run.
 5. **Restructuring of 2026-09-05, steps P0 to P6 done** (plan in `_meta/plans/`, log in `log.md`,
    history in git from commit `12e819d`). Still open from that plan: P2 the private GitHub
    repository (local git only so far; Eugen names the repository), P7 provenance stamps on the
@@ -484,9 +531,9 @@ with no basis in the source. The refreshed consolidation contains it. No action 
      recorded in open question 3, which is the real item: compare the remaining runs against
      legis.md's *earlier* versions before calling any of them a source defect. Then the art. 52
      anchor in open question 4.
-   - Retire or rewrite `run_cnpf_legal_lint.py`. Two of its checks are worth porting into
-     `validate_wiki.py` because nothing else does them: **orphan pages** and **page-level raw
-     references** (a claim cited to a whole file rather than to an article, 21 of them).
+   - Done 2026-09-16. `run_cnpf_legal_lint.py` is retired (deleted); its two checks are ported
+     into `validate_wiki.py` as `page.orphan` and `citation.raw-page-level`, the latter
+     generalised beyond `cnpf/`. See the `_meta/lint/` entry above for counts.
    - Done 2026-09-05. **The 278 `raw.language-other` warnings are resolved: 262 `en`, 15 `ro`, and
      the warning count is down from 280 to 3.** Only frontmatter changed; the declared `sha256`
      covers the body and all 378 raw files still verify, which is the proof no body byte moved.

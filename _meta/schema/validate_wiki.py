@@ -174,6 +174,25 @@ def check_hcc_citations(rp, base, body_text, hcc_known, rep):
                          f"struck ({hccs})")
 
 
+RAW_PAGE_CITE = re.compile(r"\[(raw/papers/[^\]\s]+\.md)(?:\s+([^\]]+))?\]")
+CITE_HAS_LOCATOR = re.compile(r"\b(?:art(?:icolul)?|pct|punctul|anexa)\.?\s*[0-9ivxlcdm]", re.IGNORECASE)
+
+
+def check_raw_page_level_refs(rp, body_text, rep):
+    """Avertizeaza cand o citare intre paranteze trimite la un fisier raw intreg, fara
+    niciun locator (art./pct./anexa) in partea de detaliu -- portat din
+    run_cnpf_legal_lint.py (constatarea A3 a auditului din 2026-09-05), generalizat la
+    toate radacinile raw/papers/, nu doar cnpf/ (asa cum scriptul vechi le limita, defectul
+    A4 al aceluiasi audit).
+    """
+    text = re.sub(r"```.*?```", "", body_text, flags=re.S)
+    for m in RAW_PAGE_CITE.finditer(text):
+        detail = m.group(2) or ""
+        if not CITE_HAS_LOCATOR.search(detail):
+            rep.warn("citation.raw-page-level",
+                     f"{rp}: cites `{m.group(1)}` with no article/point locator in the bracket")
+
+
 def main():
     show_all = "--all" in sys.argv
     do_hash = "--no-hash" not in sys.argv
@@ -228,6 +247,7 @@ def main():
     # ------------------------------------------------------------------ structured pages
     fm_rules = spec["frontmatter"]["structured"]
     pages = {}   # rel path -> dict(type, perimeter, ...)
+    inbound = defaultdict(int)   # rel path -> count of wikilinks from other structured pages
     for folder, allowed_types in structured_folders.items():
         for p in walk_md(folder):
             rp = rel(p)
@@ -296,10 +316,16 @@ def main():
                     rep.error("link.unresolved", f"{rp} -> [[{l}]]")
                 elif "/" not in l and tgt.split("/")[0] in spec["wikilinks"]["path_only_targets"]:
                     rep.error("link.path-only", f"{rp} -> [[{l}]] resolves into `{tgt}`; use the explicit path")
+                else:
+                    inbound[tgt] += 1
             pages[rp] = {"type": ty, "perimeter": perim, "base": os.path.basename(rp)[:-3]}
             if folder == "entities":
                 check_hcc_citations(rp, pages[rp]["base"], body_text, hcc_known, rep)
+            check_raw_page_level_refs(rp, body_text, rep)
     stats["structured pages"] = len(pages)
+    for rp in pages:
+        if inbound.get(rp, 0) == 0:
+            rep.warn("page.orphan", f"{rp}: no inbound [[wikilink]] from another structured page")
 
     # ------------------------------------------------------------------ index.md
     idx_spec = spec["index"]

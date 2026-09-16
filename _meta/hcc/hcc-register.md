@@ -34,7 +34,7 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 
 | act | articol | subunitate | intindere | hotarire | MO | sursa |
 |---|---|---|---|---|---|---|
-| `COD-116-2018` | 225 | alin. (3) | in parte | HCC27/2020-11-13 | MO332-342/11.12.20 art.183 | marcaj in text, l.1589 |
+| `COD-116-2018` | 225 | alin. (3) | in parte | HCC27/2020-11-13 | MO332-342/11.12.20 art.183 | marcaj in text, l.1598 |
 | `COD-116-2018` | 225 | alin. (3) | in parte | HCC17/2020-06-23 | MO188-192/24.07.20 art.100 | versiunea 122610 @ 2020-06-23, verificat 2026-09-15 |
 | `COD-1163-1997` | 3 | alin. (3) | subunitate | HCC12/1999-03-11 | MO27-28/23.03.99 art.21 | versiunea 79116 @ 1999-03-11, verificat 2026-09-08 |
 | `COD-1163-1997` | 288 |  | in parte | HCC2/2014-01-28 | MO80-85/04.04.14 art.10 | versiunea 79268 @ 2014-01-28, verificat 2026-09-08 |
@@ -53,9 +53,9 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `COD-1163-1997` | 226^16 | alin. (1^1) | text din articol („prin derogare de la art. 131 alin. (5); în scopul examinării cazurilor de evaziune fiscală…”) | HCC22/2020-08-06 | MO221-225/28.08.20 art.121 | versiunea 122989 @ 2020-08-06, verificat 2026-09-08 |
 | `COD-1163-1997` | 6 | alin. (11) | subunitate | HCC5/2024-03-05 | MO141-143/09.04.24 art.50 | versiunea 142465 @ 2024-03-05, verificat 2026-09-08 |
 | `COD-1163-1997` | 264 | alin. (1) si (2) | text din articol („cu excepţia cazurilor prevăzute la alin. (2)”) | HCC10/2024-04-04 | MO177-180/18.04.24 art.57 | versiunea 142855 @ 2024-04-04, verificat 2026-09-08 |
-| `COD-122-2003` | 178 |  | omisiune legislativa | HCC19/2018-07-03 | MO267-275/20.07.18 art. 118 | marcaj in text, l.2912 |
-| `COD-122-2003` | 185 | al.(1) | subunitate | HCC27/2018-10-30 | MO430-439/23.11.18 art. 164 | marcaj in text, l.2987 |
-| `COD-122-2003` | 191 |  | omisiune legislativa | HCC17/2016-05-19 | MO232-244/29.07.16 art. 62 | marcaj in text, l.3084 |
+| `COD-122-2003` | 178 |  | omisiune legislativa | HCC19/2018-07-03 | MO267-275/20.07.18 art. 118 | marcaj in text, l.2921 |
+| `COD-122-2003` | 185 | al.(1) | subunitate | HCC27/2018-10-30 | MO430-439/23.11.18 art. 164 | marcaj in text, l.2996 |
+| `COD-122-2003` | 191 |  | omisiune legislativa | HCC17/2016-05-19 | MO232-244/29.07.16 art. 62 | marcaj in text, l.3093 |
 | `COD-122-2003` | 421 |  | text din articol („prin intermediul avocatului; În cazul în care recursul prevăzut în prezentul articol este …”) | HCC16/2005-07-19 | MO101-103/29.07.05 art.12 | versiunea 17232 @ 2005-07-19, verificat 2026-09-08 |
 | `COD-122-2003` | 433 | alin. (1) | subunitate | HCC16/2005-07-19 | MO101-103/29.07.05 art.12 | versiunea 17232 @ 2005-07-19, verificat 2026-09-08 |
 | `COD-122-2003` | 452 | alin. (1) | text din articol („prin intermediul avocatului”) | HCC16/2005-07-19 | MO101-103/29.07.05 art.12 | versiunea 17232 @ 2005-07-19, verificat 2026-09-08 |
@@ -79,25 +79,25 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `COD-122-2003` | 276^1 | alin. (7) | in parte | HCC29/2021-09-21 | MO256-260/22.10.21 art.184 | versiunea 126190 @ 2021-09-23, verificat 2026-09-08 |
 | `COD-122-2003` | 132^9 | alin. (15) | text din articol („şi decide care din comunicările înregistrate urmează a fi nimicite, desemnând persoanele r…”) | HCC31/2021-09-23 | MO264-265/29.10.21 art.187 | versiunea 126190 @ 2021-09-23, verificat 2026-09-08 |
 | `COD-122-2003` | 321 | alin. (2) pct. 3) | text din articol („examinării unor cauze privitor la săvârșirea unor infracțiuni ușoare”) | HCC3/2023-01-24 | MO31-34/03.02.23 art.14 | versiunea 135679 @ 2023-01-24, verificat 2026-09-08 |
-| `COD-154-2003` | 90 | al.(2), lit. a) | text din articol („într-o mărime care nu va depăşi 12 salarii medii lunare ale salariatului”) | HCC9/2025-07-22 | MO430-433/14.08.25 art.105 | marcaj in text, l.1299 |
+| `COD-154-2003` | 90 | al.(2), lit. a) | text din articol („într-o mărime care nu va depăşi 12 salarii medii lunare ale salariatului”) | HCC9/2025-07-22 | MO430-433/14.08.25 art.105 | marcaj in text, l.1308 |
 | `COD-154-2003` | 87 | al.(2) | subunitate | HCC3/2020-02-04 | MO63-68/28.02.20 art.37 | versiunea 120714 @ 2020-02-04, verificat 2026-09-15 |
 | `COD-154-2003` | 87 | al.(1) | subunitate | HCC34/2017-12-08 | MO33-39/02.02.18 art.6 | versiunea 100133 @ 2017-12-08, verificat 2026-09-15 |
 | `COD-154-2003` | 87 | al.(3) | subunitate | HCC3/2020-02-04 | MO63-68/28.02.20 art.37 | versiunea 120714 @ 2020-02-04, verificat 2026-09-15 |
-| `COD-174-2018` | 28 | al.(1) | text din articol („şi funcționează sub formă de societăți comerciale”) | HCC6/2022-03-10 | MO80-87/25.03.22 art.43 | marcaj in text, l.608 |
+| `COD-174-2018` | 28 | al.(1) | text din articol („şi funcționează sub formă de societăți comerciale”) | HCC6/2022-03-10 | MO80-87/25.03.22 art.43 | marcaj in text, l.617 |
 | `COD-174-2018` | 66 | al.(7) | text din articol („şi vor exclude publicitatea şi teleshopping-ul din serviciile media audiovizuale străine r…”) | HCC36/2021-11-23 | MO302-306/10.12.21 art.211 | versiunea 129017 @ 2021-11-23, verificat 2026-09-15 |
-| `COD-218-2008` | 427 | alin.(2) | text din articol („ridicarea informației privind convorbirile telefonice”) | HCC26/2024-12-12 | MO529-532/18.12.24 art. 200 | marcaj in text, l.6735 |
-| `COD-218-2008` | 445 |  | articol intreg | HCC32/2018-11-29 | MO513-525/28.12.18 art. 189 | marcaj in text, l.7083 |
+| `COD-218-2008` | 427 | alin.(2) | text din articol („ridicarea informației privind convorbirile telefonice”) | HCC26/2024-12-12 | MO529-532/18.12.24 art. 200 | marcaj in text, l.6744 |
+| `COD-218-2008` | 445 |  | articol intreg | HCC32/2018-11-29 | MO513-525/28.12.18 art. 189 | marcaj in text, l.7092 |
 | `COD-218-2008` | 67^1 |  | articol intreg | HCC12/2013-06-04 | MO167-172/02.08.13 art.22 | versiunea 6776 @ 2013-06-04, verificat 2026-09-08 |
 | `COD-218-2008` | 345 | alin. (2) | text din articol („amendă de 300 de unităţi convenţionale aplicată persoanei juridice [literele d) şi e)] şi …”) | HCC10/2016-05-10 | MO204-205/12.07.16 art.58 | versiunea 93895 @ 2016-07-12, verificat 2026-09-08 |
 | `COD-218-2008` | 34 | alin. (3) | text din articol („din momentul stabilirii ei”) | HCC7/2018-04-26 | MO176-180/01.06.18 art.88 | versiunea 108178 @ 2018-04-26, verificat 2026-09-08 |
 | `COD-218-2008` | 233 | alin. (3) | text din articol („amendă de la 400 la 500 de unități convenționale sau cu muncă neremunerată în folosul comu…”) | HCC11/2018-05-08 | MO195-209/15.06.18 art.97 | versiunea 108180 @ 2018-05-08, verificat 2026-09-08 |
-| `COD-225-2003` | 1 |  | articol intreg | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | marcaj in text, l.299 |
-| `COD-225-2003` | 39 | alin. (11^1) | subunitate | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | marcaj in text, l.532 |
-| `COD-225-2003` | 44 | alin. (6)-(8) | subunitate | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | marcaj in text, l.593 |
-| `COD-225-2003` | 308^8 |  | articol intreg | HCC12/2024-04-23 | MO192-194/02.05.24 art.68 | marcaj in text, l.2725 |
-| `COD-225-2003` | 343^6 |  | text din articol („și de apreciere a rezultatului testului de integritate profesională”) | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.3011 |
-| `COD-225-2003` | 343^8 |  | articol intreg | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.3024 |
-| `COD-225-2003` | 353 | al.(1) | text din articol („care nu se supune niciunei căi de atac”) | HCC7/2019-03-19 | MO119-131/05.04.19 art.64 | marcaj in text, l.3120 |
+| `COD-225-2003` | 1 |  | articol intreg | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | marcaj in text, l.308 |
+| `COD-225-2003` | 39 | alin. (11^1) | subunitate | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | marcaj in text, l.541 |
+| `COD-225-2003` | 44 | alin. (6)-(8) | subunitate | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | marcaj in text, l.602 |
+| `COD-225-2003` | 308^8 |  | articol intreg | HCC12/2024-04-23 | MO192-194/02.05.24 art.68 | marcaj in text, l.2734 |
+| `COD-225-2003` | 343^6 |  | text din articol („și de apreciere a rezultatului testului de integritate profesională”) | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.3020 |
+| `COD-225-2003` | 343^8 |  | articol intreg | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.3033 |
+| `COD-225-2003` | 353 | al.(1) | text din articol („care nu se supune niciunei căi de atac”) | HCC7/2019-03-19 | MO119-131/05.04.19 art.64 | marcaj in text, l.3129 |
 | `COD-225-2003` | 416 | alin. (3) | text din articol („cu excepţia faptului că în această instanţă părţile vor participa, în mod obligatoriu, pri…”) | HCC2/2004-02-19 | MO39-41/05.03.04 art.9 | versiunea 81050 @ 2004-02-19, verificat 2026-09-08 |
 | `COD-225-2003` | 444 | alin. (3) | text din articol („în mod obligatoriu, prin intermediul avocatului sau al unui alt reprezentant licenţiat în …”) | HCC2/2004-02-19 | MO39-41/05.03.04 art.9 | versiunea 81050 @ 2004-02-19, verificat 2026-09-08 |
 | `COD-225-2003` | 449 | lit. f) | in parte | HCC16/2013-06-25 | MO177-181/16.08.13 art.24 | versiunea 81103 @ 2014-01-24, verificat 2026-09-08 |
@@ -135,7 +135,7 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-149-2012` | 32 |  | omisiune legislativa („mecanism pentru recuperarea cheltuielilor efectuate în avans şi pentru încasarea remuneraț…”) | HCC8/2022-04-05 | MO106-114/15.04.22 art.57 | versiunea 130929 @ 2022-04-05, verificat 2026-09-15 |
 | `L-149-2012` | 84 |  | omisiune legislativa („durata maximă pentru care poate fi dispusă obligația de a nu părăsi teritoriul țării sau l…”) | HCC21/2020-08-04 | MO205-211/14.08.20 art.110 | versiunea 123197 @ 2020-08-04, verificat 2026-09-15 |
 | `L-158-2008` | 53 | lit.c) | subunitate | HCC6/2016-03-03 | MO123-127/06.05.16 art.37 | versiunea 92576 @ 2016-03-03, verificat 2026-09-15 |
-| `L-514-1995` | 15^1 | al.(5) | subunitate | HCC7/2020-03-24 | MO115-117/15.05.20 art.51 | marcaj in text, l.224 |
+| `L-514-1995` | 15^1 | al.(5) | subunitate | HCC7/2020-03-24 | MO115-117/15.05.20 art.51 | marcaj in text, l.233 |
 | `L-514-1995` | 23^2 | al.(4) | revigorare | HCC17/2021-06-10 | MO153-157/25.06.21 art.99 | versiunea 127868 @ 2021-06-10, verificat 2026-09-15 |
 | `L-514-1995` | 22 | al.(1) teza I | revigorare („Mijloacele financiare necesare bunei funcționări a instanțelor judecătorești sunt aprobate…”) | HCC27/2019-10-31 | MO352-359/29.11.19 art.210 | versiunea 119115 @ 2019-10-31, verificat 2026-09-15 |
 | `L-514-1995` | 15 | al.(2) | revigorare | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | versiunea 93910 @ 2012-02-09, verificat 2026-09-15 |

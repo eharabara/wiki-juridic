@@ -1,0 +1,917 @@
+raw/papers/cnpf\L-1-2018.md: 13 title(s) fixed
+   line 85  art.4
+      old: ## Articolul 4. Scopul și principiile de activitate ale
+      new: ## Articolul 4. Scopul și principiile de activitate ale organizațiilor de creditare nebancară
+   line 98  art.5
+      old: ## Articolul 5. Statutul juridic al organizației de creditare
+      new: ## Articolul 5. Statutul juridic al organizației de creditare nebancară. Efectuarea operațiunilor
+   line 121  art.7
+      old: ## Articolul 7. Informația confidențială referitoare
+      new: ## Articolul 7. Informația confidențială referitoare la client
+   line 149  art.8
+      old: ## Articolul 8. Activitățile organizației de creditare
+      new: ## Articolul 8. Activitățile organizației de creditare nebancară
+   line 187  art.12
+      old: ## Articolul 12. Exigențe față de administratori
+      new: ## Articolul 12. Exigențe față de administratori deținători
+   line 236  art.16
+      old: ## Articolul 16. Informarea organizației de creditare
+      new: ## Articolul 16. Informarea organizației de creditare nebancară. Interzicerea modificării documentelor avizate
+   line 249  art.18
+      old: ## Articolul 18. Registrul organizațiilor de creditare
+      new: ## Articolul 18. Registrul organizațiilor de creditare nebancară autorizate
+   line 266  art.19
+      old: ## Articolul 19. Înregistrarea organizațiilor de creditare
+      new: ## Articolul 19. Înregistrarea organizațiilor de creditare nebancară în Registru
+   line 275  art.20
+      old: ## Articolul 20. Suspendarea/reluarea activității
+      new: ## Articolul 20. Suspendarea/reluarea activității și radierea din Registru
+   line 300  art.21
+      old: ## Articolul 21. Contabilitatea, situațiile financiare
+      new: ## Articolul 21. Contabilitatea, situațiile financiare și rapoartele specific
+   line 320  art.23
+      old: ## Articolul 23. Reglementarea și supravegherea
+      new: ## Articolul 23. Reglementarea și supravegherea activității organizațiilor de creditare nebancară
+   line 368  art.25
+      old: ## Articolul 25. Reorganizarea organizației
+      new: ## Articolul 25. Reorganizarea organizației de creditare nebancară
+   line 373  art.26
+      old: ## Articolul 26. Lichidarea organizației de creditare
+      new: ## Articolul 26. Lichidarea organizației de creditare nebancară
+raw/papers/cnpf\L-106-2022.md: 14 title(s) fixed
+   line 62  art.1
+      old: ## Articolul 1. Obiectul de reglementare și domeniul
+      new: ## Articolul 1. Obiectul de reglementare și domeniul de aplicare
+   line 168  art.8
+      old: ## Articolul 8. Încheierea contractului de asigurare
+      new: ## Articolul 8. Încheierea contractului de asigurare obligatorie RCA
+   line 187  art.9
+      old: ## Articolul 9. Contractul de asigurare obligatorie RCA.
+      new: ## Articolul 9. Contractul de asigurare obligatorie RCA. Limitele teritoriale
+   line 202  art.10
+      old: ## Articolul 10. Suspendarea, rezoluțiunea și încetarea
+      new: ## Articolul 10. Suspendarea, rezoluțiunea și încetarea contractului de asigurare obligatorie RCA
+   line 236  art.12
+      old: ## Articolul 12. Primele de asigurare.
+      new: ## Articolul 12. Primele de asigurare. Sistemul bonus-malus
+   line 365  art.19
+      old: ## Articolul 19. Drepturile și obligațiile persoanei
+      new: ## Articolul 19. Drepturile și obligațiile persoanei păgubite
+   line 402  art.21
+      old: ## Articolul 21. Constatarea amiabilă a accidentului
+      new: ## Articolul 21. Constatarea amiabilă a accidentului de vehicul
+   line 470  art.24
+      old: ## Articolul 24. Stabilirea despăgubirilor și indemnizațiilor
+      new: ## Articolul 24. Stabilirea despăgubirilor și indemnizațiilor de asigurare
+   line 490  art.25
+      old: ## Articolul 25. Stabilirea despăgubirilor de asigurare
+      new: ## Articolul 25. Stabilirea despăgubirilor de asigurare în cazul avarierii sau distrugerii vehiculului
+   line 516  art.26
+      old: ## Articolul 26. Stabilirea indemnizațiilor în cazul
+      new: ## Articolul 26. Stabilirea indemnizațiilor în cazul vătămării corporale și/sau al decesului
+   line 532  art.27
+      old: ## Articolul 27. Stabilirea despăgubirilor de asigurare
+      new: ## Articolul 27. Stabilirea despăgubirilor de asigurare în cazul vătămării sau pieirii animalelor
+   line 538  art.28
+      old: ## Articolul 28. Stabilirea despăgubirilor de asigurare
+      new: ## Articolul 28. Stabilirea despăgubirilor de asigurare în caz de avariere sau distrugere de alte bunuri
+   line 698  art.38
+      old: ## Articolul 38. Competențele BNAA-ului în calitate
+      new: ## Articolul 38. Competențele BNAA-ului în calitate de organism de plată a despăgubirilor de asigurare
+   line 738  art.41
+      old: ## Articolul 41. Competențele BNAA-ului privind
+      new: ## Articolul 41. Competențele BNAA-ului privind furnizarea informațiilor
+raw/papers/cnpf\L-1134-1997.md: 42 title(s) fixed
+   line 180  art.5
+      old: ## Articolul 5. Responsabilităţile societăţii cu capital
+      new: ## Articolul 5. Responsabilităţile societăţii cu capital integral sau majoritar de stat
+   line 199  art.8
+      old: ## Articolul 8. Organele de conducere și de control
+      new: ## Articolul 8. Organele de conducere și de control ale societății
+   line 275  art.14
+      old: ## Articolul 14. Acţiunile aflate în circulaţie şi acţiunile
+      new: ## Articolul 14. Acţiunile aflate în circulaţie şi acţiunile de tezaur
+   line 329  art.18
+      old: ## Articolul 18. Înscrierile în conturile de valori mobiliare
+      new: ## Articolul 18. Înscrierile în conturile de valori mobiliare și registrele Depozitarului central unic
+   line 439  art.24
+      old: ## Articolul 24. Răscumpărarea acţiunilor obţinute
+      new: ## Articolul 24. Răscumpărarea acţiunilor obţinute contra bonuri patrimoniale
+   line 481  art.26
+      old: ## Articolul 26. Apărarea drepturilor şi intereselor
+      new: ## Articolul 26. Apărarea drepturilor şi intereselor legitime ale acţionarilor
+   line 614  art.36
+      old: ## Articolul 36. Înregistrarea acţiunilor plasate
+      new: ## Articolul 36. Înregistrarea acţiunilor plasate la înfiinţarea societăţii. Efectuarea primelor înscrieri în conturile şi registrele Depozitarului central unic
+   line 808  art.48
+      old: ## Articolul 48. Adunarea generală a acţionarilor
+      new: ## Articolul 48. Adunarea generală a acţionarilor şi atribuţiile ei
+   line 846  art.49
+      old: ## Articolul 49. Formele şi termenele de ţinere a adunării
+      new: ## Articolul 49. Formele şi termenele de ţinere a adunării generale a acţionarilor
+   line 858  art.50
+      old: ## Articolul 50. Întocmirea ordinii de zi a adunării generale
+      new: ## Articolul 50. Întocmirea ordinii de zi a adunării generale ordinare anuale a acţionarilor
+   line 927  art.52
+      old: ## Articolul 52. Identificarea acționarilor și lista
+      new: ## Articolul 52. Identificarea acționarilor și lista acționarilor care au dreptul să participe la adunarea generală a acționarilor
+   line 948  art.53
+      old: ## Articolul 53. Informaţia despre ţinerea adunării
+      new: ## Articolul 53. Informaţia despre ţinerea adunării generale a acţionarilor
+   line 974  art.54
+      old: ## Articolul 54. Particularități privind ținerea adunării
+      new: ## Articolul 54. Particularități privind ținerea adunării generale prin mijloace electronice
+   line 984  art.55
+      old: ## Articolul 55. Materiale pentru ordinea de zi
+      new: ## Articolul 55. Materiale pentru ordinea de zi a adunării generale a acţionarilor
+   line 1006  art.56
+      old: ## Articolul 56. Înregistrarea participanților la adunarea
+      new: ## Articolul 56. Înregistrarea participanților la adunarea generală a acționarilor
+   line 1024  art.57
+      old: ## Articolul 57. Cvorumul şi convocarea repetată
+      new: ## Articolul 57. Cvorumul şi convocarea repetată a adunării generale a acţionarilor
+   line 1035  art.58
+      old: ## Articolul 58. Modul de desfăşurare a adunării
+      new: ## Articolul 58. Modul de desfăşurare a adunării generale a acţionarilor
+   line 1113  art.63
+      old: ## Articolul 63. Procesul-verbal al adunării generale
+      new: ## Articolul 63. Procesul-verbal al adunării generale a acţionarilor
+   line 1164  art.65
+      old: ## Articolul 65. Alegerea consiliului societăţii şi încetarea
+      new: ## Articolul 65. Alegerea consiliului societăţii şi încetarea împuternicirilor lui
+   line 1240  art.69
+      old: ## Articolul 69. Activitatea organului executiv
+      new: ## Articolul 69. Activitatea organului executiv al societăţii
+   line 1306  art.72
+      old: ## Articolul 72. Persoanele cu funcţii de răspundere
+      new: ## Articolul 72. Persoanele cu funcţii de răspundere ale societăţii
+   line 1322  art.72^1
+      old: ## Articolul 72^1. Cerințele privind aprobarea schemelor
+      new: ## Articolul 72^1. Cerințele privind aprobarea schemelor de remunerare a persoanelor cu funcții de răspundere ale societății cu acțiunile proprii
+   line 1347  art.73
+      old: ## Articolul 73. Răspunderea persoanelor cu funcţii
+      new: ## Articolul 73. Răspunderea persoanelor cu funcţii de răspundere ale societăţii
+   line 1374  art.73^1
+      old: ## Articolul 73^1. Domeniul de reglementare și de aplicare.
+      new: ## Articolul 73^1. Domeniul de reglementare și de aplicare. Noțiunile utilizate în sensul prezentului capitol
+   line 1387  art.73^2
+      old: ## Articolul 73^2. Echilibrul de gen în organele de conducere
+      new: ## Articolul 73^2. Echilibrul de gen în organele de conducere ale societăților ale căror acțiuni sunt admise spre tranzacționare pe o piață reglementată
+   line 1403  art.73^3
+      old: ## Articolul 73^3. Raportarea privind echilibrul de gen
+      new: ## Articolul 73^3. Raportarea privind echilibrul de gen în organele de conducere ale societăților ale căror acțiuni sunt admise spre tranzacționare pe o piață reglementată
+   line 1419  art.73^4
+      old: ## Articolul 73^4. Răspunderea pentru încălcarea obligațiilor
+      new: ## Articolul 73^4. Răspunderea pentru încălcarea obligațiilor privind echilibrul de gen în organele de conducere ale societăților ale căror acțiuni sunt admise spre tranzacționare pe o piață reglementată
+   line 1451  art.77
+      old: ## Articolul 77. Achiziționarea de către societate
+      new: ## Articolul 77. Achiziționarea de către societate a acțiunilor proprii
+   line 1509  art.79
+      old: ## Articolul 79. Convertirea valorilor mobiliare plasate
+      new: ## Articolul 79. Convertirea valorilor mobiliare plasate ale societăţii
+   line 1522  art.80
+      old: ## Articolul 80. Consolidarea şi fracţionarea acţiunilor
+      new: ## Articolul 80. Consolidarea şi fracţionarea acţiunilor societăţii
+   line 1539  art.82
+      old: ## Articolul 82. Decizia de încheiere de către societate
+      new: ## Articolul 82. Decizia de încheiere de către societate a unei tranzacţii de proporţii
+   line 1554  art.83
+      old: ## Articolul 83. Achiziţionarea unui număr de acţiuni
+      new: ## Articolul 83. Achiziţionarea unui număr de acţiuni care acordă controlul asupra societăţii
+   line 1564  art.84
+      old: ## Articolul 84. Noţiunea de tranzacţie cu conflict
+      new: ## Articolul 84. Noţiunea de tranzacţie cu conflict de interese
+   line 1586  art.85
+      old: ## Articolul 85. Decizia privind încheierea de către societate
+      new: ## Articolul 85. Decizia privind încheierea de către societate a tranzacţiei cu conflict de interese
+   line 1626  art.86
+      old: ## Articolul 86. Contabilitatea, situațiile financiare
+      new: ## Articolul 86. Contabilitatea, situațiile financiare și rapoartele specifice
+   line 1656  art.89
+      old: ## Articolul 89. Controlul de stat asupra activităţii
+      new: ## Articolul 89. Controlul de stat asupra activităţii societăţii
+   line 1665  art.90
+      old: ## Articolul 90. Publicarea informaţiei despre activitatea
+      new: ## Articolul 90. Publicarea informaţiei despre activitatea societăţii
+   line 1673  art.91
+      old: ## Articolul 91. Accesul acţionarilor la documentaţia
+      new: ## Articolul 91. Accesul acţionarilor la documentaţia societăţii
+   line 1755  art.95
+      old: ## Articolul 95. Excepții pentru fuziuni prin absorbție
+      new: ## Articolul 95. Excepții pentru fuziuni prin absorbție ale întreprinderilor în posesiune majoritară de 100%
+   line 1815  art.99
+      old: ## Articolul 99. Distribuirea bunurilor între acţionari
+      new: ## Articolul 99. Distribuirea bunurilor între acţionari la lichidarea societăţii
+   line 1834  art.101
+      old: ## Articolul 101. Particularităţile aplicării prezentei legi
+      new: ## Articolul 101. Particularităţile aplicării prezentei legi societăţilor agricole
+   line 1843  art.102
+      old: ## Articolul 102. Particularităţile aplicării prezentei legi
+      new: ## Articolul 102. Particularităţile aplicării prezentei legi societăţilor înfiinţate în procesul privatizării şi băncilor
+raw/papers/cnpf\L-122-2008.md: 12 title(s) fixed
+   line 94  art.4
+      old: ## Articolul 4. Principiile de formare a istoriilor de credit,
+      new: ## Articolul 4. Principiile de formare a istoriilor de credit, de păstrare, utilizare, prelucrare, transmitere şi distrugere a informaţiilor din istoriile de credit
+   line 151  art.6
+      old: ## Articolul 6. Prezentarea informaţiei la biroul istoriilor
+      new: ## Articolul 6. Prezentarea informaţiei la biroul istoriilor de credit
+   line 198  art.9
+      old: ## Articolul 9. Contractul de prestare a serviciilor
+      new: ## Articolul 9. Contractul de prestare a serviciilor informaționale
+   line 240  art.12
+      old: ## Articolul 12. Externalizarea funcţiilor biroului istoriilor
+      new: ## Articolul 12. Externalizarea funcţiilor biroului istoriilor de credit
+   line 278  art.14
+      old: ## Articolul 14. Atribuțiile consiliului biroului istoriilor
+      new: ## Articolul 14. Atribuțiile consiliului biroului istoriilor de credit
+   line 292  art.15
+      old: ## Articolul 15. Lichidarea şi reorganizarea biroului
+      new: ## Articolul 15. Lichidarea şi reorganizarea biroului istoriilor de credit
+   line 299  art.16
+      old: ## Articolul 16. Transmiterea informaţiilor din biroul istoriilor
+      new: ## Articolul 16. Transmiterea informaţiilor din biroul istoriilor de credit lichidat sau reorganizat ori din biroul istoriilor de credit a cărui licenţă a fost retrasă
+   line 312  art.17
+      old: ## Articolul 17. Reglementarea şi supravegherea activităţii
+      new: ## Articolul 17. Reglementarea şi supravegherea activităţii birourilor istoriilor de credit, surselor de formare a istoriilor de credit și utilizatorilor istoriilor de credit
+   line 354  art.18
+      old: ## Articolul 18. Licenţierea activităţii biroului istoriilor
+      new: ## Articolul 18. Licenţierea activităţii biroului istoriilor de credit
+   line 401  art.20
+      old: ## Articolul 20. Protecția secretului comercial, a secretului
+      new: ## Articolul 20. Protecția secretului comercial, a secretului bancar și a informației confidențiale referitoare la clientul organizației de creditare nebancară de către persoanele cu funcții de răspundere din cadrul biroului istoriilor de credit
+   line 412  art.21
+      old: ## Articolul 21. Modul de includere în istoriile de credit
+      new: ## Articolul 21. Modul de includere în istoriile de credit a informațiilor referitoare la contractele de credit existente
+   line 417  art.22
+      old: ## Articolul 22. Particularităţile desfăşurării activităţii
+      new: ## Articolul 22. Particularităţile desfăşurării activităţii birourilor existente ale istoriilor de credit
+raw/papers/cnpf\L-139-2007.md: 14 title(s) fixed
+   line 80  art.4
+      old: ## Articolul 4. Scopul, principiile şi particularităţile
+      new: ## Articolul 4. Scopul, principiile şi particularităţile activităţii asociaţiei
+   line 101  art.6
+      old: ## Articolul 6. Organele de conducere şi de control
+      new: ## Articolul 6. Organele de conducere şi de control ale asociaţiei
+   line 172  art.11
+      old: ## Articolul 11. Răspunderea asociaţiei şi
+      new: ## Articolul 11. Răspunderea asociaţiei şi a membrilor ei
+   line 210  art.15
+      old: ## Articolul 15. Păstrarea documentelor şi accesul
+      new: ## Articolul 15. Păstrarea documentelor şi accesul la ele
+   line 241  art.17
+      old: ## Articolul 17. Condiţiile de obţinere a calităţii
+      new: ## Articolul 17. Condiţiile de obţinere a calităţii de membru
+   line 276  art.22
+      old: ## Articolul 22. Răspunderea pentru nerambursarea
+      new: ## Articolul 22. Răspunderea pentru nerambursarea împrumutului şi/sau neplata dobânzii aferente la scadenţă
+   line 359  art.29
+      old: ## Articolul 29. Categoriile licenţei şi condiţiile
+      new: ## Articolul 29. Categoriile licenţei şi condiţiile de licenţiere
+   line 370  art.30
+      old: ## Articolul 30. Declaraţia de eliberare sau cererea
+      new: ## Articolul 30. Declaraţia de eliberare sau cererea de reperfectare a licenţei
+   line 442  art.36
+      old: ## Articolul 36. Adunarea generală
+      new: ## Articolul 36. Adunarea generală şi competenţa ei
+   line 489  art.39
+      old: ## Articolul 39. Reprezentarea membrilor la adunarea
+      new: ## Articolul 39. Reprezentarea membrilor la adunarea generală
+   line 606  art.46
+      old: ## Articolul 46. Reglementarea şi supravegherea
+      new: ## Articolul 46. Reglementarea şi supravegherea activităţii asociaţiilor
+   line 724  art.51
+      old: ## Articolul 51. Scopul şi principiile activităţii
+      new: ## Articolul 51. Scopul şi principiile activităţii asociaţiei centrale
+   line 780  art.54
+      old: ## Articolul 54. Constituirea şi licenţierea asociaţiei
+      new: ## Articolul 54. Constituirea şi licenţierea asociaţiei centrale
+   line 793  art.55
+      old: ## Articolul 55. Organele de conducere şi de control
+      new: ## Articolul 55. Organele de conducere şi de control ale asociaţiei centrale. Auditul
+raw/papers/cnpf\L-171-2012.md: 61 title(s) fixed
+   line 137  art.4^1
+      old: ## Articolul 4^1. Interdicții cu privire la unele
+      new: ## Articolul 4^1. Interdicții cu privire la unele instrumente financiare derivate
+   line 305  art.7
+      old: ## Articolul 7. Dispoziţii generale privind emisiunea
+      new: ## Articolul 7. Dispoziţii generale privind emisiunea valorilor mobiliare
+   line 361  art.9
+      old: ## Articolul 9. Particularitățile admiterii spre
+      new: ## Articolul 9. Particularitățile admiterii spre plasare/tranzacționare pe o piață reglementată din Republica Moldova a valorilor mobiliare străine
+   line 393  art.10
+      old: ## Articolul 10. Evidenţa drepturilor asupra valorilor
+      new: ## Articolul 10. Evidenţa drepturilor asupra valorilor mobiliare
+   line 439  art.10^3
+      old: ## Articolul 10^3. Efectuarea înscrierilor în Sistemul
+      new: ## Articolul 10^3. Efectuarea înscrierilor în Sistemul informațional de evidență a drepturilor de proprietate asupra acțiunilor
+   line 466  art.10^4
+      old: ## Articolul 10^4. Prezentarea datelor și informației
+      new: ## Articolul 10^4. Prezentarea datelor și informației cuprinse în Sistem
+   line 481  art.11
+      old: ## Articolul 11. Transmiterea dreptului de proprietate
+      new: ## Articolul 11. Transmiterea dreptului de proprietate asupra valorilor mobiliare
+   line 497  art.13
+      old: ## Articolul 13. Dispoziţii generale privind oferta
+      new: ## Articolul 13. Dispoziţii generale privind oferta publică
+   line 581  art.19
+      old: ## Articolul 19. Competenţe şi responsabilităţi ale
+      new: ## Articolul 19. Competenţe şi responsabilităţi ale Comisiei Naţionale privind ofertele publice
+   line 605  art.20
+      old: ## Articolul 20. Reglementări generale privind
+      new: ## Articolul 20. Reglementări generale privind oferta de preluare
+   line 664  art.24
+      old: ## Articolul 24. Informarea asupra ofertei de preluare
+      new: ## Articolul 24. Informarea asupra ofertei de preluare şi aprobarea prospectului
+   line 686  art.25
+      old: ## Articolul 25. Publicarea prospectului şi publicitatea
+      new: ## Articolul 25. Publicarea prospectului şi publicitatea ofertei de preluare
+   line 718  art.28
+      old: ## Articolul 28. Responsabilităţile emitentului în cazul
+      new: ## Articolul 28. Responsabilităţile emitentului în cazul ofertei de preluare
+   line 827  art.34
+      old: ## Articolul 34. Reglementarea serviciilor şi activităţilor
+      new: ## Articolul 34. Reglementarea serviciilor şi activităţilor de investiţii
+   line 912  art.39
+      old: ## Articolul 39. Cerinţe faţă de persoanele care
+      new: ## Articolul 39. Cerinţe faţă de persoanele care administrează activitatea societăţii de investiţii și față de angajații acesteia
+   line 936  art.40
+      old: ## Articolul 40. Cerinţe faţă de persoanele cu participaţiuni
+      new: ## Articolul 40. Cerinţe faţă de persoanele cu participaţiuni calificate
+   line 982  art.40^1
+      old: ## Articolul 40^1. Anularea, emiterea şi vînzarea
+      new: ## Articolul 40^1. Anularea, emiterea şi vînzarea participaţiilor deţinute cu nerespectarea cerinţelor privind calitatea acţionariatului în capitalul societăţii de investiţii
+   line 1147  art.47^1
+      old: ## Articolul 47^1. Identificarea acționarilor ale căror
+      new: ## Articolul 47^1. Identificarea acționarilor ale căror valori mobiliare sunt transmise în custodie
+   line 1193  art.50
+      old: ## Articolul 50. Externalizarea funcţiilor operaţionale
+      new: ## Articolul 50. Externalizarea funcţiilor operaţionale importante şi esenţiale
+   line 1230  art.51
+      old: ## Articolul 51. Executarea ordinelor în condiţiile
+      new: ## Articolul 51. Executarea ordinelor în condiţiile cele mai favorabile clienţilor
+   line 1243  art.52
+      old: ## Articolul 52. Obligaţiile ce ţin de contractarea
+      new: ## Articolul 52. Obligaţiile ce ţin de contractarea unui agent delegat
+   line 1262  art.54
+      old: ## Articolul 54. Libertatea de a presta servicii
+      new: ## Articolul 54. Libertatea de a presta servicii şi de a desfăşura activităţi
+   line 1286  art.56
+      old: ## Articolul 56. Accesul la depozitarul central
+      new: ## Articolul 56. Accesul la depozitarul central şi la sistemele de clearing şi decontare
+   line 1316  art.59
+      old: ## Articolul 59. Cerinţele privind transparenţa după
+      new: ## Articolul 59. Cerinţele privind transparenţa după tranzacţionare
+   line 1328  art.60
+      old: ## Articolul 60. Dispoziţii generale privind operatorii
+      new: ## Articolul 60. Dispoziţii generale privind operatorii de piaţă şi pieţele reglementate
+   line 1357  art.62
+      old: ## Articolul 62. Cerinţe privind activitatea
+      new: ## Articolul 62. Cerinţe privind activitatea operatorilor de piaţă
+   line 1440  art.66
+      old: ## Articolul 66. Admiterea spre tranzacţionare
+      new: ## Articolul 66. Admiterea spre tranzacţionare pe pieţe reglementate a instrumentelor financiare
+   line 1452  art.67
+      old: ## Articolul 67. Admiterea spre tranzacţionare
+      new: ## Articolul 67. Admiterea spre tranzacţionare pe piaţa reglementată a valorilor mobiliare corporative
+   line 1479  art.68
+      old: ## Articolul 68. Admiterea spre tranzacţionare pe piaţa
+      new: ## Articolul 68. Admiterea spre tranzacţionare pe piaţa reglementată a valorilor mobiliare emise de Ministerul Finanţelor, de Banca Naţională a Moldovei, de autorităţile administraţiei publice locale şi de organismele internaţionale cu caracter public
+   line 1491  art.69
+      old: ## Articolul 69. Tranzacţionarea instrumentelor
+      new: ## Articolul 69. Tranzacţionarea instrumentelor financiare pe piaţa reglementată
+   line 1502  art.70
+      old: ## Articolul 70. Suspendarea tranzacţionării
+      new: ## Articolul 70. Suspendarea tranzacţionării şi retragerea instrumentelor financiare
+   line 1575  art.77
+      old: ## Articolul 77. Admiterea spre tranzacţionare
+      new: ## Articolul 77. Admiterea spre tranzacţionare în cadrul MTF a valorilor mobiliare emise de Ministerul Finanţelor, de Banca Naţională a Moldovei, de autorităţile administraţiei publice locale şi de organismele internaţionale cu caracter public
+   line 1589  art.79
+      old: ## Articolul 79. Clearingul şi decontarea instrumentelor
+      new: ## Articolul 79. Clearingul şi decontarea instrumentelor financiare
+   line 1605  art.88^1
+      old: ## Articolul 88^1. Dispoziții generale privind agențiile
+      new: ## Articolul 88^1. Dispoziții generale privind agențiile de rating de credit
+   line 1612  art.88^2
+      old: ## Articolul 88^2. Înregistrarea și supravegherea
+      new: ## Articolul 88^2. Înregistrarea și supravegherea agențiilor de rating de credit
+   line 1646  art.88^3
+      old: ## Articolul 88^3. Cerințe generale privind activitatea
+      new: ## Articolul 88^3. Cerințe generale privind activitatea agențiilor de rating de rating de credit
+   line 1658  art.88^4
+      old: ## Articolul 88^4. Reglementarea activității agențiilor
+      new: ## Articolul 88^4. Reglementarea activității agențiilor de rating de credit
+   line 1695  art.90
+      old: ## Articolul 90. Eliberarea avizului prealabil
+      new: ## Articolul 90. Eliberarea avizului prealabil la constituirea OPCVM
+   line 1775  art.97
+      old: ## Articolul 97. Subscrierea unităţilor de fond ale
+      new: ## Articolul 97. Subscrierea unităţilor de fond ale fondului de investiţii
+   line 1789  art.98
+      old: ## Articolul 98. Răscumpărarea unităţilor de fond ale
+      new: ## Articolul 98. Răscumpărarea unităţilor de fond ale fondului de investiţii
+   line 1815  art.100
+      old: ## Articolul 100. Activitatea societăţii de administrare
+      new: ## Articolul 100. Activitatea societăţii de administrare fiduciară a investiţiilor
+   line 1821  art.101
+      old: ## Articolul 101. Cheltuielile fondului de investiţii
+      new: ## Articolul 101. Cheltuielile fondului de investiţii şi cheltuielile deţinătorilor de unităţi de fond
+   line 1876  art.104
+      old: ## Articolul 104. Competenţa societăţii de administrare
+      new: ## Articolul 104. Competenţa societăţii de administrare fiduciară a investiţiilor
+   line 1893  art.105
+      old: ## Articolul 105. Obligaţiile societăţii de administrare
+      new: ## Articolul 105. Obligaţiile societăţii de administrare fiduciară a investiţiilor. Restricţii faţă de societatea de administrare fiduciară a investiţiilor
+   line 1915  art.106
+      old: ## Articolul 106. Contractul de administrare fiduciară
+      new: ## Articolul 106. Contractul de administrare fiduciară a investiţiilor
+   line 2049  art.117
+      old: ## Articolul 117. Societăţile pe acţiuni a căror activitate
+      new: ## Articolul 117. Societăţile pe acţiuni a căror activitate conţine caracteristicile activităţii OPCVM
+   line 2060  art.118
+      old: ## Articolul 118. Dispoziții generale privind dezvăluirea
+      new: ## Articolul 118. Dispoziții generale privind dezvăluirea informației
+   line 2115  art.122
+      old: ## Articolul 122. Declaraţiile intermediare ale conducerii
+      new: ## Articolul 122. Declaraţiile intermediare ale conducerii emitentului
+   line 2124  art.123
+      old: ## Articolul 123. Evenimentele care influenţează
+      new: ## Articolul 123. Evenimentele care influenţează emitentul
+   line 2140  art.125
+      old: ## Articolul 125. Dezvăluirea informaţiei privind
+      new: ## Articolul 125. Dezvăluirea informaţiei privind deţinerile importante de acţiuni
+   line 2158  art.126
+      old: ## Articolul 126. Alte cerinţe privind dezvăluirea
+      new: ## Articolul 126. Alte cerinţe privind dezvăluirea informaţiei
+   line 2168  art.126^1
+      old: ## Articolul 126^1. Dezvăluirea informației privind
+      new: ## Articolul 126^1. Dezvăluirea informației privind persoanele afiliate
+   line 2212  art.129
+      old: ## Articolul 129. Obligaţiile persoanelor licențiate
+      new: ## Articolul 129. Obligaţiile persoanelor licențiate sau autorizate pe piața de capital privind abuzurile pe piaţă
+   line 2238  art.131^1
+      old: ## Articolul 131^1. Compensarea clienţilor administratorilor
+      new: ## Articolul 131^1. Compensarea clienţilor administratorilor fiduciari
+   line 2247  art.131^2
+      old: ## Articolul 131^2. Compensarea acționarilor care nu
+      new: ## Articolul 131^2. Compensarea acționarilor care nu au primit contravaloarea acțiunilor în condițiile art. 30
+   line 2254  art.131^3
+      old: ## Articolul 131^3. Compensarea acționarilor fondurilor
+      new: ## Articolul 131^3. Compensarea acționarilor fondurilor de investiții nemutuale și ai fondurilor de investiții pentru privatizare
+   line 2303  art.135
+      old: ## Articolul 135. Obligaţiile societăţilor de investiţii
+      new: ## Articolul 135. Obligaţiile societăţilor de investiţii privind informarea clienţilor
+   line 2366  art.140
+      old: ## Articolul 140. Reglementarea prin licenţiere
+      new: ## Articolul 140. Reglementarea prin licenţiere şi autorizare
+   line 2416  art.141
+      old: ## Articolul 141. Supravegherea şi controlul
+      new: ## Articolul 141. Supravegherea şi controlul pieţei de capital
+   line 2493  art.146
+      old: ## Articolul 146. Încetarea activității pe piața de capital
+      new: ## Articolul 146. Încetarea activității pe piața de capital a persoanei licențiate sau autorizate
+   line 2516  art.146^1
+      old: ## Articolul 146^1. Încetarea activităţii pe piaţa de capital
+      new: ## Articolul 146^1. Încetarea activităţii pe piaţa de capital a administratorilor fiduciari
+raw/papers/cnpf\L-181-2023.md: 22 title(s) fixed
+   line 89  art.4
+      old: ## Articolul 4. Exigențe față de proiectele
+      new: ## Articolul 4. Exigențe față de proiectele de finanțare participativă
+   line 99  art.5
+      old: ## Articolul 5. Exigențe față de împrumuturile
+      new: ## Articolul 5. Exigențe față de împrumuturile de consum
+   line 129  art.7
+      old: ## Articolul 7. Exigențe față de persoanele cu funcții
+      new: ## Articolul 7. Exigențe față de persoanele cu funcții de răspundere ale furnizorului
+   line 141  art.8
+      old: ## Articolul 8. Contractarea serviciilor de finanțare
+      new: ## Articolul 8. Contractarea serviciilor de finanțare participativă
+   line 149  art.9
+      old: ## Articolul 9. Obligații de administrare prudentă,
+      new: ## Articolul 9. Obligații de administrare prudentă, integritate și diligență
+   line 164  art.10
+      old: ## Articolul 10. Accesul la informații și prelucrarea
+      new: ## Articolul 10. Accesul la informații și prelucrarea datelor cu caracter personal
+   line 192  art.14
+      old: ## Articolul 14. Prevenirea și dezvăluirea conflictelor
+      new: ## Articolul 14. Prevenirea și dezvăluirea conflictelor de interese
+   line 217  art.17
+      old: ## Articolul 17. Contabilitatea, situațiile financiare
+      new: ## Articolul 17. Contabilitatea, situațiile financiare și rapoartele specifice
+   line 232  art.19
+      old: ## Articolul 19. Documentația internă, păstrarea
+      new: ## Articolul 19. Documentația internă, păstrarea evidenței tranzacțiilor
+   line 263  art.22
+      old: ## Articolul 22. Prezentarea informațiilor cu privire
+      new: ## Articolul 22. Prezentarea informațiilor cu privire la rata de nerambursare
+   line 289  art.24
+      old: ## Articolul 24. Fișa cu informații esențiale privind
+      new: ## Articolul 24. Fișa cu informații esențiale privind investiția
+   line 313  art.25
+      old: ## Articolul 25. Fișa cu informații esențiale
+      new: ## Articolul 25. Fișa cu informații esențiale privind investiția pentru serviciile de administrare a portofoliilor individuale de împrumuturi
+   line 351  art.28
+      old: ## Articolul 28. Testarea cunoștințelor și simularea
+      new: ## Articolul 28. Testarea cunoștințelor și simularea capacității de a suporta pierderi
+   line 391  art.29
+      old: ## Articolul 29. Solicitarea dezvoltatorului de finanțare
+      new: ## Articolul 29. Solicitarea dezvoltatorului de finanțare participativă bazată pe împrumuturi
+   line 406  art.30
+      old: ## Articolul 30. Solicitarea debitorului-consumator
+      new: ## Articolul 30. Solicitarea debitorului-consumator de împrumut de consum prin finanțare participativă
+   line 420  art.31
+      old: ## Articolul 31. Acumularea mijloacelor bănești
+      new: ## Articolul 31. Acumularea mijloacelor bănești și încheierea contractului de împrumut
+   line 465  art.34
+      old: ## Articolul 34. Aplicabilitatea finanțării participative
+      new: ## Articolul 34. Aplicabilitatea finanțării participative bazate pe investiții
+   line 472  art.35
+      old: ## Articolul 35. Cerințe față de dezvoltatorul
+      new: ## Articolul 35. Cerințe față de dezvoltatorul proiectului de finanțare participativă bazată pe investiții
+   line 490  art.36
+      old: ## Articolul 36. Acumularea mijloacelor bănești
+      new: ## Articolul 36. Acumularea mijloacelor bănești și încheierea contractului de investiții
+   line 562  art.41
+      old: ## Articolul 41. Temeiuri de respingere a cererii
+      new: ## Articolul 41. Temeiuri de respingere a cererii de autorizare
+   line 570  art.42
+      old: ## Articolul 42. Registrul furnizorilor de servicii
+      new: ## Articolul 42. Registrul furnizorilor de servicii de finanțare participativă
+   line 604  art.43
+      old: ## Articolul 43. Atribuțiile și drepturile autorității
+      new: ## Articolul 43. Atribuțiile și drepturile autorității de supraveghere
+raw/papers/cnpf\L-198-2020.md: 15 title(s) fixed
+   line 126  art.6
+      old: ## Articolul 6. Cerinţe privind conţinutul prospectului
+      new: ## Articolul 6. Cerinţe privind conţinutul prospectului planului de pensii facultative. Modificarea prospectului planului de pensii facultative
+   line 156  art.7
+      old: ## Articolul 7. Mijloacele financiare ale fondului
+      new: ## Articolul 7. Mijloacele financiare ale fondului de pensii
+   line 232  art.12
+      old: ## Articolul 12. Activitatea de distribuție de planuri
+      new: ## Articolul 12. Activitatea de distribuție de planuri de pensii facultative
+   line 244  art.13
+      old: ## Articolul 13. Contul individual al participantului.
+      new: ## Articolul 13. Contul individual al participantului. Registrul deţinătorilor de unităţi de fond
+   line 386  art.25
+      old: ## Articolul 25. Activitățile desfășurate și serviciile
+      new: ## Articolul 25. Activitățile desfășurate și serviciile prestate de administrator
+   line 443  art.29
+      old: ## Articolul 29. Cerinţe faţă de persoanele care gestionează
+      new: ## Articolul 29. Cerinţe faţă de persoanele care gestionează activitatea administratorului
+   line 496  art.31
+      old: ## Articolul 31. Atribuțiile și responsabilitățile consiliului
+      new: ## Articolul 31. Atribuțiile și responsabilitățile consiliului administratorului
+   line 565  art.36
+      old: ## Articolul 36. Societatea de pensii.
+      new: ## Articolul 36. Societatea de pensii. Condiții de funcționare
+   line 573  art.37
+      old: ## Articolul 37. Cerinţe faţă de acţionarii societății de pensii.
+      new: ## Articolul 37. Cerinţe faţă de acţionarii societății de pensii. Participațiile calificate
+   line 591  art.38
+      old: ## Articolul 38. Obligația privind obținerea avizării
+      new: ## Articolul 38. Obligația privind obținerea avizării prealabile și restricții
+   line 692  art.42
+      old: ## Articolul 42. Modificarea datelor indicate în documentele
+      new: ## Articolul 42. Modificarea datelor indicate în documentele anexate la cererea pentru eliberarea licenței. Reperfectarea licenței și eliberarea duplicatului licenței
+   line 729  art.44
+      old: ## Articolul 44. Activitatea sucursalelor administratorilor
+      new: ## Articolul 44. Activitatea sucursalelor administratorilor din alte state
+   line 749  art.45
+      old: ## Articolul 45. Evaluarea calităţii administratorului
+      new: ## Articolul 45. Evaluarea calităţii administratorului din alt stat care solicită înfiinţarea sucursalei
+   line 782  art.48
+      old: ## Articolul 48. Atribuţiile şi activităţile desfăşurate
+      new: ## Articolul 48. Atribuţiile şi activităţile desfăşurate de depozitar
+   line 932  art.58
+      old: ## Articolul 58. Fondul de garantare a contribuţiilor
+      new: ## Articolul 58. Fondul de garantare a contribuţiilor în sistemul de pensii facultative
+raw/papers/cnpf\L-2-2020.md: 15 title(s) fixed
+   line 83  art.3
+      old: ## Articolul 3. Organisme de plasament colectiv
+      new: ## Articolul 3. Organisme de plasament colectiv alternative
+   line 91  art.4
+      old: ## Articolul 4. Tipurile și formele juridice
+      new: ## Articolul 4. Tipurile și formele juridice de organizare a OPCA
+   line 155  art.8
+      old: ## Articolul 8. Obiectivele și politica de investiții
+      new: ## Articolul 8. Obiectivele și politica de investiții ale OPCA
+   line 259  art.13
+      old: ## Articolul 13. Oferta publică de acțiuni sau
+      new: ## Articolul 13. Oferta publică de acțiuni sau unități de fond
+   line 295  art.14
+      old: ## Articolul 14. Emisiunea și răscumpărarea titlurilor
+      new: ## Articolul 14. Emisiunea și răscumpărarea titlurilor de participare ale OPCA
+   line 307  art.15
+      old: ## Articolul 15. Înregistrarea totalurilor emisiunii
+      new: ## Articolul 15. Înregistrarea totalurilor emisiunii și răscumpărării titlurilor de participare
+   line 343  art.17
+      old: ## Articolul 17. Tipurile de servicii și activități
+      new: ## Articolul 17. Tipurile de servicii și activități desfășurate de SAI
+   line 381  art.18
+      old: ## Articolul 18. Eliberarea licenței pentru activitatea
+      new: ## Articolul 18. Eliberarea licenței pentru activitatea de administrare a OPCA
+   line 404  art.19
+      old: ## Articolul 19. Modificarea datelor indicate în documentele anexate
+      new: ## Articolul 19. Modificarea datelor indicate în documentele anexate la cererea pentru eliberarea licenței. Reperfectarea și eliberarea duplicatului licenței
+   line 494  art.25
+      old: ## Articolul 25. Cerințe față de persoanele care administrează
+      new: ## Articolul 25. Cerințe față de persoanele care administrează activitatea SAI
+   line 575  art.32
+      old: ## Articolul 32. Atribuțiile și activitățile desfășurate
+      new: ## Articolul 32. Atribuțiile și activitățile desfășurate de depozitar
+   line 662  art.36
+      old: ## Articolul 36. Distribuirea acțiunilor și unităților
+      new: ## Articolul 36. Distribuirea acțiunilor și unităților de fond către investitorii de retail
+   line 716  art.39
+      old: ## Articolul 39. Dispoziții generale privind politica
+      new: ## Articolul 39. Dispoziții generale privind politica de investiții
+   line 763  art.41
+      old: ## Articolul 41. Politica de răscumpărare și durata
+      new: ## Articolul 41. Politica de răscumpărare și durata de funcționare a OPCITL
+   line 826  art.44
+      old: ## Articolul 44. Atribuțiile de supraveghere și control ale
+      new: ## Articolul 44. Atribuțiile de supraveghere și control ale Comisiei Naționale
+raw/papers/cnpf\L-234-2016.md: 14 title(s) fixed
+   line 90  art.3
+      old: ## Articolul 3. Statutul juridic al Depozitarului
+      new: ## Articolul 3. Statutul juridic al Depozitarului central unic. Decontări. Conturi
+   line 95  art.4
+      old: ## Articolul 4. Capitalul Depozitarului central unic.
+      new: ## Articolul 4. Capitalul Depozitarului central unic. Acționari
+   line 111  art.5
+      old: ## Articolul 5. Activitățile desfășurate de Depozitarul
+      new: ## Articolul 5. Activitățile desfășurate de Depozitarul central unic
+   line 172  art.9
+      old: ## Articolul 9. Organele de conducere ale Depozitarului
+      new: ## Articolul 9. Organele de conducere ale Depozitarului central unic
+   line 184  art.10
+      old: ## Articolul 10. Consiliul de supraveghere al
+      new: ## Articolul 10. Consiliul de supraveghere al Depozitarului central unic
+   line 192  art.11
+      old: ## Articolul 11. Organul executiv al Depozitarului
+      new: ## Articolul 11. Organul executiv al Depozitarului central unic
+   line 257  art.20
+      old: ## Articolul 20. Cerințele față de activitatea Depozitarului
+      new: ## Articolul 20. Cerințele față de activitatea Depozitarului central unic
+   line 267  art.21
+      old: ## Articolul 21. Evaluarea Depozitarului central unic
+      new: ## Articolul 21. Evaluarea Depozitarului central unic pînă la inițierea activității
+   line 393  art.40
+      old: ## Articolul 40. Protecția valorilor mobiliare ale
+      new: ## Articolul 40. Protecția valorilor mobiliare ale participanților și ale clienților acestora
+   line 425  art.42
+      old: ## Articolul 42. Acces în mod nediscriminatoriu,
+      new: ## Articolul 42. Acces în mod nediscriminatoriu, tratament egal, transparența prețurilor și comisioanelor
+   line 434  art.43
+      old: ## Articolul 43. Reguli și proceduri în cazul insolvabilității
+      new: ## Articolul 43. Reguli și proceduri în cazul insolvabilității unui participant
+   line 440  art.44
+      old: ## Articolul 44. Proceduri de comunicare cu participanții
+      new: ## Articolul 44. Proceduri de comunicare cu participanții și alte entități de infrastructură a pieței de capital
+   line 445  art.45
+      old: ## Articolul 45. Plățile și comisioanele aferente
+      new: ## Articolul 45. Plățile și comisioanele aferente serviciilor prestate
+   line 454  art.46
+      old: ## Articolul 46. Intrarea în vigoare și dispoziții finale
+      new: ## Articolul 46. Intrarea în vigoare și dispoziții finale și tranzitorii
+raw/papers/cnpf\L-308-2017.md: 19 title(s) fixed
+   line 146  art.5
+      old: ## Articolul 5. Măsurile standarde de precauție
+      new: ## Articolul 5. Măsurile standarde de precauție privind clienții
+   line 195  art.5^1
+      old: ## Articolul 5^1. Identificarea și verificarea identității
+      new: ## Articolul 5^1. Identificarea și verificarea identității clienților prin intermediul mijloacelor electronice
+   line 236  art.6
+      old: ## Articolul 6. Evaluarea riscurilor de spălare a banilor
+      new: ## Articolul 6. Evaluarea riscurilor de spălare a banilor și de finanțare a terorismului și abordarea bazată pe risc
+   line 260  art.7
+      old: ## Articolul 7. Măsurile de precauție simplificată
+      new: ## Articolul 7. Măsurile de precauție simplificată privind clienții
+   line 281  art.8
+      old: ## Articolul 8. Măsurile de precauție sporită
+      new: ## Articolul 8. Măsurile de precauție sporită privind clienții
+   line 354  art.8^2
+      old: ## Articolul 8^2. Contramăsurile privind țările (jurisdicțiile)
+      new: ## Articolul 8^2. Contramăsurile privind țările (jurisdicțiile) cu risc sporit desemnate/monitorizate de Grupul de Acțiune Financiară
+   line 402  art.11
+      old: ## Articolul 11. Raportarea activităților sau a tranzacțiilor
+      new: ## Articolul 11. Raportarea activităților sau a tranzacțiilor care cad sub incidența prezentei legi
+   line 457  art.13^1
+      old: ## Articolul 13^1. Instruirea și certificarea în domeniul
+      new: ## Articolul 13^1. Instruirea și certificarea în domeniul prevenirii și combaterii spălării banilor, finanțării terorismului și proliferării armelor de distrugere în masă
+   line 514  art.15
+      old: ## Articolul 15. Organele cu funcții de supraveghere
+      new: ## Articolul 15. Organele cu funcții de supraveghere a entităților raportoare
+   line 550  art.16
+      old: ## Articolul 16. Limitarea acțiunii secretelor protejate
+      new: ## Articolul 16. Limitarea acțiunii secretelor protejate prin lege
+   line 641  art.21
+      old: ## Articolul 21. Numirea şi eliberarea din funcţie
+      new: ## Articolul 21. Numirea şi eliberarea din funcţie a conducerii Serviciului
+   line 726  art.23^1
+      old: ## Articolul 23^1. Drepturile ofițerului de informații
+      new: ## Articolul 23^1. Drepturile ofițerului de informații financiare
+   line 744  art.23^2
+      old: ## Articolul 23^2. Obligațiile ofițerului de informații
+      new: ## Articolul 23^2. Obligațiile ofițerului de informații financiare
+   line 760  art.23^3
+      old: ## Articolul 23^3. Incompatibilități și restricții aplicabile
+      new: ## Articolul 23^3. Incompatibilități și restricții aplicabile ofițerului de informații financiare
+   line 806  art.25
+      old: ## Articolul 25. Temeiurile încetării activității
+      new: ## Articolul 25. Temeiurile încetării activității în cadrul Serviciului
+   line 844  art.27
+      old: ## Articolul 27. Garanţii şi dreptul la risc profesional
+      new: ## Articolul 27. Garanţii şi dreptul la risc profesional în exercitarea atribuţiilor
+   line 851  art.28
+      old: ## Articolul 28. Inadmisibilitatea imixtiunii în activitatea
+      new: ## Articolul 28. Inadmisibilitatea imixtiunii în activitatea ofițerului de informații financiare
+   line 875  art.30^1
+      old: ## Articolul 30^1. Stimularea profesională a ofițerului
+      new: ## Articolul 30^1. Stimularea profesională a ofițerului de informații financiare
+   line 934  art.34
+      old: ## Articolul 34. Implementarea sancțiunilor financiare
+      new: ## Articolul 34. Implementarea sancțiunilor financiare aferente activităților teroriste și de proliferare a armelor de distrugere în masa
+raw/papers/cnpf\L-92-2022.md: 60 title(s) fixed
+   line 167  art.5
+      old: ## Articolul 5. Asigurarea obligatorie și asigurarea
+      new: ## Articolul 5. Asigurarea obligatorie și asigurarea benevolă (facultativă)
+   line 188  art.8
+      old: ## Articolul 8. Asigurarea persoanelor fizice și juridice
+      new: ## Articolul 8. Asigurarea persoanelor fizice și juridice străine și a apatrizilor
+   line 271  art.12
+      old: ## Articolul 12. Motivele respingerii cererii
+      new: ## Articolul 12. Motivele respingerii cererii de licențiere
+   line 301  art.15
+      old: ## Articolul 15. Suspendarea licenței asigurătorului
+      new: ## Articolul 15. Suspendarea licenței asigurătorului sau reasigurătorului
+   line 322  art.16
+      old: ## Articolul 16. Retragerea licenței asigurătorului
+      new: ## Articolul 16. Retragerea licenței asigurătorului sau reasigurătorului
+   line 361  art.17
+      old: ## Articolul 17. Alte măsuri aplicate participanților
+      new: ## Articolul 17. Alte măsuri aplicate participanților profesioniști pe piața asigurărilor
+   line 373  art.18
+      old: ## Articolul 18. Registrul participanților profesioniști
+      new: ## Articolul 18. Registrul participanților profesioniști pe piața asigurărilor
+   line 379  art.19
+      old: ## Articolul 19. Cerințele de licențiere a sucursalelor
+      new: ## Articolul 19. Cerințele de licențiere a sucursalelor societăților de asigurare sau de reasigurare din statele terțe
+   line 412  art.22
+      old: ## Articolul 22. Evaluarea calității societății de asigurare
+      new: ## Articolul 22. Evaluarea calității societății de asigurare sau de reasigurare care solicită înființarea sucursalei
+   line 424  art.23
+      old: ## Articolul 23. Asigurarea obligatorie de răspundere
+      new: ## Articolul 23. Asigurarea obligatorie de răspundere civilă auto
+   line 439  art.25
+      old: ## Articolul 25. Publicarea informațiilor de către
+      new: ## Articolul 25. Publicarea informațiilor de către sucursale
+   line 444  art.26
+      old: ## Articolul 26. Nerespectarea dispozițiilor legale
+      new: ## Articolul 26. Nerespectarea dispozițiilor legale de către sucursală
+   line 461  art.28
+      old: ## Articolul 28. Modificări în situațiile asigurătorilor
+      new: ## Articolul 28. Modificări în situațiile asigurătorilor sau reasigurătorilor
+   line 469  art.29
+      old: ## Articolul 29. Fondatorii și acționarii societăților
+      new: ## Articolul 29. Fondatorii și acționarii societăților de asigurare sau de reasigurare
+   line 477  art.30
+      old: ## Articolul 30. Acționarii care dețin participații calificate.
+      new: ## Articolul 30. Acționarii care dețin participații calificate. Achizițiile
+   line 543  art.32
+      old: ## Articolul 32. Limitele activității asigurătorului
+      new: ## Articolul 32. Limitele activității asigurătorului sau reasigurătorului
+   line 553  art.33
+      old: ## Articolul 33. Denumirea și sediul asigurătorului
+      new: ## Articolul 33. Denumirea și sediul asigurătorului sau reasigurătorului
+   line 582  art.35
+      old: ## Articolul 35. Organele de conducere ale societății
+      new: ## Articolul 35. Organele de conducere ale societății de asigurare sau de reasigurare
+   line 665  art.39
+      old: ## Articolul 39. Evaluarea internă a riscurilor proprii
+      new: ## Articolul 39. Evaluarea internă a riscurilor proprii și a solvabilității
+   line 794  art.46
+      old: ## Articolul 46. Înființarea sucursalelor pe teritoriul
+      new: ## Articolul 46. Înființarea sucursalelor pe teritoriul unui stat terț
+   line 828  art.48
+      old: ## Articolul 48. Informația statistică privind activitatea
+      new: ## Articolul 48. Informația statistică privind activitatea desfășurată
+   line 837  art.49
+      old: ## Articolul 49. Înregistrarea modificărilor societăților
+      new: ## Articolul 49. Înregistrarea modificărilor societăților de asigurare sau de reasigurare
+   line 932  art.55
+      old: ## Articolul 55. Transferul portofoliului de asigurare
+      new: ## Articolul 55. Transferul portofoliului de asigurare și/sau de reasigurare
+   line 951  art.56
+      old: ## Articolul 56. Asocierea societăților de asigurare
+      new: ## Articolul 56. Asocierea societăților de asigurare sau de reasigurare
+   line 964  art.58
+      old: ## Articolul 58. Prevederile generale cu privire
+      new: ## Articolul 58. Prevederile generale cu privire la active
+   line 972  art.59
+      old: ## Articolul 59. Activele admise pentru acoperirea
+      new: ## Articolul 59. Activele admise pentru acoperirea rezervelor tehnice și a cerinței de capital minim
+   line 1000  art.60
+      old: ## Articolul 60. Restricții privind activele admise
+      new: ## Articolul 60. Restricții privind activele admise pentru acoperirea rezervelor tehnice şi a cerinței de capital minim
+   line 1032  art.61
+      old: ## Articolul 61. Localizarea activelor care acoperă
+      new: ## Articolul 61. Localizarea activelor care acoperă rezervele tehnice şi cerința de capital minim
+   line 1038  art.62
+      old: ## Articolul 62. Corelarea activelor care acoperă rezervele
+      new: ## Articolul 62. Corelarea activelor care acoperă rezervele tehnice şi cerința de capital minim
+   line 1045  art.63
+      old: ## Articolul 63. Prevederile speciale cu privire
+      new: ## Articolul 63. Prevederile speciale cu privire la asigurările cu risc investițional
+   line 1052  art.64
+      old: ## Articolul 64. Restricțiile privind anumite
+      new: ## Articolul 64. Restricțiile privind anumite categorii de active
+   line 1083  art.67
+      old: ## Articolul 67. Evaluarea garanțiilor financiare
+      new: ## Articolul 67. Evaluarea garanțiilor financiare și a opțiunilor incluse în contractele de asigurare și/sau de reasigurare
+   line 1089  art.68
+      old: ## Articolul 68. Sumele recuperabile din contractele
+      new: ## Articolul 68. Sumele recuperabile din contractele de reasigurare
+   line 1095  art.69
+      old: ## Articolul 69. Calitatea datelor și aproximărilor aplicate.
+      new: ## Articolul 69. Calitatea datelor și aproximărilor aplicate. Compararea rezultatelor cu experiențele anterioare
+   line 1103  art.70
+      old: ## Articolul 70. Adecvarea și majorarea rezervelor
+      new: ## Articolul 70. Adecvarea și majorarea rezervelor tehnice
+   line 1117  art.72
+      old: ## Articolul 72. Solvabilitatea şi stabilitatea financiară
+      new: ## Articolul 72. Solvabilitatea şi stabilitatea financiară a asigurătorului sau reasigurătorului
+   line 1157  art.75
+      old: ## Articolul 75. Norme prudențiale privind
+      new: ## Articolul 75. Norme prudențiale privind investițiile
+   line 1172  art.76
+      old: ## Articolul 76. Restricțiile privind tranzacțiile societăților
+      new: ## Articolul 76. Restricțiile privind tranzacțiile societăților de asigurare sau de reasigurare
+   line 1186  art.77
+      old: ## Articolul 77. Identificarea și notificarea deteriorării
+      new: ## Articolul 77. Identificarea și notificarea deteriorării situației financiare
+   line 1206  art.78
+      old: ## Articolul 78. Supravegherea în cazul deteriorării
+      new: ## Articolul 78. Supravegherea în cazul deteriorării situației financiare
+   line 1223  art.79
+      old: ## Articolul 79. Planul de redresare sau planul
+      new: ## Articolul 79. Planul de redresare sau planul de finanțare
+   line 1238  art.80
+      old: ## Articolul 80. Rezoluția societăților de asigurare
+      new: ## Articolul 80. Rezoluția societăților de asigurare sau de reasigurare
+   line 1286  art.81
+      old: ## Articolul 81. Vânzarea activității și a portofoliului
+      new: ## Articolul 81. Vânzarea activității și a portofoliului de asigurare și/sau de reasigurare
+   line 1390  art.87
+      old: ## Articolul 87. Condițiile de asigurare directă
+      new: ## Articolul 87. Condițiile de asigurare directă și primele de asigurare
+   line 1449  art.89^1
+      old: ## Articolul 89^1. Documentul de informare privind
+      new: ## Articolul 89^1. Documentul de informare privind produsul de asigurare
+   line 1548  art.98
+      old: ## Articolul 98. Gestionarea separată a activităților
+      new: ## Articolul 98. Gestionarea separată a activităților în categoriile „asigurări de viață” şi „asigurări generale”
+   line 1586  art.100
+      old: ## Articolul 100. Supravegherea solvabilității la nivel
+      new: ## Articolul 100. Supravegherea solvabilității la nivel de grup
+   line 1593  art.101
+      old: ## Articolul 101. Supravegherea concentrării riscurilor
+      new: ## Articolul 101. Supravegherea concentrării riscurilor și tranzacțiilor intragrup
+   line 1614  art.104
+      old: ## Articolul 104. Acordurile de colaborare în domeniul
+      new: ## Articolul 104. Acordurile de colaborare în domeniul supravegherii de grup
+   line 1643  art.106
+      old: ## Articolul 106. Intermediarii în asigurări şi/sau
+      new: ## Articolul 106. Intermediarii în asigurări şi/sau în reasigurări
+   line 1664  art.107
+      old: ## Articolul 107. Activitatea agentului de asigurare
+      new: ## Articolul 107. Activitatea agentului de asigurare și a agentului bancassurance
+   line 1706  art.108
+      old: ## Articolul 108. Activitatea brokerului de asigurare
+      new: ## Articolul 108. Activitatea brokerului de asigurare şi/sau de reasigurare
+   line 1756  art.110
+      old: ## Articolul 110. Licențierea brokerului de asigurare
+      new: ## Articolul 110. Licențierea brokerului de asigurare şi/sau de reasigurare
+   line 1773  art.111
+      old: ## Articolul 111. Suspendarea și retragerea licenței
+      new: ## Articolul 111. Suspendarea și retragerea licenței brokerului de asigurare și/sau de reasigurare
+   line 1803  art.112
+      old: ## Articolul 112. Denumirea brokerului de asigurare
+      new: ## Articolul 112. Denumirea brokerului de asigurare şi/sau de reasigurare
+   line 1808  art.113
+      old: ## Articolul 113. Responsabilitățile brokerului
+      new: ## Articolul 113. Responsabilitățile brokerului de asigurare şi/sau de reasigurare
+   line 1819  art.114
+      old: ## Articolul 114. Principiile generale privind procesul
+      new: ## Articolul 114. Principiile generale privind procesul de supraveghere
+   line 1827  art.115
+      old: ## Articolul 115. Competența și atribuțiile autorității
+      new: ## Articolul 115. Competența și atribuțiile autorității de supraveghere
+   line 1890  art.118
+      old: ## Articolul 118. Informațiile furnizate în scopuri
+      new: ## Articolul 118. Informațiile furnizate în scopuri de supraveghere
+   line 1930  art.121
+      old: ## Articolul 121. Cerințele de publicare a informațiilor
+      new: ## Articolul 121. Cerințele de publicare a informațiilor pentru autoritatea de supraveghere
+
+TOTAL: 301 heading(s) across 53 file(s) fixed

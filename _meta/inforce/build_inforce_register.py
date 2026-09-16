@@ -64,11 +64,31 @@ IN_FORCE = re.compile(
     re.IGNORECASE,
 )
 
-# Referinta la articol din interiorul unei note de modificare: [Art.38 abrogat ...]
+# Referinta la unitatea de citare, la INCEPUTUL notei (dupa "["), niciodata cautata in
+# tot cuprinsul ei: nota poarta mereu si referinta Monitorul Oficial in coada
+# ("MO284-287/30.06.26 art.355"), iar o cautare nenacorata prindea acel "art.355" ca
+# articolul modificat -- pentru un act pe puncte, care nu are deloc marcaj "Art.", asta
+# era singura potrivire gasita (2026-09-16). Trei tipare, incercate in ordine, toate
+# ancorate cu ^ pe textul notei dupa ce s-a scos "[" initial.
+
+# [Art.38 abrogat ...] / [Art.141^1 alin.(1) lit.a) ...]
 ART_IN_NOTE = re.compile(
-    r"Art\.\s*(\d+(?:\^\d+)?)"
+    r"^Art(?:icolul)?\.\s*(\d+(?:\^\d+)?)"
     r"((?:\s*(?:alin\.\s*\(\s*\d+(?:\^\d+)?\s*\)|pct\.\s*\d+(?:\^\d+)?"
     r"|lit\.\s*[a-zA-Z\u0219\u015f\u0163\u021b](?:\^\d+)?\))\,?)*)",
+    re.IGNORECASE,
+)
+
+# [Pct.33 subpct.33.3. in redactia ...] -- acte de tip HG/HBN/HCNPF, structurate pe puncte
+PCT_IN_NOTE = re.compile(
+    r"^Pct\.\s*(\d+(?:\^\d+)?)"
+    r"((?:\s*subpct\.\s*[\d.]+\.?)?)",
+    re.IGNORECASE,
+)
+
+# [Anexa nr.9 introdusa prin ...]
+ANEXA_IN_NOTE = re.compile(
+    r"^Anexa\s+nr\.?\s*(\d+(?:\^\d+)?)",
     re.IGNORECASE,
 )
 
@@ -173,11 +193,22 @@ def scan_file(path: Path, rel: str, as_of: _dt.date) -> tuple[list[dict], dict]:
             continue
         note = enclosing_note(text, m.start())
         art = None
-        am = ART_IN_NOTE.search(note) if note else None
         subunit = ""
+        unit_kind = "articol"
+        inner = note[1:].lstrip() if note else ""
+        am = ART_IN_NOTE.match(inner) if inner else None
+        pm = PCT_IN_NOTE.match(inner) if inner and not am else None
+        xm = ANEXA_IN_NOTE.match(inner) if inner and not am and not pm else None
         if am:
             art = am.group(1)
             subunit = " ".join((am.group(2) or "").split()).strip(" ,")
+        elif pm:
+            art = pm.group(1)
+            subunit = " ".join((pm.group(2) or "").split()).strip(" ,")
+            unit_kind = "punct"
+        elif xm:
+            art = xm.group(1)
+            unit_kind = "anexa"
         elif m.start() >= body_start:
             art = preceding_article(text, m.start(), body_start)
         context = note if note else text[max(0, m.start() - 160) : m.end() + 40]
@@ -190,7 +221,7 @@ def scan_file(path: Path, rel: str, as_of: _dt.date) -> tuple[list[dict], dict]:
                 "instrument": fm.get("instrument_id") or path.stem,
                 "article": art,
                 "subunit": subunit,
-                "scope": "articol" if art else "act",
+                "scope": unit_kind if art else "act",
                 "effective_from": eff.isoformat(),
                 "operation": detect_operation(note),
                 "amending_act": f"{act_m.group(1)} din {act_m.group(2)}" if act_m else None,
@@ -207,7 +238,7 @@ def dedupe(entries: list[dict]) -> list[dict]:
     Cheia este dispozitia, nu aparitia. Liniile se pastreaza toate."""
     merged: dict[tuple, dict] = {}
     for e in entries:
-        key = (e["instrument"], e["article"], e.get("subunit", ""),
+        key = (e["instrument"], e["scope"], e["article"], e.get("subunit", ""),
                e["amending_act"], e["effective_from"])
         if key in merged:
             cur = merged[key]
@@ -227,6 +258,17 @@ def dedupe(entries: list[dict]) -> list[dict]:
     out = list(merged.values())
     out.sort(key=lambda x: (x["effective_from"], x["instrument"], str(x["article"])))
     return out
+
+
+LOCATOR_PREFIX = {"punct": "pct.", "anexa": "anexa nr."}
+
+
+def format_locator(p: dict) -> str:
+    """Coloana 'Articol': un articol se afiseaza fara prefix (ca pina acum), un punct
+    sau o anexa capata prefixul lor, ca sa nu para amindoua acelasi tip de unitate."""
+    art = p["article"] + (" " + p["subunit"] if p.get("subunit") else "")
+    prefix = LOCATOR_PREFIX.get(p.get("scope"))
+    return f"{prefix} {art}" if prefix else art
 
 
 def article_sort_key(a: str | None):
@@ -377,7 +419,7 @@ def render_md(data: dict) -> str:
         A("| Act | Articol | Operatiune | Produce efecte de la | Act modificator | Stare astazi |")
         A("|---|---|---|---|---|---|")
         for p in data["provisions_not_yet_in_force"]:
-            art = p["article"] + (" " + p["subunit"] if p.get("subunit") else "")
+            art = format_locator(p)
             state = {
                 "abrogare": "inca in vigoare",
                 "modificare": "se aplica textul anterior",
@@ -452,8 +494,10 @@ def render_md(data: dict) -> str:
     A("## Unde a fost gasit fiecare marcaj")
     A("")
     for p in data["provisions_not_yet_in_force"]:
-        art = p["article"] + (" " + p["subunit"] if p.get("subunit") else "")
-        A(f"- **{p['instrument']} art. {art}**, `{p['file']}`, liniile {p['lines']}")
+        label = format_locator(p)
+        if p.get("scope") == "articol":
+            label = f"art. {label}"
+        A(f"- **{p['instrument']} {label}**, `{p['file']}`, liniile {p['lines']}")
         A(f"  - {p['context']}")
     A("")
     return "\n".join(L)
@@ -485,7 +529,10 @@ def main() -> int:
         f"{c['future_consolidations']} consolidare/consolidari viitoare"
     )
     for p in data["provisions_not_yet_in_force"]:
-        print(f"  {p['instrument']} art. {p['article']}  {p['operation']}  de la {p['effective_from']}")
+        label = format_locator(p)
+        if p.get("scope") == "articol":
+            label = f"art. {label}"
+        print(f"  {p['instrument']} {label}  {p['operation']}  de la {p['effective_from']}")
     for c in data.get("pending_consolidations", []):
         for p in c["provisions"]:
             print(f"  [neingerat {c['doc_id']}] {c['instrument']} art. {p['article']} "

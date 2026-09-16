@@ -145,6 +145,15 @@ Ingestie EUR-Lex RO extinsă efectuată la **2026-07-09** pentru paginile acquis
 | `UE-2009-103` | Dir. 2009/103/CE (RCA auto / MTPL) | [[acquis-MTPL]] | `02009L0103-20231223` | 2023-12-23 | extract RO: cuprins + articole-cheie |
 | `UE-2021-2118` | Dir. (UE) 2021/2118 (amendamente MTPL) | [[acquis-MTPL]] | `32021L2118` | n/a — act de bază / fără consolidare identificată în Cellar | extract RO: cuprins + articole-cheie |
 | `UE-2016-2341` | Dir. (UE) 2016/2341 (IORP II) | [[acquis-IORP]] | `02016L2341-20250117` | 2025-01-17 | extract RO: cuprins + articole-cheie |
+| `UE-1986-635` | Dir. 86/635/CEE (conturi anuale bănci) | [[acquis-ContabilitateInstitutiiFinanciare]] | `01986L0635-20060905` | 2006-09-05 | extract RO: cuprins + articole-cheie |
+| `UE-1991-674` | Dir. 91/674/CEE (conturi anuale asigurări) | [[acquis-ContabilitateInstitutiiFinanciare]] | `01991L0674-20060905` | 2006-09-05 | extract RO: cuprins + articole-cheie |
+| `UE-1994-19` | Dir. 94/19/CE (garantarea depozitelor, **abrogată** 2019, succesor 2014/49/UE neingerat) | [[acquis-GarantareaDepozitelor]] | `31994L0019` | 1994-05-30 (text inițial; consolidarea finală 2015-07-04 nu s-a putut extrage integral) | extract RO: cuprins + articole-cheie |
+
+> **2026-09-16.** Cele trei rânduri de mai sus închid o întrebare veche, niciodată verificată:
+> dacă 86/635/CEE, 94/19/CE și 91/674/CEE (Anexa XXVIII-A a Acordului de Asociere, [[AA-2014]])
+> se suprapuneau cu vreunul din cele 29 de extrase deja ținute. Verificat contra frontmatter-ului
+> (`base_celex`) tuturor celor 29: nicio suprapunere. Detaliu în [[AA-2014]] și în cele două pagini
+> de concept nou create.
 
 ## H. Legis.md — legi moldovenești CNPF/BNM refresh
 

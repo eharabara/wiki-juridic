@@ -891,3 +891,83 @@
 - **Unde:** `concepts/acquis-AIFMD.md`; `comparisons/cnpf-transposition-matrix.md`;
   `raw/papers/cnpf/L-2-2020.md` (arts. 21, 27, 28, 32, 34, citite, neatinse); commitul acestei
   intrări.
+
+## [2026-09-16] update | Cinci puncte vechi din CLAUDE.md, niciunul atins de la deschidere
+
+- **Aflat:** cinci itemi din secțiunile „Open questions"/„Outstanding work" ale `CLAUDE.md`
+  rămăseseră nerezolvați de mult, semnalați dar niciodată lucrați. (1) Liniile de numărătoare
+  învechite din `L-177-2025`, `L-178-2020`, `L-192-1998` — confirmat: frontmatter-ul și ancorele
+  reale erau corecte, doar linia „articole detectate" din corpul textului (bloc de metadate
+  generat la ingestie, nu text juridic) rămăsese la 0. (2) `run_cnpf_legal_lint.py` avea două
+  verificări utile pe care nimic altceva nu le făcea — pagini orfane și citări la nivel de fișier
+  raw întreg — dar scriptul însuși era stricat de la rescrierea SCHEMA.md (D4) și corupea `log.md`
+  la fiecare rulare. (3) `build_inforce_register.py` avea un bug real, nu doar o lacună: regexul
+  `ART_IN_NOTE` căuta „Art.N" oriunde în nota încadrată `[...]`, iar fiecare notă se termină cu
+  referința Monitorul Oficial (`MO.../DD.MM.YY art.NNN`) — pentru un act pe puncte, ca
+  `HG-743-2024`, care nu are deloc marcaj „Art.", acel `art.NNN` din coada notei era singura
+  potrivire găsită, iar cele 6 dispoziții amânate distincte ale actului colapsau într-o singură
+  intrare falsă „HG-743-2024 art. 355" la deduplicare. (4) 86/635/CEE, 94/19/CE și 91/674/CEE,
+  numite în Anexa XXVIII-A a Acordului de Asociere, erau semnalate ca posibil suprapuse peste unul
+  din cele 29 de extrase `UE-*.md` deja ținute — niciodată verificat. Verificat acum contra
+  frontmatter-ului (`base_celex`) tuturor celor 29: nicio suprapunere; toate trei lipseau genuin.
+  94/19/CE s-a dovedit, suplimentar, **abrogată** din 2019, înlocuită de Directiva 2014/49/UE, pe
+  care vault-ul nu o ține — gol nou, nu unul rezolvat de ingestia de azi.
+- **Decis:** (1) cele trei linii corectate (0→4, 0→8, 0→34), cu `sha256` recalculat și reverificat
+  pentru toate trei. (2) cele două verificări portate în `validate_wiki.py` ca `page.orphan`
+  (folosind rezolvatorul de wikilinkuri existent, nu potrivire naivă de nume) și
+  `citation.raw-page-level` (generalizată la toate rădăcinile `raw/papers/`, nu doar `cnpf/`, ceea
+  ce era defectul A4 al scriptului vechi); scriptul vechi șters, rapoartele lui comise păstrate ca
+  istorie. (3) regexul de extragere a locatorului ancorat cu `^` la începutul notei, cu doi
+  regexuri noi pentru puncte/anexe (`PCT_IN_NOTE`, `ANEXA_IN_NOTE") încercate înaintea celui de
+  articol — fix general, nu doar pentru `HG-743-2024`; registrul regenerat: 49→54 dispoziții (o
+  intrare falsă înlocuită de cele 6 reale), nicio regresie pe actele pe articole. (4) ingerate
+  `UE-1986-635`, `UE-1991-674`, `UE-1994-19` (extrase structurate RO, EUR-Lex), cu două pagini de
+  concept noi (`acquis-ContabilitateInstitutiiFinanciare`, `acquis-GarantareaDepozitelor`),
+  `_manifest.md` și `AA-2014.md` actualizate cu constatarea.
+- **Unde:** `raw/papers/cnpf/L-177-2025.md`, `L-178-2020.md`, `L-192-1998.md`;
+  `_meta/schema/validate_wiki.py`; `_meta/lint/run_cnpf_legal_lint.py` (șters);
+  `_meta/inforce/build_inforce_register.py`; `_meta/inforce/in-force-register.md` (regenerat);
+  `raw/papers/cnpf/UE-1986-635.md`, `UE-1991-674.md`, `UE-1994-19.md`;
+  `concepts/acquis-ContabilitateInstitutiiFinanciare.md`, `acquis-GarantareaDepozitelor.md`;
+  `raw/papers/cnpf/_manifest.md`; `entities/AA-2014.md`; `entities/L-160-2023.md`; `index.md`;
+  `CLAUDE.md` (secțiunile „Open questions"/„Outstanding work" și descrierea `_meta/lint/`);
+  commitul acestei intrări.
+
+## [2026-09-16] update | Al cincilea punct: liniile rupte la mijloc de propoziție, tot corpusul, cu o regresie descoperită pe parcurs
+
+- **Aflat:** scriptul nou (`_meta/imports/anchoring/fix_wrapped_titles.py`, reutilizând euristica
+  DANGLING/STOP deja validată pentru Codul civil în `anchor_cc.py`) a găsit, la prima trecere pe
+  tot corpusul, **1.097 titluri rupte doar în `CC-1107-2002`** — deși nota din 5 septembrie spunea
+  explicit „Codul civil e deja curat, 22 din 13.190". Verificat: adevărat *atunci*. Frontmatter-ul
+  fișierului arată `refreshed: '2026-09-06'` — o zi după acea măsurătoare, o reîmprospătare de pe
+  legis.md (doc_id nou 150498) a înlocuit fișierul deja ancorat corect de `anchor_cc.py` cu o
+  extracție brută nouă, care nu a mai dus mai departe unirea titlurilor — o regresie tăcută,
+  nedetectată zece zile, pentru că nimeni nu a remăsurat afirmația după reîmprospătare. În timpul
+  scrierii scriptului, înainte de a scrie vreun fișier, au fost găsite și corectate două erori
+  reale de euristică, ambele pe exemple concrete din corpus, nu ipotetice: (1) un antet fără
+  niciun titlu (`## Articolul N.` urmat direct de corpul textului — articole finale/tranzitorii
+  care chiar nu au titlu, ex. `COD-218-2008` art. 481-483 „Prezentul cod intră în vigoare...")
+  era absorbit greșit ca „a doua propoziție a titlului", pentru că ramura euristicii care permite
+  o a doua propoziție se declanșează pe orice titlu ce se termină cu punct, inclusiv unul gol;
+  corectat interzicând orice unire când antetul nu are deloc text după „Articolul N.". (2) stilul
+  vechi de numerotare fără paranteze („1. Text", nu „(1) Text" — `L-845-1992`, act din 1992) nu
+  era recunoscut ca limită de oprire, așa că titlul deja complet al art. 22 a absorbit tot
+  paragraful „1."; corectat adăugând acest tipar la limitele de oprire. Ambele au fost prinse
+  citind manual eșantioane înainte de scriere, nu de auto-verificarea proprie a scriptului (care
+  dovedește doar egalitatea corpului fără anteturi, nu corectitudinea titlului) — proba mecanică
+  și proba de sens sunt verificări diferite, iar această operațiune a avut nevoie de amândouă.
+- **Decis:** backup complet la `C:\Users\harab\wiki-backups\wiki-2026-09-16-line-unwrap\` înainte
+  de orice scriere. Scris pe toate cele trei rădăcini raw (`moldova-legal`, `cnpf`, `bnm`):
+  **4.973 anteturi corectate în 61 de fișiere**. Fiecare fișier atins verificat, prin script,
+  strip-and-compare byte-identic față de backup-ul intact (nu față de propria copie de lucru) —
+  toate 61 trec, zero discrepanțe. `sha256` recalculat pentru fiecare; `sha256_pre_title_unwrap`
+  păstrează hash-ul dinainte. Cifra veche din `CLAUDE.md` (3.097, doar `moldova-legal`, dinainte
+  de regresia CC) e înlocuită de cifra reală (4.973, toate trei rădăcinile), cu regresia
+  CC-1107-2002 documentată explicit ca lecție pentru orice reîmprospătare viitoare a unui act deja
+  ancorat: confirmă că unirea titlurilor supraviețuiește reîmprospătării, sau rulează din nou
+  acest script după.
+- **Unde:** `_meta/imports/anchoring/fix_wrapped_titles.py` (nou); backup
+  `C:\Users\harab\wiki-backups\wiki-2026-09-16-line-unwrap\`; rapoarte
+  `_meta/lint/title-unwrap-2026-09-16-moldova-legal.txt`, `-cnpf.txt`, `-bnm.txt`; 61 de fișiere
+  raw sub `raw/papers/moldova-legal/`, `raw/papers/cnpf/`, `raw/papers/bnm/`;
+  `CLAUDE.md` (Outstanding work, item 2); commitul acestei intrări.
