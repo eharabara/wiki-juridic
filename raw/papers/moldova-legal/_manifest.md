@@ -1926,6 +1926,90 @@ grafului de citare (`_meta/graph/citation-graph.md`), unde figura cu 22 de menț
 
 Pagină de entitate: [[L-213-2023]]. Sursă: `raw/papers/moldova-legal/L-213-2023.md`.
 
+## X. Lotul D, litigii civile/comerciale și contracte — L-23/2008, L-24/2008, L-9/2026, L-1125/2002 (ingerate 2026-09-16)
+
+Ales de Eugen dintre mai multe direcții propuse pentru continuarea extinderii wiki-ului, o dată ce
+inelul de stagiu din 6 septembrie și reverificarea integrală a stratului acquis din 15-16
+septembrie erau ambele închise (vezi `_meta/plans/2026-09-06-plan-extindere-perimetru-domestic.md`
+și `_meta/plans/2026-09-15-plan-pasul-6-acquis-aa.md`, ambele marcate „executat integral”).
+
+**Blocaj de sursă, ca la `L-213/2023`.** legis.md a fost în spatele verificării Cloudflare
+interactive la începutul sesiunii — atât `curl`, cât și browserul intern al sesiunii au rămas
+blocate pe pagina „Just a moment...”, fără casetă Turnstile expusă. Eugen a trecut verificarea în
+propriul Chrome; căutarea și descărcarea textelor au mers apoi prin Claude in Chrome (fetch
+same-origin cu `credentials:'include'` + descărcare ca blob, ca la P8/BNM). O particularitate nouă
+față de sesiunile anterioare: Chrome a blocat automat al doilea și al treilea fișier descărcate
+succesiv din același tab (protecția „multiple downloads”); rezolvat deschizând câte un tab nou
+pentru fiecare descărcare după prima.
+
+**Prima ipoteză de lucru a fost greșită, corectată înainte de ingerare.** Nu există o „Lege nr.
+24/2023 cu privire la arbitraj”. Există două legi surori, ambele din 22.02.2008: Legea nr. 23,
+arbitrajul intern, și Legea nr. 24, arbitrajul comercial internațional. Găsite prin căutare în
+titlu („arbitraj”, 46 de rezultate paginate, apoi „arbitrajul comercial international”, 11
+rezultate), fiecare cu rândul ei de bază `LP23/2008` / `LP24/2008`.
+
+- **`L-23/2008`** — doc_id 95607. Consolidare 30.09.2016 (LP211 din 29.07.16), 36 de ancore (35 de
+  bază, plus art. 23^1). Art. 23^1 (Suspendarea procedurii arbitrale, introdus 2016) trimite la
+  Legea 137/2015 cu privire la mediere — vezi mai jos, acel act tocmai a fost abrogat.
+- **`L-24/2008`** — doc_id 110184. Consolidare 08.11.2018 (LP238 din 08.11.18), 42 de ancore (41 de
+  bază, plus art. 23^1, același mecanism de suspendare pentru mediere).
+- **Bug de extracție găsit și corectat la `L-23/2008`, nu doar consemnat.** Linia de versiune
+  („Versiune în vigoare din data 30.09.16 în baza modificărilor prin LP211 din 29.07.16,
+  MO338-341/30.09.16 art.698”) conține citatul `MO338-341/30.09.16`, iar regexul de dată din
+  `ingest_business_law.py` citea coada lui „341” împreună cu data reală ca pe o a doua dată falsă,
+  „41/30.09” → anul 2009. Cum funcția ia ultima dată găsită când linia conține „vigoare”,
+  `consolidation_date` ieșea `2009-30-41` — o dată invalidă. Corectat cu un lookbehind negativ
+  (`(?<!\d)`) în `DATE_RE`, care respinge orice început de potrivire precedat direct de o cifră;
+  reprodus și verificat că nu afectează nicio dată reală din corpus. Fix general, nu doar pentru
+  acest fișier — regula centrală a acestui wiki: o constatare mecanică se repară în script, nu se
+  ocolește manual.
+
+**A doua rasturnare, mai importantă decât prima: `L-137/2015` cu privire la mediere, deja în coada
+de ingerare a grafului de citare (9 mențiuni, citată mai ales din `L-198-2007`), NU mai este legea
+în vigoare.** Căutarea în titlu „mediere” a găsit `LP9/2026` „privind medierea și statutul
+mediatorului”, promulgată 03.03.2026, publicată 12.03.2026 — un act nou, integral, nu o
+modificare. Verificat în corp, nu presupus din titlu: art. 62 alin. (2) spune expres „La data
+intrării în vigoare a prezentei legi, Legea nr. 137/2015 cu privire la mediere ... se abrogă.”
+Transpune Directiva 2008/52/CE (CELEX 32008L0052) — e act de acquis, nu doar de drept intern.
+
+- **`L-9/2026`** — doc_id 153389. 63 de ancore, 1-63 fără nicio lacună, fără exponenți, un singur
+  „act nemodificat” (nicio consolidare ulterioară). `consolidation_date` a ieșit `2026-09-12`,
+  calculat independent din câmpul „Data intrării în vigoare” al fișei — coincide exact cu
+  calculul manual (12.03.2026 + 6 luni), ceea ce confirmă metoda.
+- **Capcană de intrare în vigoare, cu miză practică directă.** Legea intră în vigoare la 6 luni de
+  la publicare (~12.09.2026 — în vigoare de patru zile la data acestei ingerări), **cu două
+  excepții amânate scrise direct în proza art. 62 alin. (1), nu ca marcaj `[Art.N ... în vigoare
+  DD.MM.YY]`**: art. 44 alin. (3) lit. b) și c) (prima ședință de mediere obligatorie în litigii de
+  familie/muncă) la 12 luni (~12.03.2027), și art. 44 alin. (3) lit. a) (litigii civile, exceptând
+  insolvabilitatea) la 24 luni (~12.03.2028). `build_inforce_register.py` citește doar marcaje cu
+  acel tipar exact; o dispoziție amânată scrisă în proza ultimului articol al unei legi noi (nu
+  amendate) **nu are acel tipar și nu e prinsă automat**. Consemnat aici și în `CLAUDE.md`, punctul
+  9 al secțiunii „Open questions”, ca a treia formă cunoscută de dispoziție amânată invizibilă
+  pentru registru (după marcajul-clasic și actul-întreg-viitor). De verificat manual orice citare a
+  art. 44 alin. (3) din această lege până când registrul e extins să acopere și acest tipar.
+- **`L-137/2015` nu este ingerată** (act mort, nu mai leagă nimic de la ~12.09.2026); citarea ei din
+  coada grafului rămâne document istoric, la fel ca `L-133-2011` (protecția datelor).
+
+**Al patrulea act, fără surpriză de numărare, dar cu propriul defect de extracție.** `L-1125/2002`
+pentru punerea în aplicare a Codului civil — deja în coada de ingerare a grafului (22 mențiuni, 19
+chiar din `CC-1107-2002` însuși, care își explică propriile dispoziții tranzitorii prin acest act).
+Găsită prin căutare în titlu „punerea în aplicare a Codului civil”.
+
+- **`L-1125/2002`** — doc_id 150208. Prima rulare a dat **0 ancore** deși actul e complet: legea,
+  republicată în 2019, nu a fost normalizată de legis.md la forma modernă „Articolul N.” — folosește
+  peste tot forma veche „Art.N. -” / „Art. N. –”, pe care regexul de ancorare nu o recunoștea deloc.
+  Corectat în `ingest_business_law.py` cu o ramură nouă de potrivire pentru acest tipar (cerând
+  explicit un dash după „N.”, ca să nu prindă o trimitere de forma „art. 22” apărută la începutul
+  unei fraze). A doua rulare: 50 de ancore, 1-50 fără nicio lacună. Consolidare 01.04.2026
+  (capitolul III, art. 48-50, introdus de LP251 din 10.07.25) — dată deja trecută față de ziua
+  ingerării (2026-09-16), deci textul e curent, nu amânat, deși pare o dată „viitoare” la prima
+  vedere. Capitolul III explică exact procedura succesorală pusă în aplicare de LP251/2025 pe
+  cartea a patra a Codului civil, deja documentată în altă parte a acestui manifest (speța
+  moștenitorului, 8-9 septembrie). Anexele 1-9 (formulare standard) nu au conținut pe pagina
+  legis.md, doar titluri „anexa nr.N” ca linkuri goale — același defect de sursă ca la `L-213/2023`.
+
+Pagini de entitate: [[L-23-2008]], [[L-24-2008]], [[L-9-2026]], [[L-1125-2002]].
+
 ## D. Artefacte metodologice create
 
 | Artefact | Tip | Rol |

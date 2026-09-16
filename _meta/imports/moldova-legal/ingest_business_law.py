@@ -457,9 +457,86 @@ DOCS = {
     'L-160-2026': {'doc_id': '155902',
                    'title': 'Legea nr. 160/2026 privind protectia datelor cu caracter personal '
                             'prelucrate in scopul prevenirii si combaterii infractiunilor'},
+    # ---------------------------------------------------------------------------------------
+    # 2026-09-16. Lotul D, litigii civile/comerciale si contracte, ales de Eugen dintre
+    # citeva directii propuse pentru extinderea wiki-ului (inelul de stagiu din 6 septembrie
+    # si reverificarea acquis din 15-16 septembrie fiind ambele incheiate). legis.md a fost
+    # blocat de Cloudflare la inceputul sesiunii (curl si browserul intern, ambele "Just a
+    # moment"); Eugen a trecut verificarea in propriul Chrome, apoi cautarea si descarcarea au
+    # mers prin claude-in-chrome (fetch same-origin + download blob, ca la P8/BNM). Descarcarea
+    # automata a Chrome-ului a blocat fisierele al doilea si al treilea dintr-un tab deja folosit
+    # (Chrome opreste descarcarile succesive fara interactiune); rezolvat deschizind un tab nou
+    # per descarcare.
+    #
+    # Prima verificare a rasturnat o ipoteza gresita: nu exista "Legea nr. 24/2023 cu privire la
+    # arbitraj". Legea de arbitraj intern e nr. 23 din 22.02.2008, iar arbitrajul comercial
+    # international e legea sora, nr. 24 din aceeasi data. Ambele gasite prin cautare in titlu
+    # "arbitraj", paginate manual (46 rezultate, 5 pagini) pina la rindurile de baza LP23/2008 si,
+    # separat, "arbitrajul comercial international" (11 rezultate) pentru LP24/2008.
+    'L-23-2008': {'doc_id': '95607',
+                  'title': 'Legea nr. 23/2008 cu privire la arbitraj'},
+    # Verificat pe HTML: consolidare 30-09-2016 (LP211 din 29.07.16), 35 de articole, fara
+    # CUPRINS. Art. 231 (Suspendarea procedurii arbitrale, introdus 2016) trimite la Legea
+    # 137/2015 cu privire la mediere - vezi nota L-9-2026 mai jos, legea 137/2015 e acum
+    # abrogata, trimiterea ramine corecta ca numar dar tinta si-a schimbat continutul.
+    'L-24-2008': {'doc_id': '110184',
+                  'title': 'Legea nr. 24/2008 cu privire la arbitrajul comercial international'},
+    # Verificat pe HTML: consolidare 30-12-2018 (LP238 din 08.11.18), 41 de articole plus art.
+    # 231 (acelasi mecanism de suspendare pentru mediere ca la L-23-2008). Doua versiuni cu
+    # tabul de an listate; niciuna viitoare.
+    #
+    # A doua rasturnare de ipoteza, mai importanta: Legea nr. 137/2015 cu privire la mediere,
+    # aflata deja in coada de ingerare a grafului de citare (9 mentiuni, L-198-2007 fiind citantul
+    # principal), NU mai este legea in vigoare. Gasita la cautarea in titlu "mediere": LP9/2026
+    # "privind medierea si statutul mediatorului", promulgata 03-03-2026, publicata 12-03-2026,
+    # abroga expres Legea 137/2015 la data intrarii sale in vigoare (art. 62 alin. (2)). Verificat
+    # in corp, nu presupus din titlu: cautarea textului intern a confirmat fraza "La data intrarii
+    # in vigoare a prezentei legi, Legea nr. 137/2015 cu privire la mediere ... se abroga."
+    # Transpune Directiva 2008/52/CE (CELEX 32008L0052) - e act de acquis, nu doar de drept intern.
+    'L-9-2026': {'doc_id': '153389',
+                 'title': 'Legea nr. 9/2026 privind medierea si statutul mediatorului '
+                          '(abroga Legea nr. 137/2015 cu privire la mediere)'},
+    # CAPCANA DE INTRARE IN VIGOARE, verificata pe art. 62: legea intra in vigoare la 6 luni de
+    # la publicare (12-03-2026 + 6 luni = ~12-09-2026, deci in vigoare de cateva zile la data
+    # acestei ingerari, 2026-09-16), CU DOUA EXCEPTII AMANATE scrise direct in art. 62 alin. (1),
+    # nu ca marcaj [Art.N ... in vigoare] separat, fiindca legea e noua, nu amendata: art. 44
+    # alin. (3) lit. b) si c) (prima sedinta de mediere in litigii de familie/munca) la 12 luni
+    # (~12-03-2027), si art. 44 alin. (3) lit. a) (litigii civile, exceptind insolvabilitatea) la
+    # 24 luni (~12-03-2028). Registrul in-force citeste marcaje de forma "[Art.N ... in vigoare
+    # DD.MM.YY]"; aceasta forma de dispozitie amanata, scrisa in proza in ultimul articol al unei
+    # legi noi, nu are acel tipar si NU va fi prinsa automat de build_inforce_register.py. De
+    # verificat manual la orice citare a art. 44 alin. (3) din aceasta lege pina cind registrul
+    # e extins sa acopere si acest tipar (a treia forma, dupa marcaj si dupa act-intreg-viitor).
+    # HTML verificat: 62 de articole, fara CUPRINS, o singura versiune (2026), fara <sup> gasite
+    # inca la verificare prealabila (de confirmat la rulare).
+    #
+    # Al patrulea act al lotului, fara surpriza de numar: Legea 1125/2002 pentru punerea in
+    # aplicare a Codului civil, deja in coada de ingerare a grafului (22 mentiuni, 19 din chiar
+    # CC-1107-2002 insusi - actul explica propriile dispozitii tranzitorii ale codului). Gasita
+    # prin cautare in titlu "punerea in aplicare a Codului civil"; LP1125/2002 marcat "Modificat".
+    'L-1125-2002': {'doc_id': '150208',
+                    'title': 'Legea nr. 1125/2002 pentru punerea in aplicare a Codului civil '
+                             'al Republicii Moldova'},
+    # Verificat pe HTML: 50 de articole plus anexele 1-9 (formulare standard, netextualizate in
+    # corp - doar titlurile "anexa nr.N" apar, ca linkuri separate pe pagina legis.md). Capitolul
+    # III (art. 48-50), introdus de LP251 din 10.07.25, "in vigoare 01.04.26": desi pare o
+    # consolidare viitoare fata de alte acte din corpus, 1 aprilie 2026 e deja trecut fata de
+    # data acestei ingerari (2026-09-16), deci textul e curent, nu amanat. Capitolul reglementeaza
+    # exact procedura succesorala pusa in aplicare de LP251/2025 pe cartea a patra a Codului
+    # civil, deja documentata in alta parte a acestui manifest (speta mostenitorului, 8-9
+    # septembrie).
 }
 
-DATE_RE = re.compile(r'(\d{1,2})[.\-/](\d{1,2})[.\-/](\d{2,4})')
+# (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul
+# "MO338-341/30.09.16" produce un al doilea "candidat de data" fals, "41/30.09" (citit din
+# coada lui "341"), care norm_year() il transforma in anul 2009. Cind linia contine "vigoare"
+# si data buna sta la INCEPUTUL ei ("Versiune in vigoare din data 30.09.16 in baza ... MO338-
+# 341/30.09.16 art.698"), all_dates() ia ultimul element din lista, iar candidatul fals ajunge
+# ultimul: consolidation_date iesea "2009-30-41", o data invalida care ar fi trecut drept
+# "consolidare viitoare" (2009 < TODAY, deci de fapt ar fi trecut drept veche, nu viitoare -
+# tot gresit). Lookbehind-ul respinge orice inceput de potrivire precedat direct de o cifra,
+# ceea ce exclude exact acest tipar fara sa afecteze nicio data reala din corpus.
+DATE_RE = re.compile(r'(?<!\d)(\d{1,2})[.\-/](\d{1,2})[.\-/](\d{2,4})')
 
 
 def resolve_superscripts(html_text):
@@ -659,6 +736,15 @@ def extract_doc(data):
             md_lines += ['', f"### {l}"]
         elif re.match(r'^Articolul\s+[0-9IVXLCDM]+(\^\d+)?[a-zA-Z]?\b', l, flags=re.I):
             md_lines += ['', f"## {l}"]
+        elif re.match(r'^Art\.\s*\d+(\^\d+)?\.\s*[-–—]', l):
+            # Forma veche "Art.N. - text" / "Art. N. – text", gasita 2026-09-16 la
+            # L-1125-2002: legea a fost republicata in 2019, dar spre deosebire de codurile
+            # ingerate pina acum, legis.md nu i-a normalizat titlurile de articol la forma
+            # moderna "Articolul N.". Fara aceasta ramura, cele 50 de articole raman text simplu,
+            # fara nicio ancora: article_count iese 0 desi actul e complet si fara lacune. Cerinta
+            # dublei puncte-liniuta ("N." urmat de un dash) exclude o trimitere de forma "art. 22"
+            # aparuta in mijlocul unei fraze, care nu ar avea acel tipar exact la inceput de linie.
+            md_lines += ['', f"## {l}"]
         else:
             md_lines.append(l)
     return {
@@ -671,7 +757,7 @@ def extract_doc(data):
         'never_amended': never_amended,
         # numara ancorele efectiv scrise, nu si repetarile din cuprins
         'article_count': len([l for l in md_lines
-                              if re.match(r'^## Articolul\s+', l, flags=re.I)]),
+                              if re.match(r'^## (Articolul\s+|Art\.\s*\d)', l, flags=re.I)]),
         'char_count': len(content.text_content()),
     }
 

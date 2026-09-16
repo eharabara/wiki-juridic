@@ -1084,3 +1084,45 @@
   explicate, 2 artefacte/bug-uri de rezolvare spre acte greșite, doar 4 rămân complet neexplicate.
 - **Unde:** `CLAUDE.md` (Open questions, item 8, rescris integral cu bilanțul final pe toate cele
   65 de grupuri); commitul acestei intrări.
+
+## [2026-09-16] ingest | Lotul D, litigii civile/comerciale și contracte — L-23/2008, L-24/2008, L-9/2026, L-1125/2002
+
+- **Aflat:** ales de Eugen, dintre mai multe direcții propuse, ca următoarea extindere a wiki-ului
+  o dată ce inelul de stagiu din 6 septembrie și reverificarea acquis din 15-16 septembrie erau
+  ambele închise. legis.md a fost blocat de Cloudflare interactiv la începutul sesiunii (curl și
+  browserul intern al sesiunii, ambele „Just a moment"); Eugen a trecut verificarea în propriul
+  Chrome, căutarea și descărcarea au mers prin Claude in Chrome (fetch same-origin + blob, ca la
+  P8/BNM), cu o particularitate nouă: Chrome a blocat automat al doilea și al treilea fișier
+  descărcate succesiv din același tab, rezolvat cu un tab nou per descărcare.
+  Prima ipoteză (o „Lege 24/2023 cu privire la arbitraj") era greșită: arbitrajul e reglementat de
+  două legi surori din 22.02.2008, nr. 23 (intern) și nr. 24 (comercial internațional), ambele
+  găsite prin căutare în titlu și verificate direct în corp. A doua verificare a răsturnat o
+  presupunere mai importantă: Legea nr. 137/2015 cu privire la mediere, deja în coada de ingerare a
+  grafului de citare (9 mențiuni), nu mai e în vigoare — o lege complet nouă, LP9/2026 „privind
+  medierea și statutul mediatorului" (transpune Directiva 2008/52/CE), o abrogă expres la propria
+  intrare în vigoare (~12.09.2026, verificat direct în art. 62 alin. (2), nu presupus din titlu).
+  Al patrulea act, Legea 1125/2002 (punerea în aplicare a Codului civil, deja în coadă cu 22
+  mențiuni, 19 din chiar CC-1107-2002), a scos la iveală un al doilea defect de extracție: prima
+  rulare a dat 0 ancore, fiindcă legea republicată în 2019 folosește peste tot forma veche
+  „Art.N. -", nerecunoscută de regexul de ancorare scris pentru forma modernă „Articolul N.".
+  Un al treilea defect, găsit la L-23/2008: linia de versiune conținea citatul „MO338-341/30.09.16",
+  iar regexul de dată din `ingest_business_law.py` citea coada lui „341" ca pe o a doua dată falsă
+  („41/30.09" → anul 2009), producând `consolidation_date: '2009-30-41'`, o dată invalidă.
+- **Decis:** toate trei defectele s-au corectat în `ingest_business_law.py`, nu s-au ocolit manual:
+  o ramură nouă de recunoaștere a formei „Art.N. -" (cu cerința unui dash după numărul articolului,
+  ca să nu prindă o trimitere „art. 22" apărută la începutul unei fraze din corp), contorul de
+  articole extins să numere și acest tipar, și un lookbehind negativ (`(?<!\d)`) în `DATE_RE`, care
+  respinge orice început de potrivire precedat direct de o cifră. Toate patru actele s-au ingerat
+  curat după corecții: L-23/2008 (36 de ancore, 1-35 + 23^1), L-24/2008 (42 de ancore, 1-41 + 23^1),
+  L-9/2026 (63 de ancore, 1-63 fără lacune), L-1125/2002 (50 de ancore, 1-50 fără lacune). Legea
+  137/2015 nu s-a ingerat (act mort de la ~12.09.2026, ca L-133-2011 pentru protecția datelor).
+  Consemnat, nu rezolvat: două dispoziții amânate ale L-9/2026 (art. 44 alin. (3) lit. a)-c)) sînt
+  scrise în proza ultimului articol, nu ca marcaj `[Art.N ... în vigoare DD.MM.YY]`, deci
+  `build_inforce_register.py` nu le prinde — a treia formă cunoscută de dispoziție amânată
+  invizibilă registrului, adăugată ca punctul 9 în „Open questions" din `CLAUDE.md`, neremediată în
+  script pentru a nu risca o regresie pe un registru deja validat.
+- **Unde:** `_meta/imports/moldova-legal/ingest_business_law.py` (patru intrări noi în `DOCS`, plus
+  cele trei corecții de extracție); `raw/papers/moldova-legal/L-23-2008.md`, `L-24-2008.md`,
+  `L-9-2026.md`, `L-1125-2002.md`; `entities/` cu aceleași patru nume; `raw/papers/moldova-legal/_manifest.md`
+  (secțiunea X); `index.md` (134 de pagini); `CLAUDE.md` (Open questions, item 9 nou); memoria de
+  sesiune `legis-md-search-via-curl.md` (Cloudflare intermitent, chiar și în Chrome-ul lui Eugen).

@@ -2,7 +2,7 @@
 
 Generat 2026-09-16 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
 
-19 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 76 hotariri distincte. Articolul atins este cunoscut pentru 16 marcaje inca prezente in text si 95 dispozitii recuperate din istoricul versiunilor; **3 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
+20 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 76 hotariri distincte. Articolul atins este cunoscut pentru 16 marcaje inca prezente in text si 95 dispozitii recuperate din istoricul versiunilor; **4 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
 
 Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiunea hotaririi si a intinderii anularii. Un act din tabelul „fara articol atribuit” se citeaza cu avertismentul ca poarta hotariri ale Curtii neverificate la nivel de articol.
 
@@ -25,6 +25,7 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-149-2012` | 152605 | 2025-12-31 | 2 | 2 | 0 |
 | `L-158-2008` | 155439 | 2026-09-13 | 1 | 1 | 0 |
 | `L-213-2023` | 152741 | 2026-01-23 | 1 | 0 | 1 |
+| `L-24-2008` | 110184 | 2018-11-08 | 1 | 0 | 1 |
 | `L-514-1995` | 156079 | 2026-08-28 | 4 | 4 | 0 |
 | `L-64-2010` | 141515 | 2024-01-23 | 1 | 1 | 0 |
 | `L-845-1992` | 155963 | 2027-01-01 | 3 | 3 | 0 |
@@ -155,4 +156,5 @@ Marcajul s-a pierdut la o reimprospatare anterioara a consolidarii. Articolul se
 | `CONST-1994` | HCC8/2024-03-11 | l.51: HCC8 din 11.03.24, MO104-107/21.03.24 art.42; în vigoare 11.03.24 |
 | `CONST-1994` | HCC7/2016-03-04 | l.58: HCC7 din 04.03.16, MO59-67/18.03.16 art.10 |
 | `L-213-2023` | HCC20/2024-09-26 | l.51: | Data modificării/datele modificării şi actele normative care modifică | LP335 din 29.12.25, MO55-58/23.01.26 art.2; în |
+| `L-24-2008` | HCC3/2012-02-09 | l.46: HCC3 din 09.02.12, MO38-41/24.02.12 art.7; |
 

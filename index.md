@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-16 | Total pages: 130
+> Last updated: 2026-09-16 | Total pages: 134
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -73,6 +73,10 @@
 - [[L-20-2026]] — Legea remediilor în achiziții: 29 de ancore, în vigoare din 01.04.2026; ANSC devine autoritate, termen de așteptare 11/16 zile (art. 20); anexa ei a abrogat art. 80–84 și 86–88 din Legea 131/2015.
 - [[L-202-2017]] — Legea nr. 202/2017 privind activitatea băncilor: legea-cadru a perimetrului bancar, text românesc, 155 de ancore, consolidare 2025-10-25; art. 36 alin. (2) listează limitativ excepțiile de la Legea SA.
 - [[L-213-2023]] — Legea taxei de stat nr. 213/2023: taxa de stat și taxa de timbru pentru procedura civilă, cuantumuri (anexa nr. 1: apel 85%, recurs 70%, revizuire 55% din taxa de la prima instanță) și scutiri (anexa nr. 2, cu CNPF și BNM nominalizate); zece articole, în vigoare din 01.01.2024, arts. 84-89 din COD-225-2003 trimit aici pentru orice cuantum.
+- [[L-23-2008]] — Legea cu privire la arbitraj: arbitrajul intern, constituire, convenție de arbitraj, numirea/recuzarea arbitrilor, hotărârea arbitrală și executarea ei silită; 36 de ancore, în vigoare din 2008, consolidare 30.09.2016; art. 23^1 trimite la legea medierii (acum L-9-2026).
+- [[L-24-2008]] — Legea cu privire la arbitrajul comercial internațional: aplicabilă litigiilor cu element de extraneitate, preia Legea-model UNCITRAL 1985; 42 de ancore, consolidare 08.11.2018; recunoașterea/executarea hotărârii arbitrale străine (cap. VIII) trimite la COD-225-2003 arts. 475-476.
+- [[L-9-2026]] — Legea privind medierea și statutul mediatorului: transpune Directiva 2008/52/CE, abrogă Legea 137/2015 la intrarea ei în vigoare (~12.09.2026); 63 de ancore; două dispoziții amânate (art. 44 alin. (3)) scrise în proză, nu ca marcaj, deci invizibile registrului in-force.
+- [[L-1125-2002]] — Legea pentru punerea în aplicare a Codului civil: explică dispozițiile tranzitorii ale CC-1107-2002 pe trei reforme succesive (2002, Legea 133/2018, Legea 251/2025 - procedura succesorală); 50 de ancore, consolidare 01.04.2026 (dată deja trecută).
 - [[L-220-2007]] — Legea nr. 220/2007 privind inregistrarea de stat a persoanelor juridice si a intreprinzatorilor individuali: procedura ASP, consolidare 2026-07-23.
 - [[L-232-2016]] — Legea nr. 232/2016 privind redresarea și rezoluția băncilor (BRRD): text românesc, 344 de ancore, articole fără titlu.
 - [[L-234-2016]] — Legea nr. 234/2016 privind Depozitarul central unic al valorilor mobiliare (DCU)

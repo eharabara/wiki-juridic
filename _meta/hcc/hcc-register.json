@@ -2169,6 +2169,31 @@
    ]
   },
   {
+   "instrument": "L-24-2008",
+   "file": "raw/papers/moldova-legal/L-24-2008.md",
+   "doc_id": "110184",
+   "consolidation_date": "2018-11-08",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC3/2012-02-09",
+     "line": 46,
+     "text": "HCC3 din 09.02.12, MO38-41/24.02.12 art.7;"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC3/2012-02-09",
+     "line": 46,
+     "text": "HCC3 din 09.02.12, MO38-41/24.02.12 art.7;"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC3/2012-02-09"
+   ]
+  },
+  {
    "instrument": "L-514-1995",
    "file": "raw/papers/moldova-legal/L-514-1995.md",
    "doc_id": "156079",
@@ -2444,10 +2469,10 @@
   }
  ],
  "counts": {
-  "acts": 19,
+  "acts": 20,
   "distinct_hcc": 76,
   "markers_in_text": 16,
   "recovered": 95,
-  "unattributed": 3
+  "unattributed": 4
  }
 }
