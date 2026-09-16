@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-16 | Total pages: 123
+> Last updated: 2026-09-16 | Total pages: 128
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -99,8 +99,10 @@
 
 - [[acquis-AIFMD]] — Administratori de fonduri de investiții alternative
 - [[acquis-AML]] — Prevenirea spălării banilor (AMLD 2015/849 → pachetul AML 2024)
+- [[acquis-Benchmarks]] — Indicii de referință financiari (Reg. 2016/1011): absență confirmată, singura mențiune de „indice de referință" e fals pozitiv din legea asigurărilor.
 - [[acquis-CompanyLaw]] — Dreptul societăților UE (2017/1132 + SRD II 2017/828)
 - [[acquis-ConsumerCredit]] — Creditul de consum (2008/48/CE → CCD2 2023/2225)
+- [[acquis-CRA]] — Agențiile de rating de credit (Reg. 1060/2009): transpunere expresă, cu tabel articol cu articol, în L-171-2012 arts. 88^1-88^4.
 - [[acquis-Crowdfunding]] — Furnizori europeni de servicii de finanțare participativă (ECSP)
 - [[acquis-CSDR-EMIR]] — Infrastructură post-tranzacționare (CSDR / EMIR)
 - [[acquis-ICSD]] — Sistemele de compensare pentru investitori
@@ -109,8 +111,11 @@
 - [[acquis-MAR]] — Regulamentul privind abuzul de piață (MAR / CSMAD)
 - [[acquis-MiFID]] — Piețe de instrumente financiare (MiFID II / MiFIR)
 - [[acquis-MTPL]] — Asigurarea obligatorie de răspundere civilă auto (2009/103/CE)
+- [[acquis-PRIIPs]] — Documentul cu informații esențiale pentru produsele de retail structurate (Reg. 1286/2014): un KID există (L-2-2020 art. 39), dar în format KIID OPCVM, nu formatul PRIIPs.
 - [[acquis-Prospectus]] — Regulamentul privind prospectul
 - [[acquis-SFD]] — Caracterul definitiv al decontării
+- [[acquis-SFTR]] — Transparența tranzacțiilor de finanțare prin instrumente financiare (Reg. 2015/2365): absență confirmată, singura urmă e o facilitate de infrastructură a DCU.
+- [[acquis-ShortSelling]] — Vânzări în lipsă și CDS (Reg. 236/2012): absență confirmată, singura urmă e o interdicție punctuală pentru un tip de fond.
 - [[acquis-Takeover]] — Oferte publice de preluare
 - [[acquis-Transparency]] — Directiva privind transparența
 - [[acquis-UCITS]] — Organisme de plasament colectiv în valori mobiliare (OPCVM)

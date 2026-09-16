@@ -45,8 +45,10 @@ Reverificat 2026-09-16 (pasul 6.6, ultimul pas al planului `2026-09-15-plan-pasu
 după ce toate cele 17 pagini `acquis-*` citate mai jos au fost dezghețate individual la pasul 6.5.
 Fiecare celulă din secțiunile A, B și D de mai jos citează constatarea verificată a paginii proprii —
 nu se repetă articolul-sursă aici, doar concluzia; deschide pagina legată pentru citatul exact.
-Rămân neverificate la acest pas doar rândurile marcate explicit `[de verificat]`, care nu au o pagină
-`acquis-*` proprie (agențiile de rating, PRIIPs, vânzările în lipsă, indicii de referință, SFTR).
+**Aceeași zi, după închiderea planului:** cele cinci instrumente fără pagină proprie — agențiile de
+rating (CRA), PRIIPs, vânzările în lipsă, indicii de referință și SFTR — au fost și ele verificate,
+fiecare cu pagina lui `acquis-*` acum. Unul, CRA, s-a dovedit substanțial transpus; celelalte patru,
+absente confirmat, nu doar presupuse.
 
 **Scop.** Legea 171/2012 a transpus *generația pre-reformă* a legislației UE în servicii financiare
 (aproximativ acquis-ul 2003–2009). Acquis-ul UE s-a mutat între timp la un regim dominat de regulamente,
@@ -75,7 +77,7 @@ nu figurează în Anexa XXVIII-A (stau în Anexele II și IV, neingerate) — f�
 | [[acquis-UCITS|OPCVM IV 2009/65]] | Fonduri de retail | **OPCVM V 2014/91** (+ dezbaterea OPCVM VI) | Articol de răspundere a depozitarului există (art. 110), dar formulat ca răspundere generală pentru culpă, nu standardul strict cu sarcina probei inversată al OPCVM V — discrepanță semnalată, neconfirmată integral. Nicio politică de remunerare specifică managerilor de fonduri găsită. |
 | [[acquis-ICSD|ICSD 97/9]] | Compensarea investitorilor | în vigoare; revizuire propusă | **Cea mai mare lacună cuantificată a întregii matrici**: plafonul propriu (art. 131) e 1.000 euro, minimul armonizat al directivei (art. 4) e 20.000 euro — 1/20. Termenul UE pentru acest plafon a expirat 1 septembrie 2024. Excluderile (art. 134) și termenul de plată sînt aliniate. |
 | [[acquis-SFD|Caracterul definitiv al decontării 98/26]] | Post-tranzacționare | în vigoare + **CSDR 909/2014** | Substanța (irevocabilitate, gestionarea insolvabilității Depozitarului) transpusă pe calea CSDR (`L-234-2016`, declarație de transpunere parțială a Reg. 909/2014), nu prin declarație proprie 98/26. Disciplina decontării (penalități, buy-in) confirmată absentă — vezi [[acquis-CSDR-EMIR]]. |
-| Reg. CRA 1060/2009 | Agenții de rating | **CRA III 462/2013** | Neverificat la pasul 6.5 — nicio pagină `acquis-*` dedicată. `[de verificat]` |
+| [[acquis-CRA|Reg. CRA 1060/2009]] | Agenții de rating | **CRA III 462/2013** | Verificat 2026-09-16: declarație expresă de transpunere, cu tabel articol cu articol (`L-171-2012` linia 137); arts. 88^1-88^4 reproduc structural regimul de înregistrare, utilizare și conduită; CNPF are mandat expres (`L-192-1998` art. 222 lit. c^1) și registru public. CRA III (rotația obligatorie, răspunderea civilă) nu e citată. |
 | [[acquis-Takeover|Oferta de preluare 2004/25]] | Oferte publice de preluare | în vigoare, neamendată substanțial | Regim complet și bine dezvoltat, verificat articol cu articol: oferta obligatorie (art. 21, prag 50%), prețul echitabil, ofertele competitive, squeeze-out (90%) și sell-out toate prezente. Nu figurează în Anexa XXVIII-A (stă în Anexa II, neingerată). |
 
 ## B. Acquis curent fără ancoră din 2012 → verifică legi separate sau marchează ca lacună
@@ -85,10 +87,10 @@ nu figurează în Anexa XXVIII-A (stau în Anexele II și IV, neingerate) — f�
 | [[acquis-AIFMD|AIFMD 2011/61]] (frontieră: **AIFMD II 2024/927**) | Fonduri alternative | `L-2-2020` declară transpunerea nu doar a AIFMD, ci și EuVECA (345/2013) și ELTIF (2015/760) — bloc mai amplu decît știut. Substanța operațională (efect de levier, lichiditate, delegare) nu are corespondent găsit — nedistins dacă golul e real sau delegat unor acte CNPF neingerate. AIFMD II confirmat netranspusă. |
 | [[acquis-Crowdfunding|Reg. crowdfunding 2020/1503]] | Platforme de crowdfunding | Protecția investitorilor (KIIS, testul capacității de a suporta pierderi) substanțial prezentă. Divergența „debitor-consumator” e o **extensie deliberată**, cu regim propriu (plafon 7.500 euro, evaluare a bonității) — nu o eroare de scop, cum sugera nota anterioară. |
 | [[acquis-CSDR-EMIR|EMIR 648/2012]] | Derivate OTC, CPC, registre centrale de tranzacții | Absența confirmată prin căutare exhaustivă (zero „contraparte centrală”, „registru de tranzacţii”, „obligaţia de compensare”), nu doar presupusă. Lucrul de concordanță din iulie 2026 ([[emir-concordance-skeleton]]) rămâne actual; tabelul oficial complet rămâne de elaborat. |
-| **Reg. PRIIPs 1286/2014** | Produse de retail structurate (KID) | Neverificat la pasul 6.5 — nicio pagină `acquis-*` dedicată. `[de verificat]` |
-| **Reg. vânzări în lipsă 236/2012** | Vânzări în lipsă, CDS | Neverificat la pasul 6.5 — nicio pagină `acquis-*` dedicată. `[de verificat]` |
-| **Reg. indici de referință 2016/1011** | Indici de referință financiari | Neverificat la pasul 6.5 — nicio pagină `acquis-*` dedicată. `[de verificat]` |
-| **SFTR 2015/2365** | Tranzacții de finanțare cu titluri | Neverificat la pasul 6.5 — nicio pagină `acquis-*` dedicată. `[de verificat]` |
+| [[acquis-PRIIPs|Reg. PRIIPs 1286/2014]] | Produse de retail structurate (KID) | Verificat 2026-09-16: nu e regimul PRIIPs, dar nici gol complet — `L-2-2020` art. 39 cere un „document cu informații-cheie” pentru fondurile alternative de retail, în format KIID OPCVM (obiective, performanțe anterioare, costuri, profil de risc), nu formatul PRIIPs (indicator de risc 1-7, scenarii de performanță). Legea nu declară transpunerea PRIIPs. |
+| [[acquis-ShortSelling|Reg. vânzări în lipsă 236/2012]] | Vânzări în lipsă, CDS | Verificat 2026-09-16, absență confirmată prin căutare exhaustivă: singura urmă e o interdicție punctuală pentru un tip de fond (`L-2-2020` art. 39), nu regimul de raportare a pozițiilor scurte sau interdicția vânzărilor neacoperite. |
+| [[acquis-Benchmarks|Reg. indici de referință 2016/1011]] | Indici de referință financiari | Verificat 2026-09-16, absență confirmată: singura mențiune de „indice de referință” (`L-92-2022`) e în contextul asigurărilor unit-linked, fals pozitiv față de regimul de autorizare a administratorilor de indici. |
+| [[acquis-SFTR|SFTR 2015/2365]] | Tranzacții de finanțare cu titluri | Verificat 2026-09-16, absență confirmată pentru regimul de raportare; singura urmă e o facilitate de infrastructură a DCU (`L-234-2016`, „organizarea mecanismului de împrumut de valori mobiliare”), deja acoperită pe calea CSDR, nu un regim de raportare SFTR. |
 
 ## C. Note pentru pasul de lint
 - Semnalează orice acquis din Capitolul 9 din secțiunea B rămas „lacună/de verificat" față de termenele

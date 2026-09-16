@@ -798,3 +798,40 @@
 - **Unde:** `concepts/acquis-MTPL.md`; `comparisons/cnpf-transposition-matrix.md`;
   `raw/papers/cnpf/L-106-2022.md` (art. 13, liniile 288-291, citit, neatins); sursă externă citită,
   nu ingerată: EUR-Lex CELEX `02009L0103-20231223` art. 9; commitul acestei intrări.
+
+## [2026-09-16] update | Cele cinci instrumente fără pagină proprie — CRA, PRIIPs, vânzări în lipsă, indici de referință, SFTR — toate verificate, planul din 15 septembrie depășit
+
+- **Aflat:** căutare exhaustivă în tot `raw/papers/cnpf/` și `raw/papers/moldova-legal/`, pe termeni
+  proprii fiecărui regim, nu doar pe numărul regulamentului. Rezultatul cel mai important răstoarnă
+  presupunerea din nota plaului („fără pagină acquis-* = neverificat”): **CRA (Reg. 1060/2009) e de
+  fapt substanțial transpus**, nu doar netratat — `L-171-2012` poartă o declarație de transpunere
+  cu tabel articol cu articol (linia 137, ultima generație citată fiind Reg. 2017/2402, nu CRA III
+  462/2013) și patru articole proprii (88^1-88^4, Secțiunea a 7-a) care reproduc înregistrarea,
+  utilizarea în scopuri de reglementare și regulile de conduită ale agențiilor de rating; `L-192-1998`
+  art. 222 lit. c^1) dă CNPF mandatul expres, art. 235 cere registrul public. Pentru celelalte patru,
+  absența e confirmată, nu doar presupusă, fiecare cu o singură urmă adiacentă găsită și dovedită
+  a nu fi regimul căutat: **vânzări în lipsă** (236/2012) — o interdicție punctuală pentru un tip de
+  fond în `L-2-2020` art. 39, nu regimul de raportare a pozițiilor scurte; **indici de referință**
+  (2016/1011) — „indice de referință” apare doar în `L-92-2022`, în sensul asigurărilor unit-linked,
+  fals pozitiv față de regimul administratorilor de indici; **SFTR** (2015/2365) — `L-234-2016`
+  listează „organizarea mecanismului de împrumut de valori mobiliare” ca serviciu auxiliar al DCU,
+  acoperire de infrastructură pe calea CSDR, nu regimul de raportare SFTR; **PRIIPs** (1286/2014) —
+  cel mai nuanțat: `L-2-2020` art. 39 alin. (9)-(18) chiar cere un „document cu informații-cheie”
+  pentru fonduri alternative distribuite către retail, dar conținutul minim cerut (alin. (10))
+  reproduce structura KIID OPCVM (obiective, performanțe anterioare, costuri, profil de risc), nu
+  formatul PRIIPs (indicator de risc 1-7, scenarii de performanță); declarația de transpunere a
+  legii (linia 72) nu numește PRIIPs. A doua urmă găsită la PRIIPs, `L-198-2020` linia 896
+  („document cu informații-cheie – declarația de pensie”), e regimul IORP II, nu PRIIPs — produsele
+  de pensii personale sînt oricum excluse din domeniul regulamentului.
+- **Decis:** cinci pagini noi, `concepts/acquis-CRA.md`, `acquis-PRIIPs.md`, `acquis-ShortSelling.md`,
+  `acquis-Benchmarks.md`, `acquis-SFTR.md`, toate `confidence: medium`. Rândurile corespunzătoare din
+  `comparisons/cnpf-transposition-matrix.md` (secțiunile A și B) rescrise cu constatările, nu mai
+  „neverificat”; nota introductivă a matricei actualizată. Adăugate în `index.md` (128 de pagini).
+  Cu acest pas, planul din 15 septembrie e depășit: nu doar cele 17 pagini `acquis-*` originale, ci
+  și cele cinci semnalate ca gol de acoperire în capul planului sînt acum verificate.
+- **Unde:** `concepts/acquis-CRA.md`; `concepts/acquis-PRIIPs.md`; `concepts/acquis-ShortSelling.md`;
+  `concepts/acquis-Benchmarks.md`; `concepts/acquis-SFTR.md`; `comparisons/cnpf-transposition-matrix.md`;
+  `index.md`; `raw/papers/cnpf/L-171-2012.md` (arts. 88^1-88^4, linia 137, citite, neatinse);
+  `raw/papers/cnpf/L-192-1998.md` (art. 222, art. 235); `raw/papers/cnpf/L-2-2020.md` (art. 39,
+  linia 72); `raw/papers/cnpf/L-92-2022.md`; `raw/papers/cnpf/L-234-2016.md` (liniile 157-161);
+  `raw/papers/cnpf/L-198-2020.md` (linia 896); commitul acestei intrări.
