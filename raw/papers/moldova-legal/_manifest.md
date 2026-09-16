@@ -1888,6 +1888,39 @@ rezerva.
   exceptie pentru entitatile supravegheate prudential, nici mecanism de cooperare. `[de verificat]`
   daca o regula de cooperare exista in actele normative ale Centrului.
 
+## W. Legea taxei de stat — L-213/2023 (ingerată 2026-09-16)
+
+Ingerată din continuarea D3 (procedura civilă), pentru citirea directă din `COD-225-2003`
+(arts. 84-89, `Legii taxei de stat nr. 213/2023`, de zeci de ori) găsită prin coada de ingerare a
+grafului de citare (`_meta/graph/citation-graph.md`), unde figura cu 22 de mențiuni în 8 acte
+ținute, 11 din `COD-225-2003` singur.
+
+- **doc_id legis.md:** 152741. Zece articole, consolidare 23.01.2026 (ultimul amendament de fond,
+  LP335 din 29.12.25).
+- **Blocaj de sursă, nu de conținut.** `curl` pe `cautare/showdetails` era blocat de Cloudflare la
+  data ingestiei (verificat: și pe endpoint-uri simple, `getResults?doc_id=`, care mai devreme
+  treceau curat) — regresie față de ruta documentată în memoria de sesiune. Textul actului și fișa
+  au fost citite prin browserul Chrome al lui Eugen (Claude in Chrome), nu prin curl.
+- **Anexele nu sînt deloc pe pagina actului.** Nici HTML-ul, nici exportul `.pdf` al paginii nu
+  poartă conținutul anexelor — doar titluri „anexa nr. 1” / „anexa nr. 2” ca linkuri goale. Anexa
+  nr. 1 (cuantumurile, 110 poziții) și anexa nr. 2 (scutirile, 98 de poziții) sînt fișiere `.docx`
+  separate, legate din pagină (`an_1_213md.docx`, `an_2_213md.docx`), descărcate cu acordul lui
+  Eugen și extrase cu `python-docx`. Hash-urile celor două fișiere sursă sînt în frontmatter-ul
+  fișierului brut, câmpul `annexes`.
+- **Constatare de fond, direct utilă pentru `COD-225-2003`:** apelul costă 85% din taxa achitată în
+  prima instanță, recursul 70%, revizuirea 55% (anexa nr. 1, pct. 1.16-1.18) — cifre care lipseau
+  din wiki pînă acum, fiindcă `COD-225-2003` însuși nu le conține, doar trimite la ele.
+- **HCC20/2024** a lovit art. 2 alin. (2) din această lege, împreună cu art. 84 alin. (4) din
+  `COD-225-2003` — deja în `_meta/hcc/hcc-register.md`. Textul ținut e cel de după decizie.
+- **CNPF și BNM apar nominal** în anexa nr. 2: pct. 1.17 scutește CNPF de taxa de stat în
+  acțiunile privind încălcarea drepturilor consumatorilor serviciilor financiare, pct. 1.19
+  scutește BNM în acțiunile din exercitarea supravegherii bancare și nebancare — scutiri ale
+  autorității ca parte în proces, nu ale entităților supravegheate.
+- **Rămas neatins:** celelalte șapte acte ținute care citează `L-213/2023` (din coada de ingerare a
+  grafului) nu au fost verificate articol cu articol, doar `COD-225-2003`.
+
+Pagină de entitate: [[L-213-2023]]. Sursă: `raw/papers/moldova-legal/L-213-2023.md`.
+
 ## D. Artefacte metodologice create
 
 | Artefact | Tip | Rol |

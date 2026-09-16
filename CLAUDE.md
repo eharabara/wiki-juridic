@@ -139,9 +139,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-16 09:34 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-16 09:58 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-78 primary Moldovan acts, 29 EU acquis extracts, 1 Association Agreement extract(s), 293 BNM corpus documents.
+79 primary Moldovan acts, 29 EU acquis extracts, 1 Association Agreement extract(s), 293 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -203,6 +203,7 @@ Generated 2026-09-16 09:34 from the files themselves. Do not edit this section b
 | `L-2-2020` | 46 | 46 | 2025-10-25 | clean |
 | `L-20-2026` | 29 | 29 | 2026-04-01 | clean |
 | `L-202-2017` | 155 | 155 | 2025-10-25 | 6 superscript articles normalised |
+| `L-213-2023` | 10 | 10 | 2026-01-23 | **1 HCC decision(s) not yet attributed to an article** |
 | `L-220-2007` | 44 | 44 | 2026-07-23 | 6 superscript articles normalised |
 | `L-232-2016` | 344 | 344 | 2025-02-28 | 21 superscript articles normalised |
 | `L-234-2016` | 37 | 37 | 2024-11-26 | clean |
@@ -228,7 +229,7 @@ Generated 2026-09-16 09:34 from the files themselves. Do not edit this section b
 
 - **Repealed acts.** no longer in force: `L-133-2011` (repealed 2026-08-23 by LP195 din 25.07.24). These files are kept because other acts in the corpus still cite them and because the text governs facts before the repeal date. They are anchored, their sha256 verifies and their consolidation is recent, so nothing else here would reveal that they stopped binding. Do not cite them as law in force; cite the successor and say from when it applies.
 - **Not yet in force.** 13 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-1134-1997` (2028-01-01), `L-171-2012` (2027-06-01), `COD-122-2003` (2026-12-02), `COD-154-2003` (2027-01-01), `COD-218-2008` (2026-09-13), `COD-443-2004` (2026-12-02), `COD-985-2002` (2026-12-02), `HG-743-2024` (2026-12-30), `L-1543-1998` (2027-01-01), `L-158-2008` (2026-09-13), `L-325-2025` (2027-01-01), `L-845-1992` (2027-01-01), `L-114-2012` (2027-01-01). 49 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
-- **Declared unconstitutional.** 18 act(s) carry at least one Constitutional Court decision in their history block, 76 decisions in total: 16 still marked at article level in the text itself, 95 more recovered by reading the legis.md version history (`_meta/hcc/recovered-provisions.json`), and 2 not yet attributed to any article. A struck provision looks like ordinary law: the article exists, the anchor is valid, the sha256 matches. Check `_meta/hcc/hcc-register.md` before citing an article from `COD-116-2018`, `COD-1163-1997`, `COD-122-2003`, `COD-154-2003`, `COD-174-2018`, `COD-218-2008`, `COD-225-2003`, `COD-443-2004`, `COD-985-2002`, `L-1260-2002`, `L-135-2007`, `L-149-2012`, `L-158-2008`, `L-514-1995`, `L-548-1995`, `L-64-2010`, `L-845-1992` and say which decision struck it and what today's text actually holds.
+- **Declared unconstitutional.** 19 act(s) carry at least one Constitutional Court decision in their history block, 76 decisions in total: 16 still marked at article level in the text itself, 95 more recovered by reading the legis.md version history (`_meta/hcc/recovered-provisions.json`), and 3 not yet attributed to any article. A struck provision looks like ordinary law: the article exists, the anchor is valid, the sha256 matches. Check `_meta/hcc/hcc-register.md` before citing an article from `COD-116-2018`, `COD-1163-1997`, `COD-122-2003`, `COD-154-2003`, `COD-174-2018`, `COD-218-2008`, `COD-225-2003`, `COD-443-2004`, `COD-985-2002`, `L-1260-2002`, `L-135-2007`, `L-149-2012`, `L-158-2008`, `L-514-1995`, `L-548-1995`, `L-64-2010`, `L-845-1992` and say which decision struck it and what today's text actually holds.
 - **Stale consolidations.** `L-250-2017` (2018-03-29), `HBN-130-2013` (2018-12-23), `HBN-127-2013` (2021-05-09), `HCNPF-14-5-2016` (2022-05-06), `UA-STATUT-2011` (2022-05-27), `L-160-2023` (2023-10-01), `L-148-2023` (2024-01-08), `L-64-2010` (2024-01-23), `DCA-61-2024` (2024-05-05), `HG-1171-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `HG-574-2024` (2024-08-23). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
 - **Stale count line inside the file.** `L-177-2025` (body says 0, anchors 4), `L-178-2020` (body says 0, anchors 8), `L-192-1998` (body says 0, anchors 34). The frontmatter is right and the anchors are right; the human-readable line in the body was written by the original ingest and never updated. Cosmetic, but it is the line a reader sees first.
 - **BNM English corpus.** 60 file(s) carry 149 line-initial `Article N` markers and no anchors. Any answer resting on the English BNM translations is not anchored.

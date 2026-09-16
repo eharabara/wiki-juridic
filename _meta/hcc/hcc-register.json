@@ -2139,6 +2139,36 @@
    ]
   },
   {
+   "instrument": "L-213-2023",
+   "file": "raw/papers/moldova-legal/L-213-2023.md",
+   "doc_id": "152741",
+   "consolidation_date": "2026-01-23",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC20/2024-09-26",
+     "line": 51,
+     "text": "| Data modificării/datele modificării şi actele normative care modifică | LP335 din 29.12.25, MO55-58/23.01.26 art.2; în vigoare 23.01.26<br>LP187 din 10.07.25, MO379-380/18.07.25 art.491; în vigoare "
+    },
+    {
+     "hcc": "HCC20/2024-09-26",
+     "line": 55,
+     "text": "Rândul HCC20 din 26.09.24 este decizia Curții Constituționale care a lovit art. 2 alin. (2) din"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC20/2024-09-26",
+     "line": 51,
+     "text": "| Data modificării/datele modificării şi actele normative care modifică | LP335 din 29.12.25, MO55-58/23.01.26 art.2; în vigoare 23.01.26<br>LP187 din 10.07.25, MO379-380/18.07.25 art.491; în vigoare "
+    }
+   ],
+   "distinct_hcc": [
+    "HCC20/2024-09-26"
+   ]
+  },
+  {
    "instrument": "L-514-1995",
    "file": "raw/papers/moldova-legal/L-514-1995.md",
    "doc_id": "156079",
@@ -2414,10 +2444,10 @@
   }
  ],
  "counts": {
-  "acts": 18,
+  "acts": 19,
   "distinct_hcc": 76,
   "markers_in_text": 16,
   "recovered": 95,
-  "unattributed": 2
+  "unattributed": 3
  }
 }

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-15 | Total pages: 122
+> Last updated: 2026-09-16 | Total pages: 123
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -72,6 +72,7 @@
 - [[L-2-2020]] — Legea nr. 2/2020 privind organismele de plasament colectiv alternative
 - [[L-20-2026]] — Legea remediilor în achiziții: 29 de ancore, în vigoare din 01.04.2026; ANSC devine autoritate, termen de așteptare 11/16 zile (art. 20); anexa ei a abrogat art. 80–84 și 86–88 din Legea 131/2015.
 - [[L-202-2017]] — Legea nr. 202/2017 privind activitatea băncilor: legea-cadru a perimetrului bancar, text românesc, 155 de ancore, consolidare 2025-10-25; art. 36 alin. (2) listează limitativ excepțiile de la Legea SA.
+- [[L-213-2023]] — Legea taxei de stat nr. 213/2023: taxa de stat și taxa de timbru pentru procedura civilă, cuantumuri (anexa nr. 1: apel 85%, recurs 70%, revizuire 55% din taxa de la prima instanță) și scutiri (anexa nr. 2, cu CNPF și BNM nominalizate); zece articole, în vigoare din 01.01.2024, arts. 84-89 din COD-225-2003 trimit aici pentru orice cuantum.
 - [[L-220-2007]] — Legea nr. 220/2007 privind inregistrarea de stat a persoanelor juridice si a intreprinzatorilor individuali: procedura ASP, consolidare 2026-07-23.
 - [[L-232-2016]] — Legea nr. 232/2016 privind redresarea și rezoluția băncilor (BRRD): text românesc, 344 de ancore, articole fără titlu.
 - [[L-234-2016]] — Legea nr. 234/2016 privind Depozitarul central unic al valorilor mobiliare (DCU)

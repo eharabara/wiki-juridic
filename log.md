@@ -715,3 +715,34 @@
 - **Unde:** `raw/papers/moldova-legal/COD-225-2003.md` (liniile 687-697, 2780, citite, neatinse);
   `_meta/graph/citation-graph.md` (secțiunea „Dispoziții cu stare specială"); commitul acestei
   intrări.
+
+## [2026-09-16] ingest | `L-213-2023`, Legea taxei de stat: prima cu ancoră principală ratată de curl
+
+- **Aflat:** actul din capul cozii de ingerare pentru `COD-225-2003` (22 mențiuni, 11 din codul de
+  procedură civilă singur, restul din șapte acte). `curl` pe `cautare/showdetails/152741`, cu cele
+  două antete documentate în memoria de sesiune, a întors pagina de verificare Cloudflare — și la
+  fel un `getResults?doc_id=` simplu, care mai devreme trecea curat; regresie confirmată, nu
+  fluctuație. Textul actului (zece articole) și fișa au fost citite prin browserul Chrome al lui
+  Eugen. Descoperirea reală a fost a doua, nu prima: **anexele nu sînt deloc pe pagina actului**.
+  Nici HTML-ul, nici exportul `.pdf` propriu al paginii nu poartă conținutul lor — „anexa nr. 1” și
+  „anexa nr. 2” sînt linkuri goale către două fișiere `.docx` separate
+  (`an_1_213md.docx`, `an_2_213md.docx`), primul cu 110 poziții tabelare (cuantumurile), al doilea
+  cu 98 de poziții (scutirile). Descărcate cu acordul lui Eugen, extrase cu `python-docx`; niciun
+  caracter `|` în conținut, deci tabelul markdown nu s-a rupt. Douăsprezece rânduri din tabelul
+  anexei 1 sînt titluri de secțiune pe celulă îmbinată orizontal, pe care `python-docx` le întoarce
+  ca text duplicat pe ambele coloane — redate o singură dată, ca titlu, cu regula consemnată în
+  fișierul brut. Constatare de fond găsită abia la citirea anexei: apelul costă 85% din taxa
+  achitată în prima instanță, recursul 70%, revizuirea 55% — cifre pe care `COD-225-2003` însuși nu
+  le conține, doar trimite la anexa nr. 1 pct. 1.16-1.18. Anexa nr. 2 numește direct CNPF (pct.
+  1.17, scutire în acțiunile de protecție a consumatorilor financiari) și BNM (pct. 1.19, scutire
+  în supravegherea bancară și nebancară) — scutiri ale autorității ca parte în proces.
+- **Decis:** ingerat în `raw/papers/moldova-legal/L-213-2023.md`, cu proveniența .docx (surse și
+  sha256) în câmpul `annexes` al frontmatter-ului, ca o reîmprospătare viitoare să știe că anexele
+  nu vin din același loc ca restul textului. Pagină de entitate `entities/L-213-2023.md`, secțiune
+  nouă W în manifestul moldova-legal, rând nou în `index.md` (123 de pagini), și o secțiune scurtă
+  adăugată în `entities/COD-225-2003.md` ca arts. 84-89 să nu mai fie ancorate, dar goale.
+  Memoria de sesiune despre ruta curl e actualizată cu regresia de azi. Rămân neverificate celelalte
+  șapte acte din corpus care citează `L-213-2023`.
+- **Unde:** `raw/papers/moldova-legal/L-213-2023.md`; `entities/L-213-2023.md`;
+  `entities/COD-225-2003.md` (secțiune nouă); `raw/papers/moldova-legal/_manifest.md` (secțiunea
+  W); `index.md`; commitul acestei intrări.

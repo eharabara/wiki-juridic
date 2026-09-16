@@ -1,6 +1,6 @@
 # Graful de citare al actelor detinute
 
-Generat 2026-09-16 09:34 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
+Generat 2026-09-16 09:58 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
 
 **Ce este.** Trimiterile dintre actele detinute, extrase mecanic din textul brut: fiecare muchie poarta fisierul si liniile din care a fost citita, si nicio muchie nu este dedusa. Graful nu se citeaza. El spune unde sa deschizi fisierul, iar ancora se citeste.
 
@@ -10,23 +10,23 @@ Generat 2026-09-16 09:34 de `_meta/graph/build_citation_graph.py`. Nu edita de m
 
 | | |
 |---|---:|
-| acte primare detinute (din care ancorate pe articole) | 87 (68) |
-| dispozitii (noduri-articol) | 11769 |
+| acte primare detinute (din care ancorate pe articole) | 88 (69) |
+| dispozitii (noduri-articol) | 11779 |
 | extrase UE detinute (noduri-tinta) | 29 |
-| acte citate si nedetinute (noduri externe) | 506 |
-| mentiuni de acte in text (din care ale actului insusi) | 3524 (281) |
-| muchii act -> act (agregate pe segment-sursa) | 2484 |
-| trimiteri la articole citite (in grupuri de enumerare) | 8449 (7378) |
-|   rezolvate in actul curent | 6895 |
-|   rezolvate in alt act detinut | 1019 |
-|   nerezolvate: articolul nu are ancora in actul-tinta | 94 |
-|   catre acte nedetinute (notate pe muchia act -> act) | 390 |
+| acte citate si nedetinute (noduri externe) | 507 |
+| mentiuni de acte in text (din care ale actului insusi) | 3534 (284) |
+| muchii act -> act (agregate pe segment-sursa) | 2491 |
+| trimiteri la articole citite (in grupuri de enumerare) | 8458 (7386) |
+|   rezolvate in actul curent | 6900 |
+|   rezolvate in alt act detinut | 1020 |
+|   nerezolvate: articolul nu are ancora in actul-tinta | 95 |
+|   catre acte nedetinute (notate pe muchia act -> act) | 392 |
 |   catre acte pe puncte (fara articole) | 33 |
 |   autoreferinte (articolul se citeaza pe sine), ignorate | 18 |
-| muchii articol -> articol (agregate) | 6492 |
-| muchii articol -> act nerezolvate (agregate) | 81 |
+| muchii articol -> articol (agregate) | 6495 |
+| muchii articol -> act nerezolvate (agregate) | 82 |
 
-Regula care a dat actul-tinta, pe trimiteri: din 1183, doua-puncte 46, intern 6715, modificare 57, paranteza 7. „intern” = niciun act in context, deci actul curent; „din” = `art. N ... din Legea X` sau `(art. N, M) Directiva X`; „paranteza” = `Legea X (art. N)`; „doua-puncte” = `din Codul X: art. N, M`; „modificare” = `Legea X se modifica dupa cum urmeaza: ... articolul N`. `din legea indicata` trimite la ultima lege numita in acelasi segment.
+Regula care a dat actul-tinta, pe trimiteri: din 1186, doua-puncte 46, intern 6718, modificare 57, paranteza 8. „intern” = niciun act in context, deci actul curent; „din” = `art. N ... din Legea X` sau `(art. N, M) Directiva X`; „paranteza” = `Legea X (art. N)`; „doua-puncte” = `din Codul X: art. N, M`; „modificare” = `Legea X se modifica dupa cum urmeaza: ... articolul N`. `din legea indicata` trimite la ultima lege numita in acelasi segment.
 
 Coduri citate si pe nume si pe numar, unite dupa textul care le scrie impreuna: COD-audiovizualului = COD-260-2006; COD-educatiei = COD-152-2014; COD-electoral = COD-325-2022; COD-familiei = COD-1316-2000; COD-jurisdictiei-constitutionale = COD-502-1995; COD-transporturilor-rutiere = COD-150-2014.
 
@@ -43,7 +43,6 @@ Legi, coduri si hotariri de Guvern identificate prin numar si an.
 | `COD-325-2022` Codul nr. 325/2022 | 38 | 9 | `L-436-2006` (14) | art. 178 (x2), art. 1, art. 89, art. 90 |
 | `L-183-2016` Legea nr. 183/2016 | 25 | 7 | `DCU-REGULI-2026` (9) | art. 3 (x3), art. 6 (x2), art. 8 |
 | `L-133-2016` Legea nr. 133/2016 | 22 | 11 | `COD-218-2008` (9) | art. 13, art. 18 |
-| `L-213-2023` Legea nr. 213/2023 | 22 | 8 | `COD-225-2003` (11) | - |
 | `L-1125-2002` Legea nr. 1125/2002 | 22 | 2 | `CC-1107-2002` (19) | art. 26, art. 27 |
 | `COD-150-2014` Codul nr. 150/2014 | 22 | 1 | `COD-218-2008` (22) | art. 94 (x2), art. 23, art. 43, art. 45 |
 | `L-86-2014` Legea nr. 86/2014 | 20 | 5 | `COD-434-2023` (11) | art. 7 |
@@ -52,8 +51,8 @@ Legi, coduri si hotariri de Guvern identificate prin numar si an.
 | `L-245-2008` Legea nr. 245/2008 | 15 | 10 | `L-325-2025` (3) | - |
 | `L-199-2010` Legea nr. 199/2010 | 15 | 7 | `L-436-2006` (4) | art. 21 (x6), art. 22, art. 23 |
 | `L-74-2020` Legea nr. 74/2020 | 14 | 3 | `L-325-2025` (8) | art. 6, art. 14, art. 19, art. 43 |
+| `L-181-2014` Legea nr. 181/2014 | 13 | 13 | `L-514-1995` (1) | art. 43 (x2) |
 | `L-440-2001` Legea nr. 440/2001 | 13 | 5 | `COD-1163-1997` (6) | art. 5, art. 6, art. 13 |
-| `L-181-2014` Legea nr. 181/2014 | 12 | 12 | `L-514-1995` (1) | art. 43 |
 | `L-124-2022` Legea nr. 124/2022 | 12 | 7 | `L-220-2007` (3) | art. 3 |
 | `L-407-2006` Legea nr. 407/2006 | 12 | 6 | `HCNPF-14-5-2016` (5) | art. 29 (x2), art. 1 |
 | `L-184-2016` Legea nr. 184/2016 | 12 | 5 | `CC-1107-2002` (6) | art. 8 (x3), art. 4, art. 14 |
@@ -64,13 +63,14 @@ Legi, coduri si hotariri de Guvern identificate prin numar si an.
 | `L-384-2023` Legea nr. 384/2023 | 9 | 6 | `L-325-2025` (3) | - |
 | `L-202-2013` Legea nr. 202/2013 | 9 | 5 | `COD-218-2008` (3) | art. 2, art. 3, art. 5, art. 10 |
 | `L-271-2017` Legea nr. 271/2017 | 9 | 5 | `L-181-2023` (3) | art. 44 (x3), art. 2, art. 21, art. 45 |
+| `L-137-2015` Legea nr. 137/2015 | 9 | 4 | `L-198-2007` (4) | art. 19, art. 32, art. 39 |
 | `L-231-2010` Legea nr. 231/2010 | 9 | 4 | `L-105-2003` (3) | art. 14, art. 19^1, art. 21, art. 21^15 |
 | `L-575-2003` Legea nr. 575/2003 | 9 | 4 | `L-160-2023` (6) | art. 16 |
 | `COD-1316-2000` Codul nr. 1316/2000 | 9 | 3 | `L-246-2018` (3) | art. 35, art. 36, art. 37, art. 39 |
 | `L-443-1995` Legea nr. 443/1995 | 9 | 1 | `L-158-2008` (9) | art. 6, art. 8 |
 | `L-768-2000` Legea nr. 768/2000 | 9 | 1 | `L-436-2006` (9) | art. 5 (x5) |
 | `L-121-2007` Legea nr. 121/2007 | 8 | 6 | `HCNPF-14-5-2016` (3) | art. 6, art. 14, art. 53 |
-| … inca 295 in JSON | | | | |
+| … inca 296 in JSON | | | | |
 
 ### Acte UE citate si neextrase
 
@@ -254,7 +254,7 @@ Dispozitiile care apar in registrul in-force (textul din fisier nu se aplica inc
 
 Stari atasate dispozitiilor, in total: 46 in-force, 92 HCC, 264 abrogat. 74 dintre ele au cel putin o citare intrata, 21 din alte acte.
 
-Acte care poarta hotariri HCC fara articol atribuit (orice citare din ele poate lovi textul anulat): `CONST-1994` (2).
+Acte care poarta hotariri HCC fara articol atribuit (orice citare din ele poate lovi textul anulat): `CONST-1994` (2), `L-213-2023` (1).
 
 ## Actele: ce citeaza si de cine sint citate
 
@@ -263,17 +263,17 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | act | ancore | citeaza (acte) | citat de (acte) | art. interne | art. in alte acte | nerezolvate | mentiuni externe |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | `AA-2014` | 11 | 44 | 0 | 4 | 0 | 18 | 64 |
-| `CC-1107-2002` | 2657 | 27 | 29 | 1017 | 5 | 1 | 45 |
-| `COD-116-2018` | 260 | 13 | 27 | 106 | 10 | 1 | 7 |
-| `COD-1163-1997` | 511 | 66 | 20 | 447 | 17 | 1 | 81 |
+| `CC-1107-2002` | 2657 | 27 | 29 | 1017 | 5 | 1 | 44 |
+| `COD-116-2018` | 260 | 13 | 27 | 106 | 10 | 1 | 6 |
+| `COD-1163-1997` | 511 | 66 | 21 | 447 | 17 | 1 | 81 |
 | `COD-122-2003` | 658 | 27 | 11 | 471 | 219 | 2 | 30 |
-| `COD-154-2003` | 416 | 26 | 11 | 198 | 0 | 0 | 30 |
+| `COD-154-2003` | 416 | 26 | 11 | 198 | 0 | 0 | 29 |
 | `COD-174-2018` | 98 | 18 | 4 | 71 | 4 | 0 | 21 |
-| `COD-218-2008` | 737 | 57 | 30 | 508 | 49 | 10 | 93 |
-| `COD-22-2024` | 96 | 26 | 4 | 18 | 5 | 0 | 28 |
-| `COD-225-2003` | 540 | 23 | 14 | 213 | 29 | 17 | 30 |
+| `COD-218-2008` | 737 | 57 | 30 | 508 | 49 | 10 | 89 |
+| `COD-22-2024` | 96 | 26 | 5 | 18 | 5 | 0 | 28 |
+| `COD-225-2003` | 540 | 23 | 14 | 213 | 29 | 17 | 19 |
 | `COD-434-2023` | 390 | 44 | 7 | 137 | 17 | 1 | 75 |
-| `COD-443-2004` | 361 | 30 | 17 | 129 | 75 | 0 | 24 |
+| `COD-443-2004` | 361 | 30 | 17 | 129 | 75 | 0 | 22 |
 | `COD-95-2021` | 472 | 37 | 3 | 430 | 8 | 0 | 31 |
 | `COD-985-2002` | 566 | 22 | 21 | 166 | 3 | 1 | 14 |
 | `CONST-1994` | 157 | 4 | 28 | 13 | 1 | 0 | 5 |
@@ -327,8 +327,9 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-198-2007` | 54 | 10 | 4 | 38 | 14 | 0 | 11 |
 | `L-198-2020` | 64 | 10 | 2 | 23 | 8 | 0 | 3 |
 | `L-2-2020` | 46 | 17 | 0 | 29 | 8 | 1 | 11 |
-| `L-20-2026` | 29 | 18 | 1 | 16 | 13 | 0 | 19 |
+| `L-20-2026` | 29 | 18 | 1 | 16 | 13 | 0 | 18 |
 | `L-202-2017` | 155 | 21 | 17 | 247 | 31 | 2 | 10 |
+| `L-213-2023` | 10 | 6 | 8 | 5 | 1 | 1 | 4 |
 | `L-220-2007` | 44 | 10 | 9 | 14 | 15 | 0 | 9 |
 | `L-232-2016` | 344 | 18 | 7 | 238 | 41 | 1 | 15 |
 | `L-234-2016` | 37 | 14 | 9 | 30 | 6 | 0 | 9 |
@@ -345,7 +346,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-550-1995` | 20 | 9 | 8 | 18 | 16 | 1 | 5 |
 | `L-62-2008` | 73 | 11 | 13 | 71 | 10 | 1 | 4 |
 | `L-62-2022` | 58 | 25 | 7 | 37 | 4 | 0 | 25 |
-| `L-64-2010` | 34 | 2 | 3 | 5 | 1 | 0 | 1 |
+| `L-64-2010` | 34 | 2 | 3 | 5 | 1 | 0 | 0 |
 | `L-845-1992` | 46 | 14 | 3 | 12 | 4 | 0 | 5 |
 | `L-92-2022` | 125 | 17 | 5 | 61 | 6 | 0 | 7 |
 | `UA-STATUT-2011` | 74 | 9 | 0 | 16 | 1 | 2 | 3 |
@@ -411,12 +412,12 @@ Articole citate care nu au ancora in actul-tinta, grupate pe tinta. Cauze cunosc
 | `L-202-2017` | art. 13^9 | 1 | - | din | `HBN-127-2013#corp` l.150 | nctul 2), Banca Naţională aplică prevederile art.13^9 şi/sau 14^1 din Legea nr.202 din 6 octombrie 2017 privind activitatea |
 | `L-202-2017` | art. 75^2 | 1 | - | intern | `L-202-2017#art.142` l.1721 | plicabile, în mod corespunzător, prevederile art. 75^2 alin. (5) referitoare la încălcarea repetată, ale alin. (6) şi ale al |
 | `L-202-2017` | art. 521 | 1 | exponent turtit: art. 52^1 | din | `L-232-2016#art.58` l.477 | cazul în care acțiunile emise în condițiile art. 521 din Legea nr. 202/2017 privind activitatea băncilor nu au fost vândut |
+| `L-213-2023` | art. 84 | 1 | - | paranteza | `L-213-2023#preambul` l.56 | lovit art. 2 alin. (2) din prezenta lege (și art. 84 alin. (4) din `COD-225-2003`) — deja înregistrată în `_meta/hcc/hcc-r |
 | `L-548-1995` | art. 112 | 1 | exponent turtit: art. 11^2 | intern | `L-548-1995#art.11` l.290 | emise de Banca Națională se notifică conform art. 112. (3^2) - abrogat. (3^3) În cadrul avizării și consultării publice a p |
 | `L-548-1995` | art. 491 | 1 | exponent turtit: art. 49^1 | intern | `L-548-1995#art.75` l.973 | perceperea incontestabilă a amenzii conform art. 491 alin. (3) lit. f) în mărime de la 10 000 de lei la 600 000 de lei; d) |
 | `L-548-1995` | art. 494 | 1 | exponent turtit: art. 49^4 | intern | `L-548-1995#art.49^1` l.738 | ea acestora în vederea punerii în aplicare a art. 494 alin. (8) și art. 495 alin. (8); c) să adopte acte normative care stabilesc cerințe față de |
 | `L-548-1995` | art. 495 | 1 | exponent turtit: art. 49^5 | intern | `L-548-1995#art.49^1` l.738 | ea acestora în vederea punerii în aplicare a art. 494 alin. (8) și art. 495 alin. (8); c) să adopte acte normative care stabilesc cerințe față de |
-| `L-548-1995` | art. 752 | 1 | exponent turtit: art. 75^2 | din | `L-62-2008#art.63` l.1155 | urilor se face ţinînd cont şi de prevederile art. 75 şi art. 752 din Legea nr. 548-XIII din 21 iulie 1995 cu privire la Banca Naţional |
-| … inca 4 grupuri, in JSON | | | | | | |
+| … inca 5 grupuri, in JSON | | | | | | |
 
 „Poate fi” este o ipoteza mecanica, nu o muchie: numarul citat, despartit in baza si exponent, da o ancora existenta. Se verifica in sursa inainte de a fi folosita.
 
