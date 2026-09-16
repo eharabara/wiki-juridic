@@ -798,3 +798,30 @@
 - **Unde:** `concepts/acquis-MTPL.md`; `comparisons/cnpf-transposition-matrix.md`;
   `raw/papers/cnpf/L-106-2022.md` (art. 13, liniile 288-291, citit, neatins); sursă externă citită,
   nu ingerată: EUR-Lex CELEX `02009L0103-20231223` art. 9; commitul acestei intrări.
+
+## [2026-09-16] decision | Extinderea ingestiei pentru procedura civilă: legis.md inaccesibil din această sesiune, coada de ingerare cîntărită din graf
+
+- **Aflat:** cerința lui Eugen ("extindem ingestia, tot ce e relevant pentru drept procesual
+  civil") a fost verificată întîi tehnic: sesiunea curentă rulează izolat, nu pe
+  `C:\Users\harab\wiki`, iar `www.legis.md` **nu e accesibil de aici** — `curl` pe
+  `cautare/getResults` întoarce `connect_rejected`, iar jurnalul proxy-ului de ieșire arată
+  explicit `403` la `CONNECT www.legis.md:443` (refuz de politică a organizației, nu Cloudflare).
+  Niciun fișier legis.md pentru actele țintă nu era deja descărcat în repo. Scriptul de ingestie
+  însuși confirmă unde trebuie rulat: `ingest_business_law.py` are `ROOT` fixat pe
+  `C:\Users\harab\wiki`. Deci nimic nu putea fi ingerat aici, doar planificat.
+- **Decis:** interogat `_meta/graph/citation-graph.json` pe muchiile `cites_act` cu sursa în
+  `COD-225-2003`, `COD-443-2004`, `L-514-1995`, `L-198-2007` (nucleul procedurii civile) și ținta
+  nedeținută, verificat fiecare rînd la linia sursă. Rezultat: șapte acte de nivel 1 (mediere
+  `L-137-2015`, integritate instituțională `L-325-2013` care susține cap. 343^6-343^8 CPC, stare
+  civilă `L-100-2001`, adopție `L-99-2010`, expropriere `L-488-1999`, perechea ipotecă/gaj
+  `L-142-2008`/`L-449-2001`, indemnizații `L-289-2004`), trei de nivel 2 (statut judecător
+  `L-544-1995`, CSM `L-947-1996`, CSJ `L-64-2023`) și un nivel 3 de relevanță mai îngustă. Șase
+  aparente lacune s-au dovedit false la verificare: `LEGE:avocatura` și
+  `LEGE:avocatura-si-ale-prezentei` sînt `L-1260-2002` deja deținut citat fără număr,
+  `LEGE:mediere` e același act ca `L-137-2015`, `LEGE:insolvabilitatii` e `L-149-2012` deja
+  deținut, `LEGE:procedurala-civila-care-impune` e un fals pozitiv mecanic (CPC art. 3 se citează
+  pe sine), iar `L-17-2018`/`L-143-2010`/`L-153-2012` sînt doar temeiuri de republicare din
+  preambul. Planul complet, cu tabelele și ordinea recomandată de execuție, scris ca document
+  separat, de rulat pe mașina cu acces la legis.md. Nimic din `raw/` sau din structura ancorată
+  nu a fost atins; niciun text de lege nu a fost scris din memorie.
+- **Unde:** `_meta/plans/2026-09-16-plan-extindere-procedura-civila.md`; commitul acestei intrări.
