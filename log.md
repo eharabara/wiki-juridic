@@ -746,3 +746,30 @@
 - **Unde:** `raw/papers/moldova-legal/L-213-2023.md`; `entities/L-213-2023.md`;
   `entities/COD-225-2003.md` (secțiune nouă); `raw/papers/moldova-legal/_manifest.md` (secțiunea
   W); `index.md`; commitul acestei intrări.
+
+## [2026-09-16] update | Celelalte șapte acte care citează `L-213-2023`, verificate articol cu articol
+
+- **Aflat:** `grep` pe tot `raw/papers/moldova-legal/` pentru „213/2023” a găsit exact șapte acte
+  în afară de `COD-225-2003`, confirmând numărul din coada de ingerare a grafului:
+  `CC-1107-2002` art. 715 (taxa pentru gaj — anexa nr. 1 pct. 7.1-7.2, 36 și 9 lei),
+  `COD-116-2018` art. 212 (contencios administrativ — anexa nr. 1 pct. 1.15, anexa nr. 2 pct.
+  1.1.11), `COD-154-2003` art. 353 (Codul muncii — anexa nr. 2 pct. 1.1.1, scutire care acoperă
+  expres doar taxa de stat, nu și taxa de timbru, exact ca în textul Codului muncii însuși),
+  `COD-218-2008` arts. 448, 451^3, 468 și 476 (patru căi de atac contravenționale, toate pe art. 2
+  alin. (1) și (4) — chiar definiția taxei de timbru numește calea contravențională, 200 lei fix),
+  `COD-443-2004` arts. 158 și 161 (executare), `L-20-2026` art. 19 (achiziții publice — anexa nr.
+  1 pct. 14, 0,5% din valoarea estimată, minim 1500, maximum 50000 lei) și `L-64-2010` art. 19,
+  intitulat chiar „Taxa de stat” (defăimare — anexa nr. 1 pct. 1.13-1.14, 250 lei). Fiecare
+  citare se sprijină pe un punct real din legea deținută; nu s-a găsit nicio trimitere greșită sau
+  la un articol care nu există. Un al doilea `grep`, pentru „1216/1992” (legea abrogată de
+  213/2023), nu a găsit nimic în niciunul din cele șapte fișiere — migrarea la noua lege e
+  completă în tot corpusul, nu doar formal declarată la art. 10 al noii legi.
+- **Decis:** tabelul complet al corespondențelor intră în `entities/L-213-2023.md`, cu wikilink-uri
+  noi către `CC-1107-2002`, `L-20-2026` și `L-64-2010`. Manifestul (secțiunea W) își pierde nota
+  „rămas neatins” și capătă rezultatul. Nimic din `raw/` s-a atins — verificare, nu corectare.
+- **Unde:** `entities/L-213-2023.md`; `raw/papers/moldova-legal/_manifest.md` (secțiunea W);
+  `raw/papers/moldova-legal/CC-1107-2002.md` (art. 715, citit, neatins),
+  `raw/papers/moldova-legal/COD-116-2018.md` (art. 212), `raw/papers/moldova-legal/COD-154-2003.md`
+  (art. 353), `raw/papers/moldova-legal/COD-218-2008.md` (arts. 448, 451^3, 468, 476),
+  `raw/papers/moldova-legal/COD-443-2004.md` (arts. 158, 161), `raw/papers/moldova-legal/L-20-2026.md`
+  (art. 19), `raw/papers/moldova-legal/L-64-2010.md` (art. 19); commitul acestei intrări.

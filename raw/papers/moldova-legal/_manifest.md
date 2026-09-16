@@ -1916,8 +1916,13 @@ grafului de citare (`_meta/graph/citation-graph.md`), unde figura cu 22 de menț
   acțiunile privind încălcarea drepturilor consumatorilor serviciilor financiare, pct. 1.19
   scutește BNM în acțiunile din exercitarea supravegherii bancare și nebancare — scutiri ale
   autorității ca parte în proces, nu ale entităților supravegheate.
-- **Rămas neatins:** celelalte șapte acte ținute care citează `L-213/2023` (din coada de ingerare a
-  grafului) nu au fost verificate articol cu articol, doar `COD-225-2003`.
+- **Verificat 2026-09-16, aceeași zi:** celelalte șapte acte ținute care citează `L-213/2023` —
+  `CC-1107-2002` art. 715 (gaj), `COD-116-2018` art. 212 (contencios administrativ), `COD-154-2003`
+  art. 353 (Codul muncii), `COD-218-2008` arts. 448/451^3/468/476 (contravențional), `COD-443-2004`
+  arts. 158/161 (executare), `L-20-2026` art. 19 (achiziții publice) și `L-64-2010` art. 19
+  (defăimare) — toate verificate articol cu articol, fiecare citare se sprijină pe un punct real
+  din anexa nr. 1 sau nr. 2 sau pe art. 2. Niciun act nu mai citează Legea 1216/1992 (abrogată) în
+  paralel. Detaliile, cu tabelul corespondențelor, sînt în `entities/L-213-2023.md`.
 
 Pagină de entitate: [[L-213-2023]]. Sursă: `raw/papers/moldova-legal/L-213-2023.md`.
 
