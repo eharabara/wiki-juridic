@@ -863,3 +863,31 @@
 - **Unde:** `concepts/acquis-Crowdfunding.md`; `comparisons/cnpf-transposition-matrix.md`;
   `raw/papers/cnpf/L-181-2023.md` (arts. 2, 5, 9, 16, 22, 24, 28, 33, 35, 41, liniile 555-575,
   citite, neatinse); commitul acestei intrări.
+
+## [2026-09-16] update | Substanța operațională AIFMD reverificată: lichiditatea era fals negativ, levierul și delegarea sînt golul real
+
+- **Aflat:** constatarea de la pasul 6.5 spunea „zero rezultate” pentru efect de levier,
+  lichiditate și delegare deodată — aceeași capcană a căutării combinate găsită azi la RTS-urile
+  crowdfunding. Reluat termen cu termen pe `L-2-2020`: **administrarea lichidității nu e absentă,
+  e substanțial prezentă** — art. 28 (sistem de administrare a lichidităților, monitorizarea
+  riscului, simulări de criză periodice, coerență cu politica de răscumpărare), art. 27
+  (administrarea riscurilor, separarea funcției de risc), art. 34 alin. (3) lit. c)-f) (raportarea
+  periodică către CNPF a măsurilor de lichiditate și a rezultatelor simulărilor de criză). Art. 34
+  însuși, dedicat integral cerințelor de raportare, acoperă aproape orice categorie din anexa IV
+  AIFMD — active, profil de risc, remunerație — **cu o singură excepție reală: levierul nu apare
+  nicăieri**, verificat pe patru formulări diferite („efect de levier”, „levier financiar”,
+  „pârghie financiară”, „grad de îndatorare”), toate cu zero rezultate. **Delegarea funcțiilor de
+  administrare către terți** — verificată separat pe mai multe formulări — la fel, zero rezultate
+  relevante. A treia constatare, nouă, nu doar o corecție: **răspunderea depozitarului pentru
+  pierderea instrumentelor financiare în custodie (art. 32 alin. (8)-(9)) e strictă, cu sarcina
+  probei inversată** — restituire automată, exonerare doar cu dovada unui eveniment exterior în
+  afara controlului rezonabil — exact standardul art. 21 alin. (12) AIFMD, spre deosebire de
+  răspunderea generală pentru culpă găsită la depozitarul OPCVM (`acquis-UCITS`, art. 110).
+- **Decis:** `concepts/acquis-AIFMD.md` rescris, cu constatarea „substanța operațională neconfirmată”
+  înlocuită de constatarea precisă: lichiditate/raportare/răspunderea depozitarului prezente,
+  levier/delegare absente confirmat. Rândul din `comparisons/cnpf-transposition-matrix.md`
+  actualizat în același sens. Cu aceasta, ultimul item rămas din lista de continuare a firului
+  acquis (după MTPL, cele cinci instrumente și RTS-urile crowdfunding) e închis.
+- **Unde:** `concepts/acquis-AIFMD.md`; `comparisons/cnpf-transposition-matrix.md`;
+  `raw/papers/cnpf/L-2-2020.md` (arts. 21, 27, 28, 32, 34, citite, neatinse); commitul acestei
+  intrări.
