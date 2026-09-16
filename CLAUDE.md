@@ -145,7 +145,7 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-16 13:47 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-16 14:24 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
 79 primary Moldovan acts, 32 EU acquis extracts, 1 Association Agreement extract(s), 293 BNM corpus documents.
 
@@ -372,6 +372,167 @@ Do not resolve these on your own. Raise them if a matter touches them.
    the same bracket shape but only past `în vigoare` dates today, so they didn't yet exercise the
    bug; the fix is general, not a patch scoped to one act. For any hotărâre de Guvern, the
    register is now the right place to check a point, same as an article.
+
+8. **The citation graph's "Trimiteri nerezolvate" table, verified 2026-09-16 in full, all 65
+   groups.** 38 are false positives (18 flattened exponents, 12 `AA-2014` self-citations, 8 more
+   caught by a second, systematic resolver bug named below); 21 are real, explained gaps (the
+   13-strong `CC-1107-2002` pre-2019-renumbering cluster, `L-171-2012` arts. 81/87/88 dated to a
+   named repealing law and its art. 38 confirmed already correctly tracked, and `L-550-1995`'s
+   four gutted-act citations); 2 are a resolver bug pointing at the wrong in-corpus act and a
+   parser artifact reading our own editorial note; only 4 (`COD-116-2018` art. 17^1,
+   `COD-1163-1997` art. 29^1, `L-105-2003` art. 201, `L-202-2017` art. 13^9) stay genuinely
+   unexplained. The graph's own rule says a "poate fi" hint is a hypothesis, not an edge, to be
+   checked in the source before use — this is that check, done exhaustively instead of article by
+   article as citations come up.
+
+   **18 groups (27 citations), all `suspect: exponent turtit` — confirmed, not gaps.** Every
+   suggested base+exponent anchor exists in the target act, and every title matches the citing
+   context on its face (`COD-218-2008` art. 441 → art. 44^1 "Aplicarea sancţiunii mai blânde";
+   `COD-225-2003` art. 581 → art. 58^1 "Capacitatea de exerciţiu... a persoanei în privinţa căreia
+   este instituită o măsură de ocrotire judiciară", read against a citing sentence about exactly
+   that capacity — as clean a confirmation as this gets). Full list and titles in the session log.
+   Method proven safe to trust going forward: when the script offers a `suspect`, opening both
+   ends and comparing titles settles it in one read.
+
+   **`AA-2014`'s entire cluster (12 groups, 18 citations) is a false positive, not a gap in the
+   extract.** None of the cited numbers (art. 2–9, 12, 30, 278, 359) are citations to AA-2014's
+   own anchored text. Two different reasons, both confirmed by reading the surrounding paragraph:
+   some are `articolul N din respectiva directivă` — an anaphoric reference to whichever EU
+   directive was last named in the same Annex XXVIII-A commitment (2006/48/CE, 2006/49/CE,
+   94/19/CE...), none of which the vault holds as a full extract; others are inside the reproduced
+   text of art. 3 of Decizia 2014/492/UE (the Council decision on provisional application, itself
+   not held), naming titles and articles of the *full* Association Agreement outside what this
+   structured extract covers. The resolver's `intern` rule defaults to the current act when no act
+   name sits immediately next to `articolul N`, and neither anaphora ("respectiva directivă")
+   nor a nested quoted decision resets that default — a real limitation of
+   `build_citation_graph.py`, worth fixing if the AA-2014 extract grows, not fixed now given the
+   size of the validated graph (2491 act-edges) and the low value of a working test harness for
+   one act's twelve rows.
+
+   **`CC-1107-2002`'s cluster (12 groups, 26 citations, the largest by volume) confirms and
+   extends the pre-2019-renumbering note the graph's own description already carried — now with
+   proof, across three unrelated chapters.** `COD-225-2003` cites art. 48^12, 48^21, 48^28, 48^30
+   (x7) and 48^40 "din Codul civil" for the persons a court must hear when instituting a measure
+   of judicial protection (`ocrotire judiciară`); the current `CC-1107-2002` has no `48^N` heading
+   at all — that whole chapter (tutelă, curatelă, ocrotire) runs as plain sequential numbers,
+   art. 50-119. The same code cites art. 330^4 (x3) and 283^27 for uzucapiune (adverse
+   possession) tied to the land-registry procedure; today's art. 330 is "Nulitatea relativă a
+   actului juridic" — unrelated — and the actual uzucapiune chapter sits at art. 524-534, plain
+   numbers again, with art. 524 and 526 named for exactly the registry-based uzucapiune the citing
+   text describes. `L-149-2012` (insolvency) cites art. 1575^4, 1575^5, 1575^9 (x3), 1575^10 and
+   1572^117 for `masa succesorală` (the estate of a deceased debtor) provisions; today's art. 1575
+   is "Constatarea cantităţii şi felului bunurilor" in the warehousing (`magazinaj`) chapter, and
+   succession law now runs art. 2162-2360+. Three unrelated topics, two different citing acts,
+   the same signature every time: the citing act's number, read literally against the current
+   code, lands on real but unrelated content, never on nothing — which is what a whole-book
+   renumbering looks like, not an extraction fault. No exact old-to-new mapping attempted; that
+   needs legis.md's own concordance for the renumbering law (likely Legea 133/2018), and the route
+   there is blocked the same way as everything else on legis.md today.
+
+   **Real gap, dated and closed the same day: `L-171-2012` arts. 81-88 were repealed by LP23 din
+   27.02.2020, in force 20.04.2020 — two CNPF regulations still cite them as live legal basis.**
+   `HCNPF-14-5-2016#corp` (consolidation 2022-05-06) and `HCNPF-38-5-2015#corp` (consolidation
+   2025-10-01) both open "În temeiul art... art. 81 alin. (2)... art. 87 alin. (4)... art.88
+   alin.(5)... din Legea nr. 171" — a live legal-basis citation, not a stray cross-reference, and
+   `raw/papers/cnpf/L-171-2012.md` (our held, 2027-06-01 future-dated consolidation) jumps art.
+   80 → art. 88^1 with nothing between. Checked directly on legis.md once Cloudflare cleared
+   later the same session (`LP171/2012`, doc_id `156016`): the original 2013 text (doc_id 22987)
+   has arts. 81-88 in full; the 30-03-2020 consolidation (doc_id 106513) still has them; the very
+   next one, 20-04-2020 (doc_id 120930), does not, and its own header carries exactly one
+   amending act, "MODIFICAT: LP23 din 27.02.20, MO87-93/20.03.20 art.112; în vigoare 20.04.20" —
+   with no bracket marker anywhere in the body pointing to it (mechanism 2 of item 3 above). So
+   this is not a wiki gap, not the `CC-1107-2002` refresh regression, and not specific to holding
+   a future-dated consolidation: the articles have been gone from the *actual current* law since
+   April 2020, five years before `HCNPF-38-5-2015`'s own consolidation date. Both regulations
+   simply carry a stale legal-basis preamble that was never refreshed after LP23/2020 — a fact
+   about CNPF's own drafting practice, not about this wiki, but worth knowing before treating
+   either regulation's opening "În temeiul..." clause as proof those articles still exist. (Art.
+   80 itself reappears with new content by the 15-12-2022 consolidation, doc_id 134549 — a
+   separate, later insertion, not investigated further.)
+
+   **`L-550-1995` arts. 6, 15, 31, 37^9 need no further work: they are the gutted part of the
+   act.** P8-bis already established that only arts. 1-3 and 38^1-38^17 of this act are in force
+   (it used to be the law on financial institutions, now "lichidarea băncilor"). These four
+   unresolved numbers are exactly the kind of pre-gutting provision the act's own remaining text,
+   `COD-985-2002` and `HBN-130-2013`'s legal-basis line, and `L-202-2017` still cite — same
+   deleted-stub mechanism as `L-548-1995` (item 6), just not yet worth a dedicated table entry
+   since none of the four is a live legal-basis citation the way `L-171-2012` art. 81 is.
+
+   **A genuine resolver bug, found by accident, worth recording exactly: `COD-434-2023#art.389`
+   modifies two different acts in one numbered block, and the graph keeps the first act's name
+   across the switch.** Points 6-7 of that block amend `COD-218-2008`; the next point, "(2)
+   Articolul 13^1 din Legea nr. 1134/1992 cu privire la statutul misiunilor diplomatice... va avea
+   următorul cuprins", switches target explicitly — but the graph still reports this as
+   `COD-218-2008` art. 13^1, which does not exist and was never meant to. The real target, "Legea
+   nr. 1134/1992" (Monitorul Parlamentului 1992, nr. 8), is a different, older law from the
+   `L-1134-1997` this vault holds under the same bare number (which turned out on inspection to be
+   the joint-stock companies law, art. 13 "Acţiunile" — no relation). So the citation is to an act
+   genuinely outside the corpus, mislabelled as an in-corpus gap. Not fixed in the script for the
+   same reason as the `AA-2014` case: a multi-target amending block is a real parsing case, but a
+   narrow one, not worth risking the validated graph for a single instance found this way.
+
+   **The dependency check's top row is clean — checked, not assumed.** `L-548-1995#art.11`,
+   struck in part by HCC31/2013-10-01, is cited by six structured pages (`entities/bnm.md`,
+   `L-202-2017.md`, `L-232-2016.md`, `L-239-2008.md`, `L-550-1995.md`, `L-62-2008.md`, plus its
+   own entity page). All six describe *today's* rewritten al.(4) — contencios administrativ under
+   Codul administrativ — which is the opposite of the struck text, not the struck text itself; the
+   HCC recovery of 2026-09-15 (step 5.3) already got this right. No page needed a correction.
+
+   **The remaining 12 groups, checked one by one the same session: 7 resolved to the same
+   systematic bug as the `COD-434-2023`/`AA-2014` cases above, 1 confirmed a real gap by itself,
+   4 stay open.** The pattern, now confirmed eight times total, is specific enough to name
+   exactly: the citing sentence names the target act only once, either at the very end of a long
+   enumeration of article numbers (`din legea indicată`, `din legea menţionată`, `din Codul penal
+   nr. 985/2002`) or earlier in the same paragraph with several unrelated numbers appearing in
+   between — and the resolver's `intern` rule takes the nearer, wrong default (the act doing the
+   citing) instead of carrying the named act forward or back across the whole sentence. Every one
+   of the seven below was settled by opening both ends and finding the real target's article
+   title matches the citing context on its face, same bar as the flattened-exponent checks:
+   - `COD-218-2008#art.293^2` cites art. 50, 52^1, 52^2, 53, 55, 56, 58, 59, 60^1, 61-70^1, 77 and
+     104 "din legea indicată" — `Legea nr. 114/2012` (named earlier in the same paragraph), not
+     `COD-218-2008` itself. Not fully verified end to end: `L-114-2012` as held has plain art. 52
+     and 60, no `52^1`/`52^2`/`60^1` — either our consolidation predates an amendment that split
+     these articles, or the mismatch continues one level further. Left for a future session.
+   - `COD-218-2008#art.440` cites art. 4 and 5^1 "din legea menţionată" — `L-131-2012`, named
+     earlier in the same paragraph. `L-131-2012` art. 5^1 exists and is the same one already
+     confirmed above ("Limitele generale ale controlului"). Fully resolved.
+   - `COD-225-2003#art.308^17` cites art. 48^15 "în sensul" a control-of-mandate provision, in the
+     same sentence as art. 48^21 and 48^27 "din Codul civil" — the same `CC-1107-2002` pre-2019
+     cluster documented above, just missed by the first pass because the act name sits earlier in
+     the sentence than the number. A 13th member of that cluster, not a 12th separate gap.
+   - `COD-122-2003#art.269` cites art. 181^1-181^3 "din Codul penal nr. 985/2002", named at the
+     very end of the enumeration — `COD-985-2002` art. 181^1 is "Coruperea electorală", exactly
+     the anti-corruption-prosecutor jurisdiction the citing sentence describes. Fully resolved.
+   - `COD-122-2003#art.276` cites art. 185^2 and 185^3 "din Codul penal", same pattern —
+     `COD-985-2002` art. 185^2 is "Încălcarea dreptului asupra obiectelor de proprietate
+     industrială", matching the citing sentence's "protecţia indicaţiilor geografice". Resolved.
+   - `L-160-2026#art.40` cites art. 72 and 73 "din Legea nr. 195/2024" — `L-195-2024` art. 72 is
+     "Dreptul de a depune o plângere la Centru", the near-identical twin of `L-160-2026`'s own
+     art. 40 title. Fully resolved.
+   - `L-202-2017#art.142` cites art. 75^2 "din Legea nr. 548/1995" — the same `L-548-1995` art.
+     75^2 already confirmed in the flattened-exponent batch above ("Aplicarea sancţiunilor").
+     Fully resolved.
+
+   Not part of the pattern, and a real gap confirmed by itself: `COD-116-2018` has no art. 17^1 —
+   only plain art. 17 ("Dreptul vătămat") — and `L-192-1998#art.23` cites it as a live derogation
+   ("Prin derogare de la art. 17^1 alin.(4) din Codul administrativ nr. 116/2018"). No renumbering
+   evidence found on a first read; left open.
+
+   **3 groups stay genuinely unexplained**, no hint from the script, no other act named in
+   context, and no cause found on a first read: `COD-1163-1997` art. 29^1 (Codul fiscal's own
+   text names no other act; the citing paragraph, on the annual fee deadline for independent
+   practitioners, cites `art. 291` correctly moments later in the same sentence, so this is not
+   that same article mistyped); `L-105-2003` art. 201 (anomalous on its own — the law has 75
+   articles; `COD-218-2008`'s citing text names no other act either); and `L-202-2017` art. 13^9,
+   cited by `HBN-127-2013` (points-only, no anchors of our own to check the source side)
+   alongside `art. 14^1`, which is itself unattested in `L-202-2017` too but did not surface as a
+   separate unresolved group — possibly `art.13^9` is a flattened `art. 13 alin. (9)` rather than
+   a real article `13^9`, a shape the flattened-exponent heuristic does not cover (paragraph, not
+   sub-article). Left open rather than guessed at.
+
+   **`L-213-2023` art. 84 needs no action**: the "citation" is the graph reading `COD-225-2003`
+   out of a hand-written HCC editorial note inside `L-213-2023.md` itself, not a citation in legal
+   text. Parser artifact, not a defect.
 
 Resolved on 2026-09-04 and kept here so it is not re-raised: art. 21 of `L-192-1998` was absent
 with no basis in the source. The refreshed consolidation contains it. No action needed.

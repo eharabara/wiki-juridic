@@ -971,3 +971,116 @@
   `_meta/lint/title-unwrap-2026-09-16-moldova-legal.txt`, `-cnpf.txt`, `-bnm.txt`; 61 de fișiere
   raw sub `raw/papers/moldova-legal/`, `raw/papers/cnpf/`, `raw/papers/bnm/`;
   `CLAUDE.md` (Outstanding work, item 2); commitul acestei intrări.
+
+## [2026-09-16] update | Verificarea manuală a tabelului „Trimiteri nerezolvate” din graful de citare
+
+- **Aflat:** din cele 65 de grupuri nerezolvate din `_meta/graph/citation-graph.md`, 42 au fost
+  verificate pe sursă, cu rezultate în patru clase. (1) 18 grupuri (27 citări), toate cu indiciul
+  scriptului „exponent turtit" — ancora sugerată există de fiecare dată, iar titlul ei se
+  potrivește cu contextul citării (ex. `COD-218-2008` art. 441 → art. 44^1 „Aplicarea sancţiunii
+  mai blânde"): confirmate, nu sînt goluri. (2) Tot clusterul `AA-2014` (12 grupuri, 18 citări)
+  este fals pozitiv: numerele citate nu sînt din textul ancorat al AA-2014, ci fie din directiva
+  UE numită anterior în același paragraf prin anaforă „din respectiva directivă" (nedeținută ca
+  extras), fie din textul reprodus al art. 3 din Decizia 2014/492/UE (nedeținută), care numește
+  articole ale acordului integral, în afara a ceea ce acoperă acest extras structurat — regula
+  „intern" a rezolvatorului nu resetează ținta la o schimbare de act prin anaforă sau citat
+  imbricat, limitare reală, neînlăturată acum, risc prea mare pentru un graf validat de 2491 de
+  muchii pentru un cîștig de douăsprezece rînduri ale unui singur act. (3) Clusterul `CC-1107-2002`
+  (12 grupuri, 26 citări, cel mai mare ca volum) confirmă și extinde, cu dovezi concrete pe trei
+  teme fără legătură, nota deja purtată de descrierea grafului despre numerotarea Codului civil de
+  dinainte de renumerotarea din 2019: `COD-225-2003` citează art. 48^12/21/28/30/40 pentru
+  persoanele audiate la instituirea unei măsuri de ocrotire judiciare, dar capitolul respectiv
+  rulează azi pe numere simple, art. 50-119; același cod citează art. 330^4 și 283^27 pentru
+  uzucapiune legată de registrul de publicitate, dar art. 330 de azi e „Nulitatea relativă a
+  actului juridic", iar capitolul uzucapiunii e la art. 524-534; `L-149-2012` citează art.
+  1575^4/5/9/10 și 1572^117 pentru masa succesorală, dar art. 1575 de azi e în capitolul
+  magazinajului, iar moștenirea rulează la art. 2162-2360+. Fără hartă exactă veche→nouă; ar
+  cere concordanța legis.md pentru legea de renumerotare (probabil 133/2018), inaccesibilă azi.
+  (4) Un gol real, cu miză practică: `L-171-2012` art. 81, 87 și 88 lipsesc din consolidarea
+  curentă ȘI din arhiva dinaintea reîmprospătării din 4 septembrie, deci nu e o regresie de
+  reîmprospătare — dar două regulamente CNPF în vigoare azi (`HCNPF-14-5-2016`,
+  `HCNPF-38-5-2015`) le citează ca temei legal viu. Registrul in-force nu semnalează nimic pe
+  acest interval (doar art. 38 și 141^1, corect, la 2027-06-01). Necesită istoricul versiunilor de
+  pe legis.md, blocat azi (Cloudflare interactiv). (5) `L-550-1995` art. 6/15/31/37^9 nu cer lucru
+  suplimentar: sînt exact partea „scoasă" a actului, deja documentată la P8-bis (doar art. 1-3 și
+  38^1-38^17 în vigoare) — același mecanism ca la `L-548-1995` (întrebarea 6), doar că nici unul
+  nu e citat ca temei legal viu. (6) Un bug real de rezolvare, găsit din întâmplare:
+  `COD-434-2023#art.389` modifică două acte diferite în același bloc numerotat, iar graful
+  păstrează numele primului act peste schimbarea de țintă — citarea atribuită greșit lui
+  `COD-218-2008` art. 13^1 e de fapt spre „Legea nr. 1134/1992" (statutul misiunilor diplomatice),
+  un act diferit de `L-1134-1997` din corpus (care s-a dovedit, la verificare, legea societăților
+  pe acțiuni) — deci o citare spre un act complet neținut, nu un gol intern. (7) Rîndul cel mai
+  citat din tabelul „Dispoziții cu stare specială", `L-548-1995#art.11` (lovit parțial de
+  HCC31/2013), verificat: toate cele șase pagini structurate care îl citează descriu textul de azi
+  (rescris, opus celui anulat), nu pe cel anulat — recuperarea HCC din 2026-09-15 a făcut treaba
+  corect, nici o corecție necesară. (8) `L-213-2023` art. 84 e artefact de parser: graful citește
+  o notă editorială proprie din `L-213-2023.md`, nu o citare din text juridic. Au rămas
+  neexplicate 11 grupuri, fără indiciu de la script și fără cauză găsită la o primă citire —
+  lăsate deschise, nu ghicite.
+- **Decis:** nici o modificare pe `raw/` (nimic de reparat acolo: fie citarea sursă e corectă și
+  ținta lipsește din consolidarea deținută, fie e o problemă a rezolvatorului, nu a textului).
+  Nici o modificare pe `build_citation_graph.py`: cele două limitări reale găsite (anafora
+  „respectiva directivă"/decizie imbricată; bloc de modificare cu schimbare de act) sînt
+  documentate exact, nu reparate, pentru că fiecare atinge un singur act și riscul de regresie pe
+  un graf de 2491 de muchii, deja validat, depășește cîștigul. Constatările scrise ca punctul 8
+  nou în „Open questions" din `CLAUDE.md`, cu golul `L-171-2012` art. 81/87/88 semnalat explicit
+  pentru atenția lui Eugen ca singurul cu miză practică imediată (temei legal citat de regulamente
+  CNPF azi în vigoare).
+- **Unde:** `CLAUDE.md` (Open questions, item 8 nou); nici o schimbare pe `raw/`,
+  `_meta/graph/build_citation_graph.py` sau paginile din `entities/`; commitul acestei intrări.
+
+## [2026-09-16] update | L-171-2012 art. 81-88: data exactă a abrogării, verificată pe legis.md
+
+- **Aflat:** Cloudflare s-a eliberat pe parcursul sesiunii (curl tot blocat, dar Chrome-ul lui
+  Eugen a trecut fără interacțiune, ~8s de așteptare). Verificat direct pe fișa `LP171/2012`
+  (doc_id `156016`, 42 de consolidări în istoric): textul din 2013 (doc_id 22987) are art. 81-88
+  intacte; consolidarea din 30-03-2020 (doc_id 106513) încă le are; următoarea, din 20-04-2020
+  (doc_id 120930), nu le mai are, iar antetul acelei consolidări poartă un singur act
+  modificator: „LP23 din 27.02.20, MO87-93/20.03.20 art.112; în vigoare 20.04.20" — fără niciun
+  marcaj în corp care să trimită la el. Deci art. 81-88 lipsesc din legea în vigoare **astăzi**
+  (nu doar din consolidarea noastră, datată în viitor), din aprilie 2020, cu cinci ani înainte de
+  data de consolidare a `HCNPF-38-5-2015`. Cele două regulamente CNPF care le citează ca temei
+  legal poartă deci un preambul neactualizat de la LP23/2020, nu o problemă a wiki-ului. Art. 80
+  reapare cu conținut nou la consolidarea din 15-12-2022 (doc_id 134549) — inserție separată,
+  neinvestigată.
+- **Decis:** constatarea din intrarea precedentă (aceeași zi) e completată, nu repetată: golul e
+  acum datat exact și cauza (preambul CNPF neactualizat) e explicată. Nici o modificare pe `raw/`
+  — nu era un defect de-al nostru de reparat, iar textul de azi al legii tot nu are art. 81-88,
+  deci nici o reîmprospătare a consolidării noastre nu ar aduce înapoi aceste articole.
+- **Unde:** `CLAUDE.md` (Open questions, item 8, paragraful `L-171-2012`, rescris cu data și sursa
+  exactă); commitul acestei intrări.
+
+## [2026-09-16] update | Cele 12 grupuri rămase din „Trimiteri nerezolvate": al doilea bug sistematic
+
+- **Aflat:** verificate una câte una ultimele 12 grupuri (din cele 65) rămase neatinse în cele
+  două intrări precedente. 8 s-au dovedit un al doilea bug sistematic al rezolvatorului, distinct
+  de anafora „respectiva directivă" de la `AA-2014` dar de aceeași familie: propoziția care
+  citează numește actul-țintă o singură dată, fie la finalul unei enumerări lungi de articole
+  („din legea indicată", „din legea menţionată", „din Codul penal nr. 985/2002"), fie mai devreme
+  în același paragraf, cu mai multe numere fără legătură între citare și numele actului — iar
+  regula „intern" a rezolvatorului ia implicit actul care citează, nu pe cel numit. Fiecare caz a
+  fost verificat citind ambele capete și potrivind titlul articolului real cu contextul citării:
+  `COD-225-2003#art.308^17` (48^15) e al 13-lea membru al clusterului deja documentat pentru
+  `CC-1107-2002` (renumerotarea din 2019), nu un caz nou; `COD-122-2003#art.269` (181^1-181^3) și
+  `COD-122-2003#art.276` (185^2) citesc de fapt `COD-985-2002` — Codul penal propriu-zis, nu Codul
+  de procedură penală care le citează — și titlurile („Coruperea electorală",  „Încălcarea
+  dreptului asupra obiectelor de proprietate industrială") se potrivesc exact cu contextul;
+  `L-160-2026#art.40` (72-73) citește `L-195-2024`, ale cărui art. 72-73 poartă titluri aproape
+  identice cu propriul art. 40 al `L-160-2026`; `L-202-2017#art.142` (75^2) citește `L-548-1995`
+  art. 75^2, deja confirmat în lotul de exponenți turtiți din prima intrare; `COD-218-2008#art.440`
+  (5^1) citește `L-131-2012` art. 5^1, la fel deja confirmat. Un singur caz din acest lot rămâne
+  neverificat până la capăt: `COD-218-2008#art.293^2` citează art. 50-104 „din legea indicată" =
+  `L-114-2012`, dar `L-114-2012` așa cum îl deținem nu are `art.52^1`/`52^2`/`60^1` nici el — fie
+  consolidarea noastră e mai veche decât amendamentul care le-a introdus, fie nepotrivirea
+  continuă încă un nivel. Rămas deschis. `COD-116-2018` art. 17^1 e un gol real, confirmat pe cont
+  propriu (fără alt act numit în context, doar art. 17 simplu în textul deținut) — cauza rămâne
+  necunoscută. 3 grupuri rămân complet neexplicate: `COD-1163-1997` art. 29^1 (Codul fiscal,
+  autocitare, fără altă cauză găsită), `L-105-2003` art. 201 (anomalie pe cont propriu — legea are
+  75 de articole), `L-202-2017` art. 13^9 (citat din `HBN-127-2013`, posibil un alineat turtit —
+  „art. 13 alin. (9)" — mai degrabă decât un articol real, formă pe care euristica de exponenți nu
+  o acoperă).
+- **Decis:** nici o modificare pe `raw/` sau pe script. Constatările înlocuiesc paragraful „11
+  grupuri neexplicate" din item 8 cu bilanțul final: din 65, 38 fals pozitive, 21 goluri reale
+  explicate, 2 artefacte/bug-uri de rezolvare spre acte greșite, doar 4 rămân complet neexplicate.
+- **Unde:** `CLAUDE.md` (Open questions, item 8, rescris integral cu bilanțul final pe toate cele
+  65 de grupuri); commitul acestei intrări.
