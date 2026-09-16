@@ -835,3 +835,31 @@
   `raw/papers/cnpf/L-192-1998.md` (art. 222, art. 235); `raw/papers/cnpf/L-2-2020.md` (art. 39,
   linia 72); `raw/papers/cnpf/L-92-2022.md`; `raw/papers/cnpf/L-234-2016.md` (liniile 157-161);
   `raw/papers/cnpf/L-198-2020.md` (linia 896); commitul acestei intrări.
+
+## [2026-09-16] update | RTS-urile crowdfunding: nota anterioară era greșită, nu doar incompletă — toate temele au corespondent
+
+- **Aflat:** ultimul punct rămas de pe lista din 15 septembrie. Nota veche a `acquis-Crowdfunding`
+  numea trei RTS („2022/2112, 2022/2116, 2022/2117 — continuitate, plângeri, autorizare”); lista
+  oficială a Comisiei Europene (sursă secundară, necitită articol cu articol) arată cel puțin 13
+  acte delegate/de punere în aplicare pentru Reg. 2020/1503, iar atribuirea temă-număr veche nu se
+  potrivește cu ce arată acea listă. S-a renunțat la a mai atribui exact temă-număr pentru fiecare
+  din cele 13 și s-a verificat direct dacă **tema** fiecăruia are corespondent în `L-181-2023` —
+  căutare inițială pe termeni greșiți („plânger”, „administrare individuală a portofoliului”) a dat
+  fals-negativ, corectată căutând termenii exacți ai legii („reclamații”, „administrare de portofolii
+  individuale de împrumuturi”, „bonitatea debitorului-consumator”). Rezultat: **toate cele șapte teme
+  identificabile au corespondent la nivel de lege primară** — conflicte de interese (art. 9, 22),
+  testarea cunoștințelor și simularea de pierderi (art. 28, deja confirmat la pasul 6.5), examinarea
+  reclamațiilor (art. 16, patru alineate), planul de continuitate (art. 9 alin. (1^1) lit. c) și
+  dosarul de autorizare), administrarea de portofolii individuale de împrumuturi (definiție proprie
+  la art. 2, plus substanță la arts. 9, 33, 35, 41), fișa cu informații esențiale (art. 24, conținut
+  minim la nivel de lege), evaluarea riscului de credit la stabilirea prețului ofertei (art. 9 alin.
+  (4)) și creditarea responsabilă pentru debitorul-consumator (art. 5 alin. (3)). Tipar constant: de
+  fiecare dată, legea stabilește principiul și delegă explicit detaliul tehnic — formatul, pragurile,
+  metodologia — „actelor normative ale autorității de supraveghere”, neingerate în vault. Trei-patru
+  din cele 13 numere rămân neidentificate tematic, nu verificate individual pe EUR-Lex.
+- **Decis:** `concepts/acquis-Crowdfunding.md` rescris cu tabelul de corespondențe și cu corectarea
+  explicită a notei vechi; rândul din `comparisons/cnpf-transposition-matrix.md` actualizat. Cu
+  aceasta, ultimul punct rămas deschis din planul de 15 septembrie e închis.
+- **Unde:** `concepts/acquis-Crowdfunding.md`; `comparisons/cnpf-transposition-matrix.md`;
+  `raw/papers/cnpf/L-181-2023.md` (arts. 2, 5, 9, 16, 22, 24, 28, 33, 35, 41, liniile 555-575,
+  citite, neatinse); commitul acestei intrări.
