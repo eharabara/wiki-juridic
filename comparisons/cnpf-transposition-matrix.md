@@ -129,9 +129,10 @@ Fiecare are acum o pagină de acquis dedicată, reverificată la pasul 6.5 (înc
   transpunere „parțială” a Solvency II (zero SCR/MCR/ORSA); IDD nu are nicio declarație de transpunere.
   Singurul caz, cu ICSD, unde Anexa XXVIII-A angajează instrumentul actual, nu o generație abrogată —
   termenul a expirat 1 septembrie 2021.
-- [[acquis-MTPL]] (2009/103) → [[L-106-2022]] — *partea BNM*: limitele proprii confirmate din text
-  (100.000/100.000/500.000 euro, plus 5.000/10.000 euro prejudiciu moral), dar comparația cu pragul
-  minim UE (art. 9 directivă) rămâne blocată — articolul nu are text integral în extrasul deținut.
+- [[acquis-MTPL]] (2009/103) → [[L-106-2022]] — *partea BNM*: plafoanele proprii (100.000/100.000/
+  500.000 euro, plus 5.000/10.000 euro prejudiciu moral) sînt cu un ordin de mărime sub minimul
+  art. 9 al directivei (1.300.000/1.300.000/6.450.000 euro), citit direct pe EUR-Lex — ~13x pe
+  daune materiale și vătămare corporală per persoană, ~12,9x pe vătămare corporală per accident.
 - [[acquis-IORP]] (IORP II 2016/2341) → [[L-198-2020]] — *CNPF pensii*: **transpunere care depășește
   angajamentul tratatului** — legea declară expres IORP II însăși (nu predecesoarea 2003/41/CE
   angajată de Anexa XXVIII-A), cu funcțiile-cheie aproape identice structural directivei.

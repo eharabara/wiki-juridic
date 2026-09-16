@@ -773,3 +773,28 @@
   (art. 353), `raw/papers/moldova-legal/COD-218-2008.md` (arts. 448, 451^3, 468, 476),
   `raw/papers/moldova-legal/COD-443-2004.md` (arts. 158, 161), `raw/papers/moldova-legal/L-20-2026.md`
   (art. 19), `raw/papers/moldova-legal/L-64-2010.md` (art. 19); commitul acestei intrări.
+
+## [2026-09-16] update | Art. 9 din 2009/103/CE citit pe EUR-Lex: pragurile MTPL, cu un ordin de mărime sub minim
+
+- **Aflat:** art. 9 („Sumele minime”), care în `UE-2009-103.md` apare doar în cuprins, citit direct
+  pe EUR-Lex (consolidarea `02009L0103-20231223`, amendament ▼M1 = Directiva (UE) 2021/2118). Prima
+  căutare a textului `Articolul 9\n` a găsit doar tabelul de concordanță de la finalul directivei
+  (anexa III), nu articolul propriu-zis — capcană de metodă, rezolvată căutând direct „Sumele
+  minime”. Textul: (a) vătămări corporale, minimum 6.450.000 euro per accident **sau** 1.300.000
+  euro per persoană prejudiciată; (b) daune materiale, minimum 1.300.000 euro per accident.
+  Comparat cu plafoanele proprii ale `L-106-2022` art. 13 (liniile 288-291, deja confirmate la
+  pasul 6.5): 100.000 euro daune materiale, 100.000/500.000 euro vătămare corporală per
+  persoană/per accident. Raportul: **~13x sub minimul UE pe daune materiale și pe vătămare
+  corporală per persoană, ~12,9x pe vătămare corporală per accident.** Nu există categorie UE
+  separată pentru prejudiciul moral (5.000/10.000 euro în legea moldovenească). Anexa XXVIII-A
+  angajează „Directiva 2009/103/CE” fără să precizeze generația, iar 2021/2118 (sursa sumelor de
+  mai sus) e ulterioară semnării Acordului — punct lăsat deschis, dar practic irelevant: decalajul
+  e de ordin de mărime, nu de procente, indiferent de generația angajată.
+- **Decis:** `raw/papers/cnpf/UE-2009-103.md` nu s-a atins — citirea e directă din EUR-Lex, ca la
+  verificarea Solvency II de mai devreme azi. `concepts/acquis-MTPL.md` rescris cu pragurile și
+  tabelul comparativ; rândul MTPL din `comparisons/cnpf-transposition-matrix.md` actualizat cu
+  cifrele reale în loc de „comparația rămâne blocată”. Cu aceasta, punctul rămas deschis din
+  pasul 6.5 (nivelul 4) e închis.
+- **Unde:** `concepts/acquis-MTPL.md`; `comparisons/cnpf-transposition-matrix.md`;
+  `raw/papers/cnpf/L-106-2022.md` (art. 13, liniile 288-291, citit, neatins); sursă externă citită,
+  nu ingerată: EUR-Lex CELEX `02009L0103-20231223` art. 9; commitul acestei intrări.
