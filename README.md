@@ -34,5 +34,6 @@ secțiunea de acoperire din `CLAUDE.md` mai corespunde fișierelor.
 
 ## Stare
 
-Restructurat la 5 septembrie 2026, planul în `_meta/plans/`. Deschis: ingerarea celor șase legi
-bancare în română și retragerea traducerilor englezești din corpusul BNM.
+Starea live a corpusului, lacunele confirmate și controalele generate sunt în
+`CLAUDE.md`. Acest README păstrează numai orientarea de intrare, pentru a nu
+duplica un statut care se poate învechi.

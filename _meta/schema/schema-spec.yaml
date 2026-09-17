@@ -73,6 +73,21 @@ perimeters:
   # perimetrul spune ce regulă de citare i se aplică, nu de unde are voie să citească.
   source_root_required: true
 
+# Locatorul juridic este obligatoriu numai pentru corpusurile de drept pozitiv.
+# Documentele de politică se citează ca surse întregi, cu data și autoritatea.
+citations:
+  raw_page_locator_required_roots:
+    - raw/papers/cnpf/
+    - raw/papers/moldova-legal/
+    - raw/papers/bnm/
+  # Registrele de surse nu sunt texte normative si se cita ca inventare.
+  raw_page_locator_exempt_paths:
+    - raw/papers/bnm/_manifest.md
+    - raw/papers/bnm/legal/_manifest.md
+    - raw/papers/bnm/reports/_manifest.md
+    - raw/papers/bnm/BNM_LEGISLATION_INVENTORY.md
+    - raw/papers/bnm/BNM_REPORTS_INVENTORY.md
+
 # ---------------------------------------------------------------------------------------
 # Frontmatter. Ce câmpuri, ce valori.
 # ---------------------------------------------------------------------------------------
@@ -122,9 +137,15 @@ frontmatter:
       # Include forma engleză: anchor_bnm_en.py a inserat `## Article N.` la 2026-09-04.
       anchor_pattern: '^## (Articolul|Article)\s'
       # Un fișier cu multe linii `Article N` în corp și `source_type: legal-text` este cel
-      # mai probabil o traducere nedeclarată. Avertisment, nu eroare, până la P9.
+      # mai probabil o traducere nedeclarată numai în corpusurile juridice moldovenești și BNM.
+      # Documentele originare în engleză ale instituțiilor UE din corpusul de politici nu intră
+      # în această euristică. Avertisment, nu eroare, până la P9.
       english_marker: '^Article\s+\d'
       english_marker_min: 20
+      english_marker_scope_roots:
+        - raw/papers/cnpf/
+        - raw/papers/moldova-legal/
+        - raw/papers/bnm/
 
 # ---------------------------------------------------------------------------------------
 # Taxonomia etichetelor. Închisă: o etichetă nouă se adaugă aici înainte de a fi folosită.

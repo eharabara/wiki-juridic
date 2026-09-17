@@ -20,3 +20,7 @@ Claude outputs/
 # Configurația locală Codex CLI (autogenerată). AGENTS.md rămâne urmărit — e conținut, nu stare
 # locală de unealtă. Vezi log.md, intrarea din 2026-09-16 despre pasul 6.4.
 .codex/
+
+# Ieșirea skill-ului graphify (cache, grafuri generate). Instrument, nu conținut al wiki-ului;
+# același principiu ca „Claude outputs/” de mai sus.
+graphify-out/

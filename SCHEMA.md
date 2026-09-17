@@ -127,6 +127,12 @@ Files under a raw root whose name starts with `_`, `README` or is one of `BNM_LE
 Every structured page carries `perimeter:` with one of `legal`, `policy`. A page may cite sources from both perimeters; the field says which citation rule applies to the page, not where it may read from.
 A page must have at least one source under a raw root of its own perimeter.
 
+### Citation locators
+
+A substantive citation to a raw legal source under `raw/papers/cnpf/`, `raw/papers/moldova-legal/`, `raw/papers/bnm/` needs an article, point, annex, or source-structural locator (`antet`, `fișa`, `preambul`, `cuprins`, `secțiunea`, `l. N`). A page-level `**surse:**` inventory is provenance, not a substantive citation.
+Source manifests and inventories are cited as catalogues, not as normative texts.
+Policy documents are cited as whole sources, with their date and authority stated; they are not subject to a legal-article locator rule.
+
 ### Frontmatter of structured pages
 
 ```yaml
@@ -173,7 +179,7 @@ sha256_pre_anchoring: <hash before structural anchors were added>
 - Required: `source_url`, `ingested`, `sha256`, `source_type`, `publisher`, `language`. Ingest scripts add their own keys (doc_id, consolidation_date, instrument_id, …); those are not restricted.
 - `sha256` is computed over the body, under one of two conventions: `raw`, `LF` (raw bytes, or CRLF normalised to LF). The validator accepts either; if neither reproduces the recorded digest, the text changed after it was last hashed, which is an error. A declared `sha256_convention` must match the convention that reproduces the digest.
 - `sha256_pre_anchoring` records the digest before anchors were inserted. It is provenance, not a check: proving the body survived anchoring is the job of the anchoring verify scripts.
-- **Translations (D2).** `source_type: translation` marks a text that is not authoritative. It must carry no `## Articolul` or `## Article` anchors: an anchor on a translation would assert that the text can be cited, and it cannot. A `legal-text` file with 20 or more body lines matching `^Article\s+\d` is reported as an undeclared translation (warning until the English BNM corpus is retired, P9).
+- **Translations (D2).** `source_type: translation` marks a text that is not authoritative. It must carry no `## Articolul` or `## Article` anchors: an anchor on a translation would assert that the text can be cited, and it cannot. A `legal-text` file under `raw/papers/cnpf/`, `raw/papers/moldova-legal/`, `raw/papers/bnm/` with 20 or more body lines matching `^Article\s+\d` is reported as an undeclared translation (warning until the English BNM corpus is retired, P9). English originals outside these legal-corpus roots are not covered by this heuristic.
 
 ### Tag taxonomy
 

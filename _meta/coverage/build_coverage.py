@@ -82,6 +82,15 @@ def flattened_superscripts(nums):
     return out
 
 
+def stale_age_note(consolidation, today):
+    """Return the stable stale-source marker, if a consolidation is stale."""
+    try:
+        age = (today - dt.date.fromisoformat(consolidation)).days / 365.25
+    except ValueError:
+        return None
+    return "**more than 2 years old**" if age > STALE_YEARS else None
+
+
 def scan_file(path, rel):
     text = read(path)
     fm = frontmatter(text)
@@ -246,12 +255,9 @@ def build(today):
         if x["future"]:
             notes.append("**consolidation dated in the future**")
         elif x["consolidation"] and not x["never_amended"]:
-            try:
-                age = (today - dt.date.fromisoformat(x["consolidation"])).days / 365.25
-                if age > STALE_YEARS:
-                    notes.append(f"**{age:.1f} years old**")
-            except ValueError:
-                pass
+            age_note = stale_age_note(x["consolidation"], today)
+            if age_note:
+                notes.append(age_note)
         if x["flattened"]:
             notes.append("**suspected flattened superscript: " + "; ".join(x["flattened"]) + "**")
         if x["superscript_anchors"]:
@@ -318,11 +324,8 @@ def build(today):
     for x in acts:
         if x["future"] or not x["consolidation"] or x["never_amended"]:
             continue
-        try:
-            if (today - dt.date.fromisoformat(x["consolidation"])).days / 365.25 > STALE_YEARS:
-                stale.append(x)
-        except ValueError:
-            pass
+        if stale_age_note(x["consolidation"], today):
+            stale.append(x)
     if stale:
         flags.append("**Stale consolidations.** "
                      + ", ".join(f"`{x['id']}` ({x['consolidation']})" for x in sorted(stale, key=lambda r: r["consolidation"]))

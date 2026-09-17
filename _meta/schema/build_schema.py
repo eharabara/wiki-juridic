@@ -65,6 +65,18 @@ def render(spec):
         a("A page must have at least one source under a raw root of its own perimeter.")
     a("")
 
+    # citation locators
+    citation_rules = spec["citations"]
+    a("### Citation locators")
+    a("")
+    a(
+        f"A substantive citation to a raw legal source under {lst(citation_rules['raw_page_locator_required_roots'])} "
+        "needs an article, point, annex, or source-structural locator (`antet`, `fișa`, `preambul`, `cuprins`, `secțiunea`, `l. N`). A page-level `**surse:**` inventory is provenance, not a substantive citation."
+    )
+    a("Source manifests and inventories are cited as catalogues, not as normative texts.")
+    a("Policy documents are cited as whole sources, with their date and authority stated; they are not subject to a legal-article locator rule.")
+    a("")
+
     # structured frontmatter
     fs = spec["frontmatter"]["structured"]
     a("### Frontmatter of structured pages")
@@ -131,8 +143,9 @@ def render(spec):
     a(f"- **Translations (D2).** `source_type: translation` marks a text that is not authoritative. "
       + ("It must carry no `## Articolul` or `## Article` anchors: an anchor on a translation would assert that the text can be cited, "
          "and it cannot. " if tr["anchors_forbidden"] else "")
-      + f"A `legal-text` file with {tr['english_marker_min']} or more body lines matching `{tr['english_marker']}` "
-      "is reported as an undeclared translation (warning until the English BNM corpus is retired, P9).")
+      + f"A `legal-text` file under {lst(tr['english_marker_scope_roots'])} with {tr['english_marker_min']} or more body lines "
+      f"matching `{tr['english_marker']}` is reported as an undeclared translation (warning until the English BNM corpus is retired, P9). "
+      "English originals outside these legal-corpus roots are not covered by this heuristic.")
     a("")
 
     # tags

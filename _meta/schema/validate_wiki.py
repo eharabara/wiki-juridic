@@ -175,10 +175,16 @@ def check_hcc_citations(rp, base, body_text, hcc_known, rep):
 
 
 RAW_PAGE_CITE = re.compile(r"\[(raw/papers/[^\]\s]+\.md)(?:\s+([^\]]+))?\]")
-CITE_HAS_LOCATOR = re.compile(r"\b(?:art(?:icolul)?|pct|punctul|anexa)\.?\s*[0-9ivxlcdm]", re.IGNORECASE)
+# Source-structural locators apply only to a source's identity, version, or extracted scope.
+# Normative claims still need art./pct./anexa whenever the source has that structure.
+CITE_HAS_LOCATOR = re.compile(
+    r"\b(?:(?:art(?:icolul)?|pct|punctul|anexa)\.?\s*[0-9ivxlcdm]+(?:\^\d+|[a-z])*|(?:l|linia)\.?\s*\d+|antet|fișa|preambul|cuprins|secțiunea)\b",
+    re.IGNORECASE,
+)
+SOURCE_INVENTORY_LINE = re.compile(r"^\s*-\s+\*\*surse:\*\*[^\n]*$", re.M | re.IGNORECASE)
 
 
-def check_raw_page_level_refs(rp, body_text, rep):
+def check_raw_page_level_refs(rp, body_text, rep, citation_rules):
     """Avertizeaza cand o citare intre paranteze trimite la un fisier raw intreg, fara
     niciun locator (art./pct./anexa) in partea de detaliu -- portat din
     run_cnpf_legal_lint.py (constatarea A3 a auditului din 2026-09-05), generalizat la
@@ -186,11 +192,34 @@ def check_raw_page_level_refs(rp, body_text, rep):
     A4 al aceluiasi audit).
     """
     text = re.sub(r"```.*?```", "", body_text, flags=re.S)
+    # `**surse:**` is a bibliography label for the page as a whole, not a proposition that
+    # requires an article or point locator. Claims elsewhere remain subject to the locator rule.
+    text = SOURCE_INVENTORY_LINE.sub("", text)
+    required_roots = tuple(citation_rules["raw_page_locator_required_roots"])
+    exempt_paths = set(citation_rules.get("raw_page_locator_exempt_paths", ()))
     for m in RAW_PAGE_CITE.finditer(text):
+        raw_path = m.group(1)
+        if not raw_path.startswith(required_roots) or raw_path in exempt_paths:
+            continue
         detail = m.group(2) or ""
         if not CITE_HAS_LOCATOR.search(detail):
             rep.warn("citation.raw-page-level",
-                     f"{rp}: cites `{m.group(1)}` with no article/point locator in the bracket")
+                     f"{rp}: cites `{raw_path}` with no article/point locator in the bracket")
+
+
+def is_undeclared_translation(st, marker_count, rp, base, translation_rules, working_prefixes):
+    """Apply D2's English-marker heuristic only to the Moldovan and BNM legal corpus.
+
+    English originals of EU institutions are authoritative sources in their own right; they are
+    not translations merely because their body has article headings.
+    """
+    scope_roots = tuple(translation_rules.get("english_marker_scope_roots", ()))
+    return (
+        st == "legal-text"
+        and marker_count >= translation_rules["english_marker_min"]
+        and not base.startswith(working_prefixes)
+        and any(rp.startswith(root) for root in scope_roots)
+    )
 
 
 def main():
@@ -321,7 +350,7 @@ def main():
             pages[rp] = {"type": ty, "perimeter": perim, "base": os.path.basename(rp)[:-3]}
             if folder == "entities":
                 check_hcc_citations(rp, pages[rp]["base"], body_text, hcc_known, rep)
-            check_raw_page_level_refs(rp, body_text, rep)
+            check_raw_page_level_refs(rp, body_text, rep, spec["citations"])
     stats["structured pages"] = len(pages)
     for rp in pages:
         if inbound.get(rp, 0) == 0:
@@ -437,7 +466,7 @@ def main():
             n_en = len(en_re.findall(body_text))
             if st == "translation" and tr["anchors_forbidden"] and n_anchor:
                 rep.error("raw.translation-anchored", f"{rp}: {n_anchor} `## Articolul` anchors on a translation (D2)")
-            if st == "legal-text" and n_en >= tr["english_marker_min"] and not base.startswith(working_prefixes):
+            if is_undeclared_translation(st, n_en, rp, base, tr, working_prefixes):
                 rep.warn("raw.translation-undeclared", f"{rp}: {n_en} `Article N` lines, source_type still `legal-text` (D2, pending P9)")
     stats["raw sources checked"] = n_raw
     if do_hash:

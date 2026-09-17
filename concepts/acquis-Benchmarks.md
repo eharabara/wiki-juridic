@@ -36,9 +36,9 @@ fals pozitiv, nu regimul de regulament.
 
 ## Singura urmă găsită — și de ce nu e regimul BMR
 
-`L-92-2022` art. neanchorat (liniile 1075, 1190) folosește „indice al pieței valorilor mobiliare”
+`L-92-2022` art. 63 alin. (2) și art. 68 alin. (5) folosesc „indice al pieței valorilor mobiliare”
 sau „altă valoare de referință” pentru a descrie polițele de asigurare de viață legate de unități
-(„unit-linked”), unde beneficiul depinde de un indice extern. `[raw/papers/cnpf/L-92-2022.md]`
+(„unit-linked”), unde beneficiul depinde de un indice extern. `[raw/papers/cnpf/L-92-2022.md art.63, art.68]`
 E limbajul obișnuit al asigurărilor de tip unit-linked (regim propriu Solvency II/IDD, vezi
 [[acquis-Insurance]]), nu regimul de autorizare și supraveghere a **administratorilor** de indici
 de referință pe care îl instituie Regulamentul 2016/1011. Niciun text din corpus nu numește un

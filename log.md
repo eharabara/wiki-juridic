@@ -1157,3 +1157,87 @@
   `entities/L-1125-2002.md` (secțiune nouă despre trimiterea „nerezolvată" explicată); registrele
   regenerate (`_meta/graph/citation-graph.md/.json`, `_meta/inforce/in-force-register.md/.json`,
   `_meta/hcc/hcc-register.md`, blocul de acoperire din `CLAUDE.md`).
+
+## [2026-09-17] update | remedierea tehnică după auditul complet
+
+- **Aflat:** singura eroare a validatorului era derivată din afișarea vârstei consolidărilor:
+  rotunjirea la o zecimală făcea blocul generat din `CLAUDE.md` să devină depășit fără schimbare
+  de corpus. `AGENTS.md` copia un instantaneu mult mai vechi al instrucțiunilor și al coverage,
+  iar README încă prezenta drept deschise activități încheiate. Euristica D2 marca și propunerea
+  originală în engleză a Comisiei Europene COM(2024) 469 ca traducere nedeclarată, deși aceasta
+  nu este o traducere și stă în corpusul de politici, nu în corpusul juridic moldovenesc sau BNM.
+- **Decis:** la acceptarea lui Eugen, eticheta de vechime devine stabilă („more than 2 years old"),
+  cu test de regresie, iar `CLAUDE.md` devine unica sursă canonică pentru reguli, statut și
+  controale generate; `AGENTS.md` rămâne doar bootstrap cu garanțiile care se aplică înainte de
+  orice lucru. D2 se aplică numai rădăcinilor juridice `cnpf`, `moldova-legal` și `bnm`, păstrând
+  avertismentul pentru traducerile englezești BNM și eliminând falsul pozitiv. Modificările de
+  fond ale entităților juridice și ale citărilor lor sunt amânate: matter log are `taken:
+  2026-09-16`, deci D9 cere registrul curent din proiect înainte de acea etapă.
+- **Unde:** `_meta/coverage/build_coverage.py`; `CLAUDE.md`; `AGENTS.md`; `README.md`;
+  `_meta/schema/schema-spec.yaml`, `build_schema.py`, `validate_wiki.py`, `SCHEMA.md`;
+  `tests/test_build_coverage.py`. Verificate cu 5 teste unitare, toate controalele generate în
+  mod `--check` și validatorul: 0 erori, 156 avertismente.
+
+## [2026-09-17] update | corecturi juridice verificate după audit
+
+- **Aflat:** documentul canonic păstra deja verificarea istorică a temeiurilor pentru lacunele
+  din Codul muncii, Codul contravențional, legile 220/2007, 548/1995 și 845/1992, iar registrul
+  in-force era deja corect pentru HG 743/2024. Paginile de entitate continuau însă să le prezinte
+  drept neexplicate ori deschise. Cele două avertismente HCC rămase erau de context, iar trei
+  entități erau izolate de navigația structurată. Eugen a confirmat că registrul de materii nu s-a
+  schimbat; copia a fost reștampilată pentru 2026-09-17 cu același hash al corpului.
+- **Decis:** fără modificarea surselor brute, au fost aliniate numai paginile structurale la
+  verificările deja documentate: actele de abrogare sunt numite acolo unde istoria le confirmă,
+  mecanismul ștergerii stub-urilor legis.md este explicat pentru L-548/1995, iar HG-743/2024
+  trimite la cele șase poziții corecte ale registrului. Contextul HCC a fost adus în aceeași
+  secțiune cu trimiterile afectate. L-148/2023, L-149/2012 și L-514/1995 au primit legături
+  structurale relevante. Avertismentele pentru citări fără locator rămân neatinse: fiecare cere
+  verificarea punctuală a afirmației, nu o completare mecanică.
+- **Unde:** `legal-career/06-matter-log.md`; `entities/COD-116-2018.md`, `COD-1163-1997.md`,
+  `COD-154-2003.md`, `COD-218-2008.md`, `COD-225-2003.md`, `HG-743-2024.md`, `L-220-2007.md`,
+  `L-548-1995.md`, `L-845-1992.md`. Validatorul ulterior: 0 erori, 150 avertismente; toate 424
+  hash-uri raw au fost verificate, fără modificări sub `raw/`.
+
+## [2026-09-17] update | regula locatorului distinge dreptul pozitiv de documentele de politici
+
+- **Aflat:** dintre cele 73 de avertismente rămase pentru citare la nivel de pagină, 31 trimiteau
+  la documente de politici. Regula deja formulată în `SCHEMA.md` pentru acel perimetru cerea data
+  și autoritatea sursei, nu un articol, punct sau anexă. Tratarea lor ca texte juridice era deci
+  un fals pozitiv de implementare. Cele 42 de avertismente pentru corpusurile juridice au rămas
+  intenționat active: fiecare trebuie rezolvat prin citirea afirmației și a sursei brute, nu prin
+  completarea automată a unui locator.
+- **Decis:** specificația declară explicit rădăcinile pentru care locatorul juridic este
+  obligatoriu: `raw/papers/cnpf/`, `raw/papers/moldova-legal/` și `raw/papers/bnm/`. Validatorul
+  ignoră sursele din celelalte rădăcini la această regulă, iar generatorul publică aceeași distincție
+  în `SCHEMA.md`. Inventarul `**surse:**` rămâne tratat ca proveniență, nu ca afirmație juridică.
+- **Unde:** `_meta/schema/schema-spec.yaml`, `_meta/schema/validate_wiki.py`,
+  `_meta/schema/build_schema.py`, `SCHEMA.md`, `tests/test_validate_wiki.py`. Verificate cu 9
+  teste unitare, generatorul de schemă, acoperirea, registrele in-force și HCC, graful de citare și
+  validatorul: 0 erori, 43 avertismente. Toate cele 424 hash-uri raw rămân valide; nu există
+  modificări sub `raw/`.
+
+## [2026-09-17] update | citări juridice localizate și excepții de proveniență controlate
+
+- **Aflat:** citările fără locator amestecau trei situații distincte: afirmații despre norme,
+  metadate ale sursei și registre/inventare de documente. Unele localizări valide existau deja,
+  dar validatorul nu recunoștea articole cu sufix (`art. 3a`), locatori de linie pentru corpuri
+  neancorate ori localizări structurale ale PDF-urilor DCU. Citirea directă a surselor a corectat
+  și două formulări: în `L-1-2018` BNM este autoritatea de supraveghere în sensul legii, iar
+  `L-92-2022` numește CNPF pentru controlul protecției consumatorilor prin art. 89.
+- **Decis:** regula de locator rămâne strictă pentru dreptul pozitiv, dar acceptă un locator
+  structural explicit numai pentru identitatea, versiunea sau secțiunea sursei. Manifeste și
+  inventare BNM sunt declarate cataloge, nu texte normative. Au fost introduse localizări exacte,
+  între altele: art. 13 pentru limitele RCA, art. 1 pentru domeniul OPCA, art. 63 și 68 pentru
+  referințele unit-linked, art. 89 pentru protecția consumatorului și secțiunile precise ale celor
+  trei proceduri DCU. Nu s-a completat niciun locator prin presupunere.
+- **Limita rămasă:** `236__Prezentare_RI_mai_2025.pdf.md` este etichetat în raw cu
+  `language: other`, deși pagina de titlu a PDF-ului spune în română „Raport asupra inflației,
+  Mai 2025”. Extracția textului este neutilizabilă. Nu se schimbă frontmatter-ul sub `raw/`, care
+  este imuabil; avertismentul rămâne intenționat până la o operațiune de ingerare autorizată.
+- **Unde:** `_meta/schema/schema-spec.yaml`, `_meta/schema/validate_wiki.py`,
+  `_meta/schema/build_schema.py`, `SCHEMA.md`, `tests/test_validate_wiki.py`; paginile
+  `entities/AA-2014.md`, `CC-1107-2002.md`, `DCU-PROCEDURI.md`, `HG-1170-2016.md`,
+  `HG-1171-2018.md`, `L-1-2018.md`, `L-2-2020.md`, `L-100-2017.md`, `L-106-2022.md`,
+  `L-122-2008.md`, `L-235-2006.md`, `L-92-2022.md` și `concepts/acquis-Benchmarks.md`.
+  Verificate cu 14 teste unitare și validatorul: 0 erori, 1 avertisment; toate 424 hash-uri raw
+  sunt valide.

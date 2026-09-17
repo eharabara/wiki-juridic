@@ -145,7 +145,7 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-16 15:37 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-17 15:48 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
 83 primary Moldovan acts, 32 EU acquis extracts, 1 Association Agreement extract(s), 293 BNM corpus documents.
 
@@ -165,16 +165,16 @@ Generated 2026-09-16 15:37 from the files themselves. Do not edit this section b
 | `COD-95-2021` | 472 | 472 | 2026-09-01 | 51 superscript articles normalised |
 | `COD-985-2002` | 566 | 566 | 2026-12-02 | **consolidation dated in the future**; 178 superscript articles normalised; 8 provision(s) declared unconstitutional (HCC register) |
 | `CONST-1994` | 157 | 157 | 2024-11-05 | 8 articles numbered in Roman figures; 6 superscript articles normalised; **2 HCC decision(s) not yet attributed to an article** |
-| `DCA-61-2024` | 0 | 0 | 2024-05-05 | no article structure; **2.4 years old** |
+| `DCA-61-2024` | 0 | 0 | 2024-05-05 | no article structure; **more than 2 years old** |
 | `DCU-REGULI-2026` | 94 | 94 | 2026-04-08 | 1 superscript article normalised |
-| `HBN-127-2013` | 0 | 0 | 2021-05-09 | no article structure; **5.4 years old** |
-| `HBN-130-2013` | 0 | 0 | 2018-12-23 | no article structure; **7.7 years old** |
-| `HCNPF-14-5-2016` | 0 | 0 | 2022-05-06 | no article structure; **4.4 years old** |
+| `HBN-127-2013` | 0 | 0 | 2021-05-09 | no article structure; **more than 2 years old** |
+| `HBN-130-2013` | 0 | 0 | 2018-12-23 | no article structure; **more than 2 years old** |
+| `HCNPF-14-5-2016` | 0 | 0 | 2022-05-06 | no article structure; **more than 2 years old** |
 | `HCNPF-38-5-2015` | 0 | 0 | 2025-10-01 | no article structure |
 | `HG-1170-2016` | 0 | 0 | 2025-03-07 | no article structure |
-| `HG-1171-2018` | - | 0 | 2024-07-05 | numbered points (65), not articles; **2.2 years old** |
+| `HG-1171-2018` | - | 0 | 2024-07-05 | numbered points (65), not articles; **more than 2 years old** |
 | `HG-553-2024` | 0 | 0 | 2025-10-18 | no article structure |
-| `HG-574-2024` | 0 | 0 | 2024-08-23 | no article structure; **2.1 years old** |
+| `HG-574-2024` | 0 | 0 | 2024-08-23 | no article structure; **more than 2 years old** |
 | `HG-582-2022` | 0 | 0 | 2026-03-01 | no article structure |
 | `HG-743-2024` | 0 | 0 | 2026-12-30 | no article structure; **consolidation dated in the future** |
 | `L-1-2018` | 28 | 28 | 2025-12-31 | clean |
@@ -191,12 +191,12 @@ Generated 2026-09-16 15:37 from the files themselves. Do not edit this section b
 | `L-133-2011` | 36 | 36 | 2026-08-23 | **ABROGAT de la 2026-08-23**; 2 superscript articles normalised |
 | `L-135-2007` | 93 | 93 | 2026-03-27 | 10 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-139-2007` | 59 | 59 | 2026-01-01 | 1 superscript article normalised |
-| `L-148-2023` | 35 | 35 | 2024-01-08 | **2.7 years old** |
+| `L-148-2023` | 35 | 35 | 2024-01-08 | **more than 2 years old** |
 | `L-149-2012` | 271 | 271 | 2025-12-31 | 17 superscript articles normalised; 2 provision(s) declared unconstitutional (HCC register) |
 | `L-1543-1998` | 99 | 99 | 2027-01-01 | **consolidation dated in the future**; 38 superscript articles normalised |
 | `L-158-2008` | 88 | 88 | 2026-09-13 | **consolidation dated in the future**; 11 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-160-2011` | 32 | 32 | 2026-08-29 | 18 superscript articles normalised |
-| `L-160-2023` | 58 | 58 | 2023-10-01 | **3.0 years old** |
+| `L-160-2023` | 58 | 58 | 2023-10-01 | **more than 2 years old** |
 | `L-160-2026` | 46 | 46 | 2026-08-23 | clean |
 | `L-171-2012` | 156 | 156 | 2027-06-01 | **consolidation dated in the future**; 18 superscript articles normalised |
 | `L-177-2025` | 4 | 4 | 2025-07-21 | 4 articles numbered in Roman figures |
@@ -212,14 +212,14 @@ Generated 2026-09-16 15:37 from the files themselves. Do not edit this section b
 | `L-202-2017` | 155 | 155 | 2025-10-25 | 6 superscript articles normalised |
 | `L-213-2023` | 10 | 10 | 2026-01-23 | **1 HCC decision(s) not yet attributed to an article** |
 | `L-220-2007` | 44 | 44 | 2026-07-23 | 6 superscript articles normalised |
-| `L-23-2008` | 36 | 36 | 2016-09-30 | **10.0 years old**; 1 superscript article normalised |
+| `L-23-2008` | 36 | 36 | 2016-09-30 | **more than 2 years old**; 1 superscript article normalised |
 | `L-232-2016` | 344 | 344 | 2025-02-28 | 21 superscript articles normalised |
 | `L-234-2016` | 37 | 37 | 2024-11-26 | clean |
-| `L-235-2006` | 21 | 21 | 2024-07-05 | **2.2 years old** |
-| `L-239-2008` | 20 | 20 | 2024-07-05 | **2.2 years old**; 2 superscript articles normalised |
-| `L-24-2008` | 42 | 42 | 2018-11-08 | **7.9 years old**; 1 superscript article normalised; **1 HCC decision(s) not yet attributed to an article** |
+| `L-235-2006` | 21 | 21 | 2024-07-05 | **more than 2 years old** |
+| `L-239-2008` | 20 | 20 | 2024-07-05 | **more than 2 years old**; 2 superscript articles normalised |
+| `L-24-2008` | 42 | 42 | 2018-11-08 | **more than 2 years old**; 1 superscript article normalised; **1 HCC decision(s) not yet attributed to an article** |
 | `L-246-2018` | 97 | 97 | 2026-06-23 | 1 superscript article normalised |
-| `L-250-2017` | 23 | 23 | 2018-03-29 | **8.5 years old** |
+| `L-250-2017` | 23 | 23 | 2018-03-29 | **more than 2 years old** |
 | `L-284-2004` | 29 | 29 | 2026-02-14 | 1 superscript article normalised |
 | `L-308-2017` | 47 | 47 | 2026-08-13 | 10 superscript articles normalised |
 | `L-325-2025` | 91 | 91 | 2027-01-01 | **consolidation dated in the future** |
@@ -229,11 +229,11 @@ Generated 2026-09-16 15:37 from the files themselves. Do not edit this section b
 | `L-550-1995` | 20 | 20 | 2025-02-28 | 17 superscript articles normalised |
 | `L-62-2008` | 73 | 73 | 2025-12-31 | 3 superscript articles normalised |
 | `L-62-2022` | 58 | 58 | 2026-08-14 | 5 superscript articles normalised |
-| `L-64-2010` | 34 | 34 | 2024-01-23 | **2.6 years old**; 1 provision(s) declared unconstitutional (HCC register) |
+| `L-64-2010` | 34 | 34 | 2024-01-23 | **more than 2 years old**; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-845-1992` | 46 | 46 | 2027-01-01 | **consolidation dated in the future**; 11 superscript articles normalised; 3 provision(s) declared unconstitutional (HCC register) |
 | `L-9-2026` | 63 | 63 | 2026-09-12 | clean |
 | `L-92-2022` | 125 | 125 | 2026-06-25 | 1 superscript article normalised |
-| `UA-STATUT-2011` | 74 | 74 | 2022-05-27 | **4.3 years old**; 6 superscript articles normalised |
+| `UA-STATUT-2011` | 74 | 74 | 2022-05-27 | **more than 2 years old**; 6 superscript articles normalised |
 
 ### Mechanical flags
 
