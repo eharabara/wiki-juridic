@@ -1,0 +1,18 @@
+raw/papers/cnpf/L-183-2016.md: 5 title(s) fixed
+   line 93  art.4
+      old: ## Articolul 4. Interdicţii privind sechestrarea conturilor deschise
+      new: ## Articolul 4. Interdicţii privind sechestrarea conturilor deschise în cadrul sistemului
+   line 111  art.7
+      old: ## Articolul 7. Utilizarea mijloacelor băneşti sau a instrumentelor
+      new: ## Articolul 7. Utilizarea mijloacelor băneşti sau a instrumentelor financiare disponibile în conturile participantului pentru îndeplinirea obligaţiilor participantului faţă de sistem
+   line 118  art.8
+      old: ## Articolul 8. Irevocabilitatea ordinelor de plată şi/sau a ordinelor
+      new: ## Articolul 8. Irevocabilitatea ordinelor de plată şi/sau a ordinelor de transfer
+   line 133  art.10
+      old: ## Articolul 10. Neretroactivitatea efectelor intentării procedurii
+      new: ## Articolul 10. Neretroactivitatea efectelor intentării procedurii de insolvabilitate
+   line 141  art.12
+      old: ## Articolul 12. Protejarea drepturilor deţinătorilor de garanţii faţă
+      new: ## Articolul 12. Protejarea drepturilor deţinătorilor de garanţii faţă de efectele insolvabilităţii participantului furnizor de garanții
+
+TOTAL: 5 heading(s) across 1 file(s) fixed

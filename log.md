@@ -1241,3 +1241,47 @@
   `L-122-2008.md`, `L-235-2006.md`, `L-92-2022.md` și `concepts/acquis-Benchmarks.md`.
   Verificate cu 14 teste unitare și validatorul: 0 erori, 1 avertisment; toate 424 hash-uri raw
   sunt valide.
+
+## [2026-09-17] ingest | L-183-2016, caracterul definitiv al decontării — primul act din coada de ingerare a grafului de citare
+
+- **Aflat:** legis.md era blocat pentru `curl` (Cloudflare interactiv), dar `showdetails/<doc_id>`
+  a mers prin navigare directă în browser-ul din panoul Claude, iar un `fetch` same-origin din
+  pagină a adus octeții serverului — cu o capcană de dezambalare: rezultatul JS venea împachetat
+  de două ori ca șir JSON, plus o adnotare a uneltei lipită la coadă, iar dezambalarea greșită
+  producea un fișier care eșua tăcut verificarea `usable()` a scriptului de ingerare. Actul
+  declară la art. 16 transpunerea directă a art. 1-10 din Directiva 98/26/CE (SFD) — o descoperire
+  care depășește simpla ingerare: `concepts/acquis-SFD.md`, reverificată cu o zi înainte fără
+  acest act în corpus, concluzionase greșit că transpunerea trece doar pe calea ocolită a
+  obligațiilor CSDR ale Depozitarului central (`L-234-2016`), fără declarație proprie.
+- **Decis:** ingerat cu un înveliș nou, `_meta/imports/cnpf/ingest_payment_finality.py`, peste
+  `_meta/imports/moldova-legal/ingest_business_law.py` (același tipar ca `ingest_bnm_ro.py` și
+  `ingest_cnpf_ro.py`), în `raw/papers/cnpf/`, perimetrul CNPF/BNM, nu `moldova-legal/`. Titlurile
+  de articol rupte pe două rânduri (5 din 17) corectate cu `fix_wrapped_titles.py`, ca la restul
+  corpusului. Pagina `acquis-SFD` actualizată, cu concluzia veche păstrată ca istoric datat, nu
+  ștearsă, conform regulii paginilor contrazise. Ales dintre primele rânduri ale cozii de ingerare
+  (Codul electoral nr. 325/2022 avea mai multe mențiuni, 38 față de 25) pentru relevanța tematică
+  directă a acestui perimetru, la alegerea lui Eugen.
+- **Unde:** `raw/papers/cnpf/L-183-2016.md` (nou, 17 ancore); `_meta/imports/cnpf/ingest_payment_finality.py`
+  (nou) și cache-ul `_meta/imports/cnpf/legis-md-payment/showdetails-139645.html` (nou);
+  `entities/L-183-2016.md` (nou); `entities/L-234-2016.md`, `entities/DCU-REGULI-2026.md`,
+  `concepts/acquis-SFD.md`, `index.md`, `raw/papers/cnpf/_manifest.md` (secțiunea L) actualizate.
+  Registrele regenerate (`_meta/graph/citation-graph.md/.json` — 93 acte, `_meta/inforce/`,
+  `_meta/hcc/`, blocul de acoperire din `CLAUDE.md`). Validator: 0 erori, 2 avertismente
+  (neschimbate, pre-existente).
+
+## [2026-09-17] update | detectarea extracțiilor textuale aproape goale din rapoarte
+
+- **Aflat:** `raw/papers/bnm/reports/documents/236__Prezentare_RI_mai_2025.pdf.md` declară
+  `extraction_status: text-extracted`, dar secțiunea sa `## Extracted text` conține numai
+  235 caractere și niciun cuvânt semnificativ. Originalul păstrat are 23 de pagini, iar
+  extragerile învecinate din aceeași serie BNM sunt lizibile. Defectul este deci individual,
+  nu o regulă a întregului set de rapoarte.
+- **Decis:** validatorul avertizează pentru un `report` declarat extras textual dacă secțiunea
+  standard are cel mult 20 de cuvinte semnificative și 500 de caractere. Pragul este
+  intenționat conservator și controlul nu modifică frontmatter-ul, corpul brut, hash-ul sau
+  originalul. Corectarea necesită o reingerare autorizată, cu păstrarea originalului și
+  verificare de hash.
+- **Unde:** `_meta/schema/schema-spec.yaml`, `_meta/schema/validate_wiki.py`,
+  `_meta/schema/build_schema.py`, `SCHEMA.md`, `tests/test_validate_wiki.py`.
+  Verificate cu 17 teste unitare și validatorul: 0 erori, 2 avertismente. Toate cele 424
+  hash-uri raw sunt valide; nu există modificări sub `raw/`.

@@ -1,7 +1,7 @@
 ---
 title: DCU-REGULI-2026 — Regulile Depozitarului Central Unic al Valorilor Mobiliare (v3, în vigoare din 8 aprilie 2026)
 created: '2026-09-08'
-updated: '2026-09-08'
+updated: '2026-09-17'
 type: entity
 perimeter: legal
 tags:
@@ -16,6 +16,7 @@ tags:
 sources:
 - raw/papers/bnm/legal-ro/DCU-REGULI-2026.md
 - raw/papers/cnpf/L-234-2016.md
+- raw/papers/cnpf/L-183-2016.md
 - raw/papers/bnm/legal-ro/HBN-130-2013.md
 - raw/papers/cnpf/L-171-2012.md
 confidence: high
@@ -79,6 +80,9 @@ Ingerat cu `_meta/imports/bnm/ingest_dcu_rules.py`, script nou pentru această r
 ## Referințe încrucișate
 
 - [[L-234-2016]] — art. 25, temeiul și aprobarea; art. 18 alin. (1), competențele avizate de CNPF
+- [[L-183-2016]] — temeiul art. 6/8 pentru irevocabilitatea decontărilor (art. 58-59 din Reguli),
+  al art. 4/7 pentru limita sechestrului (art. 80-81), al art. 9 pentru efectele insolvabilității
+  unui participant (art. 87); ingerată 2026-09-17
 - [[HBN-130-2013]] — pct. 12–15, stratul BNM peste transferul acțiunilor băncilor; pct. 14, înscrierea suspendării votului
 - [[HBN-127-2013]] — pct. 8–9, circumstanțele obiective și termenele
 - [[L-202-2017]] — art. 45 alin. (6), art. 54 alin. (2), lista acționarilor băncii
@@ -93,4 +97,6 @@ Ingerat cu `_meta/imports/bnm/ingest_dcu_rules.py`, script nou pentru această r
 2. **Sub-balanța cu restricție ca loc al suspendării votului** din pct. 14 al [[HBN-130-2013]] este o lectură; Regulile nu numesc cazul. `[de verificat]` în Procedurile DCU sau în practica DCU.
 3. **Versiunile v1 și v2** nu sunt ingerate; pentru o speță de dinainte de 8 aprilie 2026 se ia v2 de pe aceeași pagină.
 4. **Hotărârea CE BNM nr. 89 din 8 aprilie 2026**, actul de aprobare finală, nu apare pe legis.md; dacă BNM o publică pe bnm.md, este de adăugat ca sursă a intrării în vigoare.
-5. **Legea nr. 183/2016** privind caracterul definitiv al decontării și **Legea nr. 184/2016** privind contractele de garanție financiară, pe care art. 1 alin. (2) le pune la temelie, nu sunt în vault.
+5. **Legea nr. 183/2016** privind caracterul definitiv al decontării, pe care art. 1 alin. (2)
+   o pune la temelie alături de Legea nr. 184/2016 — **ingerată 2026-09-17**, vezi [[L-183-2016]].
+   **Legea nr. 184/2016** privind contractele de garanție financiară rămâne neingerată.

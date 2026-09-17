@@ -455,3 +455,57 @@ secțiunea 2.2-ter — nu se repetă aici.
 două s-a găsit unde stau (Anexa II — Capitolul 3, Anexa IV — Capitolul 5), dar niciuna dintre cele
 patru anexe nu e încă ingerată sau citită integral. Reverificarea pagină cu pagină a celor 18
 pagini `acquis-*` înghețate (pasul 6.5) rămâne de făcut.
+
+## L. `L-183-2016` — caracterul definitiv al decontării (ingerat 2026-09-17)
+
+Primul act ingerat din coada de ingerare a grafului de citare (`_meta/graph/citation-graph.md`):
+cel mai des menționat act moldovenesc absent din vault, 25 de mențiuni în 7 acte deținute, cel
+mai des chiar din `DCU-REGULI-2026` (9 ori). Ales în locul primului rând al cozii (Codul electoral
+nr. 325/2022, 38 de mențiuni) pentru relevanța tematică directă pentru acest perimetru.
+
+| Act | doc_id | Consolidare | Ancore | Structură |
+|---|---|---|---|---|
+| Legea nr. 183 din 22.07.2016 cu privire la caracterul definitiv al decontării în sistemele de plăți și de decontare a instrumentelor financiare | **139645** | **2023-10-21** (LP292/2023), curentă; fără abrogare (câmpul „Data abrogării" gol) | **17, complet, fără lacune** | 17 articole de bază, fără exponenți; 5 capitole, fără secțiuni |
+
+**Descărcare.** legis.md blocat pentru `curl` la ora ingerării (Cloudflare interactiv, „Just a
+moment" persistent, verificat și pe browser-ul din panoul Claude). `showdetails/139645` a mers
+totuși prin navigare directă (nu prin AJAX de căutare), iar un `fetch` same-origin din pagină a
+adus octeții serverului. Capcană găsită la extragere: rezultatul JS întors de unealta de browser
+era împachetat de două ori ca șir JSON (escape dublu, `\r\n`), plus o adnotare proprie a
+uneltei („(captured at origin ...)") lipită la coadă — dezambalarea greșită producea un fișier ce
+eșua verificarea `usable()` a scriptului de ingerare cu un mesaj înșelător („nici cache
+utilizabil"), deși fișierul exista. Corect: JSON-decodare dublă, apoi tăierea adnotării.
+
+**Metodă.** Script nou, `_meta/imports/cnpf/ingest_payment_finality.py`, înveliș subțire peste
+`_meta/imports/moldova-legal/ingest_business_law.py` (ca `ingest_bnm_ro.py` și `ingest_cnpf_ro.py`):
+refolosește `resolve_superscripts`, `extract_doc`, `make_raw`, cu destinația `raw/papers/cnpf/` și
+cache-ul propriu `_meta/imports/cnpf/legis-md-payment/`. Nu s-a folosit `legis_md_consolidated_ingest.py`
+(scriptul din iulie al acestui folder): acela nu rezolvă `<sup>` și are un format de fișier vechi.
+După ingerare, `fix_wrapped_titles.py` a corectat 5 titluri de articol rupte pe două rânduri de
+extracția legis.md (art. 4, 7, 8, 10, 12) — același defect corpus-larg documentat în `CLAUDE.md`,
+„Outstanding work" pct. 2; verificat cu proba proprie a scriptului (headinguri scoase, restul
+byte-identic), nu doar cu ochiul.
+
+**Verificare.** Fără script dedicat pentru un act de 17 articole: sha256 recalculat coincide după
+editarea titlurilor (scriptul de unwrap îl recalculează el însuși); zero `<sup>` rămas; cele 17
+titluri de articol verificate direct contra textului citit live de pe pagina `getResults` înainte
+de ingerare — aceleași 17, aceeași ordine, același conținut.
+
+**Descoperire de fond — rezolvă o lacună semnalată în `acquis-SFD`.** Art. 16 declară expres
+transpunerea art. 1-10 din Directiva 98/26/CE (SFD). Pagina `concepts/acquis-SFD.md`, reverificată
+la 2026-09-16 fără acest act în corpus, concluzionase că substanța SFD trece pe calea ocolită a
+obligațiilor CSDR ale Depozitarului central din `L-234-2016`, fără o declarație proprie de
+transpunere. Nu mai e cazul: acesta e canalul direct, declarat. Pagina a fost actualizată în
+consecință aceeași zi, cu concluzia veche păstrată ca istoric datat, nu ștearsă.
+
+**Consecință de citare, verificată prin regenerarea grafului.** Cele 25 de mențiuni din coada de
+ingerare (`DCU-REGULI-2026` x9, `L-232-2016` x6, `L-234-2016` x2, `L-114-2012` x2, `L-149-2012`
+x1, `L-550-1995` x3, `DCU-PROC-INSOLVABILITATE` x2) devin, după regenerare, muchii rezolvate în
+corpus în loc de trimiteri externe. `L-149-2012` art. 74 alin. (2^1) trimite la art. 6 pentru
+particularitățile ordinelor de plată/transfer inițiate în ziua intentării insolvabilității;
+`L-114-2012` art. 32^3 alin. (3) lit. a) exceptează sistemele desemnate de BNM sub legea de față
+de la regimul de acces obiectiv/nediscriminatoriu.
+
+**Ce rămâne deschis.** Legea nr. 184/2016 privind contractele de garanție financiară, pusă la
+temelie alături de legea de față de art. 1 alin. (2) al Regulilor DCU — citată de 5 acte deținute,
+rămâne în coada de ingerare, neingerată.

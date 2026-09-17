@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-16 | Total pages: 134
+> Last updated: 2026-09-17 | Total pages: 135
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -65,6 +65,7 @@
 - [[L-178-2020]] — Legea nr. 178/2020 (legea de transfer al mandatului din 2023)
 - [[L-181-2023]] — Legea nr. 181/2023 privind serviciile de finanțare participativă (crowdfunding)
 - [[L-183-2012]] — Legea concurenței nr. 183/2012: acorduri, abuz de poziție dominantă, concurență neloială, concentrări și procedura Consiliului Concurenței; competența lui pe publicitate se oprește la drepturile întreprinderilor.
+- [[L-183-2016]] — Legea nr. 183/2016 cu privire la caracterul definitiv al decontării în sistemele de plăți și de decontare a instrumentelor financiare: BNM desemnează sistemele (art. 13); transpune direct art. 1-10 din Directiva 98/26/CE (SFD), declarat expres la art. 16; 17 ancore, consolidare 2023-10-21.
 - [[L-192-1998]] — Legea nr. 192/1998 privind Comisia Națională a Pieței Financiare
 - [[L-195-2024]] — Legea nr. 195/2024 privind protecția datelor cu caracter personal: transpune Regulamentul (UE) 2016/679 (GDPR); în vigoare **23.08.2026**, a abrogat L-133/2011; amenzi 1%/2% eșalonate la 10% în primul an; CNPF și BNM nu sunt numite.
 - [[L-198-2007]] — Legea asistenței juridice garantate de stat: 54 de ancore, consolidare 2026-08-06; asistența primară și calificată, avocatul public, para-juristul.
