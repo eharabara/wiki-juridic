@@ -140,6 +140,7 @@ def load_hcc_known():
 
 HCC_ID_RE = re.compile(r"\bHCC\s*\d+[\s/]", re.IGNORECASE)
 SECTION_SPLIT = re.compile(r"(?=^#{1,6}\s)", re.M)
+MEANINGFUL_WORD = re.compile(r"[^\W\d_]{2,}", re.UNICODE)
 
 
 def check_hcc_citations(rp, base, body_text, hcc_known, rep):
@@ -220,6 +221,33 @@ def is_undeclared_translation(st, marker_count, rp, base, translation_rules, wor
         and not base.startswith(working_prefixes)
         and any(rp.startswith(root) for root in scope_roots)
     )
+
+
+def suspect_report_extraction(fm, body_text, extraction_rules):
+    """Return `(meaningful_words, extracted_chars)` for a report whose claimed text
+    extraction is effectively empty, otherwise ``None``.
+
+    This control intentionally inspects only the standard extraction section of reports
+    whose frontmatter claims a textual extraction. It does not reinterpret the source or
+    change its language, status, or hash. Those changes require a separate authorized ingest.
+    """
+    if str(fm.get("source_type")) != "report":
+        return None
+    if str(fm.get("extraction_status")) not in extraction_rules["statuses"]:
+        return None
+    heading = str(extraction_rules["heading"])
+    marker = re.search(rf"^{re.escape(heading)}\s*$", body_text, re.M | re.IGNORECASE)
+    if not marker:
+        return None
+    extracted = body_text[marker.end():].strip()
+    meaningful_words = len(MEANINGFUL_WORD.findall(extracted))
+    extracted_chars = len(extracted)
+    if (
+        meaningful_words <= extraction_rules["max_meaningful_words"]
+        and extracted_chars <= extraction_rules["max_body_chars"]
+    ):
+        return meaningful_words, extracted_chars
+    return None
 
 
 def main():
@@ -448,6 +476,16 @@ def main():
                     rep.error("raw.enum", f"{rp}: `{k}: {fm[k]}`")
             if str(fm.get("language")) == "other":
                 rep.warn("raw.language-other", rp)
+            extraction = suspect_report_extraction(
+                fm, body_text, raw_rules["report_extraction"]
+            )
+            if extraction:
+                words, chars = extraction
+                rep.warn(
+                    "raw.report-extraction-suspect",
+                    f"{rp}: claims `{fm.get('extraction_status')}` but its `## Extracted text` "
+                    f"section has only {words} meaningful words and {chars} characters",
+                )
             if do_hash and fm.get("sha256"):
                 recorded = str(fm["sha256"])
                 variants = {"raw": hashlib.sha256(body).hexdigest(),

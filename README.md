@@ -11,7 +11,7 @@ documentele de politici din jurul lor. Proprietar: Eugen Harabara, Chișinău.
 |---|---|---|
 | Text brut | `raw/papers/` | textul actelor de pe legis.md și EUR-Lex, imuabil, cu hash și ancore de articol; corpusul BNM |
 | Structurat | `entities/`, `concepts/`, `comparisons/`, `queries/` | rezumate și analize; fiecare pagină poartă `perimeter: legal` sau `policy` |
-| Control | `_meta/schema/`, `_meta/coverage/`, `_meta/inforce/` | specificația mecanică, verificatorul, generatorul de acoperire, registrul dispozițiilor neintrate în vigoare |
+| Control | `_meta/schema/`, `_meta/coverage/`, `_meta/inforce/`, `_meta/hcc/`, `_meta/graph/` | specificația mecanică, verificatorul, generatorul de acoperire, registrul dispozițiilor neintrate în vigoare, registrul deciziilor Curții Constituționale, graful de citare (coada de ingerare, dependențele) |
 | Arhivă | `_archive/` | conținut înghețat, cu note de proveniență |
 
 Regulile de lucru sunt în `CLAUDE.md`. Schema, cu partea mecanică generată din
@@ -30,7 +30,9 @@ python _meta/coverage/build_coverage.py --check
 ```
 
 Prima comandă iese cu cod 1 dacă o regulă din specificație e încălcată. A doua spune dacă
-secțiunea de acoperire din `CLAUDE.md` mai corespunde fișierelor.
+secțiunea de acoperire din `CLAUDE.md` mai corespunde fișierelor. La închiderea unei sesiuni,
+`python _meta/close_session.py --commit "mesaj"` regenerează toate controalele de mai sus, în
+ordine, validează, apoi comite și pune; vezi `CLAUDE.md`, secțiunea „Closing a session".
 
 ## Stare
 

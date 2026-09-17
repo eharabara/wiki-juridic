@@ -146,6 +146,14 @@ frontmatter:
         - raw/papers/cnpf/
         - raw/papers/moldova-legal/
         - raw/papers/bnm/
+    report_extraction:
+      # Un raport declarat ca extras textual poate avea totuși numai numere, simboluri sau
+      # artefacte PDF. Este avertisment, nu o invitație de a rescrie `raw`: reingerarea
+      # rămâne o operațiune separată, cu originalul păstrat și hash-ul refăcut.
+      statuses: [text-extracted, text-extracted-pdftotext]
+      heading: '## Extracted text'
+      max_meaningful_words: 20
+      max_body_chars: 500
 
 # ---------------------------------------------------------------------------------------
 # Taxonomia etichetelor. Închisă: o etichetă nouă se adaugă aici înainte de a fi folosită.

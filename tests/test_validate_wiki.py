@@ -17,6 +17,13 @@ CITATION_RULES = {
     ]
 }
 
+REPORT_EXTRACTION_RULES = {
+    "statuses": ["text-extracted", "text-extracted-pdftotext"],
+    "heading": "## Extracted text",
+    "max_meaningful_words": 20,
+    "max_body_chars": 500,
+}
+
 
 def raw_page_level_warning_count(text):
     report = validator.Report()
@@ -112,6 +119,32 @@ class RawPageCitationTests(unittest.TestCase):
             rules,
         )
         self.assertEqual(len(report.items[("warn", "citation.raw-page-level")]), 0)
+
+
+class ReportExtractionTests(unittest.TestCase):
+    def test_report_claiming_text_extraction_with_only_artifacts_is_flagged(self):
+        finding = validator.suspect_report_extraction(
+            {"source_type": "report", "extraction_status": "text-extracted"},
+            "# Report\n\n## Extracted text\n\n1\n\n±\n\n➢\n\n2\n",
+            REPORT_EXTRACTION_RULES,
+        )
+        self.assertEqual(finding, (0, 10))
+
+    def test_report_with_substantive_extraction_is_not_flagged(self):
+        finding = validator.suspect_report_extraction(
+            {"source_type": "report", "extraction_status": "text-extracted-pdftotext"},
+            "# Report\n\n## Extracted text\n\n" + ("Inflația anuală a continuat să crească. " * 20),
+            REPORT_EXTRACTION_RULES,
+        )
+        self.assertIsNone(finding)
+
+    def test_other_raw_sources_are_outside_the_report_extraction_control(self):
+        finding = validator.suspect_report_extraction(
+            {"source_type": "legal-text", "extraction_status": "text-extracted"},
+            "# Act\n\n## Extracted text\n\n1\n",
+            REPORT_EXTRACTION_RULES,
+        )
+        self.assertIsNone(finding)
 
 
 if __name__ == "__main__":

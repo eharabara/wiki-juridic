@@ -180,6 +180,7 @@ sha256_pre_anchoring: <hash before structural anchors were added>
 - `sha256` is computed over the body, under one of two conventions: `raw`, `LF` (raw bytes, or CRLF normalised to LF). The validator accepts either; if neither reproduces the recorded digest, the text changed after it was last hashed, which is an error. A declared `sha256_convention` must match the convention that reproduces the digest.
 - `sha256_pre_anchoring` records the digest before anchors were inserted. It is provenance, not a check: proving the body survived anchoring is the job of the anchoring verify scripts.
 - **Translations (D2).** `source_type: translation` marks a text that is not authoritative. It must carry no `## Articolul` or `## Article` anchors: an anchor on a translation would assert that the text can be cited, and it cannot. A `legal-text` file under `raw/papers/cnpf/`, `raw/papers/moldova-legal/`, `raw/papers/bnm/` with 20 or more body lines matching `^Article\s+\d` is reported as an undeclared translation (warning until the English BNM corpus is retired, P9). English originals outside these legal-corpus roots are not covered by this heuristic.
+- **Extrageri de rapoarte.** Un raport cu `extraction_status` `text-extracted`, `text-extracted-pdftotext` este avertizat dacă secțiunea `## Extracted text` are cel mult 20 cuvinte semnificative și 500 caractere. Avertismentul identifică o extracție aproape goală; nu autorizează modificarea textului brut sau reingerarea acestuia.
 
 ### Tag taxonomy
 

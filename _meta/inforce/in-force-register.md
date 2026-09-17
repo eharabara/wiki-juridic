@@ -1,6 +1,6 @@
 ---
 title: Registrul dispozitiilor care nu sint inca in vigoare
-generated: '2026-09-17T16:48:01'
+generated: '2026-09-17T16:56:10'
 as_of: '2026-09-17'
 type: summary
 tags: [moldova, legal-source, methodology, summary]

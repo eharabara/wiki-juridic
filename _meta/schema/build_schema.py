@@ -146,6 +146,11 @@ def render(spec):
       + f"A `legal-text` file under {lst(tr['english_marker_scope_roots'])} with {tr['english_marker_min']} or more body lines "
       f"matching `{tr['english_marker']}` is reported as an undeclared translation (warning until the English BNM corpus is retired, P9). "
       "English originals outside these legal-corpus roots are not covered by this heuristic.")
+    rext = fr["report_extraction"]
+    a(f"- **Extrageri de rapoarte.** Un raport cu `extraction_status` {lst(rext['statuses'])} "
+      f"este avertizat dacă secțiunea `{rext['heading']}` are cel mult {rext['max_meaningful_words']} "
+      f"cuvinte semnificative și {rext['max_body_chars']} caractere. Avertismentul identifică o "
+      "extracție aproape goală; nu autorizează modificarea textului brut sau reingerarea acestuia.")
     a("")
 
     # tags

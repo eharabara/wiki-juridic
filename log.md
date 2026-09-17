@@ -1343,6 +1343,27 @@
   avertismente (neschimbate, pre-existente; un `page.links-min` intermediar corectat înainte de
   commit).
 
+## [2026-09-17] update | închiderea sesiunii de extindere: README actualizat, lucrarea sesiunii concurente integrată
+
+- **Aflat:** cele cinci fișiere lăsate necomise la fiecare din cele patru loturi anterioare
+  (`schema-spec.yaml`, `validate_wiki.py`, `build_schema.py`, `SCHEMA.md`,
+  `tests/test_validate_wiki.py` — controlul `raw.report-extraction-suspect`) au rămas neschimbate
+  peste toată sesiunea de extindere a corpusului: nicio nouă modificare la ele din momentul
+  primei observații. Eugen confirmat explicit la închidere: se includ în commit-ul de azi.
+  Validatorul, rulat cu toate cele cinci active, iese curat, 0 erori, 2 avertismente — aceleași
+  două de dinainte, niciuna nouă produsă de integrare. README nu mai menționa `_meta/hcc/` și
+  `_meta/graph/`, deși ambele sunt straturi de control stabilite de mult (8, respectiv 10
+  septembrie), nu ceva nou din sesiunea de azi — omisiune veche, corectată acum.
+- **Decis:** README.md capătă cele două straturi lipsă în tabelul „Cum e construit" și o mențiune
+  a `close_session.py` ca punct unic de închidere, fără să dubleze starea volatilă pe care
+  `CLAUDE.md` o ține deja. Toate cele patru loturi de ingerare ale sesiunii (L-183/2016, L-133/2016,
+  L-132/2016, L-86/2014) și lucrarea sesiunii concurente merg într-un singur commit de închidere,
+  cu `close_session.py --commit`, care regenerează toate controalele o ultimă dată și rulează
+  validatorul înainte de a comite.
+- **Unde:** `README.md`; restul fișierelor listate în intrările de mai sus ale zilei de azi.
+  Corpusul: de la 83 la 87 de acte moldovenești primare ingerate (patru acte noi), 138 de pagini
+  structurate (de la 134), 428 de surse brute verificate prin sha256.
+
 ## [2026-09-17] update | detectarea extracțiilor textuale aproape goale din rapoarte
 
 - **Aflat:** `raw/papers/bnm/reports/documents/236__Prezentare_RI_mai_2025.pdf.md` declară
