@@ -1493,3 +1493,9 @@
   citation-graph.md/.json` (99 acte, de la 98), `_meta/hcc/` (HCC37/2021 nou, 3 marcaje în text),
   blocul de acoperire din `CLAUDE.md`. Validator: 0 erori, 2 avertismente (neschimbate,
   pre-existente).
+
+## [2026-09-17] update | documentul 05 rescris în proiect, copia locală resincronizată
+
+- **Aflat:** copia locală a documentului 05 rămăsese ștampilată 10 septembrie, deși între timp au trecut 40 de commit-uri în trei sesiuni (15, 16, 17 septembrie): stratul de constatări acquis a fost dezghețat integral, limita registrului „în vigoare" pentru acte pe puncte a fost reparată, a intrat un prim extras din Acordul de Asociere, iar corpusul a crescut cu nouă acte. O afirmație din document (limita registrului pentru `HG-743-2024`) devenise activ greșită din 16 septembrie, nu doar veche, pentru că documentul o descria integral în loc să trimită la punctul 7 din „Open questions" al `CLAUDE.md`.
+- **Decis:** masterul a fost rescris în proiectul claude.ai „Legal Wiki" (secțiune cu secțiune, verificat direct față de `git log` și `CLAUDE.md`, nu din memorie), apoi copiat aici și reștampilat cu `stamp_copies.py --taken 2026-09-17`. Regula documentului a fost extinsă: nu mai descrie integral o limitare pe care `CLAUDE.md` o ține deja la zi, doar trimite la ea, la fel cum face deja pentru cifrele de acoperire.
+- **Unde:** `legal-career/05-knowledge-map.md` (corp înlocuit, reștampilat, taken/stamped 2026-09-17). Fără modificări sub `raw/`. Validator: 0 erori, 2 avertismente (neschimbate, pre-existente, `236__Prezentare_RI_mai_2025.pdf.md`). Neconsemnat încă în git: commit și push rămân un pas separat.
