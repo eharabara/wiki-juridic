@@ -2112,6 +2112,41 @@ alin. (2) din legea de față trimite pentru noțiunile comune.
 
 Pagină de entitate: [[L-132-2016]]; [[L-133-2016]] actualizată cu legătura în ambele sensuri.
 
+## AB. Secretul de stat — L-245/2008 (ingerată 2026-09-17)
+
+Al cincilea act din coada de ingerare a grafului de citare. Nu mai era cel mai citat pe număr de
+mențiuni (`COD-325-2022`, 38, era mai sus în tabel), dar coloana care contează pentru ordinea de
+ingerare este a treia: 11 acte deținute citatoare, cel mai mare număr dintre candidații verificați
+în această sesiune (`COD-325-2022` și `L-325-2013` aveau câte 9). Găsită prin căutarea proprie a
+site-ului, câmpul „NR. DOCUMENTULUI" — capcană de format: „245/2008" cu bară întoarce zero
+rezultate, numărul singur „245" întoarce 97, toate încărcate din prima în DOM și doar ascunse
+client-side de `changePagination()`, deci fără cereri suplimentare de pagină. Un grep pe tabelele
+`.table` a găsit direct rândul `LP245/2008`, 27-11-2008, Modificat, „cu privire la secretul de
+stat", doc_id 151410. legis.md era accesibil în browserul intern din prima încercare, fără nevoie
+de Chrome-ul lui Eugen ca la sesiunile anterioare blocate de Cloudflare.
+
+- **`L-245-2008`** — 41 de ancore (40 de bază 1-40 fără nicio lacună, plus art. 38^1). 9 `<sup>`,
+  fără CUPRINS. 29 de titluri rupte pe două rânduri, corectate cu `fix_wrapped_titles.py`.
+  Consolidare 2025-12-30 (LP227 din 10.07.25, în vigoare 30.12.25 — trecută), fișa confirmă cea
+  mai nouă din 17 versiuni istorice (rândul anului 2025 activ). „Data abrogării": „-".
+
+**Motivul de relevanță, verificat direct în text, nu presupus din poziția în coadă.** `L-133/2016`
+(declararea averii, ingerată mai devreme aceeași zi) trimite la legea de față de patru ori pentru
+subiecții declarării a căror identitate și calitate constituie secret de stat: art. 5 alin. (6)
+scutește membrii de familie de a oferi informații despre un asemenea subiect; art. 7 alin. (7) îl
+scoate din procedura obișnuită de depunere (formă scrisă, pe hârtie); art. 7^1, articol întreg,
+stabilește atribuțiile persoanelor responsabile de colectarea declarațiilor exact pentru acest
+subiect; art. 9 alin. (3) scoate declarațiile lui de sub regimul public. Legea de față este sursa
+care decide cine intră în acest regim de excepție, nu `L-133/2016` însăși.
+
+**Restul cozii pentru acest act, neverificat articol cu articol.** `COD-122-2003` (art. 6, 57^2,
+138^10), `COD-985-2002` (art. 121, divulgarea secretului de stat), `L-1260-2002` (art. 39),
+`L-131-2015` (art. 30, 78), `L-160-2026` și `L-195-2024` (art. 2), `L-192-1998` (art. 20),
+`L-20-2026` (art. 7), `L-325-2025` (art. 50, 55, 81), `UA-STATUT-2011` (art. 43^1). Lanțuri de
+urmărit separat dacă un dosar concret o cere, nu afirmații confirmate în această sesiune.
+
+Pagină de entitate: [[L-245-2008]]; [[L-133-2016]] actualizată cu legătura în ambele sensuri.
+
 ## D. Artefacte metodologice create
 
 | Artefact | Tip | Rol |

@@ -576,6 +576,31 @@ DOCS = {
     'L-132-2016': {'doc_id': '155890',
                    'title': 'Legea nr. 132/2016 cu privire la Autoritatea Nationala de '
                             'Integritate'},
+
+    # 2026-09-17, al cincilea act din coada de ingerare a grafului de citare. Nu mai era
+    # cel mai citat pe numar de mentiuni (COD-325-2022, 38 mentiuni, era mai sus), dar coloana
+    # care conteaza pentru ordinea de ingerare e a treia: 11 acte citatoare, cel mai mult din
+    # oricare candidat verificat (COD-325-2022 si L-325-2013 aveau cite 9). Cele 11: COD-122-2003
+    # (procedura penala, art. 138^10, 57^2, 6), COD-985-2002 (penal, art. 121, divulgarea
+    # secretului de stat), L-1260-2002 (avocatura, art. 39), L-131-2015 (achizitii publice,
+    # abrogata, art. 30, 78), L-133-2016 (declararea averii, art. 5, 7, 7^1, 9 - ingerata azi mai
+    # devreme, motivul principal de relevanta), L-160-2026 (protectia datelor, art. 2), L-192-1998
+    # (protectia consumatorului, art. 20), L-195-2024 (protectia datelor, art. 2), L-20-2026
+    # (achizitii, art. 7), L-325-2025 (achizitii publice, art. 50, 55, 81), UA-STATUT-2011
+    # (avocatura, art. 43^1).
+    # Gasita prin cautare in NR. DOCUMENTULUI = 245 (fara an: campul nu accepta "245/2008",
+    # intoarce zero; cu numarul singur, 97 de rezultate paginate client-side, toate incarcate in
+    # DOM din prima si doar ascunse de changePagination() - deci nu a fost nevoie de request-uri
+    # suplimentare de pagina, un grep pe tabelele .table a gasit direct LP245/2008, 27-11-2008,
+    # Modificat, "cu privire la secretul de stat"). legis.md era accesibil in browserul intern
+    # din prima incercare, deci nu a fost nevoie de Chrome-ul lui Eugen ca la sesiunile anterioare.
+    # doc_id 151410, confirmat cea mai noua din 17 versiuni pe fisa (rindul "an2025" activ, MODIFICAT
+    # LP227 din 10.07.25, in vigoare 30.12.25 - trecuta). "Data abrogarii": "-". Fara <sup>
+    # gasite in verificarea de dinaintea rularii (de confirmat la extractie), fara CUPRINS
+    # (lege, nu cod), 40 din 41 aparitii "Articolul N" unice (o dubla, de verificat: ar putea fi
+    # un exponent aplatizat sau un articol citat inline in corp, nu titlu de sectiune).
+    'L-245-2008': {'doc_id': '151410',
+                   'title': 'Legea nr. 245/2008 cu privire la secretul de stat'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

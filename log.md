@@ -1380,3 +1380,34 @@
   `_meta/schema/build_schema.py`, `SCHEMA.md`, `tests/test_validate_wiki.py`.
   Verificate cu 17 teste unitare și validatorul: 0 erori, 2 avertismente. Toate cele 424
   hash-uri raw sunt valide; nu există modificări sub `raw/`.
+
+## [2026-09-17] ingest | L-245-2008, secretul de stat — al cincilea act din coada de ingerare a grafului de citare
+
+- **Aflat:** nu era cel mai citat pe număr de mențiuni (`COD-325-2022`, 38 de mențiuni, era mai
+  sus în tabelul cozii), dar coloana care contează pentru ordinea de ingerare, per nota proprie a
+  `citation-graph.md`, este a treia: numărul de acte deținute citatoare, nu numărul brut de
+  mențiuni. `L-245-2008` avea 11 acte citatoare, cel mai mare număr dintre toți candidații
+  verificați în această sesiune (`COD-325-2022` și `L-325-2013` aveau câte 9). legis.md a fost
+  accesibil din prima încercare în browserul intern al sesiunii, fără nevoie de Chrome-ul lui
+  Eugen ca la sesiunile blocate de Cloudflare anterior — dar câmpul de căutare „NR. DOCUMENTULUI"
+  respinge formatul „245/2008" (zero rezultate) și acceptă doar numărul singur, „245" (97
+  rezultate, toate încărcate din prima în DOM, paginarea fiind doar client-side). Motivul de
+  relevanță nu a fost presupus din poziția în coadă, ci verificat direct în text: `L-133/2016`,
+  ingerată mai devreme aceeași zi, trimite la legea de față de patru ori (art. 5 alin. (6), art. 7
+  alin. (7), art. 7^1 întreg, art. 9 alin. (3)) pentru a defini subiecții declarării averii a căror
+  identitate constituie secret de stat — legea de față decide cine intră în acel regim de excepție
+  de la transparență, nu `L-133/2016` însăși.
+- **Decis:** ingerată cu `ingest_business_law.py` (doc_id 151410, consolidare 2025-12-30, fără
+  abrogare, fără dispoziții amânate). 29 de titluri rupte pe două rânduri corectate cu
+  `fix_wrapped_titles.py`. Legătură adăugată în ambele sensuri cu `entities/L-133-2016.md`.
+  Celelalte 10 acte care citează `L-245-2008` din coadă (`COD-122-2003`, `COD-985-2002`,
+  `L-1260-2002`, `L-131-2015`, `L-160-2026`, `L-192-1998`, `L-195-2024`, `L-20-2026`,
+  `L-325-2025`, `UA-STATUT-2011`) rămân neverificate articol cu articol, consemnate ca atare în
+  pagina de entitate, nu tratate ca lanțuri confirmate.
+- **Unde:** `raw/papers/moldova-legal/L-245-2008.md` (nou, 41 ancore); `entities/L-245-2008.md`
+  (nou); `entities/L-133-2016.md`, `index.md`, `raw/papers/moldova-legal/_manifest.md` (secțiunea
+  AB) actualizate. `_meta/imports/moldova-legal/legis-md-business/showdetails-151410.html`
+  păstrat ca sursă de audit. Registrele regenerate: `_meta/hcc/` (neschimbat, actul nu poartă
+  nicio decizie HCC), `_meta/inforce/` (neschimbat), `_meta/graph/citation-graph.md/.json` (97
+  acte, de la 96), blocul de acoperire din `CLAUDE.md`. Validator: 0 erori, 2 avertismente
+  (neschimbate, pre-existente).

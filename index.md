@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-17 | Total pages: 138
+> Last updated: 2026-09-17 | Total pages: 139
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -85,6 +85,7 @@
 - [[L-234-2016]] — Legea nr. 234/2016 privind Depozitarul central unic al valorilor mobiliare (DCU)
 - [[L-235-2006]] — Legea nr. 235/2006 cu privire la principiile de bază de reglementare a activității de întreprinzător: temeiul metodologiei AIR și al Comisiei de stat; art. 14 rezervă legii normele primare privind afacerea.
 - [[L-239-2008]] — Legea nr. 239/2008 privind transparența în procesul decizional: legea generală a consultării publice; 20 de ancore; în bnm/legal-ro doar pentru că BNM o ține în registrul său.
+- [[L-245-2008]] — Legea nr. 245/2008 cu privire la secretul de stat: regimul atribuirii/secretizării informațiilor și dreptul de acces; art. 5 alin. (6), art. 7 alin. (7), art. 7^1 și art. 9 alin. (3) din L-133/2016 trimit aici pentru subiecții declarării averii a căror identitate constituie secret de stat; 41 de ancore, consolidare 2025-12-30.
 - [[L-246-2018]] — Legea nr. 246/2018 privind procedura notarială: capitolul V, procedura succesorală notarială; art. 82 alin. (3), certificatul de moștenitor nu mai devreme de o lună de la ultima publicare; art. 69 alin. (1^1) numește certificatul de calitate de moștenitor; 97 de ancore, consolidare 2026-06-23, versiunea în vigoare stă deasupra rândului de căutare de pe legis.md.
 - [[L-250-2017]] — Legea nr. 250/2017 privind supravegherea suplimentară a conglomeratelor financiare: BNM și CNPF sub același regim; 23 de ancore, nemodificată din 2018.
 - [[L-284-2004]] — Legea nr. 284/2004 privind serviciile societății informaționale, fosta Lege a comerțului electronic: testul de direcționare teritorială din art. 3 și răspunderea intermediarilor din arts. 15–17; transpune Directiva 2000/31/CE.
