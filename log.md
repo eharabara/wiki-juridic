@@ -1499,3 +1499,22 @@
 - **Aflat:** copia locală a documentului 05 rămăsese ștampilată 10 septembrie, deși între timp au trecut 40 de commit-uri în trei sesiuni (15, 16, 17 septembrie): stratul de constatări acquis a fost dezghețat integral, limita registrului „în vigoare" pentru acte pe puncte a fost reparată, a intrat un prim extras din Acordul de Asociere, iar corpusul a crescut cu nouă acte. O afirmație din document (limita registrului pentru `HG-743-2024`) devenise activ greșită din 16 septembrie, nu doar veche, pentru că documentul o descria integral în loc să trimită la punctul 7 din „Open questions" al `CLAUDE.md`.
 - **Decis:** masterul a fost rescris în proiectul claude.ai „Legal Wiki" (secțiune cu secțiune, verificat direct față de `git log` și `CLAUDE.md`, nu din memorie), apoi copiat aici și reștampilat cu `stamp_copies.py --taken 2026-09-17`. Regula documentului a fost extinsă: nu mai descrie integral o limitare pe care `CLAUDE.md` o ține deja la zi, doar trimite la ea, la fel cum face deja pentru cifrele de acoperire.
 - **Unde:** `legal-career/05-knowledge-map.md` (corp înlocuit, reștampilat, taken/stamped 2026-09-17). Fără modificări sub `raw/`. Validator: 0 erori, 2 avertismente (neschimbate, pre-existente, `236__Prezentare_RI_mai_2025.pdf.md`). Neconsemnat încă în git: commit și push rămân un pas separat.
+
+## [2026-09-17] create | lacună de acoperire pentru practica generală de avocatură
+
+- **Aflat:** Eugen a întrebat direct ce segmente relevante pentru un avocat lipsesc din corpus.
+  Verificat mecanic (nu ghicit) împotriva `_meta/graph/citation-graph.md` și `raw/papers/
+  moldova-legal/_manifest.md`: Codul familiei (`COD-1316-2000`) absent complet, apare doar ca
+  țintă externă de citare; dreptul de autor fără succesoare ingerată (`L-139-2010` e abrogat,
+  succesoarea lăsată deoparte explicit la ingerarea `L-325-2013` din aceeași zi); notariatul,
+  medierea și avocatura fără lege-cadru în vault, doar citate pe nume; Codul electoral
+  (`COD-325-2022`, 38 mențiuni, 9 acte citatoare) în capul cozii de ingerare mecanice. Codul
+  muncii (`COD-154-2003`) e ținut dar cu consolidare viitoare, 2027-01-01. Succesoarea legii
+  protecției datelor personale, după abrogarea `L-133-2011`, rămâne neverificată.
+- **Decis:** consemnat ca notă de lacună, nu ca decizie de ingerare — ordinea rămâne a lui Eugen,
+  pe modelul planului similar din 2026-09-04 (`2026-09-04-lacuna-drept-afaceri.md`), ale cărui
+  nouă acte au fost între timp ingerate.
+- **Unde:** `_meta/plans/2026-09-17-lacuna-drept-general.md` (nou). Fără modificări sub `raw/`,
+  nicio regenerare de registru necesară. `concepts/functionarea-pietelor-de-produse-si-
+  dereglementare.md` are o modificare necomisă din altă sesiune activă în paralel (lock de git
+  întâlnit în timpul acestei sesiuni); lăsat neatins, nu face parte din acest commit.
