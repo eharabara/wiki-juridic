@@ -2045,6 +2045,41 @@ neconstituțională prin HCC29 din 21.09.2021 (MO256-260/22.10.21 art.184), marc
 
 Pagină de entitate: [[L-133-2016]].
 
+## Z. Evaluarea impactului asupra mediului — L-86/2014 (ingerată 2026-09-17)
+
+Al treilea act din coada de ingerare. Candidatul inițial, `L-133/2018` (privind modernizarea
+Codului civil), confirmat ca fiind exact legea de renumerotare căutată la punctul 8 din „Open
+questions" al `CLAUDE.md` — art. 7 alin. (2) din `L-1125/2002` spune expres „dându-le ...
+articolelor ... o nouă numerotare", iar `L-1125/2002` o citează de 20 de ori — **s-a dovedit
+impracticabil de ingerat cu scriptul actual**: `showdetails` de pe legis.md are 4,8 MB, 1926 de
+apariții „Articolul N" (Codul civil integral, reprodus inline în blocurile de modificare pe care
+legea le operează) și doar 18 articole proprii, numerotate roman (Art. I - Art. XVIII). Structura
+e incompatibilă cu `extract_doc`, care ancorează „Articolul N" la nivel de act, nu apariții ale
+unui cod citat în text — ar produce fie zero ancore corecte, fie 1900+ ancore false. Amânată, nu
+abandonată; semnalată lui Eugen la finalul sesiunii precedente.
+
+Ales în loc, al patrulea rând al cozii cu profil practic: **Legea nr. 86/2014 privind evaluarea
+impactului asupra mediului**, 20 de mențiuni, 5 acte citatoare, cel mai des din `COD-434-2023`
+(Codul urbanismului, deja în corpus, 11 citări). Găsită prin căutare în titlu „evaluarea
+impactului asupra mediului", doc_id 154125 (republicată în MO326-333/2022, versiunea curentă din
+08.11.2023).
+
+- **`L-86-2014`** — 42 de ancore, 1-42 fără nicio lacună, plus șase exponenți (4^1, 4^2, 5^1, 5^2,
+  5^3, 10^1). 69 `<sup>`, fără CUPRINS. 21 de titluri rupte pe două rânduri, corectate cu
+  `fix_wrapped_titles.py`. Ultima modificare LP53 din 09.04.26, în vigoare 25.04.26 — trecută la
+  data ingerării, deci consolidare curentă, nu viitoare. Fără marcaj HCC.
+
+**Închide o lacună de citare reală, verificată direct în text.** `COD-434-2023` definește „acord
+de mediu" prin trimitere directă la legea de față (art. 2) și, la art. 104 alin. (7), condiționează
+certificatul de urbanism pentru proiectare/autorizația de construire de existența acestui acord:
+dacă autoritatea de mediu decide că legislația interzice activitatea pe amplasamentul propus,
+actele de urbanism nu se eliberează. „Aprobarea de dezvoltare" (art. 2 din legea de față) trimite
+mai departe la lista autorităților emitente din anexa nr. 1 a `L-160/2011`, deja în corpus — link
+adăugat acolo. Rămâne neingerată Legea nr. 94/2007 cu privire la rețeaua ecologică, temeiul
+evaluării biodiversității introduse de LP53/2026.
+
+Pagină de entitate: [[L-86-2014]]; actualizate [[COD-434-2023]] și [[L-160-2011]].
+
 ## D. Artefacte metodologice create
 
 | Artefact | Tip | Rol |

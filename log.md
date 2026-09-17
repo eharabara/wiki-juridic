@@ -1295,6 +1295,31 @@
   `_meta/graph/citation-graph.md/.json` (94 acte), blocul de acoperire din `CLAUDE.md`. Validator:
   0 erori, 2 avertismente (neschimbate, pre-existente).
 
+## [2026-09-17] ingest | L-86-2014, evaluarea impactului asupra mediului — al treilea act, după un candidat respins
+
+- **Aflat:** candidatul inițial pentru al treilea act, `L-133/2018` privind modernizarea Codului
+  civil, s-a confirmat a fi exact legea de renumerotare căutată la punctul 8 din „Open questions"
+  al `CLAUDE.md` (art. 7 alin. (2) din `L-1125/2002`: „dându-le ... articolelor ... o nouă
+  numerotare”), dar s-a dovedit impracticabilă de ingerat cu scriptul actual: `showdetails` are
+  4,8 MB, 1926 de apariții „Articolul N" (Codul civil integral, reprodus inline în blocurile de
+  modificare) și doar 18 articole proprii, numerotate roman — structură incompatibilă cu
+  `extract_doc`. Amânată, nu abandonată. `COD-434-2023` (Codul urbanismului) definește „acord de
+  mediu" prin trimitere directă la `L-86/2014`, neingerată pînă acum, și condiționează la art. 104
+  alin. (7) certificatul de urbanism/autorizația de construire de acel acord — o lacună de citare
+  reală pentru un act deja central în corpus.
+- **Decis:** ingerată `L-86/2014` în locul lui `L-133/2018`, cu `ingest_business_law.py`. 21 de
+  titluri rupte corectate cu `fix_wrapped_titles.py`. Adăugate legături în ambele sensuri:
+  `entities/COD-434-2023.md` (art. 2, art. 104) și `entities/L-160-2011.md` (anexa nr. 1,
+  autoritățile emitente ale „aprobării de dezvoltare"). Fișierele celeilalte sesiuni concurente
+  rămân necomise, ca la loturile anterioare.
+- **Unde:** `raw/papers/moldova-legal/L-86-2014.md` (nou, 42 ancore); `entities/L-86-2014.md`
+  (nou); `entities/COD-434-2023.md`, `entities/L-160-2011.md`, `index.md`,
+  `raw/papers/moldova-legal/_manifest.md` (secțiunea Z) actualizate. `_meta/imports/moldova-legal/
+  ingest_business_law.py` documentează și candidatul respins (`L-133-2018`), ca să nu fie
+  reîncercat orbește. Registrele regenerate: `_meta/graph/citation-graph.md/.json` (95 acte),
+  `_meta/inforce/` (fără dispoziții amânate noi), blocul de acoperire din `CLAUDE.md`. Validator:
+  0 erori, 2 avertismente (neschimbate, pre-existente).
+
 ## [2026-09-17] update | detectarea extracțiilor textuale aproape goale din rapoarte
 
 - **Aflat:** `raw/papers/bnm/reports/documents/236__Prezentare_RI_mai_2025.pdf.md` declară

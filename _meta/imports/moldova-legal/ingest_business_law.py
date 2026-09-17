@@ -544,6 +544,24 @@ DOCS = {
     'L-133-2016': {'doc_id': '155891',
                    'title': 'Legea nr. 133/2016 privind declararea averii si a intereselor '
                             'personale'},
+
+    # 2026-09-17, al treilea act din coada de ingerare. Candidatul initial, Legea nr. 133/2018
+    # (renumerotarea Codului civil, ipoteza din CLAUDE.md pct. 8) confirmata ca fiind exact acel
+    # act (art. 7 alin. (2) din L-1125-2002: "dind titlurilor... articolelor... o noua
+    # numerotare"), dar NEPRACTICA de ingerat cu scriptul actual: showdetails are 4.8 MB, 1926 de
+    # aparitii "Articolul N" (textul integral al Codului civil reprodus inline in blocurile de
+    # modificare) si doar 18 articole proprii, numerotate roman (Art. I - Art. XVIII) - structura
+    # complet diferita de ce asteapta extract_doc (ancore pe "Articolul N" la nivel de act, nu
+    # aparitii ale unui Cod citat in text). Amina, semnalat lui Eugen, nu ingerat.
+    # Ales in loc: Legea nr. 86/2014 privind evaluarea impactului asupra mediului, 20 de mentiuni,
+    # citata de 5 acte, cel mai des din COD-434-2023 (Codul urbanismului, deja in corpus, 11
+    # citari - doua definitii proprii ("acord de mediu", "constructie cu impact semnificativ")
+    # trimit direct aici). Gasita prin cautare in titlu "evaluarea impactului asupra mediului",
+    # doc_id 154125 (republicata in MO326-333/2022, versiunea curenta din 08.11.2023). 312 KB,
+    # 42 de articole, 69 <sup>. Ultima modificare LP53 din 09.04.26, in vigoare 25.04.26 - trecuta,
+    # deci consolidare curenta, nu viitoare.
+    'L-86-2014': {'doc_id': '154125',
+                  'title': 'Legea nr. 86/2014 privind evaluarea impactului asupra mediului'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

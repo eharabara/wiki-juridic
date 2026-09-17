@@ -1,0 +1,66 @@
+raw/papers/moldova-legal/L-86-2014.md: 21 title(s) fixed
+   line 93  art.3
+      old: ## Articolul 3. Principiile evaluării impactului
+      new: ## Articolul 3. Principiile evaluării impactului asupra mediului
+   line 109  art.4
+      old: ## Articolul 4. Domeniul de aplicare a evaluării impactului
+      new: ## Articolul 4. Domeniul de aplicare a evaluării impactului asupra mediului
+   line 126  art.4^1
+      old: ## Articolul 4^1. Derogarea de la procedura de evaluare
+      new: ## Articolul 4^1. Derogarea de la procedura de evaluare a impactului asupra mediului
+   line 176  art.6
+      old: ## Articolul 6. Finanţarea activităţii de evaluare
+      new: ## Articolul 6. Finanţarea activităţii de evaluare a impactului asupra mediului
+   line 185  art.7
+      old: ## Articolul 7. Depunerea cererii privind emiterea
+      new: ## Articolul 7. Depunerea cererii privind emiterea acordului de mediu
+   line 196  art.8
+      old: ## Articolul 8. Conținutul cererii privind emiterea
+      new: ## Articolul 8. Conținutul cererii privind emiterea acordului de mediu
+   line 229  art.10^1
+      old: ## Articolul 10^1. Programul de realizare a evaluării
+      new: ## Articolul 10^1. Programul de realizare a evaluării impactului asupra mediului
+   line 245  art.10^2
+      old: ## Articolul 10^2. Elaborarea raportului privind evaluarea
+      new: ## Articolul 10^2. Elaborarea raportului privind evaluarea impactului asupra mediului
+   line 280  art.10^3
+      old: ## Articolul 10^3. Procedura de desfășurare a dezbaterilor
+      new: ## Articolul 10^3. Procedura de desfășurare a dezbaterilor publice
+   line 293  art.10^4
+      old: ## Articolul 10^4. Evaluarea calității raportului privind
+      new: ## Articolul 10^4. Evaluarea calității raportului privind evaluarea impactului asupra mediului
+   line 356  art.10^7
+      old: ## Articolul 10^7. Analiza postproiect a activității
+      new: ## Articolul 10^7. Analiza postproiect a activității planificate
+   line 368  art.10^8
+      old: ## Articolul 10^8. Domeniul de aplicare a evaluării
+      new: ## Articolul 10^8. Domeniul de aplicare a evaluării biodiversității
+   line 375  art.10^9
+      old: ## Articolul 10^9. Inițierea evaluării biodiversității pentru
+      new: ## Articolul 10^9. Inițierea evaluării biodiversității pentru alte activități planificate
+   line 380  art.10^10
+      old: ## Articolul 10^10. Determinarea necesității de efectuare
+      new: ## Articolul 10^10. Determinarea necesității de efectuare a evaluării biodiversității
+   line 432  art.11
+      old: ## Articolul 11. Aspecte generale privind evaluarea
+      new: ## Articolul 11. Aspecte generale privind evaluarea impactului asupra mediului în context transfrontalier
+   line 457  art.13
+      old: ## Articolul 13. Pregătirea și prezentarea raportului
+      new: ## Articolul 13. Pregătirea și prezentarea raportului privind evaluarea impactului asupra mediului
+   line 466  art.14
+      old: ## Articolul 14. Desfăşurarea consultărilor
+      new: ## Articolul 14. Desfăşurarea consultărilor interguvernamentale
+   line 484  art.15
+      old: ## Articolul 15. Prezentarea acordului de mediu
+      new: ## Articolul 15. Prezentarea acordului de mediu părții afectate
+   line 504  art.17
+      old: ## Articolul 17. Prezentarea și diseminarea raportului
+      new: ## Articolul 17. Prezentarea și diseminarea raportului privind evaluarea impactului asupra mediului
+   line 526  art.24
+      old: ## Articolul 24. Informarea privind aprobarea
+      new: ## Articolul 24. Informarea privind aprobarea de dezvoltare a activității planificate
+   line 533  art.25
+      old: ## Articolul 25. Răspunderea iniţiatorului şi a experților
+      new: ## Articolul 25. Răspunderea iniţiatorului şi a experților implicați la elaborarea raportului privind evaluarea impactului asupra mediului
+
+TOTAL: 21 heading(s) across 1 file(s) fixed
