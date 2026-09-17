@@ -1466,3 +1466,30 @@
   97), `_meta/inforce/` (25 de dispoziții noi amânate), `_meta/hcc/` (neschimbat — cele două decizii
   rămân neatribuite, nu marcate în text), blocul de acoperire din `CLAUDE.md`. Validator: 0 erori,
   2 avertismente (neschimbate, pre-existente).
+
+## [2026-09-17] ingest | L-325-2013, evaluarea integrității instituționale — al șaptelea act, coada rezolvată în aceeași sesiune
+
+- **Aflat:** ales dintre trei candidați legați la 9 acte citatoare, pentru continuitatea tematică
+  cu ciorchinele de integritate deja în corpus (`L-132-2016`, `L-133-2016`): `COD-325-2022` (Codul
+  electoral, mare, generic) și `L-139-2010` (**ABROGAT**, „dreptul de autor", ar fi cerut găsirea
+  succesoarei) lăsați deoparte. Consolidare 2024-03-29, trecută. HCC37/2021 lovește direct în text
+  art. 17 alin. (2)-(4); HCC7/2015 doar în fișă, fără articol. Toate cele 9 acte citatoare (22 de
+  muchii) verificate articol cu articol: 21 confirmă aceeași obligație (art. 7 alin. (2) lit. a) —
+  „să nu admită manifestări de corupție" — condiție de excludere de la opt tipuri de funcții
+  publice, inclusiv membrii CA ai CNPF, art. 12 din `L-192-1998`, singura cu relevanță directă
+  pentru perimetrul CNPF). **Anomalie găsită: `L-548-1995` (legea BNM), de două ori (art. 23 alin.
+  (7), art. 34 alin. (6)), citează „art. 6 alin. (2) lit. a)" — dar art. 6 alin. (2) e o frază
+  descriptivă fără nicio literă a) și fără nicio obligație individuală. Obligația reală descrisă de
+  BNM se potrivește cuvânt cu cuvânt cu art. 7 alin. (2) lit. a), articolul folosit de toate
+  celelalte șapte acte. Cel mai probabil o eroare de trimitere în textul legii BNM, nu o
+  renumerotare (legea de față n-are istoric de renumerotare, 28 de articole fără lacune).**
+- **Decis:** ingerată cu `ingest_business_law.py` (doc_id 142068). 14 titluri rupte corectate cu
+  `fix_wrapped_titles.py`. Anomalia din `L-548-1995` consemnată, nu corectată (nu se rescrie textul
+  altei legi); marcată `[de verificat cu Eugen]` în ambele pagini de entitate implicate.
+- **Unde:** `raw/papers/moldova-legal/L-325-2013.md` (nou, 28 ancore); `entities/L-325-2013.md`
+  (nou); `entities/L-192-1998.md`, `entities/L-548-1995.md`, `index.md`, `raw/papers/moldova-legal/
+  _manifest.md` (secțiunea AD) actualizate. `_meta/imports/moldova-legal/legis-md-business/
+  showdetails-142068.html` păstrat ca sursă de audit. Registrele regenerate: `_meta/graph/
+  citation-graph.md/.json` (99 acte, de la 98), `_meta/hcc/` (HCC37/2021 nou, 3 marcaje în text),
+  blocul de acoperire din `CLAUDE.md`. Validator: 0 erori, 2 avertismente (neschimbate,
+  pre-existente).

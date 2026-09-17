@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-17 | Total pages: 140
+> Last updated: 2026-09-17 | Total pages: 141
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -91,6 +91,7 @@
 - [[L-250-2017]] — Legea nr. 250/2017 privind supravegherea suplimentară a conglomeratelor financiare: BNM și CNPF sub același regim; 23 de ancore, nemodificată din 2018.
 - [[L-284-2004]] — Legea nr. 284/2004 privind serviciile societății informaționale, fosta Lege a comerțului electronic: testul de direcționare teritorială din art. 3 și răspunderea intermediarilor din arts. 15–17; transpune Directiva 2000/31/CE.
 - [[L-308-2017]] — Legea nr. 308/2017 privind AML/CFT
+- [[L-325-2013]] — Legea privind evaluarea integrității instituționale: regimul testării integrității profesionale a agenților publici (art. 7 alin. (2) lit. a), obligația a cărei încălcare devine motiv de excludere de la funcții publice în opt acte din corpus, inclusiv CNPF art. 12); art. 17 alin. (2)-(4) lovite de HCC37/2021; 28 de ancore, consolidare 2024-03-29.
 - [[L-325-2025]] — Legea achizițiilor publice din 2025: 91 de ancore, în vigoare de la 01.01.2027, dată viitoare, actul întreg; abrogă Legea 131/2015 la acea dată; pragurile din art. 1; art. 91 lasă procedurile în curs sub legea de la inițiere.
 - [[L-436-2006]] — Legea administrației publice locale: 98 de ancore, consolidare 2026-06-26; nivelurile întâi, al doilea și special (Găgăuzia), principiile din art. 3 reiau art. 109 din Constituție.
 - [[L-514-1995]] — Legea organizării judecătorești: 60 de ancore, consolidare 2026-08-28; lacunele 29–34, 41–42, 51–53 sunt capitole abrogate cu stub în text.

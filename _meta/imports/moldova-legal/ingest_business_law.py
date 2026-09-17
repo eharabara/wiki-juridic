@@ -626,6 +626,25 @@ DOCS = {
     'L-181-2014': {'doc_id': '153046',
                    'title': 'Legea nr. 181/2014 privind finantele publice si responsabilitatea '
                             'bugetar-fiscala'},
+
+    # 2026-09-17, al saptelea act din coada de ingerare. Trei candidati legati la coloana a treia
+    # (9 acte citatoare): COD-325-2022 (Codul electoral, mare, generic), L-139-2010 (ABROGAT -
+    # "privind dreptul de autor si drepturile conexe", verificat pe rindul de cautare inainte de a
+    # alege, respins pentru ca necesita gasirea succesoarei) si aceasta lege, aleasa pentru
+    # continuitatea tematica cu ciorchinele de integritate/anticoruptie deja in corpus
+    # (L-132-2016, L-133-2016): legea de evaluare a integritatii institutionale (testarea
+    # profesionala a agentilor publici, CNA). Gasita prin NR. DOCUMENTULUI = 325 (fara an), rindul
+    # LP325/2013, 23-12-2013, Modificat, "privind evaluarea integritatii institutionale*". doc_id
+    # 142068.
+    # Verificat pe HTML inainte de rulare: 28 de aparitii "Articolul N", toate unice, fara
+    # duplicate, fara lacuna, 10 <sup>, fara CUPRINS. Consolidare din "LP11 din 01.02.24, in
+    # vigoare 29.03.24" - trecuta, deci nu viitoare.
+    # DOUA decizii HCC in istoric: HCC37 din 07.12.21 (marcata DIRECT in corp, loveste art. 17
+    # al.(2), (3) si (4) - testarea integritatii profesionale) si HCC7 din 16.04.15 (doar in
+    # istoricul fisei, fara marcaj propriu in corp gasit la verificarea prealabila - categoria
+    # "fara articol").
+    'L-325-2013': {'doc_id': '142068',
+                   'title': 'Legea nr. 325/2013 privind evaluarea integritatii institutionale'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

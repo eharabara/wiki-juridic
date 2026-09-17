@@ -2298,6 +2298,79 @@
    ]
   },
   {
+   "instrument": "L-325-2013",
+   "file": "raw/papers/moldova-legal/L-325-2013.md",
+   "doc_id": "142068",
+   "consolidation_date": "2024-03-29",
+   "markers": [
+    {
+     "article": "17",
+     "subunit": "al.(2)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC37/2021-12-07"
+     ],
+     "official_gazette": "MO315-324/24.12.21 art.225",
+     "marker": "Art.17 al.(2) declarat neconstituțional prin HCC37 din 07.12.21, MO315-324/24.12.21 art.225; în vigoare 07.12.21",
+     "line": 301
+    },
+    {
+     "article": "17",
+     "subunit": "al.(3)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC37/2021-12-07"
+     ],
+     "official_gazette": "MO315-324/24.12.21 art.225",
+     "marker": "Art.17 al.(3) declarat neconstituțional prin HCC37 din 07.12.21, MO315-324/24.12.21 art.225; în vigoare 07.12.21",
+     "line": 303
+    },
+    {
+     "article": "17",
+     "subunit": "al.(4)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC37/2021-12-07"
+     ],
+     "official_gazette": "MO315-324/24.12.21 art.225",
+     "marker": "Art.17 al.(4) declarat neconstituțional prin HCC37 din 07.12.21, MO315-324/24.12.21 art.225; în vigoare 07.12.21",
+     "line": 305
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC37/2021-12-07",
+     "line": 56,
+     "text": "HCC37 din 07.12.21, MO315-324/24.12.21 art.225; în vigoare 07.12.21"
+    },
+    {
+     "hcc": "HCC7/2015-04-16",
+     "line": 62,
+     "text": "HCC7 din 16.04.15, MO115-123/15.05.15 art.11; în vigoare 16.04.15 |"
+    },
+    {
+     "hcc": "HCC7/2015-04-16",
+     "line": 82,
+     "text": "HCC7 din 16.04.15, MO115-123/15.05.15, art.11."
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC7/2015-04-16",
+     "line": 62,
+     "text": "HCC7 din 16.04.15, MO115-123/15.05.15 art.11; în vigoare 16.04.15 |"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC37/2021-12-07",
+    "HCC7/2015-04-16"
+   ]
+  },
+  {
    "instrument": "L-514-1995",
    "file": "raw/papers/moldova-legal/L-514-1995.md",
    "doc_id": "156079",
@@ -2573,10 +2646,10 @@
   }
  ],
  "counts": {
-  "acts": 23,
-  "distinct_hcc": 79,
-  "markers_in_text": 17,
+  "acts": 24,
+  "distinct_hcc": 80,
+  "markers_in_text": 20,
   "recovered": 95,
-  "unattributed": 8
+  "unattributed": 9
  }
 }

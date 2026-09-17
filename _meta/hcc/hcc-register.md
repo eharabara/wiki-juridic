@@ -2,7 +2,7 @@
 
 Generat 2026-09-17 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
 
-23 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 79 hotariri distincte. Articolul atins este cunoscut pentru 17 marcaje inca prezente in text si 95 dispozitii recuperate din istoricul versiunilor; **8 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
+24 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 80 hotariri distincte. Articolul atins este cunoscut pentru 20 marcaje inca prezente in text si 95 dispozitii recuperate din istoricul versiunilor; **9 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
 
 Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiunea hotaririi si a intinderii anularii. Un act din tabelul „fara articol atribuit” se citeaza cu avertismentul ca poarta hotariri ale Curtii neverificate la nivel de articol.
 
@@ -29,6 +29,7 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-181-2014` | 153046 | 2027-01-01 | 2 | 0 | 2 |
 | `L-213-2023` | 152741 | 2026-01-23 | 1 | 0 | 1 |
 | `L-24-2008` | 110184 | 2018-11-08 | 1 | 0 | 1 |
+| `L-325-2013` | 142068 | 2024-03-29 | 2 | 1 | 1 |
 | `L-514-1995` | 156079 | 2026-08-28 | 4 | 4 | 0 |
 | `L-64-2010` | 141515 | 2024-01-23 | 1 | 1 | 0 |
 | `L-845-1992` | 155963 | 2027-01-01 | 3 | 3 | 0 |
@@ -140,6 +141,9 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-149-2012` | 32 |  | omisiune legislativa („mecanism pentru recuperarea cheltuielilor efectuate în avans şi pentru încasarea remuneraț…”) | HCC8/2022-04-05 | MO106-114/15.04.22 art.57 | versiunea 130929 @ 2022-04-05, verificat 2026-09-15 |
 | `L-149-2012` | 84 |  | omisiune legislativa („durata maximă pentru care poate fi dispusă obligația de a nu părăsi teritoriul țării sau l…”) | HCC21/2020-08-04 | MO205-211/14.08.20 art.110 | versiunea 123197 @ 2020-08-04, verificat 2026-09-15 |
 | `L-158-2008` | 53 | lit.c) | subunitate | HCC6/2016-03-03 | MO123-127/06.05.16 art.37 | versiunea 92576 @ 2016-03-03, verificat 2026-09-15 |
+| `L-325-2013` | 17 | al.(2) | subunitate | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.301 |
+| `L-325-2013` | 17 | al.(3) | subunitate | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.303 |
+| `L-325-2013` | 17 | al.(4) | subunitate | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.305 |
 | `L-514-1995` | 15^1 | al.(5) | subunitate | HCC7/2020-03-24 | MO115-117/15.05.20 art.51 | marcaj in text, l.233 |
 | `L-514-1995` | 23^2 | al.(4) | revigorare | HCC17/2021-06-10 | MO153-157/25.06.21 art.99 | versiunea 127868 @ 2021-06-10, verificat 2026-09-15 |
 | `L-514-1995` | 22 | al.(1) teza I | revigorare („Mijloacele financiare necesare bunei funcționări a instanțelor judecătorești sunt aprobate…”) | HCC27/2019-10-31 | MO352-359/29.11.19 art.210 | versiunea 119115 @ 2019-10-31, verificat 2026-09-15 |
@@ -165,4 +169,5 @@ Marcajul s-a pierdut la o reimprospatare anterioara a consolidarii. Articolul se
 | `L-181-2014` | HCC32/2016-11-17 | l.113: HCC32 din 17.11.16, MO40-49/10.02.17 art.9 |
 | `L-213-2023` | HCC20/2024-09-26 | l.51: | Data modificării/datele modificării şi actele normative care modifică | LP335 din 29.12.25, MO55-58/23.01.26 art.2; în |
 | `L-24-2008` | HCC3/2012-02-09 | l.46: HCC3 din 09.02.12, MO38-41/24.02.12 art.7; |
+| `L-325-2013` | HCC7/2015-04-16 | l.62: HCC7 din 16.04.15, MO115-123/15.05.15 art.11; în vigoare 16.04.15 | |
 

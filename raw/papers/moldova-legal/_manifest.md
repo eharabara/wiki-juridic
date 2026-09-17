@@ -2217,6 +2217,46 @@ BNM/Ministerul Finanțelor — secțiune nouă adăugată în [[L-160-2023]].
 
 Pagină de entitate: [[L-181-2014]]; [[L-160-2023]] actualizată cu legătura.
 
+## AD. Evaluarea integrității instituționale — L-325/2013 (ingerată 2026-09-17)
+
+Al șaptelea act din coada de ingerare, ales dintre trei candidați legați la coloana a treia (9
+acte citatoare): `COD-325-2022` (Codul electoral, mare, generic) și `L-139-2010` (**ABROGAT**,
+„privind dreptul de autor şi drepturile conexe", verificat pe rândul de căutare și respins fiindcă
+ar fi cerut găsirea succesoarei) au fost lăsați deoparte în favoarea legii de față, pentru
+continuitatea tematică cu ciorchinele de integritate/anticorupție deja în corpus (`L-132-2016`,
+`L-133-2016`). Găsită prin NR. DOCUMENTULUI = 325 (fără an), rândul `LP325/2013`, 23-12-2013,
+Modificat, „privind evaluarea integrității instituționale*", doc_id 142068.
+
+- **`L-325-2013`** — 28 de ancore, 1-28 fără nicio lacună. 10 `<sup>`, fără CUPRINS. 14 titluri
+  rupte pe două rânduri, corectate cu `fix_wrapped_titles.py`. Consolidare **2024-03-29** (LP11 din
+  01.02.24) — trecută, nu viitoare.
+- **HCC37 din 07.12.2021, marcată direct în corp**: lovește art. 17 alin. (2), (3) și (4) (condiții
+  de reluare/contestare a testării). **HCC7 din 16.04.2015**, doar în istoricul fișei, fără marcaj
+  propriu în corp — categoria „fără articol".
+
+**Cele 9 acte citatoare (22 de muchii), verificate articol cu articol în aceeași sesiune.** 21
+confirmă aceeași obligație, cu numărul de articol corect (**art. 7 alin. (2) lit. a)** — „să nu
+admită manifestări de corupție" — condiție de inexistență a unui rezultat negativ recent la testul
+de integritate profesională, pentru numirea/menținerea în funcție): `L-132-2016` (ANI, patru
+citări), `L-158-2008` (funcția publică, patru citări), `L-183-2012` (Consiliul Concurenței, trei
+citări), `L-192-1998` (**art. 12, condiție de numire a membrilor CA ai CNPF — singura citare cu
+relevanță directă pentru perimetrul CNPF**), `L-195-2024` (protecția datelor, două citări),
+`L-20-2026` (ANSC), `COD-154-2003` (Codul muncii, două citări) și `COD-225-2003` (procedura
+judiciară de autorizare/apreciere a testării, trei citări, trimițând la art. 12 pentru competența
+teritorială).
+
+**O anomalie găsită: `L-548-1995` (legea BNM), de două ori, citează articolul greșit.** Art. 23
+alin. (7) și art. 34 alin. (6) citează „art. 6 alin. (2) lit. a)" din legea de față pentru aceeași
+condiție de integritate profesională — dar art. 6 alin. (2) e o frază pur descriptivă, fără nicio
+literă a) și fără nicio obligație individuală de „respectat". Obligația reală, „să nu admită
+manifestări de corupție", stă la art. 7 alin. (2) lit. a), exact articolul pe care toate celelalte
+șapte acte îl citează pentru identic același text. Consemnat ca atare (nu corectat, legea de față
+nu se rescrie) în [[L-325-2013]] și [[L-548-1995]], cu recomandarea de verificat cu Eugen înainte
+de a se baza pe trimiterea din legea BNM într-o speță concretă.
+
+Pagini de entitate: [[L-325-2013]] (nouă); [[L-192-1998]] și [[L-548-1995]] actualizate cu
+legăturile și, pentru a doua, cu anomalia găsită.
+
 ## D. Artefacte metodologice create
 
 | Artefact | Tip | Rol |
