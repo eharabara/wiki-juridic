@@ -2139,13 +2139,43 @@ stabilește atribuțiile persoanelor responsabile de colectarea declarațiilor e
 subiect; art. 9 alin. (3) scoate declarațiile lui de sub regimul public. Legea de față este sursa
 care decide cine intră în acest regim de excepție, nu `L-133/2016` însăși.
 
-**Restul cozii pentru acest act, neverificat articol cu articol.** `COD-122-2003` (art. 6, 57^2,
-138^10), `COD-985-2002` (art. 121, divulgarea secretului de stat), `L-1260-2002` (art. 39),
-`L-131-2015` (art. 30, 78), `L-160-2026` și `L-195-2024` (art. 2), `L-192-1998` (art. 20),
-`L-20-2026` (art. 7), `L-325-2025` (art. 50, 55, 81), `UA-STATUT-2011` (art. 43^1). Lanțuri de
-urmărit separat dacă un dosar concret o cere, nu afirmații confirmate în această sesiune.
+**Restul cozii, rezolvat aceeași zi (vezi mai jos).** `COD-122-2003` (art. 6, 57^2, 138^10),
+`COD-985-2002` (art. 121, divulgarea secretului de stat), `L-1260-2002` (art. 39), `L-131-2015`
+(art. 30, 78), `L-160-2026` și `L-195-2024` (art. 2), `L-192-1998` (art. 20), `L-20-2026` (art. 7),
+`L-325-2025` (art. 50, 55, 81), `UA-STATUT-2011` (art. 43^1).
 
 Pagină de entitate: [[L-245-2008]]; [[L-133-2016]] actualizată cu legătura în ambele sensuri.
+
+### AB.1. Restul cozii, verificat articol cu articol (2026-09-17, aceeași zi)
+
+Toate cele 20 de muchii ale grafului spre `L-245-2008` deschise una câte una, textul citant
+comparat cu titlul articolului din legea de față. **Rezultat curat: nicio problemă, nicio corecție
+de graf.** Toate cele 20 sunt trimiteri generice „conform Legii nr. 245/2008", nu la un articol
+anume — de aceea câmpul `articles` al fiecărei muchii era gol în graf, nu dintr-un defect de
+extracție.
+
+- `COD-122-2003`: art. 6 (definiții — „informație secretizată"), art. 57^2 alin. (3) (identitatea
+  ofițerului de investigații acoperit), art. 138^10 „Investigația sub acoperire" alin. (15)
+  (identitatea reală a investigatorului), art. 213 „Apărarea secretului de stat în procesul penal"
+  (articol dedicat integral).
+- `COD-985-2002`: art. 121 „Secretul de stat" — articolul întreg e definiția prin trimitere aici;
+  cea mai directă citare din tot lotul.
+- `L-1260-2002` art. 39 lit. b^1) și `UA-STATUT-2011` art. 43^1 lit. c) — aceeași clauză în ambele:
+  Consiliul Uniunii Avocaților asigură accesul avocaților la secretul de stat.
+- `L-131-2015` (abrogată de la 01.01.2027) art. 30 alin. (5) și art. 78 alin. (2), reluate identic
+  în succesoare `L-325-2025` art. 50, art. 55 și art. 81 — clauza standard de excepție de la
+  publicare pentru secret comercial/de stat în achizițiile publice.
+- `L-20-2026` art. 7 alin. (2) lit. c) — transparența ANSC nu se întinde la informații clasificate.
+- `L-160-2026` art. 2 alin. (3) și `L-195-2024` art. 2 alin. (2) lit. a) — aceeași excludere din
+  domeniul de aplicare pentru date atribuite la secret de stat.
+- **`L-192-1998` art. 20 alin. (8) lit. c) — singura citare cu relevanță directă pentru perimetrul
+  CNPF/BNM**: hotărârile Consiliului de administrație al CNPF care conțin secret de stat nu se
+  publică pe site-ul oficial. Adăugată o secțiune nouă în [[L-192-1998]] despre regimul de
+  publicare al art. 20 (până acum neconsemnat pe acea pagină) și corectată o etichetare greșită
+  moștenită din prima trecere („L-192-1998, protecția consumatorului" — legea de față e legea-cadru
+  a CNPF, nu legea consumatorului, care e `L-105-2003`).
+
+Pagină de entitate [[L-245-2008]] rescrisă cu aceste constatări; [[L-192-1998]] actualizată.
 
 ## D. Artefacte metodologice create
 

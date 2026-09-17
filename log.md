@@ -1411,3 +1411,30 @@
   nicio decizie HCC), `_meta/inforce/` (neschimbat), `_meta/graph/citation-graph.md/.json` (97
   acte, de la 96), blocul de acoperire din `CLAUDE.md`. Validator: 0 erori, 2 avertismente
   (neschimbate, pre-existente).
+
+## [2026-09-17] update | L-245-2008, restul cozii de citare — cele 20 de muchii verificate articol cu articol
+
+- **Aflat:** Eugen a cerut rezolvarea listei de citări rămase neverificate la ingerarea de mai sus.
+  Toate cele 20 de muchii ale grafului spre `L-245-2008` (`_meta/graph/citation-graph.json`,
+  regenerat cu actul acum intern, nu `EXT:`) deschise una câte una, cu linia citantă comparată cu
+  titlul articolului din legea de față. **Rezultat curat, fără nicio corecție de graf:** toate 20
+  sunt trimiteri generice „conform Legii nr. 245/2008 cu privire la secretul de stat", niciuna la
+  un articol anume — explică de ce câmpul `articles` al fiecărei muchii era gol în graf, nu un
+  defect de extracție. `COD-122-2003` (4 citări: art. 6, 57^2, 138^10, 213 — protecția identității
+  agenților acoperiți), `COD-985-2002` (art. 121 „Secretul de stat", definiția întreagă prin
+  trimitere aici — cea mai directă citare din lot), `L-1260-2002` și `UA-STATUT-2011` (aceeași
+  clauză, accesul avocaților la secretul de stat), `L-131-2015` (abrogată) și succesoarea ei
+  `L-325-2025` (clauza standard de excepție de la publicare în achiziții publice, reluată de 5 ori
+  în total), `L-20-2026` (transparența ANSC), `L-160-2026` și `L-195-2024` (excludere din domeniul
+  protecției datelor). Singura cu relevanță directă pentru perimetrul CNPF/BNM: `L-192-1998` art.
+  20 alin. (8) lit. c) — hotărârile CA ale CNPF cu secret de stat nu se publică. Găsită și o
+  etichetare greșită proprie, din prima trecere: `entities/L-245-2008.md` numea `L-192-1998`
+  „protecția consumatorului"; e legea-cadru a CNPF, nu legea consumatorului (`L-105-2003`).
+- **Decis:** `entities/L-245-2008.md` rescrisă cu constatările articol cu articol, în locul listei
+  „neverificat"; frontmatter `sources` extins cu cele 10 fișiere raw citate. `entities/L-192-1998.md`
+  primește o secțiune nouă despre regimul de publicare al art. 20 (până acum neconsemnat pe acea
+  pagină), cu legătură către `L-245-2008`. Nicio corecție necesară în `build_citation_graph.py`:
+  absența articolelor din `articles` era corectă, nu un bug de rezolvare a țintei.
+- **Unde:** `entities/L-245-2008.md`, `entities/L-192-1998.md`, `raw/papers/moldova-legal/
+  _manifest.md` (secțiunea AB.1, nouă) actualizate. Nicio schimbare sub `raw/`, niciun registru
+  generat afectat. Validator: 0 erori, 2 avertismente (neschimbate, pre-existente).
