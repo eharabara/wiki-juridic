@@ -2177,6 +2177,46 @@ extracție.
 
 Pagină de entitate [[L-245-2008]] rescrisă cu aceste constatări; [[L-192-1998]] actualizată.
 
+## AC. Finanțele publice și responsabilitatea bugetar-fiscală — L-181/2014 (ingerată 2026-09-17)
+
+Al șaselea act din coada de ingerare a grafului de citare, ales strict după coloana a treia: 14
+acte deținute citatoare, fiecare o singură dată — cel mai mare număr văzut pînă acum în această
+coadă (mai mare decât `COD-325-2022` și `L-325-2013`, cu câte 9). Găsită prin căutarea proprie a
+site-ului, câmpul „NR. DOCUMENTULUI" = „181" (fără an), rândul `LP181/2014`, 25-07-2014, Modificat,
+„finanțelor publice și responsabilității bugetar-fiscale", doc_id 153046.
+
+- **`L-181-2014`** — 89 de ancore (84 de bază, plus art. 21^1, 45^1, 45^2, 45^3, 51^1). **Lacună de
+  numerotare: art. 49 lipsește** (48 → 50), fără niciun marcaj „abrogat" în această consolidare —
+  neinvestigată în istoricul legis.md la această ingerare. 34 `<sup>`, fără CUPRINS. 28 de titluri
+  rupte pe două rânduri, corectate cu `fix_wrapped_titles.py` (o excepție rămasă: art. 43, titlul
+  „Veniturile colectate de autorităţile" / „/instituţiile Bugetare" — continuarea începe cu „/",
+  formă pe care euristica de completare nu o prinde; titlul corect e „Veniturile colectate de
+  autorităţile/instituţiile bugetare", necorectat în text).
+
+**Consolidare viitoare, cu o complicație proprie.** Singurul rând `MODIFICAT` vizibil în capul
+paginii e `LP327 din 29.12.25, în vigoare 01.01.27`, dar fișa arată ACELAȘI `LP327` cu **încă două
+date de intrare în vigoare, 31.12.25** — deja trecute față de azi — pentru alte dispoziții ale
+aceleiași legi modificatoare, fără marcaj propriu în corpul acestei consolidări (mecanismul 1 din
+`CLAUDE.md` punctul 3: „marcajul se pierde la reîmprospătare", aici înăuntrul aceleiași legi
+modificatoare, nu între două reîmprospătări succesive). Corpul poartă 25 de marcaje, toate cu data
+01.01.27: art. 1 alin. (2), art. 2, art. 3 (de trei ori), art. 20 alin. (1) lit. f)/k)/k^1), art.
+21 alin. (1) lit. a), art. 43 alin. (2)/(2^1), art. 62 alin. (9), art. 75 lit. a), art. 76 alin.
+(1)-(5). **Două decizii HCC în istoricul fișei** (HCC32 din 17.11.2016, HCC10 din 16.03.2017),
+niciuna marcată în corpul textului — categoria „fără articol", ca la `CONST-1994`, `L-213-2023` și
+`L-132-2016`.
+
+**Cele 14 acte citatoare, verificate articol cu articol în aceeași sesiune — toate confirmate,
+fără nicio corecție de graf.** 13 sînt trimiteri generice la „principiile, regulile și
+procedurile" legii de față pentru bugetul propriu al unei autorități publice autonome (`COD-434-2023`,
+`COD-443-2004`, `L-100-2017`, `L-132-2016`, `L-133-2011`, `L-183-2012`, `L-195-2024`, `L-20-2026`,
+`L-235-2006`, `L-325-2025`, `L-436-2006`, `L-514-1995`, `L-160-2023`); 2 citează expres **art. 43**
+„Veniturile colectate de autorităţile/instituţiile bugetare" — `COD-225-2003` art. 84 alin. (2) și
+`L-213-2023` art. 6 alin. (2), amândouă pentru gestionarea taxei de timbru. Singura cu relevanță
+directă pentru perimetrul BNM: `L-160-2023` art. 17 alin. (1) lit. q), împrumuturile FGDSB de la
+BNM/Ministerul Finanțelor — secțiune nouă adăugată în [[L-160-2023]].
+
+Pagină de entitate: [[L-181-2014]]; [[L-160-2023]] actualizată cu legătura.
+
 ## D. Artefacte metodologice create
 
 | Artefact | Tip | Rol |

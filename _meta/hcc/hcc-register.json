@@ -2207,6 +2207,42 @@
    ]
   },
   {
+   "instrument": "L-181-2014",
+   "file": "raw/papers/moldova-legal/L-181-2014.md",
+   "doc_id": "153046",
+   "consolidation_date": "2027-01-01",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC10/2017-03-16",
+     "line": 112,
+     "text": "HCC10 din 16.03.17, MO119-126/14.04.17 art.48"
+    },
+    {
+     "hcc": "HCC32/2016-11-17",
+     "line": 113,
+     "text": "HCC32 din 17.11.16, MO40-49/10.02.17 art.9"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC10/2017-03-16",
+     "line": 112,
+     "text": "HCC10 din 16.03.17, MO119-126/14.04.17 art.48"
+    },
+    {
+     "hcc": "HCC32/2016-11-17",
+     "line": 113,
+     "text": "HCC32 din 17.11.16, MO40-49/10.02.17 art.9"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC10/2017-03-16",
+    "HCC32/2016-11-17"
+   ]
+  },
+  {
    "instrument": "L-213-2023",
    "file": "raw/papers/moldova-legal/L-213-2023.md",
    "doc_id": "152741",
@@ -2537,10 +2573,10 @@
   }
  ],
  "counts": {
-  "acts": 22,
-  "distinct_hcc": 77,
+  "acts": 23,
+  "distinct_hcc": 79,
   "markers_in_text": 17,
   "recovered": 95,
-  "unattributed": 6
+  "unattributed": 8
  }
 }

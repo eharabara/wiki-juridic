@@ -1,6 +1,6 @@
 ---
 title: Registrul dispozitiilor care nu sint inca in vigoare
-generated: '2026-09-17T22:03:37'
+generated: '2026-09-17T22:21:35'
 as_of: '2026-09-17'
 type: summary
 tags: [moldova, legal-source, methodology, summary]
@@ -12,7 +12,7 @@ generated_by: _meta/inforce/build_inforce_register.py
 
 **Fisier generat. Nu se editeaza manual.** Se reface rulind scriptul din frontmatter.
 
-Stare la 2026-09-17. 432 fisiere scanate. 58 dispozitii afectate in 12 act(e). 13 consolidare/consolidari cu data in viitor. 6 consolidare/consolidari viitoare neingerate, 10 dispozitii.
+Stare la 2026-09-17. 433 fisiere scanate. 70 dispozitii afectate in 13 act(e). 14 consolidare/consolidari cu data in viitor. 6 consolidare/consolidari viitoare neingerate, 10 dispozitii.
 
 ## Regula de citare
 
@@ -75,6 +75,18 @@ Inainte de a cita un articol, verifica daca apare in tabelul de mai jos. Daca ap
 | L-1543-1998 | 15^6 | introducere | 2027-01-01 | LP176 din 03.07.25 | dispozitia nu se aplica |
 | L-1543-1998 | 15^7 | introducere | 2027-01-01 | LP176 din 03.07.25 | dispozitia nu se aplica |
 | L-1543-1998 | 15^8 | introducere | 2027-01-01 | LP176 din 03.07.25 | dispozitia nu se aplica |
+| L-181-2014 | 1 | modificare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
+| L-181-2014 | 2 | modificare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
+| L-181-2014 | 3 | reformulare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
+| L-181-2014 | 20 | reformulare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
+| L-181-2014 | 21 | reformulare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
+| L-181-2014 | 24 | reformulare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
+| L-181-2014 | 43 | reformulare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
+| L-181-2014 | 45^3 | introducere | 2027-01-01 | LP327 din 29.12.25 | dispozitia nu se aplica |
+| L-181-2014 | 62 | modificare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
+| L-181-2014 | 75 lit.a) | modificare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
+| L-181-2014 | 75 | reformulare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
+| L-181-2014 | 76 | modificare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
 | L-845-1992 | 36^1 pct.4, lit.l) | introducere | 2027-01-01 | LP171 din 30.07.26 | dispozitia nu se aplica |
 | L-171-2012 | 38 | abrogare | 2027-06-01 | LP162 din 30.07.26 | inca in vigoare |
 | L-171-2012 | 141^1 | abrogare | 2027-06-01 | LP162 din 30.07.26 | inca in vigoare |
@@ -98,6 +110,7 @@ Fisierul incorporeaza modificari care nu au intrat in vigoare. Arhiva indicata e
 | L-133-2016 | 2027-01-01 | da | - | `-` |
 | L-1543-1998 | 2027-01-01 | da | - | `-` |
 | L-171-2012 | 2027-06-01 | da | 2021-01-01 | `_archive/raw/cnpf-legis-md-before-refresh-20260904-162713/L-171-2012.md` |
+| L-181-2014 | 2027-01-01 | da | - | `-` |
 | L-325-2025 | 2027-01-01 | da | - | `-` |
 | L-845-1992 | 2027-01-01 | da | - | `-` |
 
@@ -235,6 +248,30 @@ Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar
   - [Art.15^7 introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]
 - **L-1543-1998 art. 15^8**, `raw/papers/moldova-legal/L-1543-1998.md`, liniile [91, 572]
   - [Art.15^8 introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]
+- **L-181-2014 art. 1**, `raw/papers/moldova-legal/L-181-2014.md`, liniile [55, 144]
+  - [Art.1 al.(2) modificat prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
+- **L-181-2014 art. 2**, `raw/papers/moldova-legal/L-181-2014.md`, liniile [56, 148]
+  - [Art.2 modificat prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
+- **L-181-2014 art. 3**, `raw/papers/moldova-legal/L-181-2014.md`, liniile [57, 58, 59, 60, 159, 173, 181, 186]
+  - [Art.3 noțiunea în redacția LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
+- **L-181-2014 art. 20**, `raw/papers/moldova-legal/L-181-2014.md`, liniile [61, 62, 63, 324, 330, 332]
+  - [Art.20 al.(1), lit. f) în redacția LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
+- **L-181-2014 art. 21**, `raw/papers/moldova-legal/L-181-2014.md`, liniile [64, 65, 66, 67, 342, 349, 353, 356]
+  - [Art.21 al.(1), lit. a) în redacția LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
+- **L-181-2014 art. 24**, `raw/papers/moldova-legal/L-181-2014.md`, liniile [68, 417]
+  - [Art.24 al.(1), lit.g) în redacția LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
+- **L-181-2014 art. 43**, `raw/papers/moldova-legal/L-181-2014.md`, liniile [69, 70, 571, 573]
+  - [Art.43 al.(2) în redacția LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
+- **L-181-2014 art. 45^3**, `raw/papers/moldova-legal/L-181-2014.md`, liniile [616]
+  - [ Secțiunea 5^1 introdusă prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
+- **L-181-2014 art. 62**, `raw/papers/moldova-legal/L-181-2014.md`, liniile [72, 818]
+  - [Art.62 al.(9) modificat prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
+- **L-181-2014 art. 75 lit.a)**, `raw/papers/moldova-legal/L-181-2014.md`, liniile [73, 935]
+  - [Art.75 lit.a) modificată prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
+- **L-181-2014 art. 75**, `raw/papers/moldova-legal/L-181-2014.md`, liniile [79, 966]
+  - [Art.75 al.(3), lit.b), (în partea inspectării financiare a instituțiilor publice), în redacția LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
+- **L-181-2014 art. 76**, `raw/papers/moldova-legal/L-181-2014.md`, liniile [74, 75, 76, 77, 78, 941, 943, 945, 947, 949]
+  - [Art.76 al.(1) modificat prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
 - **L-845-1992 art. 36^1 pct.4, lit.l)**, `raw/papers/moldova-legal/L-845-1992.md`, liniile [60, 597]
   - [Art.36^1 pct.4, lit.l) introdusă prin LP171 din 30.07.26, MO386-389/21.08.26 art.412; în vigoare 01.01.27]
 - **L-171-2012 art. 38**, `raw/papers/cnpf/L-171-2012.md`, liniile [72, 964]

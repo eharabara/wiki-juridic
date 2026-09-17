@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-17 | Total pages: 139
+> Last updated: 2026-09-17 | Total pages: 140
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -65,6 +65,7 @@
 - [[L-171-2012]] — Legea nr. 171/2012 privind piața de capital
 - [[L-177-2025]] — Legea nr. 177/2025: interdicția opțiunilor binare și a marketingului de derivate cu levier; a introdus art. 4^1 în L-171-2012 și art. 245^13 în Codul penal.
 - [[L-178-2020]] — Legea nr. 178/2020 (legea de transfer al mandatului din 2023)
+- [[L-181-2014]] — Legea finanțelor publice și responsabilității bugetar-fiscale: legea-cadru a bugetului de stat, citată de 14 acte din corpus pentru propriul regim bugetar (art. 43, veniturile colectate de instituțiile bugetare); 89 de ancore, consolidare viitoare 2027-01-01, 25 de dispoziții amânate.
 - [[L-181-2023]] — Legea nr. 181/2023 privind serviciile de finanțare participativă (crowdfunding)
 - [[L-183-2012]] — Legea concurenței nr. 183/2012: acorduri, abuz de poziție dominantă, concurență neloială, concentrări și procedura Consiliului Concurenței; competența lui pe publicitate se oprește la drepturile întreprinderilor.
 - [[L-183-2016]] — Legea nr. 183/2016 cu privire la caracterul definitiv al decontării în sistemele de plăți și de decontare a instrumentelor financiare: BNM desemnează sistemele (art. 13); transpune direct art. 1-10 din Directiva 98/26/CE (SFD), declarat expres la art. 16; 17 ancore, consolidare 2023-10-21.

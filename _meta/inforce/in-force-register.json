@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-17T22:03:37",
+  "generated": "2026-09-17T22:21:35",
   "as_of": "2026-09-17",
-  "files_scanned": 432,
+  "files_scanned": 433,
   "provisions_not_yet_in_force": [
     {
       "file": "raw/papers/moldova-legal/COD-122-2003.md",
@@ -933,6 +933,235 @@
       "occurrences": 2
     },
     {
+      "file": "raw/papers/moldova-legal/L-181-2014.md",
+      "instrument": "L-181-2014",
+      "article": "1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP327 din 29.12.25",
+      "official_gazette": "MO665/31.12.25 art.814",
+      "context": "[Art.1 al.(2) modificat prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]",
+      "lines": [
+        55,
+        144
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-181-2014.md",
+      "instrument": "L-181-2014",
+      "article": "2",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP327 din 29.12.25",
+      "official_gazette": "MO665/31.12.25 art.814",
+      "context": "[Art.2 modificat prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]",
+      "lines": [
+        56,
+        148
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-181-2014.md",
+      "instrument": "L-181-2014",
+      "article": "3",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP327 din 29.12.25",
+      "official_gazette": "MO665/31.12.25 art.814",
+      "context": "[Art.3 noțiunea în redacția LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]",
+      "lines": [
+        57,
+        58,
+        59,
+        60,
+        159,
+        173,
+        181,
+        186
+      ],
+      "occurrences": 8
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-181-2014.md",
+      "instrument": "L-181-2014",
+      "article": "20",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP327 din 29.12.25",
+      "official_gazette": "MO665/31.12.25 art.814",
+      "context": "[Art.20 al.(1), lit. f) în redacția LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]",
+      "lines": [
+        61,
+        62,
+        63,
+        324,
+        330,
+        332
+      ],
+      "occurrences": 6
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-181-2014.md",
+      "instrument": "L-181-2014",
+      "article": "21",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP327 din 29.12.25",
+      "official_gazette": "MO665/31.12.25 art.814",
+      "context": "[Art.21 al.(1), lit. a) în redacția LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]",
+      "lines": [
+        64,
+        65,
+        66,
+        67,
+        342,
+        349,
+        353,
+        356
+      ],
+      "occurrences": 8
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-181-2014.md",
+      "instrument": "L-181-2014",
+      "article": "24",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP327 din 29.12.25",
+      "official_gazette": "MO665/31.12.25 art.814",
+      "context": "[Art.24 al.(1), lit.g) în redacția LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]",
+      "lines": [
+        68,
+        417
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-181-2014.md",
+      "instrument": "L-181-2014",
+      "article": "43",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP327 din 29.12.25",
+      "official_gazette": "MO665/31.12.25 art.814",
+      "context": "[Art.43 al.(2) în redacția LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]",
+      "lines": [
+        69,
+        70,
+        571,
+        573
+      ],
+      "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-181-2014.md",
+      "instrument": "L-181-2014",
+      "article": "45^3",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP327 din 29.12.25",
+      "official_gazette": "MO665/31.12.25 art.814",
+      "context": "[ Secțiunea 5^1 introdusă prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]",
+      "lines": [
+        616
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-181-2014.md",
+      "instrument": "L-181-2014",
+      "article": "62",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP327 din 29.12.25",
+      "official_gazette": "MO665/31.12.25 art.814",
+      "context": "[Art.62 al.(9) modificat prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]",
+      "lines": [
+        72,
+        818
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-181-2014.md",
+      "instrument": "L-181-2014",
+      "article": "75",
+      "subunit": "lit.a)",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP327 din 29.12.25",
+      "official_gazette": "MO665/31.12.25 art.814",
+      "context": "[Art.75 lit.a) modificată prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]",
+      "lines": [
+        73,
+        935
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-181-2014.md",
+      "instrument": "L-181-2014",
+      "article": "75",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP327 din 29.12.25",
+      "official_gazette": "MO665/31.12.25 art.814",
+      "context": "[Art.75 al.(3), lit.b), (în partea inspectării financiare a instituțiilor publice), în redacția LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]",
+      "lines": [
+        79,
+        966
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-181-2014.md",
+      "instrument": "L-181-2014",
+      "article": "76",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP327 din 29.12.25",
+      "official_gazette": "MO665/31.12.25 art.814",
+      "context": "[Art.76 al.(1) modificat prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]",
+      "lines": [
+        74,
+        75,
+        76,
+        77,
+        78,
+        941,
+        943,
+        945,
+        947,
+        949
+      ],
+      "occurrences": 10
+    },
+    {
       "file": "raw/papers/moldova-legal/L-845-1992.md",
       "instrument": "L-845-1992",
       "article": "36^1",
@@ -1121,6 +1350,15 @@
       "flagged_in_frontmatter": true
     },
     {
+      "instrument": "L-181-2014",
+      "file": "raw/papers/moldova-legal/L-181-2014.md",
+      "consolidation_date": "2027-01-01",
+      "doc_id": "153046",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
       "instrument": "L-325-2025",
       "file": "raw/papers/moldova-legal/L-325-2025.md",
       "consolidation_date": "2027-01-01",
@@ -1290,9 +1528,9 @@
     }
   ],
   "counts": {
-    "provisions": 58,
-    "acts": 12,
-    "future_consolidations": 13,
+    "provisions": 70,
+    "acts": 13,
+    "future_consolidations": 14,
     "pending_consolidations": 6,
     "pending_provisions": 10
   }

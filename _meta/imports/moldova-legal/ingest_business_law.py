@@ -601,6 +601,31 @@ DOCS = {
     # un exponent aplatizat sau un articol citat inline in corp, nu titlu de sectiune).
     'L-245-2008': {'doc_id': '151410',
                    'title': 'Legea nr. 245/2008 cu privire la secretul de stat'},
+
+    # 2026-09-17, al saselea act din coada de ingerare, ales strict dupa coloana a treia
+    # (acte citatoare): 14 acte detinute o citeaza, fiecare o singura data - cel mai mare numar
+    # dintre toti candidatii vazuti pina acum in aceasta coada. Gasita prin NR. DOCUMENTULUI = 181
+    # (fara an), rindul LP181/2014, 25-07-2014, Modificat, "finantelor publice si responsabilitatii
+    # bugetar-fiscale" - legea-cadru a bugetului de stat. doc_id 153046.
+    # CONSOLIDARE VIITOARE, 2027-01-01: singurul rind MODIFICAT vizibil in capul paginii este
+    # LP327 din 29.12.25, in vigoare 01.01.27, dar fisa arata ACELASI LP327 cu DOUA date de
+    # intrare in vigoare suplimentare, 31.12.25 (trecute fata de azi) - alte dispozitii ale
+    # aceleiasi legi modificatoare, deja in vigoare, dar fara marcaj propriu in corpul acestei
+    # consolidari (mecanismul 1 din CLAUDE.md, "marcajul se pierde la reimprospatare": doar
+    # schimbarile CELEI MAI RECENTE date raman marcate). Corpul poarta 14 marcaje, toate cu
+    # aceeasi data 01.01.27: art. 1 al.(2), art. 2, art. 3 (de trei ori), art. 20 al.(1) lit.
+    # f)/k)/k^1, art. 21 al.(1) lit. a), art. 62 al.(9), art. 75 lit. a), art. 76 al.(1)-(5).
+    # DOUA decizii HCC in istoricul fisei (HCC32 din 17.11.16, HCC10 din 16.03.17), NICIUNA
+    # marcata in corpul textului - aceeasi categorie "fara articol" ca CONST-1994, L-213-2023
+    # si L-132-2016.
+    # Verificat pe HTML inainte de rulare: 89 de aparitii "Articolul N", toate unice (fara
+    # duplicate), 34 <sup>, fara CUPRINS. LACUNA DE NUMEROTARE: art. 49 lipseste (48 -> 50),
+    # fara niciun marcaj "abrogat" in aceasta consolidare - categoria "fara marcaj in aceasta
+    # consolidare" din CLAUDE.md punctul 3, neinvestigata mai departe in istoricul legis.md la
+    # aceasta ingerare.
+    'L-181-2014': {'doc_id': '153046',
+                   'title': 'Legea nr. 181/2014 privind finantele publice si responsabilitatea '
+                            'bugetar-fiscala'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

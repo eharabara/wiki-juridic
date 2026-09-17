@@ -1438,3 +1438,31 @@
 - **Unde:** `entities/L-245-2008.md`, `entities/L-192-1998.md`, `raw/papers/moldova-legal/
   _manifest.md` (secțiunea AB.1, nouă) actualizate. Nicio schimbare sub `raw/`, niciun registru
   generat afectat. Validator: 0 erori, 2 avertismente (neschimbate, pre-existente).
+
+## [2026-09-17] ingest | L-181-2014, finanțele publice și responsabilitatea bugetar-fiscală — al șaselea act din coada de ingerare
+
+- **Aflat:** ales strict după coloana a treia a cozii (acte deținute citatoare): 14, fiecare o
+  singură dată — cel mai mare număr văzut pînă acum, peste `COD-325-2022` și `L-325-2013` (câte 9).
+  Consolidare legis.md **viitoare, 2027-01-01** (LP327 din 29.12.25), cu o complicație proprie:
+  aceeași lege modificatoare poartă și DOUĂ date de intrare în vigoare deja trecute, 31.12.25,
+  pentru alte dispoziții, fără marcaj propriu în corpul acestei consolidări — mecanismul „marcajul
+  se pierde la reîmprospătare" din `CLAUDE.md`, aici înăuntrul aceleiași legi modificatoare. Corpul
+  poartă totuși 25 de marcaje curate, toate cu data 01.01.27. Lacună de numerotare la art. 49 (48
+  → 50), fără marcaj „abrogat" în această consolidare, neinvestigată în istoric. Două decizii HCC
+  în fișă (HCC32/2016, HCC10/2017), niciuna în corpul textului — categoria „fără articol". Toate
+  cele 14 acte citatoare verificate articol cu articol în aceeași sesiune: 13 sînt trimiteri
+  generice la principiile/regulile/procedurile legii de față pentru bugetul propriu al unei
+  autorități publice autonome; 2 (`COD-225-2003`, `L-213-2023`) citează expres art. 43 pentru
+  gestionarea taxei de timbru; singura cu relevanță directă pentru perimetrul BNM e `L-160-2023`
+  art. 17 alin. (1) lit. q), împrumuturile FGDSB de la BNM/Ministerul Finanțelor.
+- **Decis:** ingerată cu `ingest_business_law.py` (doc_id 153046). 28 de titluri rupte corectate cu
+  `fix_wrapped_titles.py` (o excepție rămasă: art. 43, continuarea începe cu „/", formă neprinsă de
+  euristică). Legătură adăugată în `entities/L-160-2023.md` pentru împrumuturile FGDSB. Restul celor
+  13 acte citatoare, generice, consemnate în pagina de entitate fără a fi editate individual.
+- **Unde:** `raw/papers/moldova-legal/L-181-2014.md` (nou, 89 ancore); `entities/L-181-2014.md`
+  (nou); `entities/L-160-2023.md`, `index.md`, `raw/papers/moldova-legal/_manifest.md` (secțiunea
+  AC) actualizate. `_meta/imports/moldova-legal/legis-md-business/showdetails-153046.html` păstrat
+  ca sursă de audit. Registrele regenerate: `_meta/graph/citation-graph.md/.json` (98 acte, de la
+  97), `_meta/inforce/` (25 de dispoziții noi amânate), `_meta/hcc/` (neschimbat — cele două decizii
+  rămân neatribuite, nu marcate în text), blocul de acoperire din `CLAUDE.md`. Validator: 0 erori,
+  2 avertismente (neschimbate, pre-existente).

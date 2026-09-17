@@ -2,7 +2,7 @@
 
 Generat 2026-09-17 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
 
-22 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 77 hotariri distincte. Articolul atins este cunoscut pentru 17 marcaje inca prezente in text si 95 dispozitii recuperate din istoricul versiunilor; **6 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
+23 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 79 hotariri distincte. Articolul atins este cunoscut pentru 17 marcaje inca prezente in text si 95 dispozitii recuperate din istoricul versiunilor; **8 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
 
 Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiunea hotaririi si a intinderii anularii. Un act din tabelul „fara articol atribuit” se citeaza cu avertismentul ca poarta hotariri ale Curtii neverificate la nivel de articol.
 
@@ -26,6 +26,7 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-135-2007` | 153674 | 2026-03-27 | 1 | 1 | 0 |
 | `L-149-2012` | 152605 | 2025-12-31 | 2 | 2 | 0 |
 | `L-158-2008` | 155439 | 2026-09-13 | 1 | 1 | 0 |
+| `L-181-2014` | 153046 | 2027-01-01 | 2 | 0 | 2 |
 | `L-213-2023` | 152741 | 2026-01-23 | 1 | 0 | 1 |
 | `L-24-2008` | 110184 | 2018-11-08 | 1 | 0 | 1 |
 | `L-514-1995` | 156079 | 2026-08-28 | 4 | 4 | 0 |
@@ -160,6 +161,8 @@ Marcajul s-a pierdut la o reimprospatare anterioara a consolidarii. Articolul se
 | `CONST-1994` | HCC7/2016-03-04 | l.58: HCC7 din 04.03.16, MO59-67/18.03.16 art.10 |
 | `L-132-2016` | HCC29/2021-09-21 | l.77: HCC29 din 21.09.21, MO256-260/22.10.21 art.184; în vigoare 21.09.21 |
 | `L-132-2016` | HCC6/2018-04-10 | l.85: HCC6 din 10.04.18, MO157-166/18.05.18 art.76 |
+| `L-181-2014` | HCC10/2017-03-16 | l.112: HCC10 din 16.03.17, MO119-126/14.04.17 art.48 |
+| `L-181-2014` | HCC32/2016-11-17 | l.113: HCC32 din 17.11.16, MO40-49/10.02.17 art.9 |
 | `L-213-2023` | HCC20/2024-09-26 | l.51: | Data modificării/datele modificării şi actele normative care modifică | LP335 din 29.12.25, MO55-58/23.01.26 art.2; în |
 | `L-24-2008` | HCC3/2012-02-09 | l.46: HCC3 din 09.02.12, MO38-41/24.02.12 art.7; |
 
