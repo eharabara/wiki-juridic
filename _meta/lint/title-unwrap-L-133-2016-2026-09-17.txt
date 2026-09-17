@@ -1,0 +1,45 @@
+raw/papers/moldova-legal/L-133-2016.md: 14 title(s) fixed
+   line 104  art.3
+      old: ## Articolul 3. Subiecţii declarării averii și intereselor
+      new: ## Articolul 3. Subiecţii declarării averii și intereselor personale
+   line 177  art.7^1
+      old: ## Articolul 7^1. Atribuțiile persoanelor responsabile
+      new: ## Articolul 7^1. Atribuțiile persoanelor responsabile de colectarea declaraţiilor subiecților declarării ale căror identitate și calitate constituie secret de stat
+   line 207  art.10
+      old: ## Articolul 10. Controlul averii şi al intereselor personale,
+      new: ## Articolul 10. Controlul averii şi al intereselor personale, al respectării regimului juridic al conflictelor de interese, al incompatibilităților, restricțiilor și limitărilor
+   line 219  art.11
+      old: ## Articolul 11. Principiile generale de evitare
+      new: ## Articolul 11. Principiile generale de evitare a conflictelor de interese
+   line 226  art.12
+      old: ## Articolul 12. Categoriile conflictelor de interese
+      new: ## Articolul 12. Categoriile conflictelor de interese și modul de declarare a acestora
+   line 245  art.13
+      old: ## Articolul 13. Obligaţiile conducătorului organizaţiei
+      new: ## Articolul 13. Obligaţiile conducătorului organizaţiei publice
+   line 252  art.14
+      old: ## Articolul 14. Modul de soluţionare a conflictului
+      new: ## Articolul 14. Modul de soluţionare a conflictului de interese real
+   line 273  art.15
+      old: ## Articolul 15. Efectul juridic al actelor emise, adoptate
+      new: ## Articolul 15. Efectul juridic al actelor emise, adoptate sau încheiate cu încălcarea dispozițiilor privind conflictul de interese
+   line 287  art.17
+      old: ## Articolul 17. Dispoziţii generale privind restricțiile
+      new: ## Articolul 17. Dispoziţii generale privind restricțiile și limitările
+   line 291  art.18
+      old: ## Articolul 18. Restricții legate de încetarea mandatului,
+      new: ## Articolul 18. Restricții legate de încetarea mandatului, a raporturilor de muncă sau de serviciu
+   line 309  art.19
+      old: ## Articolul 19. Restricții în cazul încheierii
+      new: ## Articolul 19. Restricții în cazul încheierii contractelor comerciale
+   line 318  art.19^1
+      old: ## Articolul 19^1. Restricții la primirea, folosirea, înstrăinarea
+      new: ## Articolul 19^1. Restricții la primirea, folosirea, înstrăinarea și transmiterea în folosință a bunurilor
+   line 335  art.22
+      old: ## Articolul 22. Autoritatea responsabilă de exercitarea
+      new: ## Articolul 22. Autoritatea responsabilă de exercitarea controlului asupra executării prezentei legi
+   line 341  art.23
+      old: ## Articolul 23. Răspunderea pentru încălcarea
+      new: ## Articolul 23. Răspunderea pentru încălcarea prevederilor prezentei legi
+
+TOTAL: 14 heading(s) across 1 file(s) fixed

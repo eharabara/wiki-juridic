@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-17T16:00:23",
+  "generated": "2026-09-17T16:23:53",
   "as_of": "2026-09-17",
-  "files_scanned": 428,
+  "files_scanned": 429,
   "provisions_not_yet_in_force": [
     {
       "file": "raw/papers/moldova-legal/COD-122-2003.md",
@@ -757,6 +757,63 @@
       "occurrences": 2
     },
     {
+      "file": "raw/papers/moldova-legal/L-133-2016.md",
+      "instrument": "L-133-2016",
+      "article": "3",
+      "subunit": "lit.e^2)",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP327 din 29.12.25",
+      "official_gazette": "MO665/31.12.25 art.814",
+      "context": "[Art.3 lit.e^2) modificată prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]",
+      "lines": [
+        53,
+        149
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-133-2016.md",
+      "instrument": "L-133-2016",
+      "article": "3",
+      "subunit": "lit.e^3)",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "abrogare",
+      "amending_act": "LP327 din 29.12.25",
+      "official_gazette": "MO665/31.12.25 art.814",
+      "context": "[Art.3 lit.e^3) abrogată prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]",
+      "lines": [
+        54,
+        150
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-133-2016.md",
+      "instrument": "L-133-2016",
+      "article": "18",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "context": "[Art. 18 al.(5) introdus prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 01.01.27]",
+      "lines": [
+        55,
+        56,
+        57,
+        58,
+        334,
+        336,
+        339,
+        341
+      ],
+      "occurrences": 8
+    },
+    {
       "file": "raw/papers/moldova-legal/L-1543-1998.md",
       "instrument": "L-1543-1998",
       "article": "15^3",
@@ -1011,6 +1068,15 @@
       "flagged_in_frontmatter": true
     },
     {
+      "instrument": "L-133-2016",
+      "file": "raw/papers/moldova-legal/L-133-2016.md",
+      "consolidation_date": "2027-01-01",
+      "doc_id": "155891",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
       "instrument": "L-1543-1998",
       "file": "raw/papers/moldova-legal/L-1543-1998.md",
       "consolidation_date": "2027-01-01",
@@ -1198,9 +1264,9 @@
     }
   ],
   "counts": {
-    "provisions": 54,
-    "acts": 10,
-    "future_consolidations": 11,
+    "provisions": 57,
+    "acts": 11,
+    "future_consolidations": 12,
     "pending_consolidations": 6,
     "pending_provisions": 10
   }

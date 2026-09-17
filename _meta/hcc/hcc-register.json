@@ -2013,6 +2013,38 @@
    ]
   },
   {
+   "instrument": "L-133-2016",
+   "file": "raw/papers/moldova-legal/L-133-2016.md",
+   "doc_id": "155891",
+   "consolidation_date": "2027-01-01",
+   "markers": [
+    {
+     "article": "23",
+     "subunit": "al.(5^1)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC29/2021-09-21"
+     ],
+     "official_gazette": "MO256-260/22.10.21 art.184",
+     "marker": "Art.23 al.(5^1) modificarea introdusă prin LP244/2020 declarată neconstituțională prin HCC29 din 21.09.21, MO256-260/22.10.21 art.184; în vigoare 21.09.21",
+     "line": 384
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC29/2021-09-21",
+     "line": 88,
+     "text": "HCC29 din 21.09.21, MO256-260/22.10.21 art.184; în vigoare 21.09.21"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [],
+   "distinct_hcc": [
+    "HCC29/2021-09-21"
+   ]
+  },
+  {
    "instrument": "L-135-2007",
    "file": "raw/papers/moldova-legal/L-135-2007.md",
    "doc_id": "153674",
@@ -2469,9 +2501,9 @@
   }
  ],
  "counts": {
-  "acts": 20,
+  "acts": 21,
   "distinct_hcc": 76,
-  "markers_in_text": 16,
+  "markers_in_text": 17,
   "recovered": 95,
   "unattributed": 4
  }

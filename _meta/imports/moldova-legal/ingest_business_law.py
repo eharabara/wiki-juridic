@@ -525,6 +525,25 @@ DOCS = {
     # exact procedura succesorala pusa in aplicare de LP251/2025 pe cartea a patra a Codului
     # civil, deja documentata in alta parte a acestui manifest (speta mostenitorului, 8-9
     # septembrie).
+
+    # 2026-09-17, al doilea act din coada de ingerare a grafului de citare (22 mentiuni, 11 acte
+    # citatoare, cel mai des din COD-218-2008, care sanctioneaza contraventional nedeclararea/
+    # nesolutionarea conflictului de interese sub aceasta lege). Legea-cadru a declararii averii
+    # si intereselor personale (regimul ANI). Gasita prin cautare in titlu "privind declararea
+    # averii si a intereselor personale", LP133/2016 marcat "Modificat", doc_id 155891. 21 <sup>,
+    # fara CUPRINS. ATENTIE, doua straturi de neobisnuit gasite pe fisa inainte de ingerare:
+    #   1. CONSOLIDARE VIITOARE: primele doua randuri MODIFICAT sint LP154 din 30.07.26 si LP327
+    #      din 29.12.25, ambele "in vigoare 01.01.27" - deci textul de azi (17 septembrie 2026)
+    #      contine deja amendamente care intra in vigoare abia peste trei luni si jumatate.
+    #      Acelasi LP154 mai are un rind separat "in vigoare 13.09.26" (o alta dispozitie a
+    #      aceleiasi legi modificatoare, deja trecuta) - actul e amendat pe straturi, nu dintr-o
+    #      singura data.
+    #   2. HCC29 din 21.09.21, MO256-260/22.10.21 art.184; in vigoare 21.09.21 apare direct in
+    #      istoricul de modificari al fisei, nu doar in corpul textului - de verificat la
+    #      regenerarea registrului HCC ce dispozitie a lovit.
+    'L-133-2016': {'doc_id': '155891',
+                   'title': 'Legea nr. 133/2016 privind declararea averii si a intereselor '
+                            'personale'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

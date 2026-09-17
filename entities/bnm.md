@@ -1,11 +1,11 @@
 ---
 title: Banca Națională a Moldovei (BNM)
 created: 2026-07-12
-updated: 2026-09-05
+updated: 2026-09-17
 type: entity
 perimeter: legal
 tags: [moldova, bnm, institution, financial-services, financial-supervision, legal-source, entity]
-sources: [raw/papers/bnm/legal-ro/L-548-1995.md, _archive/bnm-en-2026-09/documents/001__Law on the National Bank of Moldova no_ 548-XIII of July 21 1995_02_08_2024_2.pdf.md, raw/papers/bnm/BNM_LEGISLATION_INVENTORY.md, raw/papers/bnm/BNM_REPORTS_INVENTORY.md]
+sources: [raw/papers/bnm/legal-ro/L-548-1995.md, _archive/bnm-en-2026-09/documents/001__Law on the National Bank of Moldova no_ 548-XIII of July 21 1995_02_08_2024_2.pdf.md, raw/papers/bnm/BNM_LEGISLATION_INVENTORY.md, raw/papers/bnm/BNM_REPORTS_INVENTORY.md, raw/papers/moldova-legal/L-133-2016.md]
 confidence: high
 ---
 
@@ -34,7 +34,11 @@ The regulatory register is grouped by banking; financial-banking markets; paymen
 
 # Relationship to the transferred financial-supervision perimeter
 
-The BNM corpus is particularly relevant to the legal areas already represented in this wiki: [[L-1-2018]] (non-bank credit organisations), [[L-92-2022]] (insurance/reinsurance), [[L-106-2022]] (MTPL insurance), [[L-122-2008]] (credit histories), [[L-139-2007]] (savings and loan associations), and [[L-234-2016]] (the Single Central Securities Depository). It also supplies a primary-source layer for [[acquis-Insurance]], [[acquis-ConsumerCredit]] and [[acquis-CSDR-EMIR]].
+The BNM corpus is particularly relevant to the legal areas already represented in this wiki: [[L-1-2018]] (non-bank credit organisations), [[L-92-2022]] (insurance/reinsurance), [[L-106-2022]] (MTPL insurance), [[L-122-2008]] (credit histories), [[L-139-2007]] (savings and loan associations), [[L-183-2016]] (payment/securities settlement finality), and [[L-234-2016]] (the Single Central Securities Depository). It also supplies a primary-source layer for [[acquis-Insurance]], [[acquis-ConsumerCredit]] and [[acquis-CSDR-EMIR]].
+
+# Personnel integrity regime
+
+[[L-133-2016]] (asset and personal-interest declaration, ingested 2026-09-17) names BNM staff expressly as subjects of the declaration regime, alongside CNPF: art. 3 lit. e^1) covers "the members of the Supervisory Board, of the Executive Committee, and the employees of the National Bank of Moldova, the members and employees of the National Commission for the Financial Market, except for employees performing auxiliary duties — secretarial, protocol, administrative, technical." Art. 3 lit. c^1) separately covers the board of the Deposit Guarantee Fund in the banking system (`Fondul de garantare a depozitelor`). Oversight sits with the National Integrity Authority (ANI) under Law No. 132/2016 (art. 22), not with BNM itself. `[raw/papers/moldova-legal/L-133-2016.md art.3, art.22]`
 
 # Evidence base in this wiki
 

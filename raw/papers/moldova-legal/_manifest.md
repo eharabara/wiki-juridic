@@ -2010,6 +2010,41 @@ Găsită prin căutare în titlu „punerea în aplicare a Codului civil”.
 
 Pagini de entitate: [[L-23-2008]], [[L-24-2008]], [[L-9-2026]], [[L-1125-2002]].
 
+## Y. Legea declarării averii și a intereselor personale — L-133/2016 (ingerată 2026-09-17)
+
+Al doilea act din coada de ingerare a grafului de citare, după `L-183/2016` (perimetrul CNPF,
+vezi manifestul `raw/papers/cnpf/_manifest.md`, secțiunea L): 22 de mențiuni, 11 acte citatoare,
+cel mai des din `COD-218-2008`, care sancționează contravențional nedeclararea sau nesoluționarea
+conflictului de interese sub această lege. Găsită prin căutare în titlu „privind declararea
+averii și a intereselor personale”, `LP133/2016` marcat „Modificat”, doc_id 155891.
+
+- **`L-133-2016`** — 27 de ancore, 1-27 fără nicio lacună, plus art. 7^1 și 19^1. 21 `<sup>`,
+  fără CUPRINS. 14 titluri rupte pe două rânduri, corectate cu `fix_wrapped_titles.py`.
+
+**Consolidare viitoare, ca la mai multe acte deja documentate în acest manifest.** Primele două
+rânduri „MODIFICAT” ale fișei sunt LP154 din 30.07.26 și LP327 din 29.12.25, ambele „în vigoare
+01.01.27” — textul deținut la 17 septembrie 2026 conține deja șase dispoziții care nu intră în
+vigoare decât peste trei luni și jumătate: art. 3 lit. e^2) (modificată) și e^3) (abrogată) prin
+LP327/2025, art. 18 alin. (5)-(8) (introduse) prin LP154/2026. Niciuna nu privește subiecții
+relevanți pentru acest vault (BNM, CNPF, FGDSB — vezi mai jos), dar avertismentul stă la capul
+fișierului brut pentru orice altă citare.
+
+**Descoperire directă în text, nu presupusă: personalul BNM și CNPF e subiect al declarării.**
+Art. 3 lit. e^1) numește expres „membrii Consiliului de supraveghere, ai Comitetului executiv și
+angajații Băncii Naționale a Moldovei, membrii și angajații Comisiei Naționale a Pieței
+Financiare”, cu excepția personalului auxiliar; lit. c^1) acoperă separat consiliul de
+administrație al Fondului de garantare a depozitelor în sistemul bancar. Ambele litere se aplică
+deja astăzi, în afara celor șase dispoziții amânate. `entities/bnm.md` actualizat cu o secțiune
+nouă, „Personnel integrity regime”.
+
+**Dispoziție lovită de HCC, marcată direct în text.** Art. 23 alin. (5^1) — prescripția sancțiunilor
+disciplinare de încetare a mandatului, introdusă prin LP244/2020 — a fost declarată
+neconstituțională prin HCC29 din 21.09.2021 (MO256-260/22.10.21 art.184), marcaj găsit la linia
+384 a fișierului brut, nerecuperat din istoric. Registrul HCC regenerat: 21 de acte (de la 20),
+17 marcaje în text (de la 16).
+
+Pagină de entitate: [[L-133-2016]].
+
 ## D. Artefacte metodologice create
 
 | Artefact | Tip | Rol |

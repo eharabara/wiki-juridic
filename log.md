@@ -1269,6 +1269,32 @@
   `_meta/hcc/`, blocul de acoperire din `CLAUDE.md`). Validator: 0 erori, 2 avertismente
   (neschimbate, pre-existente).
 
+## [2026-09-17] ingest | L-133-2016, declararea averii și a intereselor personale — al doilea act din coada de ingerare
+
+- **Aflat:** art. 3 lit. e^1) numește expres personalul Băncii Naționale a Moldovei (Consiliul de
+  supraveghere, Comitetul executiv, angajații) și membrii/angajații CNPF ca subiecți ai declarării
+  averii, iar lit. c^1) acoperă separat consiliul Fondului de garantare a depozitelor — o obligație
+  de integritate a personalului de supraveghere pe care nimic din corpus nu o documenta încă. Fișa
+  legis.md arată o consolidare **viitoare** (2027-01-01, LP154/2026 și LP327/2025), cu 6 dispoziții
+  amânate — niciuna dintre ele privind subiecții relevanți aici. Art. 23 alin. (5^1), introdus prin
+  LP244/2020, a fost declarat neconstituțional prin HCC29 din 21.09.2021, marcat direct în text.
+  Un control nou al validatorului (`citation.hcc-unmarked`, apărut în arbore în timpul acestei
+  sesiuni dintr-o lucrare concurentă, necomisă încă) a prins o citare proprie a art. 23 fără
+  mențiunea HCC în aceeași secțiune — corectat înainte de commit, nu ignorat.
+- **Decis:** ingerat cu `ingest_business_law.py` (nu un înveliș nou: e drept general de
+  integritate/anticorupție, nu perimetru CNPF/BNM, deși subiecții includ personalul lor), în
+  `raw/papers/moldova-legal/`. 14 titluri rupte corectate cu `fix_wrapped_titles.py`. Adăugată o
+  secțiune nouă „Personnel integrity regime” în `entities/bnm.md`, în engleză, ca restul paginii.
+  Fișierele celeilalte sesiuni concurente (`schema-spec.yaml`, `validate_wiki.py`,
+  `build_schema.py`, `SCHEMA.md`, `tests/test_validate_wiki.py`) lăsate necomise, ca la lotul
+  anterior — nu sunt ale acestei sesiuni.
+- **Unde:** `raw/papers/moldova-legal/L-133-2016.md` (nou, 27 ancore);
+  `entities/L-133-2016.md` (nou); `entities/bnm.md`, `entities/COD-218-2008.md`, `index.md`,
+  `raw/papers/moldova-legal/_manifest.md` (secțiunea Y) actualizate. Registrele regenerate:
+  `_meta/hcc/` (21 acte, de la 20; 17 marcaje în text, de la 16), `_meta/inforce/`,
+  `_meta/graph/citation-graph.md/.json` (94 acte), blocul de acoperire din `CLAUDE.md`. Validator:
+  0 erori, 2 avertismente (neschimbate, pre-existente).
+
 ## [2026-09-17] update | detectarea extracțiilor textuale aproape goale din rapoarte
 
 - **Aflat:** `raw/papers/bnm/reports/documents/236__Prezentare_RI_mai_2025.pdf.md` declară
