@@ -1320,6 +1320,29 @@
   `_meta/inforce/` (fără dispoziții amânate noi), blocul de acoperire din `CLAUDE.md`. Validator:
   0 erori, 2 avertismente (neschimbate, pre-existente).
 
+## [2026-09-17] ingest | L-132-2016, Autoritatea Națională de Integritate — al patrulea act, închide o întrebare deschisă proprie
+
+- **Aflat:** actul închide direct întrebarea deschisă lăsată de `L-133/2016` (art. 22 alin. (2)
+  trimite aici pentru organizarea ANI) — doc_id consecutiv (155890/155891), adoptate aceeași zi,
+  17.06.2016. Art. 27 operaționalizează exact termenul de depunere din art. 6-7 ale `L-133/2016`.
+  Aceeași consolidare viitoare (2027-01-01, LP154/2026) ca la `L-133/2016`, dar de data aceasta
+  fișa arată **două** decizii HCC în istoric (HCC29/2021 — aceeași care lovește art. 23 al.(5^1)
+  din `L-133/2016` — și HCC6/2018, nouă pentru registru), și **niciuna nu e marcată în corpul
+  textului**, spre deosebire de `L-133/2016`. Nu s-a făcut recuperarea manuală (citirea
+  versiunilor istorice de pe legis.md) în această sesiune; rămân în categoria „fără articol",
+  aceeași deja acceptată pentru `CONST-1994` și `L-213/2023`.
+- **Decis:** ingerată cu `ingest_business_law.py`, 18 titluri rupte corectate. Legături adăugate
+  în ambele sensuri cu `entities/L-133-2016.md` (întrebarea deschisă #1 închisă acolo) și
+  `entities/bnm.md` (controlul ANI se întinde asupra personalului BNM/CNPF numit subiect al
+  declarării). Fișierele sesiunii concurente rămân necomise.
+- **Unde:** `raw/papers/moldova-legal/L-132-2016.md` (nou, 45 ancore); `entities/L-132-2016.md`
+  (nou); `entities/L-133-2016.md`, `entities/bnm.md`, `index.md`, `raw/papers/moldova-legal/
+  _manifest.md` (secțiunea AA) actualizate. Registrele regenerate: `_meta/hcc/` (22 acte, de la
+  21; 77 hotărâri, de la 76; 6 „fără articol", de la 4), `_meta/inforce/`, `_meta/graph/
+  citation-graph.md/.json` (96 acte), blocul de acoperire din `CLAUDE.md`. Validator: 0 erori, 2
+  avertismente (neschimbate, pre-existente; un `page.links-min` intermediar corectat înainte de
+  commit).
+
 ## [2026-09-17] update | detectarea extracțiilor textuale aproape goale din rapoarte
 
 - **Aflat:** `raw/papers/bnm/reports/documents/236__Prezentare_RI_mai_2025.pdf.md` declară

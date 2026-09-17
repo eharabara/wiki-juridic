@@ -2080,6 +2080,38 @@ evaluării biodiversității introduse de LP53/2026.
 
 Pagină de entitate: [[L-86-2014]]; actualizate [[COD-434-2023]] și [[L-160-2011]].
 
+## AA. Autoritatea Națională de Integritate — L-132/2016 (ingerată 2026-09-17)
+
+Al patrulea act, ales pentru că închide o întrebare deschisă proprie, nu doar poziția din coada de
+ingerare: art. 22 alin. (2) din `L-133/2016`, ingerată mai devreme aceeași zi, trimite la legea de
+față pentru organizarea Autorității Naționale de Integritate (ANI). 12 mențiuni în coada grafului,
+6 acte citatoare, cel mai des chiar din `L-133/2016` (6 ori). Găsită prin căutare în titlu
+„Autoritatea Națională de Integritate", doc_id 155890 — consecutiv cu doc_id-ul lui `L-133/2016`
+(155891), adoptate aceeași zi, 17.06.2016.
+
+- **`L-132-2016`** — 45 de ancore, 1-45 fără nicio lacună, plus art. 41^1. 33 `<sup>`, fără
+  CUPRINS. 18 titluri rupte pe două rânduri, corectate cu `fix_wrapped_titles.py`. Consolidare
+  **viitoare, 2027-01-01** (LP154/2026, ca la `L-133/2016`), o singură dispoziție amânată (art. 7
+  alin. (2) lit. j)), fără legătură cu mecanismele citate mai jos.
+
+**Contrapartea procedurală, verificată direct în text.** Art. 27 (cel mai citat de `L-133/2016`)
+operaționalizează exact termenul de depunere a declarației din art. 6-7 ale acesteia: demersul
+inspectorului de integritate, apoi încetarea mandatului la nedepunere în 30 de zile. Art. 42
+stabilește procedura civilă de confiscare a averii nejustificate în folosul statului.
+
+**Două decizii HCC în istoricul fișei, niciuna marcată în corpul textului — rămân neatribuite.**
+HCC29 din 21.09.2021 (aceeași decizie care lovește art. 23 alin. (5^1) din `L-133/2016`, marcată
+acolo direct în text) și HCC6 din 10.04.2018 (MO157-166/18.05.18 art.76, decizie nouă pentru acest
+registru). Nicio ramură a `build_hcc_register.py` nu le poate atribui unui articol fără citirea
+versiunilor istorice de pe legis.md, care nu a fost făcută la această ingerare — aceeași categorie
+„fără articol" ca cele deja acceptate pentru `CONST-1994` și `L-213/2023`. Registrul HCC
+regenerat: 22 de acte (de la 21), 77 de hotărâri (de la 76), 6 „fără articol" (de la 4).
+
+**Rămâne neingerată Legea integrității nr. 82/2017**, al treilea pilon al cadrului, la care art. 1
+alin. (2) din legea de față trimite pentru noțiunile comune.
+
+Pagină de entitate: [[L-132-2016]]; [[L-133-2016]] actualizată cu legătura în ambele sensuri.
+
 ## D. Artefacte metodologice create
 
 | Artefact | Tip | Rol |

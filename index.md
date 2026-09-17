@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-17 | Total pages: 137
+> Last updated: 2026-09-17 | Total pages: 138
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -50,6 +50,7 @@
 - [[L-1260-2002]] — Legea cu privire la avocatură: 73 de ancore, versiunea în vigoare azi (2025-01-07); consolidarea condiționată de aderarea la UE (LP10/2026, datată fictiv 2030) neingerată.
 - [[L-131-2012]] — Legea controlului de stat asupra activității de întreprinzător: 41 de ancore, consolidare 2026-08-28 (doc_id 151146, nu cel din lista de căutare); principiile controlului, art. 3.
 - [[L-131-2015]] — Legea achizițiilor publice: 91 de ancore, consolidare 2026-06-26; abrogată de la 01.01.2027 prin Legea 325/2025; contestațiile (art. 80–88) scoase de Legea 20/2026 din 01.04.2026; pragurile din art. 2.
+- [[L-132-2016]] — Legea nr. 132/2016 cu privire la Autoritatea Națională de Integritate: organizează ANI și procedura de control a averii/conflictelor de interese, contrapartea instituțională a L-133/2016; 45 de ancore, consolidare viitoare 2027-01-01; două decizii HCC (HCC29/2021, HCC6/2018) neatribuite unui articol.
 - [[L-133-2011]] — Legea nr. 133/2011 privind protecția datelor cu caracter personal: **ABROGATĂ de la 23.08.2026** prin art. 90 alin. (3) lit. b) din L-195/2024; păstrată fiindcă 19 acte din corpus încă trimit la ea și fiindcă guvernează faptele anterioare.
 - [[L-133-2016]] — Legea nr. 133/2016 privind declararea averii și a intereselor personale: ANI exercită controlul (art. 22); art. 3 lit. e^1) numește expres personalul BNM și CNPF ca subiecți ai declarării; art. 23 alin. (5^1) lovit de HCC29/2021; 27 de ancore, consolidare viitoare 2027-01-01, 6 dispoziții amânate.
 - [[L-135-2007]] — Legea nr. 135/2007 privind societatile cu raspundere limitata: actul de baza pentru SRL, consolidare 2026-03-27, 83 de articole plus 10 cu exponent.

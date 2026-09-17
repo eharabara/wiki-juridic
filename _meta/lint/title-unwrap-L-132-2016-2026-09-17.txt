@@ -1,0 +1,57 @@
+raw/papers/moldova-legal/L-132-2016.md: 18 title(s) fixed
+   line 170  art.10
+      old: ## Articolul 10. Condiții pentru a candida la funcțiile
+      new: ## Articolul 10. Condiții pentru a candida la funcțiile de președinte și vicepreședinte al Autorității
+   line 193  art.11
+      old: ## Articolul 11. Concursul pentru suplinirea funcției
+      new: ## Articolul 11. Concursul pentru suplinirea funcției de președinte al Autorității
+   line 271  art.13
+      old: ## Articolul 13. Numirea în funcția de președinte sau
+      new: ## Articolul 13. Numirea în funcția de președinte sau de vicepreședinte al Autorității
+   line 321  art.15
+      old: ## Articolul 15. Încetarea și suspendarea mandatelor
+      new: ## Articolul 15. Încetarea și suspendarea mandatelor de președinte și vicepreședinte al Autorității
+   line 386  art.19
+      old: ## Articolul 19. Activitățile desfășurate de inspectorii
+      new: ## Articolul 19. Activitățile desfășurate de inspectorii de integritate
+   line 399  art.20
+      old: ## Articolul 20. Drepturile și obligațiile inspectorului
+      new: ## Articolul 20. Drepturile și obligațiile inspectorului de integritate
+   line 423  art.21
+      old: ## Articolul 21. Incompatibilitățile și interdicțiile aplicabile
+      new: ## Articolul 21. Incompatibilitățile și interdicțiile aplicabile inspectorilor de integritate
+   line 468  art.24
+      old: ## Articolul 24. Temeiurile încetării raporturilor
+      new: ## Articolul 24. Temeiurile încetării raporturilor de serviciu pentru funcția de inspector de integritate
+   line 499  art.26
+      old: ## Articolul 26. Etapele controlului averii
+      new: ## Articolul 26. Etapele controlului averii și al intereselor personale
+   line 503  art.27
+      old: ## Articolul 27. Efectele nedepunerii declarației
+      new: ## Articolul 27. Efectele nedepunerii declarației de avere și interese personale
+   line 509  art.28
+      old: ## Articolul 28. Inițierea controlului averii și al intereselor
+      new: ## Articolul 28. Inițierea controlului averii și al intereselor personale
+   line 528  art.31
+      old: ## Articolul 31. Verificarea prealabilă a sesizărilor depuse
+      new: ## Articolul 31. Verificarea prealabilă a sesizărilor depuse de persoanele fizice sau persoanele juridice
+   line 533  art.32
+      old: ## Articolul 32. Drepturile persoanei supuse controlului
+      new: ## Articolul 32. Drepturile persoanei supuse controlului averii și al intereselor personale
+   line 559  art.34
+      old: ## Articolul 34. Rezultatele controlului averii
+      new: ## Articolul 34. Rezultatele controlului averii și al intereselor personale
+   line 592  art.37
+      old: ## Articolul 37. Controlul privind respectarea regimului
+      new: ## Articolul 37. Controlul privind respectarea regimului juridic al conflictelor de interese, al incompatibilităților, restricțiilor și limitărilor
+   line 603  art.38
+      old: ## Articolul 38. Rezultatele controlului privind respectarea
+      new: ## Articolul 38. Rezultatele controlului privind respectarea regimului juridic al conflictelor de interese, al incompatibilităților, restricțiilor și limitărilor
+   line 613  art.39
+      old: ## Articolul 39. Efectele constatării încălcării regimului
+      new: ## Articolul 39. Efectele constatării încălcării regimului juridic al conflictelor de interese, al incompatibilităților, restricțiilor și limitărilor
+   line 639  art.42
+      old: ## Articolul 42. Procedura de executare a hotărârilor
+      new: ## Articolul 42. Procedura de executare a hotărârilor privind confiscarea averii nejustificate în folosul statului
+
+TOTAL: 18 heading(s) across 1 file(s) fixed

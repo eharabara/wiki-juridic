@@ -562,6 +562,20 @@ DOCS = {
     # deci consolidare curenta, nu viitoare.
     'L-86-2014': {'doc_id': '154125',
                   'title': 'Legea nr. 86/2014 privind evaluarea impactului asupra mediului'},
+
+    # 2026-09-17, al patrulea act, ales pentru ca inchide o intrebare deschisa proprie: art. 22
+    # alin. (2) din L-133-2016, ingerata mai devreme azi, trimite aici pentru organizarea ANI.
+    # 12 mentiuni in coada de ingerare, 6 acte citatoare, cel mai des chiar din L-133-2016 (6 ori).
+    # Gasita prin cautare in titlu "Autoritatea Nationala de Integritate", doc_id 155890 (adoptata
+    # aceeasi zi ca L-133/2016, 17.06.2016, doc_id-uri consecutive). ATENTIE, acelasi tipar ca
+    # L-133/2016: consolidare VIITOARE (LP154 din 30.07.26, in vigoare 01.01.27, primul rind
+    # MODIFICAT). DOUA decizii HCC in istoricul fisei, nu una: HCC29 din 21.09.21 (aceeasi ca la
+    # L-133/2016 - probabil aceeasi lovire a art. 23 al.(5^1), aici sub alt numar de articol) si
+    # HCC6 din 10.04.18, MO157-166/18.05.18 art.76 - a doua, mai veche, negasita inca in registrul
+    # HCC (20 de acte pina acum). 45 de articole, 33 <sup>.
+    'L-132-2016': {'doc_id': '155890',
+                   'title': 'Legea nr. 132/2016 cu privire la Autoritatea Nationala de '
+                            'Integritate'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

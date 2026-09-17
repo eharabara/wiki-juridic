@@ -2013,6 +2013,42 @@
    ]
   },
   {
+   "instrument": "L-132-2016",
+   "file": "raw/papers/moldova-legal/L-132-2016.md",
+   "doc_id": "155890",
+   "consolidation_date": "2027-01-01",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC29/2021-09-21",
+     "line": 77,
+     "text": "HCC29 din 21.09.21, MO256-260/22.10.21 art.184; în vigoare 21.09.21"
+    },
+    {
+     "hcc": "HCC6/2018-04-10",
+     "line": 85,
+     "text": "HCC6 din 10.04.18, MO157-166/18.05.18 art.76"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC29/2021-09-21",
+     "line": 77,
+     "text": "HCC29 din 21.09.21, MO256-260/22.10.21 art.184; în vigoare 21.09.21"
+    },
+    {
+     "hcc": "HCC6/2018-04-10",
+     "line": 85,
+     "text": "HCC6 din 10.04.18, MO157-166/18.05.18 art.76"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC29/2021-09-21",
+    "HCC6/2018-04-10"
+   ]
+  },
+  {
    "instrument": "L-133-2016",
    "file": "raw/papers/moldova-legal/L-133-2016.md",
    "doc_id": "155891",
@@ -2501,10 +2537,10 @@
   }
  ],
  "counts": {
-  "acts": 21,
-  "distinct_hcc": 76,
+  "acts": 22,
+  "distinct_hcc": 77,
   "markers_in_text": 17,
   "recovered": 95,
-  "unattributed": 4
+  "unattributed": 6
  }
 }

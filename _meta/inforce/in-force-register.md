@@ -1,6 +1,6 @@
 ---
 title: Registrul dispozitiilor care nu sint inca in vigoare
-generated: '2026-09-17T16:32:20'
+generated: '2026-09-17T16:48:01'
 as_of: '2026-09-17'
 type: summary
 tags: [moldova, legal-source, methodology, summary]
@@ -12,7 +12,7 @@ generated_by: _meta/inforce/build_inforce_register.py
 
 **Fisier generat. Nu se editeaza manual.** Se reface rulind scriptul din frontmatter.
 
-Stare la 2026-09-17. 430 fisiere scanate. 57 dispozitii afectate in 11 act(e). 12 consolidare/consolidari cu data in viitor. 6 consolidare/consolidari viitoare neingerate, 10 dispozitii.
+Stare la 2026-09-17. 431 fisiere scanate. 58 dispozitii afectate in 12 act(e). 13 consolidare/consolidari cu data in viitor. 6 consolidare/consolidari viitoare neingerate, 10 dispozitii.
 
 ## Regula de citare
 
@@ -65,6 +65,7 @@ Inainte de a cita un articol, verifica daca apare in tabelul de mai jos. Daca ap
 | HG-743-2024 | pct. 115 | introducere | 2026-12-30 | HG341 din 24.06.26 | dispozitia nu se aplica |
 | COD-154-2003 | 46 | introducere | 2027-01-01 | LP154 din 30.07.26 | dispozitia nu se aplica |
 | L-114-2012 | 103^1 | introducere | 2027-01-01 | LP128 din 02.07.26 | dispozitia nu se aplica |
+| L-132-2016 | 7 | introducere | 2027-01-01 | LP154 din 30.07.26 | dispozitia nu se aplica |
 | L-133-2016 | 3 lit.e^2) | modificare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
 | L-133-2016 | 3 lit.e^3) | abrogare | 2027-01-01 | LP327 din 29.12.25 | inca in vigoare |
 | L-133-2016 | 18 | introducere | 2027-01-01 | LP154 din 30.07.26 | dispozitia nu se aplica |
@@ -93,6 +94,7 @@ Fisierul incorporeaza modificari care nu au intrat in vigoare. Arhiva indicata e
 | HG-743-2024 | 2026-12-30 | da | - | `-` |
 | L-1134-1997 | 2028-01-01 | da | 2022-01-10 | `_archive/raw/cnpf-legis-md-before-refresh-20260904-183240/L-1134-1997.md` |
 | L-114-2012 | 2027-01-01 | da | - | `-` |
+| L-132-2016 | 2027-01-01 | da | - | `-` |
 | L-133-2016 | 2027-01-01 | da | - | `-` |
 | L-1543-1998 | 2027-01-01 | da | - | `-` |
 | L-171-2012 | 2027-06-01 | da | 2021-01-01 | `_archive/raw/cnpf-legis-md-before-refresh-20260904-162713/L-171-2012.md` |
@@ -213,6 +215,8 @@ Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar
   - [Art.46 al.(4^1) introdus prin LP154 din 30.07.26, MO375-378/13.08.26 art.393; în vigoare 01.01.27]
 - **L-114-2012 art. 103^1**, `raw/papers/bnm/legal-ro/L-114-2012.md`, liniile [72, 1557]
   - [Art.103^1 al.(4), lit.h) introdusă prin LP128 din 02.07.26, MO305-308/14.07.26 art.324; în vigoare 01.01.27]
+- **L-132-2016 art. 7**, `raw/papers/moldova-legal/L-132-2016.md`, liniile [52, 175]
+  - [Art. 7 al. (2), lit.j) introdusă prin LP154 din 30.07.26, MO375-378/13.08.26 art. 393; în vigoare 01.01.27]
 - **L-133-2016 art. 3 lit.e^2)**, `raw/papers/moldova-legal/L-133-2016.md`, liniile [53, 149]
   - [Art.3 lit.e^2) modificată prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
 - **L-133-2016 art. 3 lit.e^3)**, `raw/papers/moldova-legal/L-133-2016.md`, liniile [54, 150]
