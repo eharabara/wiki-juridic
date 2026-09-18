@@ -1535,3 +1535,35 @@
 - **Unde:** `concepts/functionarea-pietelor-de-produse-si-dereglementare.md` (restaurat, fără
   diferență față de HEAD anterior); `.obsidian/graph.json`. Fără modificări sub `raw/`, nicio
   regenerare de registru necesară.
+
+## [2026-09-18] ingest | L-133-2018, modernizarea Codului civil — concordanța numerotării de dinainte de 2019, și o regulă nouă în graf
+
+- **Aflat:** trei lucruri pe care diff-ul nu le arată. **(1)** Legea 133/2018 este într-adevăr
+  legea de renumerotare presupusă la punctul 8 din `CLAUDE.md`, iar concordanța se citește din ea
+  fără a avea nevoie de tabelul legis.md: articolul I poartă 1.400 de titluri de articol ale
+  Codului civil în numerotarea veche, din care 1.176 (84%) se potrivesc **exact pe titlu** cu o
+  ancoră din `CC-1107-2002` de azi, 197 pe titlu rescris, 27 deloc. Toate trimiterile vechi pe
+  care wiki-ul le avea se rezolvă (330^4 → 526; 1572^117 → 2419; 1575^N → 2424+N, verificat pe
+  patru puncte independente; 1144^9 → 1614), cu o singură excepție care **nu** se ghicește:
+  283^27 are titlu identic cu art. 435 **și** art. 450 de azi. **(2)** Ciorchinele `48^N`
+  (ocrotirea judiciară) **nu** vine de aici — actul nu conține niciun articol 48^N — deci punctul
+  8 rămâne deschis, dar cu o întrebare mai îngustă. **(3)** O lege de modificare rupe trei unelte
+  deodată, și numai a treia a fost o surpriză: ancorarea implicită ar fi scris 1.434 de ancore
+  pentru dispoziții ale altor acte; verificatorul de integritate cade dacă ancora rescrie linia în
+  loc să se insereze deasupra; iar graful de citare a atribuit **514 din 837** de trimiteri lui
+  `COD-225-2003`, deși art. I modifică Codul civil — 557 din cele 646 de rânduri „nerezolvate",
+  adică 86% din tabelul pe care punctul 8 îl declară verificat exhaustiv, deveniseră false.
+- **Decis:** ingerare cu `anchor_mode='roman-amending'` (ancoră numai pe cele 17 articole romane,
+  inserată ca linie nouă deasupra liniei sursă, convenția `L-177-2025`), iar `build_citation_graph.py`
+  nu mai extrage muchii **la nivel de articol** din actele ale căror ancore sunt toate numerale
+  romane. Muchiile act → act rămân. Costul a fost măsurat **înainte** de aplicare și consemnat:
+  dispar 24 de muchii corecte, de la `L-177-2025` și `L-178-2020`; „rezolvate în actul curent"
+  rămâne 7.178, neschimbat, proba că regula nu atinge alt act. Regula este reversibilă printr-o
+  condiție. Decizie luată în sesiune, fără Eugen — motivul: alternativa era să las 557 de rânduri
+  false într-un control generat, ceea ce e mai rău decât să emit mai puțin. **De confirmat sau
+  răsturnat de Eugen.** Cele 27 de titluri fără corespondent nu au fost deschise unul câte unul.
+- **Unde:** `raw/papers/moldova-legal/L-133-2018.md` (17 ancore, 10.762 linii, doc_id 34327,
+  in vigoare 01.03.2019, `never_amended`); secțiunea **AE** din
+  `raw/papers/moldova-legal/_manifest.md`; `entities/L-133-2018.md`; `index.md`; `CLAUDE.md`
+  (punctul 8 și descrierea `_meta/graph/`); `_meta/imports/moldova-legal/ingest_business_law.py`
+  și `verify_business_law.py` (modul nou); `_meta/graph/build_citation_graph.py` (regula nouă).

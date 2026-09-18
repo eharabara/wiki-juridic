@@ -116,7 +116,14 @@ article from a future-dated act, and say in the answer which version applies tod
   `L-133-2011`, turned out to have been repealed eighteen days earlier, and nineteen held acts still
   point at it. It does not read acts structured in points below act level, does not read the EU
   extracts for edges, and still does not know whether a cited act that the vault does **not** hold is
-  in force. The graph is not citable; it says which anchor to open.
+  in force. Since 2026-09-18 it also does not read the articles of **amending laws whose own
+  articles are all Roman numerals** (`L-133-2018`, `L-177-2025`, `L-178-2020`): the text between
+  their own articles is the new text of the acts they amend, carrying *those* acts' numbering, and
+  the `modificare` context rule cannot follow it across a single article of thousands of lines with
+  sixteen targets — measured on `L-133-2018`, 514 of 837 references were attributed to
+  `COD-225-2003` when art. I in fact amends the Civil Code, and 557 of the graph's 646 unresolved
+  rows came from that one act. Act-level edges stay; 24 correct article edges from the two short
+  amending laws were the measured cost. The graph is not citable; it says which anchor to open.
 - `_meta/lint/` — the lint scripts and their outputs. `run_cnpf_legal_lint.py` (the July script
   that never survived the D4 rewrite of SCHEMA.md: it reported all 757 page tags invalid, called
   the ten explicit `_archive/` wikilinks broken, read only `raw/papers/cnpf/`, and appended a
@@ -145,9 +152,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-17 22:38 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-18 09:43 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-90 primary Moldovan acts, 32 EU acquis extracts, 1 Association Agreement extract(s), 293 BNM corpus documents.
+91 primary Moldovan acts, 32 EU acquis extracts, 1 Association Agreement extract(s), 293 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -191,6 +198,7 @@ Generated 2026-09-17 22:38 from the files themselves. Do not edit this section b
 | `L-132-2016` | 45 | 45 | 2027-01-01 | **consolidation dated in the future**; 1 superscript article normalised; **2 HCC decision(s) not yet attributed to an article** |
 | `L-133-2011` | 36 | 36 | 2026-08-23 | **ABROGAT de la 2026-08-23**; 2 superscript articles normalised |
 | `L-133-2016` | 27 | 27 | 2027-01-01 | **consolidation dated in the future**; 2 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
+| `L-133-2018` | 17 | 17 | 2019-03-01 | 17 articles numbered in Roman figures; **more than 2 years old** |
 | `L-135-2007` | 93 | 93 | 2026-03-27 | 10 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-139-2007` | 59 | 59 | 2026-01-01 | 1 superscript article normalised |
 | `L-148-2023` | 35 | 35 | 2024-01-08 | **more than 2 years old** |
@@ -247,7 +255,7 @@ Generated 2026-09-17 22:38 from the files themselves. Do not edit this section b
 - **Repealed acts.** no longer in force: `L-133-2011` (repealed 2026-08-23 by LP195 din 25.07.24). These files are kept because other acts in the corpus still cite them and because the text governs facts before the repeal date. They are anchored, their sha256 verifies and their consolidation is recent, so nothing else here would reveal that they stopped binding. Do not cite them as law in force; cite the successor and say from when it applies.
 - **Not yet in force.** 16 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-1134-1997` (2028-01-01), `L-171-2012` (2027-06-01), `COD-122-2003` (2026-12-02), `COD-154-2003` (2027-01-01), `COD-218-2008` (2026-09-13), `COD-443-2004` (2026-12-02), `COD-985-2002` (2026-12-02), `HG-743-2024` (2026-12-30), `L-132-2016` (2027-01-01), `L-133-2016` (2027-01-01), `L-1543-1998` (2027-01-01), `L-158-2008` (2026-09-13), `L-181-2014` (2027-01-01), `L-325-2025` (2027-01-01), `L-845-1992` (2027-01-01), `L-114-2012` (2027-01-01). 70 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
 - **Declared unconstitutional.** 24 act(s) carry at least one Constitutional Court decision in their history block, 80 decisions in total: 20 still marked at article level in the text itself, 95 more recovered by reading the legis.md version history (`_meta/hcc/recovered-provisions.json`), and 9 not yet attributed to any article. A struck provision looks like ordinary law: the article exists, the anchor is valid, the sha256 matches. Check `_meta/hcc/hcc-register.md` before citing an article from `COD-116-2018`, `COD-1163-1997`, `COD-122-2003`, `COD-154-2003`, `COD-174-2018`, `COD-218-2008`, `COD-225-2003`, `COD-443-2004`, `COD-985-2002`, `L-1260-2002`, `L-133-2016`, `L-135-2007`, `L-149-2012`, `L-158-2008`, `L-325-2013`, `L-514-1995`, `L-548-1995`, `L-64-2010`, `L-845-1992` and say which decision struck it and what today's text actually holds.
-- **Stale consolidations.** `L-23-2008` (2016-09-30), `L-250-2017` (2018-03-29), `L-24-2008` (2018-11-08), `HBN-130-2013` (2018-12-23), `HBN-127-2013` (2021-05-09), `HCNPF-14-5-2016` (2022-05-06), `UA-STATUT-2011` (2022-05-27), `L-160-2023` (2023-10-01), `L-183-2016` (2023-10-21), `L-148-2023` (2024-01-08), `L-64-2010` (2024-01-23), `L-325-2013` (2024-03-29), `DCA-61-2024` (2024-05-05), `HG-1171-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `HG-574-2024` (2024-08-23). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
+- **Stale consolidations.** `L-23-2008` (2016-09-30), `L-250-2017` (2018-03-29), `L-24-2008` (2018-11-08), `HBN-130-2013` (2018-12-23), `L-133-2018` (2019-03-01), `HBN-127-2013` (2021-05-09), `HCNPF-14-5-2016` (2022-05-06), `UA-STATUT-2011` (2022-05-27), `L-160-2023` (2023-10-01), `L-183-2016` (2023-10-21), `L-148-2023` (2024-01-08), `L-64-2010` (2024-01-23), `L-325-2013` (2024-03-29), `DCA-61-2024` (2024-05-05), `HG-1171-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `HG-574-2024` (2024-08-23). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
 - **BNM English corpus.** 60 file(s) carry 149 line-initial `Article N` markers and no anchors. Any answer resting on the English BNM translations is not anchored.
 
 <!-- COVERAGE:END -->
@@ -439,6 +447,26 @@ Do not resolve these on your own. Raise them if a matter touches them.
    renumbering looks like, not an extraction fault. No exact old-to-new mapping attempted; that
    needs legis.md's own concordance for the renumbering law (likely Legea 133/2018), and the route
    there is blocked the same way as everything else on legis.md today.
+
+   **Closed 2026-09-18 for everything except the `48^N` cluster: the renumbering law was Legea
+   133/2018, it is now ingested as `L-133-2018`, and the concordance is readable from it.** Its
+   art. I carries 1,400 Civil Code article titles in the pre-republication numbering; matching
+   those titles against today's `CC-1107-2002` anchors gives an exact hit for 1,176 of them (84%),
+   a rewritten-title hit for 197, and nothing for 27. Every old number this wiki had a citation
+   for resolves: **330^4 → 526**, **1572^117 → 2419**, **1575^4 → 2428**, **1575^5 → 2429**,
+   **1575^9 → 2433**, **1575^10 → 2434** (the whole block moves as **1575^N → 2424 + N**, checked
+   on four independent points, not extrapolated from one), **1144^9 → 1614**. One stays ambiguous
+   and must not be guessed: **283^27** matches the title of *both* art. 435 and art. 450 today
+   ("Drepturile, actele sau faptele supuse notării"); the citing context in `COD-225-2003` is the
+   immovables register, which leans to 450, but leaning is not citing. Method, counts and the full
+   table: section AE of `raw/papers/moldova-legal/_manifest.md` and `entities/L-133-2018.md`.
+
+   **What stays open, and it is now a narrower question.** The `art. 48^12 / 48^15 / 48^21 /
+   48^27 / 48^28 / 48^30 / 48^40` cluster (ocrotire judiciară, cited by `COD-225-2003`) does
+   **not** come from Legea 133/2018 — that act contains no `48^N` article at all, and its only
+   three titles mentioning "ocrotire" are arts. 1051, 1575^30 and 1591. Some other amending law
+   introduced that chapter; finding it is the remaining work, and it is the same method again
+   (ingest the amending law, match titles).
 
    **Real gap, dated and closed the same day: `L-171-2012` arts. 81-88 were repealed by LP23 din
    27.02.2020, in force 20.04.2020 — two CNPF regulations still cite them as live legal basis.**

@@ -30,10 +30,18 @@ for stem, doc in ibl.DOCS.items():
     # 2. the body we wrote, with our added structure stripped back off
     marker = '## Text integral extras din legis.md'
     body = md.split(marker, 1)[1]
+    # anchor_mode='roman-amending' (2026-09-18, L-133-2018): ancora nu este linia sursa cu un
+    # "## " in fata, ci o linie NOUA, inserata deasupra ei ("## Articolul I." peste "Art. I. -
+    # ..."). Scoaterea prefixului ar lasa-o in lista si proba ar pica pe o linie in plus care
+    # nu vine din sursa. Se elimina complet; linia sursa de dedesubt ramine si se compara.
+    mode = doc.get('anchor_mode')
+    INSERTED = re.compile(r'^## Articolul [IVXLCDM]+\.$')
     written = []
     for line in body.split('\n'):
         line = line.strip()
         if not line:
+            continue
+        if mode == 'roman-amending' and INSERTED.match(line):
             continue
         written.append(re.sub(r'^#{2,3}\s+', '', line))
 
@@ -101,14 +109,25 @@ for stem, doc in ibl.DOCS.items():
                                        x))
     _inline = [l for l in reference
                if re.search(r'Articolul\s+\d+\^\d+', l) and not _heading.match(l)]
-    match = sorted(sup_anchors, key=lambda x: (int(x.split('^')[0]),
-                                               int(x.split('^')[1].split('/')[0]),
-                                               x)) == sup_source
-    print(f"  superscript articles    : {'PASS' if match else 'FAIL'}  "
-          f"{len(sup_anchors)} anchored -> {', '.join(sup_anchors)}")
-    if not match:
-        fail += 1
-        print(f"    source expects: {', '.join(sup_source)}")
+    if mode == 'roman-amending':
+        # Titlurile "Articolul N^M" din corpul unei legi de modificare sint ale actelor
+        # MODIFICATE, reproduse aici; nu sint dispozitii proprii si nu se ancoreaza. Controlul
+        # care cere o ancora pentru fiecare ar raporta sute de ancore lipsa care nu au ce sa
+        # existe - aceeasi clasa de eroare ca la COD-434-2023 in 2026-09-05, doar ca acolo erau
+        # trei cazuri intr-un bloc final, iar aici este tot corpul actului. Se raporteaza ca
+        # informatie, fiindca este exact continutul care face din acest fisier o concordanta
+        # intre numerotarea de dinainte de 2019 si cea de azi.
+        print(f"  superscript articles    : SKIP (lege de modificare; {len(sup_source)} titluri "
+              f"^N in corp apartin actelor modificate, nu acestui act)")
+    else:
+        match = sorted(sup_anchors, key=lambda x: (int(x.split('^')[0]),
+                                                   int(x.split('^')[1].split('/')[0]),
+                                                   x)) == sup_source
+        print(f"  superscript articles    : {'PASS' if match else 'FAIL'}  "
+              f"{len(sup_anchors)} anchored -> {', '.join(sup_anchors)}")
+        if not match:
+            fail += 1
+            print(f"    source expects: {', '.join(sup_source)}")
     if _inline:
         print(f"  ^N in fraza, nu titlu  : {len(_inline)} (trimiteri la articole ale ALTOR acte, "
               f"nu ancore lipsa)")
@@ -129,15 +148,26 @@ for stem, doc in ibl.DOCS.items():
     # excluda articolele cu exponent (`Articolul 25^1.`), fiindca dupa cifre urmeaza `^`,
     # care nu este niciunul dintre cele trei. Exclude si formele cu litera (`Articolul 12a`),
     # ca inainte.
-    plain = [int(x) for x in re.findall(r'^## Articolul (\d+)(?=[.\s]|$)', md, re.M)]
-    untitled = re.findall(r'^## Articolul (\d+)\s*$', md, re.M)
-    dupes = sorted({n for n in plain if plain.count(n) > 1})
-    gaps = [n for n in range(1, max(plain) + 1) if n not in plain] if plain else []
-    print(f"  plain articles          : {len(plain)}  range 1-{max(plain) if plain else 0}")
-    if untitled:
-        print(f"  fara punct dupa numar   : {', '.join(untitled)}  (articole fara titlu in sursa)")
-    print(f"  duplicates              : {dupes if dupes else 'none'}")
-    print(f"  numbering gaps          : {gaps if gaps else 'none'}")
+    if mode == 'roman-amending':
+        roman = re.findall(r'^## Articolul ([IVXLCDM]+)\.$', md, re.M)
+        src_roman = [m.group(1) for l in reference for m in [ibl.ART_ROMAN_RE.match(l)] if m]
+        ok = roman == src_roman
+        print(f"  articole romane         : {'PASS' if ok else 'FAIL'}  "
+              f"{len(roman)} ancorate -> {', '.join(roman)}")
+        if not ok:
+            fail += 1
+            print(f"    sursa cere: {', '.join(src_roman)}")
+        print(f"  plain articles          : n/a (act de modificare, articole numerotate roman)")
+    else:
+        plain = [int(x) for x in re.findall(r'^## Articolul (\d+)(?=[.\s]|$)', md, re.M)]
+        untitled = re.findall(r'^## Articolul (\d+)\s*$', md, re.M)
+        dupes = sorted({n for n in plain if plain.count(n) > 1})
+        gaps = [n for n in range(1, max(plain) + 1) if n not in plain] if plain else []
+        print(f"  plain articles          : {len(plain)}  range 1-{max(plain) if plain else 0}")
+        if untitled:
+            print(f"  fara punct dupa numar   : {', '.join(untitled)}  (articole fara titlu in sursa)")
+        print(f"  duplicates              : {dupes if dupes else 'none'}")
+        print(f"  numbering gaps          : {gaps if gaps else 'none'}")
 
     # 7. frontmatter sanity
     fm = md.split('---', 2)[1]

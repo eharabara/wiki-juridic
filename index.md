@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-17 | Total pages: 141
+> Last updated: 2026-09-18 | Total pages: 142
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -53,6 +53,7 @@
 - [[L-132-2016]] — Legea nr. 132/2016 cu privire la Autoritatea Națională de Integritate: organizează ANI și procedura de control a averii/conflictelor de interese, contrapartea instituțională a L-133/2016; 45 de ancore, consolidare viitoare 2027-01-01; două decizii HCC (HCC29/2021, HCC6/2018) neatribuite unui articol.
 - [[L-133-2011]] — Legea nr. 133/2011 privind protecția datelor cu caracter personal: **ABROGATĂ de la 23.08.2026** prin art. 90 alin. (3) lit. b) din L-195/2024; păstrată fiindcă 19 acte din corpus încă trimit la ea și fiindcă guvernează faptele anterioare.
 - [[L-133-2016]] — Legea nr. 133/2016 privind declararea averii și a intereselor personale: ANI exercită controlul (art. 22); art. 3 lit. e^1) numește expres personalul BNM și CNPF ca subiecți ai declarării; art. 23 alin. (5^1) lovit de HCC29/2021; 27 de ancore, consolidare viitoare 2027-01-01, 6 dispoziții amânate.
+- [[L-133-2018]] — Legea nr. 133/2018 privind modernizarea Codului civil: actul care a rescris Codul civil de la 1 martie 2019; 17 articole proprii, numerotate roman, și 16 acte modificate. Sursa concordanței dintre numerotarea de dinainte de republicare (art. 330^4, 1575^N) și cea de azi — 1.176 din 1.400 de titluri se potrivesc exact în CC-1107-2002.
 - [[L-135-2007]] — Legea nr. 135/2007 privind societatile cu raspundere limitata: actul de baza pentru SRL, consolidare 2026-03-27, 83 de articole plus 10 cu exponent.
 - [[L-139-2007]] — Legea nr. 139/2007 privind asociațiile de economii și împrumut
 - [[L-148-2023]] — Legea accesului la informațiile de interes public: 35 de ancore, nemodificată, în vigoare 08.01.2024; furnizorii de informații, contenciosul administrativ.

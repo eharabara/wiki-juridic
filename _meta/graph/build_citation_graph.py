@@ -245,6 +245,25 @@ class Act:
             if m:
                 self.anchors.append((i, m.group(1), m.group(2).strip()))
         self.anchor_set = {a for _, a, _ in self.anchors}
+        # Lege de modificare in forma clasica: TOATE articolele proprii sint numerale romane
+        # (Art. I, II, ... XVII), iar intre ele actul reproduce textul nou al actelor pe care
+        # le modifica, cu numerotarea ACELOR acte. Consecinta pentru graf, masurata 2026-09-18
+        # la ingerarea L-133-2018 (modernizarea Codului civil, 16 acte modificate, 9970 de linii
+        # numai in art. I): regula "modificare" din resolve_group ia ultimul act numit inaintea
+        # ultimului marcaj de modificare, iar intr-un articol atit de lung contextul migreaza -
+        # 514 din cele 837 de trimiteri au fost atribuite lui COD-225-2003 si 95 lui CONST-1994,
+        # cind art. I modifica de fapt Codul civil. 557 din cele 646 de randuri "nerezolvate"
+        # ale grafului veneau din acest singur act, adica 86% din tabel, toate false.
+        # Decizia: nu se extrag muchii la nivel de ARTICOL din aceste acte. Muchiile act -> act
+        # raman, deci coada de ingerare si tabelul "cine citeaza actul X" nu pierd nimic; se
+        # pierde doar o atribuire pe care textul nu o sustine. Este acelasi principiu ca la
+        # actele structurate pe puncte: mai bine nicio muchie decat o muchie dedusa gresit.
+        # Costul, masurat inainte de aplicare: dispar si 24 de muchii corecte, de la L-177-2025
+        # (10) si L-178-2020 (14), acte de modificare scurte, cu o singura tinta, unde contextul
+        # nu avea de unde sa migreze. Regula este reversibila: se sterge conditia de mai jos.
+        # CONST-1994 NU intra aici: are 157 de articole, din care doar 8 romane, deci `all` e fals.
+        self.amending_roman = bool(self.anchors) and all(
+            ROMAN_RE.match(a.lower()) for _, a, _ in self.anchors)
         self.title = (fm.get("official_title_detected") or fm.get("title") or act_id).strip().strip("'\"")
         # titlul fara antetul "LEGE Nr. N din ZZ.LL.AAAA", pentru rezolvarea legilor citate pe nume
         t = norm(self.title)
@@ -685,7 +704,8 @@ def build():
                 ed = edge(seg_id, tid, "cites_act", line_of(ts), snippet(text, ts, te))
                 ed.setdefault("articles", set())
                 tok_edge[i] = ed
-            for g_start, g_end, nums in group_arts(text, arts):
+            for g_start, g_end, nums in ([] if act.amending_roman
+                                         else group_arts(text, arts)):
                 ti, rule = resolve_group(text, g_start, g_end, toks, amend_positions)
                 target_act = aid if ti is None or toks[ti][2] is None or toks[ti][2] == aid else toks[ti][2]
                 line = line_of(g_start)
@@ -1129,6 +1149,10 @@ def report(graph, acts):
     a("- Nu deduce. O muchie exista numai daca textul o contine, si poarta liniile din care vine.")
     a("- Nu coboara sub articol: `alin.`, `lit.`, `pct.` nu sint noduri.")
     a("- Nu citeste articolele actelor pe puncte (HG, regulamente BNM si CNPF, proceduri DCU), nici extrasele UE: pentru ele exista doar muchii la nivel de act.")
+    a("- Nu citeste articolele **legilor de modificare cu articole romane** (`L-133-2018`, `L-177-2025`, `L-178-2020`): "
+      "textul dintre articolele lor proprii este textul nou al actelor modificate, cu numerotarea ACELOR acte, iar "
+      "regula `modificare` nu tine pasul cind un singur articol are mii de linii si mai multe tinte. Masurat 2026-09-18 "
+      "pe `L-133-2018`: 514 din 837 de trimiteri atribuite gresit lui `COD-225-2003`. Muchiile act -> act raman.")
     a("- Citeste numai numerele scrise dupa `art.` sau `articolul`. Intr-un interval (`art. 5-7`) sau intr-o enumerare "
       "prescurtata (`art. 2-5, 7-21`) numerele care urmeaza fara `art.` nu sint citite.")
     a("- Un articol citat fara act in context este atribuit actului curent. Regulile de context sint cele de mai sus; "

@@ -2257,6 +2257,115 @@ de a se baza pe trimiterea din legea BNM într-o speță concretă.
 Pagini de entitate: [[L-325-2013]] (nouă); [[L-192-1998]] și [[L-548-1995]] actualizate cu
 legăturile și, pentru a doua, cu anomalia găsită.
 
+## AE. Modernizarea Codului civil — L-133/2018 (ingerată 2026-09-18)
+
+**Sursa.** doc_id **34327**, `showdetails/34327`, HTML 4.859.144 octeți. Publicată 14.12.2018
+(MO 467-479 art. 784), **în vigoare 1 martie 2019**. O singură versiune în istoricul fișei: o
+lege de modificare care nu a fost ea însăși modificată. „Data abrogării": `-`. `never_amended`,
+deci consolidarea scrisă în frontmatter este data intrării în vigoare, 2019-03-01 — actul apare
+la „stale consolidations" în blocul de acoperire, ceea ce este corect: o lege de modificare
+consumată nu se mai reîmprospătează.
+
+**Ruta de descărcare.** curl primește 403 de la Cloudflare pe orice `/cautare/*`, inclusiv cu cele
+două antete din nota de metodă. Browserul intern al sesiunii a trecut verificarea din prima, iar
+HTML-ul a fost luat cu `fetch` same-origin + blob download (ajunge în `Downloads` cu nume GUID și
+extensia `.tmp`, nu cu numele cerut — se identifică după dimensiune). O încercare intermediară de
+a trimite octeții către un receptor local pe `127.0.0.1` a eșuat: pagina este `https`, iar
+Private Network Access cere un preflight pe care serverul local trebuie să-l accepte explicit;
+chiar și cu antetul `Access-Control-Allow-Private-Network` fetch-ul a rămas blocat. Ruta blob este
+cea care funcționează.
+
+### AE.1 De ce acest act, și ce a costat structura lui
+
+Ales **nu** după coloana a treia a cozii de ingerare (21 de mențiuni, doar 2 acte citatoare —
+`L-1125-2002` de 20 de ori, `CC-1107-2002` o dată), ci fiindcă este singurul candidat care
+închide o întrebare deschisă deja consemnată: punctul 8 din `CLAUDE.md`, ciorchinele de trimiteri
+nerezolvate către Codul civil cu numerotarea de dinainte de 2019, unde ipoteza scrisă era
+„probabil Legea 133/2018".
+
+**Structura a cerut o regulă nouă de ancorare.** Actul are **17 articole proprii, numerotate
+roman** (`Art. I. –` … `Art. XVII. –`), iar între ele reproduce textul nou al celor 16 acte pe
+care le modifică. Extractorul implicit ar fi scris **1.434 de ancore `## Articolul N`** — titluri
+ale Codului civil, ale Codului de procedură civilă, ale legii insolvabilității — plus 42 de forma
+`Art.N. -`, 101 secțiuni, 33 de capitole și 7 titluri. O ancoră spune „aici începe dispoziția X a
+actului Y"; pusă pe text citat, minte de două ori.
+
+Soluția: `anchor_mode='roman-amending'` în `ingest_business_law.py`, care ancorează **numai** cele
+17 articole romane și suprimă toate celelalte ramuri de ancorare. Ancora se **inserează ca linie
+nouă deasupra** liniei sursă, în forma `## Articolul I.` — convenția deja prezentă în corpus la
+`L-177-2025` și `L-178-2020`, și singura pe care o recunosc `ROMAN_RE` din `build_coverage.py` și
+`ANCHOR_RE` din `build_citation_graph.py`. Linia originală `Art. I. – …` rămâne neatinsă
+dedesubt, deci proba prin ștergerea liniilor `##` reface corpul octet cu octet. `verify_business_law.py`
+a fost învățat aceeași excepție: **text integrity PASS, 10.679 linii scrise vs 10.679 de
+referință; 17 articole romane PASS.**
+
+### AE.2 Concordanța numerotării, care este livrabilul real
+
+Nu se deduce nimic din numere. Se citește **titlul** articolului așa cum îl scrie legea de
+modificare și se caută același titlu printre ancorele Codului civil de azi. Măsurat pe tot
+articolul I: din **1.400** de titluri, **1.176 (84%)** au potrivire exactă de titlu în
+`CC-1107-2002`, 197 au titlul rescris, 27 nu au corespondent.
+
+| citat ca (vechi) | azi | titlu | citat de |
+|---|---|---|---|
+| art. 330^4 | **526** | Uzucapiunea dreptului contrar cuprinsului registrului (azi „…de publicitate") | `COD-225-2003` (x3) |
+| art. 283^27 | **435 sau 450** | Drepturile, actele sau faptele supuse notării | `COD-225-2003` |
+| art. 1572^117 | **2419** | Cheltuielile de îngrijire și de înmormîntare | `L-149-2012` |
+| art. 1575^4 | **2428** | Excluderea creanțelor neînaintate | `L-149-2012` |
+| art. 1575^5 | **2429** | Excepția de tardivitate în declararea creanțelor | `L-149-2012` |
+| art. 1575^9 | **2433** | Răspunderea moștenitorului pentru administrarea anterioară | `L-149-2012` (x3) |
+| art. 1575^10 | **2434** | Stingerea obligației masei succesorale | `L-149-2012` |
+| art. 1144^9 | **1614** | Intermedierea serviciilor de călătorie asociate | `L-1125-2002` |
+
+Blocul masei succesorale se mută în bloc, **1575^N → 2424 + N**, confirmat pe patru puncte
+independente. `283^27` rămâne **ambiguu**: titlu identic la art. 435 și art. 450 de azi; contextul
+din `COD-225-2003` înclină spre 450, dar înclinarea nu este citare.
+
+### AE.3 Ce nu rezolvă, verificat
+
+**Ciorchinele `48^12`, `48^15`, `48^21`, `48^27`, `48^28`, `48^30`, `48^40` — ocrotirea judiciară
+— nu vine de aici.** Actul nu conține niciun articol `48^N`; singurele trei titluri cu „ocrotire"
+din tot textul sunt art. 1051, 1575^30 și 1591. Punctul 8 din `CLAUDE.md` rămâne deschis pentru
+ele, cu o întrebare mai îngustă: care lege a introdus capitolul ocrotirii judiciare.
+
+### AE.4 Efectul asupra grafului de citare — o regulă nouă, și de ce
+
+Prima rulare după ingerare a arătat problema: din cele 837 de muchii la nivel de articol ale
+actului, **514 au fost atribuite lui `COD-225-2003`** și 95 lui `CONST-1994`, deși art. I modifică
+Codul civil. **557 din cele 646 de rânduri „nerezolvate" ale grafului veneau din acest singur act,
+adică 86% din tabel, toate false** — într-un tabel pe care `CLAUDE.md` punctul 8 îl declară
+verificat exhaustiv, grup cu grup.
+
+Cauza este cea deja consemnată la `COD-434-2023#art.389`, dar la altă scară: regula `modificare`
+din `resolve_group` ia ultimul act numit înaintea ultimului marcaj de modificare, iar într-un
+articol de aproape 9.900 de linii cu 16 ținte contextul migrează.
+
+**Decizia:** `build_citation_graph.py` nu mai extrage muchii **la nivel de articol** din actele
+ale căror ancore sunt **toate** numerale romane — semnătura unei legi de modificare clasice.
+Muchiile act → act rămân, deci coada de ingerare și tabelul „cine citează actul X" nu pierd nimic;
+se pierde doar o atribuire pe care textul nu o susține. Același principiu ca la actele structurate
+pe puncte. `CONST-1994` nu intră (157 de articole, doar 8 romane).
+
+Costul, măsurat **înainte** de aplicare și consemnat ca atare: dispar și **24 de muchii corecte**,
+de la `L-177-2025` (10) și `L-178-2020` (14) — acte de modificare scurte, cu o singură țintă, unde
+contextul nu avea de unde să migreze. Regula este reversibilă printr-o condiție.
+
+Cifrele grafului, înainte → după ingerare, cu regula aplicată: acte 99 → **100**; dispoziții
+12.259 → **12.276**; muchii act → act 2.696 → **2.770** (+74, câștigul); rezolvate în alt act
+deținut 1.094 → **1.070** (−24, costul); nerezolvate 102 → **100** și, agregat, 89 → **88**
+(diferența de 1 grup este exact muchia nerezolvată a lui `L-177-2025`). „Rezolvate în actul
+curent" rămâne **7.178**, neschimbat — proba că regula nu a atins niciun alt act.
+
+### AE.5 De reținut pentru următoarea lege de modificare
+
+O lege de modificare nu se ingerează ca o lege obișnuită. Trei lucruri, în ordinea în care mușcă:
+ancorarea implicită produce sute de ancore false; verificatorul de integritate compară linie cu
+linie și cade dacă ancora rescrie linia în loc să se insereze deasupra ei; graful atribuie greșit
+trimiterile dintr-un articol lung cu mai multe ținte. Primele două se rezolvă cu `anchor_mode`,
+a treia cu regula din AE.4.
+
+Pagini de entitate: [[L-133-2018]] (nouă).
+
 ## D. Artefacte metodologice create
 
 | Artefact | Tip | Rol |

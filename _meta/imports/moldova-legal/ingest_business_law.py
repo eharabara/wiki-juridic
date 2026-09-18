@@ -645,6 +645,53 @@ DOCS = {
     # "fara articol").
     'L-325-2013': {'doc_id': '142068',
                    'title': 'Legea nr. 325/2013 privind evaluarea integritatii institutionale'},
+
+    # 2026-09-18, al optulea act din coada de ingerare, si primul ales NU dupa coloana a treia.
+    # 21 de mentiuni, doar 2 acte citatoare (L-1125-2002 de 20 de ori, CC-1107-2002 o data),
+    # deci mecanic ar fi stat la mijlocul cozii. Motivul real: este singurul candidat care
+    # inchide o intrebare deschisa deja consemnata in CLAUDE.md, punctul 8 - ciorchinele de
+    # 13 trimiteri nerezolvate catre CC-1107-2002 cu numerotarea de dinainte de 2019, unde
+    # ipoteza scrisa era "probabil Legea 133/2018". Este ea.
+    # CONFIRMAT INAINTE DE RULARE, pe textul sursei, nu pe presupunere: actul poarta ca titluri
+    # de articol exact numerele vechi pe care le citeaza celelalte acte -
+    #   Articolul 330^4  "Uzucapiunea dreptului contrar cuprinsului registrului" (citat de
+    #     COD-225-2003 de 3 ori; art. 330 de azi este "Nulitatea relativa a actului juridic")
+    #   Articolul 283^27 "Drepturile, actele sau faptele supuse notarii" (COD-225-2003)
+    #   Articolul 1575^4 "Excluderea creantelor neinaintate", 1575^9 "Raspunderea mostenitorului
+    #     pentru administrarea anterioara", 1572^117 "Cheltuielile de ingrijire si de
+    #     inmormintare" (toate citate de L-149-2012 pentru masa succesorala)
+    # LIMITA, verificata tot inainte de rulare si consemnata ca sa nu se supraliciteze: ciorchinele
+    # art. 48^12/48^21/48^28/48^30/48^40 (ocrotirea judiciara, citat de COD-225-2003) NU vine de
+    # aici. Actul nu are niciun articol 48^N; singurele trei titluri cu "ocrotire" sint 1051,
+    # 1575^30 si 1591. Acele articole au fost introduse de o alta lege de modificare, negasita inca.
+    # STRUCTURA, motivul pentru care acest act a cerut anchor_mode. Este o lege de MODIFICARE:
+    # are 17 articole proprii, numerotate roman, scrise "Art. I. - ", "Art. II. - " etc., iar
+    # intre ele reproduce textul nou al actelor modificate. Extractorul implicit ar fi scris
+    # 1434 de ancore "## Articolul N" (text citat al Codului civil, al CPC, al legii
+    # insolvabilitatii...), plus 42 de forma "Art.N. -", 101 sectiuni, 33 de capitole si 7
+    # titluri - toate ancore pentru dispozitii care NU sint ale acestui act, si care ar fi
+    # intrat in graful de citare si in registrele generate ca dispozitii proprii. De aceea
+    # anchor_mode='roman-amending': se ancoreaza NUMAI cele 17 articole romane, iar ancora se
+    # insereaza ca linie noua deasupra liniei sursa, in forma "## Articolul I." - conventia deja
+    # folosita in corpus pentru L-177-2025 si L-178-2020, singura pe care ROMAN_RE din
+    # build_coverage.py si ANCHOR_RE din build_citation_graph.py o recunosc. Linia originala
+    # "Art. I. - ..." ramine neatinsa dedesubt.
+    # Cele 17 articole, tinta fiecaruia (citita din prima linie): I Codul civil, II L-1125-2002,
+    # III Codul familiei, IV L-1260-2002 (avocatura), V L-1453-2002 (notariat), VI L-105-2003,
+    # VII COD-122-2003 art. 220, VIII COD-225-2003, IX COD-443-2004 art. 11, X L-407-2006
+    # (asigurari), XI L-131-2007, XII L-135-2007, XIII L-220-2007, XIV COD-218-2008 art. 45,
+    # XV L-98-2012, XVI L-149-2012 (insolvabilitate), XVII abrogarile de la 1 martie 2019.
+    # Zece dintre aceste tinte sint deja in vault.
+    # Restul verificarii prealabile: doc_id 34327, SINGURA versiune din istoric (act de modificare,
+    # niciodata modificat el insusi); "Data abrogarii" in fisa: "-"; fara rind MODIFICAT, deci
+    # never_amended, iar consolidarea va fi data intrarii in vigoare, 2019-03-01 - act vechi,
+    # va aparea la "stale consolidations", ceea ce este corect si inofensiv pentru o lege de
+    # modificare consumata. 1950 <sup>, niciun span ridicat prin CSS, fara CUPRINS.
+    # HTML 4.859.144 octeti, luat prin browserul intern (curl primeste 403 de la Cloudflare).
+    'L-133-2018': {'doc_id': '34327',
+                   'anchor_mode': 'roman-amending',
+                   'title': 'Legea nr. 133/2018 privind modernizarea Codului civil si '
+                            'modificarea unor acte legislative'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul
@@ -762,7 +809,28 @@ def fetch(doc_id):
         f"nici cache utilizabil in {out}. Ia HTML-ul din Chrome (vezi docstring).")
 
 
-def extract_doc(data):
+# Articolele proprii ale unei legi de modificare din vechea scoala de redactare: numeral roman,
+# punct, linie de dialog. Nu se confunda cu ART_ABBR_NUM_RE (cifre) folosit pentru L-1125-2002.
+ART_ROMAN_RE = re.compile(r'^Art\.\s*([IVXLCDM]+)\.\s*[-–—]')
+
+
+def extract_doc(data, anchor_mode=None):
+    """anchor_mode='roman-amending': ancoreaza NUMAI articolele romane proprii ale actului.
+
+    Adaugat 2026-09-18, la ingerarea L-133-2018. O lege de modificare reproduce in corpul ei
+    textul nou al actelor pe care le modifica, cu titlurile lor de articol, de capitol si de
+    sectiune. Regulile implicite de ancorare le-ar lua pe toate drept structura proprie: la
+    L-133-2018 asta inseamna 1434 de ancore "## Articolul N" care apartin Codului civil, CPC-ului
+    si legii insolvabilitatii, nu acestei legi. O ancora spune "aici incepe dispozitia X a actului
+    Y"; pusa pe text citat, minte de doua ori - despre autor si despre ce se poate cita de acolo.
+    De aceea in acest mod se suprima TOATE celelalte ramuri de ancorare, nu doar cea de articol.
+
+    Ancora nu rescrie linia sursa, ci se insereaza ca linie noua deasupra ei, in forma
+    "## Articolul <ROMAN>." - conventia deja prezenta in corpus la L-177-2025 si L-178-2020,
+    si singura forma pe care o recunosc ROMAN_RE din build_coverage.py si ANCHOR_RE din
+    build_citation_graph.py. Linia originala "Art. I. - ..." ramine intacta dedesubt, deci
+    proba prin stergerea liniilor "## " reface corpul octet cu octet.
+    """
     doc = html.fromstring(data)
     content = doc.xpath('//*[@id="contentdoc"]')[0]
     meta_nodes = doc.xpath('//*[@id="contentdoc_act"]')
@@ -829,6 +897,13 @@ def extract_doc(data):
     md_lines = []
     for i, l in enumerate(lines):
         in_toc = toc_from <= i <= toc_to
+        if anchor_mode == 'roman-amending':
+            m = ART_ROMAN_RE.match(l)
+            if m:
+                md_lines += ['', f"## Articolul {m.group(1)}.", l]
+            else:
+                md_lines.append(l)
+            continue
         if in_toc:
             md_lines.append(l)
         elif re.match(r'^(TITLUL|Titlul)\s+[IVXLCDM]+(\^\d+)?\b(?![,])', l):
@@ -933,9 +1008,14 @@ def future_pending(parsed):
 
 
 def make_raw(stem, spec, parsed, show_url):
-    sup_arts = sorted({m for l in parsed['lines']
-                       for m in re.findall(r'^Articolul (\d+\^\d+)', l)},
-                      key=lambda x: (int(x.split('^')[0]), int(x.split('^')[1])))
+    # In modul 'roman-amending' liniile "Articolul N^M" din corp sint titluri ale actului
+    # MODIFICAT, reproduse aici. Cimpul `superscript_articles` declara exponentii articolelor
+    # PROPRII ale fisierului; umplut cu ele ar spune, in frontmatter, ca L-133-2018 are un
+    # articol 1575^4. Se lasa gol, iar numerele vechi ramin unde le este locul: in corpul
+    # textului, care este tocmai ce face din acest fisier o concordanta.
+    sup_arts = [] if spec.get('anchor_mode') == 'roman-amending' else sorted(
+        {m for l in parsed['lines'] for m in re.findall(r'^Articolul (\d+\^\d+)', l)},
+        key=lambda x: (int(x.split('^')[0]), int(x.split('^')[1])))
     pending = future_pending(parsed)
     repeal = repeal_of(parsed)
     body = [
@@ -1082,7 +1162,7 @@ def main():
         resolved = resolve_superscripts(data)
         if not resolved or '<sup' in resolved:
             raise RuntimeError('resolve_superscripts nu a rezolvat exponentii')
-        parsed = extract_doc(resolved)
+        parsed = extract_doc(resolved, anchor_mode=spec.get('anchor_mode'))
         (RAW_DIR / f"{stem}.md").write_text(make_raw(stem, spec, parsed, show_url),
                                             encoding='utf-8', newline='\n')
         print(f"{stem}: {parsed['article_count']} articole, "
