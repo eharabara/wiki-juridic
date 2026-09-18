@@ -2515,14 +2515,36 @@ Adâncimea maximă a concatenării este **măsurată, nu aleasă**: cu 3 rămân
 șapte, cu 6 două, cu 8 unul singur — și acela nu mai scade la 12, fiindcă e alt tipar. Titlurile
 lungi din coduri chiar se întind pe atâtea rânduri în sursă.
 
-**Un singur eșec rămâne, lăsat vizibil dinadins.** `L-105-2003` art. 36: sursa scrie
-`Articolul 36.Alte organe...` **fără spațiu** după punct, iar `fix_wrapped_titles.py` a rescris
-antetul cu spațiu. Nu e o concatenare, e un caracter adăugat, deci regula nu-l acoperă și nici nu
-trebuie. Corpul e neatins — rândurile de continuare stau acolo, octet cu octet; diferența e numai
-în linia de ancoră, adică în structura adăugată de noi. Confirmat pe git: înainte de 16 septembrie
-antetul era `## Articolul 36.Alte organe ale administraţiei publice`. Un singur caz în tot corpusul.
-**Decizia îi aparține lui Eugen:** fie se restaurează antetul la forma sursei, fie se acceptă
-normalizarea spațiului în ancoră și atunci se scrie regula pentru ea.
+### AF.8 Ultimul eșec, auditat pe tot corpusul și închis
+
+Rămăsese unul: `L-105-2003` art. 36, unde sursa scrie `Articolul 36.Alte organe...` **fără spațiu**
+după punct, iar `fix_wrapped_titles.py` a rescris antetul cu spațiu. Nu e o concatenare, e un
+caracter adăugat.
+
+**Întâi s-a stabilit dacă e singurul, fiindcă verificatorul acoperă numai actele din `DOCS`, iar
+jobul de dezlipire a atins 68 de fișiere din trei rădăcini.** Audit complet al commit-ului
+`088f1ff`, pe corp (commit-ul adaugă și 9 linii de frontmatter, deci comparația pe fișierul întreg
+nu se aliniază): pentru fiecare linie de antet schimbată s-a cerut ca noul text să fie exact
+concatenarea, cu un spațiu, a vechiului antet cu următoarele linii din versiunea veche. Rezultat:
+**4.972 de antete prin concatenare curată, 8 „abateri", din care 7 nu au nicio legătură cu
+dezlipirea** — trei linii de numărătoare reparate în același commit (`L-177-2025`, `L-178-2020`,
+`L-192-1998`), trei extrase UE noi și manifestul CNPF. **Rămâne exact unul.**
+
+**Rezolvat prin restaurarea antetului la forma sursei**, `## Articolul 36.Alte organe ... a
+consumatorilor`: se șterge numai spațiul adăugat, coada lipită rămâne, fiindcă lipirea este
+transformarea documentată și acceptată. `sha256` recalculat; validatorul verifică 433 din 433 de
+surse raw.
+
+**De ce în această direcție și nu invers.** Wiki-ul refuză să corecteze `Aricolul 78` și
+`Articol 52` în sursă (punctul 4 din `CLAUDE.md`) tocmai pentru că textul nu se rescrie. O
+normalizare tăcută de spațiu în antet este aceeași categorie de gest, doar mai mică. Convenția
+scrisă în extractor o spune direct: *ancora reia linia așa cum este*.
+
+**Verificatorul trece acum complet: 58 de acte, 0 eșecuri.** Și a fost făcut robust la un al
+doilea lucru descoperit aici: o intrare în `DOCS` poate precede ingerarea (alt fir de lucru își
+scrie intrarea înainte de a descărca HTML-ul), iar până acum asta oprea unealta cu
+`FileNotFoundError` la primul act neingerat — deci lucrul în curs al unei sesiuni o făcea
+inutilizabilă pentru toate celelalte. Acum sare peste, vizibil, și continuă.
 
 Pagini de entitate: [[L-66-2017]] (nouă); [[L-133-2018]] actualizată cu legătura și cu corecția
 de la `283^27`.

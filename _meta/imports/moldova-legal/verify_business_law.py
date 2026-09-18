@@ -18,6 +18,16 @@ META = Path(r"C:\Users\harab\wiki\_meta\imports\moldova-legal\legis-md-business"
 fail = 0
 for stem, doc in ibl.DOCS.items():
     print(f"\n{'=' * 74}\n{stem}  (doc_id {doc['doc_id']})\n{'=' * 74}")
+    # O intrare in DOCS poate precede ingerarea: alt fir de lucru isi scrie intrarea inainte de
+    # a descarca HTML-ul. Pina la 2026-09-18 asta oprea verificatorul cu FileNotFoundError la
+    # primul act neingerat, deci lucrul in curs al unei sesiuni facea unealta inutilizabila
+    # pentru toate celelalte. Se sare peste, vizibil, si se continua.
+    if not (RAW / f"{stem}.md").exists():
+        print("  SARIT: actul nu este inca ingerat (intrare DOCS fara fisier in raw/)")
+        continue
+    if not (META / f"showdetails-{doc['doc_id']}.html").exists():
+        print("  SARIT: lipseste HTML-ul de referinta din cache")
+        continue
     md = io.open(RAW / f"{stem}.md", encoding='utf-8').read()
 
     # 1. reference extraction straight from the archived HTML

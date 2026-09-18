@@ -152,7 +152,7 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-18 13:24 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-18 13:49 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
 92 primary Moldovan acts, 32 EU acquis extracts, 1 Association Agreement extract(s), 293 BNM corpus documents.
 
@@ -678,6 +678,19 @@ with no basis in the source. The refreshed consolidation contains it. No action 
    by manually reading samples before writing, not by the script's own self-check (which only
    proves headings-stripped equality, not title correctness) — a reminder that the mechanical proof
    and the semantic proof are different checks, and this job needed both.
+
+   **Audited end to end on 2026-09-18, and it was not quite clean.** The claim above — headings
+   only, joins only — was checked for every one of the 68 raw files the commit touched, on the
+   body (the commit also adds 9 frontmatter lines, so a whole-file comparison does not align):
+   each changed heading had to be exactly the old heading joined, with a space, to the following
+   source lines. **4,972 headings were clean joins; exactly one was not.** `L-105-2003` art. 36
+   had a space inserted after the number, where legis.md writes `Articolul 36.Alte organe...`
+   with none. Restored to the source form on 2026-09-18 (the join kept, only the space removed),
+   `sha256` recomputed. The other seven flagged differences belong to other work in the same
+   commit, not to the unwrap. With that one fixed, `verify_business_law.py` passes the whole
+   corpus again: **58 acts, 0 failures** — it had been reporting 46 failures since this job ran,
+   because its line-by-line check knew nothing about the join; it now knows that transformation
+   and only that one, with the join depth measured rather than guessed.
 
    Original scope (measured 2026-09-05, before the CC-1107-2002 regression was known), kept for
    the record — the per-act split above is now superseded by the corpus-wide 4,973 figure:

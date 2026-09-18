@@ -1640,3 +1640,30 @@
   altă sesiune descărca în același timp `COD-325-2022` (doc_id 148963) și avea deja intrarea în
   `DOCS`, iar `add -A` i-ar fi măturat lucrul în curs. `ingest_business_law.py` și cele două
   fișiere parțiale de descărcare au fost lăsate necomise, ale ei.
+
+## [2026-09-18] update | Ultima coadă: antetul art. 36 din L-105-2003 restaurat la forma sursei, după auditul complet al jobului de dezlipire
+
+- **Aflat:** verificatorul acoperă numai actele din `DOCS`, iar jobul de dezlipire a titlurilor din
+  16 septembrie a atins **68** de fișiere din trei rădăcini — deci „un singur caz" nu se putea
+  afirma fără un audit propriu. Auditat pe corp, nu pe fișierul întreg (commit-ul `088f1ff` adaugă
+  și 9 linii de frontmatter, care strică alinierea pozițională), cu cerința ca fiecare antet
+  schimbat să fie exact concatenarea, cu un spațiu, a vechiului antet cu următoarele linii din
+  versiunea veche: **4.972 de antete prin concatenare curată, 8 „abateri", din care 7 nu au
+  legătură cu dezlipirea** (trei linii de numărătoare reparate în același commit, trei extrase UE
+  noi, manifestul CNPF). **Rămâne exact unul**, cel deja cunoscut. Al doilea lucru, găsit în
+  treacăt: o intrare în `DOCS` poate precede ingerarea, iar verificatorul murea cu
+  `FileNotFoundError` la primul act neingerat — deci lucrul în curs al unei sesiuni făcea unealta
+  inutilizabilă pentru toate celelalte.
+- **Decis:** antetul restaurat la forma sursei, `## Articolul 36.Alte organe ... a consumatorilor`
+  — se șterge **numai** spațiul adăugat, coada lipită rămâne, fiindcă lipirea este transformarea
+  documentată și acceptată. Direcția nu e arbitrară: wiki-ul refuză să corecteze `Aricolul 78` și
+  `Articol 52` în sursă (punctul 4), iar convenția scrisă în extractor spune *ancora reia linia așa
+  cum este*; o normalizare tăcută de spațiu e aceeași categorie de gest, doar mai mică. `sha256`
+  recalculat, validatorul verifică 433 din 433 de surse raw. Verificatorul sare acum peste actele
+  neingerate, vizibil, în loc să cadă.
+- **Unde:** `raw/papers/moldova-legal/L-105-2003.md` (o linie de antet și `sha256`);
+  `_meta/imports/moldova-legal/verify_business_law.py`; secțiunea **AF.8** din
+  `raw/papers/moldova-legal/_manifest.md`; `CLAUDE.md`, punctul 2 din „Outstanding work".
+  **`verify_business_law.py`: 58 de acte, 0 eșecuri** — controlul e verde prima oară de la
+  16 septembrie. Comis din nou cu căi explicite: sesiunea care ingerează `COD-325-2022` încă
+  lucrează.
