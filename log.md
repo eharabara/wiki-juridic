@@ -1567,3 +1567,36 @@
   `raw/papers/moldova-legal/_manifest.md`; `entities/L-133-2018.md`; `index.md`; `CLAUDE.md`
   (punctul 8 și descrierea `_meta/graph/`); `_meta/imports/moldova-legal/ingest_business_law.py`
   și `verify_business_law.py` (modul nou); `_meta/graph/build_citation_graph.py` (regula nouă).
+
+## [2026-09-18] ingest | L-66-2017, măsurile de ocrotire judiciară — punctul 8 închis integral, și o metodă mai tare decât potrivirea de titlu
+
+- **Aflat:** patru lucruri. **(1)** Ciorchinele `48^N`, lăsat deschis acum câteva ore la
+  ingerarea `L-133-2018`, se închide: acel act **modifică** zece articole `48^N` (48^5, 48^6,
+  48^25, 48^32, 48^55, 48^61, 48^63, 48^75, 48^82, 48^84), ceea ce dovedea că existau deja și că
+  întrebarea nu era „există?", ci „cine le-a introdus". Le-a introdus **Legea nr. 66/2017**, prin
+  art. VI, care completează Codul civil cu 100 de articole `48^1`-`48^100` — regimul măsurilor de
+  ocrotire judiciară a adultului, în locul declarării incapacității. Găsită prin **căutare pe
+  text** pe legis.md (`search_type=2`) după „ocrotitor provizoriu", fiindcă titlul actului („cu
+  privire la modificarea şi completarea unor acte legislative") nu conține niciun cuvânt util.
+  **(2)** Deplasarea către numerotarea de azi este constantă, **48^N → 64 + N**, pe tot blocul de
+  100, fără nicio excepție. **(3)** Deplasarea constantă este o probă mai tare decât potrivirea de
+  titlu, și **răstoarnă o concluzie scrisă în aceeași sesiune**: `283^27` fusese lăsat „435 sau
+  450", cu nota că întâmplarea înclină spre 450; vecinii lui au deplasare constantă +408
+  (283^24 → 432 … 283^29 → 437), deci este **435**, iar 450 e un omonim în alt capitol. Un titlu
+  poate fi rescris sau duplicat; o deplasare verificată pe vecini nu se potrivește din întâmplare
+  de cinci ori la rând. **(4)** Normalizarea titlurilor trebuie să acopere **ambele** reforme
+  ortografice: varianta scrisă la AE rezolvă î/â (`înmormîntare`/`înmormântare`), dar nu
+  `sînt`/`sunt`, care a produs singurul „fără potrivire" din cele 100 (48^74 → art. 138). Deci
+  cele 27 de titluri raportate ca nepotrivite la `L-133-2018` sunt o limită superioară, nu un
+  număr de lacune reale.
+- **Decis:** ingerare cu același `anchor_mode='roman-amending'`, fără nicio modificare de script —
+  prima confirmare că regula scrisă pentru `L-133-2018` este generală, nu o potrivire de ocazie.
+  Corecția de la `283^27` aplicată în toate cele trei locuri unde fusese scrisă concluzia
+  provizorie (secțiunea AE, `entities/L-133-2018.md`, punctul 8 din `CLAUDE.md`), cu trimitere la
+  proba care o răstoarnă. Art. XVII, dispozițiile tranzitorii pentru hotărârile de incapacitate
+  anterioare lui iunie 2017, a fost identificat, **nu** citit pe fond — consemnat ca atare.
+- **Unde:** `raw/papers/moldova-legal/L-66-2017.md` (17 ancore, doc_id 99281, în vigoare
+  02.06.2017, `never_amended`); secțiunea **AF** din `raw/papers/moldova-legal/_manifest.md`,
+  cu corecția AE.3 în AF.3; `entities/L-66-2017.md`; `entities/L-133-2018.md`; `index.md`;
+  `CLAUDE.md` punctul 8; `_meta/imports/moldova-legal/ingest_business_law.py` (numai intrarea
+  `DOCS`).

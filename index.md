@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-18 | Total pages: 142
+> Last updated: 2026-09-18 | Total pages: 143
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -101,6 +101,7 @@
 - [[L-62-2008]] — Legea nr. 62/2008 privind reglementarea valutară: text românesc, 73 de ancore; cap. VII măsuri de salvgardare, contestabile per art. 11 din L-548-1995.
 - [[L-62-2022]] — Legea nr. 62/2022 cu privire la publicitate: regimul general al publicității; art. 3 poartă definiția înșelătoare pe care o invocă art. 4^1 din L-171-2012, iar art. 48 interzice publicitatea financiară cu randament promis.
 - [[L-64-2010]] — Legea nr. 64/2010 cu privire la libertatea de exprimare: defăimare, judecată de valoare, dezmințire și drept la replică; sarcina probei revine reclamantului, cu șase prezumții în favoarea exprimării.
+- [[L-66-2017]] — Legea nr. 66/2017: actul care a introdus în Codul civil regimul măsurilor de ocrotire judiciară a adultului (art. VI, 100 de articole 48^1-48^100), în locul declarării incapacității; sursa concordanței 48^N → 64+N și a dispozițiilor tranzitorii pentru hotărârile de incapacitate anterioare lui iunie 2017.
 - [[L-845-1992]] — Legea nr. 845/1992 cu privire la antreprenoriat si intreprinderi: cadrul-cadru al activitatii de antreprenoriat, a treia sursa P1; consolidare 2027-01-01, data viitoare.
 - [[L-86-2014]] — Legea nr. 86/2014 privind evaluarea impactului asupra mediului: Agenția de Mediu emite acordul de mediu (art. 2, art. 6); COD-434-2023 art. 104 alin. (7) condiționează certificatul de urbanism de acest acord; 42 de ancore, consolidare 2026-04-25.
 - [[L-92-2022]] — Legea nr. 92/2022 privind activitatea de asigurare sau de reasigurare

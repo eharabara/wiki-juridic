@@ -2309,7 +2309,7 @@ articolul I: din **1.400** de titluri, **1.176 (84%)** au potrivire exactă de t
 | citat ca (vechi) | azi | titlu | citat de |
 |---|---|---|---|
 | art. 330^4 | **526** | Uzucapiunea dreptului contrar cuprinsului registrului (azi „…de publicitate") | `COD-225-2003` (x3) |
-| art. 283^27 | **435 sau 450** | Drepturile, actele sau faptele supuse notării | `COD-225-2003` |
+| art. 283^27 | **435** | Drepturile, actele sau faptele supuse notării | `COD-225-2003` |
 | art. 1572^117 | **2419** | Cheltuielile de îngrijire și de înmormîntare | `L-149-2012` |
 | art. 1575^4 | **2428** | Excluderea creanțelor neînaintate | `L-149-2012` |
 | art. 1575^5 | **2429** | Excepția de tardivitate în declararea creanțelor | `L-149-2012` |
@@ -2318,15 +2318,17 @@ articolul I: din **1.400** de titluri, **1.176 (84%)** au potrivire exactă de t
 | art. 1144^9 | **1614** | Intermedierea serviciilor de călătorie asociate | `L-1125-2002` |
 
 Blocul masei succesorale se mută în bloc, **1575^N → 2424 + N**, confirmat pe patru puncte
-independente. `283^27` rămâne **ambiguu**: titlu identic la art. 435 și art. 450 de azi; contextul
-din `COD-225-2003` înclină spre 450, dar înclinarea nu este citare.
+independente. `283^27` a fost ambiguu pe titlu (identic la art. 435 și art. 450 de azi) și
+**s-a rezolvat prin deplasare constantă: → art. 435**; vezi secțiunea AF.3, care corectează
+concluzia provizorie scrisă aici la prima trecere.
 
 ### AE.3 Ce nu rezolvă, verificat
 
 **Ciorchinele `48^12`, `48^15`, `48^21`, `48^27`, `48^28`, `48^30`, `48^40` — ocrotirea judiciară
-— nu vine de aici.** Actul nu conține niciun articol `48^N`; singurele trei titluri cu „ocrotire"
-din tot textul sunt art. 1051, 1575^30 și 1591. Punctul 8 din `CLAUDE.md` rămâne deschis pentru
-ele, cu o întrebare mai îngustă: care lege a introdus capitolul ocrotirii judiciare.
+— nu vine de aici.** Actul nu conține niciun articol `48^N`; îl doar **modifică** în zece locuri
+(48^5, 48^6, 48^25, 48^32, 48^55, 48^61, 48^63, 48^75, 48^82, 48^84), ceea ce dovedește că acele
+articole existau deja. **Legea care le-a introdus este `L-66-2017`, găsită și ingerată în aceeași
+sesiune — secțiunea AF.**
 
 ### AE.4 Efectul asupra grafului de citare — o regulă nouă, și de ce
 
@@ -2365,6 +2367,85 @@ trimiterile dintr-un articol lung cu mai multe ținte. Primele două se rezolvă
 a treia cu regula din AE.4.
 
 Pagini de entitate: [[L-133-2018]] (nouă).
+
+## AF. Măsurile de ocrotire judiciară — L-66/2017 (ingerată 2026-09-18, aceeași sesiune cu AE)
+
+**Sursa.** doc_id **99281**, `showdetails/99281`, HTML 301.897 octeți, 274 `<sup>`. Publicată
+02.06.2017 (MO 171-180 art. 297), **în vigoare 02.06.2017**. O singură versiune în istoric,
+„Data abrogării": `-`, fără rând MODIFICAT — `never_amended`. Aceeași rută de descărcare ca la AE
+(browser intern, `fetch` same-origin + blob); de data asta fișierul a păstrat numele cerut, nu a
+primit un GUID — dimensiunea, nu numele, e criteriul sigur de identificare.
+
+### AF.1 De ce a fost ingerată: cealaltă jumătate a întrebării 8
+
+Secțiunea AE a închis toate trimiterile wiki-ului cu numerotarea Codului civil de dinainte de
+2019 **în afară** de ciorchinele `48^12 / 48^15 / 48^21 / 48^27 / 48^28 / 48^30 / 48^40`
+(ocrotirea judiciară, citat de `COD-225-2003` de șapte ori). Motivul, verificat acolo:
+`L-133-2018` nu conține niciun articol `48^N`. Ce **conține** însă, și ce nu fusese observat până
+la a doua trecere: zece **modificări** ale unor articole `48^N` existente (48^5, 48^6, 48^25,
+48^32, 48^55, 48^61, 48^63, 48^75, 48^82, 48^84). Un act care modifică un articol dovedește că
+articolul exista. Deci întrebarea nu mai era „există?", ci „cine l-a introdus".
+
+**Metoda care a găsit răspunsul, și care se repetă.** Căutare **pe text** pe legis.md
+(`search_type=2`, deci nu pe titlu — titlul acestui act, „cu privire la modificarea şi completarea
+unor acte legislative", nu conține niciun cuvânt util), după o sintagmă proprie regimului:
+`ocrotitor provizoriu`. 24 de rezultate, din care LP66/2017 este cel mai vechi act de lege.
+Două confirmări independente înainte de ingerare: numărul figurează în blocul de istoric al
+Codului civil (`LP66 din 13.04.17`), iar textul poartă 100 de titluri `Articolul 48^N`.
+
+**Notă de metodă pentru endpoint.** Pasul doi al căutării,
+`getAjaxContent?filter_title=<frază>&filtru=`, funcționează identic pentru căutarea pe text: numele
+parametrului nu contează (`filter_title`, `filter_text`, `filter_continut` întorc același rezultat),
+fiindcă filtrul real este starea de sesiune pusă de `getResults?...&search_type=N`. Filtrarea după
+**numărul** documentului nu merge pe acest endpoint — toate variantele de nume de parametru întorc
+un tabel gol.
+
+### AF.2 Concordanța `48^N`, completă, și proba deplasării constante
+
+| citat ca (vechi) | azi | titlu |
+|---|---|---|
+| art. 48^12 | **76** | Mandatul de ocrotire în viitor |
+| art. 48^15 | **79** | Împuternicirile mandatarului |
+| art. 48^21 | **85** | Acordarea împuternicirilor suplimentare de către instanța de judecată |
+| art. 48^27 | **91** | Limitele împuternicirilor acordate de mandatul în formă scrisă |
+| art. 48^28 | **92** | Caracterul subsidiar al măsurilor de ocrotire judiciare |
+| art. 48^30 | **94** | Cererea de instituire a măsurii de ocrotire judiciare |
+| art. 48^40 | **104** | Reînnoirea măsurii de ocrotire judiciare |
+
+**Deplasarea este constantă: `48^N → 64 + N`, pe tot blocul de 100 de articole, fără nicio
+excepție**, verificată mecanic. Din cele 100 de titluri, 78 au potrivire exactă, 21 apropiată și
+unul niciuna — iar acel unul nu este o lacună: `48^74` „Actele juridice care nu **sînt** supuse
+autorizării" față de art. 138 de azi „…care nu **sunt** supuse autorizării".
+
+### AF.3 Două lucruri de metodă, valabile dincolo de acest act
+
+**(1) Deplasarea constantă este a doua probă, și e mai tare decât titlul.** Un titlu poate fi
+rescris sau duplicat în cod; o deplasare verificată pe vecini nu se potrivește din întâmplare de
+cinci ori la rând. Ea a dezambiguizat `48^15` (titlul „Împuternicirile mandatarului" se potrivește
+și cu art. 1478 de azi, din capitolul mandatului — deplasarea dă 79, din capitolul ocrotirii).
+
+**Și a răsturnat o concluzie din secțiunea AE, care se corectează aici: `283^27` → art. 435, nu
+„435 sau 450".** AE a lăsat rândul ambiguu, fiindcă titlul „Drepturile, actele sau faptele supuse
+notării" apare identic la două articole de azi, și a notat că contextul „înclină spre 450".
+Vecinii din același bloc au deplasare constantă +408 (283^24 → 432, 283^25 → 433, 283^26 → 434,
+283^28 → 436, 283^29 → 437), deci 283^27 + 408 = **435**. Art. 450 este un omonim în alt capitol.
+Corectat în AE, în `entities/L-133-2018.md` și în punctul 8 din `CLAUDE.md`.
+
+**(2) Normalizarea titlurilor trebuie să acopere ambele reforme ortografice.** Varianta
+folosită în AE înlocuiește î și â cu „i" înainte de NFKD, ceea ce rezolvă
+`înmormîntare`/`înmormântare`. Nu acoperă `sînt`/`sunt`, care este a doua variație și a produs
+singurul „fără potrivire" din cele 100. Consecință retroactivă pentru AE: dintre cele 27 de
+titluri ale articolului I fără corespondent, o parte sunt probabil aceeași situație, deci
+proporția reală de titluri fără corespondent în Codul civil este mai mică decât 27.
+
+### AF.4 Ce rămâne necitit
+
+Art. XVII, dispozițiile tranzitorii — rearanjarea situației persoanelor declarate incapabile
+înainte de iunie 2017, la expirarea unui an de la intrarea în vigoare. Identificat, nu citit pe
+fond. Orice speță cu o hotărâre de incapacitate anterioară lui iunie 2017 trece pe aici.
+
+Pagini de entitate: [[L-66-2017]] (nouă); [[L-133-2018]] actualizată cu legătura și cu corecția
+de la `283^27`.
 
 ## D. Artefacte metodologice create
 

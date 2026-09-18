@@ -1,6 +1,6 @@
 # Graful de citare al actelor detinute
 
-Generat 2026-09-18 09:43 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
+Generat 2026-09-18 13:07 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
 
 **Ce este.** Trimiterile dintre actele detinute, extrase mecanic din textul brut: fiecare muchie poarta fisierul si liniile din care a fost citita, si nicio muchie nu este dedusa. Graful nu se citeaza. El spune unde sa deschizi fisierul, iar ancora se citeste.
 
@@ -10,12 +10,12 @@ Generat 2026-09-18 09:43 de `_meta/graph/build_citation_graph.py`. Nu edita de m
 
 | | |
 |---|---:|
-| acte primare detinute (din care ancorate pe articole) | 100 (81) |
-| dispozitii (noduri-articol) | 12276 |
+| acte primare detinute (din care ancorate pe articole) | 101 (82) |
+| dispozitii (noduri-articol) | 12293 |
 | extrase UE detinute (noduri-tinta) | 32 |
-| acte citate si nedetinute (noduri externe) | 554 |
-| mentiuni de acte in text (din care ale actului insusi) | 4111 (366) |
-| muchii act -> act (agregate pe segment-sursa) | 2770 |
+| acte citate si nedetinute (noduri externe) | 560 |
+| mentiuni de acte in text (din care ale actului insusi) | 4154 (369) |
+| muchii act -> act (agregate pe segment-sursa) | 2795 |
 | trimiteri la articole citite (in grupuri de enumerare) | 8781 (7663) |
 |   rezolvate in actul curent | 7178 |
 |   rezolvate in alt act detinut | 1070 |
@@ -48,9 +48,9 @@ Legi, coduri si hotariri de Guvern identificate prin numar si an.
 | `L-407-2006` Legea nr. 407/2006 | 14 | 7 | `HCNPF-14-5-2016` (5) | art. 29 |
 | `L-74-2020` Legea nr. 74/2020 | 14 | 3 | `L-325-2025` (8) | art. 6, art. 14, art. 19, art. 43 |
 | `L-137-2015` Legea nr. 137/2015 | 13 | 7 | `L-198-2007` (4) | art. 19, art. 32, art. 39 |
+| `COD-1316-2000` Codul nr. 1316/2000 | 13 | 5 | `L-246-2018` (3) | art. 35, art. 36, art. 37, art. 39 |
 | `L-440-2001` Legea nr. 440/2001 | 13 | 5 | `COD-1163-1997` (6) | art. 5, art. 6, art. 13 |
 | `L-124-2022` Legea nr. 124/2022 | 12 | 7 | `L-220-2007` (3) | art. 3 |
-| `COD-1316-2000` Codul nr. 1316/2000 | 12 | 4 | `L-246-2018` (3) | art. 35, art. 36, art. 37, art. 39 |
 | `L-287-2017` Legea nr. 287/2017 | 11 | 9 | `L-234-2016` (2) | art. 4 (x5), art. 24 |
 | `L-11-2017` Legea nr. 11/2017 | 11 | 3 | `COD-434-2023` (9) | art. 10 |
 | `L-419-2006` Legea nr. 419/2006 | 10 | 7 | `DCU-REGULI-2026` (3) | art. 16, art. 42 |
@@ -70,7 +70,7 @@ Legi, coduri si hotariri de Guvern identificate prin numar si an.
 | `L-174-2021` Legea nr. 174/2021 | 7 | 3 | `L-160-2011` (5) | art. 11 (x2), art. 4 |
 | `L-186-2008` Legea nr. 186/2008 | 7 | 3 | `COD-154-2003` (5) | - |
 | `L-291-2016` Legea nr. 291/2016 | 7 | 3 | `COD-174-2018` (4) | - |
-| … inca 328 in JSON | | | | |
+| … inca 335 in JSON | | | | |
 
 ### Acte UE citate si neextrase
 
@@ -121,7 +121,7 @@ Fara numar in text si fara un titlu detinut care sa le contina, deci identificat
 | `LEGE:publicitate-si-cu` Legea cu privire la publicitate şi cu | 3 | 1 | `COD-174-2018` (3) | - |
 | `LEGE:statutul-alesului-local` Legea privind statutul alesului local | 3 | 1 | `L-436-2006` (3) | - |
 | `LEGE:achizitiile-publice` Legea privind achiziţiile publice | 2 | 2 | `L-181-2014` (1) | - |
-| … inca 52 in JSON | | | | |
+| … inca 51 in JSON | | | | |
 
 ## Acquis: extrasele UE detinute si actele care le citeaza
 
@@ -273,7 +273,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | act | ancore | citeaza (acte) | citat de (acte) | art. interne | art. in alte acte | nerezolvate | mentiuni externe |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | `AA-2014` | 11 | 44 | 0 | 4 | 0 | 18 | 64 |
-| `CC-1107-2002` | 2657 | 27 | 32 | 1017 | 5 | 1 | 24 |
+| `CC-1107-2002` | 2657 | 27 | 33 | 1017 | 5 | 1 | 24 |
 | `COD-116-2018` | 260 | 13 | 33 | 106 | 10 | 1 | 6 |
 | `COD-1163-1997` | 511 | 66 | 24 | 447 | 18 | 1 | 80 |
 | `COD-122-2003` | 658 | 26 | 13 | 471 | 219 | 2 | 26 |
@@ -281,9 +281,9 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `COD-174-2018` | 98 | 18 | 4 | 71 | 4 | 0 | 19 |
 | `COD-218-2008` | 737 | 57 | 34 | 508 | 50 | 10 | 79 |
 | `COD-22-2024` | 96 | 26 | 5 | 18 | 5 | 0 | 26 |
-| `COD-225-2003` | 540 | 23 | 19 | 213 | 31 | 17 | 15 |
+| `COD-225-2003` | 540 | 23 | 20 | 213 | 31 | 17 | 15 |
 | `COD-434-2023` | 390 | 44 | 8 | 137 | 18 | 1 | 61 |
-| `COD-443-2004` | 361 | 30 | 19 | 129 | 75 | 0 | 21 |
+| `COD-443-2004` | 361 | 30 | 20 | 129 | 75 | 0 | 21 |
 | `COD-95-2021` | 472 | 37 | 3 | 430 | 8 | 0 | 31 |
 | `COD-985-2002` | 566 | 22 | 23 | 166 | 3 | 1 | 12 |
 | `CONST-1994` | 157 | 4 | 34 | 13 | 1 | 0 | 5 |
@@ -325,7 +325,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-135-2007` | 93 | 11 | 4 | 17 | 12 | 0 | 6 |
 | `L-139-2007` | 59 | 4 | 2 | 36 | 0 | 0 | 3 |
 | `L-148-2023` | 35 | 6 | 7 | 25 | 2 | 0 | 4 |
-| `L-149-2012` | 271 | 11 | 10 | 182 | 7 | 9 | 9 |
+| `L-149-2012` | 271 | 11 | 11 | 182 | 7 | 9 | 9 |
 | `L-1543-1998` | 99 | 19 | 4 | 29 | 6 | 0 | 11 |
 | `L-158-2008` | 88 | 51 | 13 | 74 | 7 | 0 | 62 |
 | `L-160-2011` | 32 | 11 | 21 | 12 | 3 | 2 | 11 |
@@ -352,7 +352,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-234-2016` | 37 | 14 | 10 | 30 | 6 | 0 | 7 |
 | `L-235-2006` | 21 | 5 | 9 | 1 | 3 | 0 | 1 |
 | `L-239-2008` | 20 | 5 | 5 | 0 | 0 | 0 | 1 |
-| `L-24-2008` | 42 | 3 | 1 | 31 | 1 | 0 | 2 |
+| `L-24-2008` | 42 | 3 | 2 | 31 | 1 | 0 | 2 |
 | `L-245-2008` | 41 | 5 | 12 | 9 | 0 | 0 | 2 |
 | `L-246-2018` | 97 | 17 | 2 | 17 | 7 | 0 | 16 |
 | `L-250-2017` | 23 | 6 | 1 | 14 | 0 | 0 | 4 |
@@ -362,11 +362,12 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-325-2025` | 91 | 21 | 0 | 168 | 1 | 0 | 20 |
 | `L-436-2006` | 98 | 34 | 4 | 16 | 2 | 0 | 63 |
 | `L-514-1995` | 60 | 12 | 0 | 4 | 0 | 0 | 8 |
-| `L-548-1995` | 91 | 34 | 16 | 40 | 21 | 4 | 15 |
+| `L-548-1995` | 91 | 34 | 16 | 40 | 21 | 4 | 14 |
 | `L-550-1995` | 20 | 9 | 8 | 18 | 16 | 1 | 2 |
 | `L-62-2008` | 73 | 11 | 14 | 71 | 10 | 1 | 4 |
 | `L-62-2022` | 58 | 25 | 7 | 37 | 4 | 0 | 25 |
 | `L-64-2010` | 34 | 2 | 3 | 5 | 1 | 0 | 0 |
+| `L-66-2017` | 17 | 17 | 1 | 0 | 0 | 0 | 12 |
 | `L-845-1992` | 46 | 14 | 4 | 12 | 4 | 0 | 5 |
 | `L-86-2014` | 42 | 17 | 5 | 67 | 0 | 5 | 21 |
 | `L-9-2026` | 63 | 13 | 0 | 27 | 5 | 0 | 5 |

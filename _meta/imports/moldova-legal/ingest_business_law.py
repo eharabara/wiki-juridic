@@ -692,6 +692,36 @@ DOCS = {
                    'anchor_mode': 'roman-amending',
                    'title': 'Legea nr. 133/2018 privind modernizarea Codului civil si '
                             'modificarea unor acte legislative'},
+
+    # 2026-09-18, in aceeasi sesiune cu L-133-2018 si din cauza ei: este cealalta jumatate a
+    # intrebarii 8 din CLAUDE.md. L-133-2018 a rezolvat toate trimiterile cu numerotare veche
+    # ale wiki-ului IN AFARA de ciorchinele 48^N (ocrotirea judiciara, citat de COD-225-2003 de
+    # sapte ori) - actul acela nu contine niciun articol 48^N, ci doar MODIFICA zece dintre ele
+    # (48^5, 48^6, 48^25, 48^32, 48^55, 48^61, 48^63, 48^75, 48^82, 48^84), ceea ce dovedeste ca
+    # existau deja. Legea care le-a introdus este aceasta.
+    # CUM A FOST GASITA, fiindca metoda e generala: cautare pe TEXT (search_type=2) dupa o
+    # sintagma proprie regimului, "ocrotitor provizoriu" - 24 de rezultate, din care LP66/2017
+    # este cel mai vechi act de lege. Confirmata apoi in doua feluri independente: numarul apare
+    # in blocul de istoric al Codului civil ("LP66 din 13.04.17, MO171-180/02.06.17 art.297"), iar
+    # textul actului poarta 100 de titluri "Articolul 48^N", de la 48^1 "Temeiurile, formele si
+    # principiile ocrotirii" pina la 48^100. Art. 48^12 este "Mandatul de ocrotire in viitor",
+    # exact ce descrie fraza din COD-225-2003 care il citeaza.
+    # doc_id 99281, SINGURA versiune din istoric, "Data abrogarii": "-", fara rind MODIFICAT,
+    # deci never_amended si consolidare = data intrarii in vigoare, 02.06.2017 (act vechi, va
+    # aparea la "stale consolidations", corect pentru o lege de modificare consumata).
+    # Verificat pe HTML inainte de rulare, prin pipeline-ul real: 274 <sup>, toti rezolvati,
+    # fara CUPRINS, 17 articole romane (aceeasi forma "Art. I. - "), 131 de titluri "Articolul N"
+    # reproduse (toate distincte, fara duplicate) si 5 sectiuni - text al actelor modificate,
+    # deci acelasi anchor_mode ca L-133-2018.
+    # Cele 17 tinte: I L-269/1994, II L-1402/1997 (sanatatea mentala), III Codul vamal 1149/2000,
+    # IV Codul familiei, V L-713/2001, VI Codul civil, VII COD-225-2003, VIII L-271/2003,
+    # IX COD-443-2004 art. 52, X L-24/2008 (arbitraj comercial international, in vault),
+    # XI L-42/2008, XII L-153/2008, XIII L-99/2010 (adoptia), XIV L-149-2012 art. 60,
+    # XV L-140/2013, XVI L-91/2014, XVII dispozitii tranzitorii (termen de un an de la intrare).
+    'L-66-2017': {'doc_id': '99281',
+                  'anchor_mode': 'roman-amending',
+                  'title': 'Legea nr. 66/2017 cu privire la modificarea si completarea unor '
+                           'acte legislative (regimul masurilor de ocrotire judiciara)'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul
