@@ -152,7 +152,7 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-18 13:07 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-18 13:24 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
 92 primary Moldovan acts, 32 EU acquis extracts, 1 Association Agreement extract(s), 293 BNM corpus documents.
 
@@ -341,6 +341,15 @@ Do not resolve these on your own. Raise them if a matter touches them.
    - `COD-225-2003` art. 78 carried `Aricolul 78. – abrogat.`, missing the `t`, in consolidation
      152860. **Resolved by the refresh of 2026-09-06**: consolidation 155718 spells it correctly
      and the line is anchored. Kept here because the trap is generic, not because it is open.
+   - `CC-1107-2002` arts. 843 and 845 carry `Substituirea complete` and `Substituirea incomplete`
+     — the adjective in the wrong form, where the article text itself says `substituie complet` /
+     `substituie incomplet`. Found 2026-09-18 while measuring the L-133-2018 concordance: that act
+     introduced them as `Substituirea completă` / `Substituirea incompletă`, so a title search on
+     the correct form fails. **Verified against the archived source HTML (doc_id 150498): legis.md
+     itself writes it that way**, and the same file spells `Substituirea incompletă` correctly once
+     elsewhere, so the defect is the publisher's, not our extraction's. Milder than the other two —
+     the anchor exists and the article is findable by number — but it breaks a title search, which
+     is now a working method for concordances.
    - `L-100-2017` art. 52, file line 531, carries `Articol 52. Punctul` — `Articol`, without the
      `-ul`. Found by the audit of 2026-09-05. This one matters more than the average article:
      art. 52 of the law on normative acts is the provision governing **puncte**, which is how
@@ -600,6 +609,18 @@ with no basis in the source. The refreshed consolidation contains it. No action 
    `HG-743-2024` case before it was fixed (item 7 above) was initially left alone: a real but narrow
    pattern, and the risk of a regression on an already-validated register outweighs the gain of one
    act's two provisions. Anyone citing `L-9-2026` art. 44 alin. (3) must check the date by hand.
+
+   **A second instance, found 2026-09-18 at `L-66-2017`, and it shows the pattern is not confined
+   to brand-new laws.** Art. XVII alin. (7) of that amending law reads "Prevederile art. 48 şi
+   48^32 din Codul civil intră în vigoare după crearea condiţiilor necesare, dar nu mai tîrziu de
+   2 ani de la data publicării prezentei legi" — a deferred entry into force written in prose, in
+   the *amending* act's transitional article, with no bracket marker anywhere in the amended code.
+   The register cannot see it, for the same reason as `L-9-2026`. Here it is harmless because the
+   deadline (02.06.2019) is long past, but the shape is the one to watch: **an amending law's final
+   article can defer part of what it enacts, and the deferral lives in the amending law, not in the
+   act being read.** Anyone dating a provision introduced by an amending law should open that law's
+   transitional article, not only the bracket markers in the target act. (The two provisions are
+   today's `CC-1107-2002` art. 64 and art. 96.)
    Two other things learned ingesting the same batch, general enough to matter beyond this act:
    `ingest_business_law.py`'s `DATE_RE` could misread a Monitorul Oficial citation like
    `MO338-341/30.09.16` as a second, spurious date (the tail of "341" plus the real date, parsed as

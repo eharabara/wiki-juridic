@@ -1600,3 +1600,43 @@
   cu corecția AE.3 în AF.3; `entities/L-66-2017.md`; `entities/L-133-2018.md`; `index.md`;
   `CLAUDE.md` punctul 8; `_meta/imports/moldova-legal/ingest_business_law.py` (numai intrarea
   `DOCS`).
+
+## [2026-09-18] update | Cozile celor două ingerări, rezolvate; verificatorul de integritate readus la viață după două zile
+
+- **Aflat:** cinci lucruri, toate din firele lăsate deschise de `L-133-2018` și `L-66-2017`.
+  **(1) Art. XVII al legii 66/2017, citit pe fond**, nu doar identificat: la 02.06.2018 curatela
+  a încetat de plin drept pentru cei limitați în capacitate, tutelele născute din vechile hotărâri
+  de lipsire au încetat tot atunci, iar pricinile nesoluționate definitiv se judecă după dreptul de
+  la data pronunțării. **Alin. (7) este a doua instanță a punctului 9**: o intrare în vigoare
+  amânată scrisă în proză, în articolul tranzitoriu al legii **modificatoare**, invizibilă
+  registrului in-force fiindcă nu e marcaj în actul modificat. Tiparul e mai general decât se
+  credea la `L-9-2026`: amânarea locuiește în legea modificatoare, nu în actul citit.
+  **(2) O confirmare structurală a concordanței, din a treia direcție:** art. 48 vechi (rescris de
+  pct. 20) este azi art. 64, adică deplasare +16 pentru numerotarea de bază, iar blocul `48^N`
+  urmează exact după, cu +64 — 48^1 → 65 începe fix după 48 → 64. Nu era obligatoriu să iasă așa.
+  **(3) Normalizatorul reparat schimbă cifrele:** `L-66-2017` trece de la 1 la **0** titluri fără
+  corespondent, `L-133-2018` de la 27 la **25** din 1.400. **(4) Cele 25 au fost citite, și două
+  cauze acoperă nouă:** arts. 843 și 845 de azi poartă „Substituirea complete/incomplete", adjectiv
+  în formă greșită — verificat pe HTML-ul sursă arhivat, **legis.md scrie așa**, deci a treia
+  instanță a punctului 4; iar blocul `1431^1`-`1431^7` (secretele comerciale) a plecat din cod,
+  care azi trimite în afară la „legislaţia privind protecţia secretelor comerciale", cel mai
+  probabil prin LP384/2023 din blocul de istoric — neconfirmat articol cu articol, se confirmă
+  ingerând `L-384-2023`. **(5) Cele 46 de eșecuri ale verificatorului sunt un singur tipar**,
+  clasificat mecanic, nu prin eșantion: toate cu același număr de linii de ambele părți și prima
+  divergență „scris = referință + coadă", zero excepții.
+- **Decis:** verificatorul **nu** a fost relaxat, ci învățat transformarea documentată și numai pe
+  ea — o linie de titlu poate diferi doar dacă e exact concatenarea, cu un spațiu, a liniei-sursă
+  cu următoarele, care rămân în corp la pozițiile lor; orice altceva rămâne eșec, iar o rescriere
+  reală nu poate trece fiindcă egalitatea e pe șiruri exacte. Adâncimea maximă (8) este **măsurată**:
+  cu 3 rămân 14 acte, cu 4 șapte, cu 6 două, cu 8 unul, iar acela nu mai scade la 12. **46 → 1.**
+  Ultimul eșec e lăsat **vizibil dinadins**: `L-105-2003` art. 36, unde sursa scrie „36.Alte" fără
+  spațiu iar `fix_wrapped_titles.py` a pus unul — caracter adăugat, nu concatenare, deci regula nu-l
+  acoperă și nu trebuie să-l acopere. Corpul e neatins; diferența e doar în linia de ancoră.
+  **Decizia dintre a restaura antetul la forma sursei și a scrie o regulă pentru normalizarea
+  spațiului în ancoră îi aparține lui Eugen.**
+- **Unde:** `_meta/imports/moldova-legal/verify_business_law.py`; secțiunile **AF.5-AF.7** din
+  `raw/papers/moldova-legal/_manifest.md`; `entities/L-66-2017.md` și `entities/L-133-2018.md`;
+  `CLAUDE.md` punctele 4 și 9. **Comis cu căi explicite, nu prin `close_session --commit`:** o
+  altă sesiune descărca în același timp `COD-325-2022` (doc_id 148963) și avea deja intrarea în
+  `DOCS`, iar `add -A` i-ar fi măturat lucrul în curs. `ingest_business_law.py` și cele două
+  fișiere parțiale de descărcare au fost lăsate necomise, ale ei.

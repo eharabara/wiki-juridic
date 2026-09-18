@@ -2444,6 +2444,86 @@ Art. XVII, dispozițiile tranzitorii — rearanjarea situației persoanelor decl
 înainte de iunie 2017, la expirarea unui an de la intrarea în vigoare. Identificat, nu citit pe
 fond. Orice speță cu o hotărâre de incapacitate anterioară lui iunie 2017 trece pe aici.
 
+### AF.5 Cozile deschise de cele două ingerări, rezolvate în aceeași sesiune
+
+**Art. XVII, citit pe fond.** Alin. (1)-(2): la un an de la intrarea în vigoare (deci 02.06.2018)
+persoanele limitate în capacitate de exercițiu au devenit de plin drept pe deplin capabile,
+curatela a încetat, iar pricinile de limitare nesoluționate definitiv au fost scoase de pe rol din
+oficiu. Alin. (3)-(4): persoanele lipsite de capacitate au trecut sub tutelă ca măsură de ocrotire
+judiciară, iar acele tutele au încetat tot de plin drept la aceeași dată, dacă instanța nu le
+revocase înainte, cu sau fără instituirea unei măsuri noi. Alin. (6): pricinile de lipsire
+nesoluționate definitiv se judecă după dreptul în vigoare la data pronunțării. **Orice speță cu o
+hotărâre de incapacitate anterioară lui iunie 2017 trece pe aici.**
+
+**Alin. (7) este a doua instanță a punctului 9 din `CLAUDE.md`, și schimbă forma întrebării.**
+„Prevederile art. 48 şi 48^32 din Codul civil intră în vigoare după crearea condiţiilor necesare,
+dar nu mai tîrziu de 2 ani de la data publicării" — o intrare în vigoare amânată, scrisă în proză,
+în articolul tranzitoriu al legii **modificatoare**, fără niciun marcaj în codul modificat.
+Registrul in-force nu o poate vedea. Aici e inofensivă (termenul, 02.06.2019, a trecut demult),
+dar tiparul contează: **amânarea locuiește în legea modificatoare, nu în actul citit.** Cele două
+dispoziții sunt azi art. 64 și art. 96.
+
+**O confirmare structurală în plus a concordanței.** Art. VI pct. 20 rescrie art. 48 („Publicitatea
+tutelei şi curatelei minorului"), iar pct. 21 inserează blocul `48^N` imediat după el. Astăzi acel
+articol este **art. 64**, adică o deplasare de +16 pentru numerotarea de bază — și blocul `48^N`
+urmează exact după, cu deplasarea de +64. Cele două deplasări diferite sunt coerente între ele:
+48^1 → 65 începe fix după 48 → 64. Nu era nevoie să fie așa; faptul că este, confirmă
+concordanța dintr-o a treia direcție.
+
+### AF.6 Titlurile fără corespondent, recalculate — și ce s-a găsit sub ele
+
+Cu normalizatorul reparat (`sînt`/`sunt` pe lângă î/â), cifrele se schimbă: `L-66-2017` art. VI
+trece de la 1 la **0** titluri fără corespondent, iar `L-133-2018` art. I de la 27 la **25** din
+1.400 (1.178 exacte, 197 apropiate). Cele 25 au fost citite; două cauze acoperă nouă dintre ele.
+
+**Două sunt o greșeală în sursă, nu o lacună:** azi Codul civil scrie `Articolul 843. Substituirea
+complete` și `Articolul 845. Substituirea incomplete`, cu adjectivul în formă greșită, deși textul
+articolului spune „substituie complet". `L-133-2018` le introdusese ca „Substituirea completă" /
+„Substituirea incompletă". Verificat pe HTML-ul sursă arhivat (doc_id 150498): **legis.md scrie
+așa**, iar același fișier scrie o dată corect „Substituirea incompletă" în altă parte. Deci
+defectul e al publicatorului. Consemnat la punctul 4 din `CLAUDE.md`, ca a treia instanță.
+
+**Șapte sunt blocul secretelor comerciale, care a plecat din cod.** `1431^1`–`1431^7`, introduse
+de `L-133-2018` (dobândirea, utilizarea și divulgarea ilegală de secrete comerciale, mijloacele de
+apărare, despăgubirile), nu au niciun corespondent azi: în tot Codul civil sintagma „secret
+comercial" apare **o singură dată**, la art. 1207 alin. (2), și acolo trimite în afară — „în sensul
+legislaţiei privind protecţia secretelor comerciale". Blocul de istoric al codului poartă
+`LP384 din 07.12.23, MO495-496/22.12.23 art.874; în vigoare 22.02.24`, adică exact legea privind
+protecția secretelor comerciale. **Explicația cea mai probabilă este că LP384/2023 a ridicat
+regimul din cod**; nu este confirmată articol cu articol, fiindcă marcajul de abrogare nu se află
+în consolidarea pe care o ținem (mecanismul 1 din punctul 3). Verificarea cere ingerarea lui
+`L-384-2023`, care era oricum pe locul 12 în coada de ingerare (9 mențiuni, 6 acte citatoare) și
+acum are un al doilea motiv.
+
+Restul de 16 nu au fost deschise unul câte unul; sunt titluri din blocul moștenirii, probabil
+rescrise peste pragul de potrivire parțială.
+
+### AF.7 Verificatorul de integritate, readus la viață
+
+`verify_business_law.py` raporta **46 de eșecuri de „text integrity"** de la 16 septembrie, adică
+de la jobul de dezlipire a titlurilor. Clasificate mecanic, nu prin eșantion: **toate cele 46**
+aveau același număr de linii de ambele părți și prima divergență de forma „scris = referință +
+coadă". Zero excepții, deci un singur tipar.
+
+Controlul **nu a fost relaxat**; a fost învățat transformarea documentată, și numai pe ea: o linie
+de **titlu** poate să difere de sursă doar dacă este exact concatenarea, cu un spațiu, a liniei-sursă
+cu următoarele linii-sursă, care rămân prezente în corp la pozițiile lor. Orice altă diferență
+rămâne eșec. O rescriere reală a textului legal nu poate trece: egalitatea cerută este pe șiruri
+exacte.
+
+Adâncimea maximă a concatenării este **măsurată, nu aleasă**: cu 3 rămân 14 acte în eșec, cu 4
+șapte, cu 6 două, cu 8 unul singur — și acela nu mai scade la 12, fiindcă e alt tipar. Titlurile
+lungi din coduri chiar se întind pe atâtea rânduri în sursă.
+
+**Un singur eșec rămâne, lăsat vizibil dinadins.** `L-105-2003` art. 36: sursa scrie
+`Articolul 36.Alte organe...` **fără spațiu** după punct, iar `fix_wrapped_titles.py` a rescris
+antetul cu spațiu. Nu e o concatenare, e un caracter adăugat, deci regula nu-l acoperă și nici nu
+trebuie. Corpul e neatins — rândurile de continuare stau acolo, octet cu octet; diferența e numai
+în linia de ancoră, adică în structura adăugată de noi. Confirmat pe git: înainte de 16 septembrie
+antetul era `## Articolul 36.Alte organe ale administraţiei publice`. Un singur caz în tot corpusul.
+**Decizia îi aparține lui Eugen:** fie se restaurează antetul la forma sursei, fie se acceptă
+normalizarea spațiului în ancoră și atunci se scrie regula pentru ea.
+
 Pagini de entitate: [[L-66-2017]] (nouă); [[L-133-2018]] actualizată cu legătura și cu corecția
 de la `283^27`.
 

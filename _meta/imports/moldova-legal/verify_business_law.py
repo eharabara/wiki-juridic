@@ -4,7 +4,7 @@ Testul de fond: se scot liniile de structura adaugate de noi si se compara restu
 linie cu linie, cu extractia simpla din acelasi HTML. Daca cele doua coincid exact,
 inseamna ca am adaugat doar ancore si nu am atins textul legal.
 """
-import importlib.util, io, re, sys
+import importlib.util, io, os, re, sys
 from pathlib import Path
 from lxml import html
 
@@ -36,25 +36,84 @@ for stem, doc in ibl.DOCS.items():
     # nu vine din sursa. Se elimina complet; linia sursa de dedesubt ramine si se compara.
     mode = doc.get('anchor_mode')
     INSERTED = re.compile(r'^## Articolul [IVXLCDM]+\.$')
-    written = []
+    written, is_heading = [], []
     for line in body.split('\n'):
         line = line.strip()
         if not line:
             continue
         if mode == 'roman-amending' and INSERTED.match(line):
             continue
+        is_heading.append(line.startswith('#'))
         written.append(re.sub(r'^#{2,3}\s+', '', line))
 
-    same = written == reference
-    print(f"  text integrity          : {'PASS' if same else 'FAIL'} "
-          f"({len(written)} lines written vs {len(reference)} reference)")
-    if not same:
-        fail += 1
+    # Titlurile dezlipite de pe doua randuri, 2026-09-16 (fix_wrapped_titles.py). Acel job a
+    # rescris TEXTUL liniei de titlu, adaugindu-i coada ramasa pe randul urmator, si a lasat
+    # randul de continuare neatins in corp. Comparatia stricta linie-cu-linie de mai jos pica
+    # deci pe fiecare titlu dezlipit: 46 de acte din corpus, adica toate cele atinse de acel job.
+    # Verificat mecanic 2026-09-18, nu prin esantion: toate cele 46 aveau ACELASI numar de linii
+    # de ambele parti si prima divergenta de forma "scris = referinta + coada", zero exceptii.
+    # Controlul NU se relaxeaza (o regula nu se slabeste ca sa treaca erori vechi); el invata
+    # transformarea documentata, si numai pe ea:
+    #   o linie de TITLU poate sa difere de sursa doar daca este exact concatenarea, cu un
+    #   spatiu, a liniei-sursa corespunzatoare cu urmatoarele linii-sursa, iar acele linii
+    #   raman prezente in corp la pozitiile lor (numarul de linii nu se schimba, deci
+    #   corespondenta ramine pozitionala).
+    # Orice alta diferenta ramine FAIL, inclusiv pe o linie de titlu. O rescriere reala a
+    # textului legal nu poate trece: egalitatea ceruta este pe siruri exacte.
+    #
+    # JOIN_MAX = 8 este MASURAT, nu ales: cu 3 raman 14 acte in esec, cu 4 sapte, cu 6 doua,
+    # cu 8 unul singur - si acela nu mai scade la 12, fiindca este alt tipar (vezi mai jos).
+    # Titlurile lungi din coduri chiar se intind pe atitea randuri in sursa. Peste 8 nu se
+    # cistiga nimic, deci acolo se opreste. Reglabil prin variabila de mediu, pentru masurare.
+    #
+    # SINGURUL ESEC RAMAS, si se lasa vizibil dinadins: `L-105-2003` art. 36. Sursa scrie
+    # "Articolul 36.Alte organe..." FARA spatiu dupa punct; fix_wrapped_titles.py a rescris
+    # antetul cu spatiu, "Articolul 36. Alte organe...". Nu este concatenare, este un caracter
+    # adaugat, deci regula de mai sus nu-l acopera si nici nu trebuie sa-l acopere. Corpul este
+    # neatins (randurile de continuare stau acolo, octet cu octet); diferenta e numai in linia
+    # de ancora, adica in structura adaugata de noi. Un singur caz in tot corpusul. Ramine FAIL
+    # ca sa nu se piarda: fie se restaureaza antetul la forma sursei, fie Eugen decide ca
+    # normalizarea spatiului in ancora este acceptabila si atunci se scrie regula pentru ea.
+    JOIN_MAX = int(os.environ.get("JOIN_MAX", "8"))
+
+    def joined_ok(i):
+        if not is_heading[i]:
+            return False
+        for k in range(1, JOIN_MAX + 1):
+            if i + k >= len(reference):
+                break
+            if written[i] == ' '.join(reference[i:i + k + 1]):
+                return True
+        return False
+
+    diverg = None
+    if len(written) == len(reference):
+        joins = 0
+        for i, (a, b) in enumerate(zip(written, reference)):
+            if a == b:
+                continue
+            if joined_ok(i):
+                joins += 1
+                continue
+            diverg = (i, a, b)
+            break
+    else:
+        joins = 0
         for i, (a, b) in enumerate(zip(written, reference)):
             if a != b:
-                print(f"    first divergence at {i}:\n      written  : {a[:110]!r}\n"
-                      f"      reference: {b[:110]!r}")
+                diverg = (i, a, b)
                 break
+        if diverg is None:
+            diverg = (min(len(written), len(reference)), '<lipsa>', '<lipsa>')
+    same = diverg is None
+    extra = f", {joins} titluri dezlipite acceptate" if same and joins else ""
+    print(f"  text integrity          : {'PASS' if same else 'FAIL'} "
+          f"({len(written)} lines written vs {len(reference)} reference{extra})")
+    if not same:
+        fail += 1
+        i, a, b = diverg
+        print(f"    first divergence at {i}:\n      written  : {a[:110]!r}\n"
+              f"      reference: {b[:110]!r}")
 
     # 3. no unresolved superscript markup anywhere
     body_only = md.split('---', 2)[2] if md.count('---') >= 2 else md
