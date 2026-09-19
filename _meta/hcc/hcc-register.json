@@ -1659,19 +1659,54 @@
      "text": "HCC16 din 03.10.23, MO391-394/19.10.23 art.153; în vigoare 03.10.23"
     }
    ],
-   "recovered": [],
-   "unattributed": [
+   "recovered": [
     {
-     "hcc": "HCC8/2026-07-09",
-     "line": 52,
-     "text": "HCC8 din 09.07.26, MO351-354/31.07.26 art.132; în vigoare 09.07.26"
+     "instrument": "COD-325-2022",
+     "read_consolidation": "2024-07-16",
+     "decision_doc_id": null,
+     "verified": "2026-09-19",
+     "hcc": "HCC16/2024-07-16",
+     "article": "90",
+     "subunit": "al.(2), textul „În serviciile media audiovizuale ... furnizorilor de servicii media.”",
+     "scope": "text din articol",
+     "quoted_text": "În serviciile media audiovizuale, grupurile de iniţiativă, concurenţii electorali (candidaţii în alegeri), participanţii la referendum, reprezentanţii şi persoanele de încredere ale acestora nu pot avea intervenţii directe sau indirecte şi nu pot fi vizaţi de terţi în alte programe audiovizuale decât cele cu caracter electoral, stabilite expres în declaraţiile politicilor editoriale ale furnizorilor de servicii media.",
+     "official_gazette": "MO344-346/08.08.24 art.127",
+     "read_doc_id": "144550",
+     "status_today": "text absent azi: art. 90 al.(2) e o enumerare a programelor electorale (lit. a-d), iar interdictia atacata nu mai apare; al.(2^1) reglementeaza altfel interventiile in serviciile media audiovizuale (LP192/2026, in vigoare 26.08.26). De citit al.(2^1) din text, nu din aceasta rezumare.",
+     "summary": "Diferenta dintre versiunile 143253 (10.05.2024) si 144550 (16.07.2024): singura schimbare de fond e adaugarea marcajului HCC16 la art. 90 al.(2); alin. (2) nu mai apare cu acest text in versiunea detinuta. Atribuit prin compararea textului, nu prin dispozitivul hotararii (nedescarcat)."
     },
     {
-     "hcc": "HCC16/2024-07-16",
-     "line": 59,
-     "text": "HCC16 din 16.07.24, MO344-346/08.08.24 art.127; în vigoare 16.07.24"
+     "instrument": "COD-325-2022",
+     "read_consolidation": "2026-07-09",
+     "decision_doc_id": null,
+     "verified": "2026-09-19",
+     "hcc": "HCC8/2026-07-09",
+     "article": "36",
+     "subunit": "al.(1), textul „Componența Consiliului Electoral Central al Găgăuziei se aprobă ... și cu actele normative locale”",
+     "scope": "text din articol",
+     "quoted_text": "Componența Consiliului Electoral Central al Găgăuziei se aprobă de Adunarea Populară a Găgăuziei în conformitate cu prevederile art. 12 alin. (3) lit. d) din Legea nr. 344/1994 privind statutul juridic special al Găgăuziei (Gagauz-Yeri) și cu actele normative locale",
+     "official_gazette": "MO351-354/31.07.26 art.132",
+     "read_doc_id": "155595",
+     "status_today": "alin. (1) rescris de LP192/2026 (in vigoare 26.08.26): azi cuprinde statutul CEC Gagauzia, numarul de membri, presedintele numit de CEC conform L-199-2010 si cei doi membri desemnati de Adunarea Populara; textul lovit nu mai apare.",
+     "summary": "Marcajul HCC8 din nota art. 36 al.(1) din consolidarea 155595 (09.07.2026). Atribuit din nota din text; textul citat a fost citit in pagina, fara descarcare."
+    },
+    {
+     "instrument": "COD-325-2022",
+     "read_consolidation": "2026-07-09",
+     "decision_doc_id": null,
+     "verified": "2026-09-19",
+     "hcc": "HCC8/2026-07-09",
+     "article": "155",
+     "subunit": "al.(1), textele „de Adunarea Populară a Găgăuziei,” și „Legii nr. 344/1994 privind statutul juridic special al Găgăuziei (Gagauz-Yeri) și ale”",
+     "scope": "text din articol",
+     "quoted_text": null,
+     "official_gazette": "MO351-354/31.07.26 art.132",
+     "read_doc_id": "155595",
+     "status_today": "alin. (1) rescris de LP192/2026 (in vigoare 26.08.26): 'actele normative aprobate in conformitate cu prevederile prezentului cod si dezvoltate in actele normative aprobate de CEC'; fara trimitere la Adunarea Populara sau la Legea 344/1994.",
+     "summary": "Nota din text a consolidarii 155595: art. 155 al.(1) declarat neconstitutional in cele doua fragmente indicate; citita in pagina, fara descarcare."
     }
    ],
+   "unattributed": [],
    "distinct_hcc": [
     "HCC16/2023-10-03",
     "HCC16/2024-07-16",
@@ -2849,7 +2884,7 @@
   "acts": 25,
   "distinct_hcc": 84,
   "markers_in_text": 33,
-  "recovered": 95,
-  "unattributed": 11
+  "recovered": 98,
+  "unattributed": 9
  }
 }

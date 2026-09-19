@@ -2782,7 +2782,7 @@ făcut aici (AH.4). Cele două care atribuie articole:
     lit. a^1); art. 102 alin. (5) lit. e).
 
 Celelalte două, **HCC16 din 16.07.24** și **HCC8 din 09.07.26**, apar numai în fișă, fără articol
-atribuit, și rămân așa în registru — golul e vizibil, nu tăcut.
+atribuit, și rămân așa în registru — golul e vizibil, nu tăcut. **Închis a doua zi în AJ.1: ambele au acum articol; consolidarea din 2027 a fost citită în AJ.2.**
 
 Tiparul merită numit: **o lege întreagă de modificare, LP280/2023, a fost desființată bucată cu
 bucată de o singură hotărâre**, iar textul de azi păstrează alineatele cu nota lipită pe ele. Cine
@@ -2858,3 +2858,44 @@ Pagină de entitate: [[L-384-2023]] (nouă).
 |---|---|---|
 | [[moldova-eu-transposition-method]] | concept | flux de lucru pentru transpuneri UE |
 | [[moldova-eu-transposition-rule-matrix]] | concept | reguli imperative transformate în controale operaționale |
+
+## AJ. Codul electoral, cozile rămase deschise, și `L-199-2010` (2026-09-19, seara)
+
+### AJ.1 Cele două hotărâri fără articol, atribuite
+
+Cum s-a făcut: `showdetails` din Chrome-ul lui Eugen (Cloudflare a cedat după ~10 s de așteptare,
+`curl` rămăne blocat), două versiuni citite în pagină și comparate rând cu rând, fără descărcare.
+- **HCC16 din 16.07.24 → art. 90 alin. (2)**, textul „În serviciile media audiovizuale, grupurile de
+  inițiativă ... furnizorilor de servicii media." Versiunile 143253 (10.05.24) și 144550 (16.07.24)
+  diferă numai prin marcajul nou. **Atribuit prin diferență, nu prin dispozitivul hotărârii**
+  (nedescărcat, `decision_doc_id: null`). Textul lovit nu mai apare în alin. (2) de azi.
+- **HCC8 din 09.07.26 → art. 36 alin. (1)** (componența CEC Găgăuzia aprobată de Adunarea Populară)
+  **și art. 155 alin. (1)** (fragmentele „de Adunarea Populară a Găgăuziei," și trimiterea la Legea
+  nr. 344/1994). Notele stau în textul consolidării 155595 și nu în cel deținut, fiindcă LP192/2026
+  (în vigoare 26.08.26) a rescris ambele alineate și notele au dispărut odată cu textul vechi.
+Toate trei sînt în `_meta/hcc/recovered-provisions.json`; registrul arată Codul electoral cu 4
+hotărâri, 4 cunoscute, 0 fără articol. Total: 98 recuperate, 9 hotărâri fără articol (era 11).
+
+### AJ.2 Ce se schimbă la 1 ianuarie 2027
+
+156086 față de 153001: **o singură modificare de fond, art. 54 alin. (5) lit. f)**, LP327 din
+29.12.25 (MO665/31.12.25 art.814): dispar cuvintele „la autogestiune" din „autoritățile/instituțiile
+publice la autogestiune". Restul literei identic. Din 174 de rânduri diferite, restul sînt de formă:
+diacritice cu sedilă, rânduri rupte altfel (art. 39, art. 90 lit. d)), marcajul Capitolului X^1 pierdut
+la refresh (mecanismul 1 din CLAUDE.md, întrebarea 3), stub-ul „(11) - abrogat." la art. 53 (abrogat
+deja de LP192, în vigoare 26.08.26) și o notă editorială despre denumirea Ministerului Afacerilor
+Externe. Consemnat în `_meta/inforce/pending-consolidations.json`, deci și în registrul in-force.
+**Corecția față de AH:** răspunsul „nu are răspuns în wiki" nu mai e adevărat.
+Aceeași observație ca la `L-160-2011`: **marcajul unui act modificator viitor lipsește din fișierul
+deținut**, deci registrul in-force nu-l vede pînă nu e scris de mînă; comparația între versiuni e
+singura cale.
+
+### AJ.3 `L-199-2010`
+
+doc_id **155887**, 29 de articole, consolidarea **2026-09-13** (LP154 din 30.07.26, în vigoare
+13.09.26). Găsită prin căutare în titlu fără diacritice ca singurul rînd LP199/2010; neabrogată
+(fișa și antetul corpului verificate). `showdetails-155887.html`, 104170 de octeți, sha256
+`eb48bbbb2541a819f65fb0b65927a3df8c0c37fbed15fe7f1f0ecf2974edc3cc`, descărcat din Chrome cu
+acordul lui Eugen și verificat pe hash față de digestul calculat în pagină. Verificatorul:
+0 eșecuri. Ies din coada de ingerare art. 21-23, care se rezolvă acum pe ancore. Detalii în
+[[L-199-2010]].

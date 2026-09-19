@@ -1807,3 +1807,20 @@
   `entities/CC-1107-2002.md`, actualizate; `CLAUDE.md` punctele 1 si 4; `index.md`.
   Verificatorul de integritate: 60 de acte, 0 esecuri. Ambele acte ies din coada de ingerare, iar
   graful nu raporteaza nicio trimitere nerezolvata catre ele.
+
+## [2026-09-19] ingest | Cozile Codului electoral închise: două hotărâri atribuite, consolidarea 2027 citită, L-199-2010 ingerată
+
+- **Aflat:** consolidarea din 01.01.2027 a Codului electoral (156086) schimbă **un singur** lucru de
+  fond, art. 54 alin. (5) lit. f) (LP327/2025, dispar cuvintele „la autogestiune"); restul celor 174
+  de rînduri diferite sînt formă, diacritice și marcaje pierdute la refresh. Marcajul LP327 nu
+  există în fișierul deținut, deci nicio scanare nu-l putea găsi — comparația între versiuni e singura
+  cale, ca la `L-160-2011`. HCC16/2024 lovește art. 90 alin. (2), iar HCC8/2026 art. 36 alin. (1) și
+  art. 155 alin. (1); ambele au fost rescrise de LP192/2026, așa că textul deținut nu mai poartă nota.
+  HCC16/2024 e atribuit prin diferență de versiuni, nu prin dispozitivul hotărîrii.
+  `L-199-2010` (29 de articole, consolidare 13.09.2026, neabrogată) trece prin verificator cu 0 eșecuri.
+- **Decis:** consolidarea 2027 **nu** se ingerează ca fișier, pentru că ar face din textul de mîine
+  textul „de azi"; se scrie în `pending-consolidations.json`, ca la `L-160-2011` și `COD-1163-1997`.
+  Eugen a dat acordul pentru descărcarea `showdetails-155887.html`.
+- **Unde:** `_meta/hcc/recovered-provisions.json` (+3), `_meta/inforce/pending-consolidations.json`
+  (+1), `raw/papers/moldova-legal/L-199-2010.md`, `entities/L-199-2010.md`, `entities/COD-325-2022.md`,
+  secțiunea **AJ** din manifestul moldova-legal.

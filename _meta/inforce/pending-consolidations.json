@@ -148,6 +148,26 @@
           "summary": "Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. marcaj [Anexa nr.1 modificata prin LP159 ...]; marcajul LP71 dispare. Versiunea ingerata in dimineata de 6 septembrie si arhivata"
         }
       ]
+    },
+    {
+      "instrument": "COD-325-2022",
+      "doc_id": "156086",
+      "consolidation_date": "2027-01-01",
+      "held_doc_id": "153001",
+      "held_consolidation_date": "2026-08-26",
+      "amending_act": "LP327 din 29.12.25",
+      "official_gazette": "MO665/31.12.25 art.814",
+      "verified": "2026-09-19",
+      "method": "153001 si 156086 citite prin fetch fara descarcare (2454 vs 2294 randuri), comparate rand cu rand dupa normalizarea diacriticelor (t/s cu sedila vs virgula) si a taieturilor de rand; singura diferenta de fond este art. 54 al.(5) lit.f), unicul marcaj 'in vigoare 01.01.27'. Restul diferentelor: marcaje pierdute la refresh (Capitolul X1, LP192), randuri rupte altfel (art. 39, art. 90 lit.d)), stub-ul '(11) - abrogat.' la art. 53 (abrogat deja de LP192, in vigoare 26.08.26) si nota editoriala MAEIE. Marcajul LP327 lipseste din 153001, deci scanarea nu il vedea.",
+      "provisions": [
+        {
+          "article": "54",
+          "subunit": "al.(5) lit.f)",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "din enumerarea persoanelor care nu pot sustine material concurentii electorali dispar cuvintele 'la autogestiune' din sintagma 'autoritatile/institutiile publice la autogestiune'; restul literei este identic"
+        }
+      ]
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-19 | Total pages: 145
+> Last updated: 2026-09-19 | Total pages: 146
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -96,6 +96,7 @@
 - [[L-325-2013]] — Legea privind evaluarea integrității instituționale: regimul testării integrității profesionale a agenților publici (art. 7 alin. (2) lit. a), obligația a cărei încălcare devine motiv de excludere de la funcții publice în opt acte din corpus, inclusiv CNPF art. 12); art. 17 alin. (2)-(4) lovite de HCC37/2021; 28 de ancore, consolidare 2024-03-29.
 - [[L-325-2025]] — Legea achizițiilor publice din 2025: 91 de ancore, în vigoare de la 01.01.2027, dată viitoare, actul întreg; abrogă Legea 131/2015 la acea dată; pragurile din art. 1; art. 91 lasă procedurile în curs sub legea de la inițiere.
 - [[L-384-2023]] — Legea privind protecția secretelor comerciale: transpune Directiva (UE) 2016/943; 16 articole, fără exponenți, consolidare 2025-12-31; art. 16 alin. (3) este actul care a scos regimul din Codul civil — abrogă secțiunea a 3-a (arts. 2047–2054) de la 22.02.2024 și lasă în art. 1026 alin. (2) singura trimitere rămasă.
+- [[L-199-2010]] — Legea privind statutul persoanelor cu funcții de demnitate publică: 29 de articole, consolidare 2026-09-13; art. 21-23 (suspendare, încetare, răspundere) sînt citate din nouă acte; art. 3 alin. (2) dă întîietate legii speciale
 - [[L-436-2006]] — Legea administrației publice locale: 98 de ancore, consolidare 2026-06-26; nivelurile întâi, al doilea și special (Găgăuzia), principiile din art. 3 reiau art. 109 din Constituție.
 - [[L-514-1995]] — Legea organizării judecătorești: 60 de ancore, consolidare 2026-08-28; lacunele 29–34, 41–42, 51–53 sunt capitole abrogate cu stub în text.
 - [[L-548-1995]] — Legea nr. 548/1995 cu privire la Banca Națională a Moldovei: text românesc, 91 de ancore; art. 11 fixează regimul special de contestare a actelor BNM; șapte lacune de numerotare fără marcaj în sursă.

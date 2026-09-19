@@ -152,9 +152,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-19 16:27 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-19 16:53 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-94 primary Moldovan acts, 32 EU acquis extracts, 1 Association Agreement extract(s), 293 BNM corpus documents.
+95 primary Moldovan acts, 32 EU acquis extracts, 1 Association Agreement extract(s), 293 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -167,7 +167,7 @@ Generated 2026-09-19 16:27 from the files themselves. Do not edit this section b
 | `COD-218-2008` | 737 | 737 | 2026-09-13 | **consolidation dated in the future**; 254 superscript articles normalised; 6 provision(s) declared unconstitutional (HCC register) |
 | `COD-22-2024` | 96 | 96 | 2026-04-25 | 17 superscript articles normalised |
 | `COD-225-2003` | 540 | 540 | 2026-08-06 | 77 superscript articles normalised; 9 provision(s) declared unconstitutional (HCC register) |
-| `COD-325-2022` | 252 | 252 | 2026-08-26 | 7 superscript articles normalised; **2 HCC decision(s) not yet attributed to an article** (2 known) |
+| `COD-325-2022` | 252 | 252 | 2026-08-26 | 7 superscript articles normalised; 4 provision(s) declared unconstitutional (HCC register) |
 | `COD-434-2023` | 390 | 390 | 2026-08-06 | clean |
 | `COD-443-2004` | 361 | 361 | 2026-12-02 | **consolidation dated in the future**; 36 superscript articles normalised; 6 provision(s) declared unconstitutional (HCC register) |
 | `COD-95-2021` | 472 | 472 | 2026-09-01 | 51 superscript articles normalised |
@@ -220,6 +220,7 @@ Generated 2026-09-19 16:27 from the files themselves. Do not edit this section b
 | `L-195-2024` | 90 | 90 | 2026-08-23 | clean |
 | `L-198-2007` | 54 | 54 | 2026-08-06 | 17 superscript articles normalised |
 | `L-198-2020` | 64 | 64 | 2025-10-25 | clean |
+| `L-199-2010` | 29 | 29 | 2026-09-13 | 3 superscript articles normalised |
 | `L-2-2020` | 46 | 46 | 2025-10-25 | clean |
 | `L-20-2026` | 29 | 29 | 2026-04-01 | clean |
 | `L-202-2017` | 155 | 155 | 2025-10-25 | 6 superscript articles normalised |
@@ -257,7 +258,7 @@ Generated 2026-09-19 16:27 from the files themselves. Do not edit this section b
 
 - **Repealed acts.** no longer in force: `L-133-2011` (repealed 2026-08-23 by LP195 din 25.07.24). These files are kept because other acts in the corpus still cite them and because the text governs facts before the repeal date. They are anchored, their sha256 verifies and their consolidation is recent, so nothing else here would reveal that they stopped binding. Do not cite them as law in force; cite the successor and say from when it applies.
 - **Not yet in force.** 16 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-1134-1997` (2028-01-01), `L-171-2012` (2027-06-01), `COD-122-2003` (2026-12-02), `COD-154-2003` (2027-01-01), `COD-218-2008` (2026-09-13), `COD-443-2004` (2026-12-02), `COD-985-2002` (2026-12-02), `HG-743-2024` (2026-12-30), `L-132-2016` (2027-01-01), `L-133-2016` (2027-01-01), `L-1543-1998` (2027-01-01), `L-158-2008` (2026-09-13), `L-181-2014` (2027-01-01), `L-325-2025` (2027-01-01), `L-845-1992` (2027-01-01), `L-114-2012` (2027-01-01). 70 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
-- **Declared unconstitutional.** 25 act(s) carry at least one Constitutional Court decision in their history block, 84 decisions in total: 33 still marked at article level in the text itself, 95 more recovered by reading the legis.md version history (`_meta/hcc/recovered-provisions.json`), and 11 not yet attributed to any article. A struck provision looks like ordinary law: the article exists, the anchor is valid, the sha256 matches. Check `_meta/hcc/hcc-register.md` before citing an article from `COD-116-2018`, `COD-1163-1997`, `COD-122-2003`, `COD-154-2003`, `COD-174-2018`, `COD-218-2008`, `COD-225-2003`, `COD-325-2022`, `COD-443-2004`, `COD-985-2002`, `L-1260-2002`, `L-133-2016`, `L-135-2007`, `L-149-2012`, `L-158-2008`, `L-325-2013`, `L-514-1995`, `L-548-1995`, `L-64-2010`, `L-845-1992` and say which decision struck it and what today's text actually holds.
+- **Declared unconstitutional.** 25 act(s) carry at least one Constitutional Court decision in their history block, 84 decisions in total: 33 still marked at article level in the text itself, 98 more recovered by reading the legis.md version history (`_meta/hcc/recovered-provisions.json`), and 9 not yet attributed to any article. A struck provision looks like ordinary law: the article exists, the anchor is valid, the sha256 matches. Check `_meta/hcc/hcc-register.md` before citing an article from `COD-116-2018`, `COD-1163-1997`, `COD-122-2003`, `COD-154-2003`, `COD-174-2018`, `COD-218-2008`, `COD-225-2003`, `COD-325-2022`, `COD-443-2004`, `COD-985-2002`, `L-1260-2002`, `L-133-2016`, `L-135-2007`, `L-149-2012`, `L-158-2008`, `L-325-2013`, `L-514-1995`, `L-548-1995`, `L-64-2010`, `L-845-1992` and say which decision struck it and what today's text actually holds.
 - **Stale consolidations.** `L-23-2008` (2016-09-30), `L-66-2017` (2017-06-02), `L-250-2017` (2018-03-29), `L-24-2008` (2018-11-08), `HBN-130-2013` (2018-12-23), `L-133-2018` (2019-03-01), `HBN-127-2013` (2021-05-09), `HCNPF-14-5-2016` (2022-05-06), `UA-STATUT-2011` (2022-05-27), `L-160-2023` (2023-10-01), `L-183-2016` (2023-10-21), `L-148-2023` (2024-01-08), `L-64-2010` (2024-01-23), `L-325-2013` (2024-03-29), `DCA-61-2024` (2024-05-05), `HG-1171-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `HG-574-2024` (2024-08-23). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
 - **BNM English corpus.** 60 file(s) carry 149 line-initial `Article N` markers and no anchors. Any answer resting on the English BNM translations is not anchored.
 

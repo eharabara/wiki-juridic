@@ -2,7 +2,7 @@
 
 Generat 2026-09-19 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
 
-25 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 84 hotariri distincte. Articolul atins este cunoscut pentru 33 marcaje inca prezente in text si 95 dispozitii recuperate din istoricul versiunilor; **11 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
+25 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 84 hotariri distincte. Articolul atins este cunoscut pentru 33 marcaje inca prezente in text si 98 dispozitii recuperate din istoricul versiunilor; **9 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
 
 Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiunea hotaririi si a intinderii anularii. Un act din tabelul „fara articol atribuit” se citeaza cu avertismentul ca poarta hotariri ale Curtii neverificate la nivel de articol.
 
@@ -17,7 +17,7 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `COD-174-2018` | 150538 | 2026-06-24 | 2 | 2 | 0 |
 | `COD-218-2008` | 155852 | 2026-09-13 | 6 | 6 | 0 |
 | `COD-225-2003` | 155718 | 2026-08-06 | 9 | 9 | 0 |
-| `COD-325-2022` | 153001 | 2026-08-26 | 4 | 2 | 2 |
+| `COD-325-2022` | 153001 | 2026-08-26 | 4 | 4 | 0 |
 | `COD-443-2004` | 156146 | 2026-12-02 | 6 | 6 | 0 |
 | `COD-985-2002` | 156133 | 2026-12-02 | 8 | 8 | 0 |
 | `CONST-1994` | 145723 | 2024-11-05 | 2 | 0 | 2 |
@@ -126,6 +126,9 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `COD-325-2022` | 91 | al.(5) | text din articol („deciziilor organelor electorale emise în conformitate cu prevederile art. 68 alin. (51), a”) | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1659 |
 | `COD-325-2022` | 98 | al.(1) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1743 |
 | `COD-325-2022` | 102 | al.(5), lit.e) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1816 |
+| `COD-325-2022` | 90 | al.(2), textul „În serviciile media audiovizuale ... furnizorilor de servicii media.” | text din articol („În serviciile media audiovizuale, grupurile de iniţiativă, concurenţii electorali (candida…”) | HCC16/2024-07-16 | MO344-346/08.08.24 art.127 | versiunea 144550 @ 2024-07-16, verificat 2026-09-19 |
+| `COD-325-2022` | 36 | al.(1), textul „Componența Consiliului Electoral Central al Găgăuziei se aprobă ... și cu actele normative locale” | text din articol („Componența Consiliului Electoral Central al Găgăuziei se aprobă de Adunarea Populară a Găg…”) | HCC8/2026-07-09 | MO351-354/31.07.26 art.132 | versiunea 155595 @ 2026-07-09, verificat 2026-09-19 |
+| `COD-325-2022` | 155 | al.(1), textele „de Adunarea Populară a Găgăuziei,” și „Legii nr. 344/1994 privind statutul juridic special al Găgăuziei (Gagauz-Yeri) și ale” | text din articol | HCC8/2026-07-09 | MO351-354/31.07.26 art.132 | versiunea 155595 @ 2026-07-09, verificat 2026-09-19 |
 | `COD-443-2004` | 174 | alin. (3^1) | subunitate | HCC18/2013-07-04 | MO182-185/23.08.13 art.27 | versiunea None @ None, verificat 2026-09-08 |
 | `COD-443-2004` | 291^1 |  | articol intreg | HCC18/2013-07-04 | MO182-185/23.08.13 art.27 | versiunea None @ None, verificat 2026-09-08 |
 | `COD-443-2004` | 73 |  | articol intreg | HCC11/2021-03-25 | MO96-99/09.04.21 art.57 | versiunea 126029 @ 2021-03-25, verificat 2026-09-15 |
@@ -175,8 +178,6 @@ Marcajul s-a pierdut la o reimprospatare anterioara a consolidarii. Articolul se
 
 | act | hotarire | rindul din fisa |
 |---|---|---|
-| `COD-325-2022` | HCC8/2026-07-09 | l.52: HCC8 din 09.07.26, MO351-354/31.07.26 art.132; în vigoare 09.07.26 |
-| `COD-325-2022` | HCC16/2024-07-16 | l.59: HCC16 din 16.07.24, MO344-346/08.08.24 art.127; în vigoare 16.07.24 |
 | `CONST-1994` | HCC8/2024-03-11 | l.51: HCC8 din 11.03.24, MO104-107/21.03.24 art.42; în vigoare 11.03.24 |
 | `CONST-1994` | HCC7/2016-03-04 | l.58: HCC7 din 04.03.16, MO59-67/18.03.16 art.10 |
 | `L-132-2016` | HCC29/2021-09-21 | l.77: HCC29 din 21.09.21, MO256-260/22.10.21 art.184; în vigoare 21.09.21 |

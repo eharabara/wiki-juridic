@@ -753,6 +753,15 @@ DOCS = {
     # 16 articole, ZERO etichete <sup>. Transpune Directiva (UE) 2016/943.
     'L-384-2023': {'doc_id': '152656',
                    'title': 'Legea nr. 384/2023 privind protectia secretelor comerciale'},
+    # Adaugata 2026-09-19. Capul cozii de ingerare dupa Codul electoral: 19 mentiuni din 9 acte
+    # (COD-150-2014 are mai multe mentiuni, dar dintr-un singur act). Art. 36 alin. (1) si (9)
+    # din COD-325-2022 o cheama pe nume. Cautare in titlu fara diacritice: legis.md da denumirea
+    # "LEGE Nr. 199 din 16.07.2010 cu privire la statutul persoanelor cu functii de demnitate
+    # publica"; singurul rand LP199/2010. doc_id 155887 = consolidarea cu ultima modificare LP154
+    # din 30.07.26, in vigoare 13.09.26 (deci trecuta la data ingerarii). Neabrogata: nici fisa,
+    # nici antetul corpului nu poarta abrogare. 29 de articole.
+    'L-199-2010': {'doc_id': '155887',
+                   'title': 'Legea nr. 199/2010 cu privire la statutul persoanelor cu functii de demnitate publica'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

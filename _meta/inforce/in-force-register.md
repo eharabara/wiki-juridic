@@ -1,6 +1,6 @@
 ---
 title: Registrul dispozitiilor care nu sint inca in vigoare
-generated: '2026-09-19T16:26:56'
+generated: '2026-09-19T16:52:58'
 as_of: '2026-09-19'
 type: summary
 tags: [moldova, legal-source, methodology, summary]
@@ -12,7 +12,7 @@ generated_by: _meta/inforce/build_inforce_register.py
 
 **Fisier generat. Nu se editeaza manual.** Se reface rulind scriptul din frontmatter.
 
-Stare la 2026-09-19. 438 fisiere scanate. 70 dispozitii afectate in 13 act(e). 14 consolidare/consolidari cu data in viitor. 6 consolidare/consolidari viitoare neingerate, 10 dispozitii.
+Stare la 2026-09-19. 439 fisiere scanate. 70 dispozitii afectate in 13 act(e). 14 consolidare/consolidari cu data in viitor. 7 consolidare/consolidari viitoare neingerate, 11 dispozitii.
 
 ## Regula de citare
 
@@ -122,6 +122,7 @@ Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar
 |---|---|---|---|---|---|
 | L-160-2011 | 149496 @ 2026-12-28 | 151257 @ 2026-08-29 | LP136 din 13.06.25, MO340-342/28.06.25 art.387 | 2026-09-07 | sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei |
 | COD-1163-1997 | 152862 @ 2027-01-01 | 138613 @ 2026-07-01 | LP187 din 10.07.25, MO379-380/18.07.25 art.491 | 2026-09-07 | capul istoricului confirmat pe pagina actului; 152862 si 138613 citite prin fetch fara descarcare, comparate alineat cu alineat; 5 marcaje 'in vigoare 01.01.27', toate LP187/2025 |
+| COD-325-2022 | 156086 @ 2027-01-01 | 153001 @ 2026-08-26 | LP327 din 29.12.25, MO665/31.12.25 art.814 | 2026-09-19 | 153001 si 156086 citite prin fetch fara descarcare (2454 vs 2294 randuri), comparate rand cu rand dupa normalizarea diacriticelor (t/s cu sedila vs virgula) si a taieturilor de rand; singura diferenta de fond este art. 54 al.(5) lit.f), unicul marcaj 'in vigoare 01.01.27'. Restul diferentelor: marcaje pierdute la refresh (Capitolul X1, LP192), randuri rupte altfel (art. 39, art. 90 lit.d)), stub-ul '(11) - abrogat.' la art. 53 (abrogat deja de LP192, in vigoare 26.08.26) si nota editoriala MAEIE. Marcajul LP327 lipseste din 153001, deci scanarea nu il vedea. |
 | L-160-2011 | 150231 @ 2027-01-01 | 151257 @ 2026-08-29 | LP176 din 03.07.25, MO409-412/31.07.25 art.549 | 2026-09-07 | sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei |
 | L-160-2011 | 154051 @ 2027-01-23 | 151257 @ 2026-08-29 | LP40 din 26.03.26, MO176-179/23.04.26 art.139 | 2026-09-07 | sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei |
 | L-160-2011 | 154478 @ 2027-05-21 | 151257 @ 2026-08-29 | LP71 din 30.04.26, MO213-216/21.05.26 art.202 | 2026-09-07 | sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei |
@@ -135,6 +136,7 @@ Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar
 | COD-1163-1997 | 342 alin. (1^1) | abrogare | 2027-01-01 | LP187 din 10.07.25 | inca in vigoare | dispare cerinta raportarii electronice obligatorii a acestei dari de seama |
 | COD-1163-1997 | 342 alin. (2) | abrogare | 2027-01-01 | LP187 din 10.07.25 | inca in vigoare | dispar termenele de 25 ianuarie (dare de seama anuala) si 25 martie (darea de seama unificata a II si GT); alin. (3) si (4), evidenta ASP, ramin |
 | COD-1163-1997 | 342^1 alin. (3) | modificare | 2027-01-01 | LP187 din 10.07.25 | se aplica textul anterior | din 'calculul, raportarea si achitarea taxei' ramine 'calculul si achitarea', consecinta abrogarii raportarii; alin. (2) difera doar prin diacritice (t-sedila / t-virgula), fara schimbare de fond |
+| COD-325-2022 | 54 al.(5) lit.f) | modificare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior | din enumerarea persoanelor care nu pot sustine material concurentii electorali dispar cuvintele 'la autogestiune' din sintagma 'autoritatile/institutiile publice la autogestiune'; restul literei este identic |
 | L-160-2011 | anexa nr. 1 | modificare | 2027-01-01 | LP176 din 03.07.25 | se aplica textul anterior | Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. fara marcaj in text; doar rindul din fisa. Aceeasi lege introduce art. 15^3-15^8 in L-1543-1998, consolidare ingerata si listata in registru |
 | L-160-2011 | anexa nr. 1 | modificare | 2027-01-23 | LP40 din 26.03.26 | se aplica textul anterior | Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. marcaj [Anexa nr.1 modificata prin LP40 ...] |
 | L-160-2011 | anexa nr. 1 | modificare | 2027-05-21 | LP71 din 30.04.26 | se aplica textul anterior | Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. marcaj [Anexa nr.1 modificata prin LP71 ...]; marcajul LP40 dispare |
