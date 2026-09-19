@@ -2704,6 +2704,100 @@ neconfirmată articol cu articol**; se confirmă ingerând `L-384-2023` — care
 
 Pagini de entitate atinse: [[L-133-2018]], [[CC-1107-2002]].
 
+## AH. `COD-325-2022`, Codul electoral: lucru preluat, nu terminat (2026-09-19)
+
+Primul act din coada mecanică de ingerare (**38 de mențiuni din 9 acte deținute**, cel mai des din
+`L-436-2006`) a fost început de altă sesiune pe 18 septembrie și lăsat la jumătate. Eugen a cerut
+pe 19 septembrie preluarea lui. **Nu este ingerat, și nu trebuie ingerat din ce avem** — motivele
+sunt mai jos, la fel și tot ce s-a putut dovedi fără sursă, ca reluarea să coste o comandă, nu o
+zi.
+
+### AH.1 De ce s-a oprit, și de ce nu se poate relua azi
+
+`showdetails/148963` nu se poate lua. Verificat de două ori pe 19 septembrie: `curl` cu cele două
+antete documentate primește **403 „Just a moment"**; browserul intern rămâne pe pagina de
+verificare și după 8 secunde; extensia Chrome a lui Eugen **nu este conectată**. Deci ambele rute
+documentate sunt închise, nu doar una.
+
+Sesiunea de pe 18 septembrie a luat în schimb **exportul PDF al legis.md**. Provenienţa lui este
+stabilită din metadatele fişierului, nu din memoria acelei sesiuni: producător **mPDF 8.0.5**,
+biblioteca PHP pe care legis.md o foloseşte la butonul de export, cu data de creare
+**18.09.2026 13:29**, adică exact ora descărcării. 157 de pagini.
+
+**Păstrat la** `raw/assets/moldova-legal/COD-325-2022-legis-148963-2026-09-18.pdf`, lângă
+precedentul lui, PDF-ul Codului civil. `sha256` =
+`aa394276828429141bc8cfb6123a8d91a729a638a75248ef03aa8800565383d6`. Fişierele derivate ale acelei
+sesiuni (un `.txt` extras, trei randări PNG, un `.html` de 120 de octeţi şi un `.part` care este
+chiar pagina Cloudflare) au fost şterse: `.txt`-ul este oricum lossy — pierde parantezele drepte
+ale marcajelor şi turteşte exponenţii —, iar celelalte nu conţin nimic.
+
+### AH.2 De ce nu se ingerează din PDF, deşi textul e bun
+
+Două motive, primul de formă şi al doilea de fond.
+
+**PDF-ul nu conţine fişa actului.** Exportul mPDF începe direct cu antetul scurt şi preambulul,
+deci nu are tabelul de metadate din care `ingest_business_law.py` scrie `official_title_detected`,
+`Data adoptării`, lista completă de modificări şi — lucrul care contează cel mai mult aici —
+**`Data abrogării`**. Nota de metodă „verifică abrogarea înainte de a ingera" cere exact două
+surse, câmpul din fişă şi antetul consolidării; PDF-ul oferă doar a doua.
+
+**Versiunea este contestată de propriile noastre dovezi.** Nota lăsată în `DOCS` pe 18 septembrie
+spune că pagina afişa versiunea din **26.08.2026**. Antetul PDF-ului dă însă ca ultimă modificare
+**LP100 din 13.06.25, în vigoare 01.01.26** şi nimic după. Una dintre cele două afirmaţii este
+greşită şi **numai sursa poate spune care**. Un fişier construit acum ar arăta impecabil — 245 de
+ancore, fără lacune, `sha256` valid, consolidare „curată" — şi ar fi, eventual, cu o versiune în
+urmă. Este exact tiparul de eroare pe care acest wiki îl documentează la actele abrogate şi la
+consolidările viitoare, iar aici ar lovi **actul cel mai citat dintre cele nedeţinute**, deci cel
+mai probabil să fie folosit.
+
+### AH.3 Ce dovedeşte totuşi PDF-ul, verificat mecanic
+
+Toate cifrele de mai jos sunt citite din PDF cu PyMuPDF pe 19 septembrie, nu din `.txt`-ul
+intermediar.
+
+| constatare | cifră | de ce contează la ingerare |
+|---|---|---|
+| articole | **245**, numerotate 1-245 | fără nicio lacună şi fără niciun număr duplicat |
+| exponenţi la nivel de **articol** | **niciunul** | deci turtirea nu ameninţă ancorele acestui act |
+| exponenţi la nivel de **alineat** | prezenţi, ex. `(2^1)`-`(2^4)`, `(12^1)`, `(13^1)` | în text plat apar ca „(2 1)", cu spaţiu |
+| marcaje de modificare | ambele forme, `[Art.N ...]` şi `Notă: Art.N ...` | supravieţuiesc exportului PDF |
+| acte care au modificat | LP280/2023 (12 menţiuni), LP100/2025 (5) | |
+| hotărâri ale Curţii Constituţionale | **HCC16/2023 şi HCC9/2024** | actul intră în registrul HCC |
+
+**Metoda care recuperează exponenţii dintr-un PDF şi merită reţinută:** mPDF păstrează exponentul
+ca un span de **6,6 pt** pe un corp de **12 pt**, deci se detectează comparând mărimea fiecărui
+span cu maximul liniei, fără nicio ghicire. 37 de astfel de spans în tot actul. Este ruta care
+face un export PDF al legis.md recuperabil acolo unde extracţia plată nu este — şi singurul motiv
+pentru care ştim, fără sursă, că acest cod **nu** are exponenţi de articol.
+
+### AH.4 Cele două hotărâri ale Curţii, citite din marcaje
+
+De pregătit înainte de ingerare, fiindcă registrul HCC le va cere:
+
+- **HCC16 din 03.10.23** (MO391-394/19.10.23 art.153; în vigoare 03.10.23) — **art. 16 alin. (2)
+  lit. e)** declarată neconstituţională.
+- **HCC9 din 26.03.24** (MO192-194/02.05.24 art.66; în vigoare 26.03.24) — şterge **tot blocul
+  introdus de LP280/2023**: art. 16 alin. (2) lit. f) şi alin. (2^1)-(2^4); art. 68 alin. (1)
+  lit. f) (textul „art.16 alin.(2) lit.c)-f)"), alin. (1^1) şi alin. (5^1); art. 91 alin. (3^1);
+  art. 98 alin. (1) pct. 2) lit. a) şi lit. a^1); art. 102 alin. (5) lit. e).
+
+Tiparul merită numit separat: **o lege întreagă de modificare, LP280/2023, a fost desfiinţată
+bucată cu bucată de o singură hotărâre**, iar textul de azi păstrează alineatele cu nota lipită
+pe ele. Cine citeşte art. 16 sau art. 68 din acest cod fără să citească notele va găsi restricţii
+electorale care nu se mai aplică.
+
+### AH.5 Cum se reia, în ordine
+
+1. `showdetails/148963` prin `curl` cu cele două antete, sau prin Chrome-ul lui Eugen dacă
+   extensia e conectată.
+2. **Întâi se lămureşte versiunea**: lista de versiuni din bara laterală, ca să se vadă dacă
+   26.08.2026 există şi dacă doc_id 148963 este capul ei. Dacă nu este, se ia doc_id-ul corect.
+3. `python _meta/imports/moldova-legal/ingest_business_law.py COD-325-2022` — intrarea în `DOCS`
+   există deja şi poartă tot ce s-a aflat aici, în comentariu.
+4. `verify_business_law.py` (sare peste actele neingerate de pe 18 septembrie, deci rulează şi
+   acum, cu 0 eşecuri), apoi `_meta/close_session.py`, care reconstruieşte registrul HCC şi
+   graful; se verifică atunci că cele două hotărâri de la AH.4 apar în registru.
+
 ## D. Artefacte metodologice create
 
 | Artefact | Tip | Rol |

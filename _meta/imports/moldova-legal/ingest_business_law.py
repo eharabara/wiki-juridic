@@ -722,6 +722,32 @@ DOCS = {
                   'anchor_mode': 'roman-amending',
                   'title': 'Legea nr. 66/2017 cu privire la modificarea si completarea unor '
                            'acte legislative (regimul masurilor de ocrotire judiciara)'},
+    # Primul act din coada mecanica de ingestie la 2026-09-18: 38 de mentiuni din 9 acte
+    # deja detinute. Identitatea a fost confirmata pe pagina oficiala legis.md: COD nr. 325
+    # din 08.12.2022, publicat in MO 426-427/23.12.2022, art. 770; doc_id 148963. Pagina
+    # curenta afiseaza versiunea din 26.08.2026, care este anterioara datei de lucru.
+    #
+    # NEINGERAT inca, preluat 2026-09-19 de la sesiunea care a scris intrarea de mai sus.
+    # Cloudflare blocheaza si curl (cu cele doua antete) si ambele browsere, deci showdetails
+    # nu se poate lua. Sesiunea aceea descarcase in schimb exportul PDF al legis.md (mPDF
+    # 8.0.5, generat 18.09.2026 13:29), pastrat acum la
+    #   raw/assets/moldova-legal/COD-325-2022-legis-148963-2026-09-18.pdf
+    #   sha256 aa394276828429141bc8cfb6123a8d91a729a638a75248ef03aa8800565383d6
+    # NU ingera din acel PDF: nu contine fisa actului (deci nici "Data abrogarii", nici lista
+    # completa de modificari), iar antetul lui da ca ultima modificare LP100/2025 in vigoare
+    # 01.01.26, ceea ce CONTRAZICE nota de mai sus despre versiunea din 26.08.2026. Una dintre
+    # cele doua e gresita si numai sursa o poate spune. Ce dovedeste totusi PDF-ul, verificat
+    # 2026-09-19: 245 de articole numerotate 1-245, fara lacune, fara duplicate si fara niciun
+    # exponent la nivel de articol; exponentii de alineat exista si se recupereaza din marimea
+    # fontului (spans de 6,6 pt pe un corp de 12 pt); marcajele de modificare sint prezente in
+    # ambele forme, "[Art.N ...]" si "Nota: Art.N ... neconstitutionala prin HCCnn ...".
+    # De retinut inainte de ingerare: actul intra in registrul HCC cu DOUA hotariri --
+    # HCC16 din 03.10.23 (art. 16 al.(2) lit. e)) si HCC9 din 26.03.24, care sterge tot blocul
+    # adaugat de LP280/2023 (art. 16 al.(2) lit. f) si al.(2^1)-(2^4), art. 68 al.(1) lit. f),
+    # al.(1^1) si al.(5^1), art. 91 al.(3^1), art. 98 al.(1) pct.2) lit. a) si a^1),
+    # art. 102 al.(5) lit. e)). Vezi sectiunea AH din raw/papers/moldova-legal/_manifest.md.
+    'COD-325-2022': {'doc_id': '148963',
+                     'title': 'Codul electoral al Republicii Moldova nr. 325/2022'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

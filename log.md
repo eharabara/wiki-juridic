@@ -1731,3 +1731,39 @@
 - **Unde:** `legal-career/06-matter-log.md`, doua linii de frontmatter (`taken`, `stamped`), prin
   `python _meta/schema/stamp_copies.py --taken 2026-09-19`. Avertismentul `copy.stale` al
   validatorului se inchide; raman doua avertismente, ambele pe acelasi fisier BNM de prezentare.
+## [2026-09-19] update | COD-325-2022 preluat de la sesiunea de pe 18 septembrie: pastrat, documentat, neingerat
+
+- **Aflat:** ruta catre legis.md e inchisa pe toate cele trei cai, verificate in aceeasi ora:
+  `curl` cu cele doua antete da 403, browserul intern ramine pe pagina de verificare dupa 8
+  secunde, iar extensia Chrome a lui Eugen **nu e conectata**. Fisierele lasate de acea sesiune
+  nu sint egale intre ele: `.html`-ul de 120 de octeti e un ciot, `.part`-ul **este** pagina
+  Cloudflare, `.txt`-ul e lossy (pierde parantezele drepte ale marcajelor si turteste
+  exponentii) — dar **PDF-ul este bun si are provenienta verificabila din metadate**: producator
+  `mPDF 8.0.5`, biblioteca pe care legis.md o foloseste la export, creat 18.09.2026 13:29, 157
+  de pagini. Citit cu PyMuPDF, el dovedeste ce `.txt`-ul ascundea: **245 de articole 1-245, fara
+  lacune, fara duplicate, fara niciun exponent la nivel de articol**; exponentii de alineat exista
+  si **se recupereaza din marimea fontului** — mPDF ii lasa ca spans de 6,6 pt pe un corp de 12 pt,
+  37 in tot actul, deci fara nicio ghicire; marcajele supravietuiesc in ambele forme. Si, lucru
+  care nu se stia deloc: actul poarta **doua hotariri ale Curtii Constitutionale**, HCC16 din
+  03.10.23 (art. 16 al.(2) lit. e)) si HCC9 din 26.03.24, care desfiinteaza **tot blocul introdus
+  de LP280/2023** — art. 16 al.(2) lit. f) si al.(2^1)-(2^4), art. 68 al.(1) lit. f), al.(1^1),
+  al.(5^1), art. 91 al.(3^1), art. 98 al.(1) pct.2) lit. a) si a^1), art. 102 al.(5) lit. e).
+  **Si o contradictie care opreste lucrul:** nota lasata in `DOCS` spune ca pagina afisa versiunea
+  din 26.08.2026, dar antetul PDF-ului da ca ultima modificare LP100/2025, in vigoare 01.01.26,
+  si nimic dupa. Una dintre cele doua e gresita.
+- **Decis:** actul **nu** se ingereaza din PDF, desi textul e bun. Doua motive: exportul nu contine
+  fisa, deci nici `Data abrogarii` si nici lista completa de modificari, iar regula proprie a
+  wiki-ului cere ambele surse pentru abrogare; si versiunea e contestata de propriile noastre
+  dovezi, iar un fisier construit acum ar arata impecabil — 245 de ancore, `sha256` valid,
+  consolidare „curata" — fiind eventual cu o versiune in urma. Este exact tiparul de eroare
+  documentat la actele abrogate si la consolidarile viitoare, si ar lovi **actul cel mai citat
+  dintre cele nedetinute** (38 de mentiuni, 9 acte), deci cel mai probabil sa fie folosit.
+  In schimb, tot ce s-a aflat se scrie acolo unde va fi citit la reluare: in comentariul intrarii
+  din `DOCS`, nu doar in manifest. Fisierele derivate se sterg, PDF-ul se pastreaza ca activ, linga
+  precedentul lui, PDF-ul Codului civil.
+- **Unde:** `raw/assets/moldova-legal/COD-325-2022-legis-148963-2026-09-18.pdf`
+  (sha256 `aa394276828429...`); sectiunea **AH** (AH.1-AH.5, cu ordinea exacta de reluare) din
+  `raw/papers/moldova-legal/_manifest.md`; comentariul intrarii `COD-325-2022` din
+  `_meta/imports/moldova-legal/ingest_business_law.py`, preluata acum de aceasta sesiune. Sterse:
+  `download-showdetails-148963.html`, `showdetails-148963.ajax.part`, `tmp/`.
+  `verify_business_law.py`: 58 de acte, 0 esecuri, cu actul neingerat sarit vizibil.
