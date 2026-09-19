@@ -1719,3 +1719,15 @@
   `entities/L-133-2018.md` (tabelul celor trei blocuri), `entities/L-105-2003.md` (secțiune nouă
   despre republicarea din 2024). Comis cu căi explicite: lucrul necomis al celeilalte sesiuni
   (`ingest_business_law.py`, fișierele parțiale, `tmp/`) rămâne al ei.
+## [2026-09-19] update | Registrul de spete, reimprospatat prin confirmare: nimic nou de la 17 septembrie
+
+- **Aflat:** Eugen a confirmat ca registrul din proiectul claude.ai „Legal Wiki" nu s-a schimbat
+  de la 17 septembrie. Proba mecanica este in stampila insasi: `sha256_body` ramane
+  `9749803a952d...`, adica exact valoarea de dinainte de re-stampilare, deci corpul copiei nu a
+  fost atins si nu exista pozitie noua de care lucrul din acest folder sa nu stie.
+- **Decis:** copia se re-stampileaza la `taken: 2026-09-19`, fara a-i inlocui corpul, fiindca
+  textul din proiect este identic. D9 cere reimprospatarea la fiecare sesiune, nu o rescriere
+  cand nu e nimic de rescris; confirmarea lui Eugen este reimprospatarea.
+- **Unde:** `legal-career/06-matter-log.md`, doua linii de frontmatter (`taken`, `stamped`), prin
+  `python _meta/schema/stamp_copies.py --taken 2026-09-19`. Avertismentul `copy.stale` al
+  validatorului se inchide; raman doua avertismente, ambele pe acelasi fisier BNM de prezentare.
