@@ -1767,3 +1767,43 @@
   `_meta/imports/moldova-legal/ingest_business_law.py`, preluata acum de aceasta sesiune. Sterse:
   `download-showdetails-148963.html`, `showdetails-148963.ajax.part`, `tmp/`.
   `verify_business_law.py`: 58 de acte, 0 esecuri, cu actul neingerat sarit vizibil.
+## [2026-09-19] ingest | Eugen a trecut Cloudflare: COD-325-2022 si L-384-2023 ingerate, intrebarea deschisa nr. 1 inchisa textual
+
+- **Aflat:** cu extensia Chrome conectata si verificarea trecuta de Eugen, lista de versiuni a
+  Codului electoral rezolva contradictia lasata dimineata: 22 de versiuni, iar PDF-ul pe care
+  sesiunea de pe 18 septembrie il descarcase (`148963 @ 01-01-2026`) era **cu trei versiuni in
+  urma**. Nota din `DOCS` avea dreptate, antetul PDF-ului nu. Diferenta **nu** e cosmetica:
+  PDF-ul are 245 de articole si **niciun** exponent de articol, HTML-ul curent (`153001 @
+  26-08-2026`) are **252** si **sapte** — 14^1 si 80^1-80^5, adica tot regimul metodelor
+  alternative de votare, plus 82^1. Un fisier construit din PDF ar fi aratat impecabil si i-ar fi
+  lipsit sapte articole intregi, pe actul cel mai citat dintre cele nedetinute. Capcana doc_id-ului
+  se confirma a treia oara: 153001 < 155595 < 156086, deci data cea mai noua NU are doc_id-ul cel
+  mai mare. **A doua constatare, din L-384-2023:** art. 16 alin. (3) pct. 2 abroga expres
+  „sectiunea a 3-a" din cartea a treia titlul III, iar pct. 1 **numeste chiar art. 2047**, textul
+  pe care il inlocuieste in art. 1026 alin. (2) din Codul civil — si art. 1026 alin. (2) de azi
+  poarta forma noua. Deci lacuna 2047-2054 are acum si act abrogator, si data: **22.02.2024**.
+  Aceeasi dispozitie contine **trei defecte**: scrie codul „nr. 1107/**2022**" (este 1107/2002),
+  citeaza titlul sectiunii cu „divulgarea **legala**" unde fusese promulgata „**ilegala**", si
+  spune capitolul XXXIII unde L-133-2018 scrisese XXXIV (republicarea a renumerotat si capitolele).
+  **A treia:** prima rulare a registrului HCC dupa ingerare a dat Codul electoral cu 4 hotariri si
+  **zero** articole atribuite, desi textul numeste 13 dispozitii — parserul citea doar forma cu
+  paranteze drepte si pe cea cu asterisc, iar acest act le scrie pe toate ca `Nota: Art.N ...
+  declarata neconstitutionala prin HCCnn ...`.
+- **Decis:** fixul din `build_hcc_register.py` este **aditiv, nu o relaxare** — o linie `Nota:`
+  devine marcaj numai daca trece aceeasi garda ca forma cu asterisc (identificator `HCCnn din
+  dd.mm.yy` **si** radacina „neconstitu"), deci nu poate transforma o nota oarecare intr-o
+  atribuire si nu atinge niciuna existenta. Verificat corpus-wide inainte de a scrie: toate cele 13
+  atribuiri in forma `Nota:` din tot vault-ul sint ale acestui act, deci fixul nu rescrie istoria
+  altuia — dar forma e a lui legis.md, nu a codului, deci urmatoarea ingerare o va intilni iar.
+  Efect: marcaje in text 20 → **33**, hotariri fara articol 13 → **11**. PDF-ul vechi se pastreaza
+  ca activ, nu ca sursa, ci ca proba a contrastului. Si o corectie a mea de dimineata, scrisa in
+  trei locuri: trimiterea ramasa in Codul civil este la **art. 1026 alin. (2)**, nu 1207 — citisem
+  un numar de linie drept numar de articol.
+- **Unde:** `raw/papers/moldova-legal/COD-325-2022.md` (252 de ancore) si `L-384-2023.md` (16);
+  instantaneele sursa in `_meta/imports/moldova-legal/legis-md-business/` (`showdetails-153001.html`,
+  `showdetails-152656.html`, a doua verificata pe hash fata de digestul calculat in browser);
+  sectiunile **AH** (AH.1-AH.4) si **AI** din manifest; `_meta/hcc/build_hcc_register.py` (9 linii);
+  `entities/COD-325-2022.md` si `entities/L-384-2023.md`, noi; `entities/L-436-2006.md` si
+  `entities/CC-1107-2002.md`, actualizate; `CLAUDE.md` punctele 1 si 4; `index.md`.
+  Verificatorul de integritate: 60 de acte, 0 esecuri. Ambele acte ies din coada de ingerare, iar
+  graful nu raporteaza nicio trimitere nerezolvata catre ele.

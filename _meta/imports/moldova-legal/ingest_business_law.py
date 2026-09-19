@@ -727,27 +727,32 @@ DOCS = {
     # din 08.12.2022, publicat in MO 426-427/23.12.2022, art. 770; doc_id 148963. Pagina
     # curenta afiseaza versiunea din 26.08.2026, care este anterioara datei de lucru.
     #
-    # NEINGERAT inca, preluat 2026-09-19 de la sesiunea care a scris intrarea de mai sus.
-    # Cloudflare blocheaza si curl (cu cele doua antete) si ambele browsere, deci showdetails
-    # nu se poate lua. Sesiunea aceea descarcase in schimb exportul PDF al legis.md (mPDF
-    # 8.0.5, generat 18.09.2026 13:29), pastrat acum la
+    # 2026-09-19: doc_id-ul de mai sus era GRESIT si a fost inlocuit. Lista de versiuni citita
+    # pe pagina actului da 22 de versiuni; 148963 este consolidarea 01-01-2026, adica TREI
+    # versiuni in urma (au urmat 155595 @ 09-07-2026 si 153001 @ 26-08-2026). Nota despre
+    # "versiunea din 26.08.2026" avea dreptate, antetul exportului PDF nu. Capcana din
+    # ingerarea Legii 246/2018 se repeta: data cea mai noua NU are doc_id-ul cel mai mare
+    # (153001 < 155595 < 156086), deci se citeste lista, nu se ghiceste.
+    # Actul are si o consolidare VIITOARE, 156086 @ 01-01-2027, deci intra in registrul
+    # "nu inca in vigoare". "Data abrogarii" = "-", si corpul nu contine "Abrogata prin".
+    # Intra in registrul HCC cu DOUA hotariri: HCC16 din 03.10.23 (art. 16 al.(2) lit. e)) si
+    # HCC9 din 26.03.24, care sterge tot blocul adaugat de LP280/2023 (art. 16 al.(2) lit. f)
+    # si al.(2^1)-(2^4), art. 68 al.(1) lit. f), al.(1^1) si al.(5^1), art. 91 al.(3^1),
+    # art. 98 al.(1) pct.2) lit. a) si a^1), art. 102 al.(5) lit. e)).
+    # Exportul PDF al versiunii vechi ramine la
     #   raw/assets/moldova-legal/COD-325-2022-legis-148963-2026-09-18.pdf
-    #   sha256 aa394276828429141bc8cfb6123a8d91a729a638a75248ef03aa8800565383d6
-    # NU ingera din acel PDF: nu contine fisa actului (deci nici "Data abrogarii", nici lista
-    # completa de modificari), iar antetul lui da ca ultima modificare LP100/2025 in vigoare
-    # 01.01.26, ceea ce CONTRAZICE nota de mai sus despre versiunea din 26.08.2026. Una dintre
-    # cele doua e gresita si numai sursa o poate spune. Ce dovedeste totusi PDF-ul, verificat
-    # 2026-09-19: 245 de articole numerotate 1-245, fara lacune, fara duplicate si fara niciun
-    # exponent la nivel de articol; exponentii de alineat exista si se recupereaza din marimea
-    # fontului (spans de 6,6 pt pe un corp de 12 pt); marcajele de modificare sint prezente in
-    # ambele forme, "[Art.N ...]" si "Nota: Art.N ... neconstitutionala prin HCCnn ...".
-    # De retinut inainte de ingerare: actul intra in registrul HCC cu DOUA hotariri --
-    # HCC16 din 03.10.23 (art. 16 al.(2) lit. e)) si HCC9 din 26.03.24, care sterge tot blocul
-    # adaugat de LP280/2023 (art. 16 al.(2) lit. f) si al.(2^1)-(2^4), art. 68 al.(1) lit. f),
-    # al.(1^1) si al.(5^1), art. 91 al.(3^1), art. 98 al.(1) pct.2) lit. a) si a^1),
-    # art. 102 al.(5) lit. e)). Vezi sectiunea AH din raw/papers/moldova-legal/_manifest.md.
-    'COD-325-2022': {'doc_id': '148963',
+    # ca proba a ce s-ar fi ingerat daca nu se citea lista de versiuni: 245 de articole in loc
+    # de cele de azi, si 37 de exponenti in loc de 105. Vezi sectiunea AH din manifest.
+    'COD-325-2022': {'doc_id': '153001',
                      'title': 'Codul electoral al Republicii Moldova nr. 325/2022'},
+    # Adaugata 2026-09-19. Doua motive, ambele din CLAUDE.md: locul 12 in coada de ingerare
+    # (9 mentiuni, 6 acte citatoare) si datarea abrogarii sectiunii secretelor comerciale din
+    # Codul civil (arts. 2047-2054, vechile 1431^1-1431^8), intrebarea deschisa nr. 1.
+    # doc_id 152656 = consolidarea 31-12-2025 (LP330 din 29.12.25); cealalta versiune, 140742,
+    # este textul original in vigoare 22.02.2024. Fara versiune viitoare. "Data abrogarii" = "-".
+    # 16 articole, ZERO etichete <sup>. Transpune Directiva (UE) 2016/943.
+    'L-384-2023': {'doc_id': '152656',
+                   'title': 'Legea nr. 384/2023 privind protectia secretelor comerciale'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

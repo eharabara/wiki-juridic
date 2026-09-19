@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18",
+ "generated": "2026-09-19",
  "acts": [
   {
    "instrument": "COD-116-2018",
@@ -1480,6 +1480,206 @@
    ]
   },
   {
+   "instrument": "COD-325-2022",
+   "file": "raw/papers/moldova-legal/COD-325-2022.md",
+   "doc_id": "153001",
+   "consolidation_date": "2026-08-26",
+   "markers": [
+    {
+     "article": "16",
+     "subunit": "al.(2), lit.e)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC16/2023-10-03"
+     ],
+     "official_gazette": "MO391-394/19.10.23 art.153",
+     "marker": "Notă: Art.16 al.(2), lit.e) declarată neconstituțională prin HCC16 din 03.10.23, MO391-394/19.10.23 art.153; în vigoare 03.10.23.",
+     "line": 263
+    },
+    {
+     "article": "16",
+     "subunit": "al.(2), lit.f)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC9/2024-03-26"
+     ],
+     "official_gazette": "MO192-194/02.05.24 art.66",
+     "marker": "Notă: Art.16 al.(2), lit.f) introdusă prin LP280/2023 declarată neconstituțională prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
+     "line": 269
+    },
+    {
+     "article": "16",
+     "subunit": "al.(2^1)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC9/2024-03-26"
+     ],
+     "official_gazette": "MO192-194/02.05.24 art.66",
+     "marker": "Notă: Art.16 al.(2^1) introdus prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
+     "line": 271
+    },
+    {
+     "article": "16",
+     "subunit": "al.(2^2)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC9/2024-03-26"
+     ],
+     "official_gazette": "MO192-194/02.05.24 art.66",
+     "marker": "Notă: Art.16 al.(2^2) introdus prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
+     "line": 273
+    },
+    {
+     "article": "16",
+     "subunit": "al.(2^3)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC9/2024-03-26"
+     ],
+     "official_gazette": "MO192-194/02.05.24 art.66",
+     "marker": "Notă: Art.16 al.(2^3) introdus prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
+     "line": 275
+    },
+    {
+     "article": "16",
+     "subunit": "al.(2^4)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC9/2024-03-26"
+     ],
+     "official_gazette": "MO192-194/02.05.24 art.66",
+     "marker": "Notă: Art.16 al.(2^4) introdus prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
+     "line": 277
+    },
+    {
+     "article": "68",
+     "subunit": "al.(1), lit.f)",
+     "quoted_text": "art.16 alin.(2) lit.c)–f)",
+     "scope": "text din articol",
+     "hcc": [
+      "HCC9/2024-03-26"
+     ],
+     "official_gazette": "MO192-194/02.05.24 art.66",
+     "marker": "Notă: Art.68 al.(1), lit.f) textul „art.16 alin.(2) lit.c)–f)” modificat prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
+     "line": 1227
+    },
+    {
+     "article": "68",
+     "subunit": "al.(1^1)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC9/2024-03-26"
+     ],
+     "official_gazette": "MO192-194/02.05.24 art.66",
+     "marker": "Notă: Art.68 al.(1^1) introdus prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
+     "line": 1238
+    },
+    {
+     "article": "68",
+     "subunit": "al.(5^1)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC9/2024-03-26"
+     ],
+     "official_gazette": "MO192-194/02.05.24 art.66",
+     "marker": "Notă: Art.68 al.(5^1) introdus prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
+     "line": 1245
+    },
+    {
+     "article": "91",
+     "subunit": "al.(3^1)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC9/2024-03-26"
+     ],
+     "official_gazette": "MO192-194/02.05.24 art.66",
+     "marker": "Notă: Art.91 al.(3^1) introdus prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
+     "line": 1655
+    },
+    {
+     "article": "91",
+     "subunit": "al.(5)",
+     "quoted_text": "deciziilor organelor electorale emise în conformitate cu prevederile art. 68 alin. (51), a",
+     "scope": "text din articol",
+     "hcc": [
+      "HCC9/2024-03-26"
+     ],
+     "official_gazette": "MO192-194/02.05.24 art.66",
+     "marker": "Notă: Art.91 al.(5) textul „deciziilor organelor electorale emise în conformitate cu prevederile art. 68 alin. (51), a” modificat prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
+     "line": 1659
+    },
+    {
+     "article": "98",
+     "subunit": "al.(1)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC9/2024-03-26"
+     ],
+     "official_gazette": "MO192-194/02.05.24 art.66",
+     "marker": "Notă: Art.98 al.(1), pct.2) lit.a^1) introdusă prin LP280/2023 declarată neconstituțională prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
+     "line": 1743
+    },
+    {
+     "article": "102",
+     "subunit": "al.(5), lit.e)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC9/2024-03-26"
+     ],
+     "official_gazette": "MO192-194/02.05.24 art.66",
+     "marker": "Notă: Art.102 al.(5), lit.e) textul „art. 16 alin. (2) lit. c)–f) modificat prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
+     "line": 1816
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC8/2026-07-09",
+     "line": 52,
+     "text": "HCC8 din 09.07.26, MO351-354/31.07.26 art.132; în vigoare 09.07.26"
+    },
+    {
+     "hcc": "HCC16/2024-07-16",
+     "line": 59,
+     "text": "HCC16 din 16.07.24, MO344-346/08.08.24 art.127; în vigoare 16.07.24"
+    },
+    {
+     "hcc": "HCC16/2023-10-03",
+     "line": 62,
+     "text": "HCC16 din 03.10.23, MO391-394/19.10.23 art.153; în vigoare 03.10.23"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC8/2026-07-09",
+     "line": 52,
+     "text": "HCC8 din 09.07.26, MO351-354/31.07.26 art.132; în vigoare 09.07.26"
+    },
+    {
+     "hcc": "HCC16/2024-07-16",
+     "line": 59,
+     "text": "HCC16 din 16.07.24, MO344-346/08.08.24 art.127; în vigoare 16.07.24"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC16/2023-10-03",
+    "HCC16/2024-07-16",
+    "HCC8/2026-07-09",
+    "HCC9/2024-03-26"
+   ]
+  },
+  {
    "instrument": "COD-443-2004",
    "file": "raw/papers/moldova-legal/COD-443-2004.md",
    "doc_id": "156146",
@@ -2646,10 +2846,10 @@
   }
  ],
  "counts": {
-  "acts": 24,
-  "distinct_hcc": 80,
-  "markers_in_text": 20,
+  "acts": 25,
+  "distinct_hcc": 84,
+  "markers_in_text": 33,
   "recovered": 95,
-  "unattributed": 9
+  "unattributed": 11
  }
 }

@@ -1,8 +1,8 @@
 # Registrul dispozitiilor declarate neconstitutionale
 
-Generat 2026-09-18 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
+Generat 2026-09-19 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
 
-24 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 80 hotariri distincte. Articolul atins este cunoscut pentru 20 marcaje inca prezente in text si 95 dispozitii recuperate din istoricul versiunilor; **9 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
+25 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 84 hotariri distincte. Articolul atins este cunoscut pentru 33 marcaje inca prezente in text si 95 dispozitii recuperate din istoricul versiunilor; **11 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
 
 Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiunea hotaririi si a intinderii anularii. Un act din tabelul „fara articol atribuit” se citeaza cu avertismentul ca poarta hotariri ale Curtii neverificate la nivel de articol.
 
@@ -17,6 +17,7 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `COD-174-2018` | 150538 | 2026-06-24 | 2 | 2 | 0 |
 | `COD-218-2008` | 155852 | 2026-09-13 | 6 | 6 | 0 |
 | `COD-225-2003` | 155718 | 2026-08-06 | 9 | 9 | 0 |
+| `COD-325-2022` | 153001 | 2026-08-26 | 4 | 2 | 2 |
 | `COD-443-2004` | 156146 | 2026-12-02 | 6 | 6 | 0 |
 | `COD-985-2002` | 156133 | 2026-12-02 | 8 | 8 | 0 |
 | `CONST-1994` | 145723 | 2024-11-05 | 2 | 0 | 2 |
@@ -112,6 +113,19 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `COD-225-2003` | 306 | alin. (2) | text din articol („Problema citării persoanei se soluţionează în fiecare caz, în funcţie de starea sănătăţii …”) | HCC33/2016-11-17 | MO30-39/03.02.17 art.7 | versiunea 97669 @ 2016-11-17, verificat 2026-09-08 |
 | `COD-225-2003` | 437 | alin. (1) | text din articol („trebuie să fie dactilografiată și”) | HCC20/2022-11-03 | MO363-373/18.11.22 art.176 | versiunea 134150 @ 2022-11-03, verificat 2026-09-08 |
 | `COD-225-2003` | 84 | alin. (4) | text din articol („Taxa de timbru nu este susceptibilă de scutire, amânare sau eșalonare, cu excepțiile prevă…”) | HCC20/2024-09-26 | MO423-426/10.10.24 art.155 | versiunea 145370 @ 2024-09-26, verificat 2026-09-08 |
+| `COD-325-2022` | 16 | al.(2), lit.e) | subunitate | HCC16/2023-10-03 | MO391-394/19.10.23 art.153 | marcaj in text, l.263 |
+| `COD-325-2022` | 16 | al.(2), lit.f) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.269 |
+| `COD-325-2022` | 16 | al.(2^1) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.271 |
+| `COD-325-2022` | 16 | al.(2^2) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.273 |
+| `COD-325-2022` | 16 | al.(2^3) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.275 |
+| `COD-325-2022` | 16 | al.(2^4) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.277 |
+| `COD-325-2022` | 68 | al.(1), lit.f) | text din articol („art.16 alin.(2) lit.c)–f)”) | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1227 |
+| `COD-325-2022` | 68 | al.(1^1) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1238 |
+| `COD-325-2022` | 68 | al.(5^1) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1245 |
+| `COD-325-2022` | 91 | al.(3^1) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1655 |
+| `COD-325-2022` | 91 | al.(5) | text din articol („deciziilor organelor electorale emise în conformitate cu prevederile art. 68 alin. (51), a”) | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1659 |
+| `COD-325-2022` | 98 | al.(1) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1743 |
+| `COD-325-2022` | 102 | al.(5), lit.e) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1816 |
 | `COD-443-2004` | 174 | alin. (3^1) | subunitate | HCC18/2013-07-04 | MO182-185/23.08.13 art.27 | versiunea None @ None, verificat 2026-09-08 |
 | `COD-443-2004` | 291^1 |  | articol intreg | HCC18/2013-07-04 | MO182-185/23.08.13 art.27 | versiunea None @ None, verificat 2026-09-08 |
 | `COD-443-2004` | 73 |  | articol intreg | HCC11/2021-03-25 | MO96-99/09.04.21 art.57 | versiunea 126029 @ 2021-03-25, verificat 2026-09-15 |
@@ -161,6 +175,8 @@ Marcajul s-a pierdut la o reimprospatare anterioara a consolidarii. Articolul se
 
 | act | hotarire | rindul din fisa |
 |---|---|---|
+| `COD-325-2022` | HCC8/2026-07-09 | l.52: HCC8 din 09.07.26, MO351-354/31.07.26 art.132; în vigoare 09.07.26 |
+| `COD-325-2022` | HCC16/2024-07-16 | l.59: HCC16 din 16.07.24, MO344-346/08.08.24 art.127; în vigoare 16.07.24 |
 | `CONST-1994` | HCC8/2024-03-11 | l.51: HCC8 din 11.03.24, MO104-107/21.03.24 art.42; în vigoare 11.03.24 |
 | `CONST-1994` | HCC7/2016-03-04 | l.58: HCC7 din 04.03.16, MO59-67/18.03.16 art.10 |
 | `L-132-2016` | HCC29/2021-09-21 | l.77: HCC29 din 21.09.21, MO256-260/22.10.21 art.184; în vigoare 21.09.21 |

@@ -2486,14 +2486,12 @@ defectul e al publicatorului. Consemnat la punctul 4 din `CLAUDE.md`, ca a treia
 **Șapte sunt blocul secretelor comerciale, care a plecat din cod.** `1431^1`–`1431^7`, introduse
 de `L-133-2018` (dobândirea, utilizarea și divulgarea ilegală de secrete comerciale, mijloacele de
 apărare, despăgubirile), nu au niciun corespondent azi: în tot Codul civil sintagma „secret
-comercial" apare **o singură dată**, la art. 1207 alin. (2), și acolo trimite în afară — „în sensul
+comercial" apare **o singură dată**, la art. 1026 alin. (2), și acolo trimite în afară — „în sensul
 legislaţiei privind protecţia secretelor comerciale". Blocul de istoric al codului poartă
 `LP384 din 07.12.23, MO495-496/22.12.23 art.874; în vigoare 22.02.24`, adică exact legea privind
-protecția secretelor comerciale. **Explicația cea mai probabilă este că LP384/2023 a ridicat
-regimul din cod**; nu este confirmată articol cu articol, fiindcă marcajul de abrogare nu se află
-în consolidarea pe care o ținem (mecanismul 1 din punctul 3). Verificarea cere ingerarea lui
-`L-384-2023`, care era oricum pe locul 12 în coada de ingerare (9 mențiuni, 6 acte citatoare) și
-acum are un al doilea motiv.
+protecția secretelor comerciale. **Confirmat în aceeași zi (2026-09-19) prin ingerarea lui `L-384-2023`**: art. 16 alin. (3)
+pct. 2 al acelei legi abrogă expres secțiunea, iar pct. 1 numește chiar art. 2047. Vezi
+secțiunea AI.
 
 Restul de 16 nu au fost deschise unul câte unul; sunt titluri din blocul moștenirii, probabil
 rescrise peste pragul de potrivire parțială.
@@ -2704,99 +2702,155 @@ neconfirmată articol cu articol**; se confirmă ingerând `L-384-2023` — care
 
 Pagini de entitate atinse: [[L-133-2018]], [[CC-1107-2002]].
 
-## AH. `COD-325-2022`, Codul electoral: lucru preluat, nu terminat (2026-09-19)
+## AH. `COD-325-2022`, Codul electoral: preluat de la altă sesiune și ingerat (2026-09-19)
 
 Primul act din coada mecanică de ingerare (**38 de mențiuni din 9 acte deținute**, cel mai des din
-`L-436-2006`) a fost început de altă sesiune pe 18 septembrie și lăsat la jumătate. Eugen a cerut
-pe 19 septembrie preluarea lui. **Nu este ingerat, și nu trebuie ingerat din ce avem** — motivele
-sunt mai jos, la fel și tot ce s-a putut dovedi fără sursă, ca reluarea să coste o comandă, nu o
-zi.
+`L-436-2006`) a fost început de altă sesiune pe 18 septembrie, lăsat la jumătate, preluat de
+această sesiune la cererea lui Eugen și **ingerat abia după ce el a deschis legis.md în Chrome-ul
+lui și a trecut verificarea Cloudflare**. Ordinea contează pentru ce urmează: între preluare și
+ingerare au trecut câteva ore în care actul a fost analizat **fără** sursă, iar concluzia de
+atunci — „nu se ingerează din ce avem" — s-a dovedit corectă din motivul exact pe care îl bănuia.
 
-### AH.1 De ce s-a oprit, și de ce nu se poate relua azi
+### AH.1 Ce s-ar fi ingerat, dacă nu se citea lista de versiuni
 
-`showdetails/148963` nu se poate lua. Verificat de două ori pe 19 septembrie: `curl` cu cele două
-antete documentate primește **403 „Just a moment"**; browserul intern rămâne pe pagina de
-verificare și după 8 secunde; extensia Chrome a lui Eugen **nu este conectată**. Deci ambele rute
-documentate sunt închise, nu doar una.
+Sesiunea de pe 18 septembrie lăsase exportul PDF al legis.md pentru **doc_id 148963** și o notă în
+`DOCS` care spunea că pagina afișa versiunea din 26.08.2026. Cele două se contraziceau: antetul
+PDF-ului dădea ca ultimă modificare LP100/2025, în vigoare 01.01.26, și nimic după. Lista de
+versiuni, citită în sfârșit pe pagina actului, arată **22 de versiuni** și dă dreptate notei, nu
+PDF-ului:
 
-Sesiunea de pe 18 septembrie a luat în schimb **exportul PDF al legis.md**. Provenienţa lui este
-stabilită din metadatele fişierului, nu din memoria acelei sesiuni: producător **mPDF 8.0.5**,
-biblioteca PHP pe care legis.md o foloseşte la butonul de export, cu data de creare
-**18.09.2026 13:29**, adică exact ora descărcării. 157 de pagini.
-
-**Păstrat la** `raw/assets/moldova-legal/COD-325-2022-legis-148963-2026-09-18.pdf`, lângă
-precedentul lui, PDF-ul Codului civil. `sha256` =
-`aa394276828429141bc8cfb6123a8d91a729a638a75248ef03aa8800565383d6`. Fişierele derivate ale acelei
-sesiuni (un `.txt` extras, trei randări PNG, un `.html` de 120 de octeţi şi un `.part` care este
-chiar pagina Cloudflare) au fost şterse: `.txt`-ul este oricum lossy — pierde parantezele drepte
-ale marcajelor şi turteşte exponenţii —, iar celelalte nu conţin nimic.
-
-### AH.2 De ce nu se ingerează din PDF, deşi textul e bun
-
-Două motive, primul de formă şi al doilea de fond.
-
-**PDF-ul nu conţine fişa actului.** Exportul mPDF începe direct cu antetul scurt şi preambulul,
-deci nu are tabelul de metadate din care `ingest_business_law.py` scrie `official_title_detected`,
-`Data adoptării`, lista completă de modificări şi — lucrul care contează cel mai mult aici —
-**`Data abrogării`**. Nota de metodă „verifică abrogarea înainte de a ingera" cere exact două
-surse, câmpul din fişă şi antetul consolidării; PDF-ul oferă doar a doua.
-
-**Versiunea este contestată de propriile noastre dovezi.** Nota lăsată în `DOCS` pe 18 septembrie
-spune că pagina afişa versiunea din **26.08.2026**. Antetul PDF-ului dă însă ca ultimă modificare
-**LP100 din 13.06.25, în vigoare 01.01.26** şi nimic după. Una dintre cele două afirmaţii este
-greşită şi **numai sursa poate spune care**. Un fişier construit acum ar arăta impecabil — 245 de
-ancore, fără lacune, `sha256` valid, consolidare „curată" — şi ar fi, eventual, cu o versiune în
-urmă. Este exact tiparul de eroare pe care acest wiki îl documentează la actele abrogate şi la
-consolidările viitoare, iar aici ar lovi **actul cel mai citat dintre cele nedeţinute**, deci cel
-mai probabil să fie folosit.
-
-### AH.3 Ce dovedeşte totuşi PDF-ul, verificat mecanic
-
-Toate cifrele de mai jos sunt citite din PDF cu PyMuPDF pe 19 septembrie, nu din `.txt`-ul
-intermediar.
-
-| constatare | cifră | de ce contează la ingerare |
+| doc_id | consolidare | |
 |---|---|---|
-| articole | **245**, numerotate 1-245 | fără nicio lacună şi fără niciun număr duplicat |
-| exponenţi la nivel de **articol** | **niciunul** | deci turtirea nu ameninţă ancorele acestui act |
-| exponenţi la nivel de **alineat** | prezenţi, ex. `(2^1)`-`(2^4)`, `(12^1)`, `(13^1)` | în text plat apar ca „(2 1)", cu spaţiu |
-| marcaje de modificare | ambele forme, `[Art.N ...]` şi `Notă: Art.N ...` | supravieţuiesc exportului PDF |
-| acte care au modificat | LP280/2023 (12 menţiuni), LP100/2025 (5) | |
-| hotărâri ale Curţii Constituţionale | **HCC16/2023 şi HCC9/2024** | actul intră în registrul HCC |
+| 156086 | 01-01-2027 | **viitoare** |
+| **153001** | **26-08-2026** | **cea curentă, ingerată** |
+| 155595 | 09-07-2026 | |
+| 148963 | 01-01-2026 | versiunea din PDF-ul păstrat |
 
-**Metoda care recuperează exponenţii dintr-un PDF şi merită reţinută:** mPDF păstrează exponentul
-ca un span de **6,6 pt** pe un corp de **12 pt**, deci se detectează comparând mărimea fiecărui
-span cu maximul liniei, fără nicio ghicire. 37 de astfel de spans în tot actul. Este ruta care
-face un export PDF al legis.md recuperabil acolo unde extracţia plată nu este — şi singurul motiv
-pentru care ştim, fără sursă, că acest cod **nu** are exponenţi de articol.
+Deci PDF-ul era **cu trei versiuni în urmă**, iar diferența nu este cosmetică:
 
-### AH.4 Cele două hotărâri ale Curţii, citite din marcaje
+| | PDF 148963 | HTML 153001, ingerat |
+|---|---:|---:|
+| articole | 245 | **252** |
+| exponenți de articol | **niciunul** | **7** (14^1, 80^1-80^5, 82^1) |
+| exponenți în total | 37 (spans de 6,6 pt) | **105** (etichete `<sup>`) |
 
-De pregătit înainte de ingerare, fiindcă registrul HCC le va cere:
+Un fișier construit din PDF ar fi avut 245 de ancore, fără lacune, `sha256` valid și consolidare
+„curată" — și i-ar fi lipsit **șapte articole întregi**, pe actul cel mai citat dintre cele
+nedeținute. Aceasta este proba, nu presupunerea, că regula „citește lista de versiuni, nu ghici"
+merită costul ei.
 
-- **HCC16 din 03.10.23** (MO391-394/19.10.23 art.153; în vigoare 03.10.23) — **art. 16 alin. (2)
-  lit. e)** declarată neconstituţională.
-- **HCC9 din 26.03.24** (MO192-194/02.05.24 art.66; în vigoare 26.03.24) — şterge **tot blocul
-  introdus de LP280/2023**: art. 16 alin. (2) lit. f) şi alin. (2^1)-(2^4); art. 68 alin. (1)
-  lit. f) (textul „art.16 alin.(2) lit.c)-f)"), alin. (1^1) şi alin. (5^1); art. 91 alin. (3^1);
-  art. 98 alin. (1) pct. 2) lit. a) şi lit. a^1); art. 102 alin. (5) lit. e).
+**Și capcana doc_id-ului se repetă**, a treia oară după `L-246-2018`: data cea mai nouă **nu** are
+doc_id-ul cel mai mare — 153001 (26-08-2026) este mai mic decât 155595 (09-07-2026) și decât
+156086 (01-01-2027).
 
-Tiparul merită numit separat: **o lege întreagă de modificare, LP280/2023, a fost desfiinţată
-bucată cu bucată de o singură hotărâre**, iar textul de azi păstrează alineatele cu nota lipită
-pe ele. Cine citeşte art. 16 sau art. 68 din acest cod fără să citească notele va găsi restricţii
-electorale care nu se mai aplică.
+PDF-ul rămâne la `raw/assets/moldova-legal/COD-325-2022-legis-148963-2026-09-18.pdf`
+(`sha256 aa394276828429...`), nu ca sursă, ci ca probă a acestui contrast.
 
-### AH.5 Cum se reia, în ordine
+### AH.2 Ce s-a învățat despre exportul PDF al legis.md, și rămâne valabil
 
-1. `showdetails/148963` prin `curl` cu cele două antete, sau prin Chrome-ul lui Eugen dacă
-   extensia e conectată.
-2. **Întâi se lămureşte versiunea**: lista de versiuni din bara laterală, ca să se vadă dacă
-   26.08.2026 există şi dacă doc_id 148963 este capul ei. Dacă nu este, se ia doc_id-ul corect.
-3. `python _meta/imports/moldova-legal/ingest_business_law.py COD-325-2022` — intrarea în `DOCS`
-   există deja şi poartă tot ce s-a aflat aici, în comentariu.
-4. `verify_business_law.py` (sare peste actele neingerate de pe 18 septembrie, deci rulează şi
-   acum, cu 0 eşecuri), apoi `_meta/close_session.py`, care reconstruieşte registrul HCC şi
-   graful; se verifică atunci că cele două hotărâri de la AH.4 apar în registru.
+Chiar dacă aici nu a fost folosit, exportul PDF este singura rută rămasă când totul e blocat, și
+acum se știe ce dă și ce nu. Este generat server-side cu **mPDF 8.0.5** — scrie asta în metadate,
+alături de ora generării, ceea ce probează proveniența unui PDF lăsat de altcineva fără a crede
+nota lui. Păstrează textul, marcajele în ambele forme (`[Art.N ...]` și
+`Notă: Art.N ... neconstituţională prin HCCnn ...`) și exponenții. **Nu** păstrează fișa actului,
+deci nici `Data abrogării`, nici lista completă de modificări, nici doc_id-ul versiunii.
+
+**Exponenții se recuperează dintr-un PDF mPDF prin mărimea fontului, nu prin ghicire:** exponentul
+este un span de **6,6 pt** pe un corp de 12 pt; se compară `span["size"]` cu maximul liniei în
+`page.get_text("dict")` (PyMuPDF). O extracție plată (`get_text()` sau un `.txt` intermediar) îi
+pierde definitiv, turtind `Articolul 8^1` în `Articolul 81`, și în plus pierde parantezele drepte
+ale marcajelor. Fișierele derivate ale celeilalte sesiuni au fost șterse din acest motiv.
+
+### AH.3 Actul, așa cum a intrat
+
+252 de articole, consolidarea **2026-08-26** (LP192 din 25.08.26, MO394-397/26.08.26 art.426),
+`Data abrogării` = `-`, corpul fără „Abrogată prin". Verificatorul de integritate: PASS.
+
+**Registrul „nu încă în vigoare" NU îl prinde, și e corect așa.** Actul are o consolidare
+viitoare pe legis.md (156086 @ 01-01-2027), dar registrul citește marcajele
+`[Art.N ... în vigoare DD.MM.YY]` din fișierul **deținut**, iar al nostru este cel din august 2026,
+care nu le poartă încă. Deci întrebarea „ce se schimbă la 1 ianuarie 2027" nu are răspuns în wiki
+până la o reîmprospătare — lucru de știut înaintea oricărui scrutin.
+
+**Registrul HCC însă îl prinde, cu patru hotărâri și 13 dispoziții** — dar numai după un fix
+făcut aici (AH.4). Cele două care atribuie articole:
+  - **HCC16 din 03.10.23** (MO391-394/19.10.23 art.153; în vigoare 03.10.23) — art. 16 alin. (2)
+    lit. e).
+  - **HCC9 din 26.03.24** (MO192-194/02.05.24 art.66; în vigoare 26.03.24) — șterge **tot blocul
+    introdus de LP280/2023**: art. 16 alin. (2) lit. f) și alin. (2^1)-(2^4); art. 68 alin. (1)
+    lit. f), alin. (1^1) și alin. (5^1); art. 91 alin. (3^1); art. 98 alin. (1) pct. 2) lit. a) și
+    lit. a^1); art. 102 alin. (5) lit. e).
+
+Celelalte două, **HCC16 din 16.07.24** și **HCC8 din 09.07.26**, apar numai în fișă, fără articol
+atribuit, și rămân așa în registru — golul e vizibil, nu tăcut.
+
+Tiparul merită numit: **o lege întreagă de modificare, LP280/2023, a fost desființată bucată cu
+bucată de o singură hotărâre**, iar textul de azi păstrează alineatele cu nota lipită pe ele. Cine
+citește art. 16 sau art. 68 fără note găsește restricții electorale care nu se mai aplică.
+
+### AH.4 O a treia formă de marcaj HCC, pe care registrul nu o citea
+
+Prima rulare după ingerare a dat `COD-325-2022 | 4 hotărâri | 0 marcaje în text | 4 fără articol`,
+deși textul numește 13 dispoziții. Cauza: `build_hcc_register.py` recunoștea două forme, cea cu
+paranteze drepte `[Art.N ... HCCnn ...]` și cea cu asterisc `*Art.N ...`. Acest act le scrie pe
+toate într-a treia, **`Notă: Art.N ... declarată neconstituțională prin HCCnn ...`**, fără asterisc
+și fără paranteze, iar acele linii cădeau în ramura „rând de fișă".
+
+**Fixul este aditiv, nu o relaxare:** o linie care începe cu `Notă:` devine marcaj numai dacă trece
+**aceeași** gardă ca forma cu asterisc — conține un identificator `HCCnn din dd.mm.yy` **și**
+rădăcina „neconstitu". Nu poate transforma o notă oarecare într-o atribuire, și nu atinge niciuna
+dintre cele existente: `ART_IN_MARK` tolera deja prefixul `Notă:`, ceea ce arată că forma fusese
+prevăzută la scrierea parserului și doar nu era alimentată.
+
+Efectul, măsurat: marcaje în text **20 → 33** (+13, exact cele 13 linii), hotărâri fără articol
+**13 → 11**. Verificat corpus-wide înainte de a scrie: **toate cele 13 atribuiri în forma `Notă:`
+din tot vault-ul sunt ale acestui act**, deci fixul nu rescrie istoria niciunui alt act — dar forma
+este a lui legis.md, nu a acestui cod, deci următoarea ingerare o va întâlni din nou.
+
+Pagină de entitate: [[COD-325-2022]] (nouă).
+
+## AI. Protecția secretelor comerciale — `L-384-2023` (ingerată 2026-09-19)
+
+Locul 12 în coada de ingerare (9 mențiuni, 6 acte citatoare), dar motivul imediat a fost altul:
+**datarea abrogării secțiunii secretelor comerciale din Codul civil**, întrebarea deschisă nr. 1
+din `CLAUDE.md`, care în dimineața aceleiași zile fusese identificată pe obiect, dar nu și pe act.
+
+doc_id **152656**, consolidarea **31-12-2025** (LP330 din 29.12.25), cealaltă versiune fiind textul
+original în vigoare 22.02.2024. Fără versiune viitoare. `Data abrogării` = `-`. **16 articole,
+zero etichete `<sup>`.** Transpune **Directiva (UE) 2016/943** privind protecția know-how-ului și
+a informațiilor de afaceri nedivulgate.
+
+### AI.1 Ce dovedește, textual
+
+Art. 16 alin. (3) pct. 2:
+
+> „În cartea a treia titlul III capitolul XXXIII, secţiunea a 3-a «Răspunderea pentru dobândirea,
+> utilizarea sau divulgarea legală a secretelor comerciale» **se abrogă**."
+
+Și pct. 1 al aceluiași alineat **numește articolul**: înlocuiește, în art. 1026 alin. (2) al
+Codului civil, textul „în sensul dispoziţiilor **art. 2047** alin. (3)" cu „în sensul legislaţiei
+privind protecţia secretelor comerciale" — iar art. 1026 alin. (2) de azi poartă exact forma nouă.
+**Data:** art. 16 alin. (1), două luni de la publicarea din 22.12.2023, deci **22.02.2024**.
+
+Deci lacuna `CC-1107-2002` 2047-2054 este închisă complet: obiectul (secțiunea secretelor
+comerciale, vechile `1431^1`-`1431^8`), actul abrogator și data.
+
+### AI.2 Trei defecte în chiar dispoziția abrogatoare
+
+Niciunul nu schimbă înțelesul, dar fiecare sparge o căutare, deci merită consemnate:
+
+1. **„Codul civil al Republicii Moldova nr. 1107/2022"** — codul este 1107/**2002**. O căutare
+   după numărul corect al actului nu găsește această dispoziție.
+2. **„divulgarea legală"** în titlul secțiunii citate, unde `L-133-2018` pct. 652 o promulgase ca
+   **„divulgarea ilegală"**. Litera „i" lipsește, iar titlul citat devine contrariul celui real.
+3. **„capitolul XXXIII"**, unde `L-133-2018` scrisese Capitolul **XXXIV** din titlul III.
+   Republicarea din 2019 a renumerotat și capitolele, nu doar articolele — de reținut pentru orice
+   trimitere structurală, nu doar pentru numerele de articol.
+
+Al doilea este a cincea instanță a punctului 4 din `CLAUDE.md`, prima într-o **lege de modificare**
+și nu în textul consolidat.
+
+Pagină de entitate: [[L-384-2023]] (nouă).
 
 ## D. Artefacte metodologice create
 

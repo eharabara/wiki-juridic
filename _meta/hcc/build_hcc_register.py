@@ -10,6 +10,7 @@ marcaje inca vizibile la articol (`_meta/plans/hcc-census-2026-09-08.md`).
 Ce face. Scaneaza raw/ dupa marcajele HCC in ambele forme pe care le foloseste legis.md:
   [Art.N ... declarat neconstitutional prin HCCnn din dd.mm.yy, MO...]      (paranteze drepte)
   *Art.N ... declarat neconstitutional prin HCCnn ...  /  *Nota: Articolul N ...  (asterisc)
+  Nota: Art.N ... declarata neconstitutionala prin HCCnn din dd.mm.yy, MO...      (fara asterisc)
 si le leaga de articol. Citeste apoi `_meta/hcc/recovered-provisions.json`, scris de mina, cu
 dispozitiile ale caror marcaje s-au pierdut si au fost recuperate citind pe legis.md versiunea
 produsa de hotarire (metoda U.7, fetch fara descarcare); fiecare rind poarta doc_id-ul versiunii
@@ -53,6 +54,12 @@ SUBUNIT = re.compile(
     re.IGNORECASE,
 )
 QUOTED = re.compile(r"[„\"“]([^”\"“„]{3,200})[”\"“]")
+# A treia forma, gasita 2026-09-19 la COD-325-2022: linia incepe cu "Nota:" fara asterisc si
+# fara paranteze drepte. Cele 13 atribuiri ale acelui act sint toate asa, si pina la fixul de
+# fata cadeau in ramura "rind de fisa", deci actul aparea cu 4 hotariri si ZERO articole
+# atribuite, desi textul le numeste pe toate. Garda e aceeasi ca la forma cu asterisc
+# (HCC_ID + NECONST), deci nu poate transforma o nota oarecare intr-o atribuire.
+NOTA = re.compile(r"^Not[aă]\s*:", re.IGNORECASE)
 MO = re.compile(r"(MO\s?[\d\-–]+/\s?\d{1,2}\.\d{1,2}\.\d{2,4}(?:\s*(?:art|cm)\.?\s*\d+)?)", re.IGNORECASE)
 
 
@@ -133,6 +140,8 @@ def scan_file(path: Path, rel: str) -> tuple[list[dict], list[dict], dict]:
         found = [m.group(1) for m in BRACKET.finditer(line)]
         if not found and st.startswith("*") and HCC_ID.search(st) and NECONST.search(st):
             found = [st.lstrip("*").strip()]
+        if not found and NOTA.match(st) and HCC_ID.search(st) and NECONST.search(st):
+            found = [st]
         if found:
             for mk in found:
                 p = parse_mark(mk)
