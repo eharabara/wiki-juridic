@@ -1667,3 +1667,55 @@
   **`verify_business_law.py`: 58 de acte, 0 eșecuri** — controlul e verde prima oară de la
   16 septembrie. Comis din nou cu căi explicite: sesiunea care ingerează `COD-325-2022` încă
   lucrează.
+
+## [2026-09-19] update | Cozile rămase, închise fără rețea: patru citări neexplicate, un mecanism nou și lacunele Codului civil
+
+- **Aflat:** legis.md este iar complet blocat (403 „Just a moment" la `curl` cu cele două antete;
+  browserul intern rămâne pe pagina de verificare după 8 secunde), deci nimic din ce urmează nu
+  atinge sursa externă. **(1) Coada `L-114-2012` din punctul 8 nu exista:** actul deținut **are**
+  art. 52^1, 52^2, 60^1 și 63^1, iar toate cele **42** de articole citate de `COD-218-2008` art.
+  293^2 alin. (1)-(5) au ancoră — observația care o deschisese era pur și simplu greșită, iar
+  graful o confirmase deja, fiindcă nu mai raportează niciun rând nerezolvat către acel act.
+  **(2) Trei din cele patru grupuri „genuinely unexplained" au aceeași cauză, inversul turtirii:
+  sursa ridică o cifră care aparține liniei.** `COD-1163-1997` art. 29^1 este art. 291 alin. (1)
+  lit. e) (probat de trei ori: litera, denumirea taxei și clauza de excepție din art. 295 lit.
+  g^1), care scutește de aceeași taxă, pe nume); `L-202-2017` art. 13^9 și 14^1 sînt art. 139
+  („Măsuri de supraveghere") și 141 („Sancțiunile"), al cărui alin. (1) lit. c) amendează exact
+  deținătorii de dețineri în capitalul băncii, adică destinatarul faptei din `HBN-127-2013` pct. 6;
+  `COD-116-2018` art. 17^1 este art. 171 alin. (4), a cărui teză a doua este negată cuvânt cu
+  cuvânt de derogarea din `L-192-1998` alin. (1^2). Testul mecanic (`N^M` fără ancoră, `NM` cu
+  ancoră) dă cinci candidați pe tot tabelul de nerezolvate; **doi sînt coincidențe de cifre**, ceea
+  ce arată că testul singur nu probează nimic. **(3) A patra, `L-105-2003` art. 201, este turtirea
+  clasică plus o renumerotare:** legea n-a avut niciodată 201 articole, a fost **republicată în
+  temeiul LP342/2023** (publicată 28.03.2024), iar dispoziția este azi art. 28, potrivit nu doar pe
+  titlu ci pe trei din cele patru fapte pe care contravenția le enumeră. **(4) Concordanța
+  `L-133-2018` dusă pe blocuri închide cele 16 titluri lăsate nedeschise pe 18 septembrie, fără a
+  le deschide:** `1431^N → 2046 + N`, `1572^N → 2302 + N`, `1575^N → 2424 + N`, fiecare cu a doua
+  deplasare candidată la **un vot** contra 87, 64 și 98; 370 din 385 de numere vechi se rezolvă
+  prin poziție. **(5) Cele 15 excepții sînt constatările.** Opt sînt lacuna 2047-2054, care se
+  dovedește a fi **Secţiunea a 3-a a Capitolului XXXIV, secretele comerciale**, introdusă de
+  `L-133-2018` pct. 652 și abrogată în bloc — deci întrebarea deschisă nr. 1 din `CLAUDE.md`, veche
+  din 6 septembrie, are răspuns, și odată cu el un **al patrulea mecanism care ascunde o abrogare:
+  la nivel de secțiune, marcajul stă pe antet, nu pe articole**. Trei sînt greșeli de redare în
+  sursa de azi (art. 2447 „Supra îndatorarea", 2448 „inventor", 2522 „primate") — a patra instanță
+  a punctului 4. Două sînt rescrieri reale prin LP251/2025 (2389, 2391). Ultimele două sînt lacune
+  de numerotare nenumite până acum. **(6) Și, verificat în treacăt, Codul civil are șase lacune, 14
+  articole, dintre care doar două poartă marcaj** — comentariul din scriptul de ingerare care spunea
+  „cele șase abrogate prin LP251" era o presupunere; toate șase sînt acum numite pe subiect prin
+  articolele vecine (2185 = 1455, 2188 = 1458, 2404 = `1572^102`, 2485 = `1575^61`).
+- **Decis:** nimic din `raw/` nu s-a atins — toate concluziile sînt lecturi, nu corecții, iar cele
+  trei greșeli de redare rămân în text, ca celelalte (punctul 4: nu rescriem textul legal).
+  Deplasarea constantă devine metoda implicită pentru un **bloc** de articole cu exponent, iar
+  potrivirea de titlu rămâne pentru cazuri izolate: pe blocuri, titlul eșuează exact acolo unde
+  legea a fost modificată pe fond, adică acolo unde răspunsul contează. Atribuirile rămase
+  nedovedite sînt marcate ca atare și nu au fost scrise ca fapte: data abrogării secțiunii
+  secretelor comerciale (LP384/2023 probabil), actul care a abrogat arts. 2185, 2188, 2404, 2485
+  (LP251/2025 probabil) și numărul vechi exact al lui `L-105-2003` art. 28 (`20^1` presupus).
+  Toate trei se confirmă din legis.md când redevine accesibil. `L-384-2023` **nu** a fost ingerat,
+  din cauza blocajului, deși are acum două motive; `COD-325-2022`, descărcat parțial de altă
+  sesiune pe 18 septembrie, a fost lăsat neatins, al ei.
+- **Unde:** secțiunea **AG** (AG.1-AG.6) din `raw/papers/moldova-legal/_manifest.md`; `CLAUDE.md`
+  punctele 1, 2, 3, 4 și 8; `entities/CC-1107-2002.md` (cele șase lacune, numite),
+  `entities/L-133-2018.md` (tabelul celor trei blocuri), `entities/L-105-2003.md` (secțiune nouă
+  despre republicarea din 2024). Comis cu căi explicite: lucrul necomis al celeilalte sesiuni
+  (`ingest_business_law.py`, fișierele parțiale, `tmp/`) rămâne al ei.

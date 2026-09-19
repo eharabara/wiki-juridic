@@ -265,12 +265,27 @@ Generated 2026-09-18 13:49 from the files themselves. Do not edit this section b
 
 Do not resolve these on your own. Raise them if a matter touches them.
 
-1. **Codul civil arts. 2047 to 2054.** Absent, covered by a heading `Secțiunea a 3-a- abrogată`
-   with no LP citation in the text. The other eight absences in the code each
-   carry an individual `[Art.NNNN abrogat prin LP...]`. Marked `[de verificat]` against legis.md.
-   Checked on 2026-09-06 against the legis.md text itself (doc_id 150498, which replaced the PDF
-   text that evening): the same heading, the same absence of any LP citation. So the gap is in
-   the publisher's consolidation, not in the PDF, and only the version history can date it.
+1. **Codul civil arts. 2047 to 2054. Answered 2026-09-19: they were the trade-secrets section, and
+   the marker sits on the section, not on the articles.** The gap was never an unexplained hole.
+   `L-133-2018` pct. 652 adds to Capitolul XXXIV of Titlul III a whole **Secțiunea a 3-a**,
+   "Răspunderea pentru dobîndirea, utilizarea sau divulgarea ilegală a secretelor comerciale",
+   as arts. `1431^1`–`1431^8`; the block maps to today's numbering by the constant shift
+   `1431^N → 2046 + N` (107 of 115 titles confirmed at the predicted position, second-best shift
+   one vote against 87), sealed on both sides — old art. 1431 is today's art. 2046, old `1431^9`
+   ("Noțiunea", fiducia) is today's art. 2055. So 2047–2054 is exactly that section, repealed as a
+   whole, which is why the file carries `### Secțiunea a 3-a- abrogată` and no per-article marker.
+   **That is a fourth mechanism hiding a repeal, on top of the three in item 3: a section-level
+   repeal annotates the section heading.** The repealing act is almost certainly LP384/2023 on the
+   protection of trade secrets (in force 22.02.2024, in the code's history block): today's art.
+   1207 alin. (2) sends out to "legislaţia privind protecţia secretelor comerciale", and that
+   phrase occurs once in the whole code. **The date is still not proved article by article**;
+   ingesting `L-384-2023` proves it.
+   The same pass also corrected what this item used to assert about the rest of the code. There are
+   **six gaps, 14 articles**, and only **two** carry a marker (2171–2172, LP251/2025) — not "each".
+   The other four are named by subject in section AG.5 of the moldova-legal manifest: 2185 = old
+   art. 1455 (drepturile succesorale ale soțului supraviețuitor), 2188 = old art. 1458, 2404 = old
+   `1572^102`, 2485 = old `1575^61`. None carries a marker; LP251/2025 is the likely repealer for
+   all four, unproved.
 
 2. **Superscript flattening below article level.** The legis.md refresh now resolves superscripts
    during extraction, so the acts pulled on 4 September are clean at article level. The Civil Code
@@ -283,6 +298,18 @@ Do not resolve these on your own. Raise them if a matter touches them.
    number in the vault. The pattern used everywhere else, `Articolul (\d+(?:\^\d+)?)`, truncates it
    to `54^1` and so collides with the real art. 54^1 at line 2285: a search for art. 54^1 returns
    two different articles. Check the ingest and any citation helper before relying on that pattern.
+
+   **The inverse defect exists too, and it was the answer to three of the four citations this wiki
+   could not explain (found 2026-09-19).** The source sometimes *raises* a digit that belongs on
+   the line, and our extractor faithfully keeps it as `^N`, so a citation to `art. 291` arrives as
+   `art. 29^1` and reads like a real superscript article. The mechanical test is cheap — the cited
+   `N^M` has no anchor in the target act but the concatenation `NM` does — and over the 39
+   superscript rows of the graph's unresolved table it yields five candidates, three of which
+   confirm on the merits: `COD-1163-1997` art. 29^1 = art. 291, `L-202-2017` art. 13^9 / 14^1 =
+   art. 139 / 141, `COD-116-2018` art. 17^1 = art. 171. **The concatenation alone proves nothing**
+   — the other two candidates land on an electoral-lists article and a beekeeping one, with no
+   relation to the citing text. Open both ends and compare titles, same bar as for flattening.
+   Evidence in section AG.2 of `raw/papers/moldova-legal/_manifest.md`.
 
 3. **Numbering gaps. Closed on 2026-09-05: every one is now dated to a repealing law.** The audit
    counted 31 gap runs across the anchored acts, 15 of them with no marker in our files
@@ -306,7 +333,7 @@ Do not resolve these on your own. Raise them if a matter touches them.
    | `L-100-2017` | 52 | **not repealed at all** | `Articol 52` misspelling — item 4 |
 
 
-   **Three different mechanisms hide a repeal, and only the first was known before.** Method and
+   **Four different mechanisms hide a repeal, and only the first was known before.** Method and
    evidence in section B-quater of the audit; legis.md exposes every past consolidation through
    `showDetails(null,'<doc_id>')`, and the text of one is at `/cautare/showdetails/<doc_id>`, which
    is how each date below was established.
@@ -324,6 +351,11 @@ Do not resolve these on your own. Raise them if a matter touches them.
       `Articolul N – abrogat.` line, and a later consolidation removed the line itself. This is the
       worst of the three, because the earlier text was self-explanatory and the later one shows
       nothing at all. `L-548-1995` is the case — item 6.
+   4. **The repeal is at section level, so the marker is on the heading.** Added 2026-09-19. When a
+      whole `Secțiunea`/`Capitolul` is repealed, the consolidation keeps the heading and writes
+      `abrogată` on it, and no article inside carries a marker — the articles simply are not there.
+      `CC-1107-2002` arts. 2047-2054 is the case (item 1). Read one level up before calling an
+      article-range gap unexplained: the heading immediately above it may already say why.
 
    **What this means for citation.** A gap with no marker means "no marker in this consolidation",
    never "no repeal". Before recording anything as a source defect, check legis.md's earlier
@@ -333,7 +365,7 @@ Do not resolve these on your own. Raise them if a matter touches them.
    record of how it got there. Low density is not by itself proof of loss, since a rarely amended
    act legitimately has few markers, but it bounds what these files can answer.
 
-4. **A misspelling in the source makes an article invisible.** Two instances, both left
+4. **A misspelling in the source makes an article invisible.** Several instances, all left
    uncorrected because rewriting legal text is forbidden here. In each case searching
    `## Articolul N` returns nothing, which is the trap, and the article reads as an unexplained
    gap in item 3.
@@ -356,6 +388,14 @@ Do not resolve these on your own. Raise them if a matter touches them.
      every HG in this vault is cited, and section M of the moldova-legal manifest already warns
      that a citation to "pct. N" is not anchored. The article is present in full; only the
      anchor is missing.
+   - `CC-1107-2002` arts. 2447, 2448 and 2522, found 2026-09-19 by the same method as the 843/845
+     pair — the title as `L-133-2018` enacted it, read against the title as legis.md prints it
+     today. Today's file has `Supra îndatorarea` with a space inside the word (for
+     `Supraîndatorarea`), `Dreptul de a întocmi un inventor` (for `inventar`) and `bunurile primate`
+     (for `primite`). Anchors are fine and the articles are findable by number; what fails is a
+     title search, and "inventor"/"primate" are real words, so a search will not even look wrong.
+     This is now four separate acts with the same class of defect, so treat a failed title search
+     as a source-spelling hypothesis before treating it as a missing provision.
 
 5. **The English BNM corpus is unanchored.** The generated flags give the current count. Decided
    on 2026-09-05 (decision D2 of the restructuring plan): a translation never carries an anchor.
@@ -408,9 +448,9 @@ Do not resolve these on your own. Raise them if a matter touches them.
    13-strong `CC-1107-2002` pre-2019-renumbering cluster, `L-171-2012` arts. 81/87/88 dated to a
    named repealing law and its art. 38 confirmed already correctly tracked, and `L-550-1995`'s
    four gutted-act citations); 2 are a resolver bug pointing at the wrong in-corpus act and a
-   parser artifact reading our own editorial note; only 4 (`COD-116-2018` art. 17^1,
-   `COD-1163-1997` art. 29^1, `L-105-2003` art. 201, `L-202-2017` art. 13^9) stay genuinely
-   unexplained. The graph's own rule says a "poate fi" hint is a hypothesis, not an edge, to be
+   parser artifact reading our own editorial note; and the last 4 (`COD-116-2018` art. 17^1,
+   `COD-1163-1997` art. 29^1, `L-105-2003` art. 201, `L-202-2017` art. 13^9) **were closed on
+   2026-09-19 — see the end of this item.** The graph's own rule says a "poate fi" hint is a hypothesis, not an edge, to be
    checked in the source before use — this is that check, done exhaustively instead of article by
    article as citations come up.
 
@@ -468,6 +508,18 @@ Do not resolve these on your own. Raise them if a matter touches them.
    on four independent points, not extrapolated from one), **1144^9 → 1614**, and **283^27 → 435**.
    Method, counts and the full table: sections AE and AF of `raw/papers/moldova-legal/_manifest.md`,
    `entities/L-133-2018.md` and `entities/L-66-2017.md`.
+
+   **The 16 titles left unopened on 2026-09-18 are closed on 2026-09-19, and not by opening them.**
+   Title matching was the wrong tool for a block; the constant shift is the right one, and it was
+   run over each of the three superscript blocks of art. I at once: `1431^N → 2046 + N` (107 of
+   115 titles confirmed at the predicted position), `1572^N → 2302 + N` (116 of 119),
+   `1575^N → 2424 + N` (147 of 151). At every block the runner-up shift has **one** vote against
+   87, 64 and 98, so the shift is not a fit but a fact. **370 of 385 old numbers therefore resolve
+   by position regardless of what happened to their titles**, and the 15 that do not are the
+   findings, not the failures: 8 are the repealed trade-secrets section (item 1), 3 are source
+   misspellings (item 4), 2 are real substantive retitlings by LP251/2025 (art. 2389, 2391 — the
+   succession reform that turned renunciation into acceptance), and 2 are numbering gaps now named
+   (arts. 2404 and 2485). Section AG.4-AG.5 of the moldova-legal manifest.
 
    **Closed the same day for the `48^N` cluster too, by ingesting the law that introduced it.**
    Legea 133/2018 contains no `48^N` article, but it *amends* ten of them (48^5, 48^6, 48^25,
@@ -551,9 +603,10 @@ Do not resolve these on your own. Raise them if a matter touches them.
    title matches the citing context on its face, same bar as the flattened-exponent checks:
    - `COD-218-2008#art.293^2` cites art. 50, 52^1, 52^2, 53, 55, 56, 58, 59, 60^1, 61-70^1, 77 and
      104 "din legea indicată" — `Legea nr. 114/2012` (named earlier in the same paragraph), not
-     `COD-218-2008` itself. Not fully verified end to end: `L-114-2012` as held has plain art. 52
-     and 60, no `52^1`/`52^2`/`60^1` — either our consolidation predates an amendment that split
-     these articles, or the mismatch continues one level further. Left for a future session.
+     `COD-218-2008` itself. **Verified end to end on 2026-09-19, and the doubt recorded here was
+     simply wrong:** `L-114-2012` as held does have art. 52^1 (l. 993), 52^2 (l. 1007) and 60^1
+     (l. 1153), and all **42** articles art. 293^2 cites across alin. (1)-(5) carry an anchor. The
+     graph reports no unresolved row against `L-114-2012` either. Nothing to fix in any file.
    - `COD-218-2008#art.440` cites art. 4 and 5^1 "din legea menţionată" — `L-131-2012`, named
      earlier in the same paragraph. `L-131-2012` art. 5^1 exists and is the same one already
      confirmed above ("Limitele generale ale controlului"). Fully resolved.
@@ -577,19 +630,37 @@ Do not resolve these on your own. Raise them if a matter touches them.
    Not part of the pattern, and a real gap confirmed by itself: `COD-116-2018` has no art. 17^1 —
    only plain art. 17 ("Dreptul vătămat") — and `L-192-1998#art.23` cites it as a live derogation
    ("Prin derogare de la art. 17^1 alin.(4) din Codul administrativ nr. 116/2018"). No renumbering
-   evidence found on a first read; left open.
+   evidence found on a first read; left open at the time, **closed 2026-09-19 — see below.**
 
-   **3 groups stay genuinely unexplained**, no hint from the script, no other act named in
-   context, and no cause found on a first read: `COD-1163-1997` art. 29^1 (Codul fiscal's own
-   text names no other act; the citing paragraph, on the annual fee deadline for independent
-   practitioners, cites `art. 291` correctly moments later in the same sentence, so this is not
-   that same article mistyped); `L-105-2003` art. 201 (anomalous on its own — the law has 75
-   articles; `COD-218-2008`'s citing text names no other act either); and `L-202-2017` art. 13^9,
-   cited by `HBN-127-2013` (points-only, no anchors of our own to check the source side)
-   alongside `art. 14^1`, which is itself unattested in `L-202-2017` too but did not surface as a
-   separate unresolved group — possibly `art.13^9` is a flattened `art. 13 alin. (9)` rather than
-   a real article `13^9`, a shape the flattened-exponent heuristic does not cover (paragraph, not
-   sub-article). Left open rather than guessed at.
+   **The last 4 groups, closed 2026-09-19, and three of them by one mechanism nobody had named:
+   the source raising a digit that belongs on the line** (the inverse of flattening; item 2 now
+   carries it, evidence in section AG.2 of the moldova-legal manifest). In each case the target
+   was found by concatenating and then reading both ends, never by concatenating alone:
+   - `COD-1163-1997` art. 29^1 = **art. 291 alin. (1) lit. e)**, "taxa pentru unităţile comerciale
+     şi/sau de prestări servicii". Proved three ways: the letter matches, the fee matches by name,
+     and the citing sentence's own exception (`art. 295 lit. g^1)`) exempts physical persons with
+     independent activity from *that same fee* by name. The fact that the paragraph above cites
+     `art. 291 lit. n^1)` correctly is not evidence against — it is the same article, spelled
+     correctly two lines earlier, which is what a rendering defect looks like.
+   - `L-202-2017` art. 13^9 and 14^1 = **art. 139** ("Măsuri de supraveghere") and **art. 141**
+     ("Sancțiunile şi măsurile sancționatoare aplicabile"). `HBN-127-2013` pct. 6 applies them to a
+     qualified holding pledged without approval, and art. 141 alin. (1) lit. c) is the fine on
+     direct and indirect holders of holdings in bank capital — the exact addressee. The
+     `art. 13 alin. (9)` hypothesis recorded here before is wrong: art. 13 is the activity
+     programme and governance framework, art. 14 the permitted activities, neither related.
+   - `COD-116-2018` art. 17^1 = **art. 171 alin. (4)**, second sentence: "Dacă se depune o cerere
+     de suspendare a executării actului administrativ individual, acesta poate fi executat doar
+     după soluționarea cererii respective." The CNPF derogation negates it element by element. The
+     Administrative Code has no automatic-suspension-on-filing rule anywhere else — art. 172 has
+     three alineate, art. 214 says nothing of the sort, and a corpus-wide search for "suspendă de
+     drept" finds nothing in that code.
+   - `L-105-2003` art. 201 is the **flattened** kind, plus a renumbering: the law has 75 articles
+     and never had 201, so the number is `20^1` in the pre-republication numbering. The act was
+     **republished under LP342/2023** (published 28.03.2024; the body says so at file line 102),
+     and the provision is today **art. 28, "Locurile de preschimbare a mărfii"** — matched not
+     only by title but by three of the four limbs the contravention enumerates, which are art. 28
+     alin. (4) word for word. What stays unproved is only that the old number was `20^1` rather
+     than some other flattened form; LP342/2023's own text settles it.
 
    **`L-213-2023` art. 84 needs no action**: the "citation" is the graph reading `COD-225-2003`
    out of a hand-written HCC editorial note inside `L-213-2023.md` itself, not a citation in legal

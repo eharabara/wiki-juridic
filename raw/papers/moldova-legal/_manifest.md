@@ -2549,6 +2549,161 @@ inutilizabilă pentru toate celelalte. Acum sare peste, vizibil, și continuă.
 Pagini de entitate: [[L-66-2017]] (nouă); [[L-133-2018]] actualizată cu legătura și cu corecția
 de la `283^27`.
 
+## AG. Cozile rămase, închise fără rețea (2026-09-19)
+
+legis.md este din nou complet blocat: `curl` cu cele două antete din
+nota de metoda din memoria sesiunilor primește 403 „Just a moment", iar browserul intern rămâne pe pagina
+de verificare și după 8 secunde de așteptare. Deci nimic din ce urmează nu se sprijină pe sursă
+externă; totul e citit din ce ținem deja, ceea ce face rezultatele mai ieftin de reverificat, nu
+mai slabe: fiecare concluzie de mai jos numește fișierul și linia de ambele capete.
+
+### AG.1 Coada `L-114-2012`: nu există, a fost o observație greșită
+
+`CLAUDE.md` punctul 8 lăsa deschis, „pentru o sesiune viitoare", faptul că
+`COD-218-2008#art.293^2` citează `art. 52^1`, `52^2` și `60^1` din Legea nr. 114/2012, iar actul
+deținut ar avea „doar art. 52 și 60, fără exponenți". **Fals.** `raw/papers/bnm/legal-ro/L-114-2012.md`
+are art. 52^1 (l. 993, „Confirmarea disponibilității fondurilor"), 52^2 (l. 1007), 60^1 (l. 1153)
+și 63^1 (l. 1184). Verificate mecanic **toate cele 42 de articole** citate de art. 293^2 alin.
+(1)-(5) — 2, 2^1, 2^2, 2^3, 5, 25, 34-48, 50, 52^1, 52^2, 53, 55, 56, 58, 59, 60^1, 61-67, 69,
+70, 70^1, 77, 88, 104 — și **fiecare are ancoră**. Graful nu mai raportează niciun rând
+nerezolvat către `L-114-2012`, ceea ce concordă. Coada se închide fără nicio corecție în fișiere.
+
+### AG.2 Un al patrulea mecanism: **exponentul ridicat fals**, inversul celui cunoscut
+
+`CLAUDE.md` punctul 2 descrie turtirea: sursa scrie `art. 3142` unde textul legal spune 314^2.
+Cele trei dintre cele patru grupuri declarate „genuinely unexplained" la punctul 8 se explică
+prin **exact inversul**: sursa ridică o cifră care aparține liniei, iar extractorul nostru,
+corect, o păstrează ca `^N`. Testul mecanic e simplu — dacă `N^M` nu are ancoră în actul-țintă
+dar `NM` are — și l-am rulat peste toate cele 39 de rânduri cu exponent din tabelul
+„Trimiteri nerezolvate": dă **cinci** candidați, din care trei se confirmă pe fond și doi sunt
+coincidențe de cifre (`COD-218-2008` art. 5^1 și 13^1, deja atribuite altor acte în punctul 8 —
+`L-131-2012` și Legea nr. 1134/1992 —, iar art. 51 „Înscrierea în mai multe liste de candidaţi"
+și art. 131 „apicultură" nu au nicio legătură cu contextul citator). **Concatenarea singură nu
+dovedește nimic; titlul citit de ambele capete dovedește.**
+
+**(1) `COD-1163-1997` art. 29^1 = art. 291.** Codul fiscal, art. 292 alin. (1^1) (l. 6945):
+„Persoanele fizice care practică activitate independentă, cu excepția celor care beneficiază de
+scutire conform art. 295 lit. g^1), achită taxa stipulată la art. 29^1 alin.(1) lit.e)". Art. 291
+alin. (1) lit. e) (l. 6915) este „taxa pentru unităţile comerciale şi/sau de prestări servicii", iar
+art. 295 lit. g^1) scutește de **aceeași** taxă, pe nume, persoanele fizice cu activitate
+independentă din piețe. Identitatea e probată de trei ori: litera (e), denumirea taxei și clauza
+de excepție. Alineatul imediat superior, (1), citează corect `art. 291 lit. n^1)` — deci actul se
+citează pe sine corect cu două rânduri mai sus, ceea ce exclude o renumerotare.
+
+**(2) `L-202-2017` art. 13^9 și 14^1 = art. 139 și 141.** `HBN-127-2013#corp` pct. 6 (l. 150):
+gajul unei dețineri calificate cu încălcarea pct. 4 subpct. 2) → „Banca Naţională aplică
+prevederile art.13^9 şi/sau 14^1 din Legea nr.202". Art. 139 este „Măsuri de supraveghere"
+(l. 1622), art. 141 „Sancțiunile și măsurile sancționatoare aplicabile" (l. 1696), iar alin. (1)
+lit. c) al acestuia prevede amenda aplicabilă **deținătorilor direcți și indirecți de dețineri în
+capitalul social al băncii** — exact destinatarul faptei descrise. „Şi/sau" între o măsură de
+supraveghere și o sancțiune este felul normal în care lucrează un supraveghetor; art. 140 („Faptele
+sancționabile") stă între ele și explică de ce sunt citate ca pereche cu o lacună. Lecturile
+alternative cad: art. 13 este „Programul de activitate… cadrul de administrare", art. 14
+„Activitățile permise băncilor", niciunul cu legătură. `L-202-2017` **are** articole cu exponent
+real (144^1, 144^2), deci ridicarea nu e sistematică, ci un defect de redare punctual.
+
+**(3) `COD-116-2018` art. 17^1 = art. 171.** `L-192-1998#art.23` alin. (1^2) (l. 376): „Prin
+derogare de la art. 17^1 alin.(4) din Codul administrativ…, depunerea unei cereri de suspendare a
+executării unui act al Comisiei Naționale nu suspendă de drept efectele actului contestat până la
+soluționarea cererii de suspendare." Art. 171 alin. (4) (l. 1213 și urm.), teza a doua: „Dacă se
+depune o cerere de suspendare a executării actului administrativ individual, acesta poate fi
+executat doar după soluționarea cererii respective." Corespondența e cuvânt cu cuvânt, pe fiecare
+element al propoziției. Codul administrativ nu are, nicăieri, o regulă de suspendare de drept prin
+depunerea cererii — căutat pe tot corpusul; art. 172 (suspendarea de către autoritate) are trei
+alineate, art. 214 (suspendarea de către instanță) nu spune asta. **Deci derogarea din legea CNPF
+vizează art. 171 alin. (4), nu un articol inexistent.**
+
+### AG.3 A patra citare deschisă: `L-105-2003` art. 201 este azi **art. 28**
+
+`COD-218-2008#art.273` pct. 19) (l. 4540) sancționează „lipsa locului de preschimbare a mărfii
+prevăzut la art. 201 din Legea nr. 105/2003". Legea are 75 de articole; **nu a avut niciodată
+201**, deci numărul nu poate fi citit literal în nicio numerotare. Este un exponent **turtit** în
+sursă — `20^1` — din numerotarea de dinainte de republicare. Fișa actului spune limpede de ce:
+„Data publicării 28.03.2024", iar corpul poartă „**Republicată în temeiul art. II al. (2), lit. b)
+al Legii nr. 342/2023**" (l. 102). Articolul cu acel obiect este azi **art. 28, „Locurile de
+preschimbare a mărfii"** (l. 637), și potrivirea nu e doar pe titlu: alin. (4) impune publicarea
+adresei locului, a numerelor de telefon și a adreselor de poștă electronică pentru consultarea
+privind *procedura de preschimbare a mărfii aplicată în unitatea comercială respectivă* — adică
+literal cele trei fapte pe care contravenția le enumeră după prima. Republicarea și-a actualizat
+trimiterile interne (art. 28 alin. (1) citează art. 25, 26, 27 în numerotarea nouă); Codul
+contravențional nu și-a actualizat trimiterea externă. **Nedovedit articol cu articol** rămâne
+doar că numărul vechi era `20^1` și nu alt număr turtit; se confirmă din textul LP342/2023.
+
+### AG.4 Concordanța `L-133-2018`, dusă până la capăt pe blocuri — și ce a scos la iveală
+
+Sesiunea din 18 septembrie a lăsat „restul de 16" titluri fără corespondent nedeschise, bănuite
+rescrieri din blocul moștenirii. Ele se închid nu prin potrivire de titlu, ci prin **metoda
+deplasării constante** (punctul 8 din `CLAUDE.md`, proba mai tare): pentru fiecare bloc `N^M` din
+art. I se caută deplasarea votată de titlurile identice, apoi se verifică **fiecare** articol al
+blocului la poziția prezisă.
+
+| bloc vechi | deplasare | articole | titluri confirmate la poziție | excepții |
+|---|---|---:|---:|---:|
+| `1431^N` | → 2046 + N | 115 | 107 | 8 |
+| `1572^N` | → 2302 + N | 119 | 116 | 3 |
+| `1575^N` | → 2424 + N | 151 | 147 | 4 |
+
+Deplasarea nu e extrapolată dintr-un punct: la fiecare bloc, a doua candidată are **un singur
+vot** față de 87, 64 și 98. Ea confirmă independent cele șase perechi deja stabilite pe 18
+septembrie (1572^117 → 2419; 1575^4 → 2428, ^5 → 2429, ^9 → 2433, ^10 → 2434) și adaugă
+adiacența structurală din AF.5: art. 1431 vechi este azi **art. 2046**, iar blocul `1431^N`
+începe exact după, cu 2047.
+
+**Cele 15 excepții nu sunt eșecuri ale metodei; sunt exact constatările.** Opt formează lacuna
+2047-2054 (AG.5). Patru sunt greșeli de redare în sursa de azi, a patra instanță a punctului 4 din
+`CLAUDE.md`, toate găsite fiindcă titlul din 2018 e scris corect: art. 2447 „**Supra îndatorarea**"
+(spațiu intercalat, pentru „Supraîndatorarea"), art. 2448 „Dreptul de a întocmi un **inventor**"
+(pentru „inventar"), art. 2522 „…cu privire la bunurile **primate**" (pentru „primite"). Două sunt
+rescrieri reale de fond, nu erori: art. 2389 „Opțiunea succesorală" pentru „Devoluțiunea și
+renunțarea la moștenire" și art. 2391 „Termenul de **acceptare** a moștenirii" pentru „Termenul de
+**renunțare**" — răsturnarea regimului acceptării, coerentă cu LP251/2025, a cărei intrare în
+vigoare (01.04.2026) este chiar data consolidării pe care o ținem. Ultimele două sunt lacune de
+numerotare, tratate mai jos.
+
+### AG.5 Lacunele Codului civil: toate șase, identificate pe subiect
+
+Fișierul are 2.657 de articole numerotate 1-2.671, deci **șase lacune, 14 articole**, dintre care
+**doar două poartă marcaj** (`[Art.2171 abrogat prin LP251…]`, `[Art.2172…]`, l. 14474-14475).
+Comentariul din scriptul de ingerare care spunea „cele șase abrogate prin LP251" era o presupunere,
+nu o citire. Concordanța de mai sus le numește pe toate, prin articolele vecine:
+
+| lacună | articol(e) vechi | obiect | marcaj în fișier |
+|---|---|---|---|
+| 2047-2054 | `1431^1`-`1431^8` | Secţiunea a 3-a, răspunderea pentru dobândirea, utilizarea sau divulgarea ilegală a **secretelor comerciale** | doar `### Secțiunea a 3-a- abrogată` |
+| 2171-2172 | — | — | `abrogat prin LP251 din 10.07.25, în vigoare 01.04.26` |
+| 2185 | art. 1455 | Drepturile succesorale ale soțului supraviețuitor | **niciunul** |
+| 2188 | art. 1458 | Dreptul de moștenire al soțului în temeiul rudeniei | **niciunul** |
+| 2404 | `1572^102` | Contestarea omiterii termenului de renunțare | **niciunul** |
+| 2485 | `1575^61` | Proprietatea comună a comoștenitorilor (indiviziunea) | **niciunul** |
+
+Vecinii sunt citiți de ambele capete, nu deduși: 1454 → 2184 și 1456 → 2186; 1457 → 2187 și
+1459 → 2189; `1572^101` → 2403 și `1572^103` → 2405; `1575^60` → 2484 și `1575^62` → 2486.
+
+**Întrebarea deschisă nr. 1 din `CLAUDE.md` este astfel răspunsă.** Lacuna 2047-2054 nu era
+„o gaură inexplicabilă în consolidarea publicatorului": este o **secțiune întreagă**, introdusă de
+`L-133-2018` pct. 652 („Capitolul XXXIV din titlul III se completează cu secțiunea a 3-a…",
+l. 7230 și urm.) și abrogată în bloc. De aici și forma marcajului: **abrogarea la nivel de secțiune
+adnotează antetul secțiunii, nu articolele** — un al patrulea mecanism care ascunde o abrogare,
+alături de cele trei de la punctul 3. Actul abrogator este aproape sigur LP384/2023 privind
+protecția secretelor comerciale (în vigoare 22.02.2024, prezent în blocul de istoric al codului),
+fiindcă art. 1207 alin. (2) de azi trimite în afară, la „legislaţia privind protecţia secretelor
+comerciale", și fiindcă în tot codul sintagma mai apare o singură dată. **Data rămâne
+neconfirmată articol cu articol**; se confirmă ingerând `L-384-2023` — care era oricum pe locul 12
+în coada de ingerare, cu 9 mențiuni din 6 acte.
+
+### AG.6 Ce rămâne deschis după această sesiune
+
+1. **`L-384-2023`** neingerat, din cauza Cloudflare. Două motive acum: coada de ingerare și datarea
+   abrogării secțiunii secretelor comerciale.
+2. **`COD-325-2022`** (Codul electoral), primul din coada mecanică, descărcat parțial de altă
+   sesiune pe 18 septembrie (`tmp/pdfs/`, intrare în `DOCS` necomisă). Lucrul ei, nu al acestei
+   sesiuni.
+3. Numărul vechi exact al lui `L-105-2003` art. 28 (`20^1` presupus) și actul care a abrogat
+   arts. 2185, 2188, 2404, 2485 din Codul civil (LP251/2025 presupus, prin analogie cu 2171-2172
+   și cu rescrierile de titlu din același bloc). Ambele se rezolvă din istoricul legis.md.
+
+Pagini de entitate atinse: [[L-133-2018]], [[CC-1107-2002]].
+
 ## D. Artefacte metodologice create
 
 | Artefact | Tip | Rol |
