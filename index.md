@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-19 | Total pages: 146
+> Last updated: 2026-09-21 | Total pages: 151
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -14,6 +14,7 @@
 - [[bnm]] — Banca Națională a Moldovei: legal basis, mandate structure, regulatory register and verification limits.
 - [[bnm-official-document-corpus-2026]] — Preserved BNM legal and formal-report source corpus: originals, text extracts, hashes and provenance manifest.
 - [[CC-1107-2002]] — Codul civil al Republicii Moldova: din 2026-09-06 textul legis.md 150498 (consolidare 2026-04-01, LP251/2025), 2.657 de ancore de articol plus cărți, titluri, capitole și secțiuni; versiunea din PDF arhivată.
+- [[CNPDCP-ORDINE]] — Actele subordonate CNPDCP: ordinele 27/2022 (consolidat cu 39/2026), 31/2026, 40/2026, deciziile 41/2026 și 581/2015; art. 90 alin. (5) L-195 citit contra art. 32 L-133/2011; decizia 581/2015 fără temei clar; temei nepotrivit la Ordinul 31/2026.
 - [[COD-116-2018]] — Codul administrativ al Republicii Moldova: procedura administrativa si contestarea actelor CNPF/BNM; 260 de articole, consolidare 2025-08-31.
 - [[COD-1163-1997]] — Codul fiscal al Republicii Moldova: 511 ancore de articol, 11 titluri, consolidare 2026-07-01 (LP318/2025, art. 88^1 abrogat); inchide pasul fiscal al metodei P1.
 - [[COD-122-2003]] — Codul de procedura penala: 553 de articole de baza, cel mai mare din corpus; consolidare 2026-12-02, data viitoare.
@@ -94,6 +95,7 @@
 - [[L-284-2004]] — Legea nr. 284/2004 privind serviciile societății informaționale, fosta Lege a comerțului electronic: testul de direcționare teritorială din art. 3 și răspunderea intermediarilor din arts. 15–17; transpune Directiva 2000/31/CE.
 - [[L-308-2017]] — Legea nr. 308/2017 privind AML/CFT
 - [[L-325-2013]] — Legea privind evaluarea integrității instituționale: regimul testării integrității profesionale a agenților publici (art. 7 alin. (2) lit. a), obligația a cărei încălcare devine motiv de excludere de la funcții publice în opt acte din corpus, inclusiv CNPF art. 12); art. 17 alin. (2)-(4) lovite de HCC37/2021; 28 de ancore, consolidare 2024-03-29.
+- [[L-36-2026]] — Legea nr. 36/2026 de ratificare a Protocolului de amendare a Convenției 108 (108+): în vigoare intern 23.08.2026; textul Protocolului este imagine fără text, neingerat; intrarea lui în vigoare internațională neconfirmată.
 - [[L-325-2025]] — Legea achizițiilor publice din 2025: 91 de ancore, în vigoare de la 01.01.2027, dată viitoare, actul întreg; abrogă Legea 131/2015 la acea dată; pragurile din art. 1; art. 91 lasă procedurile în curs sub legea de la inițiere.
 - [[L-384-2023]] — Legea privind protecția secretelor comerciale: transpune Directiva (UE) 2016/943; 16 articole, fără exponenți, consolidare 2025-12-31; art. 16 alin. (3) este actul care a scos regimul din Codul civil — abrogă secțiunea a 3-a (arts. 2047–2054) de la 22.02.2024 și lasă în art. 1026 alin. (2) singura trimitere rămasă.
 - [[L-199-2010]] — Legea privind statutul persoanelor cu funcții de demnitate publică: 29 de articole, consolidare 2026-09-13; art. 21-23 (suspendare, încetare, răspundere) sînt citate din nouă acte; art. 3 alin. (2) dă întîietate legii speciale
@@ -110,6 +112,8 @@
 - [[L-92-2022]] — Legea nr. 92/2022 privind activitatea de asigurare sau de reasigurare
 - [[REG-ICF]] — Regulamentul Fondului de compensare a investitorilor
 - [[UA-STATUT-2011]] — Statutul profesiei de avocat, act al Uniunii Avocaților: pe articole, 74 de ancore, consolidare 2022-05-27 (doc_id 134919, nu 86850); Codul deontologic și Regulamentul stagiului nu sunt pe legis.md.
+- [[UE-2016-679]] — GDPR, Regulamentul (UE) 2016/679: text integral RO din Cellar, 99 de articole și 173 de considerente; primul act UE integral din vault.
+- [[UE-2016-680]] — Directiva (UE) 2016/680 (protecția datelor în materie penală): text integral RO, 65 de articole și 107 considerente; comparația cu L-160/2026 nefăcută.
 
 ### Concepts
 
@@ -121,6 +125,7 @@
 - [[acquis-ContabilitateInstitutiiFinanciare]] — Conturile anuale ale băncilor și asigurătorilor (86/635/CEE, 91/674/CEE): bază UE ingerată, fără ancoră moldovenească (Legea contabilității nu e ținută în vault).
 - [[acquis-CRA]] — Agențiile de rating de credit (Reg. 1060/2009): transpunere expresă, cu tabel articol cu articol, în L-171-2012 arts. 88^1-88^4.
 - [[acquis-Crowdfunding]] — Furnizori europeni de servicii de finanțare participativă (ECSP)
+- [[acquis-DataProtection]] — Protecția datelor cu caracter personal: harta articol cu articol L-195/2024 față de GDPR (art. 1–50 aceeași numerotare), divergențe verificate în text (amenzi 1%/2% față de 2%/4%, vîrsta copilului 14 față de 16, clauze standard), ce nu s-a comparat.
 - [[acquis-CSDR-EMIR]] — Infrastructură post-tranzacționare (CSDR / EMIR)
 - [[acquis-GarantareaDepozitelor]] — Sistemele de garantare a depozitelor (94/19/CE, abrogată 2019; succesorul 2014/49/UE neingerat): ancoră moldovenească [[L-160-2023]].
 - [[acquis-ICSD]] — Sistemele de compensare pentru investitori

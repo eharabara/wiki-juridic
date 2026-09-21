@@ -82,6 +82,23 @@ def flattened_superscripts(nums):
     return out
 
 
+def is_future_consolidation(consolidation_date, today):
+    """Consolidarea leaga azi sau nu, calculat mereu din data, niciodata din steagul inghetat.
+
+    Gasit 2026-09-19: fm['consolidation_is_future'] e scris o singura data, la ingerare
+    (ingest_business_law.py), si ramine asa pentru totdeauna -- daca data trece intre timp,
+    steagul nu se actualizeaza singur. COD-218-2008 si L-158-2008 (consolidare 2026-09-13)
+    au ramas marcate "in viitor" desi data e azi trecuta. Registrul in-force deja calcula
+    live (`cd > as_of`); tabelul de acoperire il urmeaza acum, ca sa nu mai difere intre ele.
+    """
+    if not consolidation_date:
+        return False
+    try:
+        return dt.date.fromisoformat(consolidation_date) > today
+    except ValueError:
+        return False
+
+
 def stale_age_note(consolidation, today):
     """Return the stable stale-source marker, if a consolidation is stale."""
     try:
@@ -91,7 +108,7 @@ def stale_age_note(consolidation, today):
     return "**more than 2 years old**" if age > STALE_YEARS else None
 
 
-def scan_file(path, rel):
+def scan_file(path, rel, today):
     text = read(path)
     fm = frontmatter(text)
     body = text.split("\n---", 1)[-1] if text.startswith("---") else text
@@ -109,7 +126,7 @@ def scan_file(path, rel):
         "rel": rel,
         "id": fm.get("instrument_id") or os.path.basename(path)[:-3],
         "consolidation": fm.get("consolidation_date", ""),
-        "future": fm.get("consolidation_is_future", "").lower() == "true",
+        "future": is_future_consolidation(fm.get("consolidation_date", ""), today),
         "refreshed": fm.get("refreshed", ""),
         "full_text": fm.get("full_text", "").lower() == "true",
         "declared": int(fm_decl) if fm_decl is not None else (int(body_decl.group(1)) if body_decl else None),
@@ -136,7 +153,7 @@ def scan_file(path, rel):
     }
 
 
-def collect():
+def collect(today):
     acts, eu, treaty, bnm_unanchored, other = [], 0, 0, [], 0
     bnm_en_anchored = []
     # bnm/legal-ro holds the six banking laws in Romanian (P8, 2026-09-05): primary acts,
@@ -156,7 +173,7 @@ def collect():
                 # moldovenesc -- numarat separat, ca extrasele UE, nu in tabelul actelor primare.
                 treaty += 1
                 continue
-            acts.append(scan_file(os.path.join(d, name), f"raw/papers/{folder}/{name}"))
+            acts.append(scan_file(os.path.join(d, name), f"raw/papers/{folder}/{name}", today))
     bnm = os.path.join(ROOT, "raw", "papers", "bnm")
     for dirpath, _dirs, files in os.walk(bnm):
         if os.path.basename(dirpath) == "legal-ro":
@@ -207,7 +224,7 @@ def hcc():
 
 
 def build(today):
-    acts, eu, treaty, bnm_unanchored, bnm_total = collect()
+    acts, eu, treaty, bnm_unanchored, bnm_total = collect(today)
     reg = inforce()
     hcc_reg = hcc()
     hcc_by_act = {}

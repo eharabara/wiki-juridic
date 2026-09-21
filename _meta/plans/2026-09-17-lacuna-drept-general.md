@@ -69,3 +69,53 @@ Nu e o decizie de ingerare imediată — Eugen decide ordinea. Dacă un dosar co
 din domeniile de mai sus, verifică punctual înainte de a te baza pe vault, și ia în calcul
 ingerarea țintită a actului relevant cu metoda deja folosită
 (`_meta/imports/moldova-legal/ingest_business_law.py`), nu cu scriptul CNPF.
+
+## Rezolvat 2026-09-19
+
+Verificat mecanic, nu din memorie, în timp ce documentul 05 (`legal-career/05-knowledge-map.md`)
+era analizat linie cu linie. Trei dintre cele patru puncte de mai sus se schimbă.
+
+### Mediere și avocatură: nota era deja învechită în ziua în care a fost scrisă
+
+Secțiunea „01. Confirmat direct, gol cunoscut" de mai sus le listează pe amândouă ca absente.
+Fals la data notei (17 septembrie): `L-1260-2002` (Legea cu privire la avocatură, 73 de articole)
+era deja ținută dinainte de 10 septembrie, iar `L-9-2026` (Legea privind medierea și statutul
+mediatorului, 63 de articole, care abrogă expres `L-137/2015` la art. 62 alin. (2)) fusese
+ingerată chiar cu o zi înainte, pe 16 septembrie. Ambele domenii au deci sursă primară ancorată.
+Ce a indus în eroare: în `_meta/graph/citation-graph.md` cele două acte apar doar ca marcaje pe
+nume, `LEGE:mediere` și `LEGE:avocatura`, pentru că actele care le citează le numesc fără număr
+(„Legea cu privire la mediere"), iar rezolvatorul de graf potrivește actele deținute după număr,
+nu după nume. **Concluzie generală, utilă dincolo de acest caz: un rând din coada de ingerare
+identificat doar pe nume nu e dovadă de absență — verifică întâi dacă actul e deja ținut sub alt
+număr, înainte de a-l trata ca lipsă.** Verificat la fel celelalte rânduri pe nume din aceeași
+coadă: `LEGE:publicitate-si-cu` = `L-62-2022` (ținută), `LEGE:achizitiile-publice` =
+`L-131-2015` și succesoarea `L-325-2025` (ambele ținute); rămân neidentificate
+`LEGE:contabilitatii`, `LEGE:serviciului-public` (ambiguu, posibil deja acoperit de `L-158-2008`,
+neverificat), `LEGE:statutul-municipiului`, `LEGE:protectia-martorilor-si-altor`,
+`LEGE:descentralizarea-administrativa`, `LEGE:locuinte`, `LEGE:protectia-indicatiilor-geografice`,
+`LEGE:statutul-alesului-local`.
+
+### Protecția datelor cu caracter personal: succesoarea e în corpus
+
+Întrebarea 04 de mai sus („neconfirmat dacă succesoarea lui `L-133-2011` e în corpus") are
+răspuns simplu: da. `L-195-2024` și `L-160-2026`, ambele „privind protecția datelor cu caracter
+personal", sunt ținute — `L-133-2011` însuși rămâne în vault doar ca text abrogat (de la
+23.08.2026), păstrat pentru că alte acte din corpus încă îl citează și pentru faptele dinainte de
+abrogare.
+
+### Proprietatea intelectuală: `L-139-2010` nu e „deținut", e doar zgomot de subsol
+
+Corectare de precizie, nu de fond: nota de mai sus scrie corect „**întâlnit**", nu „deținut" —
+`L-139-2010` (dreptul de autor) nu are niciun fișier în vault, e doar o țintă externă de citare.
+Dar rangul lui în coada de ingerare e fals: stă pe locul 1-2 la „acte care îl citează" (9 acte),
+și toate cele nouă sunt fișierele DCU (`DCU-PROC-*`, `DCU-REGULI-2026`), iar fiecare „citare" e
+nota de subsol de copyright tipărită pe fiecare pagină a PDF-ului sursă („Prezentul document și
+conținutul acestuia este protejat de Legea nr.139/2010..."), nu un renvoi juridic. Concluzia
+notei (IP neacoperit) rămâne corectă; premisa „e primul candidat după rang" nu ar trebui folosită
+fără verificare — coada de ingerare nu distinge o citare juridică reală de o formulă de copyright
+repetată mecanic pe fiecare pagină a unui PDF.
+
+**Nefăcut, pentru că nu a fost cerut acum:** filtrarea notelor de subsol din
+`build_citation_graph.py`. Ar cere o regulă specifică pentru DCU, cu riscul deja cunoscut din
+`CLAUDE.md` (secțiunea „Coverage") pentru orice regulă îngustă aplicată graful validat — decizia
+rămâne a lui Eugen.

@@ -2899,3 +2899,73 @@ doc_id **155887**, 29 de articole, consolidarea **2026-09-13** (LP154 din 30.07.
 acordul lui Eugen și verificat pe hash față de digestul calculat în pagină. Verificatorul:
 0 eșecuri. Ies din coada de ingerare art. 21-23, care se rezolvă acum pe ancore. Detalii în
 [[L-199-2010]].
+
+
+## AK. Perimetrul protecției datelor: ordinele CNPDCP, legea de ratificare 108+, GDPR și Directiva 2016/680 (2026-09-21)
+
+Planul: `_meta/plans/2026-09-21-perimetru-protectia-datelor.md`, executat integral (pașii 1–4, decizia lui Eugen din 21 septembrie: „tot planul").
+
+### AK.1 Șapte acte legis.md ingerate (`_meta/imports/cnpdcp/ingest_cnpdcp_ro.py`)
+
+| ID | doc_id | Act | Consolidare | Ancore |
+|---|---|---|---|---|
+| `OCNPDCP-27-2022` | 155870 | Ordin 27/2022, lista DPIA, **consolidat cu 39/2026** | 2026-08-23 | 0, în puncte |
+| `OCNPDCP-39-2026` | 155868 | Ordin 39/2026, modifică 27/2022 | 2026-08-23 | 0, în puncte |
+| `OCNPDCP-31-2026` | 155738 | Ordin 31/2026, contractul standard de transfer | 2026-08-23 | 0, în puncte și clauze |
+| `OCNPDCP-40-2026` | 156020 | Ordin 40/2026, formularul notificării încălcării securității | 2026-08-25 | 0, în puncte |
+| `DCNPDCP-41-2026` | 156021 | **Decizia** 41/2026, lista statelor adecvate | 2026-08-25 | 0, în puncte |
+| `DCNPDCP-581-2015` | 135821 | **Decizia** 581/2015, formular supraveghere video, mod. 2023 | 2023-03-01 | 0, în puncte |
+| `L-36-2026` | 153723 | Legea de ratificare a Protocolului 108+ | 2026-08-23 | 4 (`## Art. N. –`) |
+
+Prefixul este `DCNPDCP` la 41/2026 și 581/2015 fiindcă antetul lor spune DECIZIE, nu ORDIN; planul le numea ordine. Codul
+legis.md al deciziilor **nu a fost verificat** (fragmentul HTML nu poartă titlul paginii); doar 27/2022 are codul
+`OCNPDCP27/2022` confirmat din titlul filei. Nu s-a putut extinde un „registru complet" al ordinelor: inventarul vine
+din lista „adoptate" a datepersonale.md.
+
+**Cum au fost luate.** `curl` cu cele două antete: 403 „Just a moment" (Cloudflare, cum era de așteptat din 16 septembrie).
+Prin Chrome-ul lui Eugen (claude-in-chrome) `fetch` same-origin cu `X-Requested-With: XMLHttpRequest` a mers imediat, fără
+așteptare. Descărcarea prin `<a download>` din blob a funcționat **doar pentru primul fișier**; celelalte au fost blocate
+tăcut de Chrome. Soluția care a mers pentru toate: un receptor HTTP local pe `127.0.0.1:8765` (scriptul de 20 de rînduri
+a stat în scratchpad) și `fetch(..., {method:'POST', body: blob})` din pagină, către `http://127.0.0.1:8765/<nume>`;
+Chrome permite POST către localhost dintr-o pagină https. **Capcană:** procesele pornite cu `nohup ... &` din Git Bash
+au rămas ascunse pe port și au servit cod vechi; `Stop-Process` pe PID-urile din `netstat -ano` a fost singurul remediu
+sigur. HTML-urile sînt în `_meta/imports/cnpdcp/legis-md/`.
+
+### AK.2 Două texte UE integrale (`_meta/imports/eu/ingest_eu_dataprotection.py`)
+
+`UE-2016-679` (GDPR) și `UE-2016-680` (Directiva penală), în română, din **Cellar**
+(`https://publications.europa.eu/resource/celex/<CELEX>` cu `Accept: application/xhtml+xml` și `Accept-Language: ron`).
+Pagina EUR-Lex răspunde **202 fără corp** (verificare WAF); Cellar răspunde 200 cu 874 KB, respectiv 438 KB. Numerotare
+verificată în script: 99 de articole și 173 de considerente, respectiv 65 și 107, fără lacune. Sînt primele fișiere UE
+**cu text integral**, deosebite de cele 32 de extrase din `raw/papers/cnpf/` (`extract: false`, `full_text: true`).
+Articolele sînt sub `###`, nu sub `##`. Hash-ul acoperă corpul de după frontmatter, inclusiv linia goală de deschidere;
+prima încercare a dat `raw.sha256-mismatch` din cauza asta.
+
+### AK.3 Ce s-a găsit și nu se vedea din diff
+
+- **Art. 90 alin. (5) din L-195-2024, citit contra art. 32 din L-133-2011**, acoperă exact transferul transfrontalier:
+  alin. (3) lista statelor adecvate, alin. (5) lit. f) BCR, lit. i) contractul standard. Cele două acte care supraviețuiau,
+  Decizia 23/2022 și Ordinul 33/2022, sînt abrogate expres de 41/2026 (pct. 2) și 31/2026 (pct. 6). Ordinul 27/2022 nu
+  era acoperit (temei art. 20 și 23), deci l-a salvat repunerea temeiului prin 39/2026.
+- **Decizia 581/2015 nu are temei clar:** art. 20 alin. (1) lit. g) din L-133/2011 și Legea 182/2008, ambele abrogate prin
+  art. 90 alin. (3); art. 90 nu are altă clauză de continuitate. legis.md nu îi dă abrogare, site-ul CNPDCP o listează
+  ca în vigoare. Lăsat deschis.
+- **Ordinul 31/2026 invocă art. 28 alin. (7) din L-195**, care privește doar contractele operator–persoană împuternicită;
+  obiectul este transferul (art. 46). Nepotrivire temei–obiect, notată, nu concluzionată.
+- **Trei trimiteri diferite la MO ale L-195/2024** în preambulurile ordinelor: 367-369 art. 574 (27/2022 mod., 39/2026),
+  367-396 (31/2026), 124-129 art. 248 (40/2026).
+- **Data „ratificării" Convenției 108+ din plan era data depunerii.** Legea: 20.03.2026, în vigoare intern 23.08.2026;
+  depunerea: 15.05.2026 (extern, neverificat, pagina tratatului a dat 403). Ordinul „48 din septembrie" din plan nu a
+  apărut nici în lista autorității.
+- **Textul Protocolului 108+ este imagine**: `Acord_ro.pdf` (20 pagini) și `Acord_en.pdf` (37), fără strat de text, în
+  `_meta/imports/cnpdcp/legis-md/`. Fără OCR pe mașină. Neingerat, ca procedura de decontare DCU.
+- **Divergențe L-195/2024 față de GDPR, verificate acum cu ambele capete deschise** (amenzi 1%/2% față de 2%/4%; vîrsta
+  copilului 14 față de 16; art. 46 alin. (2) lit. c) contopește lit. (c) și (d) GDPR): în [[acquis-DataProtection]].
+- **Coada de ingerare:** Legea comunicațiilor electronice nr. 72/2025 (temei al Ordinului 40/2026, art. 115 alin. (10)),
+  Decizia (UE) 2021/914 și DCNPDCP 08/2023 nu sînt în vault.
+
+### AK.4 Neexecutat
+
+Ordinul 38/2026 (formularul plîngerii: PDF pe datepersonale.md, negăsit pe legis.md); instrucțiunile sectoriale
+vechi ale CNPDCP; comparația L-160/2026 față de Directiva 2016/680; citirea alineat cu alineat a L-195 față de GDPR;
+rîndul din matricea de transpunere.

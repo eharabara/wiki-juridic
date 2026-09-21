@@ -1,13 +1,13 @@
 ---
 copy_of: legal-career/06-matter-log.md
 master: claude.ai project "Legal Wiki"
-taken: '2026-09-19'
-stamped: '2026-09-19'
-sha256_body: 9749803a952da6d152f6998cad1ec65a538f48a48a58beedcef6741993cc5176
+taken: '2026-09-21'
+stamped: '2026-09-21'
+sha256_body: a49a2ebd75310fa7b77dc2776e8e88f5b479d1cde528a4ed0ab0aef7f65b27d5
 local_notes: false
 refresh: every-session
 ---
-> **Copy.** Taken 2026-09-10 from the claude.ai project "Legal Wiki", document `legal-career/06-matter-log.md`.
+> **Copy.** Taken 2026-09-21 from the claude.ai project "Legal Wiki", document `legal-career/06-matter-log.md`.
 > The project holds the master, and new matters are logged there, not here.
 > This copy exists so that work done in this folder can see what positions already stand.
 

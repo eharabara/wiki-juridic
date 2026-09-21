@@ -1,6 +1,6 @@
 # Graful de citare al actelor detinute
 
-Generat 2026-09-19 16:53 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
+Generat 2026-09-21 12:27 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
 
 **Ce este.** Trimiterile dintre actele detinute, extrase mecanic din textul brut: fiecare muchie poarta fisierul si liniile din care a fost citita, si nicio muchie nu este dedusa. Graful nu se citeaza. El spune unde sa deschizi fisierul, iar ancora se citeste.
 
@@ -10,23 +10,23 @@ Generat 2026-09-19 16:53 de `_meta/graph/build_citation_graph.py`. Nu edita de m
 
 | | |
 |---|---:|
-| acte primare detinute (din care ancorate pe articole) | 104 (85) |
-| dispozitii (noduri-articol) | 12590 |
-| extrase UE detinute (noduri-tinta) | 32 |
-| acte citate si nedetinute (noduri externe) | 562 |
-| mentiuni de acte in text (din care ale actului insusi) | 4290 (375) |
-| muchii act -> act (agregate pe segment-sursa) | 2904 |
-| trimiteri la articole citite (in grupuri de enumerare) | 8997 (7872) |
+| acte primare detinute (din care ancorate pe articole) | 111 (86) |
+| dispozitii (noduri-articol) | 12594 |
+| extrase UE detinute (noduri-tinta) | 34 |
+| acte citate si nedetinute (noduri externe) | 563 |
+| mentiuni de acte in text (din care ale actului insusi) | 4349 (378) |
+| muchii act -> act (agregate pe segment-sursa) | 2923 |
+| trimiteri la articole citite (in grupuri de enumerare) | 9036 (7903) |
 |   rezolvate in actul curent | 7359 |
-|   rezolvate in alt act detinut | 1109 |
+|   rezolvate in alt act detinut | 1142 |
 |   nerezolvate: articolul nu are ancora in actul-tinta | 100 |
-|   catre acte nedetinute (notate pe muchia act -> act) | 376 |
-|   catre acte pe puncte (fara articole) | 33 |
+|   catre acte nedetinute (notate pe muchia act -> act) | 378 |
+|   catre acte pe puncte (fara articole) | 37 |
 |   autoreferinte (articolul se citeaza pe sine), ignorate | 20 |
-| muchii articol -> articol (agregate) | 6969 |
+| muchii articol -> articol (agregate) | 6989 |
 | muchii articol -> act nerezolvate (agregate) | 88 |
 
-Regula care a dat actul-tinta, pe trimiteri: din 1305, doua-puncte 46, intern 7170, modificare 38, paranteza 9. „intern” = niciun act in context, deci actul curent; „din” = `art. N ... din Legea X` sau `(art. N, M) Directiva X`; „paranteza” = `Legea X (art. N)`; „doua-puncte” = `din Codul X: art. N, M`; „modificare” = `Legea X se modifica dupa cum urmeaza: ... articolul N`. `din legea indicata` trimite la ultima lege numita in acelasi segment.
+Regula care a dat actul-tinta, pe trimiteri: din 1338, doua-puncte 46, intern 7170, modificare 38, paranteza 9. „intern” = niciun act in context, deci actul curent; „din” = `art. N ... din Legea X` sau `(art. N, M) Directiva X`; „paranteza” = `Legea X (art. N)`; „doua-puncte” = `din Codul X: art. N, M`; „modificare” = `Legea X se modifica dupa cum urmeaza: ... articolul N`. `din legea indicata` trimite la ultima lege numita in acelasi segment.
 
 Coduri citate si pe nume si pe numar, unite dupa textul care le scrie impreuna: COD-audiovizualului = COD-260-2006; COD-educatiei = COD-152-2014; COD-electoral = COD-325-2022; COD-familiei = COD-1316-2000; COD-jurisdictiei-constitutionale = COD-502-1995; COD-transporturilor-rutiere = COD-150-2014.
 
@@ -78,6 +78,7 @@ Directive si regulamente UE care nu au un extras `UE-*` in `raw/papers/cnpf/`.
 
 | act citat | mentiuni | acte care il citeaza | cel mai des din | articole citate |
 |---|---:|---:|---|---|
+| `EU-L-1995-46` Directiva 1995/46 | 6 | 4 | `DCNPDCP-41-2026` (3) | - |
 | `EU-TFUE` Tratatul privind functionarea Uniunii Europene | 5 | 4 | `AA-2014` (2) | art. 101 |
 | `EU-L-2003-6` Directiva 2003/6 | 5 | 1 | `AA-2014` (5) | - |
 | `EU-L-2005-60` Directiva 2005/60 | 4 | 3 | `AA-2014` (2) | - |
@@ -97,8 +98,7 @@ Directive si regulamente UE care nu au un extras `UE-*` in `raw/papers/cnpf/`.
 | `EU-L-1985-611` Directiva 1985/611 | 2 | 2 | `L-171-2012` (1) | - |
 | `EU-L-1989-665` Directiva 1989/665 | 2 | 2 | `L-20-2026` (1) | art. 1, art. 2 |
 | `EU-L-1992-13` Directiva 1992/13 | 2 | 2 | `L-20-2026` (1) | art. 2 (x2), art. 1, art. 3 |
-| `EU-L-1995-46` Directiva 1995/46 | 2 | 2 | `L-195-2024` (1) | - |
-| … inca 109 in JSON | | | | |
+| … inca 107 in JSON | | | | |
 
 ### Legi citate doar pe nume, fara corespondent in vault
 
@@ -121,7 +121,7 @@ Fara numar in text si fara un titlu detinut care sa le contina, deci identificat
 | `LEGE:publicitate-si-cu` Legea cu privire la publicitate şi cu | 3 | 1 | `COD-174-2018` (3) | - |
 | `LEGE:statutul-alesului-local` Legea privind statutul alesului local | 3 | 1 | `L-436-2006` (3) | - |
 | `LEGE:achizitiile-publice` Legea privind achiziţiile publice | 2 | 2 | `L-181-2014` (1) | - |
-| … inca 51 in JSON | | | | |
+| … inca 54 in JSON | | | | |
 
 ## Acquis: extrasele UE detinute si actele care le citeaza
 
@@ -144,6 +144,8 @@ Mentiunile actelor detinute catre cele 29 de extrase `UE-*`. Schita unei concord
 | `UE-2014-65` | 1 | `L-2-2020` (1) |
 | `UE-2015-849` | 4 | `L-308-2017` (2), `L-106-2022` (1), `L-92-2022` (1) |
 | `UE-2016-2341` | 1 | `L-198-2020` (1) |
+| `UE-2016-679` | 6 | `DCNPDCP-41-2026` (3), `L-195-2024` (1), `OCNPDCP-27-2022` (1), `OCNPDCP-31-2026` (1) |
+| `UE-2016-680` | 1 | `L-160-2026` (1) |
 | `UE-2016-97` | 0 | - |
 | `UE-2017-1129` | 1 | `L-181-2023` (1) |
 | `UE-2017-1132` | 3 | `L-1134-1997` (2), `L-133-2018` (1) |
@@ -168,9 +170,9 @@ Acte detinute care nu mai sint in vigoare, si actele din corpus care trimit la e
 
 | act abrogat | de la | prin | mentiuni | acte care il citeaza | articole citate |
 |---|---|---|---:|---:|---|
-| `L-133-2011` | 2026-08-23 | LP195 din 25.07.24 | 49 | 22 | art. 2, art. 4, art. 5, art. 6, art. 12, art. 13, art. 20, art. 23 |
+| `L-133-2011` | 2026-08-23 | LP195 din 25.07.24 | 56 | 24 | art. 1, art. 2, art. 4, art. 5, art. 6, art. 12, art. 13, art. 20 |
 
-`L-133-2011` este citat din: `COD-122-2003`, `COD-218-2008`, `COD-95-2021`, `DCU-REGULI-2026`, `HCNPF-14-5-2016`, `L-105-2003`, `L-114-2012`, `L-122-2008`, `L-132-2016`, `L-1543-1998`, `L-171-2012`, `L-181-2023`, `L-195-2024`, `L-202-2017`, `L-246-2018`, `L-284-2004`, `L-308-2017`, `L-325-2013`, `L-325-2025`, `L-384-2023`, `L-436-2006`, `L-548-1995`.
+`L-133-2011` este citat din: `COD-122-2003`, `COD-218-2008`, `COD-95-2021`, `DCNPDCP-581-2015`, `DCU-REGULI-2026`, `HCNPF-14-5-2016`, `L-105-2003`, `L-114-2012`, `L-122-2008`, `L-132-2016`, `L-1543-1998`, `L-171-2012`, `L-181-2023`, `L-195-2024`, `L-202-2017`, `L-246-2018`, `L-284-2004`, `L-308-2017`, `L-325-2013`, `L-325-2025`, `L-384-2023`, `L-436-2006`, `L-548-1995`, `OCNPDCP-39-2026`.
 
 Limita care ramine: pentru actele **nedetinute** din coada de ingerare graful tot nu stie daca mai sint in vigoare. Se afla numai deschizind fisa lor pe legis.md, si nici acolo cimpul „Data abrogarii” nu este de incredere: pentru `L-133-2011` el era gol, desi corpul consolidarii declara abrogarea.
 
@@ -289,6 +291,8 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `COD-985-2002` | 566 | 22 | 24 | 166 | 3 | 1 | 12 |
 | `CONST-1994` | 157 | 4 | 36 | 13 | 1 | 0 | 5 |
 | `DCA-61-2024` | 0 | 5 | 0 | 0 | 5 | 0 | 2 |
+| `DCNPDCP-41-2026` | 0 | 6 | 0 | 0 | 2 | 0 | 9 |
+| `DCNPDCP-581-2015` | 0 | 3 | 0 | 0 | 1 | 0 | 2 |
 | `DCU-PROC-COMISIOANE` | 0 | 2 | 0 | 0 | 1 | 0 | 2 |
 | `DCU-PROC-DETINATOR` | 0 | 1 | 0 | 0 | 0 | 0 | 2 |
 | `DCU-PROC-GARANTII` | 0 | 1 | 0 | 0 | 0 | 0 | 2 |
@@ -320,7 +324,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-131-2012` | 41 | 11 | 13 | 27 | 3 | 4 | 6 |
 | `L-131-2015` | 91 | 14 | 9 | 120 | 1 | 0 | 9 |
 | `L-132-2016` | 45 | 13 | 8 | 27 | 7 | 0 | 5 |
-| `L-133-2011` | 36 | 10 | 22 | 18 | 1 | 0 | 2 |
+| `L-133-2011` | 36 | 10 | 24 | 18 | 1 | 0 | 2 |
 | `L-133-2016` | 27 | 8 | 14 | 28 | 5 | 0 | 2 |
 | `L-133-2018` | 17 | 58 | 2 | 0 | 0 | 0 | 47 |
 | `L-135-2007` | 93 | 11 | 4 | 17 | 14 | 0 | 4 |
@@ -331,7 +335,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-158-2008` | 88 | 51 | 15 | 74 | 7 | 0 | 60 |
 | `L-160-2011` | 32 | 11 | 21 | 12 | 3 | 2 | 11 |
 | `L-160-2023` | 58 | 13 | 3 | 47 | 5 | 0 | 8 |
-| `L-160-2026` | 46 | 4 | 0 | 54 | 11 | 1 | 1 |
+| `L-160-2026` | 46 | 4 | 1 | 54 | 11 | 1 | 1 |
 | `L-171-2012` | 156 | 31 | 23 | 153 | 17 | 0 | 24 |
 | `L-177-2025` | 4 | 4 | 0 | 0 | 0 | 0 | 0 |
 | `L-178-2020` | 8 | 7 | 0 | 0 | 0 | 0 | 2 |
@@ -340,7 +344,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-183-2012` | 110 | 28 | 6 | 183 | 8 | 4 | 16 |
 | `L-183-2016` | 17 | 6 | 7 | 8 | 3 | 0 | 1 |
 | `L-192-1998` | 34 | 20 | 17 | 21 | 8 | 1 | 1 |
-| `L-195-2024` | 90 | 20 | 2 | 200 | 8 | 0 | 5 |
+| `L-195-2024` | 90 | 20 | 7 | 200 | 8 | 0 | 5 |
 | `L-198-2007` | 54 | 10 | 5 | 38 | 14 | 0 | 11 |
 | `L-198-2020` | 64 | 10 | 2 | 23 | 8 | 0 | 3 |
 | `L-199-2010` | 29 | 8 | 9 | 2 | 5 | 0 | 3 |
@@ -362,6 +366,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-308-2017` | 47 | 21 | 8 | 65 | 12 | 0 | 17 |
 | `L-325-2013` | 28 | 11 | 11 | 41 | 2 | 0 | 7 |
 | `L-325-2025` | 91 | 21 | 0 | 168 | 1 | 0 | 17 |
+| `L-36-2026` | 4 | 0 | 0 | 0 | 0 | 0 | 0 |
 | `L-384-2023` | 16 | 6 | 6 | 15 | 1 | 0 | 2 |
 | `L-436-2006` | 98 | 33 | 5 | 16 | 3 | 0 | 44 |
 | `L-514-1995` | 60 | 12 | 0 | 4 | 0 | 0 | 8 |
@@ -375,6 +380,10 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-86-2014` | 42 | 17 | 5 | 67 | 0 | 5 | 21 |
 | `L-9-2026` | 63 | 13 | 0 | 27 | 5 | 0 | 5 |
 | `L-92-2022` | 125 | 17 | 5 | 61 | 6 | 0 | 7 |
+| `OCNPDCP-27-2022` | 0 | 3 | 0 | 0 | 4 | 0 | 2 |
+| `OCNPDCP-31-2026` | 0 | 2 | 0 | 0 | 13 | 0 | 1 |
+| `OCNPDCP-39-2026` | 0 | 2 | 0 | 0 | 10 | 0 | 0 |
+| `OCNPDCP-40-2026` | 0 | 3 | 0 | 0 | 3 | 0 | 1 |
 | `UA-STATUT-2011` | 74 | 9 | 0 | 16 | 1 | 2 | 2 |
 
 ## Trimiteri nerezolvate

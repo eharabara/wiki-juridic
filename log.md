@@ -1830,3 +1830,69 @@
 - **Aflat:** copia locală a documentului 05, reștampilată 17 septembrie, a rămas în urma corpusului în doar două zile, nu printr-o afirmație devenită falsă (ca la `HG-743-2024` pe 16 septembrie), ci prin tăcere: între timp coada de citări nerezolvate a fost verificată integral (ultimele patru grupuri, inclusiv un mecanism nou, inversul turtirii de exponent), lacuna cea mai veche a Codului civil (art. 2047-2054, deschisă din 6 septembrie) a fost închisă și s-a dovedit a fi secțiunea secretelor comerciale abrogată în bloc, dezvăluind un al patrulea mecanism care ascunde o abrogare, iar `COD-325-2022` (Codul electoral), cel mai citat act neingerat din bază, a fost ingerat după ce a fost ținut deliberat deoparte câteva ore pe motiv de versiune contestată. Verificarea din această sesiune a găsit inițial folderul cu modificări necomise (inclusiv la `CLAUDE.md`), deci rescrierea a fost amânată până când Eugen a confirmat că sesiunea din wiki s-a închis.
 - **Decis:** masterul a fost rescris în proiectul claude.ai „Legal Wiki”, secțiune cu secțiune, verificat direct față de `git log`, `git status`, `CLAUDE.md` și `_meta/graph/citation-graph.md`, nu din memorie. Regula documentului a fost extinsă din nou: înainte de rescriere, se verifică și `git status`, nu doar `git log`, un folder cu lucru necomis înseamnă o sesiune încă activă, iar o rescriere împotriva ei ar descrie o stare care se va învechi înainte să fie chiar copiată înapoi.
 - **Unde:** `legal-career/05-knowledge-map.md` (corp înlocuit, reștampilat, taken/stamped 2026-09-19, sha256 `a764e7d3...`). Fără modificări sub `raw/`. Validator: 0 erori, 2 avertismente (neschimbate, pre-existente, `236__Prezentare_RI_mai_2025.pdf.md`). Neconsemnat încă în git: commit și push rămân un pas separat.
+## [2026-09-19] update | Analiza documentului 05: steag de viitor înghețat, coadă de citare falsificată de subsol de copyright, mediere/avocatură/protecția datelor rezolvate
+
+- **Aflat:** analiza cerută a documentului 05 (`legal-career/05-knowledge-map.md`) a găsit, verificat
+  mecanic, nu doar citit: (1) `build_coverage.py` scrie steagul "consolidation dated in the future"
+  o singură dată, la ingerare, din `fm['consolidation_is_future']`; steagul nu se recalculează
+  niciodată din dată, spre deosebire de `build_inforce_register.py`, care compară `cd > as_of` la
+  fiecare rulare. Efect concret: `COD-218-2008` și `L-158-2008`, ambele cu consolidare
+  2026-09-13, apăreau azi (2026-09-19, șase zile mai târziu) încă marcate "în viitor" în
+  `CLAUDE.md`, deși textul leagă deja — și fraza scrisă de mână în documentul 05 despre
+  "Legea 158/2008 ... cu 29 de dispoziții amânate" era la fel de învechită: registrul in-force nu
+  mai listează niciuna azi pentru acest act. (2) `L-139-2010` (dreptul de autor) ocupă locul 1-2 în
+  coada de ingerare a grafului de citare, la "acte care îl citează" (9), dar toate cele nouă sunt
+  fișierele DCU, iar fiecare "citare" e nota de subsol de copyright tipărită pe fiecare pagină a
+  PDF-ului sursă, nu un renvoi juridic. Documentul 05 mai scrie și că actul e "held"; nu e, e doar
+  o țintă externă neingerată. (3) Nota `_meta/plans/2026-09-17-lacuna-drept-general.md` lista
+  medierea și avocatura ca absente; ambele erau deja ținute cu o zi-două înainte de data notei
+  (`L-9-2026`, ingerată 16 septembrie, `L-1260-2002`, ținută de dinainte de 10 septembrie) — apar
+  în graf doar ca marcaje pe nume (`LEGE:mediere`, `LEGE:avocatura`), pentru că rezolvatorul de graf
+  potrivește actele deținute după număr, nu după nume citat în text. Aceeași verificare a confirmat
+  și că succesoarea legii 133/2011 (protecția datelor, abrogată 23.08.2026) e deja în corpus,
+  `L-195-2024` și `L-160-2026`.
+- **Decis:** (1) fixat: `build_coverage.py` primește o funcție nouă, `is_future_consolidation()`,
+  care recalculează mereu din `consolidation_date` față de `dt.date.today()`, la fel ca registrul
+  in-force; steagul înghețat din frontmatter nu mai e citit pentru acest calcul. Regenerat lanțul
+  complet (`in-force → HCC → graf → coverage → SCHEMA.md`); `COD-218-2008` și `L-158-2008` au ieșit
+  din lista "Not yet in force" (16 → 14 acte, aceeași cifră ca în registrul in-force). Validator:
+  0 erori, 2 avertismente neschimbate (preexistente, `236__Prezentare_RI_mai_2025.pdf.md`).
+  (2) Corectarea celor două fraze din documentul 05 nu s-a făcut aici: masterul e în proiectul
+  claude.ai "Legal Wiki" și copia din `legal-career/` nu se editează direct (regula proprie a
+  fișierului) — text de înlocuire pregătit și predat lui Eugen pentru proiect; copia rămâne de
+  reluat și reștampilat după aceea. (3) Nota de plan a primit o secțiune "Rezolvat 2026-09-19" cu
+  cele trei rezolvări de mai sus, plus o regulă generală: un rând din coada de ingerare identificat
+  doar pe nume nu e dovadă de absență. Nu s-a atins `build_citation_graph.py` (nicio regulă de
+  filtrare a notelor de subsol DCU) — narrow-fix pe un graf validat, decizia rămâne a lui Eugen,
+  ca la precedentele similare din CLAUDE.md secțiunea de acoperire.
+- **Unde:** `_meta/coverage/build_coverage.py` (funcție nouă + 4 linii schimbate, CRLF păstrat);
+  `CLAUDE.md` (blocul generat, regenerat); `_meta/plans/2026-09-17-lacuna-drept-general.md`
+  (+53 de linii); `_meta/inforce/in-force-register.md`, `_meta/hcc/hcc-register.md`,
+  `_meta/graph/citation-graph.md`, `SCHEMA.md` (toate regenerate, neschimbate ca conținut util,
+  doar data). Fără modificări sub `raw/`. Necomis încă: commit și push rămân un pas separat, la
+  decizia lui Eugen.
+
+## [2026-09-21] ingest | Perimetrul protecției datelor: ordinele CNPDCP, legea de ratificare 108+, GDPR și Directiva 2016/680
+
+- **Aflat:** (1) Art. 90 alin. (5) din L-195-2024, citit contra art. 32 din L-133-2011, păstrează doar transferul
+  transfrontalier (lista adecvatelor, BCR, contractul standard); cele două acte care supraviețuiau, Decizia 23/2022
+  și Ordinul 33/2022, sînt abrogate de 41/2026 și 31/2026. Ordinul 27/2022 nu era acoperit; l-a salvat 39/2026 care
+  îi repune temeiul pe L-195. Decizia 581/2015 (supraveghere video) nu are temei clar, iar legis.md și site-ul CNPDCP
+  o tratează ca în vigoare: lăsat deschis. (2) Ordinul 31/2026 invocă art. 28 alin. (7) L-195, care privește altceva
+  decît obiectul lui (transferul, art. 46). (3) „15.05.2026" din plan era data depunerii Protocolului 108+, legea
+  de ratificare fiind din 20.03.2026, în vigoare intern 23.08.2026; textul Protocolului este PDF imagine, neingerat.
+  (4) Divergențele L-195/2024 față de GDPR sînt acum verificate cu ambele capete deschise: amenzi 1%/2% față de
+  2%/4% (plafoane în lei față de euro), vîrsta copilului 14 față de 16, art. 46 alin. (2) lit. c) contopește
+  lit. (c) și (d) GDPR. Art. 1–50 au aceeași numerotare și ordine în ambele texte. (5) Ordinul „48" nu există.
+  (6) EUR-Lex dă 202 fără corp; Cellar dă textul integral; Chrome poate trimite blob-uri prin POST către un
+  receptor local, cînd descărcarea prin `<a download>` merge doar o dată.
+- **Decis:** Eugen: „tot planul", pașii 1–4, nu numai 1–2 (recomandarea era 1–2). Descărcarea celor 6 HTML din
+  legis.md aprobată explicit de Eugen, cu numele, sursa și dimensiunile fișierelor. GDPR și Directiva ingerate ca
+  **text integral**, nu extras, ca să nu se repete asimetria de la 6 și 16 septembrie. Prefix `DCNPDCP` pentru
+  decizii. Neexecutat, la propria decizie: Ordinul 38/2026, OCR-ul Protocolului, L-160/2026 față de Directiva,
+  rîndul din matricea de transpunere. Stampila `taken` a registrului de spețe (`06-matter-log.md`) nu a fost
+  reîmprospătată în această sesiune (regula D9 cere registrul de la Eugen).
+- **Unde:** `raw/papers/moldova-legal/` (7 acte legis.md + `UE-2016-679`, `UE-2016-680`), secțiunea AK din
+  `raw/papers/moldova-legal/_manifest.md`, `entities/CNPDCP-ORDINE.md`, `entities/L-36-2026.md`,
+  `entities/UE-2016-679.md`, `entities/UE-2016-680.md`, `concepts/acquis-DataProtection.md`,
+  `_meta/imports/cnpdcp/`, `_meta/imports/eu/`, `_meta/plans/2026-09-21-perimetru-protectia-datelor.md`.
