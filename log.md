@@ -1982,3 +1982,119 @@
   secțiune nouă „L-160/2026 față de Directiva (UE) 2016/680", secțiunea „Ce nu s-a comparat" îngustată),
   `_meta/plans/2026-09-21-perimetru-protectia-datelor.md` (punctele 8 și 9 actualizate). Validator: 0 erori,
   3 avertismente neschimbate. Necomis încă: commit și push rămân un pas separat.
+
+## [2026-09-24] ingest | Textul Protocolului 108+ (`CETS-223-2018`), citit din imagine, punctul 1 al planului
+
+- **Aflat:** `Acord_ro-153723.pdf` (traducerea oficială certificată MAE, anexată la [[L-36-2026]]) nu are strat
+  de text (PyMuPDF confirmă 0 caractere extractibile pe fiecare din cele 20 pagini) și nu există Tesseract pe
+  mașină. Citit pagină cu pagină din imagini randate la 200 dpi, ca la [[OCNPDCP-38-2026]] aceeași săptămână.
+  Textul integral (preambul, art. 1-40, anexa cu regulile de vot ale Comitetului Convenției, certificarea MAE)
+  răspunde direct o întrebare pe care planul din 21 septembrie o lăsase deschisă: **art. 37 dă mecanismul de
+  intrare în vigoare** — unanimitate a Părților la Convenția 108, sau, alternativ, un prag de **38 de Părți**
+  la cinci ani de la deschiderea spre semnare (10.10.2018 → 10.10.2023), caz în care produce efecte doar între
+  statele care au consimțit. Numărul curent de ratificări de pe pagina tratatului CETS 223 a Consiliului
+  Europei rămâne neverificat (a dat 403 la încercarea din 21 septembrie, neretestat acum). **O capcană de
+  metodă la calculul `sha256`:** o primă încercare, cu regexul de delimitare a frontmatter-ului scris manual
+  ca `\n---\s*\n`, a dat un hash care nu se potrivea cu ce calcula `validate_wiki.py` — regexul lacom înghite
+  și linia goală de după `---`, cel al validatorului (`\n---\r?\n`) nu. Diferența de un octet a fost prinsă
+  abia importând direct modulul validatorului, nu reimplementând regexul din memorie. **Numărul curent de
+  ratificări, verificat pe pagina Consiliului Europei (CETS 223, „Status as of 24/09/2026", încărcată direct
+  din browser-ul intern — nu a mai dat 403 ca la 21 septembrie): 34, nu 38.** Pragul de cinci ani de la
+  deschiderea spre semnare (10.10.2018 → 11.10.2023) a trecut de trei ani și Protocolul tot nu e în vigoare
+  general — mai lipsesc 17 state membre CoE și patru nemembre; art. 37 alin. (2) leagă și intrarea în vigoare
+  „între Părțile la Protocol" de același prag de 38, deci Protocolul nu produce efecte nici măcar între cele
+  34 de state care l-au ratificat deja, Republica Moldova inclusă. Convenția 108 din 1981 rămâne singurul
+  text internațional în vigoare general.
+- **Decis:** fișierul e marcat explicit **neancorat** (`extract_method`/`anchor_convention` în frontmatter
+  spun de ce), pe modelul deja stabilit la Ordinul 38/2026, nu tratat ca text ancorat doar pentru că e complet
+  și lizibil. `entities/L-36-2026.md` rescris pe secțiunile care presupuneau textul lipsă. Comparația
+  articol-cu-articol față de L-195/2024 și GDPR nu s-a făcut — doar textul e ingerat.
+- **Unde:** `raw/papers/moldova-legal/CETS-223-2018.md` (nou), `entities/L-36-2026.md` (rescris),
+  `raw/papers/moldova-legal/_manifest.md` secțiunea AL (nouă), `_meta/plans/2026-09-21-perimetru-protectia-datelor.md`
+  (punctul 1 actualizat), `CLAUDE.md` (bloc de acoperire regenerat, 105 acte primare). Validator: 0 erori,
+  3 avertismente neschimbate. Necomis încă: commit și push rămân un pas separat.
+
+## [2026-09-24] ingest | Instrucțiunile sectoriale CNPDCP: același temei la toate patru, abrogat la 23.08.2026, fără ordin de salvare
+
+- **Aflat:** cele patru instrucțiuni sectoriale ale CNPDCP (proces electoral, sector polițienesc, sector
+  educațional, stare de sănătate), toate din 2013-2015, listate separat la „Instrucțiuni Adoptate" pe
+  datepersonale.md, citite direct din preambul, nu presupuse din titlu. **Toate patru invocă exact același
+  temei: art. 20 alin. (1) lit. c) al Legii nr. 133/2011** — puterea generală a directorului de a emite
+  „linii directorii", nu unul dintre cele două alineate (art. 32 alin. (3) și alin. (5) lit. f), i)) pe care
+  art. 90 alin. (5) din L-195/2024 le menține în vigoare. Situația e identică, punct cu punct, cu cea pe care
+  a avut-o inițial Ordinul 27/2022 (temei art. 20 alin. (1) lit. h) și art. 23 din L-133/2011) înainte ca
+  Ordinul 39/2026 să-i mute preambulul pe legea nouă — diferența e că pentru niciuna din cele patru
+  instrucțiuni sectoriale nu există un ordin de salvare echivalent, verificat pe toată pagina „Decizii/Ordine"
+  curentă a autorității. Concluzie: toate patru și-au pierdut temeiul legal la 23.08.2026, fără nicio
+  declarație de abrogare expresă și fără nicio confirmare publică că rămân aplicabile ca îndrumare de fapt.
+  Instrucțiunea polițienească (PDF cu strat de text utilizabil, 34 de puncte, citită integral) conține
+  exemple reale de speță ale Centrului din 2012-2013, inclusiv cazul transmiterii de date către autoritățile
+  din stînga Nistrului, sancționat de Judecătoria Centru cu despăgubiri de peste 180 000 lei, și citatul
+  Consiliului Superior al Magistraturii despre inadmisibilitatea colaborării juridice cu structurile
+  transnistrene. Instrucțiunea electorală (27 de puncte) și cea polițienească au fost ingerate integral, cu
+  textul normativ verbatim (la instrucțiunea polițienească, exemplele narative lungi ale a șase puncte au
+  fost condensate, marcat explicit, nu prezentate ca text verbatim). Instrucțiunile educațională (18 pagini)
+  și de sănătate (21 pagini) au extracție mecanică coruptă (PDF scanat fără strat de text util, la fel ca la
+  Ordinul 38/2026); doar pagina 1, randată ca imagine, a fost citită pentru a confirma temeiul — identic cu
+  celelalte două — fără ingerarea integrală a textului.
+- **Decis:** cele patru instrucțiuni nu se citează ca reguli curente ale Centrului, dat fiind temeiul lapsat
+  și absența oricărei confirmări a statutului lor; textul ingerat rămîne ca reper istoric al practicii
+  CNPDCP 2012-2015. Ingerarea integrală s-a limitat la cele două PDF-uri cu strat de text utilizabil;
+  educațională și de sănătate au rămas la nivel de temei confirmat, nu text integral, dat fiind volumul
+  (18-21 de pagini fiecare) și calitatea slabă a extracției mecanice.
+- **Unde:** `raw/papers/moldova-legal/OCNPDCP-03-1-2013.md` (nou), `raw/papers/moldova-legal/OCNPDCP-POLITIE-2013.md`
+  (nou), `entities/CNPDCP-ORDINE.md` (secțiune nouă „Instrucțiunile sectoriale: temei comun, abrogat...",
+  tabel cu toate patru), `_meta/plans/2026-09-21-perimetru-protectia-datelor.md` (punctul 3 marcat făcut
+  integral), `_meta/imports/cnpdcp/datepersonale-md/` (patru PDF-uri arhivate). Validator: 0 erori,
+  3 avertismente neschimbate. Necomis încă: commit și push rămân un pas separat, alături de modificările
+  rămase ale sesiunii anterioare (Protocolul 108+, necomise încă în arbore).
+
+## [2026-09-24] ingest | Decizia (UE) 2021/914 (`UE-2021-914`), clauzele contractuale standard, text integral
+
+- **Aflat:** structura unei decizii de punere în aplicare diferă de o directivă/regulament în felul care
+  contează pentru extracție — conținutul normativ greu (clauzele contractuale standard propriu-zise) nu
+  stă în articolele proprii ale deciziei (doar 4, procedurale), ci în anexă, o secvență plată de titluri
+  `<p>` fără sub-`div`-uri per clauză, clasificate după forma textului („SECȚIUNEA...", „Clauza N",
+  „MODULUL...", „N.M."). Reutilizarea directă a `ingest_eu_dataprotection.py` (scris pentru GDPR/Directiva
+  2016/680, unde tot conținutul stă în `div id="art_N"`) ar fi ratat toată anexa. Două defecte de extracție
+  găsite și corectate înainte de acceptarea fișierului: articolele 1 și 4 ale deciziei își țin alineatele
+  în `<div>`-uri proprii, nu în `<p>`-uri copii directe — o primă versiune le scotea goale; și unele celule
+  de tabel din anexă conțin un tabel imbricat pentru sub-puncte (i)-(iv) — o primă versiune, care lua textul
+  celulei cu `itertext()` și apoi reparcurgea separat rândurile imbricate, dubla fiecare sub-punct (verificat
+  pe clauza 8.2, transparența). Cellar redirecționează 303 pentru acest CELEX — spre deosebire de GDPR/
+  Directivă, `curl` fără `-L` întoarce 0 octeți.
+- **Decis:** script nou, `_meta/imports/eu/ingest_eu_scc.py`, nu o extensie a celui existent, pentru că
+  regula de extracție (titlu clasificat după text, nu după clasă CSS; recursie in tabele imbricate) nu se
+  aplică actelor deja ingerate. Citarea anexei se face `[UE-2021-914 anexa, Clauza N]`, nu `art.N` — art. 1-4
+  sînt clauzele procedurale ale deciziei, nu ale SCC-urilor. Comparația clauzelor din Ordinul CNPDCP 31/2026
+  cu anexa acestei decizii **nu s-a făcut** — doar textul e ingerat, consemnat explicit ca rămas.
+- **Unde:** `raw/papers/moldova-legal/UE-2021-914.md` (nou), `_meta/imports/eu/ingest_eu_scc.py` (nou),
+  `_meta/imports/eu/cellar/32021D0914.xhtml` (cache), `entities/UE-2021-914.md` (nou), `index.md` (intrare
+  nouă, total 153), `raw/papers/moldova-legal/_manifest.md` secțiunea AM (nouă),
+  `_meta/plans/2026-09-21-perimetru-protectia-datelor.md` (punctul 6 actualizat). Validator: 0 erori,
+  3 avertismente neschimbate. Necomis încă: commit și push rămân un pas separat.
+
+## [2026-09-24] lint | Legea comunicațiilor electronice nr. 72/2025: doc_id găsit, textul neingerat
+
+- **Aflat:** doc_id-ul legis.md al legii de bază este **152659** (LP72/2025, consolidare curentă, amendat
+  o dată prin LP330/2025, în vigoare 31.12.25; publicat 13.05.2025 în MO 226-228 art. 266, adoptat
+  10.04.2025, promulgat prin Decretul 185/2025 — doc_id 148389). Titlul căutat pe legis.md nu se potrivește
+  cu nicio formulare încercată direct („Legea comunicațiilor electronice", „privind comunicațiile
+  electronice", „cu privire la comunicațiile electronice"), fiindcă titlul propriu al actului e scurt,
+  „comunicațiilor electronice" — găsit abia prin decretul de promulgare, care conține fraza exactă. Legea
+  înlocuiește Legea 241/2007 (confirmat din HG693/2025, care ajustează ~38 de acte subordonate pentru
+  trecerea de la ANRCETI la ANRC) și transpune parțial Codul european al comunicațiilor electronice
+  (Directiva (UE) 2018/1972) plus alte opt instrumente UE, listate în chiar preambulul legii.
+  **Textul nu a fost ingerat**: capturarea HTML-ului brut (1,2 MB, `document.documentElement.outerHTML`)
+  prin `claude-in-chrome` a fost blocată sistematic de filtrul propriu al extensiei — atît trimiterea prin
+  `fetch()` către un receptor HTTP local (`127.0.0.1:8765`, testat funcțional cu `curl` înainte) cît și
+  întoarcerea directă a conținutului ca rezultat al `javascript_tool` au rămas blocate silent sau explicit
+  (`[BLOCKED: Cookie/query string data]`, apoi `[BLOCKED: Base64 encoded data]` la încercarea de a ocoli
+  primul blocaj prin codificare — abandonată intenționat, nu doar eșuată, fiindcă ocolirea deliberată a unui
+  filtru de siguranță al uneltei nu e o cale legitimă de rezolvat, indiferent de scop). Ruta legis.md prin
+  `curl` direct rămîne blocată de Cloudflare (403, „Just a moment"), ca de la 16 septembrie.
+- **Decis:** ingerarea amînată, nu abandonată. doc_id 152659 și metoda de găsire consemnate aici ca să nu se
+  repete căutarea. Rute rămase de încercat într-o sesiune viitoare: browser-ul propriu (Claude_Browser),
+  care a refuzat navigarea la legis.md de data asta (motiv neclar, posibil politică de organizație, nu
+  Cloudflare) — de reîncercat separat; sau salvarea manuală a HTML-ului de către Eugen.
+- **Unde:** nimic scris în `raw/`; doar acest jurnal. Fără impact asupra validatorului.

@@ -23,6 +23,8 @@ sources:
 - raw/papers/moldova-legal/OCNPDCP-40-2026.md
 - raw/papers/moldova-legal/OCNPDCP-48-2026.md
 - raw/papers/moldova-legal/OCNPDCP-38-2026.md
+- raw/papers/moldova-legal/OCNPDCP-03-1-2013.md
+- raw/papers/moldova-legal/OCNPDCP-POLITIE-2013.md
 - raw/papers/moldova-legal/DCNPDCP-41-2026.md
 - raw/papers/moldova-legal/DCNPDCP-581-2015.md
 - raw/papers/moldova-legal/L-195-2024.md
@@ -80,13 +82,35 @@ paginilor și transcris, **neancorat** în sensul SCHEMA.md, ca procedura de dec
 formularului trimite expres la art. 79 alin. (1) lit. g) din L-195/2024 (adresarea prealabilă obligatorie
 față de operator, înainte de plângere la Centru).
 
-## Restul registrului: verificat, nu ingerat
+## Instrucțiunile sectoriale: temei comun, abrogat la 23.08.2026, fără ordin de salvare
 
-Verificat 2026-09-24 pe cele trei submeniuri rămase ale datepersonale.md:
+Verificate 2026-09-24, preambulul fiecăreia citit direct (nu presupus din titlu). **Toate patru invocă
+exact același temei: art. 20 alin. (1) lit. c) al Legii nr. 133/2011** (puterea generală a directorului
+de a emite „linii directorii"), plus Capitolul II al Regulamentului Centrului (Legea 182-XVI/2008).
 
-- **Instrucțiuni Adoptate** (patru acte, toate PDF din 2020, fără cod legis.md găsit): procesul electoral,
-  sectorul polițienesc, sectorul educațional, starea de sănătate. Emise sub L-133/2011; temeiul lor sub
-  art. 90 alin. (5) din L-195-2024 nu a fost verificat articol cu articol.
+| Instrucțiune | Ordin | Data | Temei | Fișier |
+|---|---|---|---|---|
+| Procesul electoral | Ordin nr. 03/1 | 28.02.2013 | art. 20 alin. (1) lit. c) L-133/2011 | [[raw/papers/moldova-legal/OCNPDCP-03-1-2013]] |
+| Sectorul polițienesc | Ordin [nr. neindicat în PDF] | mai 2013 | art. 20 alin. (1) lit. c) L-133/2011 | [[raw/papers/moldova-legal/OCNPDCP-POLITIE-2013]] |
+| Sectorul educațional | Ordin nr. 03 | 21.01.2015 | art. 20 alin. (1) lit. c) L-133/2011 | necitit integral — temei confirmat din pagina 1 randată a PDF-ului, restul (18 pagini) neingerat |
+| Starea de sănătate | [necunoscut — pagina cu antetul ordinului lipsește din PDF-ul scanat] | — | art. 20 alin. (1) lit. c) L-133/2011 | necitit integral — temei confirmat din pagina 1 randată a PDF-ului (care începe direct cu textul instrucțiunii, fără antetul „ORDIN nr."), restul (21 pagini) neingerat |
+
+**Niciunul dintre cele două alineate pe care art. 90 alin. (5) din [[L-195-2024]] le menține în vigoare —
+art. 32 alin. (3) și alin. (5) lit. f), i) din L-133/2011, ambele despre transferul transfrontalier — nu
+au legătură cu art. 20 alin. (1) lit. c).** Situația e identică pentru toate patru cu cea pe care a avut-o
+inițial Ordinul 27/2022 (temei art. 20 alin. (1) lit. h) și art. 23 din L-133/2011), înainte ca Ordinul
+39/2026 să-i mute preambulul pe L-195/2024. **Pentru niciuna dintre cele patru instrucțiuni sectoriale nu
+există un ordin de salvare echivalent** — nici pe pagina curentă „Decizii/Ordine", nici altundeva pe
+datepersonale.md, verificat 2026-09-24. Concluzie: **toate patru și-au pierdut temeiul legal la
+23.08.2026**, fără nicio declarație de abrogare expresă și fără nicio confirmare că rămân aplicabile ca
+îndrumare de fapt. Nu se citează ca instrucțiuni curente ale Centrului; textul lor (unde ingerat) rămîne
+util ca reper istoric al practicii CNPDCP 2013-2015 (exemple reale, inclusiv cazul Transnistria cu
+despăgubiri de peste 180 000 lei, în instrucțiunea polițienească).
+
+Ingerate integral, cu textul normativ verbatim: instrucțiunile electorală și polițienească — ambele scurte
+și scanate cu strat de text utilizabil. Neingerate integral: educațională (18 pagini) și de sănătate
+(21 pagini) — doar pagina 1 verificată (randată ca imagine, pentru că extracția mecanică a PDF-urilor dă
+caractere corupte), suficient pentru a confirma temeiul, dar nu pentru text integral.
 - **Decizia din 11.12.2014** privind încetarea de către partidele politice a prelucrării datelor
   persoanelor care nu le sînt membre (fără număr propriu, semnată de fostul director Vitalie Paniș, temei
   L-133/2011 art. 19-20 și Regulamentul din Legea 182/2008). Nu ingerată; citită doar pentru a identifica
@@ -138,8 +162,9 @@ Consecințe, citite din preambulul fiecărui act, nu presupuse:
   Centru", dar nu este un articol de competență, iar art. 65 alin. (1) lit. d), invocat la 27/2022 și 40/2026,
   nu este citat aici. Nepotrivirea temei–obiect este un **finding, nu o concluzie despre validitate**;
   nu am căutat ce spune Centrul despre ea.
-- **Ordinul 31/2026 transpune Decizia (UE) 2021/914**, CELEX 32021D0914, care nu este în vault. Comparația
-  clauzelor cu decizia UE nu a fost făcută.
+- **Ordinul 31/2026 transpune Decizia (UE) 2021/914**, CELEX 32021D0914 — textul ei e ingerat din
+  2026-09-24, [[UE-2021-914]]. Comparația clauzelor din acest ordin cu anexa deciziei UE nu a fost încă
+  făcută.
 - **Trimiteri la MO ale L-195/2024 inconsecvente între acte:** Ordinul 27/2022 modificat și 39/2026 dau
   „nr. 367-369 art. 574", Ordinul 31/2026 dă „nr. 367-396", Ordinul 40/2026 dă „nr. 124-129, art. 248",
   Ordinul **38/2026** dă „Nr. 367-396, art. 574" (aceeași cifră greșită ca 31/2026, dar cu articolul corect).

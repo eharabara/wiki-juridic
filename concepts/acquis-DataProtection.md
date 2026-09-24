@@ -218,10 +218,15 @@ mecanisme ale cooperării dintre mai multe autorități de supraveghere.
   în text; nu e o trecere alineat cu alineat prin toate cele 46 de articole.
 - **Considerentele.** Sînt în vault (173 la GDPR, considerente proprii la Directivă) și nu au fost folosite
   pentru interpretarea niciunui articol.
-- **Decizia (UE) 2021/914** (clauzele standard de transfer) și deciziile Comisiei privind caracterul adecvat: nu
-  sînt în vault.
-- **Convenția 108+.** Textul Protocolului nu este ingerat (imagini fără strat de text); nicio dispoziție a ei nu
-  se poate cita ancorat. Vezi [[L-36-2026]].
+- **Decizia (UE) 2021/914** (clauzele standard de transfer, [[UE-2021-914]]) — textul e ingerat din 2026-09-24
+  (integral, art. 1-4 și anexa cu SCC-urile pe patru module), dar comparația clauzelor din
+  [[OCNPDCP-31-2026]] cu anexa ei **nu s-a făcut**. Deciziile Comisiei privind caracterul adecvat rămân
+  neingerate.
+- **Convenția 108+ ([[CETS-223-2018]]).** Textul Protocolului e ingerat din 2026-09-24, citit din imagine,
+  neancorat — citabil pe articol, dar nu verificabil octet cu octet. Verificat 24.09.2026 pe pagina
+  Consiliului Europei: **34 din cele 38 de ratificări necesare**, deci Protocolul nu e încă în vigoare
+  internațional, nici măcar între statele care l-au ratificat deja (Republica Moldova inclusă) — vezi
+  [[L-36-2026]]. Comparația articol-cu-articol față de GDPR nu s-a făcut.
 - **Rîndul din matricea de transpunere** al acestui perimetru nu a fost adăugat: matricea nu a fost verificată
   pe acest perimetru și nu se atinge pînă la decizia lui Eugen.
 

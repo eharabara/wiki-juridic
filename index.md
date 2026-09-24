@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-21 | Total pages: 151
+> Last updated: 2026-09-24 | Total pages: 153
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -14,6 +14,7 @@
 - [[bnm]] — Banca Națională a Moldovei: legal basis, mandate structure, regulatory register and verification limits.
 - [[bnm-official-document-corpus-2026]] — Preserved BNM legal and formal-report source corpus: originals, text extracts, hashes and provenance manifest.
 - [[CC-1107-2002]] — Codul civil al Republicii Moldova: din 2026-09-06 textul legis.md 150498 (consolidare 2026-04-01, LP251/2025), 2.657 de ancore de articol plus cărți, titluri, capitole și secțiuni; versiunea din PDF arhivată.
+- [[CETS-223-2018]] — Protocolul de amendare a Convenției 108 („Convenția 108+"): text complet citit din imagine, neancorat; verificat 24.09.2026 că nu e încă în vigoare internațional (34 din 38 ratificări necesare).
 - [[CNPDCP-ORDINE]] — Actele subordonate CNPDCP: ordinele 27/2022 (consolidat cu 39/2026), 31/2026, 40/2026, deciziile 41/2026 și 581/2015; art. 90 alin. (5) L-195 citit contra art. 32 L-133/2011; decizia 581/2015 fără temei clar; temei nepotrivit la Ordinul 31/2026.
 - [[COD-116-2018]] — Codul administrativ al Republicii Moldova: procedura administrativa si contestarea actelor CNPF/BNM; 260 de articole, consolidare 2025-08-31.
 - [[COD-1163-1997]] — Codul fiscal al Republicii Moldova: 511 ancore de articol, 11 titluri, consolidare 2026-07-01 (LP318/2025, art. 88^1 abrogat); inchide pasul fiscal al metodei P1.
@@ -114,6 +115,7 @@
 - [[UA-STATUT-2011]] — Statutul profesiei de avocat, act al Uniunii Avocaților: pe articole, 74 de ancore, consolidare 2022-05-27 (doc_id 134919, nu 86850); Codul deontologic și Regulamentul stagiului nu sunt pe legis.md.
 - [[UE-2016-679]] — GDPR, Regulamentul (UE) 2016/679: text integral RO din Cellar, 99 de articole și 173 de considerente; primul act UE integral din vault.
 - [[UE-2016-680]] — Directiva (UE) 2016/680 (protecția datelor în materie penală): text integral RO, 65 de articole și 107 considerente; comparația cu L-160/2026 nefăcută.
+- [[UE-2021-914]] — Decizia de punere în aplicare (UE) 2021/914 (clauzele contractuale standard pentru transferul de date): text integral RO, 4 articole și anexa cu SCC-urile pe patru module; comparația cu Ordinul CNPDCP 31/2026 nefăcută.
 
 ### Concepts
 

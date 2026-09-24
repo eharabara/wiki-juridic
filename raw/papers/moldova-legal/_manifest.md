@@ -2969,3 +2969,75 @@ prima încercare a dat `raw.sha256-mismatch` din cauza asta.
 Ordinul 38/2026 (formularul plîngerii: PDF pe datepersonale.md, negăsit pe legis.md); instrucțiunile sectoriale
 vechi ale CNPDCP; comparația L-160/2026 față de Directiva 2016/680; citirea alineat cu alineat a L-195 față de GDPR;
 rîndul din matricea de transpunere.
+
+## AL. Textul Protocolului 108+ (`CETS-223-2018`), citit din imagine (2026-09-24)
+
+Punctul 1 rămas al planului `_meta/plans/2026-09-21-perimetru-protectia-datelor.md`. `Acord_ro-153723.pdf`
+(20 pagini, fără strat de text — confirmat cu PyMuPDF, 0 caractere extractibile pe fiecare pagină) e traducerea
+oficială certificată MAE, anexată la [[L-36-2026]] pe legis.md. Fără OCR pe mașină (nici acum); randat la
+200 dpi cu PyMuPDF în 20 PNG-uri și citit pagină cu pagină de model, ca la [[OCNPDCP-38-2026]] aceeași
+sesiune. Rezultat: `raw/papers/moldova-legal/CETS-223-2018.md`, **neancorat** (fără extracție mecanică
+verificabilă octet cu octet — `extract_method` și `anchor_convention` marchează explicit asta în frontmatter),
+dar text complet: preambul, art. 1-40 și anexa (regulile de vot ale Comitetului Convenției), plus certificarea
+MAE de pe ultima pagină (semnătura Anatol Cebuc). Pagina 19 e albă în sursă.
+
+**Ce răspunde, verificat direct în text, nu din sursă externă:** art. 37 dă mecanismul de intrare în vigoare
+generală a Protocolului — unanimitate a Părților la Convenția 108 (alin. (1)), sau, alternativ, prag de
+**38 de Părți**, activ de la 11.10.2023, cinci ani de la deschiderea spre semnare (alin. (2)); alin. (3)
+permite aplicare provizorie prin declarație bilaterală.
+
+**Numărul curent de ratificări, verificat aceeași sesiune pe pagina Consiliului Europei** (nu a mai dat 403 —
+încărcată direct din browser-ul intern, spre deosebire de 21 septembrie): „Chart of signatures and
+ratifications", tratatul 223, „Status as of 24/09/2026" — **34 ratificări/aderări, nu 38**. Pragul de cinci
+ani a trecut de trei ani (11.10.2023) și Protocolul tot nu a intrat în vigoare general: 17 state membre CoE
+mai trebuie să ratifice (notate „13": Azerbaidjan, Belgia, Cehia, Danemarca, Georgia, Irlanda, Letonia,
+Luxemburg, Muntenegru, Olanda, Norvegia, Suedia, Regatul Unit) plus patru state nemembre (Mexic, Maroc,
+Senegal, Tunisia); semnătura Federației Ruse e suspendată din 16.03.2022. Republica Moldova e una din cele
+34 (semnătură 09.02.2023, ratificare 15.05.2026), dar **art. 37 alin. (2) leagă intrarea în vigoare „între
+Părțile la Protocol" tot de pragul de 38** — deci Protocolul nu produce încă efecte între niciuna dintre cele
+34 de state, Moldova inclusă. Convenția 108 din 1981 rămâne singurul text în vigoare internațional.
+
+**Sha256 — o capcană de metodă, consemnată pentru urmatoarea ingerare la fel:** prima încercare de calcul manual
+al `sha256` a folosit regexul de delimitare a frontmatter-ului cu `\s*` (`\n---\s*\n`), care e mai lacom decât
+regexul folosit de `validate_wiki.py` (`\n---\r?\n`) — cel dintâi înghite și linia goală de după `---`, celălalt
+nu. Diferența de un octet a produs un hash care nu se potrivea cu ce calcula validatorul, deși ambele proveneau
+din același fișier necorupt. Corect: se reproduce exact `split_frontmatter` din `_meta/schema/validate_wiki.py`
+(import direct al modulului, nu o reimplementare a regexului), nu se aproximează cu `str.split('---')`.
+
+Validator: 0 erori (după corectarea hash-ului), `build_coverage.py` rulat (105 acte primare acum, în loc de 104).
+Legătura cu [[acquis-DataProtection]] nu s-a făcut încă — doar textul e ingerat, nu comparat articol cu articol
+față de L-195/2024 sau GDPR.
+
+## AM. Decizia (UE) 2021/914 (`UE-2021-914`), clauzele contractuale standard, text integral (2026-09-24)
+
+Punctul 6 rămas al planului `_meta/plans/2026-09-21-perimetru-protectia-datelor.md`. CELEX 32021D0914, luat
+din Cellar cu `curl -L` (spre deosebire de `ingest_eu_dataprotection.py`, Cellar redirecționează explicit cu
+303 către documentul propriu-zis pentru acest act; fără `-L`/urmărirea redirectului, răspunsul e 0 octeți).
+Script nou, `_meta/imports/eu/ingest_eu_scc.py` — nu o reutilizare a `ingest_eu_dataprotection.py`, pentru că
+structura unei decizii de punere în aplicare diferă structural de o directivă/regulament: conținutul greu nu
+stă în articole (`div id="art_N"`), ci în **anexă** (`div id="anx_1"`), o secvență plată de
+`<p class="oj-ti-grseq-1">` (titluri: SECȚIUNEA, Clauza N, titlul clauzei, MODULUL, subsecțiuni N.M) urmate
+de `<p>`/`<table>`, fără sub-`div`-uri proprii per clauză. Extractorul clasifică titlurile după forma
+textului lor, nu după o clasă CSS separată (toate au aceeași clasă). Rezultat: 4 articole proprii ale
+deciziei, 26 de considerente, anexa (patru module: operator-operator, operator-persoană împuternicită,
+persoană împuternicită-persoană împuternicită, persoană împuternicită-operator), apendicele notat ca
+structură (Anexele I-III ale SCC sînt șabloane necompletate, nu transcrise cîmp cu cîmp).
+
+**Două capcane de extracție găsite și corectate înainte de acceptarea fișierului, nu după:**
+1. Articolele 1 și 4 ale deciziei (spre deosebire de art. 2 și 3) își țin alineatele în `<div>`-uri proprii
+   (`001.001`, `001.002` etc.), nu în `<p>`-uri copii directe ale `div id="art_N"` — o primă versiune a
+   extractorului, care parcurgea doar copiii direcți, a scos aceste două articole goale. Corectat cu o
+   funcție recursivă (`walk_body`) care coboară în orice `<div>` imbricat.
+2. Unele celule de tabel din anexă conțin un paragraf introductiv („(a) ...") urmat de un **tabel imbricat**
+   pentru sub-punctele (i)-(iv) — cazul clauzei 8.2 (transparența). O primă versiune, care lua textul celulei
+   cu `itertext()` (deci inclusiv tot ce era imbricat) și apoi parcurgea din nou toate rândurile imbricate
+   separat, producea fiecare sub-punct de două ori: o dată în rândul-părinte, o dată ca rând propriu.
+   Corectat cu `cell_direct_text` (text doar din `<p>`-urile directe ale celulei, oprindu-se la orice
+   `<table>` imbricat) plus recursie explicită în tabelele imbricate ca rânduri separate, verificat manual
+   pe clauza 8.2 înainte de a accepta fișierul — nu doar rulat și presupus corect.
+
+**Ce rămâne deschis:** comparația clauzelor din [[OCNPDCP-31-2026]] (contractul standard CNPDCP) cu anexa
+acestei decizii nu s-a făcut — doar textul e ingerat. Deciziile Comisiei privind caracterul adecvat enumerate
+în preambulul [[DCNPDCP-41-2026]] rămân neingerate. Validator: 0 erori. `build_coverage.py` rulat.
+`index.md` actualizat (153 pagini structurate, de la 151 — cele două pagini de entitate noi,
+`entities/CETS-223-2018.md` și `entities/UE-2021-914.md`).

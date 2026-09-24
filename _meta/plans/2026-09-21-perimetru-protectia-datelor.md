@@ -124,22 +124,35 @@ a fost 1 și 2 acum, 3 și 4 ca decizie separată.
 Executat în sesiune: pașii 1–5 (vezi secțiunea AK din `raw/papers/moldova-legal/_manifest.md`). Nu s-a făcut
 ce urmează, în ordinea în care fiecare pas îl ajută pe următorul. Nimic de aici nu se presupune făcut.
 
-1. **Textul Protocolului 108+.** `Acord_ro.pdf` (20 pagini) și `Acord_en.pdf` (37) sînt imagini, în
-   `_meta/imports/cnpdcp/legis-md/`. Fără OCR pe mașină. Opțiuni: OCR instalat (Tesseract cu `ron`), sau
-   citire din imaginile randate, ca la procedura de decontare DCU (neancorat, marcat). Pînă atunci
-   `entities/L-36-2026.md` rămîne singura pagină despre el. Tot aici: numărul de ratificări de astăzi de pe
-   pagina tratatului de la Consiliul Europei (a dat 403); intrarea în vigoare internațională e neconfirmată.
+1. **Făcut integral 2026-09-24.** Textul Protocolului 108+ (`Acord_ro-153723.pdf`, 20 pagini, imagine, fără
+   OCR pe mașină) citit din imaginile randate (PyMuPDF, 200 dpi), ca la procedura de decontare DCU. Rezultat:
+   `raw/papers/moldova-legal/CETS-223-2018.md`, neancorat dar text complet (preambul, art. 1-40, anexă).
+   **Numărul de ratificări verificat direct pe pagina Consiliului Europei** (CETS 223, „Status as of
+   24/09/2026"): **34, nu 38** — pragul de cinci ani (11.10.2023) a trecut de trei ani și Protocolul tot nu
+   e în vigoare general; nu produce efecte nici măcar între cele 34 de state care l-au ratificat deja
+   (Republica Moldova inclusă), pentru că art. 37 alin. (2) leagă și acea intrare în vigoare parțială de
+   pragul de 38. Convenția 108 din 1981 rămâne singurul text internațional în vigoare. Rămas: comparația
+   articol-cu-articol a Protocolului față de L-195/2024 și GDPR (nu s-a făcut, doar textul e ingerat).
+   Detalii: secțiunea AL din `raw/papers/moldova-legal/_manifest.md`, `entities/L-36-2026.md`.
 2. **Făcut 2026-09-24.** Ordinul CNPDCP nr. 38/2026 (formularul plîngerii) rămîne negăsit pe legis.md
    (căutare pe titlu confirmată fără rezultat), dar e ingerat din PDF (`raw/papers/moldova-legal/OCNPDCP-38-2026.md`),
    citit din imaginile paginilor, neancorat, ca `DCU-REGULI-2026`/`DCU-PROCEDURI`. Din 03.08.2026, nu
    septembrie cum bănuia acest plan; în vigoare 23.08.2026, abrogă Ordinul 44/2020.
-3. **Substanțial făcut 2026-09-24.** Inventarul complet al actelor CNPDCP a fost verificat direct contra
-   registrului autorității (datepersonale.md → Decizii/Ordine, Instrucțiuni Adoptate, Arhiva Decizii/Ordine,
-   Regulamente CNPDCP, Proiecte), nu doar contra listei „adoptate" folosite la prima ingerare. Rezultat complet
-   în `entities/CNPDCP-ORDINE.md`. Preambulul fiecărui act a fost citit. Rămas neingerat, cu motiv explicit
-   consemnat acolo: cele patru instrucțiuni sectoriale (electoral, poliție, educație, sănătate — temeiul lor
-   sub art. 90 alin. (5) L-195-2024 necitit articol cu articol), decizia de încetare a prelucrării de către
-   partidele politice din 11.12.2014 și `DCNPDCP 08/2023` (identificată, dar nu ingerată separat — efectul ei
+3. **Făcut integral 2026-09-24 (finalizat în a doua sesiune).** Inventarul complet al actelor CNPDCP a fost
+   verificat direct contra registrului autorității (datepersonale.md → Decizii/Ordine, Instrucțiuni Adoptate,
+   Arhiva Decizii/Ordine, Regulamente CNPDCP, Proiecte), nu doar contra listei „adoptate" folosite la prima
+   ingerare. Rezultat complet în `entities/CNPDCP-ORDINE.md`. Preambulul fiecărui act a fost citit.
+   **Cele patru instrucțiuni sectoriale (electoral, poliție, educație, sănătate) au fost citite și temeiul lor
+   verificat articol cu articol: toate patru invocă exact art. 20 alin. (1) lit. c) al L-133/2011, care nu e
+   unul dintre cele două alineate pe care art. 90 alin. (5) L-195-2024 le menține (art. 32 alin. (3) și
+   alin. (5) lit. f), i)), și niciuna nu are un ordin de salvare precum cel care l-a mutat pe 27/2022 pe
+   L-195/2024 — toate patru și-au pierdut temeiul la 23.08.2026.** Instrucțiunile electorală și polițienească
+   (scurte, PDF cu strat de text utilizabil) ingerate integral, text normativ verbatim:
+   `raw/papers/moldova-legal/OCNPDCP-03-1-2013.md`, `raw/papers/moldova-legal/OCNPDCP-POLITIE-2013.md`.
+   Educațională (18 pagini) și de sănătate (21 pagini) — doar temeiul confirmat din pagina 1 randată ca
+   imagine, neingerate integral (PDF-uri lungi, extracție mecanică coruptă). Rămas neingerat separat, cu
+   motiv explicit consemnat: decizia de încetare a prelucrării de către partidele politice din 11.12.2014
+   și `DCNPDCP 08/2023` (identificată, dar nu ingerată separat — efectul ei
    asupra 581/2015 e deja corect reflectat prin marcaj), regulamentele CNPDCP (un singur act, fără relevanță
    juridică) și arhiva de decizii (decizii de speță, nu izvor de drept). **Găsit pe aceeași pagină, în afara
    scopului acestui punct: Ordinul CNPDCP nr. 48/2026**, negăsit la data acestui plan pentru că fusese
@@ -148,9 +161,15 @@ ce urmează, în ordinea în care fiecare pas îl ajută pe următorul. Nimic de
    fără temei (art. 90)? De confirmat la Centru, nu în vault.
 5. **Ordinul 31/2026, temeiul.** Nepotrivirea art. 28 alin. (7) față de art. 46 e notată ca finding. De
    verificat dacă Centrul a rectificat preambulul sau are o poziție publică.
-6. **Actele UE citate și lipsă:** Decizia (UE) 2021/914 (clauzele standard de transfer, CELEX 32021D0914) și
-   deciziile Comisiei privind caracterul adecvat enumerate în preambulul Deciziei 41/2026. Comparația
-   clauzelor din 31/2026 cu 2021/914 nu s-a făcut.
+6. **Decizia (UE) 2021/914, textul ingerat 2026-09-24; comparația cu Ordinul 31/2026 rămâne de făcut.**
+   CELEX 32021D0914, text integral RO din Cellar (redirect 303 urmat): 4 articole proprii, 26 de
+   considerente, și anexa — clauzele contractuale standard (SCC) propriu-zise, patru module. Fișier:
+   `raw/papers/moldova-legal/UE-2021-914.md`, script nou `_meta/imports/eu/ingest_eu_scc.py` (structura unei
+   decizii diferă de o directivă/regulament: conținutul greu stă în anexă, nu în articole — vezi
+   `entities/UE-2021-914.md` pentru capcana de extracție, un tabel imbricat care dubla sub-punctele (i)-(iv)
+   la prima încercare, corectată înainte de acceptare). **Comparația clauzelor din [[OCNPDCP-31-2026]] cu
+   anexa acestei decizii nu s-a făcut** — doar textul e ingerat. Deciziile Comisiei privind caracterul
+   adecvat enumerate în preambulul Deciziei 41/2026 rămân neingerate.
 7. **Legea comunicațiilor electronice nr. 72/2025**, al doilea temei al Ordinului 40/2026 (art. 115
    alin. (10)). Nu e în vault; candidat pentru coada de ingerare.
 8. **Făcut 2026-09-24.** L-160/2026 față de Directiva (UE) 2016/680: numerotarea NU coincide (46 articole
