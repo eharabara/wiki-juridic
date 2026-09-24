@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-24 | Total pages: 153
+> Last updated: 2026-09-24 | Total pages: 154
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -98,6 +98,7 @@
 - [[L-325-2013]] — Legea privind evaluarea integrității instituționale: regimul testării integrității profesionale a agenților publici (art. 7 alin. (2) lit. a), obligația a cărei încălcare devine motiv de excludere de la funcții publice în opt acte din corpus, inclusiv CNPF art. 12); art. 17 alin. (2)-(4) lovite de HCC37/2021; 28 de ancore, consolidare 2024-03-29.
 - [[L-36-2026]] — Legea nr. 36/2026 de ratificare a Protocolului de amendare a Convenției 108 (108+): în vigoare intern 23.08.2026; textul Protocolului este imagine fără text, neingerat; intrarea lui în vigoare internațională neconfirmată.
 - [[L-325-2025]] — Legea achizițiilor publice din 2025: 91 de ancore, în vigoare de la 01.01.2027, dată viitoare, actul întreg; abrogă Legea 131/2015 la acea dată; pragurile din art. 1; art. 91 lasă procedurile în curs sub legea de la inițiere.
+- [[L-72-2025]] — Legea comunicațiilor electronice: 127 de articole, consolidare 2025-12-31, în vigoare din 01.01.2026 (fișa spune altfel), cu capitolul XVII (drepturile utilizatorilor, arts. 96-113) amînat la 13.05.2027 sau la decizia Consiliului de Asociere; art. 126 expirat la 01.04.2026; art. 115 alin. (10) e al doilea temei al Ordinului CNPDCP 40/2026.
 - [[L-384-2023]] — Legea privind protecția secretelor comerciale: transpune Directiva (UE) 2016/943; 16 articole, fără exponenți, consolidare 2025-12-31; art. 16 alin. (3) este actul care a scos regimul din Codul civil — abrogă secțiunea a 3-a (arts. 2047–2054) de la 22.02.2024 și lasă în art. 1026 alin. (2) singura trimitere rămasă.
 - [[L-199-2010]] — Legea privind statutul persoanelor cu funcții de demnitate publică: 29 de articole, consolidare 2026-09-13; art. 21-23 (suspendare, încetare, răspundere) sînt citate din nouă acte; art. 3 alin. (2) dă întîietate legii speciale
 - [[L-436-2006]] — Legea administrației publice locale: 98 de ancore, consolidare 2026-06-26; nivelurile întâi, al doilea și special (Găgăuzia), principiile din art. 3 reiau art. 109 din Constituție.

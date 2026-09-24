@@ -21,6 +21,7 @@ sources:
 - raw/papers/moldova-legal/UE-2016-680.md
 - raw/papers/moldova-legal/L-36-2026.md
 - raw/papers/moldova-legal/OCNPDCP-31-2026.md
+- raw/papers/moldova-legal/UE-2021-914.md
 - raw/papers/moldova-legal/L-133-2011.md
 - raw/papers/moldova-legal/COD-154-2003.md
 confidence: medium
@@ -210,6 +211,114 @@ mecanisme ale cooperării dintre mai multe autorități de supraveghere.
    confirmă ce spunea deja [[OCNPDCP-48-2026]] pct. 1: regulamentul unic de investigație al Centrului acoperă
    ambele legi. L-160 nu are propriul regim procedural de sancționare.
 
+## Ordinul CNPDCP 31/2026 față de anexa Deciziei (UE) 2021/914 — comparație făcută 2026-09-24
+
+Ordinul aprobă un contract standard pentru transferul către state fără nivel adecvat și declară în preambul
+că „transpune" Decizia (UE) 2021/914. **Textul ordinului urmează anexa deciziei clauză cu clauză și modul cu
+modul (18 clauze, patru module).** Metoda: alinierea mecanică a celor două texte ingerate, pe clauză și pe
+modul ([[OCNPDCP-31-2026]] față de anexa din [[UE-2021-914]]), după normalizarea substituțiilor de rutină;
+apoi **fiecare divergență raportată mai jos a fost deschisă la ambele capete în textul brut**, nu luată din
+rezultatul alinierii. Alinierea a produs 119 perechi de paragrafe cu diferențe; cele mai multe sînt
+substituții de rutină.
+
+**Substituții de rutină, fără efect de conținut.** „țară terță" devine „stat care nu asigură un nivel adecvat
+de protecție"; Regulamentul (UE) 2016/679 devine Legea nr. 195/2024; „apendice" devine „anexe"; literele
+(a), (b)... devin puncte și subpuncte (sbp.), iar trimiterile încrucișate se recalculează. **Trimiterile
+clauzei 3 (terți beneficiari) sînt coerente cu renumerotarea**: cele exceptate în anexa deciziei (de ex.
+clauza 12 lit. (a), (d), (f) la modulele 2–3) corespund exact punctelor 1, 4, 6 din ordin; verificat pentru
+clauzele 9, 12, 15.1, 16 și 18; pentru clauza 8 numerotarea sbp. a fost verificată aritmetic față de literele
+din decizie, nu recitită poziție cu poziție în ordin. Notele explicative din apendice (rolul părților, un
+singur înscris pentru mai multe transferuri) au fost mutate în corpul clauzei 1 pct. 4–5: relocare, nu
+adăugare.
+
+**Divergențe de conținut, verificate în text.** Fiecare e un finding despre textul aprobat, nu o concluzie
+despre validitatea lui.
+
+1. **Adăugări fără corespondent în anexa deciziei.** Clauza 2 pct. 2: contractul se încheie „în formă scrisă",
+   pe hîrtie sau electronic „semnat cu semnătură electronică avansată calificată". Clauza 2 pct. 4: limba
+   română și/sau engleză. Clauza 5 pct. 2: tratatele privind drepturile fundamentale ale omului la care sînt
+   părți Republica Moldova și statul de destinație **prevalează** asupra clauzelor. Clauza 15.1 pct. 1 lit. c):
+   un trigger nou de notificare a importatorului (accesul accidental sau neautorizat care a dus la încălcarea
+   securității datelor) — decizia are doar cererea obligatorie și accesul direct al autorităților publice.
+   [OCNPDCP-31-2026 clauza 2 pct. 2, 4; clauza 5 pct. 2; clauza 15.1 pct. 1 lit. c)] față de
+   [UE-2021-914 anexa, Clauza 2 lit. (a)–(b); Clauza 5; Clauza 15.1 lit. (a)].
+2. **Clauza 12: pas amiabil intercalat.** La modulele 1 și 4 pct. 4 (regresul între părți) și la modulele 2–3
+   pct. 5, ordinul adaugă „pe cale amiabilă, iar în caz de divergențe" înaintea acțiunii în justiție. La pct. 5
+   (modulele 2–3) modificarea atinge **dreptul persoanei vizate** de a acționa oricare dintre părțile
+   răspunzătoare în solidar, iar pct. 5 **nu** e exceptat de la calitatea de terț beneficiar (clauza 3 pct. 1
+   lit. d) enumeră 1, 4 și 6); textul e ambiguu dacă pasul amiabil e o condiție prealabilă. Regresul dintre
+   părți la pct. 4 (modulele 2–3) și pct. 6 nu primește același pas, deci inconsecvența e și internă. La
+   modulele 1 și 4 pct. 5, ordinul omite și „sau al unui subcontractant" din interdicția de a invoca fapta
+   persoanei împuternicite. [OCNPDCP-31-2026 clauza 12] față de [UE-2021-914 anexa, Clauza 12].
+3. **Clauza 13 (supraveghere): scenariul principal lipsește.** Anexa deciziei distinge trei cazuri, dintre
+   care primul e cel obișnuit: exportatorul stabilit în UE, autoritatea competentă fiind cea responsabilă de
+   respectarea regulamentului de către el. Ordinul păstrează doar formularea celui de-al treilea: autoritatea
+   statului în care se află persoana vizată „în legătură cu oferirea de bunuri sau servicii" sau cu
+   monitorizarea comportamentului, „astfel cum se prevede în Anexa nr. 1, Secțiunea C". Cazul unui exportator
+   stabilit în Republica Moldova, față de CNPDCP, nu e enunțat ca atare; el ar trebui să rezulte din
+   completarea Anexei 1 sec. C, **care nu e în textul deținut** (vezi „Ce nu s-a putut verifica").
+   [OCNPDCP-31-2026 clauza 13 pct. 1] față de [UE-2021-914 anexa, Clauza 13 lit. (a)].
+4. **Modulul 3 pierde elementele care îl disting, în trei locuri.** Clauza 14 pct. 6: decizia are, între
+   paranteze, „dacă este cazul, în consultare cu operatorul" și instrucțiunile „operatorului sau a"
+   autorității de supraveghere ca temei al suspendării; ordinul le omite, deci la modulul 3 (persoană
+   împuternicită către persoană împuternicită) instrucțiunea operatorului nu mai e temei de suspendare.
+   Clauza 16 pct. 3: omite „pentru modulul trei: și operatorul" din informarea privind nerespectarea deciziei.
+   Clauza 16 pct. 5: omite cea de-a doua ipoteză a revocării (regulamentul integrat în cadrul juridic al țării
+   de destinație) și înlocuiește Comisia cu CNPDCP. [OCNPDCP-31-2026 clauza 14 pct. 6; clauza 16 pct. 3, 5]
+   față de [UE-2021-914 anexa, Clauza 14 lit. (f); Clauza 16 lit. (c), (e)]. Primele două omisiuni privesc
+   numai modulul 3; a treia nu e specifică unui modul.
+5. **Clauza 8, modulul 3, securitatea prelucrării: definiția dispare, formularea vine din legea veche.** La
+   modulele 1, 2 și 4 ordinul reia definiția „încălcarea securității datelor cu caracter personal". La modulul
+   3, pct. 8.6, sbp. 1, o înlocuiește cu „împotriva distrugerii, modificării, blocării, copierii, răspândirii,
+   precum și împotriva altor acțiuni ilicite" — formula din art. 30 alin. (1) al [[L-133-2011]] (abrogată),
+   nu din anexa deciziei — în timp ce pct. 3 al aceleiași clauze folosește în continuare „încălcarea securității
+   datelor". Termenul rămîne astfel nedefinit exact în modulul în care o persoană împuternicită transferă
+   către altă persoană împuternicită. [OCNPDCP-31-2026 clauza 8, modulul 3, pct. 8.6] față de
+   [UE-2021-914 anexa, Clauza 8.6 lit. (a), modulul trei].
+6. **Omisiuni mici și note de subsol.** Clauza 8.2 lit. (c), modulul 4: ordinul omite „inclusiv în contextul
+   subcontractării sau" din interdicția ca importatorul să împiedice exportatorul să își îndeplinească
+   obligațiile. Notele de subsol ale deciziei au fost fie integrate în text (nota (2), anonimizarea
+   ireversibilă la 8.4 modulul 1, păstrată dar fără trimiterea la considerentul 26), fie abandonate: **nota
+   (10)** (termenul de o lună la clauza 10 poate fi prelungit cu cel mult două luni), **nota (11)** (arbitrajul
+   ca mecanism independent de soluționare numai dacă importatorul e într-un stat parte la Convenția de la New
+   York — opțiunea de la clauza 11 pct. 1 e păstrată, dar fără această limită), **nota (12)** (elementele
+   evaluării generale la clauza 14) și notele privind SEE. Un marcaj „(7)" a rămas în textul modulului 4,
+   după „natura datelor cu caracter personal", fără nota corespunzătoare. Într-un text care se declară
+   invariabil (clauza 2 pct. 1), o notă abandonată schimbă în tăcere regula.
+7. **Clauzele 17 și 18: alegerea legii și a forului nu mai există.** Decizia lasă părților să aleagă legea
+   unui stat membru (opțiunea 1; opțiunea 2 pentru modulele 2–3, legea statului exportatorului) și instanțele
+   unui stat membru. Ordinul fixează **legea Republicii Moldova** și **instanțele din Republica Moldova**
+   pentru toate patru modulele, fără opțiune (clauza 17; clauza 18 pct. 1–3); acțiunea persoanei vizate se
+   introduce în Moldova (în decizie, în statul reședinței obișnuite). Alegere de politică, nu defect;
+   consecința practică e că importatorul străin acceptă legea și instanțele moldovenești fără negociere.
+   **Posibilă incoerență, de verificat pe sursa oficială:** pct. 2 din clauza 18 (acțiunea persoanei vizate)
+   figurează sub toate cele patru module, deși în decizie modulul 4 nu are o astfel de acțiune, iar clauza 3
+   pct. 1 lit. h) din ordin exceptează chiar ea „modulul 4" de la executarea de către terți; antetele
+   modulelor sînt grupate la începutul clauzei, deci gruparea poate fi un efect al extracției de pe
+   legis.md, nu al textului aprobat.
+8. **Pct. 2–3 din ordin, în afara contractului: suspendarea fluxurilor de către CNPDCP.** Pct. 2 permite
+   CNPDCP să dispună suspendarea în două cazuri (legea națională a importatorului îl obligă să nu respecte
+   contractul standard, fără vreunul dintre motivele enumerate; sau o autoritate competentă a constatat
+   încălcarea contractului iar transferul riscă să prejudicieze persoana vizată), iar pct. 3 reglementează
+   reluarea, cu informarea prealabilă a CNPDCP. **Decizia 2021/914 nu are corespondent**: art. 2 al ei
+   reglementează numai informarea Comisiei de către statul membru care își exercită competențele corective.
+   Construcția seamănă cu cea a deciziei UE anterioare 2010/87, abrogată prin art. 4 alin. (3) al deciziei din
+   2021 — dar acea decizie nu e în vault, deci asemănarea e **din memorie, neverificată**.
+   [OCNPDCP-31-2026 pct. 2–3] față de [UE-2021-914 art. 2].
+
+**Ce nu spun cele opt puncte.** Nu spun că ordinul e nevalid: un contract standard național poate diverge de
+cel UE, iar Decizia 2021/914 nu leagă Republica Moldova. Nu spun nici că un exportator moldovan care folosește
+textul ordinului **verbatim** riscă ceva față de CNPDCP. Spun ce e diferit, ca un răspuns să nu presupună că
+textul „e SCC-urile UE": nu e, și o contraparte europeană care cere „SCC-urile" nu se satisface cu el. Nepotrivirea
+temei–obiect a preambulului (art. 28 alin. (7) în loc de art. 46) e un finding separat, în [[CNPDCP-ORDINE]].
+
+**Ce nu s-a putut verifica.** (a) **Anexele 1–3 ale ordinului nu sînt în textul deținut**: legis.md dă doar
+titlurile „anexa nr.1", „anexa nr.2", „anexa nr.3" la sfîrșitul fișierului, fără conținut; anexele I–III ale
+deciziei UE sînt și ele șabloane netranscrise în fișierul deținut (notă explicită în [[UE-2021-914]]). Deci nu se
+poate spune ce prevede Anexa 1 sec. C (autoritatea competentă), nici dacă anexele ordinului urmează structura
+I.A/I.B/I.C/II/III. (b) Poziția sbp. din clauza 8 nu a fost recitită element cu element. (c) Nu s-a căutat poziția
+publică a Centrului.
+
 ## Ce nu s-a comparat, ca să nu se creadă că s-a făcut
 
 - **Restul alineatelor L-195/GDPR.** Rămîne structural (pe titluri), nu alineat cu alineat: capitolul III
@@ -218,10 +327,9 @@ mecanisme ale cooperării dintre mai multe autorități de supraveghere.
   în text; nu e o trecere alineat cu alineat prin toate cele 46 de articole.
 - **Considerentele.** Sînt în vault (173 la GDPR, considerente proprii la Directivă) și nu au fost folosite
   pentru interpretarea niciunui articol.
-- **Decizia (UE) 2021/914** (clauzele standard de transfer, [[UE-2021-914]]) — textul e ingerat din 2026-09-24
-  (integral, art. 1-4 și anexa cu SCC-urile pe patru module), dar comparația clauzelor din
-  [[OCNPDCP-31-2026]] cu anexa ei **nu s-a făcut**. Deciziile Comisiei privind caracterul adecvat rămân
-  neingerate.
+- **Decizia (UE) 2021/914** (clauzele standard de transfer, [[UE-2021-914]]) — comparația clauzelor din
+  [[OCNPDCP-31-2026]] cu anexa ei e făcută mai sus (2026-09-24), fără anexele 1–3, care lipsesc din textul
+  ordinului. Deciziile Comisiei privind caracterul adecvat rămân neingerate.
 - **Convenția 108+ ([[CETS-223-2018]]).** Textul Protocolului e ingerat din 2026-09-24, citit din imagine,
   neancorat — citabil pe articol, dar nu verificabil octet cu octet. Verificat 24.09.2026 pe pagina
   Consiliului Europei: **34 din cele 38 de ratificări necesare**, deci Protocolul nu e încă în vigoare

@@ -163,16 +163,21 @@ Consecințe, citite din preambulul fiecărui act, nu presupuse:
   nu este citat aici. Nepotrivirea temei–obiect este un **finding, nu o concluzie despre validitate**;
   nu am căutat ce spune Centrul despre ea.
 - **Ordinul 31/2026 transpune Decizia (UE) 2021/914**, CELEX 32021D0914 — textul ei e ingerat din
-  2026-09-24, [[UE-2021-914]]. Comparația clauzelor din acest ordin cu anexa deciziei UE nu a fost încă
-  făcută.
+  2026-09-24, [[UE-2021-914]]. **Comparația e făcută (2026-09-24)**, în [[acquis-DataProtection]]: ordinul
+  urmează anexa clauză cu clauză, dar are opt divergențe de conținut, între care pasul amiabil din clauza 12,
+  scenariul principal absent din clauza 13, elementele modulului 3 omise, legea și forul fixate pe Moldova
+  și suspendarea fluxurilor de către CNPDCP (pct. 2), care nu are corespondent în decizie. Anexele 1–3 ale
+  ordinului lipsesc din textul deținut.
 - **Trimiteri la MO ale L-195/2024 inconsecvente între acte:** Ordinul 27/2022 modificat și 39/2026 dau
   „nr. 367-369 art. 574", Ordinul 31/2026 dă „nr. 367-396", Ordinul 40/2026 dă „nr. 124-129, art. 248",
   Ordinul **38/2026** dă „Nr. 367-396, art. 574" (aceeași cifră greșită ca 31/2026, dar cu articolul corect).
   Entitatea [[L-195-2024]] are 367–369 art. 574. Sînt greșeli de redactare în preambulurile ordinelor.
 - **Ordinul 40/2026** cere transmiterea în format electronic cu semnătură electronică calificată la o adresă
   de e-mail a Centrului (pct. 2) și **utilizarea exclusivă a formularului** (pct. 3). Se întemeiază și pe
-  art. 115 alin. (10) din Legea comunicațiilor electronice nr. 72/2025, **neținută în vault**: notificarea
-  către Centru, cînd operatorul este furnizor de comunicații electronice, are un al doilea temei nevăzut.
+  art. 115 alin. (10) din Legea comunicațiilor electronice nr. 72/2025, **ingerată 2026-09-24**
+  ([[L-72-2025]]): alineatul există și spune exact ce invocă ordinul (Centrul stabilește circumstanțele,
+  formatul și modalitățile notificării pentru furnizorii de comunicații electronice). Temeiul e verificat;
+  art. 115 e în vigoare din 01.01.2026.
 - **Decizia 41/2026** enumeră 16 entități; lista nu conține Statele Unite. Se bazează pe deciziile Comisiei
   Europene enumerate în preambul și pe Convenția 108 ([[L-36-2026]] aduce protocolul ei de amendare).
   Nu am verificat dacă vreuna dintre deciziile Comisiei a fost între timp retrasă sau modificată.

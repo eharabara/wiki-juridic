@@ -161,7 +161,9 @@ ce urmează, în ordinea în care fiecare pas îl ajută pe următorul. Nimic de
    fără temei (art. 90)? De confirmat la Centru, nu în vault.
 5. **Ordinul 31/2026, temeiul.** Nepotrivirea art. 28 alin. (7) față de art. 46 e notată ca finding. De
    verificat dacă Centrul a rectificat preambulul sau are o poziție publică.
-6. **Decizia (UE) 2021/914, textul ingerat 2026-09-24; comparația cu Ordinul 31/2026 rămâne de făcut.**
+6. **Decizia (UE) 2021/914, textul ingerat 2026-09-24; comparația cu Ordinul 31/2026 făcută în aceeași zi
+   (opt divergențe verificate, în `concepts/acquis-DataProtection.md`; rămas: anexele 1–3 ale ordinului,
+   absente din textul legis.md).**
    CELEX 32021D0914, text integral RO din Cellar (redirect 303 urmat): 4 articole proprii, 26 de
    considerente, și anexa — clauzele contractuale standard (SCC) propriu-zise, patru module. Fișier:
    `raw/papers/moldova-legal/UE-2021-914.md`, script nou `_meta/imports/eu/ingest_eu_scc.py` (structura unei
@@ -170,8 +172,10 @@ ce urmează, în ordinea în care fiecare pas îl ajută pe următorul. Nimic de
    la prima încercare, corectată înainte de acceptare). **Comparația clauzelor din [[OCNPDCP-31-2026]] cu
    anexa acestei decizii nu s-a făcut** — doar textul e ingerat. Deciziile Comisiei privind caracterul
    adecvat enumerate în preambulul Deciziei 41/2026 rămân neingerate.
-7. **Legea comunicațiilor electronice nr. 72/2025**, al doilea temei al Ordinului 40/2026 (art. 115
-   alin. (10)). Nu e în vault; candidat pentru coada de ingerare.
+7. **Făcut 2026-09-24.** Legea comunicațiilor electronice nr. 72/2025, al doilea temei al Ordinului 40/2026
+   (art. 115 alin. (10), verificat în text), ingerată ca `L-72-2025` prin Chrome-ul lui Eugen (`fetch` same-origin,
+   descărcare blob a unui singur fișier). Vezi `entities/L-72-2025.md`; capcane: intrarea în vigoare amînată în
+   proză (art. 127), art. 126 expirat.
 8. **Făcut 2026-09-24.** L-160/2026 față de Directiva (UE) 2016/680: numerotarea NU coincide (46 articole
    față de 65, spre deosebire de L-195/GDPR care se potrivesc 1-la-1 pînă la art. 50) — comparație structurală
    completă plus patru constatări verificate în text: Directiva art. 18 (drepturile persoanei vizate în

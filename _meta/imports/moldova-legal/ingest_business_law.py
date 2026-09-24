@@ -762,6 +762,14 @@ DOCS = {
     # nici antetul corpului nu poarta abrogare. 29 de articole.
     'L-199-2010': {'doc_id': '155887',
                    'title': 'Legea nr. 199/2010 cu privire la statutul persoanelor cu functii de demnitate publica'},
+    # Legea comunicatiilor electronice, 2026-09-24. doc_id 152659 @ 2025-12-31 (LP330/2025), gasit
+    # prin decretul de promulgare; nu e abrogata (Data abrogarii: -). CAPCANA doc_id vs data,
+    # verificata in aceeasi zi: versiunea 151457 poarta data 01-01-2026, mai noua ca 152659, dar are
+    # id mai mic, iar diferenta de text este exact zero linii proprii + 3 linii de marcaj
+    # (MODIFICAT si cele doua [Art.27 al.(14)], [Art.31 al.(6)] prin LP330) prezente doar in 152659.
+    # Se ia 152659, care pastreaza marcajele amendamentului. Inlocuieste Legea 241/2007.
+    'L-72-2025': {'doc_id': '152659',
+                  'title': 'Legea nr. 72/2025 comunicatiilor electronice'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

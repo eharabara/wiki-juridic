@@ -2098,3 +2098,52 @@
   care a refuzat navigarea la legis.md de data asta (motiv neclar, posibil politică de organizație, nu
   Cloudflare) — de reîncercat separat; sau salvarea manuală a HTML-ului de către Eugen.
 - **Unde:** nimic scris în `raw/`; doar acest jurnal. Fără impact asupra validatorului.
+
+## [2026-09-24] update | Ordinul CNPDCP 31/2026 față de anexa Deciziei (UE) 2021/914: contractul standard urmează SCC-urile UE, cu opt divergențe verificate
+
+- **Aflat:** ordinul urmează anexa deciziei clauză cu clauză și modul cu modul, iar trimiterile clauzei 3 la
+  renumerotare sînt coerente; dar are opt divergențe de conținut, verificate la ambele capete în textul brut.
+  Cele care contează în practică: (1) clauza 12 pct. 5 la modulele 2-3 intercalează un pas amiabil în
+  dreptul persoanei vizate, iar pct. 5 nu e exceptat de la calitatea de terț beneficiar; (2) clauza 13 păstrează
+  doar scenariul al treilea al deciziei, iar cel obișnuit (exportator stabilit în jurisdicția proprie, autoritatea
+  proprie) nu e enunțat, ci ar rezulta din Anexa 1 sec. C, care lipsește; (3) modulul 3 pierde trei elemente
+  care îl disting (clauza 14 pct. 6, clauza 16 pct. 3 și 5); (4) la modulul 3 definiția „încălcării securității"
+  e înlocuită cu formula art. 30 din L-133/2011 abrogată, în timp ce termenul e folosit mai departe; (5) legea
+  aplicabilă și forul sînt fixate pe Moldova, fără opțiunile deciziei; (6) notele (10), (11), (12) ale deciziei
+  sînt abandonate, iar un marcaj „(7)" a rămas orfan; (7) pct. 2 al ordinului dă CNPDCP o competență de
+  suspendare a fluxurilor pe care art. 2 al deciziei nu o cunoaște. Anexele 1-3 ale ordinului sînt doar
+  titluri în textul legis.md. Capcană de metodă: alinierea mecanică (difflib pe paragrafe, cu context de
+  modul) a găsit 119 diferențe, dar doar o zecime erau de conținut, iar două omisiuni mici (subcontractantul la
+  12 pct. 5, „inclusiv în contextul subcontractării" la 8.2 modulul 4) au trecut sub pragul de similaritate al
+  primei variante a scriptului și au ieșit abia la diferența la nivel de cuvinte.
+- **Decis:** raportat ca findings despre textul aprobat, nu ca judecată despre valabilitate; asemănarea
+  suspendării din pct. 2 cu art. 4 din Decizia 2010/87 marcată „din memorie, neverificată", fiindcă decizia
+  aceea nu e în vault. Nu s-a comis: rămîne pasul de închidere a sesiunii, alături de modificările altei sesiuni
+  din arbore (`concepts/functionarea-pietelor-de-produse-si-dereglementare.md`, `.obsidian/graph.json`).
+- **Unde:** `concepts/acquis-DataProtection.md` (secțiune nouă), `entities/CNPDCP-ORDINE.md`,
+  `_meta/plans/2026-09-21-perimetru-protectia-datelor.md` (punctul 6). Scriptul de aliniere a rămas în
+  scratchpad-ul sesiunii, nu în `_meta/`.
+
+## [2026-09-24] ingest | Legea comunicațiilor electronice nr. 72/2025 (`L-72-2025`), prin Chrome-ul lui Eugen; art. 115 alin. (10) verificat ca temei al Ordinului 40/2026
+
+- **Aflat:** temeiul Ordinului 40/2026 din art. 115 alin. (10) există și spune exact ce invocă ordinul, deci
+  nu era „nevăzut", doar neținut. Mai important, legea are o intrare în vigoare pe care nici fișa, nici
+  registrul nu o arată: art. 127 alin. (1) dă 1 ianuarie 2026, cu 14 articole amînate la 13.05.2027 și 4 la o
+  decizie a Consiliului de Asociere (deci tot capitolul XVII, drepturile utilizatorilor finali, nu leagă
+  azi), iar art. 126 (derogarea CSAM) a expirat la 01.04.2026 prin alin. (11). Fișa dă 13.05.2025 drept data
+  intrării în vigoare. Versiunea cu data cea mai nouă (151457, 01-01-2026) are id mai mic decît cea ingerată
+  (152659) și diferă doar prin cele trei linii ale marcajelor LP330. Ruta: Chrome-ul a trecut Cloudflare la
+  prima navigare, `fetch` same-origin a mers, o singură descărcare blob; nu s-a mai încercat nimic din ce
+  blocase sesiunea precedentă.
+- **Decis:** ingerat 152659; registrul de prevederi neintrate în vigoare nu a fost modificat (nu poate citi
+  proza), a treia instanță consemnată în întrebarea deschisă 9. Descărcarea a fost cerută implicit de
+  „continue, use my browser" la punctul 7 al planului, un fișier, din legis.md.
+- **Unde:** `raw/papers/moldova-legal/L-72-2025.md` (nou), `entities/L-72-2025.md` (nou),
+  `_meta/imports/moldova-legal/ingest_business_law.py` (intrare `L-72-2025`),
+  `_meta/imports/moldova-legal/legis-md-business/showdetails-152659.html`, `raw/papers/moldova-legal/_manifest.md`
+  secțiunea AN, `CLAUDE.md` (întrebarea deschisă 9), `entities/CNPDCP-ORDINE.md`, `index.md`, planul (punctul 7).
+- **Corectat în aceeași sesiune:** graful de citare marca `L-72-2025#art.80` drept „abrogat" fără temei: rîndul
+  de continuare al titlului desfăcut („exclusiv cu ridicata") începe cu „exclus", iar expresia regulată de la
+  `build_citation_graph.py` (rînd 664) nu avea `` după `exclus`. Reparat; nodurile marcate abrogat au scăzut
+  de la 269 la 267, deci a mai existat un fals pozitiv de aceeași formă. Capcana e generică: orice titlu tăiat
+  care continuă cu un cuvînt ce începe cu „exclus".

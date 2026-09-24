@@ -169,9 +169,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-24 14:36 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-24 23:17 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-107 primary Moldovan acts, 35 EU acquis extracts, 1 Association Agreement extract(s), 293 BNM corpus documents.
+108 primary Moldovan acts, 35 EU acquis extracts, 1 Association Agreement extract(s), 293 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -269,6 +269,7 @@ Generated 2026-09-24 14:36 from the files themselves. Do not edit this section b
 | `L-62-2022` | 58 | 58 | 2026-08-14 | 5 superscript articles normalised |
 | `L-64-2010` | 34 | 34 | 2024-01-23 | **more than 2 years old**; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-66-2017` | 17 | 17 | 2017-06-02 | 17 articles numbered in Roman figures; **more than 2 years old** |
+| `L-72-2025` | 127 | 127 | 2025-12-31 | clean |
 | `L-845-1992` | 46 | 46 | 2027-01-01 | **consolidation dated in the future**; 11 superscript articles normalised; 3 provision(s) declared unconstitutional (HCC register) |
 | `L-86-2014` | 42 | 42 | 2026-04-25 | 17 superscript articles normalised |
 | `L-9-2026` | 63 | 63 | 2026-09-12 | clean |
@@ -732,6 +733,11 @@ with no basis in the source. The refreshed consolidation contains it. No action 
    act being read.** Anyone dating a provision introduced by an amending law should open that law's
    transitional article, not only the bracket markers in the target act. (The two provisions are
    today's `CC-1107-2002` art. 64 and art. 96.)
+   **A third instance, found 2026-09-24 at `L-72-2025`** (the electronic communications law): art. 127
+   alin. (1) sets 1 January 2026, defers arts. 96, 99-104, 106-107 and 109-113 by 24 months from
+   publication (13.05.2027) and arts. 61(4)(b), 97, 98, 105, 108 to a decision of the Association Council,
+   all in prose, while the fișa gives 13.05.2025 as the entry into force. Art. 127 alin. (11) also switches
+   off art. 126 on 1 April 2026. The register cannot see either. Detail in `entities/L-72-2025.md`.
    Two other things learned ingesting the same batch, general enough to matter beyond this act:
    `ingest_business_law.py`'s `DATE_RE` could misread a Monitorul Oficial citation like
    `MO338-341/30.09.16` as a second, spurious date (the tail of "341" plus the real date, parsed as

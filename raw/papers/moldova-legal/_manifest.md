@@ -3041,3 +3041,29 @@ acestei decizii nu s-a făcut — doar textul e ingerat. Deciziile Comisiei priv
 în preambulul [[DCNPDCP-41-2026]] rămân neingerate. Validator: 0 erori. `build_coverage.py` rulat.
 `index.md` actualizat (153 pagini structurate, de la 151 — cele două pagini de entitate noi,
 `entities/CETS-223-2018.md` și `entities/UE-2021-914.md`).
+
+## AN. Legea comunicațiilor electronice nr. 72/2025 (`L-72-2025`), ingerată prin Chrome-ul lui Eugen (2026-09-24)
+
+- **Sursă:** legis.md, doc_id **152659**, consolidare 2025-12-31 (LP330/2025), 127 de articole, 127 de ancore,
+  zero exponenți, zero lacune. Fișier: `raw/papers/moldova-legal/L-72-2025.md`; script:
+  `ingest_business_law.py L-72-2025` (intrare nouă în `DOCS`). HTML-ul (1 153 448 octeți, sha256
+  `5c8d18f5...4cac`, calculat în pagină înainte de descărcare și regăsit identic pe disc) în
+  `_meta/imports/moldova-legal/legis-md-business/showdetails-152659.html`.
+- **Ruta:** `curl` blocat de Cloudflare; Chrome-ul lui Eugen (extensia claude-in-chrome) a trecut verificarea
+  la prima navigare, apoi `fetch` same-origin cu antetul `X-Requested-With` a întors 1,1 MB. O singură
+  descărcare blob a mers, ceea ce ajungea. Nu s-a folosit ruta POST către un receptor local (blocată în
+  jurnalul din aceeași zi) și nu s-a contorsionat niciun filtru al uneltei.
+- **Versiunea aleasă:** 152659, nu 151457. Ambele sînt curente (01-01-2026 și 31-12-2025); diferența de text,
+  calculată linie cu linie în pagină, e zero linii proprii ale lui 151457 și trei ale lui 152659 (antetul
+  MODIFICAT și marcajele LP330 la art. 27 alin. (14), art. 31 alin. (6)). Id-ul mai mic poartă data mai nouă.
+- **Titluri:** 67 de titluri de articol tăiate la capăt de rînd, desfăcute cu `fix_wrapped_titles.py`;
+  corpul dovedit identic fără liniile `## Articolul` (2298 de linii ambele părți).
+- **Intrarea în vigoare, art. 127 alin. (1):** 1 ianuarie 2026, dar arts. 96, 99–104, 106–107, 109–113 la
+  24 de luni de la publicare (13.05.2027), iar art. 61 alin. (4) lit. b), 97, 98, 105, 108 la data
+  stabilită de Consiliul de Asociere. Fișa greșește (dă 13.05.2025). Art. 126 a expirat la 01.04.2026
+  (alin. (11)). A treia instanță a modelului „intrare în vigoare amînată în proză" din întrebarea deschisă 9
+  din `CLAUDE.md`: registrul nu o vede.
+- **Legătura cu perimetrul protecției datelor:** art. 115 alin. (10) e temeiul invocat de Ordinul 40/2026;
+  verificat. Detalii în [[L-72-2025]].
+- **Neingerat, rămas:** Legea 241/2007 (abrogată, capitolul VIII pînă în 2027), actele UE transpuse (zece,
+  enumerate în preambul) și actele subordonate ale Agenției.
