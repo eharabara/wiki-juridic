@@ -1,7 +1,7 @@
 ---
 title: acquis-DataProtection — Protecția datelor cu caracter personal (GDPR 2016/679, Directiva 2016/680, Convenția 108+)
 created: '2026-09-21'
-updated: '2026-09-21'
+updated: '2026-09-24'
 type: concept
 perimeter: legal
 tags:
@@ -22,17 +22,19 @@ sources:
 - raw/papers/moldova-legal/L-36-2026.md
 - raw/papers/moldova-legal/OCNPDCP-31-2026.md
 - raw/papers/moldova-legal/L-133-2011.md
+- raw/papers/moldova-legal/COD-154-2003.md
 confidence: medium
 ---
 
 # acquis-DataProtection — Protecția datelor cu caracter personal
 
-Perimetrul din 2026-09-21. Nivelul 1 al surselor (legea) este [[L-195-2024]] (GDPR) și [[L-160-2026]]
-(Directiva 2016/680), ambele **în vigoare din 23.08.2026**; legea veche [[L-133-2011]] este abrogată. Nivelul 2
-este tratatul: [[L-36-2026]]. Nivelul subordonat este [[CNPDCP-ORDINE]]. Ancorele UE sînt [[UE-2016-679]] și
-[[UE-2016-680]], text integral. Partea UE a acestei comparații **este citită la sursă**, nu dintr-un extras;
-totuși comparația de mai jos este **structurală (după titluri) plus divergențele verificate mai jos**, nu o
-comparație a fiecărui alineat.
+Perimetrul din 2026-09-21, extins 2026-09-24. Nivelul 1 al surselor (legea) este [[L-195-2024]] (GDPR) și
+[[L-160-2026]] (Directiva 2016/680), ambele **în vigoare din 23.08.2026**; legea veche [[L-133-2011]] este
+abrogată. Nivelul 2 este tratatul: [[L-36-2026]]. Nivelul subordonat este [[CNPDCP-ORDINE]]. Ancorele UE sînt
+[[UE-2016-679]] și [[UE-2016-680]], text integral. Partea UE a acestei comparații **este citită la sursă**, nu
+dintr-un extras. Secțiunea L-195/GDPR de mai jos este acum **alineat cu alineat pentru art. 4, 6, 9** (restul
+rămîne structural, pe titluri); secțiunea nouă L-160/Directiva 2016/680 este **structurală plus patru
+divergențe verificate în text**, nu alineat cu alineat pe toate cele 46 de articole.
 
 ## Harta articol cu articol, L-195/2024 față de GDPR
 
@@ -55,8 +57,79 @@ Verificată prin script pe titluri și apoi citită în listă:
 (cooperare între autorități, mecanismul de coerență, Comitetul european), ceea ce este structural, Republica
 Moldova nefiind stat membru; art. 81 (suspendarea procedurilor) și art. 84 (sancțiuni); **art. 88 (prelucrarea
 în contextul ocupării unui loc de muncă)**, **art. 90 (secretul profesional)** și **art. 91 (biserici și asociații
-religioase)**. Pentru 88 și 91 am căutat în textul L-195/2024 „loc de muncă", „biseric", „cultelor": zero
-apariții. Pentru art. 90 (secretul profesional) nu am căutat în text. Absența la nivel de articol nu înseamnă absența regulii în alt act; nu am căutat în Codul muncii.
+religioase)**.
+
+**Verificat 2026-09-24, cu ambele capete deschise, nu doar căutare de cuvinte:**
+
+- **Art. 88 (loc de muncă): confirmat absent, în ambele acte.** Căutare „loc de muncă", „raporturi de muncă",
+  „relații de muncă" în [[L-195-2024]]: zero apariții relevante (singura e art. 9 alin. (2) lit. h), „evaluarea
+  capacității de muncă a angajatului", o excepție de categorie specială, nu un regim de prelucrare la locul de
+  muncă). Verificat și [[COD-154-2003]] (Codul muncii): conține doar trimiteri incidentale la „legislația
+  privind protecția datelor cu caracter personal" (de ex. art. 401 lit. c), păstrarea documentației unei
+  sesizări), nicio secțiune proprie de prelucrare a datelor angajaților (monitorizare, recrutare, evaluare).
+  Concluzia rămîne: nici legea generală, nici Codul muncii nu au un regim sectorial pentru contextul muncii —
+  prelucrarea se supune direct regulilor generale ale L-195/2024, fără adaptarea pe care art. 88 GDPR o permite
+  statelor membre.
+- **Art. 90 (secretul profesional): absent ca articol general, dar carve-out-ul de bază există la locul lui.**
+  Singurele două apariții ale „secret profesional" în L-195/2024 sînt: (a) art. 14 alin. (5) lit. d) — exceptarea
+  obligației de informare cînd datele „trebuie să rămână confidențiale în temeiul unei obligații legale de secret
+  profesional" — **aceasta există și în GDPR, la exact același loc, art. 14 alin. (5) lit. d)**, deci nu e o
+  adăugire moldovenească, e baza comună; și (b) art. 60 alin. (4), obligația de confidențialitate a directorului
+  și directorilor adjuncți ai Centrului, fără legătură cu art. 90 GDPR. **Ce lipsește real: art. 90 GDPR e o
+  clauză generală, transversală, care lasă statelor membre competența de a concilia dreptul de acces/informare
+  (art. 15, 16, 18, 20, 21) cu obligațiile de secret profesional oriunde apar ele — L-195/2024 nu are un
+  asemenea mecanism general**, doar carve-out-ul punctual deja prezent și în textul UE.
+- **Art. 91 (biserici): confirmat absent.** Singura apariție a „cult religios" în L-195/2024 e art. 9 alin. (2)
+  lit. d), aceeași excepție de categorie specială ca la partide politice și sindicate — nu regimul comprehensiv
+  propriu, cu supraveghere proprie, pe care art. 91 GDPR îl permite bisericilor și asociațiilor religioase care
+  aveau deja reguli proprii la 25.05.2018. Nicio urmă a unui asemenea regim în vault.
+
+## Art. 4, 6, 9 — comparație alineat cu alineat (2026-09-24)
+
+- **Art. 4 (Noțiuni/Definiții).** Nucleul (date cu caracter personal, prelucrare, pseudonimizare, operator,
+  persoană împuternicită, destinatar, consimțământ, încălcarea securității, date genetice/biometrice/privind
+  sănătatea) e tradus aproape cuvînt cu cuvînt. Trei diferențe reale, nu doar de adaptare:
+  1. **L-195 definește „marketing direct"** — termen pe care GDPR **nu îl definește deloc** la art. 4 (apare
+     doar la art. 21 și considerentul 70, fără definiție proprie). E o adăugire, nu o omisiune.
+  2. **L-195 definește „cifră totală de afaceri"**, prin trimitere la art. 4 din Legea concurenței nr. 183/2012
+     — GDPR nu definește acest termen la art. 4 (deși îl folosește la art. 83 pentru amenzi). Altă adăugire cu
+     ancoră proprie în dreptul intern.
+  3. **L-195 omite integral** cinci noțiuni GDPR legate de mecanismul UE cu mai multe autorități: „sediu
+     principal" (nr. 16), „autoritate de supraveghere" ca noțiune separată (nr. 21), „autoritate de supraveghere
+     vizată" (nr. 22), „prelucrare transfrontalieră" în sensul intra-UE (nr. 23), „obiecție relevantă și
+     motivată" (nr. 24) — toate mecanisme ale cooperării dintre autorități de supraveghere multiple, fără obiect
+     cît timp există un singur Centru. Structural, nu o lacună.
+- **Art. 6 (Legalitatea prelucrării).** Alin. (1) și (4)-(5) traduc GDPR aproape identic. **Alin. (2) diferă
+  în conținut, nu doar în formulare**: GDPR art. 6 alin. (2) e o clauză de habilitare pentru statele membre să
+  mențină sau introducă dispoziții mai specifice de adaptare a regulamentului; L-195 alin. (2) nu habilitează
+  nimic, ci **clarifică** ce înseamnă „sarcină de interes public" la alin. (1) lit. e) (îndeplinirea unei
+  sarcini care reiese din actele normative, sau exercitarea unor funcții/atribuții prevăzute de actele
+  normative) — conținut diferit sub același număr de alineat, nu doar o adaptare terminologică.
+  **Alin. (3) omite integral al doilea paragraf al GDPR art. 6 alin. (3)**: fraza care enumeră ce poate conține
+  temeiul juridic (condițiile generale de legalitate, tipurile de date, persoanele vizate, destinatarii,
+  limitările de scop, perioadele de stocare) și cere expres ca temeiul juridic „să urmărească un obiectiv de
+  interes public și să fie proporțional cu obiectivul legitim urmărit" — nu apare deloc în L-195. Efectul
+  practic: legea moldovenească dă mai puțină îndrumare textuală despre ce trebuie să conțină o bază legală de
+  prelucrare, și nu leagă expres cerința de proporționalitate de acest articol anume.
+- **Art. 9 (Categorii speciale).** Alin. (1)-(2) lit. a)-c), e), g)-j) și alin. (3) corespund aproape cuvînt cu
+  cuvînt. Trei diferențe reale:
+  1. **Lit. (d): L-195 numește explicit „partid politic, sindicat, cult religios"** ca exemple principale,
+     unde GDPR spune generic „o fundație, o asociație" — nu schimbă domeniul de aplicare (ambele au aceeași
+     clauză generală „orice alt organism... cu specific politic, filozofic, religios sau sindical"), dar arată
+     o alegere de redactare diferită, mai concretă.
+  2. **Lit. (f): L-195 e mai largă decît GDPR.** GDPR limitează excepția la „constatarea, exercitarea sau
+     apărarea unui drept **în instanță**"; L-195 extinde expres la „**procedură administrativă**, judiciară sau
+     **extrajudiciară**". O excepție de prelucrare a categoriilor speciale mai largă decît în textul UE.
+  3. **Alin. (3): L-195 omite alternativa „norme stabilite de organisme naționale competente".** GDPR permite
+     ca obligația de secret profesional care condiționează prelucrarea datelor privind sănătatea (alin. (2) lit.
+     h)) să decurgă din dreptul intern/UE **sau din norme ale unor organisme naționale competente** (de ex.
+     coduri deontologice ale unor ordine profesionale); L-195 restrînge temeiul la „actele normative", fără
+     alternativa organismelor profesionale.
+  4. **Alin. (4) — clauza de habilitare a statelor membre pentru condiții suplimentare privind datele genetice,
+     biometrice sau privind sănătatea — lipsește integral din L-195**, consecvent cu absența generală a
+     clauzelor „statele membre pot..." (Moldova nu e stat membru), dar înseamnă că legea nu are un ancoraj
+     textual propriu pentru ca Parlamentul să adauge, prin acest articol, condiții suplimentare pe aceste trei
+     categorii — orice extindere ar veni prin altă lege, nu prin acest mecanism.
 
 ## Divergențe verificate în text, ambele capete deschise
 
@@ -80,12 +153,71 @@ apariții. Pentru art. 90 (secretul profesional) nu am căutat în text. Absenț
    Moldova" și „acord internațional" cu „tratat internațional". Titlul din fișier are un fragment dublat de
    sursă („neautorizate prin acte normative" repetat pe rîndul următor): defect de sursă, nu de conținut.
 
+## L-160/2026 față de Directiva (UE) 2016/680 — comparație făcută 2026-09-24
+
+**Spre deosebire de [[L-195-2024]]/GDPR, numerotarea NU coincide.** L-160/2026 are 46 de articole,
+Directiva 65 — legea moldovenească reorganizează și condensează, nu urmărește 1-la-1 numărul UE. Verificat
+articol cu articol pe titluri, apoi citit efectiv unde numerotarea diverge:
+
+| L-160/2026 | Directiva 2016/680 | Observație |
+|---|---|---|
+| art. 1–4 | art. 1–4 | obiect, domeniu, definiții, principii — aceeași ordine |
+| art. 5 | art. 8 | legalitatea prelucrării, **mutată mai devreme** |
+| art. 6 | art. 9 | prelucrarea în alte scopuri |
+| art. 7 | art. 10 | categorii speciale |
+| art. 8–10 | art. 5–7 | termene de stocare, distincția categorii de persoane, calitatea datelor — **mutate mai târziu**, aceleași trei articole, altă poziție |
+| art. 11–13 | art. 11–13 | proces decizional automatizat, comunicare, informații — revin la aceeași poziție |
+| **art. 14** | **art. 14 + 15** | dreptul de acces **și** limitarea lui (Directiva le separă în două articole; L-160 le contopește într-un singur articol, alin. (2)–(5)) |
+| art. 15 | art. 16 | rectificare/ștergere/restricționare |
+| art. 16 | art. 17 | exercitarea drepturilor prin intermediul Centrului |
+| **— (fără corespondent)** | **art. 18** | **drepturile persoanei vizate în cadrul investigațiilor și procedurilor penale — lipsește, verificat și prin căutare de text („cazier", „dosar penal", „hotărâre judecătorească"), zero rezultate** |
+| art. 17–42 | art. 19–47 | obligațiile operatorului pînă la competențele Centrului — aceeași ordine, decalate cu 1–2 poziții din cauza golului de mai sus |
+| art. 43 | art. 57 | amenda/sancțiunile |
+| art. 44 | art. 48 | denunțarea încălcărilor |
+| art. 45–46 | art. 63–65 | dispoziții finale și tranzitorii |
+
+**Fără corespondent, structural:** art. 41 (independență), 43–44 (condiții membri, norme de instituire —
+Moldova are un singur Centru, deja reglementat de L-195), 45 (abilitări), 49–56 (asistență reciprocă, comitetul
+european, cooperare, căi de atac împotriva autorității de supraveghere) — același motiv ca la L-195/GDPR,
+mecanisme ale cooperării dintre mai multe autorități de supraveghere.
+
+**Patru constatări verificate, nu doar structurale:**
+
+1. **Art. 18 al Directivei lipsește real, nu doar ca numerotare.** Textul lui e scurt: statele membre
+   garantează că drepturile de la art. 13, 14, 16 „se exercită în conformitate cu dreptul intern" cînd datele
+   se găsesc într-o hotărâre judecătorească sau într-un dosar/cazier de urmărire penală. L-160 nu are nimic
+   echivalent — nici articol propriu, nici clauză încorporată în art. 14–16. Efect practic: legea moldovenească
+   nu spune expres cum se exercită dreptul de acces/rectificare cînd datele stau într-o hotărâre judecătorească
+   sau un dosar penal; rămîne la regulile generale ale art. 14 alin. (2) (limitarea pentru „a nu obstrucționa
+   cercetări, anchete ori proceduri oficiale sau juridice"), care acoperă parțial același teren, dar nu identic.
+2. **Amenda: nu e o divergență de plafon, pentru că Directiva nu fixează unul.** Spre deosebire de GDPR
+   (plafoane exprese la art. 83), Directiva art. 57 doar cere sancțiuni „eficace, proporționale și disuasive",
+   lăsînd cuantumul integral dreptului intern. Plafonul unic de **2 000 000 lei** din L-160 art. 43 nu se
+   abate de la nimic — e exercitarea liberă a marjei pe care Directiva o lasă. Nu se confundă cu divergența
+   reală de la L-195/GDPR (unde există un plafon UE de comparat).
+3. **Tehnica de definire diferă structural față de Directivă, nu doar față de conținut.** Directiva își
+   definește propriile noțiuni la art. 3 (16 termeni, listă închisă proprie). L-160 art. 3 alin. (1) **nu își
+   redefinește noțiunile**: trimite integral la art. 4 din [[L-195-2024]] și adaugă doar doi termeni proprii
+   („autoritate competentă", „operator" — varianta pentru autorități competente). Efect: L-160 moștenește *toate*
+   noțiunile L-195 (inclusiv „întreprindere", „reguli corporatiste obligatorii", „marketing direct", „servicii
+   ale societății informaționale" — termeni din sfera comercială/civilă, fără obiect în prelucrarea polițienească
+   și penală), pe cînd Directiva UE are o listă proprie, mai îngustă (16 termeni, fără niciunul din cele patru
+   de mai sus). Nu creează o problemă de aplicare, dar înseamnă că L-160 nu e un act de sine stătător din punct
+   de vedere terminologic — se citește doar împreună cu L-195.
+4. **Procedura de sancționare și de plîngere trimit efectiv la L-195, nu le duplică.** Art. 43 alin. (2)
+   („aplicarea amenzilor... în conformitate cu art. 87 din Legea nr. 195/2024") și art. 44 alin. (2) („Centrul
+   examinează plîngerile... în corespundere cu... cap. VIII secțiunea a 2-a din Legea nr. 195/2024") —
+   confirmă ce spunea deja [[OCNPDCP-48-2026]] pct. 1: regulamentul unic de investigație al Centrului acoperă
+   ambele legi. L-160 nu are propriul regim procedural de sancționare.
+
 ## Ce nu s-a comparat, ca să nu se creadă că s-a făcut
 
-- **Alineatele.** Nu am comparat art. 4 (definiții), art. 6, art. 9, capitolul III și art. 25–39 alineat cu alineat.
-  „Aceeași numerotare" nu înseamnă „același text".
-- **Considerentele.** Sînt în vault (173 la GDPR) și nu au fost folosite pentru interpretarea niciunui articol.
-- **L-160/2026 față de Directiva 2016/680.** Nu a fost făcută; textul UE abia acum este în vault.
+- **Restul alineatelor L-195/GDPR.** Rămîne structural (pe titluri), nu alineat cu alineat: capitolul III
+  (art. 12–23, dincolo de spotcheck-ul de la art. 12) și art. 25–39 (dincolo de spotcheck-ul la art. 33–39).
+- **Restul alineatelor L-160/Directiva.** Comparația de mai sus e structurală plus patru constatări verificate
+  în text; nu e o trecere alineat cu alineat prin toate cele 46 de articole.
+- **Considerentele.** Sînt în vault (173 la GDPR, considerente proprii la Directivă) și nu au fost folosite
+  pentru interpretarea niciunui articol.
 - **Decizia (UE) 2021/914** (clauzele standard de transfer) și deciziile Comisiei privind caracterul adecvat: nu
   sînt în vault.
 - **Convenția 108+.** Textul Protocolului nu este ingerat (imagini fără strat de text); nicio dispoziție a ei nu

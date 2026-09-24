@@ -1,6 +1,6 @@
 # Graful de citare al actelor detinute
 
-Generat 2026-09-21 12:27 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
+Generat 2026-09-24 13:01 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
 
 **Ce este.** Trimiterile dintre actele detinute, extrase mecanic din textul brut: fiecare muchie poarta fisierul si liniile din care a fost citita, si nicio muchie nu este dedusa. Graful nu se citeaza. El spune unde sa deschizi fisierul, iar ancora se citeste.
 
@@ -10,23 +10,23 @@ Generat 2026-09-21 12:27 de `_meta/graph/build_citation_graph.py`. Nu edita de m
 
 | | |
 |---|---:|
-| acte primare detinute (din care ancorate pe articole) | 111 (86) |
+| acte primare detinute (din care ancorate pe articole) | 113 (86) |
 | dispozitii (noduri-articol) | 12594 |
 | extrase UE detinute (noduri-tinta) | 34 |
 | acte citate si nedetinute (noduri externe) | 563 |
-| mentiuni de acte in text (din care ale actului insusi) | 4349 (378) |
-| muchii act -> act (agregate pe segment-sursa) | 2923 |
-| trimiteri la articole citite (in grupuri de enumerare) | 9036 (7903) |
+| mentiuni de acte in text (din care ale actului insusi) | 4377 (378) |
+| muchii act -> act (agregate pe segment-sursa) | 2928 |
+| trimiteri la articole citite (in grupuri de enumerare) | 9056 (7920) |
 |   rezolvate in actul curent | 7359 |
-|   rezolvate in alt act detinut | 1142 |
+|   rezolvate in alt act detinut | 1158 |
 |   nerezolvate: articolul nu are ancora in actul-tinta | 100 |
 |   catre acte nedetinute (notate pe muchia act -> act) | 378 |
-|   catre acte pe puncte (fara articole) | 37 |
+|   catre acte pe puncte (fara articole) | 41 |
 |   autoreferinte (articolul se citeaza pe sine), ignorate | 20 |
-| muchii articol -> articol (agregate) | 6989 |
+| muchii articol -> articol (agregate) | 7000 |
 | muchii articol -> act nerezolvate (agregate) | 88 |
 
-Regula care a dat actul-tinta, pe trimiteri: din 1338, doua-puncte 46, intern 7170, modificare 38, paranteza 9. „intern” = niciun act in context, deci actul curent; „din” = `art. N ... din Legea X` sau `(art. N, M) Directiva X`; „paranteza” = `Legea X (art. N)`; „doua-puncte” = `din Codul X: art. N, M`; „modificare” = `Legea X se modifica dupa cum urmeaza: ... articolul N`. `din legea indicata` trimite la ultima lege numita in acelasi segment.
+Regula care a dat actul-tinta, pe trimiteri: din 1354, doua-puncte 46, intern 7170, modificare 38, paranteza 9. „intern” = niciun act in context, deci actul curent; „din” = `art. N ... din Legea X` sau `(art. N, M) Directiva X`; „paranteza” = `Legea X (art. N)`; „doua-puncte” = `din Codul X: art. N, M`; „modificare” = `Legea X se modifica dupa cum urmeaza: ... articolul N`. `din legea indicata` trimite la ultima lege numita in acelasi segment.
 
 Coduri citate si pe nume si pe numar, unite dupa textul care le scrie impreuna: COD-audiovizualului = COD-260-2006; COD-educatiei = COD-152-2014; COD-electoral = COD-325-2022; COD-familiei = COD-1316-2000; COD-jurisdictiei-constitutionale = COD-502-1995; COD-transporturilor-rutiere = COD-150-2014.
 
@@ -276,7 +276,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 |---|---:|---:|---:|---:|---:|---:|---:|
 | `AA-2014` | 11 | 44 | 0 | 4 | 0 | 18 | 64 |
 | `CC-1107-2002` | 2657 | 27 | 34 | 1017 | 5 | 1 | 24 |
-| `COD-116-2018` | 260 | 13 | 34 | 106 | 10 | 1 | 5 |
+| `COD-116-2018` | 260 | 13 | 35 | 106 | 10 | 1 | 5 |
 | `COD-1163-1997` | 511 | 66 | 25 | 447 | 20 | 1 | 78 |
 | `COD-122-2003` | 658 | 26 | 13 | 471 | 219 | 2 | 25 |
 | `COD-154-2003` | 416 | 26 | 15 | 198 | 3 | 0 | 23 |
@@ -320,7 +320,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-1134-1997` | 110 | 30 | 16 | 134 | 17 | 0 | 25 |
 | `L-114-2012` | 131 | 24 | 12 | 267 | 13 | 0 | 15 |
 | `L-122-2008` | 23 | 7 | 5 | 11 | 0 | 0 | 2 |
-| `L-1260-2002` | 73 | 9 | 4 | 21 | 1 | 0 | 4 |
+| `L-1260-2002` | 73 | 9 | 5 | 21 | 1 | 0 | 4 |
 | `L-131-2012` | 41 | 11 | 13 | 27 | 3 | 4 | 6 |
 | `L-131-2015` | 91 | 14 | 9 | 120 | 1 | 0 | 9 |
 | `L-132-2016` | 45 | 13 | 8 | 27 | 7 | 0 | 5 |
@@ -335,7 +335,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-158-2008` | 88 | 51 | 15 | 74 | 7 | 0 | 60 |
 | `L-160-2011` | 32 | 11 | 21 | 12 | 3 | 2 | 11 |
 | `L-160-2023` | 58 | 13 | 3 | 47 | 5 | 0 | 8 |
-| `L-160-2026` | 46 | 4 | 1 | 54 | 11 | 1 | 1 |
+| `L-160-2026` | 46 | 4 | 2 | 54 | 11 | 1 | 1 |
 | `L-171-2012` | 156 | 31 | 23 | 153 | 17 | 0 | 24 |
 | `L-177-2025` | 4 | 4 | 0 | 0 | 0 | 0 | 0 |
 | `L-178-2020` | 8 | 7 | 0 | 0 | 0 | 0 | 2 |
@@ -344,7 +344,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-183-2012` | 110 | 28 | 6 | 183 | 8 | 4 | 16 |
 | `L-183-2016` | 17 | 6 | 7 | 8 | 3 | 0 | 1 |
 | `L-192-1998` | 34 | 20 | 17 | 21 | 8 | 1 | 1 |
-| `L-195-2024` | 90 | 20 | 7 | 200 | 8 | 0 | 5 |
+| `L-195-2024` | 90 | 20 | 9 | 200 | 8 | 0 | 5 |
 | `L-198-2007` | 54 | 10 | 5 | 38 | 14 | 0 | 11 |
 | `L-198-2020` | 64 | 10 | 2 | 23 | 8 | 0 | 3 |
 | `L-199-2010` | 29 | 8 | 9 | 2 | 5 | 0 | 3 |
@@ -382,8 +382,10 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-92-2022` | 125 | 17 | 5 | 61 | 6 | 0 | 7 |
 | `OCNPDCP-27-2022` | 0 | 3 | 0 | 0 | 4 | 0 | 2 |
 | `OCNPDCP-31-2026` | 0 | 2 | 0 | 0 | 13 | 0 | 1 |
+| `OCNPDCP-38-2026` | 0 | 1 | 0 | 0 | 3 | 0 | 0 |
 | `OCNPDCP-39-2026` | 0 | 2 | 0 | 0 | 10 | 0 | 0 |
 | `OCNPDCP-40-2026` | 0 | 3 | 0 | 0 | 3 | 0 | 1 |
+| `OCNPDCP-48-2026` | 0 | 4 | 0 | 0 | 13 | 0 | 0 |
 | `UA-STATUT-2011` | 74 | 9 | 0 | 16 | 1 | 2 | 2 |
 
 ## Trimiteri nerezolvate

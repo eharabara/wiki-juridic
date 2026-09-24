@@ -63,6 +63,13 @@ DOCS = {
                   'title': 'Legea nr. 36/2026 privind ratificarea Protocolului de amendare a Conventiei '
                            'pentru protectia persoanelor referitor la prelucrarea automatizata a datelor '
                            'cu caracter personal'},
+    # Gasit 2026-09-24, din pagina "Decizii/Ordine" a datepersonale.md: raspunde chiar la
+    # intrebarea lui Eugen din 21 septembrie despre "ordinul 48 din septembrie", pe care planul
+    # nu il gasise. Adoptat 09.09.2026, publicat 16.09.2026 (dupa data planului), abroga Ordinul
+    # 25/2024 (regulamentul de control anterior). Structurat in puncte (67), fara articole.
+    'OCNPDCP-48-2026': {'doc_id': '156385',
+                        'title': 'Ordinul CNPDCP nr. 48/2026 cu privire la aprobarea Regulamentului '
+                                 'privind efectuarea investigatiei'},
 }
 
 ibr.RAW_DIR = RAW_DIR

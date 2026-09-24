@@ -1896,3 +1896,89 @@
   `raw/papers/moldova-legal/_manifest.md`, `entities/CNPDCP-ORDINE.md`, `entities/L-36-2026.md`,
   `entities/UE-2016-679.md`, `entities/UE-2016-680.md`, `concepts/acquis-DataProtection.md`,
   `_meta/imports/cnpdcp/`, `_meta/imports/eu/`, `_meta/plans/2026-09-21-perimetru-protectia-datelor.md`.
+
+## [2026-09-24] ingest | Ordinul CNPDCP 48/2026 găsit — nu era o confuzie cu 39/2026 — și Ordinul 38/2026 ingerat; inventarul CNPDCP verificat complet
+
+- **Aflat:** planul din 21 septembrie pornea de la întrebarea lui Eugen despre un „ordin nr. 48 din
+  septembrie", pe care nu-l găsise nici pe legis.md nici în registrul autorității, și concludea că e
+  probabil o confuzie cu 39/2026. **Nu era o confuzie.** Actul există: Ordinul CNPDCP nr. 48/2026,
+  Regulamentul privind efectuarea investigației (67 puncte), adoptat 09.09.2026, **publicat abia
+  16.09.2026** — după data planului, de asta nu apărea încă la căutarea din 21 septembrie. Găsit
+  2026-09-24 pe pagina „Decizii/Ordine" a datepersonale.md (registrul propriu al autorității, nu
+  căutare pe legis.md), doc_id `156385`. Abrogă Ordinul 25/2024 (regulamentul de control anterior,
+  neingerat niciodată aici). Conține o singură trimitere la altă profesie protejată: secretul
+  profesional al avocatului, „prevăzut la art.55 din Legea nr.1260/2002" (pct. 24), exceptat expres de
+  la prerogativele de acces ale inspectorilor CNPDCP.
+  Ordinul 38/2026 (formularul plîngerii) confirmat **negăsit pe legis.md** — căutare pe titlu fără
+  rezultat — și citit direct din PDF-ul scanat al autorității: din **03.08.2026**, nu septembrie cum
+  bănuia planul; în vigoare 23.08.2026, abrogă Ordinul 44/2020. PDF-ul nu are strat de text utilizabil
+  (extracția mecanică dă caractere corupte, semn de OCR greșit la sursă); textul dispozitiv a fost citit
+  din imaginile paginilor, ca la procedura de decontare DCU.
+  Verificarea inventarului complet (Decizii/Ordine, Instrucțiuni Adoptate, Arhiva Decizii/Ordine,
+  Regulamente CNPDCP, Proiecte — toate cele cinci submeniuri ale datepersonale.md, nu doar lista
+  „adoptate" folosită la prima ingerare) a mai identificat, fără să le ingereze: patru instrucțiuni
+  sectoriale din 2020 (electoral, poliție, educație, sănătate), decizia din 11.12.2014 privind
+  încetarea prelucrării de către partidele politice, și **Decizia CNPDCP nr. 08/2023**, care s-a
+  confirmat a fi exact actul deja atribuit prin marcajul `[Pct.1^1 introdus prin DCNPDCP08...]` din
+  `DCNPDCP-581-2015` — deci textul deținut al acelui act era deja corect. Aceeași decizie mai abrogă
+  Decizia 176/2015 (necunoscută în vault) și modifică definiția consimțământului din decizia 2014, dar
+  niciuna din cele două nu se mai aplică practic sub L-195/2024. Arhiva autorității conține doar decizii
+  de speță (nu izvor de drept) și confirmă că Ordinul 25/2024 e cel abrogat de 48/2026 de mai sus.
+- **Decis:** Ordinul 48/2026 ingerat integral prin scriptul existent (`ingest_cnpdcp_ro.py`), HTML luat
+  din browser-ul intern al sesiunii (nu Chrome-ul lui Eugen — Cloudflare a lăsat pagina să treacă direct,
+  fără verificare interactivă, pentru actul cu o singură versiune). Ordinul 38/2026 ingerat manual,
+  marcat explicit **neancorat** (fără `sha256_extraction`, fără strip-and-compare posibil pe un text
+  citit, nu extras). Verificator nou, minimal, scris pentru acest perimetru:
+  `_meta/imports/cnpdcp/verify_cnpdcp_ro.py` (nu exista înainte; cele opt acte legis.md ale
+  perimetrului treceau fără el, verificate doar la ingerare). Restul actelor identificate (instrucțiuni
+  sectoriale, decizia 2014, arhiva) rămân neingerate — consemnate cu motiv, nu presupuse absente.
+- **Unde:** `raw/papers/moldova-legal/OCNPDCP-48-2026.md` (nou, 158 rînduri text, 0 ancore),
+  `raw/papers/moldova-legal/OCNPDCP-38-2026.md` (nou, neancorat), `entities/CNPDCP-ORDINE.md`
+  (rescris, inventar complet pe opt acte), `_meta/imports/cnpdcp/ingest_cnpdcp_ro.py` (+intrare
+  OCNPDCP-48-2026), `_meta/imports/cnpdcp/verify_cnpdcp_ro.py` (nou),
+  `_meta/imports/cnpdcp/legis-md/showdetails-156385.html`,
+  `_meta/imports/cnpdcp/datepersonale-md/` (trei PDF-uri arhivate: Ordinul 38/2026, Decizia 08/2023,
+  decizia din 2014), `_meta/plans/2026-09-21-perimetru-protectia-datelor.md` (punctele 2, 3, 11
+  actualizate), `CLAUDE.md` (blocul de acoperire regenerat, +2 acte; paragraful de perimetru actualizat
+  la opt acte). Validator: 0 erori, 3 avertismente (2 preexistente, plus D9 neschimbat — stampila
+  registrului de spețe rămîne din 21 septembrie). Necomis încă: commit și push rămân un pas separat.
+
+## [2026-09-24] update | L-195/2024 față de GDPR alineat cu alineat (art. 4, 6, 9) și L-160/2026 față de Directiva 2016/680, prima comparație a acestui perimetru
+
+- **Aflat:** comparația alineat cu alineat a art. 4, 6, 9 din [[L-195-2024]] contra GDPR a găsit șapte
+  diferențe reale, nu doar de formulare, verificate în ambele texte deținute integral: L-195 **adaugă** două
+  noțiuni pe care GDPR nu le definește la art. 4 deloc („marketing direct", „cifră totală de afaceri", prin
+  trimitere la Legea concurenței); art. 6 alin. (2) are **conținut diferit** sub același număr (clauza de
+  habilitare a statelor membre e înlocuită cu o clarificare a „sarcinii de interes public"); art. 6 alin. (3)
+  **omite** al doilea paragraf al GDPR, care spune ce poate conține temeiul juridic de prelucrare și cere
+  expres proporționalitate; art. 9 lit. f) e **mai largă** decît GDPR (extinde excepția de la „în instanță" la
+  „procedură administrativă... sau extrajudiciară"); art. 9 alin. (3) **omite** alternativa „norme ale
+  organismelor naționale competente" pentru temeiul secretului profesional; art. 9 alin. (4), clauza de
+  habilitare pentru condiții suplimentare pe date genetice/biometrice/sănătate, **lipsește integral**.
+  Art. 88, 90, 91 GDPR verificate cu ambele capete deschise, nu doar căutare de cuvinte: art. 88 (loc de
+  muncă) confirmat absent și din Codul muncii ([[COD-154-2003]], consultat prima dată pentru acest perimetru
+  — nicio secțiune proprie de prelucrare a datelor angajaților); art. 90 — carve-out-ul din art. 14 alin. (5)
+  lit. d) există identic și în GDPR la același loc, deci nu e o adăugire, dar clauza generală lipsește; art. 91
+  confirmat absent.
+  Prima comparație L-160/2026 față de Directiva 2016/680 a acestui perimetru a găsit ceva neașteptat:
+  **spre deosebire de L-195/GDPR (care se potrivesc 1-la-1 pînă la art. 50), L-160 NU urmărește numerotarea
+  Directivei** — 46 de articole față de 65, cu reordonări (art. 5-10 ale Directivei apar în altă ordine în
+  L-160) și condensări (Directiva separă dreptul de acces de limitarea lui în două articole, art. 14-15;
+  L-160 le contopește într-un singur articol 14). Patru constatări verificate: **art. 18 al Directivei
+  (drepturile persoanei vizate cînd datele stau într-o hotărîre judecătorească sau un dosar penal) lipsește
+  real din L-160**, confirmat și prin căutare de text, nu doar prin numerotare; amenda unică de 2 000 000 lei
+  (L-160 art. 43) **nu e o divergență de plafon**, pentru că Directiva, spre deosebire de GDPR, nu fixează
+  niciun plafon — doar cere sancțiuni „eficace, proporționale și disuasive"; L-160 **nu își redefinește
+  noțiunile**, trimite integral la art. 4 din L-195/2024 (deci moștenește termeni comerciali fără obiect în
+  materie penală, ca „întreprindere" sau „marketing direct") plus doi termeni proprii; procedura de amendă și
+  de plîngere (art. 43-44) trimit expres la L-195, confirmînd ce spunea deja [[OCNPDCP-48-2026]] pct. 1 —
+  regulamentul unic de investigație acoperă ambele legi.
+- **Decis:** comparația s-a făcut citind textul UE la sursă ([[UE-2016-679]], [[UE-2016-680]], integral,
+  nu extras), ca să nu repete asimetria semnalată în planul din 21 septembrie. Capitolul III (art. 12-23) și
+  art. 25-39 din L-195 au primit doar un spotcheck punctual (art. 12, 33-39), nu o trecere completă alineat cu
+  alineat — consemnat explicit ca rămas, nu presupus făcut. La fel pentru restul celor 46 de articole ale
+  L-160: patru constatări verificate, nu o trecere completă.
+- **Unde:** `concepts/acquis-DataProtection.md` (secțiune nouă „Art. 4, 6, 9 — comparație alineat cu alineat",
+  secțiune nouă „L-160/2026 față de Directiva (UE) 2016/680", secțiunea „Ce nu s-a comparat" îngustată),
+  `_meta/plans/2026-09-21-perimetru-protectia-datelor.md` (punctele 8 și 9 actualizate). Validator: 0 erori,
+  3 avertismente neschimbate. Necomis încă: commit și push rămân un pas separat.

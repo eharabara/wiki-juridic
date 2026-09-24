@@ -129,14 +129,21 @@ ce urmează, în ordinea în care fiecare pas îl ajută pe următorul. Nimic de
    citire din imaginile randate, ca la procedura de decontare DCU (neancorat, marcat). Pînă atunci
    `entities/L-36-2026.md` rămîne singura pagină despre el. Tot aici: numărul de ratificări de astăzi de pe
    pagina tratatului de la Consiliul Europei (a dat 403); intrarea în vigoare internațională e neconfirmată.
-2. **Ordinul CNPDCP nr. 38/2026** (formularul plîngerii). Există ca PDF pe datepersonale.md
-   (`Ordin-nr.-38-2026-Formular-tipizat-plingerii.pdf`), negăsit pe legis.md. De căutat pe legis.md după
-   titlu, fără diacritice; altfel PDF cu script propriu, ca `DCU-REGULI-2026`.
-3. **Inventarul complet al actelor CNPDCP.** Cele șase ingerate vin din lista „adoptate" a datepersonale.md, nu
-   dintr-un registru complet. Nu sînt ingerate: instrucțiunile sectoriale (electoral, poliție, educație,
-   sănătate), decizia de încetare a prelucrării de către partidele politice, `DCNPDCP 08/2023` (a introdus
-   pct. 1^1 la 581/2015), regulamentele CNPDCP și arhiva de decizii. Pentru fiecare: preambulul citit și
-   temeiul verificat contra art. 90 alin. (5) din L-195-2024, ca la `entities/CNPDCP-ORDINE.md`.
+2. **Făcut 2026-09-24.** Ordinul CNPDCP nr. 38/2026 (formularul plîngerii) rămîne negăsit pe legis.md
+   (căutare pe titlu confirmată fără rezultat), dar e ingerat din PDF (`raw/papers/moldova-legal/OCNPDCP-38-2026.md`),
+   citit din imaginile paginilor, neancorat, ca `DCU-REGULI-2026`/`DCU-PROCEDURI`. Din 03.08.2026, nu
+   septembrie cum bănuia acest plan; în vigoare 23.08.2026, abrogă Ordinul 44/2020.
+3. **Substanțial făcut 2026-09-24.** Inventarul complet al actelor CNPDCP a fost verificat direct contra
+   registrului autorității (datepersonale.md → Decizii/Ordine, Instrucțiuni Adoptate, Arhiva Decizii/Ordine,
+   Regulamente CNPDCP, Proiecte), nu doar contra listei „adoptate" folosite la prima ingerare. Rezultat complet
+   în `entities/CNPDCP-ORDINE.md`. Preambulul fiecărui act a fost citit. Rămas neingerat, cu motiv explicit
+   consemnat acolo: cele patru instrucțiuni sectoriale (electoral, poliție, educație, sănătate — temeiul lor
+   sub art. 90 alin. (5) L-195-2024 necitit articol cu articol), decizia de încetare a prelucrării de către
+   partidele politice din 11.12.2014 și `DCNPDCP 08/2023` (identificată, dar nu ingerată separat — efectul ei
+   asupra 581/2015 e deja corect reflectat prin marcaj), regulamentele CNPDCP (un singur act, fără relevanță
+   juridică) și arhiva de decizii (decizii de speță, nu izvor de drept). **Găsit pe aceeași pagină, în afara
+   scopului acestui punct: Ordinul CNPDCP nr. 48/2026**, negăsit la data acestui plan pentru că fusese
+   publicat abia 16.09.2026 — vezi punctul 11 de mai jos.
 4. **Decizia 581/2015**, statutul. Decizie pentru Eugen: se tratează ca în vigoare (legis.md, site) sau ca
    fără temei (art. 90)? De confirmat la Centru, nu în vault.
 5. **Ordinul 31/2026, temeiul.** Nepotrivirea art. 28 alin. (7) față de art. 46 e notată ca finding. De
@@ -146,17 +153,38 @@ ce urmează, în ordinea în care fiecare pas îl ajută pe următorul. Nimic de
    clauzelor din 31/2026 cu 2021/914 nu s-a făcut.
 7. **Legea comunicațiilor electronice nr. 72/2025**, al doilea temei al Ordinului 40/2026 (art. 115
    alin. (10)). Nu e în vault; candidat pentru coada de ingerare.
-8. **L-160/2026 față de Directiva (UE) 2016/680.** Textul UE e acum în vault; comparația nu s-a făcut, deci
-   pentru legea penală nu se afirmă nici conformitate, nici divergență.
-9. **L-195/2024 față de GDPR, alineat cu alineat.** Harta din `concepts/acquis-DataProtection.md` e
-   structurală (titluri) plus patru divergențe verificate. Nu s-au comparat art. 4, 6, 9, capitolul III și
-   art. 25–39. Considerentele (173) nu au fost folosite. Art. 90 GDPR (secretul profesional) nu a fost
-   căutat în textul L-195; nici art. 88 și 91 nu au fost căutate în alte acte (Codul muncii, legea cultelor).
+8. **Făcut 2026-09-24.** L-160/2026 față de Directiva (UE) 2016/680: numerotarea NU coincide (46 articole
+   față de 65, spre deosebire de L-195/GDPR care se potrivesc 1-la-1 pînă la art. 50) — comparație structurală
+   completă plus patru constatări verificate în text: Directiva art. 18 (drepturile persoanei vizate în
+   dosare/cazier penal) lipsește real din L-160, nu doar ca numerotare; amenda unică de 2 000 000 lei (art. 43)
+   nu e o divergență de plafon pentru că Directiva nu fixează unul (spre deosebire de GDPR); L-160 nu își
+   redefinește noțiunile, trimite integral la art. 4 din L-195/2024 plus doi termeni proprii; procedura de
+   amendă și de plîngere trimit efectiv la L-195, nu o duplică. Detalii: `concepts/acquis-DataProtection.md`.
+9. **Făcut 2026-09-24 pentru art. 4, 6, 9; capitolul III și art. 25–39 rămîn structurale.** Harta din
+   `concepts/acquis-DataProtection.md` are acum comparație alineat cu alineat pentru art. 4 (trei diferențe
+   reale: „marketing direct" și „cifră totală de afaceri" sînt adăugiri ale L-195, nu în GDPR art. 4; cinci
+   noțiuni ale mecanismului UE cu mai multe autorități lipsesc, structural), art. 6 (alin. (2) are conținut
+   diferit, nu doar formulare diferită; alin. (3) omite integral al doilea paragraf al GDPR despre ce poate
+   conține temeiul juridic și cerința de proporționalitate) și art. 9 (patru diferențe: exemplele de la
+   lit. d), excepția mai largă de la lit. f) — include procedura administrativă și extrajudiciară, nu doar
+   instanța —, omiterea alternativei „organisme naționale competente" la alin. (3), lipsa clauzei de habilitare
+   de la alin. (4)). Capitolul III și art. 25–39 rămîn comparate doar structural, cu un spotcheck punctual
+   (art. 12, 33–39, fără divergență găsită dincolo de ce era deja consemnat). Considerentele (173) tot nu au
+   fost folosite. **Art. 88, 90, 91 verificate cu ambele capete deschise, nu doar căutare de cuvinte**: art. 88
+   (loc de muncă) confirmat absent atît din L-195 cît și din Codul muncii (COD-154-2003), care nu are un regim
+   propriu de prelucrare a datelor angajaților; art. 90 (secretul profesional) — carve-out-ul punctual din
+   art. 14 alin. (5) lit. d) există și în GDPR la același loc, deci nu e adăugire, dar clauza generală de
+   habilitare a statelor membre lipsește real; art. 91 (biserici) confirmat absent, fără regim comprehensiv
+   propriu pentru organizații religioase.
 10. **Rîndul din matricea de transpunere** al perimetrului (documentul 05). Se adaugă în proiectul claude.ai
     „Legal Wiki", nu în copia din `legal-career/`. Include și legătura cu `AA-2014` (dacă Anexa XXVIII-A sau
     alt capitol cere transpunerea GDPR), neverificată.
-11. **Codul legis.md al deciziilor 41/2026 și 581/2015** (nu s-a putut confirma din fragmentul HTML) și
-    reverificarea Ordinului „48": dacă apare în registrul autorității, intră la pasul 3.
+11. **Ordinul „48" există, rezolvat 2026-09-24 — nu era o confuzie.** Ordinul CNPDCP nr. 48/2026, „Regulamentul
+    privind efectuarea investigației" (67 puncte), adoptat 09.09.2026, publicat 16.09.2026 — deci după data
+    acestui plan, ceea ce explică de ce nu apărea încă la căutarea din 21 septembrie. doc_id legis.md `156385`,
+    ingerat integral, verificat text-cu-text (`_meta/imports/cnpdcp/verify_cnpdcp_ro.py`, 0 eșecuri din 8 acte).
+    Abrogă Ordinul 25/2024. Detalii: `entities/CNPDCP-ORDINE.md`.
+    **Codul legis.md al deciziilor 41/2026 și 581/2015** rămîne neconfirmat din fragmentul HTML.
 12. **Registrul de spețe** (`legal-career/06-matter-log.md`): stampila `taken` a rămas din 19 septembrie;
     regula D9 cere registrul curent de la Eugen.
 

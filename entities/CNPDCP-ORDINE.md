@@ -1,7 +1,7 @@
 ---
 title: CNPDCP-ORDINE — Actele subordonate ale CNPDCP din vault (ordine și decizii)
 created: '2026-09-21'
-updated: '2026-09-21'
+updated: '2026-09-24'
 type: entity
 perimeter: legal
 tags:
@@ -21,6 +21,8 @@ sources:
 - raw/papers/moldova-legal/OCNPDCP-39-2026.md
 - raw/papers/moldova-legal/OCNPDCP-31-2026.md
 - raw/papers/moldova-legal/OCNPDCP-40-2026.md
+- raw/papers/moldova-legal/OCNPDCP-48-2026.md
+- raw/papers/moldova-legal/OCNPDCP-38-2026.md
 - raw/papers/moldova-legal/DCNPDCP-41-2026.md
 - raw/papers/moldova-legal/DCNPDCP-581-2015.md
 - raw/papers/moldova-legal/L-195-2024.md
@@ -30,24 +32,79 @@ confidence: high
 
 # CNPDCP-ORDINE — Actele subordonate ale CNPDCP
 
-Șase acte ale Centrului Național pentru Protecția Datelor cu Caracter Personal, ingerate la 2026-09-21 din
-legis.md ([[L-195-2024]] este legea lor de bază; [[L-160-2026]] este a doua lege a reformei din 23.08.2026).
-Toate sînt structurate în **puncte**, fără articole: `pct. N` **nu este ancorat** (ca la [[HCNPF-14-5-2016]]).
-Textul a fost citit; nu există niciun act CNPDCP în vault în afara acestor șase.
+Opt acte ale Centrului Național pentru Protecția Datelor cu Caracter Personal — șase ingerate la 2026-09-21
+din legis.md, două la 2026-09-24 ([[L-195-2024]] este legea lor de bază; [[L-160-2026]] este a doua lege a
+reformei din 23.08.2026). Șase sînt structurate în **puncte**, fără articole: `pct. N` **nu este ancorat**
+(ca la [[HCNPF-14-5-2016]]); **Ordinul 38/2026** nu are text ancorabil deloc (vezi mai jos). Inventarul de
+mai jos a fost verificat 2026-09-24 direct contra registrului propriu al autorității
+(datepersonale.md → Legislația → Decizii/instrucțiuni ale CNPDCP → **Decizii/Ordine**, pagina care listează
+actele curent în vigoare, plus **Instrucțiuni Adoptate** și **Arhiva Decizii/Ordine**), nu doar contra listei
+„adoptate" folosite la prima ingerare — nu există niciun act CNPDCP curent care lipsește de aici.
 
 | Act | Obiect | Temei invocat | În vigoare | Fișier |
 |---|---|---|---|---|
 | Ordin **27/2022**, consolidat cu 39/2026 | lista operațiunilor care cer evaluare de impact (DPIA) | art. 35 alin. (1), (4), (6), art. 59 alin. (1) lit. k), art. 65 alin. (1) lit. d) din L-195/2024 | 22.04.2022; versiunea curentă din 23.08.2026 | [[raw/papers/moldova-legal/OCNPDCP-27-2022]] |
 | Ordin **39/2026** | modifică 27/2022 (temei, pct. 2, criteriul 4, exemple noi despre IA) | aceleași articole din L-195/2024 | 23.08.2026 | [[raw/papers/moldova-legal/OCNPDCP-39-2026]] |
 | Ordin **31/2026** | contractul standard pentru transferul către state fără nivel adecvat; **abrogă** Ordinul 33/2022 | art. 28 alin. (7) din L-195/2024 (vezi mai jos) | 23.08.2026 | [[raw/papers/moldova-legal/OCNPDCP-31-2026]] |
+| Ordin **38/2026** | formularul tipizat al **plângerii** | art. 65 alin. (1) lit. d), art. 79 alin. (3) L-195/2024 | 23.08.2026 | [[raw/papers/moldova-legal/OCNPDCP-38-2026]] |
 | Ordin **40/2026** | formularul tipizat al notificării încălcării securității datelor | art. 33 alin. (3), art. 65 alin. (1) lit. d) L-195/2024; art. 28 alin. (3) L-160/2026; art. 115 alin. (10) Legea 72/2025 | 25.08.2026 | [[raw/papers/moldova-legal/OCNPDCP-40-2026]] |
+| **Ordin 48/2026** | Regulamentul privind efectuarea investigației (67 pct.); **abrogă** Ordinul 25/2024 | art. 65 alin. (1) lit. d), art. 81 L-195/2024; menționează și L-160/2026 în domeniul de aplicare | 16.09.2026 | [[raw/papers/moldova-legal/OCNPDCP-48-2026]] |
 | **Decizia 41/2026** | lista statelor cu nivel adecvat de protecție; **abrogă** Decizia 23/2022 | art. 45 din L-195/2024 | 25.08.2026 | [[raw/papers/moldova-legal/DCNPDCP-41-2026]] |
 | **Decizia 581/2015** (mod. 2023) | formularul de informare privind supravegherea video (pictograma) | art. 20 alin. (1) lit. g) din L-133/2011 + Regulamentul CNPDCP din Legea 182/2008 | 25.09.2015; consolidare 01.03.2023 | [[raw/papers/moldova-legal/DCNPDCP-581-2015]] |
 
-Nu sînt ingerate: **Ordinul 38/2026** (formularul plîngerii, PDF pe datepersonale.md, negăsit pe legis.md),
-instrucțiunile sectoriale vechi (electoral, poliție, educație, sănătate) și decizia de încetare a prelucrării
-de către partidele politice. Inventarul de mai sus vine din lista „adoptate" a autorității (datepersonale.md,
-consultată 2026-09-21), nu dintr-un registru complet; el nu a fost verificat contra unui alt registru.
+## Ordinul 48/2026 rezolvă întrebarea inițială a lui Eugen
+
+Planul din 21 septembrie (`_meta/plans/2026-09-21-perimetru-protectia-datelor.md`) pornea de la o întrebare
+despre un „ordin nr. 48 din septembrie" și concludea, negăsindu-l nici pe legis.md nici în registrul
+autorității la acea dată, că cel mai probabil e o confuzie cu 39/2026. **Nu era o confuzie: actul există.**
+Adoptat 09.09.2026, publicat abia 16.09.2026 (deci după data planului — de asta nu apărea încă) — Ordinul
+CNPDCP nr. 48/2026, Regulamentul privind efectuarea investigației, doc_id legis.md `156385`, găsit
+2026-09-24 pe pagina „Decizii/Ordine" a datepersonale.md, verificat pe legis.md, ingerat integral (67 puncte,
+0 eșecuri de integritate text la `verify_cnpdcp_ro.py`). Înlocuiește **Ordinul 25/2024**, „Regulamentul
+privind controlul legalității prelucrării datelor cu caracter personal" (acum în arhiva autorității, nu
+ingerat separat — a fost abrogat la 16.09.2026, fără să fi fost vreodată ținut aici). Regulamentul e temeiul
+procedural pentru orice investigație CNPDCP, din oficiu sau pe plângere: termenul general 6 luni,
+prelungibil pînă la 12 (pct. 54), mandatul judecătoresc pentru acces în domiciliu fără consimțământ
+(pct. 36, condiționat de art. 81 alin. (17)-(20) L-195/2024), și o excepție de confidențialitate explicită
+pentru secretul profesional al avocatului „prevăzut la art.55 din Legea nr.1260/2002 cu privire la
+avocatură" (pct. 24) — singura mențiune a unei alte profesii protejate în tot actul.
+
+## Ordinul 38/2026 (formularul plângerii): citit, neancorat
+
+Confirmat 2026-09-24 din PDF-ul autorității (`_meta/imports/cnpdcp/datepersonale-md/`): Ordinul nr. 38, **din
+03.08.2026** (nu „septembrie" cum bănuia planul), în vigoare 23.08.2026, abrogă Ordinul 44/2020. Nu este pe
+legis.md — verificat prin căutare pe titlu, fără rezultat. PDF-ul e o copie scanată fără strat de text
+utilizabil (extracția mecanică dă caractere corupte); textul dispozitiv (pct. 1-4) a fost citit din imaginile
+paginilor și transcris, **neancorat** în sensul SCHEMA.md, ca procedura de decontare DCU
+(`entities/DCU-PROCEDURI.md`). Formularul însuși nu are conținut normativ propriu, cu o excepție: pct. 6 al
+formularului trimite expres la art. 79 alin. (1) lit. g) din L-195/2024 (adresarea prealabilă obligatorie
+față de operator, înainte de plângere la Centru).
+
+## Restul registrului: verificat, nu ingerat
+
+Verificat 2026-09-24 pe cele trei submeniuri rămase ale datepersonale.md:
+
+- **Instrucțiuni Adoptate** (patru acte, toate PDF din 2020, fără cod legis.md găsit): procesul electoral,
+  sectorul polițienesc, sectorul educațional, starea de sănătate. Emise sub L-133/2011; temeiul lor sub
+  art. 90 alin. (5) din L-195-2024 nu a fost verificat articol cu articol.
+- **Decizia din 11.12.2014** privind încetarea de către partidele politice a prelucrării datelor
+  persoanelor care nu le sînt membre (fără număr propriu, semnată de fostul director Vitalie Paniș, temei
+  L-133/2011 art. 19-20 și Regulamentul din Legea 182/2008). Nu ingerată; citită doar pentru a identifica
+  actul modificator de mai jos.
+- **Decizia nr. 08/2023** (23.02.2023), „pentru modificarea și abrogarea unor decizii" — este exact
+  **DCNPDCP 08/2023** despre care [[raw/papers/moldova-legal/DCNPDCP-581-2015]] poartă deja marcajul
+  `[Pct.1^1 introdus prin DCNPDCP08 din 23.02.23...]`: confirmă că textul deținut al 581/2015 e corect.
+  Aceeași decizie mai **abrogă Decizia 176/2015** (cazurile fără autorizare pentru transfer transfrontalier)
+  și modifică definiția consimțământului din decizia din 2014 de mai sus. Niciuna din cele două nu e
+  ingerată — efectul lor practic (176/2015 abrogată, definiția veche înlocuită) nu se mai aplică oricum sub
+  L-195/2024.
+- **Arhiva Decizii/Ordine**: șase intrări, toate decizii de încetare a prelucrării în cauze individuale
+  (Registrul criminalistic, StarNet, SIC „Acces-web", Camera Înregistrării de Stat, gestionarii fondurilor
+  locative) plus Ordinul 25/2024, acum abrogat de 48/2026 de mai sus. Decizii de speță, nu acte cu aplicare
+  generală; nu se ingerează ca izvor de drept.
+- **Regulamente CNPDCP**: un singur act, regulamentul unui concurs Facebook al autorității. Fără relevanță
+  juridică.
+- **Proiecte**: goală la data verificării.
 
 ## Ce face art. 90 alin. (5) din L-195-2024, citit contra L-133/2011
 
@@ -69,7 +126,8 @@ Consecințe, citite din preambulul fiecărui act, nu presupuse:
   Totuși legis.md nu îi dă dată de abrogare, iar site-ul autorității o listează ca în vigoare. **Textul legii și
   practica publicată se contrazic; nu se rezolvă aici.** Pentru orice consiliere despre supravegherea video,
   spune că formularul are temei legal abrogat și că statutul lui se confirmă la Centru. Decizia din 2023 care
-  a introdus pct. 1^1 (DCNPDCP 08/2023) nu este în vault.
+  a introdus pct. 1^1 este **DCNPDCP 08/2023** (identificată 2026-09-24, vezi mai sus); textul ei nu e
+  ingerat separat, dar efectul ei asupra 581/2015 e deja corect reflectat prin marcajul din fișierul deținut.
 
 ## Defecte de sursă și trimiteri de verificat
 
@@ -83,7 +141,8 @@ Consecințe, citite din preambulul fiecărui act, nu presupuse:
 - **Ordinul 31/2026 transpune Decizia (UE) 2021/914**, CELEX 32021D0914, care nu este în vault. Comparația
   clauzelor cu decizia UE nu a fost făcută.
 - **Trimiteri la MO ale L-195/2024 inconsecvente între acte:** Ordinul 27/2022 modificat și 39/2026 dau
-  „nr. 367-369 art. 574", Ordinul 31/2026 dă „nr. 367-396", Ordinul 40/2026 dă „nr. 124-129, art. 248".
+  „nr. 367-369 art. 574", Ordinul 31/2026 dă „nr. 367-396", Ordinul 40/2026 dă „nr. 124-129, art. 248",
+  Ordinul **38/2026** dă „Nr. 367-396, art. 574" (aceeași cifră greșită ca 31/2026, dar cu articolul corect).
   Entitatea [[L-195-2024]] are 367–369 art. 574. Sînt greșeli de redactare în preambulurile ordinelor.
 - **Ordinul 40/2026** cere transmiterea în format electronic cu semnătură electronică calificată la o adresă
   de e-mail a Centrului (pct. 2) și **utilizarea exclusivă a formularului** (pct. 3). Se întemeiază și pe
@@ -95,5 +154,9 @@ Consecințe, citite din preambulul fiecărui act, nu presupuse:
 
 ## Ce lipsește ca ordinele să fie un perimetru complet
 
-Ordinul 38/2026, instrucțiunile sectoriale și reperul de la [[acquis-DataProtection]]: două ordine de mai sus
-transpun acte UE, iar Decizia 2021/914 și lista Comisiei nu au fișier. Planul: `_meta/plans/2026-09-21-perimetru-protectia-datelor.md`.
+Rezolvat 2026-09-24: Ordinul 38/2026 e ingerat (citit, neancorat), Ordinul 48/2026 e ingerat (ancorat pe
+puncte), inventarul complet e verificat contra registrului autorității. Rămas: instrucțiunile sectoriale
+(patru PDF-uri din 2020, temeiul lor sub art. 90 alin. (5) neverificat), și reperul de la
+[[acquis-DataProtection]] — Ordinul 31/2026 și Ordinul 40/2026 transpun acte UE (Decizia 2021/914, lista
+adecvatelor a Comisiei) care nu au fișier propriu în vault. Planul:
+`_meta/plans/2026-09-21-perimetru-protectia-datelor.md`.

@@ -55,9 +55,11 @@ article from a future-dated act, and say in the answer which version applies tod
   legis.md only under the title they were adopted with.
 - `raw/papers/moldova-legal/` — Civil Code, Codul fiscal, Codul administrativ, company law,
   Law 100/2017 on normative acts, and the government decisions. Since 2026-09-21 it also holds the
-  **data-protection perimeter**: six CNPDCP acts (`OCNPDCP-27-2022` consolidated with `OCNPDCP-39-2026`,
-  `OCNPDCP-31-2026`, `OCNPDCP-40-2026`, and the two *decisions* `DCNPDCP-41-2026` and `DCNPDCP-581-2015`),
-  in points, so "pct. N" is not anchored; `L-36-2026`, the ratification law of the Convention 108+
+  **data-protection perimeter**: eight CNPDCP acts (`OCNPDCP-27-2022` consolidated with `OCNPDCP-39-2026`,
+  `OCNPDCP-31-2026`, `OCNPDCP-40-2026`, `OCNPDCP-48-2026` — found 2026-09-24, it is the order Eugen's
+  original question was actually about — and the two *decisions* `DCNPDCP-41-2026` and `DCNPDCP-581-2015`),
+  in points, so "pct. N" is not anchored; `OCNPDCP-38-2026`, found the same day, is not on legis.md at
+  all — a scanned PDF read from its rendered pages, unanchored, like `DCU-REGULI-2026`; `L-36-2026`, the ratification law of the Convention 108+
   protocol (the Protocol's own text is an image-only PDF in `_meta/imports/cnpdcp/legis-md/`, not
   ingested, no OCR); and `UE-2016-679` (GDPR) and `UE-2016-680`, **full text** in Romanian from Cellar,
   articles under `###`, not `##`. Read `entities/CNPDCP-ORDINE.md` before citing any CNPDCP act: art. 90
@@ -164,9 +166,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-21 12:27 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-24 13:02 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-102 primary Moldovan acts, 34 EU acquis extracts, 1 Association Agreement extract(s), 293 BNM corpus documents.
+104 primary Moldovan acts, 34 EU acquis extracts, 1 Association Agreement extract(s), 293 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -269,8 +271,10 @@ Generated 2026-09-21 12:27 from the files themselves. Do not edit this section b
 | `L-92-2022` | 125 | 125 | 2026-06-25 | 1 superscript article normalised |
 | `OCNPDCP-27-2022` | 0 | 0 | 2026-08-23 | no article structure |
 | `OCNPDCP-31-2026` | 0 | 0 | 2026-08-23 | no article structure |
+| `OCNPDCP-38-2026` | - | 0 | 2026-08-23 | no article structure |
 | `OCNPDCP-39-2026` | 0 | 0 | 2026-08-23 | no article structure |
 | `OCNPDCP-40-2026` | 0 | 0 | 2026-08-25 | no article structure |
+| `OCNPDCP-48-2026` | 0 | 0 | 2026-09-16 | no article structure |
 | `UA-STATUT-2011` | 74 | 74 | 2022-05-27 | **more than 2 years old**; 6 superscript articles normalised |
 
 ### Mechanical flags
