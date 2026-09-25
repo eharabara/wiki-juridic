@@ -174,9 +174,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-25 13:12 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-25 13:42 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-167 primary Moldovan acts, 51 EU acquis extracts, 1 Association Agreement extract(s), 293 BNM corpus documents.
+169 primary Moldovan acts, 51 EU acquis extracts, 1 Association Agreement extract(s), 294 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -254,6 +254,7 @@ Generated 2026-09-25 13:12 from the files themselves. Do not edit this section b
 | `L-135-2007` | 93 | 93 | 2026-03-27 | 10 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-136-2017` | 48 | 48 | 2024-06-06 | **more than 2 years old**; 1 superscript article normalised; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-139-2007` | 59 | 59 | 2026-01-01 | 1 superscript article normalised |
+| `L-140-2025` | 24 | 24 | 2025-12-31 | 24 articles numbered in Roman figures |
 | `L-148-2023` | 35 | 35 | 2024-01-08 | **more than 2 years old** |
 | `L-149-2012` | 271 | 271 | 2025-12-31 | 17 superscript articles normalised; 2 provision(s) declared unconstitutional (HCC register) |
 | `L-1543-1998` | 99 | 99 | 2027-01-01 | **consolidation dated in the future**; 38 superscript articles normalised |
@@ -304,6 +305,7 @@ Generated 2026-09-25 13:12 from the files themselves. Do not edit this section b
 | `L-274-2011` | 35 | 35 | 2026-03-18 | clean |
 | `L-284-2004` | 29 | 29 | 2026-02-14 | 1 superscript article normalised |
 | `L-308-2017` | 47 | 47 | 2026-08-13 | 10 superscript articles normalised |
+| `L-317-2025` | 20 | 20 | 2025-12-31 | 20 articles numbered in Roman figures |
 | `L-325-2013` | 28 | 28 | 2024-03-29 | **more than 2 years old**; 2 provision(s) declared unconstitutional (HCC register) |
 | `L-325-2025` | 91 | 91 | 2027-01-01 | **consolidation dated in the future** |
 | `L-36-2026` | 4 | 4 | 2026-08-23 | clean |
@@ -326,7 +328,7 @@ Generated 2026-09-25 13:12 from the files themselves. Do not edit this section b
 | `L-72-2025` | 127 | 127 | 2025-12-31 | clean |
 | `L-764-2001` | 26 | 26 | 2025-06-28 | 3 superscript articles normalised |
 | `L-768-2000` | 28 | 28 | 2025-03-27 | clean |
-| `L-797-1996` | 160 | 160 | 2023-03-24 | **more than 2 years old**; 7 superscript articles normalised; **4 HCC decision(s) not yet attributed to an article** (1 known) |
+| `L-797-1996` | 160 | 160 | 2023-03-24 | **more than 2 years old**; 7 superscript articles normalised; 4 provision(s) declared unconstitutional (HCC register) |
 | `L-80-2010` | 30 | 30 | 2026-09-13 | 1 superscript article normalised |
 | `L-82-2017` | 51 | 51 | 2026-09-13 | 1 superscript article normalised |
 | `L-845-1992` | 46 | 46 | 2027-01-01 | **consolidation dated in the future**; 11 superscript articles normalised; 3 provision(s) declared unconstitutional (HCC register) |
@@ -352,7 +354,7 @@ Generated 2026-09-25 13:12 from the files themselves. Do not edit this section b
 
 - **Repealed acts.** no longer in force: `L-133-2011` (repealed 2026-08-23 by LP195 din 25.07.24). These files are kept because other acts in the corpus still cite them and because the text governs facts before the repeal date. They are anchored, their sha256 verifies and their consolidation is recent, so nothing else here would reveal that they stopped binding. Do not cite them as law in force; cite the successor and say from when it applies.
 - **Not yet in force.** 14 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-1134-1997` (2028-01-01), `L-171-2012` (2027-06-01), `COD-122-2003` (2026-12-02), `COD-154-2003` (2027-01-01), `COD-443-2004` (2026-12-02), `COD-985-2002` (2026-12-02), `HG-743-2024` (2026-12-30), `L-132-2016` (2027-01-01), `L-133-2016` (2027-01-01), `L-1543-1998` (2027-01-01), `L-181-2014` (2027-01-01), `L-325-2025` (2027-01-01), `L-845-1992` (2027-01-01), `L-114-2012` (2027-01-01). 70 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
-- **Declared unconstitutional.** 31 act(s) carry at least one Constitutional Court decision in their history block, 95 decisions in total: 37 still marked at article level in the text itself, 113 more recovered by reading the legis.md version history (`_meta/hcc/recovered-provisions.json`), and 4 not yet attributed to any article. A struck provision looks like ordinary law: the article exists, the anchor is valid, the sha256 matches. Check `_meta/hcc/hcc-register.md` before citing an article from `COD-116-2018`, `COD-1163-1997`, `COD-122-2003`, `COD-154-2003`, `COD-174-2018`, `COD-218-2008`, `COD-225-2003`, `COD-325-2022`, `COD-443-2004`, `COD-985-2002`, `CONST-1994`, `L-100-2001`, `L-121-2007`, `L-1260-2002`, `L-132-2016`, `L-133-2016`, `L-135-2007`, `L-136-2017`, `L-149-2012`, `L-158-2008`, `L-181-2014`, `L-213-2023`, `L-24-2008`, `L-270-2018`, `L-325-2013`, `L-514-1995`, `L-52-2014`, `L-548-1995`, `L-64-2010`, `L-797-1996`, `L-845-1992` and say which decision struck it and what today's text actually holds.
+- **Declared unconstitutional.** 31 act(s) carry at least one Constitutional Court decision in their history block, 94 decisions in total: 37 still marked at article level in the text itself, 118 more recovered by reading the legis.md version history (`_meta/hcc/recovered-provisions.json`), and 0 not yet attributed to any article. A struck provision looks like ordinary law: the article exists, the anchor is valid, the sha256 matches. Check `_meta/hcc/hcc-register.md` before citing an article from `COD-116-2018`, `COD-1163-1997`, `COD-122-2003`, `COD-154-2003`, `COD-174-2018`, `COD-218-2008`, `COD-225-2003`, `COD-325-2022`, `COD-443-2004`, `COD-985-2002`, `CONST-1994`, `L-100-2001`, `L-121-2007`, `L-1260-2002`, `L-132-2016`, `L-133-2016`, `L-135-2007`, `L-136-2017`, `L-149-2012`, `L-158-2008`, `L-181-2014`, `L-213-2023`, `L-24-2008`, `L-270-2018`, `L-325-2013`, `L-514-1995`, `L-52-2014`, `L-548-1995`, `L-64-2010`, `L-797-1996`, `L-845-1992` and say which decision struck it and what today's text actually holds.
 - **Stale consolidations.** `OCNPDCP-03-1-2013` (2013-02-28), `OCNPDCP-POLITIE-2013` (2013-05-01), `DCNPDCP-PARTIDE-2014` (2014-12-17), `OCNPDCP-03-2015` (2015-01-01), `L-23-2008` (2016-09-30), `L-66-2017` (2017-06-02), `L-25-2008` (2018-01-12), `L-250-2017` (2018-03-29), `CETS-223-2018` (2018-10-10), `L-24-2008` (2018-11-08), `HBN-130-2013` (2018-12-23), `L-133-2018` (2019-03-01), `HBN-127-2013` (2021-05-09), `HCNPF-14-5-2016` (2022-05-06), `UA-STATUT-2011` (2022-05-27), `DCNPDCP-08-2023` (2023-03-01), `DCNPDCP-581-2015` (2023-03-01), `L-797-1996` (2023-03-24), `L-246-2017` (2023-06-02), `HG-967-2016` (2023-08-08), `L-160-2023` (2023-10-01), `L-183-2016` (2023-10-21), `L-165-2023` (2023-10-26), `L-71-2007` (2023-12-22), `L-148-2023` (2024-01-08), `L-64-2010` (2024-01-23), `L-325-2013` (2024-03-29), `L-435-2006` (2024-05-02), `DCA-61-2024` (2024-05-05), `L-523-1999` (2024-05-16), `L-136-2017` (2024-06-06), `L-595-1999` (2024-06-06), `HG-1171-2018` (2024-07-05), `HG-610-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `L-229-2010` (2024-08-02), `HG-574-2024` (2024-08-23). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
 - **BNM English corpus.** 60 file(s) carry 149 line-initial `Article N` markers and no anchors. Any answer resting on the English BNM translations is not anchored.
 
@@ -501,6 +503,8 @@ Do not resolve these on your own. Raise them if a matter touches them.
      title search, and "inventor"/"primate" are real words, so a search will not even look wrong.
      This is now four separate acts with the same class of defect, so treat a failed title search
      as a source-spelling hypothesis before treating it as a missing provision.
+     **A fifth kind, found 2026-09-25: a Cyrillic letter in a Latin position.** `L-121-2018` art. 5 alin. (3), line 159, opens with `с)` where the
+     `с` is U+0441 (Cyrillic), not `c`; a search for `c) elaborarea` finds nothing. It is the provision `L-140-2025` art. XVIII will abrogate.
 
 5. **The English BNM corpus is unanchored.** The generated flags give the current count. Decided
    on 2026-09-05 (decision D2 of the restructuring plan): a translation never carries an anchor.
@@ -821,6 +825,11 @@ with no basis in the source. The refreshed consolidation contains it. No action 
    central authorities and two years (05.09.2027, computed) for local ones; alin. (4) opens a two-year tacit-approval derogation from art. 6^2
    alin. (3) of the same law. It is the first case where the deferral also shows in the *target* act, as a `NOTĂ:` line under art. 4^2 alin. (8)
    in `L-160-2011`, and even there the register misses it because it reads bracket markers, not `NOTĂ`. Detail in `entities/L-227-2025.md`.
+   **Tenth, the same day, at `L-317-2025`** (the law that amended `L-227-2025`): art. XVII inserts into art. XXIV alin. (1) of Law 140/2025 (migration
+   of central administrative authorities) an exception that puts its arts. VI, VIII, XII, XVI, XVII, XVIII in part, and XX-XXIII in force on 30.11.2027.
+   The deferral sits in an amending law and points at a **third** act; that act, `L-140-2025`, was ingested the same day and art. XXIV alin. (1)
+   reads exactly so, with its `[Art.XXIV al.(1) modificat prin LP317]` marker lost in the newer consolidation (152770, 01-01-2026; the marker
+   survives only in 149260). Detail in `entities/L-317-2025.md` and `entities/L-140-2025.md`.
    Two other things learned ingesting the same batch, general enough to matter beyond this act:
    `ingest_business_law.py`'s `DATE_RE` could misread a Monitorul Oficial citation like
    `MO338-341/30.09.16` as a second, spurious date (the tail of "341" plus the real date, parsed as

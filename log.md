@@ -2305,3 +2305,30 @@
   `pending-consolidations.json` (fișierul e pentru consolidări viitoare neingerate). Cazul intră ca al nouălea la întrebarea 9.
 - **Unde:** `raw/papers/moldova-legal/L-227-2025.md`, `entities/L-227-2025.md`, `_meta/imports/moldova-legal/ingest_business_law.py`,
   manifest secțiunea AS, `CLAUDE.md` întrebarea 9, `index.md`.
+
+## [2026-09-25] ingest | Legea 317/2025, corectura Legii 227/2025: 20 de articole, o amînare nouă în proză într-un act neînglobat
+
+- **Aflat:** LP317 rescrie art. XLII alin. (1) din LP227 (data 30.12.2025, cu o zi înaintea propriei intrări în vigoare la 31.12.2025), art. 12^9 din L-160-2011
+  și părți din Legea cinematografiei. Art. XVII pune în vigoare la 30.11.2027 articole din Legea 140/2025, care nu e în vault: al zecelea caz din întrebarea 9.
+  Prima descărcare din Chrome a părut eșuată și a ajuns tîrziu; s-a repetat dintr-un tab nou, copia dublă a fost ștearsă.
+- **Decis:** Eugen a aprobat descărcarea cu numele, sursa și mărimea în față. Ancorat roman-amending; Legea 140/2025 nu s-a ingerat (nu a fost cerută).
+- **Unde:** `raw/papers/moldova-legal/L-317-2025.md`, `entities/L-317-2025.md`, `entities/L-227-2025.md`, `_meta/imports/moldova-legal/ingest_business_law.py`,
+  manifest secțiunea AT, `CLAUDE.md` întrebarea 9, `index.md`.
+
+## [2026-09-25] ingest | Legea 140/2025: amînarea din LP317 art. XVII se poate citi acum; un act amînat aterizează pe unul abrogat mai devreme
+
+- **Aflat:** art. XXIV alin. (1) din LP140 confirmă exact ce spunea LP317: arts. VI, VIII, XII, XVI, XVII, XVIII (alin. (3) lit. c)), XX–XXIII la 30.11.2027. Art. XVIII abrogă lit. c) din art. 5 alin. (3) al L-121-2018, dar L-22-2025 art. 54 alin. (3) abrogă tot L-121-2018 la 27.03.2027, mai devreme (concluzie a mea). Marcajul LP317 de sub art. XXIV alin. (1) a dispărut din versiunea nouă 152770 și există doar în 149260. Lit. c) din L-121-2018 e scrisă cu chirilic.
+- **Decis:** Eugen a aprobat descărcarea cu numele, sursa și mărimea în față. Reținută 152770 (cea mai nouă), nu 149260. Ancorat roman-amending. Cele 16 ținte nedeținute nu s-au ingerat.
+- **Unde:** `raw/papers/moldova-legal/L-140-2025.md`, `entities/L-140-2025.md`, `entities/L-317-2025.md`, `_meta/imports/moldova-legal/ingest_business_law.py`, manifest secțiunea AU, `CLAUDE.md` întrebările 4 și 9, `index.md`.
+
+## [2026-09-25] update | Regulamentul Parlamentului: coada HCC recuperată și falsul pozitiv eliminat
+
+- **Aflat:** istoricul sursei brute scria eronat `HCC194` pentru LP194/2016; versiunea oficială legis.md confirmă legea, nu o hotărâre a Curții. Pentru hotărârile reale, lectura versiunilor de la data deciziei și a dispozitivelor a identificat art. 47 alin. (12), numai sintagma „și adoptat”; art. 88 alin. (3); și art. 97 alin. (6), alin. (7), respectiv cuvântul „secret” din alin. (8).
+- **Decis:** Eugen a autorizat corectarea punctuală a etichetei din `raw/`; hash-ul corpului a fost recalculat. Registrul HCC păstrează delimitarea pentru fiecare dispoziție, inclusiv contradicția de poziționare din afișarea legis.md pentru HCC20, rezolvată după dispozitivul Curții.
+- **Unde:** `raw/papers/moldova-legal/L-797-1996.md`, `_meta/hcc/recovered-provisions.json`, `_meta/hcc/hcc-register.md`.
+
+## [2026-09-25] ingest | Procedura DCU de decontare recuperată prin PDF-ul oficial
+
+- **Aflat:** PDF-ul local al procedurii de decontare are 28 de pagini, dar glifele sînt imagini și extracția PyMuPDF nu produce text utilizabil. PDF-ul oficial de pe dcu.md este accesibil separat și a returnat text integral prin `web_extract`, inclusiv pașii OTC pentru succesiune, documentele necesare, vizita la DCU și anexa nr. 1 cu MD03 (moștenire) și MD09 (succesiune). Hash-ul PDF-ului local este `5ff70696aeb09e0d798947dfb5fb5182adec34d180bba4487e6319ba9392f864`; extrasul are 988 de linii și nu are ancore de articol.
+- **Decis:** extracția web intră în `raw/` ca derivat verificabil, fără corectarea textului și fără a fi prezentată ca transcriere byte-verificată. Gapul „procedura fără text” este închis pentru căutare și analiză; rămîne deschisă verificarea citatelor în PDF pentru publicare externă. Pagina de entitate și indexul reflectă nouă proceduri ingerate.
+- **Unde:** `raw/papers/bnm/dcu/DCU-PROC-DECONTARE.md`, `raw/papers/bnm/dcu/_manifest.md`, `entities/DCU-PROCEDURI.md`, `index.md`.

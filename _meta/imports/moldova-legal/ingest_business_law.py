@@ -846,6 +846,20 @@ DOCS = {
     # SHA-256 d3fb87fba7a6..., luat din Chrome-ul lui Eugen prin fetch + blob.
     'L-227-2025': {'doc_id': '150581', 'anchor_mode': 'roman-amending',
                    'title': 'Legea nr. 227/2025 pentru modificarea unor acte normative (optimizarea proceselor de obtinere a actelor permisive)'},
+    # 2026-09-25, la cererea lui Eugen, imediat dupa L-227-2025: LP317 este legea care i-a rescris art. XLII
+    # alin. (1) (marcajul "Art.XLII al.(1) in redactia LP317"). doc_id gasit in linkul din fisa lui LP227
+    # (getResults 150581, ancora "LP317 din 29.12.25"), nu prin cautare. O singura versiune in istoric,
+    # 152374 @ 31-12-2025; niciun "abrogat" in corp. Lege de modificare cu articole romane pina la XVIII.
+    # HTML 64.188 octeti, SHA-256 377814f301f84c13b163..., luat din Chrome-ul lui Eugen (a doua descarcare
+    # de pe acelasi site a cerut tab nou, prima a ajuns tirziu ca "(1)").
+    'L-317-2025': {'doc_id': '152374', 'anchor_mode': 'roman-amending',
+                   'title': 'Legea nr. 317/2025 pentru modificarea unor acte normative (optimizarea procedurilor la eliberarea actelor permisive)'},
+    # 2026-09-25, la cererea lui Eugen: art. XVII din LP317 amana in proza, la 30.11.2027, articole din aceasta lege, care nu era in vault.
+    # Lege de MODIFICARE (migrarea autoritatilor administrative centrale), 24 de articole romane. Doua versiuni: 149260 @ 31-12-2025
+    # (3 marcaje LP317) si 152770 @ 01-01-2026 (1 marcaj; textul art. XXIV alin. (1) identic, marcajul de sub el lipseste). Luata cea mai
+    # noua care nu e in viitor, 152770; marcajele pierdute se recupereaza din 149260. HTML 59.554 octeti, SHA-256 b1f4eb70fa44d00de74d06a3...
+    'L-140-2025': {'doc_id': '152770', 'anchor_mode': 'roman-amending',
+                   'title': 'Legea nr. 140/2025 pentru modificarea unor acte normative (migrarea autoritatilor administrative centrale)'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

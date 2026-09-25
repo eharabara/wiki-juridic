@@ -3091,11 +3091,6 @@
    ],
    "fisa": [
     {
-     "hcc": "HCC194/2016-07-28",
-     "line": 77,
-     "text": "HCC194 din 28.07.16, МО293-305/09.09.16 art.624"
-    },
-    {
      "hcc": "HCC27/2015-11-17",
      "line": 78,
      "text": "HCC27 din 17.11.15, МО69-77/25.03.16 art.12"
@@ -3116,32 +3111,86 @@
      "text": "HCC15 din 04.12.12, МО273-279/28.12.12 art.27"
     }
    ],
-   "recovered": [],
-   "unattributed": [
+   "recovered": [
     {
-     "hcc": "HCC194/2016-07-28",
-     "line": 77,
-     "text": "HCC194 din 28.07.16, МО293-305/09.09.16 art.624"
-    },
-    {
-     "hcc": "HCC27/2015-11-17",
-     "line": 78,
-     "text": "HCC27 din 17.11.15, МО69-77/25.03.16 art.12"
-    },
-    {
-     "hcc": "HCC20/2014-06-04",
-     "line": 84,
-     "text": "HCC20 din 04.06.14, МО249-255/22.08.14 art.34"
-    },
-    {
+     "instrument": "L-797-1996",
      "hcc": "HCC15/2012-12-04",
-     "line": 89,
-     "text": "HCC15 din 04.12.12, МО273-279/28.12.12 art.27"
+     "article": "47",
+     "subunit": "al.(12), sintagma «și adoptat»",
+     "scope": "text din articol",
+     "quoted_text": "și adoptat",
+     "official_gazette": "MO273-279/28.12.12 art.27",
+     "read_doc_id": "89075",
+     "read_consolidation": "2012-12-28",
+     "decision_doc_id": "ccdoc:433",
+     "verified": "2026-09-25",
+     "status_today": "sintagma nu mai apare in alin. (12) curent, care prevede numai ca proiectul neexaminat devine nul",
+     "summary": "Versiunea istorica indica nota HCC15 dupa alin. (12); dispozitivul Curtii priveste sintagma «și adoptat» introdusa prin art. I LP115/2012, nu intregul alineat."
+    },
+    {
+     "instrument": "L-797-1996",
+     "hcc": "HCC20/2014-06-04",
+     "article": "88",
+     "subunit": "al.(3)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO249-255/22.08.14 art.34",
+     "read_doc_id": "89080",
+     "read_consolidation": "2014-06-04",
+     "decision_doc_id": "ccdoc:507",
+     "verified": "2026-09-25",
+     "status_today": "alin. (3) este marcat astazi «- abrogat»",
+     "summary": "Dispozitivul HCC20/2014 declara neconstitutional alin. (3) al art. 88. Afisarea legis.md a versiunii de dupa hotarire plaseaza nota dupa alin. (4), dar versiunea imediat anterioara si dispozitivul identifica fara echivoc alin. (3)."
+    },
+    {
+     "instrument": "L-797-1996",
+     "hcc": "HCC27/2015-11-17",
+     "article": "97",
+     "subunit": "al.(6)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO69-77/25.03.16 art.12",
+     "read_doc_id": "91766",
+     "read_consolidation": "2015-11-17",
+     "decision_doc_id": "ccdoc:559",
+     "verified": "2026-09-25",
+     "status_today": "alin. (6) este marcat astazi «- abrogat»",
+     "summary": "Marcajul din versiunea 91766 si dispozitivul HCC27/2015 identifica alin. (6), care impunea majoritatea deputatilor alesi si vot secret pentru cererea Procurorului General."
+    },
+    {
+     "instrument": "L-797-1996",
+     "hcc": "HCC27/2015-11-17",
+     "article": "97",
+     "subunit": "al.(7)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO69-77/25.03.16 art.12",
+     "read_doc_id": "91766",
+     "read_consolidation": "2015-11-17",
+     "decision_doc_id": "ccdoc:559",
+     "verified": "2026-09-25",
+     "status_today": "alin. (7) este marcat astazi «- abrogat»",
+     "summary": "Marcajul din versiunea 91766 si dispozitivul HCC27/2015 identifica alin. (7), care aplica art. 8 votarii secrete."
+    },
+    {
+     "instrument": "L-797-1996",
+     "hcc": "HCC27/2015-11-17",
+     "article": "97",
+     "subunit": "al.(8), cuvântul «secret»",
+     "scope": "text din articol",
+     "quoted_text": "secret",
+     "official_gazette": "MO69-77/25.03.16 art.12",
+     "read_doc_id": "91766",
+     "read_consolidation": "2015-11-17",
+     "decision_doc_id": "ccdoc:559",
+     "verified": "2026-09-25",
+     "status_today": "alin. (8) curent pastreaza numai votarea prin hotarare, fara cuvantul «secret»",
+     "summary": "Marcajul din versiunea 91766 identifica exact cuvantul «secret» din alin. (8), nu intregul alineat; dispozitivul HCC27/2015 confirma intinderea limitata."
     }
    ],
+   "unattributed": [],
    "distinct_hcc": [
     "HCC15/2012-12-04",
-    "HCC194/2016-07-28",
     "HCC20/2014-06-04",
     "HCC27/2015-11-17",
     "HCC7/2016-03-04"
@@ -3293,9 +3342,9 @@
  ],
  "counts": {
   "acts": 31,
-  "distinct_hcc": 95,
+  "distinct_hcc": 94,
   "markers_in_text": 37,
-  "recovered": 113,
-  "unattributed": 4
+  "recovered": 118,
+  "unattributed": 0
  }
 }

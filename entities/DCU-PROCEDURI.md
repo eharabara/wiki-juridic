@@ -1,7 +1,7 @@
 ---
-title: DCU-PROCEDURI — Procedurile Depozitarului Central Unic al Valorilor Mobiliare (dcu.md, opt din nouă ingerate)
+title: DCU-PROCEDURI — Procedurile Depozitarului Central Unic al Valorilor Mobiliare (dcu.md, nouă din nouă ingerate)
 created: '2026-09-09'
-updated: '2026-09-09'
+updated: '2026-09-25'
 type: entity
 perimeter: legal
 tags:
@@ -13,6 +13,7 @@ tags:
 - capital-market
 - securities
 sources:
+- raw/papers/bnm/dcu/DCU-PROC-DECONTARE.md
 - raw/papers/bnm/dcu/DCU-PROC-INREGISTRARE-VM.md
 - raw/papers/bnm/dcu/DCU-PROC-PARTICIPANT.md
 - raw/papers/bnm/dcu/DCU-PROC-RECONCILIERE.md
@@ -25,22 +26,22 @@ sources:
 confidence: medium
 ---
 
-# DCU-PROCEDURI — Procedurile Depozitarului Central Unic al Valorilor Mobiliare (dcu.md, opt din nouă ingerate)
+# DCU-PROCEDURI — Procedurile Depozitarului Central Unic al Valorilor Mobiliare (dcu.md, nouă din nouă ingerate)
 
 - **emitent:** Comitetul executiv al DCU, în temeiul art. 4 alin. (2) din [[DCU-REGULI-2026]]; obligatorii pentru DCU, participanți, emitenți, deținători și alte persoane conform art. 4 alin. (3) din Reguli. Nu sunt acte ale BNM, nu sunt pe legis.md, nu apar în Monitorul Oficial; se publică pe pagina dcu.md a Procedurilor, câte un PDF fiecare.
-- **statut:** nouă proceduri în vigoare la 9 septembrie 2026, două abrogate și neingerate. Fiecare are aprobarea și intrarea în vigoare pe pagina de titlu, reprodusă ca text în fișierul brut. Datele, citite din paginile de titlu extrase: înregistrarea VM, HCE DCU nr. 11/2020, în vigoare 10.04.2020, modificată prin HCE 19/2020, 27/2020 și 4/2023; participantul, HCE 22/2020, 07.09.2020; deținătorul, HCE 23/2020, 07.09.2020; reconcilierea, HCE 11/2020, 14.06.2020, modificată prin HCE 22/2023; insolvabilitatea, HCE 27/2021, 25.10.2021; garanțiile, HCE 14/2021, 05.07.2021; comisioanele, HCE 23/2023, 29.09.2023; reclamațiile, HCE 31/2018, document „extras". Pentru **decontare**, nimic din text: vezi mai jos.
+- **statut:** nouă proceduri în vigoare la 25 septembrie 2026, două abrogate și neingerate. Fiecare are aprobarea și intrarea în vigoare pe pagina de titlu, reprodusă ca text în fișierul brut. Datele, citite din paginile de titlu extrase: înregistrarea VM, HCE DCU nr. 11/2020, în vigoare 10.04.2020, modificată prin HCE 19/2020, 27/2020 și 4/2023; participantul, HCE 22/2020, 07.09.2020; deținătorul, HCE 23/2020, 07.09.2020; reconcilierea, HCE 11/2020, 14.06.2020, modificată prin HCE 22/2023; insolvabilitatea, HCE 27/2021, 25.10.2021; garanțiile, HCE 14/2021, 05.07.2021; comisioanele, HCE 23/2023, 29.09.2023; reclamațiile, HCE 31/2018, document „extras"; decontarea, HCE DCU nr. 21/2020, în vigoare la 23.12.2020, modificată prin HCE 29/2020, 2/2022 și 10/2024.
 - **structură:** puncte, în forme diferite de la o procedură la alta (1., 1.1., liste cu buline, tabele cu întrebări și răspunsuri). **Fără ancore de articol**; o trimitere la „pct. N" nu este ancorată, se citează prin titlul secțiunii, verificând în fișier. Patru documente au textul fragmentat de font („garan | ț iilor"); textul este întreg, căutarea după cuvânt poate rata.
-- **surse:** cele opt fișiere din `raw/papers/bnm/dcu/`, manifestul folderului `raw/papers/bnm/dcu/_manifest.md`.
+- **surse:** cele nouă fișiere din `raw/papers/bnm/dcu/`, manifestul folderului `raw/papers/bnm/dcu/_manifest.md` și pagina oficială DCU pentru proceduri.
 
 ## De ce sunt în wiki
 
 Sunt ultimul strat al lanțului speței moștenitorului unui acționar de bancă: art. 4 alin. (2) din [[DCU-REGULI-2026]] lasă Procedurilor detaliul operațional pe care Regulile nu îl au, iar întrebarea deschisă 1 de pe pagina Regulilor, „ce documente cere DCU pentru creditarea contului moștenitorului", nu avea unde să fie citită.
 
-## Procedura de decontare — singura care descrie succesiunea, și singura fără text
+## Procedura de decontare — singura care descrie succesiunea, acum cu text extras
 
-PDF-ul `Proceduri operatiuni decontare.pdf` (28 de pagini, 5,6 MB, produs din Word la 07.05.2024) are glifele randate ca imagini: PyMuPDF scoate doar antetul, numerele de pagină și punctele de suspensie ale cuprinsului. Fără OCR pe mașină, scriptul îl refuză; originalul este arhivat cu hash în `_meta/imports/bnm/dcu/proceduri/`. **Ce urmează este citit din imaginile paginilor 2, 3, 12, 13, 19, 25 și 26, randate la 125 dpi. Nu este text în vault, nu este ancorat, și nu se citează extern fără OCR sau fără PDF-ul deschis alături.**
+PDF-ul `Proceduri operatiuni decontare.pdf` are 28 de pagini și este arhivat cu hash în `_meta/imports/bnm/dcu/proceduri/`. Extracția locală inițială nu avea strat de text, dar PDF-ul oficial este accesibil la URL-ul DCU și a fost extras integral prin `web_extract` într-un raw derivat, cu hash-ul PDF-ului local verificat. **Textul este acum în vault pentru căutare și analiză; nu are ancore de articol, iar citarea externă trebuie verificată în pagina PDF indicată.**
 
-- **Cine poate înstrăina** (p. 12, „Persoanele care pot efectua tranzacții cu valori mobiliare"): înstrăinarea o face proprietarul sau reprezentantul lui; „Moștenitorii și succesorii pot înstrăina valorile mobiliare după ce obțin dreptul de proprietate asupra valorilor mobiliare ca urmare a moștenirii sau succesiunii." Deci pentru DCU moștenitorul devine mai întâi proprietar prin creditarea contului său, apoi poate dispune.
+- **Cine poate înstrăina** (p. 12, „Persoanele care pot efectua tranzacții cu valori mobiliare"): înstrăinarea o face proprietarul sau reprezentantul lui; moștenitorii și succesorii pot înstrăina după ce obțin dreptul de proprietate ca urmare a moștenirii sau succesiunii. Deci pentru DCU moștenitorul devine mai întâi proprietar prin creditarea contului său, apoi poate dispune. Textul integral și pagina sînt în `raw/papers/bnm/dcu/DCU-PROC-DECONTARE.md`.
 - **Pașii transferului în afara pieței reglementate** (p. 12–13, „Transferul valorilor mobiliare"): 1) solicitantul prezintă documentele necesare la DCU; 2) DCU examinează documentele, emite factura de plată și pregătește dispoziția de transmitere; 3) părțile semnează dispoziția de transmitere; 4) DCU efectuează transferul. Solicitarea se trimite la `vmc@dcu.md`, prin Viber sau WhatsApp, sau la oficiul DCU, luni–vineri, 9–12 și 13–15.
 - **Documentele necesare** (p. 13): „se prezintă documentele specificate în **Regulamentul CNPF nr. 14/5/2016 privind circulația valorilor mobiliare pe piața de capital**, ținând cont de tipul tranzacției preconizate"; DCU își rezervă dreptul la documente suplimentare de prevenire a spălării banilor. Lista documentelor pentru succesiune nu este deci în Proceduri, ci în acel regulament CNPF, care nu este în vault.
 - **Vizita la DCU** (p. 13): părțile se prezintă la oficiu pentru a semna dispoziția de transmitere și chestionarul de identificare a clientului, cu actul de identitate în original și, pentru reprezentant, procura în original; actele în original se restituie imediat.
@@ -76,7 +77,7 @@ Pagina `https://www.dcu.md/ro/reglementari/procedurile-dcu`, citită cu `curl` (
 
 ## Întrebări deschise
 
-1. **OCR pentru procedura de decontare.** Fără el, singura procedură care descrie succesiunea rămâne citită din imagine. Tesseract cu pachetul de limbă română, sau textul de la DCU.
+1. **Închisă pentru căutare și analiză.** Procedura de decontare are acum text integral extras din PDF-ul oficial prin `web_extract`, cu PDF-ul local și hash-ul sursei păstrate. Limitarea rămasă este lipsa ancorelor de articol și necesitatea verificării citatelor în pagina PDF înainte de publicare externă.
 2. **Închisă în aceeași zi.** Regulamentul CNPF nr. 14/5/2016 este ingerat ca [[HCNPF-14-5-2016]]; pct. 27 al lui numește documentul: certificatul de moștenitor eliberat de notar și, după caz, actele notariale de partaj, donație sau vânzare a cotei succesorale.
 3. **Închisă parțial.** Hotărârea CNPF nr. 38/5/2015 este ingerată ca [[HCNPF-38-5-2015]], sub titlul ei nou; F7 este raportul zilnic al tranzacțiilor în afara pieței, dar nomenclatorul tipurilor de tranzacții stă în anexa nr. 1, absentă din textul legis.md, deci „codul 4 = moștenire" rămâne neverificabil din vault.
 4. **Reconstituirea fragmentelor de font** din cele patru documente, prin lipirea rulajelor de pe aceeași linie de bază; posibilă și repetabilă, nefăcută, ca extracția să rămână cea implicită. Decizia este a lui Eugen.

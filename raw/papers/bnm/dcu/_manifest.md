@@ -19,7 +19,8 @@ câte unul pe procedură, cu cele două proceduri abrogate listate separat și n
   în fișier.
 - Verificare: `--verify` re-extrage și compară linie cu linie, controlează hash-ul PDF-ului
   (`source_file_sha256`), al extracției (`sha256_extraction`) și al corpului (`sha256`), și cere
-  zero ancore. Toate opt: PASS.
+  zero ancore. Cele opt extracții PyMuPDF: PASS; a noua extracție derivată din PDF-ul oficial:
+  hash PDF și corp verificate, fără ancore.
 - Fișa fiecărui act (aprobare, intrare în vigoare, modificări) este în pagina de titlu a PDF-ului,
   reprodusă ca text în fiecare fișier; nu este transcrisă de mână în frontmatter.
 
@@ -27,7 +28,7 @@ câte unul pe procedură, cu cele două proceduri abrogate listate separat și n
 
 | Fișier | Procedura | Aprobare (din pagina de titlu) | Pagini | Linii | Integritate | Note |
 |---|---|---|---:|---:|---|---|
-| — | Proceduri privind operațiunile de decontare (VMC: vânzare, donație, **succesiune**; VMS și CBN; BVM și BAS; conturi; extras) | necunoscută din text | 28 | — | **neingerat** | PDF cu paginile randate ca imagini, fără strat de text (glifele sunt imagini, 3.157 pe document); original arhivat, sha256 `5ff70696…`; OCR necesar |
+| `DCU-PROC-DECONTARE.md` | Proceduri privind operațiunile de decontare (VMC: vânzare, donație, **succesiune**; VMS și CBN; BVM și BAS; conturi; extras) | HCE DCU nr. 21/2020, în vigoare 23.12.2020; modificată prin HCE 29/2020, 2/2022 și 10/2024 | 28 | 988 | **PASS derivat** | PDF local fără strat de text exploatabil; text integral extras de pe PDF-ul oficial prin web_extract; original arhivat, sha256 `5ff70696aeb09e0d798947dfb5fb5182adec34d180bba4487e6319ba9392f864`; fără ancore |
 | `DCU-PROC-INREGISTRARE-VM.md` | Proceduri privind înregistrarea emitentului și valorilor mobiliare | HCE DCU nr. 11/2020, în vigoare 10.04.2020; modificată prin HCE 19/2020 (aplicare 01.07.2020), 27/2020, 4/2023 | 13 | 709 | PASS | cuprinde lista acționarilor ca serviciu adițional |
 | `DCU-PROC-PARTICIPANT.md` | Proceduri privind înregistrarea participantului DCU | HCE DCU nr. 22/2020, în vigoare 07.09.2020 | 2 | 72 | PASS | |
 | `DCU-PROC-RECONCILIERE.md` | Proceduri de reconciliere | HCE DCU nr. 11/2020, modificată prin HCE 22/2023, în vigoare 14.06.2020 | 9 | 911 | PASS | text fragmentat de font |
@@ -42,14 +43,13 @@ cifrele („14 | / 20 | 21"), reconstituirea este a manifestului, nu a textului,
 
 ## Două limite ale acestui lot
 
-1. **Procedura de decontare nu are text.** Este singura care descrie pasul succesiunii, deci exact
-   cea care lipsea lanțului. PDF-ul a fost produs din Word la 07.05.2024 cu glifele randate ca
-   imagini; PyMuPDF scoate doar antetul, numerele de pagină și cuprinsul cu puncte de suspensie.
-   Fără Tesseract pe mașină, nu există OCR; scriptul o refuză explicit, ca să nu intre în vault o
-   extracție inventată. Cuprinsul, citit din imaginea paginii, arată secțiunile „Decontarea
-   tranzacțiilor încheiate în afara pieței reglementate și MTF (OTC)", p. 12–13, cu „Documente
-   necesare", „Vizita la DCU", „Taxe și impozite", și „Anexa nr. 1. Scopul transferului", p. 25.
-   Ce s-a putut citi din imagine este pe pagina de entitate, marcat ca citit din imagine, nu ancorat.
+1. **Procedura de decontare are text derivat.** Este singura care descrie pasul succesiunii, deci exact
+   cea care lipsea lanțului. PDF-ul local rămâne fără strat de text exploatabil, dar PDF-ul oficial
+   `https://www.dcu.md/doc/Proceduri%20operatiuni%20decontare.pdf` a fost extras integral prin
+   `web_extract` și păstrat în `raw/papers/bnm/dcu/DCU-PROC-DECONTARE.md`. Textul include secțiunile
+   „Documente necesare", „Vizita la DCU", „Taxe și impozite" (p. 12–13) și „Anexa nr. 1. Scopul
+   transferului" (p. 25–28). Rămân fără ancore de articol și trebuie verificate în PDF pentru citare
+   externă.
 2. **Fragmentarea textului de font.** Patru documente (reconciliere, insolvabilitate, garanții,
    comisioane) au fost produse cu un font care desparte diacriticele și cifrele în rulaje separate;
    extracția le redă pe rânduri separate („garan | ț iilor", „5 iu | l ie 202 | 1"). Textul este
@@ -60,8 +60,8 @@ cifrele („14 | / 20 | 21"), reconstituirea este a manifestului, nu a textului,
 
 ## Ce rămâne deschis
 
-- OCR pentru procedura de decontare, cu Tesseract și pachetul de limbă română, sau un text
-  furnizat de DCU.
+- Validarea citatelor din procedura de decontare în PDF-ul oficial înainte de publicare externă; extrasul
+  web este suficient pentru căutare locală, dar nu transformă automat textul în transcriere byte-verificată.
 - Nota de copyright de pe fiecare pagină de titlu (Legea 139/2010): aceeași apreciere ca la Regulile
   DCU, a lui Eugen; vault-ul este privat.
 - Documentele model (cereri, formulare) de pe pagina „Documente model" a dcu.md nu sunt ingerate.

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-25 | Total pages: 212
+> Last updated: 2026-09-25 | Total pages: 214
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -31,7 +31,7 @@
 - [[COD-985-2002]] — Codul penal: 388 de articole, fara lacune; consolidare 2026-12-02, data viitoare.
 - [[CONST-1994]] — Constituția Republicii Moldova, republicată 13.11.2024: 157 de ancore (143 de articole fără lacune, 6 cu exponent, I–VIII finale); titlul articolului stă pe linia de după ancoră; fără marcaje de modificare în text.
 - [[DCA-61-2024]] — Regulamentul privind conținuturile audiovizuale, act secundar al Consiliului Audiovizualului: pct. 90 interzice în comunicările comerciale produsele și serviciile interzise prin lege; structură pe puncte, fără ancore de articol.
-- [[DCU-PROCEDURI]] — Procedurile Depozitarului Central Unic, actele Comitetului executiv al DCU de pe dcu.md: opt din nouă ingerate fără ancore, în puncte; procedura de decontare, singura care descrie transferul prin succesiune, este PDF-imagine fără text, citită din imagine și neancorată; documentele pentru succesiune trimit la Regulamentul CNPF nr. 14/5/2016.
+- [[DCU-PROCEDURI]] — Procedurile Depozitarului Central Unic, actele Comitetului executiv al DCU de pe dcu.md: nouă din nouă proceduri ingerate fără ancore, în puncte; procedura de decontare, singura care descrie transferul prin succesiune, are acum text integral derivat din PDF-ul oficial și trimite pentru documente la Regulamentul CNPF nr. 14/5/2016.
 - [[DCU-REGULI-2026]] — Regulile Depozitarului Central Unic al Valorilor Mobiliare, v3 în vigoare din 8 aprilie 2026, aprobate final de BNM: art. 49 leagă proprietatea de creditarea contului individual, art. 13 alin. (3) și art. 53 dau moștenitorului și notarului informația și extrasul, art. 75 lista acționarilor; 94 de ancore sintetice dintr-un PDF de pe dcu.md, nu de pe legis.md.
 - [[HBN-127-2013]] — Regulamentul BNM cu privire la deținerile în capitalul social al băncii (Hotărârea BNM nr. 127/2013): pct. 8 numește succesiunea și moștenirea printre circumstanțele obiective ale art. 46 din Legea 202/2017, cu drepturile suspendate până la aprobarea BNM; structură pe puncte, fără ancore de articol; consolidare 2021-05-09, curentă.
 - [[HBN-130-2013]] — Regulamentul BNM cu privire la calculul drepturilor de vot şi înregistrarea transferului dreptului de proprietate asupra acţiunilor băncilor (Hotărârea BNM nr. 130/2013): pct. 14 înscrie dobândirile în circumstanțe obiective fără aprobare prealabilă, cu vot suspendat; pct. 15 cere declarația de activitate concertată la orice transfer; structură pe puncte, fără ancore de articol; versiune în vigoare din 23.12.2018.
@@ -144,6 +144,8 @@
 - [[L-121-2018]] — Legea concesiunilor din 2018: 46 de ancore, consolidare 2026-01-01; va fi abrogată la 27.03.2027 de Legea 22/2025 (art. 54 alin. (3)); transpune parțial Directiva 2014/23/UE.
 - [[L-22-2025]] — Legea concesiunilor din 2025: 55 de ancore, consolidare 2026-04-01; NU e în vigoare încă: art. 54 alin. (1) o amînă la 27.03.2027 (fișa dă greșit 31.12.2025); abrogă Legea 121/2018 atunci.
 - [[L-227-2025]] — Legea 227/2025 (optimizarea actelor permisive): lege modificatoare cu 42 de articole proprii romane, consolidare 2025-12-31 (LP317/2025); art. XLII amînă în proză art. 4^2 alin. (8) din L-160-2011 la 05.09.2026 (autorități centrale) și 05.09.2027 (locale), calculat; cele 10 ținte deținute poartă deja marcajul LP227.
+- [[L-317-2025]] — Legea 317/2025 (continuarea lui L-227-2025): 20 de articole proprii romane, consolidare 2025-12-31, în vigoare 31.12.2025; art. XIX rescrie art. XLII alin. (1) și art. 12^9/anexa nr. 1 din L-160-2011; art. XVII amînă în proză, la 30.11.2027, articole din Legea 140/2025 (neînglobată în vault).
+- [[L-140-2025]] — Legea 140/2025 (migrarea autorităților administrative centrale): lege modificatoare cu 24 de articole proprii romane, modificată o dată de L-317-2025; art. VI, VIII, XII, XVI, XVII, XVIII (alin. (3) lit. c)) și XX-XXIII intră în vigoare la 30.11.2027, restul la 01.01.2026 (art. VII la 01.09.2025).
 - [[L-179-2008]] — Legea cu privire la parteneriatul public-privat: 56 de ancore (22 cu exponent), consolidare 2025-12-31; arts. 22-24 au dispărut din consolidarea 17.03.2025.
 - [[L-25-2008]] — Legea privind Codul de conduită a funcționarului public: 17 ancore, consolidare 2018-01-12, semnalată ca veche de tabelul de acoperire fără să fie depășită după legis.md.
 - [[L-165-2023]] — Legea privind avertizorii de integritate: 31 de ancore, consolidare 2023-10-26; transpune parțial Directiva (UE) 2019/1937; abrogă Legea 122/2018; amendare de fond viitoare la 2026-12-09 (LP165/2026).

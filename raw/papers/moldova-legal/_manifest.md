@@ -3240,3 +3240,35 @@ acestei decizii nu s-a făcut — doar textul e ingerat. Deciziile Comisiei priv
 - **Întrebarea 9 (intrare în vigoare în proză), al nouălea caz:** vezi `entities/L-227-2025.md` și `CLAUDE.md`. Nu am scris nimic în
   `pending-consolidations.json`: fișierul e pentru consolidări viitoare neingerate, iar aici amînarea e în textul deținut.
 - **Neexecutat:** celelalte 41 de articole nu au fost citite integral; țintele nedeținute (30 de acte) nu s-au ingerat.
+
+## AT. Legea nr. 317/2025 (`L-317-2025`), corectura Legii 227/2025 (2026-09-25)
+
+- **Cererea:** „ingerează și Legea 317/2025”, imediat după `L-227-2025`, al cărei marcaj `LP317` apărea în fișă și în text. Titlul nu poartă
+  numărul, așa că doc_id-ul nu s-a găsit prin căutare: 152374 e ancora `LP317 din 29.12.25` din fișa lui LP227 (cifrele doar, fără href).
+- **Verificat înainte:** o singură versiune (152374 @ 31-12-2025), fără rînd MODIFICAT (`never_amended`), „Data abrogării” `-`, fără „abrogat” în corp.
+- **Descărcare:** aprobare explicită, cu numele, sursa și mărimea în față. `showdetails-152374.html`, 64.188 octeți, SHA-256 `377814f301f8` +
+  `4c13b1631a1e` dați în pagină, egal cu `sha256sum` local. **Prima descărcare a părut că a eșuat** (nimic în `Downloads` la verificarea imediată) și am
+  repetat dintr-un tab nou; ambele au ajuns, prima cu întîrziere ca `… (1).html`. Copia dublă, verificată identică, a fost ștearsă. Concluzie
+  de metodă: verifică `Downloads` din nou după cîteva secunde înainte de a repeta.
+- **Ancorare:** `anchor_mode='roman-amending'`, 20 de articole, `verify_business_law.py` 0 eșecuri. Al doilea act la rînd la care regex-ul meu de
+  recunoaștere a numărat prea puține (18 față de 20; la LP227: 28 față de 42): numărul se ia din extras.
+- **Ținte deținute:** `COD-95-2021` (art. XIII, marcaj LP317 prezent) și `L-227-2025` (art. XIX). `L-160-2011` art. 12^9 poartă textul nou, fără marcaj.
+- **Întrebarea 9, al zecelea caz:** art. XVII amînă în proză, la 30.11.2027, părți din Legea 140/2025, care nu e în vault. Vezi `entities/L-317-2025.md`.
+- **Neexecutat:** Legea 140/2025 nu e ingerată; celelalte 17 ținte nedeținute nu s-au ingerat; versiunea veche a LP227 (152771) nu a fost citită pentru a vedea
+  data pe care art. XLII alin. (1) o avea înainte de LP317.
+
+## AU. Legea nr. 140/2025 (`L-140-2025`), ingerată ca să se poată citi amînarea din LP317 art. XVII (2026-09-25)
+
+- **Cererea:** „ingerează și Legea 140/2025, ca amînarea din art. XVII să poată fi citită”. doc_id 149260 venea din căutarea pe web,
+  ca punct de plecare; versiunea reținută e alta.
+- **Versiuni:** 149260 @ 31-12-2025 (trei rînduri LP317: două în antet, unul marcaj) și 152770 @ 01-01-2026 (unul, în antet). Textul art. XXIV alin. (1) e
+  identic în ambele. Reținută 152770 (cea mai nouă care nu e în viitor). Marcajul `Art.XXIV al.(1) modificat prin LP317` a dispărut în 152770: mecanismul 1.
+  Frontmatter: `consolidation_date` 2025-12-31, dedusă din rîndul de modificare, nu din data versiunii (01-01-2026).
+- **Descărcare:** aprobare explicită, cu numele, sursa și mărimea. `showdetails-152770.html`, 59.554 octeți, SHA-256 `b1f4eb70fa44d00de74d06a3…`,
+  egal în pagină și cu `sha256sum` local, din prima încercare (fără fișier dublu de data aceasta).
+- **Ancorare:** `roman-amending`, 24 de articole, `verify_business_law.py` 0 eșecuri.
+- **Ce se poate citi acum:** art. XXIV alin. (1) confirmă că art. VI, VIII, XII, XVI, XVII, XVIII (alin. (3) lit. c)) și XX–XXIII intră în vigoare la 30.11.2027.
+  L-121-2007 deținută nu poartă modificările art. VI (corect, nu se aplică încă); L-121-2018 poartă art. XVIII pct. alin. (2), nu lit. c).
+- **Constatări:** (a) `L-22-2025` art. 54 alin. (3) abrogă `L-121-2018` la 27.03.2027, înaintea lui 30.11.2027, deci abrogarea lit. c) ajunge pe un act abrogat
+  (concluzia mea, nedovedită mai departe); (b) art. 5 alin. (3) lit. c) din `L-121-2018` e scrisă cu chirilic U+0441.
+- **Neexecutat:** corpul articolelor VIII, XII, XVI, XVII, XX-XXIII nu a fost citit integral; actele țintă nedeținute (16) nu s-au ingerat.
