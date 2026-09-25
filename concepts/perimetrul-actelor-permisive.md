@@ -24,7 +24,7 @@ Trei legi de modificare ingerate în aceeași zi, [[L-227-2025]] (optimizarea pr
 ## Ce trebuie știut înainte de a cita din ele
 
 - **Un act abrogat:** [[COD-3-2009]] (Codul subsolului), abrogat de la 30.05.2026 prin [[COD-246-2024]]; păstrat pentru LP317 art. V.
-- **Hotărîri ale Curții fără articol atribuit (5, la 4 acte):** [[L-283-2003]], [[L-303-2013]] (2), [[L-382-2001]], [[L-93-1998]]. Neexecutat: recuperarea.
+- **Hotărîri ale Curții (5, la 4 acte), recuperate 2026-09-25:** [[L-283-2003]] (HCC11/2023, art. 22^1 alin. (1) lit. c) și art. 27^3 lit. d)), [[L-303-2013]] (HCC28/2016 și HCC30/2016, art. 19 alin. (5) și (4)), [[L-382-2001]] (HCC28/2002, art. 10 și 11 alin. (1)), [[L-93-1998]] (HCC7/1999, art. 14 alin. (1) și art. 19). Sintagmele lovite lipsesc din textele deținute.
 - **Consolidări viitoare pe legis.md (16 acte, 23 de versiuni):** neingerate; vezi paginile actelor.
 - **Data consolidării ≠ data versiunii** la [[L-278-2007]] (republicat 30.07.2026).
 - **Amînarea din LP317 art. XVII** (30.11.2027) privește [[L-140-2025]], nu aceste 54 de acte, dar o parte din articolele amînate modifică acte de aici (L-221/2007, L-68/2013, L-296/2017, L-119/2018, L-394/2023, L-403/2023, L-422/2023, L-82/2024): modificările din LP140 art. VIII, XII, XVI, XVII, XX-XXIII **nu se aplică pînă la 30.11.2027**, deci textul lor de azi e cel dinainte.

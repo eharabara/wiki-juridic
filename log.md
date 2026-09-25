@@ -2351,3 +2351,9 @@
 - **Aflat:** ținte nedeținute sînt 54, nu 30; textul de dinainte de LP317 al art. XLII din LP227 nu mai e pe legis.md (versiunea veche are aceeași formulare); modificările din LP140 amînate la 30.11.2027 nu sînt încă în textele deținute (verificat pe patru acte). Un singur act abrogat, Codul subsolului 3/2009. Proba mea de desfacere a titlurilor a picat la trei fișiere din cauza unei ferestre prea mici, nu din cauza ingerării.
 - **Decis:** Eugen a aprobat cele patru blob-uri cu lista în față; `COD-3-2009` păstrat, succesorul ingerat; paginile de entitate sînt mecanice și spun asta; recuperarea hotărîrilor CCR (5) rămîne de făcut.
 - **Unde:** `raw/papers/moldova-legal/` (54 de fișiere), `entities/` (54), `concepts/perimetrul-actelor-permisive.md`, `_meta/imports/moldova-legal/ingest_business_law.py`, manifest secțiunea AV, `index.md`.
+
+## [2026-09-25] update | Cinci hotărîri CCR fără articol atribuit recuperate; registrul HCC la zero neatribuite
+
+- **Aflat:** un marcaj de pe legis.md nu dă articolul: la HCC11/2023 scria „Art.27 3” (adică art. 27^3), la HCC28/2016, HCC28/2002 și HCC7/1999 sta după alt alineat sau la sfîrșitul articolului, deci dispozitivul hotărîrii a decis articolul. HCC7/1999 nu se găsește pe legis.md prin căutare pe titlu; textul e de pe constcourt.md. Toate sintagmele lovite lipsesc din textele deținute.
+- **Decis:** intrările s-au adăugat textual în `recovered-provisions.json` (fără a reformata fișierul, după ce prima încercare de rescriere l-a reformatat pe patru rînduri și a fost anulată); HCC7/1999 înregistrată cu `decision_doc_id` `ccdoc:ro_1999_h_07.pdf`.
+- **Unde:** `_meta/hcc/recovered-provisions.json`, `_meta/hcc/hcc-register.md`, `entities/{L-283-2003,L-303-2013,L-382-2001,L-93-1998}.md`, `concepts/perimetrul-actelor-permisive.md`, manifest secțiunea AW.

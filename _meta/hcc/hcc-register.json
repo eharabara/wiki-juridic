@@ -2822,14 +2822,39 @@
      "text": "HCC11 din 20.07.23, MO277-281/01.08.23 art.90; în vigoare 20.07.23"
     }
    ],
-   "recovered": [],
-   "unattributed": [
+   "recovered": [
     {
+     "instrument": "L-283-2003",
      "hcc": "HCC11/2023-07-20",
-     "line": 71,
-     "text": "HCC11 din 20.07.23, MO277-281/01.08.23 art.90; în vigoare 20.07.23"
+     "article": "22^1",
+     "subunit": "alin. (1) lit. c)",
+     "scope": "text din articol",
+     "quoted_text": "nu au fost condamnate pentru infractiuni savirsite cu intentie, conform unei hotariri judecatoresti definitive",
+     "official_gazette": "MO277-281/01.08.23 art.90",
+     "read_doc_id": "138419",
+     "read_consolidation": "2023-07-20",
+     "decision_doc_id": "138295",
+     "verified": "2026-09-25",
+     "status_today": "textul lovit nu mai e in consolidarea detinuta: art. 22^1 alin. (1) lit. c) are acum, in loc, alineatul 'nu au antecedente penale'; marcajul s-a pierdut la o reimprospatare",
+     "summary": "Marcaj cu paranteze drepte in versiunea 138419 (a doua liniuta a lit. c), art. 22^1, scris 'Art.22 1' prin exponent turtit): 'textul ... declarat neconstitutional prin HCC11 din 20.07.23'. Dispozitivul (doc_id 138295, pct. 2): 'Se declara neconstitutional articolul 27^3 lit. d) si textul \"nu au fost condamnate pentru infractiuni savirsite cu intentie, conform unei hotariri judecatoresti definitive\" din articolul 22^1 alin. (1) lit. c)'. Pct. 3: pina la modificarea legii, cerinta lipsei unei condamnari se refera doar la persoanele cu antecedente penale."
+    },
+    {
+     "instrument": "L-283-2003",
+     "hcc": "HCC11/2023-07-20",
+     "article": "27^3",
+     "subunit": "lit. d)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO277-281/01.08.23 art.90",
+     "read_doc_id": "138419",
+     "read_consolidation": "2023-07-20",
+     "decision_doc_id": "138295",
+     "verified": "2026-09-25",
+     "status_today": "lit. d) apare astazi ca 'd) - abrogata;' in consolidarea detinuta (rindul din raw); marcajul HCC s-a pierdut",
+     "summary": "Marcaj in versiunea 138419, scris 'Art.27 3 lit.d)' (exponent turtit, adica art. 27^3, nu art. 27 alin. (3)): 'declarata neconstitutionala prin HCC11 din 20.07.23'. Litera lovita era 'd) a fost condamnata pentru infractiune savirsita cu intentie'. Dispozitivul (doc_id 138295, pct. 2) numeste 'articolul 27^3 lit. d)'."
     }
    ],
+   "unattributed": [],
    "distinct_hcc": [
     "HCC11/2023-07-20"
    ]
@@ -2852,19 +2877,39 @@
      "text": "HCC28 din 11.10.16, MO459-471/23.12.16 art.109; în vigoare 11.10.16 |"
     }
    ],
-   "recovered": [],
-   "unattributed": [
+   "recovered": [
     {
-     "hcc": "HCC30/2016-11-01",
-     "line": 81,
-     "text": "HCC30 din 01.11.16, MO478-490/30.12.16 art.111; în vigoare 01.11.16"
+     "instrument": "L-303-2013",
+     "hcc": "HCC28/2016-10-11",
+     "article": "19",
+     "subunit": "alin. (5)",
+     "scope": "text din articol",
+     "quoted_text": "operatorului coordonat cu",
+     "official_gazette": "MO459-471/23.12.16 art.109",
+     "read_doc_id": "97265",
+     "read_consolidation": "2016-10-11",
+     "decision_doc_id": "96794",
+     "verified": "2026-09-25",
+     "status_today": "sintagma nu mai apare: alin. (5) spune astazi 'cu exceptia cazurilor in care se obtine acordul autoritatii administratiei publice locale'",
+     "summary": "Versiunea 97265 poarta marcajul '(Se declara neconstitutional prin HCC28 din 11.10.16 ...)' la sfirsitul art. 19, dupa alin. (8), nu dupa alin. (5); articolul si alineatul vin din dispozitiv (doc_id 96794, pct. 2): 'Se declara neconstitutionala sintagma \"operatorului coordonat cu\" din articolul 19 alin. (5)'. Titlul hotaririi: exceptia priveste art. 19 alin. (5), interdictia forarii de noi fintini arteziene."
     },
     {
-     "hcc": "HCC28/2016-10-11",
-     "line": 82,
-     "text": "HCC28 din 11.10.16, MO459-471/23.12.16 art.109; în vigoare 11.10.16 |"
+     "instrument": "L-303-2013",
+     "hcc": "HCC30/2016-11-01",
+     "article": "19",
+     "subunit": "alin. (4)",
+     "scope": "text din articol",
+     "quoted_text": "gratuit la balanta",
+     "official_gazette": "MO478-490/30.12.16 art.111",
+     "read_doc_id": "97432",
+     "read_consolidation": "2016-11-01",
+     "decision_doc_id": "96888",
+     "verified": "2026-09-25",
+     "status_today": "alin. (4) rescris: astazi 'se transmit, cu titlu gratuit sau oneros, in proprietatea ori in gestiunea autoritatii ... sau a operatorului ..., cu consimtamintul expres al proprietarului'; sintagma lovita nu mai apare",
+     "summary": "Versiunea 97432 poarta marcajul '(Se declara neconstitutional prin HCC30 din 01.11.16 ...)' imediat dupa alin. (4) al art. 19. Dispozitivul (doc_id 96888, pct. 2): 'Se declara neconstitutionala sintagma \"gratuit la balanta\" din articolul 19 alin. (4)' din Legea 303/2013 si din art. 5 alin. (4^1) din Legea 272-XIV/1999 cu privire la apa potabila (aceasta din urma nu e in vault)."
     }
    ],
+   "unattributed": [],
    "distinct_hcc": [
     "HCC28/2016-10-11",
     "HCC30/2016-11-01"
@@ -2966,14 +3011,39 @@
      "text": "HCC28 din 30.05.02, MO75/13.06.02 art.19 |"
     }
    ],
-   "recovered": [],
-   "unattributed": [
+   "recovered": [
     {
+     "instrument": "L-382-2001",
      "hcc": "HCC28/2002-05-30",
-     "line": 59,
-     "text": "HCC28 din 30.05.02, MO75/13.06.02 art.19 |"
+     "article": "10",
+     "subunit": null,
+     "scope": "text din articol",
+     "quoted_text": "...si rusa (in partea referitoare la denumirea localitatilor si strazilor)",
+     "official_gazette": "MO75/13.06.02 art.19",
+     "read_doc_id": "64019",
+     "read_consolidation": "2002-06-13",
+     "decision_doc_id": "16589",
+     "verified": "2026-09-25",
+     "status_today": "prima teza a art. 10 spune astazi 'in limba romana, dar, dupa caz, la decizia autoritatilor administratiei publice locale, si in alta limba'; teza despre institutii si localuri publice ('in limbile romana si rusa') ramine, ca nelovita",
+     "summary": "Versiunea 64019 (13.06.2002) poarta un singur marcaj '(Se declara neconstitutionale prin HCC28 din 30.05.02 ...)' la sfirsitul art. 11, fara sa numeasca articolul. Dispozitivul (doc_id 16589, pct. 2): 'Declara neconstitutionale sintagma \"...si rusa\" din art. 10 in partea referitoare la denumirea localitatilor si strazilor si sintagma \"...si rusa\" din art. 11 alin. (1)'. Acelasi dispozitiv, pct. 3, loveste 'si limba rusa' din art. 5 alin. (4) din Legea 100/2001, inregistrat separat."
+    },
+    {
+     "instrument": "L-382-2001",
+     "hcc": "HCC28/2002-05-30",
+     "article": "11",
+     "subunit": "alin. (1)",
+     "scope": "text din articol",
+     "quoted_text": "...si rusa",
+     "official_gazette": "MO75/13.06.02 art.19",
+     "read_doc_id": "64019",
+     "read_consolidation": "2002-06-13",
+     "decision_doc_id": "16589",
+     "verified": "2026-09-25",
+     "status_today": "alin. (1) spune astazi 'se perfecteaza in limba romana, dar, dupa caz, la decizia autoritatilor administratiei publice locale, si in alta limba'; sintagma lovita nu mai apare",
+     "summary": "Vezi art. 10 din aceeasi hotarire. Marcajul din versiunea 64019 sta dupa alin. (3) al art. 11, dar dispozitivul limiteaza anularea la sintagma din alin. (1)."
     }
    ],
+   "unattributed": [],
    "distinct_hcc": [
     "HCC28/2002-05-30"
    ]
@@ -3372,14 +3442,39 @@
      "text": "HCC7 din 11.02.99, MO19/25.02.99 |"
     }
    ],
-   "recovered": [],
-   "unattributed": [
+   "recovered": [
     {
+     "instrument": "L-93-1998",
      "hcc": "HCC7/1999-02-11",
-     "line": 84,
-     "text": "HCC7 din 11.02.99, MO19/25.02.99 |"
+     "article": "14",
+     "subunit": "alin. (1)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO22-23/13 din 04.03.1999 (marcajul din act: MO22-23/13 25.02.99; fisa detinuta: MO19/25.02.99)",
+     "read_doc_id": "86853",
+     "read_consolidation": "1999-02-11",
+     "decision_doc_id": "ccdoc:ro_1999_h_07.pdf",
+     "verified": "2026-09-25",
+     "status_today": "art. 14 alin. (1) e rescris complet: astazi priveste achitarea taxei la bugetul local pina la depunerea cererii, nu stabilirea taxei de catre Guvern",
+     "summary": "Versiunea 86853 poarta marcajul '(Se declara neconstitutional prin HCC7 din 11.02.99 ...)' imediat dupa alin. (1) al art. 14 ('Taxa pentru patenta ... se stabileste de Guvern'). Decizia nu e gasita prin cautare pe titlu in legis.md (decision_doc_id null); textul ei, citit de pe constcourt.md (ro_1999_h_07.pdf, Nr.7 din 11.02.99): 'Declara neconstitutionale prevederile art. 14 alin. (1) si art. 19 alin. intii subalin. doi din Legea nr. 93-XIV ... si Hotarirea Guvernului nr. 947 din 8 septembrie 1998 ..., cu exceptia pct. 4 al Hotaririi.' Sursa oficiala a Curtii, nu legis.md."
+    },
+    {
+     "instrument": "L-93-1998",
+     "hcc": "HCC7/1999-02-11",
+     "article": "19",
+     "subunit": "alin. intii subalin. doi",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO22-23/13 din 04.03.1999 (marcajul din act: MO22-23/13 25.02.99; fisa detinuta: MO19/25.02.99)",
+     "read_doc_id": "86853",
+     "read_consolidation": "1999-02-11",
+     "decision_doc_id": "ccdoc:ro_1999_h_07.pdf",
+     "verified": "2026-09-25",
+     "status_today": "art. 19 astazi are doar doua liniute (propuneri in 3 luni; nomenclatorul-tip); subalineatul lovit ('in termen de o luna, va stabili taxa pentru patenta ...') nu mai apare",
+     "summary": "Marcaj la sfirsitul art. 19 in versiunea 86853, dupa liniuta 'in termen de o luna, va stabili taxa pentru patenta prevazuta pentru genurile de activitate indicate in anexa'. Vezi art. 14. Hotarirea Guvernului nr. 947/1998, lovita in acelasi dispozitiv, nu e in vault."
     }
    ],
+   "unattributed": [],
    "distinct_hcc": [
     "HCC7/1999-02-11"
    ]
@@ -3455,7 +3550,7 @@
   "acts": 35,
   "distinct_hcc": 98,
   "markers_in_text": 37,
-  "recovered": 118,
-  "unattributed": 5
+  "recovered": 126,
+  "unattributed": 0
  }
 }

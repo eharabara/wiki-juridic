@@ -2,7 +2,7 @@
 
 Generat 2026-09-25 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
 
-35 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 98 hotariri distincte. Articolul atins este cunoscut pentru 37 marcaje inca prezente in text si 118 dispozitii recuperate din istoricul versiunilor; **5 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
+35 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 98 hotariri distincte. Articolul atins este cunoscut pentru 37 marcaje inca prezente in text si 126 dispozitii recuperate din istoricul versiunilor; **0 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
 
 Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiunea hotaririi si a intinderii anularii. Un act din tabelul „fara articol atribuit” se citeaza cu avertismentul ca poarta hotariri ale Curtii neverificate la nivel de articol.
 
@@ -34,16 +34,16 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-213-2023` | 152741 | 2026-01-23 | 1 | 1 | 0 |
 | `L-24-2008` | 110184 | 2018-11-08 | 1 | 1 | 0 |
 | `L-270-2018` | 155894 | 2026-09-13 | 3 | 3 | 0 |
-| `L-283-2003` | 151359 | 2025-12-30 | 1 | 0 | 1 |
-| `L-303-2013` | 151413 | 2025-12-30 | 2 | 0 | 2 |
+| `L-283-2003` | 151359 | 2025-12-30 | 1 | 1 | 0 |
+| `L-303-2013` | 151413 | 2025-12-30 | 2 | 2 | 0 |
 | `L-325-2013` | 142068 | 2024-03-29 | 2 | 2 | 0 |
-| `L-382-2001` | 149501 | 2026-01-01 | 1 | 0 | 1 |
+| `L-382-2001` | 149501 | 2026-01-01 | 1 | 1 | 0 |
 | `L-514-1995` | 156079 | 2026-08-28 | 4 | 4 | 0 |
 | `L-52-2014` | 147958 | 2025-03-27 | 1 | 1 | 0 |
 | `L-64-2010` | 141515 | 2024-01-23 | 1 | 1 | 0 |
 | `L-797-1996` | 136244 | 2023-03-24 | 4 | 4 | 0 |
 | `L-845-1992` | 155963 | 2027-01-01 | 3 | 3 | 0 |
-| `L-93-1998` | 151182 | 2026-03-18 | 1 | 0 | 1 |
+| `L-93-1998` | 151182 | 2026-03-18 | 1 | 1 | 0 |
 | `L-548-1995` | 154046 | 2026-04-23 | 2 | 2 | 0 |
 
 ## Dispozitii cu articol cunoscut
@@ -183,10 +183,16 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-270-2018` | 27 | al.(5) | subunitate | HCC16/2021-05-20 | MO137-141/04.06.21 art.83 | marcaj in text, l.479 |
 | `L-270-2018` | 27 | al.(5), textul privind excluderea personalului cu raport suspendat | text din articol („pentru personalul efectiv încadrat în unitățile bugetare la data intrării în vigoare a pre…”) | HCC6/2020-03-10 | MO102/10.04.20 art.52 | versiunea 155894 @ 2020-03-10, verificat 2026-09-24 |
 | `L-270-2018` | Anexa nr. 3 | Tabelul 2: posturile enumerate pentru Secretariatul CSM/CSJ, Secretariatul Curtii Constitutionale, curtile de apel si judecatorii | text din anexa („Asistent judiciar; Consultant principal; Consultant superior; Secretar General; Șef adjunc…”) | HCC17/2023-10-10 | MO399-400/25.10.23 art.157 | versiunea 155894 @ 2023-10-10, verificat 2026-09-24 |
+| `L-283-2003` | 22^1 | alin. (1) lit. c) | text din articol („nu au fost condamnate pentru infractiuni savirsite cu intentie, conform unei hotariri jude…”) | HCC11/2023-07-20 | MO277-281/01.08.23 art.90 | versiunea 138419 @ 2023-07-20, verificat 2026-09-25 |
+| `L-283-2003` | 27^3 | lit. d) | subunitate | HCC11/2023-07-20 | MO277-281/01.08.23 art.90 | versiunea 138419 @ 2023-07-20, verificat 2026-09-25 |
+| `L-303-2013` | 19 | alin. (5) | text din articol („operatorului coordonat cu”) | HCC28/2016-10-11 | MO459-471/23.12.16 art.109 | versiunea 97265 @ 2016-10-11, verificat 2026-09-25 |
+| `L-303-2013` | 19 | alin. (4) | text din articol („gratuit la balanta”) | HCC30/2016-11-01 | MO478-490/30.12.16 art.111 | versiunea 97432 @ 2016-11-01, verificat 2026-09-25 |
 | `L-325-2013` | 17 | al.(2) | subunitate | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.301 |
 | `L-325-2013` | 17 | al.(3) | subunitate | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.303 |
 | `L-325-2013` | 17 | al.(4) | subunitate | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.305 |
 | `L-325-2013` | Anexa | sintagmele „Curtea Constituțională” și „instanțele judecătorești de toate nivelurile” | text din anexa („Curtea Constituțională; instanțele judecătorești de toate nivelurile”) | HCC7/2015-04-16 | MO115-123/15.05.15 art.11 | versiunea 142068 @ 2015-04-16, verificat 2026-09-24 |
+| `L-382-2001` | 10 |  | text din articol („...si rusa (in partea referitoare la denumirea localitatilor si strazilor)”) | HCC28/2002-05-30 | MO75/13.06.02 art.19 | versiunea 64019 @ 2002-06-13, verificat 2026-09-25 |
+| `L-382-2001` | 11 | alin. (1) | text din articol („...si rusa”) | HCC28/2002-05-30 | MO75/13.06.02 art.19 | versiunea 64019 @ 2002-06-13, verificat 2026-09-25 |
 | `L-514-1995` | 15^1 | al.(5) | subunitate | HCC7/2020-03-24 | MO115-117/15.05.20 art.51 | marcaj in text, l.233 |
 | `L-514-1995` | 23^2 | al.(4) | revigorare | HCC17/2021-06-10 | MO153-157/25.06.21 art.99 | versiunea 127868 @ 2021-06-10, verificat 2026-09-15 |
 | `L-514-1995` | 22 | al.(1) teza I | revigorare („Mijloacele financiare necesare bunei funcționări a instanțelor judecătorești sunt aprobate…”) | HCC27/2019-10-31 | MO352-359/29.11.19 art.210 | versiunea 119115 @ 2019-10-31, verificat 2026-09-15 |
@@ -203,6 +209,8 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-845-1992` | 10 | al.(8) | text din articol („în mărime de 10% din valoarea tranzacției cu mărfuri social importante, dar nu mai puțin d…”) | HCC10/2022-04-14 | MO151-157/20.05.22 art.68 | versiunea 131466 @ 2022-04-14, verificat 2026-09-15 |
 | `L-845-1992` | 10 | pct. 5 (teza privind nerestituirea numerarului) | text din articol („Pentru utilizarea numerarului în alt scop decît cel pentru care a fost destinat şi/sau ner…”) | HCC5/2018-03-06 | MO113-120/06.04.18 art.59 | versiunea 118813 @ 2018-03-06, verificat 2026-09-15 |
 | `L-845-1992` | 10 | pct. 4 | text din articol („amendă în mărimea venitului brut din realizarea obţinută în urma activităţilor menţionate”) | HCC2/2018-01-30 | MO108-112/30.03.18 art.54 | versiunea 118812 @ 2018-01-30, verificat 2026-09-15 |
+| `L-93-1998` | 14 | alin. (1) | subunitate | HCC7/1999-02-11 | MO22-23/13 din 04.03.1999 (marcajul din act: MO22-23/13 25.02.99; fisa detinuta: MO19/25.02.99) | versiunea 86853 @ 1999-02-11, verificat 2026-09-25 |
+| `L-93-1998` | 19 | alin. intii subalin. doi | subunitate | HCC7/1999-02-11 | MO22-23/13 din 04.03.1999 (marcajul din act: MO22-23/13 25.02.99; fisa detinuta: MO19/25.02.99) | versiunea 86853 @ 1999-02-11, verificat 2026-09-25 |
 | `L-548-1995` | 11 | al.(4) | articol intreg („Pînă la soluţionarea definitivă a cauzei de către instanţa de judecată nu pot fi suspendat…”) | HCC31/2013-10-01 | MO252-257/08.11.13 art.38 | versiunea 66549 @ 2013-10-01, verificat 2026-09-15 |
 | `L-548-1995` | 77 | alin. (4) (dispozitii finale) | text din articol („Alte acte normative, cu excepţia Constituţiei, nu au putere juridică asupra prezentei legi…”) | HCC9/1999-02-18 | MO22-23/04.03.99 art 15 | versiunea 66529 @ 1999-02-18, verificat 2026-09-15 |
 
@@ -212,9 +220,4 @@ Marcajul s-a pierdut la o reimprospatare anterioara a consolidarii. Articolul se
 
 | act | hotarire | rindul din fisa |
 |---|---|---|
-| `L-283-2003` | HCC11/2023-07-20 | l.71: HCC11 din 20.07.23, MO277-281/01.08.23 art.90; în vigoare 20.07.23 |
-| `L-303-2013` | HCC30/2016-11-01 | l.81: HCC30 din 01.11.16, MO478-490/30.12.16 art.111; în vigoare 01.11.16 |
-| `L-303-2013` | HCC28/2016-10-11 | l.82: HCC28 din 11.10.16, MO459-471/23.12.16 art.109; în vigoare 11.10.16 | |
-| `L-382-2001` | HCC28/2002-05-30 | l.59: HCC28 din 30.05.02, MO75/13.06.02 art.19 | |
-| `L-93-1998` | HCC7/1999-02-11 | l.84: HCC7 din 11.02.99, MO19/25.02.99 | |
 

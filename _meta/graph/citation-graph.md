@@ -1,6 +1,6 @@
 # Graful de citare al actelor detinute
 
-Generat 2026-09-25 14:48 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
+Generat 2026-09-25 15:00 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
 
 **Ce este.** Trimiterile dintre actele detinute, extrase mecanic din textul brut: fiecare muchie poarta fisierul si liniile din care a fost citita, si nicio muchie nu este dedusa. Graful nu se citeaza. El spune unde sa deschizi fisierul, iar ancora se citeste.
 
@@ -220,6 +220,7 @@ Dispozitiile care apar in registrul in-force (textul din fisier nu se aplica inc
 | `L-132-2016#art.7` l.154 | in-force: introducere de la 2027-01-01 | 2 (1) | `L-132-2016#art.33` l.579, `L-133-2016#art.7^1` l.229 |
 | `L-133-2016#art.18` l.325 | in-force: introducere de la 2027-01-01 | 2 (1) | `COD-154-2003#art.46` l.804, `L-133-2016#art.17` l.323 |
 | `L-135-2007#art.30` l.327 | HCC: HCC27/2016-09-27, al.(2) [numerotarea de la data hotaririi], subunitate | 2 (1) | `L-135-2007#art.25` l.279, `L-181-2023#art.49` l.737 |
+| `L-303-2013#art.19` l.518 | HCC: HCC28/2016-10-11, alin. (5), text din articol (+1) | 2 (1) | `L-272-2011#art.25` l.585, `L-303-2013#art.8` l.258 |
 | `COD-122-2003#art.6` l.482 | in-force: introducere de la 2026-12-02 (pct.8^1); HCC: HCC2/2020-01-23, pct. 11^1), text din articol | 1 (1) | `COD-443-2004#art.98^1` l.1171 |
 | `COD-218-2008#art.423^4` l.6663 | abrogat | 1 (1) | `L-195-2024#art.90` l.1173 |
 | `COD-218-2008#art.427` l.6740 | HCC: HCC26/2024-12-12, alin.(2), text din articol | 1 (1) | `COD-95-2021#art.408` l.4429 |
@@ -260,6 +261,7 @@ Dispozitiile care apar in registrul in-force (textul din fisier nu se aplica inc
 | `COD-122-2003#art.287^1` l.4181 | in-force: modificare de la 2026-12-02 | 2 (0) | `COD-122-2003#art.287^2` l.4196 |
 | `L-108-2016#art.24` l.703 | abrogat | 2 (0) | `L-108-2016#art.114` l.2500, `L-108-2016#art.37` l.886 |
 | `L-213-2023#art.2` l.78 | HCC: HCC20/2024-09-26, al.(2), teza intai: textul „Taxa de timbru nu este susceptibilă de scutire, amânare sau eșalonare, cu excepțiile prevăzute de prezenta lege.”, text din articol | 2 (0) | `L-213-2023#preambul` l.55 |
+| `L-283-2003#art.22^1` l.324 | HCC: HCC11/2023-07-20, alin. (1) lit. c), text din articol | 2 (0) | `L-283-2003#art.22^2` l.358, `L-283-2003#art.27` l.459 |
 | `L-325-2013#art.17` l.292 | HCC: HCC37/2021-12-07, al.(2), subunitate (+2) | 2 (0) | `L-325-2013#art.10` l.214, `L-325-2013#art.21` l.381 |
 | `L-845-1992#art.36^1` l.580 | in-force: introducere de la 2027-01-01 (pct.4, lit.l)) | 2 (0) | `L-845-1992#art.36^3` l.608 |
 | `COD-1163-1997#art.290` l.6893 | HCC: HCC2/2014-01-28, in parte | 1 (0) | `COD-1163-1997#art.297` l.7019 |
@@ -279,13 +281,9 @@ Dispozitiile care apar in registrul in-force (textul din fisier nu se aplica inc
 | `COD-218-2008#art.233` l.3966 | HCC: HCC11/2018-05-08, alin. (3), text din articol | 1 (0) | `COD-218-2008#art.41` l.1109 |
 | `COD-218-2008#art.445` l.7088 | HCC: HCC32/2018-11-29, articol intreg | 1 (0) | `COD-218-2008#art.451^3` l.7208 |
 | `COD-218-2008#art.62` l.1495 | abrogat | 1 (0) | `COD-218-2008#art.293^2` l.4879 |
-| `COD-225-2003#art.306` l.2677 | HCC: HCC33/2016-11-17, alin. (2), text din articol | 1 (0) | `COD-225-2003#art.77` l.835 |
-| `COD-225-2003#art.39` l.527 | HCC: HCC3/2012-02-09, alin. (11^1), subunitate | 1 (0) | `COD-225-2003#art.41^1` l.569 |
-| … inca 22 dispozitii, in JSON | | | |
+| … inca 24 dispozitii, in JSON | | | |
 
-Stari atasate dispozitiilor, in total: 63 in-force, 118 HCC, 379 abrogat. 102 dintre ele au cel putin o citare intrata, 32 din alte acte.
-
-Acte care poarta hotariri HCC fara articol atribuit (orice citare din ele poate lovi textul anulat): `L-283-2003` (1), `L-303-2013` (2), `L-382-2001` (1), `L-93-1998` (1).
+Stari atasate dispozitiilor, in total: 63 in-force, 125 HCC, 379 abrogat. 104 dintre ele au cel putin o citare intrata, 33 din alte acte.
 
 ## Actele: ce citeaza si de cine sint citate
 
