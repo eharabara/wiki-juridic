@@ -13,6 +13,7 @@ tags:
 - legal-approximation
 - governance
 - digital-transformation
+- needs-links
 sources:
 - raw/papers/moldova-legal/UE-2016-679.md
 - raw/papers/moldova-legal/L-195-2024.md

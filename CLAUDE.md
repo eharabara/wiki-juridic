@@ -174,9 +174,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-25 13:42 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-25 13:56 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-169 primary Moldovan acts, 51 EU acquis extracts, 1 Association Agreement extract(s), 294 BNM corpus documents.
+172 primary Moldovan acts, 51 EU acquis extracts, 1 Association Agreement extract(s), 294 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -185,6 +185,7 @@ Generated 2026-09-25 13:42 from the files themselves. Do not edit this section b
 | `COD-116-2018` | 260 | 260 | 2025-08-31 | 2 superscript articles normalised; 2 provision(s) declared unconstitutional (HCC register) |
 | `COD-1163-1997` | 511 | 511 | 2026-07-01 | 158 superscript articles normalised; 10 provision(s) declared unconstitutional (HCC register) |
 | `COD-122-2003` | 658 | 658 | 2026-12-02 | **consolidation dated in the future**; 105 superscript articles normalised; 17 provision(s) declared unconstitutional (HCC register) |
+| `COD-1316-2000` | - | 0 | - | no article structure |
 | `COD-154-2003` | 416 | 416 | 2027-01-01 | **consolidation dated in the future**; 52 superscript articles normalised; 3 provision(s) declared unconstitutional (HCC register) |
 | `COD-174-2018` | 98 | 98 | 2026-06-24 | 4 superscript articles normalised; 2 provision(s) declared unconstitutional (HCC register) |
 | `COD-218-2008` | 737 | 737 | 2026-09-13 | 254 superscript articles normalised; 6 provision(s) declared unconstitutional (HCC register) |
@@ -287,6 +288,7 @@ Generated 2026-09-25 13:42 from the files themselves. Do not edit this section b
 | `L-227-2025` | 42 | 42 | 2025-12-31 | 42 articles numbered in Roman figures |
 | `L-229-2010` | 35 | 35 | 2024-08-02 | **more than 2 years old**; 1 superscript article normalised |
 | `L-23-2008` | 36 | 36 | 2016-09-30 | **more than 2 years old**; 1 superscript article normalised |
+| `L-230-2022` | - | 66 | - | clean |
 | `L-232-2016` | 344 | 344 | 2025-02-28 | 21 superscript articles normalised |
 | `L-234-2016` | 37 | 37 | 2024-11-26 | clean |
 | `L-235-2006` | 21 | 21 | 2024-07-05 | **more than 2 years old** |
@@ -324,6 +326,7 @@ Generated 2026-09-25 13:42 from the files themselves. Do not edit this section b
 | `L-62-2022` | 58 | 58 | 2026-08-14 | 5 superscript articles normalised |
 | `L-64-2010` | 34 | 34 | 2024-01-23 | **more than 2 years old**; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-66-2017` | 17 | 17 | 2017-06-02 | 17 articles numbered in Roman figures; **more than 2 years old** |
+| `L-69-2016` | - | 0 | - | no article structure |
 | `L-71-2007` | 33 | 33 | 2023-12-22 | **more than 2 years old** |
 | `L-72-2025` | 127 | 127 | 2025-12-31 | clean |
 | `L-764-2001` | 26 | 26 | 2025-06-28 | 3 superscript articles normalised |

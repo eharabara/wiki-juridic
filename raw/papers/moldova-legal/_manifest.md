@@ -236,6 +236,18 @@ identic octet cu octet.
   dispoziții de fond despre procedura de abrogare, nu marcaje. `[de verificat]` față de
   legis.md.
 
+## D. Drept general-practic — familie, notariat și proprietate intelectuală (ingerate 2026-09-25)
+
+Actele de mai jos închid cele trei goluri primare identificate în `_meta/plans/2026-09-17-lacuna-drept-general.md`.
+Medierea și avocatura erau deja acoperite prin `L-9-2026` și `L-1260-2002`. Mărcile, brevetele și
+desenele industriale rămîn subperimetre IP distincte, neingerate.
+
+| ID raw | doc_id | Titlu detectat | Pagină wiki | Sursă / versiune locală | Rol |
+|---|---:|---|---|---|---|
+| `COD-1316-2000` | 122974 | Codul familiei | [[COD-1316-2000]] | extras literal legis.md, 2026-09-25 | familie, căsătorie, filiație, adopție, întreținere |
+| `L-69-2016` | 125333 | Legea privind organizarea activității notarilor | [[L-69-2016]] | extras literal legis.md, 2026-09-25 | cadrul profesiei și actelor notariale |
+| `L-230-2022` | 133204 | Legea privind dreptul de autor și drepturile conexe | [[L-230-2022]] | PDF legis.md extras, 2026-09-25 | drept de autor și drepturi conexe; transpunere UE declarată |
+
 ## E. Drept corporativ — L-135/2007, L-220/2007 și L-845/1992 (ingerate 2026-09-04)
 
 Cele trei legi indicate în documentul 04 ca surse de bază pentru persona P1 și care lipseau din

@@ -1,6 +1,6 @@
 # Graful de citare al actelor detinute
 
-Generat 2026-09-25 13:42 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
+Generat 2026-09-25 13:56 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
 
 **Ce este.** Trimiterile dintre actele detinute, extrase mecanic din textul brut: fiecare muchie poarta fisierul si liniile din care a fost citita, si nicio muchie nu este dedusa. Graful nu se citeaza. El spune unde sa deschizi fisierul, iar ancora se citeste.
 
@@ -10,23 +10,23 @@ Generat 2026-09-25 13:42 de `_meta/graph/build_citation_graph.py`. Nu edita de m
 
 | | |
 |---|---:|
-| acte primare detinute (din care ancorate pe articole) | 179 (124) |
-| dispozitii (noduri-articol) | 14199 |
+| acte primare detinute (din care ancorate pe articole) | 182 (125) |
+| dispozitii (noduri-articol) | 14265 |
 | extrase UE detinute (noduri-tinta) | 50 |
-| acte citate si nedetinute (noduri externe) | 703 |
-| mentiuni de acte in text (din care ale actului insusi) | 5757 (614) |
-| muchii act -> act (agregate pe segment-sursa) | 3739 |
-| trimiteri la articole citite (in grupuri de enumerare) | 10290 (9059) |
-|   rezolvate in actul curent | 8230 |
-|   rezolvate in alt act detinut | 1382 |
-|   nerezolvate: articolul nu are ancora in actul-tinta | 107 |
-|   catre acte nedetinute (notate pe muchia act -> act) | 465 |
-|   catre acte pe puncte (fara articole) | 85 |
-|   autoreferinte (articolul se citeaza pe sine), ignorate | 21 |
-| muchii articol -> articol (agregate) | 7860 |
-| muchii articol -> act nerezolvate (agregate) | 95 |
+| acte citate si nedetinute (noduri externe) | 715 |
+| mentiuni de acte in text (din care ale actului insusi) | 5812 (615) |
+| muchii act -> act (agregate pe segment-sursa) | 3773 |
+| trimiteri la articole citite (in grupuri de enumerare) | 10681 (9439) |
+|   rezolvate in actul curent | 8290 |
+|   rezolvate in alt act detinut | 1386 |
+|   nerezolvate: articolul nu are ancora in actul-tinta | 182 |
+|   catre acte nedetinute (notate pe muchia act -> act) | 460 |
+|   catre acte pe puncte (fara articole) | 331 |
+|   autoreferinte (articolul se citeaza pe sine), ignorate | 32 |
+| muchii articol -> articol (agregate) | 7914 |
+| muchii articol -> act nerezolvate (agregate) | 153 |
 
-Regula care a dat actul-tinta, pe trimiteri: din 1627, doua-puncte 46, intern 7986, modificare 46, paranteza 14. „intern” = niciun act in context, deci actul curent; „din” = `art. N ... din Legea X` sau `(art. N, M) Directiva X`; „paranteza” = `Legea X (art. N)`; „doua-puncte” = `din Codul X: art. N, M`; „modificare” = `Legea X se modifica dupa cum urmeaza: ... articolul N`. `din legea indicata` trimite la ultima lege numita in acelasi segment.
+Regula care a dat actul-tinta, pe trimiteri: din 1634, doua-puncte 46, intern 8117, modificare 46, paranteza 15. „intern” = niciun act in context, deci actul curent; „din” = `art. N ... din Legea X` sau `(art. N, M) Directiva X`; „paranteza” = `Legea X (art. N)`; „doua-puncte” = `din Codul X: art. N, M`; „modificare” = `Legea X se modifica dupa cum urmeaza: ... articolul N`. `din legea indicata` trimite la ultima lege numita in acelasi segment.
 
 Coduri citate si pe nume si pe numar, unite dupa textul care le scrie impreuna: COD-audiovizualului = COD-260-2006; COD-educatiei = COD-152-2014; COD-electoral = COD-325-2022; COD-familiei = COD-1316-2000; COD-jurisdictiei-constitutionale = COD-502-1995; COD-subsolului = COD-3-2009; COD-transporturilor-rutiere = COD-150-2014.
 
@@ -42,8 +42,7 @@ Legi, coduri si hotariri de Guvern identificate prin numar si an.
 |---|---:|---:|---|---|
 | `L-74-2020` Legea nr. 74/2020 | 25 | 5 | `L-22-2025` (9) | art. 6, art. 14, art. 19, art. 23^1 |
 | `COD-150-2014` Codul nr. 150/2014 | 24 | 3 | `COD-218-2008` (22) | art. 94 (x2), art. 23, art. 43, art. 45 |
-| `COD-1316-2000` Codul nr. 1316/2000 | 21 | 6 | `L-100-2001` (8) | art. 14, art. 35, art. 36, art. 37 |
-| `L-139-2010` Legea nr. 139/2010 | 17 | 10 | `DCU-PROC-RECONCILIERE` (2) | - |
+| `L-139-2010` Legea nr. 139/2010 | 22 | 11 | `L-230-2022` (5) | art. 30 |
 | `L-989-2002` Legea nr. 989/2002 | 16 | 9 | `L-121-2007` (5) | art. 5 |
 | `L-184-2016` Legea nr. 184/2016 | 15 | 6 | `CC-1107-2002` (6) | art. 8 (x3), art. 4, art. 14 |
 | `L-142-2018` Legea nr. 142/2018 | 15 | 5 | `L-227-2025` (11) | art. 3 |
@@ -70,7 +69,8 @@ Legi, coduri si hotariri de Guvern identificate prin numar si an.
 | `L-199-1998` Legea nr. 199/1998 | 8 | 3 | `L-171-2012` (5) | - |
 | `L-29-2018` Legea nr. 29/2018 | 8 | 3 | `L-121-2007` (6) | art. 9 |
 | `L-151-2022` Legea nr. 151/2022 | 8 | 1 | `COD-434-2023` (8) | art. 4 (x3), art. 8 (x2), art. 12, art. 19 |
-| … inca 441 in JSON | | | | |
+| `L-139-2012` Legea nr. 139/2012 | 7 | 4 | `L-232-2016` (3) | art. 3 |
+| … inca 440 in JSON | | | | |
 
 ### Acte UE citate si neextrase
 
@@ -98,7 +98,7 @@ Directive si regulamente UE care nu au un extras `UE-*` in `raw/papers/cnpf/`.
 | `EU-R-2013-952` Regulamentul (UE) nr. 952/2013 | 3 | 1 | `COD-95-2021` (3) | - |
 | `EU-R-2017-2394` Regulamentul (UE) 2017/2394 | 3 | 1 | `L-105-2003` (3) | - |
 | `EU-L-1985-611` Directiva 1985/611 | 2 | 2 | `L-171-2012` (1) | - |
-| … inca 135 in JSON | | | | |
+| … inca 148 in JSON | | | | |
 
 ### Legi citate doar pe nume, fara corespondent in vault
 
@@ -289,22 +289,23 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | act | ancore | citeaza (acte) | citat de (acte) | art. interne | art. in alte acte | nerezolvate | mentiuni externe |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | `AA-2014` | 11 | 44 | 0 | 4 | 0 | 18 | 64 |
-| `CC-1107-2002` | 2657 | 27 | 40 | 1017 | 5 | 1 | 23 |
+| `CC-1107-2002` | 2657 | 27 | 41 | 1017 | 5 | 1 | 20 |
 | `CETS-223-2018` | 40 | 0 | 0 | 113 | 0 | 1 | 0 |
-| `COD-116-2018` | 260 | 13 | 41 | 106 | 10 | 1 | 4 |
+| `COD-116-2018` | 260 | 13 | 42 | 106 | 10 | 1 | 4 |
 | `COD-1163-1997` | 511 | 66 | 30 | 447 | 20 | 1 | 76 |
 | `COD-122-2003` | 658 | 26 | 18 | 471 | 219 | 2 | 24 |
-| `COD-154-2003` | 416 | 26 | 18 | 198 | 3 | 0 | 23 |
+| `COD-1316-2000` | 0 | 6 | 7 | 0 | 1 | 2 | 4 |
+| `COD-154-2003` | 416 | 26 | 19 | 198 | 3 | 0 | 23 |
 | `COD-174-2018` | 98 | 18 | 7 | 71 | 7 | 0 | 13 |
-| `COD-218-2008` | 737 | 57 | 43 | 508 | 50 | 10 | 76 |
+| `COD-218-2008` | 737 | 57 | 43 | 508 | 50 | 10 | 75 |
 | `COD-22-2024` | 96 | 26 | 6 | 18 | 5 | 0 | 22 |
-| `COD-225-2003` | 540 | 23 | 24 | 213 | 31 | 17 | 10 |
+| `COD-225-2003` | 540 | 23 | 25 | 213 | 31 | 17 | 10 |
 | `COD-325-2022` | 252 | 36 | 13 | 164 | 23 | 0 | 22 |
-| `COD-434-2023` | 390 | 44 | 11 | 137 | 18 | 1 | 60 |
-| `COD-443-2004` | 361 | 30 | 21 | 129 | 75 | 0 | 21 |
+| `COD-434-2023` | 390 | 44 | 11 | 137 | 18 | 1 | 57 |
+| `COD-443-2004` | 361 | 30 | 21 | 129 | 75 | 0 | 18 |
 | `COD-95-2021` | 472 | 37 | 4 | 430 | 8 | 0 | 31 |
 | `COD-985-2002` | 566 | 22 | 29 | 166 | 3 | 1 | 12 |
-| `CONST-1994` | 157 | 4 | 70 | 13 | 1 | 0 | 5 |
+| `CONST-1994` | 157 | 4 | 72 | 13 | 1 | 0 | 5 |
 | `DCA-61-2024` | 0 | 5 | 0 | 0 | 5 | 0 | 2 |
 | `DCNPDCP-08-2023` | 0 | 2 | 0 | 0 | 1 | 0 | 1 |
 | `DCNPDCP-41-2026` | 0 | 6 | 0 | 0 | 2 | 0 | 9 |
@@ -350,7 +351,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `HG-9-2026` | 0 | 8 | 0 | 0 | 2 | 0 | 1 |
 | `HG-967-2016` | 0 | 5 | 0 | 0 | 3 | 0 | 4 |
 | `L-1-2018` | 28 | 5 | 2 | 19 | 0 | 0 | 2 |
-| `L-100-2001` | 78 | 4 | 3 | 6 | 1 | 0 | 9 |
+| `L-100-2001` | 78 | 4 | 4 | 6 | 1 | 0 | 1 |
 | `L-100-2017` | 79 | 18 | 14 | 12 | 7 | 0 | 7 |
 | `L-105-2003` | 75 | 21 | 7 | 76 | 8 | 0 | 26 |
 | `L-106-2022` | 45 | 10 | 2 | 32 | 1 | 0 | 7 |
@@ -368,7 +369,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-132-2016` | 45 | 13 | 13 | 27 | 7 | 0 | 4 |
 | `L-133-2011` | 36 | 10 | 34 | 18 | 1 | 0 | 2 |
 | `L-133-2016` | 27 | 8 | 21 | 28 | 5 | 0 | 2 |
-| `L-133-2018` | 17 | 58 | 2 | 0 | 0 | 0 | 46 |
+| `L-133-2018` | 17 | 58 | 2 | 0 | 0 | 0 | 43 |
 | `L-135-2007` | 93 | 11 | 5 | 17 | 16 | 0 | 2 |
 | `L-136-2017` | 48 | 2 | 18 | 13 | 3 | 0 | 1 |
 | `L-139-2007` | 59 | 4 | 2 | 36 | 0 | 0 | 3 |
@@ -405,6 +406,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-227-2025` | 42 | 52 | 1 | 0 | 0 | 0 | 51 |
 | `L-229-2010` | 35 | 1 | 3 | 1 | 0 | 0 | 1 |
 | `L-23-2008` | 36 | 4 | 0 | 6 | 0 | 0 | 3 |
+| `L-230-2022` | 66 | 23 | 3 | 60 | 3 | 73 | 29 |
 | `L-232-2016` | 344 | 18 | 8 | 238 | 42 | 1 | 9 |
 | `L-234-2016` | 37 | 14 | 10 | 30 | 6 | 0 | 7 |
 | `L-235-2006` | 21 | 5 | 11 | 1 | 3 | 0 | 1 |
@@ -412,7 +414,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-24-2008` | 42 | 3 | 2 | 31 | 1 | 0 | 2 |
 | `L-245-2008` | 41 | 5 | 17 | 9 | 0 | 0 | 2 |
 | `L-246-2017` | 20 | 8 | 2 | 6 | 8 | 0 | 2 |
-| `L-246-2018` | 97 | 17 | 2 | 17 | 14 | 0 | 10 |
+| `L-246-2018` | 97 | 17 | 3 | 17 | 14 | 0 | 6 |
 | `L-248-2025` | 56 | 4 | 0 | 1 | 1 | 0 | 0 |
 | `L-25-2008` | 17 | 6 | 0 | 4 | 1 | 0 | 0 |
 | `L-250-2017` | 23 | 6 | 1 | 14 | 0 | 0 | 4 |
@@ -421,7 +423,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-270-2018` | 38 | 8 | 4 | 6 | 7 | 0 | 5 |
 | `L-273-1994` | 12 | 11 | 1 | 19 | 1 | 0 | 7 |
 | `L-274-2011` | 35 | 5 | 0 | 12 | 0 | 0 | 8 |
-| `L-284-2004` | 29 | 10 | 3 | 4 | 7 | 0 | 3 |
+| `L-284-2004` | 29 | 10 | 4 | 4 | 7 | 0 | 3 |
 | `L-308-2017` | 47 | 21 | 8 | 65 | 12 | 0 | 14 |
 | `L-317-2025` | 20 | 25 | 0 | 0 | 0 | 0 | 19 |
 | `L-325-2013` | 28 | 11 | 17 | 41 | 2 | 0 | 7 |
@@ -439,9 +441,10 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-550-1995` | 20 | 9 | 8 | 18 | 16 | 1 | 2 |
 | `L-595-1999` | 32 | 4 | 15 | 14 | 1 | 2 | 2 |
 | `L-62-2008` | 73 | 11 | 14 | 71 | 10 | 1 | 4 |
-| `L-62-2022` | 58 | 25 | 9 | 37 | 4 | 0 | 14 |
+| `L-62-2022` | 58 | 25 | 9 | 37 | 4 | 0 | 13 |
 | `L-64-2010` | 34 | 2 | 4 | 5 | 1 | 0 | 0 |
-| `L-66-2017` | 17 | 17 | 0 | 0 | 0 | 0 | 12 |
+| `L-66-2017` | 17 | 17 | 0 | 0 | 0 | 0 | 11 |
+| `L-69-2016` | 0 | 3 | 1 | 0 | 0 | 0 | 2 |
 | `L-71-2007` | 33 | 3 | 4 | 0 | 0 | 0 | 3 |
 | `L-72-2025` | 127 | 52 | 3 | 407 | 23 | 0 | 59 |
 | `L-764-2001` | 26 | 3 | 5 | 0 | 1 | 0 | 3 |
@@ -474,6 +477,9 @@ Articole citate care nu au ancora in actul-tinta, grupate pe tinta. Cauze cunosc
 
 | act-tinta | articol citat | citari | poate fi | regula | exemplu (sursa, linie) | fragment |
 |---|---|---:|---|---|---|---|
+| `L-230-2022` | art. 58 | 11 | - | intern | `L-230-2022#art.3` l.127 | misiunilor sale de interes public, în sensul art. 58 ra aceleași servicii persoanelor bligațiile sale instituționale ori |
+| `L-230-2022` | art. 99 | 9 | - | intern | `L-230-2022#art.63` l.1707 | cierea cu bună-credită, conform prevederilor art. 99 alin. (2), cu menționarea criteriilor pe care furnizorii de servicii |
+| `L-230-2022` | art. 103 | 9 | - | intern | `L-230-2022#art.102` l.3085 | fi din nou desemnată colector în condițiile art. 103, respectării condițiilor și a criteriilor prevăzute în prezentul a g |
 | `CC-1107-2002` | art. 48^30 | 7 | - | din | `COD-225-2003#art.308^2` l.2707 | de judecată audiază persoanele enumerate la art. 48^30 alin. (1) din Codul civil. (2) Audierea persoanelor indicate la art. |
 | `COD-218-2008` | art. 441 | 5 | exponent turtit: art. 44^1 | din | `HG-582-2022#corp` l.94 | rocesul contravențional a încetat în temeiul art. 441 alin. (1) lit. f) din Codul contravențional al Republicii Moldova nr. |
 | `AA-2014` | art. 3 | 4 | - | intern | `AA-2014#preambul` l.32 | ând cu data de 1 septembrie 2014, în temeiul articolului 3 alineatul (1) din Decizia Consiliului privind semnarea și aplicarea c |
@@ -481,14 +487,28 @@ Articole citate care nu au ancora in actul-tinta, grupate pe tinta. Cauze cunosc
 | `AA-2014` | art. 7 | 3 | - | intern | `AA-2014#art.465` l.163 | italului inițial prevăzut în conformitate cu articolul 5 alineatele (1) și (3), articolul 6, articolul 7 literele (a), (b) și (c), articolul 8 literele (a), (b) și (c) și arti |
 | `CC-1107-2002` | art. 330^4 | 3 | - | din | `COD-225-2003#art.327` l.2902 | rilor de constatare a uzucapiunii în temeiul art. 330^4 din Codul civil şi efectuării înregistrării corespunzătoare în regist |
 | `CC-1107-2002` | art. 1575^9 | 3 | - | din | `L-149-2012#art.235^13` l.2437 | asei succesorale de către moștenitor conform art. 1575^9–1575^11 din Codul civil pot fi folosite pentru a satisface creanțele |
+| `L-230-2022` | art. 10 | 3 | - | intern | `L-230-2022#art.19` l.730 | respectarea integrității operei, prevăzut la art. 10 alin. (2) lit. c), nu se extinde asupra modificărilor ce nu produc sc |
+| `L-230-2022` | art. 32 | 3 | - | intern | `L-230-2022#art.57` l.1645 | de conținut trebuie să obțină, în condițiile art. 31 sau ale art. 32, un acord de utilizare din partea autorilor, interpretilor, producăto |
+| `L-230-2022` | art. 77 | 3 | - | intern | `L-230-2022#art.122` l.3493 | ună de la data publicării înția prevederilor art. 77, care vor intra în (2) În termen de 6 luni de la data intrării în vi |
+| `L-230-2022` | art. 81 | 3 | - | intern | `L-230-2022#art.19` l.668 | închiriere și imprumut se aplică dispoziţii art. 81. (10) În lipsa unei prevederi contrare, interpreții care au particip |
+| `L-230-2022` | art. 95 | 3 | - | intern | `L-230-2022#art.36` l.1030 | va, atunci când sunt aplicabile dispozițiile art. 95 alin. (1) și (2); c) atunci când exploatarea a încetat sau când auto |
+| `L-230-2022` | art. 100 | 3 | - | intern | `L-230-2022#art.105` l.3156 | todologiilor conform procedurii prevăzute la art. 100; d) să apeleze la Comisia de mediere s proprietății intelectuale în |
 | `L-86-2014` | art. 105 | 3 | exponent turtit: art. 10^5 | intern | `L-86-2014#art.10^12` l.469 | entă a acordului de mediu în conformitate cu art. 105 alin. (5). (8) În cazul activităților planificate care nu cad sub inc |
 | `AA-2014` | art. 4 | 2 | - | intern | `AA-2014#art.465` l.206 | sare pentru fiecare investitor, prevăzută la articolul 4 din respectiva directivă, sunt puse în aplicare în termen de cinci an |
 | `CC-1107-2002` | art. 48^40 | 2 | - | din | `COD-225-2003#art.308^9` l.2738 | oire a măsurii de ocrotire judiciare conform art. 48^40 din Codul civil, instanţa de judecată va pronunţa hotărârea judecător |
 | `CC-1107-2002` | art. 1575^4 | 2 | - | din | `L-149-2012#art.235^12` l.2433 | ța ce aparține creditorului care, în temeiul art. 1575^4 din Codul civil, a fost exclus din cadrul procedurii de somare public |
 | `CC-1107-2002` | art. 1575^5 | 2 | - | din | `L-149-2012#art.235^12` l.2433 | publică a creditorilor sau care, în temeiul art. 1575^5 din Codul civil, se asimilează creditorului exclus va fi satisfăcută |
+| `CC-1107-2002` | art. 4852 | 2 | - | din | `COD-1316-2000#corp` l.523 | de ocrotire judiciară, se aplică prevederile art. 4852 şi 4853 din Codul civil. (7) Declaraţia comună a mamei şi tatălui co |
 | `COD-218-2008` | art. 562 | 2 | exponent turtit: art. 56^2 | intern | `COD-218-2008#art.415` l.6587 | (1) Contravenţiile prevăzute la art. 562 , 563, 242, 366–369, art. 370 alin. (1), art. 371–373^3 se constată de Ministerul Apărării. (2) Sunt în drept să consta |
 | `L-183-2012` | art. 572 | 2 | exponent turtit: art. 57^2 | intern | `L-183-2012#art.47` l.795 | lui Consiliului Concurenței emisă în temeiul art. 572 alin. (1) pot fi contestate, în conformitate cu prevederile Codului a |
 | `L-212-2004` | art. 20 | 2 | - | intern | `L-212-2004#art.42` l.267 | asediu, suplimentar la măsurile prevăzute la art.20, pot fi luate următoarele măsuri: a) închiderea frontierei de stat a |
+| `L-230-2022` | art. 9 | 2 | - | intern | `L-230-2022#art.19` l.636 | utori) ai operei audiovizuale, în condițiile art. 9: a) realizatorul principal (regizorul); b) autorul scenariului (sce |
+| `L-230-2022` | art. 25 | 2 | - | intern | `L-230-2022#art.11` l.517 | turi patrimoniale exclusive sunt definite la art. 25, și a autorului bazei de date, ale cărui drepturi exclusive sunt defi |
+| `L-230-2022` | art. 30 | 2 | - | intern | `L-230-2022#art.35` l.986 | turile lor patrimoniale exclusive în temeiul art. 30, autorii și interpreții au dreptul să primească o remunerație adecvat |
+| `L-230-2022` | art. 42 | 2 | - | intern | `L-230-2022#art.28` l.860 | itarea drepturilor patrimoniale prevăzute la art. 42 se transmite moştenitorilor, potrivit legislăției civile, pe durata p |
+| `L-230-2022` | art. 46 | 2 | - | intern | `L-230-2022#art.28` l.860 | t legislăției civile, pe durata prevăzută la art. 46. Dacă nu există moștenitori, exercitarea acestor drepturi revine orga |
+| `L-230-2022` | art. 68 | 2 | - | intern | `L-230-2022#art.78` l.2117 | ganizație respectarea termenului prevăzut la art. 68 alin. (1) lit. c). ecte protejate din sistemul de gestiune colectiva |
+| `L-230-2022` | art. 89 | 2 | - | intern | `L-230-2022#art.92` l.2610 | irii îndatoririlor persoanelor mentionate la art. 89, inclusiv punerea în aplicare a deciziilor adunării generale a membri |
 | `UA-STATUT-2011` | art. 35^1 | 2 | - | intern | `UA-STATUT-2011#art.53^1` l.799 | anele care întrunesc condițiile prevăzute la art. 34 alin. (1) și art. 35^1 din Lege cu respectarea limitei numărului de mandate consecutive. Ver |
 | `AA-2014` | art. 2 | 1 | - | intern | `AA-2014#art.465` l.157 | același mod ca și instituțiile enumerate la articolul 2 din respectiva directivă, și în consecință, vor fi exceptate de la do |
 | `AA-2014` | art. 5 | 1 | - | intern | `AA-2014#art.465` l.163 | italului inițial prevăzut în conformitate cu articolul 5 alineatele (1) și (3), articolul 6, articolul 7 literele (a), (b) și (c), articolul 8 literele (a), (b) și (c) și arti |
@@ -517,24 +537,7 @@ Articole citate care nu au ancora in actul-tinta, grupate pe tinta. Cauze cunosc
 | `COD-218-2008` | art. 60^1 | 1 | - | intern | `COD-218-2008#art.293^2` l.4879 | e plată și moneda electronică a prevederilor art. 50 alin. (1)–(5) și (7), art. 52^1 alin. (5), art. 52^2 alin. (1) și (2), art. 53 alin. (3), (4), (6) și (7), art. 55 alin. ( |
 | `COD-218-2008` | art. 641 | 1 | exponent turtit: art. 64^1 | intern | `COD-218-2008#art.409^2` l.6554 | (1) Contravențiile prevăzute la art.641, 642, 327^3 se constată de către Inspectoratul Social de Stat. (2) Su |
 | `COD-225-2003` | art. 48^15 | 1 | - | intern | `COD-225-2003#art.308^17` l.2789 | u controlul executării mandatului, în sensul art. 48^15 alin. (3), şi de către persoanele ale căror drepturi sunt afectate pr |
-| `COD-225-2003` | art. 581 | 1 | exponent turtit: art. 58^1 | din | `CC-1107-2002#art.113` l.952 | ori din oficiu. (3) În cazurile prevăzute la art. 581 din Codul de procedură civilă, curatorul special sau tutorele special |
-| `L-105-2003` | art. 201 | 1 | - | din | `COD-218-2008#art.273` l.4540 | locului de preschimbare a mărfii prevăzut la art. 201 din Legea nr. 105/2003 privind protecția consumatorilor, lipsa inform |
-| `L-1125-2002` | art. 1756 | 1 | - | intern | `L-1125-2002#art.45` l.268 | a) exceptarea prevăzută de art.1756 alin.(2) enunțul al doilea din Codul civil în redacția introdusă prin |
-| `L-131-2012` | art. 191 | 1 | exponent turtit: art. 19^1 | din | `L-160-2011#art.11^1` l.380 | permisiv în modul și termenele stabilite la art. 191 din Legea nr. 131/2012 privind controlul de stat asupra activităţii d |
-| `L-160-2011` | art. 62 | 1 | exponent turtit: art. 6^2 | intern | `L-160-2011#art.8` l.329 | fel de taxă. Prin derogare de la prevederile art. 62 alin. (2), duplicatul actului permisiv se consideră eliberat prin apr |
-| `L-160-2026` | art. 72 | 1 | - | intern | `L-160-2026#art.40` l.465 | o privesc încalcă prezenta lege. Prevederile art. 72 și 73, precum și ale cap. VIII secțiunea a 2-a din Legea nr. 195/2024 |
-| `L-171-2012` | art. 38 | 1 | in registrul in-force: abrogare de la 2027-06-01, textul lipseste din fisier | din | `L-2-2020#art.17` l.409 | nirii de către SAI a cerințelor stabilite în art. 38, 41 și 49 din Legea nr. 171/2012 privind piața de capital. (8) SAI ar |
-| `L-171-2012` | art. 81 | 1 | - | din | `HCNPF-14-5-2016#corp` l.73 | nistru_________ Vladimir CEBOTARI În temeiul art.1 alin.(2)-(4), art.5, art. 34, art. 59 alin. (3), art. 81 alin. (2), art. 87 alin. (4), art.147 alin.(8) din Legea nr. 171 di |
-| `L-171-2012` | art. 87 | 1 | - | din | `HCNPF-14-5-2016#corp` l.73 | nistru_________ Vladimir CEBOTARI În temeiul art.1 alin.(2)-(4), art.5, art. 34, art. 59 alin. (3), art. 81 alin. (2), art. 87 alin. (4), art.147 alin.(8) din Legea nr. 171 di |
-| `L-171-2012` | art. 88 | 1 | - | din | `HCNPF-38-5-2015#corp` l.72 | alin.(3), art.71 alin.(6), art.78, art.88 alin.(5) art.140 alin.(15) lit.c), art.143 alin.(2) din Legea nr.171 din 11.07.2012 „Privind piaţa |
-| `L-181-2014` | art. 49 | 1 | - | intern | `L-181-2014#art.82` l.1009 | ă în vigoare la 1 ianuarie 2015, cu excepţia art.10, art.15-17, art.18 lit.b) şi d), art.19 lit.d), f) şi g), art.20 alin.(1) lit.b), c) şi k), art.21 alin.(1) lit.j), art.24 |
-| `L-183-2012` | art. 541 | 1 | exponent turtit: art. 54^1 | intern | `L-183-2012#art.68` l.1112 | or solicitate la interviul dispus în temeiul art. 541 ori se prezintă la interviu, dar refuză de a fi intervievate sau, în |
-| `L-183-2012` | art. 571 | 1 | exponent turtit: art. 57^1 | intern | `L-183-2012#art.71` l.1160 | ine obligatoriu printr-o decizie, în temeiul art. 571; e) nu notifică o concentrare economică, definită la art. 22 alin. (1 |
-| `L-195-2024` | art. 574 | 1 | - | paranteza | `OCNPDCP-31-2026-PROIECT#corp` l.43 | l al Republicii Moldova, 2024, Nr. 367-396, art. 574), ORDON : 1. Se aprobă Contractul standard pentru transferul de |
-| `L-202-2017` | art. 13^9 | 1 | - | din | `HBN-127-2013#corp` l.150 | nctul 2), Banca Naţională aplică prevederile art.13^9 şi/sau 14^1 din Legea nr.202 din 6 octombrie 2017 privind activitatea |
-| `L-202-2017` | art. 75^2 | 1 | - | intern | `L-202-2017#art.142` l.1730 | plicabile, în mod corespunzător, prevederile art. 75^2 alin. (5) referitoare la încălcarea repetată, ale alin. (6) şi ale al |
-| `L-202-2017` | art. 521 | 1 | exponent turtit: art. 52^1 | din | `L-232-2016#art.58` l.477 | cazul în care acțiunile emise în condițiile art. 521 din Legea nr. 202/2017 privind activitatea băncilor nu au fost vândut |
-| … inca 15 grupuri, in JSON | | | | | | |
+| … inca 44 grupuri, in JSON | | | | | | |
 
 „Poate fi” este o ipoteza mecanica, nu o muchie: numarul citat, despartit in baza si exponent, da o ancora existenta. Se verifica in sursa inainte de a fi folosita.
 

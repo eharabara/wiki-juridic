@@ -2332,3 +2332,16 @@
 - **Aflat:** PDF-ul local al procedurii de decontare are 28 de pagini, dar glifele sînt imagini și extracția PyMuPDF nu produce text utilizabil. PDF-ul oficial de pe dcu.md este accesibil separat și a returnat text integral prin `web_extract`, inclusiv pașii OTC pentru succesiune, documentele necesare, vizita la DCU și anexa nr. 1 cu MD03 (moștenire) și MD09 (succesiune). Hash-ul PDF-ului local este `5ff70696aeb09e0d798947dfb5fb5182adec34d180bba4487e6319ba9392f864`; extrasul are 988 de linii și nu are ancore de articol.
 - **Decis:** extracția web intră în `raw/` ca derivat verificabil, fără corectarea textului și fără a fi prezentată ca transcriere byte-verificată. Gapul „procedura fără text” este închis pentru căutare și analiză; rămîne deschisă verificarea citatelor în PDF pentru publicare externă. Pagina de entitate și indexul reflectă nouă proceduri ingerate.
 - **Unde:** `raw/papers/bnm/dcu/DCU-PROC-DECONTARE.md`, `raw/papers/bnm/dcu/_manifest.md`, `entities/DCU-PROCEDURI.md`, `index.md`.
+
+## [2026-09-25] ingest | Închisă coada principală a perimetrului general-practic
+
+- **Aflat:** golurile primare confirmate în nota de practică generală erau Codul familiei, legea-cadru a notarilor și regimul actual al dreptului de autor. Medierea și avocatura erau deja în corpus prin `L-9-2026` și `L-1260-2002`. Sursele oficiale legis.md au furnizat textul pentru `COD-1316-2000` (doc_id 122974), `L-69-2016` (doc_id 125333) și `L-230-2022` (doc_id 133204).
+- **Decis:** cele trei acte sînt ingerate ca raw-uri și pagini de entitate, cu limitarea explicită că extracția web/legis.md nu este PDF local byte-verificat. Mărcile, brevetele și desenele industriale rămîn subperimetre IP deschise; nu s-au inventat succesoare sau acte secundare.
+- **Unde:** `raw/papers/moldova-legal/{COD-1316-2000,L-69-2016,L-230-2022}.md`, `entities/{COD-1316-2000,L-69-2016,L-230-2022}.md`, `raw/papers/moldova-legal/_manifest.md`, `index.md`, `_meta/plans/2026-09-17-lacuna-drept-general.md`.
+
+## [2026-09-25] update | Limitele rămase după execuția accesibilă
+
+- **Aflat:** textul integral al Acordului de Asociere nu a putut fi salvat local fără risc de trunchiere: EUR-Lex returnează un document de aproximativ 2 MB, iar canalul de extracție îl limitează; PDF-ul direct a răspuns cu fișier gol. Anexele finale ale Ordinului CNPDCP nr. 31/2026 nu au fost recuperate din sursa oficială accesibilă; Legis a fost blocat de Cloudflare. Copia `legal-career/05-knowledge-map.md` indică masterul extern din proiectul Legal Wiki și interzice editarea locală.
+- **Decis:** aceste trei puncte rămîn `blocked by source/master`, nu sînt marcate artificial ca rezolvate. Toate artefactele dependente au fost actualizate local fără a altera copia sigilată `05` sau a inventa anexele/porțiuni lipsă.
+- **Unde:** `raw/papers/cnpf/AA-2014.md` rămîne extras verificat; `comparisons/data-protection-gdpr-l195-audit.md` și planul de protecție a datelor păstrează limitările; `legal-career/05-knowledge-map.md` rămîne neschimbat.
+

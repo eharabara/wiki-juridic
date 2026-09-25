@@ -70,6 +70,20 @@ din domeniile de mai sus, verifică punctual înainte de a te baza pe vault, și
 ingerarea țintită a actului relevant cu metoda deja folosită
 (`_meta/imports/moldova-legal/ingest_business_law.py`), nu cu scriptul CNPF.
 
+## Stare actualizată — 2026-09-25
+
+Cele trei goluri primare au fost închise prin ingerare țintită din surse oficiale:
+
+- `COD-1316-2000` — Codul familiei;
+- `L-69-2016` — Legea privind organizarea activității notarilor;
+- `L-230-2022` — Legea privind dreptul de autor și drepturile conexe.
+
+Medierea și avocatura erau deja acoperite prin `L-9-2026` și `L-1260-2002`, deci nu au fost duplicate.
+Rămîn deschise numai subperimetrele IP privind mărcile, brevetele și desenele industriale, precum și
+verificarea actelor secundare notariale/AGEPI. Textele noi sînt extras web/legis.md și nu sînt PDF-uri
+locale byte-verificate; pentru opinii externe se verifică versiunea consolidată, registrul in-force și
+registrul HCC.
+
 ## Rezolvat 2026-09-19
 
 Verificat mecanic, nu din memorie, în timp ce documentul 05 (`legal-career/05-knowledge-map.md`)

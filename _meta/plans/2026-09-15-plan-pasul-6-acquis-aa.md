@@ -2,13 +2,7 @@
 
 Data: 15 septembrie 2026
 Folder vizat: `C:\Users\harab\wiki`
-Stare: **executat integral, 2026-09-16.** Toți cei șase pași (6.1-6.6) sînt făcuți — vezi tabelul din
-secțiunea 5. Cele 17 pagini `acquis-*` plus `cnpf-transposition-matrix` au ieșit din `unverified`;
-`AA-2014` e ingerat; cele 5 verificări de consolidare UE (D5) sînt închise. Ce rămâne, consemnat ca
-atare, nu ascuns: Reg. CRA 1060/2009, PRIIPs, vânzările în lipsă, indicii de referință și SFTR (fără
-pagină `acquis-*` proprie), pragul minim MTPL (art. 9 din 2009/103 neextras integral), substanța
-operațională AIFMD (nedistins dacă e delegată unor acte CNPF neingerate sau absentă), și RTS-urile
-crowdfunding.
+Stare: **executat parțial, cu auditul acquis închis la 2026-09-16.** Reverificarea celor 17 pagini `acquis-*`, `cnpf-transposition-matrix` și ingerarea extrasului `AA-2014` sînt făcute; textul integral al Acordului și ingerarea integrală a actelor UE rămîn deschise. EUR-Lex returnează textul, dar extracția disponibilă aici este trunchiată de canal, iar descărcarea PDF directă a răspuns cu fișier gol. Ce rămîne, consemnat ca atare, nu ascuns: Reg. CRA 1060/2009, PRIIPs, vânzările în lipsă, indicii de referință și SFTR (fără pagină `acquis-*` proprie), pragul minim MTPL (art. 9 din 2009/103 neextras integral), substanța operațională AIFMD (nedistins dacă e delegată unor acte CNPF neingerate sau absentă), RTS-urile crowdfunding și restul Acordului în afara Capitolului 9/Anexei XXVIII-A.
 
 Precedent direct: `_meta/plans/2026-09-06-plan-extindere-perimetru-domestic.md`, D3: „(6) după
 acestea, Acordul de Asociere, textele UE integrale și reverificarea constatărilor acquis" — ultimul
