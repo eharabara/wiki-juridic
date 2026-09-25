@@ -1,8 +1,8 @@
 # Registrul dispozitiilor declarate neconstitutionale
 
-Generat 2026-09-24 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
+Generat 2026-09-25 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
 
-25 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 84 hotariri distincte. Articolul atins este cunoscut pentru 33 marcaje inca prezente in text si 98 dispozitii recuperate din istoricul versiunilor; **9 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
+30 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 91 hotariri distincte. Articolul atins este cunoscut pentru 35 marcaje inca prezente in text si 112 dispozitii recuperate din istoricul versiunilor; **1 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
 
 Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiunea hotaririi si a intinderii anularii. Un act din tabelul „fara articol atribuit” se citeaza cu avertismentul ca poarta hotariri ale Curtii neverificate la nivel de articol.
 
@@ -20,18 +20,23 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `COD-325-2022` | 153001 | 2026-08-26 | 4 | 4 | 0 |
 | `COD-443-2004` | 156146 | 2026-12-02 | 6 | 6 | 0 |
 | `COD-985-2002` | 156133 | 2026-12-02 | 8 | 8 | 0 |
-| `CONST-1994` | 145723 | 2024-11-05 | 2 | 0 | 2 |
+| `CONST-1994` | 145723 | 2024-11-05 | 2 | 2 | 0 |
+| `L-100-2001` | 151282 | 2025-10-21 | 1 | 0 | 1 |
+| `L-121-2007` | 152778 | 2026-01-23 | 1 | 1 | 0 |
 | `L-1260-2002` | 146148 | 2025-01-07 | 1 | 1 | 0 |
-| `L-132-2016` | 155890 | 2027-01-01 | 2 | 0 | 2 |
+| `L-132-2016` | 155890 | 2027-01-01 | 2 | 2 | 0 |
 | `L-133-2016` | 155891 | 2027-01-01 | 1 | 1 | 0 |
 | `L-135-2007` | 153674 | 2026-03-27 | 1 | 1 | 0 |
+| `L-136-2017` | 143456 | 2024-06-06 | 1 | 1 | 0 |
 | `L-149-2012` | 152605 | 2025-12-31 | 2 | 2 | 0 |
 | `L-158-2008` | 155439 | 2026-09-13 | 1 | 1 | 0 |
-| `L-181-2014` | 153046 | 2027-01-01 | 2 | 0 | 2 |
-| `L-213-2023` | 152741 | 2026-01-23 | 1 | 0 | 1 |
-| `L-24-2008` | 110184 | 2018-11-08 | 1 | 0 | 1 |
-| `L-325-2013` | 142068 | 2024-03-29 | 2 | 1 | 1 |
+| `L-181-2014` | 153046 | 2027-01-01 | 2 | 2 | 0 |
+| `L-213-2023` | 152741 | 2026-01-23 | 1 | 1 | 0 |
+| `L-24-2008` | 110184 | 2018-11-08 | 1 | 1 | 0 |
+| `L-270-2018` | 155894 | 2026-09-13 | 3 | 3 | 0 |
+| `L-325-2013` | 142068 | 2024-03-29 | 2 | 2 | 0 |
 | `L-514-1995` | 156079 | 2026-08-28 | 4 | 4 | 0 |
+| `L-52-2014` | 147958 | 2025-03-27 | 1 | 1 | 0 |
 | `L-64-2010` | 141515 | 2024-01-23 | 1 | 1 | 0 |
 | `L-845-1992` | 155963 | 2027-01-01 | 3 | 3 | 0 |
 | `L-548-1995` | 154046 | 2026-04-23 | 2 | 2 | 0 |
@@ -152,19 +157,35 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `COD-985-2002` | 335 | alin. (1^1) | text din articol („Acțiunile prevăzute la alin. (1), soldate cu urmări grave”) | HCC24/2019-10-17 | MO338-343/15.11.19 art.207 | versiunea 118807 @ 2019-10-17, verificat 2026-09-08 |
 | `COD-985-2002` | 287 | alin. (1) | text din articol („grosolan; cinism sau”) | HCC25/2021-08-12 | MO212-218/10.09.21 art.164 | versiunea 127791 @ 2021-08-12, verificat 2026-09-08 |
 | `COD-985-2002` | 335 | alin. (1) | text din articol („intereselor publice sau”) | HCC39/2021-12-21 | MO325-333/31.12.21 art.232 | versiunea 129474 @ 2021-12-21, verificat 2026-09-08 |
+| `CONST-1994` | 78 și 85 | modificarile prin pct. 2 integral și sintagma „cu excepția cazului prevăzut la art. 78 alin. (5)” de la pct. 5 din art. I al LP1115/2000 | revigorare prin anularea actului modificator („cu excepția cazului prevăzut la art. 78 alin. (5)”) | HCC7/2016-03-04 | MO59-67/18.03.16 art.10 | versiunea 145723 @ 2016-03-04, verificat 2026-09-24 |
+| `CONST-1994` | 13 | al.(1), textul „funcționînd pe baza grafiei latine” | revigorare („funcționînd pe baza grafiei latine”) | HCC8/2024-03-11 | MO104-107/21.03.24 art.42 | versiunea 145723 @ 2024-03-11, verificat 2026-09-24 |
+| `L-121-2007` | 13 și Anexa | al.(4^1), al.(4^2) și pct. 26^1 | subunitate | HCC14/2024-06-20 | MO287-290/04.07.24 art.102 | versiunea 152778 @ 2024-06-20, verificat 2026-09-24 |
 | `L-1260-2002` | 43 | al.(4) | text din articol („în partea ce ţine de procedura de organizare a examenelor. Calificativul acordat nu poate …”) | HCC18/2018-07-03 | MO277-284/27.07.18 art.124 | versiunea 108240 @ 2018-07-03, verificat 2026-09-15 |
+| `L-132-2016` | 11 | al.(12), textul „și care a susținut proba detectorului comportamentului simulat (poligraf)” | text din articol („și care a susținut proba detectorului comportamentului simulat (poligraf)”) | HCC6/2018-04-10 | MO157-166/18.05.18 art.76 | versiunea 155890 @ 2018-04-10, verificat 2026-09-24 |
+| `L-132-2016` | 26, 32 al.(1), 36 al.(1), 39, 40, 41 și 41^1 | modificarile din art. I al LP244/2020 | act modificator declarat neconstitutional integral | HCC29/2021-09-21 | MO256-260/22.10.21 art.184 | versiunea 155890 @ 2021-09-21, verificat 2026-09-24 |
 | `L-133-2016` | 23 | al.(5^1) | subunitate | HCC29/2021-09-21 | MO256-260/22.10.21 art.184 | marcaj in text, l.384 |
 | `L-135-2007` | 30 | al.(2) [numerotarea de la data hotaririi] | subunitate („Pentru înregistrarea în Registrul de stat al persoanelor juridice a modificărilor operate …”) | HCC27/2016-09-27 | MO423-429/09.12.16 art.102 | versiunea 96610 @ 2016-09-27, verificat 2026-09-15 |
+| `L-136-2017` | 23 | al.(6) | in parte | HCC7/2021-03-04 | MO82-85/26.03.21 art.42 | marcaj in text, l.354 |
 | `L-149-2012` | 32 |  | omisiune legislativa („mecanism pentru recuperarea cheltuielilor efectuate în avans şi pentru încasarea remuneraț…”) | HCC8/2022-04-05 | MO106-114/15.04.22 art.57 | versiunea 130929 @ 2022-04-05, verificat 2026-09-15 |
 | `L-149-2012` | 84 |  | omisiune legislativa („durata maximă pentru care poate fi dispusă obligația de a nu părăsi teritoriul țării sau l…”) | HCC21/2020-08-04 | MO205-211/14.08.20 art.110 | versiunea 123197 @ 2020-08-04, verificat 2026-09-15 |
 | `L-158-2008` | 53 | lit.c) | subunitate | HCC6/2016-03-03 | MO123-127/06.05.16 art.37 | versiunea 92576 @ 2016-03-03, verificat 2026-09-15 |
+| `L-181-2014` | 68 | al.(1) și (2), sintagmele „doar după rămânerea irevocabilă a hotărârii judecătoreşti” și „în baza unei hotărâri judecătoreşti irevocabile” | text din articol („doar după rămânerea irevocabilă a hotărârii judecătoreşti; în baza unei hotărâri judecător…”) | HCC32/2016-11-17 | MO40-49/10.02.17 art.9 | versiunea 153046 @ 2016-11-17, verificat 2026-09-24 |
+| `L-181-2014` | 80 | al.(2) | subunitate | HCC10/2017-03-16 | MO119-126/14.04.17 art.48 | versiunea 153046 @ 2017-03-16, verificat 2026-09-24 |
+| `L-213-2023` | 2 | al.(2), teza intai: textul „Taxa de timbru nu este susceptibilă de scutire, amânare sau eșalonare, cu excepțiile prevăzute de prezenta lege.” | text din articol („Taxa de timbru nu este susceptibilă de scutire, amânare sau eșalonare, cu excepțiile prevă…”) | HCC20/2024-09-26 | MO423-426/10.10.24 art.155 | versiunea 152741 @ 2024-09-26, verificat 2026-09-24 |
+| `L-24-2008` | 6 | al.(2), modificarea din art. XIII pct. 1 LP163/2011 | revigorare („curtea de apel competentă”) | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | versiunea 110184 @ 2012-02-09, verificat 2026-09-24 |
+| `L-24-2008` | 16 | al.(3), modificarea din art. XIII pct. 2 LP163/2011 | revigorare („curţii de apel competente”) | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | versiunea 110184 @ 2012-02-09, verificat 2026-09-24 |
+| `L-270-2018` | 27 | al.(5) | subunitate | HCC16/2021-05-20 | MO137-141/04.06.21 art.83 | marcaj in text, l.479 |
+| `L-270-2018` | 27 | al.(5), textul privind excluderea personalului cu raport suspendat | text din articol („pentru personalul efectiv încadrat în unitățile bugetare la data intrării în vigoare a pre…”) | HCC6/2020-03-10 | MO102/10.04.20 art.52 | versiunea 155894 @ 2020-03-10, verificat 2026-09-24 |
+| `L-270-2018` | Anexa nr. 3 | Tabelul 2: posturile enumerate pentru Secretariatul CSM/CSJ, Secretariatul Curtii Constitutionale, curtile de apel si judecatorii | text din anexa („Asistent judiciar; Consultant principal; Consultant superior; Secretar General; Șef adjunc…”) | HCC17/2023-10-10 | MO399-400/25.10.23 art.157 | versiunea 155894 @ 2023-10-10, verificat 2026-09-24 |
 | `L-325-2013` | 17 | al.(2) | subunitate | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.301 |
 | `L-325-2013` | 17 | al.(3) | subunitate | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.303 |
 | `L-325-2013` | 17 | al.(4) | subunitate | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.305 |
+| `L-325-2013` | Anexa | sintagmele „Curtea Constituțională” și „instanțele judecătorești de toate nivelurile” | text din anexa („Curtea Constituțională; instanțele judecătorești de toate nivelurile”) | HCC7/2015-04-16 | MO115-123/15.05.15 art.11 | versiunea 142068 @ 2015-04-16, verificat 2026-09-24 |
 | `L-514-1995` | 15^1 | al.(5) | subunitate | HCC7/2020-03-24 | MO115-117/15.05.20 art.51 | marcaj in text, l.233 |
 | `L-514-1995` | 23^2 | al.(4) | revigorare | HCC17/2021-06-10 | MO153-157/25.06.21 art.99 | versiunea 127868 @ 2021-06-10, verificat 2026-09-15 |
 | `L-514-1995` | 22 | al.(1) teza I | revigorare („Mijloacele financiare necesare bunei funcționări a instanțelor judecătorești sunt aprobate…”) | HCC27/2019-10-31 | MO352-359/29.11.19 art.210 | versiunea 119115 @ 2019-10-31, verificat 2026-09-15 |
 | `L-514-1995` | 15 | al.(2) | revigorare | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | versiunea 93910 @ 2012-02-09, verificat 2026-09-15 |
+| `L-52-2014` | 21 | al.(5) lit.e) | subunitate | HCC27/2014-11-13 | MO352-357/28.11.14 art.43 | versiunea 147958 @ 2014-11-13, verificat 2026-09-24 |
 | `L-64-2010` | 3 | al.(4^1) | articol intreg („În condiţiile alin. (3) se interzice propagarea şi/sau utilizarea în scopuri politice a si…”) | HCC12/2013-06-04 | MO167-172/02.08.13 art.22 | versiunea 23455 @ 2013-06-04, verificat 2026-09-15 |
 | `L-845-1992` | 10 | al.(8) | text din articol („în mărime de 10% din valoarea tranzacției cu mărfuri social importante, dar nu mai puțin d…”) | HCC10/2022-04-14 | MO151-157/20.05.22 art.68 | versiunea 131466 @ 2022-04-14, verificat 2026-09-15 |
 | `L-845-1992` | 10 | pct. 5 (teza privind nerestituirea numerarului) | text din articol („Pentru utilizarea numerarului în alt scop decît cel pentru care a fost destinat şi/sau ner…”) | HCC5/2018-03-06 | MO113-120/06.04.18 art.59 | versiunea 118813 @ 2018-03-06, verificat 2026-09-15 |
@@ -178,13 +199,5 @@ Marcajul s-a pierdut la o reimprospatare anterioara a consolidarii. Articolul se
 
 | act | hotarire | rindul din fisa |
 |---|---|---|
-| `CONST-1994` | HCC8/2024-03-11 | l.51: HCC8 din 11.03.24, MO104-107/21.03.24 art.42; în vigoare 11.03.24 |
-| `CONST-1994` | HCC7/2016-03-04 | l.58: HCC7 din 04.03.16, MO59-67/18.03.16 art.10 |
-| `L-132-2016` | HCC29/2021-09-21 | l.77: HCC29 din 21.09.21, MO256-260/22.10.21 art.184; în vigoare 21.09.21 |
-| `L-132-2016` | HCC6/2018-04-10 | l.85: HCC6 din 10.04.18, MO157-166/18.05.18 art.76 |
-| `L-181-2014` | HCC10/2017-03-16 | l.112: HCC10 din 16.03.17, MO119-126/14.04.17 art.48 |
-| `L-181-2014` | HCC32/2016-11-17 | l.113: HCC32 din 17.11.16, MO40-49/10.02.17 art.9 |
-| `L-213-2023` | HCC20/2024-09-26 | l.51: | Data modificării/datele modificării şi actele normative care modifică | LP335 din 29.12.25, MO55-58/23.01.26 art.2; în |
-| `L-24-2008` | HCC3/2012-02-09 | l.46: HCC3 din 09.02.12, MO38-41/24.02.12 art.7; |
-| `L-325-2013` | HCC7/2015-04-16 | l.62: HCC7 din 16.04.15, MO115-123/15.05.15 art.11; în vigoare 16.04.15 | |
+| `L-100-2001` | HCC28/2002-05-30 | l.86: HCC28 din 30.05.02, MO75/13.06.02 art.19 |
 

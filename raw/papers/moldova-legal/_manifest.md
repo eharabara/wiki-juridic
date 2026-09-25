@@ -3067,3 +3067,77 @@ acestei decizii nu s-a făcut — doar textul e ingerat. Deciziile Comisiei priv
   verificat. Detalii în [[L-72-2025]].
 - **Neingerat, rămas:** Legea 241/2007 (abrogată, capitolul VIII pînă în 2027), actele UE transpuse (zece,
   enumerate în preambul) și actele subordonate ale Agenției.
+
+## AO. Inelul de drept administrativ: 18 legi ingerate dintr-o singura descarcare (2026-09-24, seara)
+
+- **Cererea:** „ingest everything related to administrative law". Perimetrul e nedefinit, deci l-am definit eu si l-am
+  spus in `concepts/perimetrul-drept-administrativ.md`: organizarea autoritatilor, functia publica si integritatea,
+  bunurile publice si exproprierea, finantele locale, controlul, serviciile electronice, concesiunile.
+- **Cum s-au ales actele:** titlu cu titlu pe legis.md (cautarea dupa numar nu merge), apoi pagina actului pentru
+  lista de versiuni. Doc_id-ul din rindul de cautare a fost o consolidare VIITOARE la 9 din cele 18 (98/2012,
+  435/2006, 121/2007, 397/2003, 270/2018, 52/2014, 165/2023, 121/2018, 22/2025); s-a luat versiunea cu cea mai noua
+  data care nu e in viitor, iar cele viitoare au intrat in `_meta/inforce/pending-consolidations.json` (11 intrari
+  noi, cu marcajele 'in vigoare' din consolidarea viitoare). Nu s-au ingerat 793/2000 (contencios administrativ),
+  190/1994 (petitionare), 122/2018 (avertizori, prima varianta): legis.md le da ca abrogate.
+- **Ruta de descarcare (nou, functioneaza):** un singur fisier. Din Chrome-ul lui Eugen, `fetch` same-origin al
+  celor 18 pagini `showdetails`, hash SHA-256 calculat in pagina pe fiecare, apoi un singur blob concatenat cu
+  antet `<<<WIKIPART nume doc_id octeti sha>>>` pe parte, descarcat o data (2 948 896 octeti). Despachetat local
+  cu verificarea hash-ului pe parte: 18 din 18 au trecut. Ocoleste blocajul „a doua descarcare de pe acelasi
+  site e ignorata" fara tab-uri noi si fara receptor local.
+- **Constatari despre acte:**
+  - `L-22-2025` (concesiuni) NU e in vigoare: art. 54 alin. (1) o amina la 27.03.2027, iar alin. (3) abroga atunci
+    `L-121-2018`. Fisa da gresit 31.12.2025. Data de consolidare din fisierul detinut e din trecut, deci nici
+    tabelul de acoperire, nici scanarea de marcaje n-o vad; un rind pentru intreg actul e in registrul
+    consolidarilor viitoare. A patra instanta a modelului „intrare in vigoare in prosa" (`CLAUDE.md`, intrebarea 9).
+  - `L-435-2006` art. 16 alin. (2): legea se aplica dupa aprobarea unui plan de actiuni (nu s-a verificat daca a fost
+    aprobat).
+  - `L-488-1999` art. 7 scris `Articolul.7.` in sursa: articol prezent, neancorat, nu abrogat. Alt caz al capcanei
+    din intrebarea deschisa 4; graful il listeaza ca trimitere nerezolvata.
+  - Lacune fara marcaj: `L-98-2012` art. 12 (Viceministrul, disparut intre consolidarile din 18.08.2017 si
+    17.08.2018, inlocuit de art. 12^1); `L-179-2008` arts. 22-24 (prezente 02.08.2023, absente 17.03.2025);
+    `L-768-2000` art. 27 (nedatat; verificarea a expirat). `L-121-2007` arts. 15, 48, 49 poarta marcaj (LP328/2025).
+  - `L-165-2023` are o amendare de fond la 09.12.2026 (LP165/2026, 56 de marcaje), deci textul detinut e cel
+    de azi si se schimba in trei luni.
+  - `L-25-2008`: consolidarea 2018 e cea mai noua din lista legis.md; steagul „mai veche de 2 ani" e al tabelului,
+    nu al unei versiuni ratate.
+  - `L-121-2018`: fisa da intrarea in vigoare 17.02.2019, art. 44 alin. (1) da 17.01.2019 (6 luni de la 17.07.2018);
+    diferenta nu a fost investigata.
+- **Titluri:** 248 de titluri desfacute cu `fix_wrapped_titles.py`, corpul dovedit identic fata de copia din
+  `wiki-backups/wiki-2026-09-24-admin-ring/` (18 din 18). Doua acte (`L-764-2001`, `L-768-2000`) au forma
+  `Art.N. -`, ca `L-1125-2002`: titlul ancorei e primul aliniat.
+- **Curtea Constitutionala:** patru dintre aceste acte poarta hotarari in fisa (`L-121-2007`, `L-136-2017`,
+  `L-270-2018`, `L-52-2014`); registrul HCC le-a preluat la regenerare. Citeste `hcc-register.md` inainte de
+  art. 13 din 121/2007, art. 23 al.(6) din 136/2017, art. 27 al.(5) si anexa 3 din 270/2018, art. 21 al.(5) din 52/2014.
+- **Neluat:** actele subordonate (HG) ale acestor autoritati, legile speciale ale fiecarui minister, cetatenia,
+  strainii, starea civila, si restul cozii grafului. Nu s-au cautat.
+
+## AP. Drept administrativ, lotul al doilea, si lacunele lotului intii inchise (2026-09-25)
+
+- **Ce s-a inchis din lacunele listate la sectiunea AO:**
+  - *Contenciosul administrativ:* `COD-116-2018` art. 257 alin. (2) abroga Legea 793/2000 si Legea 190/1994 la 1 aprilie
+    2019 (alin. (1)); procedura contenciosului este Cartea a treia a codului, arts. 189-256; petitiile sint in acelasi
+    cod (arts. 9, 72-75 s.a.). Citit direct in raw, nu dedus din marcajul de pe legis.md.
+  - `L-768-2000` art. 27: prezent in consolidarile din 2000, 2006 si 04.04.2011 (doc_id 61966), absent din cea din
+    01.03.2012 (61968): scos intre aceste doua date. Legea care l-a scos nu apare in fisa consolidarii din 2012.
+  - `L-121-2018`: prima consolidare din istoricul legis.md (105485) e datata 17.02.2019, chiar data din fisa, iar
+    art. 44 alin. (1) al ei e identic cu cel de azi (6 luni de la publicarea din 17.07.2018 = 17.01.2019). Discrepanta
+    ramine, dar e acum localizata: fisa si prima consolidare o repeta, textul spune altceva.
+  - `L-435-2006` art. 16 alin. (2): planul de actiuni a fost aprobat prin Legea nr. 68 din 05.04.2012 (legis.md doc_id
+    94917, LP68/2012, modificata prin LP168/2016). Verificat doar dupa titlul din rindul de cautare; legea nu e in vault.
+- **Actele ingerate (5), aceeasi metoda ca in AO:** `L-253-2025` (cetatenia, doc_id 154591), `L-100-2001` (starea civila,
+  151282), `L-273-1994` (actele de identitate, 154600), `L-71-2007` (registrele, 140170), `L-274-2011` (integrarea
+  strainilor, 151195). Un singur blob de 5 fisiere (717 912 octeti), hash pe parte verificat la despachetare, 5 din 5.
+  Titluri desfacute: 75 (23+33+5+5+9), corpul identic cu copia din `wiki-backups/wiki-2026-09-24-admin-ring/`.
+  Consolidare viitoare: `L-274-2011` 156391 @ 2027-01-01 (LP200/2026, art. 11 al.(5), art. 19 al.(6)) in
+  `pending-consolidations.json`.
+- **`L-100-2001`, lacuna arts. 69-84 este mecanismul 4 din `CLAUDE.md` (marcajul pe capitol):** capitolele VII, VIII, IX
+  sint titluri „– abrogat.". Data de consolidare din frontmatter (2025-10-21) vine din republicare (art. X alin. (2)
+  din Legea 222/2025), lista legis.md da 02.11.2025.
+- **Ce nu s-a gasit:** Legea 200/2010 a regimului strainilor e marcata abrogata pe legis.md si succesoarea ei nu a
+  fost identificata (cautarile dupa titlu au dat doar 275/1994 si 716/1999, ambele abrogate). Legea 1024/2000 a
+  cetateniei e abrogata de `L-253-2025` (art. 43 alin. (3)). Cautarea „organizarea si desfasurarea adunarilor" nu a
+  dat nimic; „registrele de stat" a dat nimic sub acea formulare, iar „cu privire la registre" a dat legea 71/2007.
+- **Capcana de metoda, a doua oara:** cautarea pe titlu cere pasul `getResults` inaintea `getAjaxContent` de fiecare
+  data; fara el intoarce lista cautarii precedente, deci acelasi rezultat pentru fraze diferite. Si: pagina actului
+  pentru un act mare (100/2001) a inghetat randarea tab-ului de doua ori; s-a rezolvat cu un tab nou si cu o asteptare
+  de 7 secunde.

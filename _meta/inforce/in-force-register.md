@@ -1,7 +1,7 @@
 ---
 title: Registrul dispozitiilor care nu sint inca in vigoare
-generated: '2026-09-24T23:16:53'
-as_of: '2026-09-24'
+generated: '2026-09-25T08:22:00'
+as_of: '2026-09-25'
 type: summary
 tags: [moldova, legal-source, methodology, summary]
 confidence: high
@@ -12,7 +12,7 @@ generated_by: _meta/inforce/build_inforce_register.py
 
 **Fisier generat. Nu se editeaza manual.** Se reface rulind scriptul din frontmatter.
 
-Stare la 2026-09-24. 455 fisiere scanate. 70 dispozitii afectate in 13 act(e). 14 consolidare/consolidari cu data in viitor. 7 consolidare/consolidari viitoare neingerate, 11 dispozitii.
+Stare la 2026-09-25. 482 fisiere scanate. 70 dispozitii afectate in 13 act(e). 14 consolidare/consolidari cu data in viitor. 19 consolidare/consolidari viitoare neingerate, 68 dispozitii.
 
 ## Regula de citare
 
@@ -120,16 +120,49 @@ Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar
 
 | Act | Consolidare neingerata | Text detinut | Act modificator | Verificat | Metoda |
 |---|---|---|---|---|---|
+| L-165-2023 | 156269 @ 2026-12-09 | 138148 @ 2023-10-26 | LP165 din 30.07.26, MO435-438/09.09.26 art.448 | 2026-09-24 | consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 475 vs 322), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare. Amendare de fond a intregii legi (avertizorii de integritate): consolidarea viitoare are cu 153 de randuri mai mult; lista pe articole e a marcajelor, nu un rezumat al continutului. |
+| L-52-2014 | 156266 @ 2026-12-09 | 147958 @ 2025-03-27 | LP165 din 30.07.26, MO435-438/09.09.26 art.448 | 2026-09-24 | consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 400 vs 396), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare. |
 | L-160-2011 | 149496 @ 2026-12-28 | 151257 @ 2026-08-29 | LP136 din 13.06.25, MO340-342/28.06.25 art.387 | 2026-09-07 | sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei |
 | COD-1163-1997 | 152862 @ 2027-01-01 | 138613 @ 2026-07-01 | LP187 din 10.07.25, MO379-380/18.07.25 art.491 | 2026-09-07 | capul istoricului confirmat pe pagina actului; 152862 si 138613 citite prin fetch fara descarcare, comparate alineat cu alineat; 5 marcaje 'in vigoare 01.01.27', toate LP187/2025 |
 | COD-325-2022 | 156086 @ 2027-01-01 | 153001 @ 2026-08-26 | LP327 din 29.12.25, MO665/31.12.25 art.814 | 2026-09-19 | 153001 si 156086 citite prin fetch fara descarcare (2454 vs 2294 randuri), comparate rand cu rand dupa normalizarea diacriticelor (t/s cu sedila vs virgula) si a taieturilor de rand; singura diferenta de fond este art. 54 al.(5) lit.f), unicul marcaj 'in vigoare 01.01.27'. Restul diferentelor: marcaje pierdute la refresh (Capitolul X1, LP192), randuri rupte altfel (art. 39, art. 90 lit.d)), stub-ul '(11) - abrogat.' la art. 53 (abrogat deja de LP192, in vigoare 26.08.26) si nota editoriala MAEIE. Marcajul LP327 lipseste din 153001, deci scanarea nu il vedea. |
+| L-121-2007 | 156384 @ 2027-01-01 | 152778 @ 2026-01-23 | LP200 din 03.09.26, MO448-451/14.09.26 art.477 | 2026-09-24 | consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 1016 vs 1136), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare. Consolidarea viitoare are cu 120 de randuri mai putine decit cea detinuta; nu s-a stabilit de ce (posibil marcaje pierdute la refresh), deci lista poate fi incompleta. |
 | L-160-2011 | 150231 @ 2027-01-01 | 151257 @ 2026-08-29 | LP176 din 03.07.25, MO409-412/31.07.25 art.549 | 2026-09-07 | sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei |
+| L-270-2018 | 156397 @ 2027-01-01 | 155894 @ 2026-09-13 | LP200 din 03.09.26, MO448-451/14.09.26 art.477 | 2026-09-24 | consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 481 vs 479), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare. |
+| L-274-2011 | 156391 @ 2027-01-01 | 151195 @ 2026-03-18 | LP200 din 03.09.26, MO448-451/14.09.26 art.477 | 2026-09-25 | consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (330 vs 329 randuri), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-25 din consolidarea viitoare. Continutul nou nu a fost rezumat. |
+| L-397-2003 | 153025 @ 2027-01-01 | 153023 @ 2025-12-31 | LP327 din 29.12.25, MO665/31.12.25 art.814 | 2026-09-24 | consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 545 vs 555), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare. |
+| L-435-2006 | 156387 @ 2027-01-01 | 143037 @ 2024-05-02 | LP200 din 03.09.26, MO448-451/14.09.26 art.477 | 2026-09-24 | consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 247 vs 243), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare. |
+| L-98-2012 | 155442 @ 2027-01-01 | 150065 @ 2026-01-01 | LP76 din 02.07.26, MO330-333/23.07.26 art.333 | 2026-09-24 | consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 514 vs 515), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare. |
 | L-160-2011 | 154051 @ 2027-01-23 | 151257 @ 2026-08-29 | LP40 din 26.03.26, MO176-179/23.04.26 art.139 | 2026-09-07 | sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei |
+| L-121-2018 | 148335 @ 2027-03-27 | 150089 @ 2026-01-01 | LP22 din 20.02.25, MO154-156/27.03.25 art.157 | 2026-09-24 | 148335 si 150089 citite prin fetch, singura diferenta de fond este marcajul de la art. 5 al.(3) lit.c); antetul consolidarii viitoare numeste LP22/2025 'in vigoare 27.03.27'; art. 54 al.(1) si (3) din Legea 22/2025 citit direct in raw/papers/moldova-legal/L-22-2025.md. |
+| L-22-2025 | 153697 @ 2027-03-27 | 153624 @ 2026-04-01 | LP22 din 20.02.25, MO154-156/27.03.25 art.157 | 2026-09-24 | 153697 si 153624 comparate; 3 articole cu diferente (33, 50 si antetul), toate randuri scoase din consolidarea viitoare (marcaje editoriale); art. 54 citit direct in raw. Intrarea in vigoare amanata e scrisa in proza, deci registrul nu o vedea singur. |
 | L-160-2011 | 154478 @ 2027-05-21 | 151257 @ 2026-08-29 | LP71 din 30.04.26, MO213-216/21.05.26 art.202 | 2026-09-07 | sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei |
+| L-121-2007 | 150035 @ 2027-11-30 | 152778 @ 2026-01-23 | LP140 din 13.06.25, MO340-342/28.06.25 art.391 | 2026-09-24 | consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 1021 vs 1136), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare. |
+| L-397-2003 | 156390 @ 2028-01-01 | 153023 @ 2025-12-31 | LP200 din 03.09.26, MO448-451/14.09.26 art.477 | 2026-09-24 | consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 550 vs 555), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare. |
 | L-160-2011 | 156152 @ 2029-01-01 | 151257 @ 2026-08-29 | LP159 din 30.07.26, MO407-409/02.09.26 art. 440 | 2026-09-07 | sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei |
 
 | Act | Articol | Operatiune | Produce efecte de la | Act modificator | Stare astazi | Ce se schimba |
 |---|---|---|---|---|---|---|
+| L-165-2023 | 1 | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior | marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III) |
+| L-165-2023 | 2 | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior | marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III) |
+| L-165-2023 | 3 | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior | marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III) |
+| L-165-2023 | 4 | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior | marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III) |
+| L-165-2023 | 5 | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior | marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III) |
+| L-165-2023 | 5^1 | introducere | 2026-12-09 | LP165 din 30.07.26 | dispozitia nu se aplica | articol nou |
+| L-165-2023 | 7 | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior | marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III) |
+| L-165-2023 | 8 | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior | marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III) |
+| L-165-2023 | 9 | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior | marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III) |
+| L-165-2023 | 10 | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior | marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III) |
+| L-165-2023 | 12 | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior | marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III) |
+| L-165-2023 | 14 | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior | marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III) |
+| L-165-2023 | 15 | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior | marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III) |
+| L-165-2023 | 16 | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior | marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III) |
+| L-165-2023 | 17 | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior | marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III) |
+| L-165-2023 | 17^1 | introducere | 2026-12-09 | LP165 din 30.07.26 | dispozitia nu se aplica | articol nou |
+| L-165-2023 | 18 | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior | marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III) |
+| L-165-2023 | 19 | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior | marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III) |
+| L-165-2023 | 20 | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior | marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III) |
+| L-165-2023 | 21 | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior | marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III) |
+| L-52-2014 | 16 lit.h^2) | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior | marcaj LP165/2026 |
 | L-160-2011 | anexa nr. 1 | modificare | 2026-12-28 | LP136 din 13.06.25 | se aplica textul anterior | Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. fara marcaj in text; doar rindul din fisa |
 | COD-1163-1997 | 131 alin. (1^1) | reformulare | 2027-01-01 | LP187 din 10.07.25 | se aplica textul anterior | comunicarea SFS cu contribuabilii de la art. 187 alin. (2^1) se face si prin portalul guvernamental al unitatilor de drept; documentele remise pe acel portal se considera receptionate din ziua lucratoare urmatoare (marcajul scrie 'al.(11)', adica alin. (1^1)) |
 | COD-1163-1997 | 342 alin. (1) | abrogare | 2027-01-01 | LP187 din 10.07.25 | inca in vigoare | dispare obligatia persoanelor juridice si a intreprinzatorilor de a prezenta darea de seama privind taxa pentru folosirea drumurilor |
@@ -137,9 +170,45 @@ Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar
 | COD-1163-1997 | 342 alin. (2) | abrogare | 2027-01-01 | LP187 din 10.07.25 | inca in vigoare | dispar termenele de 25 ianuarie (dare de seama anuala) si 25 martie (darea de seama unificata a II si GT); alin. (3) si (4), evidenta ASP, ramin |
 | COD-1163-1997 | 342^1 alin. (3) | modificare | 2027-01-01 | LP187 din 10.07.25 | se aplica textul anterior | din 'calculul, raportarea si achitarea taxei' ramine 'calculul si achitarea', consecinta abrogarii raportarii; alin. (2) difera doar prin diacritice (t-sedila / t-virgula), fara schimbare de fond |
 | COD-325-2022 | 54 al.(5) lit.f) | modificare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior | din enumerarea persoanelor care nu pot sustine material concurentii electorali dispar cuvintele 'la autogestiune' din sintagma 'autoritatile/institutiile publice la autogestiune'; restul literei este identic |
+| L-121-2007 | 10 al.(6^1) | modificare | 2027-01-01 | LP200 din 03.09.26 | se aplica textul anterior | marcaj LP200/2026 |
+| L-121-2007 | 10 al.(6^2) | introducere | 2027-01-01 | LP200 din 03.09.26 | dispozitia nu se aplica | alineat nou |
+| L-121-2007 | 14 al.(6^1) | modificare | 2027-01-01 | LP200 din 03.09.26 | se aplica textul anterior | marcaj LP200/2026 |
 | L-160-2011 | anexa nr. 1 | modificare | 2027-01-01 | LP176 din 03.07.25 | se aplica textul anterior | Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. fara marcaj in text; doar rindul din fisa. Aceeasi lege introduce art. 15^3-15^8 in L-1543-1998, consolidare ingerata si listata in registru |
+| L-270-2018 | anexa nr.3 | modificare | 2027-01-01 | LP200 din 03.09.26 | se aplica textul anterior | anexa modificata prin LP200/2026 |
+| L-270-2018 | anexa nr.7 | modificare | 2027-01-01 | LP200 din 03.09.26 | se aplica textul anterior | anexa modificata prin LP200/2026 |
+| L-274-2011 | 11 al.(5) | modificare | 2027-01-01 | LP200 din 03.09.26 | se aplica textul anterior | marcaj LP200/2026 |
+| L-274-2011 | 19 al.(6) | modificare | 2027-01-01 | LP200 din 03.09.26 | se aplica textul anterior | marcaj LP200/2026 |
+| L-397-2003 | 33 lit.q) | modificare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior | marcaj LP327/2025 |
+| L-435-2006 | 4 al.(1) lit.h) | modificare | 2027-01-01 | LP200 din 03.09.26 | se aplica textul anterior | marcaj LP200/2026 |
+| L-435-2006 | 4 al.(2) lit.g^1) | modificare | 2027-01-01 | LP200 din 03.09.26 | se aplica textul anterior | marcaj LP200/2026 |
+| L-435-2006 | 4 al.(2) lit.g^2) | introducere | 2027-01-01 | LP200 din 03.09.26 | dispozitia nu se aplica | litera noua |
+| L-98-2012 | 2 al.(1) | modificare | 2027-01-01 | LP76 din 02.07.26 | se aplica textul anterior | marcaj LP76/2026 |
+| L-98-2012 | 14 al.(1) | modificare | 2027-01-01 | LP76 din 02.07.26 | se aplica textul anterior | marcaj LP76/2026 |
+| L-98-2012 | 14 al.(4) | abrogare | 2027-01-01 | LP76 din 02.07.26 | inca in vigoare | alineatul se abroga |
+| L-98-2012 | 15 al.(4) | modificare | 2027-01-01 | LP76 din 02.07.26 | se aplica textul anterior | marcaj LP76/2026 |
+| L-98-2012 | 15 al.(4^1) | introducere | 2027-01-01 | LP76 din 02.07.26 | dispozitia nu se aplica | alineat nou |
+| L-98-2012 | 26 al.(2) lit.k) | modificare | 2027-01-01 | LP76 din 02.07.26 | se aplica textul anterior | marcaj LP76/2026 |
+| L-98-2012 | 27 lit.f) | modificare | 2027-01-01 | LP76 din 02.07.26 | se aplica textul anterior | marcaj LP76/2026 |
+| L-98-2012 | 27 lit.h) | modificare | 2027-01-01 | LP76 din 02.07.26 | se aplica textul anterior | marcaj LP76/2026 |
+| L-98-2012 | 27 lit.i) | modificare | 2027-01-01 | LP76 din 02.07.26 | se aplica textul anterior | marcaj LP76/2026 |
+| L-98-2012 | 32 | modificare | 2027-01-01 | LP76 din 02.07.26 | se aplica textul anterior | marcaj LP76/2026; articolul 32 (institutiile publice) are 3 randuri noi si 8 scoase fata de textul detinut |
 | L-160-2011 | anexa nr. 1 | modificare | 2027-01-23 | LP40 din 26.03.26 | se aplica textul anterior | Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. marcaj [Anexa nr.1 modificata prin LP40 ...] |
+| L-121-2018 | 1 intregul act | abrogare | 2027-03-27 | LP22 din 20.02.25 | inca in vigoare | Legea 22/2025 (art. 54 alin. (3)) abroga Legea 121/2018 la data intrarii ei in vigoare, 24 de luni de la publicare (27.03.2027) |
+| L-121-2018 | 5 al.(3) lit.c) | abrogare | 2027-11-30 | LP22 din 20.02.25 | inca in vigoare | abrogata prin LP140 din 13.06.25, MO340-342/28.06.25 art.391 |
+| L-22-2025 | 1 intregul act (arts. 1-55) | intrare in vigoare | 2027-03-27 | LP22 din 20.02.25 | de verificat | art. 54 alin. (1): intra in vigoare la 24 de luni de la publicare (27.03.2025), adica 27.03.2027; pina atunci se aplica Legea 121/2018. Fisa legis.md da 31.12.2025 ca data intrarii in vigoare: gresit |
 | L-160-2011 | anexa nr. 1 | modificare | 2027-05-21 | LP71 din 30.04.26 | se aplica textul anterior | Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. marcaj [Anexa nr.1 modificata prin LP71 ...]; marcajul LP40 dispare |
+| L-121-2007 | 7 al.(1) | modificare | 2027-11-30 | LP140 din 13.06.25 | se aplica textul anterior | marcaj LP140/2025 |
+| L-121-2007 | 7 al.(2^1) | introducere | 2027-11-30 | LP140 din 13.06.25 | dispozitia nu se aplica | alineat nou |
+| L-121-2007 | 7 al.(3) lit.b) | modificare | 2027-11-30 | LP140 din 13.06.25 | se aplica textul anterior | marcaj LP140/2025 |
+| L-121-2007 | 7 al.(3) lit.c) | modificare | 2027-11-30 | LP140 din 13.06.25 | se aplica textul anterior | marcaj LP140/2025 |
+| L-121-2007 | 7 al.(3) lit.h) | modificare | 2027-11-30 | LP140 din 13.06.25 | se aplica textul anterior | marcaj LP140/2025 |
+| L-121-2007 | 7 al.(4) lit.a) | modificare | 2027-11-30 | LP140 din 13.06.25 | se aplica textul anterior | marcaj LP140/2025 |
+| L-121-2007 | 7 al.(4) lit.b) | modificare | 2027-11-30 | LP140 din 13.06.25 | se aplica textul anterior | marcaj LP140/2025 |
+| L-397-2003 | 5 al.(5) pct.1) lit.b) poz.(i), prima liniuta | modificare | 2028-01-01 | LP200 din 03.09.26 | se aplica textul anterior | marcaj LP200/2026 |
+| L-397-2003 | 5 al.(5) pct.1) lit.b) poz.(i), a doua liniuta | modificare | 2028-01-01 | LP200 din 03.09.26 | se aplica textul anterior | marcaj LP200/2026 |
+| L-397-2003 | 11 al.(1) | modificare | 2028-01-01 | LP200 din 03.09.26 | se aplica textul anterior | marcaj LP200/2026 |
+| L-397-2003 | 11 al.(3) | modificare | 2028-01-01 | LP200 din 03.09.26 | se aplica textul anterior | marcaj LP200/2026 |
+| L-397-2003 | 12 al.(1) lit.a) | modificare | 2028-01-01 | LP200 din 03.09.26 | se aplica textul anterior | marcaj LP200/2026 |
 | L-160-2011 | anexa nr. 1 | modificare | 2029-01-01 | LP159 din 30.07.26 | se aplica textul anterior | Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. marcaj [Anexa nr.1 modificata prin LP159 ...]; marcajul LP71 dispare. Versiunea ingerata in dimineata de 6 septembrie si arhivata |
 
 ## Unde a fost gasit fiecare marcaj

@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24",
+ "generated": "2026-09-25",
  "acts": [
   {
    "instrument": "COD-116-2018",
@@ -2194,22 +2194,102 @@
      "text": "HCC8 din 11.03.24, MO104-107/21.03.24 art.42"
     }
    ],
-   "recovered": [],
-   "unattributed": [
+   "recovered": [
     {
-     "hcc": "HCC8/2024-03-11",
-     "line": 51,
-     "text": "HCC8 din 11.03.24, MO104-107/21.03.24 art.42; în vigoare 11.03.24"
+     "instrument": "CONST-1994",
+     "hcc": "HCC7/2016-03-04",
+     "article": "78 și 85",
+     "subunit": "modificarile prin pct. 2 integral și sintagma „cu excepția cazului prevăzut la art. 78 alin. (5)” de la pct. 5 din art. I al LP1115/2000",
+     "scope": "revigorare prin anularea actului modificator",
+     "quoted_text": "cu excepția cazului prevăzut la art. 78 alin. (5)",
+     "official_gazette": "MO59-67/18.03.16 art.10",
+     "read_doc_id": "145723",
+     "read_consolidation": "2016-03-04",
+     "decision_doc_id": "ccdoc:558",
+     "verified": "2026-09-24",
+     "status_today": "HCC7/2016 a inlaturat modificarile LP1115/2000 privind alegerea Presedintelui; se citeste forma curenta a art. 78 si 85.",
+     "summary": "Dispozitivul HCC7/2016 identifica exact pct. 2 integral si sintagma din pct. 5 ale art. I LP1115/2000, actul modificator al art. 78 si 85 din Constitutie."
     },
     {
-     "hcc": "HCC7/2016-03-04",
-     "line": 58,
-     "text": "HCC7 din 04.03.16, MO59-67/18.03.16 art.10"
+     "instrument": "CONST-1994",
+     "hcc": "HCC8/2024-03-11",
+     "article": "13",
+     "subunit": "al.(1), textul „funcționînd pe baza grafiei latine”",
+     "scope": "revigorare",
+     "quoted_text": "funcționînd pe baza grafiei latine",
+     "official_gazette": "MO104-107/21.03.24 art.42",
+     "read_doc_id": "145723",
+     "read_consolidation": "2024-03-11",
+     "decision_doc_id": "ccdoc:850",
+     "verified": "2026-09-24",
+     "status_today": "textul ramane in art. 13 alin. (1), deoarece HCC8/2024 a declarat neconstitutional art. II LP52/2023 care ii constata desuetudinea.",
+     "summary": "Dispozitivul HCC8/2024 declara neconstitutional art. II LP52/2023; acel articol declara desuetudinea textului indicat din art. 13 alin. (1) al Constitutiei."
     }
    ],
+   "unattributed": [],
    "distinct_hcc": [
     "HCC7/2016-03-04",
     "HCC8/2024-03-11"
+   ]
+  },
+  {
+   "instrument": "L-100-2001",
+   "file": "raw/papers/moldova-legal/L-100-2001.md",
+   "doc_id": "151282",
+   "consolidation_date": "2025-10-21",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC28/2002-05-30",
+     "line": 86,
+     "text": "HCC28 din 30.05.02, MO75/13.06.02 art.19"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC28/2002-05-30",
+     "line": 86,
+     "text": "HCC28 din 30.05.02, MO75/13.06.02 art.19"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC28/2002-05-30"
+   ]
+  },
+  {
+   "instrument": "L-121-2007",
+   "file": "raw/papers/moldova-legal/L-121-2007.md",
+   "doc_id": "152778",
+   "consolidation_date": "2026-01-23",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC14/2024-06-20",
+     "line": 68,
+     "text": "HCC14 din 20.06.24, MO287-290/04.07.24 art.102; în vigoare 20.06.24"
+    }
+   ],
+   "recovered": [
+    {
+     "instrument": "L-121-2007",
+     "hcc": "HCC14/2024-06-20",
+     "article": "13 și Anexa",
+     "subunit": "al.(4^1), al.(4^2) și pct. 26^1",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO287-290/04.07.24 art.102",
+     "read_doc_id": "152778",
+     "read_consolidation": "2024-06-20",
+     "decision_doc_id": "ccdoc:856",
+     "verified": "2026-09-24",
+     "status_today": "art. 13 alin. (4^1) si (4^2) sunt abrogate prin LP328/2025, in vigoare din 23.01.2026; continutul actual al anexei trebuie citit direct",
+     "summary": "Dispozitivul HCC14/2024 identifica art. 13 alin. (4^1)-(4^2) si pct. 26^1 din anexa."
+    }
+   ],
+   "unattributed": [],
+   "distinct_hcc": [
+    "HCC14/2024-06-20"
    ]
   },
   {
@@ -2265,19 +2345,39 @@
      "text": "HCC6 din 10.04.18, MO157-166/18.05.18 art.76"
     }
    ],
-   "recovered": [],
-   "unattributed": [
+   "recovered": [
     {
-     "hcc": "HCC29/2021-09-21",
-     "line": 77,
-     "text": "HCC29 din 21.09.21, MO256-260/22.10.21 art.184; în vigoare 21.09.21"
+     "instrument": "L-132-2016",
+     "hcc": "HCC6/2018-04-10",
+     "article": "11",
+     "subunit": "al.(12), textul „și care a susținut proba detectorului comportamentului simulat (poligraf)”",
+     "scope": "text din articol",
+     "quoted_text": "și care a susținut proba detectorului comportamentului simulat (poligraf)",
+     "official_gazette": "MO157-166/18.05.18 art.76",
+     "read_doc_id": "155890",
+     "read_consolidation": "2018-04-10",
+     "decision_doc_id": "ccdoc:652",
+     "verified": "2026-09-24",
+     "status_today": "alin. (12) este abrogat in consolidarea curenta; alin. (10) si (11) au fost recunoscute constitutionale, nu sunt afectate.",
+     "summary": "Dispozitivul HCC6/2018 declara neconstitutional numai textul citat din art. 11 alin. (12) al Legii 132/2016. Versiunea istorica a actului a fost citita in legis.md, selectorul 10.04.2018, doc_id 155890."
     },
     {
-     "hcc": "HCC6/2018-04-10",
-     "line": 85,
-     "text": "HCC6 din 10.04.18, MO157-166/18.05.18 art.76"
+     "instrument": "L-132-2016",
+     "hcc": "HCC29/2021-09-21",
+     "article": "26, 32 al.(1), 36 al.(1), 39, 40, 41 și 41^1",
+     "subunit": "modificarile din art. I al LP244/2020",
+     "scope": "act modificator declarat neconstitutional integral",
+     "quoted_text": null,
+     "official_gazette": "MO256-260/22.10.21 art.184",
+     "read_doc_id": "155890",
+     "read_consolidation": "2021-09-21",
+     "decision_doc_id": "ccdoc:785",
+     "verified": "2026-09-24",
+     "status_today": "modificarile LP244/2020 nu produc efecte; forma curenta a articolelor trebuie citita direct, fiind ulterior modificata.",
+     "summary": "Dispozitivul HCC29/2021 declara neconstitutionala integral LP244/2020. Art. I al acelei legi identifica expres fiecare dispozitie afectata din Legea 132/2016: art. 26, 32 alin. (1), 36 alin. (1), 39, 40, 41 si 41^1. Versiunea istorica a actului a fost citita in legis.md, selectorul 21.09.2021, doc_id 155890."
     }
    ],
+   "unattributed": [],
    "distinct_hcc": [
     "HCC29/2021-09-21",
     "HCC6/2018-04-10"
@@ -2348,6 +2448,38 @@
    "unattributed": [],
    "distinct_hcc": [
     "HCC27/2016-09-27"
+   ]
+  },
+  {
+   "instrument": "L-136-2017",
+   "file": "raw/papers/moldova-legal/L-136-2017.md",
+   "doc_id": "143456",
+   "consolidation_date": "2024-06-06",
+   "markers": [
+    {
+     "article": "23",
+     "subunit": "al.(6)",
+     "quoted_text": null,
+     "scope": "in parte",
+     "hcc": [
+      "HCC7/2021-03-04"
+     ],
+     "official_gazette": "MO82-85/26.03.21 art.42",
+     "marker": "Art.23 al.(6) în partea care îi interzice Guvernului al cărui mandat a încetat să numească sau să propună pentru numire persoane în funcții de demnitate publică (altele decât miniștrii) sau în funcții publice declarată neconstituțională prin HCC7 din 04.03.21, MO82-85/26.03.21 art.42; în vigoare 04.03.21",
+     "line": 354
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC7/2021-03-04",
+     "line": 59,
+     "text": "HCC7 din 04.03.21, MO82-85/26.03.21 art.42; în vigoare 04.03.21"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [],
+   "distinct_hcc": [
+    "HCC7/2021-03-04"
    ]
   },
   {
@@ -2459,19 +2591,39 @@
      "text": "HCC32 din 17.11.16, MO40-49/10.02.17 art.9"
     }
    ],
-   "recovered": [],
-   "unattributed": [
+   "recovered": [
     {
-     "hcc": "HCC10/2017-03-16",
-     "line": 112,
-     "text": "HCC10 din 16.03.17, MO119-126/14.04.17 art.48"
+     "instrument": "L-181-2014",
+     "hcc": "HCC32/2016-11-17",
+     "article": "68",
+     "subunit": "al.(1) și (2), sintagmele „doar după rămânerea irevocabilă a hotărârii judecătoreşti” și „în baza unei hotărâri judecătoreşti irevocabile”",
+     "scope": "text din articol",
+     "quoted_text": "doar după rămânerea irevocabilă a hotărârii judecătoreşti; în baza unei hotărâri judecătoreşti irevocabile",
+     "official_gazette": "MO40-49/10.02.17 art.9",
+     "read_doc_id": "153046",
+     "read_consolidation": "2016-11-17",
+     "decision_doc_id": "ccdoc:597",
+     "verified": "2026-09-24",
+     "status_today": "forma curenta a art. 68 trebuie citita direct; HCC a inlaturat numai cele doua sintagme.",
+     "summary": "Dispozitivul HCC32/2016 identifica cele doua sintagme neconstitutionale din art. 68 alin. (1) si (2)."
     },
     {
-     "hcc": "HCC32/2016-11-17",
-     "line": 113,
-     "text": "HCC32 din 17.11.16, MO40-49/10.02.17 art.9"
+     "instrument": "L-181-2014",
+     "hcc": "HCC10/2017-03-16",
+     "article": "80",
+     "subunit": "al.(2)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO119-126/14.04.17 art.48",
+     "read_doc_id": "153046",
+     "read_consolidation": "2017-03-16",
+     "decision_doc_id": "ccdoc:609",
+     "verified": "2026-09-24",
+     "status_today": "alin. (2) trebuie citit in forma curenta; HCC10/2017 a declarat neconstitutional intregul alineat.",
+     "summary": "Dispozitivul HCC10/2017 declara neconstitutional art. 80 alin. (2) al Legii 181/2014."
     }
    ],
+   "unattributed": [],
    "distinct_hcc": [
     "HCC10/2017-03-16",
     "HCC32/2016-11-17"
@@ -2495,14 +2647,24 @@
      "text": "Rândul HCC20 din 26.09.24 este decizia Curții Constituționale care a lovit art. 2 alin. (2) din"
     }
    ],
-   "recovered": [],
-   "unattributed": [
+   "recovered": [
     {
+     "instrument": "L-213-2023",
      "hcc": "HCC20/2024-09-26",
-     "line": 51,
-     "text": "| Data modificării/datele modificării şi actele normative care modifică | LP335 din 29.12.25, MO55-58/23.01.26 art.2; în vigoare 23.01.26<br>LP187 din 10.07.25, MO379-380/18.07.25 art.491; în vigoare "
+     "article": "2",
+     "subunit": "al.(2), teza intai: textul „Taxa de timbru nu este susceptibilă de scutire, amânare sau eșalonare, cu excepțiile prevăzute de prezenta lege.”",
+     "scope": "text din articol",
+     "quoted_text": "Taxa de timbru nu este susceptibilă de scutire, amânare sau eșalonare, cu excepțiile prevăzute de prezenta lege.",
+     "official_gazette": "MO423-426/10.10.24 art.155",
+     "read_doc_id": "152741",
+     "read_consolidation": "2024-09-26",
+     "decision_doc_id": "ccdoc:862",
+     "verified": "2026-09-24",
+     "status_today": "textul declarat neconstitutional nu mai apare in art. 2; verifica art. 7 pentru regimul curent al restituirii.",
+     "summary": "Dispozitivul HCC20/2024 identifica exact teza intai a art. 2 alin. (2) declarata neconstitutionala."
     }
    ],
+   "unattributed": [],
    "distinct_hcc": [
     "HCC20/2024-09-26"
    ]
@@ -2520,16 +2682,121 @@
      "text": "HCC3 din 09.02.12, MO38-41/24.02.12 art.7;"
     }
    ],
-   "recovered": [],
-   "unattributed": [
+   "recovered": [
     {
+     "instrument": "L-24-2008",
      "hcc": "HCC3/2012-02-09",
-     "line": 46,
-     "text": "HCC3 din 09.02.12, MO38-41/24.02.12 art.7;"
+     "article": "6",
+     "subunit": "al.(2), modificarea din art. XIII pct. 1 LP163/2011",
+     "scope": "revigorare",
+     "quoted_text": "curtea de apel competentă",
+     "official_gazette": "MO38-41/24.02.12 art.7",
+     "read_doc_id": "110184",
+     "read_consolidation": "2012-02-09",
+     "decision_doc_id": "ccdoc:8",
+     "verified": "2026-09-24",
+     "status_today": "modificarea LP163/2011 a fost inlaturata; se verifica textul actual al art. 6 alin. (2).",
+     "summary": "HCC3/2012 declara neconstitutionale art. III-XV din LP163/2011. Art. XIII pct. 1 schimba art. 6 alin. (2) din Legea 24/2008."
+    },
+    {
+     "instrument": "L-24-2008",
+     "hcc": "HCC3/2012-02-09",
+     "article": "16",
+     "subunit": "al.(3), modificarea din art. XIII pct. 2 LP163/2011",
+     "scope": "revigorare",
+     "quoted_text": "curţii de apel competente",
+     "official_gazette": "MO38-41/24.02.12 art.7",
+     "read_doc_id": "110184",
+     "read_consolidation": "2012-02-09",
+     "decision_doc_id": "ccdoc:8",
+     "verified": "2026-09-24",
+     "status_today": "modificarea LP163/2011 a fost inlaturata; se verifica textul actual al art. 16 alin. (3).",
+     "summary": "HCC3/2012 declara neconstitutionale art. III-XV din LP163/2011. Art. XIII pct. 2 schimba art. 16 alin. (3) din Legea 24/2008."
     }
    ],
+   "unattributed": [],
    "distinct_hcc": [
     "HCC3/2012-02-09"
+   ]
+  },
+  {
+   "instrument": "L-270-2018",
+   "file": "raw/papers/moldova-legal/L-270-2018.md",
+   "doc_id": "155894",
+   "consolidation_date": "2026-09-13",
+   "markers": [
+    {
+     "article": "27",
+     "subunit": "al.(5)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC16/2021-05-20"
+     ],
+     "official_gazette": "MO137-141/04.06.21 art.83",
+     "marker": "Art.27 al.(5) declarat neconstituțional prin HCC16 din 20.05.21, MO137-141/04.06.21 art.83; în vigoare 20.05.21",
+     "line": 479
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC17/2023-10-10",
+     "line": 88,
+     "text": "HCC17 din 10.10.23, MO399-400/25.10.23 art.157; în vigoare 10.10.23"
+    },
+    {
+     "hcc": "HCC16/2021-05-20",
+     "line": 106,
+     "text": "HCC16 din 20.05.21, MO137-141/04.06.21 art.83; în vigoare 20.05.21"
+    },
+    {
+     "hcc": "HCC6/2020-03-10",
+     "line": 111,
+     "text": "HCC6 din 10.03.20, MO102/10.04.20 art.52; în vigoare 10.03.20"
+    },
+    {
+     "hcc": "HCC17/2023-10-10",
+     "line": 504,
+     "text": "[Clasele și coeficienții de salarizare din tabelul nr.2: „Asistent judiciar”, „Consultant principal” și „Consultant superior” din compartimentul „[…], Secretariatul Consiliului Superior al Magistratur"
+    }
+   ],
+   "recovered": [
+    {
+     "instrument": "L-270-2018",
+     "hcc": "HCC6/2020-03-10",
+     "article": "27",
+     "subunit": "al.(5), textul privind excluderea personalului cu raport suspendat",
+     "scope": "text din articol",
+     "quoted_text": "pentru personalul efectiv încadrat în unitățile bugetare la data intrării în vigoare a prezentei legi",
+     "official_gazette": "MO102/10.04.20 art.52",
+     "read_doc_id": "155894",
+     "read_consolidation": "2020-03-10",
+     "decision_doc_id": "ccdoc:725",
+     "verified": "2026-09-24",
+     "status_today": "alin. (5) are o redactare ulterioara si a fost declarat integral neconstitutional prin HCC16/2021; se citeste forma curenta si ambele inregistrari HCC",
+     "summary": "Dispozitivul HCC6/2020 identifica textul neconstitutional din art. 27 alin. (5)."
+    },
+    {
+     "instrument": "L-270-2018",
+     "hcc": "HCC17/2023-10-10",
+     "article": "Anexa nr. 3",
+     "subunit": "Tabelul 2: posturile enumerate pentru Secretariatul CSM/CSJ, Secretariatul Curtii Constitutionale, curtile de apel si judecatorii",
+     "scope": "text din anexa",
+     "quoted_text": "Asistent judiciar; Consultant principal; Consultant superior; Secretar General; Șef adjunct al Secretariatului; Șef de direcție; Șef al secretariatului; Șef al secției; Șef al secției în cadrul direcției; Șef al serviciului; Contabil-șef; Specialist principal; Specialist superior; Specialist",
+     "official_gazette": "MO399-400/25.10.23 art.157",
+     "read_doc_id": "155894",
+     "read_consolidation": "2023-10-10",
+     "decision_doc_id": "ccdoc:835",
+     "verified": "2026-09-24",
+     "status_today": "anexa nr. 3 este pastrata separat de legis.md; marcajul din textul curent enumera exact posturile afectate si trebuie citit impreuna cu tabelul actual",
+     "summary": "Marcajul publisherului si dispozitivul HCC17/2023 identifica clasele si coeficientii din Tabelul 2 pentru posturile enumerate din secretariatele CSM/CSJ si Curtii Constitutionale, curtile de apel si judecatorii."
+    }
+   ],
+   "unattributed": [],
+   "distinct_hcc": [
+    "HCC16/2021-05-20",
+    "HCC17/2023-10-10",
+    "HCC6/2020-03-10"
    ]
   },
   {
@@ -2592,14 +2859,24 @@
      "text": "HCC7 din 16.04.15, MO115-123/15.05.15, art.11."
     }
    ],
-   "recovered": [],
-   "unattributed": [
+   "recovered": [
     {
+     "instrument": "L-325-2013",
      "hcc": "HCC7/2015-04-16",
-     "line": 62,
-     "text": "HCC7 din 16.04.15, MO115-123/15.05.15 art.11; în vigoare 16.04.15 |"
+     "article": "Anexa",
+     "subunit": "sintagmele „Curtea Constituțională” și „instanțele judecătorești de toate nivelurile”",
+     "scope": "text din anexa",
+     "quoted_text": "Curtea Constituțională; instanțele judecătorești de toate nivelurile",
+     "official_gazette": "MO115-123/15.05.15 art.11",
+     "read_doc_id": "142068",
+     "read_consolidation": "2015-04-16",
+     "decision_doc_id": "ccdoc:532",
+     "verified": "2026-09-24",
+     "status_today": "anexa curenta trebuie citita direct; HCC7/2015 a inlaturat numai cele doua sintagme.",
+     "summary": "Dispozitivul HCC7/2015 priveste expres cele doua sintagme din anexa Legii 325/2013 privind testarea integritatii profesionale."
     }
    ],
+   "unattributed": [],
    "distinct_hcc": [
     "HCC37/2021-12-07",
     "HCC7/2015-04-16"
@@ -2699,6 +2976,41 @@
     "HCC27/2019-10-31",
     "HCC3/2012-02-09",
     "HCC7/2020-03-24"
+   ]
+  },
+  {
+   "instrument": "L-52-2014",
+   "file": "raw/papers/moldova-legal/L-52-2014.md",
+   "doc_id": "147958",
+   "consolidation_date": "2025-03-27",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC27/2014-11-13",
+     "line": 71,
+     "text": "HCC27 din 13.11.14, MO352-357/28.11.14 art.43 |"
+    }
+   ],
+   "recovered": [
+    {
+     "instrument": "L-52-2014",
+     "hcc": "HCC27/2014-11-13",
+     "article": "21",
+     "subunit": "al.(5) lit.e)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO352-357/28.11.14 art.43",
+     "read_doc_id": "147958",
+     "read_consolidation": "2014-11-13",
+     "decision_doc_id": "ccdoc:518",
+     "verified": "2026-09-24",
+     "status_today": "lit. e) nu mai apare in enumerarea curenta a art. 21 alin. (5)",
+     "summary": "Dispozitivul HCC27/2014 declara neconstitutional art. 21 alin. (5) lit. e) din Legea Avocatului Poporului."
+    }
+   ],
+   "unattributed": [],
+   "distinct_hcc": [
+    "HCC27/2014-11-13"
    ]
   },
   {
@@ -2881,10 +3193,10 @@
   }
  ],
  "counts": {
-  "acts": 25,
-  "distinct_hcc": 84,
-  "markers_in_text": 33,
-  "recovered": 98,
-  "unattributed": 9
+  "acts": 30,
+  "distinct_hcc": 91,
+  "markers_in_text": 35,
+  "recovered": 112,
+  "unattributed": 1
  }
 }

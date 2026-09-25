@@ -770,6 +770,40 @@ DOCS = {
     # Se ia 152659, care pastreaza marcajele amendamentului. Inlocuieste Legea 241/2007.
     'L-72-2025': {'doc_id': '152659',
                   'title': 'Legea nr. 72/2025 comunicatiilor electronice'},
+    # Inelul de drept administrativ, 2026-09-24, la cererea lui Eugen ("ingest everything related to
+    # administrative law"). Doc_id-urile sint versiunile CURENTE (cea mai noua data care nu e in viitor),
+    # nu capul listei: pentru 98/2012, 435/2006, 121/2007, 397/2003, 270/2018, 52/2014, 165/2023, 121/2018
+    # si 22/2025 randul din cautare arata o consolidare viitoare, consemnata in
+    # _meta/inforce/pending-consolidations.json, nu ingerata. Legea 793/2000 (contencios administrativ)
+    # si 190/1994 (petitionare) sint ABROGATE, deci nu intra. Descarcate intr-un singur fisier
+    # concatenat din Chrome-ul lui Eugen, cu hash pe parte verificat la despachetare.
+    'L-136-2017': {'doc_id': '143456', 'title': 'Legea nr. 136/2017 cu privire la Guvern'},
+    'L-98-2012': {'doc_id': '150065', 'title': 'Legea nr. 98/2012 privind administratia publica centrala de specialitate'},
+    'L-764-2001': {'doc_id': '149266', 'title': 'Legea nr. 764/2001 privind organizarea administrativ-teritoriala a Republicii Moldova'},
+    'L-435-2006': {'doc_id': '143037', 'title': 'Legea nr. 435/2006 privind descentralizarea administrativa'},
+    'L-768-2000': {'doc_id': '147897', 'title': 'Legea nr. 768/2000 privind statutul alesului local'},
+    'L-121-2007': {'doc_id': '152778', 'title': 'Legea nr. 121/2007 privind administrarea si deetatizarea proprietatii publice'},
+    'L-397-2003': {'doc_id': '153023', 'title': 'Legea nr. 397/2003 privind finantele publice locale'},
+    'L-52-2014': {'doc_id': '147958', 'title': 'Legea nr. 52/2014 cu privire la Avocatul Poporului (Ombudsmanul)'},
+    'L-488-1999': {'doc_id': '147849', 'title': 'Legea nr. 488/1999 privind exproprierea pentru cauza de utilitate publica'},
+    'L-124-2022': {'doc_id': '151294', 'title': 'Legea nr. 124/2022 privind identificarea electronica si serviciile de incredere'},
+    'L-260-2017': {'doc_id': '154853', 'title': 'Legea nr. 260/2017 privind organizarea si functionarea Curtii de Conturi'},
+    'L-270-2018': {'doc_id': '155894', 'title': 'Legea nr. 270/2018 privind sistemul unitar de salarizare in sectorul bugetar'},
+    'L-523-1999': {'doc_id': '143274', 'title': 'Legea nr. 523/1999 cu privire la proprietatea publica a unitatilor administrativ-teritoriale'},
+    'L-121-2018': {'doc_id': '150089', 'title': 'Legea nr. 121/2018 cu privire la concesiunile de lucrari si concesiunile de servicii'},
+    'L-22-2025': {'doc_id': '153624', 'title': 'Legea nr. 22/2025 privind concesiunile de lucrari si concesiunile de servicii'},
+    'L-179-2008': {'doc_id': '152602', 'title': 'Legea nr. 179/2008 cu privire la parteneriatul public-privat'},
+    'L-25-2008': {'doc_id': '107130', 'title': 'Legea nr. 25/2008 privind Codul de conduita a functionarului public'},
+    'L-165-2023': {'doc_id': '138148', 'title': 'Legea nr. 165/2023 privind avertizorii de integritate'},
+    # Al doilea lot de drept administrativ, 2026-09-25 (starea persoanei, registre, cetatenie, straini).
+    # Aceeasi metoda: versiunea curenta din lista de versiuni, nu randul de cautare; 274/2011 are
+    # consolidare viitoare 156391 @ 2027-01-01 (LP200/2026) in pending-consolidations.json.
+    # Legea 1024/2000 a cetateniei si Legea 200/2010 a regimului strainilor sint ABROGATE pe legis.md.
+    'L-253-2025': {'doc_id': '154591', 'title': 'Legea nr. 253/2025 cetateniei Republicii Moldova'},
+    'L-100-2001': {'doc_id': '151282', 'title': 'Legea nr. 100/2001 privind actele de stare civila'},
+    'L-273-1994': {'doc_id': '154600', 'title': 'Legea nr. 273/1994 privind actele de identitate din sistemul national de pasapoarte'},
+    'L-71-2007': {'doc_id': '140170', 'title': 'Legea nr. 71/2007 cu privire la registre'},
+    'L-274-2011': {'doc_id': '151195', 'title': 'Legea nr. 274/2011 privind integrarea strainilor in Republica Moldova'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

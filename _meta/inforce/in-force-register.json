@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-24T23:16:53",
-  "as_of": "2026-09-24",
-  "files_scanned": 455,
+  "generated": "2026-09-25T08:22:00",
+  "as_of": "2026-09-25",
+  "files_scanned": 482,
   "provisions_not_yet_in_force": [
     {
       "file": "raw/papers/moldova-legal/COD-122-2003.md",
@@ -1379,6 +1379,179 @@
   ],
   "pending_consolidations": [
     {
+      "instrument": "L-165-2023",
+      "doc_id": "156269",
+      "consolidation_date": "2026-12-09",
+      "held_doc_id": "138148",
+      "held_consolidation_date": "2023-10-26",
+      "amending_act": "LP165 din 30.07.26",
+      "official_gazette": "MO435-438/09.09.26 art.448",
+      "verified": "2026-09-24",
+      "method": "consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 475 vs 322), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare. Amendare de fond a intregii legi (avertizorii de integritate): consolidarea viitoare are cu 153 de randuri mai mult; lista pe articole e a marcajelor, nu un rezumat al continutului.",
+      "provisions": [
+        {
+          "article": "1",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III)"
+        },
+        {
+          "article": "2",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III)"
+        },
+        {
+          "article": "3",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III)"
+        },
+        {
+          "article": "4",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III)"
+        },
+        {
+          "article": "5",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III)"
+        },
+        {
+          "article": "5^1",
+          "subunit": "",
+          "operation": "introducere",
+          "effective_from": "2026-12-09",
+          "summary": "articol nou"
+        },
+        {
+          "article": "7",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III)"
+        },
+        {
+          "article": "8",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III)"
+        },
+        {
+          "article": "9",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III)"
+        },
+        {
+          "article": "10",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III)"
+        },
+        {
+          "article": "12",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III)"
+        },
+        {
+          "article": "14",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III)"
+        },
+        {
+          "article": "15",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III)"
+        },
+        {
+          "article": "16",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III)"
+        },
+        {
+          "article": "17",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III)"
+        },
+        {
+          "article": "17^1",
+          "subunit": "",
+          "operation": "introducere",
+          "effective_from": "2026-12-09",
+          "summary": "articol nou"
+        },
+        {
+          "article": "18",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III)"
+        },
+        {
+          "article": "19",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III)"
+        },
+        {
+          "article": "20",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III)"
+        },
+        {
+          "article": "21",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaje LP165/2026 (in total 56 de marcaje pe arts. 1-21 si o sectiune noua, sectiunea a 4-a a capitolului III)"
+        }
+      ]
+    },
+    {
+      "instrument": "L-52-2014",
+      "doc_id": "156266",
+      "consolidation_date": "2026-12-09",
+      "held_doc_id": "147958",
+      "held_consolidation_date": "2025-03-27",
+      "amending_act": "LP165 din 30.07.26",
+      "official_gazette": "MO435-438/09.09.26 art.448",
+      "verified": "2026-09-24",
+      "method": "consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 400 vs 396), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare.",
+      "provisions": [
+        {
+          "article": "16",
+          "subunit": "lit.h^2)",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaj LP165/2026"
+        }
+      ]
+    },
+    {
       "instrument": "L-160-2011",
       "doc_id": "149496",
       "consolidation_date": "2026-12-28",
@@ -1467,6 +1640,40 @@
       ]
     },
     {
+      "instrument": "L-121-2007",
+      "doc_id": "156384",
+      "consolidation_date": "2027-01-01",
+      "held_doc_id": "152778",
+      "held_consolidation_date": "2026-01-23",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "verified": "2026-09-24",
+      "method": "consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 1016 vs 1136), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare. Consolidarea viitoare are cu 120 de randuri mai putine decit cea detinuta; nu s-a stabilit de ce (posibil marcaje pierdute la refresh), deci lista poate fi incompleta.",
+      "provisions": [
+        {
+          "article": "10",
+          "subunit": "al.(6^1)",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "marcaj LP200/2026"
+        },
+        {
+          "article": "10",
+          "subunit": "al.(6^2)",
+          "operation": "introducere",
+          "effective_from": "2027-01-01",
+          "summary": "alineat nou"
+        },
+        {
+          "article": "14",
+          "subunit": "al.(6^1)",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "marcaj LP200/2026"
+        }
+      ]
+    },
+    {
       "instrument": "L-160-2011",
       "doc_id": "150231",
       "consolidation_date": "2027-01-01",
@@ -1483,6 +1690,197 @@
           "operation": "modificare",
           "effective_from": "2027-01-01",
           "summary": "Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. fara marcaj in text; doar rindul din fisa. Aceeasi lege introduce art. 15^3-15^8 in L-1543-1998, consolidare ingerata si listata in registru"
+        }
+      ]
+    },
+    {
+      "instrument": "L-270-2018",
+      "doc_id": "156397",
+      "consolidation_date": "2027-01-01",
+      "held_doc_id": "155894",
+      "held_consolidation_date": "2026-09-13",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "verified": "2026-09-24",
+      "method": "consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 481 vs 479), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare.",
+      "provisions": [
+        {
+          "article": "anexa nr.3",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "anexa modificata prin LP200/2026"
+        },
+        {
+          "article": "anexa nr.7",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "anexa modificata prin LP200/2026"
+        }
+      ]
+    },
+    {
+      "instrument": "L-274-2011",
+      "doc_id": "156391",
+      "consolidation_date": "2027-01-01",
+      "held_doc_id": "151195",
+      "held_consolidation_date": "2026-03-18",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "verified": "2026-09-25",
+      "method": "consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (330 vs 329 randuri), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-25 din consolidarea viitoare. Continutul nou nu a fost rezumat.",
+      "provisions": [
+        {
+          "article": "11",
+          "subunit": "al.(5)",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "marcaj LP200/2026"
+        },
+        {
+          "article": "19",
+          "subunit": "al.(6)",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "marcaj LP200/2026"
+        }
+      ]
+    },
+    {
+      "instrument": "L-397-2003",
+      "doc_id": "153025",
+      "consolidation_date": "2027-01-01",
+      "held_doc_id": "153023",
+      "held_consolidation_date": "2025-12-31",
+      "amending_act": "LP327 din 29.12.25",
+      "official_gazette": "MO665/31.12.25 art.814",
+      "verified": "2026-09-24",
+      "method": "consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 545 vs 555), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare.",
+      "provisions": [
+        {
+          "article": "33",
+          "subunit": "lit.q)",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "marcaj LP327/2025"
+        }
+      ]
+    },
+    {
+      "instrument": "L-435-2006",
+      "doc_id": "156387",
+      "consolidation_date": "2027-01-01",
+      "held_doc_id": "143037",
+      "held_consolidation_date": "2024-05-02",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "verified": "2026-09-24",
+      "method": "consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 247 vs 243), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare.",
+      "provisions": [
+        {
+          "article": "4",
+          "subunit": "al.(1) lit.h)",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "marcaj LP200/2026"
+        },
+        {
+          "article": "4",
+          "subunit": "al.(2) lit.g^1)",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "marcaj LP200/2026"
+        },
+        {
+          "article": "4",
+          "subunit": "al.(2) lit.g^2)",
+          "operation": "introducere",
+          "effective_from": "2027-01-01",
+          "summary": "litera noua"
+        }
+      ]
+    },
+    {
+      "instrument": "L-98-2012",
+      "doc_id": "155442",
+      "consolidation_date": "2027-01-01",
+      "held_doc_id": "150065",
+      "held_consolidation_date": "2026-01-01",
+      "amending_act": "LP76 din 02.07.26",
+      "official_gazette": "MO330-333/23.07.26 art.333",
+      "verified": "2026-09-24",
+      "method": "consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 514 vs 515), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare.",
+      "provisions": [
+        {
+          "article": "2",
+          "subunit": "al.(1)",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "marcaj LP76/2026"
+        },
+        {
+          "article": "14",
+          "subunit": "al.(1)",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "marcaj LP76/2026"
+        },
+        {
+          "article": "14",
+          "subunit": "al.(4)",
+          "operation": "abrogare",
+          "effective_from": "2027-01-01",
+          "summary": "alineatul se abroga"
+        },
+        {
+          "article": "15",
+          "subunit": "al.(4)",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "marcaj LP76/2026"
+        },
+        {
+          "article": "15",
+          "subunit": "al.(4^1)",
+          "operation": "introducere",
+          "effective_from": "2027-01-01",
+          "summary": "alineat nou"
+        },
+        {
+          "article": "26",
+          "subunit": "al.(2) lit.k)",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "marcaj LP76/2026"
+        },
+        {
+          "article": "27",
+          "subunit": "lit.f)",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "marcaj LP76/2026"
+        },
+        {
+          "article": "27",
+          "subunit": "lit.h)",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "marcaj LP76/2026"
+        },
+        {
+          "article": "27",
+          "subunit": "lit.i)",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "marcaj LP76/2026"
+        },
+        {
+          "article": "32",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "marcaj LP76/2026; articolul 32 (institutiile publice) are 3 randuri noi si 8 scoase fata de textul detinut"
         }
       ]
     },
@@ -1507,6 +1905,53 @@
       ]
     },
     {
+      "instrument": "L-121-2018",
+      "doc_id": "148335",
+      "consolidation_date": "2027-03-27",
+      "held_doc_id": "150089",
+      "held_consolidation_date": "2026-01-01",
+      "amending_act": "LP22 din 20.02.25",
+      "official_gazette": "MO154-156/27.03.25 art.157",
+      "verified": "2026-09-24",
+      "method": "148335 si 150089 citite prin fetch, singura diferenta de fond este marcajul de la art. 5 al.(3) lit.c); antetul consolidarii viitoare numeste LP22/2025 'in vigoare 27.03.27'; art. 54 al.(1) si (3) din Legea 22/2025 citit direct in raw/papers/moldova-legal/L-22-2025.md.",
+      "provisions": [
+        {
+          "article": "1",
+          "subunit": "intregul act",
+          "operation": "abrogare",
+          "effective_from": "2027-03-27",
+          "summary": "Legea 22/2025 (art. 54 alin. (3)) abroga Legea 121/2018 la data intrarii ei in vigoare, 24 de luni de la publicare (27.03.2027)"
+        },
+        {
+          "article": "5",
+          "subunit": "al.(3) lit.c)",
+          "operation": "abrogare",
+          "effective_from": "2027-11-30",
+          "summary": "abrogata prin LP140 din 13.06.25, MO340-342/28.06.25 art.391"
+        }
+      ]
+    },
+    {
+      "instrument": "L-22-2025",
+      "doc_id": "153697",
+      "consolidation_date": "2027-03-27",
+      "held_doc_id": "153624",
+      "held_consolidation_date": "2026-04-01",
+      "amending_act": "LP22 din 20.02.25",
+      "official_gazette": "MO154-156/27.03.25 art.157",
+      "verified": "2026-09-24",
+      "method": "153697 si 153624 comparate; 3 articole cu diferente (33, 50 si antetul), toate randuri scoase din consolidarea viitoare (marcaje editoriale); art. 54 citit direct in raw. Intrarea in vigoare amanata e scrisa in proza, deci registrul nu o vedea singur.",
+      "provisions": [
+        {
+          "article": "1",
+          "subunit": "intregul act (arts. 1-55)",
+          "operation": "intrare in vigoare",
+          "effective_from": "2027-03-27",
+          "summary": "art. 54 alin. (1): intra in vigoare la 24 de luni de la publicare (27.03.2025), adica 27.03.2027; pina atunci se aplica Legea 121/2018. Fisa legis.md da 31.12.2025 ca data intrarii in vigoare: gresit"
+        }
+      ]
+    },
+    {
       "instrument": "L-160-2011",
       "doc_id": "154478",
       "consolidation_date": "2027-05-21",
@@ -1523,6 +1968,116 @@
           "operation": "modificare",
           "effective_from": "2027-05-21",
           "summary": "Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. marcaj [Anexa nr.1 modificata prin LP71 ...]; marcajul LP40 dispare"
+        }
+      ]
+    },
+    {
+      "instrument": "L-121-2007",
+      "doc_id": "150035",
+      "consolidation_date": "2027-11-30",
+      "held_doc_id": "152778",
+      "held_consolidation_date": "2026-01-23",
+      "amending_act": "LP140 din 13.06.25",
+      "official_gazette": "MO340-342/28.06.25 art.391",
+      "verified": "2026-09-24",
+      "method": "consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 1021 vs 1136), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare.",
+      "provisions": [
+        {
+          "article": "7",
+          "subunit": "al.(1)",
+          "operation": "modificare",
+          "effective_from": "2027-11-30",
+          "summary": "marcaj LP140/2025"
+        },
+        {
+          "article": "7",
+          "subunit": "al.(2^1)",
+          "operation": "introducere",
+          "effective_from": "2027-11-30",
+          "summary": "alineat nou"
+        },
+        {
+          "article": "7",
+          "subunit": "al.(3) lit.b)",
+          "operation": "modificare",
+          "effective_from": "2027-11-30",
+          "summary": "marcaj LP140/2025"
+        },
+        {
+          "article": "7",
+          "subunit": "al.(3) lit.c)",
+          "operation": "modificare",
+          "effective_from": "2027-11-30",
+          "summary": "marcaj LP140/2025"
+        },
+        {
+          "article": "7",
+          "subunit": "al.(3) lit.h)",
+          "operation": "modificare",
+          "effective_from": "2027-11-30",
+          "summary": "marcaj LP140/2025"
+        },
+        {
+          "article": "7",
+          "subunit": "al.(4) lit.a)",
+          "operation": "modificare",
+          "effective_from": "2027-11-30",
+          "summary": "marcaj LP140/2025"
+        },
+        {
+          "article": "7",
+          "subunit": "al.(4) lit.b)",
+          "operation": "modificare",
+          "effective_from": "2027-11-30",
+          "summary": "marcaj LP140/2025"
+        }
+      ]
+    },
+    {
+      "instrument": "L-397-2003",
+      "doc_id": "156390",
+      "consolidation_date": "2028-01-01",
+      "held_doc_id": "153023",
+      "held_consolidation_date": "2025-12-31",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "verified": "2026-09-24",
+      "method": "consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 550 vs 555), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare.",
+      "provisions": [
+        {
+          "article": "5",
+          "subunit": "al.(5) pct.1) lit.b) poz.(i), prima liniuta",
+          "operation": "modificare",
+          "effective_from": "2028-01-01",
+          "summary": "marcaj LP200/2026"
+        },
+        {
+          "article": "5",
+          "subunit": "al.(5) pct.1) lit.b) poz.(i), a doua liniuta",
+          "operation": "modificare",
+          "effective_from": "2028-01-01",
+          "summary": "marcaj LP200/2026"
+        },
+        {
+          "article": "11",
+          "subunit": "al.(1)",
+          "operation": "modificare",
+          "effective_from": "2028-01-01",
+          "summary": "marcaj LP200/2026"
+        },
+        {
+          "article": "11",
+          "subunit": "al.(3)",
+          "operation": "modificare",
+          "effective_from": "2028-01-01",
+          "summary": "marcaj LP200/2026"
+        },
+        {
+          "article": "12",
+          "subunit": "al.(1) lit.a)",
+          "operation": "modificare",
+          "effective_from": "2028-01-01",
+          "summary": "marcaj LP200/2026"
         }
       ]
     },
@@ -1551,7 +2106,7 @@
     "provisions": 70,
     "acts": 13,
     "future_consolidations": 14,
-    "pending_consolidations": 7,
-    "pending_provisions": 11
+    "pending_consolidations": 19,
+    "pending_provisions": 68
   }
 }

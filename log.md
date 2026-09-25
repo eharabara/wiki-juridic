@@ -2147,3 +2147,40 @@
   `build_citation_graph.py` (rînd 664) nu avea `` după `exclus`. Reparat; nodurile marcate abrogat au scăzut
   de la 269 la 267, deci a mai existat un fals pozitiv de aceeași formă. Capcana e generică: orice titlu tăiat
   care continuă cu un cuvînt ce începe cu „exclus".
+
+## [2026-09-24] ingest | Inelul de drept administrativ: 18 legi dintr-o singura descarcare din Chrome-ul lui Eugen
+
+- **Aflat:** (1) Randul de cautare de pe legis.md indica, la 9 din 18 acte, o consolidare VIITOARE; s-a luat
+  versiunea curenta din lista de versiuni a paginii actului, iar cele viitoare au intrat in registru cu marcajele
+  lor. (2) `L-22-2025`, legea concesiunilor, nu e in vigoare pina la 27.03.2027 (art. 54 alin. (1)) si abroga atunci
+  `L-121-2018`; fisa dadea alta data si nimic mecanic nu o semnala: `pending-consolidations.json` trebuie
+  completat cu mina pentru acte intregi amanate. (3) `L-488-1999` art. 7 exista, dar sursa scrie `Articolul.7.`:
+  capcana din intrebarea deschisa 4. (4) Trei lacune fara marcaj (98/2012 art. 12, 179/2008 arts. 22-24,
+  768/2000 art. 27), doua datate intre doua consolidari, una nedatata. (5) Metoda de descarcare pentru mai multe
+  acte: un singur blob concatenat cu hash pe parte, la prima incercare, fara tab-uri noi. Unealta JS a Chrome-ului
+  blocheaza iesirea care contine `=` sau `?` (le ia drept query string); iesirile s-au scris fara ele.
+- **Decis:** perimetrul „drept administrativ" definit de mine, spus in `concepts/perimetrul-drept-administrativ.md`
+  si limitat la 18 legi; 793/2000, 190/1994 si 122/2018 lasate pe dinafara pentru ca legis.md le da abrogate
+  (nu am verificat prin ce act e inlocuit contenciosul). Descarcarea a fost acoperita de cererea lui Eugen
+  „ingest everything related to administrative law" (18 fisiere din legis.md, un singur blob de 2,9 MB). Nu s-a
+  comis nimic.
+- **Unde:** `raw/papers/moldova-legal/L-{136-2017,98-2012,764-2001,435-2006,768-2000,121-2007,397-2003,52-2014,488-1999,124-2022,260-2017,270-2018,523-1999,121-2018,22-2025,179-2008,25-2008,165-2023}.md`,
+  `entities/` cu aceleasi nume, `concepts/perimetrul-drept-administrativ.md`, `_meta/inforce/pending-consolidations.json`
+  (11 intrari noi), `_meta/imports/moldova-legal/ingest_business_law.py` (18 intrari in `DOCS`),
+  `_meta/imports/moldova-legal/legis-md-business/showdetails-*.html`, manifest sectiunea AO, `CLAUDE.md` (intrebarea 9).
+
+## [2026-09-25] ingest | Drept administrativ, lotul al doilea (cetatenie, stare civila, identitate, registre, integrarea strainilor) si lacunele lotului intii
+
+- **Aflat:** contenciosul administrativ nu era o lacuna: art. 257 alin. (2) din Codul administrativ abroga 793/2000 si
+  190/1994 chiar la intrarea lui in vigoare (1 aprilie 2019), iar procedura e Cartea a treia; verificarea putea fi
+  facuta din vault din prima si nu trebuia lasata ca „neverificat". Art. 27 din 768/2000 dispare intre doua
+  consolidari (2011-2012). Fisa legii concesiunilor 121/2018 si prima ei consolidare dau amindoua 17.02.2019,
+  textul dă 17.01.2019: discrepanta e a sursei, nu a extragerii. 100/2001 are 16 articole (69-84) ascunse in trei
+  capitole abrogate, mecanismul 4. Legea regimului strainilor 200/2010 e abrogata si succesoarea nu s-a gasit.
+- **Decis:** inca 5 legi ingerate, tot din Chrome-ul lui Eugen, in acelasi cadru al cererii „ingest everything related to
+  administrative law" si „continue with remaining gaps"; ramase neincercate actele subordonate (HG), legile speciale
+  ale ministerelor si succesoarea 200/2010. Nu s-a comis nimic.
+- **Unde:** `raw/papers/moldova-legal/L-{253-2025,100-2001,273-1994,71-2007,274-2011}.md`, `entities/` cu aceleasi nume,
+  `concepts/perimetrul-drept-administrativ.md` (actualizat), `entities/L-768-2000.md`, `L-121-2018.md`, `L-435-2006.md`
+  (corectate), `_meta/inforce/pending-consolidations.json` (+1 intrare), `ingest_business_law.py` (+5 in `DOCS`),
+  manifest sectiunea AP.

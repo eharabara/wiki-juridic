@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-24 | Total pages: 154
+> Last updated: 2026-09-24 | Total pages: 178
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -99,6 +99,29 @@
 - [[L-36-2026]] — Legea nr. 36/2026 de ratificare a Protocolului de amendare a Convenției 108 (108+): în vigoare intern 23.08.2026; textul Protocolului este imagine fără text, neingerat; intrarea lui în vigoare internațională neconfirmată.
 - [[L-325-2025]] — Legea achizițiilor publice din 2025: 91 de ancore, în vigoare de la 01.01.2027, dată viitoare, actul întreg; abrogă Legea 131/2015 la acea dată; pragurile din art. 1; art. 91 lasă procedurile în curs sub legea de la inițiere.
 - [[L-72-2025]] — Legea comunicațiilor electronice: 127 de articole, consolidare 2025-12-31, în vigoare din 01.01.2026 (fișa spune altfel), cu capitolul XVII (drepturile utilizatorilor, arts. 96-113) amînat la 13.05.2027 sau la decizia Consiliului de Asociere; art. 126 expirat la 01.04.2026; art. 115 alin. (10) e al doilea temei al Ordinului CNPDCP 40/2026.
+- [[L-136-2017]] — Legea cu privire la Guvern: 48 de ancore (32^1 inclus), consolidare 2024-06-06; art. 23 alin. (6) atins în parte de HCC7/2021; abrogă Legea 64/1990 (art. 47 alin. (3)).
+- [[L-98-2012]] — Legea privind administrația publică centrală de specialitate: 38 de ancore, consolidare 2026-01-01 (LP140/2025); art. 12 (Viceministrul) a dispărut, înlocuit de art. 12^1 (secretarul de stat); consolidare viitoare 2027-01-01 (LP76/2026) în registru.
+- [[L-764-2001]] — Legea privind organizarea administrativ-teritorială: 26 de ancore în formă „Art.N. -”, consolidare 2025-06-28; anexele 1-5 cu listele unităților nu sînt ancorate.
+- [[L-435-2006]] — Legea privind descentralizarea administrativă: 17 ancore, consolidare 2024-05-02; art. 16 alin. (2) leagă aplicarea legii de un plan de acțiuni; consolidare viitoare 2027-01-01 (LP200/2026) în registru.
+- [[L-768-2000]] — Legea privind statutul alesului local: 28 de ancore în formă „Art.N. -”, consolidare 2025-03-27; art. 27 lipsește fără marcaj.
+- [[L-121-2007]] — Legea privind administrarea și deetatizarea proprietății publice: 73 de ancore, consolidare 2026-01-23; arts. 15, 48, 49 abrogate prin LP328/2025; art. 13 atins de HCC14/2024; două consolidări viitoare (2027) în registru.
+- [[L-397-2003]] — Legea privind finanțele publice locale: 37 de ancore, consolidare 2025-12-31; republicată în 2018; două consolidări viitoare (2027, 2028) în registru.
+- [[L-52-2014]] — Legea cu privire la Avocatul Poporului: 41 de ancore, consolidare 2025-03-27; art. 21 alin. (5) lit. e) în registrul HCC (HCC27/2014); consolidare viitoare 2026-12-09 (LP165/2026).
+- [[L-488-1999]] — Legea exproprierii pentru cauză de utilitate publică: 24 de ancore, consolidare 2025-04-01; art. 7 (cercetarea prealabilă) există dar e neancorat din cauza unei greșeli a sursei („Articolul.7.”).
+- [[L-124-2022]] — Legea privind identificarea electronică și serviciile de încredere: 58 de ancore, consolidare 2025-12-30; înlocuiește Legea 91/2014 a semnăturii electronice, cu acreditarea prestatorilor de refăcut în 12 luni.
+- [[L-260-2017]] — Legea Curții de Conturi: 40 de ancore, consolidare 2026-06-16; abrogă Legea 261/2008.
+- [[L-270-2018]] — Legea privind salarizarea în sectorul bugetar: 38 de ancore, consolidare 2026-09-13; art. 27 alin. (5) și anexa 3 în registrul HCC; consolidare viitoare 2027-01-01 (anexele 3 și 7).
+- [[L-523-1999]] — Legea cu privire la proprietatea publică a unităților administrativ-teritoriale: 18 ancore, consolidare 2024-05-16.
+- [[L-121-2018]] — Legea concesiunilor din 2018: 46 de ancore, consolidare 2026-01-01; va fi abrogată la 27.03.2027 de Legea 22/2025 (art. 54 alin. (3)); transpune parțial Directiva 2014/23/UE.
+- [[L-22-2025]] — Legea concesiunilor din 2025: 55 de ancore, consolidare 2026-04-01; NU e în vigoare încă: art. 54 alin. (1) o amînă la 27.03.2027 (fișa dă greșit 31.12.2025); abrogă Legea 121/2018 atunci.
+- [[L-179-2008]] — Legea cu privire la parteneriatul public-privat: 56 de ancore (22 cu exponent), consolidare 2025-12-31; arts. 22-24 au dispărut din consolidarea 17.03.2025.
+- [[L-25-2008]] — Legea privind Codul de conduită a funcționarului public: 17 ancore, consolidare 2018-01-12, semnalată ca veche de tabelul de acoperire fără să fie depășită după legis.md.
+- [[L-165-2023]] — Legea privind avertizorii de integritate: 31 de ancore, consolidare 2023-10-26; transpune parțial Directiva (UE) 2019/1937; abrogă Legea 122/2018; amendare de fond viitoare la 2026-12-09 (LP165/2026).
+- [[L-253-2025]] — Legea cetățeniei din 2025: 44 de ancore, consolidare 2026-05-27; în vigoare 24.12.2025; abrogă Legea 1024/2000.
+- [[L-100-2001]] — Legea privind actele de stare civilă: 78 de ancore, consolidare 2025-10-21 (republicare); arts. 69-84 se află în capitole abrogate întregi (VII, VIII, IX).
+- [[L-273-1994]] — Legea privind actele de identitate: 12 ancore, consolidare 2026-05-27; republicată în decembrie 2025.
+- [[L-71-2007]] — Legea cu privire la registre: 33 de ancore, consolidare 2023-12-22; art. 27 abrogat; abrogă Legea 1320/1997.
+- [[L-274-2011]] — Legea privind integrarea străinilor: 35 de ancore, consolidare 2026-03-18 (republicată 2020); consolidare viitoare 2027-01-01 (LP200/2026) în registru; Legea 200/2010 a regimului străinilor e abrogată pe legis.md.
 - [[L-384-2023]] — Legea privind protecția secretelor comerciale: transpune Directiva (UE) 2016/943; 16 articole, fără exponenți, consolidare 2025-12-31; art. 16 alin. (3) este actul care a scos regimul din Codul civil — abrogă secțiunea a 3-a (arts. 2047–2054) de la 22.02.2024 și lasă în art. 1026 alin. (2) singura trimitere rămasă.
 - [[L-199-2010]] — Legea privind statutul persoanelor cu funcții de demnitate publică: 29 de articole, consolidare 2026-09-13; art. 21-23 (suspendare, încetare, răspundere) sînt citate din nouă acte; art. 3 alin. (2) dă întîietate legii speciale
 - [[L-436-2006]] — Legea administrației publice locale: 98 de ancore, consolidare 2026-06-26; nivelurile întâi, al doilea și special (Găgăuzia), principiile din art. 3 reiau art. 109 din Constituție.
@@ -120,6 +143,7 @@
 
 ### Concepts
 
+- [[perimetrul-drept-administrativ]] — harta actelor de drept administrativ din vault, lotul de 18 legi din 2026-09-24 și ce a rămas pe dinafară (contenciosul administrativ, actele subordonate)
 - [[acquis-AIFMD]] — Administratori de fonduri de investiții alternative
 - [[acquis-AML]] — Prevenirea spălării banilor (AMLD 2015/849 → pachetul AML 2024)
 - [[acquis-Benchmarks]] — Indicii de referință financiari (Reg. 2016/1011): absență confirmată, singura mențiune de „indice de referință" e fals pozitiv din legea asigurărilor.
