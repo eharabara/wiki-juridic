@@ -919,6 +919,104 @@ DOCS = {
     'L-82-2024': {'doc_id': '147967', 'title': 'Legea nr. 82/2024 privind controalele oficiale in domeniul agroalimentar'},
     'COD-246-2024': {'doc_id': '152769', 'title': 'Codul subsolului nr. 246/2024'},
     'L-164-2025': {'doc_id': '152515', 'title': 'Legea nr. 164/2025 cu privire la energia electrica'},
+    # 2026-09-25, la cererea lui Eugen ("ingereaza consolidarile viitoare neingerate"): 46 de versiuni cu data in viitor ale actelor detinute,
+    # cele 23 din pending-consolidations.json si 23 ale celor 16 acte din perimetrul actelor permisive. Fiecare intra ca fisier SEPARAT, in
+    # raw/papers/moldova-legal/viitor/<act>--<data>.md (cheia 'subdir'), cu 'future_of' si 'applies_from'; textul in vigoare azi din <act>.md
+    # ramine neatins. Subfolderul nu e citit de graful de citare si de registrul HCC (listeaza numai folderul de sus); registrul in-force citeste
+    # recursiv. Patru blob-uri din Chrome-ul lui Eugen (14,8 MB), hash SHA-256 pe parte verificat, 46 din 46.
+    'L-599-1999--2026-12-28': {'doc_id': '152435', 'subdir': 'viitor', 'future_of': 'L-599-1999', 'applies_from': '2026-12-28',
+        'title': 'Versiune viitoare, de la 2026-12-28, a actului L-599-1999'},
+    'L-282-2004--2027-01-01': {'doc_id': '152993', 'subdir': 'viitor', 'future_of': 'L-282-2004', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-282-2004'},
+    'L-149-2006--2027-03-24': {'doc_id': '156549', 'subdir': 'viitor', 'future_of': 'L-149-2006', 'applies_from': '2027-03-24',
+        'title': 'Versiune viitoare, de la 2027-03-24, a actului L-149-2006'},
+    'L-131-2007--2027-01-23': {'doc_id': '155473', 'subdir': 'viitor', 'future_of': 'L-131-2007', 'applies_from': '2027-01-23',
+        'title': 'Versiune viitoare, de la 2027-01-23, a actului L-131-2007'},
+    'L-131-2007--2029-01-01': {'doc_id': '156143', 'subdir': 'viitor', 'future_of': 'L-131-2007', 'applies_from': '2029-01-01',
+        'title': 'Versiune viitoare, de la 2029-01-01, a actului L-131-2007'},
+    'L-221-2007--2026-11-13': {'doc_id': '150048', 'subdir': 'viitor', 'future_of': 'L-221-2007', 'applies_from': '2026-11-13',
+        'title': 'Versiune viitoare, de la 2026-11-13, a actului L-221-2007'},
+    'L-221-2007--2027-11-30': {'doc_id': '155875', 'subdir': 'viitor', 'future_of': 'L-221-2007', 'applies_from': '2027-11-30',
+        'title': 'Versiune viitoare, de la 2027-11-30, a actului L-221-2007'},
+    'L-278-2007--2027-03-01': {'doc_id': '152957', 'subdir': 'viitor', 'future_of': 'L-278-2007', 'applies_from': '2027-03-01',
+        'title': 'Versiune viitoare, de la 2027-03-01, a actului L-278-2007'},
+    'L-278-2007--2029-01-01': {'doc_id': '150512', 'subdir': 'viitor', 'future_of': 'L-278-2007', 'applies_from': '2029-01-01',
+        'title': 'Versiune viitoare, de la 2029-01-01, a actului L-278-2007'},
+    'L-278-2007--2029-03-21': {'doc_id': '149694', 'subdir': 'viitor', 'future_of': 'L-278-2007', 'applies_from': '2029-03-21',
+        'title': 'Versiune viitoare, de la 2029-03-21, a actului L-278-2007'},
+    'L-68-2013--2026-11-10': {'doc_id': '154352', 'subdir': 'viitor', 'future_of': 'L-68-2013', 'applies_from': '2026-11-10',
+        'title': 'Versiune viitoare, de la 2026-11-10, a actului L-68-2013'},
+    'L-68-2013--2027-11-30': {'doc_id': '150071', 'subdir': 'viitor', 'future_of': 'L-68-2013', 'applies_from': '2027-11-30',
+        'title': 'Versiune viitoare, de la 2027-11-30, a actului L-68-2013'},
+    'L-19-2016--2027-01-01': {'doc_id': '154798', 'subdir': 'viitor', 'future_of': 'L-19-2016', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-19-2016'},
+    'L-19-2016--2030-01-01': {'doc_id': '154817', 'subdir': 'viitor', 'future_of': 'L-19-2016', 'applies_from': '2030-01-01',
+        'title': 'Versiune viitoare, de la 2030-01-01, a actului L-19-2016'},
+    'L-179-2016--2027-01-01': {'doc_id': '155447', 'subdir': 'viitor', 'future_of': 'L-179-2016', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-179-2016'},
+    'L-296-2017--2027-11-30': {'doc_id': '150086', 'subdir': 'viitor', 'future_of': 'L-296-2017', 'applies_from': '2027-11-30',
+        'title': 'Versiune viitoare, de la 2027-11-30, a actului L-296-2017'},
+    'L-105-2018--2026-12-10': {'doc_id': '156343', 'subdir': 'viitor', 'future_of': 'L-105-2018', 'applies_from': '2026-12-10',
+        'title': 'Versiune viitoare, de la 2026-12-10, a actului L-105-2018'},
+    'L-119-2018--2027-11-30': {'doc_id': '150088', 'subdir': 'viitor', 'future_of': 'L-119-2018', 'applies_from': '2027-11-30',
+        'title': 'Versiune viitoare, de la 2027-11-30, a actului L-119-2018'},
+    'L-394-2023--2027-11-30': {'doc_id': '150093', 'subdir': 'viitor', 'future_of': 'L-394-2023', 'applies_from': '2027-11-30',
+        'title': 'Versiune viitoare, de la 2027-11-30, a actului L-394-2023'},
+    'L-403-2023--2027-11-30': {'doc_id': '150096', 'subdir': 'viitor', 'future_of': 'L-403-2023', 'applies_from': '2027-11-30',
+        'title': 'Versiune viitoare, de la 2027-11-30, a actului L-403-2023'},
+    'L-422-2023--2027-11-30': {'doc_id': '150097', 'subdir': 'viitor', 'future_of': 'L-422-2023', 'applies_from': '2027-11-30',
+        'title': 'Versiune viitoare, de la 2027-11-30, a actului L-422-2023'},
+    'L-82-2024--2027-11-30': {'doc_id': '152850', 'subdir': 'viitor', 'future_of': 'L-82-2024', 'applies_from': '2027-11-30',
+        'title': 'Versiune viitoare, de la 2027-11-30, a actului L-82-2024'},
+    'L-82-2024--2028-05-08': {'doc_id': '147969', 'subdir': 'viitor', 'future_of': 'L-82-2024', 'applies_from': '2028-05-08',
+        'title': 'Versiune viitoare, de la 2028-05-08, a actului L-82-2024'},
+    'COD-1163-1997--2027-01-01': {'doc_id': '152862', 'subdir': 'viitor', 'future_of': 'COD-1163-1997', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului COD-1163-1997'},
+    'COD-325-2022--2027-01-01': {'doc_id': '156086', 'subdir': 'viitor', 'future_of': 'COD-325-2022', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului COD-325-2022'},
+    'L-98-2012--2027-01-01': {'doc_id': '155442', 'subdir': 'viitor', 'future_of': 'L-98-2012', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-98-2012'},
+    'L-160-2011--2026-12-28': {'doc_id': '149496', 'subdir': 'viitor', 'future_of': 'L-160-2011', 'applies_from': '2026-12-28',
+        'title': 'Versiune viitoare, de la 2026-12-28, a actului L-160-2011'},
+    'L-160-2011--2027-01-01': {'doc_id': '150231', 'subdir': 'viitor', 'future_of': 'L-160-2011', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-160-2011'},
+    'L-160-2011--2027-01-23': {'doc_id': '154051', 'subdir': 'viitor', 'future_of': 'L-160-2011', 'applies_from': '2027-01-23',
+        'title': 'Versiune viitoare, de la 2027-01-23, a actului L-160-2011'},
+    'L-160-2011--2027-05-21': {'doc_id': '154478', 'subdir': 'viitor', 'future_of': 'L-160-2011', 'applies_from': '2027-05-21',
+        'title': 'Versiune viitoare, de la 2027-05-21, a actului L-160-2011'},
+    'L-160-2011--2029-01-01': {'doc_id': '156152', 'subdir': 'viitor', 'future_of': 'L-160-2011', 'applies_from': '2029-01-01',
+        'title': 'Versiune viitoare, de la 2029-01-01, a actului L-160-2011'},
+    'L-435-2006--2027-01-01': {'doc_id': '156387', 'subdir': 'viitor', 'future_of': 'L-435-2006', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-435-2006'},
+    'L-121-2007--2027-01-01': {'doc_id': '156384', 'subdir': 'viitor', 'future_of': 'L-121-2007', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-121-2007'},
+    'L-121-2007--2027-11-30': {'doc_id': '150035', 'subdir': 'viitor', 'future_of': 'L-121-2007', 'applies_from': '2027-11-30',
+        'title': 'Versiune viitoare, de la 2027-11-30, a actului L-121-2007'},
+    'L-397-2003--2027-01-01': {'doc_id': '153025', 'subdir': 'viitor', 'future_of': 'L-397-2003', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-397-2003'},
+    'L-397-2003--2028-01-01': {'doc_id': '156390', 'subdir': 'viitor', 'future_of': 'L-397-2003', 'applies_from': '2028-01-01',
+        'title': 'Versiune viitoare, de la 2028-01-01, a actului L-397-2003'},
+    'L-270-2018--2027-01-01': {'doc_id': '156397', 'subdir': 'viitor', 'future_of': 'L-270-2018', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-270-2018'},
+    'L-52-2014--2026-12-09': {'doc_id': '156266', 'subdir': 'viitor', 'future_of': 'L-52-2014', 'applies_from': '2026-12-09',
+        'title': 'Versiune viitoare, de la 2026-12-09, a actului L-52-2014'},
+    'L-165-2023--2026-12-09': {'doc_id': '156269', 'subdir': 'viitor', 'future_of': 'L-165-2023', 'applies_from': '2026-12-09',
+        'title': 'Versiune viitoare, de la 2026-12-09, a actului L-165-2023'},
+    'L-121-2018--2027-03-27': {'doc_id': '148335', 'subdir': 'viitor', 'future_of': 'L-121-2018', 'applies_from': '2027-03-27',
+        'title': 'Versiune viitoare, de la 2027-03-27, a actului L-121-2018'},
+    'L-22-2025--2027-03-27': {'doc_id': '153697', 'subdir': 'viitor', 'future_of': 'L-22-2025', 'applies_from': '2027-03-27',
+        'title': 'Versiune viitoare, de la 2027-03-27, a actului L-22-2025'},
+    'L-274-2011--2027-01-01': {'doc_id': '156391', 'subdir': 'viitor', 'future_of': 'L-274-2011', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-274-2011'},
+    'L-82-2017--2026-12-09': {'doc_id': '156268', 'subdir': 'viitor', 'future_of': 'L-82-2017', 'applies_from': '2026-12-09',
+        'title': 'Versiune viitoare, de la 2026-12-09, a actului L-82-2017'},
+    'L-229-2010--2027-01-01': {'doc_id': '152994', 'subdir': 'viitor', 'future_of': 'L-229-2010', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-229-2010'},
+    'HG-149-2021--2027-07-01': {'doc_id': '156116', 'subdir': 'viitor', 'future_of': 'HG-149-2021', 'applies_from': '2027-07-01',
+        'title': 'Versiune viitoare, de la 2027-07-01, a actului HG-149-2021'},
+    'HG-146-2021--2027-07-01': {'doc_id': '156115', 'subdir': 'viitor', 'future_of': 'HG-146-2021', 'applies_from': '2027-07-01',
+        'title': 'Versiune viitoare, de la 2027-07-01, a actului HG-146-2021'},
+
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul
@@ -1294,14 +1392,20 @@ def make_raw(stem, spec, parsed, show_url):
                         "abrogarea. Constatare despre sursă, nu despre acest fișier.")
         warn.append('')
         body[-2:-2] = warn
-    whole_act_future = (not pending) and parsed['consolidation_date'] > TODAY
+    if spec.get('future_of'):
+        body[-2:-2] = ['', f"> **ATENȚIE, VERSIUNE VIITOARE A ACTULUI {spec['future_of']}.** Textul de mai jos "
+                           f"se aplică de la **{spec.get('applies_from') or parsed['consolidation_date']}**, nu "
+                           f"astăzi ({TODAY}). Este ținut **separat** de textul în vigoare azi, care rămâne în "
+                           f"`{spec['future_of']}.md`. Nu îl cita ca drept în vigoare; compară cu textul de azi "
+                           f"înainte de a spune ce se schimbă.", '']
+    whole_act_future = (not spec.get('future_of')) and (not pending) and parsed['consolidation_date'] > TODAY
     if whole_act_future:
         body[-2:-2] = ['', f"> **ATENȚIE, ACT NEINTRAT ÎN VIGOARE.** Consolidarea este datată "
                            f"**{parsed['consolidation_date']}**, ulterioară zilei de {TODAY}, "
                            f"și fișa nu conține niciun marcaj de dispoziție amânată: data este "
                            f"cea a intrării în vigoare a actului întreg. Nicio dispoziție de mai "
                            f"jos nu se aplică astăzi. Verificați articolul de dispoziții finale.", '']
-    if pending:
+    if pending and not spec.get('future_of'):
         warn = ['', f"> **ATENȚIE, CONSOLIDARE VIITOARE.** Textul de mai jos este versiunea "
                     f"care va fi în vigoare la **{parsed['consolidation_date']}**, nu cea de "
                     f"astăzi, {TODAY}. Următoarele {len(pending)} dispoziții apar "
@@ -1347,7 +1451,21 @@ def make_raw(stem, spec, parsed, show_url):
             f"Act ABROGAT de la {repeal['effective']}; astazi este {TODAY}. Nu se citeaza ca "
             f"drept in vigoare." if repeal['in_force_today'] else
             f"Act abrogat cu efect de la {repeal['effective']}, inca in vigoare astazi, {TODAY}.")
-    if pending:
+    if spec.get('future_of'):
+        fm['future_version_of'] = spec['future_of']
+        fm['applies_from'] = spec.get('applies_from') or parsed['consolidation_date']
+        # Data din lista de versiuni a legis.md are prioritate: cea dedusa din rindul de modificare
+        # poate fi mai veche (L-19-2016 @ 2030, L-82-2024 @ 2028, L-22-2025 @ 2027 au iesit asa,
+        # 2026-09-25), iar registrul in-force citeste `consolidation_date`.
+        if fm['applies_from'] != fm['consolidation_date']:
+            fm['consolidation_date_from_modification_line'] = fm['consolidation_date']
+            fm['consolidation_date'] = fm['applies_from']
+        fm['in_force_warning'] = (
+            f"VERSIUNE VIITOARE a actului {spec['future_of']}, tinuta separat. Se aplica de la "
+            f"{fm['applies_from']}, nu astazi ({TODAY}). Textul in vigoare azi este in "
+            f"{spec['future_of']}.md; acest fisier nu se citeaza ca drept in vigoare.")
+        fm['consolidation_is_future'] = True
+    elif pending:
         fm['consolidation_is_future'] = True
         fm['in_force_warning'] = (
             f"Consolidarea este datata {parsed['consolidation_date']}, ulterioara zilei "
@@ -1390,10 +1508,19 @@ def main():
         if not resolved or '<sup' in resolved:
             raise RuntimeError('resolve_superscripts nu a rezolvat exponentii')
         parsed = extract_doc(resolved, anchor_mode=spec.get('anchor_mode'))
-        (RAW_DIR / f"{stem}.md").write_text(make_raw(stem, spec, parsed, show_url),
+        # Versiunile VIITOARE (2026-09-25) se scriu intr-un subfolder, ca sa nu intre in graful de
+        # citare si in registrul HCC, care citesc doar folderul de sus, si ca textul in vigoare azi
+        # din <act>.md sa ramina neatins. Registrul in-force citeste recursiv, deci le vede.
+        out_dir = RAW_DIR / spec['subdir'] if spec.get('subdir') else RAW_DIR
+        out_dir.mkdir(parents=True, exist_ok=True)
+        (out_dir / f"{stem}.md").write_text(make_raw(stem, spec, parsed, show_url),
                                             encoding='utf-8', newline='\n')
+        note = ''
+        if spec.get('applies_from') and spec['applies_from'] != parsed['consolidation_date']:
+            note = (f"  ATENTIE: data versiunii din lista legis.md ({spec['applies_from']}) difera de "
+                    f"cea dedusa din rindul de modificare ({parsed['consolidation_date']})")
         print(f"{stem}: {parsed['article_count']} articole, "
-              f"consolidat {parsed['consolidation_date']}, HTML {path.name}")
+              f"consolidat {parsed['consolidation_date']}, HTML {path.name}{note}")
 
 
 if __name__ == '__main__':

@@ -22,13 +22,14 @@ for stem, doc in ibl.DOCS.items():
     # a descarca HTML-ul. Pina la 2026-09-18 asta oprea verificatorul cu FileNotFoundError la
     # primul act neingerat, deci lucrul in curs al unei sesiuni facea unealta inutilizabila
     # pentru toate celelalte. Se sare peste, vizibil, si se continua.
-    if not (RAW / f"{stem}.md").exists():
+    RAWF = (RAW / doc["subdir"]) if doc.get("subdir") else RAW
+    if not (RAWF / f"{stem}.md").exists():
         print("  SARIT: actul nu este inca ingerat (intrare DOCS fara fisier in raw/)")
         continue
     if not (META / f"showdetails-{doc['doc_id']}.html").exists():
         print("  SARIT: lipseste HTML-ul de referinta din cache")
         continue
-    md = io.open(RAW / f"{stem}.md", encoding='utf-8').read()
+    md = io.open(RAWF / f"{stem}.md", encoding='utf-8').read()
 
     # 1. reference extraction straight from the archived HTML
     raw_html = io.open(META / f"showdetails-{doc['doc_id']}.html", encoding='utf-8',

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-25 | Total pages: 273
+> Last updated: 2026-09-25 | Total pages: 274
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -233,6 +233,8 @@
 - [[UE-2010-625]], [[UE-2003-490]], [[UE-2002-2]], [[UE-2010-146]], [[UE-2003-821]], [[UE-2011-61]], [[UE-2004-411]], [[UE-2019-419]], [[UE-2008-393]], [[UE-2013-65]], [[UE-2022-254]], [[UE-2000-518]], [[UE-2012-484]], [[UE-2021-1772]], [[UE-2026-179]] și [[UE-2025-1382]] — cele 16 decizii ale Comisiei privind caracterul adecvat enumerate în preambulul Deciziei CNPDCP 41/2026, text integral RO din Cellar; Coreea este actul publicat (UE) 2022/254, notificat C(2021)9316.
 
 ### Concepts
+
+- [[consolidari-viitoare-ingerate]] — cele 46 de versiuni cu dată viitoare ale actelor deținute, ingerate separat în `viitor/`; nu se citează ca drept în vigoare.
 
 - [[perimetrul-actelor-permisive]] — cele 54 de acte țintă ale Legilor 227/2025, 317/2025 și 140/2025, ingerate; semnalări (un act abrogat, hotărîri CCR neatribuite, consolidări viitoare).
 

@@ -329,6 +329,7 @@ def build(root: Path, as_of: _dt.date) -> dict:
 
     all_entries: list[dict] = []
     future_acts: list[dict] = []
+    held_doc_ids: dict[str, str] = {}
     scanned = 0
 
     for path in sorted(rawdir.rglob("*.md")):
@@ -337,6 +338,8 @@ def build(root: Path, as_of: _dt.date) -> dict:
         scanned += 1
         rel = path.relative_to(root).as_posix()
         entries, fm = scan_file(path, rel, as_of)
+        if fm.get("doc_id"):
+            held_doc_ids[str(fm["doc_id"]).strip("'")] = fm.get("instrument_id") or path.stem
         all_entries.extend(entries)
 
         cons = fm.get("consolidation_date")
@@ -365,6 +368,12 @@ def build(root: Path, as_of: _dt.date) -> dict:
     future_acts.sort(key=lambda x: x["instrument"])
 
     pending = load_pending(root / OUT_SUBDIR / PENDING_JSON, as_of)
+    # 2026-09-25: o consolidare viitoare din lista de mina poate fi intre timp ingerata ca fisier
+    # separat in raw/.../viitor/. Se marcheaza dupa doc_id, ca sa nu fie numita "neingerata".
+    for c in pending:
+        stem = held_doc_ids.get(str(c["doc_id"]))
+        if stem:
+            c["ingested_as"] = stem
 
     return {
         "generated": _dt.datetime.now().isoformat(timespec="seconds"),
@@ -377,8 +386,10 @@ def build(root: Path, as_of: _dt.date) -> dict:
             "provisions": len(provisions),
             "acts": len({p["instrument"] for p in provisions}),
             "future_consolidations": len(future_acts),
-            "pending_consolidations": len(pending),
-            "pending_provisions": sum(len(c["provisions"]) for c in pending),
+            "pending_consolidations": len([c for c in pending if not c.get("ingested_as")]),
+            "pending_ingested": len([c for c in pending if c.get("ingested_as")]),
+            "pending_provisions": sum(len(c["provisions"]) for c in pending if not c.get("ingested_as")),
+            "pending_ingested_provisions": sum(len(c["provisions"]) for c in pending if c.get("ingested_as")),
         },
     }
 
@@ -406,7 +417,10 @@ def render_md(data: dict) -> str:
         f"{data['counts']['acts']} act(e). "
         f"{data['counts']['future_consolidations']} consolidare/consolidari cu data in viitor. "
         f"{data['counts']['pending_consolidations']} consolidare/consolidari viitoare neingerate, "
-        f"{data['counts']['pending_provisions']} dispozitii."
+        f"{data['counts']['pending_provisions']} dispozitii; alte "
+        f"{data['counts'].get('pending_ingested', 0)} din lista de mina sint acum ingerate ca fisiere "
+        f"separate in `raw/papers/moldova-legal/viitor/` ({data['counts'].get('pending_ingested_provisions', 0)} "
+        f"dispozitii citite de mina, pastrate mai jos)."
     )
     A("")
     A("## Regula de citare")
@@ -474,14 +488,18 @@ def render_md(data: dict) -> str:
             "versiune pe legis.md, fara descarcare, la data din coloana \"Verificat\". Textul din "
             "wiki este cel care se aplica astazi; de la data indicata se aplica textul consolidarii "
             "neingerate, care trebuie citit pe legis.md sau ingerat sub identificator distinct. "
-            "Cind data trece, actul se reimprospateaza si rindul se sterge din fisierul de intrare."
+            "Cind data trece, actul se reimprospateaza si rindul se sterge din fisierul de intrare. "
+            "Rindurile marcate \"ingerata ca ...\" (2026-09-25) exista acum ca fisiere in "
+            "`raw/papers/moldova-legal/viitor/`, scanate mai sus; rindurile lor citite de mina "
+            "raman aici fiindca prind ce scanarea nu vede (ex. anexele, absente din textul legis.md)."
         )
         A("")
         A("| Act | Consolidare neingerata | Text detinut | Act modificator | Verificat | Metoda |")
         A("|---|---|---|---|---|---|")
         for c in data["pending_consolidations"]:
             A(
-                f"| {c['instrument']} | {c['doc_id']} @ {c['consolidation_date']} "
+                f"| {c['instrument']} | {c['doc_id']} @ {c['consolidation_date']}"
+                f"{' (ingerata ca `' + c['ingested_as'] + '`)' if c.get('ingested_as') else ''} "
                 f"| {c['held_doc_id']} @ {c['held_consolidation_date']} "
                 f"| {c['amending_act']}, {c.get('official_gazette', '-')} "
                 f"| {c['verified']} | {c['method']} |"

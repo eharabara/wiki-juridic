@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-25T15:00:52",
+ "generated": "2026-09-25T15:25:27",
  "generated_by": "_meta/graph/build_citation_graph.py",
  "inputs": {
-  "inforce_generated": "2026-09-25T15:00:29",
+  "inforce_generated": "2026-09-25T15:25:02",
   "hcc_generated": "2026-09-25",
   "roots": [
    "raw/papers/cnpf",
