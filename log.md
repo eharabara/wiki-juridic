@@ -2277,3 +2277,31 @@
   `_meta/imports/eu/ingest_eu_adequacy.py`, `entities/CNPDCP-ORDINE.md`,
   `concepts/acquis-DataProtection.md`, `index.md`,
   `_meta/plans/2026-09-21-perimetru-protectia-datelor.md`.
+
+## [2026-09-25] ingest | Codul deontologic al avocaților, din PDF-ul oficial UAM; lacuna metodologiei stagiului delimitată
+
+- **Aflat:** Codul deontologic nu este pe legis.md, dar pagina curentă „Cadrul legal” a Uniunii Avocaților îl leagă direct ca PDF oficial pe `uam.md`, cu certificat TLS valid. PDF-ul are șapte pagini și strat de text nativ; antetul declară adoptarea la 20.12.2002 și modificări la 23.03.2007 și 01.07.2016. Nu este publicată cu el hotărârea de adoptare ori o consolidare ulterioară. Pentru stagiul profesional, pagina actualizată de Uniune arată condițiile operative, iar Legea 1260/2002 art. 19 alin. (2) trimite condițiile la Statut; Statutul art. 52^1 lit. d) arată că există o metodologie, dar textul ei nu este publicat în registrul oficial verificat.
+- **Decis:** Codul este ingerat ca `UA-COD-DEONTOLOGIC-2016`, fără ancore sintetice, cu PDF arhivat și control reproductibil PDF-la-extracție. Lacuna D5 se închide pentru Cod. Nu se atribuie încă identificator Regulamentului/Metodologiei stagiului și nu se pretinde că pagina informativă a Uniunii îl substituie.
+- **Unde:** `raw/papers/moldova-legal/UA-COD-DEONTOLOGIC-2016.md`, `_meta/imports/uam/ingest_uam_ethics.py`, `_meta/imports/uam/source/codul_deontologic_5358927.pdf`, `entities/UA-COD-DEONTOLOGIC-2016.md`, `entities/UA-STATUT-2011.md`, manifest secțiunea T.3, `index.md`, planul din 06.09.2026.
+
+## [2026-09-25] update | Audit raw complet GDPR/L-195 art. 12–90 și gapuri reziduale
+
+- **Aflat:** Cele trei treceri independente au închis maparea textului pentru art. 12–90: 12/12 articole cu corespondent la art. 12–23, 20/20 la art. 24–43 și acoperire art. 44–90 cu separarea adaptărilor naționale, mecanismelor UE-only și gapurilor reale. Diferențele de fond confirmate sînt extinderea excepțiilor din L art. 17, 18 și 21; adaptarea instituțională art. 27–28, 35–36, 40–43; lipsa mecanismului UE multi-autoritate/EDPB înainte de aderare; sancțiunile art. 87–88; garanțiile limitate pentru identificatorul național la art. 53; formula largă pentru jurnalism la art. 51; lipsa unui corespondent dedicat pentru GDPR 90. Nu există un articol GDPR 12–90 fără corespondent structural, dar aceasta nu dovedește compatibilitate integrală.
+- **Decis:** auditul detaliat și gapurile rămase sînt salvate în pagină separată. Calificativul rămîne `transpune parțial` / `parțial compatibil`; dosarul oficial HG1171, actele secundare CNPDCP, tranziția de aderare și interfața EDPB rămîn deschise. `legal-career/05-knowledge-map.md` nu este modificat fără textul master din proiectul claude.ai, inaccesibil din cauza verificării Cloudflare.
+- **Unde:** `comparisons/data-protection-gdpr-l195-audit.md`, `comparisons/data-protection-108-gdpr-l195.md`, `concepts/acquis-DataProtection.md`, `entities/L-36-2026.md`, `index.md`, planul `2026-09-21-perimetru-protectia-datelor.md`.
+
+## [2026-09-25] ingest | Perimetrul „funcționarea Guvernului”: 29 de acte; starea de urgență a ieșit din Legea 212/2004
+
+- **Aflat:** Regulamentul Guvernului este HG 610/2018 (nu HG 34/2019, cum credeam; 34/2001 e cel abrogat de ea). Legea 212/2004 a pierdut la 01.09.2025 starea de urgență (art. 51 alin. (5) din Legea 248/2025 privind managementul situațiilor de criză: Guvernul declară alerta, Parlamentul urgența), iar lacuna 17-27 din fișierul deținut e capitolul III abrogat ca secțiune. HCC3/2026 a recunoscut constituționale art. 36 alin. (4^1) din L-136/2017 și pct. 133 din Regulament (deciziile protocolare), deci nu e nimic lovit. Trei intrări în vigoare în proză noi (L-246/2017, L-82/2017, L-248/2025) și patru consolidări viitoare (L-82/2017, L-229/2010, HG 146 și 149/2021) pe care registrul nu le vede singur. HG 310/2025 (consultare în urbanism) a intrat din greșeală de titlu. **Coada HCC a crescut de la 0 la 4:** Regulamentul Parlamentului (L-797/1996) are cinci hotărîri CCR în fișă, art. 82-83 lovite de HCC7/2016 (marcaj în text) și patru (HCC194/2016, HCC27/2015, HCC20/2014, HCC15/2012) fără articol atribuit; recuperarea n-a fost făcută, Cloudflare a oprit-o la a doua căutare.
+- **Decis:** perimetrul l-am tăiat eu (Guvern, aparat, ministere, Parlament-Guvern, tratate, criză, personal, integritate, control intern) și Eugen a aprobat descărcarea a două blob-uri (27 + 2 acte) cu lista în față. Am lăsat pe dinafară legile speciale de minister, autoritățile subordonate, Legea 234/2021, 467/2003, 344/1994, 249/2025 și protecția civilă; sînt consemnate ca neluate, nu ca inexistente. Cele 4 consolidări viitoare sînt înscrise de mână în `pending-consolidations.json`.
+- **Unde:** `raw/papers/moldova-legal/{HG-610-2018,HG-657-2009,HG-386-2020,HG-967-2016,HG-310-2025,HG-696-2017,HG-690-2017,HG-693-2017,HG-695-2017,HG-698-2017,HG-146-2021,HG-147-2021,HG-148-2021,HG-149-2021,HG-143-2021,HG-118-2023,HG-9-2026,HG-186-2026,HG-305-2026,L-797-1996,L-595-1999,L-155-2011,L-80-2010,L-246-2017,L-82-2017,L-212-2004,L-248-2025,L-229-2010,L-123-2023}.md`, `entities/` (același nume), `concepts/perimetrul-functionarea-guvernului.md`, manifest secțiunea AR, `_meta/plans/2026-09-25-perimetru-functionarea-guvernului.md`, `_meta/imports/moldova-legal/ingest_business_law.py`.
+
+## [2026-09-25] ingest | Legea 227/2025 (optimizarea actelor permisive): lege modificatoare cu 42 de articole, o amînare nouă în proză
+
+- **Aflat:** actul are două versiuni pe legis.md și cea cu id mai mare e cea veche; s-a luat 150581 @ 2025-12-31. Nu e abrogat. Art. XLII
+  amînă în proză art. 4^2 alin. (8) din `L-160-2011` la 05.09.2026 (autorități centrale) și 05.09.2027 (locale), date calculate de mine; nici
+  registrul, nici rîndul `NOTĂ` din `L-160-2011` nu intră în el. Cele 10 ținte deținute poartă deja marcajul LP227.
+- **Decis:** Eugen a aprobat descărcarea cu numele, sursa și mărimea în față. Ancorat roman-amending; nu am scris în
+  `pending-consolidations.json` (fișierul e pentru consolidări viitoare neingerate). Cazul intră ca al nouălea la întrebarea 9.
+- **Unde:** `raw/papers/moldova-legal/L-227-2025.md`, `entities/L-227-2025.md`, `_meta/imports/moldova-legal/ingest_business_law.py`,
+  manifest secțiunea AS, `CLAUDE.md` întrebarea 9, `index.md`.

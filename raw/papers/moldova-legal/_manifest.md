@@ -1470,7 +1470,7 @@ Se ancorează deci ca o lege, nu ca hotărârile de Guvern; ipoteza „pe puncte
 confirmat. Art. 1 alin. (1) își declară temeiul: Legea 1260/2002, republicată în MO 159/582 din
 04.09.2010.
 
-### T.3. Lacune D5: Codul deontologic și Regulamentul stagiului nu sunt pe legis.md
+### T.3. Lacune D5: Codul deontologic recuperat; Regulamentul/Metodologia stagiului rămâne fără text publicat
 
 Căutări în titlu, fără diacritice, toate fără rezultat pentru actele Uniunii Avocaților:
 
@@ -1483,10 +1483,20 @@ Căutări în titlu, fără diacritice, toate fără rezultat pentru actele Uniu
 | `stagiului` | 53 | niciunul cu „avocat" sau „Uniune" în titlu; stagiul în biroul notarului da |
 | `statutul profesiei de avocat` | 5 | Statutul și cele patru acte de modificare ale lui |
 
-Conform D5, **niciunul nu se ingerează de pe uam.md**: nu există control pentru sursa aceea.
-Rămân lacune consemnate. Identificatorii rezervați în plan, `UA-DEONTOLOGIC-AAAA` și
-`UA-STAGIU-AAAA`, nu sunt folosiți. De reținut că Statutul însuși poate conține regulile stagiului
-și trimiterile la codul deontologic; nu a fost citit în acest scop.
+La 25.09.2026, situația s-a schimbat numai pentru **Codul deontologic**. Pagina oficială curentă
+„Cadrul legal” a Uniunii îl leagă direct ca PDF, pe domeniul `uam.md`, cu certificat TLS valid.
+PDF-ul (7 pagini, text nativ) este arhivat, hash-uit și extras prin
+`_meta/imports/uam/ingest_uam_ethics.py`, care verifică hash-ul PDF, hash-ul extracției, identitatea
+fiecărei linii și absența ancorelor sintetice. Este ingerat ca `UA-COD-DEONTOLOGIC-2016`; data de
+01.07.2016 este ultima modificare declarată de PDF, nu o consolidare presupusă.
+
+Pentru **Regulamentul privind efectuarea stagiului profesional**, pagina curentă „Stagiul profesional”
+actualizată la 04.09.2026 dă regulile practice și actele necesare, iar „Cadrul legal” enumeră expres
+Legea, Statutul, Codul și alte regulamente publicate, fără a lega acest Regulament/Metodologie. Căutarea
+în registrul public al hotărârilor al Uniunii după „Metodologia” nu a întors actul. Legea 1260/2002 art.
+19 alin. (2) dă Statutului condițiile stagiului, iar Statutul art. 52^1 lit. d) confirmă că metodologia
+există ca act de aplicare. Cadrul este deci citibil; textul actului distinct nu este publicat și rămâne
+lacună. Identificatorul provizoriu pentru el nu se atribuie până la obținerea textului oficial.
 
 ### T.4. `L-514-1995`: lacunele de numerotare sunt abrogări la nivel de capitol, cu stub în text
 
@@ -3161,3 +3171,72 @@ acestei decizii nu s-a făcut — doar textul e ingerat. Deciziile Comisiei priv
   resursa consolidată disponibilă `02004D0411-20161217`, menținând `32004D0411` ca CELEX de bază în frontmatter.
   Pentru Coreea, identificatorul public este `32022D0254`; `C(2021)9316` este numărul de notificare din Decizia
   CNPDCP. Păstrarea acestor acte nu echivalează cu o concluzie separată despre eventuale revizuiri ulterioare.
+
+## AR. Perimetrul „funcționarea Guvernului”: 29 de acte dintr-un singur blob și încă un act găsit din mers (2026-09-25)
+
+- **Cererea:** „tot ce ține de perimetrul legat de funcționarea guvernului”. Perimetrul l-am tăiat eu și l-am spus în
+  `concepts/perimetrul-functionarea-guvernului.md` (organizarea și procedura Guvernului, Cancelaria de Stat, ministerele,
+  raporturile cu Parlamentul și Președintele, tratatele, puterile de criză, personalul din jurul Guvernului, integritatea,
+  controlul intern, întreprinderile de stat). Plan și motive: `_meta/plans/2026-09-25-perimetru-functionarea-guvernului.md`.
+- **Actele (29):** 5 hotărâri de Guvern de nivel guvernamental (`HG-610-2018` Regulamentul Guvernului, `HG-657-2009` Cancelaria
+  de Stat, `HG-386-2020`, `HG-967-2016`, `HG-310-2025`), 14 regulamente de minister (`HG-696/690/693/695/698-2017`,
+  `HG-146/147/148/149/143-2021`, `HG-118-2023`, `HG-9/186/305-2026`) și 10 legi (`L-797-1996`, `L-595-1999`, `L-155-2011`,
+  `L-80-2010`, `L-246-2017`, `L-82-2017`, `L-212-2004`, `L-248-2025`, `L-229-2010`, `L-123-2023`).
+- **Cum s-au ales:** căutare pe titlu pe legis.md, apoi lista de versiuni din `showdetails` (pagina de detalii poartă lista
+  în HTML-ul ei, deci nu mai trebuie navigată pagina actului) și cea mai nouă consolidare care nu e în viitor. La 4 acte
+  (`L-82-2017`, `L-229-2010`, `HG-146-2021`, `HG-149-2021`) rândul de căutare indica o consolidare **viitoare**; la 3
+  (`L-123-2023`, `HG-146-2021`, `HG-149-2021`) consolidarea bună are id **mai mic** decât rândul. Verificat pentru toate 29
+  și pentru cele două de mai jos: niciunul abrogat (fișă și antet), niciunul deja în vault.
+- **Descărcare:** două blob-uri unice din Chrome-ul lui Eugen (3 338 493 și 323 514 octeți), hash SHA-256 pe parte
+  verificat la despachetare, 27 din 27 și 2 din 2. Aprobare explicită a lui Eugen pentru fiecare blob, cu lista actelor
+  și mărimea. Extractor: `ingest_business_law.py`, intrările adăugate la sfârșitul `DOCS`; `verify_business_law.py`: 0
+  eșecuri, integritatea textului PASS la toate. Titluri desfăcute pe cele 10 legi: 197 (`L-797-1996` 59, `L-595-1999` 12,
+  `L-80-2010` 11, `L-246-2017` 8, `L-82-2017` 30, `L-212-2004` 24, `L-229-2010` 14, `L-123-2023` 5, `L-248-2025` 34,
+  `L-155-2011` 0); dovada strip-and-compare contra `wiki-backups/wiki-2026-09-25-government-ring/`: toate 10 identice
+  în afara rândurilor `## Articolul`, iar fiecare rând schimbat e vechiul rând plus cuvinte deja prezente sub el
+  (la `L-248-2025` art. 13 alătură patru rânduri, nu trei).
+- **Găsit din mers:** `L-212-2004` a pierdut starea de urgență la 01.09.2025 (art. 51 alin. (5) din `L-248-2025`); de aceea
+  s-a adăugat `L-248-2025` (doc_id 155526) și, din același motiv de completitudine, `HG-967-2016` (mecanismul de consultare
+  a proiectelor de decizii, pereche a `L-239-2008`). Lacuna 17-27 din `L-212-2004` este al doilea caz de mecanism 4 din
+  `CLAUDE.md` (capitol abrogat ca secțiune, marcajul pe titlul capitolului).
+- **Greșeala de căutare:** `HG-310-2025` e regulamentul consultării în **urbanism**, luat din titlu drept mecanismul de
+  consultare a Guvernului. E textul corect al unui act real, dar din alt perimetru (`COD-434-2023`); a rămas ingerat, cu
+  nota pe pagina lui.
+- **Curtea Constituțională:** `HCC3/2026` din 05.02.2026 (legis.md doc_id 153063, citită, **neingerată**) a recunoscut
+  constituționale art. 36 alin. (4^1) din `L-136-2017` și pct. 133 din `HG-610-2018`. Nu e o dispoziție lovită.
+  **În schimb, `L-797-1996` a adus 4 hotărîri CCR fără articol atribuit** (HCC194/2016, HCC27/2015, HCC20/2014, HCC15/2012; art. 82-83 sînt
+  lovite de HCC7/2016, marcaj în text). Recuperarea prin citirea versiunilor de pe legis.md, cu regula din `_meta/hcc/`, **rămâne de făcut**.
+- **Consolidări viitoare (4, scrise de mână în `pending-consolidations.json`):** `L-82-2017` 156268 @ 2026-12-09 (art. 18,
+  LP165/2026), `L-229-2010` 152994 @ 2027-01-01 (art. 2-3, LP327/2025), `HG-149-2021` 156116 și `HG-146-2021` 156115 @
+  2027-07-01 (anexa nr. 5, HG470/2026). Marcajele HG scriu `[... în vigoare 01.07.27 ]` cu un **spațiu înainte de paranteza
+  dreaptă**; regexul din scanările mele pentru marcaje trebuie să-l admită.
+- **Intrări în vigoare în proză (întrebarea 9):** `L-246-2017` art. 19 alin. (1), `L-82-2017` clauza finală, `L-248-2025`
+  art. 51 alin. (2)-(3) — al șaselea, al șaptelea și al optulea caz; nici registrul, nici scanarea de marcaje nu le văd.
+- **Capcane de metodă noi:** (a) lista de versiuni e în răspunsul `showdetails` (regex pe `showDetails(null, 'ID')` lângă
+  data `dd-mm-yyyy`), nu numai pe pagina actului; (b) un `fetch` de decizie a CCR (56 KB) a înghețat tab-ul o dată — tab
+  nou și `AbortController`; (c) `javascript_tool` taie răspunsul la ~1 000 de caractere: întoarce rânduri scurte, filtrate
+  în pagină; (d) `fix_wrapped_titles.py` **nu** are modul `--verify` (docstring-ul îl promite, `main()` nu-l implementează);
+  proba s-a făcut cu un script separat.
+- **Neluat, cu motiv:** vezi ultima secțiune a `concepts/perimetrul-functionarea-guvernului.md` (HG 201/2009, autoritățile
+  subordonate, legile 234/2021, 467/2003, 344/1994, 249/2025, protecția civilă; interoperabilitatea și regulamentul
+  Agenției de Guvernare Electronică nu s-au găsit pe titlu).
+
+## AS. Legea nr. 227/2025 (`L-227-2025`), lege modificatoare, ingerată prin Chrome-ul lui Eugen (2026-09-25)
+
+- **Cererea:** „ingerează Legea 227/2025”. Identitatea (fișa legis.md): LEGE 227 din 10.07.2025, „pentru modificarea unor acte
+  normative (optimizarea proceselor de obținere a actelor permisive)”, MO 467-470/05.09.2025 art. 629. Curl a primit 403 pe toate
+  rutele; Chrome-ul lui Eugen a trecut de Cloudflare după ce a rezolvat verificarea el.
+- **Versiuni:** două, 150581 @ 31-12-2025 (LP317/2025, curentă) și 152771 @ 30-12-2025, mai veche dar cu id mai mare. S-a luat
+  150581. Fișa: „Data abrogării” `-`; corpul are „abrogat” doar la un punct interior (art. XXV pct. 3). Nu e abrogată.
+- **Descărcare:** aprobare explicită a lui Eugen cu numele, sursa și mărimea în față: `showdetails-150581.html`, 374.973 octeți,
+  SHA-256 `d3fb87fba7a6…` egal în pagină și pe disc (`javascript_tool` maschează hash-ul întreg ca „Base64”; s-a comparat
+  prefixul de 12 caractere, dat înainte de descărcare, cu `sha256sum`).
+- **Ancorare:** `anchor_mode='roman-amending'`, 42 de articole romane, `verify_business_law.py` 0 eșecuri. **Numărătoare greșită
+  a mea:** un regex de pe HTML dăduse 28 de articole; sunt 42 (I–XLII), diferența venea din formele de linie pe care regex-ul nu
+  le prindea. Numărul bun se ia din extras, nu din regex-ul de recunoaștere.
+- **Ținte deținute (10):** `COD-1163-1997` (art. III), `COD-225-2003` (VIII), `COD-218-2008` (XVII), `L-245-2008` (XVIII),
+  `L-160-2011` (XX), `L-86-2014` (XXIII), `L-100-2017` (XXXIV), `L-62-2022` (XXXVII), `L-124-2022` (XXXVIII), `COD-434-2023`
+  (XL). Toate zece poartă deja un marcaj `LP227 din 10.07.25` în consolidarea deținută.
+- **Întrebarea 9 (intrare în vigoare în proză), al nouălea caz:** vezi `entities/L-227-2025.md` și `CLAUDE.md`. Nu am scris nimic în
+  `pending-consolidations.json`: fișierul e pentru consolidări viitoare neingerate, iar aici amînarea e în textul deținut.
+- **Neexecutat:** celelalte 41 de articole nu au fost citite integral; țintele nedeținute (30 de acte) nu s-au ingerat.

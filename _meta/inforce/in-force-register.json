@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-25T08:49:46",
+  "generated": "2026-09-25T13:11:43",
   "as_of": "2026-09-25",
-  "files_scanned": 499,
+  "files_scanned": 530,
   "provisions_not_yet_in_force": [
     {
       "file": "raw/papers/moldova-legal/COD-122-2003.md",
@@ -1552,6 +1552,47 @@
       ]
     },
     {
+      "instrument": "L-82-2017",
+      "doc_id": "156268",
+      "consolidation_date": "2026-12-09",
+      "held_doc_id": "155892",
+      "held_consolidation_date": "2026-09-13",
+      "amending_act": "LP165 din 30.07.26",
+      "official_gazette": "MO435-438/09.09.26 art.448",
+      "verified": "2026-09-25",
+      "method": "consolidarea viitoare si cea detinuta identificate din lista de versiuni de pe legis.md; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-25 din consolidarea viitoare, citita prin fetch in pagina, fara descarcare. Continutul nou nu a fost rezumat: se citeste in consolidarea viitoare.",
+      "provisions": [
+        {
+          "article": "18",
+          "subunit": "al.(1)",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaj LP165/2026"
+        },
+        {
+          "article": "18",
+          "subunit": "al.(3) lit.d)",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaj LP165/2026"
+        },
+        {
+          "article": "18",
+          "subunit": "al.(3) lit.e)",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaj LP165/2026"
+        },
+        {
+          "article": "18",
+          "subunit": "al.(6)",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "marcaj LP165/2026"
+        }
+      ]
+    },
+    {
       "instrument": "L-160-2011",
       "doc_id": "149496",
       "consolidation_date": "2026-12-28",
@@ -1690,6 +1731,33 @@
           "operation": "modificare",
           "effective_from": "2027-01-01",
           "summary": "Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. fara marcaj in text; doar rindul din fisa. Aceeasi lege introduce art. 15^3-15^8 in L-1543-1998, consolidare ingerata si listata in registru"
+        }
+      ]
+    },
+    {
+      "instrument": "L-229-2010",
+      "doc_id": "152994",
+      "consolidation_date": "2027-01-01",
+      "held_doc_id": "144429",
+      "held_consolidation_date": "2024-08-02",
+      "amending_act": "LP327 din 29.12.25",
+      "official_gazette": "MO665/31.12.25 art.814",
+      "verified": "2026-09-25",
+      "method": "consolidarea viitoare si cea detinuta identificate din lista de versiuni de pe legis.md; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-25 din consolidarea viitoare, citita prin fetch in pagina, fara descarcare. Continutul nou nu a fost rezumat: se citeste in consolidarea viitoare.",
+      "provisions": [
+        {
+          "article": "2",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "marcaj LP327/2025"
+        },
+        {
+          "article": "3",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2027-01-01",
+          "summary": "marcaj LP327/2025 (noțiuni)"
         }
       ]
     },
@@ -1972,6 +2040,46 @@
       ]
     },
     {
+      "instrument": "HG-146-2021",
+      "doc_id": "156115",
+      "consolidation_date": "2027-07-01",
+      "held_doc_id": "155729",
+      "held_consolidation_date": "2026-09-06",
+      "amending_act": "HG470 din 26.08.26",
+      "official_gazette": "MO404-406/02.09.26 art.483",
+      "verified": "2026-09-25",
+      "method": "consolidarea viitoare si cea detinuta identificate din lista de versiuni de pe legis.md; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-25 din consolidarea viitoare, citita prin fetch in pagina, fara descarcare. Continutul nou nu a fost rezumat: se citeste in consolidarea viitoare.",
+      "provisions": [
+        {
+          "article": "anexa nr. 5",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2027-07-01",
+          "summary": "marcaj HG470/2026"
+        }
+      ]
+    },
+    {
+      "instrument": "HG-149-2021",
+      "doc_id": "156116",
+      "consolidation_date": "2027-07-01",
+      "held_doc_id": "154407",
+      "held_consolidation_date": "2026-05-14",
+      "amending_act": "HG470 din 26.08.26",
+      "official_gazette": "MO404-406/02.09.26 art.483",
+      "verified": "2026-09-25",
+      "method": "consolidarea viitoare si cea detinuta identificate din lista de versiuni de pe legis.md; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-25 din consolidarea viitoare, citita prin fetch in pagina, fara descarcare. Continutul nou nu a fost rezumat: se citeste in consolidarea viitoare.",
+      "provisions": [
+        {
+          "article": "anexa nr. 5",
+          "subunit": "",
+          "operation": "modificare",
+          "effective_from": "2027-07-01",
+          "summary": "marcaj HG470/2026"
+        }
+      ]
+    },
+    {
       "instrument": "L-121-2007",
       "doc_id": "150035",
       "consolidation_date": "2027-11-30",
@@ -2106,7 +2214,7 @@
     "provisions": 70,
     "acts": 13,
     "future_consolidations": 14,
-    "pending_consolidations": 19,
-    "pending_provisions": 68
+    "pending_consolidations": 23,
+    "pending_provisions": 76
   }
 }

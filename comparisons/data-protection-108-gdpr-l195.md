@@ -29,8 +29,8 @@ confidence: medium
 
 Aceasta este o **mapare completă a articolelor Protocolului**, nu un certificat de conformitate. Ea arată
 corespondențe tematice, diferențe verificate și clauze fără corespondent direct în GDPR sau în legea
-moldovenească. Pentru sinteza domeniului vezi [[acquis-DataProtection]], iar pentru statutul tratatului vezi
-[[L-36-2026]].
+moldovenească. Pentru sinteza domeniului vezi [[acquis-DataProtection]], pentru auditul GDPR/L-195 vezi
+[[data-protection-gdpr-l195-audit]], iar pentru statutul tratatului vezi [[L-36-2026]].
 
 Protocolul CETS-223 nu este un tratat nou: art. 1–35 modifică Convenția 108, iar art. 36–40 sînt clauzele
 finale ale Protocolului. În tabel, „articol nou” înseamnă articolul Convenției 108 astfel cum este înlocuit
@@ -122,13 +122,13 @@ Centrului de Armonizare a Legislației. Ele separă ceea ce a fost verificat de 
 | Art. 1–3 — obiect, domeniu, teritoriu | art. 1–3 | parțial compatibil | Nucleul este preluat; L-195 are excluderi interne suplimentare, iar aplicarea teritorială este formulată pentru Republica Moldova. | Concordanță completă pentru excluderi și efectele lor sectoriale. |
 | Art. 4 — definiții | art. 4 | parțial compatibil | L-195 urmează structura GDPR, dar adaugă „marketing direct” și „cifră totală de afaceri” și omite noțiunile legate de cooperarea intra-UE. | Motivează adaptările și verifică folosirea termenilor adăugați în restul legii. |
 | Art. 5–11 — principii, temeiuri, consimțămînt, categorii speciale | art. 5–10 | parțial compatibil | Diferențe verificate la art. 6 și 9; vîrsta de 14 ani din art. 8 și plafonarea/structura excepțiilor trebuie păstrate ca alegeri naționale explicate. | Finalizează concordanța pe fiecare alineat și notează opțiunile naționale. |
-| Art. 12–23 — drepturile persoanei vizate | art. 12–23 | parțial compatibil / pending | Structura și drepturile principale există, dar trecerea completă alineat-cu-alineat nu este încă audit oficial; art. 88–91 GDPR sînt analizate separat ca absențe/adaptări. | Audit complet al excepțiilor, termenelor, informării și deciziei automatizate. |
-| Art. 24–43 — responsabilitate, operatori, securitate, DPIA, DPO, coduri și certificare | art. 24–43 | parțial compatibil / pending | Există un regim detaliat, dar nu s-a verificat fiecare obligație și fiecare trimitere la actele subordonate CNPDCP. | Include ordinele CNPDCP, listele DPIA și actele secundare într-un tabel conex. |
-| Art. 44–50 — transferuri internaționale | art. 44–50 | parțial compatibil | Regimul intern are adecvare, garanții, SCC, BCR și derogări; art. 46 alin. (2) lit. c) diferă de GDPR, iar Ordinul 31/2026 a fost comparat separat cu Decizia 2021/914. | Verifică anexele Ordinului 31 și toate deciziile de adecvare relevante. |
-| Art. 51–54 — cazuri specifice | art. 51–54 | pending | Nu există încă o trecere completă pe libertatea de exprimare, acces la informații, identificatori naționali și arhivare/cercetare. | Audit separat al derogărilor și al legilor sectoriale conexe. |
-| Art. 55–71 — autoritatea de supraveghere | art. 55–71 | parțial compatibil / adaptare | CNPDCP este o autoritate națională unică; mecanismele GDPR pentru mai multe autorități și coerență nu sînt aplicabile ca atare. | Verifică independența, resursele, raportarea și competențele contra art. 15 Protocol 108+. |
-| Art. 72–88 — plîngeri, remedii, sancțiuni | art. 72–88 | parțial compatibil; divergență verificată | Căile interne sînt mai procedurale; amenzile L-195 art. 88 (1%/2% și plafoane mai mici) diferă de GDPR art. 83 (2%/4%). | Motivează politica sancționatorie și verifică efectivitatea/proporționalitatea. |
-| Art. 89–90 — finale și tranzitorii | art. 89–90 | parțial / pending | Intrarea în vigoare și tranziția L-195 sînt naționale; trebuie verificat separat dacă există logică de adaptare la aderare pentru un regulament UE. | Include o verificare expresă HG1171 pct. 28 privind tranzițiile pentru regulamente. |
+| Art. 12–23 — drepturile persoanei vizate | art. 12–23 | parțial compatibil | Audit 12/12: toate articolele au corespondent; divergențe verificate la art. 17, 18 și 21 privind extinderea excepției „în instanță” la proceduri administrative/judiciare/extrajudiciare. | Documentează temeiul și proporționalitatea extinderii; verifică două anomalii ale extractului raw GDPR în XML oficial. |
+| Art. 24–43 — responsabilitate, operatori, securitate, DPIA, DPO, coduri și certificare | art. 24–43 | parțial compatibil / adaptare | Audit 20/20: nucleul este preluat; adaptări relevante la art. 27–28, 35–36 și 40–43, iar actele secundare CNPDCP nu sînt toate identificate. | Închide listele DPIA, codurile, certificarea și procedurile de acreditare. |
+| Art. 44–50 — transferuri internaționale | art. 44–50 | parțial compatibil | Garanțiile sunt preluate, dar adecvarea, SCC/BCR, coerența și suspendarea sunt naționalizate; art. 46 alin. (2) lit. c) diferă verificabil de GDPR. | Verifică anexele Ordinului 31, deciziile de adecvare și operabilitatea mecanismelor. |
+| Art. 51–54 — cazuri specifice | art. 51–54 | parțial compatibil / gapuri | L 51–54 corespund tematic; art. 51 poate deroga prea larg pentru jurnalism, art. 53 are garanții limitate pentru numărul național, iar L 54 este corespondentul real al GDPR 89. | Verifică Legea 148/2023, legislația sectorială și proporționalitatea derogărilor. |
+| Art. 55–71 — autoritatea de supraveghere | art. 55–71 | parțial compatibil / adaptare | CNPDCP este autoritate națională unică; GDPR 56 și 60–67, 68–71 sunt mecanisme UE multi-autoritate/EDPB, fără corespondent preaderare complet. | Planifică interfața de aderare și verifică independența, resursele și cooperarea. |
+| Art. 72–88 — plîngeri, remedii, sancțiuni | art. 72–88 | parțial compatibil; gapuri | Remediile sunt preluate prin renumerotare; opțiunea de acțiune fără mandat nu este implementată, amenzile sînt mai mici, iar alte sancțiuni nu sunt identificate. | Verifică efectivitatea termenelor, catalogul altor sancțiuni și garanțiile procedurale. |
+| Art. 89–90 — finale și tranzitorii | art. 89–90 | parțial / gap de aderare | L 89–90 sunt finale/tranzitorii naționale; GDPR 89 este transpus tematic la L 54, iar GDPR 90 nu are corespondent dedicat. Clauza de abrogare la aderare nu este explicită. | Aplică auditul HG1171 pct. 28 și verifică soluția de aderare. |
 
 ### Compatibilitatea preliminară cu Protocolul 108+
 
@@ -179,7 +179,7 @@ consolidat.
 | MD-TRANS-013–014 | partial | Calificativele și motivele sînt prezente pentru clustere, dar nu în forma oficială finală pentru fiecare alineat. |
 | MD-TRANS-015, 017–018 | pending | Expertiza, consultarea, sinteza și dosarul final nu sînt disponibile în vault. |
 
-### Concluzie de audit
+**Concluzie de audit.** Detaliile și locatoriile auditului complet sunt în [[data-protection-gdpr-l195-audit]].
 
 Pe baza textelor deținute, L-195/2024 este o **aproximare substanțială, dar nu demonstrată ca transpunere
 integrală** a GDPR. Calificativul formal prudent este `transpune parțial` / `parțial compatibil`, cu

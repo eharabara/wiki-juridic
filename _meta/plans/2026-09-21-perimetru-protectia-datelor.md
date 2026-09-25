@@ -210,11 +210,11 @@ ce urmează, în ordinea în care fiecare pas îl ajută pe următorul. Nimic de
    art. 14 alin. (5) lit. d) există și în GDPR la același loc, deci nu e adăugire, dar clauza generală de
    habilitare a statelor membre lipsește real; art. 91 (biserici) confirmat absent, fără regim comprehensiv
    propriu pentru organizații religioase.
-10. **Auditul și rîndul formal, executate local 2026-09-24.** Auditul procedural și rîndul propus pentru
-    GDPR/L-195 sînt în `comparisons/data-protection-108-gdpr-l195.md`, cu statusurile MD-TRANS și limitările
-    dosarului. Rîndul nu a fost inserat în copia `legal-career/05-knowledge-map.md`: matricea formală este în
-    proiectul claude.ai „Legal Wiki", iar copia locală nu se editează. Legătura cu `AA-2014` rămîne
-    neverificată.
+10. **Auditul și rîndul formal, executate local 2026-09-24/25.** Auditul raw integral pentru GDPR/L-195 art. 12–90,
+    auditul procedural și rîndul propus pentru GDPR/L-195 sînt în `comparisons/data-protection-gdpr-l195-audit.md`
+    și `comparisons/data-protection-108-gdpr-l195.md`, cu statusurile MD-TRANS și gapurile rămase. Rîndul nu
+    a fost inserat în copia `legal-career/05-knowledge-map.md`: matricea formală este în proiectul claude.ai
+    „Legal Wiki", iar copia locală nu se editează. Legătura cu `AA-2014` rămîne neverificată.
 11. **Ordinul „48" există, rezolvat 2026-09-24 — nu era o confuzie.** Ordinul CNPDCP nr. 48/2026, „Regulamentul
     privind efectuarea investigației" (67 puncte), adoptat 09.09.2026, publicat 16.09.2026 — deci după data
     acestui plan, ceea ce explică de ce nu apărea încă la căutarea din 21 septembrie. doc_id legis.md `156385`,

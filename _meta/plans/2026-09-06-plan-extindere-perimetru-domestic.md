@@ -119,6 +119,13 @@ Pentru fiecare act: doc_id-ul se găsește prin căutare pe legis.md și se veri
 
 Actele Uniunii pot fi structurate pe articole sau pe puncte. Dacă sunt pe puncte, se tratează ca hotărârile de Guvern: fără ancore de articol, cu nota „numbered points, not articles" în coverage, și se consemnează că citarea se face pe punct. Registrul in-force nu citește acte pe puncte (limita din documentul 05), deci dispozițiile amânate, dacă există, se notează manual în manifest.
 
+**Actualizare 25.09.2026, după executarea planului:** Codul deontologic a fost recuperat din PDF-ul
+oficial pe care pagina curentă „Cadrul legal” a Uniunii îl prezintă ca parte a cadrului profesional.
+Controlul PDF-la-extracție este acum în `_meta/imports/uam/ingest_uam_ethics.py`; actul are ID
+`UA-COD-DEONTOLOGIC-2016`, fără ancore sintetice. Regulamentul/Metodologia stagiului nu este publicat
+ca document distinct în sursele oficiale verificate și rămâne lacună de text, cu cadrul legal ținut
+în Legea 1260/2002 și Statut. D5 este astfel rezolvat pentru Cod, dar nu pentru metodologie.
+
 Deja în bază, nu se reingerează: 220/2007, 845/1992, 135/2007, 183/2012, 235/2006, 100/2017, 239/2008, 1134/1997, toate codurile.
 
 ---

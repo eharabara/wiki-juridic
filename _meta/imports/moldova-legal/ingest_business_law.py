@@ -804,6 +804,48 @@ DOCS = {
     'L-273-1994': {'doc_id': '154600', 'title': 'Legea nr. 273/1994 privind actele de identitate din sistemul national de pasapoarte'},
     'L-71-2007': {'doc_id': '140170', 'title': 'Legea nr. 71/2007 cu privire la registre'},
     'L-274-2011': {'doc_id': '151195', 'title': 'Legea nr. 274/2011 privind integrarea strainilor in Republica Moldova'},
+    # Perimetrul "functionarea Guvernului", 2026-09-25 (sectiunea AR a manifestului). Un singur blob
+    # din Chrome-ul lui Eugen, hash pe parte verificat la despachetare (27 din 27). doc_id-ul este
+    # consolidarea cea mai noua care nu e in viitor; 149916, 155729, 154407 au id mai mic decit rindul
+    # de cautare, alegerea s-a facut dupa data, nu dupa id.
+    'HG-610-2018': {'doc_id': '144183', 'title': 'Hotararea Guvernului nr. 610/2018 pentru aprobarea Regulamentului Guvernului'},
+    'HG-657-2009': {'doc_id': '153599', 'title': 'Hotararea Guvernului nr. 657/2009 pentru aprobarea Regulamentului privind organizarea si functionarea, structurii si efectivului-limita ale Cancelariei de Stat'},
+    'HG-386-2020': {'doc_id': '147314', 'title': 'Hotararea Guvernului nr. 386/2020 cu privire la planificarea strategica (adoptata ca "cu privire la planificarea, elaborarea, aprobarea, implementarea, monitorizarea si evaluarea documentelor de politici publice")'},
+    'HG-310-2025': {'doc_id': '148714', 'title': 'Hotararea Guvernului nr. 310/2025 pentru aprobarea Regulamentului privind informarea si consultarea publica in procesul elaborarii si aprobarii documentatiei de amenajare a teritoriului si de urbanism'},
+    'HG-305-2026': {'doc_id': '154862', 'title': 'Hotararea Guvernului nr. 305/2026 cu privire la organizarea si functionarea Ministerului Mediului'},
+    'HG-186-2026': {'doc_id': '154079', 'title': 'Hotararea Guvernului nr. 186/2026 cu privire la organizarea si functionarea Ministerului Afacerilor Externe'},
+    'HG-9-2026': {'doc_id': '152608', 'title': 'Hotararea Guvernului nr. 9/2026 cu privire la organizarea si functionarea Ministerului Apararii'},
+    'HG-118-2023': {'doc_id': '152432', 'title': 'Hotararea Guvernului nr. 118/2023 cu privire la organizarea si functionarea Ministerului Energiei'},
+    'HG-143-2021': {'doc_id': '154567', 'title': 'Hotararea Guvernului nr. 143/2021 cu privire la organizarea si functionarea Ministerului Dezvoltarii Economice si Digitalizarii'},
+    'HG-147-2021': {'doc_id': '154565', 'title': 'Hotararea Guvernului nr. 147/2021 cu privire la organizarea si functionarea Ministerului Culturii'},
+    'HG-148-2021': {'doc_id': '152494', 'title': 'Hotararea Guvernului nr. 148/2021 cu privire la organizarea si functionarea Ministerului Sanatatii'},
+    'HG-149-2021': {'doc_id': '154407', 'title': 'Hotararea Guvernului nr. 149/2021 cu privire la organizarea si functionarea Ministerului Muncii si Protectiei Sociale'},
+    'HG-146-2021': {'doc_id': '155729', 'title': 'Hotararea Guvernului nr. 146/2021 cu privire la organizarea si functionarea Ministerului Educatiei si Cercetarii'},
+    'HG-696-2017': {'doc_id': '152209', 'title': 'Hotararea Guvernului nr. 696/2017 cu privire la organizarea si functionarea Ministerului Finantelor'},
+    'HG-690-2017': {'doc_id': '152469', 'title': 'Hotararea Guvernului nr. 690/2017 cu privire la organizarea si functionarea Ministerului Infrastructurii si Dezvoltarii Regionale'},
+    'HG-693-2017': {'doc_id': '151933', 'title': 'Hotararea Guvernului nr. 693/2017 cu privire la organizarea si functionarea Ministerului Afacerilor Interne'},
+    'HG-695-2017': {'doc_id': '154558', 'title': 'Hotararea Guvernului nr. 695/2017 cu privire la organizarea si functionarea Ministerului Agriculturii si Industriei Alimentare'},
+    'HG-698-2017': {'doc_id': '152487', 'title': 'Hotararea Guvernului nr. 698/2017 cu privire la organizarea si functionarea Ministerului Justitiei'},
+    'L-797-1996': {'doc_id': '136244', 'title': 'Legea nr. 797/1996 pentru adoptarea Regulamentului Parlamentului'},
+    'L-595-1999': {'doc_id': '143454', 'title': 'Legea nr. 595/1999 privind tratatele internationale ale Republicii Moldova'},
+    'L-155-2011': {'doc_id': '155888', 'title': 'Legea nr. 155/2011 pentru aprobarea Clasificatorului unic al functiilor publice'},
+    'L-80-2010': {'doc_id': '155886', 'title': 'Legea nr. 80/2010 cu privire la statutul personalului din cabinetul persoanelor cu functii de demnitate publica'},
+    'L-246-2017': {'doc_id': '136833', 'title': 'Legea nr. 246/2017 cu privire la intreprinderea de stat si intreprinderea municipala'},
+    'L-82-2017': {'doc_id': '155892', 'title': 'Legea nr. 82/2017 privind integritatea'},
+    'L-212-2004': {'doc_id': '150250', 'title': 'Legea nr. 212/2004 privind regimul starii de urgenta, de asediu si de razboi'},
+    'L-229-2010': {'doc_id': '144429', 'title': 'Legea nr. 229/2010 privind controlul financiar public intern'},
+    'L-123-2023': {'doc_id': '149916', 'title': 'Legea nr. 123/2023 cu privire la stagiile platite in serviciul public'},
+    # Adaugate tot 2026-09-25, dupa ce ingerarea L-212-2004 a aratat ca starea de urgenta a iesit din
+    # ea la 01.09.2025 (LP248/2025, art. 1 si capitolul III abrogate): legea succesoare este aceasta.
+    'L-248-2025': {'doc_id': '155526', 'title': 'Legea nr. 248/2025 privind managementul situatiilor de criza'},
+    'HG-967-2016': {'doc_id': '137925', 'title': 'Hotararea Guvernului nr. 967/2016 cu privire la mecanismul de consultare publica cu societatea civila in procesul decizional'},
+    # 2026-09-25, la cererea lui Eugen. Lege de MODIFICARE (optimizarea proceselor de obtinere a actelor
+    # permisive), 28 de articole romane. Doua versiuni in istoric: 150581 @ 31-12-2025 (LP317/2025,
+    # cea curenta) si 152771 @ 30-12-2025, mai veche desi cu id mai mare. "abrogat" apare in fisa doar
+    # ca text al unui articol interior, nu ca data de abrogare a actului. HTML 374.973 octeti,
+    # SHA-256 d3fb87fba7a6..., luat din Chrome-ul lui Eugen prin fetch + blob.
+    'L-227-2025': {'doc_id': '150581', 'anchor_mode': 'roman-amending',
+                   'title': 'Legea nr. 227/2025 pentru modificarea unor acte normative (optimizarea proceselor de obtinere a actelor permisive)'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

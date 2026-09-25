@@ -3059,6 +3059,95 @@
    ]
   },
   {
+   "instrument": "L-797-1996",
+   "file": "raw/papers/moldova-legal/L-797-1996.md",
+   "doc_id": "136244",
+   "consolidation_date": "2023-03-24",
+   "markers": [
+    {
+     "article": "82",
+     "subunit": null,
+     "quoted_text": null,
+     "scope": "articol intreg",
+     "hcc": [
+      "HCC7/2016-03-04"
+     ],
+     "official_gazette": "MO59-67/18.03.16 art.10",
+     "marker": "Art.82 declarat neconstituțional prin HCC7 din 04.03.16, MO59-67/18.03.16 art.10; în vigoare 04.03.16",
+     "line": 806
+    },
+    {
+     "article": "83",
+     "subunit": null,
+     "quoted_text": null,
+     "scope": "articol intreg",
+     "hcc": [
+      "HCC7/2016-03-04"
+     ],
+     "official_gazette": "MO59-67/18.03.16 art.10",
+     "marker": "Art.83 declarat neconstituțional prin HCC7 din 04.03.16, MO59-67/18.03.16 art.10; în vigoare 04.03.16",
+     "line": 817
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC194/2016-07-28",
+     "line": 77,
+     "text": "HCC194 din 28.07.16, МО293-305/09.09.16 art.624"
+    },
+    {
+     "hcc": "HCC27/2015-11-17",
+     "line": 78,
+     "text": "HCC27 din 17.11.15, МО69-77/25.03.16 art.12"
+    },
+    {
+     "hcc": "HCC7/2016-03-04",
+     "line": 79,
+     "text": "HCC7 din 04.03.16, МО59-67/18.03.16 art.10"
+    },
+    {
+     "hcc": "HCC20/2014-06-04",
+     "line": 84,
+     "text": "HCC20 din 04.06.14, МО249-255/22.08.14 art.34"
+    },
+    {
+     "hcc": "HCC15/2012-12-04",
+     "line": 89,
+     "text": "HCC15 din 04.12.12, МО273-279/28.12.12 art.27"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC194/2016-07-28",
+     "line": 77,
+     "text": "HCC194 din 28.07.16, МО293-305/09.09.16 art.624"
+    },
+    {
+     "hcc": "HCC27/2015-11-17",
+     "line": 78,
+     "text": "HCC27 din 17.11.15, МО69-77/25.03.16 art.12"
+    },
+    {
+     "hcc": "HCC20/2014-06-04",
+     "line": 84,
+     "text": "HCC20 din 04.06.14, МО249-255/22.08.14 art.34"
+    },
+    {
+     "hcc": "HCC15/2012-12-04",
+     "line": 89,
+     "text": "HCC15 din 04.12.12, МО273-279/28.12.12 art.27"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC15/2012-12-04",
+    "HCC194/2016-07-28",
+    "HCC20/2014-06-04",
+    "HCC27/2015-11-17",
+    "HCC7/2016-03-04"
+   ]
+  },
+  {
    "instrument": "L-845-1992",
    "file": "raw/papers/moldova-legal/L-845-1992.md",
    "doc_id": "155963",
@@ -3203,10 +3292,10 @@
   }
  ],
  "counts": {
-  "acts": 30,
-  "distinct_hcc": 91,
-  "markers_in_text": 35,
+  "acts": 31,
+  "distinct_hcc": 95,
+  "markers_in_text": 37,
   "recovered": 113,
-  "unattributed": 0
+  "unattributed": 4
  }
 }

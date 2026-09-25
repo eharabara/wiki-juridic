@@ -37,7 +37,8 @@ dintr-un extras. Secțiunea L-195/GDPR de mai jos este acum **alineat cu alineat
 rămîne structural, pe titluri); secțiunea nouă L-160/Directiva 2016/680 este **structurală plus patru
 divergențe verificate în text**, nu alineat cu alineat pe toate cele 46 de articole.
 Maparea completă a Protocolului 108+ pe articolele Protocolului 1–40 este în
-[[data-protection-108-gdpr-l195]]; pagina separată păstrează diferența dintre corespondență tematică și
+[[data-protection-108-gdpr-l195]], iar auditul GDPR/L-195 și al dosarului HG1171 este în
+[[data-protection-gdpr-l195-audit]]; paginile păstrează diferența dintre corespondență tematică și
 conformitate juridică.
 
 ## Harta articol cu articol, L-195/2024 față de GDPR

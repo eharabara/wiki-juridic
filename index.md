@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-24 | Total pages: 179
+> Last updated: 2026-09-25 | Total pages: 212
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -101,6 +101,35 @@
 - [[L-72-2025]] — Legea comunicațiilor electronice: 127 de articole, consolidare 2025-12-31, în vigoare din 01.01.2026 (fișa spune altfel), cu capitolul XVII (drepturile utilizatorilor, arts. 96-113) amînat la 13.05.2027 sau la decizia Consiliului de Asociere; art. 126 expirat la 01.04.2026; art. 115 alin. (10) e al doilea temei al Ordinului CNPDCP 40/2026.
 - [[L-136-2017]] — Legea cu privire la Guvern: 48 de ancore (32^1 inclus), consolidare 2024-06-06; art. 23 alin. (6) atins în parte de HCC7/2021; abrogă Legea 64/1990 (art. 47 alin. (3)).
 - [[L-98-2012]] — Legea privind administrația publică centrală de specialitate: 38 de ancore, consolidare 2026-01-01 (LP140/2025); art. 12 (Viceministrul) a dispărut, înlocuit de art. 12^1 (secretarul de stat); consolidare viitoare 2027-01-01 (LP76/2026) în registru.
+- [[HG-610-2018]] — Regulamentul Guvernului (abrogă HG 34/2001): 14 capitole, în puncte, neancorat; pct. 133 deciziile protocolare, recunoscute constituționale de HCC3/2026; consolidare 2024-07-05.
+- [[HG-657-2009]] — Regulamentul Cancelariei de Stat, cu Cabinetul Prim-ministrului, Corpul de control și Oficiul priorităților (anexele 1, 2, 2^1-2^3, 3, 4); consolidare 2026-03-21.
+- [[HG-386-2020]] — Regulamentul cu privire la planificarea strategică (redenumit; adoptat ca «planificarea, elaborarea, aprobarea… documentelor de politici publice»); 7 capitole; consolidare 2024-11-04.
+- [[HG-967-2016]] — Mecanismul de consultare publică cu societatea civilă în procesul decizional (Cancelaria de Stat monitorizează L-239/2008); consolidare 2023-08-08.
+- [[HG-310-2025]] — Consultarea publică în urbanism (nu în procesul decizional al Guvernului): intrat din greșeală de căutare, aparține perimetrului construcțiilor.
+- [[HG-696-2017]] — Regulamentul Ministerului Finanțelor (efectiv 367 cu trezoreriile regionale); consolidare 2025-12-24.
+- [[HG-690-2017]] — Regulamentul Ministerului Infrastructurii și Dezvoltării Regionale; consolidare 2025-12-30.
+- [[HG-693-2017]] — Regulamentul Ministerului Afacerilor Interne; consolidare 2025-12-09.
+- [[HG-695-2017]] — Regulamentul Ministerului Agriculturii și Industriei Alimentare; consolidare 2026-05-22.
+- [[HG-698-2017]] — Regulamentul Ministerului Justiției; consolidare 2026-01-01.
+- [[HG-146-2021]] — Regulamentul Ministerului Educației și Cercetării; consolidare 2026-09-06; consolidare viitoare 2027-07-01 (anexa 5, HG470/2026).
+- [[HG-147-2021]] — Regulamentul Ministerului Culturii (abrogă HG 696/2009); consolidare 2026-05-22.
+- [[HG-148-2021]] — Regulamentul Ministerului Sănătății; consolidare 2026-01-01.
+- [[HG-149-2021]] — Regulamentul Ministerului Muncii și Protecției Sociale (abrogă HG 691/2009); consolidare 2026-05-14; consolidare viitoare 2027-07-01 (anexa 5, HG470/2026).
+- [[HG-143-2021]] — Regulamentul Ministerului Dezvoltării Economice și Digitalizării (fost al Ministerului Economiei; ajustat prin HG262/2026); consolidare 2026-05-22.
+- [[HG-118-2023]] — Regulamentul Ministerului Energiei (pct. 3^1: autonomia fondatorului Moldelectrica); consolidare 2025-12-30.
+- [[HG-9-2026]] — Regulamentul Ministerului Apărării (abrogă HG 692/2017); consolidare 2026-01-16.
+- [[HG-186-2026]] — Regulamentul Ministerului Afacerilor Externe (abrogă HG 697/2017); consolidare 2026-05-24.
+- [[HG-305-2026]] — Regulamentul Ministerului Mediului (abrogă HG 145/2021); consolidare 2026-06-16.
+- [[L-797-1996]] — Regulamentul Parlamentului: 157 de ancore; Guvernul în art. 58, 112-120, 125, 127, 145, 147 (moțiuni, angajarea răspunderii, învestitura); consolidare 2023-03-24, neverificat dacă e la zi; art. 82-83 lovite de HCC7/2016, alte 4 hotărîri CCR fără articol atribuit (de recuperat).
+- [[L-595-1999]] — Legea privind tratatele internaționale: 32 de ancore; Guvernul inițiază negocierile și aprobă semnarea tratatelor care nu sînt în numele statului (art. 7, 8^1); consolidare 2024-06-06.
+- [[L-155-2011]] — Clasificatorul unic al funcțiilor publice: 6 articole «Art. N.» și o anexă-tabel; modificat prin LP154/2026 (în vigoare 13.09.2026).
+- [[L-80-2010]] — Statutul personalului din cabinetul demnitarilor: 30 de ancore; consolidare 2026-09-13.
+- [[L-246-2017]] — Întreprinderea de stat și întreprinderea municipală: 20 de ancore; art. 19 alin. (1) cu excepții de aplicare în proză; consolidare 2023-06-02.
+- [[L-82-2017]] — Legea integrității: 51 de ancore; consolidare 2026-09-13; consolidare viitoare 2026-12-09 (art. 18, LP165/2026).
+- [[L-212-2004]] — Regimul stării de asediu și de război; starea de urgență a ieșit din ea la 01.09.2025 (capitolul III abrogat ca secțiune, lacuna 17-27); consolidare 2025-09-01.
+- [[L-248-2025]] — Managementul situațiilor de criză: Guvernul declară starea de alertă, Parlamentul pe cea de urgență; 56 de ancore; modificată prin LP150/2026; consolidare 2026-07-28.
+- [[L-229-2010]] — Controlul financiar public intern: 35 de ancore; consolidare 2024-08-02; consolidare viitoare 2027-01-01 (art. 2-3, LP327/2025).
+- [[L-123-2023]] — Stagiile plătite în serviciul public: 16 ancore; consolidare 2026-01-01.
 - [[L-764-2001]] — Legea privind organizarea administrativ-teritorială: 26 de ancore în formă „Art.N. -”, consolidare 2025-06-28; anexele 1-5 cu listele unităților nu sînt ancorate.
 - [[L-435-2006]] — Legea privind descentralizarea administrativă: 17 ancore, consolidare 2024-05-02; art. 16 alin. (2) leagă aplicarea legii de un plan de acțiuni; consolidare viitoare 2027-01-01 (LP200/2026) în registru.
 - [[L-768-2000]] — Legea privind statutul alesului local: 28 de ancore în formă „Art.N. -”, consolidare 2025-03-27; art. 27 lipsește fără marcaj.
@@ -114,6 +143,7 @@
 - [[L-523-1999]] — Legea cu privire la proprietatea publică a unităților administrativ-teritoriale: 18 ancore, consolidare 2024-05-16.
 - [[L-121-2018]] — Legea concesiunilor din 2018: 46 de ancore, consolidare 2026-01-01; va fi abrogată la 27.03.2027 de Legea 22/2025 (art. 54 alin. (3)); transpune parțial Directiva 2014/23/UE.
 - [[L-22-2025]] — Legea concesiunilor din 2025: 55 de ancore, consolidare 2026-04-01; NU e în vigoare încă: art. 54 alin. (1) o amînă la 27.03.2027 (fișa dă greșit 31.12.2025); abrogă Legea 121/2018 atunci.
+- [[L-227-2025]] — Legea 227/2025 (optimizarea actelor permisive): lege modificatoare cu 42 de articole proprii romane, consolidare 2025-12-31 (LP317/2025); art. XLII amînă în proză art. 4^2 alin. (8) din L-160-2011 la 05.09.2026 (autorități centrale) și 05.09.2027 (locale), calculat; cele 10 ținte deținute poartă deja marcajul LP227.
 - [[L-179-2008]] — Legea cu privire la parteneriatul public-privat: 56 de ancore (22 cu exponent), consolidare 2025-12-31; arts. 22-24 au dispărut din consolidarea 17.03.2025.
 - [[L-25-2008]] — Legea privind Codul de conduită a funcționarului public: 17 ancore, consolidare 2018-01-12, semnalată ca veche de tabelul de acoperire fără să fie depășită după legis.md.
 - [[L-165-2023]] — Legea privind avertizorii de integritate: 31 de ancore, consolidare 2023-10-26; transpune parțial Directiva (UE) 2019/1937; abrogă Legea 122/2018; amendare de fond viitoare la 2026-12-09 (LP165/2026).
@@ -136,7 +166,8 @@
 - [[L-86-2014]] — Legea nr. 86/2014 privind evaluarea impactului asupra mediului: Agenția de Mediu emite acordul de mediu (art. 2, art. 6); COD-434-2023 art. 104 alin. (7) condiționează certificatul de urbanism de acest acord; 42 de ancore, consolidare 2026-04-25.
 - [[L-92-2022]] — Legea nr. 92/2022 privind activitatea de asigurare sau de reasigurare
 - [[REG-ICF]] — Regulamentul Fondului de compensare a investitorilor
-- [[UA-STATUT-2011]] — Statutul profesiei de avocat, act al Uniunii Avocaților: pe articole, 74 de ancore, consolidare 2022-05-27 (doc_id 134919, nu 86850); Codul deontologic și Regulamentul stagiului nu sunt pe legis.md.
+- [[UA-COD-DEONTOLOGIC-2016]] — Codul deontologic al avocaților, PDF oficial al Uniunii: modificările declarate până la 01.07.2016, pe capitole și puncte, fără ancore sintetice; PDF și extracție verificate.
+- [[UA-STATUT-2011]] — Statutul profesiei de avocat, act al Uniunii Avocaților: pe articole, 74 de ancore, consolidare 2022-05-27 (doc_id 134919, nu 86850); Codul deontologic este recuperat, metodologia stagiului rămâne nepublicată.
 - [[UE-2016-679]] — GDPR, Regulamentul (UE) 2016/679: text integral RO din Cellar, 99 de articole și 173 de considerente; primul act UE integral din vault.
 - [[UE-2016-680]] — Directiva (UE) 2016/680 (protecția datelor în materie penală): text integral RO, 65 de articole și 107 considerente; comparația cu L-160/2026 nefăcută.
 - [[UE-2021-914]] — Decizia de punere în aplicare (UE) 2021/914 (clauzele contractuale standard pentru transferul de date): text integral RO, 4 articole și anexa cu SCC-urile pe patru module; comparată cu Ordinul CNPDCP 31/2026, cu opt divergențe de conținut verificate.
@@ -145,6 +176,7 @@
 ### Concepts
 
 - [[perimetrul-drept-administrativ]] — harta actelor de drept administrativ din vault, lotul de 18 legi din 2026-09-24 și ce a rămas pe dinafară (contenciosul administrativ, actele subordonate)
+- [[perimetrul-functionarea-guvernului]] — harta actelor despre organizarea și funcționarea Guvernului (29 de acte din 2026-09-25): Regulamentul Guvernului, Cancelaria de Stat, 14 ministere, Parlament, tratate, puteri de criză, integritate; ce a ieșit la iveală și ce a rămas neluat
 - [[acquis-AIFMD]] — Administratori de fonduri de investiții alternative
 - [[acquis-AML]] — Prevenirea spălării banilor (AMLD 2015/849 → pachetul AML 2024)
 - [[acquis-Benchmarks]] — Indicii de referință financiari (Reg. 2016/1011): absență confirmată, singura mențiune de „indice de referință" e fals pozitiv din legea asigurărilor.
@@ -178,6 +210,7 @@
 - [[cnpf-transposition-matrix]] — Matricea lacunelor de transpunere și aproximare — Piața de capital (Capitolul 9)
 - [[emir-concordance-skeleton]] — Schelet de concordanță EMIR 648/2012 vs dreptul Moldovei, cu acțiuni de transpunere
 - [[data-protection-108-gdpr-l195]] — Maparea completă a Protocolului 108+ față de GDPR și L-195/2024; corespondențe tematice, divergențe verificate și clauze finale fără echivalent direct
+- [[data-protection-gdpr-l195-audit]] — Audit raw al GDPR/L-195/2024 pentru art. 12–90, calificative HG1171, gapuri de implementare și rândul formal propus
 
 ### Queries
 

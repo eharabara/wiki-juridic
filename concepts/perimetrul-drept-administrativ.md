@@ -85,7 +85,9 @@ analiză a dreptului administrativ; e o hartă a surselor, cu ce a rămas neluat
   străinilor** e marcată abrogată pe legis.md, iar **actul care a înlocuit-o nu a fost identificat** (căutările
   după titlu au dat doar legile vechi 275/1994 și 716/1999). Regimul intrării și șederii străinilor rămîne fără
   sursă în vault; se caută înainte de orice răspuns despre viză, ședere sau expulzare.
-- **Neîncercat:** actele subordonate (hotărîrile Guvernului care aprobă regulamentele acestor autorități),
+- **Încercat la 2026-09-25 pentru Guvern și ministere:** Regulamentul Guvernului, Cancelaria de Stat, cele 14 regulamente de minister,
+  Regulamentul Parlamentului, tratatele, puterile de criză și legea integrității sînt acum în vault; vezi
+  [[perimetrul-functionarea-guvernului]]. **Rămîn neîncercate:** hotărîrile Guvernului ale autorităților subordonate ministerelor,
   legile speciale de organizare a fiecărui minister sau agenție, alte legi de administrație generală
   (adunările publice, serviciile publice de utilități, arhivele) și restul cozii de ingerare a grafului de citare.
   Nu s-au căutat pe legis.md; căutarea după titlu a unora (adunările) n-a dat rezultat, ceea ce nu înseamnă că nu
@@ -97,7 +99,8 @@ analiză a dreptului administrativ; e o hartă a surselor, cu ce a rămas neluat
 ## Trei capcane ale lotului
 
 1. **Intrare în vigoare scrisă în proză**: [[L-22-2025]] (întreaga lege, art. 54), [[L-435-2006]] (art. 16 alin. (2):
-   legea se aplică după aprobarea unui plan de acțiuni).
+   legea se aplică după aprobarea unui plan de acțiuni), plus, cu totul alt regim, [[L-227-2025]] (art. XLII amînă art. 4^2
+   alin. (8) din [[L-160-2011]] la 05.09.2026 pentru autoritățile centrale și 05.09.2027 pentru cele locale, date calculate).
 2. **Lacune fără marcaj**: art. 12 în [[L-98-2012]], art. 27 în [[L-768-2000]], arts. 22-24 în [[L-179-2008]];
    art. 7 din [[L-488-1999]] nu lipsește, ci e neancorat din cauza unei greșeli a sursei.
 3. **Fișa legis.md**: dă date de intrare în vigoare greșite la [[L-22-2025]] și [[L-121-2018]] (vezi paginile lor).

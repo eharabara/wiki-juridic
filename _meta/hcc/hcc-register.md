@@ -2,7 +2,7 @@
 
 Generat 2026-09-25 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
 
-30 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 91 hotariri distincte. Articolul atins este cunoscut pentru 35 marcaje inca prezente in text si 113 dispozitii recuperate din istoricul versiunilor; **0 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
+31 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 95 hotariri distincte. Articolul atins este cunoscut pentru 37 marcaje inca prezente in text si 113 dispozitii recuperate din istoricul versiunilor; **4 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
 
 Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiunea hotaririi si a intinderii anularii. Un act din tabelul „fara articol atribuit” se citeaza cu avertismentul ca poarta hotariri ale Curtii neverificate la nivel de articol.
 
@@ -38,6 +38,7 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-514-1995` | 156079 | 2026-08-28 | 4 | 4 | 0 |
 | `L-52-2014` | 147958 | 2025-03-27 | 1 | 1 | 0 |
 | `L-64-2010` | 141515 | 2024-01-23 | 1 | 1 | 0 |
+| `L-797-1996` | 136244 | 2023-03-24 | 5 | 1 | 4 |
 | `L-845-1992` | 155963 | 2027-01-01 | 3 | 3 | 0 |
 | `L-548-1995` | 154046 | 2026-04-23 | 2 | 2 | 0 |
 
@@ -188,6 +189,8 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-514-1995` | 15 | al.(2) | revigorare | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | versiunea 93910 @ 2012-02-09, verificat 2026-09-15 |
 | `L-52-2014` | 21 | al.(5) lit.e) | subunitate | HCC27/2014-11-13 | MO352-357/28.11.14 art.43 | versiunea 147958 @ 2014-11-13, verificat 2026-09-24 |
 | `L-64-2010` | 3 | al.(4^1) | articol intreg („În condiţiile alin. (3) se interzice propagarea şi/sau utilizarea în scopuri politice a si…”) | HCC12/2013-06-04 | MO167-172/02.08.13 art.22 | versiunea 23455 @ 2013-06-04, verificat 2026-09-15 |
+| `L-797-1996` | 82 |  | articol intreg | HCC7/2016-03-04 | MO59-67/18.03.16 art.10 | marcaj in text, l.806 |
+| `L-797-1996` | 83 |  | articol intreg | HCC7/2016-03-04 | MO59-67/18.03.16 art.10 | marcaj in text, l.817 |
 | `L-845-1992` | 10 | al.(8) | text din articol („în mărime de 10% din valoarea tranzacției cu mărfuri social importante, dar nu mai puțin d…”) | HCC10/2022-04-14 | MO151-157/20.05.22 art.68 | versiunea 131466 @ 2022-04-14, verificat 2026-09-15 |
 | `L-845-1992` | 10 | pct. 5 (teza privind nerestituirea numerarului) | text din articol („Pentru utilizarea numerarului în alt scop decît cel pentru care a fost destinat şi/sau ner…”) | HCC5/2018-03-06 | MO113-120/06.04.18 art.59 | versiunea 118813 @ 2018-03-06, verificat 2026-09-15 |
 | `L-845-1992` | 10 | pct. 4 | text din articol („amendă în mărimea venitului brut din realizarea obţinută în urma activităţilor menţionate”) | HCC2/2018-01-30 | MO108-112/30.03.18 art.54 | versiunea 118812 @ 2018-01-30, verificat 2026-09-15 |
@@ -200,4 +203,8 @@ Marcajul s-a pierdut la o reimprospatare anterioara a consolidarii. Articolul se
 
 | act | hotarire | rindul din fisa |
 |---|---|---|
+| `L-797-1996` | HCC194/2016-07-28 | l.77: HCC194 din 28.07.16, МО293-305/09.09.16 art.624 |
+| `L-797-1996` | HCC27/2015-11-17 | l.78: HCC27 din 17.11.15, МО69-77/25.03.16 art.12 |
+| `L-797-1996` | HCC20/2014-06-04 | l.84: HCC20 din 04.06.14, МО249-255/22.08.14 art.34 |
+| `L-797-1996` | HCC15/2012-12-04 | l.89: HCC15 din 04.12.12, МО273-279/28.12.12 art.27 |
 
