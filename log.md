@@ -2144,9 +2144,53 @@
   secțiunea AN, `CLAUDE.md` (întrebarea deschisă 9), `entities/CNPDCP-ORDINE.md`, `index.md`, planul (punctul 7).
 - **Corectat în aceeași sesiune:** graful de citare marca `L-72-2025#art.80` drept „abrogat" fără temei: rîndul
   de continuare al titlului desfăcut („exclusiv cu ridicata") începe cu „exclus", iar expresia regulată de la
-  `build_citation_graph.py` (rînd 664) nu avea `` după `exclus`. Reparat; nodurile marcate abrogat au scăzut
+  `build_citation_graph.py` (rînd 664) nu avea `\b` după `exclus`. Reparat; nodurile marcate abrogat au scăzut
   de la 269 la 267, deci a mai existat un fals pozitiv de aceeași formă. Capcana e generică: orice titlu tăiat
   care continuă cu un cuvînt ce începe cu „exclus".
+
+## [2026-09-24] update | Protocolul 108+ față de L-195/2024 și GDPR
+
+- **Aflat:** Protocolul modifică Convenția 108 într-un standard-cadru: drepturi, transparență, responsabilitate,
+  transferuri și autorități independente. L-195/2024 și GDPR operationalizează aceleași teme cu termene și
+  mecanisme mai dense: notificarea în 72 de ore, DPIA, regimul detaliat al transferurilor și cooperarea
+  instituțională. Diferența nu trebuie confundată cu o contradicție. Protocolul nu este încă în vigoare
+  internațional: 34 de ratificări față de pragul de 38 din art. 37 alin. (2); L-36/2026 este însă în vigoare
+  intern din 23.08.2026.
+- **Decis:** comparația este salvată ca analiză structurală și tematică, cu findings verificate pe ambele capete,
+  nu ca matrice completă de conformitate. Textul Protocolului rămîne neancorat, fiind transcris din PDF scanat;
+  orice citat exact se verifică pe imaginile sursă.
+- **Unde:** `concepts/acquis-DataProtection.md` (secțiunea Protocol 108+), `entities/L-36-2026.md`, planul
+  `_meta/plans/2026-09-21-perimetru-protectia-datelor.md` (punctul 1). Controalele generate au fost rulate după
+  actualizare: validator 0 erori, 4 avertismente — 1 citare HCC neannotată, 1 pagină concept orfană și 2 avertismente
+  BNM privind aceeași prezentare cu extracție slabă.
+
+## [2026-09-24] create | Matricea completă a Protocolului 108+ față de GDPR și L-195/2024
+
+- **Aflat:** maparea tuturor articolelor Protocolului 1–40 confirmă două straturi distincte: art. 1–26 au
+  corespondențe tematice în GDPR/L-195, cu diferențe verificate la securitate, transferuri și autorități;
+  art. 27–40 sînt în mare parte mecanisme ale Comitetului Convenției, aderare, amendare, intrare în vigoare
+  și notificare, fără corespondent direct în GDPR sau în legea internă. Matricea nu transformă corespondența
+  tematică într-o concluzie de conformitate.
+- **Decis:** tabelul complet este o pagină separată de comparație, pentru a nu extinde conceptul deja lung.
+  Protocolul rămîne citabil pe articol, dar textul este neancorat și orice citat exact se verifică în PDF-ul
+  scanat. Rîndul din matricea formală de transpunere rămîne separat și nu este completat automat.
+- **Unde:** `comparisons/data-protection-108-gdpr-l195.md`, `concepts/acquis-DataProtection.md`,
+  `entities/L-36-2026.md`, `index.md`, planul `2026-09-21-perimetru-protectia-datelor.md` (punctul 1).
+
+## [2026-09-24] update | Audit juridic GDPR/L-195 și rând formal propus
+
+- **Aflat:** Legea 100/2017 și HG1171/2018 cer pentru transpunerea directă clauză de armonizare, siglă UE,
+  tabel de concordanță, notă de fundamentare și expertiză de compatibilitate; HG1171 definește separat
+  calificativele `parțial compatibil`, `prevederi UE netranspuse` și `prevederi UE neaplicabile`. Protocolul
+  108+ nu este act UE și nu intră în această categorie. Pe sursele deținute, L-195 este o aproximare
+  substanțială, dar nu demonstrată ca transpunere integrală: calificativ prudent `transpune parțial` /
+  `parțial compatibil`, cu clustere și acte secundare încă pending.
+- **Decis:** auditul preliminar, statusurile MD-TRANS și rândul formal propus sînt salvate în matricea locală.
+  Rîndul nu este introdus în copia `legal-career/05-knowledge-map.md`, deoarece matricea formală aparține
+  proiectului claude.ai „Legal Wiki”; local se păstrează propunerea și lista de acțiuni.
+- **Unde:** `comparisons/data-protection-108-gdpr-l195.md`, `_meta/plans/2026-09-21-perimetru-protectia-datelor.md`
+  (punctul 10). Sursele procedurale citate: `raw/papers/moldova-legal/L-100-2017.md` art. 30–31, 35, 40 și
+  `raw/papers/moldova-legal/HG-1171-2018.md` pct. 2, 9, 13–15, 24–25, 28–29, 31, 37–46.
 
 ## [2026-09-24] ingest | Inelul de drept administrativ: 18 legi dintr-o singura descarcare din Chrome-ul lui Eugen
 
@@ -2169,6 +2213,30 @@
   (11 intrari noi), `_meta/imports/moldova-legal/ingest_business_law.py` (18 intrari in `DOCS`),
   `_meta/imports/moldova-legal/legis-md-business/showdetails-*.html`, manifest sectiunea AO, `CLAUDE.md` (intrebarea 9).
 
+## [2026-09-24] update | Coada HCC fără articol atribuit închisă după extinderea corpusului
+
+- **Aflat:** după ingerarea lotului de drept administrativ, registrul HCC a descoperit încă patru
+  perechi act–hotărîre fără articol. Dispozitivele și versiunile istorice legis.md le atribuie astfel:
+  L-121/2007 art. 13 alin. (4^1)–(4^2) și anexa pct. 26^1; L-270/2018 art. 27 alin. (5) și
+  anexa nr. 3, Tabelul 2, cu lista exactă a posturilor; L-52/2014 art. 21 alin. (5) lit. e).
+- **Decis:** toate cele 91 de hotărîri din cele 30 de acte deținute au acum articol sau subunitate
+  atribuită. Fiecare recuperare manuală păstrează `read_doc_id` și, unde dispozitivul a fost folosit,
+  `decision_doc_id`; paginile de entitate disting efectul istoric al HCC de textul curent.
+- **Unde:** `_meta/hcc/recovered-provisions.json`, registrele HCC generate, `entities/CONST-1994.md`,
+  `entities/L-{100-2001,121-2007,132-2016,181-2014,213-2023,24-2008,270-2018,325-2013,52-2014}.md`.
+  HCC28/2002, apărută odată cu L-100/2001, a fost atribuită art. 5 alin. (4), sintagma „și limba rusă”, din dispozitivul oficial `ccdoc:174`. Control final: 113 recuperări, 0 fără articol; validator 0 erori, avertismentele HCC 0.
+
+## [2026-09-25] update | Închiderea tehnică după trecerea peste miezul nopții
+
+- **Aflat:** controlul final a continuat peste schimbarea datei; registrul HCC și toate controalele
+  generate au rămas la zi, cu 0 decizii fără articol atribuit și 0 avertismente HCC; după apariția
+  actului L-100/2001 în arbore, HCC28/2002 a fost recuperată înainte de commit.
+- **Decis:** sesiunea din 24 septembrie se închide fără reștampilarea copiei matter-log, deoarece
+  copia a fost preluată și ștampilată în aceeași sesiune, la 24.09, iar proiectul-master nu este
+  disponibil prin uneltele acestei rulări; avertismentul D9 rămîne vizibil, nu este mascat.
+- **Unde:** `log.md`; control final `validate_wiki.py --all`: 0 erori, 3 avertismente, dintre care
+  unul D9 produs exclusiv de schimbarea datei și două cunoscute pentru aceeași prezentare BNM.
+
 ## [2026-09-25] ingest | Drept administrativ, lotul al doilea (cetatenie, stare civila, identitate, registre, integrarea strainilor) si lacunele lotului intii
 
 - **Aflat:** contenciosul administrativ nu era o lacuna: art. 257 alin. (2) din Codul administrativ abroga 793/2000 si
@@ -2184,3 +2252,28 @@
   `concepts/perimetrul-drept-administrativ.md` (actualizat), `entities/L-768-2000.md`, `L-121-2018.md`, `L-435-2006.md`
   (corectate), `_meta/inforce/pending-consolidations.json` (+1 intrare), `ingest_business_law.py` (+5 in `DOCS`),
   manifest sectiunea AP.
+
+## [2026-09-25] update | Închiderea perimetrului CNPDCP: instrucțiuni, adecvare, statut și comparație GDPR
+
+- **Aflat:** instrucțiunile CNPDCP pentru educație (18 pagini) și sănătate (21 pagini), Decizia 08/2023 și
+  decizia individualizată privind partidele politice din **17.12.2014** sunt păstrate integral din sursele
+  CNPDCP; copiile educației, sănătății și Deciziei 08/2023 sunt verificate octet-cu-octet față de PDF-urile
+  oficiale. Registrul curent CNPDCP menține Decizia 581/2015, iar legis.md `135821` nu o marchează abrogată;
+  aceasta este poziția administrativă constatată, nu un temei de continuitate în art. 90 L-195/2024. Proiectul
+  oficial al Ordinului 31/2026, cu toate anexele 1–3, este public și ingerat, dar poartă 14 marcaje „Proiect”
+  și câmpuri de număr/datã goale; nu probează anexele finale, omise de legis.md. Nu s-a identificat corectură
+  sau explicație publică a preambulului Ordinului 31/2026. Cele 16 decizii de adecvare invocate în Decizia
+  41/2026 sunt ingerate integral din Cellar; identificatorii legis.md confirmați sunt 41/2026 = `156021` și
+  581/2015 = `135821`. Comparația L-195/GDPR pentru Capitolul III și art. 25–39 este completată alineat cu
+  alineat; sunt separate diferențele materiale de adaptările instituționale și de trei defecte ale textului UE
+  brut. Considerentele 60, 63, 65, 67, 69, 74, 84 și 93 sunt utilizate ca repere interpretative.
+- **Decis:** Decizia 581/2015 se tratează în analiză ca act listat oficial, dar fără temei de continuitate
+  identificat; nu ca izvor normativ curent autonom. Pictograma sa poate fi menționată numai cu această
+  rezervă și cu L-195/2024 ca ancoră de conformare. Lacuna privind explicația CNPDCP pentru Ordinul 31/2026 și
+  identitatea anexelor finale nu este mascată ca rezolvată. Eugen a confirmat că registrul de spețe nu s-a
+  schimbat, iar `legal-career/06-matter-log.md` a fost re-ștampilat pentru 25.09.2026.
+- **Unde:** `raw/papers/moldova-legal/{OCNPDCP-03-2015,OCNPDCP-SANATATE,DCNPDCP-08-2023,DCNPDCP-PARTIDE-2014,OCNPDCP-31-2026-PROIECT}.md`,
+  `raw/papers/moldova-legal/UE-{2010-625,2003-490,2002-2,2010-146,2003-821,2011-61,2004-411,2019-419,2008-393,2013-65,2022-254,2000-518,2012-484,2021-1772,2026-179,2025-1382}.md`,
+  `_meta/imports/eu/ingest_eu_adequacy.py`, `entities/CNPDCP-ORDINE.md`,
+  `concepts/acquis-DataProtection.md`, `index.md`,
+  `_meta/plans/2026-09-21-perimetru-protectia-datelor.md`.

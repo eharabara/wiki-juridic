@@ -1,7 +1,7 @@
 ---
 title: CNPDCP-ORDINE — Actele subordonate ale CNPDCP din vault (ordine și decizii)
 created: '2026-09-21'
-updated: '2026-09-24'
+updated: '2026-09-25'
 type: entity
 perimeter: legal
 tags:
@@ -27,6 +27,27 @@ sources:
 - raw/papers/moldova-legal/OCNPDCP-POLITIE-2013.md
 - raw/papers/moldova-legal/DCNPDCP-41-2026.md
 - raw/papers/moldova-legal/DCNPDCP-581-2015.md
+- raw/papers/moldova-legal/OCNPDCP-03-2015.md
+- raw/papers/moldova-legal/OCNPDCP-SANATATE.md
+- raw/papers/moldova-legal/DCNPDCP-08-2023.md
+- raw/papers/moldova-legal/DCNPDCP-PARTIDE-2014.md
+- raw/papers/moldova-legal/OCNPDCP-31-2026-PROIECT.md
+- raw/papers/moldova-legal/UE-2010-625.md
+- raw/papers/moldova-legal/UE-2003-490.md
+- raw/papers/moldova-legal/UE-2002-2.md
+- raw/papers/moldova-legal/UE-2010-146.md
+- raw/papers/moldova-legal/UE-2003-821.md
+- raw/papers/moldova-legal/UE-2011-61.md
+- raw/papers/moldova-legal/UE-2004-411.md
+- raw/papers/moldova-legal/UE-2019-419.md
+- raw/papers/moldova-legal/UE-2008-393.md
+- raw/papers/moldova-legal/UE-2013-65.md
+- raw/papers/moldova-legal/UE-2022-254.md
+- raw/papers/moldova-legal/UE-2000-518.md
+- raw/papers/moldova-legal/UE-2012-484.md
+- raw/papers/moldova-legal/UE-2021-1772.md
+- raw/papers/moldova-legal/UE-2026-179.md
+- raw/papers/moldova-legal/UE-2025-1382.md
 - raw/papers/moldova-legal/L-195-2024.md
 - raw/papers/moldova-legal/L-133-2011.md
 confidence: high
@@ -52,7 +73,7 @@ actele curent în vigoare, plus **Instrucțiuni Adoptate** și **Arhiva Decizii/
 | Ordin **40/2026** | formularul tipizat al notificării încălcării securității datelor | art. 33 alin. (3), art. 65 alin. (1) lit. d) L-195/2024; art. 28 alin. (3) L-160/2026; art. 115 alin. (10) Legea 72/2025 | 25.08.2026 | [[raw/papers/moldova-legal/OCNPDCP-40-2026]] |
 | **Ordin 48/2026** | Regulamentul privind efectuarea investigației (67 pct.); **abrogă** Ordinul 25/2024 | art. 65 alin. (1) lit. d), art. 81 L-195/2024; menționează și L-160/2026 în domeniul de aplicare | 16.09.2026 | [[raw/papers/moldova-legal/OCNPDCP-48-2026]] |
 | **Decizia 41/2026** | lista statelor cu nivel adecvat de protecție; **abrogă** Decizia 23/2022 | art. 45 din L-195/2024 | 25.08.2026 | [[raw/papers/moldova-legal/DCNPDCP-41-2026]] |
-| **Decizia 581/2015** (mod. 2023) | formularul de informare privind supravegherea video (pictograma) | art. 20 alin. (1) lit. g) din L-133/2011 + Regulamentul CNPDCP din Legea 182/2008 | 25.09.2015; consolidare 01.03.2023 | [[raw/papers/moldova-legal/DCNPDCP-581-2015]] |
+| **Decizia 581/2015** (mod. 2023) | formularul de informare privind supravegherea video (pictograma) | art. 20 alin. (1) lit. g) din L-133/2011 + Regulamentul CNPDCP din Legea 182/2008 | listată în registrul curent CNPDCP, dar fără temei de continuitate în art. 90 L-195/2024 (vezi mai jos) | [[raw/papers/moldova-legal/DCNPDCP-581-2015]] |
 
 ## Ordinul 48/2026 rezolvă întrebarea inițială a lui Eugen
 
@@ -92,8 +113,8 @@ de a emite „linii directorii"), plus Capitolul II al Regulamentului Centrului 
 |---|---|---|---|---|
 | Procesul electoral | Ordin nr. 03/1 | 28.02.2013 | art. 20 alin. (1) lit. c) L-133/2011 | [[raw/papers/moldova-legal/OCNPDCP-03-1-2013]] |
 | Sectorul polițienesc | Ordin [nr. neindicat în PDF] | mai 2013 | art. 20 alin. (1) lit. c) L-133/2011 | [[raw/papers/moldova-legal/OCNPDCP-POLITIE-2013]] |
-| Sectorul educațional | Ordin nr. 03 | 21.01.2015 | art. 20 alin. (1) lit. c) L-133/2011 | necitit integral — temei confirmat din pagina 1 randată a PDF-ului, restul (18 pagini) neingerat |
-| Starea de sănătate | [necunoscut — pagina cu antetul ordinului lipsește din PDF-ul scanat] | — | art. 20 alin. (1) lit. c) L-133/2011 | necitit integral — temei confirmat din pagina 1 randată a PDF-ului (care începe direct cu textul instrucțiunii, fără antetul „ORDIN nr."), restul (21 pagini) neingerat |
+| Sectorul educațional | Ordin nr. 03 | 21.01.2015 | art. 20 alin. (1) lit. c) L-133/2011 | ingerat integral din PDF oficial de 18 pagini: [[OCNPDCP-03-2015]] |
+| Starea de sănătate | [necunoscut — pagina cu antetul ordinului lipsește din PDF] | — | art. 20 alin. (1) lit. c) L-133/2011 | ingerat integral din PDF oficial de 21 pagini: [[OCNPDCP-SANATATE]] |
 
 **Niciunul dintre cele două alineate pe care art. 90 alin. (5) din [[L-195-2024]] le menține în vigoare —
 art. 32 alin. (3) și alin. (5) lit. f), i) din L-133/2011, ambele despre transferul transfrontalier — nu
@@ -107,20 +128,17 @@ datepersonale.md, verificat 2026-09-24. Concluzie: **toate patru și-au pierdut 
 util ca reper istoric al practicii CNPDCP 2013-2015 (exemple reale, inclusiv cazul Transnistria cu
 despăgubiri de peste 180 000 lei, în instrucțiunea polițienească).
 
-Ingerate integral, cu textul normativ verbatim: instrucțiunile electorală și polițienească — ambele scurte
-și scanate cu strat de text utilizabil. Neingerate integral: educațională (18 pagini) și de sănătate
-(21 pagini) — doar pagina 1 verificată (randată ca imagine, pentru că extracția mecanică a PDF-urilor dă
-caractere corupte), suficient pentru a confirma temeiul, dar nu pentru text integral.
-- **Decizia din 11.12.2014** privind încetarea de către partidele politice a prelucrării datelor
-  persoanelor care nu le sînt membre (fără număr propriu, semnată de fostul director Vitalie Paniș, temei
-  L-133/2011 art. 19-20 și Regulamentul din Legea 182/2008). Nu ingerată; citită doar pentru a identifica
-  actul modificator de mai jos.
-- **Decizia nr. 08/2023** (23.02.2023), „pentru modificarea și abrogarea unor decizii" — este exact
-  **DCNPDCP 08/2023** despre care [[raw/papers/moldova-legal/DCNPDCP-581-2015]] poartă deja marcajul
-  `[Pct.1^1 introdus prin DCNPDCP08 din 23.02.23...]`: confirmă că textul deținut al 581/2015 e corect.
-  Aceeași decizie mai **abrogă Decizia 176/2015** (cazurile fără autorizare pentru transfer transfrontalier)
-  și modifică definiția consimțământului din decizia din 2014 de mai sus. Niciuna din cele două nu e
-  ingerată — efectul lor practic (176/2015 abrogată, definiția veche înlocuită) nu se mai aplică oricum sub
+Ingerate integral, cu păstrarea textului extras din PDF-urile autorității: toate patru instrucțiunile
+sectoriale. Pentru educație și sănătate, copia locală a fost comparată octet-cu-octet cu PDF-urile oficiale
+de la 25.09.2026, iar corpul derivat este marcat neancorat (extragerea păstrează ordinea, nu o structură de
+articole verificabilă). Aceste limite de extracție nu modifică concluzia despre temei.
+- **Decizia din 17.12.2014**, nu 11.12, privind încetarea de către partidele politice a prelucrării datelor
+  persoanelor care nu le sînt membre, fără număr propriu, semnată de directorul Vitalie Paniș, este acum
+  păstrată ca [[DCNPDCP-PARTIDE-2014]]. Ea se întemeiază pe L-133/2011 art. 19–20 și pe Regulamentul din
+  Legea 182/2008; este decizie individualizată privind partide numite, nu act normativ curent.
+- **Decizia nr. 08/2023** (23.02.2023), „pentru modificarea și abrogarea unor decizii", este acum
+  [[DCNPDCP-08-2023]]. Ea confirmă expres marcajul din [[DCNPDCP-581-2015]], abrogă Decizia 176/2015 și
+  modifică definiția consimțământului în decizia din 2014; efectele vechi nu se proiectează automat sub
   L-195/2024.
 - **Arhiva Decizii/Ordine**: șase intrări, toate decizii de încetare a prelucrării în cauze individuale
   (Registrul criminalistic, StarNet, SIC „Acces-web", Camera Înregistrării de Stat, gestionarii fondurilor
@@ -144,30 +162,36 @@ Consecințe, citite din preambulul fiecărui act, nu presupuse:
 - **Ordinul 27/2022** era întemeiat pe art. 20 alin. (1) lit. h) și art. 23 din L-133/2011, **nu** pe art. 32.
   Clauza de continuitate nu l-ar fi salvat. L-a salvat Ordinul 39/2026, care îi schimbă preambulul pe L-195/2024.
   Se citează numai în versiunea consolidată.
-- **Decizia 581/2015 rămîne neclară.** Temeiul ei este art. 20 alin. (1) lit. g) din L-133/2011 și
-  Regulamentul Centrului din Legea 182/2008, ambele abrogate prin art. 90 alin. (3) lit. a) și b). Nu este
-  un act emis sub art. 32, deci alin. (5) nu o acoperă, și art. 90 nu conține altă clauză de continuitate.
-  Totuși legis.md nu îi dă dată de abrogare, iar site-ul autorității o listează ca în vigoare. **Textul legii și
-  practica publicată se contrazic; nu se rezolvă aici.** Pentru orice consiliere despre supravegherea video,
-  spune că formularul are temei legal abrogat și că statutul lui se confirmă la Centru. Decizia din 2023 care
-  a introdus pct. 1^1 este **DCNPDCP 08/2023** (identificată 2026-09-24, vezi mai sus); textul ei nu e
-  ingerat separat, dar efectul ei asupra 581/2015 e deja corect reflectat prin marcajul din fișierul deținut.
+- **Decizia 581/2015: poziție de lucru, nu „în vigoare” fără rezervă.** Registrul curent al CNPDCP o păstrează
+  în lista proprie de Decizii/Ordine, iar legis.md `doc_id 135821` nu afișează dată de abrogare. Aceasta
+  confirmă că autoritatea o tratează administrativ drept act activ. Totuși temeiurile citate — art. 20 alin.
+  (1) lit. g) L-133/2011 și Regulamentul Centrului din L-182/2008 — sunt abrogate prin art. 90 alin. (3)
+  L-195/2024; actul nu intră în continuitatea îngustă de la art. 90 alin. (5), limitată la art. 32 din L-133.
+  **În analiză se tratează ca act listat oficial, dar fără temei de continuitate identificat; nu ca izvor
+  normativ curent autonom.** Pentru conformare, drepturile și obligațiile se ancorează direct în L-195/2024,
+  iar pictograma din 581/2015 se menționează numai cu această rezervă. [[DCNPDCP-08-2023]] este ingerată și
+  confirmă modificarea pct. 1^1, fără a remedia temeiul post-23.08.2026.
 
 ## Defecte de sursă și trimiteri de verificat
 
-- **Ordinul 31/2026, temeiul.** Preambulul invocă art. 28 alin. (7) din L-195/2024. Acel alineat spune doar
+- **Ordinul 31/2026, temeiul.** Preambulul adoptat invocă art. 28 alin. (7) din L-195/2024. Acel alineat spune doar
   că Centrul aprobă clauzele standard „pentru aspectele menționate la alin. (3) și (4)", adică contractul
   operator–persoană împuternicită. Contractul aprobat este pentru **transfer**, iar pct. 2 al clauzei 2 din
   el se sprijină pe art. 46 alin. (1) și (2) lit. c). Art. 46 alin. (2) lit. c) numește clauzele „aprobate de
   Centru", dar nu este un articol de competență, iar art. 65 alin. (1) lit. d), invocat la 27/2022 și 40/2026,
-  nu este citat aici. Nepotrivirea temei–obiect este un **finding, nu o concluzie despre validitate**;
-  nu am căutat ce spune Centrul despre ea.
+  nu este citat aici. PDF-ul CNPDCP al **proiectului** (27 pagini, [[OCNPDCP-31-2026-PROIECT]]) citează și
+  art. 89 alin. (3), dar câmpurile de număr/datã sunt goale și 14 marcaje „Proiect” exclud tratarea lui ca
+  rectificare a actului adoptat. Căutarea pe publicațiile CNPDCP și Monitorul Oficial la 25.09.2026 nu a
+  identificat o rectificare a preambulului sau o explicație publică. Nepotrivirea rămâne un **finding, nu o
+  concluzie despre validitate**; o poziție instituțională explicită poate veni numai de la CNPDCP.
 - **Ordinul 31/2026 transpune Decizia (UE) 2021/914**, CELEX 32021D0914 — textul ei e ingerat din
   2026-09-24, [[UE-2021-914]]. **Comparația e făcută (2026-09-24)**, în [[acquis-DataProtection]]: ordinul
   urmează anexa clauză cu clauză, dar are opt divergențe de conținut, între care pasul amiabil din clauza 12,
   scenariul principal absent din clauza 13, elementele modulului 3 omise, legea și forul fixate pe Moldova
-  și suspendarea fluxurilor de către CNPDCP (pct. 2), care nu are corespondent în decizie. Anexele 1–3 ale
-  ordinului lipsesc din textul deținut.
+  și suspendarea fluxurilor de către CNPDCP (pct. 2), care nu are corespondent în decizie. Anexele 1–3
+  continuă să lipsească din textul adoptat pe legis.md. Documentul public CNPDCP păstrat ca
+  [[OCNPDCP-31-2026-PROIECT]] furnizează textul integral al șabloanelor de anexe, dar este proiect, nu probă
+  că anexele finale au fost identice.
 - **Trimiteri la MO ale L-195/2024 inconsecvente între acte:** Ordinul 27/2022 modificat și 39/2026 dau
   „nr. 367-369 art. 574", Ordinul 31/2026 dă „nr. 367-396", Ordinul 40/2026 dă „nr. 124-129, art. 248",
   Ordinul **38/2026** dă „Nr. 367-396, art. 574" (aceeași cifră greșită ca 31/2026, dar cu articolul corect).
@@ -178,9 +202,13 @@ Consecințe, citite din preambulul fiecărui act, nu presupuse:
   ([[L-72-2025]]): alineatul există și spune exact ce invocă ordinul (Centrul stabilește circumstanțele,
   formatul și modalitățile notificării pentru furnizorii de comunicații electronice). Temeiul e verificat;
   art. 115 e în vigoare din 01.01.2026.
-- **Decizia 41/2026** enumeră 16 entități; lista nu conține Statele Unite. Se bazează pe deciziile Comisiei
-  Europene enumerate în preambul și pe Convenția 108 ([[L-36-2026]] aduce protocolul ei de amendare).
-  Nu am verificat dacă vreuna dintre deciziile Comisiei a fost între timp retrasă sau modificată.
+- **Decizia 41/2026** enumeră 16 entități; lista nu conține Statele Unite. Toate cele 16 decizii ale Comisiei
+  invocate nominal în preambul sunt acum ingerate, în română, din Cellar: [[UE-2010-625]], [[UE-2003-490]],
+  [[UE-2002-2]], [[UE-2010-146]], [[UE-2003-821]], [[UE-2011-61]], [[UE-2004-411]], [[UE-2019-419]],
+  [[UE-2008-393]], [[UE-2013-65]], [[UE-2022-254]], [[UE-2000-518]], [[UE-2012-484]], [[UE-2021-1772]],
+  [[UE-2026-179]] și [[UE-2025-1382]]. Pentru Coreea, citarea din decizia CNPDCP „C(2021)9316” este forma de
+  notificare; actul publicat este Decizia de punere în aplicare (UE) **2022/254**, CELEX `32022D0254`.
+  Ingerarea nu transformă lista CNPDCP într-o concluzie independentă despre eventuale revizuiri ulterioare.
 
 ## Ce lipsește ca ordinele să fie un perimetru complet
 

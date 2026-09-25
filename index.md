@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-24 | Total pages: 178
+> Last updated: 2026-09-24 | Total pages: 179
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -139,7 +139,8 @@
 - [[UA-STATUT-2011]] — Statutul profesiei de avocat, act al Uniunii Avocaților: pe articole, 74 de ancore, consolidare 2022-05-27 (doc_id 134919, nu 86850); Codul deontologic și Regulamentul stagiului nu sunt pe legis.md.
 - [[UE-2016-679]] — GDPR, Regulamentul (UE) 2016/679: text integral RO din Cellar, 99 de articole și 173 de considerente; primul act UE integral din vault.
 - [[UE-2016-680]] — Directiva (UE) 2016/680 (protecția datelor în materie penală): text integral RO, 65 de articole și 107 considerente; comparația cu L-160/2026 nefăcută.
-- [[UE-2021-914]] — Decizia de punere în aplicare (UE) 2021/914 (clauzele contractuale standard pentru transferul de date): text integral RO, 4 articole și anexa cu SCC-urile pe patru module; comparația cu Ordinul CNPDCP 31/2026 nefăcută.
+- [[UE-2021-914]] — Decizia de punere în aplicare (UE) 2021/914 (clauzele contractuale standard pentru transferul de date): text integral RO, 4 articole și anexa cu SCC-urile pe patru module; comparată cu Ordinul CNPDCP 31/2026, cu opt divergențe de conținut verificate.
+- [[UE-2010-625]], [[UE-2003-490]], [[UE-2002-2]], [[UE-2010-146]], [[UE-2003-821]], [[UE-2011-61]], [[UE-2004-411]], [[UE-2019-419]], [[UE-2008-393]], [[UE-2013-65]], [[UE-2022-254]], [[UE-2000-518]], [[UE-2012-484]], [[UE-2021-1772]], [[UE-2026-179]] și [[UE-2025-1382]] — cele 16 decizii ale Comisiei privind caracterul adecvat enumerate în preambulul Deciziei CNPDCP 41/2026, text integral RO din Cellar; Coreea este actul publicat (UE) 2022/254, notificat C(2021)9316.
 
 ### Concepts
 
@@ -152,7 +153,7 @@
 - [[acquis-ContabilitateInstitutiiFinanciare]] — Conturile anuale ale băncilor și asigurătorilor (86/635/CEE, 91/674/CEE): bază UE ingerată, fără ancoră moldovenească (Legea contabilității nu e ținută în vault).
 - [[acquis-CRA]] — Agențiile de rating de credit (Reg. 1060/2009): transpunere expresă, cu tabel articol cu articol, în L-171-2012 arts. 88^1-88^4.
 - [[acquis-Crowdfunding]] — Furnizori europeni de servicii de finanțare participativă (ECSP)
-- [[acquis-DataProtection]] — Protecția datelor cu caracter personal: harta articol cu articol L-195/2024 față de GDPR (art. 1–50 aceeași numerotare), divergențe verificate în text (amenzi 1%/2% față de 2%/4%, vîrsta copilului 14 față de 16, clauze standard), ce nu s-a comparat.
+- [[acquis-DataProtection]] — Protecția datelor cu caracter personal: harta articol cu articol L-195/2024 față de GDPR, inclusiv Capitolul III și art. 25–39, cu diferențe materiale, adaptări instituționale și defecte separate ale textului UE brut.
 - [[acquis-CSDR-EMIR]] — Infrastructură post-tranzacționare (CSDR / EMIR)
 - [[acquis-GarantareaDepozitelor]] — Sistemele de garantare a depozitelor (94/19/CE, abrogată 2019; succesorul 2014/49/UE neingerat): ancoră moldovenească [[L-160-2023]].
 - [[acquis-ICSD]] — Sistemele de compensare pentru investitori
@@ -176,6 +177,7 @@
 
 - [[cnpf-transposition-matrix]] — Matricea lacunelor de transpunere și aproximare — Piața de capital (Capitolul 9)
 - [[emir-concordance-skeleton]] — Schelet de concordanță EMIR 648/2012 vs dreptul Moldovei, cu acțiuni de transpunere
+- [[data-protection-108-gdpr-l195]] — Maparea completă a Protocolului 108+ față de GDPR și L-195/2024; corespondențe tematice, divergențe verificate și clauze finale fără echivalent direct
 
 ### Queries
 

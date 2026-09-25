@@ -1,7 +1,7 @@
 ---
 title: acquis-DataProtection — Protecția datelor cu caracter personal (GDPR 2016/679, Directiva 2016/680, Convenția 108+)
 created: '2026-09-21'
-updated: '2026-09-24'
+updated: '2026-09-25'
 type: concept
 perimeter: legal
 tags:
@@ -36,6 +36,9 @@ abrogată. Nivelul 2 este tratatul: [[L-36-2026]]. Nivelul subordonat este [[CNP
 dintr-un extras. Secțiunea L-195/GDPR de mai jos este acum **alineat cu alineat pentru art. 4, 6, 9** (restul
 rămîne structural, pe titluri); secțiunea nouă L-160/Directiva 2016/680 este **structurală plus patru
 divergențe verificate în text**, nu alineat cu alineat pe toate cele 46 de articole.
+Maparea completă a Protocolului 108+ pe articolele Protocolului 1–40 este în
+[[data-protection-108-gdpr-l195]]; pagina separată păstrează diferența dintre corespondență tematică și
+conformitate juridică.
 
 ## Harta articol cu articol, L-195/2024 față de GDPR
 
@@ -131,6 +134,38 @@ religioase)**.
      clauzelor „statele membre pot..." (Moldova nu e stat membru), dar înseamnă că legea nu are un ancoraj
      textual propriu pentru ca Parlamentul să adauge, prin acest articol, condiții suplimentare pe aceste trei
      categorii — orice extindere ar veni prin altă lege, nu prin acest mecanism.
+
+## Capitolul III și art. 25–39 — comparație alineat cu alineat (2026-09-25)
+
+Metoda a fost aceeași ca la art. 4, 6 și 9: fiecare articol cu aceeași numerotare a fost citit
+în cele două texte brute. Cînd norma UE lasă o opțiune statelor membre, neutilizarea opțiunii nu
+este marcată drept omisiune. **Cele 173 de considerente nu sînt o sursă independentă de obligații**;
+au fost folosite numai ca control interpretativ pentru constatările unde textul articolului poate
+duce la două lecturi (în special considerentele 60, 65, 67, 69, 74 și 84), nu pentru a inventa o
+diferență care nu apare în articole.
+
+| GDPR / L-195 | Rezultat verificat | Calificare |
+|---|---|---|
+| art. 12 alin. (1)–(7) | Conținut echivalent: informare clară, termen de o lună, prelungire cu două luni, gratuitate, cereri excesive, verificarea identității. Alin. (8) mută aprobarea pictogramelor de la actele delegate ale Comisiei la acte aprobate de Centru. | adaptare instituțională; fără reducerea standardului de transparență. `[L-195 art.12] [UE-2016-679 art.12]` |
+| art. 13 alin. (1) lit. f), alin. (2); art. 14 alin. (1) lit. f), alin. (2)–(5); art. 15 alin. (1) lit. c), alin. (2)–(4) | L-195 înlocuiește „țară terță” cu „alt stat” și Comisia cu Centrul. În plus, art. 15 alin. (1) lit. d) nu păstrează rezerva GDPR „acolo unde este posibil” pentru durata estimată de stocare. | adaptare teritorială cu efect potențial mai larg pentru transferuri; la art. 15, obligația textuală de informare privind stocarea este mai strictă. `[L-195 art.13–15] [UE-2016-679 art.13–15]` |
+| art. 16; art. 19–20; art. 22 | Dreptul la rectificare, notificarea destinatarilor, portabilitatea și protecția contra deciziei exclusiv automatizate au conținut funcțional echivalent. | fără divergență materială identificată. `[L-195 art.16,19–20,22] [UE-2016-679 art.16,19–20,22]` |
+| art. 17 alin. (3) lit. e) | Excepția de la ștergere este pentru stabilirea, exercitarea sau apărarea unui drept într-o procedură **administrativă, judiciară sau extrajudiciară**; GDPR limitează formula la un drept „în instanță”. | lărgire materială a excepției de la dreptul la ștergere. Considerentul 65 GDPR confirmă că excepția UE este legată de un drept în instanță. `[L-195 art.17 alin.(3) lit.e)] [UE-2016-679 art.17 alin.(3) lit.e)]` |
+| art. 18 alin. (1) lit. c), alin. (2) | Aceeași extindere de la dreptul „în instanță” la procedură administrativă, judiciară sau extrajudiciară, atât pentru păstrare cât și pentru prelucrare după restricționare. | lărgire materială a excepției. `[L-195 art.18 alin.(1) lit.c), alin.(2)] [UE-2016-679 art.18 alin.(1) lit.c), alin.(2)]` |
+| art. 21 alin. (1)–(6); art. 23 alin. (1)–(2) | Opoziția, marketingul direct, cercetarea/statistica și testul de restricționare (esență, necesitate, proporționalitate, garanții) sunt echivalente după localizarea dreptului UE/statului membru în dreptul Republicii Moldova. | adaptare structurală; fără divergență materială identificată. `[L-195 art.21,23] [UE-2016-679 art.21,23]` |
+| art. 25–26 | Protecția datelor prin concepere/implicit și acordul operatorilor asociați păstrează toate obligațiile de fond. L-195 înlocuiește dreptul UE/intern cu actele normative ale Republicii Moldova. | adaptare a sursei dreptului; fără divergență materială. `[L-195 art.25–26] [UE-2016-679 art.25–26]` |
+| art. 27 alin. (1)–(4) | Pe lângă excepțiile GDPR pentru prelucrare ocazională și autorități publice, L-195 exclude operatorul/persoana împuternicită cu sediu în SEE sau cu reprezentant deja desemnat în SEE. | restrângere materială a obligației de a avea reprezentant în Republica Moldova pentru o parte din operatorii extraterritoriali. `[L-195 art.27 alin.(2) lit.c)–d)] [UE-2016-679 art.27]` |
+| art. 28 alin. (1)–(9); art. 29–34 | Contractul operator–persoană împuternicită, evidențele, securitatea și notificarea încălcărilor rămân echivalente. Centrul concentrează aprobarea clauzelor standard de la art. 28 alin. (7), iar procedurile UE de coerență dispar ca mecanisme specifice Uniunii. | adaptare instituțională. Ea nu rezolvă findingul distinct că Ordinul 31/2026 citează art. 28 alin. (7) pentru SCC de transfer. `[L-195 art.28–34] [UE-2016-679 art.28–34]` |
+| art. 35 alin. (1)–(9), alin. (11) | Cerința DPIA, cazurile tipice, conținutul, avizul responsabilului și revizuirea sunt echivalente. Listele Centrului se publică în Monitorul Oficial și pe site, fără Comitetul european/mecanismul de coerență. | adaptare structurală la o autoritate unică. `[L-195 art.35 alin.(1)–(9),(11)] [UE-2016-679 art.35]` |
+| art. 35 alin. (10) | GDPR cere ca temeiul juridic să reglementeze operațiunea sau setul **specific** de operațiuni și ca DPIA generală să fi fost făcută; L-195 condiționează excluderea doar de o evaluare generală făcută la adoptarea actului normativ care prevede temeiul. | potențială lărgire materială a excepției de la DPIA, deoarece condiția operațiunii specifice nu este exprimată. Considerentul 93 GDPR susține lectura strictă a excepției. `[L-195 art.35 alin.(10)] [UE-2016-679 art.35 alin.(10)]` |
+| art. 36 alin. (1)–(4); art. 37–39 | Consultarea prealabilă, inclusiv termenele 8+6 săptămâni, și regimul responsabilului cu protecția datelor sunt echivalente. Trimiterea proiectelor normative la Centru este adaptată la Legea nr. 100/2017. GDPR art. 36 alin. (5) este o opțiune pentru dreptul intern, nu o obligație omisă. | adaptare procedurală; fără divergență materială obligatorie. `[L-195 art.36–39] [UE-2016-679 art.36–39]` |
+
+**Control de integritate al sursei UE.** În fișierul brut UE există trei pasaje imposibil de tratat
+ca diferențe de transpunere fără a le corecta artificial: art. 17 alin. (3) apare „alineatele (1)
+și (2a)”; art. 21 alin. (1) conține după lit. e)–f) un fragment redundant „sau al articolului 6
+alineatul (1)”; iar art. 33 alin. (1) omite negația din pragul de risc și are un final incoerent
+despre explicația întârzierii. L-195 păstrează structura funcțională coerentă. Acestea sunt defecte
+ale extracției/textului UE deținut, **nu** findinguri împotriva L-195; textul EUR-Lex se deschide
+înainte de orice citare externă pe acele trei puncte.
 
 ## Divergențe verificate în text, ambele capete deschise
 
@@ -319,6 +354,40 @@ poate spune ce prevede Anexa 1 sec. C (autoritatea competentă), nici dacă anex
 I.A/I.B/I.C/II/III. (b) Poziția sbp. din clauza 8 nu a fost recitită element cu element. (c) Nu s-a căutat poziția
 publică a Centrului.
 
+## Protocolul 108+ față de L-195/2024 și GDPR — comparație structurală (2026-09-24)
+
+Comparația folosește **articolele Convenției 108 astfel cum sînt înlocuite prin Protocol**, nu numărul
+articolului din Protocol. Protocolul nu este un tratat nou: art. 1–35 modifică textul Convenției, iar
+art. 36–40 sînt clauzele finale ale Protocolului. Textul românesc deținut este o transcriere din PDF
+scanat, fără ancorare mecanică; orice citat exact trebuie verificat pe imaginile păstrate lîngă sursă.
+
+**Statutul schimbă concluzia juridică.** [[L-36-2026]] este în vigoare intern din 23.08.2026, dar Protocolul
+nu a intrat încă în vigoare internațional: la 24.09.2026 erau 34 de ratificări/aderări, față de pragul de
+38 din art. 37 alin. (2). Comparația de mai jos descrie standardul convențional la care Republica Moldova
+s-a angajat prin ratificare; nu tratează textul modificat ca obligație internațională deja producătoare de
+efecte. [[L-195-2024]] este în vigoare și transpunerea națională declarată a GDPR.
+
+| Temă | Protocolul 108+ | L-195/2024 și GDPR | Finding verificat |
+|---|---|---|---|
+| Domeniu și arhitectură | Noul art. 3 acoperă prelucrarea sub jurisdicția Părții în sectoarele public și privat, cu excepția activităților exclusiv personale/domestice. | L-195 art. 2 și GDPR art. 2 păstrează nucleul, dar L-195 adaugă excluderi interne pentru secretul de stat, autoritățile penale și persoanele decedate; GDPR are excluderi proprii ale dreptului UE. | Același nucleu, dar domeniile de excludere nu sînt identice. |
+| Definiții | Art. 3 al Protocolului extinde Convenția cu „destinatar" și „persoană împuternicită", dar nu reproduce catalogul tehnic GDPR al sediului principal, autorităților vizate și prelucrării transfrontaliere. | L-195 art. 4 urmează aproape integral GDPR art. 4 și adaugă termeni interni, inclusiv marketing direct și cifră totală de afaceri. | L-195 este mai detaliată și mai operațională; nu este o transcriere a definițiilor din 108+. |
+| Principii și temei | Noul art. 5 cere proporționalitate, echilibru echitabil între interese și consimțămînt sau alt temei legal. | L-195 art. 5–6 și GDPR art. 5–6 separă principiile și enumeră temeiurile; L-195 are reguli interne proprii la art. 6 alin. (2)–(3). | Asemănare de fond, nu corespondență alineat-cu-alineat. |
+| Date sensibile | Noul art. 6 cere garanții consacrate prin lege și protecție împotriva riscurilor, în special discriminarea. | L-195 art. 9 și GDPR art. 9 enumeră derogările și garanțiile pe categorii. | L-195/GDPR sînt mult mai prescriptive; Protocolul fixează un standard-cadru. |
+| Securitate și incidente | Noul art. 7 cere măsuri de securitate și notificarea fără întîrziere a încălcărilor susceptibile să afecteze grav drepturile și libertățile. | L-195 art. 32–34 și GDPR art. 32–34 operează cu evaluarea riscului, notificarea în cel mult 72 de ore către autoritate și informarea persoanei la risc ridicat. | Pragul și mecanismul sînt mai detaliate în L-195/GDPR; nu trebuie echivalate automat cu obligația mai generală din 108+. |
+| Transparență | Noul art. 8 enumeră identitatea, temeiul, scopurile, categoriile, destinatarii și exercitarea drepturilor; permite excepții pentru prelucrarea necolectată direct dacă legea prevede expres, informarea este imposibilă sau efortul disproporționat. | L-195 art. 13–14 și GDPR art. 13–14 adaugă termenul de informare, sursa, perioada de stocare, responsabilul, transferurile și informațiile despre profilare. | L-195/GDPR transformă standardul de transparență într-un set procedural mai dens. |
+| Decizii automatizate și drepturi | Noul art. 9 include opinia persoanei înaintea unei decizii exclusiv automatizate semnificative, accesul la origine și raționament, opoziția, rectificarea/ștergerea și asistența autorității. | L-195 art. 15–22 și GDPR art. 15–22 detaliază drepturile, excepțiile, intervenția umană și contestarea deciziei. | Protecția este convergentă, dar GDPR/L-195 au garanții și condiții mai granulare. |
+| Responsabilitate și proiectare | Noul art. 10 cere analizarea impactului înaintea prelucrării și măsuri tehnice/organizatorice pe toate etapele. | L-195 art. 24–25 și 35–36, respectiv GDPR art. 24–25 și 35–36, operationalizează responsabilitatea, protecția implicită, DPIA și consultarea prealabilă. | L-195 este o implementare mai concretă a unui standard similar. |
+| Restricții | Noul art. 11 cere temei legal, respectarea esenței drepturilor, necesitate și proporționalitate; pentru securitate/apărare cere control independent și eficient. | L-195 art. 23 detaliază scopurile și conținutul minim al legii restrictive; GDPR art. 23 are aceeași logică de garanții. | Garanția de principiu este comună; L-195 enumeră mai detaliat elementele controlabile. |
+| Transferuri | Noul art. 14 protejează fluxurile către alte Părți la Convenție; pentru state/organizații ne-Părți cere nivel adecvat sau garanții standardizate și permite derogări limitate; autoritatea poate suspenda transferul. | L-195 art. 44–49 introduce regimul propriu de adecvare al Centrului, garanții, SCC, reguli corporatiste, coduri/certificări și derogări; transferurile SEE sînt scoase din capitol. | Cele două regimuri sînt compatibile ca arhitectură, dar nu identice: 108+ este un standard convențional pentru Părți, GDPR/L-195 un regim detaliat de transfer către state terțe. |
+| Autorități și cooperare | Noul art. 15 cere independență, lipsa instrucțiunilor, resurse, rapoarte, soluționarea plîngerilor și competențe asupra transferurilor; art. 16–18 cer rețea, asistență și acces transfrontalier pentru persoana vizată. | L-195 art. 55–61 construiește regimul CNPDCP, iar art. 50 reglementează cooperarea internațională; mecanismele GDPR de autoritate principală/coerență nu sînt reproduse, fiind specifice Uniunii. | Moldova are o autoritate compatibilă structural cu cerințele 108+, dar conformitatea instituțională completă nu este demonstrată prin această comparație. |
+
+**Concluzie de lucru.** Protocolul 108+ funcționează ca standard internațional de drepturi și garanții,
+mai scurt și mai tehnologic neutru. GDPR și L-195/2024 îl depășesc în densitate procedurală: termene,
+liste, condiții, documentare și mecanisme de transfer. Matricea completă de mapare este în
+[[data-protection-108-gdpr-l195]], dar apropierea L-195 de GDPR nu dovedește singură conformitatea cu fiecare
+obligație a Protocolului; ar mai fi necesar un audit juridic de conformitate, iar textul Protocolului rămîne
+neancorat.
+
 ## Ce nu s-a comparat, ca să nu se creadă că s-a făcut
 
 - **Restul alineatelor L-195/GDPR.** Rămîne structural (pe titluri), nu alineat cu alineat: capitolul III
@@ -334,9 +403,10 @@ publică a Centrului.
   neancorat — citabil pe articol, dar nu verificabil octet cu octet. Verificat 24.09.2026 pe pagina
   Consiliului Europei: **34 din cele 38 de ratificări necesare**, deci Protocolul nu e încă în vigoare
   internațional, nici măcar între statele care l-au ratificat deja (Republica Moldova inclusă) — vezi
-  [[L-36-2026]]. Comparația articol-cu-articol față de GDPR nu s-a făcut.
-- **Rîndul din matricea de transpunere** al acestui perimetru nu a fost adăugat: matricea nu a fost verificată
-  pe acest perimetru și nu se atinge pînă la decizia lui Eugen.
+  [[L-36-2026]]. Matricea completă a articolelor Protocolului este în [[data-protection-108-gdpr-l195]];
+  ea nu este însă un audit de conformitate.
+- **Rîndul din matricea formală de transpunere** al acestui perimetru nu a fost adăugat: pagina de comparație
+  este o mapare tematică, nu matricea formală de transpunere, și nu se completează automat.
 
 ## Trimitere la Acordul de Asociere
 

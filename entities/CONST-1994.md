@@ -89,8 +89,8 @@ cu art. 59^1 sunt ancorate; conținutul lor nu a fost citit pentru această pagi
 
 ## Ce rămâne deschis
 
-1. **Denumirea și corelarea cu hotărârile Curții Constituționale.** Două HCC apar în fișă ca acte
-   modificatoare ale Constituției. Ce anume au schimbat în text nu se vede din fișier (capcana 3).
-   Se lămurește la pasul 5 al planului, când se ingerează hotărârile Curții.
+1. **Denumirea și corelarea cu hotărârile Curții Constituționale.** Închis: HCC7/2016 a revigorat
+   forma anterioară modificărilor LP1115/2000 privind art. 78 și 85; HCC8/2024 a înlăturat
+   constatarea desuetudinii textului „funcționînd pe baza grafiei latine” din art. 13 alin. (1).
 2. **Data intrării în vigoare** din fișă (19.08.1994) față de text (27.08.1994): de consemnat în
    orice răspuns care datează Constituția; textul are prioritate.

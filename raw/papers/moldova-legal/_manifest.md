@@ -3141,3 +3141,23 @@ acestei decizii nu s-a făcut — doar textul e ingerat. Deciziile Comisiei priv
   data; fara el intoarce lista cautarii precedente, deci acelasi rezultat pentru fraze diferite. Si: pagina actului
   pentru un act mare (100/2001) a inghetat randarea tab-ului de doua ori; s-a rezolvat cu un tab nou si cu o asteptare
   de 7 secunde.
+
+## AQ. Perimetrul CNPDCP: surse sectoriale, anexe-proiect și deciziile UE de adecvare (2026-09-25)
+
+- **Surse CNPDCP păstrate:** `OCNPDCP-03-2015` (instrucțiunea educațională, 18 pagini),
+  `OCNPDCP-SANATATE` (instrucțiunea privind datele despre starea de sănătate, 21 pagini),
+  `DCNPDCP-08-2023` și `DCNPDCP-PARTIDE-2014` (decizia individualizată din **17.12.2014**, fără număr).
+  Primele trei copii locale sunt identice pe hash cu PDF-urile datepersonale.md; decizia partidelor este extrasă
+  din PDF-ul oficial direct. Textele educației și sănătății sunt complete, dar neancorate, deoarece PDF-urile nu
+  dau o structură mecanic verificabilă de subunități.
+- **Anexele Ordinului 31/2026:** `OCNPDCP-31-2026-PROIECT` păstrează PDF-ul public CNPDCP de 27 pagini, cu
+  Contractul standard și anexele 1–3. Nu este anexă finală: numărul/data rămân necompletate și „Proiect” apare
+  de 14 ori. Textul final din legis.md rămâne fără anexe; nu se afirmă identitatea dintre proiect și actul adoptat.
+- **Deciziile de adecvare invocate nominal de DCNPDCP-41-2026:** 16 acte UE integrale RO din Cellar, cu scriptul
+  reproductibil `_meta/imports/eu/ingest_eu_adequacy.py`: `UE-2010-625`, `UE-2003-490`, `UE-2002-2`,
+  `UE-2010-146`, `UE-2003-821`, `UE-2011-61`, `UE-2004-411`, `UE-2019-419`, `UE-2008-393`, `UE-2013-65`,
+  `UE-2022-254`, `UE-2000-518`, `UE-2012-484`, `UE-2021-1772`, `UE-2026-179`, `UE-2025-1382`.
+  Excepția tehnică este Insula Man: Cellar nu a servit CELEX-ul de bază `32004D0411`, astfel că s-a păstrat
+  resursa consolidată disponibilă `02004D0411-20161217`, menținând `32004D0411` ca CELEX de bază în frontmatter.
+  Pentru Coreea, identificatorul public este `32022D0254`; `C(2021)9316` este numărul de notificare din Decizia
+  CNPDCP. Păstrarea acestor acte nu echivalează cu o concluzie separată despre eventuale revizuiri ulterioare.

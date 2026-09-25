@@ -2,7 +2,7 @@
 
 Generat 2026-09-25 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
 
-30 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 91 hotariri distincte. Articolul atins este cunoscut pentru 35 marcaje inca prezente in text si 112 dispozitii recuperate din istoricul versiunilor; **1 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
+30 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 91 hotariri distincte. Articolul atins este cunoscut pentru 35 marcaje inca prezente in text si 113 dispozitii recuperate din istoricul versiunilor; **0 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
 
 Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiunea hotaririi si a intinderii anularii. Un act din tabelul „fara articol atribuit” se citeaza cu avertismentul ca poarta hotariri ale Curtii neverificate la nivel de articol.
 
@@ -21,7 +21,7 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `COD-443-2004` | 156146 | 2026-12-02 | 6 | 6 | 0 |
 | `COD-985-2002` | 156133 | 2026-12-02 | 8 | 8 | 0 |
 | `CONST-1994` | 145723 | 2024-11-05 | 2 | 2 | 0 |
-| `L-100-2001` | 151282 | 2025-10-21 | 1 | 0 | 1 |
+| `L-100-2001` | 151282 | 2025-10-21 | 1 | 1 | 0 |
 | `L-121-2007` | 152778 | 2026-01-23 | 1 | 1 | 0 |
 | `L-1260-2002` | 146148 | 2025-01-07 | 1 | 1 | 0 |
 | `L-132-2016` | 155890 | 2027-01-01 | 2 | 2 | 0 |
@@ -159,6 +159,7 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `COD-985-2002` | 335 | alin. (1) | text din articol („intereselor publice sau”) | HCC39/2021-12-21 | MO325-333/31.12.21 art.232 | versiunea 129474 @ 2021-12-21, verificat 2026-09-08 |
 | `CONST-1994` | 78 și 85 | modificarile prin pct. 2 integral și sintagma „cu excepția cazului prevăzut la art. 78 alin. (5)” de la pct. 5 din art. I al LP1115/2000 | revigorare prin anularea actului modificator („cu excepția cazului prevăzut la art. 78 alin. (5)”) | HCC7/2016-03-04 | MO59-67/18.03.16 art.10 | versiunea 145723 @ 2016-03-04, verificat 2026-09-24 |
 | `CONST-1994` | 13 | al.(1), textul „funcționînd pe baza grafiei latine” | revigorare („funcționînd pe baza grafiei latine”) | HCC8/2024-03-11 | MO104-107/21.03.24 art.42 | versiunea 145723 @ 2024-03-11, verificat 2026-09-24 |
+| `L-100-2001` | 5 | al.(4), sintagma „și limba rusă” | text din articol („și limba rusă”) | HCC28/2002-05-30 | MO75/13.06.02 art.19 | versiunea 151282 @ 2002-06-13, verificat 2026-09-25 |
 | `L-121-2007` | 13 și Anexa | al.(4^1), al.(4^2) și pct. 26^1 | subunitate | HCC14/2024-06-20 | MO287-290/04.07.24 art.102 | versiunea 152778 @ 2024-06-20, verificat 2026-09-24 |
 | `L-1260-2002` | 43 | al.(4) | text din articol („în partea ce ţine de procedura de organizare a examenelor. Calificativul acordat nu poate …”) | HCC18/2018-07-03 | MO277-284/27.07.18 art.124 | versiunea 108240 @ 2018-07-03, verificat 2026-09-15 |
 | `L-132-2016` | 11 | al.(12), textul „și care a susținut proba detectorului comportamentului simulat (poligraf)” | text din articol („și care a susținut proba detectorului comportamentului simulat (poligraf)”) | HCC6/2018-04-10 | MO157-166/18.05.18 art.76 | versiunea 155890 @ 2018-04-10, verificat 2026-09-24 |
@@ -199,5 +200,4 @@ Marcajul s-a pierdut la o reimprospatare anterioara a consolidarii. Articolul se
 
 | act | hotarire | rindul din fisa |
 |---|---|---|
-| `L-100-2001` | HCC28/2002-05-30 | l.86: HCC28 din 30.05.02, MO75/13.06.02 art.19 |
 

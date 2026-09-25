@@ -2245,14 +2245,24 @@
      "text": "HCC28 din 30.05.02, MO75/13.06.02 art.19"
     }
    ],
-   "recovered": [],
-   "unattributed": [
+   "recovered": [
     {
+     "instrument": "L-100-2001",
      "hcc": "HCC28/2002-05-30",
-     "line": 86,
-     "text": "HCC28 din 30.05.02, MO75/13.06.02 art.19"
+     "article": "5",
+     "subunit": "al.(4), sintagma „și limba rusă”",
+     "scope": "text din articol",
+     "quoted_text": "și limba rusă",
+     "official_gazette": "MO75/13.06.02 art.19",
+     "read_doc_id": "151282",
+     "read_consolidation": "2002-06-13",
+     "decision_doc_id": "ccdoc:174",
+     "verified": "2026-09-25",
+     "status_today": "art. 5 a fost republicat si rescris; alin. (7) curent prevede inregistrarea si emiterea documentelor in limba romana, iar sintagma lovita nu mai apare",
+     "summary": "Dispozitivul HCC28/2002 declara neconstitutionala sintagma «si limba rusa» din art. 5 alin. (4) al Legii 100/2001."
     }
    ],
+   "unattributed": [],
    "distinct_hcc": [
     "HCC28/2002-05-30"
    ]
@@ -3196,7 +3206,7 @@
   "acts": 30,
   "distinct_hcc": 91,
   "markers_in_text": 35,
-  "recovered": 112,
-  "unattributed": 1
+  "recovered": 113,
+  "unattributed": 0
  }
 }

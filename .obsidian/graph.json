@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-path:raw -path:_meta -path:_archive -path:\"Claude outputs\" -path:legal-career",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -32,6 +32,6 @@
   "repelStrength": 4.39024390243902,
   "linkStrength": 0.0197073170731707,
   "linkDistance": 122,
-  "scale": 0.1945002269061564,
+  "scale": 0.1387322393266574,
   "close": false
 }
