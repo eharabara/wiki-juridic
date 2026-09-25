@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-25 | Total pages: 218
+> Last updated: 2026-09-25 | Total pages: 273
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -149,6 +149,60 @@
 - [[L-227-2025]] — Legea 227/2025 (optimizarea actelor permisive): lege modificatoare cu 42 de articole proprii romane, consolidare 2025-12-31 (LP317/2025); art. XLII amînă în proză art. 4^2 alin. (8) din L-160-2011 la 05.09.2026 (autorități centrale) și 05.09.2027 (locale), calculat; cele 10 ținte deținute poartă deja marcajul LP227.
 - [[L-317-2025]] — Legea 317/2025 (continuarea lui L-227-2025): 20 de articole proprii romane, consolidare 2025-12-31, în vigoare 31.12.2025; art. XIX rescrie art. XLII alin. (1) și art. 12^9/anexa nr. 1 din L-160-2011; art. XVII amînă în proză, la 30.11.2027, articole din Legea 140/2025 (neînglobată în vault).
 - [[L-140-2025]] — Legea 140/2025 (migrarea autorităților administrative centrale): lege modificatoare cu 24 de articole proprii romane, modificată o dată de L-317-2025; art. VI, VIII, XII, XVI, XVII, XVIII (alin. (3) lit. c)) și XX-XXIII intră în vigoare la 30.11.2027, restul la 01.01.2026 (art. VII la 01.09.2025).
+- [[L-1456-1993]] — cu privire la activitatea farmaceutică: 46 ancore, consolidare 2026-09-13.
+- [[L-411-1995]] — ocrotirii sănătăţii: 72 ancore, consolidare 2026-08-28.
+- [[L-439-1995]] — regnului animal: 50 ancore, consolidare 2026-04-25.
+- [[L-93-1998]] — cu privire la patenta de întreprinzător: 19 ancore, consolidare 2026-03-18.
+- [[L-1585-1998]] — cu privire la asigurarea obligatorie de asistenţă medicală: 25 ancore, consolidare 2026-08-14.
+- [[L-599-1999]] — pentru aprobarea Codului navigaţiei maritime comerciale al Republicii Moldova: 397 ancore, consolidare 2025-12-31.
+- [[L-1100-2000]] — cu privire la fabricarea şi circulaţia alcoolului etilic şi a producţiei alcooli: 49 ancore, consolidare 2025-12-30.
+- [[L-382-2001]] — cu privire la drepturile persoanelor aparţinînd minorităţilor naţionale şi la st: 0 ancore, consolidare 2026-01-01.
+- [[L-461-2001]] — privind piaţa produselor petroliere: 30 ancore, consolidare 2026-06-26.
+- [[L-852-2002]] — pentru aprobarea Regulamentului cu privire la regimul comercial şi reglementarea: 0 ancore, consolidare 2025-12-30.
+- [[L-283-2003]] — privind activitatea particulară de detectiv şi de pază: 46 ancore, consolidare 2025-12-30.
+- [[L-119-2004]] — cu privire la produsele de uz fitosanitar: 29 ancore, consolidare 2025-12-30.
+- [[COD-259-2004]] — CODUL CU PRIVIRE LA ŞTIINŢĂ ŞI INOVARE AL REPUBLICII MOLDOVA: 119 ancore, consolidare 2026-01-01.
+- [[L-282-2004]] — privind regimul metalelor preţioase şi pietrelor preţioase: 22 ancore, consolidare 2025-12-30.
+- [[L-149-2006]] — privind fondul piscicol, pescuitul şi piscicultura: 44 ancore, consolidare 2026-04-25.
+- [[L-131-2007]] — privind siguranţa traficului rutier: 55 ancore, consolidare 2026-08-23.
+- [[L-156-2007]] — cu privire la organizarea serviciului civil (de alternativă): 24 ancore, consolidare 2025-09-01.
+- [[L-221-2007]] — privind activitatea sanitară veterinară: 59 ancore, consolidare 2025-12-30.
+- [[L-239-2007]] — regnului vegetal: 43 ancore, consolidare 2026-04-25.
+- [[L-278-2007]] — privind controlul tutunului: 44 ancore, consolidare 2025-05-29.
+- [[COD-3-2009]] — CODUL SUBSOLULUI: 85 ancore, consolidare 2026-05-30; ABROGAT de la 30.05.2026.
+- [[L-10-2009]] — privind supravegherea de stat a sănătăţii publice: 75 ancore, consolidare 2026-03-21.
+- [[L-272-2011]] — apelor: 84 ancore, consolidare 2026-04-25.
+- [[L-130-2012]] — privind regimul armelor şi al muniţiilor cu destinaţie civilă: 77 ancore, consolidare 2026-07-01.
+- [[L-132-2012]] — privind desfăşurarea în siguranţă a activităţilor nucleare şi radiologice: 52 ancore, consolidare 2026-08-28.
+- [[L-68-2013]] — despre seminţe: 23 ancore, consolidare 2026-05-09.
+- [[L-303-2013]] — privind serviciul public de alimentare cu apă şi de canalizare: 46 ancore, consolidare 2025-12-30.
+- [[L-92-2014]] — cu privire la energia termică şi promovarea cogenerării: 61 ancore, consolidare 2025-12-30.
+- [[L-114-2014]] — cu privire la Agenţia de Stat pentru Proprietatea Intelectuală: 28 ancore, consolidare 2026-01-01.
+- [[L-116-2014]] — cinematografiei: 18 ancore, consolidare 2025-12-31.
+- [[L-143-2014]] — privind regimul articolelor pirotehnice: 54 ancore, consolidare 2025-12-30.
+- [[COD-150-2014]] — TRANSPORTURILOR RUTIERE: 0 ancore, consolidare 2026-01-01.
+- [[L-10-2016]] — privind promovarea utilizării energiei din surse regenerabile: 63 ancore, consolidare 2025-12-30.
+- [[L-19-2016]] — metrologiei: 26 ancore, consolidare 2026-06-24.
+- [[L-108-2016]] — cu privire la gazele naturale: 144 ancore, consolidare 2026-08-25.
+- [[L-179-2016]] — cu privire la întreprinderile mici şi mijlocii: 23 ancore, consolidare 2026-01-01.
+- [[L-209-2016]] — privind deşeurile: 91 ancore, consolidare 2026-04-25.
+- [[L-254-2016]] — cu privire la infrastructura naţională de date spaţiale: 23 ancore, consolidare 2026-01-01.
+- [[L-291-2016]] — cu privire la organizarea și desfășurarea jocurilor de noroc: 57 ancore, consolidare 2026-01-01.
+- [[L-102-2017]] — cu privire la dispozitivele medicale: 26 ancore, consolidare 2026-08-14.
+- [[L-296-2017]] — privind cerințele generale de igienă a produselor alimentare: 24 ancore, consolidare 2024-02-22.
+- [[L-105-2018]] — cu privire la promovarea ocupării forţei de muncă și asigurarea de șomaj: 74 ancore, consolidare 2026-03-18.
+- [[L-119-2018]] — cu privire la medicamentele de uz veterinar: 32 ancore, consolidare 2025-12-30.
+- [[L-306-2018]] — privind siguranța alimentelor: 38 ancore, consolidare 2025-12-31.
+- [[L-227-2022]] — privind emisiile industriale: 60 ancore, consolidare 2025-12-31.
+- [[L-43-2023]] — privind gazele fluorurate cu efect de seră: 38 ancore, consolidare 2025-12-30.
+- [[L-394-2023]] — privind produsele alimentare și furajele modificate genetic: 29 ancore, consolidare 2024-07-15.
+- [[L-403-2023]] — privind introducerea pe piață a produselor fitosanitare și pentru modificarea un: 59 ancore, consolidare 2026-05-09.
+- [[L-422-2023]] — privind măsurile de protecție împotriva organismelor dăunătoare plantelor: 107 ancore, consolidare 2024-09-14.
+- [[L-28-2024]] — cu privire la frontiera de stat a Republicii Moldova: 63 ancore, consolidare 2026-01-01.
+- [[L-67-2024]] — privind regimul explozivilor de uz civil: 35 ancore, consolidare 2026-04-02.
+- [[L-82-2024]] — privind controalele oficiale în domeniul agroalimentar: 98 ancore, consolidare 2026-05-08.
+- [[COD-246-2024]] — CODUL SUBSOLULUI: 98 ancore, consolidare 2026-05-29.
+- [[L-164-2025]] — cu privire la energia electrică: 151 ancore, consolidare 2026-06-26.
 - [[L-179-2008]] — Legea cu privire la parteneriatul public-privat: 56 de ancore (22 cu exponent), consolidare 2025-12-31; arts. 22-24 au dispărut din consolidarea 17.03.2025.
 - [[L-25-2008]] — Legea privind Codul de conduită a funcționarului public: 17 ancore, consolidare 2018-01-12, semnalată ca veche de tabelul de acoperire fără să fie depășită după legis.md.
 - [[L-165-2023]] — Legea privind avertizorii de integritate: 31 de ancore, consolidare 2023-10-26; transpune parțial Directiva (UE) 2019/1937; abrogă Legea 122/2018; amendare de fond viitoare la 2026-12-09 (LP165/2026).
@@ -179,6 +233,9 @@
 - [[UE-2010-625]], [[UE-2003-490]], [[UE-2002-2]], [[UE-2010-146]], [[UE-2003-821]], [[UE-2011-61]], [[UE-2004-411]], [[UE-2019-419]], [[UE-2008-393]], [[UE-2013-65]], [[UE-2022-254]], [[UE-2000-518]], [[UE-2012-484]], [[UE-2021-1772]], [[UE-2026-179]] și [[UE-2025-1382]] — cele 16 decizii ale Comisiei privind caracterul adecvat enumerate în preambulul Deciziei CNPDCP 41/2026, text integral RO din Cellar; Coreea este actul publicat (UE) 2022/254, notificat C(2021)9316.
 
 ### Concepts
+
+- [[perimetrul-actelor-permisive]] — cele 54 de acte țintă ale Legilor 227/2025, 317/2025 și 140/2025, ingerate; semnalări (un act abrogat, hotărîri CCR neatribuite, consolidări viitoare).
+
 
 - [[perimetrul-drept-administrativ]] — harta actelor de drept administrativ din vault, lotul de 18 legi din 2026-09-24 și ce a rămas pe dinafară (contenciosul administrativ, actele subordonate)
 - [[perimetrul-functionarea-guvernului]] — harta actelor despre organizarea și funcționarea Guvernului (29 de acte din 2026-09-25): Regulamentul Guvernului, Cancelaria de Stat, 14 ministere, Parlament, tratate, puteri de criză, integritate; ce a ieșit la iveală și ce a rămas neluat

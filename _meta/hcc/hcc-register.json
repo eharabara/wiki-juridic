@@ -2810,6 +2810,67 @@
    ]
   },
   {
+   "instrument": "L-283-2003",
+   "file": "raw/papers/moldova-legal/L-283-2003.md",
+   "doc_id": "151359",
+   "consolidation_date": "2025-12-30",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC11/2023-07-20",
+     "line": 71,
+     "text": "HCC11 din 20.07.23, MO277-281/01.08.23 art.90; în vigoare 20.07.23"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC11/2023-07-20",
+     "line": 71,
+     "text": "HCC11 din 20.07.23, MO277-281/01.08.23 art.90; în vigoare 20.07.23"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC11/2023-07-20"
+   ]
+  },
+  {
+   "instrument": "L-303-2013",
+   "file": "raw/papers/moldova-legal/L-303-2013.md",
+   "doc_id": "151413",
+   "consolidation_date": "2025-12-30",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC30/2016-11-01",
+     "line": 81,
+     "text": "HCC30 din 01.11.16, MO478-490/30.12.16 art.111; în vigoare 01.11.16"
+    },
+    {
+     "hcc": "HCC28/2016-10-11",
+     "line": 82,
+     "text": "HCC28 din 11.10.16, MO459-471/23.12.16 art.109; în vigoare 11.10.16 |"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC30/2016-11-01",
+     "line": 81,
+     "text": "HCC30 din 01.11.16, MO478-490/30.12.16 art.111; în vigoare 01.11.16"
+    },
+    {
+     "hcc": "HCC28/2016-10-11",
+     "line": 82,
+     "text": "HCC28 din 11.10.16, MO459-471/23.12.16 art.109; în vigoare 11.10.16 |"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC28/2016-10-11",
+    "HCC30/2016-11-01"
+   ]
+  },
+  {
    "instrument": "L-325-2013",
    "file": "raw/papers/moldova-legal/L-325-2013.md",
    "doc_id": "142068",
@@ -2890,6 +2951,31 @@
    "distinct_hcc": [
     "HCC37/2021-12-07",
     "HCC7/2015-04-16"
+   ]
+  },
+  {
+   "instrument": "L-382-2001",
+   "file": "raw/papers/moldova-legal/L-382-2001.md",
+   "doc_id": "149501",
+   "consolidation_date": "2026-01-01",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC28/2002-05-30",
+     "line": 59,
+     "text": "HCC28 din 30.05.02, MO75/13.06.02 art.19 |"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC28/2002-05-30",
+     "line": 59,
+     "text": "HCC28 din 30.05.02, MO75/13.06.02 art.19 |"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC28/2002-05-30"
    ]
   },
   {
@@ -3274,6 +3360,31 @@
    ]
   },
   {
+   "instrument": "L-93-1998",
+   "file": "raw/papers/moldova-legal/L-93-1998.md",
+   "doc_id": "151182",
+   "consolidation_date": "2026-03-18",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC7/1999-02-11",
+     "line": 84,
+     "text": "HCC7 din 11.02.99, MO19/25.02.99 |"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC7/1999-02-11",
+     "line": 84,
+     "text": "HCC7 din 11.02.99, MO19/25.02.99 |"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC7/1999-02-11"
+   ]
+  },
+  {
    "instrument": "L-548-1995",
    "file": "raw/papers/bnm/legal-ro/L-548-1995.md",
    "doc_id": "154046",
@@ -3341,10 +3452,10 @@
   }
  ],
  "counts": {
-  "acts": 31,
-  "distinct_hcc": 94,
+  "acts": 35,
+  "distinct_hcc": 98,
   "markers_in_text": 37,
   "recovered": 118,
-  "unattributed": 0
+  "unattributed": 5
  }
 }

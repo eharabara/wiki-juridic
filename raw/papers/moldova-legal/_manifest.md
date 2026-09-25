@@ -3284,3 +3284,27 @@ acestei decizii nu s-a făcut — doar textul e ingerat. Deciziile Comisiei priv
 - **Constatări:** (a) `L-22-2025` art. 54 alin. (3) abrogă `L-121-2018` la 27.03.2027, înaintea lui 30.11.2027, deci abrogarea lit. c) ajunge pe un act abrogat
   (concluzia mea, nedovedită mai departe); (b) art. 5 alin. (3) lit. c) din `L-121-2018` e scrisă cu chirilic U+0441.
 - **Neexecutat:** corpul articolelor VIII, XII, XVI, XVII, XX-XXIII nu a fost citit integral; actele țintă nedeținute (16) nu s-au ingerat.
+
+## AV. Cele 54 de acte țintă ale Legilor 227/2025, 317/2025 și 140/2025 (2026-09-25)
+
+- **Cererea:** „finisează ce a fost neexecutat” (actele țintă nedeținute, versiunea veche a LP227, corpurile necitite), apoi commit și push.
+- **Lista:** extrasă mecanic din primele linii ale articolelor celor trei legi: 73 de acte distincte, 19 deja în vault, **54 nedeținute** (nu 30, cât estimasem
+  la ochi). Rezolvate pe legis.md: id, lista de versiuni, cea mai nouă consolidare care nu e în viitor, `Data abrogării` și antetul corpului. Rîndul de căutare
+  nu coincide cu versiunea bună la peste 20 din 54. Trei acte (Legea apelor 272/2011, Legea cinematografiei 116/2014, Codul cu privire la știință și inovare
+  259/2004) nu au ieșit din căutarea pe titlu, din cauza prefixului de cod (`CȘI`, cu diacritică, nu intră în `[A-Z]`) și a numărului mare de rînduri; id-urile au venit dintr-o
+  căutare web restrînsă la legis.md, apoi verificate pe fișă.
+- **Abrogare:** un singur act, `COD-3-2009` (Codul subsolului, abrogat prin CS246/2024 de la 30.05.2026), păstrat pentru că LP317 art. V l-a modificat;
+  succesorul `COD-246-2024` e ingerat.
+- **Descărcare:** patru blob-uri (20 + 12 + 12 + 10 acte, 16,56 MB), aprobate explicit de Eugen cu lista și mărimea. Prima încercare de blob a înghețat tabul: Cloudflare
+  reactivase verificarea (403 „Just a moment”, `fetch` în așteptare, `setTimeout` nu a mai tăiat); după ce Eugen a trecut verificarea din nou a mers, cîte un tab proaspăt pe blob.
+  Hash SHA-256 pe parte verificat la despachetare: 54 din 54, și dimensiunea, id-ul și contiguitatea (`split_blobs.py`).
+- **Ingerare:** `ingest_business_law.py` cu 54 de intrări noi, `verify_business_law.py` 0 eșecuri. Toate în modul implicit (articole „Articolul N”); niciun act nu a cerut `roman-amending`.
+- **Titluri desfăcute:** 1.651 (`fix_wrapped_titles.py`), backup în `wiki-backups/wiki-2026-09-25-permis-ring/`, dovadă: fiecare titlu schimbat e vechiul titlu plus cuvintele
+  de pe rîndurile imediat următoare, verbatim, cu același număr de rînduri în corp. **Prima probă a mea a picat la 3 fișiere** (`L-1456-1993`, `L-422-2023`, `L-82-2024`) pentru că
+  fereastra era de 5 rînduri, iar titlurile lor au 6-8; mărită la 15, trece. Proba trebuie să nu presupună lungimea titlului.
+- **Semnalări:** hotărîri CCR fără articol atribuit la `L-283-2003` (1), `L-303-2013` (2), `L-382-2001` (1), `L-93-1998` (1); 16 acte cu 23 de consolidări viitoare pe legis.md;
+  `L-278-2007` are `consolidation_date` = data legii de republicare, versiunea e din 30.07.2026; `L-283-2003` spune 48 de articole, are 46 de ancore.
+- **Verificat că textele deținute au amendamentele:** `L-131-2007` are art. 57 alin. (12) (LP227) și art. 7 lit. i) (LP317); `L-160-2011` are art. 12^11–12^13. Iar cele din
+  LP140 amînate la 30.11.2027 nu sînt aplicate în `L-221-2007`, `L-296-2017`, `L-394-2023`, `L-82-2024` (au încă „director general”).
+- **Pagini:** 54 de entități **mecanice** (`confidence: medium`, `> Pagină mecanică`) și `concepts/perimetrul-actelor-permisive.md`. Nu s-au citit actele integral.
+- **Neexecutat:** recuperarea celor 5 hotărîri CCR (regula din `_meta/hcc/`); citirea integrală a celor 54 de acte; consolidările viitoare (23) neingerate.

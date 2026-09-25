@@ -1,6 +1,6 @@
 ---
 title: Registrul dispozitiilor care nu sint inca in vigoare
-generated: '2026-09-25T13:55:43'
+generated: '2026-09-25T14:48:13'
 as_of: '2026-09-25'
 type: summary
 tags: [moldova, legal-source, methodology, summary]
@@ -12,7 +12,7 @@ generated_by: _meta/inforce/build_inforce_register.py
 
 **Fisier generat. Nu se editeaza manual.** Se reface rulind scriptul din frontmatter.
 
-Stare la 2026-09-25. 536 fisiere scanate. 70 dispozitii afectate in 13 act(e). 14 consolidare/consolidari cu data in viitor. 23 consolidare/consolidari viitoare neingerate, 76 dispozitii.
+Stare la 2026-09-25. 590 fisiere scanate. 73 dispozitii afectate in 14 act(e). 14 consolidare/consolidari cu data in viitor. 23 consolidare/consolidari viitoare neingerate, 76 dispozitii.
 
 ## Regula de citare
 
@@ -88,10 +88,13 @@ Inainte de a cita un articol, verifica daca apare in tabelul de mai jos. Daca ap
 | L-181-2014 | 75 | reformulare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
 | L-181-2014 | 76 | modificare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
 | L-845-1992 | 36^1 pct.4, lit.l) | introducere | 2027-01-01 | LP171 din 30.07.26 | dispozitia nu se aplica |
+| L-278-2007 | 26 | nespecificat | 2027-03-01 | LP25 din 03.03.2023 | de verificat |
 | L-171-2012 | 38 | abrogare | 2027-06-01 | LP162 din 30.07.26 | inca in vigoare |
 | L-171-2012 | 141^1 | abrogare | 2027-06-01 | LP162 din 30.07.26 | inca in vigoare |
 | L-1134-1997 | 73^3 | introducere | 2028-01-01 | LP92 din 28.05.26 | dispozitia nu se aplica |
 | L-1134-1997 | 73^4 | introducere | 2028-01-01 | LP92 din 28.05.26 | dispozitia nu se aplica |
+| L-278-2007 | 17 | nespecificat | 2029-01-01 | LP125 din 29.05.25 | de verificat |
+| L-278-2007 | 12 | nespecificat | 2029-03-21 | LP25 din 03.03.2023 | de verificat |
 
 ## Acte cu consolidare datata in viitor
 
@@ -357,6 +360,8 @@ Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar
   - [Art.76 al.(1) modificat prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
 - **L-845-1992 art. 36^1 pct.4, lit.l)**, `raw/papers/moldova-legal/L-845-1992.md`, liniile [60, 597]
   - [Art.36^1 pct.4, lit.l) introdusă prin LP171 din 30.07.26, MO386-389/21.08.26 art.412; în vigoare 01.01.27]
+- **L-278-2007 art. 26**, `raw/papers/moldova-legal/L-278-2007.md`, liniile [528]
+  - rea în aplicare a sistemului de trasabilitate.* *NOTĂ: Art. 26 (anterior renumerotării 20^2) introdus prin LP25 din 03.03.2023, MO92/21.03.23 art. 136 va intra în vigoare la 01.03.2027 ## Articolul 27. Publicitatea, promova
 - **L-171-2012 art. 38**, `raw/papers/cnpf/L-171-2012.md`, liniile [72, 964]
   - [Art.38 abrogat prin LP162 din 30.07.26, MO390-393/25.08.26 art.416; în vigoare 01.06.27]
 - **L-171-2012 art. 141^1**, `raw/papers/cnpf/L-171-2012.md`, liniile [73, 2495]
@@ -365,3 +370,7 @@ Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar
   - [Art. 73^3 introdus prin LP92 din 28.05.26, MO238-241/11.06.26 art.242; în vigoare 01.01.28]
 - **L-1134-1997 art. 73^4**, `raw/papers/cnpf/L-1134-1997.md`, liniile [65, 73, 1473]
   - [Art. 73^4 introdus prin LP92 din 28.05.26, MO238-241/11.06.26 art.242; în vigoare 01.01.28]
+- **L-278-2007 art. 17**, `raw/papers/moldova-legal/L-278-2007.md`, liniile [392, 402]
+  - o lățime minimă de 20 mm;* *NOTĂ: Art. 17 al.(3) lit. b), (anterior renumerotării art. 16) în redacția LP125 din 29.05.25, MO329-332/24.06.25 art. 380 va intra în vigoare la 01.01.29 c) să fie imprimate cu caractere aldine
+- **L-278-2007 art. 12**, `raw/papers/moldova-legal/L-278-2007.md`, liniile [320]
+  - ii sau a încălzirii produselor respective.* *NOTĂ: Art. 12 (anterior renumerotării art. 11) modificat prin LP25 din 03.03.2023, MO92/21.03.23 art. 136 va intra în vigoare la 21.03.2029 ## Articolul 13. Nivelurile emisiilor

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-25T13:55:43",
+  "generated": "2026-09-25T14:48:13",
   "as_of": "2026-09-25",
-  "files_scanned": 536,
+  "files_scanned": 590,
   "provisions_not_yet_in_force": [
     {
       "file": "raw/papers/moldova-legal/COD-122-2003.md",
@@ -1179,6 +1179,22 @@
       "occurrences": 2
     },
     {
+      "file": "raw/papers/moldova-legal/L-278-2007.md",
+      "instrument": "L-278-2007",
+      "article": "26",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-03-01",
+      "operation": "nespecificat",
+      "amending_act": "LP25 din 03.03.2023",
+      "official_gazette": "MO92/21.03.23",
+      "context": "rea în aplicare a sistemului de trasabilitate.* *NOTĂ: Art. 26 (anterior renumerotării 20^2) introdus prin LP25 din 03.03.2023, MO92/21.03.23 art. 136 va intra în vigoare la 01.03.2027 ## Articolul 27. Publicitatea, promova",
+      "lines": [
+        528
+      ],
+      "occurrences": 1
+    },
+    {
       "file": "raw/papers/cnpf/L-171-2012.md",
       "instrument": "L-171-2012",
       "article": "38",
@@ -1247,6 +1263,39 @@
         1473
       ],
       "occurrences": 3
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-278-2007.md",
+      "instrument": "L-278-2007",
+      "article": "17",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2029-01-01",
+      "operation": "nespecificat",
+      "amending_act": "LP125 din 29.05.25",
+      "official_gazette": "MO329-332/24.06.25",
+      "context": "o lățime minimă de 20 mm;* *NOTĂ: Art. 17 al.(3) lit. b), (anterior renumerotării art. 16) în redacția LP125 din 29.05.25, MO329-332/24.06.25 art. 380 va intra în vigoare la 01.01.29 c) să fie imprimate cu caractere aldine",
+      "lines": [
+        392,
+        402
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-278-2007.md",
+      "instrument": "L-278-2007",
+      "article": "12",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2029-03-21",
+      "operation": "nespecificat",
+      "amending_act": "LP25 din 03.03.2023",
+      "official_gazette": "MO92/21.03.23",
+      "context": "ii sau a încălzirii produselor respective.* *NOTĂ: Art. 12 (anterior renumerotării art. 11) modificat prin LP25 din 03.03.2023, MO92/21.03.23 art. 136 va intra în vigoare la 21.03.2029 ## Articolul 13. Nivelurile emisiilor",
+      "lines": [
+        320
+      ],
+      "occurrences": 1
     }
   ],
   "acts_with_future_consolidation": [
@@ -2211,8 +2260,8 @@
     }
   ],
   "counts": {
-    "provisions": 70,
-    "acts": 13,
+    "provisions": 73,
+    "acts": 14,
     "future_consolidations": 14,
     "pending_consolidations": 23,
     "pending_provisions": 76

@@ -2345,3 +2345,9 @@
 - **Decis:** aceste trei puncte rămîn `blocked by source/master`, nu sînt marcate artificial ca rezolvate. Toate artefactele dependente au fost actualizate local fără a altera copia sigilată `05` sau a inventa anexele/porțiuni lipsă.
 - **Unde:** `raw/papers/cnpf/AA-2014.md` rămîne extras verificat; `comparisons/data-protection-gdpr-l195-audit.md` și planul de protecție a datelor păstrează limitările; `legal-career/05-knowledge-map.md` rămîne neschimbat.
 
+
+## [2026-09-25] ingest | 54 de acte țintă ale Legilor 227/2025, 317/2025 și 140/2025; corpurile necitite ale celor trei legi citite
+
+- **Aflat:** ținte nedeținute sînt 54, nu 30; textul de dinainte de LP317 al art. XLII din LP227 nu mai e pe legis.md (versiunea veche are aceeași formulare); modificările din LP140 amînate la 30.11.2027 nu sînt încă în textele deținute (verificat pe patru acte). Un singur act abrogat, Codul subsolului 3/2009. Proba mea de desfacere a titlurilor a picat la trei fișiere din cauza unei ferestre prea mici, nu din cauza ingerării.
+- **Decis:** Eugen a aprobat cele patru blob-uri cu lista în față; `COD-3-2009` păstrat, succesorul ingerat; paginile de entitate sînt mecanice și spun asta; recuperarea hotărîrilor CCR (5) rămîne de făcut.
+- **Unde:** `raw/papers/moldova-legal/` (54 de fișiere), `entities/` (54), `concepts/perimetrul-actelor-permisive.md`, `_meta/imports/moldova-legal/ingest_business_law.py`, manifest secțiunea AV, `index.md`.

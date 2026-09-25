@@ -2,7 +2,7 @@
 
 Generat 2026-09-25 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
 
-31 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 94 hotariri distincte. Articolul atins este cunoscut pentru 37 marcaje inca prezente in text si 118 dispozitii recuperate din istoricul versiunilor; **0 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
+35 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 98 hotariri distincte. Articolul atins este cunoscut pentru 37 marcaje inca prezente in text si 118 dispozitii recuperate din istoricul versiunilor; **5 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
 
 Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiunea hotaririi si a intinderii anularii. Un act din tabelul „fara articol atribuit” se citeaza cu avertismentul ca poarta hotariri ale Curtii neverificate la nivel de articol.
 
@@ -34,12 +34,16 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-213-2023` | 152741 | 2026-01-23 | 1 | 1 | 0 |
 | `L-24-2008` | 110184 | 2018-11-08 | 1 | 1 | 0 |
 | `L-270-2018` | 155894 | 2026-09-13 | 3 | 3 | 0 |
+| `L-283-2003` | 151359 | 2025-12-30 | 1 | 0 | 1 |
+| `L-303-2013` | 151413 | 2025-12-30 | 2 | 0 | 2 |
 | `L-325-2013` | 142068 | 2024-03-29 | 2 | 2 | 0 |
+| `L-382-2001` | 149501 | 2026-01-01 | 1 | 0 | 1 |
 | `L-514-1995` | 156079 | 2026-08-28 | 4 | 4 | 0 |
 | `L-52-2014` | 147958 | 2025-03-27 | 1 | 1 | 0 |
 | `L-64-2010` | 141515 | 2024-01-23 | 1 | 1 | 0 |
 | `L-797-1996` | 136244 | 2023-03-24 | 4 | 4 | 0 |
 | `L-845-1992` | 155963 | 2027-01-01 | 3 | 3 | 0 |
+| `L-93-1998` | 151182 | 2026-03-18 | 1 | 0 | 1 |
 | `L-548-1995` | 154046 | 2026-04-23 | 2 | 2 | 0 |
 
 ## Dispozitii cu articol cunoscut
@@ -208,4 +212,9 @@ Marcajul s-a pierdut la o reimprospatare anterioara a consolidarii. Articolul se
 
 | act | hotarire | rindul din fisa |
 |---|---|---|
+| `L-283-2003` | HCC11/2023-07-20 | l.71: HCC11 din 20.07.23, MO277-281/01.08.23 art.90; în vigoare 20.07.23 |
+| `L-303-2013` | HCC30/2016-11-01 | l.81: HCC30 din 01.11.16, MO478-490/30.12.16 art.111; în vigoare 01.11.16 |
+| `L-303-2013` | HCC28/2016-10-11 | l.82: HCC28 din 11.10.16, MO459-471/23.12.16 art.109; în vigoare 11.10.16 | |
+| `L-382-2001` | HCC28/2002-05-30 | l.59: HCC28 din 30.05.02, MO75/13.06.02 art.19 | |
+| `L-93-1998` | HCC7/1999-02-11 | l.84: HCC7 din 11.02.99, MO19/25.02.99 | |
 
