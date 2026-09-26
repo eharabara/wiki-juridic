@@ -1622,16 +1622,64 @@
       "summary": "Dispozitivul HCC8/2024 declara neconstitutional art. II LP52/2023; acel articol declara desuetudinea textului indicat din art. 13 alin. (1) al Constitutiei."
     },
     {
-      "instrument": "L-121-2007", "hcc": "HCC14/2024-06-20", "article": "13 și Anexa", "subunit": "al.(4^1), al.(4^2) și pct. 26^1", "scope": "subunitate", "quoted_text": null, "official_gazette": "MO287-290/04.07.24 art.102", "read_doc_id": "152778", "read_consolidation": "2024-06-20", "decision_doc_id": "ccdoc:856", "verified": "2026-09-24", "status_today": "art. 13 alin. (4^1) si (4^2) sunt abrogate prin LP328/2025, in vigoare din 23.01.2026; continutul actual al anexei trebuie citit direct", "summary": "Dispozitivul HCC14/2024 identifica art. 13 alin. (4^1)-(4^2) si pct. 26^1 din anexa."
+      "instrument": "L-121-2007",
+      "hcc": "HCC14/2024-06-20",
+      "article": "13 și Anexa",
+      "subunit": "al.(4^1), al.(4^2) și pct. 26^1",
+      "scope": "subunitate",
+      "quoted_text": null,
+      "official_gazette": "MO287-290/04.07.24 art.102",
+      "read_doc_id": "152778",
+      "read_consolidation": "2024-06-20",
+      "decision_doc_id": "ccdoc:856",
+      "verified": "2026-09-24",
+      "status_today": "art. 13 alin. (4^1) si (4^2) sunt abrogate prin LP328/2025, in vigoare din 23.01.2026; continutul actual al anexei trebuie citit direct",
+      "summary": "Dispozitivul HCC14/2024 identifica art. 13 alin. (4^1)-(4^2) si pct. 26^1 din anexa."
     },
     {
-      "instrument": "L-270-2018", "hcc": "HCC6/2020-03-10", "article": "27", "subunit": "al.(5), textul privind excluderea personalului cu raport suspendat", "scope": "text din articol", "quoted_text": "pentru personalul efectiv încadrat în unitățile bugetare la data intrării în vigoare a prezentei legi", "official_gazette": "MO102/10.04.20 art.52", "read_doc_id": "155894", "read_consolidation": "2020-03-10", "decision_doc_id": "ccdoc:725", "verified": "2026-09-24", "status_today": "alin. (5) are o redactare ulterioara si a fost declarat integral neconstitutional prin HCC16/2021; se citeste forma curenta si ambele inregistrari HCC", "summary": "Dispozitivul HCC6/2020 identifica textul neconstitutional din art. 27 alin. (5)."
+      "instrument": "L-270-2018",
+      "hcc": "HCC6/2020-03-10",
+      "article": "27",
+      "subunit": "al.(5), textul privind excluderea personalului cu raport suspendat",
+      "scope": "text din articol",
+      "quoted_text": "pentru personalul efectiv încadrat în unitățile bugetare la data intrării în vigoare a prezentei legi",
+      "official_gazette": "MO102/10.04.20 art.52",
+      "read_doc_id": "155894",
+      "read_consolidation": "2020-03-10",
+      "decision_doc_id": "ccdoc:725",
+      "verified": "2026-09-24",
+      "status_today": "alin. (5) are o redactare ulterioara si a fost declarat integral neconstitutional prin HCC16/2021; se citeste forma curenta si ambele inregistrari HCC",
+      "summary": "Dispozitivul HCC6/2020 identifica textul neconstitutional din art. 27 alin. (5)."
     },
     {
-      "instrument": "L-270-2018", "hcc": "HCC17/2023-10-10", "article": "Anexa nr. 3", "subunit": "Tabelul 2: posturile enumerate pentru Secretariatul CSM/CSJ, Secretariatul Curtii Constitutionale, curtile de apel si judecatorii", "scope": "text din anexa", "quoted_text": "Asistent judiciar; Consultant principal; Consultant superior; Secretar General; Șef adjunct al Secretariatului; Șef de direcție; Șef al secretariatului; Șef al secției; Șef al secției în cadrul direcției; Șef al serviciului; Contabil-șef; Specialist principal; Specialist superior; Specialist", "official_gazette": "MO399-400/25.10.23 art.157", "read_doc_id": "155894", "read_consolidation": "2023-10-10", "decision_doc_id": "ccdoc:835", "verified": "2026-09-24", "status_today": "anexa nr. 3 este pastrata separat de legis.md; marcajul din textul curent enumera exact posturile afectate si trebuie citit impreuna cu tabelul actual", "summary": "Marcajul publisherului si dispozitivul HCC17/2023 identifica clasele si coeficientii din Tabelul 2 pentru posturile enumerate din secretariatele CSM/CSJ si Curtii Constitutionale, curtile de apel si judecatorii."
+      "instrument": "L-270-2018",
+      "hcc": "HCC17/2023-10-10",
+      "article": "Anexa nr. 3",
+      "subunit": "Tabelul 2: posturile enumerate pentru Secretariatul CSM/CSJ, Secretariatul Curtii Constitutionale, curtile de apel si judecatorii",
+      "scope": "text din anexa",
+      "quoted_text": "Asistent judiciar; Consultant principal; Consultant superior; Secretar General; Șef adjunct al Secretariatului; Șef de direcție; Șef al secretariatului; Șef al secției; Șef al secției în cadrul direcției; Șef al serviciului; Contabil-șef; Specialist principal; Specialist superior; Specialist",
+      "official_gazette": "MO399-400/25.10.23 art.157",
+      "read_doc_id": "155894",
+      "read_consolidation": "2023-10-10",
+      "decision_doc_id": "ccdoc:835",
+      "verified": "2026-09-24",
+      "status_today": "anexa nr. 3 este pastrata separat de legis.md; marcajul din textul curent enumera exact posturile afectate si trebuie citit impreuna cu tabelul actual",
+      "summary": "Marcajul publisherului si dispozitivul HCC17/2023 identifica clasele si coeficientii din Tabelul 2 pentru posturile enumerate din secretariatele CSM/CSJ si Curtii Constitutionale, curtile de apel si judecatorii."
     },
     {
-      "instrument": "L-52-2014", "hcc": "HCC27/2014-11-13", "article": "21", "subunit": "al.(5) lit.e)", "scope": "subunitate", "quoted_text": null, "official_gazette": "MO352-357/28.11.14 art.43", "read_doc_id": "147958", "read_consolidation": "2014-11-13", "decision_doc_id": "ccdoc:518", "verified": "2026-09-24", "status_today": "lit. e) nu mai apare in enumerarea curenta a art. 21 alin. (5)", "summary": "Dispozitivul HCC27/2014 declara neconstitutional art. 21 alin. (5) lit. e) din Legea Avocatului Poporului."
+      "instrument": "L-52-2014",
+      "hcc": "HCC27/2014-11-13",
+      "article": "21",
+      "subunit": "al.(5) lit.e)",
+      "scope": "subunitate",
+      "quoted_text": null,
+      "official_gazette": "MO352-357/28.11.14 art.43",
+      "read_doc_id": "147958",
+      "read_consolidation": "2014-11-13",
+      "decision_doc_id": "ccdoc:518",
+      "verified": "2026-09-24",
+      "status_today": "lit. e) nu mai apare in enumerarea curenta a art. 21 alin. (5)",
+      "summary": "Dispozitivul HCC27/2014 declara neconstitutional art. 21 alin. (5) lit. e) din Legea Avocatului Poporului."
     },
     {
       "instrument": "L-100-2001",
@@ -1842,6 +1890,21 @@
       "verified": "2026-09-25",
       "status_today": "art. 19 astazi are doar doua liniute (propuneri in 3 luni; nomenclatorul-tip); subalineatul lovit ('in termen de o luna, va stabili taxa pentru patenta ...') nu mai apare",
       "summary": "Marcaj la sfirsitul art. 19 in versiunea 86853, dupa liniuta 'in termen de o luna, va stabili taxa pentru patenta prevazuta pentru genurile de activitate indicate in anexa'. Vezi art. 14. Hotarirea Guvernului nr. 947/1998, lovita in acelasi dispozitiv, nu e in vault."
+    },
+    {
+      "instrument": "COD-1316-2000",
+      "hcc": "HCC23/2024-10-15",
+      "article": "108",
+      "subunit": null,
+      "scope": "omisiune legislativa",
+      "quoted_text": "omisiunea legislativă de a reglementa un mecanism de indexare a pensiei de întreținere a copilului minor stabilită în sumă fixă",
+      "official_gazette": "MO447-450/29.10.24 art.157",
+      "read_doc_id": "145543",
+      "read_consolidation": "2024-10-15",
+      "decision_doc_id": null,
+      "verified": "2026-09-26",
+      "status_today": "art. 108 alin. (2)-(3) din textul deținut (consolidare 2026-08-06) conțin astăzi mecanismul de ajustare anuală a pensiei de întreținere stabilite în sumă fixă, deci omisiunea pare acoperită; legea modificatoare nu a fost identificată (fără marcaj de amendament în textul deținut) [de verificat]",
+      "summary": "Marcajul s-a pierdut din consolidările următoare; recuperat din versiunea 145543 (15-10-2024), unde stă la art. 108: „[Art.108 omisiunea legislativă de a reglementa un mecanism de indexare a pensiei de întreținere a copilului minor stabilită în sumă fixă declarată necostituțională prin HCC23 din 15.10.24, MO447-450/29.10.24 art.157; în vigoare 15.10.24]”. Decizia însăși nu a fost citită (doc_id necăutat)."
     }
   ]
 }

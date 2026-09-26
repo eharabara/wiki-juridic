@@ -1,7 +1,7 @@
 ---
 title: Matricea Protocolului 108+ față de GDPR și L-195/2024
 created: '2026-09-24'
-updated: '2026-09-24'
+updated: '2026-09-26'
 type: comparison
 perimeter: legal
 tags:
@@ -19,6 +19,7 @@ sources:
 - raw/papers/moldova-legal/L-195-2024.md
 - raw/papers/moldova-legal/UE-2016-679.md
 - raw/papers/moldova-legal/L-100-2017.md
+- raw/papers/moldova-legal/HG-497-2026.md
 - raw/papers/moldova-legal/HG-1171-2018.md
 confidence: medium
 ---
@@ -106,11 +107,11 @@ tratat, organizație sau procedură finală care nu are echivalent unu-la-unu.
 
 1. **GDPR → L-195/2024:** intervenție de transpunere/armonizare directă înainte de aderare. L-195 declară
    expres că transpune Regulamentul (UE) 2016/679. Pentru un proiect nou sau o revizuire normativă sînt
-   aplicabile instrumentele HG1171: clauză de armonizare, siglă UE, tabel de concordanță, notă de
+   aplicabile instrumentele HG 497/2026 (în vigoare din 22.09.2026; pînă atunci HG1171): clauză de armonizare, siglă UE, tabel de concordanță, notă de
    fundamentare și expertiză de compatibilitate. `[raw/papers/moldova-legal/L-100-2017.md art.30-31,35,40]`
 2. **Protocolul 108+ → dreptul Republicii Moldova:** compatibilitate cu un tratat al Consiliului Europei,
-   ratificat prin L-36/2026, nu transpunere a unui act UE. Clauza UE, sigla UE și tabelul HG1171 nu se
-   aplică Protocolului ca atare. `[raw/papers/moldova-legal/HG-1171-2018.md pct.2,9,13-15]`
+   ratificat prin L-36/2026, nu transpunere a unui act UE. Clauza UE, sigla UE și tabelul HG 497/2026 nu se
+   aplică Protocolului ca atare (regulamentul privește proiectele cu relevanță UE și actele UE enumerate la pct. 15; un tratat al Consiliului Europei nu este între ele). `[raw/papers/moldova-legal/HG-497-2026.md pct.2, 15, 20.4]`
 
 ### Grad preliminar pe clustere GDPR/L-195
 

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-25 | Total pages: 274
+> Last updated: 2026-09-26 | Total pages: 275
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -38,7 +38,8 @@
 - [[HCNPF-14-5-2016]] — Regulamentul CNPF privind circulația valorilor mobiliare pe piața de capital (Hotărârea CNPF nr. 14/5/2016): pct. 27, la moștenire se prezintă certificatul de moștenitor eliberat de notar; pct. 18, dispoziția de transmitere; pct. 20, acțiunile băncii și Regulamentul BNM 130/2013; pct. 45, moștenirea se înregistrează la valoarea nominală; structură pe puncte, fără ancore; consolidare 2022-05-06, curentă.
 - [[HCNPF-38-5-2015]] — Instrucțiunea CNPF privind sistemul de raportare în domeniul pieței de capital (Hotărârea CNPF nr. 38/5/2015, redenumită): F7 este raportul zilnic al tranzacțiilor în afara pieței, iar nomenclatorul tipurilor de tranzacții stă în anexa nr. 1, absentă din textul legis.md; structură pe puncte, fără ancore; consolidare 2025-10-01, curentă.
 - [[HG-1170-2016]] — Hotărârea Guvernului nr. 1170/2016 privind transmiterea, schimbarea destinației și schimbul de terenuri; **abrogată integral de la 07.03.2025** prin pct. 3 din HG 553/2024, verificat pe text
-- [[HG-1171-2018]] — Regulamentul privind armonizarea legislației Republicii Moldova cu legislația UE
+- [[HG-1171-2018]] — Regulamentul privind armonizarea legislației Republicii Moldova cu legislația UE; **abrogat de la 22.09.2026** prin HG 497/2026, aplicabil proiectelor începute înainte, cel tîrziu pînă la 1 martie 2027
+- [[HG-497-2026]] — Regulamentul privind armonizarea legislației Republicii Moldova cu legislația UE (HG nr. 497/2026, în vigoare din 22.09.2026): trei metode (transpunere, punere în aplicare, aliniere), interzicerea suprareglementării, raport de expertiză în loc de declarație; concordanța punctelor cu HG 1171/2018
 - [[HG-553-2024]] — Regulamentul schimbării destinației terenurilor agricole de calitate superioară și ale fondului forestier și apelor (HG 553/2024, în vigoare 07.03.2025, temei Codul funciar 22/2024): pct. 3 din hotărâre abrogă integral HG 1170/2016, fără tranzitorii; transmiterea și schimbul de terenuri rămân fără regulament; structură pe puncte, fără ancore.
 - [[HG-574-2024]] — Metodologia de analiză a impactului de reglementare (HG nr. 574/2024); abrogă HG 23/2019, actul încă citat de practică.
 - [[HG-582-2022]] — Regulamentul de demolare a construcțiilor neautorizate; împlinește art. 322 alin. (4) din Codul urbanismului, deși e adoptată pe temeiul art. 439^6 alin. (5) din Codul contravențional.
@@ -234,7 +235,7 @@
 
 ### Concepts
 
-- [[consolidari-viitoare-ingerate]] — cele 46 de versiuni cu dată viitoare ale actelor deținute, ingerate separat în `viitor/`; nu se citează ca drept în vigoare.
+- [[consolidari-viitoare-ingerate]] — cele 82 de versiuni cu dată viitoare ale actelor deținute, ingerate separat în `viitor/`; nu se citează ca drept în vigoare.
 
 - [[perimetrul-actelor-permisive]] — cele 54 de acte țintă ale Legilor 227/2025, 317/2025 și 140/2025, ingerate; semnalări (un act abrogat, hotărîri CCR neatribuite, consolidări viitoare).
 

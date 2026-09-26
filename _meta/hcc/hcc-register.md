@@ -1,8 +1,8 @@
 # Registrul dispozitiilor declarate neconstitutionale
 
-Generat 2026-09-25 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
+Generat 2026-09-26 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
 
-35 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 98 hotariri distincte. Articolul atins este cunoscut pentru 37 marcaje inca prezente in text si 126 dispozitii recuperate din istoricul versiunilor; **0 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
+37 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 100 hotariri distincte. Articolul atins este cunoscut pentru 39 marcaje inca prezente in text si 127 dispozitii recuperate din istoricul versiunilor; **0 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
 
 Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiunea hotaririi si a intinderii anularii. Un act din tabelul „fara articol atribuit” se citeaza cu avertismentul ca poarta hotariri ale Curtii neverificate la nivel de articol.
 
@@ -12,26 +12,28 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 |---|---|---|---:|---:|---:|
 | `COD-116-2018` | 150447 | 2025-08-31 | 2 | 2 | 0 |
 | `COD-1163-1997` | 138613 | 2026-07-01 | 10 | 10 | 0 |
-| `COD-122-2003` | 156138 | 2026-12-02 | 17 | 17 | 0 |
-| `COD-154-2003` | 155882 | 2027-01-01 | 3 | 3 | 0 |
+| `COD-122-2003` | 156018 | 2026-08-28 | 17 | 17 | 0 |
+| `COD-1316-2000` | 155707 | 2026-08-06 | 1 | 1 | 0 |
+| `COD-154-2003` | 155185 | 2026-06-30 | 3 | 3 | 0 |
 | `COD-174-2018` | 150538 | 2026-06-24 | 2 | 2 | 0 |
 | `COD-218-2008` | 155852 | 2026-09-13 | 6 | 6 | 0 |
 | `COD-225-2003` | 155718 | 2026-08-06 | 9 | 9 | 0 |
 | `COD-325-2022` | 153001 | 2026-08-26 | 4 | 4 | 0 |
-| `COD-443-2004` | 156146 | 2026-12-02 | 6 | 6 | 0 |
-| `COD-985-2002` | 156133 | 2026-12-02 | 8 | 8 | 0 |
+| `COD-443-2004` | 155721 | 2026-08-06 | 6 | 6 | 0 |
+| `COD-985-2002` | 151140 | 2026-08-28 | 8 | 8 | 0 |
 | `CONST-1994` | 145723 | 2024-11-05 | 2 | 2 | 0 |
 | `L-100-2001` | 151282 | 2025-10-21 | 1 | 1 | 0 |
 | `L-121-2007` | 152778 | 2026-01-23 | 1 | 1 | 0 |
 | `L-1260-2002` | 146148 | 2025-01-07 | 1 | 1 | 0 |
-| `L-132-2016` | 155890 | 2027-01-01 | 2 | 2 | 0 |
-| `L-133-2016` | 155891 | 2027-01-01 | 1 | 1 | 0 |
+| `L-132-2016` | 147882 | 2026-04-01 | 2 | 2 | 0 |
+| `L-133-2016` | 152995 | 2026-09-13 | 1 | 1 | 0 |
 | `L-135-2007` | 153674 | 2026-03-27 | 1 | 1 | 0 |
 | `L-136-2017` | 143456 | 2024-06-06 | 1 | 1 | 0 |
 | `L-149-2012` | 152605 | 2025-12-31 | 2 | 2 | 0 |
 | `L-158-2008` | 155439 | 2026-09-13 | 1 | 1 | 0 |
-| `L-181-2014` | 153046 | 2027-01-01 | 2 | 2 | 0 |
+| `L-181-2014` | 153027 | 2025-12-31 | 2 | 2 | 0 |
 | `L-213-2023` | 152741 | 2026-01-23 | 1 | 1 | 0 |
+| `L-230-2022` | 149374 | 2025-06-10 | 1 | 1 | 0 |
 | `L-24-2008` | 110184 | 2018-11-08 | 1 | 1 | 0 |
 | `L-270-2018` | 155894 | 2026-09-13 | 3 | 3 | 0 |
 | `L-283-2003` | 151359 | 2025-12-30 | 1 | 1 | 0 |
@@ -42,7 +44,7 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-52-2014` | 147958 | 2025-03-27 | 1 | 1 | 0 |
 | `L-64-2010` | 141515 | 2024-01-23 | 1 | 1 | 0 |
 | `L-797-1996` | 136244 | 2023-03-24 | 4 | 4 | 0 |
-| `L-845-1992` | 155963 | 2027-01-01 | 3 | 3 | 0 |
+| `L-845-1992` | 152587 | 2025-12-31 | 3 | 3 | 0 |
 | `L-93-1998` | 151182 | 2026-03-18 | 1 | 1 | 0 |
 | `L-548-1995` | 154046 | 2026-04-23 | 2 | 2 | 0 |
 
@@ -69,9 +71,9 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `COD-1163-1997` | 226^16 | alin. (1^1) | text din articol („prin derogare de la art. 131 alin. (5); în scopul examinării cazurilor de evaziune fiscală…”) | HCC22/2020-08-06 | MO221-225/28.08.20 art.121 | versiunea 122989 @ 2020-08-06, verificat 2026-09-08 |
 | `COD-1163-1997` | 6 | alin. (11) | subunitate | HCC5/2024-03-05 | MO141-143/09.04.24 art.50 | versiunea 142465 @ 2024-03-05, verificat 2026-09-08 |
 | `COD-1163-1997` | 264 | alin. (1) si (2) | text din articol („cu excepţia cazurilor prevăzute la alin. (2)”) | HCC10/2024-04-04 | MO177-180/18.04.24 art.57 | versiunea 142855 @ 2024-04-04, verificat 2026-09-08 |
-| `COD-122-2003` | 178 |  | omisiune legislativa | HCC19/2018-07-03 | MO267-275/20.07.18 art. 118 | marcaj in text, l.2921 |
-| `COD-122-2003` | 185 | al.(1) | subunitate | HCC27/2018-10-30 | MO430-439/23.11.18 art. 164 | marcaj in text, l.2996 |
-| `COD-122-2003` | 191 |  | omisiune legislativa | HCC17/2016-05-19 | MO232-244/29.07.16 art. 62 | marcaj in text, l.3093 |
+| `COD-122-2003` | 178 |  | omisiune legislativa | HCC19/2018-07-03 | MO267-275/20.07.18 art. 118 | marcaj in text, l.2868 |
+| `COD-122-2003` | 185 | al.(1) | subunitate | HCC27/2018-10-30 | MO430-439/23.11.18 art. 164 | marcaj in text, l.2941 |
+| `COD-122-2003` | 191 |  | omisiune legislativa | HCC17/2016-05-19 | MO232-244/29.07.16 art. 62 | marcaj in text, l.3035 |
 | `COD-122-2003` | 421 |  | text din articol („prin intermediul avocatului; În cazul în care recursul prevăzut în prezentul articol este …”) | HCC16/2005-07-19 | MO101-103/29.07.05 art.12 | versiunea 17232 @ 2005-07-19, verificat 2026-09-08 |
 | `COD-122-2003` | 433 | alin. (1) | subunitate | HCC16/2005-07-19 | MO101-103/29.07.05 art.12 | versiunea 17232 @ 2005-07-19, verificat 2026-09-08 |
 | `COD-122-2003` | 452 | alin. (1) | text din articol („prin intermediul avocatului”) | HCC16/2005-07-19 | MO101-103/29.07.05 art.12 | versiunea 17232 @ 2005-07-19, verificat 2026-09-08 |
@@ -95,7 +97,8 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `COD-122-2003` | 276^1 | alin. (7) | in parte | HCC29/2021-09-21 | MO256-260/22.10.21 art.184 | versiunea 126190 @ 2021-09-23, verificat 2026-09-08 |
 | `COD-122-2003` | 132^9 | alin. (15) | text din articol („şi decide care din comunicările înregistrate urmează a fi nimicite, desemnând persoanele r…”) | HCC31/2021-09-23 | MO264-265/29.10.21 art.187 | versiunea 126190 @ 2021-09-23, verificat 2026-09-08 |
 | `COD-122-2003` | 321 | alin. (2) pct. 3) | text din articol („examinării unor cauze privitor la săvârșirea unor infracțiuni ușoare”) | HCC3/2023-01-24 | MO31-34/03.02.23 art.14 | versiunea 135679 @ 2023-01-24, verificat 2026-09-08 |
-| `COD-154-2003` | 90 | al.(2), lit. a) | text din articol („într-o mărime care nu va depăşi 12 salarii medii lunare ale salariatului”) | HCC9/2025-07-22 | MO430-433/14.08.25 art.105 | marcaj in text, l.1308 |
+| `COD-1316-2000` | 108 |  | omisiune legislativa („omisiunea legislativă de a reglementa un mecanism de indexare a pensiei de întreținere a c…”) | HCC23/2024-10-15 | MO447-450/29.10.24 art.157 | versiunea 145543 @ 2024-10-15, verificat 2026-09-26 |
+| `COD-154-2003` | 90 | al.(2), lit. a) | text din articol („într-o mărime care nu va depăşi 12 salarii medii lunare ale salariatului”) | HCC9/2025-07-22 | MO430-433/14.08.25 art.105 | marcaj in text, l.1306 |
 | `COD-154-2003` | 87 | al.(2) | subunitate | HCC3/2020-02-04 | MO63-68/28.02.20 art.37 | versiunea 120714 @ 2020-02-04, verificat 2026-09-15 |
 | `COD-154-2003` | 87 | al.(1) | subunitate | HCC34/2017-12-08 | MO33-39/02.02.18 art.6 | versiunea 100133 @ 2017-12-08, verificat 2026-09-15 |
 | `COD-154-2003` | 87 | al.(3) | subunitate | HCC3/2020-02-04 | MO63-68/28.02.20 art.37 | versiunea 120714 @ 2020-02-04, verificat 2026-09-15 |
@@ -169,7 +172,7 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-1260-2002` | 43 | al.(4) | text din articol („în partea ce ţine de procedura de organizare a examenelor. Calificativul acordat nu poate …”) | HCC18/2018-07-03 | MO277-284/27.07.18 art.124 | versiunea 108240 @ 2018-07-03, verificat 2026-09-15 |
 | `L-132-2016` | 11 | al.(12), textul „și care a susținut proba detectorului comportamentului simulat (poligraf)” | text din articol („și care a susținut proba detectorului comportamentului simulat (poligraf)”) | HCC6/2018-04-10 | MO157-166/18.05.18 art.76 | versiunea 155890 @ 2018-04-10, verificat 2026-09-24 |
 | `L-132-2016` | 26, 32 al.(1), 36 al.(1), 39, 40, 41 și 41^1 | modificarile din art. I al LP244/2020 | act modificator declarat neconstitutional integral | HCC29/2021-09-21 | MO256-260/22.10.21 art.184 | versiunea 155890 @ 2021-09-21, verificat 2026-09-24 |
-| `L-133-2016` | 23 | al.(5^1) | subunitate | HCC29/2021-09-21 | MO256-260/22.10.21 art.184 | marcaj in text, l.384 |
+| `L-133-2016` | 23 | al.(5^1) | subunitate | HCC29/2021-09-21 | MO256-260/22.10.21 art.184 | marcaj in text, l.366 |
 | `L-135-2007` | 30 | al.(2) [numerotarea de la data hotaririi] | subunitate („Pentru înregistrarea în Registrul de stat al persoanelor juridice a modificărilor operate …”) | HCC27/2016-09-27 | MO423-429/09.12.16 art.102 | versiunea 96610 @ 2016-09-27, verificat 2026-09-15 |
 | `L-136-2017` | 23 | al.(6) | in parte | HCC7/2021-03-04 | MO82-85/26.03.21 art.42 | marcaj in text, l.354 |
 | `L-149-2012` | 32 |  | omisiune legislativa („mecanism pentru recuperarea cheltuielilor efectuate în avans şi pentru încasarea remuneraț…”) | HCC8/2022-04-05 | MO106-114/15.04.22 art.57 | versiunea 130929 @ 2022-04-05, verificat 2026-09-15 |
@@ -178,6 +181,8 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-181-2014` | 68 | al.(1) și (2), sintagmele „doar după rămânerea irevocabilă a hotărârii judecătoreşti” și „în baza unei hotărâri judecătoreşti irevocabile” | text din articol („doar după rămânerea irevocabilă a hotărârii judecătoreşti; în baza unei hotărâri judecător…”) | HCC32/2016-11-17 | MO40-49/10.02.17 art.9 | versiunea 153046 @ 2016-11-17, verificat 2026-09-24 |
 | `L-181-2014` | 80 | al.(2) | subunitate | HCC10/2017-03-16 | MO119-126/14.04.17 art.48 | versiunea 153046 @ 2017-03-16, verificat 2026-09-24 |
 | `L-213-2023` | 2 | al.(2), teza intai: textul „Taxa de timbru nu este susceptibilă de scutire, amânare sau eșalonare, cu excepțiile prevăzute de prezenta lege.” | text din articol („Taxa de timbru nu este susceptibilă de scutire, amânare sau eșalonare, cu excepțiile prevă…”) | HCC20/2024-09-26 | MO423-426/10.10.24 art.155 | versiunea 152741 @ 2024-09-26, verificat 2026-09-24 |
+| `L-230-2022` | 71 | al.(4) | omisiune legislativa | HCC7/2025-06-10 | MO346-349/04.07.25 art.77 | marcaj in text, l.971 |
+| `L-230-2022` | ? |  | omisiune legislativa | HCC7/2025-06-10 | MO346-349/04.07.25 art.77 | marcaj in text, l.1771 |
 | `L-24-2008` | 6 | al.(2), modificarea din art. XIII pct. 1 LP163/2011 | revigorare („curtea de apel competentă”) | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | versiunea 110184 @ 2012-02-09, verificat 2026-09-24 |
 | `L-24-2008` | 16 | al.(3), modificarea din art. XIII pct. 2 LP163/2011 | revigorare („curţii de apel competente”) | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | versiunea 110184 @ 2012-02-09, verificat 2026-09-24 |
 | `L-270-2018` | 27 | al.(5) | subunitate | HCC16/2021-05-20 | MO137-141/04.06.21 art.83 | marcaj in text, l.479 |

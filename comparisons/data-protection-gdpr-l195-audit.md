@@ -1,7 +1,7 @@
 ---
 title: Audit GDPR — L-195/2024, compatibilitate și dosar HG1171
 created: '2026-09-25'
-updated: '2026-09-25'
+updated: '2026-09-26'
 type: comparison
 perimeter: legal
 tags:
@@ -18,6 +18,7 @@ sources:
 - raw/papers/moldova-legal/UE-2016-679.md
 - raw/papers/moldova-legal/L-195-2024.md
 - raw/papers/moldova-legal/L-100-2017.md
+- raw/papers/moldova-legal/HG-497-2026.md
 - raw/papers/moldova-legal/HG-1171-2018.md
 - raw/papers/moldova-legal/OCNPDCP-27-2022.md
 - raw/papers/moldova-legal/OCNPDCP-39-2026.md
@@ -45,10 +46,10 @@ verificate, adaptări instituționale și gapuri de implementare/dosar.
 - **GDPR → L-195:** transpunere/armonizare directă înainte de aderare; L-195 declară expres transpunerea
   Regulamentului (UE) 2016/679 `[UE-2016-679:1–15; L-195:58–70]`.
 - **Protocol 108+ → Moldova:** compatibilitate cu tratat al Consiliului Europei prin L-36/2026; nu se aplică
-  automat clauza UE, sigla UE sau tabelul HG1171 `[L-100-2017:89–99; HG-1171-2018:pct.2,9,13–15]`.
+  automat clauza UE, sigla UE sau tabelul HG 497/2026 (pînă la 22.09.2026, HG1171) `[L-100-2017:89–99; HG-497-2026:pct.2,15,20.4]`.
 - Pentru un proiect de revizuire, Legea 100 cere nota de fundamentare, tabelul și expertiza de compatibilitate
-  `[L-100-2017:331–356,379–393,438–447]`; HG1171 cere analiza actului UE, maparea MD, tabelul concomitent,
-  calificarea gradului, actualizarea și declarația `[HG-1171-2018:pct.13–15,24–25,28–31,37–46]`.
+  `[L-100-2017:331–356,379–393,438–447]`; HG 497/2026 cere analiza actului UE, maparea MD, tabelul concomitent,
+  calificarea gradului, actualizarea și raportul de expertiză (vechea „declarație de compatibilitate”) `[HG-497-2026:pct.20–24,33–35,61–67,71–79,86–87,91–97]`.
 
 ## I. Drepturile persoanei vizate — GDPR/L-195 art. 12–23
 
@@ -140,4 +141,4 @@ concluzie de audit al vault-ului, nu declarație oficială de compatibilitate HG
 - `[raw/papers/moldova-legal/UE-2016-679.md art.12–99]`
 - `[raw/papers/moldova-legal/L-195-2024.md art.12–90]`
 - `[raw/papers/moldova-legal/L-100-2017.md art.30–40]`
-- `[raw/papers/moldova-legal/HG-1171-2018.md pct.2,8–15,24–25,28–31,37–46,48–54]`
+- `[raw/papers/moldova-legal/HG-497-2026.md pct.2–3,14–15,20–22,33–35,66–67,71–79,86–87,91–100]` (punctele HG 1171/2018 folosite pînă la 22.09.2026: 2, 8–15, 24–25, 28–31, 37–46, 48–54; concordanța în [[HG-497-2026]])

@@ -146,6 +146,36 @@ frontmatter:
         - raw/papers/cnpf/
         - raw/papers/moldova-legal/
         - raw/papers/bnm/
+    unanchored_articles:
+      # 2026-09-26 (auditul din aceeasi zi, A1). Un act cu `source_type: legal-text` din radacinile de
+      # mai jos, la care o linie de inceput de articol (`Articolul N.`, `**Articolul N.**`, `Art.N.`)
+      # dupa prima ancora `## Articolul` nu are ancora imediat deasupra. Cauza tipica: fisier luat
+      # printr-o ruta care ocoleste `ingest_business_law.py` (web_extract, PDF). Avertisment.
+      # Liniile dinaintea primei ancore (cuprinsul) nu se numara.
+      roots:
+        - raw/papers/cnpf/
+        - raw/papers/moldova-legal/
+        - raw/papers/bnm/legal-ro/
+      line_pattern: '^(?:\*\*)?(?:Articolul|Articol|Art\.)\s*\d+(?:\^\d+)?\s*[.\-\u2013](?=\s|\*|$)'
+      # Un interval abrogat (`Art. 463 - 463^4 - abrogate.`) nu este un articol si nu poate purta o ancora.
+      range_exclude_pattern: '^Art\.\s*\d+(?:\^\d+)?\s*[-–]\s*\d+'
+      anchor_prefix_pattern: '^#{2,3} Art'
+      # Exceptii STRUCTURALE, masurate, nu relaxari: in aceste fisiere linia nu este un articol al
+      # actului. Legile modificatoare cu articole romane contin textul nou al ALTOR acte (numerotarea
+      # lor), extrasele UE nu se ancoreaza prin conventie.
+      exempt_stems:
+        - L-133-2018
+        - L-66-2017
+        - L-227-2025
+        - L-317-2025
+        - L-140-2025
+        - L-177-2025
+        - L-178-2020
+        # Regulile DCU trimit la alte articole cu `Art.N.` rupt la inceput de rind; ancorele sint sintetice.
+        - DCU-REGULI-2026
+      exempt_stem_prefixes:
+        - UE-
+        - AA-
     report_extraction:
       # Un raport declarat ca extras textual poate avea totuși numai numere, simboluri sau
       # artefacte PDF. Este avertisment, nu o invitație de a rescrie `raw`: reingerarea

@@ -77,6 +77,23 @@ article from a future-dated act, and say in the answer which version applies tod
   divergences, not alineat by alineat. EUR-Lex pages answer 202 with no body; Cellar
   (`publications.europa.eu/resource/celex/<CELEX>`, `Accept-Language: ron`) does not. Section AK of the
   moldova-legal manifest has the method and the findings.
+  Since 2026-09-25 it also holds the **permissive-acts perimeter**: 54 target acts of `L-227-2025`, `L-317-2025`
+  and `L-140-2025` (map in `concepts/perimetrul-actelor-permisive.md`, section AV of the moldova-legal manifest;
+  their 54 entity pages are mechanical, `confidence: medium`, the acts not read in full), and `viitor/`, 46 future
+  consolidations kept as separate files and never cited as law in force (`concepts/consolidari-viitoare-ingerate.md`,
+  section AX). Act-by-act data (doc_id, consolidation, route, entity page, citations received) is in the generated
+  `_meta/coverage/act-register.md`. **Three acts of that batch, `COD-1316-2000`, `L-69-2016` and `L-230-2022`, were first ingested by a route other than
+  `ingest_business_law.py`** (`extract_method: web_extract`, from the PDF export): no anchors (or, for `L-230-2022`, 66 anchored against 61
+  lines left bare), no consolidation date and a stale text. **Re-ingested 2026-09-26** from legis.md in the standard way: `COD-1316-2000`
+  doc_id 155707 (consolidation 2026-08-06, 133 anchors, the held version had been from 14.08.2020), `L-69-2016` 137679 (2026-06-23, 70 anchors),
+  `L-230-2022` 149374 (2025-06-10, 123 anchors, HCC7/2025 marker in the text); two future versions in `viitor/` (`COD-1316-2000--2026-12-09`,
+  `L-230-2022--2030-01-01`). `verify_business_law.py` passes, 77 + 13 + 59 wrapped titles unwrapped with strip-and-compare proof, backups in
+  `wiki-backups/wiki-2026-09-26-reingerare-3-acte/`. The lesson is the coverage table's: an act ingested by a side route showed as "no article
+  structure" and nothing else; the validator now warns (`raw.unanchored-article`).
+  **`HG-1171-2018`, the EU harmonisation regulation the methodology pages rested on, was repealed on 22.09.2026 by HG 497/2026** (MO466-469/22.09.26 art.527), found
+  on 2026-09-26 by comparing held consolidations with legis.md's version lists; the file is refreshed (doc_id 156468, carries the repeal notice), the successor is held as
+  `HG-497-2026` (points 1-108 read in full, annexes 1-2 not in the extract), and `concepts/moldova-eu-transposition-method.md` and `-rule-matrix.md` were rebuilt on it.
+  Projects begun before 22.09.2026 may follow the old rules until 1 March 2027 (decision, paragraph after pct. 4).
 - `raw/papers/bnm/` — the BNM legal and reports corpus, converted documents plus originals.
   `raw/papers/bnm/legal-ro/` holds, since 2026-09-05, the Romanian legis.md text of nine laws:
   the six banking laws (202/2017, 548/1995, 114/2012, 232/2016, 62/2008, 160/2023) and, from
@@ -156,10 +173,17 @@ article from a future-dated act, and say in the answer which version applies tod
   locator), the latter generalised to every root under `raw/papers/`, not just `cnpf/`. The script
   itself is deleted; its committed reports from 9 July, 4 and 5 September stay as history, findings
   in `_meta/lint/audit-2026-09-05-full.md`, section A. `validate_wiki.py` is the only lint script
-  now, and its two new checks currently surface 4 orphan pages and ~149 page-level citations
-  (up from the 22 the July script found under its narrower `cnpf/`-only scope and a smaller
-  corpus) — this is a wider net finding a pre-existing gap, not a new one; the pages themselves
-  are unfixed.
+  now. Its two ported checks surfaced 4 orphan pages and ~149 page-level citations when they were
+  ported; both are **0 since 2026-09-17** (commit 26af056: locator rule split between positive law
+  and policy documents, provenance exceptions for manifests and inventories, orphans linked). Since
+  2026-09-26 it carries a third check, **`raw.unanchored-article`** (warning): a `legal-text` act
+  whose line-initial `Articolul N.` / `**Articolul N.**` / `Art.N.` lines, counted after the first
+  anchor so a table of contents is skipped, have no `## Articol...` line directly above. Structural
+  exceptions, measured and listed in `schema-spec.yaml`: amending laws with Roman-numeral articles
+  (their text is other acts' numbering), `UE-*` and `AA-*` extracts, `DCU-REGULI-2026` (cross
+  references broken at the start of a line), and range stubs such as `Art. 463 - 463^4 - abrogate.`
+  It was written after the audit of 2026-09-26 found three acts that had bypassed the ingest
+  pipeline (`COD-1316-2000`, `L-69-2016`, `L-230-2022`, re-ingested the same day).
 - `_meta/imports/` — the ingestion and anchoring scripts.
 - `_meta/plans/` — working plans and recorded gaps.
 - `_archive/cnpf-wiki-ro-2026-07/` — the July ancestor of this wiki, kept for its original
@@ -174,9 +198,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-25 15:25 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-26 22:27 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-226 primary Moldovan acts, 51 EU acquis extracts, 1 Association Agreement extract(s), 294 BNM corpus documents.
+227 primary Moldovan acts, 51 EU acquis extracts, 1 Association Agreement extract(s), 294 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -184,22 +208,22 @@ Generated 2026-09-25 15:25 from the files themselves. Do not edit this section b
 | `CETS-223-2018` | - | 40 | 2018-10-10 | **more than 2 years old** |
 | `COD-116-2018` | 260 | 260 | 2025-08-31 | 2 superscript articles normalised; 2 provision(s) declared unconstitutional (HCC register) |
 | `COD-1163-1997` | 511 | 511 | 2026-07-01 | 158 superscript articles normalised; 10 provision(s) declared unconstitutional (HCC register) |
-| `COD-122-2003` | 658 | 658 | 2026-12-02 | **consolidation dated in the future**; 105 superscript articles normalised; 17 provision(s) declared unconstitutional (HCC register) |
-| `COD-1316-2000` | - | 0 | - | no article structure |
-| `COD-150-2014` | 201 | 201 | 2026-01-01 | 52 superscript articles normalised |
-| `COD-154-2003` | 416 | 416 | 2027-01-01 | **consolidation dated in the future**; 52 superscript articles normalised; 3 provision(s) declared unconstitutional (HCC register) |
+| `COD-122-2003` | 657 | 657 | 2026-08-28 | 104 superscript articles normalised; 17 provision(s) declared unconstitutional (HCC register) |
+| `COD-1316-2000` | 133 | 133 | 2026-08-06 | 4 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
+| `COD-150-2014` | 206 | 206 | 2026-01-01 | 54 superscript articles normalised |
+| `COD-154-2003` | 416 | 416 | 2026-06-30 | 52 superscript articles normalised; 3 provision(s) declared unconstitutional (HCC register) |
 | `COD-174-2018` | 98 | 98 | 2026-06-24 | 4 superscript articles normalised; 2 provision(s) declared unconstitutional (HCC register) |
 | `COD-218-2008` | 737 | 737 | 2026-09-13 | 254 superscript articles normalised; 6 provision(s) declared unconstitutional (HCC register) |
 | `COD-22-2024` | 96 | 96 | 2026-04-25 | 17 superscript articles normalised |
 | `COD-225-2003` | 540 | 540 | 2026-08-06 | 77 superscript articles normalised; 9 provision(s) declared unconstitutional (HCC register) |
-| `COD-246-2024` | 98 | 98 | 2026-05-29 | clean |
+| `COD-246-2024` | 99 | 99 | 2026-05-29 | clean |
 | `COD-259-2004` | 119 | 119 | 2026-01-01 | 3 superscript articles normalised |
 | `COD-3-2009` | 85 | 85 | 2026-05-30 | **ABROGAT de la 2026-05-30**; 3 superscript articles normalised |
 | `COD-325-2022` | 252 | 252 | 2026-08-26 | 7 superscript articles normalised; 4 provision(s) declared unconstitutional (HCC register) |
 | `COD-434-2023` | 390 | 390 | 2026-08-06 | clean |
-| `COD-443-2004` | 361 | 361 | 2026-12-02 | **consolidation dated in the future**; 36 superscript articles normalised; 6 provision(s) declared unconstitutional (HCC register) |
+| `COD-443-2004` | 360 | 360 | 2026-08-06 | 35 superscript articles normalised; 6 provision(s) declared unconstitutional (HCC register) |
 | `COD-95-2021` | 472 | 472 | 2026-09-01 | 51 superscript articles normalised |
-| `COD-985-2002` | 566 | 566 | 2026-12-02 | **consolidation dated in the future**; 178 superscript articles normalised; 8 provision(s) declared unconstitutional (HCC register) |
+| `COD-985-2002` | 566 | 566 | 2026-08-28 | 178 superscript articles normalised; 8 provision(s) declared unconstitutional (HCC register) |
 | `CONST-1994` | 157 | 157 | 2024-11-05 | 8 articles numbered in Roman figures; 6 superscript articles normalised; 2 provision(s) declared unconstitutional (HCC register) |
 | `DCA-61-2024` | 0 | 0 | 2024-05-05 | no article structure; **more than 2 years old** |
 | `DCNPDCP-08-2023` | - | 0 | 2023-03-01 | no article structure; **more than 2 years old** |
@@ -212,7 +236,7 @@ Generated 2026-09-25 15:25 from the files themselves. Do not edit this section b
 | `HCNPF-14-5-2016` | 0 | 0 | 2022-05-06 | no article structure; **more than 2 years old** |
 | `HCNPF-38-5-2015` | 0 | 0 | 2025-10-01 | no article structure |
 | `HG-1170-2016` | 0 | 0 | 2025-03-07 | no article structure |
-| `HG-1171-2018` | - | 0 | 2024-07-05 | numbered points (65), not articles; **more than 2 years old** |
+| `HG-1171-2018` | 0 | 0 | 2026-09-22 | **ABROGAT de la 2026-09-22**; no article structure |
 | `HG-118-2023` | 0 | 0 | 2025-12-30 | no article structure |
 | `HG-143-2021` | 0 | 0 | 2026-05-22 | no article structure |
 | `HG-146-2021` | 0 | 0 | 2026-09-06 | no article structure |
@@ -223,6 +247,7 @@ Generated 2026-09-25 15:25 from the files themselves. Do not edit this section b
 | `HG-305-2026` | 0 | 0 | 2026-06-16 | no article structure |
 | `HG-310-2025` | 0 | 0 | 2025-06-02 | no article structure |
 | `HG-386-2020` | 0 | 0 | 2024-11-04 | no article structure |
+| `HG-497-2026` | 0 | 0 | 2026-09-22 | no article structure |
 | `HG-553-2024` | 0 | 0 | 2025-10-18 | no article structure |
 | `HG-574-2024` | 0 | 0 | 2024-08-23 | no article structure; **more than 2 years old** |
 | `HG-582-2022` | 0 | 0 | 2026-03-01 | no article structure |
@@ -233,14 +258,14 @@ Generated 2026-09-25 15:25 from the files themselves. Do not edit this section b
 | `HG-695-2017` | 0 | 0 | 2026-05-22 | no article structure |
 | `HG-696-2017` | 0 | 0 | 2025-12-24 | no article structure |
 | `HG-698-2017` | 0 | 0 | 2026-01-01 | no article structure |
-| `HG-743-2024` | 0 | 0 | 2026-12-30 | no article structure; **consolidation dated in the future** |
+| `HG-743-2024` | 0 | 0 | 2026-07-30 | no article structure |
 | `HG-9-2026` | 0 | 0 | 2026-01-16 | no article structure |
 | `HG-967-2016` | 0 | 0 | 2023-08-08 | no article structure; **more than 2 years old** |
 | `L-1-2018` | 28 | 28 | 2025-12-31 | clean |
 | `L-10-2009` | 75 | 75 | 2026-03-21 | 4 superscript articles normalised |
 | `L-10-2016` | 63 | 63 | 2025-12-30 | 18 superscript articles normalised |
 | `L-100-2001` | 78 | 78 | 2025-10-21 | 7 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
-| `L-100-2017` | 79 | 79 | 2025-12-31 | 2 superscript articles normalised |
+| `L-100-2017` | 80 | 80 | 2025-12-31 | 2 superscript articles normalised |
 | `L-102-2017` | 26 | 26 | 2026-08-14 | 4 superscript articles normalised |
 | `L-105-2003` | 75 | 75 | 2025-10-25 | 1 superscript article normalised |
 | `L-105-2018` | 74 | 74 | 2026-03-18 | 9 superscript articles normalised |
@@ -248,8 +273,8 @@ Generated 2026-09-25 15:25 from the files themselves. Do not edit this section b
 | `L-108-2016` | 144 | 144 | 2026-08-25 | 30 superscript articles normalised |
 | `L-1100-2000` | 49 | 49 | 2025-12-30 | 13 superscript articles normalised |
 | `L-1125-2002` | 50 | 50 | 2026-04-01 | clean |
-| `L-1134-1997` | 110 | 110 | 2028-01-01 | **consolidation dated in the future**; 7 superscript articles normalised |
-| `L-114-2012` | 131 | 131 | 2027-01-01 | **consolidation dated in the future**; 23 superscript articles normalised |
+| `L-1134-1997` | 108 | 108 | 2026-06-11 | 5 superscript articles normalised |
+| `L-114-2012` | 131 | 131 | 2026-07-10 | 23 superscript articles normalised |
 | `L-114-2014` | 28 | 28 | 2026-01-01 | clean |
 | `L-116-2014` | 18 | 18 | 2025-12-31 | 2 superscript articles normalised |
 | `L-119-2004` | 29 | 29 | 2025-12-30 | 2 superscript articles normalised |
@@ -265,9 +290,9 @@ Generated 2026-09-25 15:25 from the files themselves. Do not edit this section b
 | `L-131-2012` | 41 | 41 | 2026-08-28 | 8 superscript articles normalised |
 | `L-131-2015` | 91 | 91 | 2026-06-26 | clean |
 | `L-132-2012` | 52 | 52 | 2026-08-28 | 1 superscript article normalised |
-| `L-132-2016` | 45 | 45 | 2027-01-01 | **consolidation dated in the future**; 1 superscript article normalised; 2 provision(s) declared unconstitutional (HCC register) |
+| `L-132-2016` | 45 | 45 | 2026-04-01 | 1 superscript article normalised; 2 provision(s) declared unconstitutional (HCC register) |
 | `L-133-2011` | 36 | 36 | 2026-08-23 | **ABROGAT de la 2026-08-23**; 2 superscript articles normalised |
-| `L-133-2016` | 27 | 27 | 2027-01-01 | **consolidation dated in the future**; 2 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
+| `L-133-2016` | 27 | 27 | 2026-09-13 | 2 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-133-2018` | 17 | 17 | 2019-03-01 | 17 articles numbered in Roman figures; **more than 2 years old** |
 | `L-135-2007` | 93 | 93 | 2026-03-27 | 10 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-136-2017` | 48 | 48 | 2024-06-06 | **more than 2 years old**; 1 superscript article normalised; 1 provision(s) declared unconstitutional (HCC register) |
@@ -278,7 +303,7 @@ Generated 2026-09-25 15:25 from the files themselves. Do not edit this section b
 | `L-148-2023` | 35 | 35 | 2024-01-08 | **more than 2 years old** |
 | `L-149-2006` | 44 | 44 | 2026-04-25 | clean |
 | `L-149-2012` | 271 | 271 | 2025-12-31 | 17 superscript articles normalised; 2 provision(s) declared unconstitutional (HCC register) |
-| `L-1543-1998` | 99 | 99 | 2027-01-01 | **consolidation dated in the future**; 38 superscript articles normalised |
+| `L-1543-1998` | 93 | 93 | 2025-08-31 | 32 superscript articles normalised |
 | `L-155-2011` | 6 | 6 | 2026-09-13 | 1 superscript article normalised |
 | `L-156-2007` | 24 | 24 | 2025-09-01 | 1 superscript article normalised |
 | `L-158-2008` | 88 | 88 | 2026-09-13 | 11 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
@@ -288,12 +313,12 @@ Generated 2026-09-25 15:25 from the files themselves. Do not edit this section b
 | `L-160-2026` | 46 | 46 | 2026-08-23 | clean |
 | `L-164-2025` | 151 | 151 | 2026-06-26 | clean |
 | `L-165-2023` | 31 | 31 | 2023-10-26 | **more than 2 years old** |
-| `L-171-2012` | 156 | 156 | 2027-06-01 | **consolidation dated in the future**; 18 superscript articles normalised |
+| `L-171-2012` | 158 | 158 | 2025-11-26 | 19 superscript articles normalised |
 | `L-177-2025` | 4 | 4 | 2025-07-21 | 4 articles numbered in Roman figures |
 | `L-178-2020` | 8 | 8 | 2020-09-18 | 8 articles numbered in Roman figures |
 | `L-179-2008` | 56 | 56 | 2025-12-31 | 22 superscript articles normalised |
 | `L-179-2016` | 23 | 23 | 2026-01-01 | 2 superscript articles normalised |
-| `L-181-2014` | 89 | 89 | 2027-01-01 | **consolidation dated in the future**; 5 superscript articles normalised; 2 provision(s) declared unconstitutional (HCC register) |
+| `L-181-2014` | 86 | 86 | 2025-12-31 | 2 superscript articles normalised; 2 provision(s) declared unconstitutional (HCC register) |
 | `L-181-2023` | 50 | 50 | 2026-06-26 | 1 superscript article normalised |
 | `L-183-2012` | 110 | 110 | 2025-12-31 | 15 superscript articles normalised |
 | `L-183-2016` | 17 | 17 | 2023-10-21 | **more than 2 years old** |
@@ -316,7 +341,7 @@ Generated 2026-09-25 15:25 from the files themselves. Do not edit this section b
 | `L-227-2025` | 42 | 42 | 2025-12-31 | 42 articles numbered in Roman figures |
 | `L-229-2010` | 35 | 35 | 2024-08-02 | **more than 2 years old**; 1 superscript article normalised |
 | `L-23-2008` | 36 | 36 | 2016-09-30 | **more than 2 years old**; 1 superscript article normalised |
-| `L-230-2022` | - | 66 | - | clean |
+| `L-230-2022` | 123 | 123 | 2025-06-10 | 1 provision(s) declared unconstitutional (HCC register) |
 | `L-232-2016` | 344 | 344 | 2025-02-28 | 21 superscript articles normalised |
 | `L-234-2016` | 37 | 37 | 2024-11-26 | clean |
 | `L-235-2006` | 21 | 21 | 2024-07-05 | **more than 2 years old** |
@@ -339,7 +364,7 @@ Generated 2026-09-25 15:25 from the files themselves. Do not edit this section b
 | `L-278-2007` | 44 | 44 | 2025-05-29 | clean |
 | `L-28-2024` | 63 | 63 | 2026-01-01 | clean |
 | `L-282-2004` | 22 | 22 | 2025-12-30 | 1 superscript article normalised |
-| `L-283-2003` | 48 | 46 | 2025-12-30 | **declared 48, found 46**; 11 superscript articles normalised; stale count line in body says 48; 1 provision(s) declared unconstitutional (HCC register) |
+| `L-283-2003` | 46 | 46 | 2025-12-30 | 11 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-284-2004` | 29 | 29 | 2026-02-14 | 1 superscript article normalised |
 | `L-291-2016` | 57 | 57 | 2026-01-01 | 2 superscript articles normalised |
 | `L-296-2017` | 24 | 24 | 2024-02-22 | **more than 2 years old** |
@@ -376,7 +401,7 @@ Generated 2026-09-25 15:25 from the files themselves. Do not edit this section b
 | `L-66-2017` | 17 | 17 | 2017-06-02 | 17 articles numbered in Roman figures; **more than 2 years old** |
 | `L-67-2024` | 35 | 35 | 2026-04-02 | clean |
 | `L-68-2013` | 23 | 23 | 2026-05-09 | 1 superscript article normalised |
-| `L-69-2016` | - | 0 | - | no article structure |
+| `L-69-2016` | 70 | 70 | 2026-06-23 | clean |
 | `L-71-2007` | 33 | 33 | 2023-12-22 | **more than 2 years old** |
 | `L-72-2025` | 127 | 127 | 2025-12-31 | clean |
 | `L-764-2001` | 26 | 26 | 2025-06-28 | 3 superscript articles normalised |
@@ -385,7 +410,7 @@ Generated 2026-09-25 15:25 from the files themselves. Do not edit this section b
 | `L-80-2010` | 30 | 30 | 2026-09-13 | 1 superscript article normalised |
 | `L-82-2017` | 51 | 51 | 2026-09-13 | 1 superscript article normalised |
 | `L-82-2024` | 98 | 98 | 2026-05-08 | clean |
-| `L-845-1992` | 46 | 46 | 2027-01-01 | **consolidation dated in the future**; 11 superscript articles normalised; 3 provision(s) declared unconstitutional (HCC register) |
+| `L-845-1992` | 46 | 46 | 2025-12-31 | 11 superscript articles normalised; 3 provision(s) declared unconstitutional (HCC register) |
 | `L-852-2002` | 2 | 2 | 2025-12-30 | clean |
 | `L-86-2014` | 42 | 42 | 2026-04-25 | 17 superscript articles normalised |
 | `L-9-2026` | 63 | 63 | 2026-09-12 | clean |
@@ -409,12 +434,10 @@ Generated 2026-09-25 15:25 from the files themselves. Do not edit this section b
 
 ### Mechanical flags
 
-- **Repealed acts.** no longer in force: `COD-3-2009` (repealed 2026-05-30 by CS246 din 08.11.24), `L-133-2011` (repealed 2026-08-23 by LP195 din 25.07.24). These files are kept because other acts in the corpus still cite them and because the text governs facts before the repeal date. They are anchored, their sha256 verifies and their consolidation is recent, so nothing else here would reveal that they stopped binding. Do not cite them as law in force; cite the successor and say from when it applies.
-- **Not yet in force.** 14 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-1134-1997` (2028-01-01), `L-171-2012` (2027-06-01), `COD-122-2003` (2026-12-02), `COD-154-2003` (2027-01-01), `COD-443-2004` (2026-12-02), `COD-985-2002` (2026-12-02), `HG-743-2024` (2026-12-30), `L-132-2016` (2027-01-01), `L-133-2016` (2027-01-01), `L-1543-1998` (2027-01-01), `L-181-2014` (2027-01-01), `L-325-2025` (2027-01-01), `L-845-1992` (2027-01-01), `L-114-2012` (2027-01-01). 234 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
-- **Declared unconstitutional.** 35 act(s) carry at least one Constitutional Court decision in their history block, 98 decisions in total: 37 still marked at article level in the text itself, 126 more recovered by reading the legis.md version history (`_meta/hcc/recovered-provisions.json`), and 0 not yet attributed to any article. A struck provision looks like ordinary law: the article exists, the anchor is valid, the sha256 matches. Check `_meta/hcc/hcc-register.md` before citing an article from `COD-116-2018`, `COD-1163-1997`, `COD-122-2003`, `COD-154-2003`, `COD-174-2018`, `COD-218-2008`, `COD-225-2003`, `COD-325-2022`, `COD-443-2004`, `COD-985-2002`, `CONST-1994`, `L-100-2001`, `L-121-2007`, `L-1260-2002`, `L-132-2016`, `L-133-2016`, `L-135-2007`, `L-136-2017`, `L-149-2012`, `L-158-2008`, `L-181-2014`, `L-213-2023`, `L-24-2008`, `L-270-2018`, `L-283-2003`, `L-303-2013`, `L-325-2013`, `L-382-2001`, `L-514-1995`, `L-52-2014`, `L-548-1995`, `L-64-2010`, `L-797-1996`, `L-845-1992`, `L-93-1998` and say which decision struck it and what today's text actually holds.
-- **Stale consolidations.** `OCNPDCP-03-1-2013` (2013-02-28), `OCNPDCP-POLITIE-2013` (2013-05-01), `DCNPDCP-PARTIDE-2014` (2014-12-17), `OCNPDCP-03-2015` (2015-01-01), `L-23-2008` (2016-09-30), `L-66-2017` (2017-06-02), `L-25-2008` (2018-01-12), `L-250-2017` (2018-03-29), `CETS-223-2018` (2018-10-10), `L-24-2008` (2018-11-08), `HBN-130-2013` (2018-12-23), `L-133-2018` (2019-03-01), `HBN-127-2013` (2021-05-09), `HCNPF-14-5-2016` (2022-05-06), `UA-STATUT-2011` (2022-05-27), `DCNPDCP-08-2023` (2023-03-01), `DCNPDCP-581-2015` (2023-03-01), `L-797-1996` (2023-03-24), `L-246-2017` (2023-06-02), `HG-967-2016` (2023-08-08), `L-160-2023` (2023-10-01), `L-183-2016` (2023-10-21), `L-165-2023` (2023-10-26), `L-71-2007` (2023-12-22), `L-148-2023` (2024-01-08), `L-64-2010` (2024-01-23), `L-296-2017` (2024-02-22), `L-325-2013` (2024-03-29), `L-435-2006` (2024-05-02), `DCA-61-2024` (2024-05-05), `L-523-1999` (2024-05-16), `L-136-2017` (2024-06-06), `L-595-1999` (2024-06-06), `HG-1171-2018` (2024-07-05), `HG-610-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `L-394-2023` (2024-07-15), `L-229-2010` (2024-08-02), `HG-574-2024` (2024-08-23), `L-422-2023` (2024-09-14). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
-- **Stale count line inside the file.** `L-283-2003` (body says 48, anchors 46). The frontmatter is right and the anchors are right; the human-readable line in the body was written by the original ingest and never updated. Cosmetic, but it is the line a reader sees first.
-- **Declared count does not match anchors.** `L-283-2003` (48 vs 46)
+- **Repealed acts.** no longer in force: `COD-3-2009` (repealed 2026-05-30 by CS246 din 08.11.24), `L-133-2011` (repealed 2026-08-23 by LP195 din 25.07.24), `HG-1171-2018` (repealed 2026-09-22 by HG497 din 02.09.26). These files are kept because other acts in the corpus still cite them and because the text governs facts before the repeal date. They are anchored, their sha256 verifies and their consolidation is recent, so nothing else here would reveal that they stopped binding. Do not cite them as law in force; cite the successor and say from when it applies.
+- **Not yet in force.** 1 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-325-2025` (2027-01-01). 299 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
+- **Declared unconstitutional.** 37 act(s) carry at least one Constitutional Court decision in their history block, 100 decisions in total: 39 still marked at article level in the text itself, 127 more recovered by reading the legis.md version history (`_meta/hcc/recovered-provisions.json`), and 0 not yet attributed to any article. A struck provision looks like ordinary law: the article exists, the anchor is valid, the sha256 matches. Check `_meta/hcc/hcc-register.md` before citing an article from `COD-116-2018`, `COD-1163-1997`, `COD-122-2003`, `COD-1316-2000`, `COD-154-2003`, `COD-174-2018`, `COD-218-2008`, `COD-225-2003`, `COD-325-2022`, `COD-443-2004`, `COD-985-2002`, `CONST-1994`, `L-100-2001`, `L-121-2007`, `L-1260-2002`, `L-132-2016`, `L-133-2016`, `L-135-2007`, `L-136-2017`, `L-149-2012`, `L-158-2008`, `L-181-2014`, `L-213-2023`, `L-230-2022`, `L-24-2008`, `L-270-2018`, `L-283-2003`, `L-303-2013`, `L-325-2013`, `L-382-2001`, `L-514-1995`, `L-52-2014`, `L-548-1995`, `L-64-2010`, `L-797-1996`, `L-845-1992`, `L-93-1998` and say which decision struck it and what today's text actually holds.
+- **Stale consolidations.** `OCNPDCP-03-1-2013` (2013-02-28), `OCNPDCP-POLITIE-2013` (2013-05-01), `DCNPDCP-PARTIDE-2014` (2014-12-17), `OCNPDCP-03-2015` (2015-01-01), `L-23-2008` (2016-09-30), `L-66-2017` (2017-06-02), `L-25-2008` (2018-01-12), `L-250-2017` (2018-03-29), `CETS-223-2018` (2018-10-10), `L-24-2008` (2018-11-08), `HBN-130-2013` (2018-12-23), `L-133-2018` (2019-03-01), `HBN-127-2013` (2021-05-09), `HCNPF-14-5-2016` (2022-05-06), `UA-STATUT-2011` (2022-05-27), `DCNPDCP-08-2023` (2023-03-01), `DCNPDCP-581-2015` (2023-03-01), `L-797-1996` (2023-03-24), `L-246-2017` (2023-06-02), `HG-967-2016` (2023-08-08), `L-160-2023` (2023-10-01), `L-183-2016` (2023-10-21), `L-165-2023` (2023-10-26), `L-71-2007` (2023-12-22), `L-148-2023` (2024-01-08), `L-64-2010` (2024-01-23), `L-296-2017` (2024-02-22), `L-325-2013` (2024-03-29), `L-435-2006` (2024-05-02), `DCA-61-2024` (2024-05-05), `L-523-1999` (2024-05-16), `L-136-2017` (2024-06-06), `L-595-1999` (2024-06-06), `HG-610-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `L-394-2023` (2024-07-15), `L-229-2010` (2024-08-02), `HG-574-2024` (2024-08-23), `L-422-2023` (2024-09-14). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
 - **BNM English corpus.** 60 file(s) carry 149 line-initial `Article N` markers and no anchors. Any answer resting on the English BNM translations is not anchored.
 
 <!-- COVERAGE:END -->
@@ -553,7 +576,16 @@ Do not resolve these on your own. Raise them if a matter touches them.
      art. 52 of the law on normative acts is the provision governing **puncte**, which is how
      every HG in this vault is cited, and section M of the moldova-legal manifest already warns
      that a citation to "pct. N" is not anchored. The article is present in full; only the
-     anchor is missing.
+     anchor was missing. **Anchored 2026-09-26**: a new line `## Articolul 52. Punctul` was
+     inserted above the source line, which is untouched (`anchors_inserted` in the frontmatter,
+     `sha256_pre_anchor_insert`, strip-and-compare proved against the backup). The same pass anchored
+     `COD-246-2024` art. 46 (same misspelling, `Articol 46.`) and five articles of `COD-150-2014`
+     that the extractor missed because the line has no dash after the number (`Art. 31^49.`,
+     `Art.35 - abrogat.`, `Art.83 - abrogat.`, `Art. 134.`, `Art. 152^1.`), found by the new
+     `raw.unanchored-article` check. `verify_business_law.py` knows the transformation and only that.
+     **`L-100-2017` arts. 25 and 26 (a different gap in the same act) are explained, 2026-09-26:** they were the research study and the ex ante analysis stages, present in
+     the 24-03-2023 consolidation (doc_id 140251) and absent from 05-07-2024 (142658); the one amendment between them is LP49/2024, in force 05.07.2024, whose
+     marker at art. 2 removes the notion "analiza ex ante". Mechanism 2 of item 3, deduced from versions, LP49's own text not read.
    - `CC-1107-2002` arts. 2447, 2448 and 2522, found 2026-09-19 by the same method as the 843/845
      pair — the title as `L-133-2018` enacted it, read against the title as legis.md prints it
      today. Today's file has `Supra îndatorarea` with a space inside the word (for
@@ -837,6 +869,23 @@ Do not resolve these on your own. Raise them if a matter touches them.
 Resolved on 2026-09-04 and kept here so it is not re-raised: art. 21 of `L-192-1998` was absent
 with no basis in the source. The refreshed consolidation contains it. No action needed.
 
+   **The groups added since, verified 2026-09-26 (the table then had 60 rows, 187 references; every
+   row outside the known `CC-1107-2002` and `AA-2014` clusters was read).** Sixteen groups against `L-230-2022` are not
+   citations to missing articles but **the act's unanchored articles**: art. 58 (x11), 99 (x9), 103 (x9) and
+   thirteen more all exist in the file as unanchored `Articolul N.` lines (16 of 16 checked). They disappeared when
+   the act was re-ingested the same day (187 → 126 unresolved references). Four more are `COD-218-2008` art. 197 citing art. 62^2, 31^26, 31^36 and 31^42 of
+   `COD-150-2014` with the exponent flattened (`622`, `3126`, `3136`, `3142`): all four anchors exist. Also
+   flattened, anchors present: `COD-218-2008` art. 56^2 (`562`), `COD-116-2018` art. 245^1 (`2451`),
+   `L-86-2014` art. 10^5 ("Decizia cu privire la acordul de mediu"). Resolver defaults, not gaps:
+   `UA-STATUT-2011` art. 35^1 (the Statute's "din Lege" is `L-1260-2002`, whose art. 35^1 "Dreptul de vot" and
+   art. 34 exist), `CETS-223-2018` art. 44 ("art. 44-50 GDPR"), and `L-1456-1993` art. 200 (the Monitorul Oficial
+   reference in the fișă table). **One real finding: `L-212-2004` arts. 17 and 20.** Chapter III (state of
+   emergency, arts. 17-27) was repealed by LP248/2025 from 01.09.2025 and the file carries the marker on the
+   heading, no article stubs (mechanism 4 of item 3). `L-108-2016` art. 105^1 still cites "art. 17-19 din Legea nr.
+   212/2004" as the basis for declaring a state of emergency, and `L-212-2004` art. 42 still says "măsurile
+   prevăzute la art.20"; the declaration of the state of emergency now sits in `L-248-2025` art. 29. Both are stale
+   citations in the citing acts, not defects of the vault.
+
 9. **A third form of hidden deferred provision, found 2026-09-16 at `L-9-2026`.** The in-force
    register (`_meta/inforce/build_inforce_register.py`) reads only the bracket marker
    `[Art.N ... în vigoare DD.MM.YY]`, which an *amendment* leaves in the text of an already-existing
@@ -889,6 +938,15 @@ with no basis in the source. The refreshed consolidation contains it. No action 
    The deferral sits in an amending law and points at a **third** act; that act, `L-140-2025`, was ingested the same day and art. XXIV alin. (1)
    reads exactly so, with its `[Art.XXIV al.(1) modificat prin LP317]` marker lost in the newer consolidation (152770, 01-01-2026; the marker
    survives only in 149260). Detail in `entities/L-317-2025.md` and `entities/L-140-2025.md`.
+   **Eleventh, found 2026-09-26 by a new script, and it is in a code, not in an amending law:** `COD-95-2021` (Customs Code) art. 426 alin. (1)
+   lit. c) puts arts. 49, 140, 180, 336 and 337 in force on **1 January 2027**, while the code as a whole applies from 1 January 2024. All five sit in
+   the held text, anchored, with nothing to show they do not bind yet. They are now rows of the in-force register (entry in
+   `pending-consolidations.json`, hand-written, `de verificat`). The finder is `_meta/inforce/build_prose_deferral_candidates.py`, generated report
+   `_meta/inforce/prose-deferral-candidates.md` (in `close_session.py`): the last six articles of every act, paragraphs that say "intră în vigoare" /
+   "se aplică" together with an exception, a condition or a future date. 52 lines in ~40 acts, candidates not findings; the ones with a date after
+   today were three, two already in the register (`L-325-2025`, `L-82-2024`) and this one. A second finding from the same pass: a stray backspace
+   (the control character U+0008, from a backslash-b written inside a non-raw string) sat in the abrogat regex of `build_citation_graph.py`, so its "abrogat in body" test could
+   never match; fixed, effect on the graph 3 flags, all from new acts.
    Two other things learned ingesting the same batch, general enough to matter beyond this act:
    `ingest_business_law.py`'s `DATE_RE` could misread a Monitorul Oficial citation like
    `MO338-341/30.09.16` as a second, spurious date (the tail of "341" plus the real date, parsed as
@@ -1106,6 +1164,28 @@ with no basis in the source. The refreshed consolidation contains it. No action 
    force. The graph and the HCC register list only the top folder, so they skip them; the in-force register reads them recursively (234
    provisions in 51 acts). Map and rules: `concepts/consolidari-viitoare-ingerate.md`, manifest section AX. A version's date is the one in
    legis.md's version list, not the one derived from the top modification line (three files differ).
+
+8. **Version sweep of 2026-09-26: every held act compared with legis.md's version list, and what it found.** Method (Edge through claude-in-chrome, no download): open a legis.md
+   tab, load `/cautare/getResults?doc_id=<id>&lang=ro` in an iframe, wait ~3 s, read the `showDetails(null, '<doc_id>')` + date pairs from its DOM; a plain `fetch` of that
+   page returns no version list. Large codes need a longer wait and sometimes return an empty list; Cloudflare re-challenges after ~100 page loads and only Eugen can tick it.
+   Results, 215 acts: (a) **`HG-1171-2018` repealed 22.09.2026**, done (see Where things are). (b) 34 of the 36 acts whose consolidation was over two years old are still the newest
+   version in force; the other two (`L-23-2008`, `L-24-2008`) each have a future version from 2027-03-01, now in `viitor/`. (c) **`L-72-2025` was one version behind** (held 152659 @2025-12-31, legis.md lists 151457 @2026-01-01): refreshed 2026-09-26; the two texts differ only by the LP330 markers and the header line.
+   (d) **Twelve acts held a future-dated consolidation as their main file**, so the text in force today was missing (the 2026-09-04 refresh took the newest version on the list without asking
+   whether it was in force; for `L-1134-1997` the in-force register pointed at a 2022 archive). **Fixed 2026-09-26 by `_meta/imports/moldova-legal/swap_future_main.py`**: the main file is now the
+   version in force (archived predecessors in `_archive/raw/before-swap-2026-09-26/`, provenance chain in the frontmatter), and every future version, held or intermediate, is in `viitor/` (20 new files; 12 more in (f)).
+   Acts: `L-1134-1997` (154797 @2026-06-11), `L-171-2012` (145907 @2025-11-26), `COD-154-2003` (155185 @2026-06-30), `HG-743-2024` (155188 @2026-07-30), `L-132-2016` (147882 @2026-04-01), `L-133-2016`
+   (152995 @2026-09-13), `L-1543-1998` (150224 @2025-08-31), `COD-443-2004` (155721 @2026-08-06), `COD-985-2002` (151140 @2026-08-28), `L-181-2014` (153027 @2025-12-31), `L-845-1992`
+   (152587 @2025-12-31), `L-114-2012` (155302 @2026-07-10), plus `COD-122-2003` (156018 @2026-08-28). Titles unwrapped with strip-and-compare proof, `verify_business_law.py` 0 failures (its `DOCS` now carries
+   the main entries, or `external_folder` for the three in `cnpf/` and `bnm/legal-ro/`), the 14 entity pages rewritten around the new arrangement. **`L-325-2025` is a law that enters into force only on
+   2027-01-01**, so it has no current text and its main file stays a future version. **Lesson:** a refresh script must pick the newest version whose date is not after today, and the version list is the
+   only place that says so.
+   (e) The fifteen large acts whose version list came back empty in the first pass were read one by one afterwards: `L-284-2004`, `L-291-2016`, `L-303-2013`, `L-306-2018`, `L-325-2025`, `L-36-2026`, `L-382-2001`, `L-384-2023`, `L-397-2003`,
+   `L-403-2023`, `L-411-1995`, `CC-1107-2002`, `COD-1163-1997`, `COD-218-2008` are all still the newest version in force; `COD-122-2003` was one of the twelve above.
+   (f) **`viitor/` was not complete either.** The 2026-09-25 pass had missed future versions of acts that were otherwise up to date; twelve more were downloaded and ingested on 2026-09-26: `COD-218-2008` ×6
+   (2026-12-09, 2027-01-23, 2027-03-24, 2027-05-13, 2028-01-01, 2030-01-01), `CC-1107-2002` (2027-01-01), `COD-116-2018` (2027-01-01), `COD-174-2018` (2030-01-01), `COD-95-2021` ×2 (2027-01-01, 2029-01-01),
+   `L-192-1998` (2027-03-17). `viitor/` now has 82 files. **Residual risk:** the first pass read only the top four or five entries of each act's version list, so an act with more than four future
+   versions could still hide some (`COD-218-2008` was that case); a full list per act was read only for the acts named here. Two of the new files (`COD-218-2008--2030-01-01`, `COD-174-2018--2030-01-01`) carry a
+   modification line dated 2026-09-14 while the version list says 2030-01-01; the list date is the one used, as before.
 
 ## Keeping this file true
 

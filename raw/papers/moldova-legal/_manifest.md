@@ -3327,3 +3327,41 @@ acestei decizii nu s-a făcut — doar textul e ingerat. Deciziile Comisiei priv
 - **Ce citesc scripturile:** graful de citare și registrul HCC listează numai folderul de sus, deci nu dublează aceste fișiere; registrul in-force citește recursiv și le vede: 234 de dispoziții în 51 de acte (față de 70 în 13). Am schimbat `build_inforce_register.py` ca cele 23 de rînduri din lista de mînă, acum ingerate, să fie marcate „ingerata ca …”, nu „neingerate”; rîndurile citite de mînă rămîn, fiindcă prind ce scanarea nu vede (anexele).
 - **Verificări încrucișate:** versiunile din 30.11.2027 ale L-221/2007, L-68/2013, L-296/2017, L-119/2018, L-394/2023, L-403/2023, L-422/2023, L-82/2024 și L-121/2007 poartă toate ca rînd de modificare LP140 din 13.06.25, adică exact amînarea din LP317 art. XVII. `L-121-2018` nu are versiune din 2027-11-30, iar cea din 2027-03-27 e versiunea de abrogare (LP22/2025), în care lit. c) din art. 5 alin. (3) apare încă.
 - **Neexecutat:** nu am comparat versiunile între ele (ce se schimbă la fiecare dată) decît acolo unde `pending-consolidations.json` o făcuse de mînă; nu am citit integral nici o versiune; `HG-146-2021` și `HG-149-2021` viitoare sînt în puncte, deci nu au ancore; versiunile care vor apărea după azi nu sînt ingerate.
+
+## AY. Auditul din 2026-09-26: trei acte reingerate, șapte ancore inserate, regula `raw.unanchored-article`
+
+- **Cererea:** „full lint audit, verifică dacă totul e actualizat și sincronizat”, apoi remedierea. Raportul: `_meta/lint/audit-2026-09-26-full.md`.
+- **Trei acte intrate prin altă rută (secțiunea AV nu le descria):** `COD-1316-2000` (Codul familiei), `L-69-2016`, `L-230-2022`, extrase la 25.09 prin
+  `web_extract` din exportul PDF, fără ancore, fără dată de consolidare, cu versiuni vechi (14.08.2020, 25.12.2020, textul din 2022). Reingerate cu
+  ruta standard: `COD-1316-2000` doc_id 155707 @ 2026-08-06 (viitoare 156321 @ 2026-12-09), `L-69-2016` 137679 @ 2026-06-23, `L-230-2022` 149374 @
+  2025-06-10 (viitoare 140343 @ 2030-01-01). Listele de versiuni citite din pagină pe 26.09; fișa nu dă dată de abrogare la niciunul, iar antetul
+  corpului nu poartă „Abrogată”. HTML-urile: 330465, 330325, 296652, 630962 și 618384 de octeți, în `legis-md-business/`. Ingerare 133, 70, 123 de
+  articole (133 și 127 la viitoare), 77 + 13 + 59 + 77 + 58 de titluri desfăcute.
+- **Șapte articole reale fără ancoră** în acte deja bune, găsite de regula nouă: `COD-150-2014` art. 31^49, 35, 83, 134, 152^1 (linia nu are liniuță după
+  număr), `COD-246-2024` art. 46 și `L-100-2017` art. 52 (`Articol`, fără `-ul`). Ancore inserate deasupra liniilor sursă, care nu s-au atins;
+  `anchors_inserted` și `sha256_pre_anchor_insert` în frontmatter; `verify_business_law.py` cunoaște transformarea.
+- **`HCC23/2024-10-15`** la `COD-1316-2000` art. 108 (omisiune), recuperată din versiunea 145543; `HCC7/2025-06-10` la `L-230-2022` (art. 71 alin. (4) și
+  anexa) are marcaje în text.
+- **Neexecutat:** citirea integrală a celor 54 de acte din secțiunea AV; nu s-a căutat decizia HCC23/2024 însăși; actele reingerate nu au fost citite
+  integral, doar verificate mecanic și pe art. 108, 71.
+- **Completare, aceeași zi:** consolidările de peste doi ani au fost comparate cu lista de versiuni de pe legis.md (36 de acte): 34 sînt încă cea mai nouă
+  în vigoare; noi, neingerate (Cloudflare): `HG-1171-2018` 156468 @ 2026-09-22, viitoare `L-23-2008` 156490 și `L-24-2008` 156492 @ 2027-03-01 (intrări în `DOCS`).
+  Rezumatul mecanic al modificărilor pe cele 54 de acte-țintă: `amendment_digest.py`, `_meta/coverage/amendment-digest.json`.
+
+## AZ. `HG-1171-2018` abrogat, `HG-497-2026` (2026-09-26)
+
+- **Constatarea:** la verificarea consolidărilor vechi, lista de versiuni a `HG-1171-2018` a arătat 156468 @ 2026-09-22; fișa: „Data abrogării 22.09.2026”, corpul: „Abrogată prin HG497 din 02.09.26,
+  MO466-469/22.09.26 art.527”. Legătura din marcaj dă doc_id 156454 = HG 497/2026, o singură versiune. Ambele HTML din Edge (93.192 și 154.859 octeți), în `legis-md-business/`.
+- **Ingerare:** `HG-1171-2018` refăcut (repealed: true, repeal_effective 2026-09-22); `HG-497-2026` ingerat în puncte, 0 ancore de articol; `verify_business_law.py` 0 eșecuri. Textul vechi al
+  `HG-1171-2018` (ingerat în iulie prin alt script, 65 de puncte) rămîne în istoricul git și în `wiki-backups/wiki-2026-09-26-hg1171/`.
+- **Versiuni viitoare noi:** `L-23-2008--2027-03-01` (156490, 10 titluri desfăcute) și `L-24-2008--2027-03-01` (156492, 15), cu dovadă strip-and-compare.
+- **Neexecutat:** anexele nr. 1 și 2 ale HG 497/2026 nu sînt în extras; verificarea celor 12 acte cu fișier principal viitor (CLAUDE.md, „Outstanding work” 8).
+
+## BA. Schimbarea fișierelor principale viitoare cu versiunea în vigoare (2026-09-26)
+
+- **Constatarea:** 13 acte (`L-1134-1997` și `L-171-2012` în `cnpf/`, `L-114-2012` în `bnm/legal-ro/`, zece în `moldova-legal/`) aveau ca fișier principal o consolidare datată după azi. Versiunile în vigoare
+  și cele intermediare, citite din listele de versiuni: vezi `swap_future_main.py`, dicționarul `ACTS`.
+- **Executat:** 21 de HTML din Edge (de la 140.147 la 2.589.901 octeți, mărimile confruntate cu cele din pagină înainte de salvare), plus `L-72-2025` 151457. Fișierul principal nou are lanțul de proveniență
+  (`refreshed`, `doc_id_previous`, `sha256_previous`, `archived_previous_at`). Cele 20 de versiuni viitoare noi: `COD-154-2003` ×3, `COD-443-2004` ×3, `COD-985-2002` ×2, `COD-122-2003` ×2, `L-114-2012` ×2 și cîte una
+  pentru `L-1134-1997`, `L-171-2012`, `HG-743-2024`, `L-132-2016`, `L-133-2016`, `L-1543-1998`, `L-181-2014`, `L-845-1992`. Titluri desfăcute în cele 34 de fișiere, dovadă strip-and-compare; `verify_business_law.py` 0 eșecuri.
+- **Neexecutat:** dacă mai sînt versiuni viitoare ale altor acte nedeținute în `viitor/` (vezi rezultatul măturării completate mai jos, dacă există).

@@ -1,7 +1,7 @@
 ---
 title: Perimetrul actelor permisive — 54 de acte țintă ale Legilor 227/2025, 317/2025 și 140/2025
 created: '2026-09-25'
-updated: '2026-09-25'
+updated: '2026-09-26'
 type: concept
 perimeter: legal
 tags:
@@ -25,7 +25,7 @@ Trei legi de modificare ingerate în aceeași zi, [[L-227-2025]] (optimizarea pr
 
 - **Un act abrogat:** [[COD-3-2009]] (Codul subsolului), abrogat de la 30.05.2026 prin [[COD-246-2024]]; păstrat pentru LP317 art. V.
 - **Hotărîri ale Curții (5, la 4 acte), recuperate 2026-09-25:** [[L-283-2003]] (HCC11/2023, art. 22^1 alin. (1) lit. c) și art. 27^3 lit. d)), [[L-303-2013]] (HCC28/2016 și HCC30/2016, art. 19 alin. (5) și (4)), [[L-382-2001]] (HCC28/2002, art. 10 și 11 alin. (1)), [[L-93-1998]] (HCC7/1999, art. 14 alin. (1) și art. 19). Sintagmele lovite lipsesc din textele deținute.
-- **Consolidări viitoare pe legis.md (16 acte, 23 de versiuni):** neingerate; vezi paginile actelor.
+- **Consolidări viitoare pe legis.md (16 acte, 23 de versiuni):** ingerate separat în `raw/papers/moldova-legal/viitor/` (`concepts/consolidari-viitoare-ingerate.md`), nu se citează ca drept în vigoare.
 - **Data consolidării ≠ data versiunii** la [[L-278-2007]] (republicat 30.07.2026).
 - **Amînarea din LP317 art. XVII** (30.11.2027) privește [[L-140-2025]], nu aceste 54 de acte, dar o parte din articolele amînate modifică acte de aici (L-221/2007, L-68/2013, L-296/2017, L-119/2018, L-394/2023, L-403/2023, L-422/2023, L-82/2024): modificările din LP140 art. VIII, XII, XVI, XVII, XX-XXIII **nu se aplică pînă la 30.11.2027**, deci textul lor de azi e cel dinainte.
 
@@ -38,11 +38,11 @@ Trei legi de modificare ingerate în aceeași zi, [[L-227-2025]] (optimizarea pr
 | [[L-439-1995]] | regnului animal | 50 | 2026-04-25 | [[L-227-2025]] |
 | [[L-93-1998]] | cu privire la patenta de întreprinzător | 19 | 2026-03-18 | [[L-227-2025]] |
 | [[L-1585-1998]] | cu privire la asigurarea obligatorie de asistenţă medicală | 25 | 2026-08-14 | [[L-140-2025]] |
-| [[L-599-1999]] | pentru aprobarea Codului navigaţiei maritime comerciale al Republicii Moldova | 397 | 2025-12-31 | [[L-317-2025]] |
+| [[L-599-1999]] | pentru aprobarea Codului navigaţiei maritime comerciale al Republicii Moldova | 399 | 2025-12-31 | [[L-317-2025]] |
 | [[L-1100-2000]] | cu privire la fabricarea şi circulaţia alcoolului etilic şi a producţiei alcoolice | 49 | 2025-12-30 | [[L-227-2025]] |
-| [[L-382-2001]] | cu privire la drepturile persoanelor aparţinînd minorităţilor naţionale şi la statutul jur | 0 | 2026-01-01 | [[L-140-2025]] |
+| [[L-382-2001]] | cu privire la drepturile persoanelor aparţinînd minorităţilor naţionale şi la statutul jur | 29 | 2026-01-01 | [[L-140-2025]] |
 | [[L-461-2001]] | privind piaţa produselor petroliere | 30 | 2026-06-26 | [[L-227-2025]] |
-| [[L-852-2002]] | pentru aprobarea Regulamentului cu privire la regimul comercial şi reglementarea utilizări | 0 | 2025-12-30 | [[L-227-2025]] |
+| [[L-852-2002]] | pentru aprobarea Regulamentului cu privire la regimul comercial şi reglementarea utilizări | 2 | 2025-12-30 | [[L-227-2025]] |
 | [[L-283-2003]] | privind activitatea particulară de detectiv şi de pază | 46 | 2025-12-30 | [[L-227-2025]] |
 | [[L-119-2004]] | cu privire la produsele de uz fitosanitar | 29 | 2025-12-30 | [[L-227-2025]] |
 | [[COD-259-2004]] | CODUL CU PRIVIRE LA ŞTIINŢĂ ŞI INOVARE AL REPUBLICII MOLDOVA | 119 | 2026-01-01 | [[L-140-2025]] |
@@ -64,7 +64,7 @@ Trei legi de modificare ingerate în aceeași zi, [[L-227-2025]] (optimizarea pr
 | [[L-114-2014]] | cu privire la Agenţia de Stat pentru Proprietatea Intelectuală | 28 | 2026-01-01 | [[L-140-2025]] |
 | [[L-116-2014]] | cinematografiei | 18 | 2025-12-31 | [[L-227-2025]], [[L-317-2025]] |
 | [[L-143-2014]] | privind regimul articolelor pirotehnice | 54 | 2025-12-30 | [[L-227-2025]] |
-| [[COD-150-2014]] | TRANSPORTURILOR RUTIERE | 0 | 2026-01-01 | [[L-227-2025]], [[L-317-2025]] |
+| [[COD-150-2014]] | TRANSPORTURILOR RUTIERE | 206 | 2026-01-01 | [[L-227-2025]], [[L-317-2025]] |
 | [[L-10-2016]] | privind promovarea utilizării energiei din surse regenerabile | 63 | 2025-12-30 | [[L-227-2025]] |
 | [[L-19-2016]] | metrologiei | 26 | 2026-06-24 | [[L-227-2025]] |
 | [[L-108-2016]] | cu privire la gazele naturale | 144 | 2026-08-25 | [[L-227-2025]] |
@@ -85,6 +85,6 @@ Trei legi de modificare ingerate în aceeași zi, [[L-227-2025]] (optimizarea pr
 | [[L-28-2024]] | cu privire la frontiera de stat a Republicii Moldova | 63 | 2026-01-01 | [[L-227-2025]] |
 | [[L-67-2024]] | privind regimul explozivilor de uz civil | 35 | 2026-04-02 | [[L-317-2025]] |
 | [[L-82-2024]] | privind controalele oficiale în domeniul agroalimentar | 98 | 2026-05-08 | [[L-140-2025]] |
-| [[COD-246-2024]] | CODUL SUBSOLULUI | 98 | 2026-05-29 | [[L-317-2025]] |
+| [[COD-246-2024]] | CODUL SUBSOLULUI | 99 | 2026-05-29 | [[L-317-2025]] |
 | [[L-164-2025]] | cu privire la energia electrică | 151 | 2026-06-26 | [[L-317-2025]] |
 

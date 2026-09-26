@@ -2363,3 +2363,79 @@
 - **Aflat:** două liste diferite se numeau „neingerate” (23 din registrul in-force, 23 din perimetrul actelor permisive). La 3 versiuni data dedusă din rîndul de modificare era mai veche decît data versiunii și ar fi ascuns versiunea de registru. Versiunile din 30.11.2027 ale actelor modificate de LP140 poartă rînd de modificare LP140, deci confirmă amînarea din LP317; L-121/2018 nu are versiune din 2027-11-30 (îi ia locul abrogarea din 27.03.2027).
 - **Decis:** Eugen a ales ambele seturi și fișiere separate marcate „viitor”, nu înlocuirea textului de azi; graful de citare și registrul HCC le ocolesc (subfolder), iar registrul in-force le citește. Data din lista legis.md are prioritate asupra celei dedusă din rîndul de modificare.
 - **Unde:** `raw/papers/moldova-legal/viitor/` (46 de fișiere), `concepts/consolidari-viitoare-ingerate.md`, `_meta/imports/moldova-legal/ingest_business_law.py`, `verify_business_law.py`, `_meta/inforce/build_inforce_register.py`, manifest secțiunea AX, `index.md`.
+
+## [2026-09-26] update | Audit complet și remediere: pagini vechi, trei acte fără ancore, regulă nouă în validator, registru act cu act
+
+- **Aflat:** toate controalele generate treceau (0 erori), dar trei acte din commit-ul „Extinde perimetrul juridic general”
+  (`COD-1316-2000`, `L-69-2016`, `L-230-2022`) intraseră prin `web_extract` din exportul PDF, fără ancore și fără dată de
+  consolidare, iar tabelul de acoperire le arăta „fără structură”, nu ca defect; 16 din grupurile „nerezolvate” ale grafului
+  erau artefacte ale lui `L-230-2022`. Versiunile deținute erau și vechi: Codul familiei din 14.08.2020 (curentă: 06.08.2026),
+  legea notarilor din 25.12.2020 (curentă: 23.06.2026), legea dreptului de autor textul din 2022 (curentă: 10.06.2025). Trei pagini
+  de entitate descriau versiunea de dinainte de 4 septembrie; `L-1134-1997` avea capitalul minim citat la art. 40 în loc de
+  art. 38 alin. (2) și CNPF-ul legat de art. 38, iar `L-192-1998` avea art. 3 și mandatul CNPF în forma dinaintea `L-178-2020`.
+  Șapte articole reale fără ancoră în acte bune (`COD-150-2014` x5, `COD-246-2024` art. 46, `L-100-2017` art. 52). `L-108-2016` și
+  `L-212-2004` art. 42 citează încă art. 17-20 din legea stării de urgență, abrogate prin LP248/2025.
+- **Decis:** (Eugen, „ai permisiunea mea pentru toate etapele”) ancore inserate deasupra liniilor sursă, neatinse, cu
+  strip-and-compare și `sha256_pre_anchor_insert`; regula `raw.unanchored-article` (avertisment, excepții structurale măsurate);
+  registrul act cu act generat (`_meta/coverage/act-register.md`, în `close_session.py`), în locul rîndurilor scrise de mînă în
+  manifest. **Reingerarea celor trei acte, făcută după ce Eugen a trecut bifa Cloudflare** (bifa n-o face asistentul): cinci HTML-uri din Edge prin `fetch` în pagină + descărcare (POST către un receptor local a atîrnat de două ori; mărimile verificate: 330465, 330325, 296652, 630962, 618384 octeți); `ingest_business_law.py` pe cele cinci intrări, `verify_business_law.py` 0 eșecuri, 149 de titluri desfăcute cu strip-and-compare identic. Hotărîrea `HCC23/2024` (art. 108 din Codul familiei, omisiune) recuperată din versiunea 145543 în `recovered-provisions.json`; registrul HCC la zero neatribuite. Graful: 187 → 126 de trimiteri nerezolvate. Citirea integrală a celor 54 de pagini mecanice nu s-a făcut; coada e în registru, ordonată după numărul de acte care le citează.
+- **Unde:** `_meta/lint/audit-2026-09-26-full.md`, `_meta/plans/2026-09-26-remediere-audit.md`, `entities/L-1134-1997.md`,
+  `L-192-1998.md`, `L-100-2017.md`, `HG-1171-2018.md`, `COD-1316-2000.md`, `L-69-2016.md`, `L-230-2022.md`, `CLAUDE.md`,
+  `_meta/schema/{validate_wiki.py,schema-spec.yaml}`, `_meta/imports/moldova-legal/{ingest,verify}_business_law.py`,
+  `raw/papers/moldova-legal/{COD-150-2014,COD-246-2024,L-100-2017,COD-1316-2000,L-69-2016,L-230-2022}.md` și 2 fișiere în `viitor/` (backup-uri în
+  `wiki-backups/wiki-2026-09-26-anchor-insert/` și `…-reingerare-3-acte/`), `_meta/hcc/recovered-provisions.json`, manifest secțiunea AY.
+
+## [2026-09-26] update | Rămășițele auditului: paginile mecanice, consolidările vechi, amînările în proză, avertismentele
+
+- **Aflat:** (1) cele 54 de pagini mecanice aveau afirmații vechi (16 spuneau „consolidări viitoare neingerate”, 5 aveau numărul de ancore greșit, pagina de
+  perimetru la fel); un rezumat mecanic al modificărilor LP227/317/140 (169 de puncte, 103 texte noi ghilimetate, 99 găsite în textul deținut, 0 lipsă după
+  verificare manuală a celor 4 aparente; 62 de texte scoase, 23 dispărute) nu arată nicio modificare neaplicată; nu s-a citit niciun act integral. (2) Din 36 de acte cu
+  consolidare de peste doi ani, 34 sînt încă cea mai nouă în vigoare pe legis.md; **`HG-1171-2018` are o versiune nouă, 156468, din 22.09.2026**, și `L-23-2008`
+  și `L-24-2008` au cîte una viitoare din 01.03.2027; toate trei neingerate. (3) O amînare în proză nevăzută de registru: `COD-95-2021` art. 426 alin. (1) lit. c),
+  art. 49, 140, 180, 336, 337 de la 01.01.2027; adăugate în registru. (4) Un `` rătăcit în regexul „abrogat” din `build_citation_graph.py`, îl făcea
+  să nu potrivească niciodată. (5) `L-283-2003` avea rîndul „articole detectate: 48”; sînt 46.
+- **Decis:** (Eugen, „remediază tot ce a rămas deschis”) `amendment_digest.py` și blocul „Ce modifică legile din perimetru” pe cele 54 de pagini; linii vechi corectate;
+  `build_prose_deferral_candidates.py` în `close_session.py`; prezentarea BNM 236 declarată `image-only-slides`, `language: ro` (citită din paginile randate 2 și 4);
+  rîndul din `L-283-2003` corectat cu dovadă de hash (`sha256_pre_count_fix`). **Neexecutat, cu motiv:** ingerarea `HG-1171-2018` (156468) și a celor două
+  viitoare (156490, 156492), căutarea decizie HCC23/2024 și istoria art. 25-26 din `L-100-2017`, pentru că legis.md a cerut din nou bifa Cloudflare, pe care
+  n-o bifează asistentul; intrările `DOCS` sînt pregătite. Nici citirea integrală a actelor nu s-a făcut.
+- **Unde:** `_meta/imports/moldova-legal/amendment_digest.py`, `_meta/coverage/amendment-digest.json`, `_meta/inforce/{build_prose_deferral_candidates.py,prose-deferral-candidates.md,pending-consolidations.json}`,
+  `entities/` (54 pagini mecanice), `concepts/perimetrul-actelor-permisive.md`, `raw/papers/moldova-legal/L-283-2003.md`, `raw/papers/bnm/reports/documents/236__Prezentare_RI_mai_2025.pdf.md`, `_meta/graph/build_citation_graph.py`, `CLAUDE.md` (întrebarea 9).
+
+## [2026-09-26] update | HG 1171/2018 abrogat, succesorul HG 497/2026; verificarea tuturor consolidărilor cu listele de versiuni de pe legis.md
+
+- **Aflat:** verificînd cele 36 de consolidări de peste doi ani (apoi toate cele 215 acte) cu listele de versiuni de pe legis.md, **`HG-1171-2018` s-a dovedit abrogat de la 22.09.2026**
+  prin HG 497/2026, care aprobă un regulament nou cu același titlu: trei metode (transpunere, punere în aplicare, aliniere), interzicerea suprareglementării, „raport de expertiză”
+  în loc de „declarație de compatibilitate”, tranziție pînă la 1 martie 2027. Paginile de metodă (`moldova-eu-transposition-method`, `-rule-matrix`) și 14 pagini care citau HG1171
+  ca în vigoare se sprijineau pe textul abrogat. Alte constatări: `L-72-2025` are o versiune mai nouă (151457 @2026-01-01)
+  decît cea deținută; **12 acte țin ca fișier principal o consolidare cu dată viitoare, iar textul în vigoare azi nu este în vault** (`L-171-2012`, `L-1134-1997`, `COD-154-2003`,
+  `COD-443-2004`, `COD-985-2002`, `L-114-2012` și altele; CLAUDE.md, „Outstanding work” 8); art. 25-26 din `L-100-2017` au fost scoase de LP49/2024; decizia `HCC23/2024` nu se
+  găsește prin căutare pe titlu.
+- **Decis:** (Eugen, „continuă”) `HG-1171-2018` refăcut ca act abrogat, `HG-497-2026` ingerat (doc_id 156454) și citit integral (pct. 1-108, anexele nu sînt în extras), cu tabel de
+  concordanță a punctelor; metoda și matricea refăcute pe textul nou; `L-23-2008` și `L-24-2008` versiuni viitoare în `viitor/`. **Neexecutat, cu motiv:** schimbarea celor 12 fișiere
+  principale (cere ~20 de descărcări și trei conducte de ingerare, iar Cloudflare a cerut din nou bifa), refacerea `L-72-2025`, citirea celor 15 acte cu listă goală de versiuni.
+- **Unde:** `entities/HG-497-2026.md`, `entities/HG-1171-2018.md`, `concepts/moldova-eu-transposition-*.md`, `comparisons/{data-protection-108-gdpr-l195,data-protection-gdpr-l195-audit,emir-concordance-skeleton}.md`,
+  `entities/{L-100-2017,L-239-2008,HG-574-2024,HG-1170-2016,HG-743-2024,DCA-61-2024}.md`, `concepts/consolidari-viitoare-ingerate.md` (50 de fișiere), `raw/papers/moldova-legal/{HG-1171-2018,HG-497-2026}.md`,
+  `viitor/{L-23-2008,L-24-2008}--2027-03-01.md`, `CLAUDE.md`, `_meta/imports/moldova-legal/ingest_business_law.py` (+ intrări `DOCS`).
+
+## [2026-09-26] update | Schimbarea fișierelor principale cu dată viitoare cu versiunea în vigoare, la 13 acte, și refacerea `L-72-2025`
+
+- **Aflat:** verificînd listele de versiuni (215 acte), 13 acte țineau ca fișier principal o consolidare cu dată viitoare, deci textul în vigoare azi nu era în vault: `L-171-2012`
+  (legea pieței de capital), `L-1134-1997`, `L-114-2012`, `COD-154-2003`, `COD-443-2004`, `COD-985-2002`, `COD-122-2003`, `L-132-2016`, `L-133-2016`, `L-1543-1998`, `L-181-2014`,
+  `L-845-1992`, `HG-743-2024`. Cauza: reîmprospătarea din 04.09 a luat cea mai nouă versiune din listă fără să întrebe dacă e în vigoare; pentru `L-1134-1997` registrul in-force trimitea la o
+  arhivă din 2022. Pagina `COD-122-2003` spunea că art. 132^9 „nu există în consolidarea deținută pentru că e renumerotat în versiunea viitoare”; nu există nici în textul în vigoare azi (capitolul e la 138^1),
+  deci explicația era greșită. Celelalte 15 acte cu listă goală la prima trecere sînt toate la zi.
+- **Decis:** (Eugen, „continuă”) `swap_future_main.py`: 21 de HTML din Edge (mărimi verificate), fișierul principal := versiunea în vigoare, toate versiunile viitoare (20 de fișiere noi) în `viitor/`,
+  predecesorii arhivați în `_archive/raw/before-swap-2026-09-26/`, titluri desfăcute în 34 de fișiere cu strip-and-compare identic, `verify_business_law.py` 0 eșecuri; cele 14 pagini de entitate refăcute
+  (nota de actualizare, statutul, `COD-122-2003`, `L-114-2012`, `L-171-2012`, `L-1134-1997`, `L-72-2025`). `L-325-2025` rămîne cu fișier principal viitor (legea intră în vigoare abia la 2027-01-01).
+- **Unde:** `_meta/imports/moldova-legal/{swap_future_main,ingest_business_law,verify_business_law}.py`, `raw/papers/{cnpf,bnm/legal-ro,moldova-legal}/`, `raw/papers/moldova-legal/viitor/`, `_archive/raw/before-swap-2026-09-26/`,
+  `entities/` (14), `CLAUDE.md` („Outstanding work” 8), manifest secțiunea BA.
+
+## [2026-09-26] update | Versiuni viitoare lipsă: încă 12 fișiere în `viitor/` (82 în total)
+
+- **Aflat:** `viitor/` nu era complet nici după 25.09: lipseau versiuni viitoare ale unor acte la zi: `COD-218-2008` (șase, din 2026-12-09 pînă în 2030), `CC-1107-2002`, `COD-116-2018`, `COD-174-2018`, `COD-95-2021` (două),
+  `L-192-1998`. Prima trecere citise numai primele 4-5 intrări din lista de versiuni; un act cu mai mult de patru versiuni viitoare rămînea neobservat (`COD-218-2008`).
+- **Decis:** ingerate cele 12 (mărimi de la 151.606 la 5.452.383 octeți, verificate), titluri desfăcute cu strip-and-compare, `verify_business_law.py` 0 eșecuri; tabelul din
+  `concepts/consolidari-viitoare-ingerate.md` regenerat din fișiere (82 de rînduri). **Neexecutat:** citirea listei complete de versiuni pentru toate cele ~200 de acte; mătura completă a rămas la 8 acte din cauza
+  vitezei paginilor mari și a re-verificării Cloudflare.
+- **Unde:** `raw/papers/moldova-legal/viitor/`, `_meta/imports/moldova-legal/ingest_business_law.py` (+12 intrări `DOCS`), `concepts/consolidari-viitoare-ingerate.md`, `CLAUDE.md` („Outstanding work” 8, punctul f).

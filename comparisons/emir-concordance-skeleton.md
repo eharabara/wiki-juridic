@@ -1,7 +1,7 @@
 ---
 title: EMIR concordance skeleton — Regulamentul (UE) 648/2012 vs dreptul Moldovei
 created: '2026-07-09'
-updated: '2026-09-05'
+updated: '2026-09-26'
 type: comparison
 perimeter: legal
 tags:
@@ -32,6 +32,7 @@ sources:
 - raw/papers/cnpf/L-178-2020.md
 - raw/papers/cnpf/L-234-2016.md
 - raw/papers/moldova-legal/L-100-2017.md
+- raw/papers/moldova-legal/HG-497-2026.md
 - raw/papers/moldova-legal/HG-1171-2018.md
 - _archive/emir-2026-07/emir-audit-conformitate-lege100-hg1171-2026-07-10.md
 - _archive/emir-2026-07/emir-draft-complet-2026-07-10.md
@@ -43,7 +44,7 @@ confidence: medium
 
 ## Scop și statut
 
-Această pagină transformă recomandarea din [[_archive/emir-2026-07/test-metoda-transpunere-emir-2026-07-09|test-metoda-transpunere-emir-2026-07-09]] într-un prim **schelet de concordanță articol-cu-articol** pentru EMIR. Nu este încă tabelul oficial de concordanță cerut de [[HG-1171-2018]] și [[L-100-2017]]; este un instrument de lucru pentru a decide ce trebuie redactat, ce trebuie verificat și ce instituție este competentă.
+Această pagină transformă recomandarea din [[_archive/emir-2026-07/test-metoda-transpunere-emir-2026-07-09|test-metoda-transpunere-emir-2026-07-09]] într-un prim **schelet de concordanță articol-cu-articol** pentru EMIR. Nu este încă tabelul oficial de concordanță cerut de [[HG-497-2026]] (în vigoare din 22.09.2026; pînă atunci [[HG-1171-2018]]) și [[L-100-2017]]; este un instrument de lucru pentru a decide ce trebuie redactat, ce trebuie verificat și ce instituție este competentă.
 
 Verdictul de lucru rămâne: **EMIR nu poate fi marcat ca transpus demonstrat**. Există sursă EUR-Lex, pagină de acquis, analiză de schelet național și ancore moldovenești parțiale, dar lipsește încă un tabel complet cu calificative de compatibilitate pentru fiecare obligație relevantă. Vezi [[acquis-CSDR-EMIR]], [[cnpf-transposition-matrix]] și [[_archive/emir-2026-07/verificare-schelet-lege-emir-2026-07-03|verificare-schelet-lege-emir-2026-07-03]].
 
@@ -69,7 +70,7 @@ Verdictul de lucru rămâne: **EMIR nu poate fi marcat ca transpus demonstrat**.
 | CNPF | piața de capital, societăți de investiții, OPC/administratori, participanți la piața de capital, eventual emitenți/contrapărți din perimetrul său | [[L-171-2012]] și [[L-192-1998]] oferă baza de piață de capital, dar nu acoperă toate contrapărțile EMIR. |
 | BNM | bănci, asigurări/reasigurări, DCU și alte entități transferate la BNM sau supravegheate prudențial de BNM | [[L-178-2020]] și [[L-234-2016]] fac imposibilă o lege EMIR pur CNPF-only. |
 | CNPF + BNM | schimb de date, raportări, risc sistemic, cooperare cu ESMA/autorități străine, decizii privind CPC/TR eligibile | Art. 22–25, 81, 83–84 EMIR impun cooperare și acces la informații. |
-| Parlament / Guvern | lege primară, modificări conexe, norme de punere în aplicare și dosarul de armonizare | [[L-100-2017]] și [[HG-1171-2018]] cer clauză, tabel, notă și expertiză de compatibilitate. |
+| Parlament / Guvern | lege primară, modificări conexe, norme de punere în aplicare și dosarul de armonizare | [[L-100-2017]] și [[HG-497-2026]] cer clauză, tabel, notă și expertiză de compatibilitate. |
 
 ## Schelet de concordanță EMIR → Moldova
 
@@ -102,7 +103,7 @@ Verdictul de lucru rămâne: **EMIR nu poate fi marcat ca transpus demonstrat**.
 | Art. 81 | Transparență și disponibilitatea datelor TR pentru autorități. | Nu există model demonstrat de acces CNPF/BNM la date TR EMIR. | lacună | CNPF + BNM | Prevede accesul CNPF/BNM la date, schimb intern obligatoriu, confidențialitate, calitatea datelor și eventual acces pentru stabilitate financiară. | `[raw/papers/cnpf/UE-648-2012-priority-articles-2026-07-09.md art.81]` |
 | Art. 83 | Secret profesional. | Scheletul național are articol dedicat; CNPF/BNM au regimuri generale, dar textul trebuie acoperit EMIR-specific. | parțial | CNPF + BNM | Acoperă personal actual/fost, auditori, experți, CNPF, BNM, ESMA/autorități externe și excepții procedural-penale/civile/fiscale. | `[raw/papers/cnpf/UE-648-2012-priority-articles-2026-07-09.md art.83]` |
 | Art. 84 | Schimbul de informații. | Scheletul are articol dedicat, dar trebuie corelat cu art. 81 și cooperarea externă. | parțial | CNPF + BNM | Introduce bază legală de schimb de informații, condiții de utilizare, confidențialitate, reciprocitate și schimb CNPF-BNM. | `[raw/papers/cnpf/UE-648-2012-priority-articles-2026-07-09.md art.84]` |
-| Art. 89 | Dispoziții tranzitorii. | Proiectul MD are nevoie de tranziții proprii, dar HG1171 impune atenție specială pentru regulamente. | pending / decizie | Parlament / Guvern | Stabilește intrare în vigoare etapizată, termene IT/raportare/clearing, norme secundare și mecanism de abrogare/adaptare la aderare. | `[raw/papers/cnpf/UE-648-2012-priority-articles-2026-07-09.md art.89]` |
+| Art. 89 | Dispoziții tranzitorii. | Proiectul MD are nevoie de tranziții proprii, dar HG 497/2026 interzice, pentru regulamente și decizii, perioade de tranziție condiționate de aderare (pct.37) și reglementează soarta actelor naționale la aderare (pct.38, 46). | pending / decizie | Parlament / Guvern | Stabilește intrare în vigoare etapizată, termene IT/raportare/clearing, norme secundare și mecanism de abrogare/adaptare la aderare. | `[raw/papers/cnpf/UE-648-2012-priority-articles-2026-07-09.md art.89]` |
 
 ## Actualizare MD-TRANS după crearea scheletului
 
@@ -114,7 +115,7 @@ Verdictul de lucru rămâne: **EMIR nu poate fi marcat ca transpus demonstrat**.
 | MD-TRANS-006 | partial | Terminologia CPC/TR este fixată ca regulă; lipsește încă terminological map complet. |
 | MD-TRANS-007 | pending/high risk | Dispozițiile tranzitorii pentru regulament UE trebuie redactate separat. |
 | MD-TRANS-011 | improved / not complete | Scheletul de concordanță există; tabelul oficial complet încă lipsește. |
-| MD-TRANS-013 | partial | Sunt folosite calificative preliminare, nu încă calificativele finale HG1171. |
+| MD-TRANS-013 | partial | Sunt folosite calificative preliminare, nu încă calificativele finale din HG 497/2026 (pct.77-79; pentru un regulament precum EMIR, setul „compatibil / parțial compatibil / incompatibil / direct aplicabile la aderare / neacoperite de măsuri naționale / neaplicabile”). |
 
 ## Întrebări de decizie înainte de text normativ
 

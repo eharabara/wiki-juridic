@@ -208,6 +208,35 @@ def check_raw_page_level_refs(rp, body_text, rep, citation_rules):
                      f"{rp}: cites `{raw_path}` with no article/point locator in the bracket")
 
 
+def check_unanchored_articles(rp, base, st, body_text, ua, rep):
+    """Avertizeaza cand un act legal are linii de articol fara ancora (constatarea A1, 2026-09-26).
+
+    Numara doar liniile de dupa prima ancora `## Articol`, ca sa nu prinda cuprinsul; un act fara
+    nicio ancora si cu linii de articol este cazul cel mai grav (fisier care a ocolit ingerarea).
+    Exceptiile din spec sint structurale (legi modificatoare cu articole romane, extrase UE).
+    """
+    if st != "legal-text" or not rp.startswith(tuple(ua["roots"])):
+        return
+    stem = base[:-3] if base.endswith(".md") else base
+    if stem in ua["exempt_stems"] or stem.startswith(tuple(ua["exempt_stem_prefixes"])):
+        return
+    line_re = re.compile(ua["line_pattern"])
+    anchor_re = re.compile(ua["anchor_prefix_pattern"])
+    range_re = re.compile(ua["range_exclude_pattern"])
+    lines = body_text.split("\n")
+    first = next((i for i, l in enumerate(lines) if anchor_re.match(l)), -1)
+    bad, prev_nonempty = [], ""
+    for i, l in enumerate(lines):
+        if i > first and line_re.match(l) and not range_re.match(l) and not anchor_re.match(prev_nonempty):
+            bad.append(l.strip()[:60])
+        if l.strip():
+            prev_nonempty = l
+    if bad:
+        anchored = sum(1 for l in lines if anchor_re.match(l))
+        rep.warn("raw.unanchored-article",
+                 f"{rp}: {len(bad)} article line(s) without an anchor ({anchored} anchored); first: `{bad[0]}`")
+
+
 def is_undeclared_translation(st, marker_count, rp, base, translation_rules, working_prefixes):
     """Apply D2's English-marker heuristic only to the Moldovan and BNM legal corpus.
 
@@ -504,6 +533,7 @@ def main():
             n_en = len(en_re.findall(body_text))
             if st == "translation" and tr["anchors_forbidden"] and n_anchor:
                 rep.error("raw.translation-anchored", f"{rp}: {n_anchor} `## Articolul` anchors on a translation (D2)")
+            check_unanchored_articles(rp, base, st, body_text, raw_rules["unanchored_articles"], rep)
             if is_undeclared_translation(st, n_en, rp, base, tr, working_prefixes):
                 rep.warn("raw.translation-undeclared", f"{rp}: {n_en} `Article N` lines, source_type still `legal-text` (D2, pending P9)")
     stats["raw sources checked"] = n_raw

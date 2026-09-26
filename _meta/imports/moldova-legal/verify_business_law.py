@@ -24,6 +24,11 @@ for stem, doc in ibl.DOCS.items():
     # pentru toate celelalte. Se sare peste, vizibil, si se continua.
     RAWF = (RAW / doc["subdir"]) if doc.get("subdir") else RAW
     if not (RAWF / f"{stem}.md").exists():
+        for _alt in (RAW.parent / "cnpf", RAW.parent / "bnm" / "legal-ro"):
+            if (_alt / f"{stem}.md").exists():
+                RAWF = _alt
+                break
+    if not (RAWF / f"{stem}.md").exists():
         print("  SARIT: actul nu este inca ingerat (intrare DOCS fara fisier in raw/)")
         continue
     if not (META / f"showdetails-{doc['doc_id']}.html").exists():
@@ -47,10 +52,18 @@ for stem, doc in ibl.DOCS.items():
     # nu vine din sursa. Se elimina complet; linia sursa de dedesubt ramine si se compara.
     mode = doc.get('anchor_mode')
     INSERTED = re.compile(r'^## Articolul [IVXLCDM]+\.$')
+    # Ancore inserite 2026-09-26 (regula raw.unanchored-article): linii NOI `## Articolul N.` puse
+    # deasupra unei linii-sursa ramasa fara ancora si listate in frontmatter (`anchors_inserted`).
+    # Se elimina ca cele romane; linia-sursa de dedesubt ramine si se compara.
+    ins_m = re.search(r'^anchors_inserted: \[(.*?)\]', md.split(marker, 1)[0], re.M)
+    inserted_nums = {x.strip().strip("'\"") for x in ins_m.group(1).split(',')} if ins_m else set()
+    nonempty = [l.strip() for l in body.split('\n') if l.strip()]
     written, is_heading = [], []
-    for line in body.split('\n'):
-        line = line.strip()
-        if not line:
+    for idx_l, line in enumerate(nonempty):
+        m_ins = re.match(r'^## Articolul (\d+(?:\^\d+)?)\.', line)
+        if (m_ins and m_ins.group(1) in inserted_nums and idx_l + 1 < len(nonempty)
+                and re.match(r'^(?:Articolul|Articol|Art\.)\s*' + re.escape(m_ins.group(1)) + r'(?![\d^])',
+                             nonempty[idx_l + 1])):
             continue
         if mode == 'roman-amending' and INSERTED.match(line):
             continue
@@ -135,7 +148,8 @@ for stem, doc in ibl.DOCS.items():
     # 4. superscript anchors present in caret form
     # forma cu bara, Articolul 54^1/1 din Codul fiscal, este un articol distinct de 54^1;
     # daca regexul se opreste la 54^1 apare un fals duplicat
-    sup_anchors = re.findall(r'^## Articolul (\d+\^\d+(?:/\d+)?)', md, re.M)
+    sup_anchors = [a for a in re.findall(r'^## Articolul (\d+\^\d+(?:/\d+)?)', md, re.M)
+                   if a not in inserted_nums]
     # "Articolul" si numarul pot sta in elemente separate:
     #   <strong>Articolul</strong>&nbsp;<strong>45<sup>1</sup>.</strong>
     # text_content() le uneste corect, deci ancora e buna; regexul de control trebuie sa

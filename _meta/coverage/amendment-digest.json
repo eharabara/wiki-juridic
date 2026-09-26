@@ -1,0 +1,1489 @@
+{
+ "COD-150-2014": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XXVII",
+    "points": 30,
+    "targets": [
+     "1. Articolul 5 alineatul (1):",
+     "2. La articolul 9 alineatul (2), litera h) va avea următorul cuprins:",
+     "3. Articolul 13:",
+     "4. Articolul 14:",
+     "5. La articolul 23:",
+     "6. La articolul 25:",
+     "7. La articolul 31^30alineatul (1) litera e), cuvântul „nerestricționate” se exclude.",
+     "8. La articolul 31^31alineatul (2) litera d), cuvintele „că au utilizat autorizații false sau",
+     "9. Articolul 31^32:",
+     "10. Articolul 31^33:",
+     "11. Articolul 31^34:",
+     "12. Articolul 31^36:",
+     "13. La articolul 38 alineatul (21) litera g), textul „5 încălcări” se substituie cu textul „5 ",
+     "14. Articolul 39:",
+     "15. La articolul 62:",
+     "16. La articolul 91, literele f) și g) se abrogă.",
+     "17. La articolul 102, literele b) și c) se abrogă.",
+     "18. Articolul 103:",
+     "19. Articolul 115:",
+     "20. La articolul 119:",
+     "21. La articolul 122, alineatul (4) se abrogă.",
+     "22. La articolul 123 alineatul (1), textul „un termen de 5 ani” se substituie cu cuvintele „te",
+     "23. La articolul 124:",
+     "24. Articolul 126:",
+     "25. La articolul 129, alineatul (1) se completează cu litera h) cu următorul cuprins:",
+     "26. La articolul 132:",
+     "27. La articolul 134:",
+     "28. La articolul 135:",
+     "29. Articolul 136 se abrogă.",
+     "30. Capitolul 7 din titlul V se abrogă."
+    ],
+    "absent_examples": []
+   },
+   {
+    "law": "LP317",
+    "art": "X",
+    "points": 3,
+    "targets": [
+     "1. La articolul 5 alineatul (1), noțiunea „transport rutier în trafic local” va avea următoru",
+     "2. La articolul 33 alineatul (3), în enunțul al doilea, textul „asociațiilor de dezvoltare in",
+     "3. Articolul 62^1 se completează cu alineatele (5) și (6) cu următorul cuprins:"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 33,
+  "quotes": 16,
+  "in_current": 16,
+  "only_future": {},
+  "absent": 0,
+  "old": 10,
+  "old_gone": 3,
+  "old_present": 7,
+  "old_examples": [
+   "LP227 art. XXVII pct. 10: b) în cazul operatorilor de transport rutier care solicită un număr de autorizații CEMT mai mic decâ",
+   "LP227 art. XXVII pct. 12: doar autorizația la care au fost depistate neregulile",
+   "LP227 art. XXVII pct. 12: f) autorizația CEMT nu este însoțită de carnetul de drum completat cu înregistrările corespunzătoare"
+  ],
+  "future_files": []
+ },
+ "COD-246-2024": {
+  "refs": [
+   {
+    "law": "LP317",
+    "art": "XVI",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "COD-259-2004": {
+  "refs": [
+   {
+    "law": "LP140",
+    "art": "V",
+    "points": 2,
+    "targets": [
+     "1. În cuprinsul codului, cu excepția articolului 114, cuvintele „politica de stat”, „politica",
+     "2. La articolul 59, alineatul (2) va avea următorul cuprins:"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 2,
+  "quotes": 1,
+  "in_current": 1,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "COD-3-2009": {
+  "refs": [
+   {
+    "law": "LP317",
+    "art": "V",
+    "points": 3,
+    "targets": [
+     "1. La articolul 22^1 alineatul (3), textul „15 zile” se substituie cu textul „10 zile lucrăto",
+     "2. La articolul 22^2 alineatul (3), textul „15 zile” se substituie cu textul „10 zile lucrăto",
+     "3. La articolul 78:"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 3,
+  "quotes": 2,
+  "in_current": 2,
+  "only_future": {},
+  "absent": 0,
+  "old": 1,
+  "old_gone": 0,
+  "old_present": 1,
+  "old_examples": [
+   "LP317 art. V pct. 3: (6) Termenul de valabilitate al permisiunii pentru obținerea și depozitarea materialelor explozive e"
+  ],
+  "future_files": []
+ },
+ "L-10-2009": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XIX",
+    "points": 4,
+    "targets": [
+     "1. Articolul 22 se completează cu alineatele (3)–(10) cu următorul cuprins:",
+     "2. Anexa nr. 1 va avea următorul cuprins:",
+     "3. În anexa nr. 1^1, secțiunea II va avea următorul cuprins:",
+     "4. În anexa nr. 2, pozițiile G 46.46, 46.71, 47.30 și 47.73 se exclud."
+    ],
+    "absent_examples": []
+   },
+   {
+    "law": "LP317",
+    "art": "VI",
+    "points": 2,
+    "targets": [
+     "1. La articolul 42, alineatele (4) și (5) se abrogă.",
+     "2. La articolul 43, alineatul (2) se abrogă."
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 6,
+  "quotes": 2,
+  "in_current": 2,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-10-2016": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XXVIII",
+    "points": 2,
+    "targets": [
+     "1. Articolul 20 se completează cu alineatul (2^1) cu următorul cuprins:",
+     "2. La articolul 25, alineatul (3) va avea următorul cuprins:"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 2,
+  "quotes": 2,
+  "in_current": 2,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-102-2017": {
+  "refs": [
+   {
+    "law": "LP140",
+    "art": "XV",
+    "points": 2,
+    "targets": [
+     "1. La articolul 4 alineatul (1), cuvintele „centrală în subordinea Guvernului” se substituie ",
+     "2. La articolul 16 alineatul (2), cuvintele „autoritatea publică centrală” se substituie cu c"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 2,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-105-2018": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XXXV",
+    "points": 3,
+    "targets": [
+     "1. La articolul 27:",
+     "2. Articolul 27^1:",
+     "3. Articolul 58:"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 3,
+  "quotes": 7,
+  "in_current": 7,
+  "only_future": {},
+  "absent": 0,
+  "old": 5,
+  "old_gone": 3,
+  "old_present": 2,
+  "old_examples": [
+   "LP227 art. XXXV pct. 2: d) agenția privată dispune de spațiu ușor accesibil tuturor categoriilor de persoane, dotat cu mijlo",
+   "LP227 art. XXXV pct. 3: c) agenția privată dispune de spațiu ușor accesibil tuturor categoriilor de persoane, dotat cu mijlo"
+  ],
+  "future_files": [
+   "2026-12-10"
+  ]
+ },
+ "L-108-2016": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XXX",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-1100-2000": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "V",
+    "points": 2,
+    "targets": [
+     "1. Articolul 16:",
+     "2. La articolul 18 alineatul (5), ultimul enunț se exclude."
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 2,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 1,
+  "old_gone": 1,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-114-2014": {
+  "refs": [
+   {
+    "law": "LP140",
+    "art": "XIII",
+    "points": 5,
+    "targets": [
+     "1. În cuprinsul legii, cuvintele „director general”, la orice formă gramaticală, se substitui",
+     "2. Articolul 6:",
+     "3. La articolul 7 alineatul (1), litera c) va avea următorul cuprins:",
+     "4. La articolul 10 alineatul (1), cuvintele „pe lângă Guvern” se substituie cu cuvintele „pe ",
+     "5. La articolul 26 alineatul (3), cuvintele „de Guvern” se substituie cu cuvintele „de către "
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 5,
+  "quotes": 2,
+  "in_current": 2,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-116-2014": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XXV",
+    "points": 2,
+    "targets": [
+     "1. La articolul 6 alineatul (2), litera j) va avea următorul cuprins:",
+     "2. La articolul 8 alineatul (4):"
+    ],
+    "absent_examples": []
+   },
+   {
+    "law": "LP317",
+    "art": "IX",
+    "points": 6,
+    "targets": [
+     "1. La articolul 2, noțiunea „viză de exploatare” se exclude.",
+     "2. La articolul 6 alineatul (2), litera k) va avea următorul cuprins:",
+     "3. La articolul 8 alineatul (4), litera b) va avea următorul cuprins:",
+     "4. Articolul 9 va avea următorul cuprins:",
+     "5. La articolul 12 alineatul (1), litera b) se abrogă.",
+     "6. La articolul 19 alineatul (2), textul „suspendarea sau retragerea vizei de exploatare și/s"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 8,
+  "quotes": 6,
+  "in_current": 6,
+  "only_future": {},
+  "absent": 0,
+  "old": 1,
+  "old_gone": 1,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-119-2004": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "X",
+    "points": 2,
+    "targets": [
+     "1. La articolul 3, noțiunea „autorizare a obiectului” se exclude.",
+     "2. La articolul 15^1 alineatul (6), cuvintele „și eliberează gratis agenților economici extra"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 2,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 1,
+  "old_gone": 1,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-119-2018": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XXXVI",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   },
+   {
+    "law": "LP140",
+    "art": "XVII",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": [
+   "2027-11-30"
+  ]
+ },
+ "L-130-2012": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XXI",
+    "points": 2,
+    "targets": [
+     "1. La articolul 7 alineatul (1), litera c) va avea următorul cuprins:",
+     "2. La articolul 45 alineatul (1), în partea introductivă, după cuvintele „pot fi autorizate” "
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 2,
+  "quotes": 1,
+  "in_current": 1,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-131-2007": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XIII",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   },
+   {
+    "law": "LP317",
+    "art": "III",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": [
+   "2027-01-23",
+   "2029-01-01"
+  ]
+ },
+ "L-132-2012": {
+  "refs": [
+   {
+    "law": "LP317",
+    "art": "VIII",
+    "points": 3,
+    "targets": [
+     "1. La articolul 19, alineatele (5) și (15) vor avea următorul cuprins:",
+     "2. La articolul 23, alineatul (3) va avea următorul cuprins:",
+     "3. În anexa nr. 3, textul „L.Ș.” se exclude."
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 3,
+  "quotes": 3,
+  "in_current": 3,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-143-2014": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XXVI",
+    "points": 2,
+    "targets": [
+     "1. La articolul 19 alineatul (1), în partea introductivă, după cuvintele „se eliberează” se i",
+     "2. Articolul 20:"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 2,
+  "quotes": 1,
+  "in_current": 1,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-1456-1993": {
+  "refs": [
+   {
+    "law": "LP317",
+    "art": "I",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   },
+   {
+    "law": "LP140",
+    "art": "I",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-149-2006": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XII",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": [
+   "2027-03-24"
+  ]
+ },
+ "L-156-2007": {
+  "refs": [
+   {
+    "law": "LP140",
+    "art": "VII",
+    "points": 12,
+    "targets": [
+     "1. În cuprinsul legii, cuvintele „unitățile teritoriale autonome cu statut special” se substi",
+     "2. La articolul 4 alineatul (1), după cuvintele „reprezentantul serviciului civil” se introdu",
+     "3. În denumirea capitolului II, cuvintele „CENTRALE ALE” se exclud.",
+     "4. Articolul 7 se abrogă.",
+     "5. Articolul 7^1 va avea următorul cuprins:",
+     "6. Articolul 8 se abrogă.",
+     "7. La articolul 9:",
+     "8. La articolul 10:",
+     "9. La articolul 14 alineatul (2), cuvintele „în centrul de instrucție” se substituie cu textu",
+     "10. La articolul 21, cuvintele „răspundere penală” se substituie cu cuvintele „răspundere juri",
+     "11. La articolul 23:",
+     "12. La articolul 24 alineatul (1), cuvintele „din teritoriu” se exclud."
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 12,
+  "quotes": 6,
+  "in_current": 6,
+  "only_future": {},
+  "absent": 0,
+  "old": 4,
+  "old_gone": 2,
+  "old_present": 2,
+  "old_examples": [
+   "LP140 art. VII pct. 1: unitățile teritoriale autonome cu statut special",
+   "LP140 art. VII pct. 11: (2) Hotărârea privind încheierea serviciului civil se adoptă de către reprezentantul serviciului civ"
+  ],
+  "future_files": []
+ },
+ "L-1585-1998": {
+  "refs": [
+   {
+    "law": "LP140",
+    "art": "III",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-164-2025": {
+  "refs": [
+   {
+    "law": "LP317",
+    "art": "XVIII",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-179-2016": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XXXI",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": [
+   "2027-01-01"
+  ]
+ },
+ "L-19-2016": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XXIX",
+    "points": 3,
+    "targets": [
+     "1. La articolul 3 noțiunea „desemnare”, după textul „decizie cu relevanță legală,” se introdu",
+     "2. Articolul 15:",
+     "3. Articolul 17:"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 3,
+  "quotes": 6,
+  "in_current": 6,
+  "only_future": {},
+  "absent": 0,
+  "old": 5,
+  "old_gone": 1,
+  "old_present": 4,
+  "old_examples": [
+   "LP227 art. XXIX pct. 3: După recepționarea notificării, autoritatea centrală de metrologie include persoana în cauză în Regi",
+   "LP227 art. XXIX pct. 3:  , cu 10 zile lucrătoare până la inițierea activității,",
+   "LP227 art. XXIX pct. 3: (5) Suspendarea înregistrării sau radierea din Registrul entităților desemnate în sistemul național "
+  ],
+  "future_files": [
+   "2027-01-01",
+   "2030-01-01"
+  ]
+ },
+ "L-209-2016": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XXXII",
+    "points": 3,
+    "targets": [
+     "1. Articolul 62^2:",
+     "2. La articolul 64 alineatul (2), cuvintele „și de consimțământ prealabil scris” se exclud.",
+     "3. În anexa nr. 3^1 tabelul 5, pozițiile 2 și 3 se exclud."
+    ],
+    "absent_examples": []
+   },
+   {
+    "law": "LP317",
+    "art": "XI",
+    "points": 2,
+    "targets": [
+     "1. Articolul 25:",
+     "2. În anexa nr. 3^1 tabelul 5 poziția 1, textul „5 ani” se substituie cu textul „6 ani”."
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 5,
+  "quotes": 2,
+  "in_current": 2,
+  "only_future": {},
+  "absent": 0,
+  "old": 1,
+  "old_gone": 0,
+  "old_present": 1,
+  "old_examples": [
+   "LP227 art. XXXII pct. 1: a) luarea unei decizii scrise în baza notificării privind transferul planificat;"
+  ],
+  "future_files": []
+ },
+ "L-221-2007": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XIV",
+    "points": 2,
+    "targets": [
+     "1. La articolul 18 alineatul (2), litera d) se abrogă.",
+     "2. Anexa nr. 6:"
+    ],
+    "absent_examples": []
+   },
+   {
+    "law": "LP140",
+    "art": "VIII",
+    "points": 5,
+    "targets": [
+     "1. În cuprinsul legii, cuvintele „director general”, la orice formă gramaticală, se substitui",
+     "2. Articolul 2:",
+     "3. La articolul 3 alineatul (2), cuvintele „subordonată Guvernului” se substituie cu cuvintel",
+     "4. Articolul 4:",
+     "5. La articolul 5 alineatul (2) litera d), după cuvântul „promovează” se introduce textul „ ,"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 7,
+  "quotes": 3,
+  "in_current": 0,
+  "only_future": {
+   "2027-11-30": 3
+  },
+  "absent": 0,
+  "old": 2,
+  "old_gone": 0,
+  "old_present": 2,
+  "old_examples": [
+   "LP140 art. VIII pct. 2: autoritate publică centrală de supraveghere sanitară veterinară",
+   "LP140 art. VIII pct. 4: autoritatea publică centrală de supraveghere sanitară veterinară aflată în subordinea Guvernului"
+  ],
+  "future_files": [
+   "2026-11-13",
+   "2027-11-30"
+  ]
+ },
+ "L-227-2022": {
+  "refs": [
+   {
+    "law": "LP317",
+    "art": "XIV",
+    "points": 10,
+    "targets": [
+     "1. Articolul 2:",
+     "2. La articolul 3, noțiunea „risc nesemnificativ” se exclude.",
+     "3. La articolul 7 alineatul (2) literele c) și e), textul „anexele nr. 1–3” se substituie cu ",
+     "4. La articolul 10 alineatul (1), litera b) se abrogă.",
+     "5. La articolul 12, alineatul (7) se abrogă.",
+     "6. La articolul 21 alineatul (5), textul „în anexele nr. 2 și 3” se substituie cu textul „în ",
+     "7. Articolul 28 se abrogă.",
+     "8. La articolul 32 alineatul (2), textul „anexele nr. 1–3” se substituie cu textul „anexele n",
+     "9. Anexa nr. 2 va avea următorul cuprins:",
+     "10. Anexa nr. 3 se abrogă."
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 10,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-239-2007": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XV",
+    "points": 2,
+    "targets": [
+     "1. Articolul 21:",
+     "2. La articolul 27 alineatul (3), textul „15 zile” se substituie cu textul „10 zile lucrătoar"
+    ],
+    "absent_examples": []
+   },
+   {
+    "law": "LP317",
+    "art": "IV",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 2,
+  "quotes": 11,
+  "in_current": 11,
+  "only_future": {},
+  "absent": 0,
+  "old": 3,
+  "old_gone": 0,
+  "old_present": 3,
+  "old_examples": [
+   "LP227 art. XV pct. 1: autoritatea centrală abilitată cu gestiunea resurselor naturale și cu protecția mediului",
+   "LP227 art. XV pct. 1: autoritatea centrală abilitată cu gestiunea resurselor naturale și cu protecția mediului",
+   "LP227 art. XV pct. 1: (12) Permisul/certificatul CITES pentru import, export sau reexport se eliberează în termen de 15 zi"
+  ],
+  "future_files": []
+ },
+ "L-254-2016": {
+  "refs": [
+   {
+    "law": "LP140",
+    "art": "XIV",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-272-2011": {
+  "refs": [
+   {
+    "law": "LP317",
+    "art": "VII",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-278-2007": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XVI",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": [
+   "2027-03-01",
+   "2029-01-01",
+   "2029-03-21"
+  ]
+ },
+ "L-28-2024": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XLI",
+    "points": 2,
+    "targets": [
+     "1. La articolul 5, alineatul (9) va avea următorul cuprins:",
+     "2. Articolul 43 va avea următorul cuprins:"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 2,
+  "quotes": 2,
+  "in_current": 2,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-282-2004": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XI",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": [
+   "2027-01-01"
+  ]
+ },
+ "L-283-2003": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "IX",
+    "points": 2,
+    "targets": [
+     "1. La articolul 26, alineatul (2) se abrogă.",
+     "2. În anexa nr. 2:"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 2,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 1,
+  "old_gone": 0,
+  "old_present": 1,
+  "old_examples": [
+   "LP227 art. IX pct. 2: 29. Instalarea, modificarea și întreținerea sistemelor de alarmare se efectuează în modul următor:\na"
+  ],
+  "future_files": []
+ },
+ "L-291-2016": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XXXIII",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-296-2017": {
+  "refs": [
+   {
+    "law": "LP140",
+    "art": "XVI",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": [
+   "2027-11-30"
+  ]
+ },
+ "L-303-2013": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XXII",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-306-2018": {
+  "refs": [
+   {
+    "law": "LP317",
+    "art": "XII",
+    "points": 3,
+    "targets": [
+     "1. La articolul 14 alineatul (1), literele b) și c) vor avea următorul cuprins:",
+     "2. La articolul 31^1 alineatul (3), litera a) se abrogă.",
+     "3. În anexa nr. 4, textul „a) actul ce confirmă înregistrarea activității de întreprinzător î"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 3,
+  "quotes": 1,
+  "in_current": 1,
+  "only_future": {},
+  "absent": 0,
+  "old": 1,
+  "old_gone": 1,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-382-2001": {
+  "refs": [
+   {
+    "law": "LP140",
+    "art": "IV",
+    "points": 3,
+    "targets": [
+     "1. La articolul 20 alineatul (3), cuvintele „Organul responsabil” se substituie cu cuvintele ",
+     "2. La articolul 22, textul „ , departamentele, autoritățile administrației publice locale” se",
+     "3. Articolul 25:"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 3,
+  "quotes": 3,
+  "in_current": 3,
+  "only_future": {},
+  "absent": 0,
+  "old": 2,
+  "old_gone": 1,
+  "old_present": 1,
+  "old_examples": [
+   "LP140 art. IV pct. 3: (1) Agenția Relații Interetnice este o autoritate administrativă din subordinea Ministerului Educați"
+  ],
+  "future_files": []
+ },
+ "L-394-2023": {
+  "refs": [
+   {
+    "law": "LP140",
+    "art": "XX",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": [
+   "2027-11-30"
+  ]
+ },
+ "L-403-2023": {
+  "refs": [
+   {
+    "law": "LP140",
+    "art": "XXI",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": [
+   "2027-11-30"
+  ]
+ },
+ "L-411-1995": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "I",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-422-2023": {
+  "refs": [
+   {
+    "law": "LP140",
+    "art": "XXII",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": [
+   "2027-11-30"
+  ]
+ },
+ "L-43-2023": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XXXIX",
+    "points": 7,
+    "targets": [
+     "1. La articolul 8:",
+     "2. La articolul 9 litera e), textul „ ; propune suspendarea/retragerea autorizațiilor emise î",
+     "3. La articolul 10 alineatul (2) litera a), textul „ , importate în temeiul autorizației emis",
+     "4. La articolul 11 alineatul (3) litera a), cuvintele „autorizației emise” se substituie cu c",
+     "5. Articolul 20 va avea următorul cuprins:",
+     "6. Articolul 21 se abrogă.",
+     "7. La articolul 27 alineatul (2), cuvintele „autorizației obținute” se substituie cu cuvintel"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 7,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 4,
+  "old_gone": 3,
+  "old_present": 1,
+  "old_examples": [
+   "LP227 art. XXXIX pct. 1: d) examinează și validează notificările întreprinderilor cu privire la importul, exportul, reexportu"
+  ],
+  "future_files": []
+ },
+ "L-439-1995": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "II",
+    "points": 4,
+    "targets": [
+     "1. Articolul 17:",
+     "2. Articolul 19:",
+     "3. La articolul 22 alineatul (1), literele a) și b) vor avea următorul cuprins:",
+     "4. Articolul 26:"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 4,
+  "quotes": 14,
+  "in_current": 14,
+  "only_future": {},
+  "absent": 0,
+  "old": 10,
+  "old_gone": 0,
+  "old_present": 10,
+  "old_examples": [
+   "LP227 art. II pct. 1: autoritatea centrală abilitată cu gestiunea resurselor naturale și cu protecția mediului înconjurăto",
+   "LP227 art. II pct. 2: autoritatea centrală abilitată cu gestiunea resurselor naturale și cu protecția mediului",
+   "LP227 art. II pct. 2: (13) Permisul/certificatul CITES pentru import, export sau reexport se eliberează în termen de 15 zi"
+  ],
+  "future_files": []
+ },
+ "L-461-2001": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "VI",
+    "points": 7,
+    "targets": [
+     "1. În cuprinsul legii, cuvintele „și autorizații de import al motorinei” se exclud.",
+     "2. La articolul 2, noțiunea „autorizație de import al motorinei” se exclude.",
+     "3. La articolul 7:",
+     "4. La articolul 8 alineatul (1) litera a), cuvintele „și de autorizație de import al motorine",
+     "5. La articolul 15, alineatul (2) va avea următorul cuprins:",
+     "6. La articolul 18 alineatul (1), textul „care au autorizații respective,” se exclude.",
+     "7. Articolele 19, 20 și 21 se abrogă."
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 7,
+  "quotes": 2,
+  "in_current": 2,
+  "only_future": {},
+  "absent": 0,
+  "old": 3,
+  "old_gone": 3,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-599-1999": {
+  "refs": [
+   {
+    "law": "LP317",
+    "art": "II",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": [
+   "2026-12-28"
+  ]
+ },
+ "L-67-2024": {
+  "refs": [
+   {
+    "law": "LP317",
+    "art": "XV",
+    "points": 6,
+    "targets": [
+     "1. La articolul 4 alineatul (4), textul „prelungire,” se exclude.",
+     "2. Articolul 16:",
+     "3. Articolul 17:",
+     "4. Articolul 18:",
+     "5. Articolul 19:",
+     "6. La articolul 27, alineatul (6) va avea următorul cuprins:"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 6,
+  "quotes": 2,
+  "in_current": 2,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-68-2013": {
+  "refs": [
+   {
+    "law": "LP140",
+    "art": "XII",
+    "points": 2,
+    "targets": [
+     "1. La articolul 5 alineatul (1), textul „ , subordonată Guvernului,” se exclude.",
+     "2. La articolul 9 alineatul (7), cuvintele „autoritatea administrativă centrală responsabilă”"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 2,
+  "quotes": 1,
+  "in_current": 0,
+  "only_future": {
+   "2027-11-30": 1
+  },
+  "absent": 0,
+  "old": 1,
+  "old_gone": 0,
+  "old_present": 1,
+  "old_examples": [
+   "LP140 art. XII pct. 2: autoritatea administrativă centrală responsabilă"
+  ],
+  "future_files": [
+   "2026-11-10",
+   "2027-11-30"
+  ]
+ },
+ "L-82-2024": {
+  "refs": [
+   {
+    "law": "LP140",
+    "art": "XXIII",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": [
+   "2027-11-30",
+   "2028-05-08"
+  ]
+ },
+ "L-852-2002": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "VII",
+    "points": 8,
+    "targets": [
+     "1. La punctul 13, textul „autorizației pentru importul, exportul sau reexportul substanțelor ",
+     "2. La punctul 13^1, primul alineat se exclude.",
+     "3. Punctele 13^2 și 13^3 se abrogă.",
+     "4. Punctul 13^4 va avea următorul cuprins:",
+     "5. La punctul 14:",
+     "6. Punctul 17 se abrogă.",
+     "7. Punctul 19 va avea următorul cuprins:",
+     "8. Punctul 20 se abrogă."
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 8,
+  "quotes": 3,
+  "in_current": 3,
+  "only_future": {},
+  "absent": 0,
+  "old": 2,
+  "old_gone": 1,
+  "old_present": 1,
+  "old_examples": [
+   "LP227 art. VII pct. 5: Agenția de Mediu comunică organelor vamale informația cu privire la validarea/respingerea notificări"
+  ],
+  "future_files": []
+ },
+ "L-92-2014": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "XXIV",
+    "points": 0,
+    "targets": [],
+    "absent_examples": []
+   }
+  ],
+  "points": 0,
+  "quotes": 0,
+  "in_current": 0,
+  "only_future": {},
+  "absent": 0,
+  "old": 0,
+  "old_gone": 0,
+  "old_present": 0,
+  "old_examples": [],
+  "future_files": []
+ },
+ "L-93-1998": {
+  "refs": [
+   {
+    "law": "LP227",
+    "art": "IV",
+    "points": 11,
+    "targets": [
+     "1. La articolul 1:",
+     "2. La articolul 3 alineatul (7) litera d), cuvintele „autentificată de notar” se substituie c",
+     "3. Denumirea capitolului II va avea următorul cuprins:",
+     "4. La articolul 4:",
+     "5. Articolul 6 se abrogă.",
+     "6. La articolul 7, alineatul (1) se completează cu textul „ , dar care nu poate depăși 12 lun",
+     "7. La articolul 9 alineatul (3), cuvintele „seria patentei” se substituie cu cuvintele „data ",
+     "8. La articolul 10 alineatul (2), cuvintele „și achitării unei taxe în mărimea unui salariu m",
+     "9. Articolul 11 se abrogă.",
+     "10. La articolul 14, alineatul (2) va avea următorul cuprins:",
+     "11. Articolul 17:"
+    ],
+    "absent_examples": []
+   }
+  ],
+  "points": 11,
+  "quotes": 4,
+  "in_current": 4,
+  "only_future": {},
+  "absent": 0,
+  "old": 4,
+  "old_gone": 2,
+  "old_present": 2,
+  "old_examples": [
+   "LP227 art. IV pct. 1: (1) Patenta de întreprinzător, denumită în continuare patentă, reprezintă un regim simplificat de de",
+   "LP227 art. IV pct. 4: (5) Verificarea de către Serviciul Fiscal de Stat a statutului de persoană asigurată în sistemul pub"
+  ],
+  "future_files": []
+ }
+}

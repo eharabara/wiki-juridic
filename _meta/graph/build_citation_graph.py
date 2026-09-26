@@ -662,7 +662,7 @@ def build():
                 continue
             body_first = " ".join(l.strip() for l in act.lines[s + 1:s + 3])
             abrogat = bool(ABROGAT_RE.search(title)) or bool(re.match(
-                r"^\s*(?:Articolul\s+\S+\.?\s*)?[\u2013\u2014-]?\s*(?:abrogat|exclus)", body_first, re.I))
+                r"^\s*(?:Articolul\s+\S+\.?\s*)?[\u2013\u2014-]?\s*(?:abrogat|exclus)\b", body_first, re.I))
             nodes[seg_id] = {
                 "id": seg_id, "kind": "provision", "act": aid, "article": art, "title": title,
                 "line": act.file_line(s), "abrogat": abrogat,

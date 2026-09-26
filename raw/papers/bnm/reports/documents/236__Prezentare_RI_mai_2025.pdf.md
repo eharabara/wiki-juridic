@@ -6,8 +6,9 @@ sha256: 6481bf63f470724e7f1a3048266ac3703109fa8d34eed0c91fb8cd0ea677e813
 source_file_sha256: 58ea7a6e2f605cb7e683852831235a7a9b4e168dac5e8a148f5b6f126e46b548
 source_type: report
 publisher: Banca Națională a Moldovei
-language: other
-extraction_status: text-extracted
+language: ro
+extraction_status: image-only-slides
+language_evidence: 'read from rendered pages 2 and 4 on 2026-09-26 (Romanian; slides are charts and tables, the PDF text layer holds only page numbers and symbols)'
 archived_original: raw/papers/bnm/reports/original/236__Prezentare_RI_mai_2025.pdf
 ---
 

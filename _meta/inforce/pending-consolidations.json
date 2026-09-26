@@ -831,6 +831,54 @@
           "summary": "marcaj HG470/2026"
         }
       ]
+    },
+    {
+      "instrument": "COD-95-2021",
+      "doc_id": "154350",
+      "consolidation_date": "2027-01-01",
+      "held_doc_id": "154350",
+      "held_consolidation_date": "2026-09-01",
+      "amending_act": "nu este un act modificator: art. 426 alin. (1) lit. c) din codul insusi",
+      "official_gazette": "MO219-225/2021 art.238",
+      "verified": "2026-09-26",
+      "method": "gasit de _meta/inforce/build_prose_deferral_candidates.py in ultimele 6 articole ale actului; art. 426 citit direct in raw. Amanarea e scrisa in proza si registrul nu o vedea singur; textul detinut contine deja articolele, care se aplica de la 1 ianuarie 2027 (nu exista o versiune separata pe legis.md pentru ele).",
+      "provisions": [
+        {
+          "article": "49",
+          "subunit": "intregul articol",
+          "operation": "intrare in vigoare",
+          "effective_from": "2027-01-01",
+          "summary": "art. 426 alin. (1) lit. c): art. 49 (conversii monetare) intra in vigoare la 1 ianuarie 2027; pina atunci nu se aplica, desi este in text si ancorat"
+        },
+        {
+          "article": "140",
+          "subunit": "intregul articol",
+          "operation": "intrare in vigoare",
+          "effective_from": "2027-01-01",
+          "summary": "art. 426 alin. (1) lit. c): art. 140 (declaratia sumara de intrare) intra in vigoare la 1 ianuarie 2027; pina atunci nu se aplica, desi este in text si ancorat"
+        },
+        {
+          "article": "180",
+          "subunit": "intregul articol",
+          "operation": "intrare in vigoare",
+          "effective_from": "2027-01-01",
+          "summary": "art. 426 alin. (1) lit. c): art. 180 (vamuirea centralizata) intra in vigoare la 1 ianuarie 2027; pina atunci nu se aplica, desi este in text si ancorat"
+        },
+        {
+          "article": "336",
+          "subunit": "intregul articol",
+          "operation": "intrare in vigoare",
+          "effective_from": "2027-01-01",
+          "summary": "art. 426 alin. (1) lit. c): art. 336 (declaratia sumara de iesire) intra in vigoare la 1 ianuarie 2027; pina atunci nu se aplica, desi este in text si ancorat"
+        },
+        {
+          "article": "337",
+          "subunit": "intregul articol",
+          "operation": "intrare in vigoare",
+          "effective_from": "2027-01-01",
+          "summary": "art. 426 alin. (1) lit. c): art. 337 (modificarea si invalidarea declaratiei sumare de iesire) intra in vigoare la 1 ianuarie 2027; pina atunci nu se aplica, desi este in text si ancorat"
+        }
+      ]
     }
   ]
 }

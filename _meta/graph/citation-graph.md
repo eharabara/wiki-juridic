@@ -1,6 +1,6 @@
 # Graful de citare al actelor detinute
 
-Generat 2026-09-25 15:25 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
+Generat 2026-09-26 22:27 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
 
 **Ce este.** Trimiterile dintre actele detinute, extrase mecanic din textul brut: fiecare muchie poarta fisierul si liniile din care a fost citita, si nicio muchie nu este dedusa. Graful nu se citeaza. El spune unde sa deschizi fisierul, iar ancora se citeste.
 
@@ -10,23 +10,23 @@ Generat 2026-09-25 15:25 de `_meta/graph/build_citation_graph.py`. Nu edita de m
 
 | | |
 |---|---:|
-| acte primare detinute (din care ancorate pe articole) | 236 (179) |
-| dispozitii (noduri-articol) | 17630 |
+| acte primare detinute (din care ancorate pe articole) | 237 (181) |
+| dispozitii (noduri-articol) | 17886 |
 | extrase UE detinute (noduri-tinta) | 50 |
-| acte citate si nedetinute (noduri externe) | 901 |
-| mentiuni de acte in text (din care ale actului insusi) | 7390 (775) |
-| muchii act -> act (agregate pe segment-sursa) | 4926 |
-| trimiteri la articole citite (in grupuri de enumerare) | 13771 (12197) |
-|   rezolvate in actul curent | 11087 |
-|   rezolvate in alt act detinut | 1532 |
-|   nerezolvate: articolul nu are ancora in actul-tinta | 218 |
-|   catre acte nedetinute (notate pe muchia act -> act) | 558 |
-|   catre acte pe puncte (fara articole) | 331 |
-|   autoreferinte (articolul se citeaza pe sine), ignorate | 45 |
-| muchii articol -> articol (agregate) | 10201 |
-| muchii articol -> act nerezolvate (agregate) | 188 |
+| acte citate si nedetinute (noduri externe) | 903 |
+| mentiuni de acte in text (din care ale actului insusi) | 7440 (781) |
+| muchii act -> act (agregate pe segment-sursa) | 4941 |
+| trimiteri la articole citite (in grupuri de enumerare) | 13583 (12010) |
+|   rezolvate in actul curent | 11197 |
+|   rezolvate in alt act detinut | 1559 |
+|   nerezolvate: articolul nu are ancora in actul-tinta | 138 |
+|   catre acte nedetinute (notate pe muchia act -> act) | 560 |
+|   catre acte pe puncte (fara articole) | 94 |
+|   autoreferinte (articolul se citeaza pe sine), ignorate | 35 |
+| muchii articol -> articol (agregate) | 10324 |
+| muchii articol -> act nerezolvate (agregate) | 125 |
 
-Regula care a dat actul-tinta, pe trimiteri: din 1874, doua-puncte 46, intern 10821, modificare 51, paranteza 45. „intern” = niciun act in context, deci actul curent; „din” = `art. N ... din Legea X` sau `(art. N, M) Directiva X`; „paranteza” = `Legea X (art. N)`; „doua-puncte” = `din Codul X: art. N, M`; „modificare” = `Legea X se modifica dupa cum urmeaza: ... articolul N`. `din legea indicata` trimite la ultima lege numita in acelasi segment.
+Regula care a dat actul-tinta, pe trimiteri: din 1890, doua-puncte 46, intern 10857, modificare 56, paranteza 45. „intern” = niciun act in context, deci actul curent; „din” = `art. N ... din Legea X` sau `(art. N, M) Directiva X`; „paranteza” = `Legea X (art. N)`; „doua-puncte” = `din Codul X: art. N, M`; „modificare” = `Legea X se modifica dupa cum urmeaza: ... articolul N`. `din legea indicata` trimite la ultima lege numita in acelasi segment.
 
 Coduri citate si pe nume si pe numar, unite dupa textul care le scrie impreuna: COD-apelor = COD-1532-1993; COD-audiovizualului = COD-260-2006; COD-educatiei = COD-152-2014; COD-electoral = COD-325-2022; COD-familiei = COD-1316-2000; COD-jurisdictiei-constitutionale = COD-502-1995; COD-subsolului = COD-3-2009; COD-transporturilor-rutiere = COD-150-2014.
 
@@ -57,11 +57,11 @@ Legi, coduri si hotariri de Guvern identificate prin numar si an.
 | `L-277-2018` Legea nr. 277/2018 | 14 | 8 | `L-403-2023` (5) | art. 31 (x2) |
 | `L-187-2022` Legea nr. 187/2022 | 14 | 7 | `L-92-2014` (6) | art. 5, art. 59, art. 70, art. 86 |
 | `L-407-2006` Legea nr. 407/2006 | 14 | 7 | `HCNPF-14-5-2016` (5) | art. 29 |
-| `L-287-2017` Legea nr. 287/2017 | 13 | 11 | `L-234-2016` (2) | art. 4 (x5), art. 24 |
 | `L-419-2006` Legea nr. 419/2006 | 13 | 8 | `L-397-2003` (3) | art. 16, art. 42, art. 45, art. 49 |
 | `L-137-2015` Legea nr. 137/2015 | 13 | 7 | `L-198-2007` (4) | art. 19, art. 32, art. 39 |
 | `L-151-2022` Legea nr. 151/2022 | 13 | 5 | `COD-434-2023` (8) | art. 4 (x3), art. 8 (x2), art. 12, art. 19 |
 | `L-440-2001` Legea nr. 440/2001 | 13 | 5 | `COD-1163-1997` (6) | art. 5, art. 6, art. 13 |
+| `L-287-2017` Legea nr. 287/2017 | 12 | 10 | `L-234-2016` (2) | art. 4 (x5), art. 24 |
 | `L-162-2023` Legea nr. 162/2023 | 12 | 6 | `L-143-2014` (6) | - |
 | `L-29-2018` Legea nr. 29/2018 | 12 | 6 | `L-121-2007` (6) | art. 9 (x2) |
 | `L-282-2023` Legea nr. 282/2023 | 12 | 3 | `L-10-2016` (7) | art. 3 (x3), art. 8 |
@@ -70,7 +70,7 @@ Legi, coduri si hotariri de Guvern identificate prin numar si an.
 | `L-279-2017` Legea nr. 279/2017 | 11 | 5 | `L-394-2023` (3) | art. 2, art. 8, art. 11 |
 | `HG-411-2022` Hotarirea Guvernului nr. 411/2022 | 11 | 2 | `L-209-2016` (10) | - |
 | `L-202-2013` Legea nr. 202/2013 | 10 | 6 | `COD-218-2008` (3) | art. 2, art. 3, art. 5, art. 10 |
-| … inca 518 in JSON | | | | |
+| … inca 520 in JSON | | | | |
 
 ### Acte UE citate si neextrase
 
@@ -78,9 +78,9 @@ Directive si regulamente UE care nu au un extras `UE-*` in `raw/papers/cnpf/`.
 
 | act citat | mentiuni | acte care il citeaza | cel mai des din | articole citate |
 |---|---:|---:|---|---|
+| `EU-TFUE` Tratatul privind functionarea Uniunii Europene | 18 | 5 | `HG-497-2026` (13) | art. 101, art. 288 |
 | `EU-L-1995-46` Directiva 1995/46 | 7 | 5 | `DCNPDCP-41-2026` (3) | - |
 | `EU-L-2014-23` Directiva 2014/23 | 6 | 4 | `L-22-2025` (2) | art. 1, art. 2, art. 6, art. 7 |
-| `EU-TFUE` Tratatul privind functionarea Uniunii Europene | 5 | 4 | `AA-2014` (2) | art. 101 |
 | `EU-L-2003-6` Directiva 2003/6 | 5 | 1 | `AA-2014` (5) | - |
 | `EU-R-2004-852` Regulamentul (UE) nr. 852/2004 | 5 | 1 | `L-296-2017` (5) | - |
 | `EU-L-2005-60` Directiva 2005/60 | 4 | 3 | `AA-2014` (2) | - |
@@ -187,9 +187,12 @@ Acte detinute care nu mai sint in vigoare, si actele din corpus care trimit la e
 | act abrogat | de la | prin | mentiuni | acte care il citeaza | articole citate |
 |---|---|---|---:|---:|---|
 | `COD-3-2009` | 2026-05-30 | CS246 din 08.11.24 | 6 | 4 | art. 9, art. 14, art. 15, art. 16, art. 19, art. 28, art. 30, art. 32 |
+| `HG-1171-2018` | 2026-09-22 | HG497 din 02.09.26 | 2 | 2 | - |
 | `L-133-2011` | 2026-08-23 | LP195 din 25.07.24 | 92 | 38 | art. 1, art. 2, art. 4, art. 5, art. 6, art. 12, art. 13, art. 20 |
 
 `COD-3-2009` este citat din: `COD-246-2024`, `COD-434-2023`, `L-209-2016`, `L-317-2025`.
+
+`HG-1171-2018` este citat din: `HG-497-2026`, `HG-610-2018`.
 
 `L-133-2011` este citat din: `COD-122-2003`, `COD-150-2014`, `COD-218-2008`, `COD-95-2021`, `DCNPDCP-08-2023`, `DCNPDCP-581-2015`, `DCNPDCP-PARTIDE-2014`, `DCU-REGULI-2026`, `HCNPF-14-5-2016`, `HG-310-2025`, `L-102-2017`, `L-105-2003`, `L-105-2018`, `L-114-2012`, `L-122-2008`, `L-132-2016`, `L-1543-1998`, `L-165-2023`, `L-171-2012`, `L-181-2023`, `L-195-2024`, `L-202-2017`, `L-246-2018`, `L-28-2024`, `L-284-2004`, `L-308-2017`, `L-325-2013`, `L-325-2025`, `L-384-2023`, `L-436-2006`, `L-548-1995`, `L-71-2007`, `L-72-2025`, `OCNPDCP-03-1-2013`, `OCNPDCP-03-2015`, `OCNPDCP-39-2026`, `OCNPDCP-POLITIE-2013`, `OCNPDCP-SANATATE`.
 
@@ -201,89 +204,89 @@ Dispozitiile care apar in registrul in-force (textul din fisier nu se aplica inc
 
 | dispozitie | stare | citari (din alte acte) | citat din |
 |---|---|---:|---|
-| `L-133-2016#art.3` l.138 | in-force: modificare de la 2027-01-01 (lit.e^2)) | 10 (6) | `L-132-2016#art.34`, `L-132-2016#art.39`, `L-133-2016#art.23`, `L-133-2016#art.24`, `L-133-2016#art.4`, `L-133-2016#art.7`, … (+4) |
 | `COD-1163-1997#art.123` l.3751 | HCC: HCC17/2014-05-29, alin. (7), subunitate | 5 (4) | `L-1100-2000#art.20`, `COD-1163-1997#art.262`, `L-1100-2000#art.4`, `L-1100-2000#art.5` |
 | `L-548-1995#art.11` l.294 | HCC: HCC31/2013-10-01, al.(4), articol intreg | 7 (3) | `L-548-1995#art.75^1`, `L-114-2012#art.98`, `L-202-2017#art.144`, `L-232-2016#art.319`, `L-548-1995#art.6` |
-| `COD-985-2002#art.72` l.887 | in-force: modificare de la 2026-12-02 | 3 (3) | `COD-122-2003#art.469` l.5729, `COD-443-2004#art.197` l.2075, `COD-443-2004#art.255` l.2717 |
-| `COD-122-2003#art.191` l.3074 | in-force: modificare de la 2026-12-02; HCC: HCC17/2016-05-19, omisiune legislativa (+1) | 5 (2) | `COD-443-2004#art.301`, `COD-122-2003#art.192`, `COD-122-2003#art.309`, `COD-122-2003#art.310` |
-| `COD-218-2008#art.34` l.1025 | HCC: HCC7/2018-04-26, alin. (3), text din articol | 3 (2) | `COD-443-2004#art.315` l.3271, `COD-218-2008#art.293^2` l.4877 |
-| `L-181-2014#art.43` l.564 | in-force: reformulare de la 2027-01-01 | 3 (2) | `COD-225-2003#art.84` l.877, `L-181-2014#art.25` l.424, `L-213-2023#art.6` l.127 |
+| `COD-122-2003#art.191` l.3019 | HCC: HCC17/2016-05-19, omisiune legislativa (+1) | 5 (2) | `COD-443-2004#art.301`, `COD-122-2003#art.192`, `COD-122-2003#art.309`, `COD-122-2003#art.310` |
+| `COD-218-2008#art.34` l.1025 | HCC: HCC7/2018-04-26, alin. (3), text din articol | 3 (2) | `COD-443-2004#art.315` l.3242, `COD-218-2008#art.293^2` l.4877 |
 | `L-278-2007#art.26` l.498 | in-force: nespecificat de la 2027-03-01 | 2 (2) | `COD-218-2008#art.91^1` l.2002 |
 | `COD-225-2003#art.449` l.3638 | HCC: HCC16/2013-06-25, lit. f), in parte | 12 (1) | `COD-225-2003#art.450`, `COD-116-2018#art.170`, `COD-225-2003#art.447`, `COD-225-2003#art.451`, `COD-225-2003#art.451^1`, `COD-225-2003#art.453` |
 | `COD-225-2003#art.267` l.2173 | HCC: HCC33/2016-11-17, lit. b), in parte | 7 (1) | `COD-225-2003#art.268`, `COD-225-2003#art.185`, `COD-225-2003#art.49`, `COD-225-2003#art.89`, `COD-225-2003#art.98`, `COD-443-2004#art.163` |
 | `COD-225-2003#art.170` l.1503 | HCC: HCC33/2016-11-17, alin. (1) lit. c), in parte | 5 (1) | `COD-225-2003#art.478`, `COD-225-2003#art.483`, `COD-225-2003#art.49`, `COD-225-2003#art.89`, `L-9-2026#art.47` |
-| `COD-122-2003#art.179` l.2923 | in-force: modificare de la 2026-12-02 | 3 (1) | `COD-122-2003#art.181` l.2940, `COD-443-2004#art.297` l.3123 |
-| `COD-122-2003#art.273` l.4013 | HCC: HCC29/2021-09-21, alin. (1) lit. d^2), in parte | 3 (1) | `COD-122-2003#art.166` l.2785, `COD-122-2003#art.215^2` l.3411, `COD-443-2004#art.245` l.2587 |
-| `COD-122-2003#art.471` l.5755 | in-force: introducere de la 2026-12-02 | 3 (1) | `COD-122-2003#art.473` l.5819, `COD-122-2003#art.473^1` l.5825, `COD-443-2004#art.275` l.2923 |
-| `COD-443-2004#art.15` l.389 | HCC: HCC39/2017-12-14, al.(2) lit.d), in parte | 3 (1) | `COD-443-2004#art.30` l.564, `COD-225-2003#art.470` l.3900 |
-| `COD-122-2003#art.186` l.3006 | HCC: HCC3/2016-02-23, alin. (3), (5), (8), (9), text din articol | 2 (1) | `COD-122-2003#art.195` l.3135, `COD-443-2004#art.198` l.2083 |
-| `L-132-2016#art.7` l.154 | in-force: introducere de la 2027-01-01 | 2 (1) | `L-132-2016#art.33` l.579, `L-133-2016#art.7^1` l.229 |
-| `L-133-2016#art.18` l.325 | in-force: introducere de la 2027-01-01 | 2 (1) | `COD-154-2003#art.46` l.804, `L-133-2016#art.17` l.323 |
+| `COD-122-2003#art.273` l.3945 | HCC: HCC29/2021-09-21, alin. (1) lit. d^2), in parte | 3 (1) | `COD-122-2003#art.166` l.2749, `COD-122-2003#art.215^2` l.3350, `COD-443-2004#art.245` l.2569 |
+| `COD-443-2004#art.15` l.376 | HCC: HCC39/2017-12-14, al.(2) lit.d), in parte | 3 (1) | `COD-443-2004#art.30` l.551, `COD-225-2003#art.470` l.3900 |
+| `COD-122-2003#art.186` l.2951 | HCC: HCC3/2016-02-23, alin. (3), (5), (8), (9), text din articol | 2 (1) | `COD-122-2003#art.195` l.3076, `COD-443-2004#art.198` l.2066 |
 | `L-135-2007#art.30` l.327 | HCC: HCC27/2016-09-27, al.(2) [numerotarea de la data hotaririi], subunitate | 2 (1) | `L-135-2007#art.25` l.279, `L-181-2023#art.49` l.737 |
 | `L-303-2013#art.19` l.518 | HCC: HCC28/2016-10-11, alin. (5), text din articol (+1) | 2 (1) | `L-272-2011#art.25` l.585, `L-303-2013#art.8` l.258 |
-| `COD-122-2003#art.6` l.482 | in-force: introducere de la 2026-12-02 (pct.8^1); HCC: HCC2/2020-01-23, pct. 11^1), text din articol | 1 (1) | `COD-443-2004#art.98^1` l.1171 |
+| `COD-122-2003#art.6` l.452 | HCC: HCC2/2020-01-23, pct. 11^1), text din articol | 1 (1) | `COD-443-2004#art.98^1` l.1164 |
 | `COD-218-2008#art.423^4` l.6663 | abrogat | 1 (1) | `L-195-2024#art.90` l.1173 |
 | `COD-218-2008#art.427` l.6740 | HCC: HCC26/2024-12-12, alin.(2), text din articol | 1 (1) | `COD-95-2021#art.408` l.4429 |
 | `COD-218-2008#art.74^1` l.1705 | abrogat | 1 (1) | `L-195-2024#art.90` l.1173 |
 | `COD-225-2003#art.343^6` l.3015 | HCC: HCC37/2021-12-07, text din articol | 1 (1) | `L-325-2013#art.14` l.259 |
 | `COD-325-2022#art.90` l.1605 | HCC: HCC16/2024-07-16, al.(2), textul „În serviciile media audiovizuale ... furnizorilor de servicii media.”, text din articol | 1 (1) | `COD-174-2018#art.84` l.1535 |
-| `COD-443-2004#art.22` l.455 | HCC: HCC17/2017-05-10, al.(1) lit.v), text din articol | 1 (1) | `CC-1107-2002#art.757` l.5384 |
-| `COD-985-2002#art.189` l.2589 | HCC: HCC24/2019-10-17, alin. (3) lit. f), text din articol | 1 (1) | `COD-122-2003#art.229^2` l.3554 |
+| `COD-443-2004#art.22` l.442 | HCC: HCC17/2017-05-10, al.(1) lit.v), text din articol | 1 (1) | `CC-1107-2002#art.757` l.5384 |
+| `COD-985-2002#art.189` l.2579 | HCC: HCC24/2019-10-17, alin. (3) lit. f), text din articol | 1 (1) | `COD-122-2003#art.229^2` l.3493 |
 | `L-100-2001#art.5` l.175 | HCC: HCC28/2002-05-30, al.(4), sintagma „și limba rusă”, text din articol | 1 (1) | `L-246-2018#art.42` l.501 |
 | `L-131-2015#art.80` l.1493 | abrogat | 1 (1) | `L-20-2026#art.29` l.424 |
 | `L-131-2015#art.86` l.1506 | abrogat | 1 (1) | `L-20-2026#art.29` l.428 |
 | `L-158-2008#art.70` l.1154 | abrogat | 1 (1) | `L-80-2010#art.28` l.321 |
-| `L-845-1992#art.36` l.574 | abrogat | 1 (1) | `COD-1163-1997#art.227^1` l.5972 |
+| `L-69-2016#art.12` l.201 | abrogat | 1 (1) | `L-246-2018#art.96` l.1018 |
+| `L-845-1992#art.36` l.573 | abrogat | 1 (1) | `COD-1163-1997#art.227^1` l.5972 |
 | `COD-325-2022#art.68` l.1216 | HCC: HCC9/2024-03-26, al.(1), lit.f), text din articol (+2) | 18 (0) | `COD-325-2022#art.91`, `COD-325-2022#art.102`, `COD-325-2022#art.111`, `COD-325-2022#art.112`, `COD-325-2022#art.113`, `COD-325-2022#art.115`, … (+9) |
 | `COD-325-2022#art.16` l.253 | HCC: HCC16/2023-10-03, al.(2), lit.e), subunitate (+5) | 10 (0) | `COD-325-2022#art.68`, `COD-325-2022#art.102`, `COD-325-2022#art.72`, `COD-325-2022#art.245`, `COD-325-2022#art.89` |
 | `COD-1163-1997#art.88` l.2979 | HCC: HCC7/2014-02-13, alin. (7), subunitate | 9 (0) | `COD-1163-1997#art.92`, `COD-1163-1997#art.372`, `COD-1163-1997#art.69^7`, `COD-1163-1997#art.73`, `COD-1163-1997#art.76`, `COD-1163-1997#art.79`, … (+2) |
 | `COD-1163-1997#art.291` l.6915 | HCC: HCC2/2014-01-28, in parte | 8 (0) | `COD-1163-1997#art.293` l.6950, `COD-1163-1997#art.292` l.6944 |
 | `L-24-2008#art.6` l.111 | HCC: HCC3/2012-02-09, al.(2), modificarea din art. XIII pct. 1 LP163/2011, revigorare | 7 (0) | `L-24-2008#art.11`, `L-24-2008#art.13`, `L-24-2008#art.14`, `L-24-2008#art.37` |
 | `COD-1163-1997#art.289` l.6866 | HCC: HCC2/2014-01-28, in parte | 6 (0) | `COD-1163-1997#art.297` l.7019, `COD-1163-1997#art.298` l.7028, `COD-1163-1997#art.294` l.6962 |
-| `COD-122-2003#art.401` l.5227 | HCC: HCC9/2008-05-20, alin. (1) pct. 3), text din articol | 6 (0) | `COD-122-2003#art.402`, `COD-122-2003#art.420`, `COD-122-2003#art.421`, `COD-122-2003#art.438`, `COD-122-2003#art.445`, `COD-122-2003#art.447` |
+| `COD-122-2003#art.401` l.5149 | HCC: HCC9/2008-05-20, alin. (1) pct. 3), text din articol | 6 (0) | `COD-122-2003#art.402`, `COD-122-2003#art.420`, `COD-122-2003#art.421`, `COD-122-2003#art.438`, `COD-122-2003#art.445`, `COD-122-2003#art.447` |
 | `COD-325-2022#art.102` l.1795 | HCC: HCC9/2024-03-26, al.(5), lit.e), subunitate | 6 (0) | `COD-325-2022#art.101`, `COD-325-2022#art.42`, `COD-325-2022#art.43`, `COD-325-2022#art.54`, `COD-325-2022#art.72`, `COD-325-2022#art.94` |
 | `COD-325-2022#art.91` l.1645 | HCC: HCC9/2024-03-26, al.(3^1), subunitate (+1) | 6 (0) | `COD-325-2022#art.95`, `COD-325-2022#art.92`, `COD-325-2022#art.93`, `COD-325-2022#art.94`, `COD-325-2022#art.99` |
-| `COD-443-2004#art.174^1` l.1864 | in-force: introducere de la 2026-12-02 | 6 (0) | `COD-443-2004#art.196`, `COD-443-2004#art.204`, `COD-443-2004#art.263`, `COD-443-2004#art.269`, `COD-443-2004#art.271`, `COD-443-2004#art.290` |
 | `L-278-2007#art.17` l.384 | in-force: nespecificat de la 2029-01-01 | 6 (0) | `L-278-2007#art.19` l.435, `L-278-2007#art.16` l.379, `L-278-2007#art.20` l.447 |
-| `COD-122-2003#art.308` l.4408 | in-force: modificare de la 2026-12-02 | 4 (0) | `COD-122-2003#art.312` l.4467, `COD-122-2003#art.166` l.2789, `COD-122-2003#art.523` l.6335 |
-| `COD-122-2003#art.385` l.5051 | in-force: introducere de la 2026-12-02 | 4 (0) | `COD-122-2003#art.382`, `COD-122-2003#art.392`, `COD-122-2003#art.485`, `COD-122-2003#art.498` |
-| `COD-122-2003#art.42` l.840 | HCC: HCC3/2012-02-09, alin. (7), in parte | 4 (0) | `COD-122-2003#art.256`, `COD-122-2003#art.279^1`, `COD-122-2003#art.43`, `COD-122-2003#art.561` |
-| `COD-122-2003#art.421` l.5378 | HCC: HCC16/2005-07-19, text din articol | 4 (0) | `COD-122-2003#art.423`, `COD-122-2003#art.429`, `COD-122-2003#art.432`, `COD-122-2003#art.433` |
+| `COD-1316-2000#art.108` l.893 | HCC: HCC23/2024-10-15, omisiune legislativa | 5 (0) | `COD-1316-2000#art.76`, `COD-1316-2000#art.78`, `COD-1316-2000#art.80`, `COD-1316-2000#art.84`, `COD-1316-2000#art.91` |
+| `COD-122-2003#art.42` l.807 | HCC: HCC3/2012-02-09, alin. (7), in parte | 4 (0) | `COD-122-2003#art.256`, `COD-122-2003#art.279^1`, `COD-122-2003#art.43`, `COD-122-2003#art.561` |
+| `COD-122-2003#art.421` l.5300 | HCC: HCC16/2005-07-19, text din articol | 4 (0) | `COD-122-2003#art.423`, `COD-122-2003#art.429`, `COD-122-2003#art.432`, `COD-122-2003#art.433` |
 | `COD-225-2003#art.437` l.3546 | HCC: HCC20/2022-11-03, alin. (1), text din articol | 4 (0) | `COD-225-2003#art.426^1`, `COD-225-2003#art.436`, `COD-225-2003#art.438`, `COD-225-2003#art.439` |
-| `L-132-2016#art.11` l.226 | HCC: HCC6/2018-04-10, al.(12), textul „și care a susținut proba detectorului comportamentului simulat (poligraf)”, text din articol | 4 (0) | `L-132-2016#art.10` l.224, `L-132-2016#art.13` l.309, `L-132-2016#art.15` l.372 |
+| `L-132-2016#art.11` l.220 | HCC: HCC6/2018-04-10, al.(12), textul „și care a susținut proba detectorului comportamentului simulat (poligraf)”, text din articol | 4 (0) | `L-132-2016#art.10` l.218, `L-132-2016#art.13` l.303, `L-132-2016#art.15` l.366 |
+| `L-230-2022#art.71` l.965 | HCC: HCC7/2025-06-10, al.(4), omisiune legislativa | 4 (0) | `L-230-2022#art.56`, `L-230-2022#art.70`, `L-230-2022#art.72`, `L-230-2022#art.99` |
 | `L-797-1996#art.47` l.535 | HCC: HCC15/2012-12-04, al.(12), sintagma «și adoptat», text din articol | 4 (0) | `L-797-1996#art.48` l.555, `L-797-1996#art.147` l.1289, `L-797-1996#art.61` l.670 |
 | `COD-1163-1997#art.264` l.6326 | HCC: HCC10/2024-04-04, alin. (1) si (2), text din articol | 3 (0) | `COD-1163-1997#art.214` l.5487, `COD-1163-1997#art.226^2` l.5641, `COD-1163-1997#art.265` l.6337 |
 | `COD-1163-1997#art.6` l.1554 | HCC: HCC5/2024-03-05, alin. (11), subunitate | 3 (0) | `COD-1163-1997#art.226^1` l.5629, `COD-1163-1997#art.5` l.1526, `COD-1163-1997#art.7` l.1621 |
-| `COD-122-2003#art.321` l.4553 | in-force: modificare de la 2026-12-02; HCC: HCC3/2023-01-24, alin. (2) pct. 3), text din articol | 3 (0) | `COD-122-2003#art.199` l.3179, `COD-122-2003#art.412` l.5295, `COD-122-2003#art.559` l.6843 |
+| `COD-122-2003#art.321` l.4480 | HCC: HCC3/2023-01-24, alin. (2) pct. 3), text din articol | 3 (0) | `COD-122-2003#art.199` l.3120, `COD-122-2003#art.412` l.5217, `COD-122-2003#art.559` l.6763 |
 | `COD-174-2018#art.28` l.614 | HCC: HCC6/2022-03-10, al.(1), text din articol | 3 (0) | `COD-174-2018#art.25` l.564, `COD-174-2018#art.84` l.1545, `COD-174-2018#art.88` l.1609 |
 | `COD-1163-1997#art.260` l.6258 | HCC: HCC20/2018-07-04, alin. (4), text din articol | 2 (0) | `COD-1163-1997#art.229` l.5996, `COD-1163-1997#art.234` l.6044 |
-| `COD-122-2003#art.177` l.2890 | in-force: introducere de la 2026-12-02 | 2 (0) | `COD-122-2003#art.241^1` l.3667, `COD-122-2003#art.471` l.5770 |
-| `COD-122-2003#art.287^1` l.4181 | in-force: modificare de la 2026-12-02 | 2 (0) | `COD-122-2003#art.287^2` l.4196 |
 | `L-108-2016#art.24` l.703 | abrogat | 2 (0) | `L-108-2016#art.114` l.2500, `L-108-2016#art.37` l.886 |
 | `L-213-2023#art.2` l.78 | HCC: HCC20/2024-09-26, al.(2), teza intai: textul „Taxa de timbru nu este susceptibilă de scutire, amânare sau eșalonare, cu excepțiile prevăzute de prezenta lege.”, text din articol | 2 (0) | `L-213-2023#preambul` l.55 |
-| `L-283-2003#art.22^1` l.324 | HCC: HCC11/2023-07-20, alin. (1) lit. c), text din articol | 2 (0) | `L-283-2003#art.22^2` l.358, `L-283-2003#art.27` l.459 |
+| `L-283-2003#art.22^1` l.327 | HCC: HCC11/2023-07-20, alin. (1) lit. c), text din articol | 2 (0) | `L-283-2003#art.22^2` l.361, `L-283-2003#art.27` l.462 |
 | `L-325-2013#art.17` l.292 | HCC: HCC37/2021-12-07, al.(2), subunitate (+2) | 2 (0) | `L-325-2013#art.10` l.214, `L-325-2013#art.21` l.381 |
-| `L-845-1992#art.36^1` l.580 | in-force: introducere de la 2027-01-01 (pct.4, lit.l)) | 2 (0) | `L-845-1992#art.36^3` l.608 |
 | `COD-1163-1997#art.290` l.6893 | HCC: HCC2/2014-01-28, in parte | 1 (0) | `COD-1163-1997#art.297` l.7019 |
-| `COD-122-2003#art.138^1` l.2383 | in-force: modificare de la 2026-12-02 | 1 (0) | `COD-122-2003#art.138^5` l.2430 |
-| `COD-122-2003#art.178` l.2913 | in-force: modificare de la 2026-12-02; HCC: HCC19/2018-07-03, omisiune legislativa | 1 (0) | `COD-122-2003#art.547` l.6701 |
-| `COD-122-2003#art.180` l.2930 | in-force: modificare de la 2026-12-02 | 1 (0) | `COD-122-2003#art.181` l.2940 |
-| `COD-122-2003#art.185` l.2994 | HCC: HCC27/2018-10-30, al.(1), subunitate | 1 (0) | `COD-122-2003#art.188` l.3050 |
-| `COD-122-2003#art.192` l.3095 | HCC: HCC15/2020-05-28, alin. (2), subunitate | 1 (0) | `COD-122-2003#art.192^1` l.3109 |
-| `COD-122-2003#art.287` l.4173 | HCC: HCC12/2015-05-14, alin. (1), subunitate | 1 (0) | `COD-122-2003#art.326` l.4601 |
-| `COD-122-2003#art.400` l.5222 | HCC: HCC3/2012-02-09, alin. (3), in parte | 1 (0) | `COD-122-2003#art.465^8` l.5677 |
-| `COD-122-2003#art.74` l.1508 | in-force: modificare de la 2026-12-02 | 1 (0) | `COD-122-2003#art.223` l.3484 |
-| `COD-154-2003#art.46` l.799 | in-force: introducere de la 2027-01-01 | 1 (0) | `COD-154-2003#art.391` l.3694 |
-| `COD-154-2003#art.90` l.1302 | HCC: HCC9/2025-07-22, al.(2), lit. a), text din articol | 1 (0) | `COD-154-2003#art.330` l.3261 |
+| `COD-122-2003#art.178` l.2861 | HCC: HCC19/2018-07-03, omisiune legislativa | 1 (0) | `COD-122-2003#art.547` l.6621 |
+| `COD-122-2003#art.185` l.2939 | HCC: HCC27/2018-10-30, al.(1), subunitate | 1 (0) | `COD-122-2003#art.188` l.2995 |
+| `COD-122-2003#art.192` l.3037 | HCC: HCC15/2020-05-28, alin. (2), subunitate | 1 (0) | `COD-122-2003#art.192^1` l.3050 |
+| `COD-122-2003#art.287` l.4105 | HCC: HCC12/2015-05-14, alin. (1), subunitate | 1 (0) | `COD-122-2003#art.326` l.4527 |
+| `COD-122-2003#art.400` l.5144 | HCC: HCC3/2012-02-09, alin. (3), in parte | 1 (0) | `COD-122-2003#art.465^8` l.5599 |
+| `COD-154-2003#art.90` l.1301 | HCC: HCC9/2025-07-22, al.(2), lit. a), text din articol | 1 (0) | `COD-154-2003#art.330` l.3258 |
 | `COD-174-2018#art.66` l.1278 | HCC: HCC36/2021-11-23, al.(7), text din articol | 1 (0) | `COD-174-2018#art.84` l.1542 |
 | `COD-218-2008#art.197^1` l.3394 | abrogat | 1 (0) | `COD-218-2008#art.431` l.6786 |
 | `COD-218-2008#art.20` l.918 | abrogat | 1 (0) | `COD-218-2008#art.440^1` l.7025 |
 | `COD-218-2008#art.233` l.3966 | HCC: HCC11/2018-05-08, alin. (3), text din articol | 1 (0) | `COD-218-2008#art.41` l.1109 |
 | `COD-218-2008#art.445` l.7088 | HCC: HCC32/2018-11-29, articol intreg | 1 (0) | `COD-218-2008#art.451^3` l.7208 |
 | `COD-218-2008#art.62` l.1495 | abrogat | 1 (0) | `COD-218-2008#art.293^2` l.4879 |
-| … inca 24 dispozitii, in JSON | | | |
+| `COD-225-2003#art.306` l.2677 | HCC: HCC33/2016-11-17, alin. (2), text din articol | 1 (0) | `COD-225-2003#art.77` l.835 |
+| `COD-225-2003#art.39` l.527 | HCC: HCC3/2012-02-09, alin. (11^1), subunitate | 1 (0) | `COD-225-2003#art.41^1` l.569 |
+| `COD-225-2003#art.58` l.696 | HCC: HCC33/2016-11-17, alin. (2), (2^1), (6), text din articol | 1 (0) | `COD-225-2003#art.79` l.841 |
+| `COD-325-2022#art.36` l.627 | HCC: HCC8/2026-07-09, al.(1), textul „Componența Consiliului Electoral Central al Găgăuziei se aprobă ... și cu actele normative locale”, text din articol | 1 (0) | `COD-325-2022#art.245` l.2737 |
+| `COD-325-2022#art.98` l.1735 | HCC: HCC9/2024-03-26, al.(1), subunitate | 1 (0) | `COD-325-2022#art.93` l.1690 |
+| `COD-443-2004#art.161` l.1732 | HCC: HCC8/2019-04-05, al.(1) teza a doua, text din articol | 1 (0) | `COD-443-2004#art.79` l.995 |
+| `COD-443-2004#art.174` l.1851 | HCC: HCC18/2013-07-04, alin. (3^1), subunitate | 1 (0) | `COD-443-2004#art.287` l.2988 |
+| `COD-443-2004#art.61` l.814 | HCC: HCC22/2019-10-08, al.(1), text din articol | 1 (0) | `COD-443-2004#art.60` l.812 |
+| `COD-95-2021#art.277^2` l.3013 | abrogat | 1 (0) | `COD-95-2021#art.277` l.3000 |
+| `COD-985-2002#art.328` l.4979 | HCC: HCC22/2017-06-27, alin. (1), text din articol (+1) | 1 (0) | `COD-985-2002#art.55` l.732 |
+| `COD-985-2002#art.329` l.4995 | HCC: HCC24/2019-10-17, alin. (1) si alin. (2) lit. b), text din articol | 1 (0) | `COD-985-2002#art.134^20` l.1572 |
+| `COD-985-2002#art.335` l.5090 | HCC: HCC24/2019-10-17, alin. (1^1), text din articol (+1) | 1 (0) | `COD-985-2002#art.55` l.732 |
+| `L-136-2017#art.23` l.347 | HCC: HCC7/2021-03-04, al.(6), in parte | 1 (0) | `L-136-2017#art.24` l.357 |
+| `L-158-2008#art.53` l.949 | HCC: HCC6/2016-03-03, lit.c), subunitate | 1 (0) | `L-158-2008#art.41` l.757 |
+| … inca 4 dispozitii, in JSON | | | |
 
-Stari atasate dispozitiilor, in total: 63 in-force, 125 HCC, 379 abrogat. 104 dintre ele au cel putin o citare intrata, 33 din alte acte.
+Stari atasate dispozitiilor, in total: 4 in-force, 127 HCC, 382 abrogat. 84 dintre ele au cel putin o citare intrata, 27 din alte acte.
 
 ## Actele: ce citeaza si de cine sint citate
 
@@ -294,25 +297,25 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `AA-2014` | 11 | 44 | 0 | 4 | 0 | 18 | 64 |
 | `CC-1107-2002` | 2657 | 27 | 48 | 1017 | 5 | 1 | 20 |
 | `CETS-223-2018` | 40 | 0 | 0 | 113 | 0 | 1 | 0 |
-| `COD-116-2018` | 260 | 13 | 60 | 106 | 11 | 1 | 3 |
+| `COD-116-2018` | 260 | 13 | 59 | 106 | 11 | 1 | 3 |
 | `COD-1163-1997` | 511 | 66 | 41 | 447 | 23 | 1 | 64 |
-| `COD-122-2003` | 658 | 26 | 18 | 471 | 219 | 2 | 23 |
-| `COD-1316-2000` | 0 | 6 | 7 | 0 | 1 | 2 | 4 |
-| `COD-150-2014` | 201 | 16 | 6 | 46 | 3 | 0 | 7 |
-| `COD-154-2003` | 416 | 26 | 24 | 198 | 3 | 0 | 23 |
+| `COD-122-2003` | 657 | 25 | 18 | 465 | 217 | 2 | 23 |
+| `COD-1316-2000` | 133 | 7 | 7 | 28 | 2 | 0 | 4 |
+| `COD-150-2014` | 206 | 16 | 6 | 46 | 3 | 0 | 7 |
+| `COD-154-2003` | 416 | 25 | 24 | 198 | 2 | 0 | 23 |
 | `COD-174-2018` | 98 | 18 | 8 | 71 | 7 | 0 | 9 |
 | `COD-218-2008` | 737 | 56 | 60 | 508 | 85 | 14 | 37 |
 | `COD-22-2024` | 96 | 26 | 6 | 18 | 6 | 0 | 20 |
-| `COD-225-2003` | 540 | 23 | 28 | 213 | 31 | 17 | 10 |
-| `COD-246-2024` | 98 | 25 | 1 | 46 | 3 | 2 | 15 |
+| `COD-225-2003` | 540 | 23 | 29 | 213 | 31 | 17 | 10 |
+| `COD-246-2024` | 99 | 25 | 1 | 47 | 3 | 1 | 15 |
 | `COD-259-2004` | 119 | 8 | 2 | 7 | 0 | 0 | 7 |
 | `COD-3-2009` | 85 | 10 | 4 | 19 | 1 | 0 | 5 |
 | `COD-325-2022` | 252 | 36 | 13 | 164 | 23 | 0 | 22 |
 | `COD-434-2023` | 390 | 44 | 18 | 137 | 18 | 1 | 55 |
-| `COD-443-2004` | 361 | 30 | 22 | 129 | 75 | 0 | 18 |
+| `COD-443-2004` | 360 | 30 | 23 | 123 | 75 | 0 | 18 |
 | `COD-95-2021` | 472 | 37 | 6 | 430 | 8 | 0 | 30 |
 | `COD-985-2002` | 566 | 22 | 35 | 166 | 3 | 1 | 12 |
-| `CONST-1994` | 157 | 4 | 83 | 13 | 1 | 0 | 5 |
+| `CONST-1994` | 157 | 4 | 84 | 13 | 1 | 0 | 5 |
 | `DCA-61-2024` | 0 | 5 | 0 | 0 | 5 | 0 | 2 |
 | `DCNPDCP-08-2023` | 0 | 2 | 0 | 0 | 1 | 0 | 1 |
 | `DCNPDCP-41-2026` | 0 | 6 | 0 | 0 | 2 | 0 | 9 |
@@ -333,7 +336,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `HCNPF-14-5-2016` | 0 | 12 | 0 | 0 | 29 | 2 | 11 |
 | `HCNPF-38-5-2015` | 0 | 9 | 0 | 0 | 16 | 1 | 4 |
 | `HG-1170-2016` | 0 | 16 | 1 | 0 | 6 | 0 | 17 |
-| `HG-1171-2018` | 0 | 3 | 1 | 0 | 2 | 0 | 1 |
+| `HG-1171-2018` | 0 | 6 | 2 | 0 | 10 | 0 | 3 |
 | `HG-118-2023` | 0 | 7 | 0 | 0 | 2 | 0 | 0 |
 | `HG-143-2021` | 0 | 12 | 0 | 0 | 2 | 0 | 5 |
 | `HG-146-2021` | 0 | 10 | 0 | 0 | 2 | 0 | 3 |
@@ -344,10 +347,11 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `HG-305-2026` | 0 | 10 | 0 | 0 | 2 | 0 | 3 |
 | `HG-310-2025` | 0 | 3 | 0 | 0 | 6 | 0 | 1 |
 | `HG-386-2020` | 0 | 5 | 0 | 0 | 2 | 0 | 2 |
+| `HG-497-2026` | 0 | 6 | 0 | 0 | 10 | 0 | 14 |
 | `HG-553-2024` | 0 | 3 | 0 | 0 | 13 | 0 | 0 |
 | `HG-574-2024` | 0 | 5 | 2 | 0 | 2 | 0 | 3 |
 | `HG-582-2022` | 0 | 5 | 0 | 0 | 16 | 2 | 0 |
-| `HG-610-2018` | 0 | 14 | 1 | 0 | 8 | 0 | 4 |
+| `HG-610-2018` | 0 | 14 | 2 | 0 | 8 | 0 | 4 |
 | `HG-657-2009` | 0 | 23 | 1 | 0 | 4 | 0 | 21 |
 | `HG-690-2017` | 0 | 8 | 0 | 0 | 2 | 0 | 3 |
 | `HG-693-2017` | 0 | 4 | 0 | 0 | 1 | 0 | 1 |
@@ -360,8 +364,8 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-1-2018` | 28 | 5 | 2 | 19 | 0 | 0 | 2 |
 | `L-10-2009` | 75 | 12 | 3 | 1 | 4 | 0 | 7 |
 | `L-10-2016` | 63 | 28 | 3 | 95 | 3 | 0 | 58 |
-| `L-100-2001` | 78 | 4 | 4 | 6 | 1 | 0 | 1 |
-| `L-100-2017` | 79 | 18 | 14 | 12 | 7 | 0 | 7 |
+| `L-100-2001` | 78 | 4 | 4 | 6 | 3 | 0 | 1 |
+| `L-100-2017` | 80 | 18 | 15 | 12 | 7 | 0 | 7 |
 | `L-102-2017` | 26 | 13 | 1 | 0 | 0 | 0 | 12 |
 | `L-105-2003` | 75 | 21 | 11 | 76 | 8 | 0 | 26 |
 | `L-105-2018` | 74 | 16 | 3 | 22 | 3 | 0 | 8 |
@@ -369,7 +373,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-108-2016` | 144 | 41 | 5 | 293 | 5 | 1 | 54 |
 | `L-1100-2000` | 49 | 15 | 2 | 9 | 4 | 0 | 15 |
 | `L-1125-2002` | 50 | 9 | 5 | 4 | 16 | 1 | 4 |
-| `L-1134-1997` | 110 | 30 | 20 | 134 | 21 | 0 | 20 |
+| `L-1134-1997` | 108 | 30 | 20 | 127 | 21 | 0 | 20 |
 | `L-114-2012` | 131 | 24 | 13 | 267 | 13 | 0 | 15 |
 | `L-114-2014` | 28 | 3 | 2 | 4 | 0 | 2 | 0 |
 | `L-116-2014` | 18 | 6 | 2 | 2 | 0 | 0 | 7 |
@@ -388,7 +392,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-132-2012` | 52 | 7 | 1 | 6 | 0 | 1 | 2 |
 | `L-132-2016` | 45 | 13 | 13 | 27 | 7 | 0 | 4 |
 | `L-133-2011` | 36 | 10 | 38 | 18 | 1 | 0 | 2 |
-| `L-133-2016` | 27 | 8 | 21 | 28 | 5 | 0 | 2 |
+| `L-133-2016` | 27 | 7 | 20 | 28 | 5 | 0 | 2 |
 | `L-133-2018` | 17 | 58 | 2 | 0 | 0 | 0 | 42 |
 | `L-135-2007` | 93 | 11 | 6 | 17 | 16 | 0 | 2 |
 | `L-136-2017` | 48 | 2 | 18 | 13 | 3 | 0 | 1 |
@@ -399,22 +403,22 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-148-2023` | 35 | 6 | 16 | 25 | 2 | 0 | 1 |
 | `L-149-2006` | 44 | 5 | 2 | 5 | 0 | 1 | 0 |
 | `L-149-2012` | 271 | 11 | 13 | 182 | 7 | 9 | 9 |
-| `L-1543-1998` | 99 | 19 | 4 | 29 | 7 | 0 | 10 |
+| `L-1543-1998` | 93 | 17 | 4 | 25 | 6 | 0 | 10 |
 | `L-155-2011` | 6 | 0 | 2 | 0 | 0 | 0 | 0 |
 | `L-156-2007` | 24 | 2 | 1 | 1 | 1 | 0 | 1 |
 | `L-158-2008` | 88 | 51 | 38 | 74 | 10 | 0 | 54 |
 | `L-1585-1998` | 25 | 10 | 3 | 4 | 3 | 1 | 6 |
-| `L-160-2011` | 32 | 11 | 60 | 12 | 3 | 2 | 9 |
+| `L-160-2011` | 32 | 11 | 58 | 12 | 3 | 2 | 9 |
 | `L-160-2023` | 58 | 13 | 3 | 47 | 5 | 0 | 7 |
 | `L-160-2026` | 46 | 4 | 2 | 54 | 11 | 1 | 1 |
 | `L-164-2025` | 151 | 42 | 3 | 351 | 2 | 3 | 61 |
 | `L-165-2023` | 31 | 10 | 1 | 4 | 0 | 0 | 5 |
-| `L-171-2012` | 156 | 31 | 26 | 153 | 17 | 0 | 24 |
+| `L-171-2012` | 158 | 31 | 26 | 154 | 17 | 0 | 24 |
 | `L-177-2025` | 4 | 4 | 0 | 0 | 0 | 0 | 0 |
 | `L-178-2020` | 8 | 7 | 0 | 0 | 0 | 0 | 2 |
 | `L-179-2008` | 56 | 11 | 2 | 16 | 4 | 0 | 5 |
 | `L-179-2016` | 23 | 4 | 5 | 5 | 0 | 0 | 2 |
-| `L-181-2014` | 89 | 30 | 41 | 30 | 3 | 1 | 26 |
+| `L-181-2014` | 86 | 28 | 41 | 30 | 3 | 1 | 25 |
 | `L-181-2023` | 50 | 19 | 3 | 13 | 24 | 1 | 9 |
 | `L-183-2012` | 110 | 28 | 11 | 183 | 8 | 4 | 14 |
 | `L-183-2016` | 17 | 6 | 7 | 8 | 3 | 0 | 1 |
@@ -424,7 +428,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-198-2007` | 54 | 10 | 5 | 38 | 14 | 0 | 11 |
 | `L-198-2020` | 64 | 10 | 2 | 23 | 8 | 0 | 3 |
 | `L-199-2010` | 29 | 8 | 25 | 2 | 5 | 0 | 2 |
-| `L-2-2020` | 46 | 17 | 0 | 29 | 8 | 1 | 10 |
+| `L-2-2020` | 46 | 17 | 0 | 29 | 9 | 0 | 10 |
 | `L-20-2026` | 29 | 18 | 2 | 16 | 17 | 0 | 9 |
 | `L-202-2017` | 155 | 21 | 20 | 247 | 31 | 2 | 10 |
 | `L-209-2016` | 91 | 40 | 12 | 236 | 4 | 0 | 49 |
@@ -437,16 +441,16 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-227-2025` | 42 | 52 | 1 | 0 | 0 | 0 | 19 |
 | `L-229-2010` | 35 | 1 | 3 | 1 | 0 | 0 | 1 |
 | `L-23-2008` | 36 | 4 | 0 | 6 | 0 | 0 | 3 |
-| `L-230-2022` | 66 | 23 | 4 | 60 | 4 | 76 | 28 |
+| `L-230-2022` | 123 | 23 | 4 | 145 | 4 | 0 | 28 |
 | `L-232-2016` | 344 | 18 | 8 | 238 | 43 | 1 | 8 |
 | `L-234-2016` | 37 | 14 | 10 | 30 | 6 | 0 | 7 |
 | `L-235-2006` | 21 | 5 | 23 | 1 | 3 | 0 | 1 |
 | `L-239-2007` | 43 | 7 | 4 | 4 | 0 | 0 | 4 |
-| `L-239-2008` | 20 | 5 | 16 | 0 | 0 | 0 | 1 |
+| `L-239-2008` | 20 | 5 | 17 | 0 | 0 | 0 | 1 |
 | `L-24-2008` | 42 | 3 | 2 | 31 | 1 | 0 | 2 |
 | `L-245-2008` | 41 | 5 | 17 | 9 | 0 | 0 | 2 |
 | `L-246-2017` | 20 | 8 | 3 | 6 | 8 | 0 | 2 |
-| `L-246-2018` | 97 | 17 | 3 | 17 | 14 | 0 | 6 |
+| `L-246-2018` | 97 | 17 | 2 | 17 | 23 | 0 | 6 |
 | `L-248-2025` | 56 | 4 | 1 | 1 | 1 | 0 | 0 |
 | `L-25-2008` | 17 | 6 | 0 | 4 | 1 | 0 | 0 |
 | `L-250-2017` | 23 | 6 | 1 | 14 | 0 | 0 | 4 |
@@ -458,7 +462,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-273-1994` | 12 | 11 | 1 | 19 | 1 | 0 | 7 |
 | `L-274-2011` | 35 | 5 | 3 | 12 | 1 | 0 | 5 |
 | `L-278-2007` | 44 | 12 | 4 | 21 | 0 | 0 | 8 |
-| `L-28-2024` | 63 | 16 | 2 | 8 | 0 | 0 | 13 |
+| `L-28-2024` | 63 | 16 | 1 | 8 | 0 | 0 | 13 |
 | `L-282-2004` | 22 | 3 | 1 | 0 | 0 | 0 | 0 |
 | `L-283-2003` | 46 | 9 | 3 | 13 | 0 | 0 | 5 |
 | `L-284-2004` | 29 | 10 | 4 | 4 | 7 | 0 | 3 |
@@ -497,7 +501,7 @@ Pe act: tintele distincte ale mentiunilor (detinute + externe), actele detinute 
 | `L-66-2017` | 17 | 17 | 0 | 0 | 0 | 0 | 11 |
 | `L-67-2024` | 35 | 13 | 2 | 34 | 0 | 2 | 10 |
 | `L-68-2013` | 23 | 19 | 1 | 5 | 1 | 0 | 18 |
-| `L-69-2016` | 0 | 3 | 1 | 0 | 0 | 0 | 2 |
+| `L-69-2016` | 70 | 4 | 1 | 18 | 0 | 0 | 2 |
 | `L-71-2007` | 33 | 3 | 8 | 0 | 0 | 0 | 3 |
 | `L-72-2025` | 127 | 52 | 3 | 407 | 24 | 0 | 52 |
 | `L-764-2001` | 26 | 3 | 5 | 0 | 1 | 0 | 3 |
@@ -534,9 +538,6 @@ Articole citate care nu au ancora in actul-tinta, grupate pe tinta. Cauze cunosc
 
 | act-tinta | articol citat | citari | poate fi | regula | exemplu (sursa, linie) | fragment |
 |---|---|---:|---|---|---|---|
-| `L-230-2022` | art. 58 | 11 | - | intern | `L-230-2022#art.3` l.127 | misiunilor sale de interes public, în sensul art. 58 ra aceleași servicii persoanelor bligațiile sale instituționale ori |
-| `L-230-2022` | art. 99 | 9 | - | intern | `L-230-2022#art.63` l.1707 | cierea cu bună-credită, conform prevederilor art. 99 alin. (2), cu menționarea criteriilor pe care furnizorii de servicii |
-| `L-230-2022` | art. 103 | 9 | - | intern | `L-230-2022#art.102` l.3085 | fi din nou desemnată colector în condițiile art. 103, respectării condițiilor și a criteriilor prevăzute în prezentul a g |
 | `CC-1107-2002` | art. 48^30 | 7 | - | din | `COD-225-2003#art.308^2` l.2707 | de judecată audiază persoanele enumerate la art. 48^30 alin. (1) din Codul civil. (2) Audierea persoanelor indicate la art. |
 | `COD-218-2008` | art. 441 | 5 | exponent turtit: art. 44^1 | din | `HG-582-2022#corp` l.94 | rocesul contravențional a încetat în temeiul art. 441 alin. (1) lit. f) din Codul contravențional al Republicii Moldova nr. |
 | `L-131-2012` | art. 51 | 5 | exponent turtit: art. 5^1 | intern | `L-131-2012#art.29` l.560 | or încălcări, conform limitelor stabilite la art. 51. (1^1) În cazul prevăzut la art.28 alin.(9), organul respectiv includ |
@@ -544,30 +545,16 @@ Articole citate care nu au ancora in actul-tinta, grupate pe tinta. Cauze cunosc
 | `AA-2014` | art. 7 | 3 | - | intern | `AA-2014#art.465` l.163 | italului inițial prevăzut în conformitate cu articolul 5 alineatele (1) și (3), articolul 6, articolul 7 literele (a), (b) și (c), articolul 8 literele (a), (b) și (c) și arti |
 | `CC-1107-2002` | art. 330^4 | 3 | - | din | `COD-225-2003#art.327` l.2902 | rilor de constatare a uzucapiunii în temeiul art. 330^4 din Codul civil şi efectuării înregistrării corespunzătoare în regist |
 | `CC-1107-2002` | art. 1575^9 | 3 | - | din | `L-149-2012#art.235^13` l.2437 | asei succesorale de către moștenitor conform art. 1575^9–1575^11 din Codul civil pot fi folosite pentru a satisface creanțele |
-| `L-230-2022` | art. 10 | 3 | - | intern | `L-230-2022#art.19` l.730 | respectarea integrității operei, prevăzut la art. 10 alin. (2) lit. c), nu se extinde asupra modificărilor ce nu produc sc |
-| `L-230-2022` | art. 32 | 3 | - | intern | `L-230-2022#art.57` l.1645 | de conținut trebuie să obțină, în condițiile art. 31 sau ale art. 32, un acord de utilizare din partea autorilor, interpretilor, producăto |
-| `L-230-2022` | art. 77 | 3 | - | intern | `L-230-2022#art.122` l.3493 | ună de la data publicării înția prevederilor art. 77, care vor intra în (2) În termen de 6 luni de la data intrării în vi |
-| `L-230-2022` | art. 81 | 3 | - | intern | `L-230-2022#art.19` l.668 | închiriere și imprumut se aplică dispoziţii art. 81. (10) În lipsa unei prevederi contrare, interpreții care au particip |
-| `L-230-2022` | art. 95 | 3 | - | intern | `L-230-2022#art.36` l.1030 | va, atunci când sunt aplicabile dispozițiile art. 95 alin. (1) și (2); c) atunci când exploatarea a încetat sau când auto |
-| `L-230-2022` | art. 100 | 3 | - | intern | `L-230-2022#art.105` l.3156 | todologiilor conform procedurii prevăzute la art. 100; d) să apeleze la Comisia de mediere s proprietății intelectuale în |
 | `L-86-2014` | art. 105 | 3 | exponent turtit: art. 10^5 | intern | `L-86-2014#art.10^12` l.469 | entă a acordului de mediu în conformitate cu art. 105 alin. (5). (8) În cazul activităților planificate care nu cad sub inc |
 | `AA-2014` | art. 4 | 2 | - | intern | `AA-2014#art.465` l.206 | sare pentru fiecare investitor, prevăzută la articolul 4 din respectiva directivă, sunt puse în aplicare în termen de cinci an |
 | `CC-1107-2002` | art. 48^40 | 2 | - | din | `COD-225-2003#art.308^9` l.2738 | oire a măsurii de ocrotire judiciare conform art. 48^40 din Codul civil, instanţa de judecată va pronunţa hotărârea judecător |
 | `CC-1107-2002` | art. 1575^4 | 2 | - | din | `L-149-2012#art.235^12` l.2433 | ța ce aparține creditorului care, în temeiul art. 1575^4 din Codul civil, a fost exclus din cadrul procedurii de somare public |
 | `CC-1107-2002` | art. 1575^5 | 2 | - | din | `L-149-2012#art.235^12` l.2433 | publică a creditorilor sau care, în temeiul art. 1575^5 din Codul civil, se asimilează creditorului exclus va fi satisfăcută |
-| `CC-1107-2002` | art. 4852 | 2 | - | din | `COD-1316-2000#corp` l.523 | de ocrotire judiciară, se aplică prevederile art. 4852 şi 4853 din Codul civil. (7) Declaraţia comună a mamei şi tatălui co |
 | `COD-218-2008` | art. 562 | 2 | exponent turtit: art. 56^2 | intern | `COD-218-2008#art.415` l.6587 | (1) Contravenţiile prevăzute la art. 562 , 563, 242, 366–369, art. 370 alin. (1), art. 371–373^3 se constată de Ministerul Apărării. (2) Sunt în drept să consta |
 | `L-1456-1993` | art. 200 | 2 | - | intern | `L-1456-1993#preambul` l.70 | 04.2005 în MONITORUL PARLAMENTULUI Nr. 59-61 art. 200 \| \| Data intrării în vigoare \| 25.05.1993 \| \| Data modificării/datele |
 | `L-183-2012` | art. 572 | 2 | exponent turtit: art. 57^2 | intern | `L-183-2012#art.47` l.795 | lui Consiliului Concurenței emisă în temeiul art. 572 alin. (1) pot fi contestate, în conformitate cu prevederile Codului a |
 | `L-212-2004` | art. 17 | 2 | - | din | `L-108-2016#art.105^1` l.2255 | larării stării de urgență în conformitate cu art. 17–19 din Legea nr. 212/2004 privind regimul stării de urgență, de asedi |
 | `L-212-2004` | art. 20 | 2 | - | intern | `L-212-2004#art.42` l.267 | asediu, suplimentar la măsurile prevăzute la art.20, pot fi luate următoarele măsuri: a) închiderea frontierei de stat a |
-| `L-230-2022` | art. 9 | 2 | - | intern | `L-230-2022#art.19` l.636 | utori) ai operei audiovizuale, în condițiile art. 9: a) realizatorul principal (regizorul); b) autorul scenariului (sce |
-| `L-230-2022` | art. 25 | 2 | - | intern | `L-230-2022#art.11` l.517 | turi patrimoniale exclusive sunt definite la art. 25, și a autorului bazei de date, ale cărui drepturi exclusive sunt defi |
-| `L-230-2022` | art. 30 | 2 | - | intern | `L-230-2022#art.35` l.986 | turile lor patrimoniale exclusive în temeiul art. 30, autorii și interpreții au dreptul să primească o remunerație adecvat |
-| `L-230-2022` | art. 42 | 2 | - | intern | `L-230-2022#art.28` l.860 | itarea drepturilor patrimoniale prevăzute la art. 42 se transmite moştenitorilor, potrivit legislăției civile, pe durata p |
-| `L-230-2022` | art. 46 | 2 | - | intern | `L-230-2022#art.28` l.860 | t legislăției civile, pe durata prevăzută la art. 46. Dacă nu există moștenitori, exercitarea acestor drepturi revine orga |
-| `L-230-2022` | art. 68 | 2 | - | intern | `L-230-2022#art.78` l.2117 | ganizație respectarea termenului prevăzut la art. 68 alin. (1) lit. c). ecte protejate din sistemul de gestiune colectiva |
-| `L-230-2022` | art. 89 | 2 | - | intern | `L-230-2022#art.92` l.2610 | irii îndatoririlor persoanelor mentionate la art. 89, inclusiv punerea în aplicare a deciziilor adunării generale a membri |
 | `UA-STATUT-2011` | art. 35^1 | 2 | - | intern | `UA-STATUT-2011#art.53^1` l.799 | anele care întrunesc condițiile prevăzute la art. 34 alin. (1) și art. 35^1 din Lege cu respectarea limitei numărului de mandate consecutive. Ver |
 | `AA-2014` | art. 2 | 1 | - | intern | `AA-2014#art.465` l.157 | același mod ca și instituțiile enumerate la articolul 2 din respectiva directivă, și în consecință, vor fi exceptate de la do |
 | `AA-2014` | art. 5 | 1 | - | intern | `AA-2014#art.465` l.163 | italului inițial prevăzut în conformitate cu articolul 5 alineatele (1) și (3), articolul 6, articolul 7 literele (a), (b) și (c), articolul 8 literele (a), (b) și (c) și arti |
@@ -588,13 +575,30 @@ Articole citate care nu au ancora in actul-tinta, grupate pe tinta. Cauze cunosc
 | `COD-116-2018` | art. 17^1 | 1 | - | din | `L-192-1998#art.23` l.376 | te. d) - abrogată; (1^2) Prin derogare de la art. 17^1 alin.(4) din Codul administrativ nr. 116/2018, depunerea unei cereri |
 | `COD-116-2018` | art. 2451 | 1 | exponent turtit: art. 245^1 | intern | `COD-116-2018#art.247` l.1742 | epția recursului în care se invocă întemeiat art. 2451 alin. (1) lit. b) și d). Completul poate decide și în alte cazuri inv |
 | `COD-1163-1997` | art. 29^1 | 1 | - | intern | `COD-1163-1997#art.292` l.6945 | art. 295 lit. g^1), achită taxa stipulată la art. 29^1 alin.(1) lit.e), anual, în termen de până la data de 25 martie a anul |
-| `COD-122-2003` | art. 181^1 | 1 | - | intern | `COD-122-2003#art.269` l.3923 | în privința infracțiunilor prevăzute la: a) art. 181^1–181^3, 239–240, 243, art. 244 alin. (3)–(5) doar pentru faptele prevăzute la alin. (3) și (4), art. |
-| `COD-122-2003` | art. 185^2 | 1 | - | intern | `COD-122-2003#art.276` l.4065 | tru săvârșirea unor infracţiuni prevăzute la art. 185^2, cu excepţia infracţiunilor prevăzute la alin. (2^3), şi la art. 185^ |
+| `COD-122-2003` | art. 181^1 | 1 | - | intern | `COD-122-2003#art.269` l.3855 | în privința infracțiunilor prevăzute la: a) art. 181^1–181^3, 239–240, 243, art. 244 alin. (3)–(5) doar pentru faptele prevăzute la alin. (3) și (4), art. |
+| `COD-122-2003` | art. 185^2 | 1 | - | intern | `COD-122-2003#art.276` l.3997 | tru săvârșirea unor infracţiuni prevăzute la art. 185^2, cu excepţia infracţiunilor prevăzute la alin. (2^3), şi la art. 185^ |
 | `COD-150-2014` | art. 622 | 1 | exponent turtit: art. 62^2 | din | `COD-218-2008#art.197` l.3383 | ransport rutier, a obligațiilor prevăzute la art. 23 alin. (8), art. 48, 49, 79, art. 3126 alin. (4), art. 3136 alin. (5), art. 3142 alin. (3), art. 622 alin. (1) din Codul tr |
 | `COD-150-2014` | art. 3126 | 1 | exponent turtit: art. 31^26 | din | `COD-218-2008#art.197` l.3383 | ransport rutier, a obligațiilor prevăzute la art. 23 alin. (8), art. 48, 49, 79, art. 3126 alin. (4), art. 3136 alin. (5), art. 3142 alin. (3), art. 622 alin. (1) din Codul tr |
 | `COD-150-2014` | art. 3136 | 1 | exponent turtit: art. 31^36 | din | `COD-218-2008#art.197` l.3383 | ransport rutier, a obligațiilor prevăzute la art. 23 alin. (8), art. 48, 49, 79, art. 3126 alin. (4), art. 3136 alin. (5), art. 3142 alin. (3), art. 622 alin. (1) din Codul tr |
 | `COD-150-2014` | art. 3142 | 1 | exponent turtit: art. 31^42 | din | `COD-218-2008#art.197` l.3383 | ransport rutier, a obligațiilor prevăzute la art. 23 alin. (8), art. 48, 49, 79, art. 3126 alin. (4), art. 3136 alin. (5), art. 3142 alin. (3), art. 622 alin. (1) din Codul tr |
-| … inca 77 grupuri, in JSON | | | | | | |
+| `COD-218-2008` | art. 5^1 | 1 | - | intern | `COD-218-2008#art.440` l.7012 | zător se efectuează în limitele stabilite la art. 4 alin.(10) și art. 5^1din legea menționată. (5) Dacă la depistarea sau la examinarea cazului |
+| `COD-218-2008` | art. 13^1 | 1 | - | modificare | `COD-434-2023#art.389` l.4138 | rile ulterioare, va avea următorul cuprins: „Articolul 13^1. Misiunile diplomatice pot procura sau obține prin schimb terenuri și |
+| `COD-218-2008` | art. 52^2 | 1 | - | intern | `COD-218-2008#art.293^2` l.4879 | e plată și moneda electronică a prevederilor art. 50 alin. (1)–(5) și (7), art. 52^1 alin. (5), art. 52^2 alin. (1) și (2), art. 53 alin. (3), (4), (6) și (7), art. 55 alin. ( |
+| `COD-218-2008` | art. 60^1 | 1 | - | intern | `COD-218-2008#art.293^2` l.4879 | e plată și moneda electronică a prevederilor art. 50 alin. (1)–(5) și (7), art. 52^1 alin. (5), art. 52^2 alin. (1) și (2), art. 53 alin. (3), (4), (6) și (7), art. 55 alin. ( |
+| `COD-218-2008` | art. 641 | 1 | exponent turtit: art. 64^1 | intern | `COD-218-2008#art.409^2` l.6554 | (1) Contravențiile prevăzute la art.641, 642, 327^3 se constată de către Inspectoratul Social de Stat. (2) Su |
+| `COD-225-2003` | art. 48^15 | 1 | - | intern | `COD-225-2003#art.308^17` l.2789 | u controlul executării mandatului, în sensul art. 48^15 alin. (3), şi de către persoanele ale căror drepturi sunt afectate pr |
+| `COD-225-2003` | art. 581 | 1 | exponent turtit: art. 58^1 | din | `CC-1107-2002#art.113` l.952 | ori din oficiu. (3) În cazurile prevăzute la art. 581 din Codul de procedură civilă, curatorul special sau tutorele special |
+| `COD-246-2024` | art. 251 | 1 | - | intern | `COD-246-2024#preambul` l.82 | te care fac obiectul procedurii prevăzute la articolul 251 din tratat, în ceea ce privește procedura de reglementare cu control |
+| `COD-259-2004` | art. 117 | 1 | - | din | `L-114-2014#art.37` l.431 | 2) lit. i), secţiunea 1 a capitolului VII şi art. 117 alin. (3) din Codul cu privire la ştiinţă şi inovare al Republicii Mo |
+| `L-10-2016` | art. 395 | 1 | exponent turtit: art. 39^5 | din | `L-164-2025#art.125` l.2461 | energie din surse regenerabile prevăzute la art. 395 din Legea nr. 10/2016 privind promovarea utilizării energiei din surs |
+| `L-105-2003` | art. 201 | 1 | - | din | `COD-218-2008#art.273` l.4540 | locului de preschimbare a mărfii prevăzut la art. 201 din Legea nr. 105/2003 privind protecția consumatorilor, lipsa inform |
+| `L-1125-2002` | art. 1756 | 1 | - | intern | `L-1125-2002#art.45` l.268 | a) exceptarea prevăzută de art.1756 alin.(2) enunțul al doilea din Codul civil în redacția introdusă prin |
+| `L-114-2014` | art. 82 | 1 | - | intern | `L-114-2014#art.37` l.431 | trării în vigoare a prezentei legi se abrogă art. 82 alin. (2) lit. i), secţiunea 1 a capitolului VII şi art. 117 alin. (3 |
+| `L-131-2012` | art. 191 | 1 | exponent turtit: art. 19^1 | din | `L-160-2011#art.11^1` l.380 | permisiv în modul și termenele stabilite la art. 191 din Legea nr. 131/2012 privind controlul de stat asupra activităţii d |
+| `L-143-2014` | art. 37 | 1 | - | paranteza | `L-143-2014#preambul` l.95 | alin. (2) paragraful întâi și alin. (3)–(5), art. 14–21, art. 23–29, art. 31, art. 32 alin. (2) și (4), art. 33–35, art. 37 paragraful al doilea, art. 38 alin. (1) și (3), art |
+| `L-143-2014` | art. 38 | 1 | - | intern | `L-143-2014#preambul` l.95 | ), art. 33–35, art. 37 paragraful al doilea, art. 38 alin. (1) și (3), art. 39 alin. (1) paragrafele întâi și al doilea, alin. (2)–(5) și (8), art. |
+| `L-143-2014` | art. 39 | 1 | - | intern | `L-143-2014#preambul` l.95 | ), art. 33–35, art. 37 paragraful al doilea, art. 38 alin. (1) și (3), art. 39 alin. (1) paragrafele întâi și al doilea, alin. (2)–(5) și (8), art. |
+| … inca 43 grupuri, in JSON | | | | | | |
 
 „Poate fi” este o ipoteza mecanica, nu o muchie: numarul citat, despartit in baza si exponent, da o ancora existenta. Se verifica in sursa inainte de a fi folosita.
 

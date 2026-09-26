@@ -32,7 +32,7 @@ DOCS = {
     # A treia sursa P1 din documentul 04, ultima care lipsea. doc_id gasit si verificat
     # 2026-09-04. Act din 1992, dar foloseste forma moderna "Articolul N", nu "Art.N. -",
     # deci extractorul il prinde. 28 de etichete <sup>, niciun span ridicat prin CSS.
-    'L-845-1992': {'doc_id': '155963',
+    'L-845-1992': {'doc_id': '152587',
                    'title': 'Legea nr. 845/1992 cu privire la antreprenoriat si intreprinderi'},
     # Codurile. Codul fiscal poarta un CUPRINS de ~780 de linii care repeta fiecare titlu
     # de articol; vezi regula de suprimare a ancorarii din extract_doc. Numerotarea NU
@@ -62,12 +62,12 @@ DOCS = {
     # folosesc forma moderna "Articolul N". Cinci din sapte sint consolidari VIITOARE.
     # Reimprospatat 2026-09-06 la 155718 (2026-08-06, LP126/2026), din 152860 (2025-12-30).
     'COD-225-2003': {'doc_id': '155718', 'title': 'Codul de procedura civila al Republicii Moldova nr. 225/2003'},
-    'COD-443-2004': {'doc_id': '156146', 'title': 'Codul de executare al Republicii Moldova nr. 443/2004'},
+    'COD-443-2004': {'doc_id': '155721', 'title': 'Codul de executare al Republicii Moldova nr. 443/2004'},
     'COD-95-2021':  {'doc_id': '154350', 'title': 'Codul vamal al Republicii Moldova nr. 95/2021'},
-    'COD-154-2003': {'doc_id': '155882', 'title': 'Codul muncii al Republicii Moldova nr. 154/2003'},
+    'COD-154-2003': {'doc_id': '155185', 'title': 'Codul muncii al Republicii Moldova nr. 154/2003'},
     'COD-218-2008': {'doc_id': '155852', 'title': 'Codul contraventional al Republicii Moldova nr. 218/2008'},
-    'COD-985-2002': {'doc_id': '156133', 'title': 'Codul penal al Republicii Moldova nr. 985/2002'},
-    'COD-122-2003': {'doc_id': '156138', 'title': 'Codul de procedura penala al Republicii Moldova nr. 122/2003'},
+    'COD-985-2002': {'doc_id': '151140', 'title': 'Codul penal al Republicii Moldova nr. 985/2002'},
+    'COD-122-2003': {'doc_id': '156018', 'title': 'Codul de procedura penala al Republicii Moldova nr. 122/2003'},
     # Adaugata 2026-09-05. Nu este perimetru CNPF: este lege generala de publicitate si
     # protectie a consumatorului, deci merge in moldova-legal/, ca L-135-2007 si L-220-2007.
     # Motivul ingerarii: art. 4^1 alin. (9) din L-171-2012, introdus de L-177-2025, construieste
@@ -245,7 +245,7 @@ DOCS = {
     # ancorare la nivel de punct ar produce ancore duplicate. Ingerata cu zero ancore, ca
     # HG-1170-2016, HG-1171-2018, HG-574-2024 si DCA-61-2024. Consecinta de citare, de spus in
     # orice raspuns: o trimitere la "pct. N din Regulamentul de atestare" NU este ancorata.
-    'HG-743-2024': {'doc_id': '155190',
+    'HG-743-2024': {'doc_id': '155188',
                     'title': 'Hotararea Guvernului nr. 743/2024 cu privire la asigurarea '
                              'calitatii in constructii (Regulamentul de atestare a '
                              'specialistilor, anexa nr. 1)'},
@@ -287,7 +287,7 @@ DOCS = {
     # fara duplicate, fara forma N^X/Y.
     # CONSOLIDARE VIITOARE: 2027-01-01 (LP176/2025), cu 6 dispozitii care nu sint inca in
     # vigoare. De verificat in registrul in-force inainte de a cita orice articol de aici.
-    'L-1543-1998': {'doc_id': '150226',
+    'L-1543-1998': {'doc_id': '150224',
                     'title': 'Legea cadastrului bunurilor imobile nr. 1543/1998'},
     # Adaugata 2026-09-09, la cererea lui Eugen, din lista de ingest a spetei mostenitorului unui
     # actionar de banca (8 septembrie): procedura succesorala, certificatul de mostenitor si
@@ -541,7 +541,7 @@ DOCS = {
     #   2. HCC29 din 21.09.21, MO256-260/22.10.21 art.184; in vigoare 21.09.21 apare direct in
     #      istoricul de modificari al fisei, nu doar in corpul textului - de verificat la
     #      regenerarea registrului HCC ce dispozitie a lovit.
-    'L-133-2016': {'doc_id': '155891',
+    'L-133-2016': {'doc_id': '152995',
                    'title': 'Legea nr. 133/2016 privind declararea averii si a intereselor '
                             'personale'},
 
@@ -573,7 +573,7 @@ DOCS = {
     # L-133/2016 - probabil aceeasi lovire a art. 23 al.(5^1), aici sub alt numar de articol) si
     # HCC6 din 10.04.18, MO157-166/18.05.18 art.76 - a doua, mai veche, negasita inca in registrul
     # HCC (20 de acte pina acum). 45 de articole, 33 <sup>.
-    'L-132-2016': {'doc_id': '155890',
+    'L-132-2016': {'doc_id': '147882',
                    'title': 'Legea nr. 132/2016 cu privire la Autoritatea Nationala de '
                             'Integritate'},
 
@@ -623,7 +623,7 @@ DOCS = {
     # fara niciun marcaj "abrogat" in aceasta consolidare - categoria "fara marcaj in aceasta
     # consolidare" din CLAUDE.md punctul 3, neinvestigata mai departe in istoricul legis.md la
     # aceasta ingerare.
-    'L-181-2014': {'doc_id': '153046',
+    'L-181-2014': {'doc_id': '153027',
                    'title': 'Legea nr. 181/2014 privind finantele publice si responsabilitatea '
                             'bugetar-fiscala'},
 
@@ -768,7 +768,7 @@ DOCS = {
     # id mai mic, iar diferenta de text este exact zero linii proprii + 3 linii de marcaj
     # (MODIFICAT si cele doua [Art.27 al.(14)], [Art.31 al.(6)] prin LP330) prezente doar in 152659.
     # Se ia 152659, care pastreaza marcajele amendamentului. Inlocuieste Legea 241/2007.
-    'L-72-2025': {'doc_id': '152659',
+    'L-72-2025': {'doc_id': '151457',
                   'title': 'Legea nr. 72/2025 comunicatiilor electronice'},
     # Inelul de drept administrativ, 2026-09-24, la cererea lui Eugen ("ingest everything related to
     # administrative law"). Doc_id-urile sint versiunile CURENTE (cea mai noua data care nu e in viitor),
@@ -1017,6 +1017,106 @@ DOCS = {
     'HG-146-2021--2027-07-01': {'doc_id': '156115', 'subdir': 'viitor', 'future_of': 'HG-146-2021', 'applies_from': '2027-07-01',
         'title': 'Versiune viitoare, de la 2027-07-01, a actului HG-146-2021'},
 
+    # 2026-09-26, auditul din aceeasi zi (A1): trei acte intrate la 2026-09-25 prin `web_extract` din exportul PDF, fara ancore
+    # si fara data de consolidare. Versiunile bune, din lista de versiuni de pe legis.md (citita 2026-09-26 din Chrome):
+    #   COD-1316-2000: 155707 @ 06-08-2026 (curenta; cea tinuta, 122974, era din 14-08-2020), 156321 @ 09-12-2026 (viitoare)
+    #   L-69-2016:     137679 @ 23-06-2026 (curenta; cea tinuta, 125333, era din 25-12-2020)
+    #   L-230-2022:    149374 @ 10-06-2025 (curenta; cea tinuta, 133204, era textul din 2022), 140343 @ 01-01-2030 (viitoare)
+    # Fisa nu da data abrogarii la niciunul dintre ele; antetul corpului de verificat la ingerare (memoria check-repeal).
+    # HTML-ul NU este inca in legis-md-business/: Cloudflare a cerut bifa "Verify you are human" si nu se bifeaza de catre
+    # asistent. Pina atunci verify_business_law.py sare peste ele (SARIT), iar fisierele raw actuale raman neatinse.
+    'COD-1316-2000': {'doc_id': '155707', 'title': 'Codul familiei nr. 1316/2000'},
+    'L-69-2016': {'doc_id': '137679', 'title': 'Legea nr. 69/2016 privind organizarea activitatii notarilor'},
+    'L-230-2022': {'doc_id': '149374', 'title': 'Legea nr. 230/2022 privind dreptul de autor si drepturile conexe'},
+    'COD-1316-2000--2026-12-09': {'doc_id': '156321', 'subdir': 'viitor', 'future_of': 'COD-1316-2000', 'applies_from': '2026-12-09',
+        'title': 'Versiune viitoare, de la 2026-12-09, a actului COD-1316-2000'},
+    'L-230-2022--2030-01-01': {'doc_id': '140343', 'subdir': 'viitor', 'future_of': 'L-230-2022', 'applies_from': '2030-01-01',
+        'title': 'Versiune viitoare, de la 2030-01-01, a actului L-230-2022'},
+    # 2026-09-26, verificarea consolidarilor vechi (36 de acte, listele de versiuni citite din Chrome): 34 sint inca cele mai noi in vigoare.
+    # Trei versiuni gasite si NEingerate inca (Cloudflare a cerut din nou bifa): HG-1171-2018 156468 @ 22-09-2026 (in vigoare de 4 zile;
+    # fisierul tinut, 144185, e din 19-07-2024), si doua viitoare 2027-03-01, L-23-2008 156490 si L-24-2008 156492. HG-1171-2018 se scrie
+    # peste fisierul vechi (intrat in iulie prin alt script); vechiul ramine in git si in backup.
+    'HG-1171-2018': {'doc_id': '156468', 'title': 'Hotarirea Guvernului nr. 1171/2018 pentru aprobarea Regulamentului privind armonizarea legislatiei Republicii Moldova cu legislatia Uniunii Europene'},
+    'L-23-2008--2027-03-01': {'doc_id': '156490', 'subdir': 'viitor', 'future_of': 'L-23-2008', 'applies_from': '2027-03-01',
+        'title': 'Versiune viitoare, de la 2027-03-01, a actului L-23-2008'},
+    'L-24-2008--2027-03-01': {'doc_id': '156492', 'subdir': 'viitor', 'future_of': 'L-24-2008', 'applies_from': '2027-03-01',
+        'title': 'Versiune viitoare, de la 2027-03-01, a actului L-24-2008'},
+    # 2026-09-27: HG-1171-2018 s-a dovedit ABROGATA de la 22.09.2026 prin HG497 din 02.09.26 (MO466-469/22.09.26 art.527), care aproba un nou
+    # Regulament privind armonizarea legislatiei cu legislatia UE. doc_id 156454 (unica versiune), gasit prin linkul markerului de abrogare din
+    # 156468. Regulamentul nou e in puncte, ca cel vechi. HTML 154.859 octeti, luat din Chrome-ul lui Eugen.
+    'HG-497-2026': {'doc_id': '156454', 'title': 'Hotarirea Guvernului nr. 497/2026 pentru aprobarea Regulamentului privind armonizarea legislatiei Republicii Moldova cu legislatia Uniunii Europene'},
+    # 2026-09-26: fisierul principal al acestor acte tinea o consolidare cu data viitoare; acum principal = versiunea in vigoare (doc_id de mai sus),
+    # iar fiecare versiune viitoare este aici. Facut de swap_future_main.py (CLAUDE.md, Outstanding work 8). Actele L-1134-1997, L-171-2012 (cnpf/) si
+    # L-114-2012 (bnm/legal-ro/) au principalul in alt folder si nu au intrare de principal aici; verify_business_law.py le cauta acolo.
+    'L-1134-1997--2028-01-01': {'doc_id': '154811', 'subdir': 'viitor', 'future_of': 'L-1134-1997', 'applies_from': '2028-01-01',
+        'title': 'Versiune viitoare, de la 2028-01-01, a actului L-1134-1997'},
+    'L-171-2012--2027-06-01': {'doc_id': '156016', 'subdir': 'viitor', 'future_of': 'L-171-2012', 'applies_from': '2027-06-01',
+        'title': 'Versiune viitoare, de la 2027-06-01, a actului L-171-2012'},
+    'COD-154-2003--2026-10-28': {'doc_id': '155518', 'subdir': 'viitor', 'future_of': 'COD-154-2003', 'applies_from': '2026-10-28',
+        'title': 'Versiune viitoare, de la 2026-10-28, a actului COD-154-2003'},
+    'COD-154-2003--2026-12-09': {'doc_id': '156323', 'subdir': 'viitor', 'future_of': 'COD-154-2003', 'applies_from': '2026-12-09',
+        'title': 'Versiune viitoare, de la 2026-12-09, a actului COD-154-2003'},
+    'COD-154-2003--2027-01-01': {'doc_id': '155882', 'subdir': 'viitor', 'future_of': 'COD-154-2003', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului COD-154-2003'},
+    'HG-743-2024--2026-12-30': {'doc_id': '155190', 'subdir': 'viitor', 'future_of': 'HG-743-2024', 'applies_from': '2026-12-30',
+        'title': 'Versiune viitoare, de la 2026-12-30, a actului HG-743-2024'},
+    'L-132-2016--2027-01-01': {'doc_id': '155890', 'subdir': 'viitor', 'future_of': 'L-132-2016', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-132-2016'},
+    'L-133-2016--2027-01-01': {'doc_id': '155891', 'subdir': 'viitor', 'future_of': 'L-133-2016', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-133-2016'},
+    'L-1543-1998--2027-01-01': {'doc_id': '150226', 'subdir': 'viitor', 'future_of': 'L-1543-1998', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-1543-1998'},
+    'COD-443-2004--2026-12-02': {'doc_id': '156146', 'subdir': 'viitor', 'future_of': 'COD-443-2004', 'applies_from': '2026-12-02',
+        'title': 'Versiune viitoare, de la 2026-12-02, a actului COD-443-2004'},
+    'COD-443-2004--2026-12-09': {'doc_id': '156325', 'subdir': 'viitor', 'future_of': 'COD-443-2004', 'applies_from': '2026-12-09',
+        'title': 'Versiune viitoare, de la 2026-12-09, a actului COD-443-2004'},
+    'COD-443-2004--2027-01-01': {'doc_id': '155964', 'subdir': 'viitor', 'future_of': 'COD-443-2004', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului COD-443-2004'},
+    'COD-985-2002--2026-12-02': {'doc_id': '156133', 'subdir': 'viitor', 'future_of': 'COD-985-2002', 'applies_from': '2026-12-02',
+        'title': 'Versiune viitoare, de la 2026-12-02, a actului COD-985-2002'},
+    'COD-985-2002--2026-12-09': {'doc_id': '156270', 'subdir': 'viitor', 'future_of': 'COD-985-2002', 'applies_from': '2026-12-09',
+        'title': 'Versiune viitoare, de la 2026-12-09, a actului COD-985-2002'},
+    'L-181-2014--2027-01-01': {'doc_id': '153046', 'subdir': 'viitor', 'future_of': 'L-181-2014', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-181-2014'},
+    'L-845-1992--2027-01-01': {'doc_id': '155963', 'subdir': 'viitor', 'future_of': 'L-845-1992', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-845-1992'},
+    'L-114-2012--2027-01-01': {'doc_id': '155331', 'subdir': 'viitor', 'future_of': 'L-114-2012', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-114-2012'},
+    'L-114-2012--2027-03-17': {'doc_id': '156446', 'subdir': 'viitor', 'future_of': 'L-114-2012', 'applies_from': '2027-03-17',
+        'title': 'Versiune viitoare, de la 2027-03-17, a actului L-114-2012'},
+    'COD-122-2003--2026-12-02': {'doc_id': '156138', 'subdir': 'viitor', 'future_of': 'COD-122-2003', 'applies_from': '2026-12-02',
+        'title': 'Versiune viitoare, de la 2026-12-02, a actului COD-122-2003'},
+    'COD-122-2003--2026-12-09': {'doc_id': '156277', 'subdir': 'viitor', 'future_of': 'COD-122-2003', 'applies_from': '2026-12-09',
+        'title': 'Versiune viitoare, de la 2026-12-09, a actului COD-122-2003'},
+    'L-1134-1997': {'doc_id': '154797', 'external_folder': True, 'title': 'principal in alt folder (cnpf/ sau bnm/legal-ro/); nu se scrie de acest script'},
+    'L-171-2012': {'doc_id': '145907', 'external_folder': True, 'title': 'principal in alt folder (cnpf/ sau bnm/legal-ro/); nu se scrie de acest script'},
+    'L-114-2012': {'doc_id': '155302', 'external_folder': True, 'title': 'principal in alt folder (cnpf/ sau bnm/legal-ro/); nu se scrie de acest script'},
+    # 2026-09-26, matura completa a listelor de versiuni: versiuni viitoare ale unor acte deja tinute la zi, care lipseau din viitor/ (nici 09-25 nu le prinsese).
+    # HTML din Edge (mărimi 151.606 ... 5.452.383 octeti).
+    'COD-218-2008--2026-12-09': {'doc_id': '156265', 'subdir': 'viitor', 'future_of': 'COD-218-2008', 'applies_from': '2026-12-09',
+        'title': 'Versiune viitoare, de la 2026-12-09, a actului COD-218-2008'},
+    'COD-218-2008--2027-01-23': {'doc_id': '154054', 'subdir': 'viitor', 'future_of': 'COD-218-2008', 'applies_from': '2027-01-23',
+        'title': 'Versiune viitoare, de la 2027-01-23, a actului COD-218-2008'},
+    'COD-218-2008--2027-03-24': {'doc_id': '156548', 'subdir': 'viitor', 'future_of': 'COD-218-2008', 'applies_from': '2027-03-24',
+        'title': 'Versiune viitoare, de la 2027-03-24, a actului COD-218-2008'},
+    'COD-218-2008--2027-05-13': {'doc_id': '153634', 'subdir': 'viitor', 'future_of': 'COD-218-2008', 'applies_from': '2027-05-13',
+        'title': 'Versiune viitoare, de la 2027-05-13, a actului COD-218-2008'},
+    'COD-218-2008--2028-01-01': {'doc_id': '154800', 'subdir': 'viitor', 'future_of': 'COD-218-2008', 'applies_from': '2028-01-01',
+        'title': 'Versiune viitoare, de la 2028-01-01, a actului COD-218-2008'},
+    'COD-218-2008--2030-01-01': {'doc_id': '154803', 'subdir': 'viitor', 'future_of': 'COD-218-2008', 'applies_from': '2030-01-01',
+        'title': 'Versiune viitoare, de la 2030-01-01, a actului COD-218-2008'},
+    'CC-1107-2002--2027-01-01': {'doc_id': '149719', 'subdir': 'viitor', 'future_of': 'CC-1107-2002', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului CC-1107-2002'},
+    'COD-116-2018--2027-01-01': {'doc_id': '149723', 'subdir': 'viitor', 'future_of': 'COD-116-2018', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului COD-116-2018'},
+    'COD-174-2018--2030-01-01': {'doc_id': '156376', 'subdir': 'viitor', 'future_of': 'COD-174-2018', 'applies_from': '2030-01-01',
+        'title': 'Versiune viitoare, de la 2030-01-01, a actului COD-174-2018'},
+    'COD-95-2021--2027-01-01': {'doc_id': '149774', 'subdir': 'viitor', 'future_of': 'COD-95-2021', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului COD-95-2021'},
+    'COD-95-2021--2029-01-01': {'doc_id': '146678', 'subdir': 'viitor', 'future_of': 'COD-95-2021', 'applies_from': '2029-01-01',
+        'title': 'Versiune viitoare, de la 2029-01-01, a actului COD-95-2021'},
+    'L-192-1998--2027-03-17': {'doc_id': '156445', 'subdir': 'viitor', 'future_of': 'L-192-1998', 'applies_from': '2027-03-17',
+        'title': 'Versiune viitoare, de la 2027-03-17, a actului L-192-1998'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul
@@ -1499,7 +1599,7 @@ def main():
     # fisiere existente fara motiv.
     import sys
     only = [a for a in sys.argv[1:] if not a.startswith('-')]
-    targets = {k: v for k, v in DOCS.items() if not only or k in only}
+    targets = {k: v for k, v in DOCS.items() if (k in only) or (not only and not v.get('external_folder'))}
     if only and not targets:
         raise SystemExit(f"nimic de ingerat; alege dintre: {', '.join(DOCS)}")
     for stem, spec in targets.items():
