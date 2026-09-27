@@ -2495,3 +2495,35 @@
   în trecere). **Neexecutat:** art. 4-84 și 87-103 din lege, anexele 1-4, comparația cu Regulamentul (UE) 2023/1114, actele normative de punere în aplicare cerute de art. 104 alin. (5); cele ~46 de pagini mecanice rămase în coadă.
 - **Unde:** `raw/papers/moldova-legal/L-180-2026.md`, `entities/L-180-2026.md`, `entities/{L-548-1995,L-202-2017,L-114-2012,L-192-1998}.md`, `_meta/imports/moldova-legal/ingest_business_law.py` (+intrare `DOCS`),
   `_meta/imports/moldova-legal/legis-md-business/showdetails-156426.html`, `index.md`, `CLAUDE.md` (întrebarea 9, paragraful `L-180-2026`).
+
+## [2026-09-27] update | Citirea integrală a Legii 180/2026 (art. 4-106), la cererea lui Eugen
+
+- **Aflat:** legea instituie trei regimuri gradate — criptoactive obișnuite (cap. II, art. 4-15, carte albă autoevaluată, fără aprobare CNPF, plus excepții sub 150 de persoane/stat sau 1.000.000 EUR/an), token-uri raportate la active
+  (cap. III, art. 16-44, cel mai dezvoltat: autorizare CNPF sau regim ușurat pentru bănci, prag mic de 5.000.000 EUR sub care e doar carte albă, prag mare de 1.000.000 tranzacții/zi și 200.000.000 EUR/zi peste care emitentul opreste emiterea,
+  fonduri proprii minime, rezerva de active separată juridic si operational, drept de rascumparare permanent, interdictie de dobinda, planuri de redresare 72 ore-6 luni si de rascumparare ordonata 24 ore-15 zile) si token-uri de moneda
+  electronica (cap. IV, art. 45-52, autoritate BNM nu CNPF, rascumparare la valoare nominala oricind, minimum 30% din fonduri in conturi separate la banci). Furnizorii de servicii de criptoactive (cap. V, art. 53-77, zece servicii
+  licentiabile) au un regim orizontal (garantii prudentiale, guvernanta, reziliența operationala TIC cu recuperare in 4/24 ore, separarea activelor clientilor, raspundere plafonata la valoarea de piata) plus obligatii proprii per serviciu.
+  Capitolul VI (art. 78-84) interzice utilizarea abuziva a informatiilor privilegiate, divulgarea neautorizata si manipularea pietei, aplicabil si faptelor comise in strainatate daca ating piata moldoveneasca. Restul cap. VII (art. 87-103):
+  cooperare CNPF-BNM cu regim de confidentialitate care nu poate fi redivulgat fara acordul autoritatii sursa (art. 87 alin. (4)), doua registre publice (criptoactive si entitati neconforme, art. 95-96), si mai ales un **regim sanctionator
+  gradat explicit dupa gravitate**: 15%/15.000.000 EUR din cifra de afaceri pentru abuz de piata, 12,5%/5.000.000 EUR pentru regimul general, doar 2%/2.500.000 EUR pentru nepublicarea informatiilor privilegiate — o structura noua fata de
+  restul perimetrului CNPF/BNM din vault, care de regula are un singur plafon.
+- **Decis:** pagina de entitate extinsa cu sase sectiuni noi (cele trei regimuri, furnizorii de servicii, abuzul de piata, restul cap. VII), confidence ridicata la `high`, sursele completate cu COD-116-2018 (cale de atac),
+  COD-218-2008 si COD-985-2002 (raspundere contraventionala/penala). CLAUDE.md extins cu un paragraf de sinteza. Anexele 1-4 (continutul cartilor albe) raman necitite, ca si comparatia articol-cu-articol cu Regulamentul (UE) 2023/1114
+  si cele peste 30 de acte normative de punere in aplicare pe care legea le cere CNPF/BNM — niciunul nu exista inca. Registrele si validatorul regenerate, 0 erori. **Neexecutat:** cele ~46 de pagini mecanice ramase in coada, neatinse.
+- **Unde:** `entities/L-180-2026.md` (sase sectiuni noi, confidence high), `CLAUDE.md` (paragraf nou dupa constatarea celor patru acte atinse).
+
+## [2026-09-27] update | Cele trei puncte deschise pe L-180-2026: anexele, comparația MiCA, actele de punere în aplicare — la cererea lui Eugen
+
+- **Aflat:** anexele 1-4 (citite integral) sînt liste de rubrici fără regim juridic propriu, cum se presupusese, cu o excepție utilă — anexa 4 fixează cerințele de capital minim ale furnizorilor de servicii de criptoactive (50.000/125.000/150.000
+  EUR pe trei categorii). Regulamentul (UE) 2023/1114 (MiCA) a fost ingerat integral, RO, din Cellar (149 articole, 119 considerente, `UE-2023-1114`) și comparat pe un eșantion de șase dispoziții cu miză mare: pragurile de exceptare de la
+  cartea albă (art. 4), dreptul de retragere de 14 zile (art. 13), pragul de sistare a emiterii ART (art. 23, 1.000.000 tranzacții/zi și 200.000.000 EUR/zi), formula fondurilor proprii (art. 35, 350.000 EUR/2%/un sfert din cheltuielile fixe),
+  tabelul de capital al furnizorilor (anexa IV, extrasă manual din XHTML-ul Cellar pentru că scriptul de ingerare nu prinde anexele) și scala de sancțiuni (art. 111) — toate identice cifră cu cifră cu L-180-2026. Sancțiunile s-au dovedit mai
+  fin gradate decât descria pagina anterior: nu un singur plafon de 12,5%/5.000.000 EUR pentru tot art. 4-77, ci 3% pentru regimul de ofertă (art. 4-14), 5% pentru furnizorii de servicii (art. 53-76) și 12,5% doar pentru emiterea ART/EMT
+  (art. 16-52) — o gradare pe care legea moldovenească o reproduce fidel din regulamentul UE, nu o simplificare proprie. Actele de punere în aplicare cerute CNPF/BNM în peste 30 de locuri nu pot exista ca acte finale azi, prin construcție:
+  chiar competența de a le emite (art. 85 alin. (2)-(3)) intră în vigoare abia la 17.03.2027, aceeași dată la care art. 104 alin. (5) le cere emise. Verificarea dacă există totuși un proiect sau o consultare publică timpurie a fost încercată
+  și blocată: legis.md a dat verificarea Cloudflare interactivă ("Just a moment...", nu s-a limpezit nici după așteptare), iar navigarea directă la cnpf.md a fost respinsă de mediul de răsfoire pentru lipsă de permisiune pe domeniul nou.
+- **Decis:** pagina de entitate primește două secțiuni noi (comparația MiCA, actele de punere în aplicare) și o corectare a descrierii sancțiunilor din secțiunea „Restul capitolului VII"; sursele includ acum `UE-2023-1114`. Scriptul de
+  ingerare, `_meta/imports/eu/ingest_eu_mica.py`, e o copie directă a `ingest_eu_dataprotection.py` (GDPR) cu alt CELEX — precedent reutilizat, nu o metodă nouă. „Ce rămâne deschis" rescris: rămân doar recitirea `L-192-1998`/`L-114-2012` din
+  perspectiva legii 180, regulamentele de reziliență operațională (necăutate), eșantionul MiCA (6 din 106/149, nu exhaustiv) și verificarea proiectelor CNPF/BNM (blocată, lăsată lui Eugen cu propriul Chrome). Coverage-ul va arăta 52 de
+  extrase UE la următoarea regenerare (de la 51).
+- **Unde:** `entities/L-180-2026.md`, `raw/papers/moldova-legal/UE-2023-1114.md` (nou, text integral RO), `_meta/imports/eu/ingest_eu_mica.py` (nou), `CLAUDE.md` (paragraf de continuare după constatarea din 27.09).

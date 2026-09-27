@@ -133,7 +133,7 @@ generated_by: _meta/coverage/build_act_register.py
 | `L-165-2023` | moldova-legal | 138148 | 2023-10-26 | 2026-09-24 | showdetails | 31 | high | 2 |
 | `L-179-2008` | moldova-legal | 152602 | 2025-12-31 | 2026-09-24 | showdetails | 56 | high | 2 |
 | `L-179-2016` | moldova-legal | 149777 | 2026-01-01 | 2026-09-25 | showdetails | 23 | medium (mecanic) | 5 |
-| `L-180-2026` | moldova-legal | 156426 | 2027-03-17 | 2026-09-27 | showdetails | 106 | medium | 0 |
+| `L-180-2026` | moldova-legal | 156426 | 2027-03-17 | 2026-09-27 | showdetails | 106 | high | 0 |
 | `L-181-2014` | moldova-legal | 153027 | 2025-12-31 | 2026-09-26 | showdetails | 86 | high | 41 |
 | `L-183-2012` | moldova-legal | 152606 | 2025-12-31 | 2026-09-05 | showdetails | 110 | high | 11 |
 | `L-19-2016` | moldova-legal | 154793 | 2026-06-24 | 2026-09-25 | showdetails | 26 | high | 7 |
