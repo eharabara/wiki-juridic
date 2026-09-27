@@ -2460,3 +2460,20 @@
   versiuni de pe legis.md (cere Cloudflare deschis de Eugen) și cele 46 de pagini mecanice rămase în coadă (44 la ultima numărătoare; fluctuează).
 - **Unde:** `_meta/inforce/{build_inforce_register.py,pending-consolidations.json,in-force-register.md,in-force-register.json}`, `CLAUDE.md` (întrebarea 8 și
   întrebarea 9, al doisprezecelea și al treisprezecelea caz).
+
+## [2026-09-27] update | Mătura completă a listelor de versiuni de pe legis.md (216 acte); șase descoperiri noi, inclusiv o lege neingerata
+
+- **Aflat:** riscul rezidual notat la închiderea de 26.09 — prima trecere citise doar primele 4-5 intrări din lista de versiuni a fiecărui act, deci un act cu mai multe versiuni viitoare putea ascunde una — a fost închis prin citirea
+  integrală a listei pentru toate cele 216 acte cu doc_id (Cloudflare deschis de Eugen, `fetch` same-origin în Chrome-ul lui, cu antetul `X-Requested-With`, regex pe tot răspunsul `showdetails`, filtrat la date viitoare, ceea ce ocolește
+  și plafonul de 1000 de caractere al `javascript_tool`). Din tot ce a găsit, majoritatea era deja cunoscut (fișiere `viitor/` sau intrări în `pending-consolidations.json`); **șase nu erau**: `COD-225-2003` (art. 293^5 nou, „Măsuri de
+  protecție a copiilor”, legat de Legea 292/2024, plus redenumirea Capitolului XXV^1, LP167/2026); `L-131-2015` — **legea achizițiilor publice se abrogă integral** la 01.01.2027, prin art. 90 alin. (4) din propriul succesor,
+  `L-325-2025` (deja deținută, consolidare viitoare, în tabelul de acoperire) — găsit de data asta dinspre actul vechi, care poartă un banner roșu „Abrogată prin LP325...” cu link către succesor; `L-202-2017` și `L-548-1995`, ambele la
+  17.03.2027, prin **o lege complet neingerata: Legea nr. 180/2026 privind piața criptoactivelor** (LP180 din 24.08.26, cadru de tip MiCA) — dă băncilor trei activități noi legate de criptoactive (art. 14 lit. o^1-o^3 din 202/2017) și
+  face din BNM autoritatea de reglementare/supraveghere/sancționare a acelei piețe (art. 5 lit. p^1 și art. 75^2 al. (2^3) din 548/1995); `L-114-2012` e atinsă de aceeași lege la aceeași dată, dar era deja în `viitor/` din 26.09. Al
+  șaselea, `L-158-2008`, avea 18 articole diferite față de textul deținut, dintre care 17 erau marcaje deja trecute pierdute la reîmprospătare (mecanismul 1, verificat pe art. 4) și unul real: art. 8 alin. (6), comisia de concurs pentru
+  funcțiile publice de conducere de nivel superior înlocuită cu o trimitere generală la Guvern, LP154/2026, de la 01.07.2028. **A șaptea găsire, lăsată deliberat afara din registru:** `L-1260-2002` (legea avocaturii) e rescrisă
+  substanțial de LP10/2026 (18 marcaje), dar intrarea ei în vigoare e condiționată de aderarea R. Moldova la UE, fără dată fixă — data „2030-01-01” din lista legis.md e un artificiu administrativ, nu una legală.
+- **Decis:** cele cinci cu dată reală adăugate în `pending-consolidations.json` (script `add_pending_sweep.py`, fără resortare); registrul in-force, graful de citare și blocul de acoperire regenerate; validator 0 erori. `L-1260-2002`
+  documentată doar în CLAUDE.md, nu în registru (schema cere o dată reală). `Legea nr. 180/2026` notată ca următoarea candidată evidentă pentru coada de ingerare (trei acte deja o citează). **Neexecutat:** ingerarea propriu-zisă a
+  Legii 180/2026; cele ~46 de pagini mecanice rămase în coadă, neatinse.
+- **Unde:** `_meta/inforce/pending-consolidations.json`, `CLAUDE.md` („Outstanding work” 8, punctul g, plus paragraful despre `L-1260-2002`).

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27T10:55:18",
+  "generated": "2026-09-27T12:53:30",
   "as_of": "2026-09-27",
   "files_scanned": 673,
   "provisions_not_yet_in_force": [
@@ -5968,6 +5968,33 @@
   ],
   "pending_consolidations": [
     {
+      "instrument": "COD-225-2003",
+      "doc_id": "156264",
+      "consolidation_date": "2026-12-09",
+      "held_doc_id": "155718",
+      "held_consolidation_date": "2026-08-06",
+      "amending_act": "LP167 din 30.07.26",
+      "official_gazette": "MO435-438/09.09.26 art.452",
+      "verified": "2026-09-27",
+      "method": "matura versiunilor de pe legis.md (216 acte); consolidarea viitoare 156264 citita prin fetch fara descarcare, comparata cu cea detinuta; un singur amendament, doua marcaje.",
+      "provisions": [
+        {
+          "article": "293^5",
+          "subunit": "intregul articol",
+          "operation": "introducere",
+          "effective_from": "2026-12-09",
+          "summary": "articol nou, 'Masuri de protectie a copiilor': reprezentantul legal al copilului poate cere instantei masurile de la art. 18 alin. (2) din Legea 292/2024 (protectia speciala impotriva deplasarii in strainatate sau retinerii ilicite a copiilor) in caz de risc dovedit; instanta se pronunta ca masura asiguratorie in aceeasi zi, apoi pe fond in 10 zile lucratoare"
+        },
+        {
+          "article": "Capitolul XXV^1",
+          "subunit": "denumire",
+          "operation": "modificare",
+          "effective_from": "2026-12-09",
+          "summary": "titlul capitolului 'INAPOIEREA COPILULUI SI EXERCITAREA DREPTULUI DE VIZITARE A COPILULUI' devine '...DREPTULUI DE VIZITARE. PREVENIREA RAPIRII INTERNATIONALE DE COPII', consecinta directa a art. 293^5"
+        }
+      ]
+    },
+    {
       "instrument": "L-165-2023",
       "doc_id": "156269",
       "consolidation_date": "2026-12-09",
@@ -6360,6 +6387,26 @@
       "ingested_as": "L-121-2007--2027-01-01"
     },
     {
+      "instrument": "L-131-2015",
+      "doc_id": "153138",
+      "consolidation_date": "2027-01-01",
+      "held_doc_id": "155117",
+      "held_consolidation_date": "2026-06-26",
+      "amending_act": "Legea nr. 325/2025 privind achizitiile publice, art. 90 alin. (4)",
+      "official_gazette": "-",
+      "verified": "2026-09-27",
+      "method": "matura versiunilor de pe legis.md: consolidarea 153138 a L-131-2015 poarta un banner rosu 'Abrogata prin LP325 din 29.12.25 ... in vigoare 01.01.27' care trimite la doc_id 152974 (Legea 325/2025); textul art. 90 alin. (4) din L-325-2025, deja detinuta (raw/papers/moldova-legal/L-325-2025.md, linia 1519, si documentat pe entities/L-325-2025.md), confirma: 'La data intrarii in vigoare a prezentei legi, Legea nr. 131/2015 privind achizitiile publice ... se abroga'. Acelasi tipar ca L-121-2018/L-22-2025, gasit acum din partea vechiului act, nu a celui nou.",
+      "provisions": [
+        {
+          "article": "1",
+          "subunit": "intregul act",
+          "operation": "abrogare",
+          "effective_from": "2027-01-01",
+          "summary": "Legea 325/2025 (art. 90 alin. (4)) abroga Legea 131/2015 la data intrarii ei in vigoare, 1 ianuarie 2027 (art. 90 alin. (1)); succesorul e deja ingerat ca L-325-2025 (consolidare viitoare, in coada, coverage 'consolidation dated in the future'). Pina atunci Legea 131/2015 se aplica; art. 91 din legea noua da regula tranzitorie: procedurile in curs la 01.01.2027 se termina sub legea veche."
+        }
+      ]
+    },
+    {
       "instrument": "L-160-2011",
       "doc_id": "150231",
       "consolidation_date": "2027-01-01",
@@ -6675,6 +6722,67 @@
       "ingested_as": "L-209-2016"
     },
     {
+      "instrument": "L-202-2017",
+      "doc_id": "156447",
+      "consolidation_date": "2027-03-17",
+      "held_doc_id": "151077",
+      "held_consolidation_date": "2025-10-25",
+      "amending_act": "Legea nr. 180/2026 privind piata criptoactivelor (LP180 din 24.08.26)",
+      "official_gazette": "MO456-459/17.09.26 art.479",
+      "verified": "2026-09-27",
+      "method": "matura versiunilor de pe legis.md; consolidarea viitoare 156447 citita prin fetch fara descarcare, comparata cu cea detinuta. Legea 180/2026 NU este inca in vault (act nou, de adaugat la coada de ingerare); gasita aici si la L-548-1995 si L-114-2012 (aceeasi data, acelasi LP180), care o citeaza la fel.",
+      "provisions": [
+        {
+          "article": "14",
+          "subunit": "al. (1) lit. o^1)",
+          "operation": "introducere",
+          "effective_from": "2027-03-17",
+          "summary": "activitate noua permisa bancilor: emiterea tokenului raportat la active, oferta publica si/sau admiterea la tranzactionare, conform legislatiei privind piata criptoactivelor"
+        },
+        {
+          "article": "14",
+          "subunit": "al. (1) lit. o^2)",
+          "operation": "introducere",
+          "effective_from": "2027-03-17",
+          "summary": "activitate noua permisa bancilor: emiterea tokenului de moneda electronica, oferta publica si/sau admiterea la tranzactionare, conform legislatiei privind piata criptoactivelor"
+        },
+        {
+          "article": "14",
+          "subunit": "al. (1) lit. o^3)",
+          "operation": "introducere",
+          "effective_from": "2027-03-17",
+          "summary": "activitate noua permisa bancilor: furnizarea serviciilor de criptoactive, in limitele si conditiile legislatiei privind piata criptoactivelor"
+        }
+      ]
+    },
+    {
+      "instrument": "L-548-1995",
+      "doc_id": "156444",
+      "consolidation_date": "2027-03-17",
+      "held_doc_id": "154046",
+      "held_consolidation_date": "2026-04-23",
+      "amending_act": "Legea nr. 180/2026 privind piata criptoactivelor (LP180 din 24.08.26)",
+      "official_gazette": "MO456-459/17.09.26 art.479",
+      "verified": "2026-09-27",
+      "method": "matura versiunilor de pe legis.md; consolidarea viitoare 156444 citita prin fetch fara descarcare, comparata cu cea detinuta. Aceeasi Lege 180/2026 ca la L-202-2017 (nu e inca in vault).",
+      "provisions": [
+        {
+          "article": "5",
+          "subunit": "al. (1) lit. p^1)",
+          "operation": "introducere",
+          "effective_from": "2027-03-17",
+          "summary": "BNM devine organ cu functii de reglementare, autorizare, supraveghere si control asupra activitatilor pe piata criptoactivelor prevazute la art. 85 alin. (3) din Legea 180/2026"
+        },
+        {
+          "article": "75^2",
+          "subunit": "al. (2^3)",
+          "operation": "introducere",
+          "effective_from": "2027-03-17",
+          "summary": "masurile de remediere, prevenire si protectie si sanctiunile de la art. 86 alin. (2) si art. 97 alin. (9) pct. 1)-2) din Legea 180/2026 se aplica de Comitetul executiv (fata de piata criptoactivelor), respectiv de guvernator/prim-viceguvernator/viceguvernatori (masurile individuale mai grave)"
+        }
+      ]
+    },
+    {
       "instrument": "L-121-2018",
       "doc_id": "148335",
       "consolidation_date": "2027-03-27",
@@ -6948,6 +7056,26 @@
       "ingested_as": "L-397-2003--2028-01-01"
     },
     {
+      "instrument": "L-158-2008",
+      "doc_id": "155884",
+      "consolidation_date": "2028-07-01",
+      "held_doc_id": "155439",
+      "held_consolidation_date": "2026-09-13",
+      "amending_act": "LP154 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.393",
+      "verified": "2026-09-27",
+      "method": "matura versiunilor de pe legis.md; consolidarea viitoare 155884 citita prin fetch fara descarcare, comparata articol cu articol (77 articole in ambele). 17 din cele 18 diferente gasite sint marcaje deja trecute (in vigoare 13.09.26 s.a.) pierdute la reimprospatare, mecanismul 1 din intrebarea 3 din CLAUDE.md -- verificat pe art. 4, nu e o schimbare reala. Singura dispozitie cu data viitoare: art. 8 al. (6).",
+      "provisions": [
+        {
+          "article": "8",
+          "subunit": "al. (6)",
+          "operation": "modificare",
+          "effective_from": "2028-07-01",
+          "summary": "comisia permanenta de concurs de 7 membri + 2 supleanti (secretari generali adjuncti ai Guvernului, societate civila, mediul academic etc., desemnati de premier) pentru functiile publice de conducere de nivel superior e inlocuita cu o trimitere generala: ocuparea prin concurs se face 'in baza cadrului de competente aplicabil functiilor publice de conducere de nivel superior, in modul stabilit de Guvern'"
+        }
+      ]
+    },
+    {
       "instrument": "L-160-2011",
       "doc_id": "156152",
       "consolidation_date": "2029-01-01",
@@ -6973,9 +7101,9 @@
     "provisions": 314,
     "acts": 74,
     "future_consolidations": 83,
-    "pending_consolidations": 0,
+    "pending_consolidations": 5,
     "pending_ingested": 26,
-    "pending_provisions": 0,
+    "pending_provisions": 9,
     "pending_ingested_provisions": 91
   }
 }

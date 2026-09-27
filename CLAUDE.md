@@ -198,7 +198,7 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-27 10:55 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-27 12:54 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
 227 primary Moldovan acts, 51 EU acquis extracts, 1 Association Agreement extract(s), 294 BNM corpus documents.
 
@@ -1228,6 +1228,29 @@ with no basis in the source. The refreshed consolidation contains it. No action 
    `L-192-1998` (2027-03-17). `viitor/` now has 82 files. **Residual risk:** the first pass read only the top four or five entries of each act's version list, so an act with more than four future
    versions could still hide some (`COD-218-2008` was that case); a full list per act was read only for the acts named here. Two of the new files (`COD-218-2008--2030-01-01`, `COD-174-2018--2030-01-01`) carry a
    modification line dated 2026-09-14 while the version list says 2030-01-01; the list date is the one used, as before.
+   (g) **The residual risk in (f) is closed, 2026-09-27: all 216 held acts' full version lists read, not just the top four or five.** Method: in Eugen's Chrome (Cloudflare cleared by him), one `fetch('/cautare/showdetails/<id>')`
+   per act with the `X-Requested-With` header, regex over the *entire* response for `showDetails(null,'<id>')` next to a date, filtered to dates after today — sidesteps both the old truncation risk and the `javascript_tool`
+   1000-character output cap, since only future rows are ever returned. 216 acts in 15 batches of ~15 fetches each. Of the future versions found, all but six were already tracked (in `viitor/` or `pending-consolidations.json`) —
+   the sweep confirms rather than corrects the 2026-09-26 work. **Six were not, now fixed:**
+   - `COD-225-2003` (doc 156264 @ 2026-12-09): a new art. 293^5 ("Măsuri de protecție a copiilor", international child-abduction protective measures tied to Legea 292/2024) and the renaming of Capitolul XXV^1 to add "Prevenirea
+     răpirii internaționale de copii" to its title, both LP167/2026. In `pending-consolidations.json`.
+   - `L-131-2015` (Legea achizițiilor publice, doc 153138 @ 2027-01-01): **the whole act is repealed**, by art. 90 alin. (4) of its own successor, `L-325-2025` (already held, future-dated, coverage table's one "consolidation
+     dated in the future" row) — the same shape as `L-121-2018`/`L-22-2025`, just found this time by reading the *old* act's own version list, which carries a red "Abrogată prin LP325..." banner linking to the successor's doc_id.
+     Now in `pending-consolidations.json`, mirroring the `L-121-2018` entry.
+   - `L-202-2017` (doc 156447) and `L-548-1995` (doc 156444), both @ 2027-03-17: **a new law not yet in the vault, Legea nr. 180/2026 privind piața criptoactivelor** (LP180 din 24.08.26, MO456-459/17.09.26 art.479, a
+     MiCA-style crypto-asset market framework), amends both banking laws — `L-202-2017` art. 14 alin. (1) gets three new permitted bank activities (lit. o^1: asset-referenced tokens, o^2: e-money tokens, o^3: crypto-asset
+     services); `L-548-1995` art. 5 alin. (1) lit. p^1 makes BNM the regulator/supervisor for that market (per art. 85 alin. (3) of Legea 180/2026) and art. 75^2 alin. (2^3) gives it the sanctioning powers of arts. 86/97 of the
+     same law. `L-114-2012` is touched by the identical LP180 at the identical date too, but that one was already tracked as `viitor/L-114-2012--2027-03-17.md` from 2026-09-26 — found again here, not missed before.
+     **Legea 180/2026 itself is not ingested**; it is now the obvious next entry for the citation-graph's ingest queue, since three held acts already point at it. Both new rows are in `pending-consolidations.json`.
+   - `L-158-2008` (Legea cu privire la funcția publică, doc 155884 @ 2028-07-01): of 18 differing articles found against the held text, 17 are mechanism 1 (marker dropped on refresh, already-past dates, verified on art. 4) —
+     **one is real**: art. 8 alin. (6), by LP154 din 30.07.26 (MO375-378/13.08.26 art.393), replaces the detailed 7-member-plus-2-alternate permanent competition commission for senior civil-service leadership posts with a
+     general delegation to "cadrul de competențe aplicabil funcțiilor publice de conducere de nivel superior, in modul stabilit de Guvern". In `pending-consolidations.json`.
+
+   **One more finding, deliberately left out of the register: `L-1260-2002` (Legea cu privire la avocatură), doc 153429.** The version list shows it dated 2026-01-01... no, **2030-01-01**, but that date is not real. The act is
+   substantially rewritten by LP10 din 12.02.26 (MO112-115/12.03.26 art.91) — new art. 1^1, new art. 2 lit. f), new art. 6 alin. (6), modified art. 10 alin. (1) and art. 24 alin. (2) lit. c), Capitolul XI renamed, arts. 66-66^4
+   rewritten/introduced (18 markers total) — but its own "clauza de armonizare" ("harmonisation clause") states entry into force **"la data aderării Republicii Moldova la Uniunea Europeană"** — conditioned on EU accession, no
+   fixed date at all. `2030-01-01` is legis.md's own bookkeeping placeholder for that consolidation, not a legal date; putting it in `pending-consolidations.json`, whose schema expects a real `effective_from`, would misstate
+   this as more certain than it is. Same family as `L-435-2006` art. 16 alin. (2) (open question 9, sixth instance): noted here in prose, not in the register, until there is an actual date to record.
 
 ## Keeping this file true
 
