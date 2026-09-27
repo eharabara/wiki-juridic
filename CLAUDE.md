@@ -198,7 +198,7 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-26 22:27 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-27 10:55 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
 227 primary Moldovan acts, 51 EU acquis extracts, 1 Association Agreement extract(s), 294 BNM corpus documents.
 
@@ -435,7 +435,7 @@ Generated 2026-09-26 22:27 from the files themselves. Do not edit this section b
 ### Mechanical flags
 
 - **Repealed acts.** no longer in force: `COD-3-2009` (repealed 2026-05-30 by CS246 din 08.11.24), `L-133-2011` (repealed 2026-08-23 by LP195 din 25.07.24), `HG-1171-2018` (repealed 2026-09-22 by HG497 din 02.09.26). These files are kept because other acts in the corpus still cite them and because the text governs facts before the repeal date. They are anchored, their sha256 verifies and their consolidation is recent, so nothing else here would reveal that they stopped binding. Do not cite them as law in force; cite the successor and say from when it applies.
-- **Not yet in force.** 1 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-325-2025` (2027-01-01). 299 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
+- **Not yet in force.** 1 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-325-2025` (2027-01-01). 314 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
 - **Declared unconstitutional.** 37 act(s) carry at least one Constitutional Court decision in their history block, 100 decisions in total: 39 still marked at article level in the text itself, 127 more recovered by reading the legis.md version history (`_meta/hcc/recovered-provisions.json`), and 0 not yet attributed to any article. A struck provision looks like ordinary law: the article exists, the anchor is valid, the sha256 matches. Check `_meta/hcc/hcc-register.md` before citing an article from `COD-116-2018`, `COD-1163-1997`, `COD-122-2003`, `COD-1316-2000`, `COD-154-2003`, `COD-174-2018`, `COD-218-2008`, `COD-225-2003`, `COD-325-2022`, `COD-443-2004`, `COD-985-2002`, `CONST-1994`, `L-100-2001`, `L-121-2007`, `L-1260-2002`, `L-132-2016`, `L-133-2016`, `L-135-2007`, `L-136-2017`, `L-149-2012`, `L-158-2008`, `L-181-2014`, `L-213-2023`, `L-230-2022`, `L-24-2008`, `L-270-2018`, `L-283-2003`, `L-303-2013`, `L-325-2013`, `L-382-2001`, `L-514-1995`, `L-52-2014`, `L-548-1995`, `L-64-2010`, `L-797-1996`, `L-845-1992`, `L-93-1998` and say which decision struck it and what today's text actually holds.
 - **Stale consolidations.** `OCNPDCP-03-1-2013` (2013-02-28), `OCNPDCP-POLITIE-2013` (2013-05-01), `DCNPDCP-PARTIDE-2014` (2014-12-17), `OCNPDCP-03-2015` (2015-01-01), `L-23-2008` (2016-09-30), `L-66-2017` (2017-06-02), `L-25-2008` (2018-01-12), `L-250-2017` (2018-03-29), `CETS-223-2018` (2018-10-10), `L-24-2008` (2018-11-08), `HBN-130-2013` (2018-12-23), `L-133-2018` (2019-03-01), `HBN-127-2013` (2021-05-09), `HCNPF-14-5-2016` (2022-05-06), `UA-STATUT-2011` (2022-05-27), `DCNPDCP-08-2023` (2023-03-01), `DCNPDCP-581-2015` (2023-03-01), `L-797-1996` (2023-03-24), `L-246-2017` (2023-06-02), `HG-967-2016` (2023-08-08), `L-160-2023` (2023-10-01), `L-183-2016` (2023-10-21), `L-165-2023` (2023-10-26), `L-71-2007` (2023-12-22), `L-148-2023` (2024-01-08), `L-64-2010` (2024-01-23), `L-296-2017` (2024-02-22), `L-325-2013` (2024-03-29), `L-435-2006` (2024-05-02), `DCA-61-2024` (2024-05-05), `L-523-1999` (2024-05-16), `L-136-2017` (2024-06-06), `L-595-1999` (2024-06-06), `HG-610-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `L-394-2023` (2024-07-15), `L-229-2010` (2024-08-02), `HG-574-2024` (2024-08-23), `L-422-2023` (2024-09-14). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
 - **BNM English corpus.** 60 file(s) carry 149 line-initial `Article N` markers and no anchors. Any answer resting on the English BNM translations is not anchored.
@@ -886,6 +886,18 @@ with no basis in the source. The refreshed consolidation contains it. No action 
    prevăzute la art.20"; the declaration of the state of emergency now sits in `L-248-2025` art. 29. Both are stale
    citations in the citing acts, not defects of the vault.
 
+   **One more flattened exponent, found 2026-09-26 while reading `L-306-2018` for its own entity page, outside the
+   citation graph's own table (it names an inter-act reference the graph did not flag).** Art. 14 alin. (2) of the
+   food-safety law requires that sanitary-authorisation procedures follow "art. 41 alin. (4) din Legea nr. 160/2011".
+   `L-160-2011` (the permissive-acts law) has 32 articles, ending at art. 14 — it has no art. 41. The reference is to
+   **art. 4^1 alin. (4)** ("Categoriile de acte permisive": the general conditions for certificates), which matches the
+   authorisations and certificates `L-306-2018` art. 14 is actually about. Same signature as the other confirmed cases
+   in item 2 (a real target found by dropping the caret, content checked against the citing text, not concatenation
+   alone) but a fourth one worth naming separately: it is not our own extraction flattening an anchor inside one act
+   (item 2's three cases), and not a citation the graph tool parsed and mis-scored (this section's other findings) — it
+   is a plain-text cross-reference to a different act, in the source itself, that the graph's inter-act resolver never
+   saw at all. Recorded on `entities/L-306-2018.md`, not yet run back through the graph.
+
 9. **A third form of hidden deferred provision, found 2026-09-16 at `L-9-2026`.** The in-force
    register (`_meta/inforce/build_inforce_register.py`) reads only the bracket marker
    `[Art.N ... în vigoare DD.MM.YY]`, which an *amendment* leaves in the text of an already-existing
@@ -941,7 +953,7 @@ with no basis in the source. The refreshed consolidation contains it. No action 
    **Eleventh, found 2026-09-26 by a new script, and it is in a code, not in an amending law:** `COD-95-2021` (Customs Code) art. 426 alin. (1)
    lit. c) puts arts. 49, 140, 180, 336 and 337 in force on **1 January 2027**, while the code as a whole applies from 1 January 2024. All five sit in
    the held text, anchored, with nothing to show they do not bind yet. They are now rows of the in-force register (entry in
-   `pending-consolidations.json`, hand-written, `de verificat`). The finder is `_meta/inforce/build_prose_deferral_candidates.py`, generated report
+   `pending-consolidations.json`, hand-written). The finder is `_meta/inforce/build_prose_deferral_candidates.py`, generated report
    `_meta/inforce/prose-deferral-candidates.md` (in `close_session.py`): the last six articles of every act, paragraphs that say "intră în vigoare" /
    "se aplică" together with an exception, a condition or a future date. 52 lines in ~40 acts, candidates not findings; the ones with a date after
    today were three, two already in the register (`L-325-2025`, `L-82-2024`) and this one. A second finding from the same pass: a stray backspace
@@ -956,6 +968,36 @@ with no basis in the source. The refreshed consolidation contains it. No action 
    2019 republication: `L-1125-2002` used "Art.N. -" throughout and produced zero anchors until the
    extractor's heading regex was extended to recognise that literal form (requiring a dash after
    the number, so an inline "art. 22" reference cannot be mistaken for a heading).
+
+   **Twelfth and thirteenth, found 2026-09-26 by reading two acts in full, and they are a different shape again: a
+   compliance deadline, not a change to the norm's own force.** `L-227-2022` (activitatea privind emisiile industriale)
+   arts. 27, 43 and 61 and `L-209-2016` (deșeurile) arts. 54^1-54^4 and 16 alin. (9) all defer something in prose, in the
+   held text itself, with no bracket marker — same blind spot as the eleven instances above. But most of their rows are
+   not "the provision does not apply yet": art. 27 alin. (5) says outright "textul se aplica deja" — the duty to request
+   an environmental permit is binding now, and only a private actor's own compliance clock (3 or 5 years from
+   21.10.2024, i.e. 21.10.2027 / 21.10.2029, both computed) runs into the future; the four packaging-deposit-system
+   articles of `L-209-2016` are the same shape (an administrator's obligations already bind, "cel mai tîrziu"
+   25.01.2027). Only `L-227-2022` art. 43 alin. (2), (6) (new emission limits from 1 January 2030) and `L-209-2016`
+   art. 16 alin. (9) lit. a)-b) (landfill bans from 1 January 2030) are genuine not-yet-applicable provisions, the same
+   shape as the eleven instances above. Both acts are entries in `pending-consolidations.json` (`held_doc_id` equal to
+   `doc_id`, same as `COD-95-2021`, since neither is an amending act). **This forced a real fix to the register
+   builder, not just two new rows.** `build_inforce_register.py`'s `STATE_TODAY` recognised only
+   abrogare/modificare/completare/introducere/reformulare; anything else, including the `intrare in vigoare` label
+   already used for `COD-95-2021` and `L-22-2025`, rendered as `de verificat` regardless of whether the situation was
+   actually unclear. Fixed 2026-09-27 by adding both labels the manual list actually needs:
+   `intrare in vigoare` → "dispozitia nu se aplica" (a provision that genuinely does not bind yet, symmetric with
+   `introducere`), and a new `termen` → "termen de conformare in curs, norma se aplica deja" (a running compliance
+   deadline where the norm itself already binds). The fix also corrected the five `COD-95-2021` rows and the one
+   `L-22-2025` row already in the register, which had been showing `de verificat` since 2026-09-24/26 for exactly the
+   same reason and were not actually ambiguous. **The two acts named in this item's own todo, `L-291-2016` (jocurile de
+   noroc) and `COD-150-2014` (Codul transporturilor rutiere), were checked the same way and are clean**: every deadline
+   in `COD-150-2014` art. 153 (the ones written `a^2)`, `b^2)`, `j^2)` included, 1 iunie 2026) has already passed, and
+   the one open-ended clause in `L-291-2016` art. 55 alin. (1) — arts. 16 alin. (2) lit. d), 21 alin. (7)-(8), 31
+   alin. (6) lit. f), 40 alin. (3), 41 alin. (10) and 43 alin. (8), deferred to receipt of an opinion on a state
+   gambling-monitoring system, but bounded at "un an din data publicarii" (~2017/2018) regardless — is long past its
+   outer bound whether or not that opinion was ever issued. Neither reading was a full read of either code end to end
+   (only the closing, transitional articles); their entity pages still carry the mechanical-page notice for that
+   reason.
 
 ## Outstanding work
 

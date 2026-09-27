@@ -879,6 +879,102 @@
           "summary": "art. 426 alin. (1) lit. c): art. 337 (modificarea si invalidarea declaratiei sumare de iesire) intra in vigoare la 1 ianuarie 2027; pina atunci nu se aplica, desi este in text si ancorat"
         }
       ]
+    },
+    {
+      "instrument": "L-227-2022",
+      "doc_id": "152513",
+      "consolidation_date": "2027-10-21",
+      "held_doc_id": "152513",
+      "held_consolidation_date": "2025-12-31",
+      "amending_act": "nu este un act modificator: dispozitii tranzitorii scrise in proza in legea insasi (art. 27, 43, 61)",
+      "official_gazette": "MO326-333/2022 art.628",
+      "verified": "2026-09-26",
+      "method": "gasit la citirea integrala a actului (2026-09-26). Termenele sint scrise in proza, fara marcaj 'in vigoare', deci registrul nu le vedea. Datele sint calculate din intrarea in vigoare (21.10.2024, art. 60 alin. (1)) si din date scrise expres; de verificat.",
+      "provisions": [
+        {
+          "article": "27",
+          "subunit": "alin. (5)",
+          "operation": "termen",
+          "effective_from": "2027-10-21",
+          "summary": "art. 27 alin. (5): operatorii care nu aveau obligatia de a detine acte permisive de mediu solicita autorizatia in 3 ani de la intrarea in vigoare (21.10.2024), adica pina la 21.10.2027 (calculat); termen de conformare, textul se aplica deja"
+        },
+        {
+          "article": "27",
+          "subunit": "alin. (1)-(3)",
+          "operation": "termen",
+          "effective_from": "2029-10-21",
+          "summary": "art. 27 alin. (1)-(3): operatorii cu acte permisive vechi solicita autorizatia nu mai tirziu de 5 ani de la intrarea in vigoare, adica pina la 21.10.2029 (calculat), cu cererea cu 12 luni inainte de expirarea actului detinut; termen de conformare"
+        },
+        {
+          "article": "43",
+          "subunit": "alin. (2), (6)",
+          "operation": "intrare in vigoare",
+          "effective_from": "2030-01-01",
+          "summary": "art. 43 alin. (2), (6): de la 1 ianuarie 2030 instalatiile medii de ardere existente de cel mult 5 MW si sistemele izolate mici respecta limitele din anexa 8 partea 1 tabelele 1-3; pina atunci nu se aplica (anexa 8 nu este detinuta in text)"
+        },
+        {
+          "article": "43",
+          "subunit": "alin. (7), (8), (11)",
+          "operation": "termen",
+          "effective_from": "2030-01-01",
+          "summary": "art. 43 alin. (7), (8), (11): exceptiile de la limitele de emisie (termoficare, biomasa solida, statii de comprimare a gazelor) se aplica pina la 1 ianuarie 2030"
+        },
+        {
+          "article": "61",
+          "subunit": "intregul articol",
+          "operation": "termen",
+          "effective_from": "2028-12-31",
+          "summary": "art. 61: instalatiile mari de ardere (cel putin 50 MW) aflate in functiune la 21.10.2024 asigura conformitatea cu legea de la 31 decembrie 2028; pina atunci regimul lor este cel tranzitoriu"
+        }
+      ]
+    },
+    {
+      "instrument": "L-209-2016",
+      "doc_id": "154126",
+      "consolidation_date": "2027-01-25",
+      "held_doc_id": "154126",
+      "held_consolidation_date": "2026-04-25",
+      "amending_act": "LP97 din 25.04.24 art. II alin. (3)-(4) si dispozitii din textul legii (art. 16 alin. (9))",
+      "official_gazette": "MO209-212/16.05.24 art.297",
+      "verified": "2026-09-26",
+      "method": "gasit la citirea integrala a actului (2026-09-26): notele de sub art. 54^1-54^4 (rindurile 1341, 1394, 1404, 1439) si art. 16 alin. (9). Termenul de 25 ianuarie 2027 este 'cel mai tirziu'; punerea in functiune porneste de la desemnarea administratorului, care nu rezulta din fisier; de verificat.",
+      "provisions": [
+        {
+          "article": "54^1",
+          "subunit": "alin. (3) si sistemul de depozit",
+          "operation": "termen",
+          "effective_from": "2027-01-25",
+          "summary": "sistemul de depozit pentru ambalaje se pune in functiune in cel mult un an de la desemnarea administratorului, dar nu mai tirziu de 25 ianuarie 2027 (LP97/2024 art. II alin. (4)); producatorii se inregistreaza in 3 luni de la desemnare (alin. (3))"
+        },
+        {
+          "article": "54^2",
+          "subunit": "intregul articol",
+          "operation": "termen",
+          "effective_from": "2027-01-25",
+          "summary": "obligatiile comerciantilor privind sistemul de depozit: inregistrare in 6 luni de la desemnarea administratorului (LP97/2024 art. II alin. (3)); sistemul intra in functiune cel mai tirziu la 25 ianuarie 2027"
+        },
+        {
+          "article": "54^3",
+          "subunit": "intregul articol",
+          "operation": "termen",
+          "effective_from": "2027-01-25",
+          "summary": "administratorul sistemului de depozit pentru ambalaje reutilizabile: punere in functiune cel mai tirziu la 25 ianuarie 2027 (nota de sub art. 54^3)"
+        },
+        {
+          "article": "54^4",
+          "subunit": "intregul articol",
+          "operation": "termen",
+          "effective_from": "2027-01-25",
+          "summary": "administratorul sistemului de depozit pentru ambalaje de unica folosinta; tintele de colectare si plata de 2/4 lei pe unitate: punere in functiune cel mai tirziu la 25 ianuarie 2027 (nota de sub art. 54^4)"
+        },
+        {
+          "article": "16",
+          "subunit": "alin. (9) lit. a)-b)",
+          "operation": "intrare in vigoare",
+          "effective_from": "2030-01-01",
+          "summary": "interdictiile de depozitare a deseurilor cu putere calorica peste 6,5 MJ/kg si peste limita AT4 se aplica de la 1 ianuarie 2030 (art. 16 alin. (9)); lit. c) de la 1 ianuarie 2025, data trecuta"
+        }
+      ]
     }
   ]
 }

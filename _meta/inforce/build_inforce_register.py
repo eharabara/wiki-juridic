@@ -59,7 +59,7 @@ PENDING_JSON = "pending-consolidations.json"  # intrare scrisa de mina, vezi doc
 # --------------------------------------------------------------------------
 
 IN_FORCE = re.compile(
-    r"[îÎiI]n\s+vigoare\s*(?:din|la|de\s+la)?\s*"
+    r"[îÎiI]n\s+(?:vigoare|aplicare)\s*(?:din|la|de\s+la)?\s*"
     r"(\d{1,2})\.(\d{1,2})\.(\d{2,4})",
     re.IGNORECASE,
 )
@@ -319,6 +319,12 @@ STATE_TODAY = {
     "completare": "completarea nu se aplica",
     "introducere": "dispozitia nu se aplica",
     "reformulare": "se aplica textul anterior",
+    # Cele doua de mai jos apar numai in lista de mina (pending-consolidations.json), niciodata
+    # din scanarea marcajelor "[... in vigoare ...]" -- detect_operation() nu le produce. Adaugate
+    # 2026-09-27: fara ele, COD-95-2021 si L-22-2025 (deja in fisier) ieseau "de verificat" la fel
+    # ca "termen", desi nu era ambiguu.
+    "intrare in vigoare": "dispozitia nu se aplica",
+    "termen": "termen de conformare in curs, norma se aplica deja",
 }
 
 

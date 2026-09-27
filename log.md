@@ -2439,3 +2439,24 @@
   `concepts/consolidari-viitoare-ingerate.md` regenerat din fișiere (82 de rînduri). **Neexecutat:** citirea listei complete de versiuni pentru toate cele ~200 de acte; mătura completă a rămas la 8 acte din cauza
   vitezei paginilor mari și a re-verificării Cloudflare.
 - **Unde:** `raw/papers/moldova-legal/viitor/`, `_meta/imports/moldova-legal/ingest_business_law.py` (+12 intrări `DOCS`), `concepts/consolidari-viitoare-ingerate.md`, `CLAUDE.md` („Outstanding work” 8, punctul f).
+
+## [2026-09-27] update | Terminarea sesiunii de 26.09: `add_pending.py` corectat, `L-291-2016`/`COD-150-2014` verificate, corecția `L-306-2018`→`L-160-2011` notată
+
+- **Aflat:** sesiunea de 26.09 lăsase `add_pending.py` neschimbat, cu o notă că `operation: "termen"` trebuie înlocuit cu o valoare „recunoscută de builder, cum ar fi
+  `intrare in vigoare`”. Verificat în cod: era greșit — `STATE_TODAY` din `build_inforce_register.py` recunoștea doar
+  abrogare/modificare/completare/introducere/reformulare, deci `intrare in vigoare` ieșea „de verificat” la fel ca `termen`, inclusiv la cele două rânduri deja
+  în registru (`COD-95-2021`, `L-22-2025`), scrise cu acea valoare din 24-26.09 și niciodată corectate. Semantica celor două categorii diferă real: `intrare in
+  vigoare` e o dispoziție care chiar nu se aplică încă (simetrică cu `introducere`); `termen` e un termen de conformare administrativ unde norma se aplică deja
+  (textul lui `L-227-2022` art. 27 alin. (5) o spune direct: „termenul... textul se aplică deja”). Citind integral `L-291-2016` și `COD-150-2014` (art. 153-154,
+  respectiv art. 55) — cele două acte rămase din lista de verificare — nicio dispoziție cu termen viitor: toate datele din `COD-150-2014` art. 153 au trecut
+  (inclusiv cele scrise `a^2)`, `b^2)`, `j^2)` la 1 iunie 2026), iar clauza deschisă din `L-291-2016` art. 55 alin. (1) e plafonată la „un an de la publicare”
+  (~2017/2018) indiferent de avizul la care se leagă.
+- **Decis:** `add_pending.py` corectat (fără resortare, operațiuni separate pe cele două categorii reale) și rulat: `L-227-2022` și `L-209-2016` intră în
+  `pending-consolidations.json`. `STATE_TODAY` extins cu `intrare in vigoare` → „dispoziția nu se aplică” și `termen` → „termen de conformare în curs, norma se
+  aplică deja”; efect retroactiv asupra celor două rânduri deja scrise. Registrul in-force, graful de citare, registrul act cu act și blocul de acoperire din
+  CLAUDE.md regenerate cu `close_session.py`; validator 0 erori. Corecția `L-306-2018` art. 14 alin. (2) → `art. 41 din Legea 160/2011` = art. 4^1 alin. (4)
+  (deja scrisă pe pagina de entitate în sesiunea de 26.09) notată acum și în CLAUDE.md, întrebarea 8, ca al patrulea exponent turtit confirmat pe fond, de tipul
+  care nu trece prin graful de citare (trimitere textuală către alt act). **Neexecutat, cu motiv (nota sesiunii anterioare):** mătura completă a listelor de
+  versiuni de pe legis.md (cere Cloudflare deschis de Eugen) și cele 46 de pagini mecanice rămase în coadă (44 la ultima numărătoare; fluctuează).
+- **Unde:** `_meta/inforce/{build_inforce_register.py,pending-consolidations.json,in-force-register.md,in-force-register.json}`, `CLAUDE.md` (întrebarea 8 și
+  întrebarea 9, al doisprezecelea și al treisprezecelea caz).

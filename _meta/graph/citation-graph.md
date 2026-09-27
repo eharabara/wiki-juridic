@@ -1,6 +1,6 @@
 # Graful de citare al actelor detinute
 
-Generat 2026-09-26 22:27 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
+Generat 2026-09-27 10:55 de `_meta/graph/build_citation_graph.py`. Nu edita de mina; se reface rulind scriptul. Datele: `citation-graph.json` in acelasi folder.
 
 **Ce este.** Trimiterile dintre actele detinute, extrase mecanic din textul brut: fiecare muchie poarta fisierul si liniile din care a fost citita, si nicio muchie nu este dedusa. Graful nu se citeaza. El spune unde sa deschizi fisierul, iar ancora se citeste.
 
@@ -235,6 +235,7 @@ Dispozitiile care apar in registrul in-force (textul din fisier nu se aplica inc
 | `COD-325-2022#art.16` l.253 | HCC: HCC16/2023-10-03, al.(2), lit.e), subunitate (+5) | 10 (0) | `COD-325-2022#art.68`, `COD-325-2022#art.102`, `COD-325-2022#art.72`, `COD-325-2022#art.245`, `COD-325-2022#art.89` |
 | `COD-1163-1997#art.88` l.2979 | HCC: HCC7/2014-02-13, alin. (7), subunitate | 9 (0) | `COD-1163-1997#art.92`, `COD-1163-1997#art.372`, `COD-1163-1997#art.69^7`, `COD-1163-1997#art.73`, `COD-1163-1997#art.76`, `COD-1163-1997#art.79`, … (+2) |
 | `COD-1163-1997#art.291` l.6915 | HCC: HCC2/2014-01-28, in parte | 8 (0) | `COD-1163-1997#art.293` l.6950, `COD-1163-1997#art.292` l.6944 |
+| `L-232-2016#art.164` l.977 | in-force: reformulare de la 2030-01-01 | 8 (0) | `L-232-2016#art.39`, `L-232-2016#art.165`, `L-232-2016#art.29`, `L-232-2016#art.2` |
 | `L-24-2008#art.6` l.111 | HCC: HCC3/2012-02-09, al.(2), modificarea din art. XIII pct. 1 LP163/2011, revigorare | 7 (0) | `L-24-2008#art.11`, `L-24-2008#art.13`, `L-24-2008#art.14`, `L-24-2008#art.37` |
 | `COD-1163-1997#art.289` l.6866 | HCC: HCC2/2014-01-28, in parte | 6 (0) | `COD-1163-1997#art.297` l.7019, `COD-1163-1997#art.298` l.7028, `COD-1163-1997#art.294` l.6962 |
 | `COD-122-2003#art.401` l.5149 | HCC: HCC9/2008-05-20, alin. (1) pct. 3), text din articol | 6 (0) | `COD-122-2003#art.402`, `COD-122-2003#art.420`, `COD-122-2003#art.421`, `COD-122-2003#art.438`, `COD-122-2003#art.445`, `COD-122-2003#art.447` |
@@ -255,7 +256,9 @@ Dispozitiile care apar in registrul in-force (textul din fisier nu se aplica inc
 | `COD-1163-1997#art.260` l.6258 | HCC: HCC20/2018-07-04, alin. (4), text din articol | 2 (0) | `COD-1163-1997#art.229` l.5996, `COD-1163-1997#art.234` l.6044 |
 | `L-108-2016#art.24` l.703 | abrogat | 2 (0) | `L-108-2016#art.114` l.2500, `L-108-2016#art.37` l.886 |
 | `L-213-2023#art.2` l.78 | HCC: HCC20/2024-09-26, al.(2), teza intai: textul „Taxa de timbru nu este susceptibilă de scutire, amânare sau eșalonare, cu excepțiile prevăzute de prezenta lege.”, text din articol | 2 (0) | `L-213-2023#preambul` l.55 |
+| `L-232-2016#art.39` l.368 | in-force: introducere de la 2030-01-01 (lit.j)) | 2 (0) | `L-232-2016#art.155` l.938, `L-232-2016#art.315` l.1730 |
 | `L-283-2003#art.22^1` l.327 | HCC: HCC11/2023-07-20, alin. (1) lit. c), text din articol | 2 (0) | `L-283-2003#art.22^2` l.361, `L-283-2003#art.27` l.462 |
+| `L-303-2013#art.8` l.241 | in-force: nespecificat de la 2027-01-13 | 2 (0) | `L-303-2013#art.35` l.791, `L-303-2013#art.36^2` l.850 |
 | `L-325-2013#art.17` l.292 | HCC: HCC37/2021-12-07, al.(2), subunitate (+2) | 2 (0) | `L-325-2013#art.10` l.214, `L-325-2013#art.21` l.381 |
 | `COD-1163-1997#art.290` l.6893 | HCC: HCC2/2014-01-28, in parte | 1 (0) | `COD-1163-1997#art.297` l.7019 |
 | `COD-122-2003#art.178` l.2861 | HCC: HCC19/2018-07-03, omisiune legislativa | 1 (0) | `COD-122-2003#art.547` l.6621 |
@@ -281,12 +284,9 @@ Dispozitiile care apar in registrul in-force (textul din fisier nu se aplica inc
 | `COD-95-2021#art.277^2` l.3013 | abrogat | 1 (0) | `COD-95-2021#art.277` l.3000 |
 | `COD-985-2002#art.328` l.4979 | HCC: HCC22/2017-06-27, alin. (1), text din articol (+1) | 1 (0) | `COD-985-2002#art.55` l.732 |
 | `COD-985-2002#art.329` l.4995 | HCC: HCC24/2019-10-17, alin. (1) si alin. (2) lit. b), text din articol | 1 (0) | `COD-985-2002#art.134^20` l.1572 |
-| `COD-985-2002#art.335` l.5090 | HCC: HCC24/2019-10-17, alin. (1^1), text din articol (+1) | 1 (0) | `COD-985-2002#art.55` l.732 |
-| `L-136-2017#art.23` l.347 | HCC: HCC7/2021-03-04, al.(6), in parte | 1 (0) | `L-136-2017#art.24` l.357 |
-| `L-158-2008#art.53` l.949 | HCC: HCC6/2016-03-03, lit.c), subunitate | 1 (0) | `L-158-2008#art.41` l.757 |
-| … inca 4 dispozitii, in JSON | | | |
+| … inca 10 dispozitii, in JSON | | | |
 
-Stari atasate dispozitiilor, in total: 4 in-force, 127 HCC, 382 abrogat. 84 dintre ele au cel putin o citare intrata, 27 din alte acte.
+Stari atasate dispozitiilor, in total: 18 in-force, 127 HCC, 382 abrogat. 90 dintre ele au cel putin o citare intrata, 27 din alte acte.
 
 ## Actele: ce citeaza si de cine sint citate
 

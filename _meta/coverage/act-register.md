@@ -99,7 +99,7 @@ generated_by: _meta/coverage/build_act_register.py
 | `L-114-2014` | moldova-legal | 152635 | 2026-01-01 | 2026-09-25 | showdetails | 28 | medium (mecanic) | 2 |
 | `L-116-2014` | moldova-legal | 151416 | 2025-12-31 | 2026-09-25 | showdetails | 18 | medium (mecanic) | 2 |
 | `L-119-2004` | moldova-legal | 151363 | 2025-12-30 | 2026-09-25 | showdetails | 29 | medium (mecanic) | 2 |
-| `L-119-2018` | moldova-legal | 151314 | 2025-12-30 | 2026-09-25 | showdetails | 32 | medium (mecanic) | 6 |
+| `L-119-2018` | moldova-legal | 151314 | 2025-12-30 | 2026-09-25 | showdetails | 32 | high | 6 |
 | `L-121-2007` | moldova-legal | 152778 | 2026-01-23 | 2026-09-24 | showdetails | 73 | high | 10 |
 | `L-121-2018` | moldova-legal | 150089 | 2026-01-01 | 2026-09-24 | showdetails | 46 | high | 4 |
 | `L-123-2023` | moldova-legal | 149916 | 2026-01-01 | 2026-09-25 | showdetails | 16 | high | 1 |
@@ -135,18 +135,18 @@ generated_by: _meta/coverage/build_act_register.py
 | `L-179-2016` | moldova-legal | 149777 | 2026-01-01 | 2026-09-25 | showdetails | 23 | medium (mecanic) | 5 |
 | `L-181-2014` | moldova-legal | 153027 | 2025-12-31 | 2026-09-26 | showdetails | 86 | high | 41 |
 | `L-183-2012` | moldova-legal | 152606 | 2025-12-31 | 2026-09-05 | showdetails | 110 | high | 11 |
-| `L-19-2016` | moldova-legal | 154793 | 2026-06-24 | 2026-09-25 | showdetails | 26 | medium (mecanic) | 7 |
+| `L-19-2016` | moldova-legal | 154793 | 2026-06-24 | 2026-09-25 | showdetails | 26 | high | 7 |
 | `L-195-2024` | moldova-legal | 155899 | 2026-08-23 | 2026-09-10 | showdetails | 90 | high | 11 |
 | `L-198-2007` | moldova-legal | 155726 | 2026-08-06 | 2026-09-06 | showdetails | 54 | high | 5 |
 | `L-199-2010` | moldova-legal | 155887 | 2026-09-13 | 2026-09-19 | showdetails | 29 | high | 25 |
 | `L-20-2026` | moldova-legal | 153618 | 2026-04-01 | 2026-09-06 | showdetails | 29 | high | 2 |
-| `L-209-2016` | moldova-legal | 154126 | 2026-04-25 | 2026-09-25 | showdetails | 91 | medium (mecanic) | 12 |
+| `L-209-2016` | moldova-legal | 154126 | 2026-04-25 | 2026-09-25 | showdetails | 91 | high | 12 |
 | `L-212-2004` | moldova-legal | 150250 | 2025-09-01 | 2026-09-25 | showdetails | 56 | high | 8 |
 | `L-213-2023` | moldova-legal | 152741 | 2026-01-23 | 2026-09-16 | showdetails | 10 | high | 9 |
 | `L-22-2025` | moldova-legal | 153624 | 2026-04-01 | 2026-09-24 | showdetails | 55 | high | 2 |
 | `L-220-2007` | moldova-legal | 155438 | 2026-07-23 | 2026-09-04 | showdetails | 44 | high | 14 |
-| `L-221-2007` | moldova-legal | 151369 | 2025-12-30 | 2026-09-25 | showdetails | 59 | medium (mecanic) | 8 |
-| `L-227-2022` | moldova-legal | 152513 | 2025-12-31 | 2026-09-25 | showdetails | 60 | medium (mecanic) | 5 |
+| `L-221-2007` | moldova-legal | 151369 | 2025-12-30 | 2026-09-25 | showdetails | 59 | high | 8 |
+| `L-227-2022` | moldova-legal | 152513 | 2025-12-31 | 2026-09-25 | showdetails | 60 | high | 5 |
 | `L-227-2025` | moldova-legal | 150581 | 2025-12-31 | 2026-09-25 | showdetails | 42 | high | 1 |
 | `L-229-2010` | moldova-legal | 144429 | 2024-08-02 | 2026-09-25 | showdetails | 35 | high | 3 |
 | `L-23-2008` | moldova-legal | 95607 | 2016-09-30 | 2026-09-16 | showdetails | 36 | high | 0 |
@@ -163,7 +163,7 @@ generated_by: _meta/coverage/build_act_register.py
 | `L-254-2016` | moldova-legal | 150082 | 2026-01-01 | 2026-09-25 | showdetails | 23 | medium (mecanic) | 1 |
 | `L-260-2017` | moldova-legal | 154853 | 2026-06-16 | 2026-09-24 | showdetails | 40 | high | 1 |
 | `L-270-2018` | moldova-legal | 155894 | 2026-09-13 | 2026-09-24 | showdetails | 38 | high | 4 |
-| `L-272-2011` | moldova-legal | 154121 | 2026-04-25 | 2026-09-25 | showdetails | 84 | medium (mecanic) | 9 |
+| `L-272-2011` | moldova-legal | 154121 | 2026-04-25 | 2026-09-25 | showdetails | 84 | high | 9 |
 | `L-273-1994` | moldova-legal | 154600 | 2026-05-27 | 2026-09-25 | showdetails | 12 | high | 1 |
 | `L-274-2011` | moldova-legal | 151195 | 2026-03-18 | 2026-09-25 | showdetails | 35 | high | 3 |
 | `L-278-2007` | moldova-legal | 155539 | 2025-05-29 | 2026-09-25 | showdetails | 44 | medium (mecanic) | 4 |
@@ -174,7 +174,7 @@ generated_by: _meta/coverage/build_act_register.py
 | `L-291-2016` | moldova-legal | 149724 | 2026-01-01 | 2026-09-25 | showdetails | 57 | medium (mecanic) | 5 |
 | `L-296-2017` | moldova-legal | 141242 | 2024-02-22 | 2026-09-25 | showdetails | 24 | medium (mecanic) | 4 |
 | `L-303-2013` | moldova-legal | 151413 | 2025-12-30 | 2026-09-25 | showdetails | 46 | medium (mecanic) | 3 |
-| `L-306-2018` | moldova-legal | 152512 | 2025-12-31 | 2026-09-25 | showdetails | 38 | medium (mecanic) | 7 |
+| `L-306-2018` | moldova-legal | 152512 | 2025-12-31 | 2026-09-25 | showdetails | 38 | high | 7 |
 | `L-317-2025` | moldova-legal | 152374 | 2025-12-31 | 2026-09-25 | showdetails | 20 | high | 0 |
 | `L-325-2013` | moldova-legal | 142068 | 2024-03-29 | 2026-09-17 | showdetails | 28 | high | 17 |
 | `L-325-2025` | moldova-legal | 152974 | 2027-01-01 | 2026-09-06 | showdetails | 91 | high | 0 |
@@ -184,7 +184,7 @@ generated_by: _meta/coverage/build_act_register.py
 | `L-394-2023` | moldova-legal | 141885 | 2024-07-15 | 2026-09-25 | showdetails | 29 | medium (mecanic) | 1 |
 | `L-397-2003` | moldova-legal | 153023 | 2025-12-31 | 2026-09-24 | showdetails | 37 | high | 6 |
 | `L-403-2023` | moldova-legal | 154348 | 2026-05-09 | 2026-09-25 | showdetails | 59 | medium (mecanic) | 2 |
-| `L-411-1995` | moldova-legal | 151099 | 2026-08-28 | 2026-09-25 | showdetails | 72 | medium (mecanic) | 5 |
+| `L-411-1995` | moldova-legal | 151099 | 2026-08-28 | 2026-09-25 | showdetails | 72 | high | 5 |
 | `L-422-2023` | moldova-legal | 142263 | 2024-09-14 | 2026-09-25 | showdetails | 107 | medium (mecanic) | 2 |
 | `L-43-2023` | moldova-legal | 151296 | 2025-12-30 | 2026-09-25 | showdetails | 38 | medium (mecanic) | 2 |
 | `L-435-2006` | moldova-legal | 143037 | 2024-05-02 | 2026-09-24 | showdetails | 17 | high | 2 |
@@ -249,19 +249,11 @@ Paginile de entitate marcate *Pagina mecanica* (actul nu a fost citit integral),
 
 | Act | Citat de | Consolidare |
 |---|---:|---|
-| `L-209-2016` | 12 | 2026-04-25 |
-| `L-272-2011` | 9 | 2026-04-25 |
-| `L-221-2007` | 8 | 2025-12-30 |
-| `L-19-2016` | 7 | 2026-06-24 |
-| `L-306-2018` | 7 | 2025-12-31 |
 | `COD-150-2014` | 6 | 2026-01-01 |
-| `L-119-2018` | 6 | 2025-12-30 |
 | `L-108-2016` | 5 | 2026-08-25 |
 | `L-131-2007` | 5 | 2026-08-23 |
 | `L-179-2016` | 5 | 2026-01-01 |
-| `L-227-2022` | 5 | 2025-12-31 |
 | `L-291-2016` | 5 | 2026-01-01 |
-| `L-411-1995` | 5 | 2026-08-28 |
 | `COD-3-2009` | 4 | 2026-05-30 |
 | `L-239-2007` | 4 | 2026-04-25 |
 | `L-278-2007` | 4 | 2025-05-29 |
