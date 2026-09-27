@@ -8,7 +8,7 @@ generated_by: _meta/coverage/build_act_register.py
 
 **Fisier generat. Nu se editeaza manual.** Rulati `python _meta/coverage/build_act_register.py`. Sursa: frontmatter-ul fisierelor raw, paginile de entitate si graful de citare.
 
-228 acte cu text legal, 82 versiuni viitoare. Coloana *ruta* arata cum a intrat actul: `showdetails` (extractorul standard, cu verificare pe HTML), `web_extract` sau `pdf` (rute fara verificarea aceea; vezi regula `raw.unanchored-article`). *Citat de* = cite acte detinute il citeaza, din graf.
+229 acte cu text legal, 82 versiuni viitoare. Coloana *ruta* arata cum a intrat actul: `showdetails` (extractorul standard, cu verificare pe HTML), `web_extract` sau `pdf` (rute fara verificarea aceea; vezi regula `raw.unanchored-article`). *Citat de* = cite acte detinute il citeaza, din graf.
 
 ## Actele
 
@@ -21,29 +21,29 @@ generated_by: _meta/coverage/build_act_register.py
 | `L-1134-1997` | cnpf | 154797 | 2026-06-11 | 2026-09-26 | showdetails | 108 | medium | 20 |
 | `L-122-2008` | cnpf | 138262 | 2025-12-31 | 2026-09-04 | showdetails | 23 | high | 5 |
 | `L-139-2007` | cnpf | 151001 | 2026-01-01 | 2026-09-04 | showdetails | 59 | high | 2 |
-| `L-171-2012` | cnpf | 145907 | 2025-11-26 | 2026-09-26 | showdetails | 158 | medium | 26 |
+| `L-171-2012` | cnpf | 145907 | 2025-11-26 | 2026-09-26 | showdetails | 158 | medium | 27 |
 | `L-177-2025` | cnpf | 149610 | 2025-07-21 | 2026-07-09 | showdetails | 4 | high | 0 |
 | `L-178-2020` | cnpf | 123148 | 2020-09-18 | 2026-07-09 | showdetails | 8 | high | 0 |
 | `L-181-2023` | cnpf | 155126 | 2026-06-26 | 2026-09-04 | showdetails | 50 | medium | 3 |
 | `L-183-2016` | cnpf | 139645 | 2023-10-21 | 2026-09-17 | showdetails | 17 | high | 7 |
-| `L-192-1998` | cnpf | 150996 | 2026-01-01 | 2026-09-04 | showdetails | 34 | medium | 18 |
-| `L-198-2020` | cnpf | 151070 | 2025-10-25 | 2026-09-04 | showdetails | 64 | high | 2 |
+| `L-192-1998` | cnpf | 150996 | 2026-01-01 | 2026-09-04 | showdetails | 34 | medium | 19 |
+| `L-198-2020` | cnpf | 151070 | 2025-10-25 | 2026-09-04 | showdetails | 64 | high | 3 |
 | `L-2-2020` | cnpf | 151078 | 2025-10-25 | 2026-09-04 | showdetails | 46 | medium | 0 |
 | `L-234-2016` | cnpf | 145901 | 2024-11-26 | 2026-09-04 | showdetails | 37 | medium | 10 |
 | `L-308-2017` | cnpf | 155856 | 2026-08-13 | 2026-09-04 | showdetails | 47 | medium | 10 |
 | `L-92-2022` | cnpf | 151081 | 2026-06-25 | 2026-09-04 | showdetails | 125 | medium | 7 |
 | `md-2026-07-03-schelet-lege-emir` | cnpf | - | - | 2026-07-09 | - | 0 | fara pagina | 0 |
 | `md-2026-07-09-proiect-lege-emir-completat` | cnpf | - | - | 2026-07-10 | - | 0 | fara pagina | 0 |
-| `CC-1107-2002` | moldova-legal | 150498 | 2026-04-01 | 2026-09-06 | showdetails | 2657 | medium | 48 |
+| `CC-1107-2002` | moldova-legal | 150498 | 2026-04-01 | 2026-09-06 | showdetails | 2657 | medium | 49 |
 | `CETS-223-2018` | moldova-legal | - | 2018-10-10 | 2026-09-24 | pdf | 40 | medium | 0 |
-| `COD-116-2018` | moldova-legal | 150447 | 2025-08-31 | 2026-09-04 | showdetails | 260 | high | 59 |
+| `COD-116-2018` | moldova-legal | 150447 | 2025-08-31 | 2026-09-04 | showdetails | 260 | high | 60 |
 | `COD-1163-1997` | moldova-legal | 138613 | 2026-07-01 | 2026-09-06 | showdetails | 511 | high | 41 |
-| `COD-122-2003` | moldova-legal | 156018 | 2026-08-28 | 2026-09-26 | showdetails | 657 | high | 18 |
+| `COD-122-2003` | moldova-legal | 156018 | 2026-08-28 | 2026-09-26 | showdetails | 657 | high | 19 |
 | `COD-1316-2000` | moldova-legal | 155707 | 2026-08-06 | 2026-09-26 | showdetails | 133 | medium | 7 |
 | `COD-150-2014` | moldova-legal | 152774 | 2026-01-01 | 2026-09-25 | showdetails | 206 | medium (mecanic) | 6 |
 | `COD-154-2003` | moldova-legal | 155185 | 2026-06-30 | 2026-09-26 | showdetails | 416 | high | 24 |
 | `COD-174-2018` | moldova-legal | 150538 | 2026-06-24 | 2026-09-05 | showdetails | 98 | high | 8 |
-| `COD-218-2008` | moldova-legal | 155852 | 2026-09-13 | 2026-09-04 | showdetails | 737 | high | 60 |
+| `COD-218-2008` | moldova-legal | 155852 | 2026-09-13 | 2026-09-04 | showdetails | 737 | high | 61 |
 | `COD-22-2024` | moldova-legal | 154132 | 2026-04-25 | 2026-09-06 | showdetails | 96 | high | 6 |
 | `COD-225-2003` | moldova-legal | 155718 | 2026-08-06 | 2026-09-06 | showdetails | 540 | high | 29 |
 | `COD-246-2024` | moldova-legal | 152769 | 2026-05-29 | 2026-09-25 | showdetails | 99 | medium (mecanic) | 1 |
@@ -53,7 +53,7 @@ generated_by: _meta/coverage/build_act_register.py
 | `COD-434-2023` | moldova-legal | 155736 | 2026-08-06 | 2026-09-05 | showdetails | 390 | high | 18 |
 | `COD-443-2004` | moldova-legal | 155721 | 2026-08-06 | 2026-09-26 | showdetails | 360 | high | 23 |
 | `COD-95-2021` | moldova-legal | 154350 | 2026-09-01 | 2026-09-04 | showdetails | 472 | high | 6 |
-| `COD-985-2002` | moldova-legal | 151140 | 2026-08-28 | 2026-09-26 | showdetails | 566 | high | 35 |
+| `COD-985-2002` | moldova-legal | 151140 | 2026-08-28 | 2026-09-26 | showdetails | 566 | high | 36 |
 | `CONST-1994` | moldova-legal | 145723 | 2024-11-05 | 2026-09-06 | showdetails | 157 | high | 84 |
 | `DCA-61-2024` | moldova-legal | 142648 | 2024-05-05 | 2026-09-05 | showdetails | 0 | high | 0 |
 | `DCNPDCP-08-2023` | moldova-legal | - | 2023-03-01 | 2026-09-25 | web_extract | 0 | fara pagina | 0 |
@@ -130,13 +130,14 @@ generated_by: _meta/coverage/build_act_register.py
 | `L-160-2011` | moldova-legal | 151257 | 2026-08-29 | 2026-09-06 | showdetails | 32 | high | 58 |
 | `L-160-2026` | moldova-legal | 155902 | 2026-08-23 | 2026-09-10 | showdetails | 46 | high | 2 |
 | `L-164-2025` | moldova-legal | 152515 | 2026-06-26 | 2026-09-25 | showdetails | 151 | medium (mecanic) | 3 |
-| `L-165-2023` | moldova-legal | 138148 | 2023-10-26 | 2026-09-24 | showdetails | 31 | high | 1 |
+| `L-165-2023` | moldova-legal | 138148 | 2023-10-26 | 2026-09-24 | showdetails | 31 | high | 2 |
 | `L-179-2008` | moldova-legal | 152602 | 2025-12-31 | 2026-09-24 | showdetails | 56 | high | 2 |
 | `L-179-2016` | moldova-legal | 149777 | 2026-01-01 | 2026-09-25 | showdetails | 23 | medium (mecanic) | 5 |
+| `L-180-2026` | moldova-legal | 156426 | 2027-03-17 | 2026-09-27 | showdetails | 106 | medium | 0 |
 | `L-181-2014` | moldova-legal | 153027 | 2025-12-31 | 2026-09-26 | showdetails | 86 | high | 41 |
 | `L-183-2012` | moldova-legal | 152606 | 2025-12-31 | 2026-09-05 | showdetails | 110 | high | 11 |
 | `L-19-2016` | moldova-legal | 154793 | 2026-06-24 | 2026-09-25 | showdetails | 26 | high | 7 |
-| `L-195-2024` | moldova-legal | 155899 | 2026-08-23 | 2026-09-10 | showdetails | 90 | high | 11 |
+| `L-195-2024` | moldova-legal | 155899 | 2026-08-23 | 2026-09-10 | showdetails | 90 | high | 12 |
 | `L-198-2007` | moldova-legal | 155726 | 2026-08-06 | 2026-09-06 | showdetails | 54 | high | 5 |
 | `L-199-2010` | moldova-legal | 155887 | 2026-09-13 | 2026-09-19 | showdetails | 29 | high | 25 |
 | `L-20-2026` | moldova-legal | 153618 | 2026-04-01 | 2026-09-06 | showdetails | 29 | high | 2 |
@@ -233,15 +234,15 @@ generated_by: _meta/coverage/build_act_register.py
 | `DCU-REGULI-2026` | legal-ro | - | 2026-04-08 | 2026-09-08 | pdf | 94 | high | 0 |
 | `HBN-127-2013` | legal-ro | 126093 | 2021-05-09 | 2026-09-08 | showdetails | 0 | high | 0 |
 | `HBN-130-2013` | legal-ro | 111967 | 2018-12-23 | 2026-09-08 | showdetails | 0 | high | 0 |
-| `L-114-2012` | legal-ro | 155302 | 2026-07-10 | 2026-09-26 | showdetails | 131 | high | 13 |
-| `L-160-2023` | legal-ro | 137939 | 2023-10-01 | 2026-09-05 | showdetails | 58 | high | 3 |
-| `L-202-2017` | legal-ro | 151077 | 2025-10-25 | 2026-09-06 | showdetails | 155 | high | 20 |
-| `L-232-2016` | legal-ro | 146912 | 2025-02-28 | 2026-09-05 | showdetails | 344 | high | 8 |
+| `L-114-2012` | legal-ro | 155302 | 2026-07-10 | 2026-09-26 | showdetails | 131 | high | 14 |
+| `L-160-2023` | legal-ro | 137939 | 2023-10-01 | 2026-09-05 | showdetails | 58 | high | 4 |
+| `L-202-2017` | legal-ro | 151077 | 2025-10-25 | 2026-09-06 | showdetails | 155 | high | 21 |
+| `L-232-2016` | legal-ro | 146912 | 2025-02-28 | 2026-09-05 | showdetails | 344 | high | 9 |
 | `L-239-2008` | legal-ro | 142655 | 2024-07-05 | 2026-09-05 | showdetails | 20 | high | 17 |
 | `L-250-2017` | legal-ro | 105629 | 2018-03-29 | 2026-09-05 | showdetails | 23 | high | 1 |
-| `L-548-1995` | legal-ro | 154046 | 2026-04-23 | 2026-09-05 | showdetails | 91 | high | 18 |
+| `L-548-1995` | legal-ro | 154046 | 2026-04-23 | 2026-09-05 | showdetails | 91 | high | 19 |
 | `L-550-1995` | legal-ro | 146899 | 2025-02-28 | 2026-09-05 | showdetails | 20 | high | 8 |
-| `L-62-2008` | legal-ro | 152953 | 2025-12-31 | 2026-09-05 | showdetails | 73 | high | 14 |
+| `L-62-2008` | legal-ro | 152953 | 2025-12-31 | 2026-09-05 | showdetails | 73 | high | 15 |
 
 ## Coada de citire a paginilor mecanice
 

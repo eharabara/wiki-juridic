@@ -1,6 +1,6 @@
 ---
 title: Registrul dispozitiilor care nu sint inca in vigoare
-generated: '2026-09-27T12:53:30'
+generated: '2026-09-27T13:30:13'
 as_of: '2026-09-27'
 type: summary
 tags: [moldova, legal-source, methodology, summary]
@@ -12,7 +12,7 @@ generated_by: _meta/inforce/build_inforce_register.py
 
 **Fisier generat. Nu se editeaza manual.** Se reface rulind scriptul din frontmatter.
 
-Stare la 2026-09-27. 673 fisiere scanate. 314 dispozitii afectate in 74 act(e). 83 consolidare/consolidari cu data in viitor. 5 consolidare/consolidari viitoare neingerate, 9 dispozitii; alte 26 din lista de mina sint acum ingerate ca fisiere separate in `raw/papers/moldova-legal/viitor/` (91 dispozitii citite de mina, pastrate mai jos).
+Stare la 2026-09-27. 674 fisiere scanate. 314 dispozitii afectate in 74 act(e). 84 consolidare/consolidari cu data in viitor. 5 consolidare/consolidari viitoare neingerate, 9 dispozitii; alte 26 din lista de mina sint acum ingerate ca fisiere separate in `raw/papers/moldova-legal/viitor/` (91 dispozitii citite de mina, pastrate mai jos).
 
 ## Regula de citare
 
@@ -392,6 +392,7 @@ Fisierul incorporeaza modificari care nu au intrat in vigoare. Arhiva indicata e
 | L-165-2023--2026-12-09 | 2026-12-09 | da | - | `-` |
 | L-171-2012--2027-06-01 | 2027-06-01 | da | - | `-` |
 | L-179-2016--2027-01-01 | 2027-01-01 | da | - | `-` |
+| L-180-2026 | 2027-03-17 | da | - | `-` |
 | L-181-2014--2027-01-01 | 2027-01-01 | da | - | `-` |
 | L-19-2016--2027-01-01 | 2027-01-01 | da | - | `-` |
 | L-19-2016--2030-01-01 | 2030-01-01 | da | - | `-` |

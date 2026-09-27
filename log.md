@@ -2477,3 +2477,21 @@
   documentată doar în CLAUDE.md, nu în registru (schema cere o dată reală). `Legea nr. 180/2026` notată ca următoarea candidată evidentă pentru coada de ingerare (trei acte deja o citează). **Neexecutat:** ingerarea propriu-zisă a
   Legii 180/2026; cele ~46 de pagini mecanice rămase în coadă, neatinse.
 - **Unde:** `_meta/inforce/pending-consolidations.json`, `CLAUDE.md` („Outstanding work” 8, punctul g, plus paragraful despre `L-1260-2002`).
+
+## [2026-09-27] update | Ingerarea Legii 180/2026 privind piața criptoactivelor, la cererea lui Eugen
+
+- **Aflat:** legea nu avea doc_id cunoscut — găsită prin căutare în titlu fără diacritice „piata criptoactivelor” (2 rezultate: actul, doc_id 156426, și DP773/2026, decretul de promulgare, doc_id 156423, neingerat). Fișa: adoptată 24.08.2026,
+  publicată 17.09.2026 (MO456-459 art.479), niciodată modificată, fără abrogare — singura versiune, ca la L-325-2025. Citind art. 1-3, 85-86 și 104-106 (nu întregul act, 106 articole): e un transpunere de tip **MiCA** (Regulamentul (UE)
+  2023/1114 — art. 3 aproape termen cu termen). Intră în vigoare în două trepte: 17.03.2027 (6 luni de la publicare, art. 104 alin. (1)), apoi, condiționat de aderarea R. Moldova la UE, fără dată fixă, legea însăși se golește la un act de
+  „măsuri de punere în aplicare” a regulamentului UE aplicabil direct (art. 104 alin. (3)) — aceeași formă ca L-1260-2002, dar prima treaptă e reală de data asta. Art. 85 împarte mandatul exact cum prezice harta CNPF/BNM deja din vault:
+  Comisia Națională pentru emitenți/ofertanți/furnizori de servicii de criptoactive în general, Banca Națională doar pentru instituțiile de credit și emitente de monedă electronică pe token-urile de monedă electronică, pe lângă rolurile ei
+  existente (L-548-1995, L-232-2016, L-202-2017). Anexa nr. 5 (schema de modificare) atinge **patru** acte, nu trei cum spusese nota de ieri: L-548-1995, L-202-2017, L-114-2012 (toate trei deja semnalate) **și L-192-1998**, legea CNPF
+  însăși (art. 3 rescris, art. 4 extins, două alineate noi (2^5)-(2^6) cu atribuții exprese pe piața criptoactivelor, o taxă nouă la art. 6, un registru nou la art. 8) — ratată ieri fiindcă `viitor/L-192-1998--2027-03-17.md` era deja
+  ingerat din lotul de 26.09, sub un marcaj LP180 fără nume de act atașat.
+- **Decis:** ingerată ca `L-180-2026` (`ingest_business_law.py`, HTML luat din Chrome-ul lui Eugen prin fetch + descărcare blob, sha256 verificat identic în pagină și pe disc; `verify_business_law.py` 0 eșecuri, 106 ancore 1-106 fără
+  lacune). Pagină de entitate nouă, cu cinci secțiuni citite (statut, mandat art. 85-86, intrarea în vigoare în două trepte, anexa nr. 5, noțiuni art. 3) și cinci rămase deschise (art. 4-84, 87-103, anexele 1-4, comparația cu regulamentul UE,
+  actele de punere în aplicare). Cele patru acte atinse (L-548-1995, L-202-2017, L-114-2012, L-192-1998) primesc fiecare o secțiune „Ce se schimbă de la 17.03.2027” și un link încrucișat către `L-180-2026`; `index.md` actualizat (276 de
+  pagini). CLAUDE.md extins cu constatarea celui de-al patrulea act atins. Registrul in-force, graful de citare, registrul act cu act și blocul de acoperire regenerate; validator 0 erori (o eroare intermediară, `index.total-line`, reparată
+  în trecere). **Neexecutat:** art. 4-84 și 87-103 din lege, anexele 1-4, comparația cu Regulamentul (UE) 2023/1114, actele normative de punere în aplicare cerute de art. 104 alin. (5); cele ~46 de pagini mecanice rămase în coadă.
+- **Unde:** `raw/papers/moldova-legal/L-180-2026.md`, `entities/L-180-2026.md`, `entities/{L-548-1995,L-202-2017,L-114-2012,L-192-1998}.md`, `_meta/imports/moldova-legal/ingest_business_law.py` (+intrare `DOCS`),
+  `_meta/imports/moldova-legal/legis-md-business/showdetails-156426.html`, `index.md`, `CLAUDE.md` (întrebarea 9, paragraful `L-180-2026`).

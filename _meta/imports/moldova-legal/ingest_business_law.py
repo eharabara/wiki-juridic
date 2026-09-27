@@ -1117,6 +1117,21 @@ DOCS = {
         'title': 'Versiune viitoare, de la 2029-01-01, a actului COD-95-2021'},
     'L-192-1998--2027-03-17': {'doc_id': '156445', 'subdir': 'viitor', 'future_of': 'L-192-1998', 'applies_from': '2027-03-17',
         'title': 'Versiune viitoare, de la 2027-03-17, a actului L-192-1998'},
+    # 2026-09-27, gasita la matura versiunilor de pe legis.md: L-202-2017 art. 14 si L-548-1995
+    # art. 5/75^2 primesc, de la 17.03.2027, dispozitii noi "conform legislatiei privind piata
+    # criptoactivelor" -- act pe care vaultul nu-l avea deloc. Cautare in titlu fara diacritice
+    # "piata criptoactivelor" (2 rezultate: DP773/2026, decretul de promulgare, doc_id 156423, si
+    # actul insusi, doc_id 156426). Verificat pe fisa: adoptata 24.08.2026, publicata 17.09.2026
+    # (MO456-459 art.479), in vigoare 17.03.2027, NICIODATA modificata (fara rind "Data
+    # modificarii"), fara data de abrogare -- singura versiune, ca la L-325-2025. Ca acolo,
+    # intregul act e viitor: nu exista text "in vigoare azi" de pastrat separat, deci fisierul
+    # principal poarta data viitoare (whole_act_future in extract_doc/main), fara subdir.
+    # Verificat pe HTML inainte de rulare: 107 articole, 15 <sup>, 29 span-uri ridicate prin CSS,
+    # fara CUPRINS. Este cadrul de tip MiCA al R. Moldova (Regulamentul (UE) 2023/1114, de
+    # confirmat la citire). Prima lege gasita la matura de versiuni, nu prin coada grafului de
+    # citare -- ceea ce inseamna ca acele 4941 de muchii act nu o cunosc inca.
+    'L-180-2026': {'doc_id': '156426',
+                   'title': 'Legea nr. 180/2026 privind piata criptoactivelor'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

@@ -8,7 +8,7 @@ generated_by: _meta/inforce/build_prose_deferral_candidates.py
 
 **Fisier generat. Nu se editeaza manual.** Registrul in-force citeste numai marcajele intre paranteze; amanarile scrise in proza articolului final (CLAUDE.md, intrebarea 9) ii scapa. Aici sint paragrafele din ultimele 6 articole ale fiecarui act care spun `intra in vigoare` sau `se aplica` impreuna cu o exceptie, o conditie sau o data viitoare (dupa 2026-09-26); datele simple deja trecute nu se listeaza. **Sint candidati, nu constatari**: multe sint simple date de intrare in vigoare deja trecute. Coloana *in registru* spune daca actul are deja o intrare in registrul in-force.
 
-38 paragrafe in 29 acte.
+39 paragrafe in 30 acte.
 
 | Act | Articol | in registru | Paragraf |
 |---|---|---|---|
@@ -29,6 +29,7 @@ generated_by: _meta/inforce/build_prose_deferral_candidates.py
 | `L-133-2016` | ## Articolul 24. Dispoziții tranzitorii | da | (1) Prezenta lege intră în vigoare de la 1 august 2016, cu excepția prevederilor art. 7, care vor intra în vigoare începând cu 1 ianuarie 2018. |
 | `L-140-2025` | ## Articolul XXIV. | nu | Art. XXIV. – (1) Prezenta lege intră în vigoare la 1 ianuarie 2026, cu excepția articolului VII, care intră în vigoare la 1 septembrie 2025, și cu excepția articolelor VI, VIII, XII, XVI, XVII, a articolului XVIII în partea ce se  |
 | `L-160-2011` | ## Articolul 14. Dispoziţii finale | da | Prezenta lege intră în vigoare la 6 luni de la data publicării, cu excepţia art. 13 alin. (1), care intră în vigoare la data publicării, şi art. 11 alin. (6), care intră în vigoare la 1 februarie 2012. |
+| `L-180-2026` | ## Articolul 103. Taxe sau plăți de autorizare și | da | (4) Cuantumul taxelor sau plăților nu poate fi majorat pe parcursul aceleiași perioade de gestiune. Orice modificare privind cuantumul taxelor sau plăților, categoriile de persoane sau entități obligate la plată se aplică începând |
 | `L-198-2007` | ## Articolul 37. | nu | (1) Prezenta lege intră în vigoare pe măsura creării condiţiilor necesare, dar nu mai târziu de 1 iulie 2008, cu excepţia art. 19 alin.(1) lit. e), care intră în vigoare la 1 ianuarie 2012. |
 | `L-209-2016` | ## Articolul 67. Dispoziţii finale | da | (2) Prezenta lege intră în vigoare după 12 luni de la data publicării în Monitorul Oficial al Republicii Moldova, cu excepția art. 54 alin. (5) care se pune în aplicare începând cu 1 ianuarie 2017, art. 54 alin. (6) care se pune î |
 | `L-227-2025` | ## Articolul XLII. | nu | Art. XLII. – (1) Prin derogare de la art. 56 alin. (2) din Legea nr. 100/2017 cu privire la actele normative, prezenta lege intră în vigoare la data de 30 decembrie 2025, cu excepția: |
