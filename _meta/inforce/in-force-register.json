@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-27T19:05:08",
+  "generated": "2026-09-27T19:30:07",
   "as_of": "2026-09-27",
-  "files_scanned": 674,
+  "files_scanned": 680,
   "provisions_not_yet_in_force": [
     {
       "file": "raw/papers/moldova-legal/viitor/COD-154-2003--2026-10-28.md",
@@ -3595,6 +3595,22 @@
       "occurrences": 1
     },
     {
+      "file": "raw/papers/moldova-legal/viitor/L-235-2011--2027-01-01.md",
+      "instrument": "L-235-2011--2027-01-01",
+      "article": "9",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP91 din 28.05.26",
+      "official_gazette": "MO238-241/11.06.26 art.240",
+      "context": "[Art.9 al.(3) în redacția LP91 din 28.05.26, MO238-241/11.06.26 art.240; în vigoare 01.01.27]",
+      "lines": [
+        240
+      ],
+      "occurrences": 1
+    },
+    {
       "file": "raw/papers/moldova-legal/viitor/L-270-2018--2027-01-01.md",
       "instrument": "L-270-2018--2027-01-01",
       "article": "3",
@@ -5570,6 +5586,15 @@
       "flagged_in_frontmatter": true
     },
     {
+      "instrument": "L-142-2018--2030-01-01",
+      "file": "raw/papers/moldova-legal/viitor/L-142-2018--2030-01-01.md",
+      "consolidation_date": "2030-01-01",
+      "doc_id": "155459",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
       "instrument": "L-149-2006--2027-03-24",
       "file": "raw/papers/moldova-legal/viitor/L-149-2006--2027-03-24.md",
       "consolidation_date": "2027-03-24",
@@ -5754,6 +5779,15 @@
       "file": "raw/papers/moldova-legal/viitor/L-230-2022--2030-01-01.md",
       "consolidation_date": "2030-01-01",
       "doc_id": "140343",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
+      "instrument": "L-235-2011--2027-01-01",
+      "file": "raw/papers/moldova-legal/viitor/L-235-2011--2027-01-01.md",
+      "consolidation_date": "2027-01-01",
+      "doc_id": "154794",
       "previous_consolidation_date": null,
       "previous_archive": null,
       "flagged_in_frontmatter": true
@@ -7107,9 +7141,9 @@
     }
   ],
   "counts": {
-    "provisions": 314,
-    "acts": 74,
-    "future_consolidations": 84,
+    "provisions": 315,
+    "acts": 75,
+    "future_consolidations": 86,
     "pending_consolidations": 5,
     "pending_ingested": 26,
     "pending_provisions": 9,

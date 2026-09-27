@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-27 | Total pages: 276
+> Last updated: 2026-09-27 | Total pages: 279
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -88,9 +88,11 @@
 - [[L-9-2026]] — Legea privind medierea și statutul mediatorului: transpune Directiva 2008/52/CE, abrogă Legea 137/2015 la intrarea ei în vigoare (~12.09.2026); 63 de ancore; două dispoziții amânate (art. 44 alin. (3)) scrise în proză, nu ca marcaj, deci invizibile registrului in-force.
 - [[L-1125-2002]] — Legea pentru punerea în aplicare a Codului civil: explică dispozițiile tranzitorii ale CC-1107-2002 pe trei reforme succesive (2002, Legea 133/2018, Legea 251/2025 - procedura succesorală); 50 de ancore, consolidare 01.04.2026 (dată deja trecută).
 - [[L-220-2007]] — Legea nr. 220/2007 privind inregistrarea de stat a persoanelor juridice si a intreprinzatorilor individuali: procedura ASP, consolidare 2026-07-23.
+- [[L-231-2010]] — Legea nr. 231/2010 cu privire la comerțul interior: republicată 2021, consolidare 2026-08-10, 55 de ancore, art. 22-24 lipsă prin abrogarea Capitolului VI; coada de ingerare a grafului de citare (13 acte citatoare), citată punctual de COD-218-2008 și L-105-2003.
 - [[L-232-2016]] — Legea nr. 232/2016 privind redresarea și rezoluția băncilor (BRRD): text românesc, 344 de ancore, articole fără titlu.
 - [[L-234-2016]] — Legea nr. 234/2016 privind Depozitarul central unic al valorilor mobiliare (DCU)
 - [[L-235-2006]] — Legea nr. 235/2006 cu privire la principiile de bază de reglementare a activității de întreprinzător: temeiul metodologiei AIR și al Comisiei de stat; art. 14 rezervă legii normele primare privind afacerea.
+- [[L-235-2011]] — Legea nr. 235/2011 privind activitățile de acreditare și de evaluare a conformității: transpune Regulamentul (CE) 765/2008 și Decizia 768/2008/CE; consolidare 2026-02-28 (versiunea 2027-01-01 e viitoare, ținută separat); coada de ingerare a grafului de citare (13 acte citatoare, cel mai des L-143-2014).
 - [[L-239-2008]] — Legea nr. 239/2008 privind transparența în procesul decizional: legea generală a consultării publice; 20 de ancore; în bnm/legal-ro doar pentru că BNM o ține în registrul său.
 - [[L-245-2008]] — Legea nr. 245/2008 cu privire la secretul de stat: regimul atribuirii/secretizării informațiilor și dreptul de acces; art. 5 alin. (6), art. 7 alin. (7), art. 7^1 și art. 9 alin. (3) din L-133/2016 trimit aici pentru subiecții declarării averii a căror identitate constituie secret de stat; 41 de ancore, consolidare 2025-12-30.
 - [[L-246-2018]] — Legea nr. 246/2018 privind procedura notarială: capitolul V, procedura succesorală notarială; art. 82 alin. (3), certificatul de moștenitor nu mai devreme de o lună de la ultima publicare; art. 69 alin. (1^1) numește certificatul de calitate de moștenitor; 97 de ancore, consolidare 2026-06-23, versiunea în vigoare stă deasupra rândului de căutare de pe legis.md.
@@ -181,6 +183,7 @@
 - [[L-92-2014]] — cu privire la energia termică şi promovarea cogenerării: 61 ancore, consolidare 2025-12-30.
 - [[L-114-2014]] — cu privire la Agenţia de Stat pentru Proprietatea Intelectuală: 28 ancore, consolidare 2026-01-01.
 - [[L-116-2014]] — cinematografiei: 18 ancore, consolidare 2025-12-31.
+- [[L-142-2018]] — Legea nr. 142/2018 cu privire la schimbul de date și interoperabilitate: titlul din legis.md poartă o greșeală de tipar ("interoperabiltate"), invizibilă la căutarea în titlu corectă; consolidare 2025-01-01 (versiunea 2030-01-01 e viitoare); 14 ancore; coada de ingerare a grafului de citare (13 acte citatoare, cel mai des L-227-2025).
 - [[L-143-2014]] — privind regimul articolelor pirotehnice: 54 ancore, consolidare 2025-12-30.
 - [[COD-150-2014]] — TRANSPORTURILOR RUTIERE: 0 ancore, consolidare 2026-01-01.
 - [[L-10-2016]] — privind promovarea utilizării energiei din surse regenerabile: 63 ancore, consolidare 2025-12-30.

@@ -1132,6 +1132,43 @@ DOCS = {
     # citare -- ceea ce inseamna ca acele 4941 de muchii act nu o cunosc inca.
     'L-180-2026': {'doc_id': '156426',
                    'title': 'Legea nr. 180/2026 privind piata criptoactivelor'},
+    # 2026-09-27, primele trei din coada de ingerare a grafului de citare, prioritizate dupa
+    # coloana care conteaza (nr. de acte detinute care le citeaza, nu mentiunile brute): toate
+    # trei la 13 acte citatoare. Titlurile nu erau stiute dinainte; gasite prin cautare Google
+    # ("Legea nr. N/AAAA" Moldova), apoi confirmate si localizate pe legis.md prin cautare in
+    # titlu (fara diacritice). Ambele metode uzuale de cautare in titlu au esuat o data fiecare:
+    # "schimbul de date si interoperabilitate" nu gaseste LP142/2018 fiindca titlul din
+    # inregistrare e scris gresit, "interoperabiltate" (fara al doilea i) -- a patra sursa
+    # gasita cu clasa asta de defect (v. CLAUDE.md, sectiunea 4); gasit abia prin cautarea mai
+    # larga "schimbul de date" si citind randurile (metoda getAjaxContent, DOM, nu regex pe
+    # HTML brut). Curl tot blocat de Cloudflare; HTML luat din Chrome-ul lui Eugen prin fetch
+    # same-origin + POST la un receiver local pe 8765, ca la P8/BNM.
+    #
+    # CAPCANA DE LISTA la primele doua, a treia oara dupa L-133-2011 si L-131-2012: randul de
+    # cautare (si getResults?doc_id= implicit) trimit direct la cea mai noua consolidare din
+    # istoric, care aici e VIITOARE la ambele -- 154794@2027-01-01 (LP91/2026) pentru 235/2011,
+    # 155459@2030-01-01 (LP62/2026) pentru 142/2018. Verificat pe lista de versiuni a fiecarei
+    # pagini (showDetails), nu presupus: cea in vigoare azi (2026-09-27) e cea IMEDIAT sub, cu
+    # data trecuta. L-231-2010 nu are aceasta capcana: randul de cautare trimite deja la
+    # 154335@2026-08-10, trecuta.
+    #
+    # Verificat pe HTML inainte de rulare, cele trei consolidari CURENTE: fara CUPRINS la
+    # niciuna, fara "Just a moment" (continut real), fara "ABROGAT" in antet. <sup>: 81 (235/2011),
+    # 3 (142/2018), 84 (231/2010); niciun span ridicat prin CSS (top:-Nem) la niciuna.
+    'L-235-2011': {'doc_id': '151201',
+                   'title': 'Legea nr. 235/2011 privind activitatile de acreditare si de '
+                            'evaluare a conformitatii'},
+    'L-235-2011--2027-01-01': {'doc_id': '154794', 'subdir': 'viitor', 'future_of': 'L-235-2011',
+        'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-235-2011'},
+    'L-142-2018': {'doc_id': '142805',
+                   'title': 'Legea nr. 142/2018 cu privire la schimbul de date si '
+                            'interoperabilitate'},
+    'L-142-2018--2030-01-01': {'doc_id': '155459', 'subdir': 'viitor', 'future_of': 'L-142-2018',
+        'applies_from': '2030-01-01',
+        'title': 'Versiune viitoare, de la 2030-01-01, a actului L-142-2018'},
+    'L-231-2010': {'doc_id': '154335',
+                   'title': 'Legea nr. 231/2010 cu privire la comertul interior'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

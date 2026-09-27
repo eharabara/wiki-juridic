@@ -1,6 +1,6 @@
 ---
 title: Registrul dispozitiilor care nu sint inca in vigoare
-generated: '2026-09-27T19:05:08'
+generated: '2026-09-27T19:30:07'
 as_of: '2026-09-27'
 type: summary
 tags: [moldova, legal-source, methodology, summary]
@@ -12,7 +12,7 @@ generated_by: _meta/inforce/build_inforce_register.py
 
 **Fisier generat. Nu se editeaza manual.** Se reface rulind scriptul din frontmatter.
 
-Stare la 2026-09-27. 674 fisiere scanate. 314 dispozitii afectate in 74 act(e). 84 consolidare/consolidari cu data in viitor. 5 consolidare/consolidari viitoare neingerate, 9 dispozitii; alte 26 din lista de mina sint acum ingerate ca fisiere separate in `raw/papers/moldova-legal/viitor/` (91 dispozitii citite de mina, pastrate mai jos).
+Stare la 2026-09-27. 680 fisiere scanate. 315 dispozitii afectate in 75 act(e). 86 consolidare/consolidari cu data in viitor. 5 consolidare/consolidari viitoare neingerate, 9 dispozitii; alte 26 din lista de mina sint acum ingerate ca fisiere separate in `raw/papers/moldova-legal/viitor/` (91 dispozitii citite de mina, pastrate mai jos).
 
 ## Regula de citare
 
@@ -237,6 +237,7 @@ Inainte de a cita un articol, verifica daca apare in tabelul de mai jos. Daca ap
 | L-19-2016--2027-01-01 | 26 | modificare | 2027-01-01 | LP91 din 28.05.26 | se aplica textul anterior |
 | L-229-2010--2027-01-01 | 2 | modificare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
 | L-229-2010--2027-01-01 | 3 | modificare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
+| L-235-2011--2027-01-01 | 9 | reformulare | 2027-01-01 | LP91 din 28.05.26 | se aplica textul anterior |
 | L-270-2018--2027-01-01 | anexa nr. 3 | modificare | 2027-01-01 | LP200 din 03.09.26 | se aplica textul anterior |
 | L-270-2018--2027-01-01 | anexa nr. 7 | modificare | 2027-01-01 | LP200 din 03.09.26 | se aplica textul anterior |
 | L-274-2011--2027-01-01 | 11 | modificare | 2027-01-01 | LP200 din 03.09.26 | se aplica textul anterior |
@@ -382,6 +383,7 @@ Fisierul incorporeaza modificari care nu au intrat in vigoare. Arhiva indicata e
 | L-131-2007--2029-01-01 | 2029-01-01 | da | - | `-` |
 | L-132-2016--2027-01-01 | 2027-01-01 | da | - | `-` |
 | L-133-2016--2027-01-01 | 2027-01-01 | da | - | `-` |
+| L-142-2018--2030-01-01 | 2030-01-01 | da | - | `-` |
 | L-149-2006--2027-03-24 | 2027-03-24 | da | - | `-` |
 | L-1543-1998--2027-01-01 | 2027-01-01 | da | - | `-` |
 | L-160-2011--2026-12-28 | 2026-12-28 | da | - | `-` |
@@ -403,6 +405,7 @@ Fisierul incorporeaza modificari care nu au intrat in vigoare. Arhiva indicata e
 | L-229-2010--2027-01-01 | 2027-01-01 | da | - | `-` |
 | L-23-2008--2027-03-01 | 2027-03-01 | da | - | `-` |
 | L-230-2022--2030-01-01 | 2030-01-01 | da | - | `-` |
+| L-235-2011--2027-01-01 | 2027-01-01 | da | - | `-` |
 | L-24-2008--2027-03-01 | 2027-03-01 | da | - | `-` |
 | L-270-2018--2027-01-01 | 2027-01-01 | da | - | `-` |
 | L-274-2011--2027-01-01 | 2027-01-01 | da | - | `-` |
@@ -1001,6 +1004,8 @@ Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar
   - [Art.2 modificat prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
 - **L-229-2010--2027-01-01 art. 3**, `raw/papers/moldova-legal/viitor/L-229-2010--2027-01-01.md`, liniile [113]
   - [Art.3 noțiune modificată prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
+- **L-235-2011--2027-01-01 art. 9**, `raw/papers/moldova-legal/viitor/L-235-2011--2027-01-01.md`, liniile [240]
+  - [Art.9 al.(3) în redacția LP91 din 28.05.26, MO238-241/11.06.26 art.240; în vigoare 01.01.27]
 - **L-270-2018--2027-01-01 anexa nr. 3**, `raw/papers/moldova-legal/viitor/L-270-2018--2027-01-01.md`, liniile [513]
   - [Anexa nr.3 modificată prin LP200 din 03.09.26, MO448-451/14.09.26 art. 477; în vigoare 01.01.27]
 - **L-270-2018--2027-01-01 anexa nr. 7**, `raw/papers/moldova-legal/viitor/L-270-2018--2027-01-01.md`, liniile [519]

@@ -2527,3 +2527,25 @@
   perspectiva legii 180, regulamentele de reziliență operațională (necăutate), eșantionul MiCA (6 din 106/149, nu exhaustiv) și verificarea proiectelor CNPF/BNM (blocată, lăsată lui Eugen cu propriul Chrome). Coverage-ul va arăta 52 de
   extrase UE la următoarea regenerare (de la 51).
 - **Unde:** `entities/L-180-2026.md`, `raw/papers/moldova-legal/UE-2023-1114.md` (nou, text integral RO), `_meta/imports/eu/ingest_eu_mica.py` (nou), `CLAUDE.md` (paragraf de continuare după constatarea din 27.09).
+
+## [2026-09-27] update | Ingerarea primelor trei rînduri ale cozii de ingerare a grafului de citare — L-235-2011, L-142-2018, L-231-2010, la cererea lui Eugen
+
+- **Aflat:** cele trei acte alese sînt cele cu cel mai mare număr de acte deținute care le citează (13 fiecare, coloana care contează, nu mențiunile brute) — Legea acreditării și evaluării conformității (235/2011, transpune Regulamentul
+  (CE) 765/2008 și Decizia 768/2008/CE), legea schimbului de date și interoperabilității (142/2018) și legea comerțului interior (231/2010, republicată 2021). Titlurile lor nu erau știute dinainte de sesiune; găsite prin căutare Google, apoi
+  localizate pe legis.md prin căutare în titlu. **Curl tot blocat de Cloudflare** (ca la 16 și 21 septembrie); HTML-ul luat din Chrome-ul lui Eugen (`claude-in-chrome`, nu browserul intern al sesiunii — acela a rămas blocat la verificarea
+  Cloudflare chiar și după așteptări repetate) prin fetch same-origin + POST la un receiver local `ThreadingHTTPServer` pe portul 8765, ca la P8/BNM și la lotul de 21 septembrie.
+  **Trei capcane, toate deja documentate ca clasă în CLAUDE.md, confirmate din nou pe acte noi:** (1) *capcana de listă*, a treia și a patra oară după L-133-2011 și L-131-2012 — rîndul de căutare pe legis.md trimite direct la cea mai nouă
+  consolidare din istoric, care la 235/2011 și 142/2018 e **viitoare** (154794@2027-01-01, LP91/2026; 155459@2030-01-01, LP62/2026); textul în vigoare azi e versiunea imediat sub ea în listă (151201, 142805). 231/2010 nu are această capcană,
+  rîndul de căutare trimite deja la versiunea trecută (154335@2026-08-10). (2) *capcana de titlu*, a patra sursă cu acest defect (secțiunea 4) — titlul lui 142/2018 pe legis.md e scris greșit, „interoperabiltate" fără al doilea i, deci
+  căutarea în titlu cu fraza corectă întoarce zero rezultate; găsit abia prin căutarea mai largă „schimbul de date" (32 de rezultate) și citirea rîndurilor prin `getAjaxContent` + DOMParser, nu regex pe HTML brut. (3) *lacune de numerotare,
+  ambele explicate în corp, fără nevoie de verificare pe istoricul de versiuni* — 235/2011 art. 30 poartă marcaj explicit `[Art.30 abrogat prin LP197...]` (mecanismul 1), 231/2010 art. 22-24 sînt acoperite de „## Capitolul VI – abrogat."
+  imediat înaintea dispozițiilor finale (mecanismul 4, abrogare de capitol întreg). O a patra lacună, 235/2011 art. 33-34, **rămîne neexplicată** — fără marcaj vizibil, neverificată pe istoricul legis.md.
+- **Decis:** toate cinci fișiere (3 curente + 2 versiuni viitoare, ținute separat în `viitor/` cu `future_of`/`applies_from`, ca restul lotului din 25-26 septembrie) ingerate cu `ingest_business_law.py` (intrări noi în `DOCS`, cu comentariul
+  capcanelor de mai sus). `verify_business_law.py`: 0 eșecuri pe tot corpusul, integritate de text PASS la toate cinci. Trei pagini de entitate noi, confidence `medium` (mecanice — textul integral **nu a fost citit** pentru niciuna, doar
+  art. 1 și zonele lacunelor), cu secțiune „De ce este în wiki" legată la actele citatoare cunoscute din graf (L-143-2014 pentru 235/2011, L-227-2025 pentru 142/2018, COD-218-2008 și L-105-2003 pentru 231/2010) și cros-linkuri între cele
+  trei ca să nu rămînă nicio pagină orfană (validatorul a prins una la primul pas, reparată). `index.md` actualizat, 279 de pagini. Registrul in-force, registrul HCC, graful de citare, registrul act cu act și blocul de acoperire din
+  CLAUDE.md regenerate; validator 0 erori, 2 avertismente preexistente neatinse de această sesiune (citarea fără locator din L-180-2026, jurnalul de cauze învechit). **Neexecutat, lăsat deschis pe fiecare pagină:** textul integral al celor
+  trei acte dincolo de art. 1 și zonele citate; verificarea pe istoricul legis.md a lacunei 235/2011 art. 33-34; articolele exacte citate de restul celor 13 acte citatoare fiecare (doar cîte unul-două confirmate per act, din graf, nu din
+  citire). Nu s-a comis (commit) — cerut doar ingerarea.
+- **Unde:** `raw/papers/moldova-legal/{L-235-2011,L-142-2018,L-231-2010}.md`, `raw/papers/moldova-legal/viitor/{L-235-2011--2027-01-01,L-142-2018--2030-01-01}.md`, `entities/{L-235-2011,L-142-2018,L-231-2010}.md`,
+  `_meta/imports/moldova-legal/ingest_business_law.py` (+5 intrări `DOCS`), `_meta/imports/moldova-legal/legis-md-business/showdetails-{151201,154794,142805,155459,154335}.html`, `index.md`.
