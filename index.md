@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-27 | Total pages: 279
+> Last updated: 2026-09-28 | Total pages: 285
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -56,10 +56,12 @@
 - [[L-131-2015]] — Legea achizițiilor publice: 91 de ancore, consolidare 2026-06-26; abrogată de la 01.01.2027 prin Legea 325/2025; contestațiile (art. 80–88) scoase de Legea 20/2026 din 01.04.2026; pragurile din art. 2.
 - [[L-132-2016]] — Legea nr. 132/2016 cu privire la Autoritatea Națională de Integritate: organizează ANI și procedura de control a averii/conflictelor de interese, contrapartea instituțională a L-133/2016; 45 de ancore, consolidare viitoare 2027-01-01; două decizii HCC (HCC29/2021, HCC6/2018) neatribuite unui articol.
 - [[L-133-2011]] — Legea nr. 133/2011 privind protecția datelor cu caracter personal: **ABROGATĂ de la 23.08.2026** prin art. 90 alin. (3) lit. b) din L-195/2024; păstrată fiindcă 19 acte din corpus încă trimit la ea și fiindcă guvernează faptele anterioare.
+- [[L-139-2010]] — Legea nr. 139/2010 privind dreptul de autor și drepturile conexe: **ABROGATĂ de la 09.10.2022** prin LP230/2022 (succesorul, deja deținut, e [[L-230-2022]]); păstrată fiindcă 11 acte încă trimit la ea; coada de ingerare a grafului de citare.
 - [[L-133-2016]] — Legea nr. 133/2016 privind declararea averii și a intereselor personale: ANI exercită controlul (art. 22); art. 3 lit. e^1) numește expres personalul BNM și CNPF ca subiecți ai declarării; art. 23 alin. (5^1) lovit de HCC29/2021; 27 de ancore, consolidare viitoare 2027-01-01, 6 dispoziții amânate.
 - [[L-133-2018]] — Legea nr. 133/2018 privind modernizarea Codului civil: actul care a rescris Codul civil de la 1 martie 2019; 17 articole proprii, numerotate roman, și 16 acte modificate. Sursa concordanței dintre numerotarea de dinainte de republicare (art. 330^4, 1575^N) și cea de azi — 1.176 din 1.400 de titluri se potrivesc exact în CC-1107-2002.
 - [[L-135-2007]] — Legea nr. 135/2007 privind societatile cu raspundere limitata: actul de baza pentru SRL, consolidare 2026-03-27, 83 de articole plus 10 cu exponent.
 - [[L-139-2007]] — Legea nr. 139/2007 privind asociațiile de economii și împrumut
+- [[L-139-2012]] — Legea nr. 139/2012 cu privire la ajutorul de stat: transpune art. 107-109 TFUE și regulamentele UE de aplicare; **abrogare programată la 17.03.2027 prin LP182/2026** (versiunea cu marcajul, viitoare, ținută separat); consolidare 2025-12-31, 25 de ancore; coada de ingerare a grafului de citare (8 acte citatoare).
 - [[L-148-2023]] — Legea accesului la informațiile de interes public: 35 de ancore, nemodificată, în vigoare 08.01.2024; furnizorii de informații, contenciosul administrativ.
 - [[L-149-2012]] — Legea insolvabilității: 271 de ancore (254 de bază fără lacune, 235^1–235^16), consolidare 2025-12-31; procedura colectivă, instanța de insolvabilitate.
 - [[L-1543-1998]] — Legea cadastrului bunurilor imobile: art. 40^4 alin. (1) face documentele de recepție condiție de înregistrare a construcției; consolidare viitoare 2027-01-01.
@@ -68,6 +70,7 @@
 - [[L-160-2023]] — Legea nr. 160/2023 cu privire la garantarea depozitelor în bănci (DGSD): înlocuiește Legea 575/2003, abrogată; 58 de ancore, nemodificată.
 - [[L-160-2026]] — Legea nr. 160/2026 privind protecția datelor prelucrate în scop penal: transpune Directiva (UE) 2016/680; în vigoare 23.08.2026, cel mai nou act din corpus; împrumută noțiunile și procedura amenzii din L-195/2024.
 - [[L-171-2012]] — Legea nr. 171/2012 privind piața de capital
+- [[L-172-2014]] — Legea nr. 172/2014 privind aprobarea Nomenclaturii combinate a mărfurilor: legea de aprobare e scurtă (Art. I-IX, numerotare romană), Nomenclatura însăși e o anexă separată, neingerată; **zero ancore de articol**; consolidare 2026-07-01; coada de ingerare a grafului de citare (9 acte citatoare, cel mai des L-82-2024).
 - [[L-177-2025]] — Legea nr. 177/2025: interdicția opțiunilor binare și a marketingului de derivate cu levier; a introdus art. 4^1 în L-171-2012 și art. 245^13 în Codul penal.
 - [[L-178-2020]] — Legea nr. 178/2020 (legea de transfer al mandatului din 2023)
 - [[L-180-2026]] — Legea nr. 180/2026 privind piața criptoactivelor: cadru de tip MiCA (Regulamentul (UE) 2023/1114); nu e în vigoare azi (17.03.2027); 106 ancore; CNPF și BNM autorități competente (art. 85), împărțite pe tipul de criptoactiv; modifică L-548-1995, L-192-1998, L-114-2012 și L-202-2017 (anexa nr. 5).
@@ -108,6 +111,7 @@
 - [[L-72-2025]] — Legea comunicațiilor electronice: 127 de articole, consolidare 2025-12-31, în vigoare din 01.01.2026 (fișa spune altfel), cu capitolul XVII (drepturile utilizatorilor, arts. 96-113) amînat la 13.05.2027 sau la decizia Consiliului de Asociere; art. 126 expirat la 01.04.2026; art. 115 alin. (10) e al doilea temei al Ordinului CNPDCP 40/2026.
 - [[L-136-2017]] — Legea cu privire la Guvern: 48 de ancore (32^1 inclus), consolidare 2024-06-06; art. 23 alin. (6) atins în parte de HCC7/2021; abrogă Legea 64/1990 (art. 47 alin. (3)).
 - [[L-98-2012]] — Legea privind administrația publică centrală de specialitate: 38 de ancore, consolidare 2026-01-01 (LP140/2025); art. 12 (Viceministrul) a dispărut, înlocuit de art. 12^1 (secretarul de stat); consolidare viitoare 2027-01-01 (LP76/2026) în registru.
+- [[L-989-2002]] — Legea nr. 989/2002 cu privire la activitatea de evaluare: certificatul evaluatorului, valoarea de piață; consolidare 2026-08-06 (versiunea 2027-01-01 e viitoare); 36 de ancore; coada de ingerare a grafului de citare (9 acte citatoare, cel mai des L-121-2007).
 - [[HG-610-2018]] — Regulamentul Guvernului (abrogă HG 34/2001): 14 capitole, în puncte, neancorat; pct. 133 deciziile protocolare, recunoscute constituționale de HCC3/2026; consolidare 2024-07-05.
 - [[HG-657-2009]] — Regulamentul Cancelariei de Stat, cu Cabinetul Prim-ministrului, Corpul de control și Oficiul priorităților (anexele 1, 2, 2^1-2^3, 3, 4); consolidare 2026-03-21.
 - [[HG-386-2020]] — Regulamentul cu privire la planificarea strategică (redenumit; adoptat ca «planificarea, elaborarea, aprobarea… documentelor de politici publice»); 7 capitole; consolidare 2024-11-04.
@@ -192,6 +196,7 @@
 - [[L-179-2016]] — cu privire la întreprinderile mici şi mijlocii: 23 ancore, consolidare 2026-01-01.
 - [[L-209-2016]] — privind deşeurile: 91 ancore, consolidare 2026-04-25.
 - [[L-254-2016]] — cu privire la infrastructura naţională de date spaţiale: 23 ancore, consolidare 2026-01-01.
+- [[L-287-2017]] — Legea contabilității și raportării financiare nr. 287/2017: transpune parțial Directiva 2013/34/UE; titlul din fișa legis.md e trunchiat; consolidare 2025-01-01 (versiunea 2027-01-01 e viitoare, cu art. 35 abrogat explicit acolo); 36 de ancore; coada de ingerare a grafului de citare (12 acte citatoare).
 - [[L-291-2016]] — cu privire la organizarea și desfășurarea jocurilor de noroc: 57 ancore, consolidare 2026-01-01.
 - [[L-102-2017]] — cu privire la dispozitivele medicale: 26 ancore, consolidare 2026-08-14.
 - [[L-296-2017]] — privind cerințele generale de igienă a produselor alimentare: 24 ancore, consolidare 2024-02-22.
@@ -200,6 +205,7 @@
 - [[L-306-2018]] — privind siguranța alimentelor: 38 ancore, consolidare 2025-12-31.
 - [[L-227-2022]] — privind emisiile industriale: 60 ancore, consolidare 2025-12-31.
 - [[L-43-2023]] — privind gazele fluorurate cu efect de seră: 38 ancore, consolidare 2025-12-30.
+- [[L-48-2023]] — Legea nr. 48/2023 privind securitatea cibernetică: transpune parțial Directiva (UE) 2022/2555 (NIS 2), consolidare 2025-12-31, 23 de ancore fără lacune; coada de ingerare a grafului de citare (13 acte citatoare).
 - [[L-394-2023]] — privind produsele alimentare și furajele modificate genetic: 29 ancore, consolidare 2024-07-15.
 - [[L-403-2023]] — privind introducerea pe piață a produselor fitosanitare și pentru modificarea un: 59 ancore, consolidare 2026-05-09.
 - [[L-422-2023]] — privind măsurile de protecție împotriva organismelor dăunătoare plantelor: 107 ancore, consolidare 2024-09-14.

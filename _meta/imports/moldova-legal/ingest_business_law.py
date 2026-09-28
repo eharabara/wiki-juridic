@@ -1169,6 +1169,57 @@ DOCS = {
         'title': 'Versiune viitoare, de la 2030-01-01, a actului L-142-2018'},
     'L-231-2010': {'doc_id': '154335',
                    'title': 'Legea nr. 231/2010 cu privire la comertul interior'},
+    # 2026-09-28, urmatoarele trei rinduri ale cozii de ingerare a grafului de citare (dupa
+    # numarul de acte detinute care le citeaza, coloana care conteaza, nu mentiunile brute):
+    # L-48-2023 (13 acte), L-287-2017 (12 acte), L-139-2010 (11 acte). Titlurile gasite prin
+    # Google, doc_id-urile prin cautare in titlu pe legis.md (getAjaxContent + DOMParser, ca la
+    # lotul de ieri). Curl tot blocat de Cloudflare; HTML luat prin Chrome-ul lui Eugen. Browserul
+    # intern al sesiunii a ramas blocat la verificare chiar si dupa asteptari repetate, ca pe
+    # 16 septembrie; tab-urile Chrome au nevoie de reincercare pe tab nou cind se blocheaza (tab-ul
+    # de cautare initial a inghetat, tab nou a mers dupa opt secunde de asteptare).
+    #
+    # L-287-2017 repeta CAPCANA DE VERSIUNE de ieri: randul de cautare trimite la 154725@2027-01-01
+    # (viitoare), textul de azi e 140124@2025-01-01, imediat sub ea in lista. Titlul din fisa e
+    # trunchiat, "contabilitatii si raportarii financiare", ca la L-1543-1998 si L-149-2012.
+    #
+    # L-139-2010 e o CAPCANA NOUA, mai importanta decat cele de pina acum: randul de cautare
+    # poarta chiar in tabelul de rezultate marcajul "Abrogat", nu "Modificat". Verificat pe pagina
+    # actului: "Abrogata prin LP230 din 28.07.22, MO278-282/09.09.22 art.578; in vigoare 09.10.22".
+    # Succesorul, Legea 230/2022 privind dreptul de autor si drepturile conexe, ESTE DEJA IN VAULT
+    # (`L-230-2022`, ingerata 2026-09-25/26 din alt lot, 123 ancore). Deci graful de citare aici nu
+    # gresete ca la L-133-2011 (unde succesorul lipsea): raspunsul viu la cele 11 trimiteri exista
+    # deja. Se ingereaza totusi L-139-2010, ca L-133-2011/COD-3-2009/HG-1171-2018: textul guverneaza
+    # faptele dinainte de 09.10.2022, iar cele 11 acte care il citeaza pot viza fapte de atunci.
+    # Consolidarea 133300@09.10.2022 este chiar cea de la data abrogarii (ultima stare a textului
+    # inainte de inlocuire), la fel cum s-a ales pentru L-133-2011. `repeal_of()` prinde marcajul
+    # automat si scrie avertismentul in fisier; nu s-a scris nimic manual pentru asta.
+    #
+    # Verificat pe HTML inainte de rulare, toate patru: fara CUPRINS, fara "Just a moment", fara
+    # span ridicat prin CSS. <sup>: 0 (48/2023), 2 (287/2017, ambele consolidari), 5 (139/2010).
+    'L-48-2023': {'doc_id': '152655',
+                  'title': 'Legea nr. 48/2023 privind securitatea cibernetica'},
+    'L-287-2017': {'doc_id': '140124',
+                   'title': 'Legea contabilitatii si raportarii financiare nr. 287/2017'},
+    'L-287-2017--2027-01-01': {'doc_id': '154725', 'subdir': 'viitor', 'future_of': 'L-287-2017',
+        'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-287-2017'},
+    'L-139-2010': {'doc_id': '133300',
+                   'title': 'Legea nr. 139/2010 privind dreptul de autor si drepturile conexe '
+                            '(ABROGATA de la 09.10.2022 prin L-230-2022)'},
+    'L-989-2002': {'doc_id': '155740',
+                   'title': 'Legea nr. 989/2002 cu privire la activitatea de evaluare'},
+    'L-989-2002--2027-01-01': {'doc_id': '150253', 'subdir': 'viitor', 'future_of': 'L-989-2002',
+        'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-989-2002'},
+    'L-139-2012': {'doc_id': '152604',
+                   'title': 'Legea nr. 139/2012 cu privire la ajutorul de stat'},
+    'L-139-2012--2027-03-17': {'doc_id': '156439', 'subdir': 'viitor', 'future_of': 'L-139-2012',
+        'applies_from': '2027-03-17',
+        'title': 'Versiune viitoare (abrogare programata prin LP182/2026), de la 2027-03-17, '
+                 'a actului L-139-2012'},
+    'L-172-2014': {'doc_id': '154286',
+                   'title': 'Legea nr. 172/2014 privind aprobarea Nomenclaturii combinate a '
+                            'marfurilor (fara anexa Nomenclaturii, tinuta separat pe legis.md)'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

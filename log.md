@@ -2549,3 +2549,37 @@
   citire). Nu s-a comis (commit) — cerut doar ingerarea.
 - **Unde:** `raw/papers/moldova-legal/{L-235-2011,L-142-2018,L-231-2010}.md`, `raw/papers/moldova-legal/viitor/{L-235-2011--2027-01-01,L-142-2018--2030-01-01}.md`, `entities/{L-235-2011,L-142-2018,L-231-2010}.md`,
   `_meta/imports/moldova-legal/ingest_business_law.py` (+5 intrări `DOCS`), `_meta/imports/moldova-legal/legis-md-business/showdetails-{151201,154794,142805,155459,154335}.html`, `index.md`.
+
+## [2026-09-28] update | Al doilea val al cozii de ingerare — L-48-2023, L-287-2017, L-139-2010, la cererea lui Eugen ("continua")
+
+- **Aflat:** următoarele trei rînduri ale cozii, după numărul de acte deținute citatoare (13, 12, 11): Legea securității cibernetice (48/2023, transpune parțial Directiva (UE) 2022/2555 NIS 2), legea contabilității și raportării
+  financiare (287/2017, transpune parțial Directiva 2013/34/UE, titlu trunchiat pe fișă ca la L-1543-1998/L-149-2012) și legea dreptului de autor din 2010 (139/2010). **Ultima e o capcană nouă, mai importantă decît cele de listă/titlu
+  de ieri: rîndul de căutare poartă chiar marcajul „Abrogat”**, nu „Modificat" — actul e abrogat din 09.10.2022 prin LP230/2022. Spre deosebire de precedentul L-133-2011 (unde succesorul lipsea din bază la data ingerării, silind o
+  decizie de a-l aduce pe amîndouă deodată), aici **succesorul e deja deținut**: `L-230-2022`, ingerat 25-26 septembrie, 123 de ancore. L-287-2017 repetă capcana de versiune din 27.09 (rîndul de căutare trimite la 154725@2027-01-01,
+  viitoare; textul de azi e 140124@2025-01-01) și expune o instanță suplimentară a mecanismului „marcaj pierdut la refresh": art. 35 lipsește fără urmă din consolidarea reținută, dar apare explicit `## Articolul 35. - abrogat.` în
+  versiunea viitoare 2027-01-01 — dovadă directă că marcajul a existat și a fost pierdut, nu doar o ipoteză. Browserul intern al sesiunii a rămas blocat la verificarea Cloudflare (ca pe 16 septembrie); Chrome-ul lui Eugen a mers, cu un
+  tab blocat o dată și recuperat pe tab nou după opt secunde de așteptare — tiparul „reîncearcă pe tab nou" din memorie confirmat din nou.
+- **Decis:** toate patru fișiere (L-48-2023, L-287-2017 curent + viitor, L-139-2010) ingerate cu `ingest_business_law.py`; `repeal_of()` a prins automat marcajul de abrogare al L-139-2010 fără nicio scriere manuală (frontmatter
+  `repealed: true`, avertisment în corp). `verify_business_law.py`: 0 eșecuri, integritate PASS la toate patru. Trei pagini de entitate noi, confidence `medium`; L-139-2010 poartă avertismentul de act abrogat și trimite la succesorul
+  `L-230-2022`, a cărui pagină a fost și ea actualizată (linkul către L-139-2010, pînă acum doar în ghilimele, e acum wikilink real). Index actualizat, 282 de pagini; o eroare de sursă (`page.source-missing`, calea greșită
+  `moldova-legal/L-171-2012.md` în loc de `cnpf/L-171-2012.md`) și două pagini orfane prinse și reparate la primul pas al validatorului, ca ieri. Registrele regenerate; validator 0 erori, aceleași două avertismente preexistente.
+  **Neexecutat:** textul integral al celor trei acte dincolo de art. 1; pentru L-139-2010, verificarea dacă fiecare din cele 11 trimiteri e faptică (dinainte de 09.10.2022) sau o citare neactualizată care ar trebui să indice
+  L-230-2022; restul cozii de ingerare (acum condusă de L-139-2012, 8 acte citatoare, coada n-a fost recalculată explicit dar L-172-2014/L-989-2002 rămîn aproape de vîrf). Nu s-a comis — se cere separat.
+- **Unde:** `raw/papers/moldova-legal/{L-48-2023,L-287-2017,L-139-2010}.md`, `raw/papers/moldova-legal/viitor/L-287-2017--2027-01-01.md`, `entities/{L-48-2023,L-287-2017,L-139-2010}.md`, `entities/L-230-2022.md` (link actualizat),
+  `_meta/imports/moldova-legal/ingest_business_law.py` (+4 intrări `DOCS`), `_meta/imports/moldova-legal/legis-md-business/showdetails-{152655,140124,154725,133300}.html`, `index.md`.
+
+## [2026-09-28] update | Al treilea val al cozii de ingerare — L-989-2002, L-139-2012, L-172-2014, la cererea lui Eugen ("continua")
+
+- **Aflat:** coada recalculată după ingerările de ieri: L-172-2014 și L-989-2002 la 9 acte citatoare fiecare, L-139-2012 la 8. Sesiunea a fost blocată la început de o verificare Cloudflare **complet interactivă** (o căsuță „Verify you are human", nu doar ecranul
+  „Just a moment" din zilele trecute) — nu s-a bifat automat, Eugen a bifat-o manual în propriul Chrome, apoi totul a mers normal. **L-139-2012 e o a doua capcană de abrogare, diferită de cea de ieri (L-139-2010):** rândul de căutare poartă marcajul „Abrogat”, dar
+  data efectivă e **17.03.2027 — viitoare**, deci actul e încă în vigoare azi și abrogarea e doar programată (prin LP182/2026, neingerat, negăsit încă pe legis.md). Consolidarea 156439 din rândul de căutare e chiar cea care poartă marcajul-viitor; textul de azi e
+  152604, imediat sub ea. **L-172-2014 (Nomenclatura combinată a mărfurilor) a fost verificată pe dimensiune înainte de ingerare** din suspiciunea că ar fi un tabel tarifar uriaș — s-a dovedit invers: legea de aprobare are doar 30KB, Art. I-IX cu numerotare romană
+  (ca L-177-2025/CONST-1994), iar Nomenclatura însăși (tabelul cu mii de poziții) e o anexă separată pe legis.md, cu istoric propriu, neingerată. Extractorul standard „## Articolul N." nu prinde forma „Art. I. –", deci actul a ieșit cu **0 ancore** —
+  verificat cu `verify_business_law.py` (integritate PASS, doar 0 articole), nu o eroare: același regim ca HG-1170-2016/HG-1171-2018/HG-574-2024/DCA-61-2024. Nicio trimitere la „art. I" sau „art. III" din alte acte nu e ancorabilă din acest fișier.
+- **Decis:** cinci fișiere (L-989-2002 curent+viitor, L-139-2012 curent+viitor, L-172-2014) ingerate cu `ingest_business_law.py`. `verify_business_law.py`: 0 eșecuri, integritate PASS la toate cinci (inclusiv L-172-2014, la 0 ancore). Trei pagini de entitate noi,
+  confidence `medium`; L-139-2012 poartă avertismentul de abrogare programată neefectivă (distinct de avertismentul „ABROGAT" simplu folosit la actele deja căzute); L-172-2014 explică explicit, în corp, capcana zero-ancore și trimite la [[COD-95-2021]], care
+  citește chiar el actul ca a doua sursă a legislației vamale. Trei pagini orfane prinse și reparate la primul pas al validatorului (cros-link între cele trei ale valului, ca la valurile anterioare). Index actualizat, 285 de pagini. Registrele regenerate;
+  validator 0 erori, aceleași două avertismente preexistente. Flagul mecanic din CLAUDE.md distinge corect, fără cod scris manual, „abrogare cu efect de la 2027-03-17" (L-139-2012) de „ABROGAT" simplu (L-139-2010 și restul) — scriptul de acoperire deja știa
+  diferența. **Neexecutat:** textul integral al celor trei acte dincolo de art. 1/antet; căutarea Legii 182/2026 (succesorul lui L-139-2012); restul cozii de ingerare, coborâtă acum la acte cu 7 și mai puține acte citatoare. Nu s-a comis — se cere separat.
+- **Unde:** `raw/papers/moldova-legal/{L-989-2002,L-139-2012,L-172-2014}.md`, `raw/papers/moldova-legal/viitor/{L-989-2002--2027-01-01,L-139-2012--2027-03-17}.md`, `entities/{L-989-2002,L-139-2012,L-172-2014}.md`,
+  `_meta/imports/moldova-legal/ingest_business_law.py` (+5 intrări `DOCS`), `_meta/imports/moldova-legal/legis-md-business/showdetails-{155740,150253,152604,156439,154286}.html`, `index.md`.
