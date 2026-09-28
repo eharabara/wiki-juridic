@@ -198,9 +198,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-09-28 11:37 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-09-28 12:38 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-237 primary Moldovan acts, 52 EU acquis extracts, 1 Association Agreement extract(s), 294 BNM corpus documents.
+246 primary Moldovan acts, 52 EU acquis extracts, 1 Association Agreement extract(s), 294 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -271,6 +271,7 @@ Generated 2026-09-28 11:37 from the files themselves. Do not edit this section b
 | `L-105-2018` | 74 | 74 | 2026-03-18 | 9 superscript articles normalised |
 | `L-106-2022` | 45 | 45 | 2025-10-25 | clean |
 | `L-108-2016` | 144 | 144 | 2026-08-25 | 30 superscript articles normalised |
+| `L-11-2017` | 29 | 29 | 2026-04-25 | 9 superscript articles normalised |
 | `L-1100-2000` | 49 | 49 | 2025-12-30 | 13 superscript articles normalised |
 | `L-1125-2002` | 50 | 50 | 2026-04-01 | clean |
 | `L-1134-1997` | 108 | 108 | 2026-06-11 | 5 superscript articles normalised |
@@ -296,6 +297,7 @@ Generated 2026-09-28 11:37 from the files themselves. Do not edit this section b
 | `L-133-2018` | 17 | 17 | 2019-03-01 | 17 articles numbered in Roman figures; **more than 2 years old** |
 | `L-135-2007` | 93 | 93 | 2026-03-27 | 10 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-136-2017` | 48 | 48 | 2024-06-06 | **more than 2 years old**; 1 superscript article normalised; 1 provision(s) declared unconstitutional (HCC register) |
+| `L-137-2015` | 42 | 42 | 2026-09-12 | **ABROGAT de la 2026-09-12** |
 | `L-139-2007` | 59 | 59 | 2026-01-01 | 1 superscript article normalised |
 | `L-139-2010` | 72 | 72 | 2022-10-09 | **ABROGAT de la 2022-10-09**; **more than 2 years old**; 1 superscript article normalised |
 | `L-139-2012` | 25 | 25 | 2025-12-31 | **abrogare cu efect de la 2027-03-17**; 2 superscript articles normalised |
@@ -327,6 +329,8 @@ Generated 2026-09-28 11:37 from the files themselves. Do not edit this section b
 | `L-181-2023` | 50 | 50 | 2026-06-26 | 1 superscript article normalised |
 | `L-183-2012` | 110 | 110 | 2025-12-31 | 15 superscript articles normalised |
 | `L-183-2016` | 17 | 17 | 2023-10-21 | **more than 2 years old** |
+| `L-184-2016` | 19 | 19 | 2026-08-31 | clean |
+| `L-187-2022` | 105 | 105 | 2026-08-21 | clean |
 | `L-19-2016` | 26 | 26 | 2026-06-24 | clean |
 | `L-192-1998` | 34 | 34 | 2026-01-01 | 3 superscript articles normalised |
 | `L-195-2024` | 90 | 90 | 2026-08-23 | clean |
@@ -335,6 +339,7 @@ Generated 2026-09-28 11:37 from the files themselves. Do not edit this section b
 | `L-199-2010` | 29 | 29 | 2026-09-13 | 3 superscript articles normalised |
 | `L-2-2020` | 46 | 46 | 2025-10-25 | clean |
 | `L-20-2026` | 29 | 29 | 2026-04-01 | clean |
+| `L-202-2013` | 33 | 33 | 2026-01-01 | 1 superscript article normalised |
 | `L-202-2017` | 155 | 155 | 2025-10-25 | 6 superscript articles normalised |
 | `L-209-2016` | 91 | 91 | 2026-04-25 | 23 superscript articles normalised |
 | `L-212-2004` | 56 | 56 | 2025-09-01 | clean |
@@ -368,12 +373,14 @@ Generated 2026-09-28 11:37 from the files themselves. Do not edit this section b
 | `L-272-2011` | 84 | 84 | 2026-04-25 | 22 superscript articles normalised |
 | `L-273-1994` | 12 | 12 | 2026-05-27 | 3 superscript articles normalised |
 | `L-274-2011` | 35 | 35 | 2026-03-18 | clean |
+| `L-277-2018` | 47 | 47 | 2026-04-25 | clean |
 | `L-278-2007` | 44 | 44 | 2025-05-29 | clean |
 | `L-28-2024` | 63 | 63 | 2026-01-01 | clean |
 | `L-282-2004` | 22 | 22 | 2025-12-30 | 1 superscript article normalised |
 | `L-283-2003` | 46 | 46 | 2025-12-30 | 11 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-284-2004` | 29 | 29 | 2026-02-14 | 1 superscript article normalised |
 | `L-287-2017` | 36 | 36 | 2025-01-01 | clean |
+| `L-29-2018` | 24 | 24 | 2025-08-31 | 1 superscript article normalised |
 | `L-291-2016` | 57 | 57 | 2026-01-01 | 2 superscript articles normalised |
 | `L-296-2017` | 24 | 24 | 2024-02-22 | **more than 2 years old** |
 | `L-303-2013` | 46 | 46 | 2025-12-30 | 7 superscript articles normalised; 2 provision(s) declared unconstitutional (HCC register) |
@@ -388,7 +395,9 @@ Generated 2026-09-28 11:37 from the files themselves. Do not edit this section b
 | `L-394-2023` | 29 | 29 | 2024-07-15 | **more than 2 years old** |
 | `L-397-2003` | 37 | 37 | 2025-12-31 | clean |
 | `L-403-2023` | 59 | 59 | 2026-05-09 | clean |
+| `L-407-2006` | 67 | 67 | 2023-07-01 | **ABROGAT de la 2023-07-01**; **more than 2 years old**; 16 superscript articles normalised |
 | `L-411-1995` | 72 | 72 | 2026-08-28 | 8 superscript articles normalised |
+| `L-419-2006` | 52 | 52 | 2023-10-21 | **more than 2 years old**; 1 superscript article normalised |
 | `L-422-2023` | 107 | 107 | 2024-09-14 | **more than 2 years old** |
 | `L-43-2023` | 38 | 38 | 2025-12-30 | clean |
 | `L-435-2006` | 17 | 17 | 2024-05-02 | **more than 2 years old**; 1 superscript article normalised |
@@ -444,10 +453,10 @@ Generated 2026-09-28 11:37 from the files themselves. Do not edit this section b
 
 ### Mechanical flags
 
-- **Repealed acts.** no longer in force: `L-139-2010` (repealed 2022-10-09 by LP230 din 28.07.22), `COD-3-2009` (repealed 2026-05-30 by CS246 din 08.11.24), `L-133-2011` (repealed 2026-08-23 by LP195 din 25.07.24), `HG-1171-2018` (repealed 2026-09-22 by HG497 din 02.09.26); repeal already enacted but not yet effective: `L-139-2012` (from 2027-03-17). These files are kept because other acts in the corpus still cite them and because the text governs facts before the repeal date. They are anchored, their sha256 verifies and their consolidation is recent, so nothing else here would reveal that they stopped binding. Do not cite them as law in force; cite the successor and say from when it applies.
-- **Not yet in force.** 2 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-180-2026` (2027-03-17), `L-325-2025` (2027-01-01). 320 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
+- **Repealed acts.** no longer in force: `L-139-2010` (repealed 2022-10-09 by LP230 din 28.07.22), `L-407-2006` (repealed 2023-07-01), `COD-3-2009` (repealed 2026-05-30 by CS246 din 08.11.24), `L-133-2011` (repealed 2026-08-23 by LP195 din 25.07.24), `L-137-2015` (repealed 2026-09-12 by LP9 din 12.02.26), `HG-1171-2018` (repealed 2026-09-22 by HG497 din 02.09.26); repeal already enacted but not yet effective: `L-139-2012` (from 2027-03-17). These files are kept because other acts in the corpus still cite them and because the text governs facts before the repeal date. They are anchored, their sha256 verifies and their consolidation is recent, so nothing else here would reveal that they stopped binding. Do not cite them as law in force; cite the successor and say from when it applies.
+- **Not yet in force.** 2 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-180-2026` (2027-03-17), `L-325-2025` (2027-01-01). 322 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
 - **Declared unconstitutional.** 37 act(s) carry at least one Constitutional Court decision in their history block, 100 decisions in total: 39 still marked at article level in the text itself, 127 more recovered by reading the legis.md version history (`_meta/hcc/recovered-provisions.json`), and 0 not yet attributed to any article. A struck provision looks like ordinary law: the article exists, the anchor is valid, the sha256 matches. Check `_meta/hcc/hcc-register.md` before citing an article from `COD-116-2018`, `COD-1163-1997`, `COD-122-2003`, `COD-1316-2000`, `COD-154-2003`, `COD-174-2018`, `COD-218-2008`, `COD-225-2003`, `COD-325-2022`, `COD-443-2004`, `COD-985-2002`, `CONST-1994`, `L-100-2001`, `L-121-2007`, `L-1260-2002`, `L-132-2016`, `L-133-2016`, `L-135-2007`, `L-136-2017`, `L-149-2012`, `L-158-2008`, `L-181-2014`, `L-213-2023`, `L-230-2022`, `L-24-2008`, `L-270-2018`, `L-283-2003`, `L-303-2013`, `L-325-2013`, `L-382-2001`, `L-514-1995`, `L-52-2014`, `L-548-1995`, `L-64-2010`, `L-797-1996`, `L-845-1992`, `L-93-1998` and say which decision struck it and what today's text actually holds.
-- **Stale consolidations.** `OCNPDCP-03-1-2013` (2013-02-28), `OCNPDCP-POLITIE-2013` (2013-05-01), `DCNPDCP-PARTIDE-2014` (2014-12-17), `OCNPDCP-03-2015` (2015-01-01), `L-23-2008` (2016-09-30), `L-66-2017` (2017-06-02), `L-25-2008` (2018-01-12), `L-250-2017` (2018-03-29), `CETS-223-2018` (2018-10-10), `L-24-2008` (2018-11-08), `HBN-130-2013` (2018-12-23), `L-133-2018` (2019-03-01), `HBN-127-2013` (2021-05-09), `HCNPF-14-5-2016` (2022-05-06), `UA-STATUT-2011` (2022-05-27), `L-139-2010` (2022-10-09), `DCNPDCP-08-2023` (2023-03-01), `DCNPDCP-581-2015` (2023-03-01), `L-797-1996` (2023-03-24), `L-246-2017` (2023-06-02), `HG-967-2016` (2023-08-08), `L-160-2023` (2023-10-01), `L-183-2016` (2023-10-21), `L-165-2023` (2023-10-26), `L-71-2007` (2023-12-22), `L-148-2023` (2024-01-08), `L-64-2010` (2024-01-23), `L-296-2017` (2024-02-22), `L-325-2013` (2024-03-29), `L-435-2006` (2024-05-02), `DCA-61-2024` (2024-05-05), `L-523-1999` (2024-05-16), `L-136-2017` (2024-06-06), `L-595-1999` (2024-06-06), `HG-610-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `L-394-2023` (2024-07-15), `L-229-2010` (2024-08-02), `HG-574-2024` (2024-08-23), `L-422-2023` (2024-09-14). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
+- **Stale consolidations.** `OCNPDCP-03-1-2013` (2013-02-28), `OCNPDCP-POLITIE-2013` (2013-05-01), `DCNPDCP-PARTIDE-2014` (2014-12-17), `OCNPDCP-03-2015` (2015-01-01), `L-23-2008` (2016-09-30), `L-66-2017` (2017-06-02), `L-25-2008` (2018-01-12), `L-250-2017` (2018-03-29), `CETS-223-2018` (2018-10-10), `L-24-2008` (2018-11-08), `HBN-130-2013` (2018-12-23), `L-133-2018` (2019-03-01), `HBN-127-2013` (2021-05-09), `HCNPF-14-5-2016` (2022-05-06), `UA-STATUT-2011` (2022-05-27), `L-139-2010` (2022-10-09), `DCNPDCP-08-2023` (2023-03-01), `DCNPDCP-581-2015` (2023-03-01), `L-797-1996` (2023-03-24), `L-246-2017` (2023-06-02), `L-407-2006` (2023-07-01), `HG-967-2016` (2023-08-08), `L-160-2023` (2023-10-01), `L-183-2016` (2023-10-21), `L-419-2006` (2023-10-21), `L-165-2023` (2023-10-26), `L-71-2007` (2023-12-22), `L-148-2023` (2024-01-08), `L-64-2010` (2024-01-23), `L-296-2017` (2024-02-22), `L-325-2013` (2024-03-29), `L-435-2006` (2024-05-02), `DCA-61-2024` (2024-05-05), `L-523-1999` (2024-05-16), `L-136-2017` (2024-06-06), `L-595-1999` (2024-06-06), `HG-610-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `L-394-2023` (2024-07-15), `L-229-2010` (2024-08-02), `HG-574-2024` (2024-08-23), `L-422-2023` (2024-09-14). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
 - **BNM English corpus.** 60 file(s) carry 149 line-initial `Article N` markers and no anchors. Any answer resting on the English BNM translations is not anchored.
 
 <!-- COVERAGE:END -->

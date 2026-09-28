@@ -1220,6 +1220,93 @@ DOCS = {
     'L-172-2014': {'doc_id': '154286',
                    'title': 'Legea nr. 172/2014 privind aprobarea Nomenclaturii combinate a '
                             'marfurilor (fara anexa Nomenclaturii, tinuta separat pe legis.md)'},
+    # 2026-09-28, al patrulea val al cozii de ingerare a grafului de citare: L-11-2017 (8 acte
+    # citatoare), L-137-2015 (8 acte) si L-277-2018 (8 acte), toate trei egale, alese dupa numarul
+    # de mentiuni ca departajare (17, 14, 14). Gasite prin Google, doc_id-uri prin cautare in titlu
+    # pe legis.md, fara capcane de Cloudflare interactiv de data asta.
+    #
+    # L-137-2015 e A DOUA capcana de abrogare deja cunoscuta dinainte de ingerare: manifestul o
+    # documenteaza la ingerarea L-9-2026 (2026-09-16) - "Legea nr. 137/2015 cu privire la mediere
+    # ... NU mai este legea in vigoare", abrogata de LP9/2026 la data intrarii lui in vigoare.
+    # Verificat aici din nou, nu doar presupus din nota veche: "Abrogata prin LP9 din 12.02.26,
+    # ... in vigoare 12.09.26" - trecuta fata de azi (2026-09-28), deci abrogarea e deja efectiva,
+    # spre deosebire de L-139-2012 de ieri. Succesorul L-9-2026 e deja detinut. Se ingereaza totusi
+    # L-137-2015, ca L-139-2010/L-133-2011: 8 acte inca trimit la ea, textul guverneaza faptele
+    # dinainte de 12.09.2026 (doar de doua saptamini in urma).
+    #
+    # L-11-2017 (evaluarea strategica de mediu, transpune Directiva 2001/42/CE) si L-277-2018
+    # (substantele chimice) sint acte curente, fara capcane de versiune sau de abrogare - rindul
+    # de cautare trimite direct la consolidarea trecuta cea mai noua la amindoua.
+    #
+    # Verificat pe HTML inainte de rulare, toate trei: fara CUPRINS, fara "Just a moment", fara
+    # span ridicat prin CSS. <sup>: 35 (11/2017), 4 (137/2015), 4 (277/2018).
+    'L-11-2017': {'doc_id': '154127',
+                  'title': 'Legea nr. 11/2017 privind evaluarea strategica de mediu'},
+    'L-137-2015': {'doc_id': '153426',
+                   'title': 'Legea nr. 137/2015 cu privire la mediere '
+                            '(ABROGATA de la 12.09.2026 prin L-9-2026)'},
+    'L-277-2018': {'doc_id': '154128',
+                   'title': 'Legea nr. 277/2018 privind substantele chimice'},
+    # 2026-09-28, al cincilea val al cozii de ingerare a grafului de citare: L-419-2006 (8 acte
+    # citatoare), L-184-2016 (7 acte) si L-187-2022 (7 acte), alese dupa mentiuni intre cele patru
+    # egale la 7 (16, 14, 14, 9). Gasite prin Google, doc_id-uri prin cautare in titlu pe legis.md.
+    #
+    # L-419-2006 (datoria sectorului public, garantiile de stat si recreditarea de stat) nu are
+    # nicio consolidare mai noua de 21.10.2023 - peste doi ani, deci va intra in flagul "stale
+    # consolidations" al coverage, nu o capcana, doar o consolidare veche fara amendamente recente.
+    #
+    # L-184-2016 (contractele de garantie financiara) e relevanta direct pentru perimetrul CNPF/BNM
+    # deja detinut - transpune acquis-ul Acordului de Asociere, cap. 9 "Servicii financiare" (gasit
+    # in rezultatele Google). Fara capcane de versiune sau de titlu.
+    #
+    # L-187-2022 (condominiu) e A SASEA CAPCANA DE LISTA, de alt fel decit cele de pina acum:
+    # randul de cautare trimite la 155742@2026-08-06, dar lista de versiuni are 154485@2026-08-21
+    # DEASUPRA ei (data mai noua, ambele trecute fata de azi) - nu o consolidare viitoare, ci pur
+    # si simplu randul de cautare nu e cea mai noua dintre versiunile TRECUTE. Se ia 154485.
+    #
+    # Verificat pe HTML inainte de rulare, toate trei: fara CUPRINS, fara "Just a moment", fara
+    # span ridicat prin CSS. <sup>: 4 (419/2006), 0 (184/2016), 12 (187/2022).
+    'L-419-2006': {'doc_id': '139640',
+                   'title': 'Legea nr. 419/2006 cu privire la datoria sectorului public, '
+                            'garantiile de stat si recreditarea de stat'},
+    'L-184-2016': {'doc_id': '155573',
+                   'title': 'Legea nr. 184/2016 cu privire la contractele de garantie '
+                            'financiara'},
+    'L-187-2022': {'doc_id': '154485',
+                   'title': 'Legea nr. 187/2022 cu privire la condominiu'},
+    # 2026-09-28, al saselea val al cozii de ingerare a grafului de citare: L-407-2006 (7 acte
+    # citatoare), L-29-2018 (7 acte) si L-202-2013 (7 acte), departajate dupa mentiuni (14, 13, 11).
+    # Ultimele doua sint direct relevante perimetrului CNPF/BNM deja detinut: L-202-2013 (creditul
+    # de consum, transpune Directiva 2008/48/CE) e citata explicit de CNPF si BNM in surse gasite
+    # prin Google.
+    #
+    # L-407-2006 (legea veche a asigurarilor) e A TREIA capcana de abrogare cu succesor deja
+    # detinut, dar cu un twist nou: randul de cautare poarta "Abrogat", confirmat pe pagina -
+    # "Abrogata prin LP92 din 07.04.22, ... in vigoare 01.01.23", succesorul fiind L-92-2022
+    # (deja in vault, perimetrul cnpf/). DAR lista de versiuni are o consolidare CHIAR MAI NOUA
+    # decit cea a abrogarii, 123206@2023-07-01, care poarta nu marcajul de abrogare ci
+    # "MODIFICAT LP178 din 11.09.20 ... in vigoare 01.07.23" - adica cel putin o dispozitie a
+    # actului "abrogat" a continuat sa fie amendata si sa intre in vigoare DUPA data generala a
+    # abrogarii. Acelasi tipar ca legea gutuita L-550-1995 (doar cateva articole in vigoare), gasit
+    # aici pentru prima data la un act altfel complet abrogat. Se ia 123206, nu 133979 (starea de
+    # la data abrogarii), tocmai pentru ca 123206 e starea REALA mai completa/mai tirzie a textului.
+    # doc_id-ul din randul de cautare, 133979, NU e folosit.
+    #
+    # Verificat pe HTML inainte de rulare, toate patru: fara CUPRINS, fara "Just a moment", fara
+    # span ridicat prin CSS. <sup>: 86 (407/2006, cel mai mare din tot corpusul ingerat pina acum),
+    # 12 (29/2018 curent), 10 (29/2018 viitor), 4 (202/2013).
+    'L-407-2006': {'doc_id': '123206',
+                   'title': 'Legea nr. 407/2006 cu privire la asigurari '
+                            '(ABROGATA de la 01.01.2023 prin L-92-2022, cu dispozitii reziduale '
+                            'in vigoare pina la 01.07.2023)'},
+    'L-29-2018': {'doc_id': '150232',
+                  'title': 'Legea nr. 29/2018 privind delimitarea proprietatii publice'},
+    'L-29-2018--2027-01-01': {'doc_id': '152997', 'subdir': 'viitor', 'future_of': 'L-29-2018',
+        'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-29-2018'},
+    'L-202-2013': {'doc_id': '151074',
+                   'title': 'Legea nr. 202/2013 privind contractele de credit pentru '
+                            'consumatori'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-28 | Total pages: 285
+> Last updated: 2026-09-28 | Total pages: 294
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -58,6 +58,7 @@
 - [[L-133-2011]] — Legea nr. 133/2011 privind protecția datelor cu caracter personal: **ABROGATĂ de la 23.08.2026** prin art. 90 alin. (3) lit. b) din L-195/2024; păstrată fiindcă 19 acte din corpus încă trimit la ea și fiindcă guvernează faptele anterioare.
 - [[L-139-2010]] — Legea nr. 139/2010 privind dreptul de autor și drepturile conexe: **ABROGATĂ de la 09.10.2022** prin LP230/2022 (succesorul, deja deținut, e [[L-230-2022]]); păstrată fiindcă 11 acte încă trimit la ea; coada de ingerare a grafului de citare.
 - [[L-133-2016]] — Legea nr. 133/2016 privind declararea averii și a intereselor personale: ANI exercită controlul (art. 22); art. 3 lit. e^1) numește expres personalul BNM și CNPF ca subiecți ai declarării; art. 23 alin. (5^1) lovit de HCC29/2021; 27 de ancore, consolidare viitoare 2027-01-01, 6 dispoziții amânate.
+- [[L-137-2015]] — Legea nr. 137/2015 cu privire la mediere: **ABROGATĂ de la 12.09.2026** prin L-9/2026 (succesorul, deja deținut); păstrată fiindcă 8 acte încă trimit la ea; coada de ingerare a grafului de citare.
 - [[L-133-2018]] — Legea nr. 133/2018 privind modernizarea Codului civil: actul care a rescris Codul civil de la 1 martie 2019; 17 articole proprii, numerotate roman, și 16 acte modificate. Sursa concordanței dintre numerotarea de dinainte de republicare (art. 330^4, 1575^N) și cea de azi — 1.176 din 1.400 de titluri se potrivesc exact în CC-1107-2002.
 - [[L-135-2007]] — Legea nr. 135/2007 privind societatile cu raspundere limitata: actul de baza pentru SRL, consolidare 2026-03-27, 83 de articole plus 10 cu exponent.
 - [[L-139-2007]] — Legea nr. 139/2007 privind asociațiile de economii și împrumut
@@ -78,12 +79,15 @@
 - [[L-181-2023]] — Legea nr. 181/2023 privind serviciile de finanțare participativă (crowdfunding)
 - [[L-183-2012]] — Legea concurenței nr. 183/2012: acorduri, abuz de poziție dominantă, concurență neloială, concentrări și procedura Consiliului Concurenței; competența lui pe publicitate se oprește la drepturile întreprinderilor.
 - [[L-183-2016]] — Legea nr. 183/2016 cu privire la caracterul definitiv al decontării în sistemele de plăți și de decontare a instrumentelor financiare: BNM desemnează sistemele (art. 13); transpune direct art. 1-10 din Directiva 98/26/CE (SFD), declarat expres la art. 16; 17 ancore, consolidare 2023-10-21.
+- [[L-184-2016]] — Legea nr. 184/2016 cu privire la contractele de garanție financiară: transpune Directiva 2002/47/CE; acquis-ul Acordului de Asociere, cap. 9 „Servicii financiare”; consolidare 2026-08-31, 19 ancore (lacună la art. 19, fără marcaj); coada de ingerare a grafului de citare (7 acte citatoare, cel mai des CC-1107-2002).
+- [[L-187-2022]] — Legea nr. 187/2022 cu privire la condominiu: 105 de ancore fără lacune, consolidare 2026-08-21; coada de ingerare a grafului de citare (7 acte citatoare, cel mai des L-92-2014).
 - [[L-192-1998]] — Legea nr. 192/1998 privind Comisia Națională a Pieței Financiare
 - [[L-195-2024]] — Legea nr. 195/2024 privind protecția datelor cu caracter personal: transpune Regulamentul (UE) 2016/679 (GDPR); în vigoare **23.08.2026**, a abrogat L-133/2011; amenzi 1%/2% eșalonate la 10% în primul an; CNPF și BNM nu sunt numite.
 - [[L-198-2007]] — Legea asistenței juridice garantate de stat: 54 de ancore, consolidare 2026-08-06; asistența primară și calificată, avocatul public, para-juristul.
 - [[L-198-2020]] — Legea nr. 198/2020 privind fondurile de pensii facultative
 - [[L-2-2020]] — Legea nr. 2/2020 privind organismele de plasament colectiv alternative
 - [[L-20-2026]] — Legea remediilor în achiziții: 29 de ancore, în vigoare din 01.04.2026; ANSC devine autoritate, termen de așteptare 11/16 zile (art. 20); anexa ei a abrogat art. 80–84 și 86–88 din Legea 131/2015.
+- [[L-202-2013]] — Legea nr. 202/2013 privind contractele de credit pentru consumatori: transpune Directiva 2008/48/CE; consolidare 2026-01-01, 33 de ancore fără lacune; relevanță directă CNPF/BNM; coada de ingerare a grafului de citare (7 acte citatoare, cel mai des COD-218-2008).
 - [[L-202-2017]] — Legea nr. 202/2017 privind activitatea băncilor: legea-cadru a perimetrului bancar, text românesc, 155 de ancore, consolidare 2025-10-25; art. 36 alin. (2) listează limitativ excepțiile de la Legea SA.
 - [[L-213-2023]] — Legea taxei de stat nr. 213/2023: taxa de stat și taxa de timbru pentru procedura civilă, cuantumuri (anexa nr. 1: apel 85%, recurs 70%, revizuire 55% din taxa de la prima instanță) și scutiri (anexa nr. 2, cu CNPF și BNM nominalizate); zece articole, în vigoare din 01.01.2024, arts. 84-89 din COD-225-2003 trimit aici pentru orice cuantum.
 - [[L-23-2008]] — Legea cu privire la arbitraj: arbitrajul intern, constituire, convenție de arbitraj, numirea/recuzarea arbitrilor, hotărârea arbitrală și executarea ei silită; 36 de ancore, în vigoare din 2008, consolidare 30.09.2016; art. 23^1 trimite la legea medierii (acum L-9-2026).
@@ -158,7 +162,9 @@
 - [[L-317-2025]] — Legea 317/2025 (continuarea lui L-227-2025): 20 de articole proprii romane, consolidare 2025-12-31, în vigoare 31.12.2025; art. XIX rescrie art. XLII alin. (1) și art. 12^9/anexa nr. 1 din L-160-2011; art. XVII amînă în proză, la 30.11.2027, articole din Legea 140/2025 (neînglobată în vault).
 - [[L-140-2025]] — Legea 140/2025 (migrarea autorităților administrative centrale): lege modificatoare cu 24 de articole proprii romane, modificată o dată de L-317-2025; art. VI, VIII, XII, XVI, XVII, XVIII (alin. (3) lit. c)) și XX-XXIII intră în vigoare la 30.11.2027, restul la 01.01.2026 (art. VII la 01.09.2025).
 - [[L-1456-1993]] — cu privire la activitatea farmaceutică: 46 ancore, consolidare 2026-09-13.
+- [[L-407-2006]] — Legea nr. 407/2006 cu privire la asigurări: **ABROGATĂ** prin L-92/2022 (succesorul, deja deținut) — antetul consolidării de la abrogarea generală dă 01.01.2023, fișa reținută aici dă 01.07.2023, discrepanță nerezolvată — cu dispoziții reziduale amendate ulterior, ca legea gutuită L-550/1995; păstrată fiindcă 7 acte încă trimit la ea; coada de ingerare a grafului de citare.
 - [[L-411-1995]] — ocrotirii sănătăţii: 72 ancore, consolidare 2026-08-28.
+- [[L-419-2006]] — Legea nr. 419/2006 cu privire la datoria sectorului public, garanțiile de stat și recreditarea de stat: consolidare 2023-10-21 (nemodificată de peste doi ani); 52 de ancore fără lacune; coada de ingerare a grafului de citare (8 acte citatoare, cel mai des DCU-REGULI-2026).
 - [[L-439-1995]] — regnului animal: 50 ancore, consolidare 2026-04-25.
 - [[L-93-1998]] — cu privire la patenta de întreprinzător: 19 ancore, consolidare 2026-03-18.
 - [[L-1585-1998]] — cu privire la asigurarea obligatorie de asistenţă medicală: 25 ancore, consolidare 2026-08-14.
@@ -167,6 +173,7 @@
 - [[L-382-2001]] — cu privire la drepturile persoanelor aparţinînd minorităţilor naţionale şi la st: 0 ancore, consolidare 2026-01-01.
 - [[L-461-2001]] — privind piaţa produselor petroliere: 30 ancore, consolidare 2026-06-26.
 - [[L-852-2002]] — pentru aprobarea Regulamentului cu privire la regimul comercial şi reglementarea: 0 ancore, consolidare 2025-12-30.
+- [[L-277-2018]] — Legea nr. 277/2018 privind substanțele chimice: transpune parțial REACH, CLP, biocide și alte regulamente UE; consolidare 2026-04-25, 47 de ancore fără lacune; coada de ingerare a grafului de citare (8 acte citatoare, cel mai des L-403-2023).
 - [[L-283-2003]] — privind activitatea particulară de detectiv şi de pază: 46 ancore, consolidare 2025-12-30.
 - [[L-119-2004]] — cu privire la produsele de uz fitosanitar: 29 ancore, consolidare 2025-12-30.
 - [[COD-259-2004]] — CODUL CU PRIVIRE LA ŞTIINŢĂ ŞI INOVARE AL REPUBLICII MOLDOVA: 119 ancore, consolidare 2026-01-01.
@@ -191,6 +198,7 @@
 - [[L-143-2014]] — privind regimul articolelor pirotehnice: 54 ancore, consolidare 2025-12-30.
 - [[COD-150-2014]] — TRANSPORTURILOR RUTIERE: 0 ancore, consolidare 2026-01-01.
 - [[L-10-2016]] — privind promovarea utilizării energiei din surse regenerabile: 63 ancore, consolidare 2025-12-30.
+- [[L-11-2017]] — Legea nr. 11/2017 privind evaluarea strategică de mediu: transpune Directiva 2001/42/CE; consolidare 2026-04-25, 29 de ancore; coada de ingerare a grafului de citare (8 acte citatoare, cel mai des COD-434-2023).
 - [[L-19-2016]] — metrologiei: 26 ancore, consolidare 2026-06-24.
 - [[L-108-2016]] — cu privire la gazele naturale: 144 ancore, consolidare 2026-08-25.
 - [[L-179-2016]] — cu privire la întreprinderile mici şi mijlocii: 23 ancore, consolidare 2026-01-01.
@@ -210,6 +218,7 @@
 - [[L-403-2023]] — privind introducerea pe piață a produselor fitosanitare și pentru modificarea un: 59 ancore, consolidare 2026-05-09.
 - [[L-422-2023]] — privind măsurile de protecție împotriva organismelor dăunătoare plantelor: 107 ancore, consolidare 2024-09-14.
 - [[L-28-2024]] — cu privire la frontiera de stat a Republicii Moldova: 63 ancore, consolidare 2026-01-01.
+- [[L-29-2018]] — Legea nr. 29/2018 privind delimitarea proprietății publice: consolidare 2025-08-31 (versiunea 2027-01-01 e viitoare); 24 de ancore fără lacune; coada de ingerare a grafului de citare (7 acte citatoare, cel mai des L-121-2007).
 - [[L-67-2024]] — privind regimul explozivilor de uz civil: 35 ancore, consolidare 2026-04-02.
 - [[L-82-2024]] — privind controalele oficiale în domeniul agroalimentar: 98 ancore, consolidare 2026-05-08.
 - [[COD-246-2024]] — CODUL SUBSOLULUI: 98 ancore, consolidare 2026-05-29.

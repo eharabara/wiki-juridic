@@ -2583,3 +2583,52 @@
   diferența. **Neexecutat:** textul integral al celor trei acte dincolo de art. 1/antet; căutarea Legii 182/2026 (succesorul lui L-139-2012); restul cozii de ingerare, coborâtă acum la acte cu 7 și mai puține acte citatoare. Nu s-a comis — se cere separat.
 - **Unde:** `raw/papers/moldova-legal/{L-989-2002,L-139-2012,L-172-2014}.md`, `raw/papers/moldova-legal/viitor/{L-989-2002--2027-01-01,L-139-2012--2027-03-17}.md`, `entities/{L-989-2002,L-139-2012,L-172-2014}.md`,
   `_meta/imports/moldova-legal/ingest_business_law.py` (+5 intrări `DOCS`), `_meta/imports/moldova-legal/legis-md-business/showdetails-{155740,150253,152604,156439,154286}.html`, `index.md`.
+
+## [2026-09-28] update | Al patrulea val al cozii de ingerare — L-11-2017, L-137-2015, L-277-2018, la cererea lui Eugen ("continua cu al parulea val")
+
+- **Aflat:** coada, la 8 acte citatoare fiecare pentru toate trei (departajate după mențiuni: 17, 14, 14): Legea evaluării strategice de mediu (11/2017, transpune Directiva 2001/42/CE), legea medierii din 2015 (137/2015) și legea
+  substanțelor chimice (277/2018, cel mai lung antet de transpunere din corpus — REACH, CLP, biocide, POP, RoHS, detergenți, ambalaje). **L-137-2015 confirmă o abrogare deja cunoscută, nu descoperită acum**: manifestul semnalase la
+  ingerarea L-9-2026 (16 septembrie) că legea veche a medierii nu mai e în vigoare; verificarea directă pe sursă la ingerarea de azi confirmă „Abrogată prin LP9 din 12.02.26, ... în vigoare 12.09.26" — efectivă de doar două săptămâni.
+  Succesorul L-9-2026 era deja deținut, iar pagina lui folosea încă trimiteri în ghilimele (`` `L-137/2015` ``) în loc de wikilinkuri, pentru că actul nu exista în bază; convertite acum la [[L-137-2015]] reale. L-11-2017 și L-277-2018 nu
+  au avut nicio capcană de versiune sau de titlu — rândul de căutare a trimis direct la consolidarea corectă la amândouă, prima dată în patru valuri cînd asta se întâmplă la toate actele unui val deodată.
+- **Decis:** trei fișiere ingerate cu `ingest_business_law.py`; `repeal_of()` a prins din nou automat abrogarea lui L-137-2015. `verify_business_law.py`: 0 eșecuri, integritate PASS la toate trei. Trei pagini de entitate noi, confidence
+  `medium`; L-137-2015 poartă avertismentul de abrogare și trimite la [[L-9-2026]], a cărei pagină a fost actualizată (linkuri reale, secțiune de abrogare rescrisă, sursă adăugată). Două pagini au ieșit sub minimul de 2 wikilinkuri
+  distincte și au fost prinse la primul pas al validatorului (cros-link în trei, ca la valurile anterioare). Index actualizat, 288 de pagini. Registrele regenerate; validator 0 erori, aceleași două avertismente preexistente.
+  **Neexecutat:** textul integral al celor trei acte dincolo de art. 1/antet; pentru L-137-2015, verificarea faptică a celor 8 citări (dinainte de 12.09.2026 sau neactualizate); restul cozii, coborâtă acum sub 8 acte citatoare per țintă.
+  Nu s-a comis — se cere separat.
+- **Unde:** `raw/papers/moldova-legal/{L-11-2017,L-137-2015,L-277-2018}.md`, `entities/{L-11-2017,L-137-2015,L-277-2018}.md`, `entities/L-9-2026.md` (linkuri actualizate),
+  `_meta/imports/moldova-legal/ingest_business_law.py` (+3 intrări `DOCS`), `_meta/imports/moldova-legal/legis-md-business/showdetails-{154127,153426,154128}.html`, `index.md`.
+
+## [2026-09-28] update | Al cincilea val al cozii de ingerare — L-419-2006, L-184-2016, L-187-2022, la cererea lui Eugen ("continua cu al 5 val")
+
+- **Aflat:** coada, la 8 acte citatoare pentru L-419-2006 și 7 pentru celelalte două (departajate după mențiuni din grupul de patru egale la 7). Legea datoriei sectorului public (419/2006) nu are nicio consolidare mai nouă de
+  21.10.2023 — va intra la următoarea regenerare în flagul „stale consolidations” al coverage-ului, nu o capcană, doar o lege neamendată de peste doi ani. Legea contractelor de garanție financiară (184/2016, transpune Directiva
+  2002/47/CE, adoptată pentru cap. 9 „Servicii financiare” din Acordul de Asociere) are o lacună la art. 19, fără marcaj vizibil în corp, neexplicată. **L-187-2022 (condominiu) e o a șasea capcană de listă, de un fel nou**: rândul de
+  căutare trimitea la 155742@2026-08-06, dar lista de versiuni are 154485@2026-08-21 deasupra ei — nu o consolidare viitoare (ambele sînt trecute față de azi), pur și simplu rândul de căutare nu era cea mai nouă dintre versiunile
+  trecute. S-a luat 154485.
+- **Decis:** trei fișiere ingerate cu `ingest_business_law.py`. `verify_business_law.py`: 0 eșecuri, integritate PASS la toate trei. Trei pagini de entitate noi, confidence `medium`, cros-linkate între ele (trei au ieșit sub minimul
+  de 2 wikilinkuri/orfane la primul pas al validatorului, ca la valurile 3 și 4). Index actualizat, 291 de pagini. Regenerarea controalelor a fost blocată temporar de o defecțiune tranzitorie a clasificatorului de siguranță al
+  sesiunii (mai multe reîncercări pe Bash și PowerShell, niciuna reușită imediat) — s-a recuperat singură după câteva minute și reîncercări cu operații de citire între ele, fără nicio acțiune ocolitoare. Registrele regenerate;
+  validator 0 erori, aceleași două avertismente preexistente. **Neexecutat:** lacuna art. 19 din L-184-2016 (verificare pe istoricul legis.md); textul integral al celor trei acte dincolo de art. 1; restul cozii, coborâtă acum la
+  acte cu 7 și mai puține citări. Nu s-a comis — se cere separat.
+- **Unde:** `raw/papers/moldova-legal/{L-419-2006,L-184-2016,L-187-2022}.md`, `entities/{L-419-2006,L-184-2016,L-187-2022}.md`,
+  `_meta/imports/moldova-legal/ingest_business_law.py` (+3 intrări `DOCS`), `_meta/imports/moldova-legal/legis-md-business/showdetails-{139640,155573,154485}.html`, `index.md`.
+
+## [2026-09-28] update | Al șaselea val al cozii de ingerare — L-407-2006, L-29-2018, L-202-2013, la cererea lui Eugen ("continua")
+
+- **Aflat:** trei acte, toate la 7 acte citatoare, departajate după mențiuni (14, 13, 11). L-202-2013 (creditul de consum, transpune Directiva 2008/48/CE) și L-29-2018 (delimitarea proprietății publice) sînt curate — a doua fără
+  nicio capcană, prima cu capcana de versiune viitoare deja familiară. **L-407-2006 (legea veche a asigurărilor) e a treia capcană de abrogare cu succesor deja deținut (după L-139-2010/L-230-2022 și L-137-2015/L-9-2026), dar de un
+  fel nou: legea gutuită care a continuat să fie amendată după abrogare.** Rândul de căutare poartă „Abrogat”, confirmat pe pagina abrogării generale — „Abrogată prin LP92 din 07.04.22 ... în vigoare **01.01.23**”, succesorul fiind
+  [[L-92-2022]] (deja în vault). Dar lista de versiuni a actului are o consolidare **mai nouă decât cea a abrogării**, 123206@2023-07-01, al cărei antet nu poartă marcajul de abrogare, ci „MODIFICAT LP178 din 11.09.20 ... în vigoare
+  **01.07.23**" — cel puțin o dispoziție a legii „abrogate” a continuat să fie amendată șase luni după abrogarea generală. Același tipar ca legea gutuită L-550-1995, găsit aici pentru prima dată la un act altfel complet abrogat.
+  S-a reținut 123206, nu 133979 (starea de la data abrogării generale). A ieșit cu o lacună de 7 articole (13-19, fără marcaj) — coerentă cu gutuirea, probabil materia de licențiere preluată de L-92-2022. **A doua constatare, găsită
+  abia la citirea frontmatter-ului complet, nu doar a antetului**: `repeal_of()` a prins totuși automat abrogarea, dar dintr-o sursă diferită de cea presupusă inițial — nu din antetul textului (care aici zice „MODIFICAT”), ci din
+  câmpul fișei „Data abrogării”, care dă **01.07.2023**, nu 01.01.2023 ca antetul celeilalte consolidări. Cele două date nu au fost reconciliate; ambele sînt reale, văzute pe pagini diferite ale aceluiași act. Validatorul a mai prins
+  o linie neancorată nouă, `Art.50^1 - abrogat` (formă abreviată „Art.” fără „Articolul”) — un ciot fără conținut de pierdut, lăsat ca avertisment cunoscut.
+- **Decis:** patru fișiere ingerate (L-407-2006, L-29-2018 curent+viitor, L-202-2013) cu `ingest_business_law.py`. `verify_business_law.py`: 0 eșecuri, integritate PASS la toate patru. Trei pagini de entitate noi, confidence
+  `medium`; L-407-2006 poartă avertismentul de act abrogat și gutuit, cu discrepanța de dată documentată explicit, și trimite la [[L-92-2022]], a cărei pagină a fost extinsă cu o secțiune care leagă LP178/2020 (citată acolo ca
+  „transferul din 2023") de exact aceeași dată de 01.07.2023 găsită azi. Cros-link în trei pentru a evita paginile orfane, ca la valurile anterioare. Index actualizat, 294 de pagini. Registrele regenerate; validator 0 erori, trei
+  avertismente (două preexistente, unul nou — linia neancorată de mai sus). **Neexecutat:** care anume articole rămase din L-407-2006 (1-12, 20-58) mai sînt relevante faptic; reconcilierea celor două date de abrogare; restul cozii,
+  coborâtă acum la acte cu 6 și mai puține citări. Nu s-a comis — se cere separat.
+- **Unde:** `raw/papers/moldova-legal/{L-407-2006,L-29-2018,L-202-2013}.md`, `raw/papers/moldova-legal/viitor/L-29-2018--2027-01-01.md`, `entities/{L-407-2006,L-29-2018,L-202-2013}.md`, `entities/L-92-2022.md` (secțiune nouă),
+  `_meta/imports/moldova-legal/ingest_business_law.py` (+4 intrări `DOCS`), `_meta/imports/moldova-legal/legis-md-business/showdetails-{123206,150232,152997,151074}.html`, `index.md`.

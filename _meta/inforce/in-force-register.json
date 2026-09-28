@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-28T11:36:34",
+  "generated": "2026-09-28T12:37:39",
   "as_of": "2026-09-28",
-  "files_scanned": 689,
+  "files_scanned": 699,
   "provisions_not_yet_in_force": [
     {
       "file": "raw/papers/moldova-legal/viitor/COD-154-2003--2026-10-28.md",
@@ -3768,6 +3768,38 @@
       "occurrences": 14
     },
     {
+      "file": "raw/papers/moldova-legal/viitor/L-29-2018--2027-01-01.md",
+      "instrument": "L-29-2018--2027-01-01",
+      "article": "5",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP327 din 29.12.25",
+      "official_gazette": "MO665/31.12.25 art.814",
+      "context": "[Art.5 al.(4), lit.a) modificată prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]",
+      "lines": [
+        128
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-29-2018--2027-01-01.md",
+      "instrument": "L-29-2018--2027-01-01",
+      "article": "9",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP327 din 29.12.25",
+      "official_gazette": "MO665/31.12.25 art.814",
+      "context": "[Art.9 al.(2), lit.k) modificată prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]",
+      "lines": [
+        173
+      ],
+      "occurrences": 1
+    },
+    {
       "file": "raw/papers/moldova-legal/viitor/L-397-2003--2027-01-01.md",
       "instrument": "L-397-2003--2027-01-01",
       "article": "33",
@@ -5976,6 +6008,15 @@
       "flagged_in_frontmatter": true
     },
     {
+      "instrument": "L-29-2018--2027-01-01",
+      "file": "raw/papers/moldova-legal/viitor/L-29-2018--2027-01-01.md",
+      "consolidation_date": "2027-01-01",
+      "doc_id": "152997",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
       "instrument": "L-296-2017--2027-11-30",
       "file": "raw/papers/moldova-legal/viitor/L-296-2017--2027-11-30.md",
       "consolidation_date": "2027-11-30",
@@ -7270,9 +7311,9 @@
     }
   ],
   "counts": {
-    "provisions": 320,
-    "acts": 77,
-    "future_consolidations": 89,
+    "provisions": 322,
+    "acts": 78,
+    "future_consolidations": 90,
     "pending_consolidations": 5,
     "pending_ingested": 26,
     "pending_provisions": 9,
