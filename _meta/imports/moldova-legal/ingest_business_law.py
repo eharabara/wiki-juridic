@@ -1636,6 +1636,142 @@ DOCS = {
     'L-271-2008': {'doc_id': '155885',
                    'title': 'Legea nr. 271/2008 privind verificarea titularilor si a candidatilor '
                             'la functii publice'},
+    # 2026-10-01, valurile 24-27 ale cozii de ingerare. Versiuni alese (azi 2026-10-01):
+    # L-107-2025 154135@2026-05-30; L-140-2001 151091@2025-12-31; L-1402-2002 148229@2025-04-22;
+    # L-1409-1997 149996@2025-08-17 (ABROGATA prin LP153/2025, succesor nedetinut); L-161-2011
+    # 106479@2017-10-27 (ultima din lista); L-142-2008 110170@2019-03-01 (ABROGATA prin L-133-2018);
+    # L-163-2010 141610@2025-01-30 (ABROGATA prin COD-434-2023; randul de cautare 144639 era
+    # 2024-09-01, text dinaintea abrogarii); HG-1123-2010 145413@2024-11-15 (ABROGATA prin HG678/2024,
+    # nedetinuta); COD-828-1991 142259@2025-03-07 (Codul funciar vechi, golit de COD-22-2024);
+    # L-160-2017 139802@2023-11-25; L-75-2020 155867@2026-08-13; L-77-2016 143443@2024-05-31.
+    'L-107-2025': {'doc_id': '154135',
+                   'title': 'Legea nr. 107/2025 privind raspunderea de mediu in legatura cu '
+                            'prevenirea si repararea daunelor aduse mediului'},
+    'L-140-2001': {'doc_id': '151091',
+                   'title': 'Legea nr. 140/2001 privind Inspectoratul de Stat al Muncii'},
+    'L-1402-2002': {'doc_id': '148229',
+                    'title': 'Legea nr. 1402/2002 a serviciilor publice de gospodarie comunala'},
+    'L-1409-1997': {'doc_id': '149996',
+                    'title': 'Legea nr. 1409/1997 cu privire la medicamente (ABROGATA de la '
+                             '17.08.2025 prin LP153/2025)'},
+    'L-161-2011': {'doc_id': '106479',
+                   'title': 'Legea nr. 161/2011 privind implementarea ghiseului unic in '
+                            'desfasurarea activitatii de intreprinzator'},
+    'L-142-2008': {'doc_id': '110170',
+                   'title': 'Legea nr. 142/2008 cu privire la ipoteca (ABROGATA de la 01.03.2019 '
+                            'prin L-133-2018)'},
+    'L-163-2010': {'doc_id': '141610',
+                   'title': 'Legea nr. 163/2010 privind autorizarea executarii lucrarilor de '
+                            'constructie (ABROGATA de la 30.01.2025 prin COD-434-2023)'},
+    'HG-1123-2010': {'doc_id': '145413',
+                     'title': 'Hotarirea Guvernului nr. 1123/2010 privind aprobarea Cerintelor fata '
+                              'de asigurarea securitatii datelor cu caracter personal la prelucrarea '
+                              'lor in cadrul sistemelor informationale (ABROGATA de la 15.11.2024 '
+                              'prin HG678/2024)'},
+    'COD-828-1991': {'doc_id': '142259',
+                     'title': 'Codul funciar nr. 828/1991 (golit; inlocuit prin COD-22-2024)'},
+    'L-160-2017': {'doc_id': '139802', 'title': 'Legea nr. 160/2017 cu privire la biblioteci'},
+    'L-75-2020': {'doc_id': '155867',
+                  'title': 'Legea nr. 75/2020 privind procedura de constatare a incalcarilor in '
+                           'domeniul prevenirii si combaterii spalarii banilor si finantarii '
+                           'terorismului'},
+    'L-77-2016': {'doc_id': '143443',
+                  'title': 'Legea nr. 77/2016 cu privire la parcurile pentru tehnologia '
+                           'informatiei'},
+    # 2026-10-01, valurile 28-31 ale cozii de ingerare (azi 2026-10-01). Versiuni alese:
+    # L-234-2021 151446@2025-09-20 (152999@2027-01-01, LP327/2025, in viitor/); L-320-2012
+    # 155889@2026-09-13 (154180@2026-10-31 LP52/2026 si 156610@2027-03-29 LP209/2026 in viitor/);
+    # L-66-2008 143289@2024-06-17 (155257@2027-04-02 = ABROGATA prin LP107/2026 din 02.04.2027, in
+    # viitor/); HG-411-2022 133366@2023-09-16; L-1227-1997 130907@2023-01-08 (ABROGATA prin
+    # L-62-2022); L-17-2007 26030@2012-04-14 (ABROGATA prin L-133-2011, ea insasi abrogata prin
+    # L-195-2024); L-218-2010 150484@2025-09-12; L-467-2003 142789@2025-01-01; L-489-1999
+    # 152954@2026-07-01 (152737@2027-01-01 LP327/2025 in viitor/; 155453@2030-01-01 e o consolidare
+    # conditionata de aderarea la UE, neingerata); L-81-2004 137659@2023-09-23; L-153-2025
+    # 155340@2026-08-14 (succesorul lui L-1409-1997); L-835-1996 141609@2025-01-30 (ABROGATA prin
+    # COD-434-2023).
+    'L-234-2021': {'doc_id': '151446', 'title': 'Legea nr. 234/2021 cu privire la serviciile publice'},
+    'L-234-2021--2027-01-01': {'doc_id': '152999', 'subdir': 'viitor', 'future_of': 'L-234-2021',
+        'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01 (LP327/2025), a actului L-234-2021'},
+    'L-320-2012': {'doc_id': '155889',
+                   'title': 'Legea nr. 320/2012 cu privire la activitatea Politiei si statutul '
+                            'politistului'},
+    'L-320-2012--2026-10-31': {'doc_id': '154180', 'subdir': 'viitor', 'future_of': 'L-320-2012',
+        'applies_from': '2026-10-31',
+        'title': 'Versiune viitoare, de la 2026-10-31 (LP52/2026), a actului L-320-2012'},
+    'L-320-2012--2027-03-29': {'doc_id': '156610', 'subdir': 'viitor', 'future_of': 'L-320-2012',
+        'applies_from': '2027-03-29',
+        'title': 'Versiune viitoare, de la 2027-03-29 (LP209/2026), a actului L-320-2012'},
+    'L-66-2008': {'doc_id': '143289',
+                  'title': 'Legea nr. 66/2008 privind protectia indicatiilor geografice, denumirilor '
+                           'de origine si specialitatilor traditionale garantate'},
+    'L-66-2008--2027-04-02': {'doc_id': '155257', 'subdir': 'viitor', 'future_of': 'L-66-2008',
+        'applies_from': '2027-04-02',
+        'title': 'Versiune viitoare, de la 2027-04-02 (abrogata prin LP107/2026), a actului L-66-2008'},
+    'HG-411-2022': {'doc_id': '133366',
+                    'title': 'Hotarirea Guvernului nr. 411/2022 pentru aprobarea Regulamentului '
+                             'privind transferurile de deseuri'},
+    'L-1227-1997': {'doc_id': '130907',
+                    'title': 'Legea nr. 1227/1997 cu privire la publicitate (ABROGATA de la '
+                             '08.01.2023 prin L-62-2022)'},
+    'L-17-2007': {'doc_id': '26030',
+                  'title': 'Legea nr. 17/2007 cu privire la protectia datelor cu caracter personal '
+                           '(ABROGATA de la 14.04.2012 prin L-133-2011)'},
+    'L-218-2010': {'doc_id': '150484',
+                   'title': 'Legea nr. 218/2010 privind protejarea patrimoniului arheologic'},
+    'L-467-2003': {'doc_id': '142789',
+                   'title': 'Legea nr. 467/2003 cu privire la informatizare si la resursele '
+                            'informationale de stat'},
+    'L-489-1999': {'doc_id': '152954',
+                   'title': 'Legea nr. 489/1999 privind sistemul public de asigurari sociale'},
+    'L-489-1999--2027-01-01': {'doc_id': '152737', 'subdir': 'viitor', 'future_of': 'L-489-1999',
+        'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01 (LP327/2025), a actului L-489-1999'},
+    'L-81-2004': {'doc_id': '137659',
+                  'title': 'Legea nr. 81/2004 cu privire la investitiile in activitatea de '
+                           'intreprinzator'},
+    'L-153-2025': {'doc_id': '155340', 'title': 'Legea nr. 153/2025 cu privire la medicamente'},
+    'L-835-1996': {'doc_id': '141609',
+                   'title': 'Legea nr. 835/1996 privind principiile urbanismului si amenajarii '
+                            'teritoriului (ABROGATA de la 30.01.2025 prin COD-434-2023)'},
+    # 2026-10-01, valurile 32-35 ale cozii de ingerare (azi 2026-10-01). Versiuni alese:
+    # L-107-2026 155256@2027-04-02 (lege noua, intra in vigoare la 02.04.2027, singura versiune: fisierul
+    # principal ramine o versiune viitoare, ca L-325-2025; succesorul lui L-66-2008); L-1530-1993
+    # 137389@2023-06-08; L-200-2010 154717@2026-06-04 (156316@2026-12-09 LP166/2026 si 154738@2027-06-01,
+    # ABROGATA prin LP66/2026, in viitor/); HG-589-2017 151912@2026-02-05; HG-99-2018 144984@2024-09-06;
+    # HG-483-2019 140056@2023-12-21; L-847-2002 155181@2026-06-30; L-294-2007 148792@2026-01-01 (randul
+    # de cautare era 148968@2025-06-14, mai veche); L-20-2016 151254@2026-02-28; L-1353-2000
+    # 146019@2024-11-29; L-299-2022 143912@2024-08-02; L-161-2014 152636@2025-12-31.
+    'L-107-2026': {'doc_id': '155256',
+                   'title': 'Legea nr. 107/2026 privind indicatiile geografice, specialitatile '
+                            'traditionale garantate si mentiunile facultative de calitate'},
+    'L-1530-1993': {'doc_id': '137389',
+                    'title': 'Legea nr. 1530/1993 privind ocrotirea monumentelor'},
+    'L-200-2010': {'doc_id': '154717',
+                   'title': 'Legea nr. 200/2010 privind regimul strainilor in Republica Moldova'},
+    'L-200-2010--2026-12-09': {'doc_id': '156316', 'subdir': 'viitor', 'future_of': 'L-200-2010',
+        'applies_from': '2026-12-09',
+        'title': 'Versiune viitoare, de la 2026-12-09 (LP166/2026), a actului L-200-2010'},
+    'L-200-2010--2027-06-01': {'doc_id': '154738', 'subdir': 'viitor', 'future_of': 'L-200-2010',
+        'applies_from': '2027-06-01',
+        'title': 'Versiune viitoare, de la 2027-06-01 (abrogata prin LP66/2026), a actului L-200-2010'},
+    'HG-589-2017': {'doc_id': '151912',
+                    'title': 'Hotarirea Guvernului nr. 589/2017 privind aprobarea Regulamentului '
+                             'transporturilor rutiere de marfuri periculoase'},
+    'HG-99-2018': {'doc_id': '144984',
+                   'title': 'Hotarirea Guvernului nr. 99/2018 pentru aprobarea Listei deseurilor'},
+    'HG-483-2019': {'doc_id': '140056',
+                    'title': 'Hotarirea Guvernului nr. 483/2019 pentru aprobarea Regulamentului cu '
+                             'privire la formarea si atestarea specialistilor (gaze fluorurate)'},
+    'L-847-2002': {'doc_id': '155181', 'title': 'Legea nr. 847/2002 privind sistemul de salarizare'},
+    'L-294-2007': {'doc_id': '148792', 'title': 'Legea nr. 294/2007 privind partidele politice'},
+    'L-20-2016': {'doc_id': '151254', 'title': 'Legea nr. 20/2016 cu privire la standardizarea nationala'},
+    'L-1353-2000': {'doc_id': '146019',
+                    'title': 'Legea nr. 1353/2000 privind gospodariile taranesti (de fermier)'},
+    'L-299-2022': {'doc_id': '143912',
+                   'title': 'Legea nr. 299/2022 privind prevenirea pierderii si risipei de alimente'},
+    'L-161-2014': {'doc_id': '152636',
+                   'title': 'Legea nr. 161/2014 cu privire la administratorii autorizati'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

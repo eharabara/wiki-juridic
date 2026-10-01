@@ -133,7 +133,9 @@ def process(text: str):
         new_title, joined = collect_title(lines, i, title)
         if joined:
             old_line = lines[i]
-            lines[i] = new_title
+            # 2026-10-01: pastreaza textul original al antetului (inclusiv spatii inguste U+200A din sursa,
+            # ex. L-20-2016 art. 19) si adauga doar coada unita; refacerea din marker+fragment le strica.
+            lines[i] = old_line.rstrip() + new_title[len(title):]
             n_fixed += 1
             details.append((i + 1, num, old_line, new_title))
     return "\n".join(lines), n_fixed, details

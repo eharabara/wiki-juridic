@@ -2368,6 +2368,42 @@
    ]
   },
   {
+   "instrument": "COD-828-1991",
+   "file": "raw/papers/moldova-legal/COD-828-1991.md",
+   "doc_id": "142259",
+   "consolidation_date": "2025-03-07",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC29/1997-10-27",
+     "line": 90,
+     "text": "HCC29 din 27.10.1997 – MO76/1997 art. 31"
+    },
+    {
+     "hcc": "HCC110/1996-01-25",
+     "line": 94,
+     "text": "HCC110 din 25.01.1996 – MO10/1996, art 10"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [
+    {
+     "hcc": "HCC29/1997-10-27",
+     "line": 90,
+     "text": "HCC29 din 27.10.1997 – MO76/1997 art. 31"
+    },
+    {
+     "hcc": "HCC110/1996-01-25",
+     "line": 94,
+     "text": "HCC110 din 25.01.1996 – MO10/1996, art 10"
+    }
+   ],
+   "distinct_hcc": [
+    "HCC110/1996-01-25",
+    "HCC29/1997-10-27"
+   ]
+  },
+  {
    "instrument": "COD-985-2002",
    "file": "raw/papers/moldova-legal/COD-985-2002.md",
    "doc_id": "151140",
@@ -3005,6 +3041,73 @@
    ]
   },
   {
+   "instrument": "L-140-2001",
+   "file": "raw/papers/moldova-legal/L-140-2001.md",
+   "doc_id": "151091",
+   "consolidation_date": "2025-12-31",
+   "markers": [
+    {
+     "article": "9^1",
+     "subunit": "al.(3)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC3/2025-04-01"
+     ],
+     "official_gazette": "MO233-236/16.05.25 art.61",
+     "marker": "Art.9^1 al.(3) declarat neconstituțional prin HCC3 din 01.04.25, MO233-236/16.05.25 art.61; în vigoare 01.04.25",
+     "line": 278
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC3/2025-04-01",
+     "line": 71,
+     "text": "HCC3 din 01.04.25, MO233-236/16.05.25 art.61; în vigoare 01.04.25"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [],
+   "distinct_hcc": [
+    "HCC3/2025-04-01"
+   ]
+  },
+  {
+   "instrument": "L-142-2008",
+   "file": "raw/papers/moldova-legal/L-142-2008.md",
+   "doc_id": "110170",
+   "consolidation_date": "2012-07-11",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC26/2016-09-27",
+     "line": 69,
+     "text": "HCC26 din 27.09.16, MO416-422/02.12.16 art.101"
+    }
+   ],
+   "recovered": [
+    {
+     "instrument": "L-142-2008",
+     "hcc": "HCC26/2016-09-27",
+     "article": "31",
+     "subunit": "alin. (7)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO416-422/02.12.16 art.101",
+     "read_doc_id": "91021",
+     "read_consolidation": "2016-09-27",
+     "decision_doc_id": null,
+     "verified": "2026-10-01",
+     "status_today": "legea e abrogată din 01.03.2019 (L-133-2018); textul ținut (110170) nu mai poartă marcajul",
+     "summary": "Atribuire dedusă, nu citită în hotărîre: în versiunea 91021 (27.09.2016), după art. 31 alin. (7) („Dacă debitorul a întreprins măsurile indicate în notificare sau preaviz după expirarea termenului specificat la alin. (6), acest fapt nu-l lipsește pe creditorul ipotecar de dreptul de a continua procedura...”) stă marcajul bare „(Se declară neconstituțional prin HCC26 din 27.09.16, MO416-422/02.12.16 art.101)”, fără număr de alineat; el se poate referi la alin. (7) sau la un grup de alineate. Dispozitivul hotărîrii nu a fost citit. [de verificat]"
+    }
+   ],
+   "unattributed": [],
+   "distinct_hcc": [
+    "HCC26/2016-09-27"
+   ]
+  },
+  {
    "instrument": "L-149-2012",
    "file": "raw/papers/moldova-legal/L-149-2012.md",
    "doc_id": "152605",
@@ -3313,6 +3416,86 @@
    "distinct_hcc": [
     "HCC10/2017-03-16",
     "HCC32/2016-11-17"
+   ]
+  },
+  {
+   "instrument": "L-200-2010",
+   "file": "raw/papers/moldova-legal/L-200-2010.md",
+   "doc_id": "154717",
+   "consolidation_date": "2026-06-04",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC27/2020-11-13",
+     "line": 160,
+     "text": "HCC27 din 13.11.20, MO332-342/11.12.20 art.183 ; în vigoare 13.11.20"
+    }
+   ],
+   "recovered": [
+    {
+     "instrument": "L-200-2010",
+     "hcc": "HCC27/2020-11-13",
+     "article": "55",
+     "subunit": "alin. (3)",
+     "scope": "text din articol",
+     "quoted_text": "în decizie nu vor fi menționate motivele care stau la baza ei",
+     "official_gazette": "MO332-342/11.12.20 art.183",
+     "read_doc_id": "124308",
+     "read_consolidation": "2020-11-13",
+     "decision_doc_id": null,
+     "verified": "2026-10-01",
+     "status_today": "textul anulat nu mai figureaza in textul detinut (154717@2026-06-04); ce spune alineatul azi nu a fost comparat cuvint cu cuvint",
+     "summary": "Marcaj in text citit in versiunea 124308 (2020-11-13); dispozitivul hotaririi nu a fost citit."
+    },
+    {
+     "instrument": "L-200-2010",
+     "hcc": "HCC27/2020-11-13",
+     "article": "56",
+     "subunit": "alin. (2)",
+     "scope": "text din articol",
+     "quoted_text": "Astfel de date şi informaţii nu pot fi sub nici o formă, direct sau indirect, aduse la cunoştinţă străinului declarat persoană indezirabilă, inclusiv în cadrul examinării în instanţă de judecată a contestării deciziei ...",
+     "official_gazette": "MO332-342/11.12.20 art.183",
+     "read_doc_id": "124308",
+     "read_consolidation": "2020-11-13",
+     "decision_doc_id": null,
+     "verified": "2026-10-01",
+     "status_today": "textul anulat nu mai figureaza in textul detinut (154717@2026-06-04); ce spune alineatul azi nu a fost comparat cuvint cu cuvint",
+     "summary": "Marcaj in text citit in versiunea 124308 (2020-11-13); dispozitivul hotaririi nu a fost citit."
+    },
+    {
+     "instrument": "L-200-2010",
+     "hcc": "HCC27/2020-11-13",
+     "article": "60",
+     "subunit": "alin. (4)",
+     "scope": "text din articol",
+     "quoted_text": "și e)",
+     "official_gazette": "MO332-342/11.12.20 art.183",
+     "read_doc_id": "124308",
+     "read_consolidation": "2020-11-13",
+     "decision_doc_id": null,
+     "verified": "2026-10-01",
+     "status_today": "textul anulat nu mai figureaza in textul detinut (154717@2026-06-04); ce spune alineatul azi nu a fost comparat cuvint cu cuvint",
+     "summary": "Marcaj in text citit in versiunea 124308 (2020-11-13); dispozitivul hotaririi nu a fost citit."
+    },
+    {
+     "instrument": "L-200-2010",
+     "hcc": "HCC27/2020-11-13",
+     "article": "63",
+     "subunit": "alin. (4)",
+     "scope": "text din articol",
+     "quoted_text": "(1) și",
+     "official_gazette": "MO332-342/11.12.20 art.183",
+     "read_doc_id": "124308",
+     "read_consolidation": "2020-11-13",
+     "decision_doc_id": null,
+     "verified": "2026-10-01",
+     "status_today": "textul anulat nu mai figureaza in textul detinut (154717@2026-06-04); ce spune alineatul azi nu a fost comparat cuvint cu cuvint",
+     "summary": "Marcaj in text citit in versiunea 124308 (2020-11-13); dispozitivul hotaririi nu a fost citit."
+    }
+   ],
+   "unattributed": [],
+   "distinct_hcc": [
+    "HCC27/2020-11-13"
    ]
   },
   {
@@ -3658,6 +3841,62 @@
    ]
   },
   {
+   "instrument": "L-294-2007",
+   "file": "raw/papers/moldova-legal/L-294-2007.md",
+   "doc_id": "148792",
+   "consolidation_date": "2026-01-01",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC5/2020-02-25",
+     "line": 68,
+     "text": "HCC5 din 25.02.20, MO102/10.04.20 art.51 în vigoare 25.02.20"
+    },
+    {
+     "hcc": "HCC12/2013-06-04",
+     "line": 82,
+     "text": "HCC12 din 04.06.13, MO167-172/02.08.13 art.22; în vigoare 04.06.13"
+    }
+   ],
+   "recovered": [
+    {
+     "instrument": "L-294-2007",
+     "hcc": "HCC5/2020-02-25",
+     "article": "8",
+     "subunit": "alin. (1) lit. d)",
+     "scope": "text din articol",
+     "quoted_text": "al căror număr nu poate fi mai mic de patru mii, + La momentul constituirii partidului, membrii acestuia trebuie să fie domiciliaţi în cel puţin jumătate din unităţile administrativ-teritoriale de nivelul al doilea ... dar nu mai puţin de 120 de membri în fiecare din unităţile administrativ-teritoriale menţionate",
+     "official_gazette": "MO102/10.04.20 art.51",
+     "read_doc_id": "121246",
+     "read_consolidation": "2020-02-25",
+     "decision_doc_id": null,
+     "verified": "2026-10-01",
+     "status_today": "textul anulat nu mai figureaza in textul detinut (148792@2026-01-01); ce spune articolul azi nu a fost comparat",
+     "summary": "Marcaj in text citit in versiunea 121246 (2020-02-25); marcajul poate continua si pe alte articole, care nu au fost cautate; dispozitivul hotaririi nu a fost citit."
+    },
+    {
+     "instrument": "L-294-2007",
+     "hcc": "HCC12/2013-06-04",
+     "article": "4",
+     "subunit": "alin. (5)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO167-172/02.08.13 art.22",
+     "read_doc_id": "25042",
+     "read_consolidation": "2013-06-04",
+     "decision_doc_id": null,
+     "verified": "2026-10-01",
+     "status_today": "art. 4 alin. (5) (simbolurile regimului comunist totalitar) nu mai figureaza in textul detinut sau a fost modificat; nu s-a comparat",
+     "summary": "Atribuire dedusa, nu citita in hotarire: in versiunea 25042 (2013-06-04), dupa art. 4 alin. (5) („Se interzice utilizarea de catre partidele politice a simbolurilor regimului comunist totalitar (secera si ciocanul)...”) sta marcajul bare „(se declara neconstitutional HCC12 din 04.06.13, MO167-172/02.08.13 art.22)”. Dispozitivul hotaririi nu a fost citit. [de verificat]"
+    }
+   ],
+   "unattributed": [],
+   "distinct_hcc": [
+    "HCC12/2013-06-04",
+    "HCC5/2020-02-25"
+   ]
+  },
+  {
    "instrument": "L-303-2013",
    "file": "raw/papers/moldova-legal/L-303-2013.md",
    "doc_id": "151413",
@@ -3711,6 +3950,38 @@
    "distinct_hcc": [
     "HCC28/2016-10-11",
     "HCC30/2016-11-01"
+   ]
+  },
+  {
+   "instrument": "L-320-2012",
+   "file": "raw/papers/moldova-legal/L-320-2012.md",
+   "doc_id": "155889",
+   "consolidation_date": "2026-09-13",
+   "markers": [
+    {
+     "article": "7",
+     "subunit": "lit.e)",
+     "quoted_text": "la propunerea Guvernatorului Găgăuziei și cu acordul Adunării Populare a acesteia",
+     "scope": "text din articol",
+     "hcc": [
+      "HCC8/2026-07-09"
+     ],
+     "official_gazette": "MO351-354/31.07.26 art. 132",
+     "marker": "Art.7 lit.e) textul „la propunerea Guvernatorului Găgăuziei și cu acordul Adunării Populare a acesteia” declarat neconstituțional prin HCC8 din 09.07.26, MO351-354/31.07.26 art. 132; în vigoare 09.07.26",
+     "line": 137
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC8/2026-07-09",
+     "line": 60,
+     "text": "HCC8 din 09.07.26, MO351-354/31.07.26 art.132; în vigoare 09.07.26"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [],
+   "distinct_hcc": [
+    "HCC8/2026-07-09"
    ]
   },
   {
@@ -4533,10 +4804,10 @@
   }
  ],
  "counts": {
-  "acts": 45,
-  "distinct_hcc": 113,
-  "markers_in_text": 54,
-  "recovered": 161,
-  "unattributed": 0
+  "acts": 51,
+  "distinct_hcc": 118,
+  "markers_in_text": 56,
+  "recovered": 168,
+  "unattributed": 2
  }
 }

@@ -1,6 +1,6 @@
 ---
 title: Registrul dispozitiilor care nu sint inca in vigoare
-generated: '2026-10-01T03:21:38'
+generated: '2026-10-01T08:13:12'
 as_of: '2026-10-01'
 type: summary
 tags: [moldova, legal-source, methodology, summary]
@@ -12,7 +12,7 @@ generated_by: _meta/inforce/build_inforce_register.py
 
 **Fisier generat. Nu se editeaza manual.** Se reface rulind scriptul din frontmatter.
 
-Stare la 2026-10-01. 764 fisiere scanate. 535 dispozitii afectate in 91 act(e). 104 consolidare/consolidari cu data in viitor. 5 consolidare/consolidari viitoare neingerate, 9 dispozitii; alte 26 din lista de mina sint acum ingerate ca fisiere separate in `raw/papers/moldova-legal/viitor/` (91 dispozitii citite de mina, pastrate mai jos).
+Stare la 2026-10-01. 807 fisiere scanate. 554 dispozitii afectate in 96 act(e). 112 consolidare/consolidari cu data in viitor. 5 consolidare/consolidari viitoare neingerate, 9 dispozitii; alte 27 din lista de mina sint acum ingerate ca fisiere separate in `raw/papers/moldova-legal/viitor/` (95 dispozitii citite de mina, pastrate mai jos).
 
 ## Regula de citare
 
@@ -26,6 +26,13 @@ Inainte de a cita un articol, verifica daca apare in tabelul de mai jos. Daca ap
 | COD-154-2003--2026-10-28 | 47 | modificare | 2026-10-28 | LP138 din 09.07.26 | se aplica textul anterior |
 | COD-154-2003--2026-10-28 | 103 | modificare | 2026-10-28 | LP138 din 09.07.26 | se aplica textul anterior |
 | L-156-1998--2026-10-28 | 5 | reformulare | 2026-10-28 | LP138 din 09.07.26 | se aplica textul anterior |
+| L-320-2012--2026-10-31 | 7 lit.o) | reformulare | 2026-10-31 | LP52 din 09.04.26 | se aplica textul anterior |
+| L-320-2012--2026-10-31 | 10 | reformulare | 2026-10-31 | LP52 din 09.04.26 | se aplica textul anterior |
+| L-320-2012--2026-10-31 | 13 | introducere | 2026-10-31 | LP52 din 09.04.26 | dispozitia nu se aplica |
+| L-320-2012--2026-10-31 | 16 | modificare | 2026-10-31 | LP52 din 09.04.26 | se aplica textul anterior |
+| L-320-2012--2026-10-31 | 19 lit.h^1) | introducere | 2026-10-31 | LP52 din 09.04.26 | dispozitia nu se aplica |
+| L-320-2012--2026-10-31 | 21 | introducere | 2026-10-31 | LP52 din 09.04.26 | dispozitia nu se aplica |
+| L-320-2012--2026-10-31 | 22 lit.g) | reformulare | 2026-10-31 | LP52 din 09.04.26 | se aplica textul anterior |
 | L-68-2013--2026-11-10 | anexa nr. 1 | reformulare | 2026-11-10 | LP78 din 07.05.26 | se aplica textul anterior |
 | L-68-2013--2026-11-10 | 2 | introducere | 2026-11-10 | LP78 din 07.05.26 | dispozitia nu se aplica |
 | L-68-2013--2026-11-10 | anexa nr. 3 | abrogare | 2026-11-10 | LP78 din 07.05.26 | inca in vigoare |
@@ -138,6 +145,7 @@ Inainte de a cita un articol, verifica daca apare in tabelul de mai jos. Daca ap
 | L-165-2023--2026-12-09 | 27 | reformulare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior |
 | L-165-2023--2026-12-09 | 28 | reformulare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior |
 | L-165-2023--2026-12-09 | 29 | reformulare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior |
+| L-200-2010--2026-12-09 | 43^1 | introducere | 2026-12-09 | LP166 din 30.07.26 | dispozitia nu se aplica |
 | L-52-2014--2026-12-09 | 16 lit.h^2) | reformulare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior |
 | L-82-2017--2026-12-09 | 18 | modificare | 2026-12-09 | LP165 din 30.07.26 | se aplica textul anterior |
 | L-105-2018--2026-12-10 | 2 | reformulare | 2026-12-10 | LP169 din 24.08.26 | se aplica textul anterior |
@@ -286,6 +294,7 @@ Inainte de a cita un articol, verifica daca apare in tabelul de mai jos. Daca ap
 | L-19-2016--2027-01-01 | 26 | modificare | 2027-01-01 | LP91 din 28.05.26 | se aplica textul anterior |
 | L-229-2010--2027-01-01 | 2 | modificare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
 | L-229-2010--2027-01-01 | 3 | modificare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
+| L-234-2021--2027-01-01 | 24 | reformulare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
 | L-235-2011--2027-01-01 | 9 | reformulare | 2027-01-01 | LP91 din 28.05.26 | se aplica textul anterior |
 | L-270-2018--2027-01-01 | anexa nr. 3 | modificare | 2027-01-01 | LP200 din 03.09.26 | se aplica textul anterior |
 | L-270-2018--2027-01-01 | anexa nr. 7 | modificare | 2027-01-01 | LP200 din 03.09.26 | se aplica textul anterior |
@@ -300,6 +309,14 @@ Inainte de a cita un articol, verifica daca apare in tabelul de mai jos. Daca ap
 | L-29-2018--2027-01-01 | 9 | modificare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
 | L-397-2003--2027-01-01 | 33 lit.q) | reformulare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
 | L-435-2006--2027-01-01 | 4 | reformulare | 2027-01-01 | LP200 din 03.09.26 | se aplica textul anterior |
+| L-489-1999--2027-01-01 | 1 | nespecificat | 2027-01-01 | LP327 din 29.12.25 | de verificat |
+| L-489-1999--2027-01-01 | 1 | nespecificat | 2027-01-01 | LP335 din 29.12.25 | de verificat |
+| L-489-1999--2027-01-01 | anexa nr. 1 | modificare | 2027-01-01 | LP327 din 29.12.25 | se aplica textul anterior |
+| L-489-1999--2027-01-01 | 5 | modificare | 2027-01-01 | LP335 din 29.12.25 | se aplica textul anterior |
+| L-489-1999--2027-01-01 | 8 | abrogare | 2027-01-01 | LP335 din 29.12.25 | inca in vigoare |
+| L-489-1999--2027-01-01 | 8^1 | introducere | 2027-01-01 | LP335 din 29.12.25 | dispozitia nu se aplica |
+| L-489-1999--2027-01-01 | 35 | modificare | 2027-01-01 | LP335 din 29.12.25 | se aplica textul anterior |
+| L-489-1999--2027-01-01 | 49 | modificare | 2027-01-01 | LP335 din 29.12.25 | se aplica textul anterior |
 | L-74-2020--2027-01-01 | 1 | reformulare | 2027-01-01 | LP102 din 04.06.26 | se aplica textul anterior |
 | L-74-2020--2027-01-01 | anexa nr. 1 | modificare | 2027-01-01 | LP102 din 04.06.26 | se aplica textul anterior |
 | L-74-2020--2027-01-01 | 2 pct. 1 | reformulare | 2027-01-01 | LP102 din 04.06.26 | se aplica textul anterior |
@@ -480,6 +497,8 @@ Inainte de a cita un articol, verifica daca apare in tabelul de mai jos. Daca ap
 | L-149-2006--2027-03-24 | 10 | reformulare | 2027-03-24 | LP185 din 24.08.26 | se aplica textul anterior |
 | L-149-2006--2027-03-24 | 16 | reformulare | 2027-03-24 | LP185 din 24.08.26 | se aplica textul anterior |
 | L-149-2006--2027-03-24 | 35 | reformulare | 2027-03-24 | LP185 din 24.08.26 | se aplica textul anterior |
+| L-320-2012--2027-03-29 | 5 | modificare | 2027-03-29 | LP209 din 17.09.26 | se aplica textul anterior |
+| L-320-2012--2027-03-29 | 6 | introducere | 2027-03-29 | LP209 din 17.09.26 | dispozitia nu se aplica |
 | L-59-2012--2027-03-29 | 5^1 | reformulare | 2027-03-29 | LP209 din 17.09.26 | se aplica textul anterior |
 | COD-218-2008--2027-05-13 | 252^1 | introducere | 2027-05-13 | LP30 din 06.03.26 | dispozitia nu se aplica |
 | COD-218-2008--2027-05-13 | 400 | modificare | 2027-05-13 | LP30 din 06.03.26 | se aplica textul anterior |
@@ -594,6 +613,7 @@ Fisierul incorporeaza modificari care nu au intrat in vigoare. Arhiva indicata e
 | HG-149-2021--2027-07-01 | 2027-07-01 | da | - | `-` |
 | HG-743-2024--2026-12-30 | 2026-12-30 | da | - | `-` |
 | L-105-2018--2026-12-10 | 2026-12-10 | da | - | `-` |
+| L-107-2026 | 2027-04-02 | da | - | `-` |
 | L-1134-1997--2028-01-01 | 2028-01-01 | da | - | `-` |
 | L-114-2012--2027-01-01 | 2027-01-01 | da | - | `-` |
 | L-114-2012--2027-03-17 | 2027-03-17 | da | - | `-` |
@@ -628,12 +648,15 @@ Fisierul incorporeaza modificari care nu au intrat in vigoare. Arhiva indicata e
 | L-19-2016--2027-01-01 | 2027-01-01 | da | - | `-` |
 | L-19-2016--2030-01-01 | 2030-01-01 | da | - | `-` |
 | L-192-1998--2027-03-17 | 2027-03-17 | da | - | `-` |
+| L-200-2010--2026-12-09 | 2026-12-09 | da | - | `-` |
+| L-200-2010--2027-06-01 | 2027-06-01 | da | - | `-` |
 | L-22-2025--2027-03-27 | 2027-03-27 | da | - | `-` |
 | L-221-2007--2026-11-13 | 2026-11-13 | da | - | `-` |
 | L-221-2007--2027-11-30 | 2027-11-30 | da | - | `-` |
 | L-229-2010--2027-01-01 | 2027-01-01 | da | - | `-` |
 | L-23-2008--2027-03-01 | 2027-03-01 | da | - | `-` |
 | L-230-2022--2030-01-01 | 2030-01-01 | da | - | `-` |
+| L-234-2021--2027-01-01 | 2027-01-01 | da | - | `-` |
 | L-235-2011--2027-01-01 | 2027-01-01 | da | - | `-` |
 | L-24-2008--2027-03-01 | 2027-03-01 | da | - | `-` |
 | L-241-2007--2027-05-13 | 2027-05-13 | da | - | `-` |
@@ -646,6 +669,8 @@ Fisierul incorporeaza modificari care nu au intrat in vigoare. Arhiva indicata e
 | L-287-2017--2027-01-01 | 2027-01-01 | da | - | `-` |
 | L-29-2018--2027-01-01 | 2027-01-01 | da | - | `-` |
 | L-296-2017--2027-11-30 | 2027-11-30 | da | - | `-` |
+| L-320-2012--2026-10-31 | 2026-10-31 | da | - | `-` |
+| L-320-2012--2027-03-29 | 2027-03-29 | da | - | `-` |
 | L-325-2025 | 2027-01-01 | da | - | `-` |
 | L-394-2023--2027-11-30 | 2027-11-30 | da | - | `-` |
 | L-397-2003--2027-01-01 | 2027-01-01 | da | - | `-` |
@@ -653,10 +678,12 @@ Fisierul incorporeaza modificari care nu au intrat in vigoare. Arhiva indicata e
 | L-403-2023--2027-11-30 | 2027-11-30 | da | - | `-` |
 | L-422-2023--2027-11-30 | 2027-11-30 | da | - | `-` |
 | L-435-2006--2027-01-01 | 2027-01-01 | da | - | `-` |
+| L-489-1999--2027-01-01 | 2027-01-01 | da | - | `-` |
 | L-50-2013--2028-05-08 | 2028-05-08 | da | - | `-` |
 | L-52-2014--2026-12-09 | 2026-12-09 | da | - | `-` |
 | L-59-2012--2027-03-29 | 2027-03-29 | da | - | `-` |
 | L-599-1999--2026-12-28 | 2026-12-28 | da | - | `-` |
+| L-66-2008--2027-04-02 | 2027-04-02 | da | - | `-` |
 | L-68-2013--2026-11-10 | 2026-11-10 | da | - | `-` |
 | L-68-2013--2027-11-30 | 2027-11-30 | da | - | `-` |
 | L-74-2020--2027-01-01 | 2027-01-01 | da | - | `-` |
@@ -705,6 +732,7 @@ Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar
 | L-121-2007 | 150035 @ 2027-11-30 (ingerata ca `L-121-2007--2027-11-30`) | 152778 @ 2026-01-23 | LP140 din 13.06.25, MO340-342/28.06.25 art.391 | 2026-09-24 | consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 1021 vs 1136), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare. |
 | L-397-2003 | 156390 @ 2028-01-01 (ingerata ca `L-397-2003--2028-01-01`) | 153023 @ 2025-12-31 | LP200 din 03.09.26, MO448-451/14.09.26 art.477 | 2026-09-24 | consolidarea viitoare si cea detinuta citite prin fetch in pagina, fara descarcare (numar de randuri 550 vs 555), comparate dupa normalizarea diacriticelor; dispozitiile sint marcajele 'in vigoare' cu data dupa 2026-09-24 din consolidarea viitoare, absente din cea detinuta. Continutul nou nu a fost rezumat alineat cu alineat: se citeste in consolidarea viitoare. |
 | L-158-2008 | 155884 @ 2028-07-01 | 155439 @ 2026-09-13 | LP154 din 30.07.26, MO375-378/13.08.26 art.393 | 2026-09-27 | matura versiunilor de pe legis.md; consolidarea viitoare 155884 citita prin fetch fara descarcare, comparata articol cu articol (77 articole in ambele). 17 din cele 18 diferente gasite sint marcaje deja trecute (in vigoare 13.09.26 s.a.) pierdute la reimprospatare, mecanismul 1 din intrebarea 3 din CLAUDE.md -- verificat pe art. 4, nu e o schimbare reala. Singura dispozitie cu data viitoare: art. 8 al. (6). |
+| L-153-2025 | 155340 @ 2029-01-01 (ingerata ca `L-153-2025`) | 155340 @ 2026-08-14 | nu este un act modificator: art. 157 alin. (1) din legea insasi, MO372-374/17.07.25 art.476 | 2026-10-01 | gasit la ingerarea actului, art. 157 citit direct in raw; amanarea e scrisa in proza, registrul nu o vedea singur; textul detinut contine deja articolele, care se aplica de la 1 ianuarie 2029 (nu exista versiune separata pe legis.md pentru ele). Art. 97 si art. 154 alin. (4)-(6) se aplica la data aderarii la UE (fara data) si nu sint randuri. |
 | L-160-2011 | 156152 @ 2029-01-01 (ingerata ca `L-160-2011--2029-01-01`) | 151257 @ 2026-08-29 | LP159 din 30.07.26, MO407-409/02.09.26 art. 440 | 2026-09-07 | sase versiuni (151257 + cinci viitoare) citite prin fetch fara descarcare si comparate in lant, paragraf cu paragraf: corpul legii, art. 1-14 si 4^1-12^13, este identic in toate; difera numai rindul din fisa si marcajul anexei |
 
 | Act | Articol | Operatiune | Produce efecte de la | Act modificator | Stare astazi | Ce se schimba |
@@ -808,6 +836,10 @@ Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar
 | L-397-2003 | 11 al.(3) | modificare | 2028-01-01 | LP200 din 03.09.26 | se aplica textul anterior | marcaj LP200/2026 |
 | L-397-2003 | 12 al.(1) lit.a) | modificare | 2028-01-01 | LP200 din 03.09.26 | se aplica textul anterior | marcaj LP200/2026 |
 | L-158-2008 | 8 al. (6) | modificare | 2028-07-01 | LP154 din 30.07.26 | se aplica textul anterior | comisia permanenta de concurs de 7 membri + 2 supleanti (secretari generali adjuncti ai Guvernului, societate civila, mediul academic etc., desemnati de premier) pentru functiile publice de conducere de nivel superior e inlocuita cu o trimitere generala: ocuparea prin concurs se face 'in baza cadrului de competente aplicabil functiilor publice de conducere de nivel superior, in modul stabilit de Guvern' |
+| L-153-2025 | 76 intregul articol | intrare in vigoare | 2029-01-01 | nu este un act modificator: art. 157 alin. (1) din legea insasi | dispozitia nu se aplica | art. 157 alin. (1) lit. b): art. 76 intra in vigoare la 1 ianuarie 2029; pina atunci nu se aplica, desi este in text si ancorat |
+| L-153-2025 | 77 intregul articol | intrare in vigoare | 2029-01-01 | nu este un act modificator: art. 157 alin. (1) din legea insasi | dispozitia nu se aplica | art. 157 alin. (1) lit. b): art. 77 intra in vigoare la 1 ianuarie 2029; pina atunci nu se aplica, desi este in text si ancorat |
+| L-153-2025 | 86 intregul articol | intrare in vigoare | 2029-01-01 | nu este un act modificator: art. 157 alin. (1) din legea insasi | dispozitia nu se aplica | art. 157 alin. (1) lit. b): art. 86 intra in vigoare la 1 ianuarie 2029; pina atunci nu se aplica, desi este in text si ancorat |
+| L-153-2025 | 87 intregul articol | intrare in vigoare | 2029-01-01 | nu este un act modificator: art. 157 alin. (1) din legea insasi | dispozitia nu se aplica | art. 157 alin. (1) lit. b): art. 87 intra in vigoare la 1 ianuarie 2029; pina atunci nu se aplica, desi este in text si ancorat |
 | L-160-2011 | anexa nr. 1 | modificare | 2029-01-01 | LP159 din 30.07.26 | se aplica textul anterior | Nomenclatorul actelor permisive (anexa nr. 1) este modificat; continutul anexei NU este in textul de pe legis.md, nici in versiunea detinuta, nici in cea viitoare, deci schimbarea nu poate fi citita de aici. marcaj [Anexa nr.1 modificata prin LP159 ...]; marcajul LP71 dispare. Versiunea ingerata in dimineata de 6 septembrie si arhivata |
 
 ## Unde a fost gasit fiecare marcaj
@@ -820,6 +852,20 @@ Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar
   - [Art.103 al. (6) modificat prin LP138 din 09.07.26, MO338/28.07.26 art. 344; în vigoare 28.10.26]
 - **L-156-1998--2026-10-28 art. 5**, `raw/papers/moldova-legal/viitor/L-156-1998--2026-10-28.md`, liniile [212]
   - [Art. 5 al.(2), lit. c) în redacția LP138 din 09.07.26, MO338/28.07.26 art. 344; în vigoare 28.10.26]
+- **L-320-2012--2026-10-31 art. 7 lit.o)**, `raw/papers/moldova-legal/viitor/L-320-2012--2026-10-31.md`, liniile [158]
+  - [Art.7 lit.o) în redacția LP52 din 09.04.26, MO186-189/30.04.26 art.153; în vigoare 31.10.26]
+- **L-320-2012--2026-10-31 art. 10**, `raw/papers/moldova-legal/viitor/L-320-2012--2026-10-31.md`, liniile [172, 174]
+  - [Art.10 al.(2) în redacția LP52 din 09.04.26, MO186-189/30.04.26 art.153; în vigoare 31.10.26]
+- **L-320-2012--2026-10-31 art. 13**, `raw/papers/moldova-legal/viitor/L-320-2012--2026-10-31.md`, liniile [201, 203]
+  - [Art.13 al.(1), lit.c^1) introdusă LP52 din 09.04.26, MO186-189/30.04.26 art.153; în vigoare 31.10.26]
+- **L-320-2012--2026-10-31 art. 16**, `raw/papers/moldova-legal/viitor/L-320-2012--2026-10-31.md`, liniile [250]
+  - [Art.16 al.(1) modificat prin LP52 din 09.04.26, MO186-189/30.04.26 art.153; în vigoare 31.10.26]
+- **L-320-2012--2026-10-31 art. 19 lit.h^1)**, `raw/papers/moldova-legal/viitor/L-320-2012--2026-10-31.md`, liniile [277]
+  - [Art.19 lit.h^1) introdusă prin LP52 din 09.04.26, MO186-189/30.04.26 art.153; în vigoare 31.10.26]
+- **L-320-2012--2026-10-31 art. 21**, `raw/papers/moldova-legal/viitor/L-320-2012--2026-10-31.md`, liniile [310]
+  - [Art.21 al.(4), lit.j^1) introdusă prin LP52 din 09.04.26, MO186-189/30.04.26 art.153; în vigoare 31.10.26]
+- **L-320-2012--2026-10-31 art. 22 lit.g)**, `raw/papers/moldova-legal/viitor/L-320-2012--2026-10-31.md`, liniile [328]
+  - [Art.22 lit.g) în redacția LP52 din 09.04.26, MO186-189/30.04.26 art.153; în vigoare 31.10.26]
 - **L-68-2013--2026-11-10 anexa nr. 1**, `raw/papers/moldova-legal/viitor/L-68-2013--2026-11-10.md`, liniile [554]
   - [Anexa nr.1 în redacția LP78 din 07.05.26, MO202-205/09.05.26 art.190; în vigoare 10.11.26]
 - **L-68-2013--2026-11-10 art. 2**, `raw/papers/moldova-legal/viitor/L-68-2013--2026-11-10.md`, liniile [111]
@@ -1044,6 +1090,8 @@ Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar
   - [Art.28 în redacția LP165 din 30.07.26, MO435-438/09.09.26 art.448; în vigoare 09.12.26]
 - **L-165-2023--2026-12-09 art. 29**, `raw/papers/moldova-legal/viitor/L-165-2023--2026-12-09.md`, liniile [543]
   - [Art.29 în redacția LP165 din 30.07.26, MO435-438/09.09.26 art. 448; în vigoare 09.12.26]
+- **L-200-2010--2026-12-09 art. 43^1**, `raw/papers/moldova-legal/viitor/L-200-2010--2026-12-09.md`, liniile [959]
+  - [Art.43^1 al.(8), lit.t) introdusă prin LP166 din 30.07.26, MO435-438/09.09.26 art. 450; în vigoare 09.12.26]
 - **L-52-2014--2026-12-09 art. 16 lit.h^2)**, `raw/papers/moldova-legal/viitor/L-52-2014--2026-12-09.md`, liniile [269]
   - [Art. 16 lit.h^2) în redacția LP165 din 30.07.26, MO435-438/09.09.26 art. 448; în vigoare 09.12.26]
 - **L-82-2017--2026-12-09 art. 18**, `raw/papers/moldova-legal/viitor/L-82-2017--2026-12-09.md`, liniile [319, 331, 333, 346]
@@ -1340,6 +1388,8 @@ Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar
   - [Art.2 modificat prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
 - **L-229-2010--2027-01-01 art. 3**, `raw/papers/moldova-legal/viitor/L-229-2010--2027-01-01.md`, liniile [113]
   - [Art.3 noțiune modificată prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
+- **L-234-2021--2027-01-01 art. 24**, `raw/papers/moldova-legal/viitor/L-234-2021--2027-01-01.md`, liniile [351]
+  - [Art.24 al.(8) în redacția LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
 - **L-235-2011--2027-01-01 art. 9**, `raw/papers/moldova-legal/viitor/L-235-2011--2027-01-01.md`, liniile [249]
   - [Art.9 al.(3) în redacția LP91 din 28.05.26, MO238-241/11.06.26 art.240; în vigoare 01.01.27]
 - **L-270-2018--2027-01-01 anexa nr. 3**, `raw/papers/moldova-legal/viitor/L-270-2018--2027-01-01.md`, liniile [513]
@@ -1368,6 +1418,22 @@ Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar
   - [Art.33 lit.q) în redacția LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
 - **L-435-2006--2027-01-01 art. 4**, `raw/papers/moldova-legal/viitor/L-435-2006--2027-01-01.md`, liniile [136, 154, 156]
   - [Art.4 al.(1), lit.h) în redacția LP200 din 03.09.26, MO448-451/14.09.26 art. 477; în vigoare 01.01.27]
+- **L-489-1999--2027-01-01 art. 1**, `raw/papers/moldova-legal/viitor/L-489-1999--2027-01-01.md`, liniile [170]
+  - [Art.1 noțiunea ,,autoritate/instituție publică la autogestiune” exclusă prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
+- **L-489-1999--2027-01-01 art. 1**, `raw/papers/moldova-legal/viitor/L-489-1999--2027-01-01.md`, liniile [174]
+  - [Art.1 noțiunea ,,cod personal de asigurări sociale” exclusă prin LP335 din 29.12.25, MO55-58/23.01.26 art.2; în vigoare 01.01.27​]
+- **L-489-1999--2027-01-01 anexa nr. 1**, `raw/papers/moldova-legal/viitor/L-489-1999--2027-01-01.md`, liniile [679]
+  - [Anexa nr.1 modificată prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]
+- **L-489-1999--2027-01-01 art. 5**, `raw/papers/moldova-legal/viitor/L-489-1999--2027-01-01.md`, liniile [248, 265]
+  - [Art.5 al.(1), lit.b) modificată prin LP335 din 29.12.25, MO55-58/23.01.26 art.2; în vigoare 01.01.27​]
+- **L-489-1999--2027-01-01 art. 8**, `raw/papers/moldova-legal/viitor/L-489-1999--2027-01-01.md`, liniile [283]
+  - [Art.8 abrogat prin LP335 din 29.12.25, MO55-58/23.01.26 art.2; în vigoare 01.01.27​​]
+- **L-489-1999--2027-01-01 art. 8^1**, `raw/papers/moldova-legal/viitor/L-489-1999--2027-01-01.md`, liniile [288]
+  - [Art.8^1 introdus prin LP335 din 29.12.25, MO55-58/23.01.26 art.2; în vigoare 01.01.27​]
+- **L-489-1999--2027-01-01 art. 35**, `raw/papers/moldova-legal/viitor/L-489-1999--2027-01-01.md`, liniile [512]
+  - [Art.35 al.(2) modificat prin LP335 din 29.12.25, MO55-58/23.01.26 art.2; în vigoare 01.01.27​]
+- **L-489-1999--2027-01-01 art. 49**, `raw/papers/moldova-legal/viitor/L-489-1999--2027-01-01.md`, liniile [603]
+  - [Art.49 al.(1), lit.j) modificată prin LP335 din 29.12.25, MO55-58/23.01.26 art.2; în vigoare 01.01.27​]
 - **L-74-2020--2027-01-01 art. 1**, `raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md`, liniile [118, 123, 128, 133, 134, 136, 139, 141, 143, 144]
   - [Art.1 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]
 - **L-74-2020--2027-01-01 anexa nr. 1**, `raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md`, liniile [2074]
@@ -1728,6 +1794,10 @@ Cazul invers al sectiunii precedente: wiki-ul tine textul in vigoare astazi, iar
   - [Art.16 al.(5) în redacția LP185 din 24.08.26, MO477-480/24.09.26 art. 495; în vigoare 24.03.27]
 - **L-149-2006--2027-03-24 art. 35**, `raw/papers/moldova-legal/viitor/L-149-2006--2027-03-24.md`, liniile [477]
   - [Art.35 în redacția LP185 din 24.08.26, MO477-480/24.09.26 art. 495; în vigoare 24.03.27]
+- **L-320-2012--2027-03-29 art. 5**, `raw/papers/moldova-legal/viitor/L-320-2012--2027-03-29.md`, liniile [128]
+  - [Art.5 al.(2) modificat prin LP209 din 17.09.26, MO486-489/29.09.26 art.505; în vigoare 29.03.27]
+- **L-320-2012--2027-03-29 art. 6**, `raw/papers/moldova-legal/viitor/L-320-2012--2027-03-29.md`, liniile [141]
+  - [Art.6 al.(5) introdus prin LP209 din 17.09.26, MO486-489/29.09.26 art.505; în vigoare 29.03.27]
 - **L-59-2012--2027-03-29 art. 5^1**, `raw/papers/moldova-legal/viitor/L-59-2012--2027-03-29.md`, liniile [145]
   - [Art.5^1 în redacția LP209 din 17.09.26, MO486-489/29.09.26 art.505; în vigoare 29.03.27]
 - **COD-218-2008--2027-05-13 art. 252^1**, `raw/papers/moldova-legal/viitor/COD-218-2008--2027-05-13.md`, liniile [4265]

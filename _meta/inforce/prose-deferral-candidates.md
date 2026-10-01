@@ -8,7 +8,7 @@ generated_by: _meta/inforce/build_prose_deferral_candidates.py
 
 **Fisier generat. Nu se editeaza manual.** Registrul in-force citeste numai marcajele intre paranteze; amanarile scrise in proza articolului final (CLAUDE.md, intrebarea 9) ii scapa. Aici sint paragrafele din ultimele 6 articole ale fiecarui act care spun `intra in vigoare` sau `se aplica` impreuna cu o exceptie, o conditie sau o data viitoare (dupa 2026-09-26); datele simple deja trecute nu se listeaza. **Sint candidati, nu constatari**: multe sint simple date de intrare in vigoare deja trecute. Coloana *in registru* spune daca actul are deja o intrare in registrul in-force.
 
-51 paragrafe in 35 acte.
+58 paragrafe in 39 acte.
 
 | Act | Articol | in registru | Paragraf |
 |---|---|---|---|
@@ -23,6 +23,7 @@ generated_by: _meta/inforce/build_prose_deferral_candidates.py
 | `COD-95-2021` | ## Articolul 426. Dispoziții finale | da | c) art. 49, 140, 180 și art. 336–337, care intră în vigoare la 1 ianuarie 2027. |
 | `COD-95-2021` | ## Articolul 426. Dispoziții finale | da | d) va aproba actul normativ de punere în aplicare a prezentului cod, care va intra în vigoare la aceeași dată cu prezentul cod. |
 | `L-100-2001` | ## Articolul 87. Intrarea în vigoare a prezentei legi | nu | articolului 14 alineatul (1), care intră în vigoare la 1 ianuarie 2002; |
+| `L-107-2026` | ## Articolul 98. Intrarea în vigoare și aplicabilitatea legii | da | (1) Prezenta lege intră în vigoare la 2 aprilie 2027. |
 | `L-119-2018` | ## Articolul 31. Dispoziții finale | da | (1) Prezenta lege intră în vigoare la expirarea termenului de 6 luni de la data publicării în Monitorul Oficial al Republicii Moldova, cu excepția alin. (3) și (6) din art. 25, care intră în vigoare la expirarea a 2 ani de la data |
 | `L-1260-2002` | ## Articolul 68 | nu | Prezenta lege intră în vigoare peste 3 luni de la data publicării, cu excepţia art.67 care intră în vigoare la data publicării. |
 | `L-132-2016` | ## Articolul 43. Dispoziții finale | da | Prezenta lege intră în vigoare la data de 1 august 2016, cu excepția art. 9–13, 18 și art. 44 alin. (2), care intră în vigoare din momentul publicării legii. |
@@ -33,7 +34,12 @@ generated_by: _meta/inforce/build_prose_deferral_candidates.py
 | `L-151-2022` | ## Articolul 29. Intrarea în vigoare și data punerii în aplicare | nu | a) art. 1 alin. (4), art. 3, 4, 12, 21 și art. 30 alin. (2), care intră în vigoare la data publicării prezentei legi; |
 | `L-151-2022` | ## Articolul 29. Intrarea în vigoare și data punerii în aplicare | nu | b) art. 5 alin. (6)–(8), care intră în vigoare la expirarea termenului de 18 luni de la data publicării prezentei legi; |
 | `L-151-2022` | ## Articolul 29. Intrarea în vigoare și data punerii în aplicare | nu | c) art. 20, care intră în vigoare la expirarea termenului de 24 de luni de la data publicării prezentei legi. |
+| `L-153-2025` | ## Articolul 157. Dispoziții finale | da | (1) Prezenta lege intră în vigoare peste o lună de la data publicării în Monitorul Oficial al Republicii Moldova, cu excepția prevederilor: |
+| `L-153-2025` | ## Articolul 157. Dispoziții finale | da | a) art. 102, care intră în vigoare la data de 1 ianuarie 2026; |
+| `L-153-2025` | ## Articolul 157. Dispoziții finale | da | b) art. 76, 77, 86 și 87, care intră în vigoare la data de 1 ianuarie 2029; |
+| `L-153-2025` | ## Articolul 157. Dispoziții finale | da | c) art. 97 și art. 154 alin. (4)–(6), care intră în vigoare la data aderării Republicii Moldova la Uniunea Europeană. |
 | `L-160-2011` | ## Articolul 14. Dispoziţii finale | da | Prezenta lege intră în vigoare la 6 luni de la data publicării, cu excepţia art. 13 alin. (1), care intră în vigoare la data publicării, şi art. 11 alin. (6), care intră în vigoare la 1 februarie 2012. |
+| `L-161-2014` | ## Articolul 51. | nu | Prezenta lege intră în vigoare la data de 1 ianuarie 2015, cu excepţia art.33 alin.(2), care va intra în vigoare în termen de 9 luni de la data publicării prezentei legi. |
 | `L-162-2023` | ## Articolul 35. Intrarea în vigoare | nu | (1) Prezenta lege intră în vigoare la 12 luni de la data publicării în Monitorul Oficial al Republicii Moldova, cu excepția prevederilor: |
 | `L-162-2023` | ## Articolul 35. Intrarea în vigoare | nu | b) pct. 1, 2 și 4 din anexa nr. 2, care intră în vigoare la data aprobării reglementărilor tehnice care stabilesc dispoziții specifice privind supravegherea pieței pentru produsele respective. |
 | `L-180-2026` | ## Articolul 103. Taxe sau plăți de autorizare și supraveghere a piețe | da | (4) Cuantumul taxelor sau plăților nu poate fi majorat pe parcursul aceleiași perioade de gestiune. Orice modificare privind cuantumul taxelor sau plăților, categoriile de persoane sau entități obligate la plată se aplică începând |
@@ -53,6 +59,7 @@ generated_by: _meta/inforce/build_prose_deferral_candidates.py
 | `L-317-2025` | ## Articolul XVII. | nu | Art. XVII. – La articolul XXIV alineatul (1) din Legea nr. 140/2025 pentru modificarea unor acte normative (migrarea autorităților administrative centrale) (Monitorul Oficial al Republicii Moldova, 2025, nr. 340–342, art. 391), du |
 | `L-317-2025` | ## Articolul XIX. | nu | „Prin derogare de la art. 56 alin. (2) din Legea nr. 100/2017 cu privire la actele normative, prezenta lege intră în vigoare la data de 30 decembrie 2025, cu excepția:”. |
 | `L-325-2025` | ## Articolul 90. Dispoziții finale | da | (1) Prezenta lege intră în vigoare la data de 1 ianuarie 2027. |
+| `L-489-1999` | ## Articolul 55. Preluarea activităţilor şi a patrimoniului | da | b) preia de la Fondul Social, pe bază, de protocol şi bilanţ contabil, bugetul asigurărilor sociale de stat, precum şi indicatorii aferenţi cheltuielilor de personal, în raport cu numărul personalului preluat, care se aplică pînă  |
 | `L-57-2006` | ## Articolul 37. | nu | (1) Prezenta lege intră în vigoare după 2 luni de la data publicării, cu excepţia art.22 alin. (11) care intră în vigoare la 1 august 2008. |
 | `L-66-2017` | ## Articolul XVII. | nu | (7) Prevederile art. 48 şi 48^32 din Codul civil intră în vigoare după crearea condiţiilor necesare, dar nu mai tîrziu de 2 ani de la data publicării prezentei legi. |
 | `L-69-2016` | ## Articolul 70 | nu | (1) Prezenta lege intră în vigoare la 6 luni de la data publicării, cu excepția capitolului VII, care va intra în vigoare la data publicării. |

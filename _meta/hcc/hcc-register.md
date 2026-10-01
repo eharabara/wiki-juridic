@@ -2,7 +2,7 @@
 
 Generat 2026-10-01 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
 
-45 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 113 hotariri distincte. Articolul atins este cunoscut pentru 54 marcaje inca prezente in text si 161 dispozitii recuperate din istoricul versiunilor; **0 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
+51 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 118 hotariri distincte. Articolul atins este cunoscut pentru 56 marcaje inca prezente in text si 168 dispozitii recuperate din istoricul versiunilor; **2 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
 
 Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiunea hotaririi si a intinderii anularii. Un act din tabelul „fara articol atribuit” se citeaza cu avertismentul ca poarta hotariri ale Curtii neverificate la nivel de articol.
 
@@ -22,6 +22,7 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `COD-225-2003` | 155718 | 2026-08-06 | 9 | 9 | 0 |
 | `COD-325-2022` | 153001 | 2026-08-26 | 4 | 4 | 0 |
 | `COD-443-2004` | 155721 | 2026-08-06 | 6 | 6 | 0 |
+| `COD-828-1991` | 142259 | 2025-03-07 | 2 | 0 | 2 |
 | `COD-985-2002` | 151140 | 2026-08-28 | 8 | 8 | 0 |
 | `CONST-1994` | 145723 | 2024-11-05 | 2 | 2 | 0 |
 | `L-100-2001` | 151282 | 2025-10-21 | 1 | 1 | 0 |
@@ -32,17 +33,22 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-133-2016` | 152995 | 2026-09-13 | 1 | 1 | 0 |
 | `L-135-2007` | 153674 | 2026-03-27 | 1 | 1 | 0 |
 | `L-136-2017` | 143456 | 2024-06-06 | 1 | 1 | 0 |
+| `L-140-2001` | 151091 | 2025-12-31 | 1 | 1 | 0 |
+| `L-142-2008` | 110170 | 2012-07-11 | 1 | 1 | 0 |
 | `L-149-2012` | 152605 | 2025-12-31 | 2 | 2 | 0 |
 | `L-156-1998` | 148342 | 2025-05-01 | 5 | 5 | 0 |
 | `L-158-2008` | 155439 | 2026-09-13 | 1 | 1 | 0 |
 | `L-181-2014` | 153027 | 2025-12-31 | 2 | 2 | 0 |
+| `L-200-2010` | 154717 | 2026-06-04 | 1 | 1 | 0 |
 | `L-213-2023` | 152741 | 2026-01-23 | 1 | 1 | 0 |
 | `L-230-2022` | 149374 | 2025-06-10 | 1 | 1 | 0 |
 | `L-24-2008` | 110184 | 2018-11-08 | 1 | 1 | 0 |
 | `L-270-2018` | 155894 | 2026-09-13 | 3 | 3 | 0 |
 | `L-271-2008` | 155885 | 2026-09-13 | 1 | 1 | 0 |
 | `L-283-2003` | 151359 | 2025-12-30 | 1 | 1 | 0 |
+| `L-294-2007` | 148792 | 2026-01-01 | 2 | 2 | 0 |
 | `L-303-2013` | 151413 | 2025-12-30 | 2 | 2 | 0 |
+| `L-320-2012` | 155889 | 2026-09-13 | 1 | 1 | 0 |
 | `L-325-2013` | 142068 | 2024-03-29 | 2 | 2 | 0 |
 | `L-344-1994` | 155592 | 2026-07-09 | 3 | 3 | 0 |
 | `L-382-2001` | 149501 | 2026-01-01 | 1 | 1 | 0 |
@@ -211,6 +217,8 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-133-2016` | 23 | al.(5^1) | subunitate | HCC29/2021-09-21 | MO256-260/22.10.21 art.184 | marcaj in text, l.366 |
 | `L-135-2007` | 30 | al.(2) [numerotarea de la data hotaririi] | subunitate („Pentru înregistrarea în Registrul de stat al persoanelor juridice a modificărilor operate …”) | HCC27/2016-09-27 | MO423-429/09.12.16 art.102 | versiunea 96610 @ 2016-09-27, verificat 2026-09-15 |
 | `L-136-2017` | 23 | al.(6) | in parte | HCC7/2021-03-04 | MO82-85/26.03.21 art.42 | marcaj in text, l.354 |
+| `L-140-2001` | 9^1 | al.(3) | subunitate | HCC3/2025-04-01 | MO233-236/16.05.25 art.61 | marcaj in text, l.278 |
+| `L-142-2008` | 31 | alin. (7) | subunitate | HCC26/2016-09-27 | MO416-422/02.12.16 art.101 | versiunea 91021 @ 2016-09-27, verificat 2026-10-01 |
 | `L-149-2012` | 32 |  | omisiune legislativa („mecanism pentru recuperarea cheltuielilor efectuate în avans şi pentru încasarea remuneraț…”) | HCC8/2022-04-05 | MO106-114/15.04.22 art.57 | versiunea 130929 @ 2022-04-05, verificat 2026-09-15 |
 | `L-149-2012` | 84 |  | omisiune legislativa („durata maximă pentru care poate fi dispusă obligația de a nu părăsi teritoriul țării sau l…”) | HCC21/2020-08-04 | MO205-211/14.08.20 art.110 | versiunea 123197 @ 2020-08-04, verificat 2026-09-15 |
 | `L-156-1998` | 2 | alin. (1) | text din articol („domiciliată în Republica Moldova”) | HCC10/2018-05-08 | MO167-175/25.05.18 art.87 | versiunea 108444 @ 2018-05-25, verificat 2026-09-30 |
@@ -224,6 +232,10 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-158-2008` | 53 | lit.c) | subunitate | HCC6/2016-03-03 | MO123-127/06.05.16 art.37 | versiunea 92576 @ 2016-03-03, verificat 2026-09-15 |
 | `L-181-2014` | 68 | al.(1) și (2), sintagmele „doar după rămânerea irevocabilă a hotărârii judecătoreşti” și „în baza unei hotărâri judecătoreşti irevocabile” | text din articol („doar după rămânerea irevocabilă a hotărârii judecătoreşti; în baza unei hotărâri judecător…”) | HCC32/2016-11-17 | MO40-49/10.02.17 art.9 | versiunea 153046 @ 2016-11-17, verificat 2026-09-24 |
 | `L-181-2014` | 80 | al.(2) | subunitate | HCC10/2017-03-16 | MO119-126/14.04.17 art.48 | versiunea 153046 @ 2017-03-16, verificat 2026-09-24 |
+| `L-200-2010` | 55 | alin. (3) | text din articol („în decizie nu vor fi menționate motivele care stau la baza ei”) | HCC27/2020-11-13 | MO332-342/11.12.20 art.183 | versiunea 124308 @ 2020-11-13, verificat 2026-10-01 |
+| `L-200-2010` | 56 | alin. (2) | text din articol („Astfel de date şi informaţii nu pot fi sub nici o formă, direct sau indirect, aduse la cun…”) | HCC27/2020-11-13 | MO332-342/11.12.20 art.183 | versiunea 124308 @ 2020-11-13, verificat 2026-10-01 |
+| `L-200-2010` | 60 | alin. (4) | text din articol („și e)”) | HCC27/2020-11-13 | MO332-342/11.12.20 art.183 | versiunea 124308 @ 2020-11-13, verificat 2026-10-01 |
+| `L-200-2010` | 63 | alin. (4) | text din articol („(1) și”) | HCC27/2020-11-13 | MO332-342/11.12.20 art.183 | versiunea 124308 @ 2020-11-13, verificat 2026-10-01 |
 | `L-213-2023` | 2 | al.(2), teza intai: textul „Taxa de timbru nu este susceptibilă de scutire, amânare sau eșalonare, cu excepțiile prevăzute de prezenta lege.” | text din articol („Taxa de timbru nu este susceptibilă de scutire, amânare sau eșalonare, cu excepțiile prevă…”) | HCC20/2024-09-26 | MO423-426/10.10.24 art.155 | versiunea 152741 @ 2024-09-26, verificat 2026-09-24 |
 | `L-230-2022` | 71 | al.(4) | omisiune legislativa | HCC7/2025-06-10 | MO346-349/04.07.25 art.77 | marcaj in text, l.971 |
 | `L-230-2022` | ? |  | omisiune legislativa | HCC7/2025-06-10 | MO346-349/04.07.25 art.77 | marcaj in text, l.1771 |
@@ -238,8 +250,11 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-271-2008` | 15 | al.(5) | in parte | HCC32/2017-12-05 | MO40-47/09.02.18 art. 14 | marcaj in text, l.191 |
 | `L-283-2003` | 22^1 | alin. (1) lit. c) | text din articol („nu au fost condamnate pentru infractiuni savirsite cu intentie, conform unei hotariri jude…”) | HCC11/2023-07-20 | MO277-281/01.08.23 art.90 | versiunea 138419 @ 2023-07-20, verificat 2026-09-25 |
 | `L-283-2003` | 27^3 | lit. d) | subunitate | HCC11/2023-07-20 | MO277-281/01.08.23 art.90 | versiunea 138419 @ 2023-07-20, verificat 2026-09-25 |
+| `L-294-2007` | 8 | alin. (1) lit. d) | text din articol („al căror număr nu poate fi mai mic de patru mii, + La momentul constituirii partidului, me…”) | HCC5/2020-02-25 | MO102/10.04.20 art.51 | versiunea 121246 @ 2020-02-25, verificat 2026-10-01 |
+| `L-294-2007` | 4 | alin. (5) | subunitate | HCC12/2013-06-04 | MO167-172/02.08.13 art.22 | versiunea 25042 @ 2013-06-04, verificat 2026-10-01 |
 | `L-303-2013` | 19 | alin. (5) | text din articol („operatorului coordonat cu”) | HCC28/2016-10-11 | MO459-471/23.12.16 art.109 | versiunea 97265 @ 2016-10-11, verificat 2026-09-25 |
 | `L-303-2013` | 19 | alin. (4) | text din articol („gratuit la balanta”) | HCC30/2016-11-01 | MO478-490/30.12.16 art.111 | versiunea 97432 @ 2016-11-01, verificat 2026-09-25 |
+| `L-320-2012` | 7 | lit.e) | text din articol („la propunerea Guvernatorului Găgăuziei și cu acordul Adunării Populare a acesteia”) | HCC8/2026-07-09 | MO351-354/31.07.26 art. 132 | marcaj in text, l.137 |
 | `L-325-2013` | 17 | al.(2) | subunitate | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.301 |
 | `L-325-2013` | 17 | al.(3) | subunitate | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.303 |
 | `L-325-2013` | 17 | al.(4) | subunitate | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.305 |
@@ -282,4 +297,6 @@ Marcajul s-a pierdut la o reimprospatare anterioara a consolidarii. Articolul se
 
 | act | hotarire | rindul din fisa |
 |---|---|---|
+| `COD-828-1991` | HCC29/1997-10-27 | l.90: HCC29 din 27.10.1997 – MO76/1997 art. 31 |
+| `COD-828-1991` | HCC110/1996-01-25 | l.94: HCC110 din 25.01.1996 – MO10/1996, art 10 |
 

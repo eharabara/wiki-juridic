@@ -222,3 +222,5 @@ adecvatelor a Comisiei) care nu au fișier propriu în vault. Planul:
 ## Legea 182/2008 (ingerată 2026-09-30)
 
 Textul legii a cărei anexă conține Regulamentul Centrului, citat mai sus ca temei al Deciziei 581/2015, este acum în vault ca [[L-182-2008]] (abrogată de la 23.08.2026 prin art. 90 alin. (3) lit. a) L-195/2024; anexele nu sînt ancorate).
+
+- **Legătură adăugată în valul 26 al cozii de ingerare (2026-10-01):** [[HG-1123-2010]] — Cerințele de securitate a datelor, abrogate la 15.11.2024 (citate de trei ordine CNPDCP).

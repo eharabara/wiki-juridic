@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-30 | Total pages: 345
+> Last updated: 2026-09-30 | Total pages: 381
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -116,6 +116,42 @@
 - [[L-196-2025]] — Legea nr. 196/2025 privind siguranța generală a produselor: în vigoare 11.03.2026, 37 de ancore; abrogă L-422/2006; se abrogă la aderarea la UE; art. 24 amînat pînă la ratificarea acordului Safety Gate (proză, nu în registru); transpune parțial Reg. (UE) 2023/988.
 - [[L-186-2008]] — Legea nr. 186/2008 securității și sănătății în muncă: consolidare 2026-01-01, 29 de ancore, 39 de marcaje; citată de COD-154/2003 (7).
 - [[L-271-2008]] — Legea nr. 271/2008 privind verificarea titularilor și candidaților la funcții publice: consolidare 2026-09-13, 22 de ancore; HCC32/2017 pe art. 5 lit. a), art. 15 alin. (2), (4), (5) (judecători).
+- [[L-107-2025]] — Legea nr. 107/2025 privind răspunderea de mediu: consolidare 2026-04-25, 27 de ancore; norma-cadru la care trimit COD-218/2008, L-1538/1998, L-272/2011, L-94/2007.
+- [[L-140-2001]] — Legea nr. 140/2001 privind Inspectoratul de Stat al Muncii: consolidare 2025-12-31, 27 de ancore; HCC3/2025 pe art. 9^1 alin. (3); citată de Codul muncii, L-186/2008, L-105/2018.
+- [[L-1402-2002]] — Legea nr. 1402/2002 a serviciilor publice de gospodărie comunală: consolidare 2025-04-22, 28 de ancore în forma „Art.N. -”; citată de L-187/2022, L-303/2013, L-436/2006.
+- [[L-1409-1997]] — Legea nr. 1409/1997 cu privire la medicamente: **ABROGATĂ de la 17.08.2025** prin LP153/2025 (succesorul, nedeținut); 32 de ancore, art. 25 lipsește.
+- [[L-161-2011]] — Legea nr. 161/2011 privind ghișeul unic în activitatea de întreprinzător: consolidare 2017-10-27, 25 de ancore; citată de L-160/2011, L-192/1998 (CNPF), L-548/1995 (BNM), L-10/2009.
+- [[L-142-2008]] — Legea nr. 142/2008 cu privire la ipotecă: **ABROGATĂ de la 01.03.2019** prin L-133/2018 (succesorul, deținut); 46 de ancore (cinci inserate: „Articolul18.” fără spațiu în sursă); HCC26/2016 în antet.
+- [[L-163-2010]] — Legea nr. 163/2010 privind autorizarea lucrărilor de construcție: **ABROGATĂ de la 30.01.2025** prin COD-434/2023 (succesorul, deținut); 30 de ancore; versiunea abrogării, nu rîndul de căutare.
+- [[HG-1123-2010]] — HG nr. 1123/2010, Cerințele de securitate a datelor personale: **ABROGATĂ de la 15.11.2024** prin HG678/2024 (nedeținută); act în puncte; citată de trei ordine CNPDCP.
+- [[COD-828-1991]] — Codul funciar nr. 828/1991: golit de COD-22/2024 (CF22/2024, în vigoare 07.03.2025), rămîn art. 11–13 și 40; trei HCC din 1996–1997 în antet; citat de HG-1170/2016, COD-22/2024, L-29/2018.
+- [[L-160-2017]] — Legea nr. 160/2017 cu privire la biblioteci: consolidare 2023-11-25, 43 de ancore, 99 de marcaje; citată de L-435/2006, L-436/2006, L-230/2022.
+- [[L-75-2020]] — Legea nr. 75/2020 privind constatarea încălcărilor AML/CFT: consolidare 2026-08-13, 64 de ancore, art. 52 lipsește; procedura de sancționare a entităților raportoare (CNPF/BNM); citată de L-308/2017 (4), L-548/1995 (2).
+- [[L-77-2016]] — Legea nr. 77/2016 cu privire la parcurile pentru tehnologia informației: consolidare 2024-05-31, 22 de ancore; art. 15 citat de Codul fiscal, impozitul unic citat de L-1585/1998.
+- [[L-234-2021]] — Legea nr. 234/2021 cu privire la serviciile publice: consolidare 2025-09-20, 31 de ancore; versiune 2027-01-01 (LP327/2025) în viitor/; noțiunea de serviciu public din L-160/2011, L-227/2025.
+- [[L-320-2012]] — Legea nr. 320/2012 cu privire la Poliție și statutul polițistului: consolidare 2026-09-13, arts. 32–67 abrogate; HCC8/2026 pe art. 7 lit. e); două versiuni viitoare (2026-10-31, 2027-03-29) în viitor/.
+- [[L-66-2008]] — Legea nr. 66/2008 privind indicațiile geografice: în vigoare pînă la **02.04.2027**, cînd o abrogă LP107/2026 (succesorul nedeținut); 64 de ancore, 60 de marcaje; versiunea cu abrogarea în viitor/.
+- [[HG-411-2022]] — HG nr. 411/2022, Regulamentul privind transferurile de deșeuri: act în puncte, transpune Reg. (CE) 1013/2006; citat de L-209/2016 (10), L-107/2025, L-43/2023.
+- [[L-1227-1997]] — Legea nr. 1227/1997 cu privire la publicitate: **ABROGATĂ de la 08.01.2023** prin L-62/2022 (succesorul, deținut); 35 de ancore (art. 3 „Articolul. 3.” inserat); citată încă de L-171/2012 art. 49 și 114 (CNPF).
+- [[L-17-2007]] — Legea nr. 17/2007 privind protecția datelor personale: **ABROGATĂ de la 14.04.2012** prin L-133/2011 (ea însăși abrogată prin L-195/2024); 19 ancore; citată încă de HG-1123/2010 și L-182/2008.
+- [[L-218-2010]] — Legea nr. 218/2010 privind patrimoniul arheologic: consolidare 2025-09-12, 48 de ancore; art. 6 alin. (2), (3) citate de COD-434/2023 și L-163/2010.
+- [[L-467-2003]] — Legea nr. 467/2003 cu privire la informatizare: consolidare 2025-01-01, 38 de ancore, art. 20 lipsește; citată de L-72/2025, L-7/2016, L-82/2024.
+- [[L-489-1999]] — Legea nr. 489/1999 privind sistemul public de asigurări sociale: consolidare 2026-07-01, 57 de ancore, arts. 27 și 51 lipsesc; versiune 2027-01-01 în viitor/; consolidarea 2030 (aderare) neingerată.
+- [[L-81-2004]] — Legea nr. 81/2004 cu privire la investițiile: consolidare 2023-09-23, 26 de ancore, art. 19 lipsește; citată de L-174/2021 (2), L-133/2018, L-440/2001.
+- [[L-153-2025]] — Legea nr. 153/2025 cu privire la medicamente: în vigoare din 17.08.2025, 161 de ancore (art. 68 „Articol” inserat); abrogă L-1409/1997; arts. 76, 77, 86, 87 amînate la 01.01.2029 (în registrul in-force), art. 97 și 154 alin. (4)–(6) la aderare.
+- [[L-835-1996]] — Legea nr. 835/1996 privind principiile urbanismului: **ABROGATĂ de la 30.01.2025** prin COD-434/2023 (succesorul, deținut); 71 de ancore în forma „Art.N. -”.
+- [[L-107-2026]] — Legea nr. 107/2026 privind indicațiile geografice: **intră în vigoare la 02.04.2027** (fișier ținut = versiune viitoare, singura), abrogă L-66/2008; 99 de ancore; transpune Dir. 2004/48/CE și parțial Reg. (UE) 2023/2411.
+- [[L-1530-1993]] — Legea nr. 1530/1993 privind ocrotirea monumentelor: consolidare 2023-06-08, 66 de ancore (arts. 41, 43–45 „Art. N – abrogat.” inserate), art. 48 lipsește; citată de COD-22/2024, COD-434/2023, L-282/2023, L-835/1996.
+- [[L-200-2010]] — Legea nr. 200/2010 privind regimul străinilor: în vigoare, **se abrogă la 01.06.2027** prin LP66/2026 (nedeținută); 165 de ancore; HCC27/2020; două versiuni viitoare în viitor/.
+- [[HG-589-2017]] — HG nr. 589/2017, Regulamentul transporturilor rutiere de mărfuri periculoase: act în puncte, transpune Dir. (UE) 2022/1999; citată de L-209/2016, L-67/2024, HG-411/2022.
+- [[HG-99-2018]] — HG nr. 99/2018, Lista deșeurilor: act în puncte, temei art. 7, 8, 68 din L-209/2016; citată de L-209/2016 (5) și HG-411/2022 (4).
+- [[HG-483-2019]] — HG nr. 483/2019, Regulamentul de formare și atestare a specialiștilor (gaze fluorurate): act în puncte, transpune Reg. (UE) 517/2014; citată de L-43/2023 (7).
+- [[L-847-2002]] — Legea nr. 847/2002 privind sistemul de salarizare: consolidare 2026-06-30, 48 de ancore; citată de L-19/2016, COD-154/2003, L-199/2010.
+- [[L-294-2007]] — Legea nr. 294/2007 privind partidele politice: consolidare 2026-01-01, 40 de ancore; HCC5/2020 și HCC12/2013; citată de COD-325/2022 (9).
+- [[L-20-2016]] — Legea nr. 20/2016 cu privire la standardizarea națională: consolidare 2026-02-28, 26 de ancore, art. 24 lipsește; spații inguste în art. 19 (corecție a scriptului de unire a titlurilor).
+- [[L-1353-2000]] — Legea nr. 1353/2000 privind gospodăriile țărănești: consolidare 2024-11-29, 37 de ancore; citată de L-220/2007 (4), L-845/1992.
+- [[L-299-2022]] — Legea nr. 299/2022 privind prevenirea pierderii și risipei de alimente: consolidare 2024-08-02, 15 ancore; citată de COD-1163/1997 (4), L-209/2016.
+- [[L-161-2014]] — Legea nr. 161/2014 cu privire la administratorii autorizați: consolidare 2025-12-31, 56 de ancore; citată de L-149/2012 (3), L-246/2018.
 - [[L-113-2007]] — Legea nr. 113/2007 a contabilității: din 01.01.2019 se aplică numai instituțiilor bugetare (L-287-2017 art. 36 alin. (3)), dar fișierul reține art. 2 în forma veche; consolidare 2023-06-11, 45 de ancore; temei citat în preambulul HCNPF-38-5-2015 (art. 11 alin. (4)-(5)); coada de ingerare a grafului de citare (7 acte citatoare).
 - [[L-182-2008]] — Legea nr. 182/2008 cu privire la aprobarea Regulamentului CNPDCP: **ABROGATĂ de la 23.08.2026** prin art. 90 alin. (3) lit. a) din L-195/2024 (succesorul, deja deținut); 4 articole ancorate, anexele neancorate; coada de ingerare a grafului de citare (7 acte citatoare, toate din protecția datelor).
 - [[L-982-2000]] — Legea nr. 982/2000 privind accesul la informație: **ABROGATĂ de la 08.01.2024** prin L-148/2023 (succesorul, deja deținut); 25 de ancore; coada de ingerare a grafului de citare (7 acte citatoare, cel mai mare număr rămas).

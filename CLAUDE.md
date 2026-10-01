@@ -198,9 +198,9 @@ strip-and-compare check against a backup proving the body is byte-identical.
 
 ## State of the raw layer
 
-Generated 2026-10-01 03:22 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
+Generated 2026-10-01 08:13 from the files themselves. Do not edit this section by hand; rerun `python3 _meta/coverage/build_coverage.py`. Judgement belongs in the hand-written sections above and below.
 
-297 primary Moldovan acts, 52 EU acquis extracts, 1 Association Agreement extract(s), 294 BNM corpus documents.
+333 primary Moldovan acts, 52 EU acquis extracts, 1 Association Agreement extract(s), 294 BNM corpus documents.
 
 | Act | Articles | Anchors | Consolidation | Note |
 |---|---:|---:|---|---|
@@ -224,6 +224,7 @@ Generated 2026-10-01 03:22 from the files themselves. Do not edit this section b
 | `COD-325-2022` | 252 | 252 | 2026-08-26 | 7 superscript articles normalised; 4 provision(s) declared unconstitutional (HCC register) |
 | `COD-434-2023` | 390 | 390 | 2026-08-06 | clean |
 | `COD-443-2004` | 360 | 360 | 2026-08-06 | 35 superscript articles normalised; 6 provision(s) declared unconstitutional (HCC register) |
+| `COD-828-1991` | 4 | 4 | 2025-03-07 | **2 HCC decision(s) not yet attributed to an article** |
 | `COD-95-2021` | 472 | 472 | 2026-09-01 | 51 superscript articles normalised |
 | `COD-985-2002` | 566 | 566 | 2026-08-28 | 178 superscript articles normalised; 8 provision(s) declared unconstitutional (HCC register) |
 | `CONST-1994` | 157 | 157 | 2024-11-05 | 8 articles numbered in Roman figures; 6 superscript articles normalised; 2 provision(s) declared unconstitutional (HCC register) |
@@ -237,6 +238,7 @@ Generated 2026-10-01 03:22 from the files themselves. Do not edit this section b
 | `HBN-130-2013` | 0 | 0 | 2018-12-23 | no article structure; **more than 2 years old** |
 | `HCNPF-14-5-2016` | 0 | 0 | 2022-05-06 | no article structure; **more than 2 years old** |
 | `HCNPF-38-5-2015` | 0 | 0 | 2025-10-01 | no article structure |
+| `HG-1123-2010` | 0 | 0 | 2024-11-15 | **ABROGAT de la 2024-11-15**; no article structure |
 | `HG-1170-2016` | 0 | 0 | 2025-03-07 | no article structure |
 | `HG-1171-2018` | 0 | 0 | 2026-09-22 | **ABROGAT de la 2026-09-22**; no article structure |
 | `HG-118-2023` | 0 | 0 | 2025-12-30 | no article structure |
@@ -249,10 +251,13 @@ Generated 2026-10-01 03:22 from the files themselves. Do not edit this section b
 | `HG-305-2026` | 0 | 0 | 2026-06-16 | no article structure |
 | `HG-310-2025` | 0 | 0 | 2025-06-02 | no article structure |
 | `HG-386-2020` | 0 | 0 | 2024-11-04 | no article structure |
+| `HG-411-2022` | 0 | 0 | 2023-09-16 | no article structure; **more than 2 years old** |
+| `HG-483-2019` | 0 | 0 | 2023-12-21 | no article structure; **more than 2 years old** |
 | `HG-497-2026` | 0 | 0 | 2026-09-22 | no article structure |
 | `HG-553-2024` | 0 | 0 | 2025-10-18 | no article structure |
 | `HG-574-2024` | 0 | 0 | 2024-08-23 | no article structure; **more than 2 years old** |
 | `HG-582-2022` | 0 | 0 | 2026-03-01 | no article structure |
+| `HG-589-2017` | 0 | 0 | 2026-02-05 | no article structure |
 | `HG-610-2018` | 0 | 0 | 2024-07-05 | no article structure; **more than 2 years old** |
 | `HG-657-2009` | 0 | 0 | 2026-03-21 | no article structure |
 | `HG-690-2017` | 0 | 0 | 2025-12-30 | no article structure |
@@ -263,6 +268,7 @@ Generated 2026-10-01 03:22 from the files themselves. Do not edit this section b
 | `HG-743-2024` | 0 | 0 | 2026-07-30 | no article structure |
 | `HG-9-2026` | 0 | 0 | 2026-01-16 | no article structure |
 | `HG-967-2016` | 0 | 0 | 2023-08-08 | no article structure; **more than 2 years old** |
+| `HG-99-2018` | 0 | 0 | 2024-09-06 | no article structure; **more than 2 years old** |
 | `L-1-2018` | 28 | 28 | 2025-12-31 | clean |
 | `L-10-2009` | 75 | 75 | 2026-03-21 | 4 superscript articles normalised |
 | `L-10-2016` | 63 | 63 | 2025-12-30 | 18 superscript articles normalised |
@@ -273,6 +279,8 @@ Generated 2026-10-01 03:22 from the files themselves. Do not edit this section b
 | `L-105-2018` | 74 | 74 | 2026-03-18 | 9 superscript articles normalised |
 | `L-106-2022` | 45 | 45 | 2025-10-25 | clean |
 | `L-107-2016` | 113 | 113 | 2025-08-19 | **ABROGAT de la 2025-08-19**; 17 superscript articles normalised |
+| `L-107-2025` | 27 | 27 | 2026-04-25 | clean |
+| `L-107-2026` | 99 | 99 | 2027-04-02 | **consolidation dated in the future** |
 | `L-108-2016` | 144 | 144 | 2026-08-25 | 30 superscript articles normalised |
 | `L-108-2020` | 24 | 24 | 2025-09-12 | clean |
 | `L-11-2017` | 29 | 29 | 2026-04-25 | 9 superscript articles normalised |
@@ -288,6 +296,7 @@ Generated 2026-10-01 03:22 from the files themselves. Do not edit this section b
 | `L-121-2007` | 73 | 73 | 2026-01-23 | 4 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-121-2018` | 46 | 46 | 2026-01-01 | 2 superscript articles normalised |
 | `L-122-2008` | 23 | 23 | 2025-12-31 | clean |
+| `L-1227-1997` | 34 | 35 | 2023-01-08 | **ABROGAT de la 2023-01-08**; **declared 34, found 35**; **more than 2 years old**; 1 superscript article normalised; stale count line in body says 34 |
 | `L-123-2023` | 16 | 16 | 2026-01-01 | 2 superscript articles normalised |
 | `L-124-2022` | 58 | 58 | 2025-12-30 | 1 superscript article normalised |
 | `L-1260-2002` | 73 | 73 | 2025-01-07 | 4 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
@@ -303,6 +312,7 @@ Generated 2026-10-01 03:22 from the files themselves. Do not edit this section b
 | `L-133-2016` | 27 | 27 | 2026-09-13 | 2 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-133-2018` | 17 | 17 | 2019-03-01 | 17 articles numbered in Roman figures; **more than 2 years old** |
 | `L-135-2007` | 93 | 93 | 2026-03-27 | 10 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
+| `L-1353-2000` | 37 | 37 | 2024-11-29 | clean |
 | `L-136-2017` | 48 | 48 | 2024-06-06 | **more than 2 years old**; 1 superscript article normalised; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-137-2015` | 42 | 42 | 2026-09-12 | **ABROGAT de la 2026-09-12** |
 | `L-1380-1997` | 42 | 42 | 2024-01-01 | **ABROGAT de la 2024-01-01**; **more than 2 years old**; 8 superscript articles normalised |
@@ -310,8 +320,12 @@ Generated 2026-10-01 03:22 from the files themselves. Do not edit this section b
 | `L-139-2010` | 72 | 72 | 2022-10-09 | **ABROGAT de la 2022-10-09**; **more than 2 years old**; 1 superscript article normalised |
 | `L-139-2012` | 25 | 25 | 2025-12-31 | **abrogare cu efect de la 2027-03-17**; 2 superscript articles normalised |
 | `L-139-2018` | 42 | 42 | 2025-06-03 | 12 superscript articles normalised |
+| `L-140-2001` | 27 | 27 | 2025-12-31 | 12 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-140-2013` | 34 | 34 | 2025-01-16 | 11 superscript articles normalised |
 | `L-140-2025` | 24 | 24 | 2025-12-31 | 24 articles numbered in Roman figures |
+| `L-1402-2002` | 28 | 28 | 2025-04-22 | 2 superscript articles normalised |
+| `L-1409-1997` | 32 | 32 | 2025-08-17 | **ABROGAT de la 2025-08-17**; 4 superscript articles normalised |
+| `L-142-2008` | 46 | 51 | 2012-07-11 | **ABROGAT de la 2019-03-01**; **declared 46, found 51**; **more than 2 years old**; 1 superscript article normalised; stale count line in body says 46; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-142-2018` | 14 | 14 | 2025-01-01 | 1 superscript article normalised |
 | `L-143-2014` | 54 | 54 | 2025-12-30 | 19 superscript articles normalised |
 | `L-1453-2002` | 1 | 1 | 2019-03-01 | **more than 2 years old** |
@@ -321,6 +335,8 @@ Generated 2026-10-01 03:22 from the files themselves. Do not edit this section b
 | `L-149-2012` | 271 | 271 | 2025-12-31 | 17 superscript articles normalised; 2 provision(s) declared unconstitutional (HCC register) |
 | `L-151-2022` | 31 | 31 | 2025-09-12 | clean |
 | `L-152-2022` | 36 | 36 | 2026-08-29 | clean |
+| `L-153-2025` | 160 | 161 | 2026-08-14 | **declared 160, found 161**; 2 superscript articles normalised; stale count line in body says 160 |
+| `L-1530-1993` | 62 | 66 | 2023-06-08 | **declared 62, found 66**; **more than 2 years old**; 4 superscript articles normalised; stale count line in body says 62 |
 | `L-1538-1998` | 100 | 102 | 2026-04-25 | **declared 100, found 102**; 1 superscript article normalised; stale count line in body says 100 |
 | `L-1543-1998` | 93 | 93 | 2025-08-31 | 32 superscript articles normalised |
 | `L-155-2011` | 6 | 6 | 2026-09-13 | 1 superscript article normalised |
@@ -329,11 +345,16 @@ Generated 2026-10-01 03:22 from the files themselves. Do not edit this section b
 | `L-158-2008` | 88 | 88 | 2026-09-13 | 11 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-1585-1998` | 25 | 25 | 2026-08-14 | 4 superscript articles normalised |
 | `L-160-2011` | 32 | 32 | 2026-08-29 | 18 superscript articles normalised |
+| `L-160-2017` | 43 | 43 | 2023-11-25 | **more than 2 years old**; 1 superscript article normalised |
 | `L-160-2023` | 58 | 58 | 2023-10-01 | **more than 2 years old** |
 | `L-160-2026` | 46 | 46 | 2026-08-23 | clean |
+| `L-161-2011` | 25 | 25 | 2017-10-27 | **more than 2 years old** |
+| `L-161-2014` | 56 | 56 | 2025-12-31 | 4 superscript articles normalised |
 | `L-162-2023` | 35 | 35 | 2025-09-27 | clean |
+| `L-163-2010` | 30 | 30 | 2025-01-30 | **ABROGAT de la 2025-01-30**; 1 superscript article normalised |
 | `L-164-2025` | 151 | 151 | 2026-06-26 | clean |
 | `L-165-2023` | 31 | 31 | 2023-10-26 | **more than 2 years old** |
+| `L-17-2007` | 19 | 19 | 2012-04-14 | **ABROGAT de la 2012-04-14**; **more than 2 years old**; 1 superscript article normalised |
 | `L-171-2012` | 158 | 158 | 2025-11-26 | 19 superscript articles normalised |
 | `L-172-2014` | 0 | 0 | 2026-07-01 | no article structure |
 | `L-174-2017` | 46 | 46 | 2026-08-20 | 17 superscript articles normalised |
@@ -361,12 +382,15 @@ Generated 2026-10-01 03:22 from the files themselves. Do not edit this section b
 | `L-199-1998` | 72 | 70 | 2015-03-14 | **ABROGAT de la 2015-03-14**; **declared 72, found 70**; **more than 2 years old**; 3 superscript articles normalised; stale count line in body says 72 |
 | `L-199-2010` | 29 | 29 | 2026-09-13 | 3 superscript articles normalised |
 | `L-2-2020` | 46 | 46 | 2025-10-25 | clean |
+| `L-20-2016` | 26 | 26 | 2026-02-28 | clean |
 | `L-20-2026` | 29 | 29 | 2026-04-01 | clean |
+| `L-200-2010` | 165 | 165 | 2026-06-04 | **abrogare cu efect de la 2027-06-01**; 72 superscript articles normalised; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-202-2013` | 33 | 33 | 2026-01-01 | 1 superscript article normalised |
 | `L-202-2017` | 155 | 155 | 2025-10-25 | 6 superscript articles normalised |
 | `L-209-2016` | 91 | 91 | 2026-04-25 | 23 superscript articles normalised |
 | `L-212-2004` | 56 | 56 | 2025-09-01 | clean |
 | `L-213-2023` | 10 | 10 | 2026-01-23 | 1 provision(s) declared unconstitutional (HCC register) |
+| `L-218-2010` | 48 | 48 | 2025-09-12 | clean |
 | `L-22-2025` | 55 | 55 | 2026-04-01 | clean |
 | `L-220-2007` | 44 | 44 | 2026-07-23 | 6 superscript articles normalised |
 | `L-221-2007` | 59 | 59 | 2025-12-30 | 16 superscript articles normalised |
@@ -378,6 +402,7 @@ Generated 2026-10-01 03:22 from the files themselves. Do not edit this section b
 | `L-231-2010` | 55 | 55 | 2026-08-10 | 32 superscript articles normalised |
 | `L-232-2016` | 344 | 344 | 2025-02-28 | 21 superscript articles normalised |
 | `L-234-2016` | 37 | 37 | 2024-11-26 | clean |
+| `L-234-2021` | 31 | 31 | 2025-09-20 | clean |
 | `L-235-2006` | 21 | 21 | 2024-07-05 | **more than 2 years old** |
 | `L-235-2011` | 39 | 39 | 2026-02-28 | 8 superscript articles normalised |
 | `L-239-2007` | 43 | 43 | 2026-04-25 | 2 superscript articles normalised |
@@ -412,11 +437,14 @@ Generated 2026-10-01 03:22 from the files themselves. Do not edit this section b
 | `L-287-2017` | 36 | 36 | 2025-01-01 | clean |
 | `L-29-2018` | 24 | 24 | 2025-08-31 | 1 superscript article normalised |
 | `L-291-2016` | 57 | 57 | 2026-01-01 | 2 superscript articles normalised |
+| `L-294-2007` | 40 | 40 | 2026-01-01 | 6 superscript articles normalised; 2 provision(s) declared unconstitutional (HCC register) |
 | `L-296-2017` | 24 | 24 | 2024-02-22 | **more than 2 years old** |
+| `L-299-2022` | 15 | 15 | 2024-08-02 | **more than 2 years old** |
 | `L-303-2013` | 46 | 46 | 2025-12-30 | 7 superscript articles normalised; 2 provision(s) declared unconstitutional (HCC register) |
 | `L-306-2018` | 38 | 38 | 2025-12-31 | 4 superscript articles normalised |
 | `L-308-2017` | 47 | 47 | 2026-08-13 | 10 superscript articles normalised |
 | `L-317-2025` | 20 | 20 | 2025-12-31 | 20 articles numbered in Roman figures |
+| `L-320-2012` | 35 | 35 | 2026-09-13 | 1 superscript article normalised; 1 provision(s) declared unconstitutional (HCC register) |
 | `L-325-2013` | 28 | 28 | 2024-03-29 | **more than 2 years old**; 2 provision(s) declared unconstitutional (HCC register) |
 | `L-325-2025` | 91 | 91 | 2027-01-01 | **consolidation dated in the future** |
 | `L-344-1994` | 27 | 27 | 2026-07-09 | 3 provision(s) declared unconstitutional (HCC register) |
@@ -441,8 +469,10 @@ Generated 2026-10-01 03:22 from the files themselves. Do not edit this section b
 | `L-439-1995` | 50 | 50 | 2026-04-25 | 2 superscript articles normalised |
 | `L-440-2001` | 15 | 15 | 2026-05-11 | 1 provision(s) declared unconstitutional (HCC register) |
 | `L-461-2001` | 30 | 30 | 2026-06-26 | clean |
+| `L-467-2003` | 38 | 38 | 2025-01-01 | 6 superscript articles normalised |
 | `L-48-2023` | 23 | 23 | 2025-12-31 | clean |
 | `L-488-1999` | 24 | 24 | 2025-04-01 | 3 superscript articles normalised |
+| `L-489-1999` | 57 | 57 | 2026-07-01 | 1 superscript article normalised |
 | `L-50-2013` | 31 | 31 | 2025-12-31 | clean |
 | `L-509-1995` | 20 | 20 | 2026-08-13 | clean |
 | `L-514-1995` | 60 | 60 | 2026-08-28 | 5 articles numbered in Roman figures; 10 superscript articles normalised; 4 provision(s) declared unconstitutional (HCC register) |
@@ -459,6 +489,7 @@ Generated 2026-10-01 03:22 from the files themselves. Do not edit this section b
 | `L-62-2008` | 73 | 73 | 2025-12-31 | 3 superscript articles normalised |
 | `L-62-2022` | 58 | 58 | 2026-08-14 | 5 superscript articles normalised |
 | `L-64-2010` | 34 | 34 | 2024-01-23 | **more than 2 years old**; 1 provision(s) declared unconstitutional (HCC register) |
+| `L-66-2008` | 64 | 64 | 2024-06-17 | **abrogare cu efect de la 2027-04-02**; **more than 2 years old** |
 | `L-66-2017` | 17 | 17 | 2017-06-02 | 17 articles numbered in Roman figures; **more than 2 years old** |
 | `L-67-2024` | 35 | 35 | 2026-04-02 | clean |
 | `L-68-2013` | 23 | 23 | 2026-05-09 | 1 superscript article normalised |
@@ -468,13 +499,18 @@ Generated 2026-10-01 03:22 from the files themselves. Do not edit this section b
 | `L-72-2025` | 127 | 127 | 2025-12-31 | clean |
 | `L-74-2020` | 96 | 96 | 2026-04-01 | 6 superscript articles normalised |
 | `L-75-2015` | 59 | 59 | 2026-05-09 | clean |
+| `L-75-2020` | 64 | 64 | 2026-08-13 | 1 superscript article normalised |
 | `L-764-2001` | 26 | 26 | 2025-06-28 | 3 superscript articles normalised |
 | `L-768-2000` | 28 | 28 | 2025-03-27 | clean |
+| `L-77-2016` | 22 | 22 | 2024-05-31 | **more than 2 years old**; 1 superscript article normalised |
 | `L-797-1996` | 160 | 160 | 2023-03-24 | **more than 2 years old**; 7 superscript articles normalised; 4 provision(s) declared unconstitutional (HCC register) |
 | `L-80-2010` | 30 | 30 | 2026-09-13 | 1 superscript article normalised |
+| `L-81-2004` | 26 | 26 | 2023-09-23 | **more than 2 years old**; 2 superscript articles normalised |
 | `L-82-2017` | 51 | 51 | 2026-09-13 | 1 superscript article normalised |
 | `L-82-2024` | 98 | 98 | 2026-05-08 | clean |
+| `L-835-1996` | 71 | 71 | 2025-01-30 | **ABROGAT de la 2025-01-30**; 1 superscript article normalised |
 | `L-845-1992` | 46 | 46 | 2025-12-31 | 11 superscript articles normalised; 3 provision(s) declared unconstitutional (HCC register) |
+| `L-847-2002` | 48 | 48 | 2026-06-30 | 7 superscript articles normalised |
 | `L-852-2002` | 2 | 2 | 2025-12-30 | clean |
 | `L-86-2014` | 42 | 42 | 2026-04-25 | 17 superscript articles normalised |
 | `L-86-2020` | 28 | 28 | 2021-12-31 | **more than 2 years old** |
@@ -504,12 +540,12 @@ Generated 2026-10-01 03:22 from the files themselves. Do not edit this section b
 
 ### Mechanical flags
 
-- **Repealed acts.** no longer in force: `L-199-1998` (repealed 2015-03-14 by LP171 din 11.07.12), `L-139-2010` (repealed 2022-10-09 by LP230 din 28.07.22), `L-91-2014` (repealed 2022-12-10 by LP124 din 19.05.22), `L-407-2006` (repealed 2023-01-01 by LP92 din 07.04.22), `L-414-2006` (repealed 2023-04-01 by LP106 din 21.04.22), `L-575-2003` (repealed 2023-10-01 by LP160 din 22.06.23), `COD-1149-2000` (repealed 2024-01-01 by CV95 din 24.08.21), `L-1380-1997` (repealed 2024-01-01 by CV95 din 24.08.21), `L-982-2000` (repealed 2024-01-08 by LP148 din 09.06.23), `L-7-2016` (repealed 2024-07-27 by LP162 din 22.06.23), `L-107-2016` (repealed 2025-08-19 by LP164 din 26.06.25), `L-422-2006` (repealed 2026-03-11 by LP196 din 10.07.25), `COD-3-2009` (repealed 2026-05-30 by CS246 din 08.11.24), `L-133-2011` (repealed 2026-08-23 by LP195 din 25.07.24), `L-182-2008` (repealed 2026-08-23 by LP195 din 25.07.24), `L-137-2015` (repealed 2026-09-12 by LP9 din 12.02.26), `HG-1171-2018` (repealed 2026-09-22 by HG497 din 02.09.26); repeal already enacted but not yet effective: `L-139-2012` (from 2027-03-17). These files are kept because other acts in the corpus still cite them and because the text governs facts before the repeal date. They are anchored, their sha256 verifies and their consolidation is recent, so nothing else here would reveal that they stopped binding. Do not cite them as law in force; cite the successor and say from when it applies.
-- **Not yet in force.** 2 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-180-2026` (2027-03-17), `L-325-2025` (2027-01-01). 535 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
-- **Declared unconstitutional.** 45 act(s) carry at least one Constitutional Court decision in their history block, 113 decisions in total: 54 still marked at article level in the text itself, 161 more recovered by reading the legis.md version history (`_meta/hcc/recovered-provisions.json`), and 0 not yet attributed to any article. A struck provision looks like ordinary law: the article exists, the anchor is valid, the sha256 matches. Check `_meta/hcc/hcc-register.md` before citing an article from `COD-1149-2000`, `COD-116-2018`, `COD-1163-1997`, `COD-122-2003`, `COD-1316-2000`, `COD-152-2014`, `COD-154-2003`, `COD-174-2018`, `COD-218-2008`, `COD-225-2003`, `COD-325-2022`, `COD-443-2004`, `COD-985-2002`, `CONST-1994`, `L-100-2001`, `L-121-2007`, `L-1260-2002`, `L-1308-1997`, `L-132-2016`, `L-133-2016`, `L-135-2007`, `L-136-2017`, `L-149-2012`, `L-156-1998`, `L-158-2008`, `L-181-2014`, `L-213-2023`, `L-230-2022`, `L-24-2008`, `L-270-2018`, `L-271-2008`, `L-283-2003`, `L-303-2013`, `L-325-2013`, `L-344-1994`, `L-382-2001`, `L-440-2001`, `L-514-1995`, `L-52-2014`, `L-548-1995`, `L-60-2012`, `L-64-2010`, `L-797-1996`, `L-845-1992`, `L-93-1998` and say which decision struck it and what today's text actually holds.
-- **Stale consolidations.** `OCNPDCP-03-1-2013` (2013-02-28), `OCNPDCP-POLITIE-2013` (2013-05-01), `DCNPDCP-PARTIDE-2014` (2014-12-17), `OCNPDCP-03-2015` (2015-01-01), `L-199-1998` (2015-03-14), `L-23-2008` (2016-09-30), `L-66-2017` (2017-06-02), `L-25-2008` (2018-01-12), `L-250-2017` (2018-03-29), `CETS-223-2018` (2018-10-10), `L-24-2008` (2018-11-08), `HBN-130-2013` (2018-12-23), `L-133-2018` (2019-03-01), `L-1453-2002` (2019-03-01), `HBN-127-2013` (2021-05-09), `L-86-2020` (2021-12-31), `HCNPF-14-5-2016` (2022-05-06), `UA-STATUT-2011` (2022-05-27), `L-139-2010` (2022-10-09), `L-91-2014` (2022-12-10), `L-407-2006` (2023-01-01), `L-414-2006` (2023-01-13), `DCNPDCP-08-2023` (2023-03-01), `DCNPDCP-581-2015` (2023-03-01), `L-420-2006` (2023-03-24), `L-797-1996` (2023-03-24), `L-246-2017` (2023-06-02), `L-113-2007` (2023-06-11), `HG-967-2016` (2023-08-08), `L-575-2003` (2023-10-01), `L-160-2023` (2023-10-01), `L-183-2016` (2023-10-21), `L-419-2006` (2023-10-21), `L-165-2023` (2023-10-26), `L-71-2007` (2023-12-22), `COD-1149-2000` (2024-01-01), `L-1380-1997` (2024-01-01), `L-148-2023` (2024-01-08), `L-982-2000` (2024-01-08), `L-64-2010` (2024-01-23), `L-296-2017` (2024-02-22), `L-325-2013` (2024-03-29), `L-435-2006` (2024-05-02), `DCA-61-2024` (2024-05-05), `L-523-1999` (2024-05-16), `L-136-2017` (2024-06-06), `L-595-1999` (2024-06-06), `HG-610-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `L-394-2023` (2024-07-15), `L-7-2016` (2024-07-27), `L-229-2010` (2024-08-02), `HG-574-2024` (2024-08-23), `L-422-2023` (2024-09-14). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
-- **Stale count line inside the file.** `L-1538-1998` (body says 100, anchors 102), `L-199-1998` (body says 72, anchors 70), `L-407-2006` (body says 67, anchors 68), `L-7-2016` (body says 38, anchors 39), `L-880-1992` (body says 45, anchors 46). The frontmatter is right and the anchors are right; the human-readable line in the body was written by the original ingest and never updated. Cosmetic, but it is the line a reader sees first.
-- **Declared count does not match anchors.** `L-1538-1998` (100 vs 102), `L-199-1998` (72 vs 70), `L-407-2006` (67 vs 68), `L-7-2016` (38 vs 39), `L-880-1992` (45 vs 46)
+- **Repealed acts.** no longer in force: `L-17-2007` (repealed 2012-04-14 by LP133 din 08.07.11), `L-199-1998` (repealed 2015-03-14 by LP171 din 11.07.12), `L-142-2008` (repealed 2019-03-01 by LP133 din 15.11.18), `L-139-2010` (repealed 2022-10-09 by LP230 din 28.07.22), `L-91-2014` (repealed 2022-12-10 by LP124 din 19.05.22), `L-407-2006` (repealed 2023-01-01 by LP92 din 07.04.22), `L-1227-1997` (repealed 2023-01-08 by LP62 din 17.03.22), `L-414-2006` (repealed 2023-04-01 by LP106 din 21.04.22), `L-575-2003` (repealed 2023-10-01 by LP160 din 22.06.23), `COD-1149-2000` (repealed 2024-01-01 by CV95 din 24.08.21), `L-1380-1997` (repealed 2024-01-01 by CV95 din 24.08.21), `L-982-2000` (repealed 2024-01-08 by LP148 din 09.06.23), `L-7-2016` (repealed 2024-07-27 by LP162 din 22.06.23), `HG-1123-2010` (repealed 2024-11-15 by HG678 din 02.10.24), `L-163-2010` (repealed 2025-01-30 by CUC434 din 28.12.23), `L-835-1996` (repealed 2025-01-30 by CUC434 din 28.12.23), `L-1409-1997` (repealed 2025-08-17 by LP153 din 19.06.25), `L-107-2016` (repealed 2025-08-19 by LP164 din 26.06.25), `L-422-2006` (repealed 2026-03-11 by LP196 din 10.07.25), `COD-3-2009` (repealed 2026-05-30 by CS246 din 08.11.24), `L-133-2011` (repealed 2026-08-23 by LP195 din 25.07.24), `L-182-2008` (repealed 2026-08-23 by LP195 din 25.07.24), `L-137-2015` (repealed 2026-09-12 by LP9 din 12.02.26), `HG-1171-2018` (repealed 2026-09-22 by HG497 din 02.09.26); repeal already enacted but not yet effective: `L-139-2012` (from 2027-03-17), `L-200-2010` (from 2027-06-01), `L-66-2008` (from 2027-04-02). These files are kept because other acts in the corpus still cite them and because the text governs facts before the repeal date. They are anchored, their sha256 verifies and their consolidation is recent, so nothing else here would reveal that they stopped binding. Do not cite them as law in force; cite the successor and say from when it applies.
+- **Not yet in force.** 3 act(s) carry a consolidation dated after today, so the file holds text that will bind later, not text that binds now: `L-107-2026` (2027-04-02), `L-180-2026` (2027-03-17), `L-325-2025` (2027-01-01). 554 affected provision(s) are listed in `_meta/inforce/in-force-register.md`. Check that register before citing an article from these acts. The citation will look correct in every other respect: the article exists, the anchor is valid, the sha256 matches.
+- **Declared unconstitutional.** 51 act(s) carry at least one Constitutional Court decision in their history block, 118 decisions in total: 56 still marked at article level in the text itself, 168 more recovered by reading the legis.md version history (`_meta/hcc/recovered-provisions.json`), and 2 not yet attributed to any article. A struck provision looks like ordinary law: the article exists, the anchor is valid, the sha256 matches. Check `_meta/hcc/hcc-register.md` before citing an article from `COD-1149-2000`, `COD-116-2018`, `COD-1163-1997`, `COD-122-2003`, `COD-1316-2000`, `COD-152-2014`, `COD-154-2003`, `COD-174-2018`, `COD-218-2008`, `COD-225-2003`, `COD-325-2022`, `COD-443-2004`, `COD-985-2002`, `CONST-1994`, `L-100-2001`, `L-121-2007`, `L-1260-2002`, `L-1308-1997`, `L-132-2016`, `L-133-2016`, `L-135-2007`, `L-136-2017`, `L-140-2001`, `L-142-2008`, `L-149-2012`, `L-156-1998`, `L-158-2008`, `L-181-2014`, `L-200-2010`, `L-213-2023`, `L-230-2022`, `L-24-2008`, `L-270-2018`, `L-271-2008`, `L-283-2003`, `L-294-2007`, `L-303-2013`, `L-320-2012`, `L-325-2013`, `L-344-1994`, `L-382-2001`, `L-440-2001`, `L-514-1995`, `L-52-2014`, `L-548-1995`, `L-60-2012`, `L-64-2010`, `L-797-1996`, `L-845-1992`, `L-93-1998` and say which decision struck it and what today's text actually holds.
+- **Stale consolidations.** `L-17-2007` (2012-04-14), `L-142-2008` (2012-07-11), `OCNPDCP-03-1-2013` (2013-02-28), `OCNPDCP-POLITIE-2013` (2013-05-01), `DCNPDCP-PARTIDE-2014` (2014-12-17), `OCNPDCP-03-2015` (2015-01-01), `L-199-1998` (2015-03-14), `L-23-2008` (2016-09-30), `L-66-2017` (2017-06-02), `L-161-2011` (2017-10-27), `L-25-2008` (2018-01-12), `L-250-2017` (2018-03-29), `CETS-223-2018` (2018-10-10), `L-24-2008` (2018-11-08), `HBN-130-2013` (2018-12-23), `L-133-2018` (2019-03-01), `L-1453-2002` (2019-03-01), `HBN-127-2013` (2021-05-09), `L-86-2020` (2021-12-31), `HCNPF-14-5-2016` (2022-05-06), `UA-STATUT-2011` (2022-05-27), `L-139-2010` (2022-10-09), `L-91-2014` (2022-12-10), `L-407-2006` (2023-01-01), `L-1227-1997` (2023-01-08), `L-414-2006` (2023-01-13), `DCNPDCP-08-2023` (2023-03-01), `DCNPDCP-581-2015` (2023-03-01), `L-420-2006` (2023-03-24), `L-797-1996` (2023-03-24), `L-246-2017` (2023-06-02), `L-1530-1993` (2023-06-08), `L-113-2007` (2023-06-11), `HG-967-2016` (2023-08-08), `HG-411-2022` (2023-09-16), `L-81-2004` (2023-09-23), `L-575-2003` (2023-10-01), `L-160-2023` (2023-10-01), `L-183-2016` (2023-10-21), `L-419-2006` (2023-10-21), `L-165-2023` (2023-10-26), `L-160-2017` (2023-11-25), `HG-483-2019` (2023-12-21), `L-71-2007` (2023-12-22), `COD-1149-2000` (2024-01-01), `L-1380-1997` (2024-01-01), `L-148-2023` (2024-01-08), `L-982-2000` (2024-01-08), `L-64-2010` (2024-01-23), `L-296-2017` (2024-02-22), `L-325-2013` (2024-03-29), `L-435-2006` (2024-05-02), `DCA-61-2024` (2024-05-05), `L-523-1999` (2024-05-16), `L-77-2016` (2024-05-31), `L-136-2017` (2024-06-06), `L-595-1999` (2024-06-06), `L-66-2008` (2024-06-17), `HG-610-2018` (2024-07-05), `L-235-2006` (2024-07-05), `L-239-2008` (2024-07-05), `L-394-2023` (2024-07-15), `L-7-2016` (2024-07-27), `L-229-2010` (2024-08-02), `L-299-2022` (2024-08-02), `HG-574-2024` (2024-08-23), `HG-99-2018` (2024-09-06), `L-422-2023` (2024-09-14). Anchoring is clean, so these look reliable. Say in the answer that the text may be superseded.
+- **Stale count line inside the file.** `L-1227-1997` (body says 34, anchors 35), `L-142-2008` (body says 46, anchors 51), `L-153-2025` (body says 160, anchors 161), `L-1530-1993` (body says 62, anchors 66), `L-1538-1998` (body says 100, anchors 102), `L-199-1998` (body says 72, anchors 70), `L-407-2006` (body says 67, anchors 68), `L-7-2016` (body says 38, anchors 39), `L-880-1992` (body says 45, anchors 46). The frontmatter is right and the anchors are right; the human-readable line in the body was written by the original ingest and never updated. Cosmetic, but it is the line a reader sees first.
+- **Declared count does not match anchors.** `L-1227-1997` (34 vs 35), `L-142-2008` (46 vs 51), `L-153-2025` (160 vs 161), `L-1530-1993` (62 vs 66), `L-1538-1998` (100 vs 102), `L-199-1998` (72 vs 70), `L-407-2006` (67 vs 68), `L-7-2016` (38 vs 39), `L-880-1992` (45 vs 46)
 - **BNM English corpus.** 60 file(s) carry 149 line-initial `Article N` markers and no anchors. Any answer resting on the English BNM translations is not anchored.
 
 <!-- COVERAGE:END -->
