@@ -8,7 +8,7 @@ generated_by: _meta/inforce/build_prose_deferral_candidates.py
 
 **Fisier generat. Nu se editeaza manual.** Registrul in-force citeste numai marcajele intre paranteze; amanarile scrise in proza articolului final (CLAUDE.md, intrebarea 9) ii scapa. Aici sint paragrafele din ultimele 6 articole ale fiecarui act care spun `intra in vigoare` sau `se aplica` impreuna cu o exceptie, o conditie sau o data viitoare (dupa 2026-09-26); datele simple deja trecute nu se listeaza. **Sint candidati, nu constatari**: multe sint simple date de intrare in vigoare deja trecute. Coloana *in registru* spune daca actul are deja o intrare in registrul in-force.
 
-58 paragrafe in 39 acte.
+62 paragrafe in 43 acte.
 
 | Act | Articol | in registru | Paragraf |
 |---|---|---|---|
@@ -26,6 +26,7 @@ generated_by: _meta/inforce/build_prose_deferral_candidates.py
 | `L-107-2026` | ## Articolul 98. Intrarea în vigoare și aplicabilitatea legii | da | (1) Prezenta lege intră în vigoare la 2 aprilie 2027. |
 | `L-119-2018` | ## Articolul 31. Dispoziții finale | da | (1) Prezenta lege intră în vigoare la expirarea termenului de 6 luni de la data publicării în Monitorul Oficial al Republicii Moldova, cu excepția alin. (3) și (6) din art. 25, care intră în vigoare la expirarea a 2 ani de la data |
 | `L-1260-2002` | ## Articolul 68 | nu | Prezenta lege intră în vigoare peste 3 luni de la data publicării, cu excepţia art.67 care intră în vigoare la data publicării. |
+| `L-128-2014` | ## Articolul 40 | nu | (1) Prezenta lege intră în vigoare la 1 ianuarie 2015, cu excepţia prevederilor referitoare la performanţa energetică a clădirilor în ceea ce priveşte ventilarea, răcirea şi iluminatul, care intră în vigoare la 1 ianuarie 2017. |
 | `L-132-2016` | ## Articolul 43. Dispoziții finale | da | Prezenta lege intră în vigoare la data de 1 august 2016, cu excepția art. 9–13, 18 și art. 44 alin. (2), care intră în vigoare din momentul publicării legii. |
 | `L-133-2016` | ## Articolul 24. Dispoziții tranzitorii | da | (1) Prezenta lege intră în vigoare de la 1 august 2016, cu excepția prevederilor art. 7, care vor intra în vigoare începând cu 1 ianuarie 2018. |
 | `L-137-2015` | ## Articolul 41. Dispoziţii finale | nu | (1) Prezenta lege intră în vigoare la data publicării, cu excepția prevederilor art. 9 alin. (2) și (3), precum și a celor de la alin. (5) în partea ce se referă la remunerarea membrilor Consiliului, care vor intra în vigoare la d |
@@ -56,12 +57,15 @@ generated_by: _meta/inforce/build_prose_deferral_candidates.py
 | `L-235-2006` | ## Articolul 21. Dispoziţii finale | nu | (1) Prezenta lege intră în vigoare la 1 ianuarie 2008, cu excepţia prevederilor art. 19, 20 şi ale prezentului articol, care intră în vigoare la data publicării prezentei legi. |
 | `L-246-2018` | ## Articolul 96. | nu | (1) Prezenta lege intră în vigoare la 1 martie 2019, cu excepția art. 50 alin. (1), art. 71 alin. (1) și dispozițiilor art. 71 alin. (2) în partea ce se referă la publicarea informaţiei despre procedurile succesorale deschise pe p |
 | `L-28-2024` | ## Articolul 63. Dispoziții finale | nu | b) va aproba actul normativ de punere în aplicare a prezentei legi, care va intra în vigoare la aceeași dată cu prezenta lege. |
+| `L-289-2004` | ## Articolul 34. Intrarea în vigoare a prezentei legi | nu | (1) Prezenta lege intră în vigoare la 1 ianuarie 2005, cu excepţia art.7 alin.(5) şi art.16, care intră în vigoare la data publicării. |
 | `L-317-2025` | ## Articolul XVII. | nu | Art. XVII. – La articolul XXIV alineatul (1) din Legea nr. 140/2025 pentru modificarea unor acte normative (migrarea autorităților administrative centrale) (Monitorul Oficial al Republicii Moldova, 2025, nr. 340–342, art. 391), du |
 | `L-317-2025` | ## Articolul XIX. | nu | „Prin derogare de la art. 56 alin. (2) din Legea nr. 100/2017 cu privire la actele normative, prezenta lege intră în vigoare la data de 30 decembrie 2025, cu excepția:”. |
 | `L-325-2025` | ## Articolul 90. Dispoziții finale | da | (1) Prezenta lege intră în vigoare la data de 1 ianuarie 2027. |
 | `L-489-1999` | ## Articolul 55. Preluarea activităţilor şi a patrimoniului | da | b) preia de la Fondul Social, pe bază, de protocol şi bilanţ contabil, bugetul asigurărilor sociale de stat, precum şi indicatorii aferenţi cheltuielilor de personal, în raport cu numărul personalului preluat, care se aplică pînă  |
 | `L-57-2006` | ## Articolul 37. | nu | (1) Prezenta lege intră în vigoare după 2 luni de la data publicării, cu excepţia art.22 alin. (11) care intră în vigoare la 1 august 2008. |
+| `L-61-2007` | ## Articolul 40 | nu | (1) Prezenta lege intră în vigoare la 1 ianuarie 2008, cu excepţia art.38 şi 39, care intră în vigoare la data publicării. |
 | `L-66-2017` | ## Articolul XVII. | nu | (7) Prevederile art. 48 şi 48^32 din Codul civil intră în vigoare după crearea condiţiilor necesare, dar nu mai tîrziu de 2 ani de la data publicării prezentei legi. |
+| `L-66-2026` | ## Articolul 158. Dispoziții finale | da | (1) Prezenta lege intră în vigoare la data de 1 iunie 2027, cu excepția art. 159, care intră în vigoare la data publicării prezentei legi în Monitorul Oficial al Republicii Moldova. |
 | `L-69-2016` | ## Articolul 70 | nu | (1) Prezenta lege intră în vigoare la 6 luni de la data publicării, cu excepția capitolului VII, care va intra în vigoare la data publicării. |
 | `L-72-2025` | ## Articolul 127. Intrarea în vigoare și măsuri de implementare | nu | (1) Prezenta lege intră în vigoare la data de 1 ianuarie 2026, cu excepția art. 96, 99–104, 106–107 și 109–113, care vor intra în vigoare la expirarea termenului de 24 de luni de la data publicării acesteia în Monitorul Oficial al |
 | `L-82-2017` | ## Articolul 50. | da | (1) Prezenta lege intră în vigoare la data publicării în Monitorul Oficial al Republicii Moldova. Prevederile art. 13 alin. (2) lit. b)–f) se aplică pînă la implementarea depunerii electronice a declaraţiilor de avere şi interese  |

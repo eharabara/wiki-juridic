@@ -1772,6 +1772,61 @@ DOCS = {
                    'title': 'Legea nr. 299/2022 privind prevenirea pierderii si risipei de alimente'},
     'L-161-2014': {'doc_id': '152636',
                    'title': 'Legea nr. 161/2014 cu privire la administratorii autorizati'},
+    # Valul 36 (2026-10-01). L-66-2026 are o singura versiune pe legis.md, 154713 @ 2027-06-01
+    # (legea intra in vigoare la 01.06.2027 si abroga L-200-2010 atunci): fisierul principal ramine
+    # o versiune viitoare, ca L-325-2025. L-392-1999: ultima consolidare de pe legis.md e din 2002
+    # (64772 @ 2002-05-09), fisa fara data abrogarii.
+    'L-66-2026': {'doc_id': '154713',
+                  'title': 'Legea nr. 66/2026 privind admisia, sederea si supravegherea strainilor '
+                           'in Republica Moldova'},
+    'L-392-1999': {'doc_id': '64772',
+                   'title': 'Legea nr. 392/1999 privind restructurarea intreprinderilor agricole '
+                            'in procesul de privatizare'},
+    'L-163-2007': {'doc_id': '24012', 'anchor_mode': 'roman-amending',
+                   'title': 'Legea nr. 163/2007 pentru modificarea si completarea Legii nr. 1134-XIII '
+                            'din 2 aprilie 1997 privind societatile pe actiuni'},
+    'L-237-2023': {'doc_id': '143874',
+                   'title': 'Legea nr. 237/2023 privind productia ecologica si etichetarea '
+                            'produselor ecologice'},
+    'L-263-2005': {'doc_id': '140341',
+                   'title': 'Legea nr. 263/2005 cu privire la drepturile si responsabilitatile pacientului'},
+    'L-270-2008': {'doc_id': '146838',
+                   'title': 'Legea nr. 270/2008 privind azilul in Republica Moldova'},
+    # Valurile 36-39 (2026-10-01), a doua parte. COD-navigatiei-maritime-comerciale nu e act lipsa: este
+    # L-599-1999, deja detinut (graful nu rezolva aliasul). Versiuni alese (toate in vigoare azi):
+    # HG-1076-2010 144084@2024-07-11; L-755-2001 132359@2024-07-15 (abrogata prin LP152/2022);
+    # L-289-2004 151180@2026-01-01; L-125-2007 136326@2023-03-24; L-1384-2002 150106@2025-08-23;
+    # L-128-2014 139644@2024-04-27 (abrogata); L-851-1996 133763@2023-10-21 (abrogata); L-173-1994
+    # 152531@2026-01-31; L-61-2007 107388@2019-01-01; L-209-2018 132669@2022-07-01; L-1216-1992
+    # 138541@2024-01-01 (abrogata).
+    'HG-1076-2010': {'doc_id': '144084',
+                     'title': 'Hotarirea Guvernului nr. 1076/2010 cu privire la clasificarea situatiilor '
+                              'exceptionale si la modul de acumulare si prezentare a informatiei'},
+    'L-755-2001': {'doc_id': '132359', 'title': 'Legea nr. 755/2001 privind securitatea biologica'},
+    'L-289-2004': {'doc_id': '151180',
+                   'title': 'Legea nr. 289/2004 privind indemnizatiile pentru incapacitate temporara de '
+                            'munca si alte prestatii de asigurari sociale'},
+    'L-125-2007': {'doc_id': '136326',
+                   'title': 'Legea nr. 125/2007 privind libertatea de constiinta, de gindire si de religie'},
+    'L-1384-2002': {'doc_id': '150106',
+                    'title': 'Legea nr. 1384/2002 cu privire la rechizitiile de bunuri si prestarile de '
+                             'servicii in interes public'},
+    'L-128-2014': {'doc_id': '139644', 'title': 'Legea nr. 128/2014 privind performanta energetica a cladirilor'},
+    'L-851-1996': {'doc_id': '133763', 'title': 'Legea nr. 851/1996 privind expertiza ecologica'},
+    'L-173-1994': {'doc_id': '152531',
+                   'title': 'Legea nr. 173/1994 privind modul de publicare si intrare in vigoare a actelor oficiale'},
+    'L-61-2007': {'doc_id': '107388', 'title': 'Legea nr. 61/2007 privind activitatea de audit'},
+    'L-209-2018': {'doc_id': '132669',
+                   'title': 'Legea nr. 209/2018 cu privire la Comitetul National de Stabilitate Financiara'},
+    'L-1216-1992': {'doc_id': '138541', 'title': 'Legea nr. 1216/1992 privind taxa de stat'},
+    # Valurile 36-39, restul cozii (2026-10-01): LP226/2022 (lege modificatoare cu articole romane, abroga
+    # L-851-1996 si a republicat L-86-2014) 133703@2023-10-21; HG 678/2024 145409@2024-11-15 (a abrogat
+    # HG-1123-2010; omnibus "facilitarea activitatii mediului de afaceri VI").
+    'L-226-2022': {'doc_id': '133703', 'anchor_mode': 'roman-amending',
+                   'title': 'Legea nr. 226/2022 privind modificarea unor acte normative'},
+    'HG-678-2024': {'doc_id': '145409',
+                    'title': 'Hotarirea Guvernului nr. 678/2024 cu privire la modificarea si abrogarea unor '
+                             'hotarari ale Guvernului (facilitarea activitatii mediului de afaceri VI)'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

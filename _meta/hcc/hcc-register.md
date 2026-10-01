@@ -2,7 +2,7 @@
 
 Generat 2026-10-01 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
 
-51 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 118 hotariri distincte. Articolul atins este cunoscut pentru 56 marcaje inca prezente in text si 168 dispozitii recuperate din istoricul versiunilor; **2 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
+52 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 120 hotariri distincte. Articolul atins este cunoscut pentru 56 marcaje inca prezente in text si 170 dispozitii recuperate din istoricul versiunilor; **2 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
 
 Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiunea hotaririi si a intinderii anularii. Un act din tabelul „fara articol atribuit” se citeaza cu avertismentul ca poarta hotariri ale Curtii neverificate la nivel de articol.
 
@@ -46,6 +46,7 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-270-2018` | 155894 | 2026-09-13 | 3 | 3 | 0 |
 | `L-271-2008` | 155885 | 2026-09-13 | 1 | 1 | 0 |
 | `L-283-2003` | 151359 | 2025-12-30 | 1 | 1 | 0 |
+| `L-289-2004` | 151180 | 2026-01-01 | 2 | 2 | 0 |
 | `L-294-2007` | 148792 | 2026-01-01 | 2 | 2 | 0 |
 | `L-303-2013` | 151413 | 2025-12-30 | 2 | 2 | 0 |
 | `L-320-2012` | 155889 | 2026-09-13 | 1 | 1 | 0 |
@@ -250,6 +251,8 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-271-2008` | 15 | al.(5) | in parte | HCC32/2017-12-05 | MO40-47/09.02.18 art. 14 | marcaj in text, l.191 |
 | `L-283-2003` | 22^1 | alin. (1) lit. c) | text din articol („nu au fost condamnate pentru infractiuni savirsite cu intentie, conform unei hotariri jude…”) | HCC11/2023-07-20 | MO277-281/01.08.23 art.90 | versiunea 138419 @ 2023-07-20, verificat 2026-09-25 |
 | `L-283-2003` | 27^3 | lit. d) | subunitate | HCC11/2023-07-20 | MO277-281/01.08.23 art.90 | versiunea 138419 @ 2023-07-20, verificat 2026-09-25 |
+| `L-289-2004` | 16 | alin. (5) | subunitate | HCC6/2017-02-09 | MO92-102/31.03.17 art.40 | versiunea 98591 @ 2017-02-09, verificat 2026-10-01 |
+| `L-289-2004` | 4 | alin. (2) lit. a) | subunitate („prima zi calendaristică de incapacitate temporară de muncă se suportă din contul persoanei…”) | HCC5/2012-04-10 | MO76-80/20.04.12 art.11 | versiunea 10577 @ 2012-04-10, verificat 2026-10-01 |
 | `L-294-2007` | 8 | alin. (1) lit. d) | text din articol („al căror număr nu poate fi mai mic de patru mii, + La momentul constituirii partidului, me…”) | HCC5/2020-02-25 | MO102/10.04.20 art.51 | versiunea 121246 @ 2020-02-25, verificat 2026-10-01 |
 | `L-294-2007` | 4 | alin. (5) | subunitate | HCC12/2013-06-04 | MO167-172/02.08.13 art.22 | versiunea 25042 @ 2013-06-04, verificat 2026-10-01 |
 | `L-303-2013` | 19 | alin. (5) | text din articol („operatorului coordonat cu”) | HCC28/2016-10-11 | MO459-471/23.12.16 art.109 | versiunea 97265 @ 2016-10-11, verificat 2026-09-25 |

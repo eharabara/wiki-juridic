@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-01T08:13:12",
+  "generated": "2026-10-01T11:55:34",
   "as_of": "2026-10-01",
-  "files_scanned": 807,
+  "files_scanned": 826,
   "provisions_not_yet_in_force": [
     {
       "file": "raw/papers/moldova-legal/viitor/COD-154-2003--2026-10-28.md",
@@ -10386,6 +10386,15 @@
       "flagged_in_frontmatter": true
     },
     {
+      "instrument": "L-66-2026",
+      "file": "raw/papers/moldova-legal/L-66-2026.md",
+      "consolidation_date": "2027-06-01",
+      "doc_id": "154713",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
       "instrument": "L-68-2013--2026-11-10",
       "file": "raw/papers/moldova-legal/viitor/L-68-2013--2026-11-10.md",
       "consolidation_date": "2026-11-10",
@@ -11661,7 +11670,7 @@
   "counts": {
     "provisions": 554,
     "acts": 96,
-    "future_consolidations": 112,
+    "future_consolidations": 113,
     "pending_consolidations": 5,
     "pending_ingested": 27,
     "pending_provisions": 9,

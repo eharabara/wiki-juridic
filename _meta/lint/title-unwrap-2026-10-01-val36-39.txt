@@ -1,0 +1,230 @@
+raw/papers/moldova-legal/L-289-2004.md: 24 title(s) fixed
+   line 108  art.4
+      old: ## Articolul 4. Sursele de finanţare a prestaţiilor
+      new: ## Articolul 4. Sursele de finanţare a prestaţiilor de asigurări sociale
+   line 138  art.6
+      old: ## Articolul 6. Condiţiile de acordare a prestaţiilor
+      new: ## Articolul 6. Condiţiile de acordare a prestaţiilor de asigurări sociale
+   line 158  art.7
+      old: ## Articolul 7. Baza de calcul al indemnizaţiilor
+      new: ## Articolul 7. Baza de calcul al indemnizaţiilor de asigurări sociale
+   line 186  art.8
+      old: ## Articolul 8. Confirmarea dreptului la indemnizaţie
+      new: ## Articolul 8. Confirmarea dreptului la indemnizaţie pentru incapacitate temporară de muncă
+   line 190  art.9
+      old: ## Articolul 9. Perioada pentru care se acordă indemnizaţie
+      new: ## Articolul 9. Perioada pentru care se acordă indemnizaţie pentru incapacitate temporară de muncă
+   line 199  art.10
+      old: ## Articolul 10. Dreptul la prelungirea perioadei pentru
+      new: ## Articolul 10. Dreptul la prelungirea perioadei pentru care se acordă indemnizaţie pentru incapacitate temporară de muncă
+   line 208  art.11
+      old: ## Articolul 11. Plata indemnizaţiei în cazul încadrării
+      new: ## Articolul 11. Plata indemnizaţiei în cazul încadrării în grad de dizabilitate
+   line 212  art.12
+      old: ## Articolul 12. Dreptul la indemnizaţii de asigurări
+      new: ## Articolul 12. Dreptul la indemnizaţii de asigurări sociale în anumite situaţii
+   line 219  art.13
+      old: ## Articolul 13. Cuantumul indemnizaţiei pentru
+      new: ## Articolul 13. Cuantumul indemnizaţiei pentru incapacitate temporară de muncă
+   line 236  art.15
+      old: ## Articolul 15. Prestaţiile pentru recuperarea
+      new: ## Articolul 15. Prestaţiile pentru recuperarea capacităţii de muncă
+   line 326  art.18^2
+      old: ## Articolul 18^2. Indemnizația unică pentru perioada
+      new: ## Articolul 18^2. Indemnizația unică pentru perioada de încredințare a copilului adoptabil și indemnizația unică pentru copilul adoptat sau luat în plasament în serviciul de tutelă/curatelă
+   line 340  art.18^3
+      old: ## Articolul 18^3. Indemnizația lunară pentru creșterea
+      new: ## Articolul 18^3. Indemnizația lunară pentru creșterea copilului cu vârsta mai mare de 3 ani adoptat sau luat în plasament în serviciul de tutelă/curatelă
+   line 354  art.19
+      old: ## Articolul 19. Indemnizaţia pentru îngrijirea
+      new: ## Articolul 19. Indemnizaţia pentru îngrijirea copilului bolnav
+   line 362  art.20
+      old: ## Articolul 20. Perioada pentru care se acordă indemnizaţie
+      new: ## Articolul 20. Perioada pentru care se acordă indemnizaţie pentru îngrijirea copilului bolnav
+   line 374  art.22
+      old: ## Articolul 22. Plata indemnizaţiei pentru incapacitate
+      new: ## Articolul 22. Plata indemnizaţiei pentru incapacitate temporară de muncă în cazul falimentului angajatorului
+   line 379  art.23
+      old: ## Articolul 23. Acordarea indemnizaţiilor de asigurări
+      new: ## Articolul 23. Acordarea indemnizaţiilor de asigurări sociale persoanelor care desfăşoară activităţi în mai multe unităţi
+   line 384  art.24
+      old: ## Articolul 24. Calculul şi plata prestaţiilor de asigurări
+      new: ## Articolul 24. Calculul şi plata prestaţiilor de asigurări sociale
+   line 388  art.25
+      old: ## Articolul 25. Termenele de plată a indemnizațiilor
+      new: ## Articolul 25. Termenele de plată a indemnizațiilor de asigurări sociale
+   line 392  art.26
+      old: ## Articolul 26. Persoanele cărora li se plăteşte
+      new: ## Articolul 26. Persoanele cărora li se plăteşte indemnizaţie de asigurări sociale
+   line 398  art.27
+      old: ## Articolul 27. Termenul de prescripţie pentru plata
+      new: ## Articolul 27. Termenul de prescripţie pentru plata indemnizaţiei de asigurări sociale
+   line 404  art.28
+      old: ## Articolul 28. Încetarea, suspendarea şi reluarea
+      new: ## Articolul 28. Încetarea, suspendarea şi reluarea plăţii indemnizaţiilor de asigurări sociale
+   line 417  art.29
+      old: ## Articolul 29. Stingerea dreptului la indemnizaţie
+      new: ## Articolul 29. Stingerea dreptului la indemnizaţie pentru incapacitate temporară de muncă
+   line 430  art.30
+      old: ## Articolul 30. Controlul privind acordarea prestațiilor
+      new: ## Articolul 30. Controlul privind acordarea prestațiilor de asigurări sociale
+   line 446  art.33
+      old: ## Articolul 33. Soluţionarea litigiilor ce ţin de aplicarea
+      new: ## Articolul 33. Soluţionarea litigiilor ce ţin de aplicarea prezentei legi
+raw/papers/moldova-legal/L-125-2007.md: 13 title(s) fixed
+   line 142  art.16
+      old: ## Articolul 16. Libertatea constituirii şi funcţionării
+      new: ## Articolul 16. Libertatea constituirii şi funcţionării cultelor religioase
+   line 154  art.18
+      old: ## Articolul 18. Statutul cultelor religioase şi al părţilor
+      new: ## Articolul 18. Statutul cultelor religioase şi al părţilor lor componente
+   line 169  art.18^1
+      old: ## Articolul 18^1. Modificările şi completările la statutul
+      new: ## Articolul 18^1. Modificările şi completările la statutul cultului religios sau al părţii lui componente
+   line 198  art.20
+      old: ## Articolul 20. Înregistrarea părţilor componente
+      new: ## Articolul 20. Înregistrarea părţilor componente ale cultelor religioase
+   line 222  art.23
+      old: ## Articolul 23. Denumirea cultelor religioase şi a părţilor
+      new: ## Articolul 23. Denumirea cultelor religioase şi a părţilor lor componente
+   line 232  art.23^1
+      old: ## Articolul 23^1. Avertizarea cultelor religioase şi a părţilor
+      new: ## Articolul 23^1. Avertizarea cultelor religioase şi a părţilor lor componente
+   line 237  art.24
+      old: ## Articolul 24. Suspendarea activităţii cultelor religioase
+      new: ## Articolul 24. Suspendarea activităţii cultelor religioase şi a părţilor lor componente
+   line 250  art.25
+      old: ## Articolul 25. Încetarea activităţii cultelor religioase
+      new: ## Articolul 25. Încetarea activităţii cultelor religioase şi a părţilor lor componente
+   line 283  art.31^1
+      old: ## Articolul 31^1. Activitatea de antreprenoriat social
+      new: ## Articolul 31^1. Activitatea de antreprenoriat social a cultului religios
+   line 291  art.32
+      old: ## Articolul 32. Organizarea învăţămîntului moral-religios
+      new: ## Articolul 32. Organizarea învăţămîntului moral-religios şi teologic
+   line 343  art.41
+      old: ## Articolul 41. Mijloacele financiare ale cultelor religioase
+      new: ## Articolul 41. Mijloacele financiare ale cultelor religioase şi ale părţilor lor componente
+   line 347  art.42
+      old: ## Articolul 42. Terenurile deţinute de cultele religioase
+      new: ## Articolul 42. Terenurile deţinute de cultele religioase sau de părţile lor componente
+   line 370  art.43^2
+      old: ## Articolul 43^2. Răspunderea pentru utilizarea contrar
+      new: ## Articolul 43^2. Răspunderea pentru utilizarea contrar destinației sau pentru neraportarea utilizării mijloacelor financiare obținute în urma desemnării procentuale
+raw/papers/moldova-legal/L-128-2014.md: 22 title(s) fixed
+   line 131  art.5
+      old: ## Articolul 5. Atribuţiile Guvernului în domeniul eficienţei
+      new: ## Articolul 5. Atribuţiile Guvernului în domeniul eficienţei energetice a clădirilor
+   line 140  art.6
+      old: ## Articolul 6. Atribuţiile organului central de specialitate
+      new: ## Articolul 6. Atribuţiile organului central de specialitate al administraţiei publice în domeniul construcţiilor
+   line 149  art.7
+      old: ## Articolul 7. Atribuţiile autorităţii publice în domeniul
+      new: ## Articolul 7. Atribuţiile autorităţii publice în domeniul eficienţei energetice
+   line 165  art.8
+      old: ## Articolul 8. Atribuţiile autorităţilor publice locale
+      new: ## Articolul 8. Atribuţiile autorităţilor publice locale în domeniul eficienţei energetice a clădirilor
+   line 187  art.10
+      old: ## Articolul 10. Metodologia de calcul al performanţei
+      new: ## Articolul 10. Metodologia de calcul al performanţei energetice a clădirilor
+   line 246  art.14
+      old: ## Articolul 14. Utilizarea în clădiri a energiei din surse
+      new: ## Articolul 14. Utilizarea în clădiri a energiei din surse regenerabile
+   line 251  art.15
+      old: ## Articolul 15. Clădiri al căror consum de energie este
+      new: ## Articolul 15. Clădiri al căror consum de energie este aproape egal cu zero
+   line 306  art.17
+      old: ## Articolul 17. Certificarea performanţei energetic
+      new: ## Articolul 17. Certificarea performanţei energetic a clădirilor
+   line 324  art.18
+      old: ## Articolul 18. Certificarea performanţei energetice
+      new: ## Articolul 18. Certificarea performanţei energetice a unităţilor de clădire
+   line 333  art.19
+      old: ## Articolul 19. Evaluarea viitoarei performanţe
+      new: ## Articolul 19. Evaluarea viitoarei performanţe energetice a clădirilor
+   line 340  art.20
+      old: ## Articolul 20. Eliberarea certificatelor de performanţă
+      new: ## Articolul 20. Eliberarea certificatelor de performanţă energetică
+   line 352  art.21
+      old: ## Articolul 21. Afişarea certificatelor de performanţă
+      new: ## Articolul 21. Afişarea certificatelor de performanţă energetică
+   line 358  art.22
+      old: ## Articolul 22. Informarea potenţialilor cumpărători sau locatari
+      new: ## Articolul 22. Informarea potenţialilor cumpărători sau locatari privind performanţa energetică a clădirilor
+   line 376  art.24
+      old: ## Articolul 24. Raportul de inspecţie periodică
+      new: ## Articolul 24. Raportul de inspecţie periodică a sistemului de încălzire
+   line 408  art.26
+      old: ## Articolul 26. Raportul de inspecţie periodică
+      new: ## Articolul 26. Raportul de inspecţie periodică a sistemului de climatizare
+   line 434  art.27
+      old: ## Articolul 27. Sistemul informaţional naţional în domeniul
+      new: ## Articolul 27. Sistemul informaţional naţional în domeniul eficienţei energetice a clădirilor
+   line 459  art.28
+      old: ## Articolul 28. Sistemele de control independent
+      new: ## Articolul 28. Sistemele de control independent al certificatelor de performanţă energetică şi al rapoartelor de inspecţie
+   line 472  art.29
+      old: ## Articolul 29. Întreprinderile care efectuează certificarea
+      new: ## Articolul 29. Întreprinderile care efectuează certificarea performanţei energetice a clădirilor, inspecţia periodică a sistemelor de încălzire şi inspecţia periodică a sistemelor de climatizare
+   line 553  art.33
+      old: ## Articolul 33. Confidenţialitatea în activitatea de certificare
+      new: ## Articolul 33. Confidenţialitatea în activitatea de certificare a performanţei energetice a clădirilor, de inspecţie periodică a sistemelor de încălzire şi a sistemelor de climatizare
+   line 566  art.34
+      old: ## Articolul 34. Stimulente financiare pentru promovarea
+      new: ## Articolul 34. Stimulente financiare pentru promovarea îmbunătăţirii performanţei energetice a clădirilor
+   line 575  art.35
+      old: ## Articolul 35. Informarea în domeniul performanţei
+      new: ## Articolul 35. Informarea în domeniul performanţei energetice a clădirilor
+   line 611  art.38
+      old: ## Articolul 38. Obligaţiile inspectorilor sistemelor
+      new: ## Articolul 38. Obligaţiile inspectorilor sistemelor de încălzire şi ale inspectorilor sistemelor de climatizare
+raw/papers/moldova-legal/L-851-1996.md: 11 title(s) fixed
+   line 115  art.6
+      old: ## Articolul 6. Activitățile supuse în mod obligatoriu expertizei
+      new: ## Articolul 6. Activitățile supuse în mod obligatoriu expertizei ecologice de stat
+   line 130  art.8
+      old: ## Articolul 8. Independenţa experţilor ecologi de stat
+      new: ## Articolul 8. Independenţa experţilor ecologi de stat şi răspunderea lor în faţa legii
+   line 140  art.9
+      old: ## Articolul 9. Organizarea şi efectuarea expertizei ecologice
+      new: ## Articolul 9. Organizarea şi efectuarea expertizei ecologice obşteşti
+   line 146  art.10
+      old: ## Articolul 10. Drepturile cetăţenilor şi asociaţiilor obşteşti
+      new: ## Articolul 10. Drepturile cetăţenilor şi asociaţiilor obşteşti în domeniul organizării expertizei ecologice obşteşti
+   line 154  art.11
+      old: ## Articolul 11. Drepturile asociaţiilor obşteşti în domeniul
+      new: ## Articolul 11. Drepturile asociaţiilor obşteşti în domeniul efectuării expertizei ecologice obşteşti
+   line 161  art.12
+      old: ## Articolul 12. Condiţiile de efectuare a expertizei ecologice
+      new: ## Articolul 12. Condiţiile de efectuare a expertizei ecologice obşteşti
+   line 167  art.13
+      old: ## Articolul 13. Refuzul de a înregistra cererea de efectuare
+      new: ## Articolul 13. Refuzul de a înregistra cererea de efectuare a expertizei ecologice obşteşti
+   line 183  art.18
+      old: ## Articolul 18. Prezentarea documentației pentru efectuarea
+      new: ## Articolul 18. Prezentarea documentației pentru efectuarea expertizei ecologice de stat
+   line 210  art.21
+      old: ## Articolul 21. Efectuarea expertizei ecologice de stat
+      new: ## Articolul 21. Efectuarea expertizei ecologice de stat și eliberarea avizului expertizei ecologice de stat
+   line 225  art.22
+      old: ## Articolul 22. Taxele pentru efectuarea expertizei ecologice
+      new: ## Articolul 22. Taxele pentru efectuarea expertizei ecologice de stat a documentației de proiect
+   line 231  art.23
+      old: ## Articolul 23. Finanțarea activității privind efectuarea expertizei
+      new: ## Articolul 23. Finanțarea activității privind efectuarea expertizei ecologice obștești
+raw/papers/moldova-legal/L-209-2018.md: 2 title(s) fixed
+   line 75  art.4
+      old: ## Articolul 4. Organizarea activității Comitetului, inclusiv a
+      new: ## Articolul 4. Organizarea activității Comitetului, inclusiv a Comitetului extins
+   line 132  art.10
+      old: ## Articolul 10. Conformarea cu recomandările Comitetului
+      new: ## Articolul 10. Conformarea cu recomandările Comitetului și ale Comitetului extins
+raw/papers/moldova-legal/L-1216-1992.md: 2 title(s) fixed
+   line 565  art.8
+      old: ## Articolul 8. Răspunderea pentru corectitudinea încasării
+      new: ## Articolul 8. Răspunderea pentru corectitudinea încasării taxei de stat
+   line 569  art.9
+      old: ## Articolul 9. Organele care efectuează verificarea
+      new: ## Articolul 9. Organele care efectuează verificarea corectitudinii încasării taxei de stat
+
+TOTAL: 74 heading(s) across 11 file(s) fixed

@@ -1,6 +1,6 @@
 ---
 title: Registrul dispozitiilor care nu sint inca in vigoare
-generated: '2026-10-01T08:13:12'
+generated: '2026-10-01T11:55:34'
 as_of: '2026-10-01'
 type: summary
 tags: [moldova, legal-source, methodology, summary]
@@ -12,7 +12,7 @@ generated_by: _meta/inforce/build_inforce_register.py
 
 **Fisier generat. Nu se editeaza manual.** Se reface rulind scriptul din frontmatter.
 
-Stare la 2026-10-01. 807 fisiere scanate. 554 dispozitii afectate in 96 act(e). 112 consolidare/consolidari cu data in viitor. 5 consolidare/consolidari viitoare neingerate, 9 dispozitii; alte 27 din lista de mina sint acum ingerate ca fisiere separate in `raw/papers/moldova-legal/viitor/` (95 dispozitii citite de mina, pastrate mai jos).
+Stare la 2026-10-01. 826 fisiere scanate. 554 dispozitii afectate in 96 act(e). 113 consolidare/consolidari cu data in viitor. 5 consolidare/consolidari viitoare neingerate, 9 dispozitii; alte 27 din lista de mina sint acum ingerate ca fisiere separate in `raw/papers/moldova-legal/viitor/` (95 dispozitii citite de mina, pastrate mai jos).
 
 ## Regula de citare
 
@@ -684,6 +684,7 @@ Fisierul incorporeaza modificari care nu au intrat in vigoare. Arhiva indicata e
 | L-59-2012--2027-03-29 | 2027-03-29 | da | - | `-` |
 | L-599-1999--2026-12-28 | 2026-12-28 | da | - | `-` |
 | L-66-2008--2027-04-02 | 2027-04-02 | da | - | `-` |
+| L-66-2026 | 2027-06-01 | da | - | `-` |
 | L-68-2013--2026-11-10 | 2026-11-10 | da | - | `-` |
 | L-68-2013--2027-11-30 | 2027-11-30 | da | - | `-` |
 | L-74-2020--2027-01-01 | 2027-01-01 | da | - | `-` |

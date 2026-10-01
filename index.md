@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page is listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-09-30 | Total pages: 381
+> Last updated: 2026-10-01 | Total pages: 400
 
 > Două perimetre, decizia D1 din planul din 2026-09-05: fiecare pagină poartă `perimeter: legal` sau `perimeter: policy`. Regulile de citare diferă: în perimetrul juridic o afirmație se sprijină pe articolul citit din `raw/`, în cel de politici pe documentul de sursă. Cele cinci pagini EMIR din iulie 2026 sunt înghețate în `_archive/emir-2026-07/`, cu nota `_PROVENANCE.md`.
 
@@ -123,7 +123,7 @@
 - [[L-161-2011]] — Legea nr. 161/2011 privind ghișeul unic în activitatea de întreprinzător: consolidare 2017-10-27, 25 de ancore; citată de L-160/2011, L-192/1998 (CNPF), L-548/1995 (BNM), L-10/2009.
 - [[L-142-2008]] — Legea nr. 142/2008 cu privire la ipotecă: **ABROGATĂ de la 01.03.2019** prin L-133/2018 (succesorul, deținut); 46 de ancore (cinci inserate: „Articolul18.” fără spațiu în sursă); HCC26/2016 în antet.
 - [[L-163-2010]] — Legea nr. 163/2010 privind autorizarea lucrărilor de construcție: **ABROGATĂ de la 30.01.2025** prin COD-434/2023 (succesorul, deținut); 30 de ancore; versiunea abrogării, nu rîndul de căutare.
-- [[HG-1123-2010]] — HG nr. 1123/2010, Cerințele de securitate a datelor personale: **ABROGATĂ de la 15.11.2024** prin HG678/2024 (nedeținută); act în puncte; citată de trei ordine CNPDCP.
+- [[HG-1123-2010]] — HG nr. 1123/2010, Cerințele de securitate a datelor personale: **ABROGATĂ de la 15.11.2024** prin HG-678-2024 pct. 2.2 (deținută din 2026-10-01, fără regim înlocuitor); act în puncte; citată de trei ordine CNPDCP.
 - [[COD-828-1991]] — Codul funciar nr. 828/1991: golit de COD-22/2024 (CF22/2024, în vigoare 07.03.2025), rămîn art. 11–13 și 40; trei HCC din 1996–1997 în antet; citat de HG-1170/2016, COD-22/2024, L-29/2018.
 - [[L-160-2017]] — Legea nr. 160/2017 cu privire la biblioteci: consolidare 2023-11-25, 43 de ancore, 99 de marcaje; citată de L-435/2006, L-436/2006, L-230/2022.
 - [[L-75-2020]] — Legea nr. 75/2020 privind constatarea încălcărilor AML/CFT: consolidare 2026-08-13, 64 de ancore, art. 52 lipsește; procedura de sancționare a entităților raportoare (CNPF/BNM); citată de L-308/2017 (4), L-548/1995 (2).
@@ -152,6 +152,25 @@
 - [[L-1353-2000]] — Legea nr. 1353/2000 privind gospodăriile țărănești: consolidare 2024-11-29, 37 de ancore; citată de L-220/2007 (4), L-845/1992.
 - [[L-299-2022]] — Legea nr. 299/2022 privind prevenirea pierderii și risipei de alimente: consolidare 2024-08-02, 15 ancore; citată de COD-1163/1997 (4), L-209/2016.
 - [[L-161-2014]] — Legea nr. 161/2014 cu privire la administratorii autorizați: consolidare 2025-12-31, 56 de ancore; citată de L-149/2012 (3), L-246/2018.
+- [[L-66-2026]] — Legea nr. 66/2026 privind admisia, șederea și supravegherea străinilor: **intră în vigoare la 01.06.2027** (fișier ținut = versiune viitoare, singura), abrogă [[L-200-2010]]; art. 159 în vigoare din 04.06.2026; 159 de ancore.
+- [[L-392-1999]] — Legea nr. 392/1999 privind restructurarea întreprinderilor agricole în privatizare: text din 2002 (ultima consolidare de pe legis.md), 30 de ancore; citată de HCNPF-14-5-2016 pentru valorile mobiliare nesolicitate.
+- [[L-163-2007]] — Legea nr. 163/2007 care modifică Legea societăților pe acțiuni: lege modificatoare cu art. I–III; art. II alin. (3) (înstrăinarea acțiunilor societăților închise) citat de L-199-1998 și HCNPF-14-5-2016.
+- [[L-237-2023]] — Legea nr. 237/2023 privind producția ecologică: consolidare 2024-07-01, 43 de ancore; abrogă Legea 115/2005; derogări pînă la 31.12.2036 (art. 42 alin. (6)).
+- [[L-263-2005]] — Legea nr. 263/2005 privind drepturile și responsabilitățile pacientului: consolidare 2023-12-28, 19 ancore, 45 de marcaje; art. 12, secretul medical.
+- [[L-270-2008]] — Legea nr. 270/2008 privind azilul: consolidare 2026-01-01, 107 ancore, protecția temporară la art. 38^1–38^7; lacuna 39–40 = secțiune abrogată.
+- [[HG-1076-2010]] — HG 1076/2010 cu privire la clasificarea situațiilor excepționale: consolidare 2024-07-11, act pe puncte (0 ancore); citată de COD-1163-1997, L-108-2016, L-108-2020.
+- [[L-755-2001]] — Legea nr. 755/2001 privind securitatea biologică: **ABROGATĂ de la 15.07.2024** prin L-152-2022 (succesorul, deja deținut); 43 de articole în forma `Art.N.`; încă citată de L-306-2018 art. 12.
+- [[L-289-2004]] — Legea nr. 289/2004 privind indemnizațiile pentru incapacitate temporară de muncă: consolidare 2026-01-01, 37 de ancore; citată de COD-1163-1997, COD-443-2004, L-308-2017.
+- [[L-125-2007]] — Legea nr. 125/2007 privind libertatea de conștiință, de gîndire și de religie: consolidare 2023-03-24 (veche), 51 de ancore; citată de COD-1163-1997, L-241-2022, L-299-2022.
+- [[L-1384-2002]] — Legea nr. 1384/2002 cu privire la rechiziții: consolidare 2025-08-23, 33 de articole în forma `Art.N.`; citată de COD-22-2024, COD-246-2024, COD-3-2009.
+- [[L-128-2014]] — Legea nr. 128/2014 privind performanța energetică a clădirilor: **ABROGATĂ de la 27.04.2024** prin L-282-2023 (succesorul, deja deținut); 40 de ancore; încă citată de COD-434-2023 și L-187-2022.
+- [[L-851-1996]] — Legea nr. 851/1996 privind expertiza ecologică: **ABROGATĂ de la 21.10.2023** prin L-226-2022 art. I (fișa fără dată); 22 de ancore; încă citată de L-227-2022, L-86-2014, HG-411-2022.
+- [[L-173-1994]] — Legea nr. 173/1994 privind publicarea și intrarea în vigoare a actelor oficiale: consolidare 2026-01-31, 11 articole în forma `Art.N.` (art. 5 și 10^1 neancorate); citată de HG-610-2018, L-107-2016, L-108-2016.
+- [[L-61-2007]] — Legea nr. 61/2007 privind activitatea de audit: **ABROGATĂ de la 01.01.2019** prin L-271-2017 art. 49 (fișa și antetul nu spun nimic; stabilită din legea nouă); 36 de ancore; încă citată de L-107-2016 și L-108-2016.
+- [[L-209-2018]] — Legea nr. 209/2018 cu privire la Comitetul Național de Stabilitate Financiară: consolidare 2022-07-01 (veche), 13 ancore; citată de L-121-2007, L-232-2016, L-548-1995.
+- [[L-1216-1992]] — Legea nr. 1216/1992 privind taxa de stat: **ABROGATĂ de la 01.01.2024** prin L-213-2023 (succesorul, deja deținut); 9 ancore; încă citată de L-133-2018 și L-137-2015.
+- [[L-226-2022]] — Legea nr. 226/2022 privind modificarea unor acte normative: art. I abrogă L-851-1996 (în vigoare 21.10.2023), art. II modifică L-86-2014 (EIA, Directiva 2011/92/UE), art. III L-11-2017; lege cu articole romane, 4 ancore.
+- [[HG-678-2024]] — HG 678/2024 (facilitarea activității mediului de afaceri VI): act omnibus; pct. 2.2 abrogă HG-1123-2010 fără regim înlocuitor; consolidare 2024-11-15, act în puncte.
 - [[L-113-2007]] — Legea nr. 113/2007 a contabilității: din 01.01.2019 se aplică numai instituțiilor bugetare (L-287-2017 art. 36 alin. (3)), dar fișierul reține art. 2 în forma veche; consolidare 2023-06-11, 45 de ancore; temei citat în preambulul HCNPF-38-5-2015 (art. 11 alin. (4)-(5)); coada de ingerare a grafului de citare (7 acte citatoare).
 - [[L-182-2008]] — Legea nr. 182/2008 cu privire la aprobarea Regulamentului CNPDCP: **ABROGATĂ de la 23.08.2026** prin art. 90 alin. (3) lit. a) din L-195/2024 (succesorul, deja deținut); 4 articole ancorate, anexele neancorate; coada de ingerare a grafului de citare (7 acte citatoare, toate din protecția datelor).
 - [[L-982-2000]] — Legea nr. 982/2000 privind accesul la informație: **ABROGATĂ de la 08.01.2024** prin L-148/2023 (succesorul, deja deținut); 25 de ancore; coada de ingerare a grafului de citare (7 acte citatoare, cel mai mare număr rămas).
