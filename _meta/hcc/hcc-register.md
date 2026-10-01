@@ -1,8 +1,8 @@
 # Registrul dispozitiilor declarate neconstitutionale
 
-Generat 2026-09-28 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
+Generat 2026-10-01 de `_meta/hcc/build_hcc_register.py`. Nu edita de mina; dispozitiile recuperate se scriu in `recovered-provisions.json`.
 
-37 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 100 hotariri distincte. Articolul atins este cunoscut pentru 39 marcaje inca prezente in text si 127 dispozitii recuperate din istoricul versiunilor; **0 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
+45 acte cu cel putin o hotarire a Curtii Constitutionale in fisa, 113 hotariri distincte. Articolul atins este cunoscut pentru 54 marcaje inca prezente in text si 161 dispozitii recuperate din istoricul versiunilor; **0 hotariri nu au inca niciun articol atribuit**, deci textul pe care l-au anulat se citeste azi ca lege.
 
 Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiunea hotaririi si a intinderii anularii. Un act din tabelul „fara articol atribuit” se citeaza cu avertismentul ca poarta hotariri ale Curtii neverificate la nivel de articol.
 
@@ -10,10 +10,12 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 
 | act | doc_id | consolidare | HCC in fisa | cu articol cunoscut | fara articol |
 |---|---|---|---:|---:|---:|
+| `COD-1149-2000` | 136393 | 2024-01-01 | 2 | 2 | 0 |
 | `COD-116-2018` | 150447 | 2025-08-31 | 2 | 2 | 0 |
 | `COD-1163-1997` | 138613 | 2026-07-01 | 10 | 10 | 0 |
 | `COD-122-2003` | 156018 | 2026-08-28 | 17 | 17 | 0 |
 | `COD-1316-2000` | 155707 | 2026-08-06 | 1 | 1 | 0 |
+| `COD-152-2014` | 156377 | 2026-09-14 | 1 | 1 | 0 |
 | `COD-154-2003` | 155185 | 2026-06-30 | 3 | 3 | 0 |
 | `COD-174-2018` | 150538 | 2026-06-24 | 2 | 2 | 0 |
 | `COD-218-2008` | 155852 | 2026-09-13 | 6 | 6 | 0 |
@@ -25,23 +27,29 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-100-2001` | 151282 | 2025-10-21 | 1 | 1 | 0 |
 | `L-121-2007` | 152778 | 2026-01-23 | 1 | 1 | 0 |
 | `L-1260-2002` | 146148 | 2025-01-07 | 1 | 1 | 0 |
+| `L-1308-1997` | 148859 | 2025-05-16 | 1 | 1 | 0 |
 | `L-132-2016` | 147882 | 2026-04-01 | 2 | 2 | 0 |
 | `L-133-2016` | 152995 | 2026-09-13 | 1 | 1 | 0 |
 | `L-135-2007` | 153674 | 2026-03-27 | 1 | 1 | 0 |
 | `L-136-2017` | 143456 | 2024-06-06 | 1 | 1 | 0 |
 | `L-149-2012` | 152605 | 2025-12-31 | 2 | 2 | 0 |
+| `L-156-1998` | 148342 | 2025-05-01 | 5 | 5 | 0 |
 | `L-158-2008` | 155439 | 2026-09-13 | 1 | 1 | 0 |
 | `L-181-2014` | 153027 | 2025-12-31 | 2 | 2 | 0 |
 | `L-213-2023` | 152741 | 2026-01-23 | 1 | 1 | 0 |
 | `L-230-2022` | 149374 | 2025-06-10 | 1 | 1 | 0 |
 | `L-24-2008` | 110184 | 2018-11-08 | 1 | 1 | 0 |
 | `L-270-2018` | 155894 | 2026-09-13 | 3 | 3 | 0 |
+| `L-271-2008` | 155885 | 2026-09-13 | 1 | 1 | 0 |
 | `L-283-2003` | 151359 | 2025-12-30 | 1 | 1 | 0 |
 | `L-303-2013` | 151413 | 2025-12-30 | 2 | 2 | 0 |
 | `L-325-2013` | 142068 | 2024-03-29 | 2 | 2 | 0 |
+| `L-344-1994` | 155592 | 2026-07-09 | 3 | 3 | 0 |
 | `L-382-2001` | 149501 | 2026-01-01 | 1 | 1 | 0 |
+| `L-440-2001` | 154346 | 2026-05-11 | 1 | 1 | 0 |
 | `L-514-1995` | 156079 | 2026-08-28 | 4 | 4 | 0 |
 | `L-52-2014` | 147958 | 2025-03-27 | 1 | 1 | 0 |
+| `L-60-2012` | 151196 | 2026-03-18 | 1 | 1 | 0 |
 | `L-64-2010` | 141515 | 2024-01-23 | 1 | 1 | 0 |
 | `L-797-1996` | 136244 | 2023-03-24 | 4 | 4 | 0 |
 | `L-845-1992` | 152587 | 2025-12-31 | 3 | 3 | 0 |
@@ -52,6 +60,31 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 
 | act | articol | subunitate | intindere | hotarire | MO | sursa |
 |---|---|---|---|---|---|---|
+| `COD-1149-2000` | 73 | alin. (4) | text din articol („Până la data de 31 decembrie 2014 inclusiv,”) | HCC31/2016-11-03 | MO30-39/03.02.17 art.6 | versiunea 97668 @ 2016-11-03, verificat 2026-09-30 |
+| `COD-1149-2000` | 73 | alin. (4) lit. b) | text din articol („dar nu mai târziu de 1 ianuarie 2015”) | HCC31/2016-11-03 | MO30-39/03.02.17 art.6 | versiunea 97668 @ 2016-11-03, verificat 2026-09-30 |
+| `COD-1149-2000` | 1 | pct. 22) | text din articol („barurilor și restaurantelor”) | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 1 | pct. 32) | text din articol („bar și restaurant”) | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 93 | alin. (1) | text din articol („și porturile”, „și navele”) | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 93 | alin. (1^1) | subunitate | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 93 | alin. (2) | text din articol („barul și restaurantul”) | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 93 | alin. (3) | text din articol („barurile și restaurantele”; „precum și persoanelor care se află în străinătate – în cazul …”) | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 94 | denumire | text din articol („barul și restaurantul”) | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 94 | alin. (1) | text din articol („barul și restaurantul”) | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 94 | alin. (3) | text din articol („barurile și restaurantele”) | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 94 | alin. (4) | text din articol („barurile și restaurantele”) | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 95 | denumire | text din articol („barului și restaurantului”) | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 95 | alin. (1) | text din articol („barul și restaurantul”) | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 95 | alin. (2) | text din articol („barurilor și restaurantelor”) | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 95^1 | denumire | text din articol („barului și restaurantului”) | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 95^1 | alin. (1^2) | subunitate | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 95^1 | alin. (1^3) | subunitate | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 95^1 | alin. (3) lit. d) | text din articol („barul și restaurantul”) | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 95^1 | alin. (3) lit. f) | subunitate | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 95^1 | alin. (3^1) | text din articol („precum şi pentru activitatea barurilor şi restaurantelor duty-free la bordul navelor ...”) | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 95^1 | alin. (4) | text din articol („barurile și restaurantele”) | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 95^1 | alin. (6) | text din articol („barurile și restaurantele”) | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 95^1 | alin. (9) | text din articol („barurile și restaurantele”) | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
+| `COD-1149-2000` | 185 | alin. (1) lit. f) | text din articol („barurilor și restaurantelor”) | HCC23/2019-10-10 | MO338-343/15.11.19 art.206 | versiunea 118780 @ 2019-10-10, verificat 2026-09-30 |
 | `COD-116-2018` | 225 | alin. (3) | in parte | HCC27/2020-11-13 | MO332-342/11.12.20 art.183 | marcaj in text, l.1598 |
 | `COD-116-2018` | 225 | alin. (3) | in parte | HCC17/2020-06-23 | MO188-192/24.07.20 art.100 | versiunea 122610 @ 2020-06-23, verificat 2026-09-15 |
 | `COD-1163-1997` | 3 | alin. (3) | subunitate | HCC12/1999-03-11 | MO27-28/23.03.99 art.21 | versiunea 79116 @ 1999-03-11, verificat 2026-09-08 |
@@ -98,6 +131,7 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `COD-122-2003` | 132^9 | alin. (15) | text din articol („şi decide care din comunicările înregistrate urmează a fi nimicite, desemnând persoanele r…”) | HCC31/2021-09-23 | MO264-265/29.10.21 art.187 | versiunea 126190 @ 2021-09-23, verificat 2026-09-08 |
 | `COD-122-2003` | 321 | alin. (2) pct. 3) | text din articol („examinării unor cauze privitor la săvârșirea unor infracțiuni ușoare”) | HCC3/2023-01-24 | MO31-34/03.02.23 art.14 | versiunea 135679 @ 2023-01-24, verificat 2026-09-08 |
 | `COD-1316-2000` | 108 |  | omisiune legislativa („omisiunea legislativă de a reglementa un mecanism de indexare a pensiei de întreținere a c…”) | HCC23/2024-10-15 | MO447-450/29.10.24 art.157 | versiunea 145543 @ 2024-10-15, verificat 2026-09-26 |
+| `COD-152-2014` | 41 | al.(4) | in parte | HCC7/2017-02-16 | MO201-213/23.06.17 art. 71 | marcaj in text, l.668 |
 | `COD-154-2003` | 90 | al.(2), lit. a) | text din articol („într-o mărime care nu va depăşi 12 salarii medii lunare ale salariatului”) | HCC9/2025-07-22 | MO430-433/14.08.25 art.105 | marcaj in text, l.1306 |
 | `COD-154-2003` | 87 | al.(2) | subunitate | HCC3/2020-02-04 | MO63-68/28.02.20 art.37 | versiunea 120714 @ 2020-02-04, verificat 2026-09-15 |
 | `COD-154-2003` | 87 | al.(1) | subunitate | HCC34/2017-12-08 | MO33-39/02.02.18 art.6 | versiunea 100133 @ 2017-12-08, verificat 2026-09-15 |
@@ -126,19 +160,19 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `COD-225-2003` | 306 | alin. (2) | text din articol („Problema citării persoanei se soluţionează în fiecare caz, în funcţie de starea sănătăţii …”) | HCC33/2016-11-17 | MO30-39/03.02.17 art.7 | versiunea 97669 @ 2016-11-17, verificat 2026-09-08 |
 | `COD-225-2003` | 437 | alin. (1) | text din articol („trebuie să fie dactilografiată și”) | HCC20/2022-11-03 | MO363-373/18.11.22 art.176 | versiunea 134150 @ 2022-11-03, verificat 2026-09-08 |
 | `COD-225-2003` | 84 | alin. (4) | text din articol („Taxa de timbru nu este susceptibilă de scutire, amânare sau eșalonare, cu excepțiile prevă…”) | HCC20/2024-09-26 | MO423-426/10.10.24 art.155 | versiunea 145370 @ 2024-09-26, verificat 2026-09-08 |
-| `COD-325-2022` | 16 | al.(2), lit.e) | subunitate | HCC16/2023-10-03 | MO391-394/19.10.23 art.153 | marcaj in text, l.263 |
-| `COD-325-2022` | 16 | al.(2), lit.f) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.269 |
-| `COD-325-2022` | 16 | al.(2^1) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.271 |
-| `COD-325-2022` | 16 | al.(2^2) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.273 |
-| `COD-325-2022` | 16 | al.(2^3) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.275 |
-| `COD-325-2022` | 16 | al.(2^4) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.277 |
-| `COD-325-2022` | 68 | al.(1), lit.f) | text din articol („art.16 alin.(2) lit.c)–f)”) | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1227 |
-| `COD-325-2022` | 68 | al.(1^1) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1238 |
-| `COD-325-2022` | 68 | al.(5^1) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1245 |
-| `COD-325-2022` | 91 | al.(3^1) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1655 |
-| `COD-325-2022` | 91 | al.(5) | text din articol („deciziilor organelor electorale emise în conformitate cu prevederile art. 68 alin. (51), a”) | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1659 |
-| `COD-325-2022` | 98 | al.(1) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1743 |
-| `COD-325-2022` | 102 | al.(5), lit.e) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1816 |
+| `COD-325-2022` | 16 | al.(2), lit.e) | subunitate | HCC16/2023-10-03 | MO391-394/19.10.23 art.153 | marcaj in text, l.272 |
+| `COD-325-2022` | 16 | al.(2), lit.f) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.278 |
+| `COD-325-2022` | 16 | al.(2^1) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.280 |
+| `COD-325-2022` | 16 | al.(2^2) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.282 |
+| `COD-325-2022` | 16 | al.(2^3) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.284 |
+| `COD-325-2022` | 16 | al.(2^4) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.286 |
+| `COD-325-2022` | 68 | al.(1), lit.f) | text din articol („art.16 alin.(2) lit.c)–f)”) | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1236 |
+| `COD-325-2022` | 68 | al.(1^1) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1247 |
+| `COD-325-2022` | 68 | al.(5^1) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1254 |
+| `COD-325-2022` | 91 | al.(3^1) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1664 |
+| `COD-325-2022` | 91 | al.(5) | text din articol („deciziilor organelor electorale emise în conformitate cu prevederile art. 68 alin. (51), a”) | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1668 |
+| `COD-325-2022` | 98 | al.(1) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1752 |
+| `COD-325-2022` | 102 | al.(5), lit.e) | subunitate | HCC9/2024-03-26 | MO192-194/02.05.24 art.66 | marcaj in text, l.1825 |
 | `COD-325-2022` | 90 | al.(2), textul „În serviciile media audiovizuale ... furnizorilor de servicii media.” | text din articol („În serviciile media audiovizuale, grupurile de iniţiativă, concurenţii electorali (candida…”) | HCC16/2024-07-16 | MO344-346/08.08.24 art.127 | versiunea 144550 @ 2024-07-16, verificat 2026-09-19 |
 | `COD-325-2022` | 36 | al.(1), textul „Componența Consiliului Electoral Central al Găgăuziei se aprobă ... și cu actele normative locale” | text din articol („Componența Consiliului Electoral Central al Găgăuziei se aprobă de Adunarea Populară a Găg…”) | HCC8/2026-07-09 | MO351-354/31.07.26 art.132 | versiunea 155595 @ 2026-07-09, verificat 2026-09-19 |
 | `COD-325-2022` | 155 | al.(1), textele „de Adunarea Populară a Găgăuziei,” și „Legii nr. 344/1994 privind statutul juridic special al Găgăuziei (Gagauz-Yeri) și ale” | text din articol | HCC8/2026-07-09 | MO351-354/31.07.26 art.132 | versiunea 155595 @ 2026-07-09, verificat 2026-09-19 |
@@ -170,6 +204,8 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-100-2001` | 5 | al.(4), sintagma „și limba rusă” | text din articol („și limba rusă”) | HCC28/2002-05-30 | MO75/13.06.02 art.19 | versiunea 151282 @ 2002-06-13, verificat 2026-09-25 |
 | `L-121-2007` | 13 și Anexa | al.(4^1), al.(4^2) și pct. 26^1 | subunitate | HCC14/2024-06-20 | MO287-290/04.07.24 art.102 | versiunea 152778 @ 2024-06-20, verificat 2026-09-24 |
 | `L-1260-2002` | 43 | al.(4) | text din articol („în partea ce ţine de procedura de organizare a examenelor. Calificativul acordat nu poate …”) | HCC18/2018-07-03 | MO277-284/27.07.18 art.124 | versiunea 108240 @ 2018-07-03, verificat 2026-09-15 |
+| `L-1308-1997` | 10 | al.(8) | subunitate | HCC19/2023-10-31 | MO418-421/09.11.23 art.171 | marcaj in text, l.189 |
+| `L-1308-1997` | 10 | al.(11) | subunitate | HCC19/2023-10-31 | MO418-421/09.11.23 art.171 | marcaj in text, l.193 |
 | `L-132-2016` | 11 | al.(12), textul „și care a susținut proba detectorului comportamentului simulat (poligraf)” | text din articol („și care a susținut proba detectorului comportamentului simulat (poligraf)”) | HCC6/2018-04-10 | MO157-166/18.05.18 art.76 | versiunea 155890 @ 2018-04-10, verificat 2026-09-24 |
 | `L-132-2016` | 26, 32 al.(1), 36 al.(1), 39, 40, 41 și 41^1 | modificarile din art. I al LP244/2020 | act modificator declarat neconstitutional integral | HCC29/2021-09-21 | MO256-260/22.10.21 art.184 | versiunea 155890 @ 2021-09-21, verificat 2026-09-24 |
 | `L-133-2016` | 23 | al.(5^1) | subunitate | HCC29/2021-09-21 | MO256-260/22.10.21 art.184 | marcaj in text, l.366 |
@@ -177,6 +213,14 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-136-2017` | 23 | al.(6) | in parte | HCC7/2021-03-04 | MO82-85/26.03.21 art.42 | marcaj in text, l.354 |
 | `L-149-2012` | 32 |  | omisiune legislativa („mecanism pentru recuperarea cheltuielilor efectuate în avans şi pentru încasarea remuneraț…”) | HCC8/2022-04-05 | MO106-114/15.04.22 art.57 | versiunea 130929 @ 2022-04-05, verificat 2026-09-15 |
 | `L-149-2012` | 84 |  | omisiune legislativa („durata maximă pentru care poate fi dispusă obligația de a nu părăsi teritoriul țării sau l…”) | HCC21/2020-08-04 | MO205-211/14.08.20 art.110 | versiunea 123197 @ 2020-08-04, verificat 2026-09-15 |
+| `L-156-1998` | 2 | alin. (1) | text din articol („domiciliată în Republica Moldova”) | HCC10/2018-05-08 | MO167-175/25.05.18 art.87 | versiunea 108444 @ 2018-05-25, verificat 2026-09-30 |
+| `L-156-1998` | 36 | alin. (1) | text din articol („Asiguratului care își stabilește domiciliul în străinătate nu i se acordă drept la pensie …”) | HCC10/2018-05-08 | MO167-175/25.05.18 art.87 | versiunea 108444 @ 2018-05-25, verificat 2026-09-30 |
+| `L-156-1998` | 35 | alin. (1) | text din articol („pe o perioadă de cel mult 3 ani până la data solicitării”) | HCC19/2016-07-19 | MO430-440/16.12.16 art.106 | versiunea 96727 @ 2016-07-19, verificat 2026-09-30 |
+| `L-156-1998` | 42 | alin. (11) | subunitate | HCC27/2011-12-20 | MO1-6/06.01.12 art.1 | versiunea 87366 @ 2011-12-20, verificat 2026-09-30 |
+| `L-156-1998` | 44 | alin. (2) | subunitate | HCC9/2004-03-30 | MO61-63/16.04.04 art.15 | versiunea 87213 @ 2004-03-30, verificat 2026-09-30 |
+| `L-156-1998` | 17 | intregul articol | articol intreg | HCC27/1999-05-18 | MO56/03.06.99 | versiunea 87167 @ 1999-05-18, verificat 2026-09-30 |
+| `L-156-1998` | 23 | intregul articol | articol intreg | HCC27/1999-05-18 | MO56/03.06.99 | versiunea 87167 @ 1999-05-18, verificat 2026-09-30 |
+| `L-156-1998` | 50 | alin. (4) | subunitate | HCC27/1999-05-18 | MO56/03.06.99 | versiunea 87167 @ 1999-05-18, verificat 2026-09-30 |
 | `L-158-2008` | 53 | lit.c) | subunitate | HCC6/2016-03-03 | MO123-127/06.05.16 art.37 | versiunea 92576 @ 2016-03-03, verificat 2026-09-15 |
 | `L-181-2014` | 68 | al.(1) și (2), sintagmele „doar după rămânerea irevocabilă a hotărârii judecătoreşti” și „în baza unei hotărâri judecătoreşti irevocabile” | text din articol („doar după rămânerea irevocabilă a hotărârii judecătoreşti; în baza unei hotărâri judecător…”) | HCC32/2016-11-17 | MO40-49/10.02.17 art.9 | versiunea 153046 @ 2016-11-17, verificat 2026-09-24 |
 | `L-181-2014` | 80 | al.(2) | subunitate | HCC10/2017-03-16 | MO119-126/14.04.17 art.48 | versiunea 153046 @ 2017-03-16, verificat 2026-09-24 |
@@ -188,6 +232,10 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-270-2018` | 27 | al.(5) | subunitate | HCC16/2021-05-20 | MO137-141/04.06.21 art.83 | marcaj in text, l.479 |
 | `L-270-2018` | 27 | al.(5), textul privind excluderea personalului cu raport suspendat | text din articol („pentru personalul efectiv încadrat în unitățile bugetare la data intrării în vigoare a pre…”) | HCC6/2020-03-10 | MO102/10.04.20 art.52 | versiunea 155894 @ 2020-03-10, verificat 2026-09-24 |
 | `L-270-2018` | Anexa nr. 3 | Tabelul 2: posturile enumerate pentru Secretariatul CSM/CSJ, Secretariatul Curtii Constitutionale, curtile de apel si judecatorii | text din anexa („Asistent judiciar; Consultant principal; Consultant superior; Secretar General; Șef adjunc…”) | HCC17/2023-10-10 | MO399-400/25.10.23 art.157 | versiunea 155894 @ 2023-10-10, verificat 2026-09-24 |
+| `L-271-2008` | 5 | lit. a) | in parte | HCC32/2017-12-05 | MO40-47/09.02.18 art. 14 | marcaj in text, l.110 |
+| `L-271-2008` | 15 | al.(2) | subunitate | HCC32/2017-12-05 | MO40-47/09.02.18 art. 14 | marcaj in text, l.186 |
+| `L-271-2008` | 15 | al.(4) | in parte | HCC32/2017-12-05 | MO40-47/09.02.18 art. 14 | marcaj in text, l.189 |
+| `L-271-2008` | 15 | al.(5) | in parte | HCC32/2017-12-05 | MO40-47/09.02.18 art. 14 | marcaj in text, l.191 |
 | `L-283-2003` | 22^1 | alin. (1) lit. c) | text din articol („nu au fost condamnate pentru infractiuni savirsite cu intentie, conform unei hotariri jude…”) | HCC11/2023-07-20 | MO277-281/01.08.23 art.90 | versiunea 138419 @ 2023-07-20, verificat 2026-09-25 |
 | `L-283-2003` | 27^3 | lit. d) | subunitate | HCC11/2023-07-20 | MO277-281/01.08.23 art.90 | versiunea 138419 @ 2023-07-20, verificat 2026-09-25 |
 | `L-303-2013` | 19 | alin. (5) | text din articol („operatorului coordonat cu”) | HCC28/2016-10-11 | MO459-471/23.12.16 art.109 | versiunea 97265 @ 2016-10-11, verificat 2026-09-25 |
@@ -196,13 +244,22 @@ Regula de citare: un articol din tabelele de mai jos se citeaza numai cu mentiun
 | `L-325-2013` | 17 | al.(3) | subunitate | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.303 |
 | `L-325-2013` | 17 | al.(4) | subunitate | HCC37/2021-12-07 | MO315-324/24.12.21 art.225 | marcaj in text, l.305 |
 | `L-325-2013` | Anexa | sintagmele „Curtea Constituțională” și „instanțele judecătorești de toate nivelurile” | text din anexa („Curtea Constituțională; instanțele judecătorești de toate nivelurile”) | HCC7/2015-04-16 | MO115-123/15.05.15 art.11 | versiunea 142068 @ 2015-04-16, verificat 2026-09-24 |
+| `L-344-1994` | 12 | al.(3), lit.d) | text din articol („și aprobarea componenței Comisiei Electorale Centrale pentru efectuarea alegerilor”) | HCC8/2026-07-09 | MO351-354/31.07.26 art. 132 | marcaj in text, l.123 |
+| `L-344-1994` | 19 |  | articol intreg | HCC8/2026-07-09 | MO351-354/31.07.26 art. 132 | marcaj in text, l.175 |
+| `L-344-1994` | 20 | al.(2) | subunitate | HCC24/1999-05-06 | MO53-54/27.05.99 art.34 | marcaj in text, l.179 |
+| `L-344-1994` | 21 |  | articol intreg | HCC4/2025-04-14 | MO212-214/06.05.25 art.56 | marcaj in text, l.185 |
+| `L-344-1994` | 22 |  | articol intreg | HCC8/2026-07-09 | MO351-354/31.07.26 art. 132 | marcaj in text, l.189 |
+| `L-344-1994` | 23 |  | articol intreg | HCC8/2026-07-09 | MO351-354/31.07.26 art. 132 | marcaj in text, l.193 |
+| `L-344-1994` | 24 |  | articol intreg | HCC8/2026-07-09 | MO351-354/31.07.26 art. 132 | marcaj in text, l.200 |
 | `L-382-2001` | 10 |  | text din articol („...si rusa (in partea referitoare la denumirea localitatilor si strazilor)”) | HCC28/2002-05-30 | MO75/13.06.02 art.19 | versiunea 64019 @ 2002-06-13, verificat 2026-09-25 |
 | `L-382-2001` | 11 | alin. (1) | text din articol („...si rusa”) | HCC28/2002-05-30 | MO75/13.06.02 art.19 | versiunea 64019 @ 2002-06-13, verificat 2026-09-25 |
+| `L-440-2001` | 6 | alin. (2^1) | text din articol („în curtea de apel competentă”) | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | versiunea 79568 @ 2012-01-13, verificat 2026-09-30 |
 | `L-514-1995` | 15^1 | al.(5) | subunitate | HCC7/2020-03-24 | MO115-117/15.05.20 art.51 | marcaj in text, l.233 |
 | `L-514-1995` | 23^2 | al.(4) | revigorare | HCC17/2021-06-10 | MO153-157/25.06.21 art.99 | versiunea 127868 @ 2021-06-10, verificat 2026-09-15 |
 | `L-514-1995` | 22 | al.(1) teza I | revigorare („Mijloacele financiare necesare bunei funcționări a instanțelor judecătorești sunt aprobate…”) | HCC27/2019-10-31 | MO352-359/29.11.19 art.210 | versiunea 119115 @ 2019-10-31, verificat 2026-09-15 |
 | `L-514-1995` | 15 | al.(2) | revigorare | HCC3/2012-02-09 | MO38-41/24.02.12 art.7 | versiunea 93910 @ 2012-02-09, verificat 2026-09-15 |
 | `L-52-2014` | 21 | al.(5) lit.e) | subunitate | HCC27/2014-11-13 | MO352-357/28.11.14 art.43 | versiunea 147958 @ 2014-11-13, verificat 2026-09-24 |
+| `L-60-2012` | 49 | al.(4) | text din articol („și de locul de trai (raioane/municipii)”) | HCC3/2022-02-24 | MO68-71/11.03.22 art.26 | marcaj in text, l.588 |
 | `L-64-2010` | 3 | al.(4^1) | articol intreg („În condiţiile alin. (3) se interzice propagarea şi/sau utilizarea în scopuri politice a si…”) | HCC12/2013-06-04 | MO167-172/02.08.13 art.22 | versiunea 23455 @ 2013-06-04, verificat 2026-09-15 |
 | `L-797-1996` | 82 |  | articol intreg | HCC7/2016-03-04 | MO59-67/18.03.16 art.10 | marcaj in text, l.806 |
 | `L-797-1996` | 83 |  | articol intreg | HCC7/2016-03-04 | MO59-67/18.03.16 art.10 | marcaj in text, l.817 |

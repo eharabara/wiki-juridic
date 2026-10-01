@@ -62,7 +62,7 @@ for stem, doc in ibl.DOCS.items():
     for idx_l, line in enumerate(nonempty):
         m_ins = re.match(r'^## Articolul (\d+(?:\^\d+)?)\.', line)
         if (m_ins and m_ins.group(1) in inserted_nums and idx_l + 1 < len(nonempty)
-                and re.match(r'^(?:Articolul|Articol|Art\.)\s*' + re.escape(m_ins.group(1)) + r'(?![\d^])',
+                and re.match(r'^(?:Articolul|Articol|Articlul|Art\.)\.?\s*' + re.escape(m_ins.group(1)) + r'(?![\d^])',
                              nonempty[idx_l + 1])):
             continue
         if mode == 'roman-amending' and INSERTED.match(line):

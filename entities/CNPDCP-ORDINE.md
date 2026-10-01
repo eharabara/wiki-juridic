@@ -218,3 +218,7 @@ puncte), inventarul complet e verificat contra registrului autorității. Rămas
 [[acquis-DataProtection]] — Ordinul 31/2026 și Ordinul 40/2026 transpun acte UE (Decizia 2021/914, lista
 adecvatelor a Comisiei) care nu au fișier propriu în vault. Planul:
 `_meta/plans/2026-09-21-perimetru-protectia-datelor.md`.
+
+## Legea 182/2008 (ingerată 2026-09-30)
+
+Textul legii a cărei anexă conține Regulamentul Centrului, citat mai sus ca temei al Deciziei 581/2015, este acum în vault ca [[L-182-2008]] (abrogată de la 23.08.2026 prin art. 90 alin. (3) lit. a) L-195/2024; anexele nu sînt ancorate).

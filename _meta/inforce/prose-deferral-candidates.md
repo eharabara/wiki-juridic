@@ -8,7 +8,7 @@ generated_by: _meta/inforce/build_prose_deferral_candidates.py
 
 **Fisier generat. Nu se editeaza manual.** Registrul in-force citeste numai marcajele intre paranteze; amanarile scrise in proza articolului final (CLAUDE.md, intrebarea 9) ii scapa. Aici sint paragrafele din ultimele 6 articole ale fiecarui act care spun `intra in vigoare` sau `se aplica` impreuna cu o exceptie, o conditie sau o data viitoare (dupa 2026-09-26); datele simple deja trecute nu se listeaza. **Sint candidati, nu constatari**: multe sint simple date de intrare in vigoare deja trecute. Coloana *in registru* spune daca actul are deja o intrare in registrul in-force.
 
-44 paragrafe in 32 acte.
+51 paragrafe in 35 acte.
 
 | Act | Articol | in registru | Paragraf |
 |---|---|---|---|
@@ -29,8 +29,14 @@ generated_by: _meta/inforce/build_prose_deferral_candidates.py
 | `L-133-2016` | ## Articolul 24. Dispoziții tranzitorii | da | (1) Prezenta lege intră în vigoare de la 1 august 2016, cu excepția prevederilor art. 7, care vor intra în vigoare începând cu 1 ianuarie 2018. |
 | `L-137-2015` | ## Articolul 41. Dispoziţii finale | nu | (1) Prezenta lege intră în vigoare la data publicării, cu excepția prevederilor art. 9 alin. (2) și (3), precum și a celor de la alin. (5) în partea ce se referă la remunerarea membrilor Consiliului, care vor intra în vigoare la d |
 | `L-140-2025` | ## Articolul XXIV. | nu | Art. XXIV. – (1) Prezenta lege intră în vigoare la 1 ianuarie 2026, cu excepția articolului VII, care intră în vigoare la 1 septembrie 2025, și cu excepția articolelor VI, VIII, XII, XVI, XVII, a articolului XVIII în partea ce se  |
+| `L-151-2022` | ## Articolul 29. Intrarea în vigoare și data punerii în aplicare | nu | (1) Prezenta lege intră în vigoare la expirarea termenului de 12 luni de la data publicării în Monitorul Oficial al Republicii Moldova, cu excepția prevederilor: |
+| `L-151-2022` | ## Articolul 29. Intrarea în vigoare și data punerii în aplicare | nu | a) art. 1 alin. (4), art. 3, 4, 12, 21 și art. 30 alin. (2), care intră în vigoare la data publicării prezentei legi; |
+| `L-151-2022` | ## Articolul 29. Intrarea în vigoare și data punerii în aplicare | nu | b) art. 5 alin. (6)–(8), care intră în vigoare la expirarea termenului de 18 luni de la data publicării prezentei legi; |
+| `L-151-2022` | ## Articolul 29. Intrarea în vigoare și data punerii în aplicare | nu | c) art. 20, care intră în vigoare la expirarea termenului de 24 de luni de la data publicării prezentei legi. |
 | `L-160-2011` | ## Articolul 14. Dispoziţii finale | da | Prezenta lege intră în vigoare la 6 luni de la data publicării, cu excepţia art. 13 alin. (1), care intră în vigoare la data publicării, şi art. 11 alin. (6), care intră în vigoare la 1 februarie 2012. |
-| `L-180-2026` | ## Articolul 103. Taxe sau plăți de autorizare și | da | (4) Cuantumul taxelor sau plăților nu poate fi majorat pe parcursul aceleiași perioade de gestiune. Orice modificare privind cuantumul taxelor sau plăților, categoriile de persoane sau entități obligate la plată se aplică începând |
+| `L-162-2023` | ## Articolul 35. Intrarea în vigoare | nu | (1) Prezenta lege intră în vigoare la 12 luni de la data publicării în Monitorul Oficial al Republicii Moldova, cu excepția prevederilor: |
+| `L-162-2023` | ## Articolul 35. Intrarea în vigoare | nu | b) pct. 1, 2 și 4 din anexa nr. 2, care intră în vigoare la data aprobării reglementărilor tehnice care stabilesc dispoziții specifice privind supravegherea pieței pentru produsele respective. |
+| `L-180-2026` | ## Articolul 103. Taxe sau plăți de autorizare și supraveghere a piețe | da | (4) Cuantumul taxelor sau plăților nu poate fi majorat pe parcursul aceleiași perioade de gestiune. Orice modificare privind cuantumul taxelor sau plăților, categoriile de persoane sau entități obligate la plată se aplică începând |
 | `L-187-2022` | ## Articolul 103. Intrarea în vigoare | nu | (1) Prezenta lege intră în vigoare la 6 luni de la data publicării în Monitorul Oficial al Republicii Moldova, cu excepția: |
 | `L-187-2022` | ## Articolul 103. Intrarea în vigoare | nu | a) dispozițiilor capitolului VII, care intră în vigoare la 12 luni de la data publicării în Monitorul Oficial al Republicii Moldova; |
 | `L-187-2022` | ## Articolul 103. Intrarea în vigoare | nu | b) dispozițiilor art. 34 alin. (9) și (10), ale art. 36 alin. (2)–(7) și (10) și ale art. 39 alin. (1)–(3), care intră în vigoare la data publicării prezentei legi în Monitorul Oficial al Republicii Moldova și se aplică în mod cor |
@@ -47,6 +53,7 @@ generated_by: _meta/inforce/build_prose_deferral_candidates.py
 | `L-317-2025` | ## Articolul XVII. | nu | Art. XVII. – La articolul XXIV alineatul (1) din Legea nr. 140/2025 pentru modificarea unor acte normative (migrarea autorităților administrative centrale) (Monitorul Oficial al Republicii Moldova, 2025, nr. 340–342, art. 391), du |
 | `L-317-2025` | ## Articolul XIX. | nu | „Prin derogare de la art. 56 alin. (2) din Legea nr. 100/2017 cu privire la actele normative, prezenta lege intră în vigoare la data de 30 decembrie 2025, cu excepția:”. |
 | `L-325-2025` | ## Articolul 90. Dispoziții finale | da | (1) Prezenta lege intră în vigoare la data de 1 ianuarie 2027. |
+| `L-57-2006` | ## Articolul 37. | nu | (1) Prezenta lege intră în vigoare după 2 luni de la data publicării, cu excepţia art.22 alin. (11) care intră în vigoare la 1 august 2008. |
 | `L-66-2017` | ## Articolul XVII. | nu | (7) Prevederile art. 48 şi 48^32 din Codul civil intră în vigoare după crearea condiţiilor necesare, dar nu mai tîrziu de 2 ani de la data publicării prezentei legi. |
 | `L-69-2016` | ## Articolul 70 | nu | (1) Prezenta lege intră în vigoare la 6 luni de la data publicării, cu excepția capitolului VII, care va intra în vigoare la data publicării. |
 | `L-72-2025` | ## Articolul 127. Intrarea în vigoare și măsuri de implementare | nu | (1) Prezenta lege intră în vigoare la data de 1 ianuarie 2026, cu excepția art. 96, 99–104, 106–107 și 109–113, care vor intra în vigoare la expirarea termenului de 24 de luni de la data publicării acesteia în Monitorul Oficial al |

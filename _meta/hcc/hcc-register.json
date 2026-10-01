@@ -1,6 +1,407 @@
 {
- "generated": "2026-09-28",
+ "generated": "2026-10-01",
  "acts": [
+  {
+   "instrument": "COD-1149-2000",
+   "file": "raw/papers/moldova-legal/COD-1149-2000.md",
+   "doc_id": "136393",
+   "consolidation_date": "2024-01-01",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC23/2019-10-10",
+     "line": 183,
+     "text": "HCC23 din 10.10.19, MO338-343/15.11.19 art.206; în vigoare 10.10.19"
+    },
+    {
+     "hcc": "HCC31/2016-11-03",
+     "line": 203,
+     "text": "HCC31 din 03.11.16, MO30-39/03.02.17 art.6; în vigoare 03.11.16"
+    }
+   ],
+   "recovered": [
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC31/2016-11-03",
+     "article": "73",
+     "subunit": "alin. (4)",
+     "scope": "text din articol",
+     "quoted_text": "Până la data de 31 decembrie 2014 inclusiv,",
+     "official_gazette": "MO30-39/03.02.17 art.6",
+     "read_doc_id": "97668",
+     "read_consolidation": "2016-11-03",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul figurează în textul deținut (136393, Codul abrogat la 01.01.2024); cuvintele anulate nu au fost comparate cu textul de azi",
+     "summary": "Citit în versiunea 97668 (2016-11-03): marcajul „declarat neconstituțional prin HCC31/2016” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC31/2016-11-03",
+     "article": "73",
+     "subunit": "alin. (4) lit. b)",
+     "scope": "text din articol",
+     "quoted_text": "dar nu mai târziu de 1 ianuarie 2015",
+     "official_gazette": "MO30-39/03.02.17 art.6",
+     "read_doc_id": "97668",
+     "read_consolidation": "2016-11-03",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul figurează în textul deținut (136393, Codul abrogat la 01.01.2024); cuvintele anulate nu au fost comparate cu textul de azi",
+     "summary": "Citit în versiunea 97668 (2016-11-03): marcajul „declarat neconstituțional prin HCC31/2016” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "1",
+     "subunit": "pct. 22)",
+     "scope": "text din articol",
+     "quoted_text": "barurilor și restaurantelor",
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul figurează în textul deținut (136393, Codul abrogat la 01.01.2024); cuvintele anulate nu au fost comparate cu textul de azi",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "1",
+     "subunit": "pct. 32)",
+     "scope": "text din articol",
+     "quoted_text": "bar și restaurant",
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul figurează în textul deținut (136393, Codul abrogat la 01.01.2024); cuvintele anulate nu au fost comparate cu textul de azi",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "93",
+     "subunit": "alin. (1)",
+     "scope": "text din articol",
+     "quoted_text": "și porturile”, „și navele",
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "93",
+     "subunit": "alin. (1^1)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "93",
+     "subunit": "alin. (2)",
+     "scope": "text din articol",
+     "quoted_text": "barul și restaurantul",
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "93",
+     "subunit": "alin. (3)",
+     "scope": "text din articol",
+     "quoted_text": "barurile și restaurantele”; „precum și persoanelor care se află în străinătate – în cazul navelor",
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "94",
+     "subunit": "denumire",
+     "scope": "text din articol",
+     "quoted_text": "barul și restaurantul",
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "94",
+     "subunit": "alin. (1)",
+     "scope": "text din articol",
+     "quoted_text": "barul și restaurantul",
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "94",
+     "subunit": "alin. (3)",
+     "scope": "text din articol",
+     "quoted_text": "barurile și restaurantele",
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "94",
+     "subunit": "alin. (4)",
+     "scope": "text din articol",
+     "quoted_text": "barurile și restaurantele",
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "95",
+     "subunit": "denumire",
+     "scope": "text din articol",
+     "quoted_text": "barului și restaurantului",
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "95",
+     "subunit": "alin. (1)",
+     "scope": "text din articol",
+     "quoted_text": "barul și restaurantul",
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "95",
+     "subunit": "alin. (2)",
+     "scope": "text din articol",
+     "quoted_text": "barurilor și restaurantelor",
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "95^1",
+     "subunit": "denumire",
+     "scope": "text din articol",
+     "quoted_text": "barului și restaurantului",
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "95^1",
+     "subunit": "alin. (1^2)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "95^1",
+     "subunit": "alin. (1^3)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "95^1",
+     "subunit": "alin. (3) lit. d)",
+     "scope": "text din articol",
+     "quoted_text": "barul și restaurantul",
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "95^1",
+     "subunit": "alin. (3) lit. f)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "95^1",
+     "subunit": "alin. (3^1)",
+     "scope": "text din articol",
+     "quoted_text": "precum şi pentru activitatea barurilor şi restaurantelor duty-free la bordul navelor ...",
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "95^1",
+     "subunit": "alin. (4)",
+     "scope": "text din articol",
+     "quoted_text": "barurile și restaurantele",
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "95^1",
+     "subunit": "alin. (6)",
+     "scope": "text din articol",
+     "quoted_text": "barurile și restaurantele",
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "95^1",
+     "subunit": "alin. (9)",
+     "scope": "text din articol",
+     "quoted_text": "barurile și restaurantele",
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul nu figurează în textul deținut (136393, Codul abrogat la 01.01.2024): lipsește din numerotare, deci provizia a dispărut ulterior hotărîrii, nu s-a citit prin ce lege",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    },
+    {
+     "instrument": "COD-1149-2000",
+     "hcc": "HCC23/2019-10-10",
+     "article": "185",
+     "subunit": "alin. (1) lit. f)",
+     "scope": "text din articol",
+     "quoted_text": "barurilor și restaurantelor",
+     "official_gazette": "MO338-343/15.11.19 art.206",
+     "read_doc_id": "118780",
+     "read_consolidation": "2019-10-10",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "articolul figurează în textul deținut (136393, Codul abrogat la 01.01.2024); cuvintele anulate nu au fost comparate cu textul de azi",
+     "summary": "Citit în versiunea 118780 (2019-10-10): marcajul „declarat neconstituțional prin HCC23/2019” stă sub dispoziția afectată. Exponentul poate fi scris lipit în sursă (ex. „951” pentru 95^1, „(11)” pentru (1^1)). Dispozitivul hotărîrii nu a fost citit. Actul este abrogat; înregistrarea servește faptelor anterioare lui."
+    }
+   ],
+   "unattributed": [],
+   "distinct_hcc": [
+    "HCC23/2019-10-10",
+    "HCC31/2016-11-03"
+   ]
+  },
   {
    "instrument": "COD-116-2018",
    "file": "raw/papers/moldova-legal/COD-116-2018.md",
@@ -938,6 +1339,38 @@
    ]
   },
   {
+   "instrument": "COD-152-2014",
+   "file": "raw/papers/moldova-legal/COD-152-2014.md",
+   "doc_id": "156377",
+   "consolidation_date": "2026-09-14",
+   "markers": [
+    {
+     "article": "41",
+     "subunit": "al.(4)",
+     "quoted_text": null,
+     "scope": "in parte",
+     "hcc": [
+      "HCC7/2017-02-16"
+     ],
+     "official_gazette": "MO201-213/23.06.17 art. 71",
+     "marker": "Art. 41 al.(4) în partea în care vizează asigurarea elevilor claselor V-IX cu manuale școlare conform schemei de închiriere aprobate de Ministerul Educației, declarat neconstituțional prin HCC7 din 16.02.17, MO201-213/23.06.17 art. 71; în vigoare 16.02.17",
+     "line": 668
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC7/2017-02-16",
+     "line": 98,
+     "text": "HCC7 din 16.02.17, MO201-213/23.06.17 art.71"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [],
+   "distinct_hcc": [
+    "HCC7/2017-02-16"
+   ]
+  },
+  {
    "instrument": "COD-154-2003",
    "file": "raw/papers/moldova-legal/COD-154-2003.md",
    "doc_id": "155185",
@@ -1530,7 +1963,7 @@
      ],
      "official_gazette": "MO391-394/19.10.23 art.153",
      "marker": "Notă: Art.16 al.(2), lit.e) declarată neconstituțională prin HCC16 din 03.10.23, MO391-394/19.10.23 art.153; în vigoare 03.10.23.",
-     "line": 263
+     "line": 272
     },
     {
      "article": "16",
@@ -1542,7 +1975,7 @@
      ],
      "official_gazette": "MO192-194/02.05.24 art.66",
      "marker": "Notă: Art.16 al.(2), lit.f) introdusă prin LP280/2023 declarată neconstituțională prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
-     "line": 269
+     "line": 278
     },
     {
      "article": "16",
@@ -1554,7 +1987,7 @@
      ],
      "official_gazette": "MO192-194/02.05.24 art.66",
      "marker": "Notă: Art.16 al.(2^1) introdus prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
-     "line": 271
+     "line": 280
     },
     {
      "article": "16",
@@ -1566,7 +1999,7 @@
      ],
      "official_gazette": "MO192-194/02.05.24 art.66",
      "marker": "Notă: Art.16 al.(2^2) introdus prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
-     "line": 273
+     "line": 282
     },
     {
      "article": "16",
@@ -1578,7 +2011,7 @@
      ],
      "official_gazette": "MO192-194/02.05.24 art.66",
      "marker": "Notă: Art.16 al.(2^3) introdus prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
-     "line": 275
+     "line": 284
     },
     {
      "article": "16",
@@ -1590,7 +2023,7 @@
      ],
      "official_gazette": "MO192-194/02.05.24 art.66",
      "marker": "Notă: Art.16 al.(2^4) introdus prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
-     "line": 277
+     "line": 286
     },
     {
      "article": "68",
@@ -1602,7 +2035,7 @@
      ],
      "official_gazette": "MO192-194/02.05.24 art.66",
      "marker": "Notă: Art.68 al.(1), lit.f) textul „art.16 alin.(2) lit.c)–f)” modificat prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
-     "line": 1227
+     "line": 1236
     },
     {
      "article": "68",
@@ -1614,7 +2047,7 @@
      ],
      "official_gazette": "MO192-194/02.05.24 art.66",
      "marker": "Notă: Art.68 al.(1^1) introdus prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
-     "line": 1238
+     "line": 1247
     },
     {
      "article": "68",
@@ -1626,7 +2059,7 @@
      ],
      "official_gazette": "MO192-194/02.05.24 art.66",
      "marker": "Notă: Art.68 al.(5^1) introdus prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
-     "line": 1245
+     "line": 1254
     },
     {
      "article": "91",
@@ -1638,7 +2071,7 @@
      ],
      "official_gazette": "MO192-194/02.05.24 art.66",
      "marker": "Notă: Art.91 al.(3^1) introdus prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
-     "line": 1655
+     "line": 1664
     },
     {
      "article": "91",
@@ -1650,7 +2083,7 @@
      ],
      "official_gazette": "MO192-194/02.05.24 art.66",
      "marker": "Notă: Art.91 al.(5) textul „deciziilor organelor electorale emise în conformitate cu prevederile art. 68 alin. (51), a” modificat prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
-     "line": 1659
+     "line": 1668
     },
     {
      "article": "98",
@@ -1662,7 +2095,7 @@
      ],
      "official_gazette": "MO192-194/02.05.24 art.66",
      "marker": "Notă: Art.98 al.(1), pct.2) lit.a^1) introdusă prin LP280/2023 declarată neconstituțională prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
-     "line": 1743
+     "line": 1752
     },
     {
      "article": "102",
@@ -1674,23 +2107,23 @@
      ],
      "official_gazette": "MO192-194/02.05.24 art.66",
      "marker": "Notă: Art.102 al.(5), lit.e) textul „art. 16 alin. (2) lit. c)–f) modificat prin LP280/2023 declarat neconstituțional prin HCC9 din 26.03.24, MO192-194/02.05.24 art.66; în vigoare 26.03.24.",
-     "line": 1816
+     "line": 1825
     }
    ],
    "fisa": [
     {
      "hcc": "HCC8/2026-07-09",
-     "line": 52,
+     "line": 61,
      "text": "HCC8 din 09.07.26, MO351-354/31.07.26 art.132; în vigoare 09.07.26"
     },
     {
      "hcc": "HCC16/2024-07-16",
-     "line": 59,
+     "line": 68,
      "text": "HCC16 din 16.07.24, MO344-346/08.08.24 art.127; în vigoare 16.07.24"
     },
     {
      "hcc": "HCC16/2023-10-03",
-     "line": 62,
+     "line": 71,
      "text": "HCC16 din 03.10.23, MO391-394/19.10.23 art.153; în vigoare 03.10.23"
     }
    ],
@@ -2373,6 +2806,50 @@
    ]
   },
   {
+   "instrument": "L-1308-1997",
+   "file": "raw/papers/moldova-legal/L-1308-1997.md",
+   "doc_id": "148859",
+   "consolidation_date": "2025-05-16",
+   "markers": [
+    {
+     "article": "10",
+     "subunit": "al.(8)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC19/2023-10-31"
+     ],
+     "official_gazette": "MO418-421/09.11.23 art.171",
+     "marker": "Art.10 al.(8) declarat neconstituțional prin HCC19 din 31.10.23, MO418-421/09.11.23 art.171; în vigoare 31.10.23",
+     "line": 189
+    },
+    {
+     "article": "10",
+     "subunit": "al.(11)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC19/2023-10-31"
+     ],
+     "official_gazette": "MO418-421/09.11.23 art.171",
+     "marker": "Art.10 al.(11) declarat neconstituțional prin HCC19 din 31.10.23, MO418-421/09.11.23 art.171; în vigoare 31.10.23",
+     "line": 193
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC19/2023-10-31",
+     "line": 58,
+     "text": "HCC19 din 31.10.23, MO418-421/09.11.23 art.171; în vigoare 31.10.23"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [],
+   "distinct_hcc": [
+    "HCC19/2023-10-31"
+   ]
+  },
+  {
    "instrument": "L-132-2016",
    "file": "raw/papers/moldova-legal/L-132-2016.md",
    "doc_id": "147882",
@@ -2584,6 +3061,170 @@
    ]
   },
   {
+   "instrument": "L-156-1998",
+   "file": "raw/papers/moldova-legal/L-156-1998.md",
+   "doc_id": "148342",
+   "consolidation_date": "2025-05-01",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC10/2018-05-08",
+     "line": 86,
+     "text": "HCC10 din 08.05.18, MO167-175/25.05.18 art.87; în vigoare 08.05.18"
+    },
+    {
+     "hcc": "HCC19/2016-07-19",
+     "line": 89,
+     "text": "HCC19 din 19.07.16, MO430-440/16.12.16 art.106; în vigoare 19.07.16"
+    },
+    {
+     "hcc": "HCC27/2011-12-20",
+     "line": 98,
+     "text": "HCC27 din 20.12.11, MO1-6/06.01.12 art.1; în vigoare 20.12.11"
+    },
+    {
+     "hcc": "HCC9/2004-03-30",
+     "line": 112,
+     "text": "HCC9 din 30.03.04, MO61-63/16.04.04 art.15"
+    },
+    {
+     "hcc": "HCC27/1999-05-18",
+     "line": 124,
+     "text": "HCC27 din 18.05.99, MO56/03.06.99 |"
+    }
+   ],
+   "recovered": [
+    {
+     "instrument": "L-156-1998",
+     "hcc": "HCC10/2018-05-08",
+     "article": "2",
+     "subunit": "alin. (1)",
+     "scope": "text din articol",
+     "quoted_text": "domiciliată în Republica Moldova",
+     "official_gazette": "MO167-175/25.05.18 art.87",
+     "read_doc_id": "108444",
+     "read_consolidation": "2018-05-25",
+     "decision_doc_id": "111028",
+     "verified": "2026-09-30",
+     "status_today": "art. 2 alin. (1) din textul deținut (consolidare 2025-05-01) nu mai conține sintagma: \"Dreptul la pensie îl are persoana care îndeplinește condițiile prevăzute de prezenta lege\"; coerent cu hotărîrea",
+     "summary": "Dispozitivul hotărîrii (citit, doc 111028): declară neconstituționale textele „domiciliată în Republica Moldova\" din art. 2 alin. (1) și „Asiguratului care își stabilește domiciliul în străinătate nu i se acordă drept la pensie conform legii\" din art. 36 alin. (1). Marcajul se vede în versiunea 108444 (25.05.2018)."
+    },
+    {
+     "instrument": "L-156-1998",
+     "hcc": "HCC10/2018-05-08",
+     "article": "36",
+     "subunit": "alin. (1)",
+     "scope": "text din articol",
+     "quoted_text": "Asiguratului care își stabilește domiciliul în străinătate nu i se acordă drept la pensie conform legi",
+     "official_gazette": "MO167-175/25.05.18 art.87",
+     "read_doc_id": "108444",
+     "read_consolidation": "2018-05-25",
+     "decision_doc_id": "111028",
+     "verified": "2026-09-30",
+     "status_today": "art. 36 alin. (1) din textul deținut spune astăzi: \"Persoana care și-a stabilit domiciliul în străinătate are dreptul la pensie în condițiile prezentei legi\"; textul anulat a dispărut",
+     "summary": "Același dispozitiv ca pentru art. 2 alin. (1) (doc 111028); citatul este cel din hotărîre, cu „legi\" în loc de „legii\"."
+    },
+    {
+     "instrument": "L-156-1998",
+     "hcc": "HCC19/2016-07-19",
+     "article": "35",
+     "subunit": "alin. (1)",
+     "scope": "text din articol",
+     "quoted_text": "pe o perioadă de cel mult 3 ani până la data solicitării",
+     "official_gazette": "MO430-440/16.12.16 art.106",
+     "read_doc_id": "96727",
+     "read_consolidation": "2016-07-19",
+     "decision_doc_id": "96614",
+     "verified": "2026-09-30",
+     "status_today": "art. 35 alin. (1) din textul deținut spune astăzi: \"Pensia stabilită și neîncasată la timp se plătește retroactiv din data suspendării\"; sintagma anulată a dispărut",
+     "summary": "Dispozitivul (citit, doc 96614) declară neconstituțională sintagma din art. 35 alin. (1) (plata retroactivă limitată la 3 ani) și, din pct. 20 al Regulamentului aprobat prin HG 929/2006, o sintagmă identică; recunoaște constituțională sintagma „a cărei valabilitate nu poate fi mai mare de 6 luni consecutive\" din art. 34 alin. (3) (astăzi art. 34 alin. (3) are 12 luni, schimbare neexplicată aici). Marcajul se vede în versiunea 96727."
+    },
+    {
+     "instrument": "L-156-1998",
+     "hcc": "HCC27/2011-12-20",
+     "article": "42",
+     "subunit": "alin. (11)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO1-6/06.01.12 art.1",
+     "read_doc_id": "87366",
+     "read_consolidation": "2011-12-20",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "art. 42 din textul deținut a fost rescris (alin. (1)-(3), cu eșalonarea stagiului complet de cotizare pînă la 34 de ani); alin. (11) nu mai există",
+     "summary": "Marcajul „(Se declară neconstituțional prin HCC nr.27 din 20.12.2011 MO nr.1-6/1 din 06.01.2012)\" stă în versiunea 87366 (în vigoare din 06.01.2012) imediat după art. 42 alin. (11) (stagiul de cotizare de 30 de ani și 6 luni de la 1 iulie 2011, majorat anual pînă la 35) și înaintea „Tabelului nr. 5^1\"; ce anume din alin. (11) sau din tabel a fost lovit nu se vede din marcaj. Hotărîrea însăși nu a fost găsită pe legis.md (căutarea în titlu nu o returnează); dispozitivul nu a fost citit. [de verificat]"
+    },
+    {
+     "instrument": "L-156-1998",
+     "hcc": "HCC9/2004-03-30",
+     "article": "44",
+     "subunit": "alin. (2)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO61-63/16.04.04 art.15",
+     "read_doc_id": "87213",
+     "read_consolidation": "2004-03-30",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "art. 44 nu se află în textul deținut: capitolul VI (art. 43-49, pensii pentru unele categorii) lipsește, fără marcaj, iar actul trece de la art. 42 la art. 50; dispoziția nu mai poate fi citată din această lege",
+     "summary": "Marcajul „(Se declară neconstituțional prin HCC9 din 30.03.04, MO61-63/16.04.04 art.15)\" stă în versiunea 87213 (în vigoare din 16.04.2004) imediat după art. 44 alin. (2) (funcționarii publici cu 15 ani de serviciu public pînă la 1 ianuarie 2004, pensionare anticipată conform tabelului nr. 6) și înaintea „Tabelului nr. 6\". Hotărîrea însăși nu a fost găsită pe legis.md; dispozitivul nu a fost citit. [de verificat]"
+    },
+    {
+     "instrument": "L-156-1998",
+     "hcc": "HCC27/1999-05-18",
+     "article": "17",
+     "subunit": "intregul articol",
+     "scope": "articol intreg",
+     "quoted_text": null,
+     "official_gazette": "MO56/03.06.99",
+     "read_doc_id": "87167",
+     "read_consolidation": "1999-05-18",
+     "decision_doc_id": "12675",
+     "verified": "2026-09-30",
+     "status_today": "art. 17 din textul deținut are alt conținut: \"Pensia pentru limită de vârstă se plătește integral, inclusiv pensionarilor care realizează venituri pasibile de asigurări sociale de stat\" (alin. (1)); coerent cu hotărîrea",
+     "summary": "Marcajul „[Art. 17 declarat neconstituțional prin HCC27 din 18.05.99, MO56/03.06.99 art.38; în vigoare 18.05.99]\" stă în versiunea 87167 (18.05.1999). Textul anulat (citit în versiunea 87164 de dinainte): pensionarului care realizează venituri pasibile de asigurări sociale i se suspendă suma din pensie care depășește dublul pensiei minime pentru limită de vîrstă. Dispozitivul hotărîrii (doc 12675) declară neconstituționale art. 17, art. 23 și art. 50 alin. (4); motivarea: îngrădirea dreptului pensionarilor de a-și cîștiga mijloace de subzistență prin muncă."
+    },
+    {
+     "instrument": "L-156-1998",
+     "hcc": "HCC27/1999-05-18",
+     "article": "23",
+     "subunit": "intregul articol",
+     "scope": "articol intreg",
+     "quoted_text": null,
+     "official_gazette": "MO56/03.06.99",
+     "read_doc_id": "87167",
+     "read_consolidation": "1999-05-18",
+     "decision_doc_id": "12675",
+     "verified": "2026-09-30",
+     "status_today": "art. 23 din textul deținut are alt conținut: \"Pensia de dizabilitate se plătește integral, inclusiv pensionarilor care realizează venituri pasibile de asigurări sociale de stat\" (alin. (1)); coerent cu hotărîrea",
+     "summary": "Marcajul „[Art.23 declarat neconstituțional prin HCC27 din 18.05.99 ...]\" stă în versiunea 87167. Același dispozitiv ca pentru art. 17 (doc 12675); textul anulat al art. 23 nu a fost comparat rînd cu rînd."
+    },
+    {
+     "instrument": "L-156-1998",
+     "hcc": "HCC27/1999-05-18",
+     "article": "50",
+     "subunit": "alin. (4)",
+     "scope": "subunitate",
+     "quoted_text": null,
+     "official_gazette": "MO56/03.06.99",
+     "read_doc_id": "87167",
+     "read_consolidation": "1999-05-18",
+     "decision_doc_id": "12675",
+     "verified": "2026-09-30",
+     "status_today": "art. 50 din textul deținut are alin. (1)-(3) (activitățile incluse în stagiul de cotizare); alin. (4) nu figurează",
+     "summary": "Marcajul „[Art.50 al.(4) declarat neconstituțional prin HCC27 din 18.05.99 ...]\" stă în versiunea 87167. Vechiul alin. (4) (citit în versiunea 87164): beneficiarilor acestor pensii care realizează venituri pasibile de asigurări sociale, plata pensiei se face în condițiile art. 17. Același dispozitiv ca pentru art. 17 (doc 12675)."
+    }
+   ],
+   "unattributed": [],
+   "distinct_hcc": [
+    "HCC10/2018-05-08",
+    "HCC19/2016-07-19",
+    "HCC27/1999-05-18",
+    "HCC27/2011-12-20",
+    "HCC9/2004-03-30"
+   ]
+  },
+  {
    "instrument": "L-158-2008",
    "file": "raw/papers/moldova-legal/L-158-2008.md",
    "doc_id": "155439",
@@ -2777,7 +3418,7 @@
    "fisa": [
     {
      "hcc": "HCC3/2012-02-09",
-     "line": 46,
+     "line": 55,
      "text": "HCC3 din 09.02.12, MO38-41/24.02.12 art.7;"
     }
    ],
@@ -2896,6 +3537,74 @@
     "HCC16/2021-05-20",
     "HCC17/2023-10-10",
     "HCC6/2020-03-10"
+   ]
+  },
+  {
+   "instrument": "L-271-2008",
+   "file": "raw/papers/moldova-legal/L-271-2008.md",
+   "doc_id": "155885",
+   "consolidation_date": "2026-09-13",
+   "markers": [
+    {
+     "article": "5",
+     "subunit": "lit. a)",
+     "quoted_text": null,
+     "scope": "in parte",
+     "hcc": [
+      "HCC32/2017-12-05"
+     ],
+     "official_gazette": "MO40-47/09.02.18 art. 14",
+     "marker": "Art. 5 lit. a) declarată neconstituțională în partea ce se referă la verificarea candidaților la funcția de judecător și a judecătorilor în exercițiu, prin HCC32 din 05.12.17, MO40-47/09.02.18 art. 14; în vigoare 05.12.17",
+     "line": 110
+    },
+    {
+     "article": "15",
+     "subunit": "al.(2)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC32/2017-12-05"
+     ],
+     "official_gazette": "MO40-47/09.02.18 art. 14",
+     "marker": "Art. 15 al.(2) declarat neconstituțional n partea ce se referă la verificarea candidaților la funcția de judecător și a judecătorilor în exercițiu, prin HCC32 din 05.12.17, MO40-47/09.02.18 art. 14; în vigoare 05.12.17",
+     "line": 186
+    },
+    {
+     "article": "15",
+     "subunit": "al.(4)",
+     "quoted_text": null,
+     "scope": "in parte",
+     "hcc": [
+      "HCC32/2017-12-05"
+     ],
+     "official_gazette": "MO40-47/09.02.18 art. 14",
+     "marker": "Art. 15 al.(4) declarat neconstituțional în partea ce se referă la verificarea candidaților la funcția de judecător și a judecătorilor în exercițiu, prin HCC32 din 05.12.17, MO40-47/09.02.18 art. 14; în vigoare 05.12.17",
+     "line": 189
+    },
+    {
+     "article": "15",
+     "subunit": "al.(5)",
+     "quoted_text": null,
+     "scope": "in parte",
+     "hcc": [
+      "HCC32/2017-12-05"
+     ],
+     "official_gazette": "MO40-47/09.02.18 art. 14",
+     "marker": "Art. 15 al.(5) declarat neconstituțional în partea ce se referă la verificarea candidaților la funcția de judecător și a judecătorilor în exercițiu, prin HCC32 din 05.12.17, MO40-47/09.02.18 art. 14; în vigoare 05.12.17",
+     "line": 191
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC32/2017-12-05",
+     "line": 61,
+     "text": "HCC32 din 05.12.17, MO40-47/09.02.18 art.14"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [],
+   "distinct_hcc": [
+    "HCC32/2017-12-05"
    ]
   },
   {
@@ -3088,6 +3797,127 @@
    ]
   },
   {
+   "instrument": "L-344-1994",
+   "file": "raw/papers/moldova-legal/L-344-1994.md",
+   "doc_id": "155592",
+   "consolidation_date": "2026-07-09",
+   "markers": [
+    {
+     "article": "12",
+     "subunit": "al.(3), lit.d)",
+     "quoted_text": "și aprobarea componenței Comisiei Electorale Centrale pentru efectuarea alegerilor",
+     "scope": "text din articol",
+     "hcc": [
+      "HCC8/2026-07-09"
+     ],
+     "official_gazette": "MO351-354/31.07.26 art. 132",
+     "marker": "Art.12 al.(3), lit.d) textul „și aprobarea componenței Comisiei Electorale Centrale pentru efectuarea alegerilor”declarat neconstituțional prin HCC8 din 09.07.26, MO351-354/31.07.26 art. 132; în vigoare 09.07.26",
+     "line": 123
+    },
+    {
+     "article": "19",
+     "subunit": null,
+     "quoted_text": null,
+     "scope": "articol intreg",
+     "hcc": [
+      "HCC8/2026-07-09"
+     ],
+     "official_gazette": "MO351-354/31.07.26 art. 132",
+     "marker": "Art.19 declarat neconstituțional prin HCC8 din 09.07.26, MO351-354/31.07.26 art. 132; în vigoare 09.07.26",
+     "line": 175
+    },
+    {
+     "article": "20",
+     "subunit": "al.(2)",
+     "quoted_text": null,
+     "scope": "subunitate",
+     "hcc": [
+      "HCC24/1999-05-06"
+     ],
+     "official_gazette": "MO53-54/27.05.99 art.34",
+     "marker": "Art.20 al.(2) declarat neconstituțional prin HCC24 din 06.05.99, MO53-54/27.05.99 art.34; în vigoare 27.05.99",
+     "line": 179
+    },
+    {
+     "article": "21",
+     "subunit": null,
+     "quoted_text": null,
+     "scope": "articol intreg",
+     "hcc": [
+      "HCC4/2025-04-14"
+     ],
+     "official_gazette": "MO212-214/06.05.25 art.56",
+     "marker": "Art.21 declarat neconstituțional prin HCC4 din 14.04.25, MO212-214/06.05.25 art.56; în vigoare 14.04.25",
+     "line": 185
+    },
+    {
+     "article": "22",
+     "subunit": null,
+     "quoted_text": null,
+     "scope": "articol intreg",
+     "hcc": [
+      "HCC8/2026-07-09"
+     ],
+     "official_gazette": "MO351-354/31.07.26 art. 132",
+     "marker": "Art.22 declarat neconstituțional prin HCC8 din 09.07.26, MO351-354/31.07.26 art. 132; în vigoare 09.07.26",
+     "line": 189
+    },
+    {
+     "article": "23",
+     "subunit": null,
+     "quoted_text": null,
+     "scope": "articol intreg",
+     "hcc": [
+      "HCC8/2026-07-09"
+     ],
+     "official_gazette": "MO351-354/31.07.26 art. 132",
+     "marker": "Art.23 declarat neconstituțional prin HCC8 din 09.07.26, MO351-354/31.07.26 art. 132; în vigoare 09.07.26",
+     "line": 193
+    },
+    {
+     "article": "24",
+     "subunit": null,
+     "quoted_text": null,
+     "scope": "articol intreg",
+     "hcc": [
+      "HCC8/2026-07-09"
+     ],
+     "official_gazette": "MO351-354/31.07.26 art. 132",
+     "marker": "Art.24 declarat neconstituțional prin HCC8 din 09.07.26, MO351-354/31.07.26 art. 132; în vigoare 09.07.26",
+     "line": 200
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC8/2026-07-09",
+     "line": 31,
+     "text": "- **consolidare legis.md:** 2026-07-09 — derivată din prima linie de modificare/versiune disponibilă: HCC8 din 09.07.26, MO351-354/31.07.26 art.132; în vigoare 09.07.26"
+    },
+    {
+     "hcc": "HCC8/2026-07-09",
+     "line": 49,
+     "text": "| Data modificării/datele modificării şi actele normative care modifică (indicând si numărul de ordine a Monitoarelor Oficiale ce conţin aceste modificări) | HCC8 din 09.07.26, MO351-354/31.07.26 art."
+    },
+    {
+     "hcc": "HCC4/2025-04-14",
+     "line": 50,
+     "text": "HCC4 din 14.04.25, MO212-214/06.05.25 art.56; în vigoare 14.04.25"
+    },
+    {
+     "hcc": "HCC8/2026-07-09",
+     "line": 69,
+     "text": "HCC8 din 09.07.26, MO351-354/31.07.26 art.132; în vigoare 09.07.26"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [],
+   "distinct_hcc": [
+    "HCC24/1999-05-06",
+    "HCC4/2025-04-14",
+    "HCC8/2026-07-09"
+   ]
+  },
+  {
    "instrument": "L-382-2001",
    "file": "raw/papers/moldova-legal/L-382-2001.md",
    "doc_id": "149501",
@@ -3135,6 +3965,41 @@
    "unattributed": [],
    "distinct_hcc": [
     "HCC28/2002-05-30"
+   ]
+  },
+  {
+   "instrument": "L-440-2001",
+   "file": "raw/papers/moldova-legal/L-440-2001.md",
+   "doc_id": "154346",
+   "consolidation_date": "2026-05-11",
+   "markers": [],
+   "fisa": [
+    {
+     "hcc": "HCC3/2012-02-09",
+     "line": 78,
+     "text": "HCC3 din 09.02.12, MO38-41/24.02.12 art.7"
+    }
+   ],
+   "recovered": [
+    {
+     "instrument": "L-440-2001",
+     "hcc": "HCC3/2012-02-09",
+     "article": "6",
+     "subunit": "alin. (2^1)",
+     "scope": "text din articol",
+     "quoted_text": "în curtea de apel competentă",
+     "official_gazette": "MO38-41/24.02.12 art.7",
+     "read_doc_id": "79568",
+     "read_consolidation": "2012-01-13",
+     "decision_doc_id": null,
+     "verified": "2026-09-30",
+     "status_today": "art. 6 alin. (2^1) (scris „(21)” în textul deținut) spune astăzi „în instanța judecătorească competentă, conform Codului de procedură civilă”, după substituirea prin LP29 din 06.03.12, MO48/13.03.12 art.146; sintagma anulată a dispărut",
+     "summary": "Atribuire dedusă, nu citită în hotărîre: în versiunea 79568 (13.01.2012), după art. 6 alin. (2^1) („Rezidenții ... pot contesta în curtea de apel competentă acțiunile Administrației ...”), stă marcajul „(Declarat neconstituțional)”, fără numărul hotărîrii. Fișa actului listează o singură hotărîre a Curții, HCC3/2012 (09.02.2012, MO38-41/24.02.12 art.7), iar versiunea următoare (79570, 13.03.2012) are textul substituit prin LP29/2012. Hotărîrea însăși nu a fost căutată pe legis.md. [de verificat]"
+    }
+   ],
+   "unattributed": [],
+   "distinct_hcc": [
+    "HCC3/2012-02-09"
    ]
   },
   {
@@ -3266,6 +4131,38 @@
    "unattributed": [],
    "distinct_hcc": [
     "HCC27/2014-11-13"
+   ]
+  },
+  {
+   "instrument": "L-60-2012",
+   "file": "raw/papers/moldova-legal/L-60-2012.md",
+   "doc_id": "151196",
+   "consolidation_date": "2026-03-18",
+   "markers": [
+    {
+     "article": "49",
+     "subunit": "al.(4)",
+     "quoted_text": "și de locul de trai (raioane/municipii)",
+     "scope": "text din articol",
+     "hcc": [
+      "HCC3/2022-02-24"
+     ],
+     "official_gazette": "MO68-71/11.03.22 art.26",
+     "marker": "Art.49 al.(4) textul „și de locul de trai (raioane/municipii)” declarat neconstituțional prin HCC3 din 24.02.22, MO68-71/11.03.22 art.26; în vigoare 24.02.22",
+     "line": 588
+    }
+   ],
+   "fisa": [
+    {
+     "hcc": "HCC3/2022-02-24",
+     "line": 67,
+     "text": "HCC3 din 24.02.22, MO68-71/11.03.22 art.26; în vigoare 24.02.22"
+    }
+   ],
+   "recovered": [],
+   "unattributed": [],
+   "distinct_hcc": [
+    "HCC3/2022-02-24"
    ]
   },
   {
@@ -3636,10 +4533,10 @@
   }
  ],
  "counts": {
-  "acts": 37,
-  "distinct_hcc": 100,
-  "markers_in_text": 39,
-  "recovered": 127,
+  "acts": 45,
+  "distinct_hcc": 113,
+  "markers_in_text": 54,
+  "recovered": 161,
   "unattributed": 0
  }
 }

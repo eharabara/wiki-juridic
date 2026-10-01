@@ -1295,10 +1295,13 @@ DOCS = {
     # Verificat pe HTML inainte de rulare, toate patru: fara CUPRINS, fara "Just a moment", fara
     # span ridicat prin CSS. <sup>: 86 (407/2006, cel mai mare din tot corpusul ingerat pina acum),
     # 12 (29/2018 curent), 10 (29/2018 viitor), 4 (202/2013).
-    'L-407-2006': {'doc_id': '123206',
+    # RECONCILIAT 2026-09-30 (vezi log.md): valul 6 retinuse 123206@2023-07-01, o proiectie
+    # pregatita in 2020 pentru LP178/2020 (in vigoare 01.07.23, DUPA abrogarea prin L-92-2022 de la
+    # 01.01.23); diferenta fata de 133979 e doar antetul si redefinirea notiunii "autoritate de
+    # supraveghere", niciodata aplicabila. Se foloseste 133979@2023-01-01, cea a abrogarii.
+    'L-407-2006': {'doc_id': '133979',
                    'title': 'Legea nr. 407/2006 cu privire la asigurari '
-                            '(ABROGATA de la 01.01.2023 prin L-92-2022, cu dispozitii reziduale '
-                            'in vigoare pina la 01.07.2023)'},
+                            '(ABROGATA de la 01.01.2023 prin L-92-2022)'},
     'L-29-2018': {'doc_id': '150232',
                   'title': 'Legea nr. 29/2018 privind delimitarea proprietatii publice'},
     'L-29-2018--2027-01-01': {'doc_id': '152997', 'subdir': 'viitor', 'future_of': 'L-29-2018',
@@ -1307,6 +1310,332 @@ DOCS = {
     'L-202-2013': {'doc_id': '151074',
                    'title': 'Legea nr. 202/2013 privind contractele de credit pentru '
                             'consumatori'},
+    # 2026-09-30, al saptelea val al cozii de ingerare a grafului de citare, recalculata din
+    # citation-graph.json (generat 2026-09-28, dupa valul 6): L-271-2017 (7 acte citatoare, 11
+    # mentiuni), L-182-2008 (7 acte, 9 mentiuni) si L-74-2020 (6 acte, dar 28 de mentiuni - cea
+    # mai citata dintre cele de 6). Titlurile si doc_id-urile prin cautare in titlu pe legis.md,
+    # ruta Chrome (curl a fost din nou 403 Cloudflare azi); HTML-ul trimis prin POST no-cors la
+    # un receptor local, verificat pe dimensiune si pe "Just a moment".
+    #
+    # L-271-2017 (auditul situatiilor financiare, transpune Directiva 2014/56/UE): cea mai noua
+    # consolidare, 153011@2025-12-31, e trecuta; nu are versiuni viitoare in lista.
+    #
+    # L-182-2008 (aprobarea Regulamentului Centrului National pentru Protectia Datelor cu
+    # Caracter Personal) e A PATRA capcana de abrogare cu succesor deja detinut: "Abrogata prin
+    # LP195 din 25.07.24, MO367-369/23.08.24 art.574; in vigoare 23.08.26" (aceeasi operatiune
+    # care a abrogat L-133-2011). Consolidarea 144822@2026-08-23 e cea a abrogarii, trecuta
+    # fata de azi. Succesor: L-195-2024, deja detinut.
+    #
+    # L-74-2020 (achizitiile in sectoarele energeticii, apei, transporturilor si serviciilor
+    # postale): lista de versiuni are doua consolidari VIITOARE deasupra celei in vigoare -
+    # 156087@2027-01-02 si 155279@2027-01-01 - iar cea in vigoare azi e 153662@2026-04-01
+    # (aceeasi capcana ca L-171-2012 si cele doisprezece din matura din 26.09). Cele doua
+    # viitoare merg in viitor/.
+    'L-271-2017': {'doc_id': '153011',
+                   'title': 'Legea nr. 271/2017 privind auditul situatiilor financiare'},
+    'L-182-2008': {'doc_id': '144822',
+                   'title': 'Legea nr. 182/2008 cu privire la aprobarea Regulamentului '
+                            'Centrului National pentru Protectia Datelor cu Caracter Personal '
+                            '(ABROGATA de la 23.08.2026 prin L-195-2024)'},
+    'L-74-2020': {'doc_id': '153662',
+                  'title': 'Legea nr. 74/2020 privind achizitiile in sectoarele energeticii, '
+                           'apei, transporturilor si serviciilor postale'},
+    'L-74-2020--2027-01-01': {'doc_id': '155279', 'subdir': 'viitor', 'future_of': 'L-74-2020',
+        'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului L-74-2020'},
+    'L-74-2020--2027-01-02': {'doc_id': '156087', 'subdir': 'viitor', 'future_of': 'L-74-2020',
+        'applies_from': '2027-01-02',
+        'title': 'Versiune viitoare, de la 2027-01-02, a actului L-74-2020'},
+    # 2026-09-30, al optulea val al cozii de ingerare a grafului de citare (graful regenerat dupa
+    # valul 7): L-107-2016 (7 acte citatoare, 28 mentiuni), COD-152-2014 (6 acte, 12 mentiuni) si
+    # L-162-2023 (6 acte, 12 mentiuni), primele trei dupa (acte, mentiuni, ordinea alfabetica).
+    # HTML luat prin Chrome (curl 403), trimis printr-un receptor local; prima incercare a picat
+    # pentru ca un receptor orfan din valul anterior asculta inca pe 8765 si inghitea cererile.
+    #
+    # L-107-2016 (energia electrica, vechea lege) e A CINCEA capcana de abrogare cu succesor deja
+    # detinut: "Abrogata prin LP164 din 26.06.25, MO437-440/19.08.25 art.598; in vigoare
+    # 19.08.25", succesorul L-164-2025 (deja detinut). Consolidarea 150245@2025-08-19 e prima din
+    # lista de versiuni.
+    #
+    # COD-152-2014 (Codul educatiei) are doua versiuni VIITOARE (156379@2030-01-01,
+    # 153379@2027-01-01) deasupra celei in vigoare, 156377@2026-09-14 - tot capcana de lista,
+    # trecuta de o zi-doua in urma. Cele doua viitoare merg in viitor/.
+    #
+    # L-162-2023 (supravegherea pietei si conformitatea produselor): 148054@2025-09-27, cea mai
+    # noua, trecuta; fara versiuni viitoare in lista.
+    'L-107-2016': {'doc_id': '150245',
+                   'title': 'Legea nr. 107/2016 cu privire la energia electrica '
+                            '(ABROGATA de la 19.08.2025 prin L-164-2025)'},
+    'COD-152-2014': {'doc_id': '156377',
+                     'title': 'Codul educatiei al Republicii Moldova nr. 152/2014'},
+    'COD-152-2014--2027-01-01': {'doc_id': '153379', 'subdir': 'viitor',
+        'future_of': 'COD-152-2014', 'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01, a actului COD-152-2014'},
+    'COD-152-2014--2030-01-01': {'doc_id': '156379', 'subdir': 'viitor',
+        'future_of': 'COD-152-2014', 'applies_from': '2030-01-01',
+        'title': 'Versiune viitoare, de la 2030-01-01, a actului COD-152-2014'},
+    'L-162-2023': {'doc_id': '148054',
+                   'title': 'Legea nr. 162/2023 privind supravegherea pietei si conformitatea '
+                            'produselor'},
+    # 2026-09-30, al noualea val al cozii de ingerare a grafului de citare (regenerat dupa valul 8):
+    # L-982-2000 (7 acte citatoare), L-174-2017 (6 acte, 64 mentiuni) si L-279-2017 (6 acte, 12
+    # mentiuni). HTML luat prin Chrome (curl 403), trimis printr-un receptor local pornit UN SINGUR
+    # proces (verificat cu netstat inainte), apoi verificat pe disc.
+    #
+    # L-982-2000 (accesul la informatie) e A SASEA capcana de abrogare cu succesor deja detinut:
+    # "Abrogata prin LP148 din 09.06.23, MO234/08.07.23 art.410; in vigoare 08.01.24", succesorul
+    # L-148-2023 (deja detinut). Consolidarea 137924@2024-01-08 e prima din lista.
+    #
+    # L-279-2017 (informarea consumatorului cu privire la produsele alimentare) e A SAPTEA CAPCANA
+    # DE LISTA, de un fel nou: lista de versiuni are deasupra 137017@2025-11-11, dar acela e o
+    # versiune pregatita in 2023 pentru LP97/2023 (antet "MODIFICAT LP97 din 27.04.23 ... in vigoare
+    # 11.11.25") care NU cuprinde LP27/2025 (in vigoare 19.03.25); randul de cautare arata 147674
+    # (antet LP27/2025). Se ia 147674, cea cu ultima modificare reala; 137017 nu se foloseste.
+    #
+    # L-174-2017 (energetica) a fost republicata (MO 480-482/15.12.2023); 155923@2026-08-20 (LP164
+    # din 30.07.26) e cea mai noua, trecuta.
+    'L-982-2000': {'doc_id': '137924',
+                   'title': 'Legea nr. 982/2000 privind accesul la informatie '
+                            '(ABROGATA de la 08.01.2024 prin L-148-2023)'},
+    'L-279-2017': {'doc_id': '147674',
+                   'title': 'Legea nr. 279/2017 privind informarea consumatorului cu privire la '
+                            'produsele alimentare'},
+    'L-174-2017': {'doc_id': '155923',
+                   'title': 'Legea nr. 174/2017 cu privire la energetica'},
+    # 2026-09-30, al zecelea val al cozii de ingerare a grafului de citare (regenerat dupa valul 9):
+    # L-151-2022 (6 acte citatoare, 15 mentiuni), L-36-2016 (6 acte, 11) si L-174-2021 (6 acte, 11).
+    # HTML luat prin Chrome, un singur receptor (netstat inainte), verificat pe disc.
+    #
+    # L-36-2016 (comunicatiile postale) este citata de L-114-2012 art. 5 si 75 (prestatorii de
+    # servicii postale care presteaza servicii de plata) si de COD-1163-1997 art. 226^11: relevanta
+    # pentru perimetrul BNM. 142799@2025-01-01 e prima din lista si coincide cu randul de cautare;
+    # antetul ei, insa, nu are nicio modificare mai noua decit LP58/2024.
+    #
+    # L-174-2021 (mecanismul de examinare a investitiilor de importanta pentru securitatea statului)
+    # are in lista 147693@2030-01-01 DEASUPRA celei in vigoare, 155741@2026-08-06. Antetul lui
+    # 147693 spune "LP33 din 27.02.25 ... in vigoare 01.01.30": 2030-01-01 e data-placeholder a
+    # legis.md pentru o conditie (aderarea la UE), nu o data juridica, ca la L-1260-2002. Merge in
+    # viitor/, nu se citeaza ca drept in vigoare.
+    'L-151-2022': {'doc_id': '150494',
+                   'title': 'Legea nr. 151/2022 privind functionarea in conditii de siguranta a '
+                            'obiectivelor industriale si a instalatiilor tehnice potential '
+                            'periculoase'},
+    'L-36-2016': {'doc_id': '142799',
+                  'title': 'Legea nr. 36/2016 a comunicatiilor postale'},
+    'L-174-2021': {'doc_id': '155741',
+                   'title': 'Legea nr. 174/2021 privind mecanismul de examinare a investitiilor '
+                            'de importanta pentru securitatea statului'},
+    'L-174-2021--2030-01-01': {'doc_id': '147693', 'subdir': 'viitor', 'future_of': 'L-174-2021',
+        'applies_from': '2030-01-01',
+        'title': 'Versiune viitoare, de la 2030-01-01 (data-placeholder legis.md), a actului '
+                 'L-174-2021'},
+    # 2026-09-30, al unsprezecelea val al cozii de ingerare a grafului de citare (regenerat dupa
+    # valul 10): L-241-2007 (7 acte citatoare, 12 mentiuni), L-113-2007 (7 acte, 7) si L-156-1998
+    # (6 acte, 7). HTML luat din legis.md in browserul integrat al aplicatiei, NU din Edge: ambele
+    # browsere au inceput sa blocheze orice fetch catre 127.0.0.1 din paginile legis.md (inclusiv
+    # cu no-cors si imagini), desi curl catre receptor mergea. Ruta care a functionat: textul
+    # se pune in window.name, pagina navigheaza la nivel superior la http://127.0.0.1:8767/c.html
+    # (navigarea nu e restrictionata) si pagina receptorului isi posteaza window.name catre propria
+    # origine.
+    #
+    # L-241-2007 (comunicatiile electronice) NU e abrogata azi: 148404@2026-01-01 poarta antetul
+    # "MODIFICAT LP72 din 10.04.25 ... in vigoare 01.01.26", iar 148407@2027-05-13 "Abrogata prin
+    # LP72 din 10.04.25 ... in vigoare 13.05.27". Abrogarea prin L-72-2025 e deci programata, ca la
+    # L-139-2012; 148407 merge in viitor/.
+    #
+    # L-156-1998 (sistemul public de pensii): 148342@2025-05-01 e in vigoare; 155512@2026-10-28
+    # (LP138 din 09.07.26) e viitoare, in viitor/.
+    #
+    # L-113-2007 (Legea contabilitatii, cea veche): NU e abrogata - 137025@2023-06-11 (LP96/2023),
+    # inca aplicata institutiilor bugetare (citata asa de COD-325-2022 si L-181-2014); peste doi
+    # ani in urma, va intra in flagul "stale consolidations".
+    'L-241-2007': {'doc_id': '148404',
+                   'title': 'Legea nr. 241/2007 comunicatiilor electronice (abrogare programata '
+                            'prin L-72-2025 la 13.05.2027)'},
+    'L-241-2007--2027-05-13': {'doc_id': '148407', 'subdir': 'viitor', 'future_of': 'L-241-2007',
+        'applies_from': '2027-05-13',
+        'title': 'Versiune viitoare, de la 2027-05-13 (abrogata), a actului L-241-2007'},
+    'L-113-2007': {'doc_id': '137025',
+                   'title': 'Legea nr. 113/2007 contabilitatii'},
+    'L-156-1998': {'doc_id': '148342',
+                   'title': 'Legea nr. 156/1998 privind sistemul public de pensii'},
+    'L-156-1998--2026-10-28': {'doc_id': '155512', 'subdir': 'viitor', 'future_of': 'L-156-1998',
+        'applies_from': '2026-10-28',
+        'title': 'Versiune viitoare, de la 2026-10-28, a actului L-156-1998'},
+    # 2026-09-30, al doisprezecelea val al cozii de ingerare a grafului de citare (regenerat dupa
+    # valul 11): L-152-2022 (5 acte citatoare, 27 mentiuni), L-440-2001 (5 acte, 13) si L-140-2013
+    # (5 acte, 7). HTML luat din browserul integrat prin ruta window.name (vezi valul 11).
+    #
+    # L-152-2022 (organismele modificate genetic): 151256@2026-08-29 (LP199 din 10.07.25, in vigoare
+    # 29.08.26) e prima din lista si in vigoare de ieri-alaltaieri; fara versiuni viitoare.
+    # L-440-2001 (zonele economice libere): 154346@2026-05-11 (LP80/2026), prima din lista.
+    # L-140-2013 (protectia speciala a copiilor aflati in situatie de risc): lista are 156331@2026-12-09
+    # (LP167 din 30.07.26) DEASUPRA celei in vigoare, 146836@2025-01-16; cea viitoare in viitor/.
+    'L-152-2022': {'doc_id': '151256',
+                   'title': 'Legea nr. 152/2022 cu privire la reglementarea si controlul '
+                            'organismelor modificate genetic'},
+    'L-440-2001': {'doc_id': '154346',
+                   'title': 'Legea nr. 440/2001 cu privire la zonele economice libere'},
+    'L-140-2013': {'doc_id': '146836',
+                   'title': 'Legea nr. 140/2013 privind protectia speciala a copiilor aflati in '
+                            'situatie de risc si a copiilor separati de parinti'},
+    'L-140-2013--2026-12-09': {'doc_id': '156331', 'subdir': 'viitor', 'future_of': 'L-140-2013',
+        'applies_from': '2026-12-09',
+        'title': 'Versiune viitoare, de la 2026-12-09, a actului L-140-2013'},
+    # 2026-09-30, al treisprezecelea val al cozii de ingerare a
+    # grafului de citare (graful regenerat dupa valul 12): L-509-1995 (5 acte citatoare, 7 mentiuni),
+    # L-50-2013 (5 acte, 7) si L-344-1994 (5 acte, 6), primele trei dupa (acte, mentiuni). HTML luat
+    # din browserul integrat prin ruta window.name + receptor local (vezi valul 11).
+    #
+    # L-509-1995 (Legea drumurilor, republicata): 155845@2026-08-13 (LP161 din 30.07.26), prima din
+    # lista si randul de cautare; fara versiuni viitoare.
+    #
+    # L-50-2013 (controalele oficiale privind hrana pentru animale si alimentele): in vigoare 152645
+    # @2025-12-31 (LP330/2025). Lista are DEASUPRA 143175@2028-05-08, al carei antet spune "Abrogata
+    # prin LP82 din 12.04.24 ... in vigoare 08.05.28" - abrogarea programata de L-82-2024 (detinuta),
+    # dar versiunea a fost pregatita in 2024, deci nu cuprinde LP330/2025. Merge in viitor/.
+    #
+    # L-344-1994 (statutul juridic special al Gagauziei): 155592@2026-07-09, antetul spune "MODIFICAT
+    # HCC8 din 09.07.26, MO351-354/31.07.26" - o hotarire a Curtii Constitutionale de acum doua luni.
+    'L-509-1995': {'doc_id': '155845',
+                   'title': 'Legea nr. 509/1995 a drumurilor'},
+    'L-50-2013': {'doc_id': '152645',
+                  'title': 'Legea nr. 50/2013 cu privire la controalele oficiale pentru '
+                           'verificarea conformitatii cu legislatia privind hrana pentru animale '
+                           'si alimentele (abrogare programata prin L-82-2024 la 08.05.2028)'},
+    'L-50-2013--2028-05-08': {'doc_id': '143175', 'subdir': 'viitor', 'future_of': 'L-50-2013',
+        'applies_from': '2028-05-08',
+        'title': 'Versiune viitoare, de la 2028-05-08 (abrogata prin L-82-2024), a actului L-50-2013'},
+    'L-344-1994': {'doc_id': '155592',
+                   'title': 'Legea nr. 344/1994 privind statutul juridic special al Gagauziei '
+                            '(Gagauz-Yeri)'},
+    # 2026-09-30, valurile 14 si 15 ale cozii de ingerare a grafului de citare (regenerat dupa
+    # valul 13). Valul 14: L-1538-1998 (5 acte citatoare), L-25-2016 (5), L-108-2020 (4, 14
+    # mentiuni). Valul 15: L-414-2006 (4, 11), L-575-2003 (4, 9), L-86-2020 (4, 8). HTML luat din
+    # browserul integrat prin ruta window.name + receptor local (vezi valul 11).
+    #
+    # L-1538-1998 (fondul ariilor naturale protejate de stat): in vigoare 154107@2026-04-25 (LP53);
+    # lista are deasupra 154487@2027-05-21 (LP71 din 30.04.26, "in vigoare 21.05.27"), viitoare,
+    # merge in viitor/.
+    # L-25-2016 (masurile restrictive internationale, republicata): 149779@2025-07-23 (LP244/2025).
+    # L-108-2020 (pericolele de accidente majore, transpune Directiva 2012/18/UE): 150493@2025-09-12.
+    # L-86-2020 (organizatiile necomerciale): 129338@2021-12-31, peste 2 ani in urma.
+    #
+    # L-414-2006 (RCA auto, legea veche) si L-575-2003 (garantarea depozitelor, legea veche) sint
+    # ABROGATE cu succesor deja detinut: L-414-2006 prin LP106 din 21.04.22, in vigoare 01.04.23
+    # (succesorul L-106-2022, art. 58? alin. (4) il abroga; citit), L-575-2003 prin LP160 din 22.06.23,
+    # in vigoare 01.10.23 (succesorul L-160-2023, detinut). Pentru L-414-2006 lista de versiuni are
+    # 123208@2023-07-01 DEASUPRA celei a abrogarii, 132393@2023-04-01; antetul lui 123208 e "MODIFICAT
+    # LP178 din 11.09.20 ... in vigoare 01.07.23" (proiectie pregatita in 2020 pentru transferul de
+    # supraveghere, anterioara abrogarii). S-a retinut 132393, cea a abrogarii si randul de cautare;
+    # 123208 NU e ingerata. RECONCILIAT 2026-09-30: 123208 a fost descarcata si comparata pe cuvinte cu 132393 -
+    # text identic, doar antetul si un marcaj LP178; la L-407-2006 (valul 6) alegerea cu data mai noua a fost
+    # corectata la fel (vezi intrarea L-407-2006).
+    'L-1538-1998': {'doc_id': '154107',
+                    'title': 'Legea nr. 1538/1998 privind fondul ariilor naturale protejate de stat'},
+    'L-1538-1998--2027-05-21': {'doc_id': '154487', 'subdir': 'viitor', 'future_of': 'L-1538-1998',
+        'applies_from': '2027-05-21',
+        'title': 'Versiune viitoare, de la 2027-05-21, a actului L-1538-1998'},
+    'L-25-2016': {'doc_id': '149779',
+                  'title': 'Legea nr. 25/2016 privind aplicarea masurilor restrictive '
+                           'internationale'},
+    'L-108-2020': {'doc_id': '150493',
+                   'title': 'Legea nr. 108/2020 privind controlul pericolelor de accidente majore '
+                            'care implica substante periculoase'},
+    'L-414-2006': {'doc_id': '132393',
+                   'title': 'Legea nr. 414/2006 cu privire la asigurarea obligatorie de '
+                            'raspundere civila pentru pagube produse de autovehicule (ABROGATA '
+                            'de la 01.04.2023 prin L-106-2022)'},
+    'L-575-2003': {'doc_id': '137950',
+                   'title': 'Legea nr. 575/2003 privind garantarea depozitelor in sistemul '
+                            'bancar (ABROGATA de la 01.10.2023 prin L-160-2023)'},
+    'L-86-2020': {'doc_id': '129338',
+                  'title': 'Legea nr. 86/2020 cu privire la organizatiile necomerciale'},
+    # 2026-09-30, valurile 16-19 ale cozii de ingerare (acte cu 4 acte citatoare; ultimele doua
+    # cu 3). HTML prin ruta window.name. Versiuni alese (data de azi 2026-09-30):
+    # L-354-2004 150483@2025-09-12; L-91-2014 131707@2022-12-10 (ABROGATA, succesor L-124-2022);
+    # COD-1149-2000 136393@2024-01-01 (ABROGAT prin COD-95-2021; 140250@2023-11-22 e versiunea
+    # dinaintea abrogarii, neingerata); L-59-2012 147975@2025-06-19 (156609@2027-03-29 in viitor/);
+    # L-57-2006 155840@2026-08-13; L-60-2012 151196@2026-03-18 (randul de cautare era 151443,
+    # mai veche); L-182-2010 152855@2026-02-02; L-880-1992 152590@2025-12-31; L-420-2006
+    # 136384@2023-03-24; L-422-2006 150672@2026-03-11 (ABROGATA prin LP196/2025; randul de cautare
+    # 152600 e textul dinaintea abrogarii); L-282-2023 150495@2025-09-12; L-139-2018
+    # 148767@2025-06-03 (155448@2027-01-01 in viitor/).
+    'L-354-2004': {'doc_id': '150483',
+                   'title': 'Legea nr. 354/2004 cu privire la formarea bunurilor imobile'},
+    'L-91-2014': {'doc_id': '131707',
+                  'title': 'Legea nr. 91/2014 privind semnatura electronica si documentul '
+                           'electronic (ABROGATA prin L-124-2022)'},
+    'COD-1149-2000': {'doc_id': '136393',
+                      'title': 'Codul vamal nr. 1149/2000 (ABROGAT de la 01.01.2024 prin '
+                               'COD-95-2021)'},
+    'L-59-2012': {'doc_id': '147975',
+                  'title': 'Legea nr. 59/2012 privind activitatea speciala de investigatii'},
+    'L-59-2012--2027-03-29': {'doc_id': '156609', 'subdir': 'viitor', 'future_of': 'L-59-2012',
+        'applies_from': '2027-03-29',
+        'title': 'Versiune viitoare, de la 2027-03-29 (LP209/2026), a actului L-59-2012'},
+    'L-57-2006': {'doc_id': '155840',
+                  'title': 'Legea nr. 57/2006 viei si vinului'},
+    'L-60-2012': {'doc_id': '151196',
+                  'title': 'Legea nr. 60/2012 privind incluziunea sociala a persoanelor cu '
+                           'dizabilitati'},
+    'L-182-2010': {'doc_id': '152855',
+                   'title': 'Legea nr. 182/2010 cu privire la parcurile industriale'},
+    'L-880-1992': {'doc_id': '152590',
+                   'title': 'Legea nr. 880/1992 privind Fondul Arhivistic al Republicii Moldova'},
+    'L-420-2006': {'doc_id': '136384',
+                   'title': 'Legea nr. 420/2006 privind activitatea de reglementare tehnica'},
+    'L-422-2006': {'doc_id': '150672',
+                   'title': 'Legea nr. 422/2006 privind securitatea generala a produselor '
+                            '(ABROGATA de la 11.03.2026 prin LP196/2025)'},
+    'L-282-2023': {'doc_id': '150495',
+                   'title': 'Legea nr. 282/2023 privind performanta energetica a cladirilor'},
+    'L-139-2018': {'doc_id': '148767',
+                   'title': 'Legea nr. 139/2018 cu privire la eficienta energetica'},
+    'L-139-2018--2027-01-01': {'doc_id': '155448', 'subdir': 'viitor', 'future_of': 'L-139-2018',
+        'applies_from': '2027-01-01',
+        'title': 'Versiune viitoare, de la 2027-01-01 (LP76/2026), a actului L-139-2018'},
+    # 2026-10-01, valurile 20-23 ale cozii de ingerare. Versiuni alese (azi 2026-10-01):
+    # L-75-2015 154329@2026-05-09 (154330@2026-11-10, LP58/2026, in viitor/); L-7-2016 139008@2024-07-27
+    # (ABROGATA prin LP162/2023, succesor L-162-2023); L-1308-1997 148859@2025-05-16; L-1380-1997
+    # 138614@2024-01-01 (ABROGATA prin COD-95-2021; randul de cautare 139314 era 2023-01-01, mai veche);
+    # L-241-2022 145809@2024-11-20; L-1453-2002 112687@2019-03-01 (succesor L-246-2018, text redus);
+    # L-94-2007 154113@2026-04-25; L-199-1998 126102@2015-03-14 (ABROGATA prin LP171/2012 = L-171-2012);
+    # L-129-2019 148053@2025-09-27 (155876@2026-11-13, LP168/2026, in viitor/); L-196-2025 150669@2026-03-11;
+    # L-186-2008 151092@2026-01-01; L-271-2008 155885@2026-09-13.
+    'L-75-2015': {'doc_id': '154329', 'title': 'Legea nr. 75/2015 cu privire la locuinte'},
+    'L-75-2015--2026-11-10': {'doc_id': '154330', 'subdir': 'viitor', 'future_of': 'L-75-2015',
+        'applies_from': '2026-11-10',
+        'title': 'Versiune viitoare, de la 2026-11-10 (LP58/2026), a actului L-75-2015'},
+    'L-7-2016': {'doc_id': '139008',
+                 'title': 'Legea nr. 7/2016 privind supravegherea pietei in ceea ce priveste '
+                          'comercializarea produselor nealimentare (ABROGATA de la 27.07.2024 prin '
+                          'L-162-2023)'},
+    'L-1308-1997': {'doc_id': '148859',
+                    'title': 'Legea nr. 1308/1997 privind pretul normativ si modul de vinzare-'
+                             'cumparare a pamintului'},
+    'L-1380-1997': {'doc_id': '138614',
+                    'title': 'Legea nr. 1380/1997 cu privire la tariful vamal (ABROGATA de la '
+                             '01.01.2024 prin COD-95-2021)'},
+    'L-241-2022': {'doc_id': '145809',
+                   'title': 'Legea nr. 241/2022 privind Fondul de reducere a vulnerabilitatii '
+                            'energetice'},
+    'L-1453-2002': {'doc_id': '112687', 'title': 'Legea nr. 1453/2002 cu privire la notariat'},
+    'L-94-2007': {'doc_id': '154113', 'title': 'Legea nr. 94/2007 cu privire la reteaua ecologica'},
+    'L-199-1998': {'doc_id': '126102',
+                   'title': 'Legea nr. 199/1998 cu privire la piata valorilor mobiliare (ABROGATA '
+                            'de la 14.03.2015 prin L-171-2012)'},
+    'L-129-2019': {'doc_id': '148053',
+                   'title': 'Legea nr. 129/2019 privind subprodusele de origine animala si '
+                            'produsele derivate care nu sunt destinate consumului uman'},
+    'L-129-2019--2026-11-13': {'doc_id': '155876', 'subdir': 'viitor', 'future_of': 'L-129-2019',
+        'applies_from': '2026-11-13',
+        'title': 'Versiune viitoare, de la 2026-11-13 (LP168/2026), a actului L-129-2019'},
+    'L-196-2025': {'doc_id': '150669', 'title': 'Legea nr. 196/2025 privind siguranta generala a produselor'},
+    'L-186-2008': {'doc_id': '151092', 'title': 'Legea nr. 186/2008 securitatii si sanatatii in munca'},
+    'L-271-2008': {'doc_id': '155885',
+                   'title': 'Legea nr. 271/2008 privind verificarea titularilor si a candidatilor '
+                            'la functii publice'},
 }
 
 # (?<!\d) evita o capcana gasita 2026-09-16 la L-23-2008: fara ea, textul

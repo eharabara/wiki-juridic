@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-28T12:37:39",
-  "as_of": "2026-09-28",
-  "files_scanned": 699,
+  "generated": "2026-10-01T03:21:38",
+  "as_of": "2026-10-01",
+  "files_scanned": 764,
   "provisions_not_yet_in_force": [
     {
       "file": "raw/papers/moldova-legal/viitor/COD-154-2003--2026-10-28.md",
@@ -48,6 +48,22 @@
       "context": "[Art.103 al. (6) modificat prin LP138 din 09.07.26, MO338/28.07.26 art. 344; în vigoare 28.10.26]",
       "lines": [
         1495
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-156-1998--2026-10-28.md",
+      "instrument": "L-156-1998--2026-10-28",
+      "article": "5",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-10-28",
+      "operation": "reformulare",
+      "amending_act": "LP138 din 09.07.26",
+      "official_gazette": "MO338/28.07.26",
+      "context": "[Art. 5 al.(2), lit. c) în redacția LP138 din 09.07.26, MO338/28.07.26 art. 344; în vigoare 28.10.26]",
+      "lines": [
+        212
       ],
       "occurrences": 1
     },
@@ -341,6 +357,38 @@
       "context": "[Art.20^6 introdus prin LP78 din 07.05.26, MO202-205/09.05.26 art.190; în vigoare 10.11.26]",
       "lines": [
         524
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-75-2015--2026-11-10.md",
+      "instrument": "L-75-2015--2026-11-10",
+      "article": "55^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-11-10",
+      "operation": "introducere",
+      "amending_act": "LP58 din 24.04.26",
+      "official_gazette": "MO202-205/09.05.26 art.180",
+      "context": "[Art.55^1 introdus prin LP58 din 24.04.26, MO202-205/09.05.26 art.180; în vigoare 10.11.26]",
+      "lines": [
+        658
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-129-2019--2026-11-13.md",
+      "instrument": "L-129-2019--2026-11-13",
+      "article": "10",
+      "subunit": "lit.a), pct.6",
+      "scope": "articol",
+      "effective_from": "2026-11-13",
+      "operation": "introducere",
+      "amending_act": "LP168 din 30.07.26",
+      "official_gazette": "MO375-378/13.08.26 art.401",
+      "context": "[Art.10 lit.a), pct.6 introdus prin LP168 din 30.07.26, MO375-378/13.08.26 art.401; în vigoare 13.11.26]",
+      "lines": [
+        218
       ],
       "occurrences": 1
     },
@@ -1212,6 +1260,135 @@
         2891
       ],
       "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-140-2013--2026-12-09.md",
+      "instrument": "L-140-2013--2026-12-09",
+      "article": "6",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-09",
+      "operation": "introducere",
+      "amending_act": "LP167 din 30.07.26",
+      "official_gazette": "MO435-438/09.09.26",
+      "context": "[Art.6 al.(1), lit.q) introdusă prin LP167 din 30.07.26, MO435-438/09.09.26 art. 452; în vigoare 09.12.26]",
+      "lines": [
+        207
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-140-2013--2026-12-09.md",
+      "instrument": "L-140-2013--2026-12-09",
+      "article": "7",
+      "subunit": "lit.q)",
+      "scope": "articol",
+      "effective_from": "2026-12-09",
+      "operation": "introducere",
+      "amending_act": "LP167 din 30.07.26",
+      "official_gazette": "MO435-438/09.09.26",
+      "context": "[Art.7 lit.q) introdusă prin LP167 din 30.07.26, MO435-438/09.09.26 art. 452; în vigoare 09.12.26]",
+      "lines": [
+        234
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-140-2013--2026-12-09.md",
+      "instrument": "L-140-2013--2026-12-09",
+      "article": "7",
+      "subunit": "lit.r)",
+      "scope": "articol",
+      "effective_from": "2026-12-09",
+      "operation": "introducere",
+      "amending_act": "LP167 din 30.07.26",
+      "official_gazette": "MO435-438/09.09.26",
+      "context": "[Art.7 lit.r) introdusă prin LP167 din 30.07.26, MO435-438/09.09.26 art. 452; în vigoare 09.12.26]",
+      "lines": [
+        236
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-140-2013--2026-12-09.md",
+      "instrument": "L-140-2013--2026-12-09",
+      "article": "11",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-09",
+      "operation": "modificare",
+      "amending_act": "LP167 din 30.07.26",
+      "official_gazette": "MO435-438/09.09.26",
+      "context": "[Art.11 al.(3) modificat prin LP167 din 30.07.26, MO435-438/09.09.26 art. 452; în vigoare 09.12.26]",
+      "lines": [
+        314
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-140-2013--2026-12-09.md",
+      "instrument": "L-140-2013--2026-12-09",
+      "article": "12",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-09",
+      "operation": "modificare",
+      "amending_act": "LP167 din 30.07.26",
+      "official_gazette": "MO435-438/09.09.26",
+      "context": "[Art.12 al.(2), lit.b) modificată prin LP167 din 30.07.26, MO435-438/09.09.26 art. 452; în vigoare 09.12.26]",
+      "lines": [
+        321,
+        329
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-140-2013--2026-12-09.md",
+      "instrument": "L-140-2013--2026-12-09",
+      "article": "12^4",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-09",
+      "operation": "introducere",
+      "amending_act": "LP167 din 30.07.26",
+      "official_gazette": "MO435-438/09.09.26",
+      "context": "[Art.12^4 al.(2), lit.d) introdusă prin LP167 din 30.07.26, MO435-438/09.09.26 art. 452; în vigoare 09.12.26]",
+      "lines": [
+        358
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-140-2013--2026-12-09.md",
+      "instrument": "L-140-2013--2026-12-09",
+      "article": "13^5",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-09",
+      "operation": "introducere",
+      "amending_act": "LP167 din 30.07.26",
+      "official_gazette": "MO435-438/09.09.26",
+      "context": "[Art.13^5 al.(1), lit.e) introdusă prin LP167 din 30.07.26, MO435-438/09.09.26 art. 452; în vigoare 09.12.26]",
+      "lines": [
+        448
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-140-2013--2026-12-09.md",
+      "instrument": "L-140-2013--2026-12-09",
+      "article": "14",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2026-12-09",
+      "operation": "introducere",
+      "amending_act": "LP167 din 30.07.26",
+      "official_gazette": "MO435-438/09.09.26",
+      "context": "[Art.14 al.(1), lit.i) introdusă prin LP167 din 30.07.26, MO435-438/09.09.26 art. 452; în vigoare 09.12.26]",
+      "lines": [
+        470
+      ],
+      "occurrences": 1
     },
     {
       "file": "raw/papers/moldova-legal/viitor/L-165-2023--2026-12-09.md",
@@ -2544,6 +2721,625 @@
       "occurrences": 1
     },
     {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "3",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26",
+      "context": "[Art.3 noțiunea introdusă prin LP200 din 03.09.26, MO448-451/14.09.26 art. 477; în vigoare 01.01.27]",
+      "lines": [
+        148,
+        202
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "13",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.13 al.(3) modificat prin LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        334
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "18",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.18 al.(7), lit.a) în redacția LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        425,
+        433
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "20",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.20 al.(7) modificat prin LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        469
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "21",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.21 al.(1) în redacția LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        474,
+        476,
+        478,
+        480,
+        482,
+        484
+      ],
+      "occurrences": 6
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "27",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26",
+      "context": "[Art.27 al. (6) modificat prin LP200 din 03.09.26, MO448-451/14.09.26 art. 477; în vigoare 01.01.27]",
+      "lines": [
+        527
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "31^2",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.31^2 al.(8) introdus prin LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        588
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "33",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.33 al.(3) modificat prin LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        620
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "37",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.37 al.(3) modificat prin LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        655
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "40",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.40 al.(10) modificat prin LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        699
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "42",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.42 al.(2), lit.b) în redacția LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        726
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "44",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.44 al.(2) modificat prin LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        735
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "47",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.47 al.(1) modificat prin LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        762,
+        764
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "50",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.50 al.(4) în redacția LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        812,
+        816,
+        818,
+        820
+      ],
+      "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "51",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.51 al.(1) în redacția LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        831,
+        833,
+        835,
+        838
+      ],
+      "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "53",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.53 al.(6^1) introdus prin LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        865
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "72",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.72 al.(2) modificat prin LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        1103
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "92",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.92 al.(3), lit.b) modificată prin LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        1322
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "115",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.115 al.(7) în redacția LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        1660,
+        1665
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "122",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.122 al.(3), lit.a) modificată prin LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        1798,
+        1806
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "123",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.123 al.(4) în redacția LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        1838
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "129^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.129^1 al.(2) introdus prin LP200 din 03.09.26, MO448-451/14.09.26 art.477, alineat unic devine al.(1); în vigoare 01.01.27]",
+      "lines": [
+        1919
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "132",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.132 al.(3^1) modificat prin LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        1953,
+        1955,
+        1957
+      ],
+      "occurrences": 3
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "134",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.134 al.(5) în redacția LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        1993,
+        1996
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "137^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26",
+      "context": "[Art.137^1 al.(1), lit.g) modificată prin LP200 din 03.09.26, MO448-451/14.09.26 art. 477; în vigoare 01.01.27]",
+      "lines": [
+        2075,
+        2077
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "140",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.140 al.(1), lit.l^1) introdusă prin LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        2180,
+        2187,
+        2189
+      ],
+      "occurrences": 3
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "141",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.141 în redacția LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        2225
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "141^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26",
+      "context": "[Art.141^1 introdus prin LP200 din 03.09.26, MO448-451/14.09.26 art. 477; în vigoare 01.01.27]",
+      "lines": [
+        2248
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "142",
+      "subunit": "lit.d)",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.142 lit.d) modificată prin LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        2258
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "142",
+      "subunit": "lit.i)",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.142 lit.i) modificată prin LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        2264
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "143",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.143 al.(1), lit.a) în redacția LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        2278,
+        2280,
+        2282,
+        2285
+      ],
+      "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "144",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.144 în redacția LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        2305
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "145",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.145 al.(1), lit.a) în redacția LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        2311,
+        2316
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "145",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP21 din 26.02.26",
+      "official_gazette": "MO108-111/06.03.26",
+      "context": "[Art.145 al.(4^2) introdus prin LP21 din 26.02.26, MO108-111/06.03.26 art. 85; în vigoare 01.01.27]",
+      "lines": [
+        2320
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "145^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.145^1 al.(8) modificat prin LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        2347,
+        2350
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "146^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.146^1introdus prin LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        2375
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "instrument": "COD-152-2014--2027-01-01",
+      "article": "147^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26 art.477",
+      "context": "[Art.147^1introdus prin LP200 din 03.09.26, MO448-451/14.09.26 art.477; în vigoare 01.01.27]",
+      "lines": [
+        2396
+      ],
+      "occurrences": 1
+    },
+    {
       "file": "raw/papers/moldova-legal/viitor/COD-154-2003--2027-01-01.md",
       "instrument": "COD-154-2003--2027-01-01",
       "article": "46",
@@ -2988,6 +3784,22 @@
         335
       ],
       "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-139-2018--2027-01-01.md",
+      "instrument": "L-139-2018--2027-01-01",
+      "article": "11",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP76 din 02.07.26",
+      "official_gazette": "MO330-333/23.07.26",
+      "context": "[Art.11 al.(3) modificat prin LP76 din 02.07.26, MO330-333/23.07.26 art. 333; în vigoare 01.01.27]",
+      "lines": [
+        308
+      ],
+      "occurrences": 1
     },
     {
       "file": "raw/papers/moldova-legal/viitor/L-1543-1998--2027-01-01.md",
@@ -3606,7 +4418,7 @@
       "official_gazette": "MO238-241/11.06.26 art.240",
       "context": "[Art.9 al.(3) în redacția LP91 din 28.05.26, MO238-241/11.06.26 art.240; în vigoare 01.01.27]",
       "lines": [
-        240
+        249
       ],
       "occurrences": 1
     },
@@ -3750,20 +4562,20 @@
       "official_gazette": "MO231-234/04.06.26 art.228",
       "context": "[Art.4 al.(1), lit. a) modificată prin LP86 din 21.05.26, MO231-234/04.06.26 art.228; în vigoare 01.01.27]",
       "lines": [
-        132,
-        134,
-        138,
-        140,
-        144,
-        146,
-        150,
-        152,
-        156,
-        158,
-        162,
-        164,
-        168,
-        170
+        141,
+        143,
+        147,
+        149,
+        153,
+        155,
+        159,
+        161,
+        165,
+        167,
+        171,
+        173,
+        177,
+        179
       ],
       "occurrences": 14
     },
@@ -3779,7 +4591,7 @@
       "official_gazette": "MO665/31.12.25 art.814",
       "context": "[Art.5 al.(4), lit.a) modificată prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]",
       "lines": [
-        128
+        137
       ],
       "occurrences": 1
     },
@@ -3795,7 +4607,7 @@
       "official_gazette": "MO665/31.12.25 art.814",
       "context": "[Art.9 al.(2), lit.k) modificată prin LP327 din 29.12.25, MO665/31.12.25 art.814; în vigoare 01.01.27]",
       "lines": [
-        173
+        182
       ],
       "occurrences": 1
     },
@@ -3832,6 +4644,2607 @@
         156
       ],
       "occurrences": 3
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art.1 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        118,
+        123,
+        128,
+        133,
+        134,
+        136,
+        139,
+        141,
+        143,
+        144
+      ],
+      "occurrences": 10
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "1",
+      "subunit": "",
+      "scope": "anexa",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Anexa nr.1 modificată prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        2074
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 1",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 1 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        149
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 2",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 2 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        154
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 3",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 3 modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        158
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 4",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 4 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        160
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 5",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 5 introdus prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        162
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 6",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 6 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        164
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 7",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 7 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        166
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 8",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 8 introdus prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        168
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 12",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 12 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        173
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 13",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 13 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        178
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 14",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 14 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        180
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 15",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 15 modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        182
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 16",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 16 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        184
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 18",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 18 introdus prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        187
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 19",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 19 modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        189
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 20",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 20 modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        191
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 22",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 22 modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        194
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 23",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 23 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        196
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 24",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 24 introdus prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        198
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 25",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 25 introdus prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        200
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 26",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 26 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        202
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 27",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 27 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        204
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 28",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 28 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        206
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 29",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 29 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        208
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 30",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 30 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        210
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 31",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 31 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        212
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 32, lit.a)",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 32, lit.a) modificată prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        215
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 32, lit.b)",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 32, lit.b) modificată prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        217
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 33",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 33 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        219
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 34",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 34 introdus prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        221
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 35",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 35 introdus prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        223
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 36",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 36 introdus prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        225
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "pct. 37",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 2 pct. 37 introdus prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        227
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "2",
+      "subunit": "",
+      "scope": "anexa",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Anexa nr.2 modificată prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        2076
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "3",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 3 al.(1) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        231,
+        234,
+        237,
+        238
+      ],
+      "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "4",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 4 al.(2) modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        245,
+        250,
+        252,
+        262
+      ],
+      "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "4",
+      "subunit": "",
+      "scope": "anexa",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Anexa nr.4 introdusă prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        2098
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "5",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 5 al.(1) modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        268,
+        271,
+        273,
+        276,
+        278,
+        281,
+        287,
+        289,
+        297,
+        299,
+        301,
+        303,
+        305
+      ],
+      "occurrences": 13
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "5",
+      "subunit": "",
+      "scope": "anexa",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Anexa nr.5 introdusă prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        2126
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "6",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 6 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        320
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "6",
+      "subunit": "",
+      "scope": "anexa",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Anexa nr.6 introdusă prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        2165
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "6^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 6^1 al.(3) modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        327,
+        329,
+        331,
+        333,
+        338
+      ],
+      "occurrences": 5
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "7",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 7 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        342,
+        344,
+        346,
+        348,
+        350,
+        352,
+        354,
+        357,
+        359,
+        361,
+        366,
+        370,
+        374,
+        375,
+        379,
+        381,
+        383,
+        385,
+        387,
+        390,
+        391,
+        393
+      ],
+      "occurrences": 22
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "7",
+      "subunit": "",
+      "scope": "anexa",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Anexa nr.7 introdusă prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        2198
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "8",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 8 al.(1) modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        401
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "8",
+      "subunit": "",
+      "scope": "anexa",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Anexa nr.8 introdusă prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        2219
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "9",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 9 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        411
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "9",
+      "subunit": "",
+      "scope": "anexa",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Anexa nr.9 introdusă prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        2242
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "10",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 10 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        420
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "10",
+      "subunit": "",
+      "scope": "anexa",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Anexa nr.10 introdusă prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        2260
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "11",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 11 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        423,
+        427,
+        429,
+        435
+      ],
+      "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "11",
+      "subunit": "",
+      "scope": "anexa",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Anexa nr.11 introdusă prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        2273
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "12",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 12 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        438,
+        440
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "12",
+      "subunit": "",
+      "scope": "anexa",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Anexa nr.12 introdusă prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        2288
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "13",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 13 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        444
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "13",
+      "subunit": "",
+      "scope": "anexa",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Anexa nr.13 introdusă prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        2304
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "14",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 14 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        457
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "14",
+      "subunit": "",
+      "scope": "anexa",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Anexa nr.14 introdusă prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        2316
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "15",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 15 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        462
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "15",
+      "subunit": "",
+      "scope": "anexa",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Anexa nr.15 introdusă prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        2340
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "16",
+      "subunit": "",
+      "scope": "anexa",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Anexa nr16 introdusă prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        2355
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "18",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 18 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        484,
+        486,
+        488,
+        491,
+        493,
+        495,
+        497
+      ],
+      "occurrences": 7
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "19",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 19 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        501,
+        503
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "19",
+      "subunit": "pct. 1",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 19 pct. 1) modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        505
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "19",
+      "subunit": "pct. 2",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 19 pct. 2) modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        507
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "19",
+      "subunit": "pct. 3",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 19 pct. 3), lit. a) modificată prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        510,
+        512,
+        516
+      ],
+      "occurrences": 3
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "19",
+      "subunit": "pct. 4",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 19 pct. 4) modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        518
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "19",
+      "subunit": "pct. 6",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 19 pct. 6) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        521
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "19",
+      "subunit": "pct. 9",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 19 pct. 9) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        525
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "20",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 20 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        530
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "21",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 21 denumirea modificată prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        537
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "21",
+      "subunit": "pct. 1",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 21 pct. 1) modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        540
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "21",
+      "subunit": "pct. 2",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 21 pct. 2) modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        542
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "22",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 22 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        557
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "23",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 23 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        570
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "23^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 23^1 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        576,
+        578,
+        580,
+        582,
+        584
+      ],
+      "occurrences": 5
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "23^2",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 23^2 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        598
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "23^3",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 23^3 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        602,
+        604,
+        609,
+        611,
+        613,
+        622
+      ],
+      "occurrences": 6
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "24",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 24 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        631,
+        633,
+        638,
+        640,
+        642,
+        645,
+        647,
+        649,
+        651,
+        653
+      ],
+      "occurrences": 10
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "25",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art.25 denumirea modificată prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        659,
+        661,
+        664
+      ],
+      "occurrences": 3
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "26",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art.26 modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        669
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "26",
+      "subunit": "lit. a)",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 26 lit. a) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        671
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "27",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 27 modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        719
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "28",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 28 al.(2) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        727,
+        729
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "29",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "abrogare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 29 al.(1) abrogat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        732,
+        733,
+        735,
+        737,
+        739,
+        741,
+        743
+      ],
+      "occurrences": 7
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "30",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 30 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        746
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "31",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 31 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        754
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "32",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 32 al.(1) modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        758,
+        760,
+        762,
+        769,
+        771,
+        773,
+        775,
+        779,
+        782,
+        784,
+        787,
+        796,
+        802
+      ],
+      "occurrences": 13
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "34",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 34 al.(1) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        812
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "35",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 35 al.(1) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        818,
+        821,
+        823
+      ],
+      "occurrences": 3
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "35^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 35^1 introdus prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        829
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "36",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 36 al.(1) modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        836,
+        842,
+        844,
+        849,
+        851,
+        853,
+        855
+      ],
+      "occurrences": 7
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "37",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 37 al.(2) modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        860,
+        862,
+        864,
+        867,
+        869,
+        870,
+        871
+      ],
+      "occurrences": 7
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "38",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 38 al.(1) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        875,
+        878,
+        880,
+        882,
+        884,
+        885,
+        887,
+        888,
+        889,
+        890,
+        892,
+        894
+      ],
+      "occurrences": 12
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "39",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 39 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        897,
+        899,
+        901,
+        903,
+        905,
+        907,
+        911,
+        912,
+        914,
+        917,
+        919,
+        922,
+        925,
+        927
+      ],
+      "occurrences": 14
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "40",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 40 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        950
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "41",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 41 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        977
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "42",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 42 al.(1) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        981,
+        983,
+        985,
+        987,
+        989,
+        991,
+        993,
+        995,
+        997,
+        999,
+        1001,
+        1002,
+        1004,
+        1007,
+        1009,
+        1016,
+        1018,
+        1020,
+        1022,
+        1024,
+        1029,
+        1031,
+        1033
+      ],
+      "occurrences": 23
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "43",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 43 al.(2) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1043,
+        1045,
+        1047,
+        1048,
+        1050,
+        1052,
+        1054,
+        1059,
+        1061,
+        1063,
+        1065,
+        1067,
+        1069,
+        1071,
+        1073,
+        1075,
+        1077,
+        1079,
+        1081
+      ],
+      "occurrences": 19
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "44",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 44 al.(2) modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1086,
+        1089,
+        1091,
+        1093,
+        1095,
+        1097,
+        1099,
+        1101,
+        1103,
+        1105,
+        1107,
+        1109,
+        1111,
+        1114,
+        1117,
+        1122,
+        1125,
+        1127,
+        1129,
+        1131,
+        1133,
+        1135,
+        1140
+      ],
+      "occurrences": 23
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "45",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 45 al.(1) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1145,
+        1147,
+        1149,
+        1152,
+        1155,
+        1157,
+        1160,
+        1162,
+        1171,
+        1173,
+        1175,
+        1177,
+        1179,
+        1181,
+        1183,
+        1185,
+        1187,
+        1191,
+        1193,
+        1196,
+        1198,
+        1200,
+        1203
+      ],
+      "occurrences": 23
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "46",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 46 al.(2) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1208,
+        1212,
+        1219,
+        1221,
+        1223,
+        1226,
+        1228,
+        1230
+      ],
+      "occurrences": 8
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "47",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 47 al.(1) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1235,
+        1241,
+        1245,
+        1247,
+        1250
+      ],
+      "occurrences": 5
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "48",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 48 al.(2^1) introdus prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1256,
+        1258,
+        1260
+      ],
+      "occurrences": 3
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "48^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 48^1 introdus prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1283
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "49",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 49 al.(1) modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1287,
+        1289,
+        1291,
+        1293,
+        1298,
+        1300,
+        1302,
+        1304
+      ],
+      "occurrences": 8
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "51",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 51 al.(2) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1319,
+        1321
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "52",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 52 al.(1) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1326,
+        1328,
+        1331,
+        1333,
+        1337,
+        1339,
+        1343,
+        1344,
+        1345,
+        1346,
+        1348,
+        1350,
+        1352,
+        1354,
+        1356
+      ],
+      "occurrences": 15
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "53",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 53 al.(1) modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1360,
+        1370
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "53^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 53^1 introdus prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1381
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "54",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 54 al.(1) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1386,
+        1388,
+        1390,
+        1392,
+        1394,
+        1396,
+        1398,
+        1400
+      ],
+      "occurrences": 8
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "55",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 55 al.(5) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1408,
+        1410,
+        1412,
+        1415,
+        1420,
+        1422,
+        1424,
+        1437,
+        1439,
+        1441,
+        1443
+      ],
+      "occurrences": 11
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "56",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 56 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1427,
+        1429,
+        1431,
+        1434
+      ],
+      "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "57",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 57 al.(1) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1449,
+        1450,
+        1451,
+        1456,
+        1458,
+        1460,
+        1462
+      ],
+      "occurrences": 7
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "58",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "abrogare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 58 abrogat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1463
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "59",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 59 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1486
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "60",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 60 al.(1) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1490,
+        1491,
+        1493,
+        1495,
+        1496,
+        1497,
+        1506,
+        1508,
+        1510,
+        1512,
+        1513,
+        1515,
+        1517
+      ],
+      "occurrences": 13
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "61",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 61 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1501,
+        1519,
+        1522,
+        1524
+      ],
+      "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "62",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 62 al.(1) modificat prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1529,
+        1533
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "62^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 62^1 introdus prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1550
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "62^2",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 62^2 introdus prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1558
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "63",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "modificare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art.63 denumirea modificată prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1561,
+        1563,
+        1565,
+        1567,
+        1569
+      ],
+      "occurrences": 5
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "64",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art.64 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1573,
+        1575,
+        1576,
+        1577,
+        1581,
+        1583,
+        1585,
+        1587,
+        1588,
+        1589
+      ],
+      "occurrences": 10
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "72",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Capitolul IX în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1699
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "76",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art.76 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1706,
+        1708,
+        1717,
+        1719,
+        1722,
+        1724,
+        1727,
+        1729,
+        1731
+      ],
+      "occurrences": 9
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "77",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art.77 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1745,
+        1747,
+        1750,
+        1752,
+        1757,
+        1759
+      ],
+      "occurrences": 6
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "78",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art.78 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1777
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "78^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 78^1 introdus prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1792
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "78^2",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 78^2 introdus prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1803
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "79",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 79 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1812
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "80",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art.80 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1815,
+        1817,
+        1819,
+        1821,
+        1826,
+        1828,
+        1830,
+        1832
+      ],
+      "occurrences": 8
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "81",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "introducere",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 81 al.(1^1) introdus prin LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1837,
+        1839,
+        1841,
+        1844,
+        1847,
+        1849,
+        1851,
+        1853,
+        1855,
+        1857,
+        1859,
+        1860,
+        1861,
+        1863,
+        1864
+      ],
+      "occurrences": 15
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "82",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 82 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1900
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "83",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art.83 denumirea în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1904,
+        1906,
+        1908,
+        1911,
+        1913
+      ],
+      "occurrences": 5
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "84",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 84 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        1934
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "86^3",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Capitolul XII în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        2010,
+        2015
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "87^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art. 87^1 al.(2), lit. d) în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        2029,
+        2036,
+        2041,
+        2043,
+        2045,
+        2047
+      ],
+      "occurrences": 6
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "instrument": "L-74-2020--2027-01-01",
+      "article": "88",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP102 din 04.06.26",
+      "official_gazette": "MO294-297/03.07.26",
+      "context": "[Art.88 în redacția LP102 din 04.06.26, MO294-297/03.07.26 art. 306; în vigoare 01.01.27]",
+      "lines": [
+        2052
+      ],
+      "occurrences": 1
     },
     {
       "file": "raw/papers/moldova-legal/viitor/L-845-1992--2027-01-01.md",
@@ -3991,8 +7404,8 @@
       "official_gazette": "MO409-412/31.07.25 art.549",
       "context": "[Art.15 al.(2) în redacția LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]",
       "lines": [
-        279,
-        281
+        288,
+        290
       ],
       "occurrences": 2
     },
@@ -4008,14 +7421,14 @@
       "official_gazette": "MO409-412/31.07.25 art.549",
       "context": "[Art.15^1 al.(1), lit.f) introdusă prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]",
       "lines": [
-        306,
-        312,
-        314,
-        319,
-        325,
-        337,
-        339,
-        344
+        315,
+        321,
+        323,
+        328,
+        334,
+        346,
+        348,
+        353
       ],
       "occurrences": 8
     },
@@ -4031,8 +7444,8 @@
       "official_gazette": "MO409-412/31.07.25 art.549",
       "context": "[Art.20^1 al.(2^2) introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]",
       "lines": [
-        380,
-        382
+        389,
+        391
       ],
       "occurrences": 2
     },
@@ -4048,7 +7461,7 @@
       "official_gazette": "MO409-412/31.07.25 art.549",
       "context": "[Art.20^2 introdus prin LP176 din 03.07.25, MO409-412/31.07.25 art.549; în vigoare 01.01.27]",
       "lines": [
-        407
+        416
       ],
       "occurrences": 1
     },
@@ -4501,6 +7914,22 @@
       "occurrences": 1
     },
     {
+      "file": "raw/papers/moldova-legal/viitor/L-59-2012--2027-03-29.md",
+      "instrument": "L-59-2012--2027-03-29",
+      "article": "5^1",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-03-29",
+      "operation": "reformulare",
+      "amending_act": "LP209 din 17.09.26",
+      "official_gazette": "MO486-489/29.09.26 art.505",
+      "context": "[Art.5^1 în redacția LP209 din 17.09.26, MO486-489/29.09.26 art.505; în vigoare 29.03.27]",
+      "lines": [
+        145
+      ],
+      "occurrences": 1
+    },
+    {
       "file": "raw/papers/moldova-legal/viitor/COD-218-2008--2027-05-13.md",
       "instrument": "COD-218-2008--2027-05-13",
       "article": "252^1",
@@ -4550,6 +7979,280 @@
         6614
       ],
       "occurrences": 4
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-1538-1998--2027-05-21.md",
+      "instrument": "L-1538-1998--2027-05-21",
+      "article": "4",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-05-21",
+      "operation": "abrogare",
+      "amending_act": "LP71 din 30.04.26",
+      "official_gazette": "MO213-216/21.05.26 art.202",
+      "context": "[Art.4 al.(1), pct.2) lit.c) abrogată prin LP71 din 30.04.26, MO213-216/21.05.26 art.202; în vigoare 21.05.27]",
+      "lines": [
+        150
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-1538-1998--2027-05-21.md",
+      "instrument": "L-1538-1998--2027-05-21",
+      "article": "12",
+      "subunit": "lit.d)",
+      "scope": "articol",
+      "effective_from": "2027-05-21",
+      "operation": "modificare",
+      "amending_act": "LP71 din 30.04.26",
+      "official_gazette": "MO213-216/21.05.26 art.202",
+      "context": "[Art.12 lit.d) modificată prin LP71 din 30.04.26, MO213-216/21.05.26 art.202; în vigoare 21.05.27]",
+      "lines": [
+        205
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-1538-1998--2027-05-21.md",
+      "instrument": "L-1538-1998--2027-05-21",
+      "article": "12",
+      "subunit": "",
+      "scope": "anexa",
+      "effective_from": "2027-05-21",
+      "operation": "abrogare",
+      "amending_act": "LP71 din 30.04.26",
+      "official_gazette": "MO213-216/21.05.26 art.202",
+      "context": "[Anexa nr.12 abrogată prin LP71 din 30.04.26, MO213-216/21.05.26 art.202; în vigoare 21.05.27]",
+      "lines": [
+        675
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-1538-1998--2027-05-21.md",
+      "instrument": "L-1538-1998--2027-05-21",
+      "article": "14",
+      "subunit": "lit.e)",
+      "scope": "articol",
+      "effective_from": "2027-05-21",
+      "operation": "modificare",
+      "amending_act": "LP71 din 30.04.26",
+      "official_gazette": "MO213-216/21.05.26 art.202",
+      "context": "[Art.14 lit.e) modificată prin LP71 din 30.04.26, MO213-216/21.05.26 art.202; în vigoare 21.05.27]",
+      "lines": [
+        225
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-1538-1998--2027-05-21.md",
+      "instrument": "L-1538-1998--2027-05-21",
+      "article": "19",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-05-21",
+      "operation": "modificare",
+      "amending_act": "LP71 din 30.04.26",
+      "official_gazette": "MO213-216/21.05.26 art.202",
+      "context": "[Art.19 modificat prin LP71 din 30.04.26, MO213-216/21.05.26 art.202; în vigoare 21.05.27]",
+      "lines": [
+        277
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-1538-1998--2027-05-21.md",
+      "instrument": "L-1538-1998--2027-05-21",
+      "article": "76",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-05-21",
+      "operation": "abrogare",
+      "amending_act": "LP71 din 30.04.26",
+      "official_gazette": "MO213-216/21.05.26 art.202",
+      "context": "[Art.76 abrogat prin LP71 din 30.04.26, MO213-216/21.05.26 art.202; în vigoare 21.05.27]",
+      "lines": [
+        480
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-1538-1998--2027-05-21.md",
+      "instrument": "L-1538-1998--2027-05-21",
+      "article": "77",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-05-21",
+      "operation": "abrogare",
+      "amending_act": "LP71 din 30.04.26",
+      "official_gazette": "MO213-216/21.05.26 art.202",
+      "context": "[Art.77 abrogat prin LP71 din 30.04.26, MO213-216/21.05.26 art.202; în vigoare 21.05.27]",
+      "lines": [
+        481
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-1538-1998--2027-05-21.md",
+      "instrument": "L-1538-1998--2027-05-21",
+      "article": "78",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-05-21",
+      "operation": "abrogare",
+      "amending_act": "LP71 din 30.04.26",
+      "official_gazette": "MO213-216/21.05.26 art.202",
+      "context": "[Art.78 abrogat prin LP71 din 30.04.26, MO213-216/21.05.26 art.202; în vigoare 21.05.27]",
+      "lines": [
+        482
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-1538-1998--2027-05-21.md",
+      "instrument": "L-1538-1998--2027-05-21",
+      "article": "79",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-05-21",
+      "operation": "abrogare",
+      "amending_act": "LP71 din 30.04.26",
+      "official_gazette": "MO213-216/21.05.26 art.202",
+      "context": "[Art.79 abrogat prin LP71 din 30.04.26, MO213-216/21.05.26 art.202; în vigoare 21.05.27]",
+      "lines": [
+        483
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-1538-1998--2027-05-21.md",
+      "instrument": "L-1538-1998--2027-05-21",
+      "article": "80",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-05-21",
+      "operation": "abrogare",
+      "amending_act": "LP71 din 30.04.26",
+      "official_gazette": "MO213-216/21.05.26 art.202",
+      "context": "[Art.80 abrogat prin LP71 din 30.04.26, MO213-216/21.05.26 art.202; în vigoare 21.05.27]",
+      "lines": [
+        484
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-1538-1998--2027-05-21.md",
+      "instrument": "L-1538-1998--2027-05-21",
+      "article": "81",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-05-21",
+      "operation": "abrogare",
+      "amending_act": "LP71 din 30.04.26",
+      "official_gazette": "MO213-216/21.05.26 art.202",
+      "context": "[Art.81 abrogat prin LP71 din 30.04.26, MO213-216/21.05.26 art.202; în vigoare 21.05.27]",
+      "lines": [
+        485
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-1538-1998--2027-05-21.md",
+      "instrument": "L-1538-1998--2027-05-21",
+      "article": "82",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-05-21",
+      "operation": "abrogare",
+      "amending_act": "LP71 din 30.04.26",
+      "official_gazette": "MO213-216/21.05.26 art.202",
+      "context": "[Art.82 abrogat prin LP71 din 30.04.26, MO213-216/21.05.26 art.202; în vigoare 21.05.27]",
+      "lines": [
+        486
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-1538-1998--2027-05-21.md",
+      "instrument": "L-1538-1998--2027-05-21",
+      "article": "83",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-05-21",
+      "operation": "modificare",
+      "amending_act": "LP71 din 30.04.26",
+      "official_gazette": "MO213-216/21.05.26 art.202",
+      "context": "[Art.83 al.(2), lit.d) modificată prin LP71 din 30.04.26, MO213-216/21.05.26 art.202; în vigoare 21.05.27]",
+      "lines": [
+        507
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-1538-1998--2027-05-21.md",
+      "instrument": "L-1538-1998--2027-05-21",
+      "article": "88",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-05-21",
+      "operation": "modificare",
+      "amending_act": "LP71 din 30.04.26",
+      "official_gazette": "MO213-216/21.05.26 art.202",
+      "context": "[Art.88 al.(1) modificat prin LP71 din 30.04.26, MO213-216/21.05.26 art.202; în vigoare 21.05.27]",
+      "lines": [
+        536
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-1538-1998--2027-05-21.md",
+      "instrument": "L-1538-1998--2027-05-21",
+      "article": "90",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-05-21",
+      "operation": "modificare",
+      "amending_act": "LP71 din 30.04.26",
+      "official_gazette": "MO213-216/21.05.26 art.202",
+      "context": "[Art.90 al.(1) modificat prin LP71 din 30.04.26, MO213-216/21.05.26 art.202; în vigoare 21.05.27]",
+      "lines": [
+        549,
+        552
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-1538-1998--2027-05-21.md",
+      "instrument": "L-1538-1998--2027-05-21",
+      "article": "95",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-05-21",
+      "operation": "modificare",
+      "amending_act": "LP71 din 30.04.26",
+      "official_gazette": "MO213-216/21.05.26 art.202",
+      "context": "[Art.95 al.(2) modificat prin LP71 din 30.04.26, MO213-216/21.05.26 art.202; în vigoare 21.05.27]",
+      "lines": [
+        573,
+        575
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-1538-1998--2027-05-21.md",
+      "instrument": "L-1538-1998--2027-05-21",
+      "article": "105",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2027-05-21",
+      "operation": "modificare",
+      "amending_act": "LP71 din 30.04.26",
+      "official_gazette": "MO213-216/21.05.26 art.202",
+      "context": "[Art.105 al.(1) modificat prin LP71 din 30.04.26, MO213-216/21.05.26 art.202; în vigoare 21.05.27]",
+      "lines": [
+        651
+      ],
+      "occurrences": 1
     },
     {
       "file": "raw/papers/moldova-legal/viitor/L-160-2011--2027-05-21.md",
@@ -5062,6 +8765,88 @@
       "occurrences": 1
     },
     {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2030-01-01.md",
+      "instrument": "COD-152-2014--2030-01-01",
+      "article": "63",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2030-01-01",
+      "operation": "modificare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26",
+      "context": "[Art.63 al.(6) modificat prin LP200 din 03.09.26, MO448-451/14.09.26 art. 477; în vigoare 01.01.30]",
+      "lines": [
+        969
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2030-01-01.md",
+      "instrument": "COD-152-2014--2030-01-01",
+      "article": "89",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2030-01-01",
+      "operation": "modificare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26",
+      "context": "[Art.89 al.(2) modificat prin LP200 din 03.09.26, MO448-451/14.09.26 art. 477; în vigoare 01.01.30]",
+      "lines": [
+        1247
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2030-01-01.md",
+      "instrument": "COD-152-2014--2030-01-01",
+      "article": "121",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2030-01-01",
+      "operation": "modificare",
+      "amending_act": "LP200 din 03.09.26",
+      "official_gazette": "MO448-451/14.09.26",
+      "context": "[Art.121 al.(4) modificat prin LP200 din 03.09.26, MO448-451/14.09.26 art. 477; în vigoare 01.01.30]",
+      "lines": [
+        1756
+      ],
+      "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-174-2021.md",
+      "instrument": "L-174-2021",
+      "article": "16",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2030-01-01",
+      "operation": "nespecificat",
+      "amending_act": null,
+      "official_gazette": null,
+      "context": "lor membre ale Uniunii Europene cu privire la orice investiție străină directă care a făcut obiectul examinării efectuate de către acesta. Notă: Art.16 al. (2) în vigoare 01.01.30 (3) Consiliul transmite Comisiei Europe",
+      "lines": [
+        299,
+        301
+      ],
+      "occurrences": 2
+    },
+    {
+      "file": "raw/papers/moldova-legal/viitor/L-174-2021--2030-01-01.md",
+      "instrument": "L-174-2021--2030-01-01",
+      "article": "16",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2030-01-01",
+      "operation": "reformulare",
+      "amending_act": "LP33 din 27.02.25",
+      "official_gazette": "MO144-147/20.03.25 art.148",
+      "context": "[Art.16 al.(2) în redacția LP33 din 27.02.25, MO144-147/20.03.25 art.148; în vigoare 01.01.30]",
+      "lines": [
+        308,
+        310
+      ],
+      "occurrences": 2
+    },
+    {
       "file": "raw/papers/moldova-legal/viitor/L-230-2022--2030-01-01.md",
       "instrument": "L-230-2022--2030-01-01",
       "article": "1",
@@ -5365,6 +9150,22 @@
         1041
       ],
       "occurrences": 1
+    },
+    {
+      "file": "raw/papers/moldova-legal/L-344-1994.md",
+      "instrument": "L-344-1994",
+      "article": "20",
+      "subunit": "",
+      "scope": "articol",
+      "effective_from": "2099-05-27",
+      "operation": "nespecificat",
+      "amending_act": null,
+      "official_gazette": "MO53-54/27.05.99 art.34",
+      "context": "[Art.20 al.(2) declarat neconstituțional prin HCC24 din 06.05.99, MO53-54/27.05.99 art.34; în vigoare 27.05.99]",
+      "lines": [
+        179
+      ],
+      "occurrences": 1
     }
   ],
   "acts_with_future_consolidation": [
@@ -5418,6 +9219,24 @@
       "file": "raw/papers/moldova-legal/viitor/COD-1316-2000--2026-12-09.md",
       "consolidation_date": "2026-12-09",
       "doc_id": "156321",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
+      "instrument": "COD-152-2014--2027-01-01",
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2027-01-01.md",
+      "consolidation_date": "2027-01-01",
+      "doc_id": "153379",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
+      "instrument": "COD-152-2014--2030-01-01",
+      "file": "raw/papers/moldova-legal/viitor/COD-152-2014--2030-01-01.md",
+      "consolidation_date": "2030-01-01",
+      "doc_id": "156379",
       "previous_consolidation_date": null,
       "previous_archive": null,
       "flagged_in_frontmatter": true
@@ -5684,6 +9503,15 @@
       "flagged_in_frontmatter": true
     },
     {
+      "instrument": "L-129-2019--2026-11-13",
+      "file": "raw/papers/moldova-legal/viitor/L-129-2019--2026-11-13.md",
+      "consolidation_date": "2026-11-13",
+      "doc_id": "155876",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
       "instrument": "L-131-2007--2027-01-23",
       "file": "raw/papers/moldova-legal/viitor/L-131-2007--2027-01-23.md",
       "consolidation_date": "2027-01-23",
@@ -5729,6 +9557,24 @@
       "flagged_in_frontmatter": true
     },
     {
+      "instrument": "L-139-2018--2027-01-01",
+      "file": "raw/papers/moldova-legal/viitor/L-139-2018--2027-01-01.md",
+      "consolidation_date": "2027-01-01",
+      "doc_id": "155448",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
+      "instrument": "L-140-2013--2026-12-09",
+      "file": "raw/papers/moldova-legal/viitor/L-140-2013--2026-12-09.md",
+      "consolidation_date": "2026-12-09",
+      "doc_id": "156331",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
       "instrument": "L-142-2018--2030-01-01",
       "file": "raw/papers/moldova-legal/viitor/L-142-2018--2030-01-01.md",
       "consolidation_date": "2030-01-01",
@@ -5747,10 +9593,28 @@
       "flagged_in_frontmatter": true
     },
     {
+      "instrument": "L-1538-1998--2027-05-21",
+      "file": "raw/papers/moldova-legal/viitor/L-1538-1998--2027-05-21.md",
+      "consolidation_date": "2027-05-21",
+      "doc_id": "154487",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
       "instrument": "L-1543-1998--2027-01-01",
       "file": "raw/papers/moldova-legal/viitor/L-1543-1998--2027-01-01.md",
       "consolidation_date": "2027-01-01",
       "doc_id": "150226",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
+      "instrument": "L-156-1998--2026-10-28",
+      "file": "raw/papers/moldova-legal/viitor/L-156-1998--2026-10-28.md",
+      "consolidation_date": "2026-10-28",
+      "doc_id": "155512",
       "previous_consolidation_date": null,
       "previous_archive": null,
       "flagged_in_frontmatter": true
@@ -5814,6 +9678,15 @@
       "file": "raw/papers/moldova-legal/viitor/L-171-2012--2027-06-01.md",
       "consolidation_date": "2027-06-01",
       "doc_id": "156016",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
+      "instrument": "L-174-2021--2030-01-01",
+      "file": "raw/papers/moldova-legal/viitor/L-174-2021--2030-01-01.md",
+      "consolidation_date": "2030-01-01",
+      "doc_id": "147693",
       "previous_consolidation_date": null,
       "previous_archive": null,
       "flagged_in_frontmatter": true
@@ -5940,6 +9813,15 @@
       "file": "raw/papers/moldova-legal/viitor/L-24-2008--2027-03-01.md",
       "consolidation_date": "2027-03-01",
       "doc_id": "156492",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
+      "instrument": "L-241-2007--2027-05-13",
+      "file": "raw/papers/moldova-legal/viitor/L-241-2007--2027-05-13.md",
+      "consolidation_date": "2027-05-13",
+      "doc_id": "148407",
       "previous_consolidation_date": null,
       "previous_archive": null,
       "flagged_in_frontmatter": true
@@ -6089,10 +9971,28 @@
       "flagged_in_frontmatter": true
     },
     {
+      "instrument": "L-50-2013--2028-05-08",
+      "file": "raw/papers/moldova-legal/viitor/L-50-2013--2028-05-08.md",
+      "consolidation_date": "2028-05-08",
+      "doc_id": "143175",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
       "instrument": "L-52-2014--2026-12-09",
       "file": "raw/papers/moldova-legal/viitor/L-52-2014--2026-12-09.md",
       "consolidation_date": "2026-12-09",
       "doc_id": "156266",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
+      "instrument": "L-59-2012--2027-03-29",
+      "file": "raw/papers/moldova-legal/viitor/L-59-2012--2027-03-29.md",
+      "consolidation_date": "2027-03-29",
+      "doc_id": "156609",
       "previous_consolidation_date": null,
       "previous_archive": null,
       "flagged_in_frontmatter": true
@@ -6120,6 +10020,33 @@
       "file": "raw/papers/moldova-legal/viitor/L-68-2013--2027-11-30.md",
       "consolidation_date": "2027-11-30",
       "doc_id": "150071",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
+      "instrument": "L-74-2020--2027-01-01",
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-01.md",
+      "consolidation_date": "2027-01-01",
+      "doc_id": "155279",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
+      "instrument": "L-74-2020--2027-01-02",
+      "file": "raw/papers/moldova-legal/viitor/L-74-2020--2027-01-02.md",
+      "consolidation_date": "2027-01-02",
+      "doc_id": "156087",
+      "previous_consolidation_date": null,
+      "previous_archive": null,
+      "flagged_in_frontmatter": true
+    },
+    {
+      "instrument": "L-75-2015--2026-11-10",
+      "file": "raw/papers/moldova-legal/viitor/L-75-2015--2026-11-10.md",
+      "consolidation_date": "2026-11-10",
+      "doc_id": "154330",
       "previous_consolidation_date": null,
       "previous_archive": null,
       "flagged_in_frontmatter": true
@@ -7311,9 +11238,9 @@
     }
   ],
   "counts": {
-    "provisions": 322,
-    "acts": 78,
-    "future_consolidations": 90,
+    "provisions": 535,
+    "acts": 91,
+    "future_consolidations": 104,
     "pending_consolidations": 5,
     "pending_ingested": 26,
     "pending_provisions": 9,
